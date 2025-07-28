@@ -1,0 +1,112 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.VisionMaster.OpenCV.NodeDatas.Filter
+  commentId: N:H.VisionMaster.OpenCV.NodeDatas.Filter
+  id: H.VisionMaster.OpenCV.NodeDatas.Filter
+  children:
+  - H.VisionMaster.OpenCV.NodeDatas.Filter.Blur
+  - H.VisionMaster.OpenCV.NodeDatas.Filter.DetailEnhance
+  - H.VisionMaster.OpenCV.NodeDatas.Filter.EdgePreservingFilter
+  - H.VisionMaster.OpenCV.NodeDatas.Filter.GaussianBlur
+  - H.VisionMaster.OpenCV.NodeDatas.Filter.PencilOutType
+  - H.VisionMaster.OpenCV.NodeDatas.Filter.PencilSketch
+  - H.VisionMaster.OpenCV.NodeDatas.Filter.Stylization
+  langs:
+  - csharp
+  - vb
+  name: H.VisionMaster.OpenCV.NodeDatas.Filter
+  nameWithType: H.VisionMaster.OpenCV.NodeDatas.Filter
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Filter
+  type: Namespace
+  assemblies:
+  - H.VisionMaster.OpenCV
+references:
+- uid: H.VisionMaster.OpenCV.NodeDatas.Filter.Blur
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Filter.Blur
+  href: H.VisionMaster.OpenCV.NodeDatas.Filter.Blur.html
+  name: Blur
+  nameWithType: Blur
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Filter.Blur
+- uid: H.VisionMaster.OpenCV.NodeDatas.Filter.DetailEnhance
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Filter.DetailEnhance
+  href: H.VisionMaster.OpenCV.NodeDatas.Filter.DetailEnhance.html
+  name: DetailEnhance
+  nameWithType: DetailEnhance
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Filter.DetailEnhance
+- uid: H.VisionMaster.OpenCV.NodeDatas.Filter.EdgePreservingFilter
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Filter.EdgePreservingFilter
+  href: H.VisionMaster.OpenCV.NodeDatas.Filter.EdgePreservingFilter.html
+  name: EdgePreservingFilter
+  nameWithType: EdgePreservingFilter
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Filter.EdgePreservingFilter
+- uid: H.VisionMaster.OpenCV.NodeDatas.Filter.GaussianBlur
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Filter.GaussianBlur
+  href: H.VisionMaster.OpenCV.NodeDatas.Filter.GaussianBlur.html
+  name: GaussianBlur
+  nameWithType: GaussianBlur
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Filter.GaussianBlur
+- uid: H.VisionMaster.OpenCV.NodeDatas.Filter.PencilSketch
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Filter.PencilSketch
+  href: H.VisionMaster.OpenCV.NodeDatas.Filter.PencilSketch.html
+  name: PencilSketch
+  nameWithType: PencilSketch
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Filter.PencilSketch
+- uid: H.VisionMaster.OpenCV.NodeDatas.Filter.PencilOutType
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Filter.PencilOutType
+  parent: H.VisionMaster.OpenCV.NodeDatas.Filter
+  href: H.VisionMaster.OpenCV.NodeDatas.Filter.PencilOutType.html
+  name: PencilOutType
+  nameWithType: PencilOutType
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Filter.PencilOutType
+- uid: H.VisionMaster.OpenCV.NodeDatas.Filter.Stylization
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Filter.Stylization
+  href: H.VisionMaster.OpenCV.NodeDatas.Filter.Stylization.html
+  name: Stylization
+  nameWithType: Stylization
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Filter.Stylization
+- uid: H.VisionMaster.OpenCV.NodeDatas.Filter
+  commentId: N:H.VisionMaster.OpenCV.NodeDatas.Filter
+  href: H.html
+  name: H.VisionMaster.OpenCV.NodeDatas.Filter
+  nameWithType: H.VisionMaster.OpenCV.NodeDatas.Filter
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Filter
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.OpenCV
+    name: OpenCV
+    href: H.VisionMaster.OpenCV.html
+  - name: .
+  - uid: H.VisionMaster.OpenCV.NodeDatas
+    name: NodeDatas
+    href: H.VisionMaster.OpenCV.NodeDatas.html
+  - name: .
+  - uid: H.VisionMaster.OpenCV.NodeDatas.Filter
+    name: Filter
+    href: H.VisionMaster.OpenCV.NodeDatas.Filter.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.OpenCV
+    name: OpenCV
+    href: H.VisionMaster.OpenCV.html
+  - name: .
+  - uid: H.VisionMaster.OpenCV.NodeDatas
+    name: NodeDatas
+    href: H.VisionMaster.OpenCV.NodeDatas.html
+  - name: .
+  - uid: H.VisionMaster.OpenCV.NodeDatas.Filter
+    name: Filter
+    href: H.VisionMaster.OpenCV.NodeDatas.Filter.html

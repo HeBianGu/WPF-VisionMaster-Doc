@@ -1,0 +1,141 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.NodeDatas.Onnx.OpenCV.Base
+  commentId: N:H.NodeDatas.Onnx.OpenCV.Base
+  id: H.NodeDatas.Onnx.OpenCV.Base
+  children:
+  - H.NodeDatas.Onnx.OpenCV.Base.BoxCoordinateMode
+  - H.NodeDatas.Onnx.OpenCV.Base.BoxGeometryType
+  - H.NodeDatas.Onnx.OpenCV.Base.ClsOnnxNodeDataBase
+  - H.NodeDatas.Onnx.OpenCV.Base.DefectBox
+  - H.NodeDatas.Onnx.OpenCV.Base.IOnnxDataGroup
+  - H.NodeDatas.Onnx.OpenCV.Base.InferOnnxNodeDataBase
+  - H.NodeDatas.Onnx.OpenCV.Base.ObjDetectOnnxNodeDataBase
+  - H.NodeDatas.Onnx.OpenCV.Base.OnnxDataGroupBase
+  - H.NodeDatas.Onnx.OpenCV.Base.OnnxNodeDataBase
+  - H.NodeDatas.Onnx.OpenCV.Base.SemSegOnnxNodeDataBase
+  langs:
+  - csharp
+  - vb
+  name: H.NodeDatas.Onnx.OpenCV.Base
+  nameWithType: H.NodeDatas.Onnx.OpenCV.Base
+  fullName: H.NodeDatas.Onnx.OpenCV.Base
+  type: Namespace
+  assemblies:
+  - H.NodeDatas.Onnx.OpenCV
+references:
+- uid: H.NodeDatas.Onnx.OpenCV.Base.ClsOnnxNodeDataBase
+  commentId: T:H.NodeDatas.Onnx.OpenCV.Base.ClsOnnxNodeDataBase
+  parent: H.NodeDatas.Onnx.OpenCV.Base
+  href: H.NodeDatas.Onnx.OpenCV.Base.ClsOnnxNodeDataBase.html
+  name: ClsOnnxNodeDataBase
+  nameWithType: ClsOnnxNodeDataBase
+  fullName: H.NodeDatas.Onnx.OpenCV.Base.ClsOnnxNodeDataBase
+- uid: H.NodeDatas.Onnx.OpenCV.Base.DefectBox
+  commentId: T:H.NodeDatas.Onnx.OpenCV.Base.DefectBox
+  href: H.NodeDatas.Onnx.OpenCV.Base.DefectBox.html
+  name: DefectBox
+  nameWithType: DefectBox
+  fullName: H.NodeDatas.Onnx.OpenCV.Base.DefectBox
+- uid: H.NodeDatas.Onnx.OpenCV.Base.BoxCoordinateMode
+  commentId: T:H.NodeDatas.Onnx.OpenCV.Base.BoxCoordinateMode
+  parent: H.NodeDatas.Onnx.OpenCV.Base
+  href: H.NodeDatas.Onnx.OpenCV.Base.BoxCoordinateMode.html
+  name: BoxCoordinateMode
+  nameWithType: BoxCoordinateMode
+  fullName: H.NodeDatas.Onnx.OpenCV.Base.BoxCoordinateMode
+- uid: H.NodeDatas.Onnx.OpenCV.Base.BoxGeometryType
+  commentId: T:H.NodeDatas.Onnx.OpenCV.Base.BoxGeometryType
+  parent: H.NodeDatas.Onnx.OpenCV.Base
+  href: H.NodeDatas.Onnx.OpenCV.Base.BoxGeometryType.html
+  name: BoxGeometryType
+  nameWithType: BoxGeometryType
+  fullName: H.NodeDatas.Onnx.OpenCV.Base.BoxGeometryType
+- uid: H.NodeDatas.Onnx.OpenCV.Base.InferOnnxNodeDataBase
+  commentId: T:H.NodeDatas.Onnx.OpenCV.Base.InferOnnxNodeDataBase
+  parent: H.NodeDatas.Onnx.OpenCV.Base
+  href: H.NodeDatas.Onnx.OpenCV.Base.InferOnnxNodeDataBase.html
+  name: InferOnnxNodeDataBase
+  nameWithType: InferOnnxNodeDataBase
+  fullName: H.NodeDatas.Onnx.OpenCV.Base.InferOnnxNodeDataBase
+- uid: H.NodeDatas.Onnx.OpenCV.Base.IOnnxDataGroup
+  commentId: T:H.NodeDatas.Onnx.OpenCV.Base.IOnnxDataGroup
+  parent: H.NodeDatas.Onnx.OpenCV.Base
+  href: H.NodeDatas.Onnx.OpenCV.Base.IOnnxDataGroup.html
+  name: IOnnxDataGroup
+  nameWithType: IOnnxDataGroup
+  fullName: H.NodeDatas.Onnx.OpenCV.Base.IOnnxDataGroup
+- uid: H.NodeDatas.Onnx.OpenCV.Base.ObjDetectOnnxNodeDataBase
+  commentId: T:H.NodeDatas.Onnx.OpenCV.Base.ObjDetectOnnxNodeDataBase
+  parent: H.NodeDatas.Onnx.OpenCV.Base
+  href: H.NodeDatas.Onnx.OpenCV.Base.ObjDetectOnnxNodeDataBase.html
+  name: ObjDetectOnnxNodeDataBase
+  nameWithType: ObjDetectOnnxNodeDataBase
+  fullName: H.NodeDatas.Onnx.OpenCV.Base.ObjDetectOnnxNodeDataBase
+- uid: H.NodeDatas.Onnx.OpenCV.Base.OnnxDataGroupBase
+  commentId: T:H.NodeDatas.Onnx.OpenCV.Base.OnnxDataGroupBase
+  parent: H.NodeDatas.Onnx.OpenCV.Base
+  href: H.NodeDatas.Onnx.OpenCV.Base.OnnxDataGroupBase.html
+  name: OnnxDataGroupBase
+  nameWithType: OnnxDataGroupBase
+  fullName: H.NodeDatas.Onnx.OpenCV.Base.OnnxDataGroupBase
+- uid: H.NodeDatas.Onnx.OpenCV.Base.OnnxNodeDataBase
+  commentId: T:H.NodeDatas.Onnx.OpenCV.Base.OnnxNodeDataBase
+  parent: H.NodeDatas.Onnx.OpenCV.Base
+  href: H.NodeDatas.Onnx.OpenCV.Base.OnnxNodeDataBase.html
+  name: OnnxNodeDataBase
+  nameWithType: OnnxNodeDataBase
+  fullName: H.NodeDatas.Onnx.OpenCV.Base.OnnxNodeDataBase
+- uid: H.NodeDatas.Onnx.OpenCV.Base.SemSegOnnxNodeDataBase
+  commentId: T:H.NodeDatas.Onnx.OpenCV.Base.SemSegOnnxNodeDataBase
+  parent: H.NodeDatas.Onnx.OpenCV.Base
+  href: H.NodeDatas.Onnx.OpenCV.Base.SemSegOnnxNodeDataBase.html
+  name: SemSegOnnxNodeDataBase
+  nameWithType: SemSegOnnxNodeDataBase
+  fullName: H.NodeDatas.Onnx.OpenCV.Base.SemSegOnnxNodeDataBase
+- uid: H.NodeDatas.Onnx.OpenCV.Base
+  commentId: N:H.NodeDatas.Onnx.OpenCV.Base
+  href: H.html
+  name: H.NodeDatas.Onnx.OpenCV.Base
+  nameWithType: H.NodeDatas.Onnx.OpenCV.Base
+  fullName: H.NodeDatas.Onnx.OpenCV.Base
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.NodeDatas
+    name: NodeDatas
+    href: H.NodeDatas.html
+  - name: .
+  - uid: H.NodeDatas.Onnx
+    name: Onnx
+    href: H.NodeDatas.Onnx.html
+  - name: .
+  - uid: H.NodeDatas.Onnx.OpenCV
+    name: OpenCV
+    href: H.NodeDatas.Onnx.OpenCV.html
+  - name: .
+  - uid: H.NodeDatas.Onnx.OpenCV.Base
+    name: Base
+    href: H.NodeDatas.Onnx.OpenCV.Base.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.NodeDatas
+    name: NodeDatas
+    href: H.NodeDatas.html
+  - name: .
+  - uid: H.NodeDatas.Onnx
+    name: Onnx
+    href: H.NodeDatas.Onnx.html
+  - name: .
+  - uid: H.NodeDatas.Onnx.OpenCV
+    name: OpenCV
+    href: H.NodeDatas.Onnx.OpenCV.html
+  - name: .
+  - uid: H.NodeDatas.Onnx.OpenCV.Base
+    name: Base
+    href: H.NodeDatas.Onnx.OpenCV.Base.html

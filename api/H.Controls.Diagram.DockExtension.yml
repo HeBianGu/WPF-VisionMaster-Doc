@@ -1,0 +1,649 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.Diagram.DockExtension
+  commentId: T:H.Controls.Diagram.DockExtension
+  id: DockExtension
+  parent: H.Controls.Diagram
+  children:
+  - H.Controls.Diagram.DockExtension.GetIcon(H.Controls.Diagram.Datas.IPortData)
+  - H.Controls.Diagram.DockExtension.GetNormalOffset(System.Windows.Controls.Dock)
+  - H.Controls.Diagram.DockExtension.GetOffset(System.Windows.Controls.Dock,System.Double,System.Double)
+  - H.Controls.Diagram.DockExtension.GetRevert(System.Windows.Controls.Dock)
+  - H.Controls.Diagram.DockExtension.GetTextMargin(System.Windows.Controls.Dock,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: DockExtension
+  nameWithType: DockExtension
+  fullName: H.Controls.Diagram.DockExtension
+  type: Class
+  source:
+    id: DockExtension
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.Diagram\DockExtension.cs
+    startLine: 12
+  assemblies:
+  - H.Controls.Diagram
+  namespace: H.Controls.Diagram
+  syntax:
+    content: public static class DockExtension
+    content.vb: Public Module DockExtension
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: H.Controls.Diagram.DockExtension.GetRevert(System.Windows.Controls.Dock)
+  commentId: M:H.Controls.Diagram.DockExtension.GetRevert(System.Windows.Controls.Dock)
+  id: GetRevert(System.Windows.Controls.Dock)
+  isExtensionMethod: true
+  parent: H.Controls.Diagram.DockExtension
+  langs:
+  - csharp
+  - vb
+  name: GetRevert(Dock)
+  nameWithType: DockExtension.GetRevert(Dock)
+  fullName: H.Controls.Diagram.DockExtension.GetRevert(System.Windows.Controls.Dock)
+  type: Method
+  source:
+    id: GetRevert
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.Diagram\DockExtension.cs
+    startLine: 14
+  assemblies:
+  - H.Controls.Diagram
+  namespace: H.Controls.Diagram
+  syntax:
+    content: public static Dock GetRevert(this Dock dock)
+    parameters:
+    - id: dock
+      type: System.Windows.Controls.Dock
+    return:
+      type: System.Windows.Controls.Dock
+    content.vb: Public Shared Function GetRevert(dock As Dock) As Dock
+  overload: H.Controls.Diagram.DockExtension.GetRevert*
+- uid: H.Controls.Diagram.DockExtension.GetTextMargin(System.Windows.Controls.Dock,System.Int32)
+  commentId: M:H.Controls.Diagram.DockExtension.GetTextMargin(System.Windows.Controls.Dock,System.Int32)
+  id: GetTextMargin(System.Windows.Controls.Dock,System.Int32)
+  isExtensionMethod: true
+  parent: H.Controls.Diagram.DockExtension
+  langs:
+  - csharp
+  - vb
+  name: GetTextMargin(Dock, int)
+  nameWithType: DockExtension.GetTextMargin(Dock, int)
+  fullName: H.Controls.Diagram.DockExtension.GetTextMargin(System.Windows.Controls.Dock, int)
+  type: Method
+  source:
+    id: GetTextMargin
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.Diagram\DockExtension.cs
+    startLine: 21
+  assemblies:
+  - H.Controls.Diagram
+  namespace: H.Controls.Diagram
+  syntax:
+    content: public static Thickness GetTextMargin(this Dock dock, int offset = -30)
+    parameters:
+    - id: dock
+      type: System.Windows.Controls.Dock
+    - id: offset
+      type: System.Int32
+    return:
+      type: System.Windows.Thickness
+    content.vb: Public Shared Function GetTextMargin(dock As Dock, offset As Integer = -30) As Thickness
+  overload: H.Controls.Diagram.DockExtension.GetTextMargin*
+  nameWithType.vb: DockExtension.GetTextMargin(Dock, Integer)
+  fullName.vb: H.Controls.Diagram.DockExtension.GetTextMargin(System.Windows.Controls.Dock, Integer)
+  name.vb: GetTextMargin(Dock, Integer)
+- uid: H.Controls.Diagram.DockExtension.GetNormalOffset(System.Windows.Controls.Dock)
+  commentId: M:H.Controls.Diagram.DockExtension.GetNormalOffset(System.Windows.Controls.Dock)
+  id: GetNormalOffset(System.Windows.Controls.Dock)
+  isExtensionMethod: true
+  parent: H.Controls.Diagram.DockExtension
+  langs:
+  - csharp
+  - vb
+  name: GetNormalOffset(Dock)
+  nameWithType: DockExtension.GetNormalOffset(Dock)
+  fullName: H.Controls.Diagram.DockExtension.GetNormalOffset(System.Windows.Controls.Dock)
+  type: Method
+  source:
+    id: GetNormalOffset
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.Diagram\DockExtension.cs
+    startLine: 29
+  assemblies:
+  - H.Controls.Diagram
+  namespace: H.Controls.Diagram
+  syntax:
+    content: public static Vector GetNormalOffset(this Dock dock)
+    parameters:
+    - id: dock
+      type: System.Windows.Controls.Dock
+    return:
+      type: System.Windows.Vector
+    content.vb: Public Shared Function GetNormalOffset(dock As Dock) As Vector
+  overload: H.Controls.Diagram.DockExtension.GetNormalOffset*
+- uid: H.Controls.Diagram.DockExtension.GetOffset(System.Windows.Controls.Dock,System.Double,System.Double)
+  commentId: M:H.Controls.Diagram.DockExtension.GetOffset(System.Windows.Controls.Dock,System.Double,System.Double)
+  id: GetOffset(System.Windows.Controls.Dock,System.Double,System.Double)
+  isExtensionMethod: true
+  parent: H.Controls.Diagram.DockExtension
+  langs:
+  - csharp
+  - vb
+  name: GetOffset(Dock, double, double)
+  nameWithType: DockExtension.GetOffset(Dock, double, double)
+  fullName: H.Controls.Diagram.DockExtension.GetOffset(System.Windows.Controls.Dock, double, double)
+  type: Method
+  source:
+    id: GetOffset
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.Diagram\DockExtension.cs
+    startLine: 40
+  assemblies:
+  - H.Controls.Diagram
+  namespace: H.Controls.Diagram
+  syntax:
+    content: public static Vector GetOffset(this Dock dock, double spanwidth, double spanheight)
+    parameters:
+    - id: dock
+      type: System.Windows.Controls.Dock
+    - id: spanwidth
+      type: System.Double
+    - id: spanheight
+      type: System.Double
+    return:
+      type: System.Windows.Vector
+    content.vb: Public Shared Function GetOffset(dock As Dock, spanwidth As Double, spanheight As Double) As Vector
+  overload: H.Controls.Diagram.DockExtension.GetOffset*
+  nameWithType.vb: DockExtension.GetOffset(Dock, Double, Double)
+  fullName.vb: H.Controls.Diagram.DockExtension.GetOffset(System.Windows.Controls.Dock, Double, Double)
+  name.vb: GetOffset(Dock, Double, Double)
+- uid: H.Controls.Diagram.DockExtension.GetIcon(H.Controls.Diagram.Datas.IPortData)
+  commentId: M:H.Controls.Diagram.DockExtension.GetIcon(H.Controls.Diagram.Datas.IPortData)
+  id: GetIcon(H.Controls.Diagram.Datas.IPortData)
+  isExtensionMethod: true
+  parent: H.Controls.Diagram.DockExtension
+  langs:
+  - csharp
+  - vb
+  name: GetIcon(IPortData)
+  nameWithType: DockExtension.GetIcon(IPortData)
+  fullName: H.Controls.Diagram.DockExtension.GetIcon(H.Controls.Diagram.Datas.IPortData)
+  type: Method
+  source:
+    id: GetIcon
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.Diagram\DockExtension.cs
+    startLine: 46
+  assemblies:
+  - H.Controls.Diagram
+  namespace: H.Controls.Diagram
+  syntax:
+    content: public static string GetIcon(this IPortData portData)
+    parameters:
+    - id: portData
+      type: H.Controls.Diagram.Datas.IPortData
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetIcon(portData As IPortData) As String
+  overload: H.Controls.Diagram.DockExtension.GetIcon*
+references:
+- uid: H.Controls.Diagram
+  commentId: N:H.Controls.Diagram
+  href: H.html
+  name: H.Controls.Diagram
+  nameWithType: H.Controls.Diagram
+  fullName: H.Controls.Diagram
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: H.Controls.Diagram.DockExtension.GetRevert*
+  commentId: Overload:H.Controls.Diagram.DockExtension.GetRevert
+  href: H.Controls.Diagram.DockExtension.html#H_Controls_Diagram_DockExtension_GetRevert_System_Windows_Controls_Dock_
+  name: GetRevert
+  nameWithType: DockExtension.GetRevert
+  fullName: H.Controls.Diagram.DockExtension.GetRevert
+- uid: System.Windows.Controls.Dock
+  commentId: T:System.Windows.Controls.Dock
+  parent: System.Windows.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.controls.dock
+  name: Dock
+  nameWithType: Dock
+  fullName: System.Windows.Controls.Dock
+- uid: System.Windows.Controls
+  commentId: N:System.Windows.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Controls
+  nameWithType: System.Windows.Controls
+  fullName: System.Windows.Controls
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Controls
+    name: Controls
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.controls
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Controls
+    name: Controls
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.controls
+- uid: H.Controls.Diagram.DockExtension.GetTextMargin*
+  commentId: Overload:H.Controls.Diagram.DockExtension.GetTextMargin
+  href: H.Controls.Diagram.DockExtension.html#H_Controls_Diagram_DockExtension_GetTextMargin_System_Windows_Controls_Dock_System_Int32_
+  name: GetTextMargin
+  nameWithType: DockExtension.GetTextMargin
+  fullName: H.Controls.Diagram.DockExtension.GetTextMargin
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Windows.Thickness
+  commentId: T:System.Windows.Thickness
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.thickness
+  name: Thickness
+  nameWithType: Thickness
+  fullName: System.Windows.Thickness
+- uid: System.Windows
+  commentId: N:System.Windows
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows
+  nameWithType: System.Windows
+  fullName: System.Windows
+  spec.csharp:
+  - uid: System
+    name: System
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  spec.vb:
+  - uid: System
+    name: System
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+- uid: H.Controls.Diagram.DockExtension.GetNormalOffset*
+  commentId: Overload:H.Controls.Diagram.DockExtension.GetNormalOffset
+  href: H.Controls.Diagram.DockExtension.html#H_Controls_Diagram_DockExtension_GetNormalOffset_System_Windows_Controls_Dock_
+  name: GetNormalOffset
+  nameWithType: DockExtension.GetNormalOffset
+  fullName: H.Controls.Diagram.DockExtension.GetNormalOffset
+- uid: System.Windows.Vector
+  commentId: T:System.Windows.Vector
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.vector
+  name: Vector
+  nameWithType: Vector
+  fullName: System.Windows.Vector
+- uid: H.Controls.Diagram.DockExtension.GetOffset*
+  commentId: Overload:H.Controls.Diagram.DockExtension.GetOffset
+  href: H.Controls.Diagram.DockExtension.html#H_Controls_Diagram_DockExtension_GetOffset_System_Windows_Controls_Dock_System_Double_System_Double_
+  name: GetOffset
+  nameWithType: DockExtension.GetOffset
+  fullName: H.Controls.Diagram.DockExtension.GetOffset
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: H.Controls.Diagram.DockExtension.GetIcon*
+  commentId: Overload:H.Controls.Diagram.DockExtension.GetIcon
+  href: H.Controls.Diagram.DockExtension.html#H_Controls_Diagram_DockExtension_GetIcon_H_Controls_Diagram_Datas_IPortData_
+  name: GetIcon
+  nameWithType: DockExtension.GetIcon
+  fullName: H.Controls.Diagram.DockExtension.GetIcon
+- uid: H.Controls.Diagram.Datas.IPortData
+  commentId: T:H.Controls.Diagram.Datas.IPortData
+  parent: H.Controls.Diagram.Datas
+  href: H.Controls.Diagram.Datas.IPortData.html
+  name: IPortData
+  nameWithType: IPortData
+  fullName: H.Controls.Diagram.Datas.IPortData
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: H.Controls.Diagram.Datas
+  commentId: N:H.Controls.Diagram.Datas
+  href: H.html
+  name: H.Controls.Diagram.Datas
+  nameWithType: H.Controls.Diagram.Datas
+  fullName: H.Controls.Diagram.Datas
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Datas
+    name: Datas
+    href: H.Controls.Diagram.Datas.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Datas
+    name: Datas
+    href: H.Controls.Diagram.Datas.html

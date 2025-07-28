@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.DrawerBox
+  commentId: N:H.Controls.DrawerBox
+  id: H.Controls.DrawerBox
+  children:
+  - H.Controls.DrawerBox.CloseDrawerCommand
+  - H.Controls.DrawerBox.DrawerBox
+  - H.Controls.DrawerBox.ShowDrawerCommand
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.DrawerBox
+  nameWithType: H.Controls.DrawerBox
+  fullName: H.Controls.DrawerBox
+  type: Namespace
+  assemblies:
+  - H.Controls.DrawerBox
+references:
+- uid: H.Controls.DrawerBox.CloseDrawerCommand
+  commentId: T:H.Controls.DrawerBox.CloseDrawerCommand
+  href: H.Controls.DrawerBox.CloseDrawerCommand.html
+  name: CloseDrawerCommand
+  nameWithType: CloseDrawerCommand
+  fullName: H.Controls.DrawerBox.CloseDrawerCommand
+- uid: H.Controls.DrawerBox.DrawerBox
+  commentId: T:H.Controls.DrawerBox.DrawerBox
+  href: H.Controls.DrawerBox.DrawerBox.html
+  name: DrawerBox
+  nameWithType: DrawerBox
+  fullName: H.Controls.DrawerBox.DrawerBox
+- uid: H.Controls.DrawerBox.ShowDrawerCommand
+  commentId: T:H.Controls.DrawerBox.ShowDrawerCommand
+  href: H.Controls.DrawerBox.ShowDrawerCommand.html
+  name: ShowDrawerCommand
+  nameWithType: ShowDrawerCommand
+  fullName: H.Controls.DrawerBox.ShowDrawerCommand

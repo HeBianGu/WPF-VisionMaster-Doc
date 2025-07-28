@@ -1,0 +1,2601 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions
+  commentId: T:H.Extensions.Unit.USA.USAUnitsExtensions
+  id: USAUnitsExtensions
+  parent: H.Extensions.Unit.USA
+  children:
+  - H.Extensions.Unit.USA.USAUnitsExtensions.Acres(System.Double)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.Acres(System.Int32)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.Bushels(System.Double)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.Bushels(System.Int32)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.CubicFeet(System.Double)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.CubicFeet(System.Int32)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.CubicInches(System.Double)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.CubicInches(System.Int32)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.CubicYards(System.Double)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.CubicYards(System.Int32)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.Cups(System.Double)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.Cups(System.Int32)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.DegreesFahrenheit(System.Double)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.DegreesFahrenheit(System.Int32)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.DryGallons(System.Double)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.DryGallons(System.Int32)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.DryQuarts(System.Double)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.DryQuarts(System.Int32)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.Feet(System.Double)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.Feet(System.Int32)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.Gallons(System.Double)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.Gallons(System.Int32)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.InAcres(H.Extensions.Unit.Area)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.InBushels(H.Extensions.Unit.Volume)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.InCubicFeet(H.Extensions.Unit.Volume)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.InCubicInches(H.Extensions.Unit.Volume)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.InCubicYards(H.Extensions.Unit.Volume)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.InCups(H.Extensions.Unit.Volume)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.InDegreesFahrenheit(H.Extensions.Unit.TemperatureChange)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.InDryGallons(H.Extensions.Unit.Volume)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.InDryQuarts(H.Extensions.Unit.Volume)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.InFeet(H.Extensions.Unit.Length)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.InGallons(H.Extensions.Unit.Volume)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.InInches(H.Extensions.Unit.Length)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.InLongTons(H.Extensions.Unit.Mass)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.InNauticalMiles(H.Extensions.Unit.Length)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.InPecks(H.Extensions.Unit.Volume)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.InPounds(H.Extensions.Unit.Mass)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.InQuarts(H.Extensions.Unit.Volume)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.InSquareFeet(H.Extensions.Unit.Area)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.InSquareInches(H.Extensions.Unit.Area)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.InSquareYards(H.Extensions.Unit.Area)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.InYards(H.Extensions.Unit.Length)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.Inches(System.Double)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.Inches(System.Int32)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.LongTons(System.Double)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.LongTons(System.Int32)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.NauticalMiles(System.Double)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.NauticalMiles(System.Int32)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.Pecks(System.Double)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.Pecks(System.Int32)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.Pounds(System.Double)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.Pounds(System.Int32)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.Quarts(System.Double)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.Quarts(System.Int32)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.SquareFeet(System.Double)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.SquareFeet(System.Int32)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.SquareInches(System.Double)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.SquareInches(System.Int32)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.SquareYards(System.Double)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.SquareYards(System.Int32)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.Yards(System.Double)
+  - H.Extensions.Unit.USA.USAUnitsExtensions.Yards(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: USAUnitsExtensions
+  nameWithType: USAUnitsExtensions
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions
+  type: Class
+  source:
+    id: USAUnitsExtensions
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 98
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static class USAUnitsExtensions
+    content.vb: Public Module USAUnitsExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.LongTons(System.Int32)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.LongTons(System.Int32)
+  id: LongTons(System.Int32)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: LongTons(int)
+  nameWithType: USAUnitsExtensions.LongTons(int)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.LongTons(int)
+  type: Method
+  source:
+    id: LongTons
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 100
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static Mass LongTons(this int v)
+    parameters:
+    - id: v
+      type: System.Int32
+    return:
+      type: H.Extensions.Unit.Mass
+    content.vb: Public Shared Function LongTons(v As Integer) As Mass
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.LongTons*
+  nameWithType.vb: USAUnitsExtensions.LongTons(Integer)
+  fullName.vb: H.Extensions.Unit.USA.USAUnitsExtensions.LongTons(Integer)
+  name.vb: LongTons(Integer)
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.LongTons(System.Double)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.LongTons(System.Double)
+  id: LongTons(System.Double)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: LongTons(double)
+  nameWithType: USAUnitsExtensions.LongTons(double)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.LongTons(double)
+  type: Method
+  source:
+    id: LongTons
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 101
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static Mass LongTons(this double v)
+    parameters:
+    - id: v
+      type: System.Double
+    return:
+      type: H.Extensions.Unit.Mass
+    content.vb: Public Shared Function LongTons(v As Double) As Mass
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.LongTons*
+  nameWithType.vb: USAUnitsExtensions.LongTons(Double)
+  fullName.vb: H.Extensions.Unit.USA.USAUnitsExtensions.LongTons(Double)
+  name.vb: LongTons(Double)
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.InLongTons(H.Extensions.Unit.Mass)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.InLongTons(H.Extensions.Unit.Mass)
+  id: InLongTons(H.Extensions.Unit.Mass)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: InLongTons(Mass)
+  nameWithType: USAUnitsExtensions.InLongTons(Mass)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.InLongTons(H.Extensions.Unit.Mass)
+  type: Method
+  source:
+    id: InLongTons
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 105
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static double InLongTons(this Mass v)
+    parameters:
+    - id: v
+      type: H.Extensions.Unit.Mass
+    return:
+      type: System.Double
+    content.vb: Public Shared Function InLongTons(v As Mass) As Double
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.InLongTons*
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.Pounds(System.Int32)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.Pounds(System.Int32)
+  id: Pounds(System.Int32)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: Pounds(int)
+  nameWithType: USAUnitsExtensions.Pounds(int)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.Pounds(int)
+  type: Method
+  source:
+    id: Pounds
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 109
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static Mass Pounds(this int v)
+    parameters:
+    - id: v
+      type: System.Int32
+    return:
+      type: H.Extensions.Unit.Mass
+    content.vb: Public Shared Function Pounds(v As Integer) As Mass
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.Pounds*
+  nameWithType.vb: USAUnitsExtensions.Pounds(Integer)
+  fullName.vb: H.Extensions.Unit.USA.USAUnitsExtensions.Pounds(Integer)
+  name.vb: Pounds(Integer)
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.Pounds(System.Double)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.Pounds(System.Double)
+  id: Pounds(System.Double)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: Pounds(double)
+  nameWithType: USAUnitsExtensions.Pounds(double)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.Pounds(double)
+  type: Method
+  source:
+    id: Pounds
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 110
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static Mass Pounds(this double v)
+    parameters:
+    - id: v
+      type: System.Double
+    return:
+      type: H.Extensions.Unit.Mass
+    content.vb: Public Shared Function Pounds(v As Double) As Mass
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.Pounds*
+  nameWithType.vb: USAUnitsExtensions.Pounds(Double)
+  fullName.vb: H.Extensions.Unit.USA.USAUnitsExtensions.Pounds(Double)
+  name.vb: Pounds(Double)
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.InPounds(H.Extensions.Unit.Mass)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.InPounds(H.Extensions.Unit.Mass)
+  id: InPounds(H.Extensions.Unit.Mass)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: InPounds(Mass)
+  nameWithType: USAUnitsExtensions.InPounds(Mass)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.InPounds(H.Extensions.Unit.Mass)
+  type: Method
+  source:
+    id: InPounds
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 114
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static double InPounds(this Mass v)
+    parameters:
+    - id: v
+      type: H.Extensions.Unit.Mass
+    return:
+      type: System.Double
+    content.vb: Public Shared Function InPounds(v As Mass) As Double
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.InPounds*
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.Yards(System.Int32)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.Yards(System.Int32)
+  id: Yards(System.Int32)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: Yards(int)
+  nameWithType: USAUnitsExtensions.Yards(int)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.Yards(int)
+  type: Method
+  source:
+    id: Yards
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 118
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static Length Yards(this int v)
+    parameters:
+    - id: v
+      type: System.Int32
+    return:
+      type: H.Extensions.Unit.Length
+    content.vb: Public Shared Function Yards(v As Integer) As Length
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.Yards*
+  nameWithType.vb: USAUnitsExtensions.Yards(Integer)
+  fullName.vb: H.Extensions.Unit.USA.USAUnitsExtensions.Yards(Integer)
+  name.vb: Yards(Integer)
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.Yards(System.Double)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.Yards(System.Double)
+  id: Yards(System.Double)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: Yards(double)
+  nameWithType: USAUnitsExtensions.Yards(double)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.Yards(double)
+  type: Method
+  source:
+    id: Yards
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 119
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static Length Yards(this double v)
+    parameters:
+    - id: v
+      type: System.Double
+    return:
+      type: H.Extensions.Unit.Length
+    content.vb: Public Shared Function Yards(v As Double) As Length
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.Yards*
+  nameWithType.vb: USAUnitsExtensions.Yards(Double)
+  fullName.vb: H.Extensions.Unit.USA.USAUnitsExtensions.Yards(Double)
+  name.vb: Yards(Double)
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.InYards(H.Extensions.Unit.Length)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.InYards(H.Extensions.Unit.Length)
+  id: InYards(H.Extensions.Unit.Length)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: InYards(Length)
+  nameWithType: USAUnitsExtensions.InYards(Length)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.InYards(H.Extensions.Unit.Length)
+  type: Method
+  source:
+    id: InYards
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 123
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static double InYards(this Length v)
+    parameters:
+    - id: v
+      type: H.Extensions.Unit.Length
+    return:
+      type: System.Double
+    content.vb: Public Shared Function InYards(v As Length) As Double
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.InYards*
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.Feet(System.Int32)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.Feet(System.Int32)
+  id: Feet(System.Int32)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: Feet(int)
+  nameWithType: USAUnitsExtensions.Feet(int)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.Feet(int)
+  type: Method
+  source:
+    id: Feet
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 127
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static Length Feet(this int v)
+    parameters:
+    - id: v
+      type: System.Int32
+    return:
+      type: H.Extensions.Unit.Length
+    content.vb: Public Shared Function Feet(v As Integer) As Length
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.Feet*
+  nameWithType.vb: USAUnitsExtensions.Feet(Integer)
+  fullName.vb: H.Extensions.Unit.USA.USAUnitsExtensions.Feet(Integer)
+  name.vb: Feet(Integer)
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.Feet(System.Double)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.Feet(System.Double)
+  id: Feet(System.Double)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: Feet(double)
+  nameWithType: USAUnitsExtensions.Feet(double)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.Feet(double)
+  type: Method
+  source:
+    id: Feet
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 128
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static Length Feet(this double v)
+    parameters:
+    - id: v
+      type: System.Double
+    return:
+      type: H.Extensions.Unit.Length
+    content.vb: Public Shared Function Feet(v As Double) As Length
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.Feet*
+  nameWithType.vb: USAUnitsExtensions.Feet(Double)
+  fullName.vb: H.Extensions.Unit.USA.USAUnitsExtensions.Feet(Double)
+  name.vb: Feet(Double)
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.InFeet(H.Extensions.Unit.Length)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.InFeet(H.Extensions.Unit.Length)
+  id: InFeet(H.Extensions.Unit.Length)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: InFeet(Length)
+  nameWithType: USAUnitsExtensions.InFeet(Length)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.InFeet(H.Extensions.Unit.Length)
+  type: Method
+  source:
+    id: InFeet
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 132
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static double InFeet(this Length v)
+    parameters:
+    - id: v
+      type: H.Extensions.Unit.Length
+    return:
+      type: System.Double
+    content.vb: Public Shared Function InFeet(v As Length) As Double
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.InFeet*
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.Inches(System.Int32)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.Inches(System.Int32)
+  id: Inches(System.Int32)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: Inches(int)
+  nameWithType: USAUnitsExtensions.Inches(int)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.Inches(int)
+  type: Method
+  source:
+    id: Inches
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 136
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static Length Inches(this int v)
+    parameters:
+    - id: v
+      type: System.Int32
+    return:
+      type: H.Extensions.Unit.Length
+    content.vb: Public Shared Function Inches(v As Integer) As Length
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.Inches*
+  nameWithType.vb: USAUnitsExtensions.Inches(Integer)
+  fullName.vb: H.Extensions.Unit.USA.USAUnitsExtensions.Inches(Integer)
+  name.vb: Inches(Integer)
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.Inches(System.Double)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.Inches(System.Double)
+  id: Inches(System.Double)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: Inches(double)
+  nameWithType: USAUnitsExtensions.Inches(double)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.Inches(double)
+  type: Method
+  source:
+    id: Inches
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 137
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static Length Inches(this double v)
+    parameters:
+    - id: v
+      type: System.Double
+    return:
+      type: H.Extensions.Unit.Length
+    content.vb: Public Shared Function Inches(v As Double) As Length
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.Inches*
+  nameWithType.vb: USAUnitsExtensions.Inches(Double)
+  fullName.vb: H.Extensions.Unit.USA.USAUnitsExtensions.Inches(Double)
+  name.vb: Inches(Double)
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.InInches(H.Extensions.Unit.Length)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.InInches(H.Extensions.Unit.Length)
+  id: InInches(H.Extensions.Unit.Length)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: InInches(Length)
+  nameWithType: USAUnitsExtensions.InInches(Length)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.InInches(H.Extensions.Unit.Length)
+  type: Method
+  source:
+    id: InInches
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 141
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static double InInches(this Length v)
+    parameters:
+    - id: v
+      type: H.Extensions.Unit.Length
+    return:
+      type: System.Double
+    content.vb: Public Shared Function InInches(v As Length) As Double
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.InInches*
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.NauticalMiles(System.Int32)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.NauticalMiles(System.Int32)
+  id: NauticalMiles(System.Int32)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: NauticalMiles(int)
+  nameWithType: USAUnitsExtensions.NauticalMiles(int)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.NauticalMiles(int)
+  type: Method
+  source:
+    id: NauticalMiles
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 145
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static Length NauticalMiles(this int v)
+    parameters:
+    - id: v
+      type: System.Int32
+    return:
+      type: H.Extensions.Unit.Length
+    content.vb: Public Shared Function NauticalMiles(v As Integer) As Length
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.NauticalMiles*
+  nameWithType.vb: USAUnitsExtensions.NauticalMiles(Integer)
+  fullName.vb: H.Extensions.Unit.USA.USAUnitsExtensions.NauticalMiles(Integer)
+  name.vb: NauticalMiles(Integer)
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.NauticalMiles(System.Double)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.NauticalMiles(System.Double)
+  id: NauticalMiles(System.Double)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: NauticalMiles(double)
+  nameWithType: USAUnitsExtensions.NauticalMiles(double)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.NauticalMiles(double)
+  type: Method
+  source:
+    id: NauticalMiles
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 146
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static Length NauticalMiles(this double v)
+    parameters:
+    - id: v
+      type: System.Double
+    return:
+      type: H.Extensions.Unit.Length
+    content.vb: Public Shared Function NauticalMiles(v As Double) As Length
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.NauticalMiles*
+  nameWithType.vb: USAUnitsExtensions.NauticalMiles(Double)
+  fullName.vb: H.Extensions.Unit.USA.USAUnitsExtensions.NauticalMiles(Double)
+  name.vb: NauticalMiles(Double)
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.InNauticalMiles(H.Extensions.Unit.Length)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.InNauticalMiles(H.Extensions.Unit.Length)
+  id: InNauticalMiles(H.Extensions.Unit.Length)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: InNauticalMiles(Length)
+  nameWithType: USAUnitsExtensions.InNauticalMiles(Length)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.InNauticalMiles(H.Extensions.Unit.Length)
+  type: Method
+  source:
+    id: InNauticalMiles
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 150
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static double InNauticalMiles(this Length v)
+    parameters:
+    - id: v
+      type: H.Extensions.Unit.Length
+    return:
+      type: System.Double
+    content.vb: Public Shared Function InNauticalMiles(v As Length) As Double
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.InNauticalMiles*
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.SquareFeet(System.Int32)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.SquareFeet(System.Int32)
+  id: SquareFeet(System.Int32)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: SquareFeet(int)
+  nameWithType: USAUnitsExtensions.SquareFeet(int)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.SquareFeet(int)
+  type: Method
+  source:
+    id: SquareFeet
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 154
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static Area SquareFeet(this int v)
+    parameters:
+    - id: v
+      type: System.Int32
+    return:
+      type: H.Extensions.Unit.Area
+    content.vb: Public Shared Function SquareFeet(v As Integer) As Area
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.SquareFeet*
+  nameWithType.vb: USAUnitsExtensions.SquareFeet(Integer)
+  fullName.vb: H.Extensions.Unit.USA.USAUnitsExtensions.SquareFeet(Integer)
+  name.vb: SquareFeet(Integer)
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.SquareFeet(System.Double)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.SquareFeet(System.Double)
+  id: SquareFeet(System.Double)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: SquareFeet(double)
+  nameWithType: USAUnitsExtensions.SquareFeet(double)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.SquareFeet(double)
+  type: Method
+  source:
+    id: SquareFeet
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 155
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static Area SquareFeet(this double v)
+    parameters:
+    - id: v
+      type: System.Double
+    return:
+      type: H.Extensions.Unit.Area
+    content.vb: Public Shared Function SquareFeet(v As Double) As Area
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.SquareFeet*
+  nameWithType.vb: USAUnitsExtensions.SquareFeet(Double)
+  fullName.vb: H.Extensions.Unit.USA.USAUnitsExtensions.SquareFeet(Double)
+  name.vb: SquareFeet(Double)
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.InSquareFeet(H.Extensions.Unit.Area)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.InSquareFeet(H.Extensions.Unit.Area)
+  id: InSquareFeet(H.Extensions.Unit.Area)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: InSquareFeet(Area)
+  nameWithType: USAUnitsExtensions.InSquareFeet(Area)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.InSquareFeet(H.Extensions.Unit.Area)
+  type: Method
+  source:
+    id: InSquareFeet
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 159
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static double InSquareFeet(this Area v)
+    parameters:
+    - id: v
+      type: H.Extensions.Unit.Area
+    return:
+      type: System.Double
+    content.vb: Public Shared Function InSquareFeet(v As Area) As Double
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.InSquareFeet*
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.Acres(System.Int32)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.Acres(System.Int32)
+  id: Acres(System.Int32)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: Acres(int)
+  nameWithType: USAUnitsExtensions.Acres(int)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.Acres(int)
+  type: Method
+  source:
+    id: Acres
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 163
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static Area Acres(this int v)
+    parameters:
+    - id: v
+      type: System.Int32
+    return:
+      type: H.Extensions.Unit.Area
+    content.vb: Public Shared Function Acres(v As Integer) As Area
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.Acres*
+  nameWithType.vb: USAUnitsExtensions.Acres(Integer)
+  fullName.vb: H.Extensions.Unit.USA.USAUnitsExtensions.Acres(Integer)
+  name.vb: Acres(Integer)
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.Acres(System.Double)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.Acres(System.Double)
+  id: Acres(System.Double)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: Acres(double)
+  nameWithType: USAUnitsExtensions.Acres(double)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.Acres(double)
+  type: Method
+  source:
+    id: Acres
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 164
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static Area Acres(this double v)
+    parameters:
+    - id: v
+      type: System.Double
+    return:
+      type: H.Extensions.Unit.Area
+    content.vb: Public Shared Function Acres(v As Double) As Area
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.Acres*
+  nameWithType.vb: USAUnitsExtensions.Acres(Double)
+  fullName.vb: H.Extensions.Unit.USA.USAUnitsExtensions.Acres(Double)
+  name.vb: Acres(Double)
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.InAcres(H.Extensions.Unit.Area)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.InAcres(H.Extensions.Unit.Area)
+  id: InAcres(H.Extensions.Unit.Area)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: InAcres(Area)
+  nameWithType: USAUnitsExtensions.InAcres(Area)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.InAcres(H.Extensions.Unit.Area)
+  type: Method
+  source:
+    id: InAcres
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 168
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static double InAcres(this Area v)
+    parameters:
+    - id: v
+      type: H.Extensions.Unit.Area
+    return:
+      type: System.Double
+    content.vb: Public Shared Function InAcres(v As Area) As Double
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.InAcres*
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.SquareYards(System.Int32)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.SquareYards(System.Int32)
+  id: SquareYards(System.Int32)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: SquareYards(int)
+  nameWithType: USAUnitsExtensions.SquareYards(int)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.SquareYards(int)
+  type: Method
+  source:
+    id: SquareYards
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 172
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static Area SquareYards(this int v)
+    parameters:
+    - id: v
+      type: System.Int32
+    return:
+      type: H.Extensions.Unit.Area
+    content.vb: Public Shared Function SquareYards(v As Integer) As Area
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.SquareYards*
+  nameWithType.vb: USAUnitsExtensions.SquareYards(Integer)
+  fullName.vb: H.Extensions.Unit.USA.USAUnitsExtensions.SquareYards(Integer)
+  name.vb: SquareYards(Integer)
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.SquareYards(System.Double)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.SquareYards(System.Double)
+  id: SquareYards(System.Double)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: SquareYards(double)
+  nameWithType: USAUnitsExtensions.SquareYards(double)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.SquareYards(double)
+  type: Method
+  source:
+    id: SquareYards
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 173
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static Area SquareYards(this double v)
+    parameters:
+    - id: v
+      type: System.Double
+    return:
+      type: H.Extensions.Unit.Area
+    content.vb: Public Shared Function SquareYards(v As Double) As Area
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.SquareYards*
+  nameWithType.vb: USAUnitsExtensions.SquareYards(Double)
+  fullName.vb: H.Extensions.Unit.USA.USAUnitsExtensions.SquareYards(Double)
+  name.vb: SquareYards(Double)
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.InSquareYards(H.Extensions.Unit.Area)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.InSquareYards(H.Extensions.Unit.Area)
+  id: InSquareYards(H.Extensions.Unit.Area)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: InSquareYards(Area)
+  nameWithType: USAUnitsExtensions.InSquareYards(Area)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.InSquareYards(H.Extensions.Unit.Area)
+  type: Method
+  source:
+    id: InSquareYards
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 177
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static double InSquareYards(this Area v)
+    parameters:
+    - id: v
+      type: H.Extensions.Unit.Area
+    return:
+      type: System.Double
+    content.vb: Public Shared Function InSquareYards(v As Area) As Double
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.InSquareYards*
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.SquareInches(System.Int32)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.SquareInches(System.Int32)
+  id: SquareInches(System.Int32)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: SquareInches(int)
+  nameWithType: USAUnitsExtensions.SquareInches(int)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.SquareInches(int)
+  type: Method
+  source:
+    id: SquareInches
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 181
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static Area SquareInches(this int v)
+    parameters:
+    - id: v
+      type: System.Int32
+    return:
+      type: H.Extensions.Unit.Area
+    content.vb: Public Shared Function SquareInches(v As Integer) As Area
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.SquareInches*
+  nameWithType.vb: USAUnitsExtensions.SquareInches(Integer)
+  fullName.vb: H.Extensions.Unit.USA.USAUnitsExtensions.SquareInches(Integer)
+  name.vb: SquareInches(Integer)
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.SquareInches(System.Double)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.SquareInches(System.Double)
+  id: SquareInches(System.Double)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: SquareInches(double)
+  nameWithType: USAUnitsExtensions.SquareInches(double)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.SquareInches(double)
+  type: Method
+  source:
+    id: SquareInches
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 182
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static Area SquareInches(this double v)
+    parameters:
+    - id: v
+      type: System.Double
+    return:
+      type: H.Extensions.Unit.Area
+    content.vb: Public Shared Function SquareInches(v As Double) As Area
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.SquareInches*
+  nameWithType.vb: USAUnitsExtensions.SquareInches(Double)
+  fullName.vb: H.Extensions.Unit.USA.USAUnitsExtensions.SquareInches(Double)
+  name.vb: SquareInches(Double)
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.InSquareInches(H.Extensions.Unit.Area)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.InSquareInches(H.Extensions.Unit.Area)
+  id: InSquareInches(H.Extensions.Unit.Area)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: InSquareInches(Area)
+  nameWithType: USAUnitsExtensions.InSquareInches(Area)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.InSquareInches(H.Extensions.Unit.Area)
+  type: Method
+  source:
+    id: InSquareInches
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 186
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static double InSquareInches(this Area v)
+    parameters:
+    - id: v
+      type: H.Extensions.Unit.Area
+    return:
+      type: System.Double
+    content.vb: Public Shared Function InSquareInches(v As Area) As Double
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.InSquareInches*
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.CubicFeet(System.Int32)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.CubicFeet(System.Int32)
+  id: CubicFeet(System.Int32)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: CubicFeet(int)
+  nameWithType: USAUnitsExtensions.CubicFeet(int)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.CubicFeet(int)
+  type: Method
+  source:
+    id: CubicFeet
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 190
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static Volume CubicFeet(this int v)
+    parameters:
+    - id: v
+      type: System.Int32
+    return:
+      type: H.Extensions.Unit.Volume
+    content.vb: Public Shared Function CubicFeet(v As Integer) As Volume
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.CubicFeet*
+  nameWithType.vb: USAUnitsExtensions.CubicFeet(Integer)
+  fullName.vb: H.Extensions.Unit.USA.USAUnitsExtensions.CubicFeet(Integer)
+  name.vb: CubicFeet(Integer)
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.CubicFeet(System.Double)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.CubicFeet(System.Double)
+  id: CubicFeet(System.Double)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: CubicFeet(double)
+  nameWithType: USAUnitsExtensions.CubicFeet(double)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.CubicFeet(double)
+  type: Method
+  source:
+    id: CubicFeet
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 191
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static Volume CubicFeet(this double v)
+    parameters:
+    - id: v
+      type: System.Double
+    return:
+      type: H.Extensions.Unit.Volume
+    content.vb: Public Shared Function CubicFeet(v As Double) As Volume
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.CubicFeet*
+  nameWithType.vb: USAUnitsExtensions.CubicFeet(Double)
+  fullName.vb: H.Extensions.Unit.USA.USAUnitsExtensions.CubicFeet(Double)
+  name.vb: CubicFeet(Double)
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.InCubicFeet(H.Extensions.Unit.Volume)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.InCubicFeet(H.Extensions.Unit.Volume)
+  id: InCubicFeet(H.Extensions.Unit.Volume)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: InCubicFeet(Volume)
+  nameWithType: USAUnitsExtensions.InCubicFeet(Volume)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.InCubicFeet(H.Extensions.Unit.Volume)
+  type: Method
+  source:
+    id: InCubicFeet
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 195
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static double InCubicFeet(this Volume v)
+    parameters:
+    - id: v
+      type: H.Extensions.Unit.Volume
+    return:
+      type: System.Double
+    content.vb: Public Shared Function InCubicFeet(v As Volume) As Double
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.InCubicFeet*
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.CubicYards(System.Int32)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.CubicYards(System.Int32)
+  id: CubicYards(System.Int32)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: CubicYards(int)
+  nameWithType: USAUnitsExtensions.CubicYards(int)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.CubicYards(int)
+  type: Method
+  source:
+    id: CubicYards
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 199
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static Volume CubicYards(this int v)
+    parameters:
+    - id: v
+      type: System.Int32
+    return:
+      type: H.Extensions.Unit.Volume
+    content.vb: Public Shared Function CubicYards(v As Integer) As Volume
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.CubicYards*
+  nameWithType.vb: USAUnitsExtensions.CubicYards(Integer)
+  fullName.vb: H.Extensions.Unit.USA.USAUnitsExtensions.CubicYards(Integer)
+  name.vb: CubicYards(Integer)
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.CubicYards(System.Double)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.CubicYards(System.Double)
+  id: CubicYards(System.Double)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: CubicYards(double)
+  nameWithType: USAUnitsExtensions.CubicYards(double)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.CubicYards(double)
+  type: Method
+  source:
+    id: CubicYards
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 200
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static Volume CubicYards(this double v)
+    parameters:
+    - id: v
+      type: System.Double
+    return:
+      type: H.Extensions.Unit.Volume
+    content.vb: Public Shared Function CubicYards(v As Double) As Volume
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.CubicYards*
+  nameWithType.vb: USAUnitsExtensions.CubicYards(Double)
+  fullName.vb: H.Extensions.Unit.USA.USAUnitsExtensions.CubicYards(Double)
+  name.vb: CubicYards(Double)
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.InCubicYards(H.Extensions.Unit.Volume)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.InCubicYards(H.Extensions.Unit.Volume)
+  id: InCubicYards(H.Extensions.Unit.Volume)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: InCubicYards(Volume)
+  nameWithType: USAUnitsExtensions.InCubicYards(Volume)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.InCubicYards(H.Extensions.Unit.Volume)
+  type: Method
+  source:
+    id: InCubicYards
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 204
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static double InCubicYards(this Volume v)
+    parameters:
+    - id: v
+      type: H.Extensions.Unit.Volume
+    return:
+      type: System.Double
+    content.vb: Public Shared Function InCubicYards(v As Volume) As Double
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.InCubicYards*
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.CubicInches(System.Int32)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.CubicInches(System.Int32)
+  id: CubicInches(System.Int32)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: CubicInches(int)
+  nameWithType: USAUnitsExtensions.CubicInches(int)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.CubicInches(int)
+  type: Method
+  source:
+    id: CubicInches
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 208
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static Volume CubicInches(this int v)
+    parameters:
+    - id: v
+      type: System.Int32
+    return:
+      type: H.Extensions.Unit.Volume
+    content.vb: Public Shared Function CubicInches(v As Integer) As Volume
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.CubicInches*
+  nameWithType.vb: USAUnitsExtensions.CubicInches(Integer)
+  fullName.vb: H.Extensions.Unit.USA.USAUnitsExtensions.CubicInches(Integer)
+  name.vb: CubicInches(Integer)
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.CubicInches(System.Double)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.CubicInches(System.Double)
+  id: CubicInches(System.Double)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: CubicInches(double)
+  nameWithType: USAUnitsExtensions.CubicInches(double)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.CubicInches(double)
+  type: Method
+  source:
+    id: CubicInches
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 209
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static Volume CubicInches(this double v)
+    parameters:
+    - id: v
+      type: System.Double
+    return:
+      type: H.Extensions.Unit.Volume
+    content.vb: Public Shared Function CubicInches(v As Double) As Volume
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.CubicInches*
+  nameWithType.vb: USAUnitsExtensions.CubicInches(Double)
+  fullName.vb: H.Extensions.Unit.USA.USAUnitsExtensions.CubicInches(Double)
+  name.vb: CubicInches(Double)
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.InCubicInches(H.Extensions.Unit.Volume)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.InCubicInches(H.Extensions.Unit.Volume)
+  id: InCubicInches(H.Extensions.Unit.Volume)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: InCubicInches(Volume)
+  nameWithType: USAUnitsExtensions.InCubicInches(Volume)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.InCubicInches(H.Extensions.Unit.Volume)
+  type: Method
+  source:
+    id: InCubicInches
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 213
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static double InCubicInches(this Volume v)
+    parameters:
+    - id: v
+      type: H.Extensions.Unit.Volume
+    return:
+      type: System.Double
+    content.vb: Public Shared Function InCubicInches(v As Volume) As Double
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.InCubicInches*
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.Gallons(System.Int32)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.Gallons(System.Int32)
+  id: Gallons(System.Int32)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: Gallons(int)
+  nameWithType: USAUnitsExtensions.Gallons(int)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.Gallons(int)
+  type: Method
+  source:
+    id: Gallons
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 217
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static Volume Gallons(this int v)
+    parameters:
+    - id: v
+      type: System.Int32
+    return:
+      type: H.Extensions.Unit.Volume
+    content.vb: Public Shared Function Gallons(v As Integer) As Volume
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.Gallons*
+  nameWithType.vb: USAUnitsExtensions.Gallons(Integer)
+  fullName.vb: H.Extensions.Unit.USA.USAUnitsExtensions.Gallons(Integer)
+  name.vb: Gallons(Integer)
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.Gallons(System.Double)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.Gallons(System.Double)
+  id: Gallons(System.Double)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: Gallons(double)
+  nameWithType: USAUnitsExtensions.Gallons(double)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.Gallons(double)
+  type: Method
+  source:
+    id: Gallons
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 218
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static Volume Gallons(this double v)
+    parameters:
+    - id: v
+      type: System.Double
+    return:
+      type: H.Extensions.Unit.Volume
+    content.vb: Public Shared Function Gallons(v As Double) As Volume
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.Gallons*
+  nameWithType.vb: USAUnitsExtensions.Gallons(Double)
+  fullName.vb: H.Extensions.Unit.USA.USAUnitsExtensions.Gallons(Double)
+  name.vb: Gallons(Double)
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.InGallons(H.Extensions.Unit.Volume)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.InGallons(H.Extensions.Unit.Volume)
+  id: InGallons(H.Extensions.Unit.Volume)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: InGallons(Volume)
+  nameWithType: USAUnitsExtensions.InGallons(Volume)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.InGallons(H.Extensions.Unit.Volume)
+  type: Method
+  source:
+    id: InGallons
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 222
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static double InGallons(this Volume v)
+    parameters:
+    - id: v
+      type: H.Extensions.Unit.Volume
+    return:
+      type: System.Double
+    content.vb: Public Shared Function InGallons(v As Volume) As Double
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.InGallons*
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.Quarts(System.Int32)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.Quarts(System.Int32)
+  id: Quarts(System.Int32)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: Quarts(int)
+  nameWithType: USAUnitsExtensions.Quarts(int)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.Quarts(int)
+  type: Method
+  source:
+    id: Quarts
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 226
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static Volume Quarts(this int v)
+    parameters:
+    - id: v
+      type: System.Int32
+    return:
+      type: H.Extensions.Unit.Volume
+    content.vb: Public Shared Function Quarts(v As Integer) As Volume
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.Quarts*
+  nameWithType.vb: USAUnitsExtensions.Quarts(Integer)
+  fullName.vb: H.Extensions.Unit.USA.USAUnitsExtensions.Quarts(Integer)
+  name.vb: Quarts(Integer)
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.Quarts(System.Double)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.Quarts(System.Double)
+  id: Quarts(System.Double)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: Quarts(double)
+  nameWithType: USAUnitsExtensions.Quarts(double)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.Quarts(double)
+  type: Method
+  source:
+    id: Quarts
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 227
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static Volume Quarts(this double v)
+    parameters:
+    - id: v
+      type: System.Double
+    return:
+      type: H.Extensions.Unit.Volume
+    content.vb: Public Shared Function Quarts(v As Double) As Volume
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.Quarts*
+  nameWithType.vb: USAUnitsExtensions.Quarts(Double)
+  fullName.vb: H.Extensions.Unit.USA.USAUnitsExtensions.Quarts(Double)
+  name.vb: Quarts(Double)
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.InQuarts(H.Extensions.Unit.Volume)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.InQuarts(H.Extensions.Unit.Volume)
+  id: InQuarts(H.Extensions.Unit.Volume)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: InQuarts(Volume)
+  nameWithType: USAUnitsExtensions.InQuarts(Volume)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.InQuarts(H.Extensions.Unit.Volume)
+  type: Method
+  source:
+    id: InQuarts
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 231
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static double InQuarts(this Volume v)
+    parameters:
+    - id: v
+      type: H.Extensions.Unit.Volume
+    return:
+      type: System.Double
+    content.vb: Public Shared Function InQuarts(v As Volume) As Double
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.InQuarts*
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.DryGallons(System.Int32)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.DryGallons(System.Int32)
+  id: DryGallons(System.Int32)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: DryGallons(int)
+  nameWithType: USAUnitsExtensions.DryGallons(int)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.DryGallons(int)
+  type: Method
+  source:
+    id: DryGallons
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 235
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static Volume DryGallons(this int v)
+    parameters:
+    - id: v
+      type: System.Int32
+    return:
+      type: H.Extensions.Unit.Volume
+    content.vb: Public Shared Function DryGallons(v As Integer) As Volume
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.DryGallons*
+  nameWithType.vb: USAUnitsExtensions.DryGallons(Integer)
+  fullName.vb: H.Extensions.Unit.USA.USAUnitsExtensions.DryGallons(Integer)
+  name.vb: DryGallons(Integer)
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.DryGallons(System.Double)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.DryGallons(System.Double)
+  id: DryGallons(System.Double)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: DryGallons(double)
+  nameWithType: USAUnitsExtensions.DryGallons(double)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.DryGallons(double)
+  type: Method
+  source:
+    id: DryGallons
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 236
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static Volume DryGallons(this double v)
+    parameters:
+    - id: v
+      type: System.Double
+    return:
+      type: H.Extensions.Unit.Volume
+    content.vb: Public Shared Function DryGallons(v As Double) As Volume
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.DryGallons*
+  nameWithType.vb: USAUnitsExtensions.DryGallons(Double)
+  fullName.vb: H.Extensions.Unit.USA.USAUnitsExtensions.DryGallons(Double)
+  name.vb: DryGallons(Double)
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.InDryGallons(H.Extensions.Unit.Volume)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.InDryGallons(H.Extensions.Unit.Volume)
+  id: InDryGallons(H.Extensions.Unit.Volume)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: InDryGallons(Volume)
+  nameWithType: USAUnitsExtensions.InDryGallons(Volume)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.InDryGallons(H.Extensions.Unit.Volume)
+  type: Method
+  source:
+    id: InDryGallons
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 240
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static double InDryGallons(this Volume v)
+    parameters:
+    - id: v
+      type: H.Extensions.Unit.Volume
+    return:
+      type: System.Double
+    content.vb: Public Shared Function InDryGallons(v As Volume) As Double
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.InDryGallons*
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.DryQuarts(System.Int32)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.DryQuarts(System.Int32)
+  id: DryQuarts(System.Int32)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: DryQuarts(int)
+  nameWithType: USAUnitsExtensions.DryQuarts(int)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.DryQuarts(int)
+  type: Method
+  source:
+    id: DryQuarts
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 244
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static Volume DryQuarts(this int v)
+    parameters:
+    - id: v
+      type: System.Int32
+    return:
+      type: H.Extensions.Unit.Volume
+    content.vb: Public Shared Function DryQuarts(v As Integer) As Volume
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.DryQuarts*
+  nameWithType.vb: USAUnitsExtensions.DryQuarts(Integer)
+  fullName.vb: H.Extensions.Unit.USA.USAUnitsExtensions.DryQuarts(Integer)
+  name.vb: DryQuarts(Integer)
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.DryQuarts(System.Double)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.DryQuarts(System.Double)
+  id: DryQuarts(System.Double)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: DryQuarts(double)
+  nameWithType: USAUnitsExtensions.DryQuarts(double)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.DryQuarts(double)
+  type: Method
+  source:
+    id: DryQuarts
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 245
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static Volume DryQuarts(this double v)
+    parameters:
+    - id: v
+      type: System.Double
+    return:
+      type: H.Extensions.Unit.Volume
+    content.vb: Public Shared Function DryQuarts(v As Double) As Volume
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.DryQuarts*
+  nameWithType.vb: USAUnitsExtensions.DryQuarts(Double)
+  fullName.vb: H.Extensions.Unit.USA.USAUnitsExtensions.DryQuarts(Double)
+  name.vb: DryQuarts(Double)
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.InDryQuarts(H.Extensions.Unit.Volume)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.InDryQuarts(H.Extensions.Unit.Volume)
+  id: InDryQuarts(H.Extensions.Unit.Volume)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: InDryQuarts(Volume)
+  nameWithType: USAUnitsExtensions.InDryQuarts(Volume)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.InDryQuarts(H.Extensions.Unit.Volume)
+  type: Method
+  source:
+    id: InDryQuarts
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 249
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static double InDryQuarts(this Volume v)
+    parameters:
+    - id: v
+      type: H.Extensions.Unit.Volume
+    return:
+      type: System.Double
+    content.vb: Public Shared Function InDryQuarts(v As Volume) As Double
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.InDryQuarts*
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.Bushels(System.Int32)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.Bushels(System.Int32)
+  id: Bushels(System.Int32)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: Bushels(int)
+  nameWithType: USAUnitsExtensions.Bushels(int)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.Bushels(int)
+  type: Method
+  source:
+    id: Bushels
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 253
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static Volume Bushels(this int v)
+    parameters:
+    - id: v
+      type: System.Int32
+    return:
+      type: H.Extensions.Unit.Volume
+    content.vb: Public Shared Function Bushels(v As Integer) As Volume
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.Bushels*
+  nameWithType.vb: USAUnitsExtensions.Bushels(Integer)
+  fullName.vb: H.Extensions.Unit.USA.USAUnitsExtensions.Bushels(Integer)
+  name.vb: Bushels(Integer)
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.Bushels(System.Double)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.Bushels(System.Double)
+  id: Bushels(System.Double)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: Bushels(double)
+  nameWithType: USAUnitsExtensions.Bushels(double)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.Bushels(double)
+  type: Method
+  source:
+    id: Bushels
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 254
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static Volume Bushels(this double v)
+    parameters:
+    - id: v
+      type: System.Double
+    return:
+      type: H.Extensions.Unit.Volume
+    content.vb: Public Shared Function Bushels(v As Double) As Volume
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.Bushels*
+  nameWithType.vb: USAUnitsExtensions.Bushels(Double)
+  fullName.vb: H.Extensions.Unit.USA.USAUnitsExtensions.Bushels(Double)
+  name.vb: Bushels(Double)
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.InBushels(H.Extensions.Unit.Volume)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.InBushels(H.Extensions.Unit.Volume)
+  id: InBushels(H.Extensions.Unit.Volume)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: InBushels(Volume)
+  nameWithType: USAUnitsExtensions.InBushels(Volume)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.InBushels(H.Extensions.Unit.Volume)
+  type: Method
+  source:
+    id: InBushels
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 258
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static double InBushels(this Volume v)
+    parameters:
+    - id: v
+      type: H.Extensions.Unit.Volume
+    return:
+      type: System.Double
+    content.vb: Public Shared Function InBushels(v As Volume) As Double
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.InBushels*
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.Pecks(System.Int32)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.Pecks(System.Int32)
+  id: Pecks(System.Int32)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: Pecks(int)
+  nameWithType: USAUnitsExtensions.Pecks(int)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.Pecks(int)
+  type: Method
+  source:
+    id: Pecks
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 262
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static Volume Pecks(this int v)
+    parameters:
+    - id: v
+      type: System.Int32
+    return:
+      type: H.Extensions.Unit.Volume
+    content.vb: Public Shared Function Pecks(v As Integer) As Volume
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.Pecks*
+  nameWithType.vb: USAUnitsExtensions.Pecks(Integer)
+  fullName.vb: H.Extensions.Unit.USA.USAUnitsExtensions.Pecks(Integer)
+  name.vb: Pecks(Integer)
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.Pecks(System.Double)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.Pecks(System.Double)
+  id: Pecks(System.Double)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: Pecks(double)
+  nameWithType: USAUnitsExtensions.Pecks(double)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.Pecks(double)
+  type: Method
+  source:
+    id: Pecks
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 263
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static Volume Pecks(this double v)
+    parameters:
+    - id: v
+      type: System.Double
+    return:
+      type: H.Extensions.Unit.Volume
+    content.vb: Public Shared Function Pecks(v As Double) As Volume
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.Pecks*
+  nameWithType.vb: USAUnitsExtensions.Pecks(Double)
+  fullName.vb: H.Extensions.Unit.USA.USAUnitsExtensions.Pecks(Double)
+  name.vb: Pecks(Double)
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.InPecks(H.Extensions.Unit.Volume)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.InPecks(H.Extensions.Unit.Volume)
+  id: InPecks(H.Extensions.Unit.Volume)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: InPecks(Volume)
+  nameWithType: USAUnitsExtensions.InPecks(Volume)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.InPecks(H.Extensions.Unit.Volume)
+  type: Method
+  source:
+    id: InPecks
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 267
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static double InPecks(this Volume v)
+    parameters:
+    - id: v
+      type: H.Extensions.Unit.Volume
+    return:
+      type: System.Double
+    content.vb: Public Shared Function InPecks(v As Volume) As Double
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.InPecks*
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.Cups(System.Int32)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.Cups(System.Int32)
+  id: Cups(System.Int32)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: Cups(int)
+  nameWithType: USAUnitsExtensions.Cups(int)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.Cups(int)
+  type: Method
+  source:
+    id: Cups
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 271
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static Volume Cups(this int v)
+    parameters:
+    - id: v
+      type: System.Int32
+    return:
+      type: H.Extensions.Unit.Volume
+    content.vb: Public Shared Function Cups(v As Integer) As Volume
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.Cups*
+  nameWithType.vb: USAUnitsExtensions.Cups(Integer)
+  fullName.vb: H.Extensions.Unit.USA.USAUnitsExtensions.Cups(Integer)
+  name.vb: Cups(Integer)
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.Cups(System.Double)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.Cups(System.Double)
+  id: Cups(System.Double)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: Cups(double)
+  nameWithType: USAUnitsExtensions.Cups(double)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.Cups(double)
+  type: Method
+  source:
+    id: Cups
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 272
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static Volume Cups(this double v)
+    parameters:
+    - id: v
+      type: System.Double
+    return:
+      type: H.Extensions.Unit.Volume
+    content.vb: Public Shared Function Cups(v As Double) As Volume
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.Cups*
+  nameWithType.vb: USAUnitsExtensions.Cups(Double)
+  fullName.vb: H.Extensions.Unit.USA.USAUnitsExtensions.Cups(Double)
+  name.vb: Cups(Double)
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.InCups(H.Extensions.Unit.Volume)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.InCups(H.Extensions.Unit.Volume)
+  id: InCups(H.Extensions.Unit.Volume)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: InCups(Volume)
+  nameWithType: USAUnitsExtensions.InCups(Volume)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.InCups(H.Extensions.Unit.Volume)
+  type: Method
+  source:
+    id: InCups
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 276
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static double InCups(this Volume v)
+    parameters:
+    - id: v
+      type: H.Extensions.Unit.Volume
+    return:
+      type: System.Double
+    content.vb: Public Shared Function InCups(v As Volume) As Double
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.InCups*
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.DegreesFahrenheit(System.Int32)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.DegreesFahrenheit(System.Int32)
+  id: DegreesFahrenheit(System.Int32)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: DegreesFahrenheit(int)
+  nameWithType: USAUnitsExtensions.DegreesFahrenheit(int)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.DegreesFahrenheit(int)
+  type: Method
+  source:
+    id: DegreesFahrenheit
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 280
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static TemperatureChange DegreesFahrenheit(this int v)
+    parameters:
+    - id: v
+      type: System.Int32
+    return:
+      type: H.Extensions.Unit.TemperatureChange
+    content.vb: Public Shared Function DegreesFahrenheit(v As Integer) As TemperatureChange
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.DegreesFahrenheit*
+  nameWithType.vb: USAUnitsExtensions.DegreesFahrenheit(Integer)
+  fullName.vb: H.Extensions.Unit.USA.USAUnitsExtensions.DegreesFahrenheit(Integer)
+  name.vb: DegreesFahrenheit(Integer)
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.DegreesFahrenheit(System.Double)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.DegreesFahrenheit(System.Double)
+  id: DegreesFahrenheit(System.Double)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: DegreesFahrenheit(double)
+  nameWithType: USAUnitsExtensions.DegreesFahrenheit(double)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.DegreesFahrenheit(double)
+  type: Method
+  source:
+    id: DegreesFahrenheit
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 281
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static TemperatureChange DegreesFahrenheit(this double v)
+    parameters:
+    - id: v
+      type: System.Double
+    return:
+      type: H.Extensions.Unit.TemperatureChange
+    content.vb: Public Shared Function DegreesFahrenheit(v As Double) As TemperatureChange
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.DegreesFahrenheit*
+  nameWithType.vb: USAUnitsExtensions.DegreesFahrenheit(Double)
+  fullName.vb: H.Extensions.Unit.USA.USAUnitsExtensions.DegreesFahrenheit(Double)
+  name.vb: DegreesFahrenheit(Double)
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.InDegreesFahrenheit(H.Extensions.Unit.TemperatureChange)
+  commentId: M:H.Extensions.Unit.USA.USAUnitsExtensions.InDegreesFahrenheit(H.Extensions.Unit.TemperatureChange)
+  id: InDegreesFahrenheit(H.Extensions.Unit.TemperatureChange)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.USA.USAUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: InDegreesFahrenheit(TemperatureChange)
+  nameWithType: USAUnitsExtensions.InDegreesFahrenheit(TemperatureChange)
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.InDegreesFahrenheit(H.Extensions.Unit.TemperatureChange)
+  type: Method
+  source:
+    id: InDegreesFahrenheit
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\USAUnits.cs
+    startLine: 285
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.USA
+  syntax:
+    content: public static double InDegreesFahrenheit(this TemperatureChange v)
+    parameters:
+    - id: v
+      type: H.Extensions.Unit.TemperatureChange
+    return:
+      type: System.Double
+    content.vb: Public Shared Function InDegreesFahrenheit(v As TemperatureChange) As Double
+  overload: H.Extensions.Unit.USA.USAUnitsExtensions.InDegreesFahrenheit*
+references:
+- uid: H.Extensions.Unit.USA
+  commentId: N:H.Extensions.Unit.USA
+  href: H.html
+  name: H.Extensions.Unit.USA
+  nameWithType: H.Extensions.Unit.USA
+  fullName: H.Extensions.Unit.USA
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Unit
+    name: Unit
+    href: H.Extensions.Unit.html
+  - name: .
+  - uid: H.Extensions.Unit.USA
+    name: USA
+    href: H.Extensions.Unit.USA.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Unit
+    name: Unit
+    href: H.Extensions.Unit.html
+  - name: .
+  - uid: H.Extensions.Unit.USA
+    name: USA
+    href: H.Extensions.Unit.USA.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.LongTons*
+  commentId: Overload:H.Extensions.Unit.USA.USAUnitsExtensions.LongTons
+  href: H.Extensions.Unit.USA.USAUnitsExtensions.html#H_Extensions_Unit_USA_USAUnitsExtensions_LongTons_System_Int32_
+  name: LongTons
+  nameWithType: USAUnitsExtensions.LongTons
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.LongTons
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: H.Extensions.Unit.Mass
+  commentId: T:H.Extensions.Unit.Mass
+  parent: H.Extensions.Unit
+  href: H.Extensions.Unit.Mass.html
+  name: Mass
+  nameWithType: Mass
+  fullName: H.Extensions.Unit.Mass
+- uid: H.Extensions.Unit
+  commentId: N:H.Extensions.Unit
+  href: H.html
+  name: H.Extensions.Unit
+  nameWithType: H.Extensions.Unit
+  fullName: H.Extensions.Unit
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Unit
+    name: Unit
+    href: H.Extensions.Unit.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Unit
+    name: Unit
+    href: H.Extensions.Unit.html
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.InLongTons*
+  commentId: Overload:H.Extensions.Unit.USA.USAUnitsExtensions.InLongTons
+  href: H.Extensions.Unit.USA.USAUnitsExtensions.html#H_Extensions_Unit_USA_USAUnitsExtensions_InLongTons_H_Extensions_Unit_Mass_
+  name: InLongTons
+  nameWithType: USAUnitsExtensions.InLongTons
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.InLongTons
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.Pounds*
+  commentId: Overload:H.Extensions.Unit.USA.USAUnitsExtensions.Pounds
+  href: H.Extensions.Unit.USA.USAUnitsExtensions.html#H_Extensions_Unit_USA_USAUnitsExtensions_Pounds_System_Int32_
+  name: Pounds
+  nameWithType: USAUnitsExtensions.Pounds
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.Pounds
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.InPounds*
+  commentId: Overload:H.Extensions.Unit.USA.USAUnitsExtensions.InPounds
+  href: H.Extensions.Unit.USA.USAUnitsExtensions.html#H_Extensions_Unit_USA_USAUnitsExtensions_InPounds_H_Extensions_Unit_Mass_
+  name: InPounds
+  nameWithType: USAUnitsExtensions.InPounds
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.InPounds
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.Yards*
+  commentId: Overload:H.Extensions.Unit.USA.USAUnitsExtensions.Yards
+  href: H.Extensions.Unit.USA.USAUnitsExtensions.html#H_Extensions_Unit_USA_USAUnitsExtensions_Yards_System_Int32_
+  name: Yards
+  nameWithType: USAUnitsExtensions.Yards
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.Yards
+- uid: H.Extensions.Unit.Length
+  commentId: T:H.Extensions.Unit.Length
+  parent: H.Extensions.Unit
+  href: H.Extensions.Unit.Length.html
+  name: Length
+  nameWithType: Length
+  fullName: H.Extensions.Unit.Length
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.InYards*
+  commentId: Overload:H.Extensions.Unit.USA.USAUnitsExtensions.InYards
+  href: H.Extensions.Unit.USA.USAUnitsExtensions.html#H_Extensions_Unit_USA_USAUnitsExtensions_InYards_H_Extensions_Unit_Length_
+  name: InYards
+  nameWithType: USAUnitsExtensions.InYards
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.InYards
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.Feet*
+  commentId: Overload:H.Extensions.Unit.USA.USAUnitsExtensions.Feet
+  href: H.Extensions.Unit.USA.USAUnitsExtensions.html#H_Extensions_Unit_USA_USAUnitsExtensions_Feet_System_Int32_
+  name: Feet
+  nameWithType: USAUnitsExtensions.Feet
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.Feet
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.InFeet*
+  commentId: Overload:H.Extensions.Unit.USA.USAUnitsExtensions.InFeet
+  href: H.Extensions.Unit.USA.USAUnitsExtensions.html#H_Extensions_Unit_USA_USAUnitsExtensions_InFeet_H_Extensions_Unit_Length_
+  name: InFeet
+  nameWithType: USAUnitsExtensions.InFeet
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.InFeet
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.Inches*
+  commentId: Overload:H.Extensions.Unit.USA.USAUnitsExtensions.Inches
+  href: H.Extensions.Unit.USA.USAUnitsExtensions.html#H_Extensions_Unit_USA_USAUnitsExtensions_Inches_System_Int32_
+  name: Inches
+  nameWithType: USAUnitsExtensions.Inches
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.Inches
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.InInches*
+  commentId: Overload:H.Extensions.Unit.USA.USAUnitsExtensions.InInches
+  href: H.Extensions.Unit.USA.USAUnitsExtensions.html#H_Extensions_Unit_USA_USAUnitsExtensions_InInches_H_Extensions_Unit_Length_
+  name: InInches
+  nameWithType: USAUnitsExtensions.InInches
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.InInches
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.NauticalMiles*
+  commentId: Overload:H.Extensions.Unit.USA.USAUnitsExtensions.NauticalMiles
+  href: H.Extensions.Unit.USA.USAUnitsExtensions.html#H_Extensions_Unit_USA_USAUnitsExtensions_NauticalMiles_System_Int32_
+  name: NauticalMiles
+  nameWithType: USAUnitsExtensions.NauticalMiles
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.NauticalMiles
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.InNauticalMiles*
+  commentId: Overload:H.Extensions.Unit.USA.USAUnitsExtensions.InNauticalMiles
+  href: H.Extensions.Unit.USA.USAUnitsExtensions.html#H_Extensions_Unit_USA_USAUnitsExtensions_InNauticalMiles_H_Extensions_Unit_Length_
+  name: InNauticalMiles
+  nameWithType: USAUnitsExtensions.InNauticalMiles
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.InNauticalMiles
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.SquareFeet*
+  commentId: Overload:H.Extensions.Unit.USA.USAUnitsExtensions.SquareFeet
+  href: H.Extensions.Unit.USA.USAUnitsExtensions.html#H_Extensions_Unit_USA_USAUnitsExtensions_SquareFeet_System_Int32_
+  name: SquareFeet
+  nameWithType: USAUnitsExtensions.SquareFeet
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.SquareFeet
+- uid: H.Extensions.Unit.Area
+  commentId: T:H.Extensions.Unit.Area
+  parent: H.Extensions.Unit
+  href: H.Extensions.Unit.Area.html
+  name: Area
+  nameWithType: Area
+  fullName: H.Extensions.Unit.Area
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.InSquareFeet*
+  commentId: Overload:H.Extensions.Unit.USA.USAUnitsExtensions.InSquareFeet
+  href: H.Extensions.Unit.USA.USAUnitsExtensions.html#H_Extensions_Unit_USA_USAUnitsExtensions_InSquareFeet_H_Extensions_Unit_Area_
+  name: InSquareFeet
+  nameWithType: USAUnitsExtensions.InSquareFeet
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.InSquareFeet
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.Acres*
+  commentId: Overload:H.Extensions.Unit.USA.USAUnitsExtensions.Acres
+  href: H.Extensions.Unit.USA.USAUnitsExtensions.html#H_Extensions_Unit_USA_USAUnitsExtensions_Acres_System_Int32_
+  name: Acres
+  nameWithType: USAUnitsExtensions.Acres
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.Acres
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.InAcres*
+  commentId: Overload:H.Extensions.Unit.USA.USAUnitsExtensions.InAcres
+  href: H.Extensions.Unit.USA.USAUnitsExtensions.html#H_Extensions_Unit_USA_USAUnitsExtensions_InAcres_H_Extensions_Unit_Area_
+  name: InAcres
+  nameWithType: USAUnitsExtensions.InAcres
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.InAcres
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.SquareYards*
+  commentId: Overload:H.Extensions.Unit.USA.USAUnitsExtensions.SquareYards
+  href: H.Extensions.Unit.USA.USAUnitsExtensions.html#H_Extensions_Unit_USA_USAUnitsExtensions_SquareYards_System_Int32_
+  name: SquareYards
+  nameWithType: USAUnitsExtensions.SquareYards
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.SquareYards
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.InSquareYards*
+  commentId: Overload:H.Extensions.Unit.USA.USAUnitsExtensions.InSquareYards
+  href: H.Extensions.Unit.USA.USAUnitsExtensions.html#H_Extensions_Unit_USA_USAUnitsExtensions_InSquareYards_H_Extensions_Unit_Area_
+  name: InSquareYards
+  nameWithType: USAUnitsExtensions.InSquareYards
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.InSquareYards
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.SquareInches*
+  commentId: Overload:H.Extensions.Unit.USA.USAUnitsExtensions.SquareInches
+  href: H.Extensions.Unit.USA.USAUnitsExtensions.html#H_Extensions_Unit_USA_USAUnitsExtensions_SquareInches_System_Int32_
+  name: SquareInches
+  nameWithType: USAUnitsExtensions.SquareInches
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.SquareInches
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.InSquareInches*
+  commentId: Overload:H.Extensions.Unit.USA.USAUnitsExtensions.InSquareInches
+  href: H.Extensions.Unit.USA.USAUnitsExtensions.html#H_Extensions_Unit_USA_USAUnitsExtensions_InSquareInches_H_Extensions_Unit_Area_
+  name: InSquareInches
+  nameWithType: USAUnitsExtensions.InSquareInches
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.InSquareInches
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.CubicFeet*
+  commentId: Overload:H.Extensions.Unit.USA.USAUnitsExtensions.CubicFeet
+  href: H.Extensions.Unit.USA.USAUnitsExtensions.html#H_Extensions_Unit_USA_USAUnitsExtensions_CubicFeet_System_Int32_
+  name: CubicFeet
+  nameWithType: USAUnitsExtensions.CubicFeet
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.CubicFeet
+- uid: H.Extensions.Unit.Volume
+  commentId: T:H.Extensions.Unit.Volume
+  parent: H.Extensions.Unit
+  href: H.Extensions.Unit.Volume.html
+  name: Volume
+  nameWithType: Volume
+  fullName: H.Extensions.Unit.Volume
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.InCubicFeet*
+  commentId: Overload:H.Extensions.Unit.USA.USAUnitsExtensions.InCubicFeet
+  href: H.Extensions.Unit.USA.USAUnitsExtensions.html#H_Extensions_Unit_USA_USAUnitsExtensions_InCubicFeet_H_Extensions_Unit_Volume_
+  name: InCubicFeet
+  nameWithType: USAUnitsExtensions.InCubicFeet
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.InCubicFeet
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.CubicYards*
+  commentId: Overload:H.Extensions.Unit.USA.USAUnitsExtensions.CubicYards
+  href: H.Extensions.Unit.USA.USAUnitsExtensions.html#H_Extensions_Unit_USA_USAUnitsExtensions_CubicYards_System_Int32_
+  name: CubicYards
+  nameWithType: USAUnitsExtensions.CubicYards
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.CubicYards
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.InCubicYards*
+  commentId: Overload:H.Extensions.Unit.USA.USAUnitsExtensions.InCubicYards
+  href: H.Extensions.Unit.USA.USAUnitsExtensions.html#H_Extensions_Unit_USA_USAUnitsExtensions_InCubicYards_H_Extensions_Unit_Volume_
+  name: InCubicYards
+  nameWithType: USAUnitsExtensions.InCubicYards
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.InCubicYards
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.CubicInches*
+  commentId: Overload:H.Extensions.Unit.USA.USAUnitsExtensions.CubicInches
+  href: H.Extensions.Unit.USA.USAUnitsExtensions.html#H_Extensions_Unit_USA_USAUnitsExtensions_CubicInches_System_Int32_
+  name: CubicInches
+  nameWithType: USAUnitsExtensions.CubicInches
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.CubicInches
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.InCubicInches*
+  commentId: Overload:H.Extensions.Unit.USA.USAUnitsExtensions.InCubicInches
+  href: H.Extensions.Unit.USA.USAUnitsExtensions.html#H_Extensions_Unit_USA_USAUnitsExtensions_InCubicInches_H_Extensions_Unit_Volume_
+  name: InCubicInches
+  nameWithType: USAUnitsExtensions.InCubicInches
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.InCubicInches
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.Gallons*
+  commentId: Overload:H.Extensions.Unit.USA.USAUnitsExtensions.Gallons
+  href: H.Extensions.Unit.USA.USAUnitsExtensions.html#H_Extensions_Unit_USA_USAUnitsExtensions_Gallons_System_Int32_
+  name: Gallons
+  nameWithType: USAUnitsExtensions.Gallons
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.Gallons
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.InGallons*
+  commentId: Overload:H.Extensions.Unit.USA.USAUnitsExtensions.InGallons
+  href: H.Extensions.Unit.USA.USAUnitsExtensions.html#H_Extensions_Unit_USA_USAUnitsExtensions_InGallons_H_Extensions_Unit_Volume_
+  name: InGallons
+  nameWithType: USAUnitsExtensions.InGallons
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.InGallons
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.Quarts*
+  commentId: Overload:H.Extensions.Unit.USA.USAUnitsExtensions.Quarts
+  href: H.Extensions.Unit.USA.USAUnitsExtensions.html#H_Extensions_Unit_USA_USAUnitsExtensions_Quarts_System_Int32_
+  name: Quarts
+  nameWithType: USAUnitsExtensions.Quarts
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.Quarts
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.InQuarts*
+  commentId: Overload:H.Extensions.Unit.USA.USAUnitsExtensions.InQuarts
+  href: H.Extensions.Unit.USA.USAUnitsExtensions.html#H_Extensions_Unit_USA_USAUnitsExtensions_InQuarts_H_Extensions_Unit_Volume_
+  name: InQuarts
+  nameWithType: USAUnitsExtensions.InQuarts
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.InQuarts
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.DryGallons*
+  commentId: Overload:H.Extensions.Unit.USA.USAUnitsExtensions.DryGallons
+  href: H.Extensions.Unit.USA.USAUnitsExtensions.html#H_Extensions_Unit_USA_USAUnitsExtensions_DryGallons_System_Int32_
+  name: DryGallons
+  nameWithType: USAUnitsExtensions.DryGallons
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.DryGallons
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.InDryGallons*
+  commentId: Overload:H.Extensions.Unit.USA.USAUnitsExtensions.InDryGallons
+  href: H.Extensions.Unit.USA.USAUnitsExtensions.html#H_Extensions_Unit_USA_USAUnitsExtensions_InDryGallons_H_Extensions_Unit_Volume_
+  name: InDryGallons
+  nameWithType: USAUnitsExtensions.InDryGallons
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.InDryGallons
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.DryQuarts*
+  commentId: Overload:H.Extensions.Unit.USA.USAUnitsExtensions.DryQuarts
+  href: H.Extensions.Unit.USA.USAUnitsExtensions.html#H_Extensions_Unit_USA_USAUnitsExtensions_DryQuarts_System_Int32_
+  name: DryQuarts
+  nameWithType: USAUnitsExtensions.DryQuarts
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.DryQuarts
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.InDryQuarts*
+  commentId: Overload:H.Extensions.Unit.USA.USAUnitsExtensions.InDryQuarts
+  href: H.Extensions.Unit.USA.USAUnitsExtensions.html#H_Extensions_Unit_USA_USAUnitsExtensions_InDryQuarts_H_Extensions_Unit_Volume_
+  name: InDryQuarts
+  nameWithType: USAUnitsExtensions.InDryQuarts
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.InDryQuarts
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.Bushels*
+  commentId: Overload:H.Extensions.Unit.USA.USAUnitsExtensions.Bushels
+  href: H.Extensions.Unit.USA.USAUnitsExtensions.html#H_Extensions_Unit_USA_USAUnitsExtensions_Bushels_System_Int32_
+  name: Bushels
+  nameWithType: USAUnitsExtensions.Bushels
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.Bushels
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.InBushels*
+  commentId: Overload:H.Extensions.Unit.USA.USAUnitsExtensions.InBushels
+  href: H.Extensions.Unit.USA.USAUnitsExtensions.html#H_Extensions_Unit_USA_USAUnitsExtensions_InBushels_H_Extensions_Unit_Volume_
+  name: InBushels
+  nameWithType: USAUnitsExtensions.InBushels
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.InBushels
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.Pecks*
+  commentId: Overload:H.Extensions.Unit.USA.USAUnitsExtensions.Pecks
+  href: H.Extensions.Unit.USA.USAUnitsExtensions.html#H_Extensions_Unit_USA_USAUnitsExtensions_Pecks_System_Int32_
+  name: Pecks
+  nameWithType: USAUnitsExtensions.Pecks
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.Pecks
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.InPecks*
+  commentId: Overload:H.Extensions.Unit.USA.USAUnitsExtensions.InPecks
+  href: H.Extensions.Unit.USA.USAUnitsExtensions.html#H_Extensions_Unit_USA_USAUnitsExtensions_InPecks_H_Extensions_Unit_Volume_
+  name: InPecks
+  nameWithType: USAUnitsExtensions.InPecks
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.InPecks
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.Cups*
+  commentId: Overload:H.Extensions.Unit.USA.USAUnitsExtensions.Cups
+  href: H.Extensions.Unit.USA.USAUnitsExtensions.html#H_Extensions_Unit_USA_USAUnitsExtensions_Cups_System_Int32_
+  name: Cups
+  nameWithType: USAUnitsExtensions.Cups
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.Cups
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.InCups*
+  commentId: Overload:H.Extensions.Unit.USA.USAUnitsExtensions.InCups
+  href: H.Extensions.Unit.USA.USAUnitsExtensions.html#H_Extensions_Unit_USA_USAUnitsExtensions_InCups_H_Extensions_Unit_Volume_
+  name: InCups
+  nameWithType: USAUnitsExtensions.InCups
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.InCups
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.DegreesFahrenheit*
+  commentId: Overload:H.Extensions.Unit.USA.USAUnitsExtensions.DegreesFahrenheit
+  href: H.Extensions.Unit.USA.USAUnitsExtensions.html#H_Extensions_Unit_USA_USAUnitsExtensions_DegreesFahrenheit_System_Int32_
+  name: DegreesFahrenheit
+  nameWithType: USAUnitsExtensions.DegreesFahrenheit
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.DegreesFahrenheit
+- uid: H.Extensions.Unit.TemperatureChange
+  commentId: T:H.Extensions.Unit.TemperatureChange
+  parent: H.Extensions.Unit
+  href: H.Extensions.Unit.TemperatureChange.html
+  name: TemperatureChange
+  nameWithType: TemperatureChange
+  fullName: H.Extensions.Unit.TemperatureChange
+- uid: H.Extensions.Unit.USA.USAUnitsExtensions.InDegreesFahrenheit*
+  commentId: Overload:H.Extensions.Unit.USA.USAUnitsExtensions.InDegreesFahrenheit
+  href: H.Extensions.Unit.USA.USAUnitsExtensions.html#H_Extensions_Unit_USA_USAUnitsExtensions_InDegreesFahrenheit_H_Extensions_Unit_TemperatureChange_
+  name: InDegreesFahrenheit
+  nameWithType: USAUnitsExtensions.InDegreesFahrenheit
+  fullName: H.Extensions.Unit.USA.USAUnitsExtensions.InDegreesFahrenheit

@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.AppPath
+  commentId: N:H.Extensions.AppPath
+  id: H.Extensions.AppPath
+  children:
+  - H.Extensions.AppPath.AppPathServce
+  - H.Extensions.AppPath.ClearCacheDataCommand
+  langs:
+  - csharp
+  - vb
+  name: H.Extensions.AppPath
+  nameWithType: H.Extensions.AppPath
+  fullName: H.Extensions.AppPath
+  type: Namespace
+  assemblies:
+  - H.Extensions.AppPath
+references:
+- uid: H.Extensions.AppPath.AppPathServce
+  commentId: T:H.Extensions.AppPath.AppPathServce
+  href: H.Extensions.AppPath.AppPathServce.html
+  name: AppPathServce
+  nameWithType: AppPathServce
+  fullName: H.Extensions.AppPath.AppPathServce
+- uid: H.Extensions.AppPath.ClearCacheDataCommand
+  commentId: T:H.Extensions.AppPath.ClearCacheDataCommand
+  href: H.Extensions.AppPath.ClearCacheDataCommand.html
+  name: ClearCacheDataCommand
+  nameWithType: ClearCacheDataCommand
+  fullName: H.Extensions.AppPath.ClearCacheDataCommand

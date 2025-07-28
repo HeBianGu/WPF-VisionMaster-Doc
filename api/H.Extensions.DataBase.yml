@@ -1,0 +1,213 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.DataBase
+  commentId: N:H.Extensions.DataBase
+  id: H.Extensions.DataBase
+  children:
+  - H.Extensions.DataBase.DbModelBase
+  - H.Extensions.DataBase.EntityBase`1
+  - H.Extensions.DataBase.GuidEntityBase
+  - H.Extensions.DataBase.IEntityBase`1
+  - H.Extensions.DataBase.IRepository
+  - H.Extensions.DataBase.IRepository`1
+  - H.Extensions.DataBase.IRepository`2
+  - H.Extensions.DataBase.IStringRepository`1
+  - H.Extensions.DataBase.StringEntityBase
+  langs:
+  - csharp
+  - vb
+  name: H.Extensions.DataBase
+  nameWithType: H.Extensions.DataBase
+  fullName: H.Extensions.DataBase
+  type: Namespace
+  assemblies:
+  - H.Extensions.DataBase
+references:
+- uid: H.Extensions.DataBase.DbModelBase
+  commentId: T:H.Extensions.DataBase.DbModelBase
+  parent: H.Extensions.DataBase
+  href: H.Extensions.DataBase.DbModelBase.html
+  name: DbModelBase
+  nameWithType: DbModelBase
+  fullName: H.Extensions.DataBase.DbModelBase
+- uid: H.Extensions.DataBase.EntityBase`1
+  commentId: T:H.Extensions.DataBase.EntityBase`1
+  href: H.Extensions.DataBase.EntityBase-1.html
+  name: EntityBase<TPrimaryKey>
+  nameWithType: EntityBase<TPrimaryKey>
+  fullName: H.Extensions.DataBase.EntityBase<TPrimaryKey>
+  nameWithType.vb: EntityBase(Of TPrimaryKey)
+  fullName.vb: H.Extensions.DataBase.EntityBase(Of TPrimaryKey)
+  name.vb: EntityBase(Of TPrimaryKey)
+  spec.csharp:
+  - uid: H.Extensions.DataBase.EntityBase`1
+    name: EntityBase
+    href: H.Extensions.DataBase.EntityBase-1.html
+  - name: <
+  - name: TPrimaryKey
+  - name: '>'
+  spec.vb:
+  - uid: H.Extensions.DataBase.EntityBase`1
+    name: EntityBase
+    href: H.Extensions.DataBase.EntityBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TPrimaryKey
+  - name: )
+- uid: H.Extensions.DataBase.GuidEntityBase
+  commentId: T:H.Extensions.DataBase.GuidEntityBase
+  href: H.Extensions.DataBase.GuidEntityBase.html
+  name: GuidEntityBase
+  nameWithType: GuidEntityBase
+  fullName: H.Extensions.DataBase.GuidEntityBase
+- uid: H.Extensions.DataBase.IEntityBase`1
+  commentId: T:H.Extensions.DataBase.IEntityBase`1
+  href: H.Extensions.DataBase.IEntityBase-1.html
+  name: IEntityBase<TPrimaryKey>
+  nameWithType: IEntityBase<TPrimaryKey>
+  fullName: H.Extensions.DataBase.IEntityBase<TPrimaryKey>
+  nameWithType.vb: IEntityBase(Of TPrimaryKey)
+  fullName.vb: H.Extensions.DataBase.IEntityBase(Of TPrimaryKey)
+  name.vb: IEntityBase(Of TPrimaryKey)
+  spec.csharp:
+  - uid: H.Extensions.DataBase.IEntityBase`1
+    name: IEntityBase
+    href: H.Extensions.DataBase.IEntityBase-1.html
+  - name: <
+  - name: TPrimaryKey
+  - name: '>'
+  spec.vb:
+  - uid: H.Extensions.DataBase.IEntityBase`1
+    name: IEntityBase
+    href: H.Extensions.DataBase.IEntityBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TPrimaryKey
+  - name: )
+- uid: H.Extensions.DataBase.IRepository
+  commentId: T:H.Extensions.DataBase.IRepository
+  parent: H.Extensions.DataBase
+  href: H.Extensions.DataBase.IRepository.html
+  name: IRepository
+  nameWithType: IRepository
+  fullName: H.Extensions.DataBase.IRepository
+- uid: H.Extensions.DataBase.IRepository`2
+  commentId: T:H.Extensions.DataBase.IRepository`2
+  href: H.Extensions.DataBase.IRepository-2.html
+  name: IRepository<TEntity, TPrimaryKey>
+  nameWithType: IRepository<TEntity, TPrimaryKey>
+  fullName: H.Extensions.DataBase.IRepository<TEntity, TPrimaryKey>
+  nameWithType.vb: IRepository(Of TEntity, TPrimaryKey)
+  fullName.vb: H.Extensions.DataBase.IRepository(Of TEntity, TPrimaryKey)
+  name.vb: IRepository(Of TEntity, TPrimaryKey)
+  spec.csharp:
+  - uid: H.Extensions.DataBase.IRepository`2
+    name: IRepository
+    href: H.Extensions.DataBase.IRepository-2.html
+  - name: <
+  - name: TEntity
+  - name: ','
+  - name: " "
+  - name: TPrimaryKey
+  - name: '>'
+  spec.vb:
+  - uid: H.Extensions.DataBase.IRepository`2
+    name: IRepository
+    href: H.Extensions.DataBase.IRepository-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: ','
+  - name: " "
+  - name: TPrimaryKey
+  - name: )
+- uid: H.Extensions.DataBase.IRepository`1
+  commentId: T:H.Extensions.DataBase.IRepository`1
+  href: H.Extensions.DataBase.IRepository-1.html
+  name: IRepository<TEntity>
+  nameWithType: IRepository<TEntity>
+  fullName: H.Extensions.DataBase.IRepository<TEntity>
+  nameWithType.vb: IRepository(Of TEntity)
+  fullName.vb: H.Extensions.DataBase.IRepository(Of TEntity)
+  name.vb: IRepository(Of TEntity)
+  spec.csharp:
+  - uid: H.Extensions.DataBase.IRepository`1
+    name: IRepository
+    href: H.Extensions.DataBase.IRepository-1.html
+  - name: <
+  - name: TEntity
+  - name: '>'
+  spec.vb:
+  - uid: H.Extensions.DataBase.IRepository`1
+    name: IRepository
+    href: H.Extensions.DataBase.IRepository-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: )
+- uid: H.Extensions.DataBase.IStringRepository`1
+  commentId: T:H.Extensions.DataBase.IStringRepository`1
+  href: H.Extensions.DataBase.IStringRepository-1.html
+  name: IStringRepository<TEntity>
+  nameWithType: IStringRepository<TEntity>
+  fullName: H.Extensions.DataBase.IStringRepository<TEntity>
+  nameWithType.vb: IStringRepository(Of TEntity)
+  fullName.vb: H.Extensions.DataBase.IStringRepository(Of TEntity)
+  name.vb: IStringRepository(Of TEntity)
+  spec.csharp:
+  - uid: H.Extensions.DataBase.IStringRepository`1
+    name: IStringRepository
+    href: H.Extensions.DataBase.IStringRepository-1.html
+  - name: <
+  - name: TEntity
+  - name: '>'
+  spec.vb:
+  - uid: H.Extensions.DataBase.IStringRepository`1
+    name: IStringRepository
+    href: H.Extensions.DataBase.IStringRepository-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: )
+- uid: H.Extensions.DataBase.StringEntityBase
+  commentId: T:H.Extensions.DataBase.StringEntityBase
+  parent: H.Extensions.DataBase
+  href: H.Extensions.DataBase.StringEntityBase.html
+  name: StringEntityBase
+  nameWithType: StringEntityBase
+  fullName: H.Extensions.DataBase.StringEntityBase
+- uid: H.Extensions.DataBase
+  commentId: N:H.Extensions.DataBase
+  href: H.html
+  name: H.Extensions.DataBase
+  nameWithType: H.Extensions.DataBase
+  fullName: H.Extensions.DataBase
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.DataBase
+    name: DataBase
+    href: H.Extensions.DataBase.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.DataBase
+    name: DataBase
+    href: H.Extensions.DataBase.html

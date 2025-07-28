@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class OnnxExtension | WPF-VisionMasterOpenCV2.0开发文档 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class OnnxExtension | WPF-VisionMasterOpenCV2.0开发文档 ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/HeBianGu/WPF-VisionMaster/new/Release-2.0/apiSpec/new?filename=H_NodeDatas_Onnx_OpenCV_OnnxExtension.md&amp;value=---%0Auid%3A%20H.NodeDatas.Onnx.OpenCV.OnnxExtension%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="WPF-VisionMasterOpenCV2.0开发文档">
+            WPF-VisionMasterOpenCV2.0开发文档
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="H.NodeDatas.Onnx.OpenCV.OnnxExtension">
+
+
+
+  <h1 id="H_NodeDatas_Onnx_OpenCV_OnnxExtension" data-uid="H.NodeDatas.Onnx.OpenCV.OnnxExtension" class="text-break">
+Class OnnxExtension  <a class="header-action link-secondary" title="View source" href="https://github.com/HeBianGu/WPF-VisionMaster/blob/Release-2.0/Source/NodeDatas/H.NodeDatas.Onnx.OpenCV/OnnxExtension.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="H.html">H</a>.<a class="xref" href="H.NodeDatas.html">NodeDatas</a>.<a class="xref" href="H.NodeDatas.Onnx.html">Onnx</a>.<a class="xref" href="H.NodeDatas.Onnx.OpenCV.html">OpenCV</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>H.NodeDatas.Onnx.OpenCV.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class OnnxExtension</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">OnnxExtension</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="H_NodeDatas_Onnx_OpenCV_OnnxExtension_Classification_" data-uid="H.NodeDatas.Onnx.OpenCV.OnnxExtension.Classification*"></a>
+
+  <h3 id="H_NodeDatas_Onnx_OpenCV_OnnxExtension_Classification_OpenCvSharp_Mat_System_String_OpenCvSharp_Size_OpenCvSharp_Scalar_OpenCvSharp_Scalar_System_Collections_Generic_List_System_String__System_Int32_System_Int32_System_Single_" data-uid="H.NodeDatas.Onnx.OpenCV.OnnxExtension.Classification(OpenCvSharp.Mat,System.String,OpenCvSharp.Size,OpenCvSharp.Scalar,OpenCvSharp.Scalar,System.Collections.Generic.List{System.String},System.Int32,System.Int32,System.Single)">
+  Classification(Mat, string, Size, Scalar, Scalar, List&lt;string&gt;, int, int, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HeBianGu/WPF-VisionMaster/blob/Release-2.0/Source/NodeDatas/H.NodeDatas.Onnx.OpenCV/OnnxExtension.cs/#L322"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;Tuple&lt;string, float&gt;&gt; Classification(this Mat image, string model_path, Size inputSize, Scalar mean, Scalar std, List&lt;string&gt; classNames, int rowIndex = 1, int columnIndex = 2, float blobScaleFactor = 255)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>image</code> <span class="xref">Mat</span></dt>
+    <dd></dd>
+    <dt><code>model_path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>inputSize</code> <span class="xref">Size</span></dt>
+    <dd></dd>
+    <dt><code>mean</code> <span class="xref">Scalar</span></dt>
+    <dd></dd>
+    <dt><code>std</code> <span class="xref">Scalar</span></dt>
+    <dd></dd>
+    <dt><code>classNames</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>rowIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>columnIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>blobScaleFactor</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.tuple-2">Tuple</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_NodeDatas_Onnx_OpenCV_OnnxExtension_CreateForwards_" data-uid="H.NodeDatas.Onnx.OpenCV.OnnxExtension.CreateForwards*"></a>
+
+  <h3 id="H_NodeDatas_Onnx_OpenCV_OnnxExtension_CreateForwards_OpenCvSharp_Dnn_Net_" data-uid="H.NodeDatas.Onnx.OpenCV.OnnxExtension.CreateForwards(OpenCvSharp.Dnn.Net)">
+  CreateForwards(Net)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HeBianGu/WPF-VisionMaster/blob/Release-2.0/Source/NodeDatas/H.NodeDatas.Onnx.OpenCV/OnnxExtension.cs/#L198"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;Mat&gt; CreateForwards(this Net net)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>net</code> <span class="xref">Net</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<span class="xref">Mat</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_NodeDatas_Onnx_OpenCV_OnnxExtension_DefectBoxes_" data-uid="H.NodeDatas.Onnx.OpenCV.OnnxExtension.DefectBoxes*"></a>
+
+  <h3 id="H_NodeDatas_Onnx_OpenCV_OnnxExtension_DefectBoxes_OpenCvSharp_Mat_System_String_OpenCvSharp_Size_OpenCvSharp_Scalar_OpenCvSharp_Scalar_System_Int32_System_Int32_System_Int32_System_Single_System_Single_System_Single_H_NodeDatas_Onnx_OpenCV_Base_BoxCoordinateMode_H_NodeDatas_Onnx_OpenCV_Base_BoxGeometryType_" data-uid="H.NodeDatas.Onnx.OpenCV.OnnxExtension.DefectBoxes(OpenCvSharp.Mat,System.String,OpenCvSharp.Size,OpenCvSharp.Scalar,OpenCvSharp.Scalar,System.Int32,System.Int32,System.Int32,System.Single,System.Single,System.Single,H.NodeDatas.Onnx.OpenCV.Base.BoxCoordinateMode,H.NodeDatas.Onnx.OpenCV.Base.BoxGeometryType)">
+  DefectBoxes(Mat, string, Size, Scalar, Scalar, int, int, int, float, float, float, BoxCoordinateMode, BoxGeometryType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HeBianGu/WPF-VisionMaster/blob/Release-2.0/Source/NodeDatas/H.NodeDatas.Onnx.OpenCV/OnnxExtension.cs/#L223"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;DefectBox&gt; DefectBoxes(this Mat image, string model_path, Size inputSize, Scalar mean, Scalar std, int rowIndex = 1, int columnIndex = 2, int confidenceIndex = 4, float threshold = 0.25, float nmsThreshold = 0.45, float blobScaleFactor = 255, BoxCoordinateMode boxCoordinateMode = BoxCoordinateMode.AbsolutePixels, BoxGeometryType boxGeometryType = BoxGeometryType.CenterWithSize)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>image</code> <span class="xref">Mat</span></dt>
+    <dd></dd>
+    <dt><code>model_path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>inputSize</code> <span class="xref">Size</span></dt>
+    <dd></dd>
+    <dt><code>mean</code> <span class="xref">Scalar</span></dt>
+    <dd></dd>
+    <dt><code>std</code> <span class="xref">Scalar</span></dt>
+    <dd></dd>
+    <dt><code>rowIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>columnIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>confidenceIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>threshold</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>nmsThreshold</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>blobScaleFactor</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>boxCoordinateMode</code> <a class="xref" href="H.NodeDatas.Onnx.OpenCV.Base.BoxCoordinateMode.html">BoxCoordinateMode</a></dt>
+    <dd></dd>
+    <dt><code>boxGeometryType</code> <a class="xref" href="H.NodeDatas.Onnx.OpenCV.Base.BoxGeometryType.html">BoxGeometryType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="H.NodeDatas.Onnx.OpenCV.Base.DefectBox.html">DefectBox</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_NodeDatas_Onnx_OpenCV_OnnxExtension_DrawDetectBoxLabels_" data-uid="H.NodeDatas.Onnx.OpenCV.OnnxExtension.DrawDetectBoxLabels*"></a>
+
+  <h3 id="H_NodeDatas_Onnx_OpenCV_OnnxExtension_DrawDetectBoxLabels_OpenCvSharp_Mat_System_Collections_Generic_IEnumerable_H_NodeDatas_Onnx_OpenCV_Base_DefectBox__System_Windows_Media_Color_System_Windows_Media_Color_System_Collections_Generic_List_System_String__System_Boolean_" data-uid="H.NodeDatas.Onnx.OpenCV.OnnxExtension.DrawDetectBoxLabels(OpenCvSharp.Mat,System.Collections.Generic.IEnumerable{H.NodeDatas.Onnx.OpenCV.Base.DefectBox},System.Windows.Media.Color,System.Windows.Media.Color,System.Collections.Generic.List{System.String},System.Boolean)">
+  DrawDetectBoxLabels(Mat, IEnumerable&lt;DefectBox&gt;, Color, Color, List&lt;string&gt;, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HeBianGu/WPF-VisionMaster/blob/Release-2.0/Source/NodeDatas/H.NodeDatas.Onnx.OpenCV/OnnxExtension.cs/#L169"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;Tuple&lt;DefectBox, string, double&gt;&gt; DrawDetectBoxLabels(this Mat image, IEnumerable&lt;DefectBox&gt; defectBoxes, Color labelBackColor, Color labelColor, List&lt;string&gt; classNames, bool useScore = true)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>image</code> <span class="xref">Mat</span></dt>
+    <dd></dd>
+    <dt><code>defectBoxes</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="H.NodeDatas.Onnx.OpenCV.Base.DefectBox.html">DefectBox</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>labelBackColor</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.color">Color</a></dt>
+    <dd></dd>
+    <dt><code>labelColor</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.color">Color</a></dt>
+    <dd></dd>
+    <dt><code>classNames</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>useScore</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.tuple-3">Tuple</a>&lt;<a class="xref" href="H.NodeDatas.Onnx.OpenCV.Base.DefectBox.html">DefectBox</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_NodeDatas_Onnx_OpenCV_OnnxExtension_DrawDetectBoxes_" data-uid="H.NodeDatas.Onnx.OpenCV.OnnxExtension.DrawDetectBoxes*"></a>
+
+  <h3 id="H_NodeDatas_Onnx_OpenCV_OnnxExtension_DrawDetectBoxes_OpenCvSharp_Mat_System_Windows_Media_Color_System_Int32_H_NodeDatas_Onnx_OpenCV_Base_DefectBox___" data-uid="H.NodeDatas.Onnx.OpenCV.OnnxExtension.DrawDetectBoxes(OpenCvSharp.Mat,System.Windows.Media.Color,System.Int32,H.NodeDatas.Onnx.OpenCV.Base.DefectBox[])">
+  DrawDetectBoxes(Mat, Color, int, params DefectBox[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HeBianGu/WPF-VisionMaster/blob/Release-2.0/Source/NodeDatas/H.NodeDatas.Onnx.OpenCV/OnnxExtension.cs/#L160"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DrawDetectBoxes(this Mat image, Color boxColor, int boxThickness = 1, params DefectBox[] defectBoxes)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>image</code> <span class="xref">Mat</span></dt>
+    <dd></dd>
+    <dt><code>boxColor</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.color">Color</a></dt>
+    <dd></dd>
+    <dt><code>boxThickness</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>defectBoxes</code> <a class="xref" href="H.NodeDatas.Onnx.OpenCV.Base.DefectBox.html">DefectBox</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_NodeDatas_Onnx_OpenCV_OnnxExtension_GetClassNames_" data-uid="H.NodeDatas.Onnx.OpenCV.OnnxExtension.GetClassNames*"></a>
+
+  <h3 id="H_NodeDatas_Onnx_OpenCV_OnnxExtension_GetClassNames_System_String_" data-uid="H.NodeDatas.Onnx.OpenCV.OnnxExtension.GetClassNames(System.String)">
+  GetClassNames(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HeBianGu/WPF-VisionMaster/blob/Release-2.0/Source/NodeDatas/H.NodeDatas.Onnx.OpenCV/OnnxExtension.cs/#L361"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;string&gt; GetClassNames(this string lablePath)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>lablePath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_NodeDatas_Onnx_OpenCV_OnnxExtension_GetForwards_" data-uid="H.NodeDatas.Onnx.OpenCV.OnnxExtension.GetForwards*"></a>
+
+  <h3 id="H_NodeDatas_Onnx_OpenCV_OnnxExtension_GetForwards_OpenCvSharp_Mat_System_String_OpenCvSharp_Size_OpenCvSharp_Scalar_OpenCvSharp_Scalar_System_Single_" data-uid="H.NodeDatas.Onnx.OpenCV.OnnxExtension.GetForwards(OpenCvSharp.Mat,System.String,OpenCvSharp.Size,OpenCvSharp.Scalar,OpenCvSharp.Scalar,System.Single)">
+  GetForwards(Mat, string, Size, Scalar, Scalar, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HeBianGu/WPF-VisionMaster/blob/Release-2.0/Source/NodeDatas/H.NodeDatas.Onnx.OpenCV/OnnxExtension.cs/#L213"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;Mat&gt; GetForwards(this Mat image, string model_path, Size inputSize, Scalar mean, Scalar std, float blobScaleFactor = 255)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>image</code> <span class="xref">Mat</span></dt>
+    <dd></dd>
+    <dt><code>model_path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>inputSize</code> <span class="xref">Size</span></dt>
+    <dd></dd>
+    <dt><code>mean</code> <span class="xref">Scalar</span></dt>
+    <dd></dd>
+    <dt><code>std</code> <span class="xref">Scalar</span></dt>
+    <dd></dd>
+    <dt><code>blobScaleFactor</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<span class="xref">Mat</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_NodeDatas_Onnx_OpenCV_OnnxExtension_GetMasks_" data-uid="H.NodeDatas.Onnx.OpenCV.OnnxExtension.GetMasks*"></a>
+
+  <h3 id="H_NodeDatas_Onnx_OpenCV_OnnxExtension_GetMasks_OpenCvSharp_Mat_System_Int32_System_Int32_System_Int32_" data-uid="H.NodeDatas.Onnx.OpenCV.OnnxExtension.GetMasks(OpenCvSharp.Mat,System.Int32,System.Int32,System.Int32)">
+  GetMasks(Mat, int, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HeBianGu/WPF-VisionMaster/blob/Release-2.0/Source/NodeDatas/H.NodeDatas.Onnx.OpenCV/OnnxExtension.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;Mat&gt; GetMasks(this Mat forward, int count, int rowIndex = 0, int columnIndex = 1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>forward</code> <span class="xref">Mat</span></dt>
+    <dd></dd>
+    <dt><code>count</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>rowIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>columnIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<span class="xref">Mat</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_NodeDatas_Onnx_OpenCV_OnnxExtension_InferValues_" data-uid="H.NodeDatas.Onnx.OpenCV.OnnxExtension.InferValues*"></a>
+
+  <h3 id="H_NodeDatas_Onnx_OpenCV_OnnxExtension_InferValues_OpenCvSharp_Mat_System_String_OpenCvSharp_Size_OpenCvSharp_Scalar_OpenCvSharp_Scalar_System_Int32_System_Int32_System_Single_" data-uid="H.NodeDatas.Onnx.OpenCV.OnnxExtension.InferValues(OpenCvSharp.Mat,System.String,OpenCvSharp.Size,OpenCvSharp.Scalar,OpenCvSharp.Scalar,System.Int32,System.Int32,System.Single)">
+  InferValues(Mat, string, Size, Scalar, Scalar, int, int, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HeBianGu/WPF-VisionMaster/blob/Release-2.0/Source/NodeDatas/H.NodeDatas.Onnx.OpenCV/OnnxExtension.cs/#L294"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;float&gt; InferValues(this Mat image, string model_path, Size inputSize, Scalar mean, Scalar std, int rowIndex = 1, int columnIndex = 2, float blobScaleFactor = 255)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>image</code> <span class="xref">Mat</span></dt>
+    <dd></dd>
+    <dt><code>model_path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>inputSize</code> <span class="xref">Size</span></dt>
+    <dd></dd>
+    <dt><code>mean</code> <span class="xref">Scalar</span></dt>
+    <dd></dd>
+    <dt><code>std</code> <span class="xref">Scalar</span></dt>
+    <dd></dd>
+    <dt><code>rowIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>columnIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>blobScaleFactor</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_NodeDatas_Onnx_OpenCV_OnnxExtension_SemanticSegmentation_" data-uid="H.NodeDatas.Onnx.OpenCV.OnnxExtension.SemanticSegmentation*"></a>
+
+  <h3 id="H_NodeDatas_Onnx_OpenCV_OnnxExtension_SemanticSegmentation_OpenCvSharp_Mat_System_String_OpenCvSharp_Size_OpenCvSharp_Scalar_OpenCvSharp_Scalar_System_Int32_System_Int32_System_Single_" data-uid="H.NodeDatas.Onnx.OpenCV.OnnxExtension.SemanticSegmentation(OpenCvSharp.Mat,System.String,OpenCvSharp.Size,OpenCvSharp.Scalar,OpenCvSharp.Scalar,System.Int32,System.Int32,System.Single)">
+  SemanticSegmentation(Mat, string, Size, Scalar, Scalar, int, int, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HeBianGu/WPF-VisionMaster/blob/Release-2.0/Source/NodeDatas/H.NodeDatas.Onnx.OpenCV/OnnxExtension.cs/#L338"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;Tuple&lt;float, Mat&gt;&gt; SemanticSegmentation(this Mat image, string model_path, Size inputSize, Scalar mean, Scalar std, int rowIndex = 1, int columnIndex = 2, float blobScaleFactor = 255)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>image</code> <span class="xref">Mat</span></dt>
+    <dd></dd>
+    <dt><code>model_path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>inputSize</code> <span class="xref">Size</span></dt>
+    <dd></dd>
+    <dt><code>mean</code> <span class="xref">Scalar</span></dt>
+    <dd></dd>
+    <dt><code>std</code> <span class="xref">Scalar</span></dt>
+    <dd></dd>
+    <dt><code>rowIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>columnIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>blobScaleFactor</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.tuple-2">Tuple</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>, <span class="xref">Mat</span>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_NodeDatas_Onnx_OpenCV_OnnxExtension_ToDefectBoxs_" data-uid="H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToDefectBoxs*"></a>
+
+  <h3 id="H_NodeDatas_Onnx_OpenCV_OnnxExtension_ToDefectBoxs_OpenCvSharp_Mat_System_Int32_System_Single_System_Func_System_Single_System_Single_System_Single_System_Single_OpenCvSharp_Rect2f__" data-uid="H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToDefectBoxs(OpenCvSharp.Mat,System.Int32,System.Single,System.Func{System.Single,System.Single,System.Single,System.Single,OpenCvSharp.Rect2f})">
+  ToDefectBoxs(Mat, int, float, Func&lt;float, float, float, float, Rect2f&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HeBianGu/WPF-VisionMaster/blob/Release-2.0/Source/NodeDatas/H.NodeDatas.Onnx.OpenCV/OnnxExtension.cs/#L60"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>根据结果数据提取</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;DefectBox&gt; ToDefectBoxs(this Mat outputData, int confidenceIndex, float threshold, Func&lt;float, float, float, float, Rect2f&gt; convertToRect)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>outputData</code> <span class="xref">Mat</span></dt>
+    <dd></dd>
+    <dt><code>confidenceIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>threshold</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>convertToRect</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-5">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>, <span class="xref">Rect2f</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="H.NodeDatas.Onnx.OpenCV.Base.DefectBox.html">DefectBox</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_NodeDatas_Onnx_OpenCV_OnnxExtension_ToInputMat_" data-uid="H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToInputMat*"></a>
+
+  <h3 id="H_NodeDatas_Onnx_OpenCV_OnnxExtension_ToInputMat_OpenCvSharp_Mat_System_Single_OpenCvSharp_Size_OpenCvSharp_Scalar_OpenCvSharp_Scalar_" data-uid="H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToInputMat(OpenCvSharp.Mat,System.Single,OpenCvSharp.Size,OpenCvSharp.Scalar,OpenCvSharp.Scalar)">
+  ToInputMat(Mat, float, Size, Scalar, Scalar)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HeBianGu/WPF-VisionMaster/blob/Release-2.0/Source/NodeDatas/H.NodeDatas.Onnx.OpenCV/OnnxExtension.cs/#L417"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>将原图归一化处理到模型输入格式</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Mat ToInputMat(this Mat image, float blobScaleFactor, Size inputSize, Scalar mean, Scalar std)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>image</code> <span class="xref">Mat</span></dt>
+    <dd></dd>
+    <dt><code>blobScaleFactor</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>inputSize</code> <span class="xref">Size</span></dt>
+    <dd></dd>
+    <dt><code>mean</code> <span class="xref">Scalar</span></dt>
+    <dd></dd>
+    <dt><code>std</code> <span class="xref">Scalar</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Mat</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_NodeDatas_Onnx_OpenCV_OnnxExtension_ToNMSBoxes_" data-uid="H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToNMSBoxes*"></a>
+
+  <h3 id="H_NodeDatas_Onnx_OpenCV_OnnxExtension_ToNMSBoxes_System_Collections_Generic_IEnumerable_H_NodeDatas_Onnx_OpenCV_Base_DefectBox__System_Single_System_Single_" data-uid="H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToNMSBoxes(System.Collections.Generic.IEnumerable{H.NodeDatas.Onnx.OpenCV.Base.DefectBox},System.Single,System.Single)">
+  ToNMSBoxes(IEnumerable&lt;DefectBox&gt;, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HeBianGu/WPF-VisionMaster/blob/Release-2.0/Source/NodeDatas/H.NodeDatas.Onnx.OpenCV/OnnxExtension.cs/#L134"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;DefectBox&gt; ToNMSBoxes(this IEnumerable&lt;DefectBox&gt; defectBoxes, float threshold = 0.25, float nmsThreshold = 0.45)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>defectBoxes</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="H.NodeDatas.Onnx.OpenCV.Base.DefectBox.html">DefectBox</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>threshold</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>nmsThreshold</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="H.NodeDatas.Onnx.OpenCV.Base.DefectBox.html">DefectBox</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_NodeDatas_Onnx_OpenCV_OnnxExtension_ToOutput_" data-uid="H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToOutput*"></a>
+
+  <h3 id="H_NodeDatas_Onnx_OpenCV_OnnxExtension_ToOutput_OpenCvSharp_Mat_System_Int32_System_Int32_" data-uid="H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToOutput(OpenCvSharp.Mat,System.Int32,System.Int32)">
+  ToOutput(Mat, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HeBianGu/WPF-VisionMaster/blob/Release-2.0/Source/NodeDatas/H.NodeDatas.Onnx.OpenCV/OnnxExtension.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Mat ToOutput(this Mat forward, int rowIndex = 0, int columnIndex = 1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>forward</code> <span class="xref">Mat</span></dt>
+    <dd></dd>
+    <dt><code>rowIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>columnIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Mat</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_NodeDatas_Onnx_OpenCV_OnnxExtension_ToResultPresenter_" data-uid="H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToResultPresenter*"></a>
+
+  <h3 id="H_NodeDatas_Onnx_OpenCV_OnnxExtension_ToResultPresenter_System_Collections_Generic_IEnumerable_System_Tuple_H_NodeDatas_Onnx_OpenCV_Base_DefectBox_System_String_System_Double___" data-uid="H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToResultPresenter(System.Collections.Generic.IEnumerable{System.Tuple{H.NodeDatas.Onnx.OpenCV.Base.DefectBox,System.String,System.Double}})">
+  ToResultPresenter(IEnumerable&lt;Tuple&lt;DefectBox, string, double&gt;&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HeBianGu/WPF-VisionMaster/blob/Release-2.0/Source/NodeDatas/H.NodeDatas.Onnx.OpenCV/OnnxExtension.cs/#L191"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IResultPresenter ToResultPresenter(this IEnumerable&lt;Tuple&lt;DefectBox, string, double&gt;&gt; tuples)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tuples</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.tuple-3">Tuple</a>&lt;<a class="xref" href="H.NodeDatas.Onnx.OpenCV.Base.DefectBox.html">DefectBox</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Controls.Diagram.Presenter.NodeDatas.Base.IResultPresenter.html">IResultPresenter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_NodeDatas_Onnx_OpenCV_OnnxExtension_ToSrcMask_" data-uid="H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToSrcMask*"></a>
+
+  <h3 id="H_NodeDatas_Onnx_OpenCV_OnnxExtension_ToSrcMask_OpenCvSharp_Mat_System_Int32_System_Int32_" data-uid="H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToSrcMask(OpenCvSharp.Mat,System.Int32,System.Int32)">
+  ToSrcMask(Mat, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/HeBianGu/WPF-VisionMaster/blob/Release-2.0/Source/NodeDatas/H.NodeDatas.Onnx.OpenCV/OnnxExtension.cs/#L388"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>将输出掩码转换为原图的掩码</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Mat ToSrcMask(this Mat forward, int rows, int cols)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>forward</code> <span class="xref">Mat</span></dt>
+    <dd></dd>
+    <dt><code>rows</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>cols</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Mat</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/HeBianGu/WPF-VisionMaster/blob/Release-2.0/Source/NodeDatas/H.NodeDatas.Onnx.OpenCV/OnnxExtension.cs/#L12" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

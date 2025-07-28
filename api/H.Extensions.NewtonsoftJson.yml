@@ -1,0 +1,137 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.NewtonsoftJson
+  commentId: N:H.Extensions.NewtonsoftJson
+  id: H.Extensions.NewtonsoftJson
+  children:
+  - H.Extensions.NewtonsoftJson.CustomContractResolver
+  - H.Extensions.NewtonsoftJson.DateTimeConverter
+  - H.Extensions.NewtonsoftJson.EnumConverter
+  - H.Extensions.NewtonsoftJson.INewtonsoftJsonOptions
+  - H.Extensions.NewtonsoftJson.NewtonsoftJsonMetaSettingService
+  - H.Extensions.NewtonsoftJson.NewtonsoftJsonOptions
+  - H.Extensions.NewtonsoftJson.NewtonsoftJsonSerializerService
+  - H.Extensions.NewtonsoftJson.NewtonsoftJsonSerializerServiceExtension
+  - H.Extensions.NewtonsoftJson.TypeConverterJsonConverter
+  - H.Extensions.NewtonsoftJson.TypeConverterJsonConverter`1
+  langs:
+  - csharp
+  - vb
+  name: H.Extensions.NewtonsoftJson
+  nameWithType: H.Extensions.NewtonsoftJson
+  fullName: H.Extensions.NewtonsoftJson
+  type: Namespace
+  assemblies:
+  - H.Extensions.NewtonsoftJson
+references:
+- uid: H.Extensions.NewtonsoftJson.CustomContractResolver
+  commentId: T:H.Extensions.NewtonsoftJson.CustomContractResolver
+  href: H.Extensions.NewtonsoftJson.CustomContractResolver.html
+  name: CustomContractResolver
+  nameWithType: CustomContractResolver
+  fullName: H.Extensions.NewtonsoftJson.CustomContractResolver
+- uid: H.Extensions.NewtonsoftJson.INewtonsoftJsonOptions
+  commentId: T:H.Extensions.NewtonsoftJson.INewtonsoftJsonOptions
+  parent: H.Extensions.NewtonsoftJson
+  href: H.Extensions.NewtonsoftJson.INewtonsoftJsonOptions.html
+  name: INewtonsoftJsonOptions
+  nameWithType: INewtonsoftJsonOptions
+  fullName: H.Extensions.NewtonsoftJson.INewtonsoftJsonOptions
+- uid: H.Extensions.NewtonsoftJson.NewtonsoftJsonMetaSettingService
+  commentId: T:H.Extensions.NewtonsoftJson.NewtonsoftJsonMetaSettingService
+  href: H.Extensions.NewtonsoftJson.NewtonsoftJsonMetaSettingService.html
+  name: NewtonsoftJsonMetaSettingService
+  nameWithType: NewtonsoftJsonMetaSettingService
+  fullName: H.Extensions.NewtonsoftJson.NewtonsoftJsonMetaSettingService
+- uid: H.Extensions.NewtonsoftJson.NewtonsoftJsonOptions
+  commentId: T:H.Extensions.NewtonsoftJson.NewtonsoftJsonOptions
+  href: H.Extensions.NewtonsoftJson.NewtonsoftJsonOptions.html
+  name: NewtonsoftJsonOptions
+  nameWithType: NewtonsoftJsonOptions
+  fullName: H.Extensions.NewtonsoftJson.NewtonsoftJsonOptions
+- uid: H.Extensions.NewtonsoftJson.DateTimeConverter
+  commentId: T:H.Extensions.NewtonsoftJson.DateTimeConverter
+  href: H.Extensions.NewtonsoftJson.DateTimeConverter.html
+  name: DateTimeConverter
+  nameWithType: DateTimeConverter
+  fullName: H.Extensions.NewtonsoftJson.DateTimeConverter
+- uid: H.Extensions.NewtonsoftJson.EnumConverter
+  commentId: T:H.Extensions.NewtonsoftJson.EnumConverter
+  href: H.Extensions.NewtonsoftJson.EnumConverter.html
+  name: EnumConverter
+  nameWithType: EnumConverter
+  fullName: H.Extensions.NewtonsoftJson.EnumConverter
+- uid: H.Extensions.NewtonsoftJson.NewtonsoftJsonSerializerService
+  commentId: T:H.Extensions.NewtonsoftJson.NewtonsoftJsonSerializerService
+  href: H.Extensions.NewtonsoftJson.NewtonsoftJsonSerializerService.html
+  name: NewtonsoftJsonSerializerService
+  nameWithType: NewtonsoftJsonSerializerService
+  fullName: H.Extensions.NewtonsoftJson.NewtonsoftJsonSerializerService
+- uid: H.Extensions.NewtonsoftJson.NewtonsoftJsonSerializerServiceExtension
+  commentId: T:H.Extensions.NewtonsoftJson.NewtonsoftJsonSerializerServiceExtension
+  parent: H.Extensions.NewtonsoftJson
+  href: H.Extensions.NewtonsoftJson.NewtonsoftJsonSerializerServiceExtension.html
+  name: NewtonsoftJsonSerializerServiceExtension
+  nameWithType: NewtonsoftJsonSerializerServiceExtension
+  fullName: H.Extensions.NewtonsoftJson.NewtonsoftJsonSerializerServiceExtension
+- uid: H.Extensions.NewtonsoftJson.TypeConverterJsonConverter`1
+  commentId: T:H.Extensions.NewtonsoftJson.TypeConverterJsonConverter`1
+  href: H.Extensions.NewtonsoftJson.TypeConverterJsonConverter-1.html
+  name: TypeConverterJsonConverter<T>
+  nameWithType: TypeConverterJsonConverter<T>
+  fullName: H.Extensions.NewtonsoftJson.TypeConverterJsonConverter<T>
+  nameWithType.vb: TypeConverterJsonConverter(Of T)
+  fullName.vb: H.Extensions.NewtonsoftJson.TypeConverterJsonConverter(Of T)
+  name.vb: TypeConverterJsonConverter(Of T)
+  spec.csharp:
+  - uid: H.Extensions.NewtonsoftJson.TypeConverterJsonConverter`1
+    name: TypeConverterJsonConverter
+    href: H.Extensions.NewtonsoftJson.TypeConverterJsonConverter-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Extensions.NewtonsoftJson.TypeConverterJsonConverter`1
+    name: TypeConverterJsonConverter
+    href: H.Extensions.NewtonsoftJson.TypeConverterJsonConverter-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Extensions.NewtonsoftJson.TypeConverterJsonConverter
+  commentId: T:H.Extensions.NewtonsoftJson.TypeConverterJsonConverter
+  href: H.Extensions.NewtonsoftJson.TypeConverterJsonConverter.html
+  name: TypeConverterJsonConverter
+  nameWithType: TypeConverterJsonConverter
+  fullName: H.Extensions.NewtonsoftJson.TypeConverterJsonConverter
+- uid: H.Extensions.NewtonsoftJson
+  commentId: N:H.Extensions.NewtonsoftJson
+  href: H.html
+  name: H.Extensions.NewtonsoftJson
+  nameWithType: H.Extensions.NewtonsoftJson
+  fullName: H.Extensions.NewtonsoftJson
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.NewtonsoftJson
+    name: NewtonsoftJson
+    href: H.Extensions.NewtonsoftJson.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.NewtonsoftJson
+    name: NewtonsoftJson
+    href: H.Extensions.NewtonsoftJson.html

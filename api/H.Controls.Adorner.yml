@@ -1,0 +1,61 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.Adorner
+  commentId: N:H.Controls.Adorner
+  id: H.Controls.Adorner
+  children:
+  - H.Controls.Adorner.AdornerSetting
+  - H.Controls.Adorner.Extention
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.Adorner
+  nameWithType: H.Controls.Adorner
+  fullName: H.Controls.Adorner
+  type: Namespace
+  assemblies:
+  - H.Controls.Adorner
+references:
+- uid: H.Controls.Adorner.AdornerSetting
+  commentId: T:H.Controls.Adorner.AdornerSetting
+  href: H.Controls.Adorner.AdornerSetting.html
+  name: AdornerSetting
+  nameWithType: AdornerSetting
+  fullName: H.Controls.Adorner.AdornerSetting
+- uid: H.Controls.Adorner.Extention
+  commentId: T:H.Controls.Adorner.Extention
+  parent: H.Controls.Adorner
+  href: H.Controls.Adorner.Extention.html
+  name: Extention
+  nameWithType: Extention
+  fullName: H.Controls.Adorner.Extention
+- uid: H.Controls.Adorner
+  commentId: N:H.Controls.Adorner
+  href: H.html
+  name: H.Controls.Adorner
+  nameWithType: H.Controls.Adorner
+  fullName: H.Controls.Adorner
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Adorner
+    name: Adorner
+    href: H.Controls.Adorner.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Adorner
+    name: Adorner
+    href: H.Controls.Adorner.html

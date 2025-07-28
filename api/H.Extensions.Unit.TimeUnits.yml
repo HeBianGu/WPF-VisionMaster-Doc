@@ -1,0 +1,70 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.Unit.TimeUnits
+  commentId: N:H.Extensions.Unit.TimeUnits
+  id: H.Extensions.Unit.TimeUnits
+  children:
+  - H.Extensions.Unit.TimeUnits.TimeUnits
+  - H.Extensions.Unit.TimeUnits.TimeUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: H.Extensions.Unit.TimeUnits
+  nameWithType: H.Extensions.Unit.TimeUnits
+  fullName: H.Extensions.Unit.TimeUnits
+  type: Namespace
+  assemblies:
+  - H.Extensions.Unit
+references:
+- uid: H.Extensions.Unit.TimeUnits.TimeUnits
+  commentId: T:H.Extensions.Unit.TimeUnits.TimeUnits
+  parent: H.Extensions.Unit.TimeUnits
+  href: H.Extensions.Unit.TimeUnits.TimeUnits.html
+  name: TimeUnits
+  nameWithType: TimeUnits
+  fullName: H.Extensions.Unit.TimeUnits.TimeUnits
+- uid: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions
+  commentId: T:H.Extensions.Unit.TimeUnits.TimeUnitsExtensions
+  parent: H.Extensions.Unit.TimeUnits
+  href: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.html
+  name: TimeUnitsExtensions
+  nameWithType: TimeUnitsExtensions
+  fullName: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions
+- uid: H.Extensions.Unit.TimeUnits
+  commentId: N:H.Extensions.Unit.TimeUnits
+  href: H.html
+  name: H.Extensions.Unit.TimeUnits
+  nameWithType: H.Extensions.Unit.TimeUnits
+  fullName: H.Extensions.Unit.TimeUnits
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Unit
+    name: Unit
+    href: H.Extensions.Unit.html
+  - name: .
+  - uid: H.Extensions.Unit.TimeUnits
+    name: TimeUnits
+    href: H.Extensions.Unit.TimeUnits.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Unit
+    name: Unit
+    href: H.Extensions.Unit.html
+  - name: .
+  - uid: H.Extensions.Unit.TimeUnits
+    name: TimeUnits
+    href: H.Extensions.Unit.TimeUnits.html

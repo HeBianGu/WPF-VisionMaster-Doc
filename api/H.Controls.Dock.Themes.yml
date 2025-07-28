@@ -1,0 +1,76 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.Dock.Themes
+  commentId: N:H.Controls.Dock.Themes
+  id: H.Controls.Dock.Themes
+  children:
+  - H.Controls.Dock.Themes.DictionaryTheme
+  - H.Controls.Dock.Themes.GenericTheme
+  - H.Controls.Dock.Themes.Theme
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.Dock.Themes
+  nameWithType: H.Controls.Dock.Themes
+  fullName: H.Controls.Dock.Themes
+  type: Namespace
+  assemblies:
+  - H.Controls.Dock
+references:
+- uid: H.Controls.Dock.Themes.DictionaryTheme
+  commentId: T:H.Controls.Dock.Themes.DictionaryTheme
+  href: H.Controls.Dock.Themes.DictionaryTheme.html
+  name: DictionaryTheme
+  nameWithType: DictionaryTheme
+  fullName: H.Controls.Dock.Themes.DictionaryTheme
+- uid: H.Controls.Dock.Themes.GenericTheme
+  commentId: T:H.Controls.Dock.Themes.GenericTheme
+  href: H.Controls.Dock.Themes.GenericTheme.html
+  name: GenericTheme
+  nameWithType: GenericTheme
+  fullName: H.Controls.Dock.Themes.GenericTheme
+- uid: H.Controls.Dock.Themes.Theme
+  commentId: T:H.Controls.Dock.Themes.Theme
+  parent: H.Controls.Dock.Themes
+  href: H.Controls.Dock.Themes.Theme.html
+  name: Theme
+  nameWithType: Theme
+  fullName: H.Controls.Dock.Themes.Theme
+- uid: H.Controls.Dock.Themes
+  commentId: N:H.Controls.Dock.Themes
+  href: H.html
+  name: H.Controls.Dock.Themes
+  nameWithType: H.Controls.Dock.Themes
+  fullName: H.Controls.Dock.Themes
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Dock
+    name: Dock
+    href: H.Controls.Dock.html
+  - name: .
+  - uid: H.Controls.Dock.Themes
+    name: Themes
+    href: H.Controls.Dock.Themes.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Dock
+    name: Dock
+    href: H.Controls.Dock.html
+  - name: .
+  - uid: H.Controls.Dock.Themes
+    name: Themes
+    href: H.Controls.Dock.Themes.html

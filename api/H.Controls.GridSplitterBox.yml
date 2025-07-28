@@ -1,0 +1,68 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.GridSplitterBox
+  commentId: N:H.Controls.GridSplitterBox
+  id: H.Controls.GridSplitterBox
+  children:
+  - H.Controls.GridSplitterBox.GridSplitteMode
+  - H.Controls.GridSplitterBox.GridSplitterBox
+  - H.Controls.GridSplitterBox.GridSplitterSetting
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.GridSplitterBox
+  nameWithType: H.Controls.GridSplitterBox
+  fullName: H.Controls.GridSplitterBox
+  type: Namespace
+  assemblies:
+  - H.Controls.GridSplitterBox
+references:
+- uid: H.Controls.GridSplitterBox.GridSplitterBox
+  commentId: T:H.Controls.GridSplitterBox.GridSplitterBox
+  href: H.Controls.GridSplitterBox.GridSplitterBox.html
+  name: GridSplitterBox
+  nameWithType: GridSplitterBox
+  fullName: H.Controls.GridSplitterBox.GridSplitterBox
+- uid: H.Controls.GridSplitterBox.GridSplitterSetting
+  commentId: T:H.Controls.GridSplitterBox.GridSplitterSetting
+  href: H.Controls.GridSplitterBox.GridSplitterSetting.html
+  name: GridSplitterSetting
+  nameWithType: GridSplitterSetting
+  fullName: H.Controls.GridSplitterBox.GridSplitterSetting
+- uid: H.Controls.GridSplitterBox.GridSplitteMode
+  commentId: T:H.Controls.GridSplitterBox.GridSplitteMode
+  parent: H.Controls.GridSplitterBox
+  href: H.Controls.GridSplitterBox.GridSplitteMode.html
+  name: GridSplitteMode
+  nameWithType: GridSplitteMode
+  fullName: H.Controls.GridSplitterBox.GridSplitteMode
+- uid: H.Controls.GridSplitterBox
+  commentId: N:H.Controls.GridSplitterBox
+  href: H.html
+  name: H.Controls.GridSplitterBox
+  nameWithType: H.Controls.GridSplitterBox
+  fullName: H.Controls.GridSplitterBox
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.GridSplitterBox
+    name: GridSplitterBox
+    href: H.Controls.GridSplitterBox.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.GridSplitterBox
+    name: GridSplitterBox
+    href: H.Controls.GridSplitterBox.html

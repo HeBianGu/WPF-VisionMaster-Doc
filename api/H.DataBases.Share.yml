@@ -1,0 +1,267 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.DataBases.Share
+  commentId: N:H.DataBases.Share
+  id: H.DataBases.Share
+  children:
+  - H.DataBases.Share.DbConnectServiceBase`1
+  - H.DataBases.Share.DbContextRepository`2
+  - H.DataBases.Share.DbDisconnectService
+  - H.DataBases.Share.DbDisconnectService`1
+  - H.DataBases.Share.DbSettableBase`1
+  - H.DataBases.Share.IDbSettable
+  - H.DataBases.Share.RepositoryBase`2
+  - H.DataBases.Share.RepositoryBase`3
+  - H.DataBases.Share.StringRepositoryBase`1
+  langs:
+  - csharp
+  - vb
+  name: H.DataBases.Share
+  nameWithType: H.DataBases.Share
+  fullName: H.DataBases.Share
+  type: Namespace
+  assemblies:
+  - H.DataBases.Sqlite
+references:
+- uid: H.DataBases.Share.DbConnectServiceBase`1
+  commentId: T:H.DataBases.Share.DbConnectServiceBase`1
+  href: H.DataBases.Share.DbConnectServiceBase-1.html
+  name: DbConnectServiceBase<TDbContext>
+  nameWithType: DbConnectServiceBase<TDbContext>
+  fullName: H.DataBases.Share.DbConnectServiceBase<TDbContext>
+  nameWithType.vb: DbConnectServiceBase(Of TDbContext)
+  fullName.vb: H.DataBases.Share.DbConnectServiceBase(Of TDbContext)
+  name.vb: DbConnectServiceBase(Of TDbContext)
+  spec.csharp:
+  - uid: H.DataBases.Share.DbConnectServiceBase`1
+    name: DbConnectServiceBase
+    href: H.DataBases.Share.DbConnectServiceBase-1.html
+  - name: <
+  - name: TDbContext
+  - name: '>'
+  spec.vb:
+  - uid: H.DataBases.Share.DbConnectServiceBase`1
+    name: DbConnectServiceBase
+    href: H.DataBases.Share.DbConnectServiceBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TDbContext
+  - name: )
+- uid: H.DataBases.Share.DbDisconnectService
+  commentId: T:H.DataBases.Share.DbDisconnectService
+  href: H.DataBases.Share.DbDisconnectService.html
+  name: DbDisconnectService
+  nameWithType: DbDisconnectService
+  fullName: H.DataBases.Share.DbDisconnectService
+- uid: H.DataBases.Share.DbDisconnectService`1
+  commentId: T:H.DataBases.Share.DbDisconnectService`1
+  href: H.DataBases.Share.DbDisconnectService-1.html
+  name: DbDisconnectService<TDbContext>
+  nameWithType: DbDisconnectService<TDbContext>
+  fullName: H.DataBases.Share.DbDisconnectService<TDbContext>
+  nameWithType.vb: DbDisconnectService(Of TDbContext)
+  fullName.vb: H.DataBases.Share.DbDisconnectService(Of TDbContext)
+  name.vb: DbDisconnectService(Of TDbContext)
+  spec.csharp:
+  - uid: H.DataBases.Share.DbDisconnectService`1
+    name: DbDisconnectService
+    href: H.DataBases.Share.DbDisconnectService-1.html
+  - name: <
+  - name: TDbContext
+  - name: '>'
+  spec.vb:
+  - uid: H.DataBases.Share.DbDisconnectService`1
+    name: DbDisconnectService
+    href: H.DataBases.Share.DbDisconnectService-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TDbContext
+  - name: )
+- uid: H.DataBases.Share.IDbSettable
+  commentId: T:H.DataBases.Share.IDbSettable
+  parent: H.DataBases.Share
+  href: H.DataBases.Share.IDbSettable.html
+  name: IDbSettable
+  nameWithType: IDbSettable
+  fullName: H.DataBases.Share.IDbSettable
+- uid: H.DataBases.Share.DbSettableBase`1
+  commentId: T:H.DataBases.Share.DbSettableBase`1
+  href: H.DataBases.Share.DbSettableBase-1.html
+  name: DbSettableBase<T>
+  nameWithType: DbSettableBase<T>
+  fullName: H.DataBases.Share.DbSettableBase<T>
+  nameWithType.vb: DbSettableBase(Of T)
+  fullName.vb: H.DataBases.Share.DbSettableBase(Of T)
+  name.vb: DbSettableBase(Of T)
+  spec.csharp:
+  - uid: H.DataBases.Share.DbSettableBase`1
+    name: DbSettableBase
+    href: H.DataBases.Share.DbSettableBase-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.DataBases.Share.DbSettableBase`1
+    name: DbSettableBase
+    href: H.DataBases.Share.DbSettableBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.DataBases.Share.DbContextRepository`2
+  commentId: T:H.DataBases.Share.DbContextRepository`2
+  href: H.DataBases.Share.DbContextRepository-2.html
+  name: DbContextRepository<TDbContext, TEntity>
+  nameWithType: DbContextRepository<TDbContext, TEntity>
+  fullName: H.DataBases.Share.DbContextRepository<TDbContext, TEntity>
+  nameWithType.vb: DbContextRepository(Of TDbContext, TEntity)
+  fullName.vb: H.DataBases.Share.DbContextRepository(Of TDbContext, TEntity)
+  name.vb: DbContextRepository(Of TDbContext, TEntity)
+  spec.csharp:
+  - uid: H.DataBases.Share.DbContextRepository`2
+    name: DbContextRepository
+    href: H.DataBases.Share.DbContextRepository-2.html
+  - name: <
+  - name: TDbContext
+  - name: ','
+  - name: " "
+  - name: TEntity
+  - name: '>'
+  spec.vb:
+  - uid: H.DataBases.Share.DbContextRepository`2
+    name: DbContextRepository
+    href: H.DataBases.Share.DbContextRepository-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TDbContext
+  - name: ','
+  - name: " "
+  - name: TEntity
+  - name: )
+- uid: H.DataBases.Share.RepositoryBase`3
+  commentId: T:H.DataBases.Share.RepositoryBase`3
+  href: H.DataBases.Share.RepositoryBase-3.html
+  name: RepositoryBase<TDbContext, TEntity, TPrimaryKey>
+  nameWithType: RepositoryBase<TDbContext, TEntity, TPrimaryKey>
+  fullName: H.DataBases.Share.RepositoryBase<TDbContext, TEntity, TPrimaryKey>
+  nameWithType.vb: RepositoryBase(Of TDbContext, TEntity, TPrimaryKey)
+  fullName.vb: H.DataBases.Share.RepositoryBase(Of TDbContext, TEntity, TPrimaryKey)
+  name.vb: RepositoryBase(Of TDbContext, TEntity, TPrimaryKey)
+  spec.csharp:
+  - uid: H.DataBases.Share.RepositoryBase`3
+    name: RepositoryBase
+    href: H.DataBases.Share.RepositoryBase-3.html
+  - name: <
+  - name: TDbContext
+  - name: ','
+  - name: " "
+  - name: TEntity
+  - name: ','
+  - name: " "
+  - name: TPrimaryKey
+  - name: '>'
+  spec.vb:
+  - uid: H.DataBases.Share.RepositoryBase`3
+    name: RepositoryBase
+    href: H.DataBases.Share.RepositoryBase-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TDbContext
+  - name: ','
+  - name: " "
+  - name: TEntity
+  - name: ','
+  - name: " "
+  - name: TPrimaryKey
+  - name: )
+- uid: H.DataBases.Share.RepositoryBase`2
+  commentId: T:H.DataBases.Share.RepositoryBase`2
+  href: H.DataBases.Share.RepositoryBase-2.html
+  name: RepositoryBase<TEntity, TPrimaryKey>
+  nameWithType: RepositoryBase<TEntity, TPrimaryKey>
+  fullName: H.DataBases.Share.RepositoryBase<TEntity, TPrimaryKey>
+  nameWithType.vb: RepositoryBase(Of TEntity, TPrimaryKey)
+  fullName.vb: H.DataBases.Share.RepositoryBase(Of TEntity, TPrimaryKey)
+  name.vb: RepositoryBase(Of TEntity, TPrimaryKey)
+  spec.csharp:
+  - uid: H.DataBases.Share.RepositoryBase`2
+    name: RepositoryBase
+    href: H.DataBases.Share.RepositoryBase-2.html
+  - name: <
+  - name: TEntity
+  - name: ','
+  - name: " "
+  - name: TPrimaryKey
+  - name: '>'
+  spec.vb:
+  - uid: H.DataBases.Share.RepositoryBase`2
+    name: RepositoryBase
+    href: H.DataBases.Share.RepositoryBase-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: ','
+  - name: " "
+  - name: TPrimaryKey
+  - name: )
+- uid: H.DataBases.Share.StringRepositoryBase`1
+  commentId: T:H.DataBases.Share.StringRepositoryBase`1
+  href: H.DataBases.Share.StringRepositoryBase-1.html
+  name: StringRepositoryBase<TEntity>
+  nameWithType: StringRepositoryBase<TEntity>
+  fullName: H.DataBases.Share.StringRepositoryBase<TEntity>
+  nameWithType.vb: StringRepositoryBase(Of TEntity)
+  fullName.vb: H.DataBases.Share.StringRepositoryBase(Of TEntity)
+  name.vb: StringRepositoryBase(Of TEntity)
+  spec.csharp:
+  - uid: H.DataBases.Share.StringRepositoryBase`1
+    name: StringRepositoryBase
+    href: H.DataBases.Share.StringRepositoryBase-1.html
+  - name: <
+  - name: TEntity
+  - name: '>'
+  spec.vb:
+  - uid: H.DataBases.Share.StringRepositoryBase`1
+    name: StringRepositoryBase
+    href: H.DataBases.Share.StringRepositoryBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: )
+- uid: H.DataBases.Share
+  commentId: N:H.DataBases.Share
+  href: H.html
+  name: H.DataBases.Share
+  nameWithType: H.DataBases.Share
+  fullName: H.DataBases.Share
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.DataBases
+    name: DataBases
+    href: H.DataBases.html
+  - name: .
+  - uid: H.DataBases.Share
+    name: Share
+    href: H.DataBases.Share.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.DataBases
+    name: DataBases
+    href: H.DataBases.html
+  - name: .
+  - uid: H.DataBases.Share
+    name: Share
+    href: H.DataBases.Share.html

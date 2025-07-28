@@ -1,0 +1,136 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.Form.PropertyItems
+  commentId: N:H.Controls.Form.PropertyItems
+  id: H.Controls.Form.PropertyItems
+  children:
+  - H.Controls.Form.PropertyItems.BoolNullablePropertyItem
+  - H.Controls.Form.PropertyItems.BoolPropertyItem
+  - H.Controls.Form.PropertyItems.CommandPropertyItem
+  - H.Controls.Form.PropertyItems.DateTimePropertyItem
+  - H.Controls.Form.PropertyItems.DictionaryPropertyViewItem
+  - H.Controls.Form.PropertyItems.EnumPropertyItem
+  - H.Controls.Form.PropertyItems.ExpanderFormPropertyItem
+  - H.Controls.Form.PropertyItems.FormPropertyItem
+  - H.Controls.Form.PropertyItems.PresenterPropertyItem
+  - H.Controls.Form.PropertyItems.TextPropertyItem
+  - H.Controls.Form.PropertyItems.TextPropertyViewItem
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.Form.PropertyItems
+  nameWithType: H.Controls.Form.PropertyItems
+  fullName: H.Controls.Form.PropertyItems
+  type: Namespace
+  assemblies:
+  - H.Controls.Form
+references:
+- uid: H.Controls.Form.PropertyItems.BoolPropertyItem
+  commentId: T:H.Controls.Form.PropertyItems.BoolPropertyItem
+  href: H.Controls.Form.PropertyItems.BoolPropertyItem.html
+  name: BoolPropertyItem
+  nameWithType: BoolPropertyItem
+  fullName: H.Controls.Form.PropertyItems.BoolPropertyItem
+- uid: H.Controls.Form.PropertyItems.BoolNullablePropertyItem
+  commentId: T:H.Controls.Form.PropertyItems.BoolNullablePropertyItem
+  href: H.Controls.Form.PropertyItems.BoolNullablePropertyItem.html
+  name: BoolNullablePropertyItem
+  nameWithType: BoolNullablePropertyItem
+  fullName: H.Controls.Form.PropertyItems.BoolNullablePropertyItem
+- uid: H.Controls.Form.PropertyItems.CommandPropertyItem
+  commentId: T:H.Controls.Form.PropertyItems.CommandPropertyItem
+  parent: H.Controls.Form.PropertyItems
+  href: H.Controls.Form.PropertyItems.CommandPropertyItem.html
+  name: CommandPropertyItem
+  nameWithType: CommandPropertyItem
+  fullName: H.Controls.Form.PropertyItems.CommandPropertyItem
+- uid: H.Controls.Form.PropertyItems.DateTimePropertyItem
+  commentId: T:H.Controls.Form.PropertyItems.DateTimePropertyItem
+  href: H.Controls.Form.PropertyItems.DateTimePropertyItem.html
+  name: DateTimePropertyItem
+  nameWithType: DateTimePropertyItem
+  fullName: H.Controls.Form.PropertyItems.DateTimePropertyItem
+- uid: H.Controls.Form.PropertyItems.DictionaryPropertyViewItem
+  commentId: T:H.Controls.Form.PropertyItems.DictionaryPropertyViewItem
+  href: H.Controls.Form.PropertyItems.DictionaryPropertyViewItem.html
+  name: DictionaryPropertyViewItem
+  nameWithType: DictionaryPropertyViewItem
+  fullName: H.Controls.Form.PropertyItems.DictionaryPropertyViewItem
+- uid: H.Controls.Form.PropertyItems.EnumPropertyItem
+  commentId: T:H.Controls.Form.PropertyItems.EnumPropertyItem
+  href: H.Controls.Form.PropertyItems.EnumPropertyItem.html
+  name: EnumPropertyItem
+  nameWithType: EnumPropertyItem
+  fullName: H.Controls.Form.PropertyItems.EnumPropertyItem
+- uid: H.Controls.Form.PropertyItems.ExpanderFormPropertyItem
+  commentId: T:H.Controls.Form.PropertyItems.ExpanderFormPropertyItem
+  parent: H.Controls.Form.PropertyItems
+  href: H.Controls.Form.PropertyItems.ExpanderFormPropertyItem.html
+  name: ExpanderFormPropertyItem
+  nameWithType: ExpanderFormPropertyItem
+  fullName: H.Controls.Form.PropertyItems.ExpanderFormPropertyItem
+- uid: H.Controls.Form.PropertyItems.FormPropertyItem
+  commentId: T:H.Controls.Form.PropertyItems.FormPropertyItem
+  parent: H.Controls.Form.PropertyItems
+  href: H.Controls.Form.PropertyItems.FormPropertyItem.html
+  name: FormPropertyItem
+  nameWithType: FormPropertyItem
+  fullName: H.Controls.Form.PropertyItems.FormPropertyItem
+- uid: H.Controls.Form.PropertyItems.PresenterPropertyItem
+  commentId: T:H.Controls.Form.PropertyItems.PresenterPropertyItem
+  href: H.Controls.Form.PropertyItems.PresenterPropertyItem.html
+  name: PresenterPropertyItem
+  nameWithType: PresenterPropertyItem
+  fullName: H.Controls.Form.PropertyItems.PresenterPropertyItem
+- uid: H.Controls.Form.PropertyItems.TextPropertyItem
+  commentId: T:H.Controls.Form.PropertyItems.TextPropertyItem
+  parent: H.Controls.Form.PropertyItems
+  href: H.Controls.Form.PropertyItems.TextPropertyItem.html
+  name: TextPropertyItem
+  nameWithType: TextPropertyItem
+  fullName: H.Controls.Form.PropertyItems.TextPropertyItem
+- uid: H.Controls.Form.PropertyItems.TextPropertyViewItem
+  commentId: T:H.Controls.Form.PropertyItems.TextPropertyViewItem
+  parent: H.Controls.Form.PropertyItems
+  href: H.Controls.Form.PropertyItems.TextPropertyViewItem.html
+  name: TextPropertyViewItem
+  nameWithType: TextPropertyViewItem
+  fullName: H.Controls.Form.PropertyItems.TextPropertyViewItem
+- uid: H.Controls.Form.PropertyItems
+  commentId: N:H.Controls.Form.PropertyItems
+  href: H.html
+  name: H.Controls.Form.PropertyItems
+  nameWithType: H.Controls.Form.PropertyItems
+  fullName: H.Controls.Form.PropertyItems
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Form
+    name: Form
+    href: H.Controls.Form.html
+  - name: .
+  - uid: H.Controls.Form.PropertyItems
+    name: PropertyItems
+    href: H.Controls.Form.PropertyItems.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Form
+    name: Form
+    href: H.Controls.Form.html
+  - name: .
+  - uid: H.Controls.Form.PropertyItems
+    name: PropertyItems
+    href: H.Controls.Form.PropertyItems.html

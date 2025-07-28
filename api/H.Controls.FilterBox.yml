@@ -1,0 +1,378 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.FilterBox
+  commentId: N:H.Controls.FilterBox
+  id: H.Controls.FilterBox
+  children:
+  - H.Controls.FilterBox.BooleanPropertyFilter
+  - H.Controls.FilterBox.ComparablePropertyFilterBase`1
+  - H.Controls.FilterBox.ConditionOperate
+  - H.Controls.FilterBox.ConditionOperates
+  - H.Controls.FilterBox.DateTimePropertyFilter
+  - H.Controls.FilterBox.DoublePropertyFilter
+  - H.Controls.FilterBox.Filter
+  - H.Controls.FilterBox.FilterBase
+  - H.Controls.FilterBox.FilterBox
+  - H.Controls.FilterBox.FilterFactory
+  - H.Controls.FilterBox.FilterItemCollection
+  - H.Controls.FilterBox.FilterOperate
+  - H.Controls.FilterBox.IConditionable
+  - H.Controls.FilterBox.IFilterBox
+  - H.Controls.FilterBox.IPropertyConditionPrensenter
+  - H.Controls.FilterBox.IPropertyConditonable
+  - H.Controls.FilterBox.IPropertyConfidtion
+  - H.Controls.FilterBox.IPropertyFilter
+  - H.Controls.FilterBox.ISelectionFilterBox
+  - H.Controls.FilterBox.ITextFilterBox
+  - H.Controls.FilterBox.IntPropertyFilter
+  - H.Controls.FilterBox.LongPropertyFilter
+  - H.Controls.FilterBox.PropertyConditionPrensenter
+  - H.Controls.FilterBox.PropertyConditionsPrensenter
+  - H.Controls.FilterBox.PropertyConditionsPrensenterBase
+  - H.Controls.FilterBox.PropertyConditionsPrensenter`1
+  - H.Controls.FilterBox.PropertyConfidtion
+  - H.Controls.FilterBox.PropertyFilterBase`1
+  - H.Controls.FilterBox.PropertyFilterBox
+  - H.Controls.FilterBox.PropertyFilterBoxFilter
+  - H.Controls.FilterBox.SelectionFilter
+  - H.Controls.FilterBox.SelectionFilterBox
+  - H.Controls.FilterBox.StringPropertyFilter
+  - H.Controls.FilterBox.TextBlockFilterCountBehavior
+  - H.Controls.FilterBox.TextBlockFiltersCountBehavior
+  - H.Controls.FilterBox.TextFilter
+  - H.Controls.FilterBox.TextFilterBox
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.FilterBox
+  nameWithType: H.Controls.FilterBox
+  fullName: H.Controls.FilterBox
+  type: Namespace
+  assemblies:
+  - H.Controls.FilterBox
+references:
+- uid: H.Controls.FilterBox.FilterBase
+  commentId: T:H.Controls.FilterBox.FilterBase
+  href: H.Controls.FilterBox.FilterBase.html
+  name: FilterBase
+  nameWithType: FilterBase
+  fullName: H.Controls.FilterBox.FilterBase
+- uid: H.Controls.FilterBox.IFilterBox
+  commentId: T:H.Controls.FilterBox.IFilterBox
+  parent: H.Controls.FilterBox
+  href: H.Controls.FilterBox.IFilterBox.html
+  name: IFilterBox
+  nameWithType: IFilterBox
+  fullName: H.Controls.FilterBox.IFilterBox
+- uid: H.Controls.FilterBox.FilterBox
+  commentId: T:H.Controls.FilterBox.FilterBox
+  parent: H.Controls.FilterBox
+  href: H.Controls.FilterBox.FilterBox.html
+  name: FilterBox
+  nameWithType: FilterBox
+  fullName: H.Controls.FilterBox.FilterBox
+- uid: H.Controls.FilterBox.Filter
+  commentId: T:H.Controls.FilterBox.Filter
+  href: H.Controls.FilterBox.Filter.html
+  name: Filter
+  nameWithType: Filter
+  fullName: H.Controls.FilterBox.Filter
+- uid: H.Controls.FilterBox.ConditionOperate
+  commentId: T:H.Controls.FilterBox.ConditionOperate
+  parent: H.Controls.FilterBox
+  href: H.Controls.FilterBox.ConditionOperate.html
+  name: ConditionOperate
+  nameWithType: ConditionOperate
+  fullName: H.Controls.FilterBox.ConditionOperate
+- uid: H.Controls.FilterBox.ConditionOperates
+  commentId: T:H.Controls.FilterBox.ConditionOperates
+  href: H.Controls.FilterBox.ConditionOperates.html
+  name: ConditionOperates
+  nameWithType: ConditionOperates
+  fullName: H.Controls.FilterBox.ConditionOperates
+- uid: H.Controls.FilterBox.IConditionable
+  commentId: T:H.Controls.FilterBox.IConditionable
+  parent: H.Controls.FilterBox
+  href: H.Controls.FilterBox.IConditionable.html
+  name: IConditionable
+  nameWithType: IConditionable
+  fullName: H.Controls.FilterBox.IConditionable
+- uid: H.Controls.FilterBox.IPropertyConditonable
+  commentId: T:H.Controls.FilterBox.IPropertyConditonable
+  href: H.Controls.FilterBox.IPropertyConditonable.html
+  name: IPropertyConditonable
+  nameWithType: IPropertyConditonable
+  fullName: H.Controls.FilterBox.IPropertyConditonable
+- uid: H.Controls.FilterBox.IPropertyConfidtion
+  commentId: T:H.Controls.FilterBox.IPropertyConfidtion
+  parent: H.Controls.FilterBox
+  href: H.Controls.FilterBox.IPropertyConfidtion.html
+  name: IPropertyConfidtion
+  nameWithType: IPropertyConfidtion
+  fullName: H.Controls.FilterBox.IPropertyConfidtion
+- uid: H.Controls.FilterBox.IPropertyConditionPrensenter
+  commentId: T:H.Controls.FilterBox.IPropertyConditionPrensenter
+  parent: H.Controls.FilterBox
+  href: H.Controls.FilterBox.IPropertyConditionPrensenter.html
+  name: IPropertyConditionPrensenter
+  nameWithType: IPropertyConditionPrensenter
+  fullName: H.Controls.FilterBox.IPropertyConditionPrensenter
+- uid: H.Controls.FilterBox.PropertyConditionPrensenter
+  commentId: T:H.Controls.FilterBox.PropertyConditionPrensenter
+  parent: H.Controls.FilterBox
+  href: H.Controls.FilterBox.PropertyConditionPrensenter.html
+  name: PropertyConditionPrensenter
+  nameWithType: PropertyConditionPrensenter
+  fullName: H.Controls.FilterBox.PropertyConditionPrensenter
+- uid: H.Controls.FilterBox.PropertyConditionsPrensenterBase
+  commentId: T:H.Controls.FilterBox.PropertyConditionsPrensenterBase
+  parent: H.Controls.FilterBox
+  href: H.Controls.FilterBox.PropertyConditionsPrensenterBase.html
+  name: PropertyConditionsPrensenterBase
+  nameWithType: PropertyConditionsPrensenterBase
+  fullName: H.Controls.FilterBox.PropertyConditionsPrensenterBase
+- uid: H.Controls.FilterBox.PropertyConditionsPrensenter`1
+  commentId: T:H.Controls.FilterBox.PropertyConditionsPrensenter`1
+  href: H.Controls.FilterBox.PropertyConditionsPrensenter-1.html
+  name: PropertyConditionsPrensenter<T>
+  nameWithType: PropertyConditionsPrensenter<T>
+  fullName: H.Controls.FilterBox.PropertyConditionsPrensenter<T>
+  nameWithType.vb: PropertyConditionsPrensenter(Of T)
+  fullName.vb: H.Controls.FilterBox.PropertyConditionsPrensenter(Of T)
+  name.vb: PropertyConditionsPrensenter(Of T)
+  spec.csharp:
+  - uid: H.Controls.FilterBox.PropertyConditionsPrensenter`1
+    name: PropertyConditionsPrensenter
+    href: H.Controls.FilterBox.PropertyConditionsPrensenter-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Controls.FilterBox.PropertyConditionsPrensenter`1
+    name: PropertyConditionsPrensenter
+    href: H.Controls.FilterBox.PropertyConditionsPrensenter-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Controls.FilterBox.PropertyConditionsPrensenter
+  commentId: T:H.Controls.FilterBox.PropertyConditionsPrensenter
+  parent: H.Controls.FilterBox
+  href: H.Controls.FilterBox.PropertyConditionsPrensenter.html
+  name: PropertyConditionsPrensenter
+  nameWithType: PropertyConditionsPrensenter
+  fullName: H.Controls.FilterBox.PropertyConditionsPrensenter
+- uid: H.Controls.FilterBox.PropertyConfidtion
+  commentId: T:H.Controls.FilterBox.PropertyConfidtion
+  href: H.Controls.FilterBox.PropertyConfidtion.html
+  name: PropertyConfidtion
+  nameWithType: PropertyConfidtion
+  fullName: H.Controls.FilterBox.PropertyConfidtion
+- uid: H.Controls.FilterBox.PropertyFilterBox
+  commentId: T:H.Controls.FilterBox.PropertyFilterBox
+  parent: H.Controls.FilterBox
+  href: H.Controls.FilterBox.PropertyFilterBox.html
+  name: PropertyFilterBox
+  nameWithType: PropertyFilterBox
+  fullName: H.Controls.FilterBox.PropertyFilterBox
+- uid: H.Controls.FilterBox.PropertyFilterBoxFilter
+  commentId: T:H.Controls.FilterBox.PropertyFilterBoxFilter
+  href: H.Controls.FilterBox.PropertyFilterBoxFilter.html
+  name: PropertyFilterBoxFilter
+  nameWithType: PropertyFilterBoxFilter
+  fullName: H.Controls.FilterBox.PropertyFilterBoxFilter
+- uid: H.Controls.FilterBox.ComparablePropertyFilterBase`1
+  commentId: T:H.Controls.FilterBox.ComparablePropertyFilterBase`1
+  href: H.Controls.FilterBox.ComparablePropertyFilterBase-1.html
+  name: ComparablePropertyFilterBase<T>
+  nameWithType: ComparablePropertyFilterBase<T>
+  fullName: H.Controls.FilterBox.ComparablePropertyFilterBase<T>
+  nameWithType.vb: ComparablePropertyFilterBase(Of T)
+  fullName.vb: H.Controls.FilterBox.ComparablePropertyFilterBase(Of T)
+  name.vb: ComparablePropertyFilterBase(Of T)
+  spec.csharp:
+  - uid: H.Controls.FilterBox.ComparablePropertyFilterBase`1
+    name: ComparablePropertyFilterBase
+    href: H.Controls.FilterBox.ComparablePropertyFilterBase-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Controls.FilterBox.ComparablePropertyFilterBase`1
+    name: ComparablePropertyFilterBase
+    href: H.Controls.FilterBox.ComparablePropertyFilterBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Controls.FilterBox.FilterFactory
+  commentId: T:H.Controls.FilterBox.FilterFactory
+  href: H.Controls.FilterBox.FilterFactory.html
+  name: FilterFactory
+  nameWithType: FilterFactory
+  fullName: H.Controls.FilterBox.FilterFactory
+- uid: H.Controls.FilterBox.FilterItemCollection
+  commentId: T:H.Controls.FilterBox.FilterItemCollection
+  href: H.Controls.FilterBox.FilterItemCollection.html
+  name: FilterItemCollection
+  nameWithType: FilterItemCollection
+  fullName: H.Controls.FilterBox.FilterItemCollection
+- uid: H.Controls.FilterBox.FilterOperate
+  commentId: T:H.Controls.FilterBox.FilterOperate
+  parent: H.Controls.FilterBox
+  href: H.Controls.FilterBox.FilterOperate.html
+  name: FilterOperate
+  nameWithType: FilterOperate
+  fullName: H.Controls.FilterBox.FilterOperate
+- uid: H.Controls.FilterBox.IPropertyFilter
+  commentId: T:H.Controls.FilterBox.IPropertyFilter
+  parent: H.Controls.FilterBox
+  href: H.Controls.FilterBox.IPropertyFilter.html
+  name: IPropertyFilter
+  nameWithType: IPropertyFilter
+  fullName: H.Controls.FilterBox.IPropertyFilter
+- uid: H.Controls.FilterBox.PropertyFilterBase`1
+  commentId: T:H.Controls.FilterBox.PropertyFilterBase`1
+  href: H.Controls.FilterBox.PropertyFilterBase-1.html
+  name: PropertyFilterBase<T>
+  nameWithType: PropertyFilterBase<T>
+  fullName: H.Controls.FilterBox.PropertyFilterBase<T>
+  nameWithType.vb: PropertyFilterBase(Of T)
+  fullName.vb: H.Controls.FilterBox.PropertyFilterBase(Of T)
+  name.vb: PropertyFilterBase(Of T)
+  spec.csharp:
+  - uid: H.Controls.FilterBox.PropertyFilterBase`1
+    name: PropertyFilterBase
+    href: H.Controls.FilterBox.PropertyFilterBase-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Controls.FilterBox.PropertyFilterBase`1
+    name: PropertyFilterBase
+    href: H.Controls.FilterBox.PropertyFilterBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Controls.FilterBox.BooleanPropertyFilter
+  commentId: T:H.Controls.FilterBox.BooleanPropertyFilter
+  href: H.Controls.FilterBox.BooleanPropertyFilter.html
+  name: BooleanPropertyFilter
+  nameWithType: BooleanPropertyFilter
+  fullName: H.Controls.FilterBox.BooleanPropertyFilter
+- uid: H.Controls.FilterBox.DateTimePropertyFilter
+  commentId: T:H.Controls.FilterBox.DateTimePropertyFilter
+  href: H.Controls.FilterBox.DateTimePropertyFilter.html
+  name: DateTimePropertyFilter
+  nameWithType: DateTimePropertyFilter
+  fullName: H.Controls.FilterBox.DateTimePropertyFilter
+- uid: H.Controls.FilterBox.DoublePropertyFilter
+  commentId: T:H.Controls.FilterBox.DoublePropertyFilter
+  href: H.Controls.FilterBox.DoublePropertyFilter.html
+  name: DoublePropertyFilter
+  nameWithType: DoublePropertyFilter
+  fullName: H.Controls.FilterBox.DoublePropertyFilter
+- uid: H.Controls.FilterBox.IntPropertyFilter
+  commentId: T:H.Controls.FilterBox.IntPropertyFilter
+  href: H.Controls.FilterBox.IntPropertyFilter.html
+  name: IntPropertyFilter
+  nameWithType: IntPropertyFilter
+  fullName: H.Controls.FilterBox.IntPropertyFilter
+- uid: H.Controls.FilterBox.LongPropertyFilter
+  commentId: T:H.Controls.FilterBox.LongPropertyFilter
+  href: H.Controls.FilterBox.LongPropertyFilter.html
+  name: LongPropertyFilter
+  nameWithType: LongPropertyFilter
+  fullName: H.Controls.FilterBox.LongPropertyFilter
+- uid: H.Controls.FilterBox.StringPropertyFilter
+  commentId: T:H.Controls.FilterBox.StringPropertyFilter
+  href: H.Controls.FilterBox.StringPropertyFilter.html
+  name: StringPropertyFilter
+  nameWithType: StringPropertyFilter
+  fullName: H.Controls.FilterBox.StringPropertyFilter
+- uid: H.Controls.FilterBox.ISelectionFilterBox
+  commentId: T:H.Controls.FilterBox.ISelectionFilterBox
+  parent: H.Controls.FilterBox
+  href: H.Controls.FilterBox.ISelectionFilterBox.html
+  name: ISelectionFilterBox
+  nameWithType: ISelectionFilterBox
+  fullName: H.Controls.FilterBox.ISelectionFilterBox
+- uid: H.Controls.FilterBox.SelectionFilterBox
+  commentId: T:H.Controls.FilterBox.SelectionFilterBox
+  parent: H.Controls.FilterBox
+  href: H.Controls.FilterBox.SelectionFilterBox.html
+  name: SelectionFilterBox
+  nameWithType: SelectionFilterBox
+  fullName: H.Controls.FilterBox.SelectionFilterBox
+- uid: H.Controls.FilterBox.SelectionFilter
+  commentId: T:H.Controls.FilterBox.SelectionFilter
+  href: H.Controls.FilterBox.SelectionFilter.html
+  name: SelectionFilter
+  nameWithType: SelectionFilter
+  fullName: H.Controls.FilterBox.SelectionFilter
+- uid: H.Controls.FilterBox.TextBlockFilterCountBehavior
+  commentId: T:H.Controls.FilterBox.TextBlockFilterCountBehavior
+  href: H.Controls.FilterBox.TextBlockFilterCountBehavior.html
+  name: TextBlockFilterCountBehavior
+  nameWithType: TextBlockFilterCountBehavior
+  fullName: H.Controls.FilterBox.TextBlockFilterCountBehavior
+- uid: H.Controls.FilterBox.TextBlockFiltersCountBehavior
+  commentId: T:H.Controls.FilterBox.TextBlockFiltersCountBehavior
+  href: H.Controls.FilterBox.TextBlockFiltersCountBehavior.html
+  name: TextBlockFiltersCountBehavior
+  nameWithType: TextBlockFiltersCountBehavior
+  fullName: H.Controls.FilterBox.TextBlockFiltersCountBehavior
+- uid: H.Controls.FilterBox.ITextFilterBox
+  commentId: T:H.Controls.FilterBox.ITextFilterBox
+  parent: H.Controls.FilterBox
+  href: H.Controls.FilterBox.ITextFilterBox.html
+  name: ITextFilterBox
+  nameWithType: ITextFilterBox
+  fullName: H.Controls.FilterBox.ITextFilterBox
+- uid: H.Controls.FilterBox.TextFilterBox
+  commentId: T:H.Controls.FilterBox.TextFilterBox
+  parent: H.Controls.FilterBox
+  href: H.Controls.FilterBox.TextFilterBox.html
+  name: TextFilterBox
+  nameWithType: TextFilterBox
+  fullName: H.Controls.FilterBox.TextFilterBox
+- uid: H.Controls.FilterBox.TextFilter
+  commentId: T:H.Controls.FilterBox.TextFilter
+  href: H.Controls.FilterBox.TextFilter.html
+  name: TextFilter
+  nameWithType: TextFilter
+  fullName: H.Controls.FilterBox.TextFilter
+- uid: H.Controls.FilterBox
+  commentId: N:H.Controls.FilterBox
+  href: H.html
+  name: H.Controls.FilterBox
+  nameWithType: H.Controls.FilterBox
+  fullName: H.Controls.FilterBox
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.FilterBox
+    name: FilterBox
+    href: H.Controls.FilterBox.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.FilterBox
+    name: FilterBox
+    href: H.Controls.FilterBox.html

@@ -1,0 +1,92 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Modules.Help.ReleaseVersions
+  commentId: N:H.Modules.Help.ReleaseVersions
+  id: H.Modules.Help.ReleaseVersions
+  children:
+  - H.Modules.Help.ReleaseVersions.Extention
+  - H.Modules.Help.ReleaseVersions.IReleaseVersionsOptions
+  - H.Modules.Help.ReleaseVersions.IReleaseVersionsService
+  - H.Modules.Help.ReleaseVersions.ReleaseVersionsOptions
+  - H.Modules.Help.ReleaseVersions.ReleaseVersionsService
+  langs:
+  - csharp
+  - vb
+  name: H.Modules.Help.ReleaseVersions
+  nameWithType: H.Modules.Help.ReleaseVersions
+  fullName: H.Modules.Help.ReleaseVersions
+  type: Namespace
+  assemblies:
+  - H.Modules.Help
+references:
+- uid: H.Modules.Help.ReleaseVersions.Extention
+  commentId: T:H.Modules.Help.ReleaseVersions.Extention
+  parent: H.Modules.Help.ReleaseVersions
+  href: H.Modules.Help.ReleaseVersions.Extention.html
+  name: Extention
+  nameWithType: Extention
+  fullName: H.Modules.Help.ReleaseVersions.Extention
+- uid: H.Modules.Help.ReleaseVersions.IReleaseVersionsOptions
+  commentId: T:H.Modules.Help.ReleaseVersions.IReleaseVersionsOptions
+  parent: H.Modules.Help.ReleaseVersions
+  href: H.Modules.Help.ReleaseVersions.IReleaseVersionsOptions.html
+  name: IReleaseVersionsOptions
+  nameWithType: IReleaseVersionsOptions
+  fullName: H.Modules.Help.ReleaseVersions.IReleaseVersionsOptions
+- uid: H.Modules.Help.ReleaseVersions.IReleaseVersionsService
+  commentId: T:H.Modules.Help.ReleaseVersions.IReleaseVersionsService
+  parent: H.Modules.Help.ReleaseVersions
+  href: H.Modules.Help.ReleaseVersions.IReleaseVersionsService.html
+  name: IReleaseVersionsService
+  nameWithType: IReleaseVersionsService
+  fullName: H.Modules.Help.ReleaseVersions.IReleaseVersionsService
+- uid: H.Modules.Help.ReleaseVersions.ReleaseVersionsOptions
+  commentId: T:H.Modules.Help.ReleaseVersions.ReleaseVersionsOptions
+  href: H.Modules.Help.ReleaseVersions.ReleaseVersionsOptions.html
+  name: ReleaseVersionsOptions
+  nameWithType: ReleaseVersionsOptions
+  fullName: H.Modules.Help.ReleaseVersions.ReleaseVersionsOptions
+- uid: H.Modules.Help.ReleaseVersions.ReleaseVersionsService
+  commentId: T:H.Modules.Help.ReleaseVersions.ReleaseVersionsService
+  href: H.Modules.Help.ReleaseVersions.ReleaseVersionsService.html
+  name: ReleaseVersionsService
+  nameWithType: ReleaseVersionsService
+  fullName: H.Modules.Help.ReleaseVersions.ReleaseVersionsService
+- uid: H.Modules.Help.ReleaseVersions
+  commentId: N:H.Modules.Help.ReleaseVersions
+  href: H.html
+  name: H.Modules.Help.ReleaseVersions
+  nameWithType: H.Modules.Help.ReleaseVersions
+  fullName: H.Modules.Help.ReleaseVersions
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Modules
+    name: Modules
+    href: H.Modules.html
+  - name: .
+  - uid: H.Modules.Help
+    name: Help
+    href: H.Modules.Help.html
+  - name: .
+  - uid: H.Modules.Help.ReleaseVersions
+    name: ReleaseVersions
+    href: H.Modules.Help.ReleaseVersions.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Modules
+    name: Modules
+    href: H.Modules.html
+  - name: .
+  - uid: H.Modules.Help
+    name: Help
+    href: H.Modules.Help.html
+  - name: .
+  - uid: H.Modules.Help.ReleaseVersions
+    name: ReleaseVersions
+    href: H.Modules.Help.ReleaseVersions.html

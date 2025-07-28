@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Themes.Colors.Platform
+  commentId: N:H.Themes.Colors.Platform
+  id: H.Themes.Colors.Platform
+  children:
+  - H.Themes.Colors.Platform.AppleColorResource
+  - H.Themes.Colors.Platform.FluentUIColorResource
+  - H.Themes.Colors.Platform.MaterialDesignColorResource
+  langs:
+  - csharp
+  - vb
+  name: H.Themes.Colors.Platform
+  nameWithType: H.Themes.Colors.Platform
+  fullName: H.Themes.Colors.Platform
+  type: Namespace
+  assemblies:
+  - H.Themes.Colors.Platform
+references:
+- uid: H.Themes.Colors.Platform.AppleColorResource
+  commentId: T:H.Themes.Colors.Platform.AppleColorResource
+  href: H.Themes.Colors.Platform.AppleColorResource.html
+  name: AppleColorResource
+  nameWithType: AppleColorResource
+  fullName: H.Themes.Colors.Platform.AppleColorResource
+- uid: H.Themes.Colors.Platform.FluentUIColorResource
+  commentId: T:H.Themes.Colors.Platform.FluentUIColorResource
+  href: H.Themes.Colors.Platform.FluentUIColorResource.html
+  name: FluentUIColorResource
+  nameWithType: FluentUIColorResource
+  fullName: H.Themes.Colors.Platform.FluentUIColorResource
+- uid: H.Themes.Colors.Platform.MaterialDesignColorResource
+  commentId: T:H.Themes.Colors.Platform.MaterialDesignColorResource
+  href: H.Themes.Colors.Platform.MaterialDesignColorResource.html
+  name: MaterialDesignColorResource
+  nameWithType: MaterialDesignColorResource
+  fullName: H.Themes.Colors.Platform.MaterialDesignColorResource

@@ -1,0 +1,68 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Modules.SplashScreen
+  commentId: N:H.Modules.SplashScreen
+  id: H.Modules.SplashScreen
+  children:
+  - H.Modules.SplashScreen.ISplashScreenOptions
+  - H.Modules.SplashScreen.SplashScreenOptions
+  - H.Modules.SplashScreen.SplashScreenViewPresenter
+  langs:
+  - csharp
+  - vb
+  name: H.Modules.SplashScreen
+  nameWithType: H.Modules.SplashScreen
+  fullName: H.Modules.SplashScreen
+  type: Namespace
+  assemblies:
+  - H.Modules.SplashScreen
+references:
+- uid: H.Modules.SplashScreen.ISplashScreenOptions
+  commentId: T:H.Modules.SplashScreen.ISplashScreenOptions
+  parent: H.Modules.SplashScreen
+  href: H.Modules.SplashScreen.ISplashScreenOptions.html
+  name: ISplashScreenOptions
+  nameWithType: ISplashScreenOptions
+  fullName: H.Modules.SplashScreen.ISplashScreenOptions
+- uid: H.Modules.SplashScreen.SplashScreenOptions
+  commentId: T:H.Modules.SplashScreen.SplashScreenOptions
+  href: H.Modules.SplashScreen.SplashScreenOptions.html
+  name: SplashScreenOptions
+  nameWithType: SplashScreenOptions
+  fullName: H.Modules.SplashScreen.SplashScreenOptions
+- uid: H.Modules.SplashScreen.SplashScreenViewPresenter
+  commentId: T:H.Modules.SplashScreen.SplashScreenViewPresenter
+  href: H.Modules.SplashScreen.SplashScreenViewPresenter.html
+  name: SplashScreenViewPresenter
+  nameWithType: SplashScreenViewPresenter
+  fullName: H.Modules.SplashScreen.SplashScreenViewPresenter
+- uid: H.Modules.SplashScreen
+  commentId: N:H.Modules.SplashScreen
+  href: H.html
+  name: H.Modules.SplashScreen
+  nameWithType: H.Modules.SplashScreen
+  fullName: H.Modules.SplashScreen
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Modules
+    name: Modules
+    href: H.Modules.html
+  - name: .
+  - uid: H.Modules.SplashScreen
+    name: SplashScreen
+    href: H.Modules.SplashScreen.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Modules
+    name: Modules
+    href: H.Modules.html
+  - name: .
+  - uid: H.Modules.SplashScreen
+    name: SplashScreen
+    href: H.Modules.SplashScreen.html

@@ -1,0 +1,3502 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Struct PhysicalQuantity | WPF-VisionMasterOpenCV2.0开发文档 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Struct PhysicalQuantity | WPF-VisionMasterOpenCV2.0开发文档 ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="WPF-VisionMasterOpenCV2.0开发文档">
+            WPF-VisionMasterOpenCV2.0开发文档
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="H.Extensions.Unit.PhysicalQuantity">
+
+
+
+  <h1 id="H_Extensions_Unit_PhysicalQuantity" data-uid="H.Extensions.Unit.PhysicalQuantity" class="text-break">
+Struct PhysicalQuantity  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="H.html">H</a>.<a class="xref" href="H.Extensions.html">Extensions</a>.<a class="xref" href="H.Extensions.Unit.html">Unit</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>H.Extensions.Unit.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly struct PhysicalQuantity : IPhysicalQuantity</code></pre>
+  </div>
+
+
+
+
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="H.Extensions.Unit.IPhysicalQuantity.html">IPhysicalQuantity</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_ToEnumerable__1___0_">ObjectExtension.ToEnumerable&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.NewtonsoftJson.NewtonsoftJsonSerializerServiceExtension.html#H_Extensions_NewtonsoftJson_NewtonsoftJsonSerializerServiceExtension_CloneByNewtonsoftJson__1___0_">NewtonsoftJsonSerializerServiceExtension.CloneByNewtonsoftJson&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.VisionMaster.ResultPresenter.ResultPresenterExtension.html#H_VisionMaster_ResultPresenter_ResultPresenterExtension_ToValueResultPresenter__1___0_">ResultPresenterExtension.ToValueResultPresenter&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Controls.FilterColumnDataGrid.Extensions.html#H_Controls_FilterColumnDataGrid_Extensions_GetPropertyValue_System_Object_System_String_">Extensions.GetPropertyValue(object, string)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Controls.FilterColumnDataGrid.Extensions.html#H_Controls_FilterColumnDataGrid_Extensions_GetPropertyValue__1_System_Object_System_String_">Extensions.GetPropertyValue&lt;T&gt;(object, string)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Controls.Form.Provider.PropertyInfoExtention.html#H_Controls_Form_Provider_PropertyInfoExtention_ChangeType__1_System_Object_">PropertyInfoExtention.ChangeType&lt;T&gt;(object)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_CloneBy_System_Object_System_Predicate_System_Reflection_PropertyInfo__">ObjectExtension.CloneBy(object, Predicate&lt;PropertyInfo&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_CopyPropertyValueFrom_System_Object_System_Object_System_Predicate_System_Reflection_PropertyInfo__System_Func_System_Reflection_PropertyInfo_System_Reflection_PropertyInfo_System_Boolean__">ObjectExtension.CopyPropertyValueFrom(object, object, Predicate&lt;PropertyInfo&gt;, Func&lt;PropertyInfo, PropertyInfo, bool&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_IsMacth_System_Object_System_Func_System_Reflection_PropertyInfo_System_Object_System_Boolean__">ObjectExtension.IsMacth(object, Func&lt;PropertyInfo, object, bool&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_IsMacth_System_Object_System_String_">ObjectExtension.IsMacth(object, string)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_ModelState_System_Object_System_Collections_Generic_List_System_String___">ObjectExtension.ModelState(object, out List&lt;string&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_ModelStateDeep_System_Object_System_String__">ObjectExtension.ModelStateDeep(object, out string)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_TryChangeType_System_Object_System_Type_System_Object__">ObjectExtension.TryChangeType(object, Type, out object)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_TryChangeType__1_System_Object_">ObjectExtension.TryChangeType&lt;T&gt;(object)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_TryChangeType__1_System_Object___0__">ObjectExtension.TryChangeType&lt;T&gt;(object, out T)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_TryConvertToString_System_Object_">ObjectExtension.TryConvertToString(object)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_TryConvertToString_System_Object_System_String__">ObjectExtension.TryConvertToString(object, out string)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.TextJsonable.TextJsonableExtensions.html#H_Extensions_TextJsonable_TextJsonableExtensions_GetJsonPropertyInfos_System_Object_">TextJsonableExtensions.GetJsonPropertyInfos(object)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.TextJsonable.TextJsonableExtensions.html#H_Extensions_TextJsonable_TextJsonableExtensions_WriteJson_System_Object_System_Text_Json_Utf8JsonWriter_System_Text_Json_JsonSerializerOptions_System_Boolean_">TextJsonableExtensions.WriteJson(object, Utf8JsonWriter, JsonSerializerOptions, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.TextJsonable.TextJsonableExtensions.html#H_Extensions_TextJsonable_TextJsonableExtensions_WriteType_System_Object_System_Text_Json_Utf8JsonWriter_">TextJsonableExtensions.WriteType(object, Utf8JsonWriter)</a>
+  </div>
+  <div>
+      <a class="xref" href="System.Windows.Threading.DispatcherExtension.html#System_Windows_Threading_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_">DispatcherExtension.DelayInvoke(object, Action, DispatcherPriority)</a>
+  </div>
+  <div>
+      <a class="xref" href="System.Windows.Threading.DispatcherExtension.html#System_Windows_Threading_DispatcherExtension_DelayInvoke_System_Object_System_Collections_IList_System_Action_System_Object__System_Action_System_Windows_Threading_DispatcherPriority_">DispatcherExtension.DelayInvoke(object, IList, Action&lt;object&gt;, Action, DispatcherPriority)</a>
+  </div>
+  <div>
+      <a class="xref" href="System.Windows.Threading.DispatcherExtension.html#System_Windows_Threading_DispatcherExtension_DelayInvoke_System_Object_System_Collections_IList_System_Func_System_Collections_IList__System_Action_System_Windows_Threading_DispatcherPriority_">DispatcherExtension.DelayInvoke(object, IList, Func&lt;IList&gt;, Action, DispatcherPriority)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity__ctor_" data-uid="H.Extensions.Unit.PhysicalQuantity.#ctor*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity__ctor_H_Extensions_Unit_IPhysicalQuantity_" data-uid="H.Extensions.Unit.PhysicalQuantity.#ctor(H.Extensions.Unit.IPhysicalQuantity)">
+  PhysicalQuantity(IPhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PhysicalQuantity(IPhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.IPhysicalQuantity.html">IPhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity__ctor_" data-uid="H.Extensions.Unit.PhysicalQuantity.#ctor*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity__ctor_System_Double_H_Extensions_Unit_Dimensions_" data-uid="H.Extensions.Unit.PhysicalQuantity.#ctor(System.Double,H.Extensions.Unit.Dimensions)">
+  PhysicalQuantity(double, Dimensions)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PhysicalQuantity(double v, Dimensions d)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>v</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>d</code> <a class="xref" href="H.Extensions.Unit.Dimensions.html">Dimensions</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_Dimensions_" data-uid="H.Extensions.Unit.PhysicalQuantity.Dimensions*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_Dimensions" data-uid="H.Extensions.Unit.PhysicalQuantity.Dimensions">
+  Dimensions
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dimensions Dimensions { get; init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.Dimensions.html">Dimensions</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_Value_" data-uid="H.Extensions.Unit.PhysicalQuantity.Value*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_Value" data-uid="H.Extensions.Unit.PhysicalQuantity.Value">
+  Value
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Value { get; init; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_Compare_" data-uid="H.Extensions.Unit.PhysicalQuantity.Compare*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_Compare_H_Extensions_Unit_PhysicalQuantity_H_Extensions_Unit_IPhysicalQuantity_" data-uid="H.Extensions.Unit.PhysicalQuantity.Compare(H.Extensions.Unit.PhysicalQuantity,H.Extensions.Unit.IPhysicalQuantity)">
+  Compare(PhysicalQuantity, IPhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int Compare(PhysicalQuantity v1, IPhysicalQuantity v2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>v1</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+    <dt><code>v2</code> <a class="xref" href="H.Extensions.Unit.IPhysicalQuantity.html">IPhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_Equals_" data-uid="H.Extensions.Unit.PhysicalQuantity.Equals*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_Equals_System_Object_" data-uid="H.Extensions.Unit.PhysicalQuantity.Equals(System.Object)">
+  Equals(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Indicates whether this instance and a specified object are equal.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The object to compare with the current instance.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">obj</code> and this instance are the same type and represent the same value; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_GetHashCode_" data-uid="H.Extensions.Unit.PhysicalQuantity.GetHashCode*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_GetHashCode" data-uid="H.Extensions.Unit.PhysicalQuantity.GetHashCode">
+  GetHashCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the hash code for this instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>A 32-bit signed integer that is the hash code for this instance.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_ToString_" data-uid="H.Extensions.Unit.PhysicalQuantity.ToString*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_ToString" data-uid="H.Extensions.Unit.PhysicalQuantity.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the fully qualified type name of this instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The fully qualified type name.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_ToString_" data-uid="H.Extensions.Unit.PhysicalQuantity.ToString*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_ToString_System_Int32_H_Extensions_Unit_Unit___" data-uid="H.Extensions.Unit.PhysicalQuantity.ToString(System.Int32,H.Extensions.Unit.Unit[])">
+  ToString(int, params Unit[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ToString(int precision, params Unit[] units)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>precision</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>units</code> <a class="xref" href="H.Extensions.Unit.Unit.html">Unit</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="operators">Operators
+</h2>
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Addition_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Addition*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Addition_H_Extensions_Unit_PhysicalQuantity_H_Extensions_Unit_IPhysicalQuantity_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Addition(H.Extensions.Unit.PhysicalQuantity,H.Extensions.Unit.IPhysicalQuantity)">
+  operator +(PhysicalQuantity, IPhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static PhysicalQuantity operator +(PhysicalQuantity v1, IPhysicalQuantity v2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>v1</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+    <dt><code>v2</code> <a class="xref" href="H.Extensions.Unit.IPhysicalQuantity.html">IPhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Division_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Division*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Division_H_Extensions_Unit_PhysicalQuantity_H_Extensions_Unit_IPhysicalQuantity_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Division(H.Extensions.Unit.PhysicalQuantity,H.Extensions.Unit.IPhysicalQuantity)">
+  operator /(PhysicalQuantity, IPhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static PhysicalQuantity operator /(PhysicalQuantity v1, IPhysicalQuantity v2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>v1</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+    <dt><code>v2</code> <a class="xref" href="H.Extensions.Unit.IPhysicalQuantity.html">IPhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Division_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Division*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Division_H_Extensions_Unit_PhysicalQuantity_System_Double_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Division(H.Extensions.Unit.PhysicalQuantity,System.Double)">
+  operator /(PhysicalQuantity, double)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static PhysicalQuantity operator /(PhysicalQuantity v1, double v2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>v1</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+    <dt><code>v2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Equality_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Equality*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Equality_H_Extensions_Unit_PhysicalQuantity_H_Extensions_Unit_IPhysicalQuantity_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Equality(H.Extensions.Unit.PhysicalQuantity,H.Extensions.Unit.IPhysicalQuantity)">
+  operator ==(PhysicalQuantity, IPhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator ==(PhysicalQuantity v1, IPhysicalQuantity v2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>v1</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+    <dt><code>v2</code> <a class="xref" href="H.Extensions.Unit.IPhysicalQuantity.html">IPhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_ExclusiveOr_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_ExclusiveOr*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_ExclusiveOr_H_Extensions_Unit_PhysicalQuantity_System_Int16_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_ExclusiveOr(H.Extensions.Unit.PhysicalQuantity,System.Int16)">
+  operator ^(PhysicalQuantity, short)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static PhysicalQuantity operator ^(PhysicalQuantity v, short p)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>v</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+    <dt><code>p</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_GreaterThan_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_GreaterThan*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_GreaterThan_H_Extensions_Unit_PhysicalQuantity_H_Extensions_Unit_IPhysicalQuantity_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_GreaterThan(H.Extensions.Unit.PhysicalQuantity,H.Extensions.Unit.IPhysicalQuantity)">
+  operator &gt;(PhysicalQuantity, IPhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator &gt;(PhysicalQuantity v1, IPhysicalQuantity v2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>v1</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+    <dt><code>v2</code> <a class="xref" href="H.Extensions.Unit.IPhysicalQuantity.html">IPhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_GreaterThanOrEqual_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_GreaterThanOrEqual*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_GreaterThanOrEqual_H_Extensions_Unit_PhysicalQuantity_H_Extensions_Unit_IPhysicalQuantity_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_GreaterThanOrEqual(H.Extensions.Unit.PhysicalQuantity,H.Extensions.Unit.IPhysicalQuantity)">
+  operator &gt;=(PhysicalQuantity, IPhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator &gt;=(PhysicalQuantity v1, IPhysicalQuantity v2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>v1</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+    <dt><code>v2</code> <a class="xref" href="H.Extensions.Unit.IPhysicalQuantity.html">IPhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_AbsoluteTemperature" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.AbsoluteTemperature">
+  implicit operator AbsoluteTemperature(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator AbsoluteTemperature(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.AbsoluteTemperature.html">AbsoluteTemperature</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_Acceleration" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.Acceleration">
+  implicit operator Acceleration(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator Acceleration(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.Acceleration.html">Acceleration</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_AmountOfSubstance" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.AmountOfSubstance">
+  implicit operator AmountOfSubstance(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator AmountOfSubstance(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.AmountOfSubstance.html">AmountOfSubstance</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_AmountOfSubstanceByArea" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.AmountOfSubstanceByArea">
+  implicit operator AmountOfSubstanceByArea(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator AmountOfSubstanceByArea(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.AmountOfSubstanceByArea.html">AmountOfSubstanceByArea</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_AmountOfSubstanceByTime" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.AmountOfSubstanceByTime">
+  implicit operator AmountOfSubstanceByTime(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator AmountOfSubstanceByTime(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.AmountOfSubstanceByTime.html">AmountOfSubstanceByTime</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_Angle" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.Angle">
+  implicit operator Angle(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator Angle(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.Angle.html">Angle</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_AngularMomentum" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.AngularMomentum">
+  implicit operator AngularMomentum(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator AngularMomentum(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.AngularMomentum.html">AngularMomentum</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_AngularVelocity" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.AngularVelocity">
+  implicit operator AngularVelocity(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator AngularVelocity(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.AngularVelocity.html">AngularVelocity</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_AngularVelocitySquared" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.AngularVelocitySquared">
+  implicit operator AngularVelocitySquared(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator AngularVelocitySquared(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.AngularVelocitySquared.html">AngularVelocitySquared</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_Area" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.Area">
+  implicit operator Area(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator Area(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.Area.html">Area</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_ByArea" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.ByArea">
+  implicit operator ByArea(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator ByArea(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.ByArea.html">ByArea</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_ByLength" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.ByLength">
+  implicit operator ByLength(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator ByLength(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.ByLength.html">ByLength</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_CoefficientOfThermalExpansion" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.CoefficientOfThermalExpansion">
+  implicit operator CoefficientOfThermalExpansion(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator CoefficientOfThermalExpansion(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.CoefficientOfThermalExpansion.html">CoefficientOfThermalExpansion</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_CoefficientOfViscosity" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.CoefficientOfViscosity">
+  implicit operator CoefficientOfViscosity(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator CoefficientOfViscosity(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.CoefficientOfViscosity.html">CoefficientOfViscosity</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_Current" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.Current">
+  implicit operator Current(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator Current(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.Current.html">Current</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_Density" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.Density">
+  implicit operator Density(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator Density(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.Density.html">Density</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_DiffusionFlux" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.DiffusionFlux">
+  implicit operator DiffusionFlux(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator DiffusionFlux(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.DiffusionFlux.html">DiffusionFlux</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_Dimensionless" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.Dimensionless">
+  implicit operator Dimensionless(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator Dimensionless(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.Dimensionless.html">Dimensionless</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_ElectricCharge" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.ElectricCharge">
+  implicit operator ElectricCharge(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator ElectricCharge(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.ElectricCharge.html">ElectricCharge</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_ElectricPotential" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.ElectricPotential">
+  implicit operator ElectricPotential(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator ElectricPotential(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.ElectricPotential.html">ElectricPotential</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_ElectricPotentialSquared" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.ElectricPotentialSquared">
+  implicit operator ElectricPotentialSquared(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator ElectricPotentialSquared(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.ElectricPotentialSquared.html">ElectricPotentialSquared</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_Energy" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.Energy">
+  implicit operator Energy(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator Energy(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.Energy.html">Energy</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_EnergyFlux" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.EnergyFlux">
+  implicit operator EnergyFlux(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator EnergyFlux(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.EnergyFlux.html">EnergyFlux</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_Force" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.Force">
+  implicit operator Force(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator Force(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.Force.html">Force</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_FourDimensionalVolume" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.FourDimensionalVolume">
+  implicit operator FourDimensionalVolume(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator FourDimensionalVolume(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.FourDimensionalVolume.html">FourDimensionalVolume</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_Frequency" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.Frequency">
+  implicit operator Frequency(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator Frequency(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.Frequency.html">Frequency</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_Illuminance" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.Illuminance">
+  implicit operator Illuminance(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator Illuminance(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.Illuminance.html">Illuminance</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_KinematicViscosity" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.KinematicViscosity">
+  implicit operator KinematicViscosity(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator KinematicViscosity(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.KinematicViscosity.html">KinematicViscosity</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_Length" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.Length">
+  implicit operator Length(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator Length(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.Length.html">Length</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_LuminousFlux" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.LuminousFlux">
+  implicit operator LuminousFlux(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator LuminousFlux(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.LuminousFlux.html">LuminousFlux</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_LuminousIntensity" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.LuminousIntensity">
+  implicit operator LuminousIntensity(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator LuminousIntensity(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.LuminousIntensity.html">LuminousIntensity</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_Mass" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.Mass">
+  implicit operator Mass(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator Mass(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.Mass.html">Mass</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_MassByArea" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.MassByArea">
+  implicit operator MassByArea(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator MassByArea(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.MassByArea.html">MassByArea</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_MassByAreaByTimeSquared" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.MassByAreaByTimeSquared">
+  implicit operator MassByAreaByTimeSquared(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator MassByAreaByTimeSquared(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.MassByAreaByTimeSquared.html">MassByAreaByTimeSquared</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_MassByLength" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.MassByLength">
+  implicit operator MassByLength(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator MassByLength(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.MassByLength.html">MassByLength</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_MassFlowRate" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.MassFlowRate">
+  implicit operator MassFlowRate(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator MassFlowRate(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.MassFlowRate.html">MassFlowRate</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_MolarConcentration" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.MolarConcentration">
+  implicit operator MolarConcentration(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator MolarConcentration(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.MolarConcentration.html">MolarConcentration</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_MolarConcentrationGradient" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.MolarConcentrationGradient">
+  implicit operator MolarConcentrationGradient(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator MolarConcentrationGradient(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.MolarConcentrationGradient.html">MolarConcentrationGradient</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_MolarConcentrationTimesAbsoluteTemperature" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.MolarConcentrationTimesAbsoluteTemperature">
+  implicit operator MolarConcentrationTimesAbsoluteTemperature(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator MolarConcentrationTimesAbsoluteTemperature(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.MolarConcentrationTimesAbsoluteTemperature.html">MolarConcentrationTimesAbsoluteTemperature</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_MolarMass" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.MolarMass">
+  implicit operator MolarMass(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator MolarMass(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.MolarMass.html">MolarMass</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_MolarSpecificHeat" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.MolarSpecificHeat">
+  implicit operator MolarSpecificHeat(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator MolarSpecificHeat(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.MolarSpecificHeat.html">MolarSpecificHeat</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_MomentOfInertia" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.MomentOfInertia">
+  implicit operator MomentOfInertia(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator MomentOfInertia(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.MomentOfInertia.html">MomentOfInertia</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_Momentum" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.Momentum">
+  implicit operator Momentum(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator Momentum(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.Momentum.html">Momentum</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_Power" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.Power">
+  implicit operator Power(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator Power(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.Power.html">Power</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_PowerGradient" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.PowerGradient">
+  implicit operator PowerGradient(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator PowerGradient(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.PowerGradient.html">PowerGradient</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_Pressure" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.Pressure">
+  implicit operator Pressure(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator Pressure(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.Pressure.html">Pressure</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_Resistance" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.Resistance">
+  implicit operator Resistance(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator Resistance(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.Resistance.html">Resistance</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_ResistanceTimesArea" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.ResistanceTimesArea">
+  implicit operator ResistanceTimesArea(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator ResistanceTimesArea(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.ResistanceTimesArea.html">ResistanceTimesArea</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_ResistanceToFlow" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.ResistanceToFlow">
+  implicit operator ResistanceToFlow(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator ResistanceToFlow(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.ResistanceToFlow.html">ResistanceToFlow</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_Resistivity" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.Resistivity">
+  implicit operator Resistivity(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator Resistivity(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.Resistivity.html">Resistivity</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_SolidAngle" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.SolidAngle">
+  implicit operator SolidAngle(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator SolidAngle(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.SolidAngle.html">SolidAngle</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_SpecificHeat" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.SpecificHeat">
+  implicit operator SpecificHeat(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator SpecificHeat(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.SpecificHeat.html">SpecificHeat</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_SurfaceTension" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.SurfaceTension">
+  implicit operator SurfaceTension(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator SurfaceTension(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.SurfaceTension.html">SurfaceTension</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_TangentialVelocity" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.TangentialVelocity">
+  implicit operator TangentialVelocity(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator TangentialVelocity(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.TangentialVelocity.html">TangentialVelocity</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_TemperatureChange" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.TemperatureChange">
+  implicit operator TemperatureChange(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator TemperatureChange(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.TemperatureChange.html">TemperatureChange</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_TemperatureGradient" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.TemperatureGradient">
+  implicit operator TemperatureGradient(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator TemperatureGradient(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.TemperatureGradient.html">TemperatureGradient</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_ThermalCapacity" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.ThermalCapacity">
+  implicit operator ThermalCapacity(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator ThermalCapacity(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.ThermalCapacity.html">ThermalCapacity</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_ThermalCapacityByVolume" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.ThermalCapacityByVolume">
+  implicit operator ThermalCapacityByVolume(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator ThermalCapacityByVolume(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.ThermalCapacityByVolume.html">ThermalCapacityByVolume</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_ThermalConductivity" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.ThermalConductivity">
+  implicit operator ThermalConductivity(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator ThermalConductivity(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.ThermalConductivity.html">ThermalConductivity</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_Time" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.Time">
+  implicit operator Time(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator Time(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.Time.html">Time</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_TimeSquared" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.TimeSquared">
+  implicit operator TimeSquared(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator TimeSquared(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.TimeSquared.html">TimeSquared</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_Velocity" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.Velocity">
+  implicit operator Velocity(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator Velocity(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.Velocity.html">Velocity</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_VelocityByDensity" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.VelocityByDensity">
+  implicit operator VelocityByDensity(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator VelocityByDensity(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.VelocityByDensity.html">VelocityByDensity</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_VelocityGradient" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.VelocityGradient">
+  implicit operator VelocityGradient(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator VelocityGradient(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.VelocityGradient.html">VelocityGradient</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_VelocitySquared" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.VelocitySquared">
+  implicit operator VelocitySquared(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator VelocitySquared(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.VelocitySquared.html">VelocitySquared</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_Volume" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.Volume">
+  implicit operator Volume(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator Volume(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.Volume.html">Volume</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Implicit_H_Extensions_Unit_PhysicalQuantity__H_Extensions_Unit_VolumeFlowRate" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Implicit(H.Extensions.Unit.PhysicalQuantity)~H.Extensions.Unit.VolumeFlowRate">
+  implicit operator VolumeFlowRate(PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator VolumeFlowRate(PhysicalQuantity q)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>q</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.VolumeFlowRate.html">VolumeFlowRate</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Inequality_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Inequality*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Inequality_H_Extensions_Unit_PhysicalQuantity_H_Extensions_Unit_IPhysicalQuantity_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Inequality(H.Extensions.Unit.PhysicalQuantity,H.Extensions.Unit.IPhysicalQuantity)">
+  operator !=(PhysicalQuantity, IPhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator !=(PhysicalQuantity v1, IPhysicalQuantity v2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>v1</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+    <dt><code>v2</code> <a class="xref" href="H.Extensions.Unit.IPhysicalQuantity.html">IPhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_LessThan_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_LessThan*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_LessThan_H_Extensions_Unit_PhysicalQuantity_H_Extensions_Unit_IPhysicalQuantity_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_LessThan(H.Extensions.Unit.PhysicalQuantity,H.Extensions.Unit.IPhysicalQuantity)">
+  operator &lt;(PhysicalQuantity, IPhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator &lt;(PhysicalQuantity v1, IPhysicalQuantity v2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>v1</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+    <dt><code>v2</code> <a class="xref" href="H.Extensions.Unit.IPhysicalQuantity.html">IPhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_LessThanOrEqual_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_LessThanOrEqual*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_LessThanOrEqual_H_Extensions_Unit_PhysicalQuantity_H_Extensions_Unit_IPhysicalQuantity_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_LessThanOrEqual(H.Extensions.Unit.PhysicalQuantity,H.Extensions.Unit.IPhysicalQuantity)">
+  operator &lt;=(PhysicalQuantity, IPhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator &lt;=(PhysicalQuantity v1, IPhysicalQuantity v2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>v1</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+    <dt><code>v2</code> <a class="xref" href="H.Extensions.Unit.IPhysicalQuantity.html">IPhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Multiply_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Multiply*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Multiply_H_Extensions_Unit_PhysicalQuantity_H_Extensions_Unit_IPhysicalQuantity_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Multiply(H.Extensions.Unit.PhysicalQuantity,H.Extensions.Unit.IPhysicalQuantity)">
+  operator *(PhysicalQuantity, IPhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static PhysicalQuantity operator *(PhysicalQuantity v1, IPhysicalQuantity v2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>v1</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+    <dt><code>v2</code> <a class="xref" href="H.Extensions.Unit.IPhysicalQuantity.html">IPhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Multiply_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Multiply*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Multiply_H_Extensions_Unit_PhysicalQuantity_System_Double_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Multiply(H.Extensions.Unit.PhysicalQuantity,System.Double)">
+  operator *(PhysicalQuantity, double)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static PhysicalQuantity operator *(PhysicalQuantity v1, double v2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>v1</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+    <dt><code>v2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Multiply_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Multiply*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Multiply_System_Double_H_Extensions_Unit_PhysicalQuantity_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Multiply(System.Double,H.Extensions.Unit.PhysicalQuantity)">
+  operator *(double, PhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static PhysicalQuantity operator *(double v1, PhysicalQuantity v2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>v1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>v2</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Unit_PhysicalQuantity_op_Subtraction_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Subtraction*"></a>
+
+  <h3 id="H_Extensions_Unit_PhysicalQuantity_op_Subtraction_H_Extensions_Unit_PhysicalQuantity_H_Extensions_Unit_IPhysicalQuantity_" data-uid="H.Extensions.Unit.PhysicalQuantity.op_Subtraction(H.Extensions.Unit.PhysicalQuantity,H.Extensions.Unit.IPhysicalQuantity)">
+  operator -(PhysicalQuantity, IPhysicalQuantity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static PhysicalQuantity operator -(PhysicalQuantity v1, IPhysicalQuantity v2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>v1</code> <a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+    <dt><code>v2</code> <a class="xref" href="H.Extensions.Unit.IPhysicalQuantity.html">IPhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Unit.PhysicalQuantity.html">PhysicalQuantity</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

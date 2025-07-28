@@ -1,0 +1,128 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.VisionMaster.Network
+  commentId: N:H.VisionMaster.Network
+  id: H.VisionMaster.Network
+  children:
+  - H.VisionMaster.Network.IntReadableModbusNodeData
+  - H.VisionMaster.Network.ModbusNodeDataBase
+  - H.VisionMaster.Network.ModbusState
+  - H.VisionMaster.Network.ReadableModbusNodeData`1
+  - H.VisionMaster.Network.ShortWriteableModbusNodeData
+  - H.VisionMaster.Network.WriteableModbusNodeData`1
+  langs:
+  - csharp
+  - vb
+  name: H.VisionMaster.Network
+  nameWithType: H.VisionMaster.Network
+  fullName: H.VisionMaster.Network
+  type: Namespace
+  assemblies:
+  - H.VisionMaster.Network
+references:
+- uid: H.VisionMaster.Network.IntReadableModbusNodeData
+  commentId: T:H.VisionMaster.Network.IntReadableModbusNodeData
+  href: H.VisionMaster.Network.IntReadableModbusNodeData.html
+  name: IntReadableModbusNodeData
+  nameWithType: IntReadableModbusNodeData
+  fullName: H.VisionMaster.Network.IntReadableModbusNodeData
+- uid: H.VisionMaster.Network.ModbusNodeDataBase
+  commentId: T:H.VisionMaster.Network.ModbusNodeDataBase
+  parent: H.VisionMaster.Network
+  href: H.VisionMaster.Network.ModbusNodeDataBase.html
+  name: ModbusNodeDataBase
+  nameWithType: ModbusNodeDataBase
+  fullName: H.VisionMaster.Network.ModbusNodeDataBase
+- uid: H.VisionMaster.Network.ModbusState
+  commentId: T:H.VisionMaster.Network.ModbusState
+  parent: H.VisionMaster.Network
+  href: H.VisionMaster.Network.ModbusState.html
+  name: ModbusState
+  nameWithType: ModbusState
+  fullName: H.VisionMaster.Network.ModbusState
+- uid: H.VisionMaster.Network.ReadableModbusNodeData`1
+  commentId: T:H.VisionMaster.Network.ReadableModbusNodeData`1
+  href: H.VisionMaster.Network.ReadableModbusNodeData-1.html
+  name: ReadableModbusNodeData<T>
+  nameWithType: ReadableModbusNodeData<T>
+  fullName: H.VisionMaster.Network.ReadableModbusNodeData<T>
+  nameWithType.vb: ReadableModbusNodeData(Of T)
+  fullName.vb: H.VisionMaster.Network.ReadableModbusNodeData(Of T)
+  name.vb: ReadableModbusNodeData(Of T)
+  spec.csharp:
+  - uid: H.VisionMaster.Network.ReadableModbusNodeData`1
+    name: ReadableModbusNodeData
+    href: H.VisionMaster.Network.ReadableModbusNodeData-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.VisionMaster.Network.ReadableModbusNodeData`1
+    name: ReadableModbusNodeData
+    href: H.VisionMaster.Network.ReadableModbusNodeData-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.VisionMaster.Network.ShortWriteableModbusNodeData
+  commentId: T:H.VisionMaster.Network.ShortWriteableModbusNodeData
+  href: H.VisionMaster.Network.ShortWriteableModbusNodeData.html
+  name: ShortWriteableModbusNodeData
+  nameWithType: ShortWriteableModbusNodeData
+  fullName: H.VisionMaster.Network.ShortWriteableModbusNodeData
+- uid: H.VisionMaster.Network.WriteableModbusNodeData`1
+  commentId: T:H.VisionMaster.Network.WriteableModbusNodeData`1
+  href: H.VisionMaster.Network.WriteableModbusNodeData-1.html
+  name: WriteableModbusNodeData<T>
+  nameWithType: WriteableModbusNodeData<T>
+  fullName: H.VisionMaster.Network.WriteableModbusNodeData<T>
+  nameWithType.vb: WriteableModbusNodeData(Of T)
+  fullName.vb: H.VisionMaster.Network.WriteableModbusNodeData(Of T)
+  name.vb: WriteableModbusNodeData(Of T)
+  spec.csharp:
+  - uid: H.VisionMaster.Network.WriteableModbusNodeData`1
+    name: WriteableModbusNodeData
+    href: H.VisionMaster.Network.WriteableModbusNodeData-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.VisionMaster.Network.WriteableModbusNodeData`1
+    name: WriteableModbusNodeData
+    href: H.VisionMaster.Network.WriteableModbusNodeData-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.VisionMaster.Network
+  commentId: N:H.VisionMaster.Network
+  href: H.html
+  name: H.VisionMaster.Network
+  nameWithType: H.VisionMaster.Network
+  fullName: H.VisionMaster.Network
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.Network
+    name: Network
+    href: H.VisionMaster.Network.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.Network
+    name: Network
+    href: H.VisionMaster.Network.html

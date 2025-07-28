@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class NodeDataGroupsDiagramDataBase | WPF-VisionMasterOpenCV2.0开发文档 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class NodeDataGroupsDiagramDataBase | WPF-VisionMasterOpenCV2.0开发文档 ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="WPF-VisionMasterOpenCV2.0开发文档">
+            WPF-VisionMasterOpenCV2.0开发文档
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="H.Controls.Diagram.Presenter.DiagramDatas.Base.NodeDataGroupsDiagramDataBase">
+
+
+
+  <h1 id="H_Controls_Diagram_Presenter_DiagramDatas_Base_NodeDataGroupsDiagramDataBase" data-uid="H.Controls.Diagram.Presenter.DiagramDatas.Base.NodeDataGroupsDiagramDataBase" class="text-break">
+Class NodeDataGroupsDiagramDataBase  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="H.html">H</a>.<a class="xref" href="H.Controls.html">Controls</a>.<a class="xref" href="H.Controls.Diagram.html">Diagram</a>.<a class="xref" href="H.Controls.Diagram.Presenter.html">Presenter</a>.<a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.html">DiagramDatas</a>.<a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.html">Base</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>H.Controls.Diagram.Presenter.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class NodeDataGroupsDiagramDataBase : FlowableDiagramDataBase, INotifyPropertyChanged, IDisplayBindable, IIconable, IOrderable, IDescriptionable, IZoomableDiagramData, IFlowableDiagramData, IMessageable, IPartDataInvokeable, INodeDataGroupsDiagramData, IDiagramData, ICloneable, IDable, INameable, IGroupable</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="H.Mvvm.ViewModels.Base.BindableBase.html">BindableBase</a></div>
+      <div><a class="xref" href="H.Mvvm.ViewModels.Base.Bindable.html">Bindable</a></div>
+      <div><a class="xref" href="H.Extensions.Mvvm.ViewModels.Base.CommandsBindableBase.html">CommandsBindableBase</a></div>
+      <div><a class="xref" href="H.Extensions.Mvvm.ViewModels.Base.DisplayBindableBase.html">DisplayBindableBase</a></div>
+      <div><a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.DiagramDataBase.html">DiagramDataBase</a></div>
+      <div><a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.ZoomableDiagramDataBase.html">ZoomableDiagramDataBase</a></div>
+      <div><a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.FlowableDiagramDataBase.html">FlowableDiagramDataBase</a></div>
+      <div><span class="xref">NodeDataGroupsDiagramDataBase</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
+      <div><a class="xref" href="H.Extensions.Mvvm.ViewModels.IDisplayBindable.html">IDisplayBindable</a></div>
+      <div><a class="xref" href="H.Common.Interfaces.IIconable.html">IIconable</a></div>
+      <div><a class="xref" href="H.Common.Interfaces.IOrderable.html">IOrderable</a></div>
+      <div><a class="xref" href="H.Common.Interfaces.IDescriptionable.html">IDescriptionable</a></div>
+      <div><a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.IZoomableDiagramData.html">IZoomableDiagramData</a></div>
+      <div><a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.IFlowableDiagramData.html">IFlowableDiagramData</a></div>
+      <div><a class="xref" href="H.Common.Interfaces.IMessageable.html">IMessageable</a></div>
+      <div><a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.IPartDataInvokeable.html">IPartDataInvokeable</a></div>
+      <div><a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.INodeDataGroupsDiagramData.html">INodeDataGroupsDiagramData</a></div>
+      <div><a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.IDiagramData.html">IDiagramData</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.icloneable">ICloneable</a></div>
+      <div><a class="xref" href="H.Common.Interfaces.IDable.html">IDable</a></div>
+      <div><a class="xref" href="H.Common.Interfaces.INameable.html">INameable</a></div>
+      <div><a class="xref" href="H.Common.Interfaces.IGroupable.html">IGroupable</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.TreeDigramDataBase.html">TreeDigramDataBase</a></div>
+      <div><a class="xref" href="H.VisionMaster.DiagramData.VisionDiagramDataBase.html">VisionDiagramDataBase</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.FlowableDiagramDataBase.html#H_Controls_Diagram_Presenter_DiagramDatas_Base_FlowableDiagramDataBase_State">FlowableDiagramDataBase.State</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.FlowableDiagramDataBase.html#H_Controls_Diagram_Presenter_DiagramDatas_Base_FlowableDiagramDataBase_FlowableMode">FlowableDiagramDataBase.FlowableMode</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.FlowableDiagramDataBase.html#H_Controls_Diagram_Presenter_DiagramDatas_Base_FlowableDiagramDataBase_FlowableZoomMode">FlowableDiagramDataBase.FlowableZoomMode</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.FlowableDiagramDataBase.html#H_Controls_Diagram_Presenter_DiagramDatas_Base_FlowableDiagramDataBase_UseFlowableSelectToRunning">FlowableDiagramDataBase.UseFlowableSelectToRunning</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.FlowableDiagramDataBase.html#H_Controls_Diagram_Presenter_DiagramDatas_Base_FlowableDiagramDataBase_OnInvokingPart_H_Controls_Diagram_Datas_IPartData_">FlowableDiagramDataBase.OnInvokingPart(IPartData)</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.FlowableDiagramDataBase.html#H_Controls_Diagram_Presenter_DiagramDatas_Base_FlowableDiagramDataBase_OnInvokedPart_H_Controls_Diagram_Datas_IPartData_">FlowableDiagramDataBase.OnInvokedPart(IPartData)</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.FlowableDiagramDataBase.html#H_Controls_Diagram_Presenter_DiagramDatas_Base_FlowableDiagramDataBase_StartCommand">FlowableDiagramDataBase.StartCommand</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.FlowableDiagramDataBase.html#H_Controls_Diagram_Presenter_DiagramDatas_Base_FlowableDiagramDataBase_StopCommand">FlowableDiagramDataBase.StopCommand</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.FlowableDiagramDataBase.html#H_Controls_Diagram_Presenter_DiagramDatas_Base_FlowableDiagramDataBase_ResetCommand">FlowableDiagramDataBase.ResetCommand</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.FlowableDiagramDataBase.html#H_Controls_Diagram_Presenter_DiagramDatas_Base_FlowableDiagramDataBase_Start">FlowableDiagramDataBase.Start()</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.FlowableDiagramDataBase.html#H_Controls_Diagram_Presenter_DiagramDatas_Base_FlowableDiagramDataBase_GetStartNodeData">FlowableDiagramDataBase.GetStartNodeData()</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.FlowableDiagramDataBase.html#H_Controls_Diagram_Presenter_DiagramDatas_Base_FlowableDiagramDataBase_CanStart">FlowableDiagramDataBase.CanStart()</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.FlowableDiagramDataBase.html#H_Controls_Diagram_Presenter_DiagramDatas_Base_FlowableDiagramDataBase_Stop">FlowableDiagramDataBase.Stop()</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.FlowableDiagramDataBase.html#H_Controls_Diagram_Presenter_DiagramDatas_Base_FlowableDiagramDataBase_Reset">FlowableDiagramDataBase.Reset()</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.FlowableDiagramDataBase.html#H_Controls_Diagram_Presenter_DiagramDatas_Base_FlowableDiagramDataBase_Wait_System_Func_H_Controls_Diagram_Presenter_Flowables_IFlowableNodeData_System_Boolean__">FlowableDiagramDataBase.Wait(Func&lt;IFlowableNodeData, bool&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.FlowableDiagramDataBase.html#H_Controls_Diagram_Presenter_DiagramDatas_Base_FlowableDiagramDataBase_FlowableNodeDatas">FlowableDiagramDataBase.FlowableNodeDatas</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.FlowableDiagramDataBase.html#H_Controls_Diagram_Presenter_DiagramDatas_Base_FlowableDiagramDataBase_CreateDataSource">FlowableDiagramDataBase.CreateDataSource()</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.ZoomableDiagramDataBase.html#H_Controls_Diagram_Presenter_DiagramDatas_Base_ZoomableDiagramDataBase_ZoomAllCommand">ZoomableDiagramDataBase.ZoomAllCommand</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.ZoomableDiagramDataBase.html#H_Controls_Diagram_Presenter_DiagramDatas_Base_ZoomableDiagramDataBase_ZoomToFit">ZoomableDiagramDataBase.ZoomToFit()</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.DiagramDataBase.html#H_Controls_Diagram_Presenter_DiagramDatas_Base_DiagramDataBase_Name">DiagramDataBase.Name</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.DiagramDataBase.html#H_Controls_Diagram_Presenter_DiagramDatas_Base_DiagramDataBase_Width">DiagramDataBase.Width</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.DiagramDataBase.html#H_Controls_Diagram_Presenter_DiagramDatas_Base_DiagramDataBase_Height">DiagramDataBase.Height</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.DiagramDataBase.html#H_Controls_Diagram_Presenter_DiagramDatas_Base_DiagramDataBase_SelectedPartData">DiagramDataBase.SelectedPartData</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.DiagramDataBase.html#H_Controls_Diagram_Presenter_DiagramDatas_Base_DiagramDataBase_LinkDrawer">DiagramDataBase.LinkDrawer</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.DiagramDataBase.html#H_Controls_Diagram_Presenter_DiagramDatas_Base_DiagramDataBase_LinkDrawers">DiagramDataBase.LinkDrawers</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.DiagramDataBase.html#H_Controls_Diagram_Presenter_DiagramDatas_Base_DiagramDataBase_Layouts">DiagramDataBase.Layouts</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.DiagramDataBase.html#H_Controls_Diagram_Presenter_DiagramDatas_Base_DiagramDataBase_Layout">DiagramDataBase.Layout</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.DiagramDataBase.html#H_Controls_Diagram_Presenter_DiagramDatas_Base_DiagramDataBase_NodeType">DiagramDataBase.NodeType</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.DiagramDataBase.html#H_Controls_Diagram_Presenter_DiagramDatas_Base_DiagramDataBase_Location">DiagramDataBase.Location</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.DiagramDataBase.html#H_Controls_Diagram_Presenter_DiagramDatas_Base_DiagramDataBase_Message">DiagramDataBase.Message</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.DiagramDataBase.html#H_Controls_Diagram_Presenter_DiagramDatas_Base_DiagramDataBase_EditCommand">DiagramDataBase.EditCommand</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.DiagramDataBase.html#H_Controls_Diagram_Presenter_DiagramDatas_Base_DiagramDataBase_ShowCommand">DiagramDataBase.ShowCommand</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.DiagramDataBase.html#H_Controls_Diagram_Presenter_DiagramDatas_Base_DiagramDataBase_DeleteCheckedCommand">DiagramDataBase.DeleteCheckedCommand</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.DiagramDataBase.html#H_Controls_Diagram_Presenter_DiagramDatas_Base_DiagramDataBase_ClearCommand">DiagramDataBase.ClearCommand</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.DiagramDataBase.html#H_Controls_Diagram_Presenter_DiagramDatas_Base_DiagramDataBase_AlignmentCommand">DiagramDataBase.AlignmentCommand</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.DiagramDataBase.html#H_Controls_Diagram_Presenter_DiagramDatas_Base_DiagramDataBase_ItemsChangedCommand">DiagramDataBase.ItemsChangedCommand</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.DiagramDataBase.html#H_Controls_Diagram_Presenter_DiagramDatas_Base_DiagramDataBase_OnItemsChanged">DiagramDataBase.OnItemsChanged()</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.DiagramDataBase.html#H_Controls_Diagram_Presenter_DiagramDatas_Base_DiagramDataBase_SelectedPartChangedCommand">DiagramDataBase.SelectedPartChangedCommand</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.DiagramDataBase.html#H_Controls_Diagram_Presenter_DiagramDatas_Base_DiagramDataBase_OnSelectedPartChanged">DiagramDataBase.OnSelectedPartChanged()</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.DiagramDataBase.html#H_Controls_Diagram_Presenter_DiagramDatas_Base_DiagramDataBase_MouseDoubleClickCommand">DiagramDataBase.MouseDoubleClickCommand</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.DiagramDataBase.html#H_Controls_Diagram_Presenter_DiagramDatas_Base_DiagramDataBase_OnMouseDoubleClick_System_Object_">DiagramDataBase.OnMouseDoubleClick(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.DiagramDataBase.html#H_Controls_Diagram_Presenter_DiagramDatas_Base_DiagramDataBase_CreateLinkDrawerSource">DiagramDataBase.CreateLinkDrawerSource()</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.DiagramDataBase.html#H_Controls_Diagram_Presenter_DiagramDatas_Base_DiagramDataBase_CreateLayousSource">DiagramDataBase.CreateLayousSource()</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.DiagramDataBase.html#H_Controls_Diagram_Presenter_DiagramDatas_Base_DiagramDataBase_Clear">DiagramDataBase.Clear()</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.DiagramDataBase.html#H_Controls_Diagram_Presenter_DiagramDatas_Base_DiagramDataBase_Datas">DiagramDataBase.Datas</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.DiagramDataBase.html#H_Controls_Diagram_Presenter_DiagramDatas_Base_DiagramDataBase_InvalidateDatas">DiagramDataBase.InvalidateDatas()</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.DiagramDataBase.html#H_Controls_Diagram_Presenter_DiagramDatas_Base_DiagramDataBase_DataSource">DiagramDataBase.DataSource</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.DiagramDataBase.html#H_Controls_Diagram_Presenter_DiagramDatas_Base_DiagramDataBase_OnSerializingMethod_System_Runtime_Serialization_StreamingContext_">DiagramDataBase.OnSerializingMethod(StreamingContext)</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.DiagramDataBase.html#H_Controls_Diagram_Presenter_DiagramDatas_Base_DiagramDataBase_OnSerializing">DiagramDataBase.OnSerializing()</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.DiagramDataBase.html#H_Controls_Diagram_Presenter_DiagramDatas_Base_DiagramDataBase_OnDeserializedMethod_System_Runtime_Serialization_StreamingContext_">DiagramDataBase.OnDeserializedMethod(StreamingContext)</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.DiagramDataBase.html#H_Controls_Diagram_Presenter_DiagramDatas_Base_DiagramDataBase_OnDeserialized">DiagramDataBase.OnDeserialized()</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.Base.DiagramDataBase.html#H_Controls_Diagram_Presenter_DiagramDatas_Base_DiagramDataBase_Clone">DiagramDataBase.Clone()</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Base.DisplayBindableBase.html#H_Extensions_Mvvm_ViewModels_Base_DisplayBindableBase_Loaded_System_Object_">DisplayBindableBase.Loaded(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Base.DisplayBindableBase.html#H_Extensions_Mvvm_ViewModels_Base_DisplayBindableBase_ID">DisplayBindableBase.ID</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Base.DisplayBindableBase.html#H_Extensions_Mvvm_ViewModels_Base_DisplayBindableBase_Icon">DisplayBindableBase.Icon</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Base.DisplayBindableBase.html#H_Extensions_Mvvm_ViewModels_Base_DisplayBindableBase_ShortName">DisplayBindableBase.ShortName</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Base.DisplayBindableBase.html#H_Extensions_Mvvm_ViewModels_Base_DisplayBindableBase_GroupName">DisplayBindableBase.GroupName</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Base.DisplayBindableBase.html#H_Extensions_Mvvm_ViewModels_Base_DisplayBindableBase_Description">DisplayBindableBase.Description</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Base.DisplayBindableBase.html#H_Extensions_Mvvm_ViewModels_Base_DisplayBindableBase_Order">DisplayBindableBase.Order</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Base.DisplayBindableBase.html#H_Extensions_Mvvm_ViewModels_Base_DisplayBindableBase_LoadDefaultCommand">DisplayBindableBase.LoadDefaultCommand</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Base.DisplayBindableBase.html#H_Extensions_Mvvm_ViewModels_Base_DisplayBindableBase_LoadDefault">DisplayBindableBase.LoadDefault()</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Base.CommandsBindableBase.html#H_Extensions_Mvvm_ViewModels_Base_CommandsBindableBase_Commands">CommandsBindableBase.Commands</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Base.CommandsBindableBase.html#H_Extensions_Mvvm_ViewModels_Base_CommandsBindableBase_CreateCommands">CommandsBindableBase.CreateCommands()</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Mvvm.ViewModels.Base.Bindable.html#H_Mvvm_ViewModels_Base_Bindable_RelayCommand">Bindable.RelayCommand</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Mvvm.ViewModels.Base.Bindable.html#H_Mvvm_ViewModels_Base_Bindable_LoadedCommand">Bindable.LoadedCommand</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Mvvm.ViewModels.Base.Bindable.html#H_Mvvm_ViewModels_Base_Bindable_CallMethodCommand">Bindable.CallMethodCommand</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Mvvm.ViewModels.Base.Bindable.html#H_Mvvm_ViewModels_Base_Bindable_RelayMethod_System_Object_">Bindable.RelayMethod(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Mvvm.ViewModels.Base.Bindable.html#H_Mvvm_ViewModels_Base_Bindable_GetTargetElement__1">Bindable.GetTargetElement&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Mvvm.ViewModels.Base.Bindable.html#H_Mvvm_ViewModels_Base_Bindable_IsLoaded">Bindable.IsLoaded</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Mvvm.ViewModels.Base.Bindable.html#H_Mvvm_ViewModels_Base_Bindable_CallMethod_System_Object_">Bindable.CallMethod(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Mvvm.ViewModels.Base.BindableBase.html#H_Mvvm_ViewModels_Base_BindableBase_Init">BindableBase.Init()</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Mvvm.ViewModels.Base.BindableBase.html#H_Mvvm_ViewModels_Base_BindableBase_PropertyChanged">BindableBase.PropertyChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Mvvm.ViewModels.Base.BindableBase.html#H_Mvvm_ViewModels_Base_BindableBase_RaisePropertyChanged_System_String_">BindableBase.RaisePropertyChanged(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.Extensions.DiagramDataExtension.html#H_Controls_Diagram_Presenter_Extensions_DiagramDataExtension_DeleteNodeData_H_Controls_Diagram_Presenter_DiagramDatas_Base_IDiagramData_H_Controls_Diagram_Datas_INodeData_">DiagramDataExtension.DeleteNodeData(IDiagramData, INodeData)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.Extensions.DiagramDataExtension.html#H_Controls_Diagram_Presenter_Extensions_DiagramDataExtension_DeletePartData_H_Controls_Diagram_Presenter_DiagramDatas_Base_IDiagramData_H_Controls_Diagram_Datas_IPartData_">DiagramDataExtension.DeletePartData(IDiagramData, IPartData)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.Extensions.DiagramDataExtension.html#H_Controls_Diagram_Presenter_Extensions_DiagramDataExtension_GetEndNodeDatas_H_Controls_Diagram_Presenter_DiagramDatas_Base_IDiagramData_">DiagramDataExtension.GetEndNodeDatas(IDiagramData)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.Extensions.DiagramDataExtension.html#H_Controls_Diagram_Presenter_Extensions_DiagramDataExtension_GetPortDatas_H_Controls_Diagram_Presenter_DiagramDatas_Base_IDiagramData_">DiagramDataExtension.GetPortDatas(IDiagramData)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.Extensions.DiagramDataExtension.html#H_Controls_Diagram_Presenter_Extensions_DiagramDataExtension_GetStartNodeDatas_H_Controls_Diagram_Presenter_DiagramDatas_Base_IDiagramData_">DiagramDataExtension.GetStartNodeDatas(IDiagramData)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.Extensions.DiagramDataExtension.html#H_Controls_Diagram_Presenter_Extensions_DiagramDataExtension_TryGetStartNodeData__1_H_Controls_Diagram_Presenter_DiagramDatas_Base_IDiagramData_">DiagramDataExtension.TryGetStartNodeData&lt;T&gt;(IDiagramData)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.html#H_Controls_Diagram_Presenter_Extensions_FlowableDiagramDataExtension_GotoState_H_Controls_Diagram_Presenter_DiagramDatas_Base_IFlowableDiagramData_System_Func_H_Controls_Diagram_Presenter_Flowables_IFlowablePartData_System_Nullable_H_Controls_Diagram_Presenter_Flowables_FlowableState___System_Func_H_Controls_Diagram_Presenter_Flowables_IFlowableNodeData_System_Boolean__">FlowableDiagramDataExtension.GotoState(IFlowableDiagramData, Func&lt;IFlowablePartData, FlowableState?&gt;, Func&lt;IFlowableNodeData, bool&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.html#H_Controls_Diagram_Presenter_Extensions_FlowableDiagramDataExtension_InvokeState_H_Controls_Diagram_Presenter_DiagramDatas_Base_IFlowableDiagramData_System_Func_System_Threading_Tasks_Task_System_Nullable_System_Boolean____">FlowableDiagramDataExtension.InvokeState(IFlowableDiagramData, Func&lt;Task&lt;bool?&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.html#H_Controls_Diagram_Presenter_Extensions_FlowableDiagramDataExtension_Reset_H_Controls_Diagram_Presenter_DiagramDatas_Base_IFlowableDiagramData_">FlowableDiagramDataExtension.Reset(IFlowableDiagramData)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.html#H_Controls_Diagram_Presenter_Extensions_FlowableDiagramDataExtension_Wait_H_Controls_Diagram_Presenter_DiagramDatas_Base_IFlowableDiagramData_System_Func_H_Controls_Diagram_Presenter_Flowables_IFlowableNodeData_System_Boolean__">FlowableDiagramDataExtension.Wait(IFlowableDiagramData, Func&lt;IFlowableNodeData, bool&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_CloneCast__1___0_System_Predicate_System_Reflection_PropertyInfo__">ObjectExtension.CloneCast&lt;T&gt;(T, Predicate&lt;PropertyInfo&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_ToEnumerable__1___0_">ObjectExtension.ToEnumerable&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.NewtonsoftJson.NewtonsoftJsonSerializerServiceExtension.html#H_Extensions_NewtonsoftJson_NewtonsoftJsonSerializerServiceExtension_CloneByNewtonsoftJson__1___0_">NewtonsoftJsonSerializerServiceExtension.CloneByNewtonsoftJson&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.VisionMaster.ResultPresenter.ResultPresenterExtension.html#H_VisionMaster_ResultPresenter_ResultPresenterExtension_ToValueResultPresenter__1___0_">ResultPresenterExtension.ToValueResultPresenter&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Controls.FilterColumnDataGrid.Extensions.html#H_Controls_FilterColumnDataGrid_Extensions_GetPropertyValue_System_Object_System_String_">Extensions.GetPropertyValue(object, string)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Controls.FilterColumnDataGrid.Extensions.html#H_Controls_FilterColumnDataGrid_Extensions_GetPropertyValue__1_System_Object_System_String_">Extensions.GetPropertyValue&lt;T&gt;(object, string)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Controls.Form.Provider.PropertyInfoExtention.html#H_Controls_Form_Provider_PropertyInfoExtention_ChangeType__1_System_Object_">PropertyInfoExtention.ChangeType&lt;T&gt;(object)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_CloneBy_System_Object_System_Predicate_System_Reflection_PropertyInfo__">ObjectExtension.CloneBy(object, Predicate&lt;PropertyInfo&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_CopyPropertyValueFrom_System_Object_System_Object_System_Predicate_System_Reflection_PropertyInfo__System_Func_System_Reflection_PropertyInfo_System_Reflection_PropertyInfo_System_Boolean__">ObjectExtension.CopyPropertyValueFrom(object, object, Predicate&lt;PropertyInfo&gt;, Func&lt;PropertyInfo, PropertyInfo, bool&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_IsMacth_System_Object_System_Func_System_Reflection_PropertyInfo_System_Object_System_Boolean__">ObjectExtension.IsMacth(object, Func&lt;PropertyInfo, object, bool&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_IsMacth_System_Object_System_String_">ObjectExtension.IsMacth(object, string)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_ModelState_System_Object_System_Collections_Generic_List_System_String___">ObjectExtension.ModelState(object, out List&lt;string&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_ModelStateDeep_System_Object_System_String__">ObjectExtension.ModelStateDeep(object, out string)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_TryChangeType_System_Object_System_Type_System_Object__">ObjectExtension.TryChangeType(object, Type, out object)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_TryChangeType__1_System_Object_">ObjectExtension.TryChangeType&lt;T&gt;(object)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_TryChangeType__1_System_Object___0__">ObjectExtension.TryChangeType&lt;T&gt;(object, out T)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_TryConvertToString_System_Object_">ObjectExtension.TryConvertToString(object)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_TryConvertToString_System_Object_System_String__">ObjectExtension.TryConvertToString(object, out string)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.TextJsonable.TextJsonableExtensions.html#H_Extensions_TextJsonable_TextJsonableExtensions_GetJsonPropertyInfos_System_Object_">TextJsonableExtensions.GetJsonPropertyInfos(object)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.TextJsonable.TextJsonableExtensions.html#H_Extensions_TextJsonable_TextJsonableExtensions_WriteJson_System_Object_System_Text_Json_Utf8JsonWriter_System_Text_Json_JsonSerializerOptions_System_Boolean_">TextJsonableExtensions.WriteJson(object, Utf8JsonWriter, JsonSerializerOptions, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.TextJsonable.TextJsonableExtensions.html#H_Extensions_TextJsonable_TextJsonableExtensions_WriteType_System_Object_System_Text_Json_Utf8JsonWriter_">TextJsonableExtensions.WriteType(object, Utf8JsonWriter)</a>
+  </div>
+  <div>
+      <a class="xref" href="System.Windows.Threading.DispatcherExtension.html#System_Windows_Threading_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_">DispatcherExtension.DelayInvoke(object, Action, DispatcherPriority)</a>
+  </div>
+  <div>
+      <a class="xref" href="System.Windows.Threading.DispatcherExtension.html#System_Windows_Threading_DispatcherExtension_DelayInvoke_System_Object_System_Collections_IList_System_Action_System_Object__System_Action_System_Windows_Threading_DispatcherPriority_">DispatcherExtension.DelayInvoke(object, IList, Action&lt;object&gt;, Action, DispatcherPriority)</a>
+  </div>
+  <div>
+      <a class="xref" href="System.Windows.Threading.DispatcherExtension.html#System_Windows_Threading_DispatcherExtension_DelayInvoke_System_Object_System_Collections_IList_System_Func_System_Collections_IList__System_Action_System_Windows_Threading_DispatcherPriority_">DispatcherExtension.DelayInvoke(object, IList, Func&lt;IList&gt;, Action, DispatcherPriority)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="H_Controls_Diagram_Presenter_DiagramDatas_Base_NodeDataGroupsDiagramDataBase__ctor_" data-uid="H.Controls.Diagram.Presenter.DiagramDatas.Base.NodeDataGroupsDiagramDataBase.#ctor*"></a>
+
+  <h3 id="H_Controls_Diagram_Presenter_DiagramDatas_Base_NodeDataGroupsDiagramDataBase__ctor" data-uid="H.Controls.Diagram.Presenter.DiagramDatas.Base.NodeDataGroupsDiagramDataBase.#ctor">
+  NodeDataGroupsDiagramDataBase()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected NodeDataGroupsDiagramDataBase()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="H_Controls_Diagram_Presenter_DiagramDatas_Base_NodeDataGroupsDiagramDataBase_NodeGroups_" data-uid="H.Controls.Diagram.Presenter.DiagramDatas.Base.NodeDataGroupsDiagramDataBase.NodeGroups*"></a>
+
+  <h3 id="H_Controls_Diagram_Presenter_DiagramDatas_Base_NodeDataGroupsDiagramDataBase_NodeGroups" data-uid="H.Controls.Diagram.Presenter.DiagramDatas.Base.NodeDataGroupsDiagramDataBase.NodeGroups">
+  NodeGroups
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonIgnore]
+public ObservableCollection&lt;INodeDataGroup&gt; NodeGroups { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1">ObservableCollection</a>&lt;<a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.INodeDataGroup.html">INodeDataGroup</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="H_Controls_Diagram_Presenter_DiagramDatas_Base_NodeDataGroupsDiagramDataBase_CreateNodeGroups_" data-uid="H.Controls.Diagram.Presenter.DiagramDatas.Base.NodeDataGroupsDiagramDataBase.CreateNodeGroups*"></a>
+
+  <h3 id="H_Controls_Diagram_Presenter_DiagramDatas_Base_NodeDataGroupsDiagramDataBase_CreateNodeGroups" data-uid="H.Controls.Diagram.Presenter.DiagramDatas.Base.NodeDataGroupsDiagramDataBase.CreateNodeGroups">
+  CreateNodeGroups()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual IEnumerable&lt;INodeDataGroup&gt; CreateNodeGroups()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="H.Controls.Diagram.Presenter.DiagramDatas.INodeDataGroup.html">INodeDataGroup</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

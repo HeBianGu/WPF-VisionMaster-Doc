@@ -1,0 +1,169 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Services.Revertible
+  commentId: N:H.Services.Revertible
+  id: H.Services.Revertible
+  children:
+  - H.Services.Revertible.IRevertible
+  - H.Services.Revertible.IRevertibleService
+  - H.Services.Revertible.IRevertibleService`1
+  - H.Services.Revertible.IocRevertible
+  - H.Services.Revertible.IocRevertibleBase`1
+  - H.Services.Revertible.IocRevertible`1
+  - H.Services.Revertible.RedoCommand
+  - H.Services.Revertible.RevertibleDisposer
+  - H.Services.Revertible.UndoCommand
+  langs:
+  - csharp
+  - vb
+  name: H.Services.Revertible
+  nameWithType: H.Services.Revertible
+  fullName: H.Services.Revertible
+  type: Namespace
+  assemblies:
+  - H.Services.Revertible
+references:
+- uid: H.Services.Revertible.RedoCommand
+  commentId: T:H.Services.Revertible.RedoCommand
+  href: H.Services.Revertible.RedoCommand.html
+  name: RedoCommand
+  nameWithType: RedoCommand
+  fullName: H.Services.Revertible.RedoCommand
+- uid: H.Services.Revertible.UndoCommand
+  commentId: T:H.Services.Revertible.UndoCommand
+  href: H.Services.Revertible.UndoCommand.html
+  name: UndoCommand
+  nameWithType: UndoCommand
+  fullName: H.Services.Revertible.UndoCommand
+- uid: H.Services.Revertible.IocRevertibleBase`1
+  commentId: T:H.Services.Revertible.IocRevertibleBase`1
+  href: H.Services.Revertible.IocRevertibleBase-1.html
+  name: IocRevertibleBase<T>
+  nameWithType: IocRevertibleBase<T>
+  fullName: H.Services.Revertible.IocRevertibleBase<T>
+  nameWithType.vb: IocRevertibleBase(Of T)
+  fullName.vb: H.Services.Revertible.IocRevertibleBase(Of T)
+  name.vb: IocRevertibleBase(Of T)
+  spec.csharp:
+  - uid: H.Services.Revertible.IocRevertibleBase`1
+    name: IocRevertibleBase
+    href: H.Services.Revertible.IocRevertibleBase-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Services.Revertible.IocRevertibleBase`1
+    name: IocRevertibleBase
+    href: H.Services.Revertible.IocRevertibleBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Services.Revertible.IocRevertible
+  commentId: T:H.Services.Revertible.IocRevertible
+  href: H.Services.Revertible.IocRevertible.html
+  name: IocRevertible
+  nameWithType: IocRevertible
+  fullName: H.Services.Revertible.IocRevertible
+- uid: H.Services.Revertible.IocRevertible`1
+  commentId: T:H.Services.Revertible.IocRevertible`1
+  href: H.Services.Revertible.IocRevertible-1.html
+  name: IocRevertible<T>
+  nameWithType: IocRevertible<T>
+  fullName: H.Services.Revertible.IocRevertible<T>
+  nameWithType.vb: IocRevertible(Of T)
+  fullName.vb: H.Services.Revertible.IocRevertible(Of T)
+  name.vb: IocRevertible(Of T)
+  spec.csharp:
+  - uid: H.Services.Revertible.IocRevertible`1
+    name: IocRevertible
+    href: H.Services.Revertible.IocRevertible-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Services.Revertible.IocRevertible`1
+    name: IocRevertible
+    href: H.Services.Revertible.IocRevertible-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Services.Revertible.IRevertible
+  commentId: T:H.Services.Revertible.IRevertible
+  parent: H.Services.Revertible
+  href: H.Services.Revertible.IRevertible.html
+  name: IRevertible
+  nameWithType: IRevertible
+  fullName: H.Services.Revertible.IRevertible
+- uid: H.Services.Revertible.IRevertibleService
+  commentId: T:H.Services.Revertible.IRevertibleService
+  parent: H.Services.Revertible
+  href: H.Services.Revertible.IRevertibleService.html
+  name: IRevertibleService
+  nameWithType: IRevertibleService
+  fullName: H.Services.Revertible.IRevertibleService
+- uid: H.Services.Revertible.IRevertibleService`1
+  commentId: T:H.Services.Revertible.IRevertibleService`1
+  href: H.Services.Revertible.IRevertibleService-1.html
+  name: IRevertibleService<T>
+  nameWithType: IRevertibleService<T>
+  fullName: H.Services.Revertible.IRevertibleService<T>
+  nameWithType.vb: IRevertibleService(Of T)
+  fullName.vb: H.Services.Revertible.IRevertibleService(Of T)
+  name.vb: IRevertibleService(Of T)
+  spec.csharp:
+  - uid: H.Services.Revertible.IRevertibleService`1
+    name: IRevertibleService
+    href: H.Services.Revertible.IRevertibleService-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Services.Revertible.IRevertibleService`1
+    name: IRevertibleService
+    href: H.Services.Revertible.IRevertibleService-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Services.Revertible.RevertibleDisposer
+  commentId: T:H.Services.Revertible.RevertibleDisposer
+  parent: H.Services.Revertible
+  href: H.Services.Revertible.RevertibleDisposer.html
+  name: RevertibleDisposer
+  nameWithType: RevertibleDisposer
+  fullName: H.Services.Revertible.RevertibleDisposer
+- uid: H.Services.Revertible
+  commentId: N:H.Services.Revertible
+  href: H.html
+  name: H.Services.Revertible
+  nameWithType: H.Services.Revertible
+  fullName: H.Services.Revertible
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Revertible
+    name: Revertible
+    href: H.Services.Revertible.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Revertible
+    name: Revertible
+    href: H.Services.Revertible.html

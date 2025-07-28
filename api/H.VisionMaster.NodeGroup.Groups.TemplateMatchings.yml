@@ -1,0 +1,86 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.VisionMaster.NodeGroup.Groups.TemplateMatchings
+  commentId: N:H.VisionMaster.NodeGroup.Groups.TemplateMatchings
+  id: H.VisionMaster.NodeGroup.Groups.TemplateMatchings
+  children:
+  - H.VisionMaster.NodeGroup.Groups.TemplateMatchings.ITemplateMatchingDataGroup
+  - H.VisionMaster.NodeGroup.Groups.TemplateMatchings.ITemplateMatchingGroupableNodeData
+  - H.VisionMaster.NodeGroup.Groups.TemplateMatchings.TemplateMatchingDataGroup
+  langs:
+  - csharp
+  - vb
+  name: H.VisionMaster.NodeGroup.Groups.TemplateMatchings
+  nameWithType: H.VisionMaster.NodeGroup.Groups.TemplateMatchings
+  fullName: H.VisionMaster.NodeGroup.Groups.TemplateMatchings
+  type: Namespace
+  assemblies:
+  - H.VisionMaster.NodeGroup
+references:
+- uid: H.VisionMaster.NodeGroup.Groups.TemplateMatchings.ITemplateMatchingDataGroup
+  commentId: T:H.VisionMaster.NodeGroup.Groups.TemplateMatchings.ITemplateMatchingDataGroup
+  parent: H.VisionMaster.NodeGroup.Groups.TemplateMatchings
+  href: H.VisionMaster.NodeGroup.Groups.TemplateMatchings.ITemplateMatchingDataGroup.html
+  name: ITemplateMatchingDataGroup
+  nameWithType: ITemplateMatchingDataGroup
+  fullName: H.VisionMaster.NodeGroup.Groups.TemplateMatchings.ITemplateMatchingDataGroup
+- uid: H.VisionMaster.NodeGroup.Groups.TemplateMatchings.TemplateMatchingDataGroup
+  commentId: T:H.VisionMaster.NodeGroup.Groups.TemplateMatchings.TemplateMatchingDataGroup
+  parent: H.VisionMaster.NodeGroup.Groups.TemplateMatchings
+  href: H.VisionMaster.NodeGroup.Groups.TemplateMatchings.TemplateMatchingDataGroup.html
+  name: TemplateMatchingDataGroup
+  nameWithType: TemplateMatchingDataGroup
+  fullName: H.VisionMaster.NodeGroup.Groups.TemplateMatchings.TemplateMatchingDataGroup
+- uid: H.VisionMaster.NodeGroup.Groups.TemplateMatchings.ITemplateMatchingGroupableNodeData
+  commentId: T:H.VisionMaster.NodeGroup.Groups.TemplateMatchings.ITemplateMatchingGroupableNodeData
+  parent: H.VisionMaster.NodeGroup.Groups.TemplateMatchings
+  href: H.VisionMaster.NodeGroup.Groups.TemplateMatchings.ITemplateMatchingGroupableNodeData.html
+  name: ITemplateMatchingGroupableNodeData
+  nameWithType: ITemplateMatchingGroupableNodeData
+  fullName: H.VisionMaster.NodeGroup.Groups.TemplateMatchings.ITemplateMatchingGroupableNodeData
+- uid: H.VisionMaster.NodeGroup.Groups.TemplateMatchings
+  commentId: N:H.VisionMaster.NodeGroup.Groups.TemplateMatchings
+  href: H.html
+  name: H.VisionMaster.NodeGroup.Groups.TemplateMatchings
+  nameWithType: H.VisionMaster.NodeGroup.Groups.TemplateMatchings
+  fullName: H.VisionMaster.NodeGroup.Groups.TemplateMatchings
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup
+    name: NodeGroup
+    href: H.VisionMaster.NodeGroup.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup.Groups
+    name: Groups
+    href: H.VisionMaster.NodeGroup.Groups.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup.Groups.TemplateMatchings
+    name: TemplateMatchings
+    href: H.VisionMaster.NodeGroup.Groups.TemplateMatchings.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup
+    name: NodeGroup
+    href: H.VisionMaster.NodeGroup.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup.Groups
+    name: Groups
+    href: H.VisionMaster.NodeGroup.Groups.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup.Groups.TemplateMatchings
+    name: TemplateMatchings
+    href: H.VisionMaster.NodeGroup.Groups.TemplateMatchings.html

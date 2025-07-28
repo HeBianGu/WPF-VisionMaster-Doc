@@ -1,0 +1,112 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.Form
+  commentId: N:H.Controls.Form
+  id: H.Controls.Form
+  children:
+  - H.Controls.Form.ControlTypeConverterModel
+  - H.Controls.Form.Form
+  - H.Controls.Form.FormPresenter
+  - H.Controls.Form.ItemsFormPresenter
+  - H.Controls.Form.StaticForm
+  - H.Controls.Form.StaticFormPresenter
+  - H.Controls.Form.TabFormPresenter
+  - H.Controls.Form.TestType
+  - H.Controls.Form.TypeCTestModel
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.Form
+  nameWithType: H.Controls.Form
+  fullName: H.Controls.Form
+  type: Namespace
+  assemblies:
+  - H.Controls.Form
+references:
+- uid: H.Controls.Form.Form
+  commentId: T:H.Controls.Form.Form
+  parent: H.Controls.Form
+  href: H.Controls.Form.Form.html
+  name: Form
+  nameWithType: Form
+  fullName: H.Controls.Form.Form
+- uid: H.Controls.Form.StaticForm
+  commentId: T:H.Controls.Form.StaticForm
+  href: H.Controls.Form.StaticForm.html
+  name: StaticForm
+  nameWithType: StaticForm
+  fullName: H.Controls.Form.StaticForm
+- uid: H.Controls.Form.FormPresenter
+  commentId: T:H.Controls.Form.FormPresenter
+  parent: H.Controls.Form
+  href: H.Controls.Form.FormPresenter.html
+  name: FormPresenter
+  nameWithType: FormPresenter
+  fullName: H.Controls.Form.FormPresenter
+- uid: H.Controls.Form.ItemsFormPresenter
+  commentId: T:H.Controls.Form.ItemsFormPresenter
+  href: H.Controls.Form.ItemsFormPresenter.html
+  name: ItemsFormPresenter
+  nameWithType: ItemsFormPresenter
+  fullName: H.Controls.Form.ItemsFormPresenter
+- uid: H.Controls.Form.StaticFormPresenter
+  commentId: T:H.Controls.Form.StaticFormPresenter
+  href: H.Controls.Form.StaticFormPresenter.html
+  name: StaticFormPresenter
+  nameWithType: StaticFormPresenter
+  fullName: H.Controls.Form.StaticFormPresenter
+- uid: H.Controls.Form.TabFormPresenter
+  commentId: T:H.Controls.Form.TabFormPresenter
+  href: H.Controls.Form.TabFormPresenter.html
+  name: TabFormPresenter
+  nameWithType: TabFormPresenter
+  fullName: H.Controls.Form.TabFormPresenter
+- uid: H.Controls.Form.TypeCTestModel
+  commentId: T:H.Controls.Form.TypeCTestModel
+  href: H.Controls.Form.TypeCTestModel.html
+  name: TypeCTestModel
+  nameWithType: TypeCTestModel
+  fullName: H.Controls.Form.TypeCTestModel
+- uid: H.Controls.Form.ControlTypeConverterModel
+  commentId: T:H.Controls.Form.ControlTypeConverterModel
+  href: H.Controls.Form.ControlTypeConverterModel.html
+  name: ControlTypeConverterModel
+  nameWithType: ControlTypeConverterModel
+  fullName: H.Controls.Form.ControlTypeConverterModel
+- uid: H.Controls.Form.TestType
+  commentId: T:H.Controls.Form.TestType
+  parent: H.Controls.Form
+  href: H.Controls.Form.TestType.html
+  name: TestType
+  nameWithType: TestType
+  fullName: H.Controls.Form.TestType
+- uid: H.Controls.Form
+  commentId: N:H.Controls.Form
+  href: H.html
+  name: H.Controls.Form
+  nameWithType: H.Controls.Form
+  fullName: H.Controls.Form
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Form
+    name: Form
+    href: H.Controls.Form.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Form
+    name: Form
+    href: H.Controls.Form.html

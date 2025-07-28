@@ -1,0 +1,94 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Common.Interfaces.Where
+  commentId: N:H.Common.Interfaces.Where
+  id: H.Common.Interfaces.Where
+  children:
+  - H.Common.Interfaces.Where.IDisplayFilter
+  - H.Common.Interfaces.Where.IDisplayable
+  - H.Common.Interfaces.Where.IFilterable
+  - H.Common.Interfaces.Where.IOrderWhereable
+  - H.Common.Interfaces.Where.IWhereable
+  langs:
+  - csharp
+  - vb
+  name: H.Common.Interfaces.Where
+  nameWithType: H.Common.Interfaces.Where
+  fullName: H.Common.Interfaces.Where
+  type: Namespace
+  assemblies:
+  - H.Common
+references:
+- uid: H.Common.Interfaces.Where.IDisplayable
+  commentId: T:H.Common.Interfaces.Where.IDisplayable
+  parent: H.Common.Interfaces.Where
+  href: H.Common.Interfaces.Where.IDisplayable.html
+  name: IDisplayable
+  nameWithType: IDisplayable
+  fullName: H.Common.Interfaces.Where.IDisplayable
+- uid: H.Common.Interfaces.Where.IDisplayFilter
+  commentId: T:H.Common.Interfaces.Where.IDisplayFilter
+  parent: H.Common.Interfaces.Where
+  href: H.Common.Interfaces.Where.IDisplayFilter.html
+  name: IDisplayFilter
+  nameWithType: IDisplayFilter
+  fullName: H.Common.Interfaces.Where.IDisplayFilter
+- uid: H.Common.Interfaces.Where.IFilterable
+  commentId: T:H.Common.Interfaces.Where.IFilterable
+  parent: H.Common.Interfaces.Where
+  href: H.Common.Interfaces.Where.IFilterable.html
+  name: IFilterable
+  nameWithType: IFilterable
+  fullName: H.Common.Interfaces.Where.IFilterable
+- uid: H.Common.Interfaces.Where.IOrderWhereable
+  commentId: T:H.Common.Interfaces.Where.IOrderWhereable
+  parent: H.Common.Interfaces.Where
+  href: H.Common.Interfaces.Where.IOrderWhereable.html
+  name: IOrderWhereable
+  nameWithType: IOrderWhereable
+  fullName: H.Common.Interfaces.Where.IOrderWhereable
+- uid: H.Common.Interfaces.Where.IWhereable
+  commentId: T:H.Common.Interfaces.Where.IWhereable
+  parent: H.Common.Interfaces.Where
+  href: H.Common.Interfaces.Where.IWhereable.html
+  name: IWhereable
+  nameWithType: IWhereable
+  fullName: H.Common.Interfaces.Where.IWhereable
+- uid: H.Common.Interfaces.Where
+  commentId: N:H.Common.Interfaces.Where
+  href: H.html
+  name: H.Common.Interfaces.Where
+  nameWithType: H.Common.Interfaces.Where
+  fullName: H.Common.Interfaces.Where
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Common
+    name: Common
+    href: H.Common.html
+  - name: .
+  - uid: H.Common.Interfaces
+    name: Interfaces
+    href: H.Common.Interfaces.html
+  - name: .
+  - uid: H.Common.Interfaces.Where
+    name: Where
+    href: H.Common.Interfaces.Where.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Common
+    name: Common
+    href: H.Common.html
+  - name: .
+  - uid: H.Common.Interfaces
+    name: Interfaces
+    href: H.Common.Interfaces.html
+  - name: .
+  - uid: H.Common.Interfaces.Where
+    name: Where
+    href: H.Common.Interfaces.Where.html

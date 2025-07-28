@@ -1,0 +1,169 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.FavoriteBox
+  commentId: N:H.Controls.FavoriteBox
+  id: H.Controls.FavoriteBox
+  children:
+  - H.Controls.FavoriteBox.CreateFavoriteCommand
+  - H.Controls.FavoriteBox.DeleteFavoriteCommand
+  - H.Controls.FavoriteBox.EditFavoriteCommand
+  - H.Controls.FavoriteBox.FavoriteBox
+  - H.Controls.FavoriteBox.FavoriteFilter
+  - H.Controls.FavoriteBox.FavoriteFilterBox
+  - H.Controls.FavoriteBox.FavoriteItem
+  - H.Controls.FavoriteBox.FavoriteOptions
+  - H.Controls.FavoriteBox.FavoriteService
+  - H.Controls.FavoriteBox.FavoriteTree
+  - H.Controls.FavoriteBox.FavoritesPresenter
+  - H.Controls.FavoriteBox.IFavoriteItem
+  - H.Controls.FavoriteBox.IFavoriteOptions
+  - H.Controls.FavoriteBox.IFavoriteService
+  - H.Controls.FavoriteBox.InsertFavoriteCommand
+  - H.Controls.FavoriteBox.IocFavoriteService
+  - H.Controls.FavoriteBox.ManageFavoriteCommand
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.FavoriteBox
+  nameWithType: H.Controls.FavoriteBox
+  fullName: H.Controls.FavoriteBox
+  type: Namespace
+  assemblies:
+  - H.Controls.FavoriteBox
+references:
+- uid: H.Controls.FavoriteBox.CreateFavoriteCommand
+  commentId: T:H.Controls.FavoriteBox.CreateFavoriteCommand
+  href: H.Controls.FavoriteBox.CreateFavoriteCommand.html
+  name: CreateFavoriteCommand
+  nameWithType: CreateFavoriteCommand
+  fullName: H.Controls.FavoriteBox.CreateFavoriteCommand
+- uid: H.Controls.FavoriteBox.DeleteFavoriteCommand
+  commentId: T:H.Controls.FavoriteBox.DeleteFavoriteCommand
+  href: H.Controls.FavoriteBox.DeleteFavoriteCommand.html
+  name: DeleteFavoriteCommand
+  nameWithType: DeleteFavoriteCommand
+  fullName: H.Controls.FavoriteBox.DeleteFavoriteCommand
+- uid: H.Controls.FavoriteBox.EditFavoriteCommand
+  commentId: T:H.Controls.FavoriteBox.EditFavoriteCommand
+  href: H.Controls.FavoriteBox.EditFavoriteCommand.html
+  name: EditFavoriteCommand
+  nameWithType: EditFavoriteCommand
+  fullName: H.Controls.FavoriteBox.EditFavoriteCommand
+- uid: H.Controls.FavoriteBox.InsertFavoriteCommand
+  commentId: T:H.Controls.FavoriteBox.InsertFavoriteCommand
+  href: H.Controls.FavoriteBox.InsertFavoriteCommand.html
+  name: InsertFavoriteCommand
+  nameWithType: InsertFavoriteCommand
+  fullName: H.Controls.FavoriteBox.InsertFavoriteCommand
+- uid: H.Controls.FavoriteBox.ManageFavoriteCommand
+  commentId: T:H.Controls.FavoriteBox.ManageFavoriteCommand
+  href: H.Controls.FavoriteBox.ManageFavoriteCommand.html
+  name: ManageFavoriteCommand
+  nameWithType: ManageFavoriteCommand
+  fullName: H.Controls.FavoriteBox.ManageFavoriteCommand
+- uid: H.Controls.FavoriteBox.FavoriteBox
+  commentId: T:H.Controls.FavoriteBox.FavoriteBox
+  href: H.Controls.FavoriteBox.FavoriteBox.html
+  name: FavoriteBox
+  nameWithType: FavoriteBox
+  fullName: H.Controls.FavoriteBox.FavoriteBox
+- uid: H.Controls.FavoriteBox.FavoriteFilterBox
+  commentId: T:H.Controls.FavoriteBox.FavoriteFilterBox
+  parent: H.Controls.FavoriteBox
+  href: H.Controls.FavoriteBox.FavoriteFilterBox.html
+  name: FavoriteFilterBox
+  nameWithType: FavoriteFilterBox
+  fullName: H.Controls.FavoriteBox.FavoriteFilterBox
+- uid: H.Controls.FavoriteBox.FavoriteFilter
+  commentId: T:H.Controls.FavoriteBox.FavoriteFilter
+  href: H.Controls.FavoriteBox.FavoriteFilter.html
+  name: FavoriteFilter
+  nameWithType: FavoriteFilter
+  fullName: H.Controls.FavoriteBox.FavoriteFilter
+- uid: H.Controls.FavoriteBox.FavoriteItem
+  commentId: T:H.Controls.FavoriteBox.FavoriteItem
+  href: H.Controls.FavoriteBox.FavoriteItem.html
+  name: FavoriteItem
+  nameWithType: FavoriteItem
+  fullName: H.Controls.FavoriteBox.FavoriteItem
+- uid: H.Controls.FavoriteBox.FavoritesPresenter
+  commentId: T:H.Controls.FavoriteBox.FavoritesPresenter
+  href: H.Controls.FavoriteBox.FavoritesPresenter.html
+  name: FavoritesPresenter
+  nameWithType: FavoritesPresenter
+  fullName: H.Controls.FavoriteBox.FavoritesPresenter
+- uid: H.Controls.FavoriteBox.FavoriteOptions
+  commentId: T:H.Controls.FavoriteBox.FavoriteOptions
+  href: H.Controls.FavoriteBox.FavoriteOptions.html
+  name: FavoriteOptions
+  nameWithType: FavoriteOptions
+  fullName: H.Controls.FavoriteBox.FavoriteOptions
+- uid: H.Controls.FavoriteBox.FavoriteService
+  commentId: T:H.Controls.FavoriteBox.FavoriteService
+  href: H.Controls.FavoriteBox.FavoriteService.html
+  name: FavoriteService
+  nameWithType: FavoriteService
+  fullName: H.Controls.FavoriteBox.FavoriteService
+- uid: H.Controls.FavoriteBox.FavoriteTree
+  commentId: T:H.Controls.FavoriteBox.FavoriteTree
+  href: H.Controls.FavoriteBox.FavoriteTree.html
+  name: FavoriteTree
+  nameWithType: FavoriteTree
+  fullName: H.Controls.FavoriteBox.FavoriteTree
+- uid: H.Controls.FavoriteBox.IFavoriteItem
+  commentId: T:H.Controls.FavoriteBox.IFavoriteItem
+  parent: H.Controls.FavoriteBox
+  href: H.Controls.FavoriteBox.IFavoriteItem.html
+  name: IFavoriteItem
+  nameWithType: IFavoriteItem
+  fullName: H.Controls.FavoriteBox.IFavoriteItem
+- uid: H.Controls.FavoriteBox.IFavoriteOptions
+  commentId: T:H.Controls.FavoriteBox.IFavoriteOptions
+  parent: H.Controls.FavoriteBox
+  href: H.Controls.FavoriteBox.IFavoriteOptions.html
+  name: IFavoriteOptions
+  nameWithType: IFavoriteOptions
+  fullName: H.Controls.FavoriteBox.IFavoriteOptions
+- uid: H.Controls.FavoriteBox.IFavoriteService
+  commentId: T:H.Controls.FavoriteBox.IFavoriteService
+  parent: H.Controls.FavoriteBox
+  href: H.Controls.FavoriteBox.IFavoriteService.html
+  name: IFavoriteService
+  nameWithType: IFavoriteService
+  fullName: H.Controls.FavoriteBox.IFavoriteService
+- uid: H.Controls.FavoriteBox.IocFavoriteService
+  commentId: T:H.Controls.FavoriteBox.IocFavoriteService
+  href: H.Controls.FavoriteBox.IocFavoriteService.html
+  name: IocFavoriteService
+  nameWithType: IocFavoriteService
+  fullName: H.Controls.FavoriteBox.IocFavoriteService
+- uid: H.Controls.FavoriteBox
+  commentId: N:H.Controls.FavoriteBox
+  href: H.html
+  name: H.Controls.FavoriteBox
+  nameWithType: H.Controls.FavoriteBox
+  fullName: H.Controls.FavoriteBox
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.FavoriteBox
+    name: FavoriteBox
+    href: H.Controls.FavoriteBox.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.FavoriteBox
+    name: FavoriteBox
+    href: H.Controls.FavoriteBox.html

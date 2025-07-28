@@ -1,0 +1,69 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Modules.Style
+  commentId: N:H.Modules.Style
+  id: H.Modules.Style
+  children:
+  - H.Modules.Style.IStyleOptions
+  - H.Modules.Style.StyleOptions
+  - H.Modules.Style.StyleType
+  langs:
+  - csharp
+  - vb
+  name: H.Modules.Style
+  nameWithType: H.Modules.Style
+  fullName: H.Modules.Style
+  type: Namespace
+  assemblies:
+  - H.Modules.Style
+references:
+- uid: H.Modules.Style.IStyleOptions
+  commentId: T:H.Modules.Style.IStyleOptions
+  parent: H.Modules.Style
+  href: H.Modules.Style.IStyleOptions.html
+  name: IStyleOptions
+  nameWithType: IStyleOptions
+  fullName: H.Modules.Style.IStyleOptions
+- uid: H.Modules.Style.StyleOptions
+  commentId: T:H.Modules.Style.StyleOptions
+  href: H.Modules.Style.StyleOptions.html
+  name: StyleOptions
+  nameWithType: StyleOptions
+  fullName: H.Modules.Style.StyleOptions
+- uid: H.Modules.Style.StyleType
+  commentId: T:H.Modules.Style.StyleType
+  parent: H.Modules.Style
+  href: H.Modules.Style.StyleType.html
+  name: StyleType
+  nameWithType: StyleType
+  fullName: H.Modules.Style.StyleType
+- uid: H.Modules.Style
+  commentId: N:H.Modules.Style
+  href: H.html
+  name: H.Modules.Style
+  nameWithType: H.Modules.Style
+  fullName: H.Modules.Style
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Modules
+    name: Modules
+    href: H.Modules.html
+  - name: .
+  - uid: H.Modules.Style
+    name: Style
+    href: H.Modules.Style.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Modules
+    name: Modules
+    href: H.Modules.html
+  - name: .
+  - uid: H.Modules.Style
+    name: Style
+    href: H.Modules.Style.html

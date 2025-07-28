@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Windows.Dock
+  commentId: N:H.Windows.Dock
+  id: H.Windows.Dock
+  children:
+  - H.Windows.Dock.DockWindow
+  - H.Windows.Dock.ShowDockWindowCommand
+  langs:
+  - csharp
+  - vb
+  name: H.Windows.Dock
+  nameWithType: H.Windows.Dock
+  fullName: H.Windows.Dock
+  type: Namespace
+  assemblies:
+  - H.Windows.Dock
+references:
+- uid: H.Windows.Dock.DockWindow
+  commentId: T:H.Windows.Dock.DockWindow
+  href: H.Windows.Dock.DockWindow.html
+  name: DockWindow
+  nameWithType: DockWindow
+  fullName: H.Windows.Dock.DockWindow
+- uid: H.Windows.Dock.ShowDockWindowCommand
+  commentId: T:H.Windows.Dock.ShowDockWindowCommand
+  href: H.Windows.Dock.ShowDockWindowCommand.html
+  name: ShowDockWindowCommand
+  nameWithType: ShowDockWindowCommand
+  fullName: H.Windows.Dock.ShowDockWindowCommand

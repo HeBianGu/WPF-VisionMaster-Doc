@@ -1,0 +1,75 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.Log4net
+  commentId: N:H.Extensions.Log4net
+  id: H.Extensions.Log4net
+  children:
+  - H.Extensions.Log4net.ILog4netOptions
+  - H.Extensions.Log4net.Log4netOptions
+  - H.Extensions.Log4net.Log4netService
+  - H.Extensions.Log4net.ShowLog4netPathCommand
+  langs:
+  - csharp
+  - vb
+  name: H.Extensions.Log4net
+  nameWithType: H.Extensions.Log4net
+  fullName: H.Extensions.Log4net
+  type: Namespace
+  assemblies:
+  - H.Extensions.Log4net
+references:
+- uid: H.Extensions.Log4net.ILog4netOptions
+  commentId: T:H.Extensions.Log4net.ILog4netOptions
+  parent: H.Extensions.Log4net
+  href: H.Extensions.Log4net.ILog4netOptions.html
+  name: ILog4netOptions
+  nameWithType: ILog4netOptions
+  fullName: H.Extensions.Log4net.ILog4netOptions
+- uid: H.Extensions.Log4net.Log4netOptions
+  commentId: T:H.Extensions.Log4net.Log4netOptions
+  href: H.Extensions.Log4net.Log4netOptions.html
+  name: Log4netOptions
+  nameWithType: Log4netOptions
+  fullName: H.Extensions.Log4net.Log4netOptions
+- uid: H.Extensions.Log4net.Log4netService
+  commentId: T:H.Extensions.Log4net.Log4netService
+  href: H.Extensions.Log4net.Log4netService.html
+  name: Log4netService
+  nameWithType: Log4netService
+  fullName: H.Extensions.Log4net.Log4netService
+- uid: H.Extensions.Log4net.ShowLog4netPathCommand
+  commentId: T:H.Extensions.Log4net.ShowLog4netPathCommand
+  href: H.Extensions.Log4net.ShowLog4netPathCommand.html
+  name: ShowLog4netPathCommand
+  nameWithType: ShowLog4netPathCommand
+  fullName: H.Extensions.Log4net.ShowLog4netPathCommand
+- uid: H.Extensions.Log4net
+  commentId: N:H.Extensions.Log4net
+  href: H.html
+  name: H.Extensions.Log4net
+  nameWithType: H.Extensions.Log4net
+  fullName: H.Extensions.Log4net
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Log4net
+    name: Log4net
+    href: H.Extensions.Log4net.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Log4net
+    name: Log4net
+    href: H.Extensions.Log4net.html

@@ -1,0 +1,54 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.VisionMaster.ResultPresenter
+  commentId: N:H.VisionMaster.ResultPresenter
+  id: H.VisionMaster.ResultPresenter
+  children:
+  - H.VisionMaster.ResultPresenter.ResultPresenterExtension
+  langs:
+  - csharp
+  - vb
+  name: H.VisionMaster.ResultPresenter
+  nameWithType: H.VisionMaster.ResultPresenter
+  fullName: H.VisionMaster.ResultPresenter
+  type: Namespace
+  assemblies:
+  - H.VisionMaster.ResultPresenter
+references:
+- uid: H.VisionMaster.ResultPresenter.ResultPresenterExtension
+  commentId: T:H.VisionMaster.ResultPresenter.ResultPresenterExtension
+  parent: H.VisionMaster.ResultPresenter
+  href: H.VisionMaster.ResultPresenter.ResultPresenterExtension.html
+  name: ResultPresenterExtension
+  nameWithType: ResultPresenterExtension
+  fullName: H.VisionMaster.ResultPresenter.ResultPresenterExtension
+- uid: H.VisionMaster.ResultPresenter
+  commentId: N:H.VisionMaster.ResultPresenter
+  href: H.html
+  name: H.VisionMaster.ResultPresenter
+  nameWithType: H.VisionMaster.ResultPresenter
+  fullName: H.VisionMaster.ResultPresenter
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.ResultPresenter
+    name: ResultPresenter
+    href: H.VisionMaster.ResultPresenter.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.ResultPresenter
+    name: ResultPresenter
+    href: H.VisionMaster.ResultPresenter.html

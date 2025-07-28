@@ -1,0 +1,69 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Services.Common.Schedule
+  commentId: N:H.Services.Common.Schedule
+  id: H.Services.Common.Schedule
+  children:
+  - H.Services.Common.Schedule.IScheduledTaskService
+  - H.Services.Common.Schedule.ScheduledTaskServiceBase
+  langs:
+  - csharp
+  - vb
+  name: H.Services.Common.Schedule
+  nameWithType: H.Services.Common.Schedule
+  fullName: H.Services.Common.Schedule
+  type: Namespace
+  assemblies:
+  - H.Services.Common
+references:
+- uid: H.Services.Common.Schedule.IScheduledTaskService
+  commentId: T:H.Services.Common.Schedule.IScheduledTaskService
+  parent: H.Services.Common.Schedule
+  href: H.Services.Common.Schedule.IScheduledTaskService.html
+  name: IScheduledTaskService
+  nameWithType: IScheduledTaskService
+  fullName: H.Services.Common.Schedule.IScheduledTaskService
+- uid: H.Services.Common.Schedule.ScheduledTaskServiceBase
+  commentId: T:H.Services.Common.Schedule.ScheduledTaskServiceBase
+  href: H.Services.Common.Schedule.ScheduledTaskServiceBase.html
+  name: ScheduledTaskServiceBase
+  nameWithType: ScheduledTaskServiceBase
+  fullName: H.Services.Common.Schedule.ScheduledTaskServiceBase
+- uid: H.Services.Common.Schedule
+  commentId: N:H.Services.Common.Schedule
+  href: H.html
+  name: H.Services.Common.Schedule
+  nameWithType: H.Services.Common.Schedule
+  fullName: H.Services.Common.Schedule
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Common
+    name: Common
+    href: H.Services.Common.html
+  - name: .
+  - uid: H.Services.Common.Schedule
+    name: Schedule
+    href: H.Services.Common.Schedule.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Common
+    name: Common
+    href: H.Services.Common.html
+  - name: .
+  - uid: H.Services.Common.Schedule
+    name: Schedule
+    href: H.Services.Common.Schedule.html

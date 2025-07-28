@@ -1,0 +1,146 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Modules.Messages.Notice
+  commentId: N:H.Modules.Messages.Notice
+  id: H.Modules.Messages.Notice
+  children:
+  - H.Modules.Messages.Notice.DialogMessagePresenter
+  - H.Modules.Messages.Notice.ErrorMessagePresenter
+  - H.Modules.Messages.Notice.FatalMessagePresenter
+  - H.Modules.Messages.Notice.InfoMessagePresenter
+  - H.Modules.Messages.Notice.MessagePresenterBase
+  - H.Modules.Messages.Notice.NoticeBoxPresenter
+  - H.Modules.Messages.Notice.NoticeDialog
+  - H.Modules.Messages.Notice.NoticeMessageService
+  - H.Modules.Messages.Notice.NoticeOption
+  - H.Modules.Messages.Notice.ProgressMessagePresenter
+  - H.Modules.Messages.Notice.StringMessagePresenter
+  - H.Modules.Messages.Notice.SuccessMessagePresenter
+  - H.Modules.Messages.Notice.WarnMessagePresenter
+  langs:
+  - csharp
+  - vb
+  name: H.Modules.Messages.Notice
+  nameWithType: H.Modules.Messages.Notice
+  fullName: H.Modules.Messages.Notice
+  type: Namespace
+  assemblies:
+  - H.Modules.Messages.Notice
+references:
+- uid: H.Modules.Messages.Notice.NoticeBoxPresenter
+  commentId: T:H.Modules.Messages.Notice.NoticeBoxPresenter
+  href: H.Modules.Messages.Notice.NoticeBoxPresenter.html
+  name: NoticeBoxPresenter
+  nameWithType: NoticeBoxPresenter
+  fullName: H.Modules.Messages.Notice.NoticeBoxPresenter
+- uid: H.Modules.Messages.Notice.NoticeDialog
+  commentId: T:H.Modules.Messages.Notice.NoticeDialog
+  href: H.Modules.Messages.Notice.NoticeDialog.html
+  name: NoticeDialog
+  nameWithType: NoticeDialog
+  fullName: H.Modules.Messages.Notice.NoticeDialog
+- uid: H.Modules.Messages.Notice.NoticeMessageService
+  commentId: T:H.Modules.Messages.Notice.NoticeMessageService
+  href: H.Modules.Messages.Notice.NoticeMessageService.html
+  name: NoticeMessageService
+  nameWithType: NoticeMessageService
+  fullName: H.Modules.Messages.Notice.NoticeMessageService
+- uid: H.Modules.Messages.Notice.NoticeOption
+  commentId: T:H.Modules.Messages.Notice.NoticeOption
+  href: H.Modules.Messages.Notice.NoticeOption.html
+  name: NoticeOption
+  nameWithType: NoticeOption
+  fullName: H.Modules.Messages.Notice.NoticeOption
+- uid: H.Modules.Messages.Notice.DialogMessagePresenter
+  commentId: T:H.Modules.Messages.Notice.DialogMessagePresenter
+  href: H.Modules.Messages.Notice.DialogMessagePresenter.html
+  name: DialogMessagePresenter
+  nameWithType: DialogMessagePresenter
+  fullName: H.Modules.Messages.Notice.DialogMessagePresenter
+- uid: H.Modules.Messages.Notice.ErrorMessagePresenter
+  commentId: T:H.Modules.Messages.Notice.ErrorMessagePresenter
+  href: H.Modules.Messages.Notice.ErrorMessagePresenter.html
+  name: ErrorMessagePresenter
+  nameWithType: ErrorMessagePresenter
+  fullName: H.Modules.Messages.Notice.ErrorMessagePresenter
+- uid: H.Modules.Messages.Notice.FatalMessagePresenter
+  commentId: T:H.Modules.Messages.Notice.FatalMessagePresenter
+  href: H.Modules.Messages.Notice.FatalMessagePresenter.html
+  name: FatalMessagePresenter
+  nameWithType: FatalMessagePresenter
+  fullName: H.Modules.Messages.Notice.FatalMessagePresenter
+- uid: H.Modules.Messages.Notice.InfoMessagePresenter
+  commentId: T:H.Modules.Messages.Notice.InfoMessagePresenter
+  href: H.Modules.Messages.Notice.InfoMessagePresenter.html
+  name: InfoMessagePresenter
+  nameWithType: InfoMessagePresenter
+  fullName: H.Modules.Messages.Notice.InfoMessagePresenter
+- uid: H.Modules.Messages.Notice.MessagePresenterBase
+  commentId: T:H.Modules.Messages.Notice.MessagePresenterBase
+  parent: H.Modules.Messages.Notice
+  href: H.Modules.Messages.Notice.MessagePresenterBase.html
+  name: MessagePresenterBase
+  nameWithType: MessagePresenterBase
+  fullName: H.Modules.Messages.Notice.MessagePresenterBase
+- uid: H.Modules.Messages.Notice.ProgressMessagePresenter
+  commentId: T:H.Modules.Messages.Notice.ProgressMessagePresenter
+  href: H.Modules.Messages.Notice.ProgressMessagePresenter.html
+  name: ProgressMessagePresenter
+  nameWithType: ProgressMessagePresenter
+  fullName: H.Modules.Messages.Notice.ProgressMessagePresenter
+- uid: H.Modules.Messages.Notice.StringMessagePresenter
+  commentId: T:H.Modules.Messages.Notice.StringMessagePresenter
+  href: H.Modules.Messages.Notice.StringMessagePresenter.html
+  name: StringMessagePresenter
+  nameWithType: StringMessagePresenter
+  fullName: H.Modules.Messages.Notice.StringMessagePresenter
+- uid: H.Modules.Messages.Notice.SuccessMessagePresenter
+  commentId: T:H.Modules.Messages.Notice.SuccessMessagePresenter
+  href: H.Modules.Messages.Notice.SuccessMessagePresenter.html
+  name: SuccessMessagePresenter
+  nameWithType: SuccessMessagePresenter
+  fullName: H.Modules.Messages.Notice.SuccessMessagePresenter
+- uid: H.Modules.Messages.Notice.WarnMessagePresenter
+  commentId: T:H.Modules.Messages.Notice.WarnMessagePresenter
+  href: H.Modules.Messages.Notice.WarnMessagePresenter.html
+  name: WarnMessagePresenter
+  nameWithType: WarnMessagePresenter
+  fullName: H.Modules.Messages.Notice.WarnMessagePresenter
+- uid: H.Modules.Messages.Notice
+  commentId: N:H.Modules.Messages.Notice
+  href: H.html
+  name: H.Modules.Messages.Notice
+  nameWithType: H.Modules.Messages.Notice
+  fullName: H.Modules.Messages.Notice
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Modules
+    name: Modules
+    href: H.Modules.html
+  - name: .
+  - uid: H.Modules.Messages
+    name: Messages
+    href: H.Modules.Messages.html
+  - name: .
+  - uid: H.Modules.Messages.Notice
+    name: Notice
+    href: H.Modules.Messages.Notice.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Modules
+    name: Modules
+    href: H.Modules.html
+  - name: .
+  - uid: H.Modules.Messages
+    name: Messages
+    href: H.Modules.Messages.html
+  - name: .
+  - uid: H.Modules.Messages.Notice
+    name: Notice
+    href: H.Modules.Messages.Notice.html

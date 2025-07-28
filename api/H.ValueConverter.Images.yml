@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.ValueConverter.Images
+  commentId: N:H.ValueConverter.Images
+  id: H.ValueConverter.Images
+  children:
+  - H.ValueConverter.Images.GetImageSourceFromBase64Converter
+  - H.ValueConverter.Images.GetImageSourceFromFilePathConverter
+  langs:
+  - csharp
+  - vb
+  name: H.ValueConverter.Images
+  nameWithType: H.ValueConverter.Images
+  fullName: H.ValueConverter.Images
+  type: Namespace
+  assemblies:
+  - H.ValueConverter
+references:
+- uid: H.ValueConverter.Images.GetImageSourceFromBase64Converter
+  commentId: T:H.ValueConverter.Images.GetImageSourceFromBase64Converter
+  href: H.ValueConverter.Images.GetImageSourceFromBase64Converter.html
+  name: GetImageSourceFromBase64Converter
+  nameWithType: GetImageSourceFromBase64Converter
+  fullName: H.ValueConverter.Images.GetImageSourceFromBase64Converter
+- uid: H.ValueConverter.Images.GetImageSourceFromFilePathConverter
+  commentId: T:H.ValueConverter.Images.GetImageSourceFromFilePathConverter
+  href: H.ValueConverter.Images.GetImageSourceFromFilePathConverter.html
+  name: GetImageSourceFromFilePathConverter
+  nameWithType: GetImageSourceFromFilePathConverter
+  fullName: H.ValueConverter.Images.GetImageSourceFromFilePathConverter

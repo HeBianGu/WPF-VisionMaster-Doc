@@ -1,0 +1,77 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Services.Common.Theme
+  commentId: N:H.Services.Common.Theme
+  id: H.Services.Common.Theme
+  children:
+  - H.Services.Common.Theme.ILoadThemeOptionsService
+  - H.Services.Common.Theme.ISwitchThemeViewPresenter
+  - H.Services.Common.Theme.IThemeViewPresenter
+  langs:
+  - csharp
+  - vb
+  name: H.Services.Common.Theme
+  nameWithType: H.Services.Common.Theme
+  fullName: H.Services.Common.Theme
+  type: Namespace
+  assemblies:
+  - H.Services.Common
+references:
+- uid: H.Services.Common.Theme.ILoadThemeOptionsService
+  commentId: T:H.Services.Common.Theme.ILoadThemeOptionsService
+  parent: H.Services.Common.Theme
+  href: H.Services.Common.Theme.ILoadThemeOptionsService.html
+  name: ILoadThemeOptionsService
+  nameWithType: ILoadThemeOptionsService
+  fullName: H.Services.Common.Theme.ILoadThemeOptionsService
+- uid: H.Services.Common.Theme.ISwitchThemeViewPresenter
+  commentId: T:H.Services.Common.Theme.ISwitchThemeViewPresenter
+  parent: H.Services.Common.Theme
+  href: H.Services.Common.Theme.ISwitchThemeViewPresenter.html
+  name: ISwitchThemeViewPresenter
+  nameWithType: ISwitchThemeViewPresenter
+  fullName: H.Services.Common.Theme.ISwitchThemeViewPresenter
+- uid: H.Services.Common.Theme.IThemeViewPresenter
+  commentId: T:H.Services.Common.Theme.IThemeViewPresenter
+  href: H.Services.Common.Theme.IThemeViewPresenter.html
+  name: IThemeViewPresenter
+  nameWithType: IThemeViewPresenter
+  fullName: H.Services.Common.Theme.IThemeViewPresenter
+- uid: H.Services.Common.Theme
+  commentId: N:H.Services.Common.Theme
+  href: H.html
+  name: H.Services.Common.Theme
+  nameWithType: H.Services.Common.Theme
+  fullName: H.Services.Common.Theme
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Common
+    name: Common
+    href: H.Services.Common.html
+  - name: .
+  - uid: H.Services.Common.Theme
+    name: Theme
+    href: H.Services.Common.Theme.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Common
+    name: Common
+    href: H.Services.Common.html
+  - name: .
+  - uid: H.Services.Common.Theme
+    name: Theme
+    href: H.Services.Common.Theme.html

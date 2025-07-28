@@ -1,0 +1,1709 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.Mvvm.Commands.Commands
+  commentId: T:H.Extensions.Mvvm.Commands.Commands
+  id: Commands
+  parent: H.Extensions.Mvvm.Commands
+  children:
+  - H.Extensions.Mvvm.Commands.Commands.Am
+  - H.Extensions.Mvvm.Commands.Commands.Cancel
+  - H.Extensions.Mvvm.Commands.Commands.CheckAll
+  - H.Extensions.Mvvm.Commands.Commands.Clear
+  - H.Extensions.Mvvm.Commands.Commands.Close
+  - H.Extensions.Mvvm.Commands.Commands.CloseAll
+  - H.Extensions.Mvvm.Commands.Commands.CloseOther
+  - H.Extensions.Mvvm.Commands.Commands.Confirm
+  - H.Extensions.Mvvm.Commands.Commands.Delete
+  - H.Extensions.Mvvm.Commands.Commands.DeleteAll
+  - H.Extensions.Mvvm.Commands.Commands.DeleteAllChecked
+  - H.Extensions.Mvvm.Commands.Commands.Edit
+  - H.Extensions.Mvvm.Commands.Commands.Enlarge
+  - H.Extensions.Mvvm.Commands.Commands.First
+  - H.Extensions.Mvvm.Commands.Commands.HourChange
+  - H.Extensions.Mvvm.Commands.Commands.InvalidateRequerySuggested
+  - H.Extensions.Mvvm.Commands.Commands.Last
+  - H.Extensions.Mvvm.Commands.Commands.MinuteChange
+  - H.Extensions.Mvvm.Commands.Commands.MouseMove
+  - H.Extensions.Mvvm.Commands.Commands.New
+  - H.Extensions.Mvvm.Commands.Commands.Next
+  - H.Extensions.Mvvm.Commands.Commands.No
+  - H.Extensions.Mvvm.Commands.Commands.Open
+  - H.Extensions.Mvvm.Commands.Commands.Paste
+  - H.Extensions.Mvvm.Commands.Commands.Pm
+  - H.Extensions.Mvvm.Commands.Commands.Prev
+  - H.Extensions.Mvvm.Commands.Commands.Reduce
+  - H.Extensions.Mvvm.Commands.Commands.Refresh
+  - H.Extensions.Mvvm.Commands.Commands.Restore
+  - H.Extensions.Mvvm.Commands.Commands.RotateLeft
+  - H.Extensions.Mvvm.Commands.Commands.RotateRight
+  - H.Extensions.Mvvm.Commands.Commands.Save
+  - H.Extensions.Mvvm.Commands.Commands.Search
+  - H.Extensions.Mvvm.Commands.Commands.SecondChange
+  - H.Extensions.Mvvm.Commands.Commands.Selected
+  - H.Extensions.Mvvm.Commands.Commands.Setting
+  - H.Extensions.Mvvm.Commands.Commands.Sure
+  - H.Extensions.Mvvm.Commands.Commands.Switch
+  - H.Extensions.Mvvm.Commands.Commands.View
+  - H.Extensions.Mvvm.Commands.Commands.Yes
+  langs:
+  - csharp
+  - vb
+  name: Commands
+  nameWithType: Commands
+  fullName: H.Extensions.Mvvm.Commands.Commands
+  type: Class
+  source:
+    id: Commands
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Mvvm\Commands\Commands.cs
+    startLine: 10
+  assemblies:
+  - H.Extensions.Mvvm
+  namespace: H.Extensions.Mvvm.Commands
+  syntax:
+    content: public static class Commands
+    content.vb: Public Module Commands
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: H.Extensions.Mvvm.Commands.Commands.Search
+  commentId: P:H.Extensions.Mvvm.Commands.Commands.Search
+  id: Search
+  parent: H.Extensions.Mvvm.Commands.Commands
+  langs:
+  - csharp
+  - vb
+  name: Search
+  nameWithType: Commands.Search
+  fullName: H.Extensions.Mvvm.Commands.Commands.Search
+  type: Property
+  source:
+    id: Search
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Mvvm\Commands\Commands.cs
+    startLine: 15
+  assemblies:
+  - H.Extensions.Mvvm
+  namespace: H.Extensions.Mvvm.Commands
+  summary: 搜索
+  example: []
+  syntax:
+    content: public static RoutedCommand Search { get; }
+    parameters: []
+    return:
+      type: System.Windows.Input.RoutedCommand
+    content.vb: Public Shared ReadOnly Property Search As RoutedCommand
+  overload: H.Extensions.Mvvm.Commands.Commands.Search*
+- uid: H.Extensions.Mvvm.Commands.Commands.Setting
+  commentId: P:H.Extensions.Mvvm.Commands.Commands.Setting
+  id: Setting
+  parent: H.Extensions.Mvvm.Commands.Commands
+  langs:
+  - csharp
+  - vb
+  name: Setting
+  nameWithType: Commands.Setting
+  fullName: H.Extensions.Mvvm.Commands.Commands.Setting
+  type: Property
+  source:
+    id: Setting
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Mvvm\Commands\Commands.cs
+    startLine: 20
+  assemblies:
+  - H.Extensions.Mvvm
+  namespace: H.Extensions.Mvvm.Commands
+  summary: 设置
+  example: []
+  syntax:
+    content: public static RoutedCommand Setting { get; }
+    parameters: []
+    return:
+      type: System.Windows.Input.RoutedCommand
+    content.vb: Public Shared ReadOnly Property Setting As RoutedCommand
+  overload: H.Extensions.Mvvm.Commands.Commands.Setting*
+- uid: H.Extensions.Mvvm.Commands.Commands.Clear
+  commentId: P:H.Extensions.Mvvm.Commands.Commands.Clear
+  id: Clear
+  parent: H.Extensions.Mvvm.Commands.Commands
+  langs:
+  - csharp
+  - vb
+  name: Clear
+  nameWithType: Commands.Clear
+  fullName: H.Extensions.Mvvm.Commands.Commands.Clear
+  type: Property
+  source:
+    id: Clear
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Mvvm\Commands\Commands.cs
+    startLine: 25
+  assemblies:
+  - H.Extensions.Mvvm
+  namespace: H.Extensions.Mvvm.Commands
+  summary: 清除
+  example: []
+  syntax:
+    content: public static RoutedCommand Clear { get; }
+    parameters: []
+    return:
+      type: System.Windows.Input.RoutedCommand
+    content.vb: Public Shared ReadOnly Property Clear As RoutedCommand
+  overload: H.Extensions.Mvvm.Commands.Commands.Clear*
+- uid: H.Extensions.Mvvm.Commands.Commands.Switch
+  commentId: P:H.Extensions.Mvvm.Commands.Commands.Switch
+  id: Switch
+  parent: H.Extensions.Mvvm.Commands.Commands
+  langs:
+  - csharp
+  - vb
+  name: Switch
+  nameWithType: Commands.Switch
+  fullName: H.Extensions.Mvvm.Commands.Commands.Switch
+  type: Property
+  source:
+    id: Switch
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Mvvm\Commands\Commands.cs
+    startLine: 30
+  assemblies:
+  - H.Extensions.Mvvm
+  namespace: H.Extensions.Mvvm.Commands
+  summary: 切换
+  example: []
+  syntax:
+    content: public static RoutedCommand Switch { get; }
+    parameters: []
+    return:
+      type: System.Windows.Input.RoutedCommand
+    content.vb: Public Shared ReadOnly Property Switch As RoutedCommand
+  overload: H.Extensions.Mvvm.Commands.Commands.Switch*
+- uid: H.Extensions.Mvvm.Commands.Commands.RotateRight
+  commentId: P:H.Extensions.Mvvm.Commands.Commands.RotateRight
+  id: RotateRight
+  parent: H.Extensions.Mvvm.Commands.Commands
+  langs:
+  - csharp
+  - vb
+  name: RotateRight
+  nameWithType: Commands.RotateRight
+  fullName: H.Extensions.Mvvm.Commands.Commands.RotateRight
+  type: Property
+  source:
+    id: RotateRight
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Mvvm\Commands\Commands.cs
+    startLine: 35
+  assemblies:
+  - H.Extensions.Mvvm
+  namespace: H.Extensions.Mvvm.Commands
+  summary: 右转
+  example: []
+  syntax:
+    content: public static RoutedCommand RotateRight { get; }
+    parameters: []
+    return:
+      type: System.Windows.Input.RoutedCommand
+    content.vb: Public Shared ReadOnly Property RotateRight As RoutedCommand
+  overload: H.Extensions.Mvvm.Commands.Commands.RotateRight*
+- uid: H.Extensions.Mvvm.Commands.Commands.RotateLeft
+  commentId: P:H.Extensions.Mvvm.Commands.Commands.RotateLeft
+  id: RotateLeft
+  parent: H.Extensions.Mvvm.Commands.Commands
+  langs:
+  - csharp
+  - vb
+  name: RotateLeft
+  nameWithType: Commands.RotateLeft
+  fullName: H.Extensions.Mvvm.Commands.Commands.RotateLeft
+  type: Property
+  source:
+    id: RotateLeft
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Mvvm\Commands\Commands.cs
+    startLine: 40
+  assemblies:
+  - H.Extensions.Mvvm
+  namespace: H.Extensions.Mvvm.Commands
+  summary: 左转
+  example: []
+  syntax:
+    content: public static RoutedCommand RotateLeft { get; }
+    parameters: []
+    return:
+      type: System.Windows.Input.RoutedCommand
+    content.vb: Public Shared ReadOnly Property RotateLeft As RoutedCommand
+  overload: H.Extensions.Mvvm.Commands.Commands.RotateLeft*
+- uid: H.Extensions.Mvvm.Commands.Commands.Reduce
+  commentId: P:H.Extensions.Mvvm.Commands.Commands.Reduce
+  id: Reduce
+  parent: H.Extensions.Mvvm.Commands.Commands
+  langs:
+  - csharp
+  - vb
+  name: Reduce
+  nameWithType: Commands.Reduce
+  fullName: H.Extensions.Mvvm.Commands.Commands.Reduce
+  type: Property
+  source:
+    id: Reduce
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Mvvm\Commands\Commands.cs
+    startLine: 45
+  assemblies:
+  - H.Extensions.Mvvm
+  namespace: H.Extensions.Mvvm.Commands
+  summary: 小
+  example: []
+  syntax:
+    content: public static RoutedCommand Reduce { get; }
+    parameters: []
+    return:
+      type: System.Windows.Input.RoutedCommand
+    content.vb: Public Shared ReadOnly Property Reduce As RoutedCommand
+  overload: H.Extensions.Mvvm.Commands.Commands.Reduce*
+- uid: H.Extensions.Mvvm.Commands.Commands.Enlarge
+  commentId: P:H.Extensions.Mvvm.Commands.Commands.Enlarge
+  id: Enlarge
+  parent: H.Extensions.Mvvm.Commands.Commands
+  langs:
+  - csharp
+  - vb
+  name: Enlarge
+  nameWithType: Commands.Enlarge
+  fullName: H.Extensions.Mvvm.Commands.Commands.Enlarge
+  type: Property
+  source:
+    id: Enlarge
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Mvvm\Commands\Commands.cs
+    startLine: 50
+  assemblies:
+  - H.Extensions.Mvvm
+  namespace: H.Extensions.Mvvm.Commands
+  summary: 大
+  example: []
+  syntax:
+    content: public static RoutedCommand Enlarge { get; }
+    parameters: []
+    return:
+      type: System.Windows.Input.RoutedCommand
+    content.vb: Public Shared ReadOnly Property Enlarge As RoutedCommand
+  overload: H.Extensions.Mvvm.Commands.Commands.Enlarge*
+- uid: H.Extensions.Mvvm.Commands.Commands.Restore
+  commentId: P:H.Extensions.Mvvm.Commands.Commands.Restore
+  id: Restore
+  parent: H.Extensions.Mvvm.Commands.Commands
+  langs:
+  - csharp
+  - vb
+  name: Restore
+  nameWithType: Commands.Restore
+  fullName: H.Extensions.Mvvm.Commands.Commands.Restore
+  type: Property
+  source:
+    id: Restore
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Mvvm\Commands\Commands.cs
+    startLine: 55
+  assemblies:
+  - H.Extensions.Mvvm
+  namespace: H.Extensions.Mvvm.Commands
+  summary: 还原
+  example: []
+  syntax:
+    content: public static RoutedCommand Restore { get; }
+    parameters: []
+    return:
+      type: System.Windows.Input.RoutedCommand
+    content.vb: Public Shared ReadOnly Property Restore As RoutedCommand
+  overload: H.Extensions.Mvvm.Commands.Commands.Restore*
+- uid: H.Extensions.Mvvm.Commands.Commands.New
+  commentId: P:H.Extensions.Mvvm.Commands.Commands.New
+  id: New
+  parent: H.Extensions.Mvvm.Commands.Commands
+  langs:
+  - csharp
+  - vb
+  name: New
+  nameWithType: Commands.New
+  fullName: H.Extensions.Mvvm.Commands.Commands.New
+  type: Property
+  source:
+    id: New
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Mvvm\Commands\Commands.cs
+    startLine: 60
+  assemblies:
+  - H.Extensions.Mvvm
+  namespace: H.Extensions.Mvvm.Commands
+  summary: 新建
+  example: []
+  syntax:
+    content: public static RoutedCommand New { get; }
+    parameters: []
+    return:
+      type: System.Windows.Input.RoutedCommand
+    content.vb: Public Shared ReadOnly Property [New] As RoutedCommand
+  overload: H.Extensions.Mvvm.Commands.Commands.New*
+- uid: H.Extensions.Mvvm.Commands.Commands.Open
+  commentId: P:H.Extensions.Mvvm.Commands.Commands.Open
+  id: Open
+  parent: H.Extensions.Mvvm.Commands.Commands
+  langs:
+  - csharp
+  - vb
+  name: Open
+  nameWithType: Commands.Open
+  fullName: H.Extensions.Mvvm.Commands.Commands.Open
+  type: Property
+  source:
+    id: Open
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Mvvm\Commands\Commands.cs
+    startLine: 65
+  assemblies:
+  - H.Extensions.Mvvm
+  namespace: H.Extensions.Mvvm.Commands
+  summary: 打开
+  example: []
+  syntax:
+    content: public static RoutedCommand Open { get; }
+    parameters: []
+    return:
+      type: System.Windows.Input.RoutedCommand
+    content.vb: Public Shared ReadOnly Property Open As RoutedCommand
+  overload: H.Extensions.Mvvm.Commands.Commands.Open*
+- uid: H.Extensions.Mvvm.Commands.Commands.Save
+  commentId: P:H.Extensions.Mvvm.Commands.Commands.Save
+  id: Save
+  parent: H.Extensions.Mvvm.Commands.Commands
+  langs:
+  - csharp
+  - vb
+  name: Save
+  nameWithType: Commands.Save
+  fullName: H.Extensions.Mvvm.Commands.Commands.Save
+  type: Property
+  source:
+    id: Save
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Mvvm\Commands\Commands.cs
+    startLine: 70
+  assemblies:
+  - H.Extensions.Mvvm
+  namespace: H.Extensions.Mvvm.Commands
+  summary: 保存
+  example: []
+  syntax:
+    content: public static RoutedCommand Save { get; }
+    parameters: []
+    return:
+      type: System.Windows.Input.RoutedCommand
+    content.vb: Public Shared ReadOnly Property Save As RoutedCommand
+  overload: H.Extensions.Mvvm.Commands.Commands.Save*
+- uid: H.Extensions.Mvvm.Commands.Commands.Selected
+  commentId: P:H.Extensions.Mvvm.Commands.Commands.Selected
+  id: Selected
+  parent: H.Extensions.Mvvm.Commands.Commands
+  langs:
+  - csharp
+  - vb
+  name: Selected
+  nameWithType: Commands.Selected
+  fullName: H.Extensions.Mvvm.Commands.Commands.Selected
+  type: Property
+  source:
+    id: Selected
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Mvvm\Commands\Commands.cs
+    startLine: 75
+  assemblies:
+  - H.Extensions.Mvvm
+  namespace: H.Extensions.Mvvm.Commands
+  summary: 选中
+  example: []
+  syntax:
+    content: public static RoutedCommand Selected { get; }
+    parameters: []
+    return:
+      type: System.Windows.Input.RoutedCommand
+    content.vb: Public Shared ReadOnly Property Selected As RoutedCommand
+  overload: H.Extensions.Mvvm.Commands.Commands.Selected*
+- uid: H.Extensions.Mvvm.Commands.Commands.Close
+  commentId: P:H.Extensions.Mvvm.Commands.Commands.Close
+  id: Close
+  parent: H.Extensions.Mvvm.Commands.Commands
+  langs:
+  - csharp
+  - vb
+  name: Close
+  nameWithType: Commands.Close
+  fullName: H.Extensions.Mvvm.Commands.Commands.Close
+  type: Property
+  source:
+    id: Close
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Mvvm\Commands\Commands.cs
+    startLine: 80
+  assemblies:
+  - H.Extensions.Mvvm
+  namespace: H.Extensions.Mvvm.Commands
+  summary: 关闭
+  example: []
+  syntax:
+    content: public static RoutedCommand Close { get; }
+    parameters: []
+    return:
+      type: System.Windows.Input.RoutedCommand
+    content.vb: Public Shared ReadOnly Property Close As RoutedCommand
+  overload: H.Extensions.Mvvm.Commands.Commands.Close*
+- uid: H.Extensions.Mvvm.Commands.Commands.Cancel
+  commentId: P:H.Extensions.Mvvm.Commands.Commands.Cancel
+  id: Cancel
+  parent: H.Extensions.Mvvm.Commands.Commands
+  langs:
+  - csharp
+  - vb
+  name: Cancel
+  nameWithType: Commands.Cancel
+  fullName: H.Extensions.Mvvm.Commands.Commands.Cancel
+  type: Property
+  source:
+    id: Cancel
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Mvvm\Commands\Commands.cs
+    startLine: 85
+  assemblies:
+  - H.Extensions.Mvvm
+  namespace: H.Extensions.Mvvm.Commands
+  summary: 取消
+  example: []
+  syntax:
+    content: public static RoutedCommand Cancel { get; }
+    parameters: []
+    return:
+      type: System.Windows.Input.RoutedCommand
+    content.vb: Public Shared ReadOnly Property Cancel As RoutedCommand
+  overload: H.Extensions.Mvvm.Commands.Commands.Cancel*
+- uid: H.Extensions.Mvvm.Commands.Commands.Confirm
+  commentId: P:H.Extensions.Mvvm.Commands.Commands.Confirm
+  id: Confirm
+  parent: H.Extensions.Mvvm.Commands.Commands
+  langs:
+  - csharp
+  - vb
+  name: Confirm
+  nameWithType: Commands.Confirm
+  fullName: H.Extensions.Mvvm.Commands.Commands.Confirm
+  type: Property
+  source:
+    id: Confirm
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Mvvm\Commands\Commands.cs
+    startLine: 90
+  assemblies:
+  - H.Extensions.Mvvm
+  namespace: H.Extensions.Mvvm.Commands
+  summary: 确定
+  example: []
+  syntax:
+    content: public static RoutedCommand Confirm { get; }
+    parameters: []
+    return:
+      type: System.Windows.Input.RoutedCommand
+    content.vb: Public Shared ReadOnly Property Confirm As RoutedCommand
+  overload: H.Extensions.Mvvm.Commands.Commands.Confirm*
+- uid: H.Extensions.Mvvm.Commands.Commands.Yes
+  commentId: P:H.Extensions.Mvvm.Commands.Commands.Yes
+  id: Yes
+  parent: H.Extensions.Mvvm.Commands.Commands
+  langs:
+  - csharp
+  - vb
+  name: Yes
+  nameWithType: Commands.Yes
+  fullName: H.Extensions.Mvvm.Commands.Commands.Yes
+  type: Property
+  source:
+    id: Yes
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Mvvm\Commands\Commands.cs
+    startLine: 95
+  assemblies:
+  - H.Extensions.Mvvm
+  namespace: H.Extensions.Mvvm.Commands
+  summary: 是
+  example: []
+  syntax:
+    content: public static RoutedCommand Yes { get; }
+    parameters: []
+    return:
+      type: System.Windows.Input.RoutedCommand
+    content.vb: Public Shared ReadOnly Property Yes As RoutedCommand
+  overload: H.Extensions.Mvvm.Commands.Commands.Yes*
+- uid: H.Extensions.Mvvm.Commands.Commands.No
+  commentId: P:H.Extensions.Mvvm.Commands.Commands.No
+  id: No
+  parent: H.Extensions.Mvvm.Commands.Commands
+  langs:
+  - csharp
+  - vb
+  name: No
+  nameWithType: Commands.No
+  fullName: H.Extensions.Mvvm.Commands.Commands.No
+  type: Property
+  source:
+    id: No
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Mvvm\Commands\Commands.cs
+    startLine: 100
+  assemblies:
+  - H.Extensions.Mvvm
+  namespace: H.Extensions.Mvvm.Commands
+  summary: 否
+  example: []
+  syntax:
+    content: public static RoutedCommand No { get; }
+    parameters: []
+    return:
+      type: System.Windows.Input.RoutedCommand
+    content.vb: Public Shared ReadOnly Property No As RoutedCommand
+  overload: H.Extensions.Mvvm.Commands.Commands.No*
+- uid: H.Extensions.Mvvm.Commands.Commands.CloseAll
+  commentId: P:H.Extensions.Mvvm.Commands.Commands.CloseAll
+  id: CloseAll
+  parent: H.Extensions.Mvvm.Commands.Commands
+  langs:
+  - csharp
+  - vb
+  name: CloseAll
+  nameWithType: Commands.CloseAll
+  fullName: H.Extensions.Mvvm.Commands.Commands.CloseAll
+  type: Property
+  source:
+    id: CloseAll
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Mvvm\Commands\Commands.cs
+    startLine: 105
+  assemblies:
+  - H.Extensions.Mvvm
+  namespace: H.Extensions.Mvvm.Commands
+  summary: 关闭所有
+  example: []
+  syntax:
+    content: public static RoutedCommand CloseAll { get; }
+    parameters: []
+    return:
+      type: System.Windows.Input.RoutedCommand
+    content.vb: Public Shared ReadOnly Property CloseAll As RoutedCommand
+  overload: H.Extensions.Mvvm.Commands.Commands.CloseAll*
+- uid: H.Extensions.Mvvm.Commands.Commands.CloseOther
+  commentId: P:H.Extensions.Mvvm.Commands.Commands.CloseOther
+  id: CloseOther
+  parent: H.Extensions.Mvvm.Commands.Commands
+  langs:
+  - csharp
+  - vb
+  name: CloseOther
+  nameWithType: Commands.CloseOther
+  fullName: H.Extensions.Mvvm.Commands.Commands.CloseOther
+  type: Property
+  source:
+    id: CloseOther
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Mvvm\Commands\Commands.cs
+    startLine: 110
+  assemblies:
+  - H.Extensions.Mvvm
+  namespace: H.Extensions.Mvvm.Commands
+  summary: 关闭其他
+  example: []
+  syntax:
+    content: public static RoutedCommand CloseOther { get; }
+    parameters: []
+    return:
+      type: System.Windows.Input.RoutedCommand
+    content.vb: Public Shared ReadOnly Property CloseOther As RoutedCommand
+  overload: H.Extensions.Mvvm.Commands.Commands.CloseOther*
+- uid: H.Extensions.Mvvm.Commands.Commands.Prev
+  commentId: P:H.Extensions.Mvvm.Commands.Commands.Prev
+  id: Prev
+  parent: H.Extensions.Mvvm.Commands.Commands
+  langs:
+  - csharp
+  - vb
+  name: Prev
+  nameWithType: Commands.Prev
+  fullName: H.Extensions.Mvvm.Commands.Commands.Prev
+  type: Property
+  source:
+    id: Prev
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Mvvm\Commands\Commands.cs
+    startLine: 115
+  assemblies:
+  - H.Extensions.Mvvm
+  namespace: H.Extensions.Mvvm.Commands
+  summary: 上一个
+  example: []
+  syntax:
+    content: public static RoutedCommand Prev { get; }
+    parameters: []
+    return:
+      type: System.Windows.Input.RoutedCommand
+    content.vb: Public Shared ReadOnly Property Prev As RoutedCommand
+  overload: H.Extensions.Mvvm.Commands.Commands.Prev*
+- uid: H.Extensions.Mvvm.Commands.Commands.Next
+  commentId: P:H.Extensions.Mvvm.Commands.Commands.Next
+  id: Next
+  parent: H.Extensions.Mvvm.Commands.Commands
+  langs:
+  - csharp
+  - vb
+  name: Next
+  nameWithType: Commands.Next
+  fullName: H.Extensions.Mvvm.Commands.Commands.Next
+  type: Property
+  source:
+    id: Next
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Mvvm\Commands\Commands.cs
+    startLine: 120
+  assemblies:
+  - H.Extensions.Mvvm
+  namespace: H.Extensions.Mvvm.Commands
+  summary: 下一个
+  example: []
+  syntax:
+    content: public static RoutedCommand Next { get; }
+    parameters: []
+    return:
+      type: System.Windows.Input.RoutedCommand
+    content.vb: Public Shared ReadOnly Property [Next] As RoutedCommand
+  overload: H.Extensions.Mvvm.Commands.Commands.Next*
+- uid: H.Extensions.Mvvm.Commands.Commands.First
+  commentId: P:H.Extensions.Mvvm.Commands.Commands.First
+  id: First
+  parent: H.Extensions.Mvvm.Commands.Commands
+  langs:
+  - csharp
+  - vb
+  name: First
+  nameWithType: Commands.First
+  fullName: H.Extensions.Mvvm.Commands.Commands.First
+  type: Property
+  source:
+    id: First
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Mvvm\Commands\Commands.cs
+    startLine: 125
+  assemblies:
+  - H.Extensions.Mvvm
+  namespace: H.Extensions.Mvvm.Commands
+  summary: 第一个
+  example: []
+  syntax:
+    content: public static RoutedCommand First { get; }
+    parameters: []
+    return:
+      type: System.Windows.Input.RoutedCommand
+    content.vb: Public Shared ReadOnly Property First As RoutedCommand
+  overload: H.Extensions.Mvvm.Commands.Commands.First*
+- uid: H.Extensions.Mvvm.Commands.Commands.Last
+  commentId: P:H.Extensions.Mvvm.Commands.Commands.Last
+  id: Last
+  parent: H.Extensions.Mvvm.Commands.Commands
+  langs:
+  - csharp
+  - vb
+  name: Last
+  nameWithType: Commands.Last
+  fullName: H.Extensions.Mvvm.Commands.Commands.Last
+  type: Property
+  source:
+    id: Last
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Mvvm\Commands\Commands.cs
+    startLine: 130
+  assemblies:
+  - H.Extensions.Mvvm
+  namespace: H.Extensions.Mvvm.Commands
+  summary: 最后一个
+  example: []
+  syntax:
+    content: public static RoutedCommand Last { get; }
+    parameters: []
+    return:
+      type: System.Windows.Input.RoutedCommand
+    content.vb: Public Shared ReadOnly Property Last As RoutedCommand
+  overload: H.Extensions.Mvvm.Commands.Commands.Last*
+- uid: H.Extensions.Mvvm.Commands.Commands.Am
+  commentId: P:H.Extensions.Mvvm.Commands.Commands.Am
+  id: Am
+  parent: H.Extensions.Mvvm.Commands.Commands
+  langs:
+  - csharp
+  - vb
+  name: Am
+  nameWithType: Commands.Am
+  fullName: H.Extensions.Mvvm.Commands.Commands.Am
+  type: Property
+  source:
+    id: Am
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Mvvm\Commands\Commands.cs
+    startLine: 135
+  assemblies:
+  - H.Extensions.Mvvm
+  namespace: H.Extensions.Mvvm.Commands
+  summary: 上午
+  example: []
+  syntax:
+    content: public static RoutedCommand Am { get; }
+    parameters: []
+    return:
+      type: System.Windows.Input.RoutedCommand
+    content.vb: Public Shared ReadOnly Property Am As RoutedCommand
+  overload: H.Extensions.Mvvm.Commands.Commands.Am*
+- uid: H.Extensions.Mvvm.Commands.Commands.Pm
+  commentId: P:H.Extensions.Mvvm.Commands.Commands.Pm
+  id: Pm
+  parent: H.Extensions.Mvvm.Commands.Commands
+  langs:
+  - csharp
+  - vb
+  name: Pm
+  nameWithType: Commands.Pm
+  fullName: H.Extensions.Mvvm.Commands.Commands.Pm
+  type: Property
+  source:
+    id: Pm
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Mvvm\Commands\Commands.cs
+    startLine: 140
+  assemblies:
+  - H.Extensions.Mvvm
+  namespace: H.Extensions.Mvvm.Commands
+  summary: 下午
+  example: []
+  syntax:
+    content: public static RoutedCommand Pm { get; }
+    parameters: []
+    return:
+      type: System.Windows.Input.RoutedCommand
+    content.vb: Public Shared ReadOnly Property Pm As RoutedCommand
+  overload: H.Extensions.Mvvm.Commands.Commands.Pm*
+- uid: H.Extensions.Mvvm.Commands.Commands.Sure
+  commentId: P:H.Extensions.Mvvm.Commands.Commands.Sure
+  id: Sure
+  parent: H.Extensions.Mvvm.Commands.Commands
+  langs:
+  - csharp
+  - vb
+  name: Sure
+  nameWithType: Commands.Sure
+  fullName: H.Extensions.Mvvm.Commands.Commands.Sure
+  type: Property
+  source:
+    id: Sure
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Mvvm\Commands\Commands.cs
+    startLine: 145
+  assemblies:
+  - H.Extensions.Mvvm
+  namespace: H.Extensions.Mvvm.Commands
+  summary: 确认
+  example: []
+  syntax:
+    content: public static RoutedCommand Sure { get; }
+    parameters: []
+    return:
+      type: System.Windows.Input.RoutedCommand
+    content.vb: Public Shared ReadOnly Property Sure As RoutedCommand
+  overload: H.Extensions.Mvvm.Commands.Commands.Sure*
+- uid: H.Extensions.Mvvm.Commands.Commands.HourChange
+  commentId: P:H.Extensions.Mvvm.Commands.Commands.HourChange
+  id: HourChange
+  parent: H.Extensions.Mvvm.Commands.Commands
+  langs:
+  - csharp
+  - vb
+  name: HourChange
+  nameWithType: Commands.HourChange
+  fullName: H.Extensions.Mvvm.Commands.Commands.HourChange
+  type: Property
+  source:
+    id: HourChange
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Mvvm\Commands\Commands.cs
+    startLine: 150
+  assemblies:
+  - H.Extensions.Mvvm
+  namespace: H.Extensions.Mvvm.Commands
+  summary: 小时改变
+  example: []
+  syntax:
+    content: public static RoutedCommand HourChange { get; }
+    parameters: []
+    return:
+      type: System.Windows.Input.RoutedCommand
+    content.vb: Public Shared ReadOnly Property HourChange As RoutedCommand
+  overload: H.Extensions.Mvvm.Commands.Commands.HourChange*
+- uid: H.Extensions.Mvvm.Commands.Commands.MinuteChange
+  commentId: P:H.Extensions.Mvvm.Commands.Commands.MinuteChange
+  id: MinuteChange
+  parent: H.Extensions.Mvvm.Commands.Commands
+  langs:
+  - csharp
+  - vb
+  name: MinuteChange
+  nameWithType: Commands.MinuteChange
+  fullName: H.Extensions.Mvvm.Commands.Commands.MinuteChange
+  type: Property
+  source:
+    id: MinuteChange
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Mvvm\Commands\Commands.cs
+    startLine: 155
+  assemblies:
+  - H.Extensions.Mvvm
+  namespace: H.Extensions.Mvvm.Commands
+  summary: 分钟改变
+  example: []
+  syntax:
+    content: public static RoutedCommand MinuteChange { get; }
+    parameters: []
+    return:
+      type: System.Windows.Input.RoutedCommand
+    content.vb: Public Shared ReadOnly Property MinuteChange As RoutedCommand
+  overload: H.Extensions.Mvvm.Commands.Commands.MinuteChange*
+- uid: H.Extensions.Mvvm.Commands.Commands.SecondChange
+  commentId: P:H.Extensions.Mvvm.Commands.Commands.SecondChange
+  id: SecondChange
+  parent: H.Extensions.Mvvm.Commands.Commands
+  langs:
+  - csharp
+  - vb
+  name: SecondChange
+  nameWithType: Commands.SecondChange
+  fullName: H.Extensions.Mvvm.Commands.Commands.SecondChange
+  type: Property
+  source:
+    id: SecondChange
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Mvvm\Commands\Commands.cs
+    startLine: 160
+  assemblies:
+  - H.Extensions.Mvvm
+  namespace: H.Extensions.Mvvm.Commands
+  summary: 秒改变
+  example: []
+  syntax:
+    content: public static RoutedCommand SecondChange { get; }
+    parameters: []
+    return:
+      type: System.Windows.Input.RoutedCommand
+    content.vb: Public Shared ReadOnly Property SecondChange As RoutedCommand
+  overload: H.Extensions.Mvvm.Commands.Commands.SecondChange*
+- uid: H.Extensions.Mvvm.Commands.Commands.MouseMove
+  commentId: P:H.Extensions.Mvvm.Commands.Commands.MouseMove
+  id: MouseMove
+  parent: H.Extensions.Mvvm.Commands.Commands
+  langs:
+  - csharp
+  - vb
+  name: MouseMove
+  nameWithType: Commands.MouseMove
+  fullName: H.Extensions.Mvvm.Commands.Commands.MouseMove
+  type: Property
+  source:
+    id: MouseMove
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Mvvm\Commands\Commands.cs
+    startLine: 165
+  assemblies:
+  - H.Extensions.Mvvm
+  namespace: H.Extensions.Mvvm.Commands
+  summary: 鼠标移动
+  example: []
+  syntax:
+    content: public static RoutedCommand MouseMove { get; }
+    parameters: []
+    return:
+      type: System.Windows.Input.RoutedCommand
+    content.vb: Public Shared ReadOnly Property MouseMove As RoutedCommand
+  overload: H.Extensions.Mvvm.Commands.Commands.MouseMove*
+- uid: H.Extensions.Mvvm.Commands.Commands.Paste
+  commentId: P:H.Extensions.Mvvm.Commands.Commands.Paste
+  id: Paste
+  parent: H.Extensions.Mvvm.Commands.Commands
+  langs:
+  - csharp
+  - vb
+  name: Paste
+  nameWithType: Commands.Paste
+  fullName: H.Extensions.Mvvm.Commands.Commands.Paste
+  type: Property
+  source:
+    id: Paste
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Mvvm\Commands\Commands.cs
+    startLine: 170
+  assemblies:
+  - H.Extensions.Mvvm
+  namespace: H.Extensions.Mvvm.Commands
+  summary: 粘贴
+  example: []
+  syntax:
+    content: public static RoutedCommand Paste { get; }
+    parameters: []
+    return:
+      type: System.Windows.Input.RoutedCommand
+    content.vb: Public Shared ReadOnly Property Paste As RoutedCommand
+  overload: H.Extensions.Mvvm.Commands.Commands.Paste*
+- uid: H.Extensions.Mvvm.Commands.Commands.CheckAll
+  commentId: P:H.Extensions.Mvvm.Commands.Commands.CheckAll
+  id: CheckAll
+  parent: H.Extensions.Mvvm.Commands.Commands
+  langs:
+  - csharp
+  - vb
+  name: CheckAll
+  nameWithType: Commands.CheckAll
+  fullName: H.Extensions.Mvvm.Commands.Commands.CheckAll
+  type: Property
+  source:
+    id: CheckAll
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Mvvm\Commands\Commands.cs
+    startLine: 175
+  assemblies:
+  - H.Extensions.Mvvm
+  namespace: H.Extensions.Mvvm.Commands
+  summary: 全选
+  example: []
+  syntax:
+    content: public static RoutedCommand CheckAll { get; }
+    parameters: []
+    return:
+      type: System.Windows.Input.RoutedCommand
+    content.vb: Public Shared ReadOnly Property CheckAll As RoutedCommand
+  overload: H.Extensions.Mvvm.Commands.Commands.CheckAll*
+- uid: H.Extensions.Mvvm.Commands.Commands.Delete
+  commentId: P:H.Extensions.Mvvm.Commands.Commands.Delete
+  id: Delete
+  parent: H.Extensions.Mvvm.Commands.Commands
+  langs:
+  - csharp
+  - vb
+  name: Delete
+  nameWithType: Commands.Delete
+  fullName: H.Extensions.Mvvm.Commands.Commands.Delete
+  type: Property
+  source:
+    id: Delete
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Mvvm\Commands\Commands.cs
+    startLine: 180
+  assemblies:
+  - H.Extensions.Mvvm
+  namespace: H.Extensions.Mvvm.Commands
+  summary: 删除
+  example: []
+  syntax:
+    content: public static RoutedCommand Delete { get; }
+    parameters: []
+    return:
+      type: System.Windows.Input.RoutedCommand
+    content.vb: Public Shared ReadOnly Property Delete As RoutedCommand
+  overload: H.Extensions.Mvvm.Commands.Commands.Delete*
+- uid: H.Extensions.Mvvm.Commands.Commands.DeleteAll
+  commentId: P:H.Extensions.Mvvm.Commands.Commands.DeleteAll
+  id: DeleteAll
+  parent: H.Extensions.Mvvm.Commands.Commands
+  langs:
+  - csharp
+  - vb
+  name: DeleteAll
+  nameWithType: Commands.DeleteAll
+  fullName: H.Extensions.Mvvm.Commands.Commands.DeleteAll
+  type: Property
+  source:
+    id: DeleteAll
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Mvvm\Commands\Commands.cs
+    startLine: 185
+  assemblies:
+  - H.Extensions.Mvvm
+  namespace: H.Extensions.Mvvm.Commands
+  summary: 全部删除
+  example: []
+  syntax:
+    content: public static RoutedCommand DeleteAll { get; }
+    parameters: []
+    return:
+      type: System.Windows.Input.RoutedCommand
+    content.vb: Public Shared ReadOnly Property DeleteAll As RoutedCommand
+  overload: H.Extensions.Mvvm.Commands.Commands.DeleteAll*
+- uid: H.Extensions.Mvvm.Commands.Commands.DeleteAllChecked
+  commentId: P:H.Extensions.Mvvm.Commands.Commands.DeleteAllChecked
+  id: DeleteAllChecked
+  parent: H.Extensions.Mvvm.Commands.Commands
+  langs:
+  - csharp
+  - vb
+  name: DeleteAllChecked
+  nameWithType: Commands.DeleteAllChecked
+  fullName: H.Extensions.Mvvm.Commands.Commands.DeleteAllChecked
+  type: Property
+  source:
+    id: DeleteAllChecked
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Mvvm\Commands\Commands.cs
+    startLine: 190
+  assemblies:
+  - H.Extensions.Mvvm
+  namespace: H.Extensions.Mvvm.Commands
+  summary: 删除选中
+  example: []
+  syntax:
+    content: public static RoutedCommand DeleteAllChecked { get; }
+    parameters: []
+    return:
+      type: System.Windows.Input.RoutedCommand
+    content.vb: Public Shared ReadOnly Property DeleteAllChecked As RoutedCommand
+  overload: H.Extensions.Mvvm.Commands.Commands.DeleteAllChecked*
+- uid: H.Extensions.Mvvm.Commands.Commands.Edit
+  commentId: P:H.Extensions.Mvvm.Commands.Commands.Edit
+  id: Edit
+  parent: H.Extensions.Mvvm.Commands.Commands
+  langs:
+  - csharp
+  - vb
+  name: Edit
+  nameWithType: Commands.Edit
+  fullName: H.Extensions.Mvvm.Commands.Commands.Edit
+  type: Property
+  source:
+    id: Edit
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Mvvm\Commands\Commands.cs
+    startLine: 195
+  assemblies:
+  - H.Extensions.Mvvm
+  namespace: H.Extensions.Mvvm.Commands
+  summary: 编辑
+  example: []
+  syntax:
+    content: public static RoutedCommand Edit { get; }
+    parameters: []
+    return:
+      type: System.Windows.Input.RoutedCommand
+    content.vb: Public Shared ReadOnly Property Edit As RoutedCommand
+  overload: H.Extensions.Mvvm.Commands.Commands.Edit*
+- uid: H.Extensions.Mvvm.Commands.Commands.View
+  commentId: P:H.Extensions.Mvvm.Commands.Commands.View
+  id: View
+  parent: H.Extensions.Mvvm.Commands.Commands
+  langs:
+  - csharp
+  - vb
+  name: View
+  nameWithType: Commands.View
+  fullName: H.Extensions.Mvvm.Commands.Commands.View
+  type: Property
+  source:
+    id: View
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Mvvm\Commands\Commands.cs
+    startLine: 200
+  assemblies:
+  - H.Extensions.Mvvm
+  namespace: H.Extensions.Mvvm.Commands
+  summary: 查看
+  example: []
+  syntax:
+    content: public static RoutedCommand View { get; }
+    parameters: []
+    return:
+      type: System.Windows.Input.RoutedCommand
+    content.vb: Public Shared ReadOnly Property View As RoutedCommand
+  overload: H.Extensions.Mvvm.Commands.Commands.View*
+- uid: H.Extensions.Mvvm.Commands.Commands.Refresh
+  commentId: P:H.Extensions.Mvvm.Commands.Commands.Refresh
+  id: Refresh
+  parent: H.Extensions.Mvvm.Commands.Commands
+  langs:
+  - csharp
+  - vb
+  name: Refresh
+  nameWithType: Commands.Refresh
+  fullName: H.Extensions.Mvvm.Commands.Commands.Refresh
+  type: Property
+  source:
+    id: Refresh
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Mvvm\Commands\Commands.cs
+    startLine: 205
+  assemblies:
+  - H.Extensions.Mvvm
+  namespace: H.Extensions.Mvvm.Commands
+  summary: 刷新
+  example: []
+  syntax:
+    content: public static RoutedCommand Refresh { get; }
+    parameters: []
+    return:
+      type: System.Windows.Input.RoutedCommand
+    content.vb: Public Shared ReadOnly Property Refresh As RoutedCommand
+  overload: H.Extensions.Mvvm.Commands.Commands.Refresh*
+- uid: H.Extensions.Mvvm.Commands.Commands.InvalidateRequerySuggested
+  commentId: M:H.Extensions.Mvvm.Commands.Commands.InvalidateRequerySuggested
+  id: InvalidateRequerySuggested
+  parent: H.Extensions.Mvvm.Commands.Commands
+  langs:
+  - csharp
+  - vb
+  name: InvalidateRequerySuggested()
+  nameWithType: Commands.InvalidateRequerySuggested()
+  fullName: H.Extensions.Mvvm.Commands.Commands.InvalidateRequerySuggested()
+  type: Method
+  source:
+    id: InvalidateRequerySuggested
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Mvvm\Commands\Commands.cs
+    startLine: 207
+  assemblies:
+  - H.Extensions.Mvvm
+  namespace: H.Extensions.Mvvm.Commands
+  syntax:
+    content: public static void InvalidateRequerySuggested()
+    content.vb: Public Shared Sub InvalidateRequerySuggested()
+  overload: H.Extensions.Mvvm.Commands.Commands.InvalidateRequerySuggested*
+references:
+- uid: H.Extensions.Mvvm.Commands
+  commentId: N:H.Extensions.Mvvm.Commands
+  href: H.html
+  name: H.Extensions.Mvvm.Commands
+  nameWithType: H.Extensions.Mvvm.Commands
+  fullName: H.Extensions.Mvvm.Commands
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Mvvm
+    name: Mvvm
+    href: H.Extensions.Mvvm.html
+  - name: .
+  - uid: H.Extensions.Mvvm.Commands
+    name: Commands
+    href: H.Extensions.Mvvm.Commands.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Mvvm
+    name: Mvvm
+    href: H.Extensions.Mvvm.html
+  - name: .
+  - uid: H.Extensions.Mvvm.Commands
+    name: Commands
+    href: H.Extensions.Mvvm.Commands.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: H.Extensions.Mvvm.Commands.Commands.Search*
+  commentId: Overload:H.Extensions.Mvvm.Commands.Commands.Search
+  href: H.Extensions.Mvvm.Commands.Commands.html#H_Extensions_Mvvm_Commands_Commands_Search
+  name: Search
+  nameWithType: Commands.Search
+  fullName: H.Extensions.Mvvm.Commands.Commands.Search
+- uid: System.Windows.Input.RoutedCommand
+  commentId: T:System.Windows.Input.RoutedCommand
+  parent: System.Windows.Input
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.input.routedcommand
+  name: RoutedCommand
+  nameWithType: RoutedCommand
+  fullName: System.Windows.Input.RoutedCommand
+- uid: System.Windows.Input
+  commentId: N:System.Windows.Input
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Input
+  nameWithType: System.Windows.Input
+  fullName: System.Windows.Input
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Input
+    name: Input
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Input
+    name: Input
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input
+- uid: H.Extensions.Mvvm.Commands.Commands.Setting*
+  commentId: Overload:H.Extensions.Mvvm.Commands.Commands.Setting
+  href: H.Extensions.Mvvm.Commands.Commands.html#H_Extensions_Mvvm_Commands_Commands_Setting
+  name: Setting
+  nameWithType: Commands.Setting
+  fullName: H.Extensions.Mvvm.Commands.Commands.Setting
+- uid: H.Extensions.Mvvm.Commands.Commands.Clear*
+  commentId: Overload:H.Extensions.Mvvm.Commands.Commands.Clear
+  href: H.Extensions.Mvvm.Commands.Commands.html#H_Extensions_Mvvm_Commands_Commands_Clear
+  name: Clear
+  nameWithType: Commands.Clear
+  fullName: H.Extensions.Mvvm.Commands.Commands.Clear
+- uid: H.Extensions.Mvvm.Commands.Commands.Switch*
+  commentId: Overload:H.Extensions.Mvvm.Commands.Commands.Switch
+  href: H.Extensions.Mvvm.Commands.Commands.html#H_Extensions_Mvvm_Commands_Commands_Switch
+  name: Switch
+  nameWithType: Commands.Switch
+  fullName: H.Extensions.Mvvm.Commands.Commands.Switch
+- uid: H.Extensions.Mvvm.Commands.Commands.RotateRight*
+  commentId: Overload:H.Extensions.Mvvm.Commands.Commands.RotateRight
+  href: H.Extensions.Mvvm.Commands.Commands.html#H_Extensions_Mvvm_Commands_Commands_RotateRight
+  name: RotateRight
+  nameWithType: Commands.RotateRight
+  fullName: H.Extensions.Mvvm.Commands.Commands.RotateRight
+- uid: H.Extensions.Mvvm.Commands.Commands.RotateLeft*
+  commentId: Overload:H.Extensions.Mvvm.Commands.Commands.RotateLeft
+  href: H.Extensions.Mvvm.Commands.Commands.html#H_Extensions_Mvvm_Commands_Commands_RotateLeft
+  name: RotateLeft
+  nameWithType: Commands.RotateLeft
+  fullName: H.Extensions.Mvvm.Commands.Commands.RotateLeft
+- uid: H.Extensions.Mvvm.Commands.Commands.Reduce*
+  commentId: Overload:H.Extensions.Mvvm.Commands.Commands.Reduce
+  href: H.Extensions.Mvvm.Commands.Commands.html#H_Extensions_Mvvm_Commands_Commands_Reduce
+  name: Reduce
+  nameWithType: Commands.Reduce
+  fullName: H.Extensions.Mvvm.Commands.Commands.Reduce
+- uid: H.Extensions.Mvvm.Commands.Commands.Enlarge*
+  commentId: Overload:H.Extensions.Mvvm.Commands.Commands.Enlarge
+  href: H.Extensions.Mvvm.Commands.Commands.html#H_Extensions_Mvvm_Commands_Commands_Enlarge
+  name: Enlarge
+  nameWithType: Commands.Enlarge
+  fullName: H.Extensions.Mvvm.Commands.Commands.Enlarge
+- uid: H.Extensions.Mvvm.Commands.Commands.Restore*
+  commentId: Overload:H.Extensions.Mvvm.Commands.Commands.Restore
+  href: H.Extensions.Mvvm.Commands.Commands.html#H_Extensions_Mvvm_Commands_Commands_Restore
+  name: Restore
+  nameWithType: Commands.Restore
+  fullName: H.Extensions.Mvvm.Commands.Commands.Restore
+- uid: H.Extensions.Mvvm.Commands.Commands.New*
+  commentId: Overload:H.Extensions.Mvvm.Commands.Commands.New
+  href: H.Extensions.Mvvm.Commands.Commands.html#H_Extensions_Mvvm_Commands_Commands_New
+  name: New
+  nameWithType: Commands.New
+  fullName: H.Extensions.Mvvm.Commands.Commands.New
+- uid: H.Extensions.Mvvm.Commands.Commands.Open*
+  commentId: Overload:H.Extensions.Mvvm.Commands.Commands.Open
+  href: H.Extensions.Mvvm.Commands.Commands.html#H_Extensions_Mvvm_Commands_Commands_Open
+  name: Open
+  nameWithType: Commands.Open
+  fullName: H.Extensions.Mvvm.Commands.Commands.Open
+- uid: H.Extensions.Mvvm.Commands.Commands.Save*
+  commentId: Overload:H.Extensions.Mvvm.Commands.Commands.Save
+  href: H.Extensions.Mvvm.Commands.Commands.html#H_Extensions_Mvvm_Commands_Commands_Save
+  name: Save
+  nameWithType: Commands.Save
+  fullName: H.Extensions.Mvvm.Commands.Commands.Save
+- uid: H.Extensions.Mvvm.Commands.Commands.Selected*
+  commentId: Overload:H.Extensions.Mvvm.Commands.Commands.Selected
+  href: H.Extensions.Mvvm.Commands.Commands.html#H_Extensions_Mvvm_Commands_Commands_Selected
+  name: Selected
+  nameWithType: Commands.Selected
+  fullName: H.Extensions.Mvvm.Commands.Commands.Selected
+- uid: H.Extensions.Mvvm.Commands.Commands.Close*
+  commentId: Overload:H.Extensions.Mvvm.Commands.Commands.Close
+  href: H.Extensions.Mvvm.Commands.Commands.html#H_Extensions_Mvvm_Commands_Commands_Close
+  name: Close
+  nameWithType: Commands.Close
+  fullName: H.Extensions.Mvvm.Commands.Commands.Close
+- uid: H.Extensions.Mvvm.Commands.Commands.Cancel*
+  commentId: Overload:H.Extensions.Mvvm.Commands.Commands.Cancel
+  href: H.Extensions.Mvvm.Commands.Commands.html#H_Extensions_Mvvm_Commands_Commands_Cancel
+  name: Cancel
+  nameWithType: Commands.Cancel
+  fullName: H.Extensions.Mvvm.Commands.Commands.Cancel
+- uid: H.Extensions.Mvvm.Commands.Commands.Confirm*
+  commentId: Overload:H.Extensions.Mvvm.Commands.Commands.Confirm
+  href: H.Extensions.Mvvm.Commands.Commands.html#H_Extensions_Mvvm_Commands_Commands_Confirm
+  name: Confirm
+  nameWithType: Commands.Confirm
+  fullName: H.Extensions.Mvvm.Commands.Commands.Confirm
+- uid: H.Extensions.Mvvm.Commands.Commands.Yes*
+  commentId: Overload:H.Extensions.Mvvm.Commands.Commands.Yes
+  href: H.Extensions.Mvvm.Commands.Commands.html#H_Extensions_Mvvm_Commands_Commands_Yes
+  name: Yes
+  nameWithType: Commands.Yes
+  fullName: H.Extensions.Mvvm.Commands.Commands.Yes
+- uid: H.Extensions.Mvvm.Commands.Commands.No*
+  commentId: Overload:H.Extensions.Mvvm.Commands.Commands.No
+  href: H.Extensions.Mvvm.Commands.Commands.html#H_Extensions_Mvvm_Commands_Commands_No
+  name: No
+  nameWithType: Commands.No
+  fullName: H.Extensions.Mvvm.Commands.Commands.No
+- uid: H.Extensions.Mvvm.Commands.Commands.CloseAll*
+  commentId: Overload:H.Extensions.Mvvm.Commands.Commands.CloseAll
+  href: H.Extensions.Mvvm.Commands.Commands.html#H_Extensions_Mvvm_Commands_Commands_CloseAll
+  name: CloseAll
+  nameWithType: Commands.CloseAll
+  fullName: H.Extensions.Mvvm.Commands.Commands.CloseAll
+- uid: H.Extensions.Mvvm.Commands.Commands.CloseOther*
+  commentId: Overload:H.Extensions.Mvvm.Commands.Commands.CloseOther
+  href: H.Extensions.Mvvm.Commands.Commands.html#H_Extensions_Mvvm_Commands_Commands_CloseOther
+  name: CloseOther
+  nameWithType: Commands.CloseOther
+  fullName: H.Extensions.Mvvm.Commands.Commands.CloseOther
+- uid: H.Extensions.Mvvm.Commands.Commands.Prev*
+  commentId: Overload:H.Extensions.Mvvm.Commands.Commands.Prev
+  href: H.Extensions.Mvvm.Commands.Commands.html#H_Extensions_Mvvm_Commands_Commands_Prev
+  name: Prev
+  nameWithType: Commands.Prev
+  fullName: H.Extensions.Mvvm.Commands.Commands.Prev
+- uid: H.Extensions.Mvvm.Commands.Commands.Next*
+  commentId: Overload:H.Extensions.Mvvm.Commands.Commands.Next
+  href: H.Extensions.Mvvm.Commands.Commands.html#H_Extensions_Mvvm_Commands_Commands_Next
+  name: Next
+  nameWithType: Commands.Next
+  fullName: H.Extensions.Mvvm.Commands.Commands.Next
+- uid: H.Extensions.Mvvm.Commands.Commands.First*
+  commentId: Overload:H.Extensions.Mvvm.Commands.Commands.First
+  href: H.Extensions.Mvvm.Commands.Commands.html#H_Extensions_Mvvm_Commands_Commands_First
+  name: First
+  nameWithType: Commands.First
+  fullName: H.Extensions.Mvvm.Commands.Commands.First
+- uid: H.Extensions.Mvvm.Commands.Commands.Last*
+  commentId: Overload:H.Extensions.Mvvm.Commands.Commands.Last
+  href: H.Extensions.Mvvm.Commands.Commands.html#H_Extensions_Mvvm_Commands_Commands_Last
+  name: Last
+  nameWithType: Commands.Last
+  fullName: H.Extensions.Mvvm.Commands.Commands.Last
+- uid: H.Extensions.Mvvm.Commands.Commands.Am*
+  commentId: Overload:H.Extensions.Mvvm.Commands.Commands.Am
+  href: H.Extensions.Mvvm.Commands.Commands.html#H_Extensions_Mvvm_Commands_Commands_Am
+  name: Am
+  nameWithType: Commands.Am
+  fullName: H.Extensions.Mvvm.Commands.Commands.Am
+- uid: H.Extensions.Mvvm.Commands.Commands.Pm*
+  commentId: Overload:H.Extensions.Mvvm.Commands.Commands.Pm
+  href: H.Extensions.Mvvm.Commands.Commands.html#H_Extensions_Mvvm_Commands_Commands_Pm
+  name: Pm
+  nameWithType: Commands.Pm
+  fullName: H.Extensions.Mvvm.Commands.Commands.Pm
+- uid: H.Extensions.Mvvm.Commands.Commands.Sure*
+  commentId: Overload:H.Extensions.Mvvm.Commands.Commands.Sure
+  href: H.Extensions.Mvvm.Commands.Commands.html#H_Extensions_Mvvm_Commands_Commands_Sure
+  name: Sure
+  nameWithType: Commands.Sure
+  fullName: H.Extensions.Mvvm.Commands.Commands.Sure
+- uid: H.Extensions.Mvvm.Commands.Commands.HourChange*
+  commentId: Overload:H.Extensions.Mvvm.Commands.Commands.HourChange
+  href: H.Extensions.Mvvm.Commands.Commands.html#H_Extensions_Mvvm_Commands_Commands_HourChange
+  name: HourChange
+  nameWithType: Commands.HourChange
+  fullName: H.Extensions.Mvvm.Commands.Commands.HourChange
+- uid: H.Extensions.Mvvm.Commands.Commands.MinuteChange*
+  commentId: Overload:H.Extensions.Mvvm.Commands.Commands.MinuteChange
+  href: H.Extensions.Mvvm.Commands.Commands.html#H_Extensions_Mvvm_Commands_Commands_MinuteChange
+  name: MinuteChange
+  nameWithType: Commands.MinuteChange
+  fullName: H.Extensions.Mvvm.Commands.Commands.MinuteChange
+- uid: H.Extensions.Mvvm.Commands.Commands.SecondChange*
+  commentId: Overload:H.Extensions.Mvvm.Commands.Commands.SecondChange
+  href: H.Extensions.Mvvm.Commands.Commands.html#H_Extensions_Mvvm_Commands_Commands_SecondChange
+  name: SecondChange
+  nameWithType: Commands.SecondChange
+  fullName: H.Extensions.Mvvm.Commands.Commands.SecondChange
+- uid: H.Extensions.Mvvm.Commands.Commands.MouseMove*
+  commentId: Overload:H.Extensions.Mvvm.Commands.Commands.MouseMove
+  href: H.Extensions.Mvvm.Commands.Commands.html#H_Extensions_Mvvm_Commands_Commands_MouseMove
+  name: MouseMove
+  nameWithType: Commands.MouseMove
+  fullName: H.Extensions.Mvvm.Commands.Commands.MouseMove
+- uid: H.Extensions.Mvvm.Commands.Commands.Paste*
+  commentId: Overload:H.Extensions.Mvvm.Commands.Commands.Paste
+  href: H.Extensions.Mvvm.Commands.Commands.html#H_Extensions_Mvvm_Commands_Commands_Paste
+  name: Paste
+  nameWithType: Commands.Paste
+  fullName: H.Extensions.Mvvm.Commands.Commands.Paste
+- uid: H.Extensions.Mvvm.Commands.Commands.CheckAll*
+  commentId: Overload:H.Extensions.Mvvm.Commands.Commands.CheckAll
+  href: H.Extensions.Mvvm.Commands.Commands.html#H_Extensions_Mvvm_Commands_Commands_CheckAll
+  name: CheckAll
+  nameWithType: Commands.CheckAll
+  fullName: H.Extensions.Mvvm.Commands.Commands.CheckAll
+- uid: H.Extensions.Mvvm.Commands.Commands.Delete*
+  commentId: Overload:H.Extensions.Mvvm.Commands.Commands.Delete
+  href: H.Extensions.Mvvm.Commands.Commands.html#H_Extensions_Mvvm_Commands_Commands_Delete
+  name: Delete
+  nameWithType: Commands.Delete
+  fullName: H.Extensions.Mvvm.Commands.Commands.Delete
+- uid: H.Extensions.Mvvm.Commands.Commands.DeleteAll*
+  commentId: Overload:H.Extensions.Mvvm.Commands.Commands.DeleteAll
+  href: H.Extensions.Mvvm.Commands.Commands.html#H_Extensions_Mvvm_Commands_Commands_DeleteAll
+  name: DeleteAll
+  nameWithType: Commands.DeleteAll
+  fullName: H.Extensions.Mvvm.Commands.Commands.DeleteAll
+- uid: H.Extensions.Mvvm.Commands.Commands.DeleteAllChecked*
+  commentId: Overload:H.Extensions.Mvvm.Commands.Commands.DeleteAllChecked
+  href: H.Extensions.Mvvm.Commands.Commands.html#H_Extensions_Mvvm_Commands_Commands_DeleteAllChecked
+  name: DeleteAllChecked
+  nameWithType: Commands.DeleteAllChecked
+  fullName: H.Extensions.Mvvm.Commands.Commands.DeleteAllChecked
+- uid: H.Extensions.Mvvm.Commands.Commands.Edit*
+  commentId: Overload:H.Extensions.Mvvm.Commands.Commands.Edit
+  href: H.Extensions.Mvvm.Commands.Commands.html#H_Extensions_Mvvm_Commands_Commands_Edit
+  name: Edit
+  nameWithType: Commands.Edit
+  fullName: H.Extensions.Mvvm.Commands.Commands.Edit
+- uid: H.Extensions.Mvvm.Commands.Commands.View*
+  commentId: Overload:H.Extensions.Mvvm.Commands.Commands.View
+  href: H.Extensions.Mvvm.Commands.Commands.html#H_Extensions_Mvvm_Commands_Commands_View
+  name: View
+  nameWithType: Commands.View
+  fullName: H.Extensions.Mvvm.Commands.Commands.View
+- uid: H.Extensions.Mvvm.Commands.Commands.Refresh*
+  commentId: Overload:H.Extensions.Mvvm.Commands.Commands.Refresh
+  href: H.Extensions.Mvvm.Commands.Commands.html#H_Extensions_Mvvm_Commands_Commands_Refresh
+  name: Refresh
+  nameWithType: Commands.Refresh
+  fullName: H.Extensions.Mvvm.Commands.Commands.Refresh
+- uid: H.Extensions.Mvvm.Commands.Commands.InvalidateRequerySuggested*
+  commentId: Overload:H.Extensions.Mvvm.Commands.Commands.InvalidateRequerySuggested
+  href: H.Extensions.Mvvm.Commands.Commands.html#H_Extensions_Mvvm_Commands_Commands_InvalidateRequerySuggested
+  name: InvalidateRequerySuggested
+  nameWithType: Commands.InvalidateRequerySuggested
+  fullName: H.Extensions.Mvvm.Commands.Commands.InvalidateRequerySuggested

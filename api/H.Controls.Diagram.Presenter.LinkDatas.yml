@@ -1,0 +1,136 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.Diagram.Presenter.LinkDatas
+  commentId: N:H.Controls.Diagram.Presenter.LinkDatas
+  id: H.Controls.Diagram.Presenter.LinkDatas
+  children:
+  - H.Controls.Diagram.Presenter.LinkDatas.BoolResult
+  - H.Controls.Diagram.Presenter.LinkDatas.FlowableLinkData
+  - H.Controls.Diagram.Presenter.LinkDatas.FlowableLinkData`1
+  - H.Controls.Diagram.Presenter.LinkDatas.ITextLinkData
+  - H.Controls.Diagram.Presenter.LinkDatas.LinkData
+  - H.Controls.Diagram.Presenter.LinkDatas.LinkDataBase
+  - H.Controls.Diagram.Presenter.LinkDatas.TextLinkData
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.Diagram.Presenter.LinkDatas
+  nameWithType: H.Controls.Diagram.Presenter.LinkDatas
+  fullName: H.Controls.Diagram.Presenter.LinkDatas
+  type: Namespace
+  assemblies:
+  - H.Controls.Diagram.Presenter
+references:
+- uid: H.Controls.Diagram.Presenter.LinkDatas.FlowableLinkData
+  commentId: T:H.Controls.Diagram.Presenter.LinkDatas.FlowableLinkData
+  parent: H.Controls.Diagram.Presenter.LinkDatas
+  href: H.Controls.Diagram.Presenter.LinkDatas.FlowableLinkData.html
+  name: FlowableLinkData
+  nameWithType: FlowableLinkData
+  fullName: H.Controls.Diagram.Presenter.LinkDatas.FlowableLinkData
+- uid: H.Controls.Diagram.Presenter.LinkDatas.FlowableLinkData`1
+  commentId: T:H.Controls.Diagram.Presenter.LinkDatas.FlowableLinkData`1
+  href: H.Controls.Diagram.Presenter.LinkDatas.FlowableLinkData-1.html
+  name: FlowableLinkData<T>
+  nameWithType: FlowableLinkData<T>
+  fullName: H.Controls.Diagram.Presenter.LinkDatas.FlowableLinkData<T>
+  nameWithType.vb: FlowableLinkData(Of T)
+  fullName.vb: H.Controls.Diagram.Presenter.LinkDatas.FlowableLinkData(Of T)
+  name.vb: FlowableLinkData(Of T)
+  spec.csharp:
+  - uid: H.Controls.Diagram.Presenter.LinkDatas.FlowableLinkData`1
+    name: FlowableLinkData
+    href: H.Controls.Diagram.Presenter.LinkDatas.FlowableLinkData-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Controls.Diagram.Presenter.LinkDatas.FlowableLinkData`1
+    name: FlowableLinkData
+    href: H.Controls.Diagram.Presenter.LinkDatas.FlowableLinkData-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Controls.Diagram.Presenter.LinkDatas.BoolResult
+  commentId: T:H.Controls.Diagram.Presenter.LinkDatas.BoolResult
+  parent: H.Controls.Diagram.Presenter.LinkDatas
+  href: H.Controls.Diagram.Presenter.LinkDatas.BoolResult.html
+  name: BoolResult
+  nameWithType: BoolResult
+  fullName: H.Controls.Diagram.Presenter.LinkDatas.BoolResult
+- uid: H.Controls.Diagram.Presenter.LinkDatas.LinkDataBase
+  commentId: T:H.Controls.Diagram.Presenter.LinkDatas.LinkDataBase
+  parent: H.Controls.Diagram.Presenter.LinkDatas
+  href: H.Controls.Diagram.Presenter.LinkDatas.LinkDataBase.html
+  name: LinkDataBase
+  nameWithType: LinkDataBase
+  fullName: H.Controls.Diagram.Presenter.LinkDatas.LinkDataBase
+- uid: H.Controls.Diagram.Presenter.LinkDatas.LinkData
+  commentId: T:H.Controls.Diagram.Presenter.LinkDatas.LinkData
+  parent: H.Controls.Diagram.Presenter.LinkDatas
+  href: H.Controls.Diagram.Presenter.LinkDatas.LinkData.html
+  name: LinkData
+  nameWithType: LinkData
+  fullName: H.Controls.Diagram.Presenter.LinkDatas.LinkData
+- uid: H.Controls.Diagram.Presenter.LinkDatas.ITextLinkData
+  commentId: T:H.Controls.Diagram.Presenter.LinkDatas.ITextLinkData
+  parent: H.Controls.Diagram.Presenter.LinkDatas
+  href: H.Controls.Diagram.Presenter.LinkDatas.ITextLinkData.html
+  name: ITextLinkData
+  nameWithType: ITextLinkData
+  fullName: H.Controls.Diagram.Presenter.LinkDatas.ITextLinkData
+- uid: H.Controls.Diagram.Presenter.LinkDatas.TextLinkData
+  commentId: T:H.Controls.Diagram.Presenter.LinkDatas.TextLinkData
+  parent: H.Controls.Diagram.Presenter.LinkDatas
+  href: H.Controls.Diagram.Presenter.LinkDatas.TextLinkData.html
+  name: TextLinkData
+  nameWithType: TextLinkData
+  fullName: H.Controls.Diagram.Presenter.LinkDatas.TextLinkData
+- uid: H.Controls.Diagram.Presenter.LinkDatas
+  commentId: N:H.Controls.Diagram.Presenter.LinkDatas
+  href: H.html
+  name: H.Controls.Diagram.Presenter.LinkDatas
+  nameWithType: H.Controls.Diagram.Presenter.LinkDatas
+  fullName: H.Controls.Diagram.Presenter.LinkDatas
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter
+    name: Presenter
+    href: H.Controls.Diagram.Presenter.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter.LinkDatas
+    name: LinkDatas
+    href: H.Controls.Diagram.Presenter.LinkDatas.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter
+    name: Presenter
+    href: H.Controls.Diagram.Presenter.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter.LinkDatas
+    name: LinkDatas
+    href: H.Controls.Diagram.Presenter.LinkDatas.html

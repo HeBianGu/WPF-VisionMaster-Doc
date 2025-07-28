@@ -1,0 +1,60 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Attach
+  commentId: N:H.Attach
+  id: H.Attach
+  children:
+  - H.Attach.Cattach
+  - H.Attach.ItemsControlService
+  - H.Attach.VersionTypeConverter
+  langs:
+  - csharp
+  - vb
+  name: H.Attach
+  nameWithType: H.Attach
+  fullName: H.Attach
+  type: Namespace
+  assemblies:
+  - H.Attach
+references:
+- uid: H.Attach.Cattach
+  commentId: T:H.Attach.Cattach
+  href: H.Attach.Cattach.html
+  name: Cattach
+  nameWithType: Cattach
+  fullName: H.Attach.Cattach
+- uid: H.Attach.VersionTypeConverter
+  commentId: T:H.Attach.VersionTypeConverter
+  parent: H.Attach
+  href: H.Attach.VersionTypeConverter.html
+  name: VersionTypeConverter
+  nameWithType: VersionTypeConverter
+  fullName: H.Attach.VersionTypeConverter
+- uid: H.Attach.ItemsControlService
+  commentId: T:H.Attach.ItemsControlService
+  href: H.Attach.ItemsControlService.html
+  name: ItemsControlService
+  nameWithType: ItemsControlService
+  fullName: H.Attach.ItemsControlService
+- uid: H.Attach
+  commentId: N:H.Attach
+  href: H.html
+  name: H.Attach
+  nameWithType: H.Attach
+  fullName: H.Attach
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Attach
+    name: Attach
+    href: H.Attach.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Attach
+    name: Attach
+    href: H.Attach.html

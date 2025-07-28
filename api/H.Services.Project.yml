@@ -1,0 +1,85 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Services.Project
+  commentId: N:H.Services.Project
+  id: H.Services.Project
+  children:
+  - H.Services.Project.IProjectItem
+  - H.Services.Project.IProjectService
+  - H.Services.Project.IProjectViewPresenter
+  - H.Services.Project.IocProject
+  - H.Services.Project.ProjectSaveMode
+  langs:
+  - csharp
+  - vb
+  name: H.Services.Project
+  nameWithType: H.Services.Project
+  fullName: H.Services.Project
+  type: Namespace
+  assemblies:
+  - H.Services.Project
+references:
+- uid: H.Services.Project.IocProject
+  commentId: T:H.Services.Project.IocProject
+  href: H.Services.Project.IocProject.html
+  name: IocProject
+  nameWithType: IocProject
+  fullName: H.Services.Project.IocProject
+- uid: H.Services.Project.IProjectItem
+  commentId: T:H.Services.Project.IProjectItem
+  parent: H.Services.Project
+  href: H.Services.Project.IProjectItem.html
+  name: IProjectItem
+  nameWithType: IProjectItem
+  fullName: H.Services.Project.IProjectItem
+- uid: H.Services.Project.IProjectService
+  commentId: T:H.Services.Project.IProjectService
+  parent: H.Services.Project
+  href: H.Services.Project.IProjectService.html
+  name: IProjectService
+  nameWithType: IProjectService
+  fullName: H.Services.Project.IProjectService
+- uid: H.Services.Project.IProjectViewPresenter
+  commentId: T:H.Services.Project.IProjectViewPresenter
+  parent: H.Services.Project
+  href: H.Services.Project.IProjectViewPresenter.html
+  name: IProjectViewPresenter
+  nameWithType: IProjectViewPresenter
+  fullName: H.Services.Project.IProjectViewPresenter
+- uid: H.Services.Project.ProjectSaveMode
+  commentId: T:H.Services.Project.ProjectSaveMode
+  parent: H.Services.Project
+  href: H.Services.Project.ProjectSaveMode.html
+  name: ProjectSaveMode
+  nameWithType: ProjectSaveMode
+  fullName: H.Services.Project.ProjectSaveMode
+- uid: H.Services.Project
+  commentId: N:H.Services.Project
+  href: H.html
+  name: H.Services.Project
+  nameWithType: H.Services.Project
+  fullName: H.Services.Project
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Project
+    name: Project
+    href: H.Services.Project.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Project
+    name: Project
+    href: H.Services.Project.html

@@ -1,0 +1,62 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Services.Common.Feedback
+  commentId: N:H.Services.Common.Feedback
+  id: H.Services.Common.Feedback
+  children:
+  - H.Services.Common.Feedback.IFeedbackViewPresenter
+  langs:
+  - csharp
+  - vb
+  name: H.Services.Common.Feedback
+  nameWithType: H.Services.Common.Feedback
+  fullName: H.Services.Common.Feedback
+  type: Namespace
+  assemblies:
+  - H.Services.Common
+references:
+- uid: H.Services.Common.Feedback.IFeedbackViewPresenter
+  commentId: T:H.Services.Common.Feedback.IFeedbackViewPresenter
+  parent: H.Services.Common.Feedback
+  href: H.Services.Common.Feedback.IFeedbackViewPresenter.html
+  name: IFeedbackViewPresenter
+  nameWithType: IFeedbackViewPresenter
+  fullName: H.Services.Common.Feedback.IFeedbackViewPresenter
+- uid: H.Services.Common.Feedback
+  commentId: N:H.Services.Common.Feedback
+  href: H.html
+  name: H.Services.Common.Feedback
+  nameWithType: H.Services.Common.Feedback
+  fullName: H.Services.Common.Feedback
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Common
+    name: Common
+    href: H.Services.Common.html
+  - name: .
+  - uid: H.Services.Common.Feedback
+    name: Feedback
+    href: H.Services.Common.Feedback.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Common
+    name: Common
+    href: H.Services.Common.html
+  - name: .
+  - uid: H.Services.Common.Feedback
+    name: Feedback
+    href: H.Services.Common.Feedback.html

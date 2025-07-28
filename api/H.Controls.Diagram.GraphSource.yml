@@ -1,0 +1,167 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.Diagram.GraphSource
+  commentId: N:H.Controls.Diagram.GraphSource
+  id: H.Controls.Diagram.GraphSource
+  children:
+  - H.Controls.Diagram.GraphSource.DiagramDataSource
+  - H.Controls.Diagram.GraphSource.GraphSource`2
+  - H.Controls.Diagram.GraphSource.IDataSource`2
+  - H.Controls.Diagram.GraphSource.IGraphSource
+  - H.Controls.Diagram.GraphSource.TreeGraphSource`1
+  - H.Controls.Diagram.GraphSource.TypeTreeGraphSource
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.Diagram.GraphSource
+  nameWithType: H.Controls.Diagram.GraphSource
+  fullName: H.Controls.Diagram.GraphSource
+  type: Namespace
+  assemblies:
+  - H.Controls.Diagram
+references:
+- uid: H.Controls.Diagram.GraphSource.DiagramDataSource
+  commentId: T:H.Controls.Diagram.GraphSource.DiagramDataSource
+  parent: H.Controls.Diagram.GraphSource
+  href: H.Controls.Diagram.GraphSource.DiagramDataSource.html
+  name: DiagramDataSource
+  nameWithType: DiagramDataSource
+  fullName: H.Controls.Diagram.GraphSource.DiagramDataSource
+- uid: H.Controls.Diagram.GraphSource.GraphSource`2
+  commentId: T:H.Controls.Diagram.GraphSource.GraphSource`2
+  href: H.Controls.Diagram.GraphSource.GraphSource-2.html
+  name: GraphSource<NodeDataType, LinkDataType>
+  nameWithType: GraphSource<NodeDataType, LinkDataType>
+  fullName: H.Controls.Diagram.GraphSource.GraphSource<NodeDataType, LinkDataType>
+  nameWithType.vb: GraphSource(Of NodeDataType, LinkDataType)
+  fullName.vb: H.Controls.Diagram.GraphSource.GraphSource(Of NodeDataType, LinkDataType)
+  name.vb: GraphSource(Of NodeDataType, LinkDataType)
+  spec.csharp:
+  - uid: H.Controls.Diagram.GraphSource.GraphSource`2
+    name: GraphSource
+    href: H.Controls.Diagram.GraphSource.GraphSource-2.html
+  - name: <
+  - name: NodeDataType
+  - name: ','
+  - name: " "
+  - name: LinkDataType
+  - name: '>'
+  spec.vb:
+  - uid: H.Controls.Diagram.GraphSource.GraphSource`2
+    name: GraphSource
+    href: H.Controls.Diagram.GraphSource.GraphSource-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: NodeDataType
+  - name: ','
+  - name: " "
+  - name: LinkDataType
+  - name: )
+- uid: H.Controls.Diagram.GraphSource.IDataSource`2
+  commentId: T:H.Controls.Diagram.GraphSource.IDataSource`2
+  href: H.Controls.Diagram.GraphSource.IDataSource-2.html
+  name: IDataSource<NodeDataType, LinkDataType>
+  nameWithType: IDataSource<NodeDataType, LinkDataType>
+  fullName: H.Controls.Diagram.GraphSource.IDataSource<NodeDataType, LinkDataType>
+  nameWithType.vb: IDataSource(Of NodeDataType, LinkDataType)
+  fullName.vb: H.Controls.Diagram.GraphSource.IDataSource(Of NodeDataType, LinkDataType)
+  name.vb: IDataSource(Of NodeDataType, LinkDataType)
+  spec.csharp:
+  - uid: H.Controls.Diagram.GraphSource.IDataSource`2
+    name: IDataSource
+    href: H.Controls.Diagram.GraphSource.IDataSource-2.html
+  - name: <
+  - name: NodeDataType
+  - name: ','
+  - name: " "
+  - name: LinkDataType
+  - name: '>'
+  spec.vb:
+  - uid: H.Controls.Diagram.GraphSource.IDataSource`2
+    name: IDataSource
+    href: H.Controls.Diagram.GraphSource.IDataSource-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: NodeDataType
+  - name: ','
+  - name: " "
+  - name: LinkDataType
+  - name: )
+- uid: H.Controls.Diagram.GraphSource.IGraphSource
+  commentId: T:H.Controls.Diagram.GraphSource.IGraphSource
+  parent: H.Controls.Diagram.GraphSource
+  href: H.Controls.Diagram.GraphSource.IGraphSource.html
+  name: IGraphSource
+  nameWithType: IGraphSource
+  fullName: H.Controls.Diagram.GraphSource.IGraphSource
+- uid: H.Controls.Diagram.GraphSource.TreeGraphSource`1
+  commentId: T:H.Controls.Diagram.GraphSource.TreeGraphSource`1
+  href: H.Controls.Diagram.GraphSource.TreeGraphSource-1.html
+  name: TreeGraphSource<NodeType>
+  nameWithType: TreeGraphSource<NodeType>
+  fullName: H.Controls.Diagram.GraphSource.TreeGraphSource<NodeType>
+  nameWithType.vb: TreeGraphSource(Of NodeType)
+  fullName.vb: H.Controls.Diagram.GraphSource.TreeGraphSource(Of NodeType)
+  name.vb: TreeGraphSource(Of NodeType)
+  spec.csharp:
+  - uid: H.Controls.Diagram.GraphSource.TreeGraphSource`1
+    name: TreeGraphSource
+    href: H.Controls.Diagram.GraphSource.TreeGraphSource-1.html
+  - name: <
+  - name: NodeType
+  - name: '>'
+  spec.vb:
+  - uid: H.Controls.Diagram.GraphSource.TreeGraphSource`1
+    name: TreeGraphSource
+    href: H.Controls.Diagram.GraphSource.TreeGraphSource-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: NodeType
+  - name: )
+- uid: H.Controls.Diagram.GraphSource.TypeTreeGraphSource
+  commentId: T:H.Controls.Diagram.GraphSource.TypeTreeGraphSource
+  href: H.Controls.Diagram.GraphSource.TypeTreeGraphSource.html
+  name: TypeTreeGraphSource
+  nameWithType: TypeTreeGraphSource
+  fullName: H.Controls.Diagram.GraphSource.TypeTreeGraphSource
+- uid: H.Controls.Diagram.GraphSource
+  commentId: N:H.Controls.Diagram.GraphSource
+  href: H.html
+  name: H.Controls.Diagram.GraphSource
+  nameWithType: H.Controls.Diagram.GraphSource
+  fullName: H.Controls.Diagram.GraphSource
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.GraphSource
+    name: GraphSource
+    href: H.Controls.Diagram.GraphSource.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.GraphSource
+    name: GraphSource
+    href: H.Controls.Diagram.GraphSource.html

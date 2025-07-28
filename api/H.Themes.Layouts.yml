@@ -1,0 +1,61 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Themes.Layouts
+  commentId: N:H.Themes.Layouts
+  id: H.Themes.Layouts
+  children:
+  - H.Themes.Layouts.LayoutThemeExtension
+  - H.Themes.Layouts.LayoutThemeType
+  langs:
+  - csharp
+  - vb
+  name: H.Themes.Layouts
+  nameWithType: H.Themes.Layouts
+  fullName: H.Themes.Layouts
+  type: Namespace
+  assemblies:
+  - H.Theme
+references:
+- uid: H.Themes.Layouts.LayoutThemeExtension
+  commentId: T:H.Themes.Layouts.LayoutThemeExtension
+  href: H.Themes.Layouts.LayoutThemeExtension.html
+  name: LayoutThemeExtension
+  nameWithType: LayoutThemeExtension
+  fullName: H.Themes.Layouts.LayoutThemeExtension
+- uid: H.Themes.Layouts.LayoutThemeType
+  commentId: T:H.Themes.Layouts.LayoutThemeType
+  parent: H.Themes.Layouts
+  href: H.Themes.Layouts.LayoutThemeType.html
+  name: LayoutThemeType
+  nameWithType: LayoutThemeType
+  fullName: H.Themes.Layouts.LayoutThemeType
+- uid: H.Themes.Layouts
+  commentId: N:H.Themes.Layouts
+  href: H.html
+  name: H.Themes.Layouts
+  nameWithType: H.Themes.Layouts
+  fullName: H.Themes.Layouts
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Themes
+    name: Themes
+    href: H.Themes.html
+  - name: .
+  - uid: H.Themes.Layouts
+    name: Layouts
+    href: H.Themes.Layouts.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Themes
+    name: Themes
+    href: H.Themes.html
+  - name: .
+  - uid: H.Themes.Layouts
+    name: Layouts
+    href: H.Themes.Layouts.html

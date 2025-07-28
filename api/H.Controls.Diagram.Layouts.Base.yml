@@ -1,0 +1,78 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.Diagram.Layouts.Base
+  commentId: N:H.Controls.Diagram.Layouts.Base
+  id: H.Controls.Diagram.Layouts.Base
+  children:
+  - H.Controls.Diagram.Layouts.Base.ILayout
+  - H.Controls.Diagram.Layouts.Base.Layout
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.Diagram.Layouts.Base
+  nameWithType: H.Controls.Diagram.Layouts.Base
+  fullName: H.Controls.Diagram.Layouts.Base
+  type: Namespace
+  assemblies:
+  - H.Controls.Diagram
+references:
+- uid: H.Controls.Diagram.Layouts.Base.ILayout
+  commentId: T:H.Controls.Diagram.Layouts.Base.ILayout
+  parent: H.Controls.Diagram.Layouts.Base
+  href: H.Controls.Diagram.Layouts.Base.ILayout.html
+  name: ILayout
+  nameWithType: ILayout
+  fullName: H.Controls.Diagram.Layouts.Base.ILayout
+- uid: H.Controls.Diagram.Layouts.Base.Layout
+  commentId: T:H.Controls.Diagram.Layouts.Base.Layout
+  parent: H.Controls.Diagram.Layouts.Base
+  href: H.Controls.Diagram.Layouts.Base.Layout.html
+  name: Layout
+  nameWithType: Layout
+  fullName: H.Controls.Diagram.Layouts.Base.Layout
+- uid: H.Controls.Diagram.Layouts.Base
+  commentId: N:H.Controls.Diagram.Layouts.Base
+  href: H.html
+  name: H.Controls.Diagram.Layouts.Base
+  nameWithType: H.Controls.Diagram.Layouts.Base
+  fullName: H.Controls.Diagram.Layouts.Base
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Layouts
+    name: Layouts
+    href: H.Controls.Diagram.Layouts.html
+  - name: .
+  - uid: H.Controls.Diagram.Layouts.Base
+    name: Base
+    href: H.Controls.Diagram.Layouts.Base.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Layouts
+    name: Layouts
+    href: H.Controls.Diagram.Layouts.html
+  - name: .
+  - uid: H.Controls.Diagram.Layouts.Base
+    name: Base
+    href: H.Controls.Diagram.Layouts.Base.html

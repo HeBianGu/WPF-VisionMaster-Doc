@@ -1,0 +1,1291 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.StoryBoard.StoryBoardKeys
+  commentId: T:H.Extensions.StoryBoard.StoryBoardKeys
+  id: StoryBoardKeys
+  parent: H.Extensions.StoryBoard
+  children:
+  - H.Extensions.StoryBoard.StoryBoardKeys.CloseOpacity
+  - H.Extensions.StoryBoard.StoryBoardKeys.ColorFlash
+  - H.Extensions.StoryBoard.StoryBoardKeys.FontSizeRebound
+  - H.Extensions.StoryBoard.StoryBoardKeys.LoadFountain
+  - H.Extensions.StoryBoard.StoryBoardKeys.LoadOpacityDownToUp
+  - H.Extensions.StoryBoard.StoryBoardKeys.LoadOpacityLeftToRight
+  - H.Extensions.StoryBoard.StoryBoardKeys.LoadOpacityRightToLeft
+  - H.Extensions.StoryBoard.StoryBoardKeys.LoadOpacityUpToDwon
+  - H.Extensions.StoryBoard.StoryBoardKeys.LoadScaleX
+  - H.Extensions.StoryBoard.StoryBoardKeys.LoadScaleXY
+  - H.Extensions.StoryBoard.StoryBoardKeys.LoadScaleY
+  - H.Extensions.StoryBoard.StoryBoardKeys.LoadWaitDownToUp
+  - H.Extensions.StoryBoard.StoryBoardKeys.OpacityForever
+  - H.Extensions.StoryBoard.StoryBoardKeys.OpacityForever0
+  - H.Extensions.StoryBoard.StoryBoardKeys.RotateForever
+  - H.Extensions.StoryBoard.StoryBoardKeys.RotateForever2
+  - H.Extensions.StoryBoard.StoryBoardKeys.RotateForever3
+  - H.Extensions.StoryBoard.StoryBoardKeys.RotateForever4
+  - H.Extensions.StoryBoard.StoryBoardKeys.RotateForever5
+  - H.Extensions.StoryBoard.StoryBoardKeys.ScaleEnlargeRecovery_1_2
+  - H.Extensions.StoryBoard.StoryBoardKeys.ScaleEnlarge_1_2
+  - H.Extensions.StoryBoard.StoryBoardKeys.ScaleRecovery
+  - H.Extensions.StoryBoard.StoryBoardKeys.ScaleRecovery_1_2
+  - H.Extensions.StoryBoard.StoryBoardKeys.ScaleRecovery_1_4
+  - H.Extensions.StoryBoard.StoryBoardKeys.ScaleTransformX
+  - H.Extensions.StoryBoard.StoryBoardKeys.ScaleTransformXY
+  - H.Extensions.StoryBoard.StoryBoardKeys.ScaleTransformY
+  - H.Extensions.StoryBoard.StoryBoardKeys.SlowHide
+  - H.Extensions.StoryBoard.StoryBoardKeys.SlowShow
+  - H.Extensions.StoryBoard.StoryBoardKeys.TransformGroup
+  langs:
+  - csharp
+  - vb
+  name: StoryBoardKeys
+  nameWithType: StoryBoardKeys
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys
+  type: Class
+  source:
+    id: StoryBoardKeys
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.StoryBoard\StoryBoardKeys.xaml.cs
+    startLine: 12
+  assemblies:
+  - H.Extensions.StoryBoard
+  namespace: H.Extensions.StoryBoard
+  syntax:
+    content: public static class StoryBoardKeys
+    content.vb: Public Module StoryBoardKeys
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.TransformGroup
+  commentId: P:H.Extensions.StoryBoard.StoryBoardKeys.TransformGroup
+  id: TransformGroup
+  parent: H.Extensions.StoryBoard.StoryBoardKeys
+  langs:
+  - csharp
+  - vb
+  name: TransformGroup
+  nameWithType: StoryBoardKeys.TransformGroup
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.TransformGroup
+  type: Property
+  source:
+    id: TransformGroup
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.StoryBoard\StoryBoardKeys.xaml.cs
+    startLine: 14
+  assemblies:
+  - H.Extensions.StoryBoard
+  namespace: H.Extensions.StoryBoard
+  syntax:
+    content: public static ComponentResourceKey TransformGroup { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property TransformGroup As ComponentResourceKey
+  overload: H.Extensions.StoryBoard.StoryBoardKeys.TransformGroup*
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.OpacityForever
+  commentId: P:H.Extensions.StoryBoard.StoryBoardKeys.OpacityForever
+  id: OpacityForever
+  parent: H.Extensions.StoryBoard.StoryBoardKeys
+  langs:
+  - csharp
+  - vb
+  name: OpacityForever
+  nameWithType: StoryBoardKeys.OpacityForever
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.OpacityForever
+  type: Property
+  source:
+    id: OpacityForever
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.StoryBoard\StoryBoardKeys.xaml.cs
+    startLine: 15
+  assemblies:
+  - H.Extensions.StoryBoard
+  namespace: H.Extensions.StoryBoard
+  syntax:
+    content: public static ComponentResourceKey OpacityForever { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property OpacityForever As ComponentResourceKey
+  overload: H.Extensions.StoryBoard.StoryBoardKeys.OpacityForever*
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.RotateForever
+  commentId: P:H.Extensions.StoryBoard.StoryBoardKeys.RotateForever
+  id: RotateForever
+  parent: H.Extensions.StoryBoard.StoryBoardKeys
+  langs:
+  - csharp
+  - vb
+  name: RotateForever
+  nameWithType: StoryBoardKeys.RotateForever
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.RotateForever
+  type: Property
+  source:
+    id: RotateForever
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.StoryBoard\StoryBoardKeys.xaml.cs
+    startLine: 16
+  assemblies:
+  - H.Extensions.StoryBoard
+  namespace: H.Extensions.StoryBoard
+  syntax:
+    content: public static ComponentResourceKey RotateForever { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property RotateForever As ComponentResourceKey
+  overload: H.Extensions.StoryBoard.StoryBoardKeys.RotateForever*
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.RotateForever2
+  commentId: P:H.Extensions.StoryBoard.StoryBoardKeys.RotateForever2
+  id: RotateForever2
+  parent: H.Extensions.StoryBoard.StoryBoardKeys
+  langs:
+  - csharp
+  - vb
+  name: RotateForever2
+  nameWithType: StoryBoardKeys.RotateForever2
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.RotateForever2
+  type: Property
+  source:
+    id: RotateForever2
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.StoryBoard\StoryBoardKeys.xaml.cs
+    startLine: 17
+  assemblies:
+  - H.Extensions.StoryBoard
+  namespace: H.Extensions.StoryBoard
+  syntax:
+    content: public static ComponentResourceKey RotateForever2 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property RotateForever2 As ComponentResourceKey
+  overload: H.Extensions.StoryBoard.StoryBoardKeys.RotateForever2*
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.RotateForever3
+  commentId: P:H.Extensions.StoryBoard.StoryBoardKeys.RotateForever3
+  id: RotateForever3
+  parent: H.Extensions.StoryBoard.StoryBoardKeys
+  langs:
+  - csharp
+  - vb
+  name: RotateForever3
+  nameWithType: StoryBoardKeys.RotateForever3
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.RotateForever3
+  type: Property
+  source:
+    id: RotateForever3
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.StoryBoard\StoryBoardKeys.xaml.cs
+    startLine: 18
+  assemblies:
+  - H.Extensions.StoryBoard
+  namespace: H.Extensions.StoryBoard
+  syntax:
+    content: public static ComponentResourceKey RotateForever3 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property RotateForever3 As ComponentResourceKey
+  overload: H.Extensions.StoryBoard.StoryBoardKeys.RotateForever3*
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.RotateForever4
+  commentId: P:H.Extensions.StoryBoard.StoryBoardKeys.RotateForever4
+  id: RotateForever4
+  parent: H.Extensions.StoryBoard.StoryBoardKeys
+  langs:
+  - csharp
+  - vb
+  name: RotateForever4
+  nameWithType: StoryBoardKeys.RotateForever4
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.RotateForever4
+  type: Property
+  source:
+    id: RotateForever4
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.StoryBoard\StoryBoardKeys.xaml.cs
+    startLine: 19
+  assemblies:
+  - H.Extensions.StoryBoard
+  namespace: H.Extensions.StoryBoard
+  syntax:
+    content: public static ComponentResourceKey RotateForever4 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property RotateForever4 As ComponentResourceKey
+  overload: H.Extensions.StoryBoard.StoryBoardKeys.RotateForever4*
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.RotateForever5
+  commentId: P:H.Extensions.StoryBoard.StoryBoardKeys.RotateForever5
+  id: RotateForever5
+  parent: H.Extensions.StoryBoard.StoryBoardKeys
+  langs:
+  - csharp
+  - vb
+  name: RotateForever5
+  nameWithType: StoryBoardKeys.RotateForever5
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.RotateForever5
+  type: Property
+  source:
+    id: RotateForever5
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.StoryBoard\StoryBoardKeys.xaml.cs
+    startLine: 20
+  assemblies:
+  - H.Extensions.StoryBoard
+  namespace: H.Extensions.StoryBoard
+  syntax:
+    content: public static ComponentResourceKey RotateForever5 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property RotateForever5 As ComponentResourceKey
+  overload: H.Extensions.StoryBoard.StoryBoardKeys.RotateForever5*
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.OpacityForever0
+  commentId: P:H.Extensions.StoryBoard.StoryBoardKeys.OpacityForever0
+  id: OpacityForever0
+  parent: H.Extensions.StoryBoard.StoryBoardKeys
+  langs:
+  - csharp
+  - vb
+  name: OpacityForever0
+  nameWithType: StoryBoardKeys.OpacityForever0
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.OpacityForever0
+  type: Property
+  source:
+    id: OpacityForever0
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.StoryBoard\StoryBoardKeys.xaml.cs
+    startLine: 21
+  assemblies:
+  - H.Extensions.StoryBoard
+  namespace: H.Extensions.StoryBoard
+  syntax:
+    content: public static ComponentResourceKey OpacityForever0 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property OpacityForever0 As ComponentResourceKey
+  overload: H.Extensions.StoryBoard.StoryBoardKeys.OpacityForever0*
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.ScaleTransformXY
+  commentId: P:H.Extensions.StoryBoard.StoryBoardKeys.ScaleTransformXY
+  id: ScaleTransformXY
+  parent: H.Extensions.StoryBoard.StoryBoardKeys
+  langs:
+  - csharp
+  - vb
+  name: ScaleTransformXY
+  nameWithType: StoryBoardKeys.ScaleTransformXY
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.ScaleTransformXY
+  type: Property
+  source:
+    id: ScaleTransformXY
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.StoryBoard\StoryBoardKeys.xaml.cs
+    startLine: 22
+  assemblies:
+  - H.Extensions.StoryBoard
+  namespace: H.Extensions.StoryBoard
+  syntax:
+    content: public static ComponentResourceKey ScaleTransformXY { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property ScaleTransformXY As ComponentResourceKey
+  overload: H.Extensions.StoryBoard.StoryBoardKeys.ScaleTransformXY*
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.ScaleTransformX
+  commentId: P:H.Extensions.StoryBoard.StoryBoardKeys.ScaleTransformX
+  id: ScaleTransformX
+  parent: H.Extensions.StoryBoard.StoryBoardKeys
+  langs:
+  - csharp
+  - vb
+  name: ScaleTransformX
+  nameWithType: StoryBoardKeys.ScaleTransformX
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.ScaleTransformX
+  type: Property
+  source:
+    id: ScaleTransformX
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.StoryBoard\StoryBoardKeys.xaml.cs
+    startLine: 23
+  assemblies:
+  - H.Extensions.StoryBoard
+  namespace: H.Extensions.StoryBoard
+  syntax:
+    content: public static ComponentResourceKey ScaleTransformX { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property ScaleTransformX As ComponentResourceKey
+  overload: H.Extensions.StoryBoard.StoryBoardKeys.ScaleTransformX*
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.ScaleTransformY
+  commentId: P:H.Extensions.StoryBoard.StoryBoardKeys.ScaleTransformY
+  id: ScaleTransformY
+  parent: H.Extensions.StoryBoard.StoryBoardKeys
+  langs:
+  - csharp
+  - vb
+  name: ScaleTransformY
+  nameWithType: StoryBoardKeys.ScaleTransformY
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.ScaleTransformY
+  type: Property
+  source:
+    id: ScaleTransformY
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.StoryBoard\StoryBoardKeys.xaml.cs
+    startLine: 24
+  assemblies:
+  - H.Extensions.StoryBoard
+  namespace: H.Extensions.StoryBoard
+  syntax:
+    content: public static ComponentResourceKey ScaleTransformY { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property ScaleTransformY As ComponentResourceKey
+  overload: H.Extensions.StoryBoard.StoryBoardKeys.ScaleTransformY*
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.CloseOpacity
+  commentId: P:H.Extensions.StoryBoard.StoryBoardKeys.CloseOpacity
+  id: CloseOpacity
+  parent: H.Extensions.StoryBoard.StoryBoardKeys
+  langs:
+  - csharp
+  - vb
+  name: CloseOpacity
+  nameWithType: StoryBoardKeys.CloseOpacity
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.CloseOpacity
+  type: Property
+  source:
+    id: CloseOpacity
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.StoryBoard\StoryBoardKeys.xaml.cs
+    startLine: 25
+  assemblies:
+  - H.Extensions.StoryBoard
+  namespace: H.Extensions.StoryBoard
+  syntax:
+    content: public static ComponentResourceKey CloseOpacity { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property CloseOpacity As ComponentResourceKey
+  overload: H.Extensions.StoryBoard.StoryBoardKeys.CloseOpacity*
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.LoadScaleXY
+  commentId: P:H.Extensions.StoryBoard.StoryBoardKeys.LoadScaleXY
+  id: LoadScaleXY
+  parent: H.Extensions.StoryBoard.StoryBoardKeys
+  langs:
+  - csharp
+  - vb
+  name: LoadScaleXY
+  nameWithType: StoryBoardKeys.LoadScaleXY
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.LoadScaleXY
+  type: Property
+  source:
+    id: LoadScaleXY
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.StoryBoard\StoryBoardKeys.xaml.cs
+    startLine: 26
+  assemblies:
+  - H.Extensions.StoryBoard
+  namespace: H.Extensions.StoryBoard
+  syntax:
+    content: public static ComponentResourceKey LoadScaleXY { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property LoadScaleXY As ComponentResourceKey
+  overload: H.Extensions.StoryBoard.StoryBoardKeys.LoadScaleXY*
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.LoadScaleX
+  commentId: P:H.Extensions.StoryBoard.StoryBoardKeys.LoadScaleX
+  id: LoadScaleX
+  parent: H.Extensions.StoryBoard.StoryBoardKeys
+  langs:
+  - csharp
+  - vb
+  name: LoadScaleX
+  nameWithType: StoryBoardKeys.LoadScaleX
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.LoadScaleX
+  type: Property
+  source:
+    id: LoadScaleX
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.StoryBoard\StoryBoardKeys.xaml.cs
+    startLine: 27
+  assemblies:
+  - H.Extensions.StoryBoard
+  namespace: H.Extensions.StoryBoard
+  syntax:
+    content: public static ComponentResourceKey LoadScaleX { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property LoadScaleX As ComponentResourceKey
+  overload: H.Extensions.StoryBoard.StoryBoardKeys.LoadScaleX*
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.LoadScaleY
+  commentId: P:H.Extensions.StoryBoard.StoryBoardKeys.LoadScaleY
+  id: LoadScaleY
+  parent: H.Extensions.StoryBoard.StoryBoardKeys
+  langs:
+  - csharp
+  - vb
+  name: LoadScaleY
+  nameWithType: StoryBoardKeys.LoadScaleY
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.LoadScaleY
+  type: Property
+  source:
+    id: LoadScaleY
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.StoryBoard\StoryBoardKeys.xaml.cs
+    startLine: 28
+  assemblies:
+  - H.Extensions.StoryBoard
+  namespace: H.Extensions.StoryBoard
+  syntax:
+    content: public static ComponentResourceKey LoadScaleY { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property LoadScaleY As ComponentResourceKey
+  overload: H.Extensions.StoryBoard.StoryBoardKeys.LoadScaleY*
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.LoadOpacityRightToLeft
+  commentId: P:H.Extensions.StoryBoard.StoryBoardKeys.LoadOpacityRightToLeft
+  id: LoadOpacityRightToLeft
+  parent: H.Extensions.StoryBoard.StoryBoardKeys
+  langs:
+  - csharp
+  - vb
+  name: LoadOpacityRightToLeft
+  nameWithType: StoryBoardKeys.LoadOpacityRightToLeft
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.LoadOpacityRightToLeft
+  type: Property
+  source:
+    id: LoadOpacityRightToLeft
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.StoryBoard\StoryBoardKeys.xaml.cs
+    startLine: 29
+  assemblies:
+  - H.Extensions.StoryBoard
+  namespace: H.Extensions.StoryBoard
+  syntax:
+    content: public static ComponentResourceKey LoadOpacityRightToLeft { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property LoadOpacityRightToLeft As ComponentResourceKey
+  overload: H.Extensions.StoryBoard.StoryBoardKeys.LoadOpacityRightToLeft*
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.LoadOpacityLeftToRight
+  commentId: P:H.Extensions.StoryBoard.StoryBoardKeys.LoadOpacityLeftToRight
+  id: LoadOpacityLeftToRight
+  parent: H.Extensions.StoryBoard.StoryBoardKeys
+  langs:
+  - csharp
+  - vb
+  name: LoadOpacityLeftToRight
+  nameWithType: StoryBoardKeys.LoadOpacityLeftToRight
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.LoadOpacityLeftToRight
+  type: Property
+  source:
+    id: LoadOpacityLeftToRight
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.StoryBoard\StoryBoardKeys.xaml.cs
+    startLine: 30
+  assemblies:
+  - H.Extensions.StoryBoard
+  namespace: H.Extensions.StoryBoard
+  syntax:
+    content: public static ComponentResourceKey LoadOpacityLeftToRight { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property LoadOpacityLeftToRight As ComponentResourceKey
+  overload: H.Extensions.StoryBoard.StoryBoardKeys.LoadOpacityLeftToRight*
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.LoadOpacityDownToUp
+  commentId: P:H.Extensions.StoryBoard.StoryBoardKeys.LoadOpacityDownToUp
+  id: LoadOpacityDownToUp
+  parent: H.Extensions.StoryBoard.StoryBoardKeys
+  langs:
+  - csharp
+  - vb
+  name: LoadOpacityDownToUp
+  nameWithType: StoryBoardKeys.LoadOpacityDownToUp
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.LoadOpacityDownToUp
+  type: Property
+  source:
+    id: LoadOpacityDownToUp
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.StoryBoard\StoryBoardKeys.xaml.cs
+    startLine: 31
+  assemblies:
+  - H.Extensions.StoryBoard
+  namespace: H.Extensions.StoryBoard
+  syntax:
+    content: public static ComponentResourceKey LoadOpacityDownToUp { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property LoadOpacityDownToUp As ComponentResourceKey
+  overload: H.Extensions.StoryBoard.StoryBoardKeys.LoadOpacityDownToUp*
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.LoadWaitDownToUp
+  commentId: P:H.Extensions.StoryBoard.StoryBoardKeys.LoadWaitDownToUp
+  id: LoadWaitDownToUp
+  parent: H.Extensions.StoryBoard.StoryBoardKeys
+  langs:
+  - csharp
+  - vb
+  name: LoadWaitDownToUp
+  nameWithType: StoryBoardKeys.LoadWaitDownToUp
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.LoadWaitDownToUp
+  type: Property
+  source:
+    id: LoadWaitDownToUp
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.StoryBoard\StoryBoardKeys.xaml.cs
+    startLine: 32
+  assemblies:
+  - H.Extensions.StoryBoard
+  namespace: H.Extensions.StoryBoard
+  syntax:
+    content: public static ComponentResourceKey LoadWaitDownToUp { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property LoadWaitDownToUp As ComponentResourceKey
+  overload: H.Extensions.StoryBoard.StoryBoardKeys.LoadWaitDownToUp*
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.LoadOpacityUpToDwon
+  commentId: P:H.Extensions.StoryBoard.StoryBoardKeys.LoadOpacityUpToDwon
+  id: LoadOpacityUpToDwon
+  parent: H.Extensions.StoryBoard.StoryBoardKeys
+  langs:
+  - csharp
+  - vb
+  name: LoadOpacityUpToDwon
+  nameWithType: StoryBoardKeys.LoadOpacityUpToDwon
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.LoadOpacityUpToDwon
+  type: Property
+  source:
+    id: LoadOpacityUpToDwon
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.StoryBoard\StoryBoardKeys.xaml.cs
+    startLine: 33
+  assemblies:
+  - H.Extensions.StoryBoard
+  namespace: H.Extensions.StoryBoard
+  syntax:
+    content: public static ComponentResourceKey LoadOpacityUpToDwon { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property LoadOpacityUpToDwon As ComponentResourceKey
+  overload: H.Extensions.StoryBoard.StoryBoardKeys.LoadOpacityUpToDwon*
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.LoadFountain
+  commentId: P:H.Extensions.StoryBoard.StoryBoardKeys.LoadFountain
+  id: LoadFountain
+  parent: H.Extensions.StoryBoard.StoryBoardKeys
+  langs:
+  - csharp
+  - vb
+  name: LoadFountain
+  nameWithType: StoryBoardKeys.LoadFountain
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.LoadFountain
+  type: Property
+  source:
+    id: LoadFountain
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.StoryBoard\StoryBoardKeys.xaml.cs
+    startLine: 34
+  assemblies:
+  - H.Extensions.StoryBoard
+  namespace: H.Extensions.StoryBoard
+  syntax:
+    content: public static ComponentResourceKey LoadFountain { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property LoadFountain As ComponentResourceKey
+  overload: H.Extensions.StoryBoard.StoryBoardKeys.LoadFountain*
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.SlowHide
+  commentId: P:H.Extensions.StoryBoard.StoryBoardKeys.SlowHide
+  id: SlowHide
+  parent: H.Extensions.StoryBoard.StoryBoardKeys
+  langs:
+  - csharp
+  - vb
+  name: SlowHide
+  nameWithType: StoryBoardKeys.SlowHide
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.SlowHide
+  type: Property
+  source:
+    id: SlowHide
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.StoryBoard\StoryBoardKeys.xaml.cs
+    startLine: 35
+  assemblies:
+  - H.Extensions.StoryBoard
+  namespace: H.Extensions.StoryBoard
+  syntax:
+    content: public static ComponentResourceKey SlowHide { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property SlowHide As ComponentResourceKey
+  overload: H.Extensions.StoryBoard.StoryBoardKeys.SlowHide*
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.SlowShow
+  commentId: P:H.Extensions.StoryBoard.StoryBoardKeys.SlowShow
+  id: SlowShow
+  parent: H.Extensions.StoryBoard.StoryBoardKeys
+  langs:
+  - csharp
+  - vb
+  name: SlowShow
+  nameWithType: StoryBoardKeys.SlowShow
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.SlowShow
+  type: Property
+  source:
+    id: SlowShow
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.StoryBoard\StoryBoardKeys.xaml.cs
+    startLine: 36
+  assemblies:
+  - H.Extensions.StoryBoard
+  namespace: H.Extensions.StoryBoard
+  syntax:
+    content: public static ComponentResourceKey SlowShow { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property SlowShow As ComponentResourceKey
+  overload: H.Extensions.StoryBoard.StoryBoardKeys.SlowShow*
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.ScaleRecovery
+  commentId: P:H.Extensions.StoryBoard.StoryBoardKeys.ScaleRecovery
+  id: ScaleRecovery
+  parent: H.Extensions.StoryBoard.StoryBoardKeys
+  langs:
+  - csharp
+  - vb
+  name: ScaleRecovery
+  nameWithType: StoryBoardKeys.ScaleRecovery
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.ScaleRecovery
+  type: Property
+  source:
+    id: ScaleRecovery
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.StoryBoard\StoryBoardKeys.xaml.cs
+    startLine: 37
+  assemblies:
+  - H.Extensions.StoryBoard
+  namespace: H.Extensions.StoryBoard
+  syntax:
+    content: public static ComponentResourceKey ScaleRecovery { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property ScaleRecovery As ComponentResourceKey
+  overload: H.Extensions.StoryBoard.StoryBoardKeys.ScaleRecovery*
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.ScaleRecovery_1_2
+  commentId: P:H.Extensions.StoryBoard.StoryBoardKeys.ScaleRecovery_1_2
+  id: ScaleRecovery_1_2
+  parent: H.Extensions.StoryBoard.StoryBoardKeys
+  langs:
+  - csharp
+  - vb
+  name: ScaleRecovery_1_2
+  nameWithType: StoryBoardKeys.ScaleRecovery_1_2
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.ScaleRecovery_1_2
+  type: Property
+  source:
+    id: ScaleRecovery_1_2
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.StoryBoard\StoryBoardKeys.xaml.cs
+    startLine: 38
+  assemblies:
+  - H.Extensions.StoryBoard
+  namespace: H.Extensions.StoryBoard
+  syntax:
+    content: public static ComponentResourceKey ScaleRecovery_1_2 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property ScaleRecovery_1_2 As ComponentResourceKey
+  overload: H.Extensions.StoryBoard.StoryBoardKeys.ScaleRecovery_1_2*
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.ScaleRecovery_1_4
+  commentId: P:H.Extensions.StoryBoard.StoryBoardKeys.ScaleRecovery_1_4
+  id: ScaleRecovery_1_4
+  parent: H.Extensions.StoryBoard.StoryBoardKeys
+  langs:
+  - csharp
+  - vb
+  name: ScaleRecovery_1_4
+  nameWithType: StoryBoardKeys.ScaleRecovery_1_4
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.ScaleRecovery_1_4
+  type: Property
+  source:
+    id: ScaleRecovery_1_4
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.StoryBoard\StoryBoardKeys.xaml.cs
+    startLine: 39
+  assemblies:
+  - H.Extensions.StoryBoard
+  namespace: H.Extensions.StoryBoard
+  syntax:
+    content: public static ComponentResourceKey ScaleRecovery_1_4 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property ScaleRecovery_1_4 As ComponentResourceKey
+  overload: H.Extensions.StoryBoard.StoryBoardKeys.ScaleRecovery_1_4*
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.ScaleEnlarge_1_2
+  commentId: P:H.Extensions.StoryBoard.StoryBoardKeys.ScaleEnlarge_1_2
+  id: ScaleEnlarge_1_2
+  parent: H.Extensions.StoryBoard.StoryBoardKeys
+  langs:
+  - csharp
+  - vb
+  name: ScaleEnlarge_1_2
+  nameWithType: StoryBoardKeys.ScaleEnlarge_1_2
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.ScaleEnlarge_1_2
+  type: Property
+  source:
+    id: ScaleEnlarge_1_2
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.StoryBoard\StoryBoardKeys.xaml.cs
+    startLine: 40
+  assemblies:
+  - H.Extensions.StoryBoard
+  namespace: H.Extensions.StoryBoard
+  syntax:
+    content: public static ComponentResourceKey ScaleEnlarge_1_2 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property ScaleEnlarge_1_2 As ComponentResourceKey
+  overload: H.Extensions.StoryBoard.StoryBoardKeys.ScaleEnlarge_1_2*
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.ScaleEnlargeRecovery_1_2
+  commentId: P:H.Extensions.StoryBoard.StoryBoardKeys.ScaleEnlargeRecovery_1_2
+  id: ScaleEnlargeRecovery_1_2
+  parent: H.Extensions.StoryBoard.StoryBoardKeys
+  langs:
+  - csharp
+  - vb
+  name: ScaleEnlargeRecovery_1_2
+  nameWithType: StoryBoardKeys.ScaleEnlargeRecovery_1_2
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.ScaleEnlargeRecovery_1_2
+  type: Property
+  source:
+    id: ScaleEnlargeRecovery_1_2
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.StoryBoard\StoryBoardKeys.xaml.cs
+    startLine: 41
+  assemblies:
+  - H.Extensions.StoryBoard
+  namespace: H.Extensions.StoryBoard
+  syntax:
+    content: public static ComponentResourceKey ScaleEnlargeRecovery_1_2 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property ScaleEnlargeRecovery_1_2 As ComponentResourceKey
+  overload: H.Extensions.StoryBoard.StoryBoardKeys.ScaleEnlargeRecovery_1_2*
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.FontSizeRebound
+  commentId: P:H.Extensions.StoryBoard.StoryBoardKeys.FontSizeRebound
+  id: FontSizeRebound
+  parent: H.Extensions.StoryBoard.StoryBoardKeys
+  langs:
+  - csharp
+  - vb
+  name: FontSizeRebound
+  nameWithType: StoryBoardKeys.FontSizeRebound
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.FontSizeRebound
+  type: Property
+  source:
+    id: FontSizeRebound
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.StoryBoard\StoryBoardKeys.xaml.cs
+    startLine: 42
+  assemblies:
+  - H.Extensions.StoryBoard
+  namespace: H.Extensions.StoryBoard
+  syntax:
+    content: public static ComponentResourceKey FontSizeRebound { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property FontSizeRebound As ComponentResourceKey
+  overload: H.Extensions.StoryBoard.StoryBoardKeys.FontSizeRebound*
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.ColorFlash
+  commentId: P:H.Extensions.StoryBoard.StoryBoardKeys.ColorFlash
+  id: ColorFlash
+  parent: H.Extensions.StoryBoard.StoryBoardKeys
+  langs:
+  - csharp
+  - vb
+  name: ColorFlash
+  nameWithType: StoryBoardKeys.ColorFlash
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.ColorFlash
+  type: Property
+  source:
+    id: ColorFlash
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.StoryBoard\StoryBoardKeys.xaml.cs
+    startLine: 43
+  assemblies:
+  - H.Extensions.StoryBoard
+  namespace: H.Extensions.StoryBoard
+  syntax:
+    content: public static ComponentResourceKey ColorFlash { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property ColorFlash As ComponentResourceKey
+  overload: H.Extensions.StoryBoard.StoryBoardKeys.ColorFlash*
+references:
+- uid: H.Extensions.StoryBoard
+  commentId: N:H.Extensions.StoryBoard
+  href: H.html
+  name: H.Extensions.StoryBoard
+  nameWithType: H.Extensions.StoryBoard
+  fullName: H.Extensions.StoryBoard
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.StoryBoard
+    name: StoryBoard
+    href: H.Extensions.StoryBoard.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.StoryBoard
+    name: StoryBoard
+    href: H.Extensions.StoryBoard.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.TransformGroup*
+  commentId: Overload:H.Extensions.StoryBoard.StoryBoardKeys.TransformGroup
+  href: H.Extensions.StoryBoard.StoryBoardKeys.html#H_Extensions_StoryBoard_StoryBoardKeys_TransformGroup
+  name: TransformGroup
+  nameWithType: StoryBoardKeys.TransformGroup
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.TransformGroup
+- uid: System.Windows.ComponentResourceKey
+  commentId: T:System.Windows.ComponentResourceKey
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.componentresourcekey
+  name: ComponentResourceKey
+  nameWithType: ComponentResourceKey
+  fullName: System.Windows.ComponentResourceKey
+- uid: System.Windows
+  commentId: N:System.Windows
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows
+  nameWithType: System.Windows
+  fullName: System.Windows
+  spec.csharp:
+  - uid: System
+    name: System
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  spec.vb:
+  - uid: System
+    name: System
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.OpacityForever*
+  commentId: Overload:H.Extensions.StoryBoard.StoryBoardKeys.OpacityForever
+  href: H.Extensions.StoryBoard.StoryBoardKeys.html#H_Extensions_StoryBoard_StoryBoardKeys_OpacityForever
+  name: OpacityForever
+  nameWithType: StoryBoardKeys.OpacityForever
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.OpacityForever
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.RotateForever*
+  commentId: Overload:H.Extensions.StoryBoard.StoryBoardKeys.RotateForever
+  href: H.Extensions.StoryBoard.StoryBoardKeys.html#H_Extensions_StoryBoard_StoryBoardKeys_RotateForever
+  name: RotateForever
+  nameWithType: StoryBoardKeys.RotateForever
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.RotateForever
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.RotateForever2*
+  commentId: Overload:H.Extensions.StoryBoard.StoryBoardKeys.RotateForever2
+  href: H.Extensions.StoryBoard.StoryBoardKeys.html#H_Extensions_StoryBoard_StoryBoardKeys_RotateForever2
+  name: RotateForever2
+  nameWithType: StoryBoardKeys.RotateForever2
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.RotateForever2
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.RotateForever3*
+  commentId: Overload:H.Extensions.StoryBoard.StoryBoardKeys.RotateForever3
+  href: H.Extensions.StoryBoard.StoryBoardKeys.html#H_Extensions_StoryBoard_StoryBoardKeys_RotateForever3
+  name: RotateForever3
+  nameWithType: StoryBoardKeys.RotateForever3
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.RotateForever3
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.RotateForever4*
+  commentId: Overload:H.Extensions.StoryBoard.StoryBoardKeys.RotateForever4
+  href: H.Extensions.StoryBoard.StoryBoardKeys.html#H_Extensions_StoryBoard_StoryBoardKeys_RotateForever4
+  name: RotateForever4
+  nameWithType: StoryBoardKeys.RotateForever4
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.RotateForever4
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.RotateForever5*
+  commentId: Overload:H.Extensions.StoryBoard.StoryBoardKeys.RotateForever5
+  href: H.Extensions.StoryBoard.StoryBoardKeys.html#H_Extensions_StoryBoard_StoryBoardKeys_RotateForever5
+  name: RotateForever5
+  nameWithType: StoryBoardKeys.RotateForever5
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.RotateForever5
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.OpacityForever0*
+  commentId: Overload:H.Extensions.StoryBoard.StoryBoardKeys.OpacityForever0
+  href: H.Extensions.StoryBoard.StoryBoardKeys.html#H_Extensions_StoryBoard_StoryBoardKeys_OpacityForever0
+  name: OpacityForever0
+  nameWithType: StoryBoardKeys.OpacityForever0
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.OpacityForever0
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.ScaleTransformXY*
+  commentId: Overload:H.Extensions.StoryBoard.StoryBoardKeys.ScaleTransformXY
+  href: H.Extensions.StoryBoard.StoryBoardKeys.html#H_Extensions_StoryBoard_StoryBoardKeys_ScaleTransformXY
+  name: ScaleTransformXY
+  nameWithType: StoryBoardKeys.ScaleTransformXY
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.ScaleTransformXY
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.ScaleTransformX*
+  commentId: Overload:H.Extensions.StoryBoard.StoryBoardKeys.ScaleTransformX
+  href: H.Extensions.StoryBoard.StoryBoardKeys.html#H_Extensions_StoryBoard_StoryBoardKeys_ScaleTransformX
+  name: ScaleTransformX
+  nameWithType: StoryBoardKeys.ScaleTransformX
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.ScaleTransformX
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.ScaleTransformY*
+  commentId: Overload:H.Extensions.StoryBoard.StoryBoardKeys.ScaleTransformY
+  href: H.Extensions.StoryBoard.StoryBoardKeys.html#H_Extensions_StoryBoard_StoryBoardKeys_ScaleTransformY
+  name: ScaleTransformY
+  nameWithType: StoryBoardKeys.ScaleTransformY
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.ScaleTransformY
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.CloseOpacity*
+  commentId: Overload:H.Extensions.StoryBoard.StoryBoardKeys.CloseOpacity
+  href: H.Extensions.StoryBoard.StoryBoardKeys.html#H_Extensions_StoryBoard_StoryBoardKeys_CloseOpacity
+  name: CloseOpacity
+  nameWithType: StoryBoardKeys.CloseOpacity
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.CloseOpacity
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.LoadScaleXY*
+  commentId: Overload:H.Extensions.StoryBoard.StoryBoardKeys.LoadScaleXY
+  href: H.Extensions.StoryBoard.StoryBoardKeys.html#H_Extensions_StoryBoard_StoryBoardKeys_LoadScaleXY
+  name: LoadScaleXY
+  nameWithType: StoryBoardKeys.LoadScaleXY
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.LoadScaleXY
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.LoadScaleX*
+  commentId: Overload:H.Extensions.StoryBoard.StoryBoardKeys.LoadScaleX
+  href: H.Extensions.StoryBoard.StoryBoardKeys.html#H_Extensions_StoryBoard_StoryBoardKeys_LoadScaleX
+  name: LoadScaleX
+  nameWithType: StoryBoardKeys.LoadScaleX
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.LoadScaleX
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.LoadScaleY*
+  commentId: Overload:H.Extensions.StoryBoard.StoryBoardKeys.LoadScaleY
+  href: H.Extensions.StoryBoard.StoryBoardKeys.html#H_Extensions_StoryBoard_StoryBoardKeys_LoadScaleY
+  name: LoadScaleY
+  nameWithType: StoryBoardKeys.LoadScaleY
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.LoadScaleY
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.LoadOpacityRightToLeft*
+  commentId: Overload:H.Extensions.StoryBoard.StoryBoardKeys.LoadOpacityRightToLeft
+  href: H.Extensions.StoryBoard.StoryBoardKeys.html#H_Extensions_StoryBoard_StoryBoardKeys_LoadOpacityRightToLeft
+  name: LoadOpacityRightToLeft
+  nameWithType: StoryBoardKeys.LoadOpacityRightToLeft
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.LoadOpacityRightToLeft
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.LoadOpacityLeftToRight*
+  commentId: Overload:H.Extensions.StoryBoard.StoryBoardKeys.LoadOpacityLeftToRight
+  href: H.Extensions.StoryBoard.StoryBoardKeys.html#H_Extensions_StoryBoard_StoryBoardKeys_LoadOpacityLeftToRight
+  name: LoadOpacityLeftToRight
+  nameWithType: StoryBoardKeys.LoadOpacityLeftToRight
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.LoadOpacityLeftToRight
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.LoadOpacityDownToUp*
+  commentId: Overload:H.Extensions.StoryBoard.StoryBoardKeys.LoadOpacityDownToUp
+  href: H.Extensions.StoryBoard.StoryBoardKeys.html#H_Extensions_StoryBoard_StoryBoardKeys_LoadOpacityDownToUp
+  name: LoadOpacityDownToUp
+  nameWithType: StoryBoardKeys.LoadOpacityDownToUp
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.LoadOpacityDownToUp
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.LoadWaitDownToUp*
+  commentId: Overload:H.Extensions.StoryBoard.StoryBoardKeys.LoadWaitDownToUp
+  href: H.Extensions.StoryBoard.StoryBoardKeys.html#H_Extensions_StoryBoard_StoryBoardKeys_LoadWaitDownToUp
+  name: LoadWaitDownToUp
+  nameWithType: StoryBoardKeys.LoadWaitDownToUp
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.LoadWaitDownToUp
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.LoadOpacityUpToDwon*
+  commentId: Overload:H.Extensions.StoryBoard.StoryBoardKeys.LoadOpacityUpToDwon
+  href: H.Extensions.StoryBoard.StoryBoardKeys.html#H_Extensions_StoryBoard_StoryBoardKeys_LoadOpacityUpToDwon
+  name: LoadOpacityUpToDwon
+  nameWithType: StoryBoardKeys.LoadOpacityUpToDwon
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.LoadOpacityUpToDwon
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.LoadFountain*
+  commentId: Overload:H.Extensions.StoryBoard.StoryBoardKeys.LoadFountain
+  href: H.Extensions.StoryBoard.StoryBoardKeys.html#H_Extensions_StoryBoard_StoryBoardKeys_LoadFountain
+  name: LoadFountain
+  nameWithType: StoryBoardKeys.LoadFountain
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.LoadFountain
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.SlowHide*
+  commentId: Overload:H.Extensions.StoryBoard.StoryBoardKeys.SlowHide
+  href: H.Extensions.StoryBoard.StoryBoardKeys.html#H_Extensions_StoryBoard_StoryBoardKeys_SlowHide
+  name: SlowHide
+  nameWithType: StoryBoardKeys.SlowHide
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.SlowHide
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.SlowShow*
+  commentId: Overload:H.Extensions.StoryBoard.StoryBoardKeys.SlowShow
+  href: H.Extensions.StoryBoard.StoryBoardKeys.html#H_Extensions_StoryBoard_StoryBoardKeys_SlowShow
+  name: SlowShow
+  nameWithType: StoryBoardKeys.SlowShow
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.SlowShow
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.ScaleRecovery*
+  commentId: Overload:H.Extensions.StoryBoard.StoryBoardKeys.ScaleRecovery
+  href: H.Extensions.StoryBoard.StoryBoardKeys.html#H_Extensions_StoryBoard_StoryBoardKeys_ScaleRecovery
+  name: ScaleRecovery
+  nameWithType: StoryBoardKeys.ScaleRecovery
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.ScaleRecovery
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.ScaleRecovery_1_2*
+  commentId: Overload:H.Extensions.StoryBoard.StoryBoardKeys.ScaleRecovery_1_2
+  href: H.Extensions.StoryBoard.StoryBoardKeys.html#H_Extensions_StoryBoard_StoryBoardKeys_ScaleRecovery_1_2
+  name: ScaleRecovery_1_2
+  nameWithType: StoryBoardKeys.ScaleRecovery_1_2
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.ScaleRecovery_1_2
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.ScaleRecovery_1_4*
+  commentId: Overload:H.Extensions.StoryBoard.StoryBoardKeys.ScaleRecovery_1_4
+  href: H.Extensions.StoryBoard.StoryBoardKeys.html#H_Extensions_StoryBoard_StoryBoardKeys_ScaleRecovery_1_4
+  name: ScaleRecovery_1_4
+  nameWithType: StoryBoardKeys.ScaleRecovery_1_4
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.ScaleRecovery_1_4
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.ScaleEnlarge_1_2*
+  commentId: Overload:H.Extensions.StoryBoard.StoryBoardKeys.ScaleEnlarge_1_2
+  href: H.Extensions.StoryBoard.StoryBoardKeys.html#H_Extensions_StoryBoard_StoryBoardKeys_ScaleEnlarge_1_2
+  name: ScaleEnlarge_1_2
+  nameWithType: StoryBoardKeys.ScaleEnlarge_1_2
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.ScaleEnlarge_1_2
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.ScaleEnlargeRecovery_1_2*
+  commentId: Overload:H.Extensions.StoryBoard.StoryBoardKeys.ScaleEnlargeRecovery_1_2
+  href: H.Extensions.StoryBoard.StoryBoardKeys.html#H_Extensions_StoryBoard_StoryBoardKeys_ScaleEnlargeRecovery_1_2
+  name: ScaleEnlargeRecovery_1_2
+  nameWithType: StoryBoardKeys.ScaleEnlargeRecovery_1_2
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.ScaleEnlargeRecovery_1_2
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.FontSizeRebound*
+  commentId: Overload:H.Extensions.StoryBoard.StoryBoardKeys.FontSizeRebound
+  href: H.Extensions.StoryBoard.StoryBoardKeys.html#H_Extensions_StoryBoard_StoryBoardKeys_FontSizeRebound
+  name: FontSizeRebound
+  nameWithType: StoryBoardKeys.FontSizeRebound
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.FontSizeRebound
+- uid: H.Extensions.StoryBoard.StoryBoardKeys.ColorFlash*
+  commentId: Overload:H.Extensions.StoryBoard.StoryBoardKeys.ColorFlash
+  href: H.Extensions.StoryBoard.StoryBoardKeys.html#H_Extensions_StoryBoard_StoryBoardKeys_ColorFlash
+  name: ColorFlash
+  nameWithType: StoryBoardKeys.ColorFlash
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys.ColorFlash

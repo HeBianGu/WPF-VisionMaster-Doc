@@ -1,0 +1,63 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.Diagram.Bevaviors.DynimacLinkBehavior
+  commentId: N:H.Controls.Diagram.Bevaviors.DynimacLinkBehavior
+  id: H.Controls.Diagram.Bevaviors.DynimacLinkBehavior
+  children:
+  - H.Controls.Diagram.Bevaviors.DynimacLinkBehavior.DynimacLinkBehaviorBase`1
+  - H.Controls.Diagram.Bevaviors.DynimacLinkBehavior.DynimacLinkNodeBehavior
+  - H.Controls.Diagram.Bevaviors.DynimacLinkBehavior.DynimacLinkPortBehavior
+  - H.Controls.Diagram.Bevaviors.DynimacLinkBehavior.PortLinkBehavior
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.Diagram.Bevaviors.DynimacLinkBehavior
+  nameWithType: H.Controls.Diagram.Bevaviors.DynimacLinkBehavior
+  fullName: H.Controls.Diagram.Bevaviors.DynimacLinkBehavior
+  type: Namespace
+  assemblies:
+  - H.Controls.Diagram
+references:
+- uid: H.Controls.Diagram.Bevaviors.DynimacLinkBehavior.DynimacLinkBehaviorBase`1
+  commentId: T:H.Controls.Diagram.Bevaviors.DynimacLinkBehavior.DynimacLinkBehaviorBase`1
+  href: H.Controls.Diagram.Bevaviors.DynimacLinkBehavior.DynimacLinkBehaviorBase-1.html
+  name: DynimacLinkBehaviorBase<T>
+  nameWithType: DynimacLinkBehaviorBase<T>
+  fullName: H.Controls.Diagram.Bevaviors.DynimacLinkBehavior.DynimacLinkBehaviorBase<T>
+  nameWithType.vb: DynimacLinkBehaviorBase(Of T)
+  fullName.vb: H.Controls.Diagram.Bevaviors.DynimacLinkBehavior.DynimacLinkBehaviorBase(Of T)
+  name.vb: DynimacLinkBehaviorBase(Of T)
+  spec.csharp:
+  - uid: H.Controls.Diagram.Bevaviors.DynimacLinkBehavior.DynimacLinkBehaviorBase`1
+    name: DynimacLinkBehaviorBase
+    href: H.Controls.Diagram.Bevaviors.DynimacLinkBehavior.DynimacLinkBehaviorBase-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Controls.Diagram.Bevaviors.DynimacLinkBehavior.DynimacLinkBehaviorBase`1
+    name: DynimacLinkBehaviorBase
+    href: H.Controls.Diagram.Bevaviors.DynimacLinkBehavior.DynimacLinkBehaviorBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Controls.Diagram.Bevaviors.DynimacLinkBehavior.DynimacLinkNodeBehavior
+  commentId: T:H.Controls.Diagram.Bevaviors.DynimacLinkBehavior.DynimacLinkNodeBehavior
+  href: H.Controls.Diagram.Bevaviors.DynimacLinkBehavior.DynimacLinkNodeBehavior.html
+  name: DynimacLinkNodeBehavior
+  nameWithType: DynimacLinkNodeBehavior
+  fullName: H.Controls.Diagram.Bevaviors.DynimacLinkBehavior.DynimacLinkNodeBehavior
+- uid: H.Controls.Diagram.Bevaviors.DynimacLinkBehavior.DynimacLinkPortBehavior
+  commentId: T:H.Controls.Diagram.Bevaviors.DynimacLinkBehavior.DynimacLinkPortBehavior
+  href: H.Controls.Diagram.Bevaviors.DynimacLinkBehavior.DynimacLinkPortBehavior.html
+  name: DynimacLinkPortBehavior
+  nameWithType: DynimacLinkPortBehavior
+  fullName: H.Controls.Diagram.Bevaviors.DynimacLinkBehavior.DynimacLinkPortBehavior
+- uid: H.Controls.Diagram.Bevaviors.DynimacLinkBehavior.PortLinkBehavior
+  commentId: T:H.Controls.Diagram.Bevaviors.DynimacLinkBehavior.PortLinkBehavior
+  href: H.Controls.Diagram.Bevaviors.DynimacLinkBehavior.PortLinkBehavior.html
+  name: PortLinkBehavior
+  nameWithType: PortLinkBehavior
+  fullName: H.Controls.Diagram.Bevaviors.DynimacLinkBehavior.PortLinkBehavior

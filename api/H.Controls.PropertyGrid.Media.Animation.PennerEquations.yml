@@ -1,0 +1,1316 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations
+  commentId: T:H.Controls.PropertyGrid.Media.Animation.PennerEquations
+  id: PennerEquations
+  parent: H.Controls.PropertyGrid.Media.Animation
+  children:
+  - H.Controls.PropertyGrid.Media.Animation.PennerEquations.BackEaseIn
+  - H.Controls.PropertyGrid.Media.Animation.PennerEquations.BackEaseInOut
+  - H.Controls.PropertyGrid.Media.Animation.PennerEquations.BackEaseOut
+  - H.Controls.PropertyGrid.Media.Animation.PennerEquations.BounceEaseIn
+  - H.Controls.PropertyGrid.Media.Animation.PennerEquations.BounceEaseInOut
+  - H.Controls.PropertyGrid.Media.Animation.PennerEquations.BounceEaseOut
+  - H.Controls.PropertyGrid.Media.Animation.PennerEquations.CircEaseIn
+  - H.Controls.PropertyGrid.Media.Animation.PennerEquations.CircEaseInOut
+  - H.Controls.PropertyGrid.Media.Animation.PennerEquations.CircEaseOut
+  - H.Controls.PropertyGrid.Media.Animation.PennerEquations.CubicEaseIn
+  - H.Controls.PropertyGrid.Media.Animation.PennerEquations.CubicEaseInOut
+  - H.Controls.PropertyGrid.Media.Animation.PennerEquations.CubicEaseOut
+  - H.Controls.PropertyGrid.Media.Animation.PennerEquations.ElasticEaseIn
+  - H.Controls.PropertyGrid.Media.Animation.PennerEquations.ElasticEaseInOut
+  - H.Controls.PropertyGrid.Media.Animation.PennerEquations.ElasticEaseOut
+  - H.Controls.PropertyGrid.Media.Animation.PennerEquations.ExpoEaseIn
+  - H.Controls.PropertyGrid.Media.Animation.PennerEquations.ExpoEaseInOut
+  - H.Controls.PropertyGrid.Media.Animation.PennerEquations.ExpoEaseOut
+  - H.Controls.PropertyGrid.Media.Animation.PennerEquations.Linear
+  - H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuadEaseIn
+  - H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuadEaseInOut
+  - H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuadEaseOut
+  - H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuartEaseIn
+  - H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuartEaseInOut
+  - H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuartEaseOut
+  - H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuintEaseIn
+  - H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuintEaseInOut
+  - H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuintEaseOut
+  - H.Controls.PropertyGrid.Media.Animation.PennerEquations.SineEaseIn
+  - H.Controls.PropertyGrid.Media.Animation.PennerEquations.SineEaseInOut
+  - H.Controls.PropertyGrid.Media.Animation.PennerEquations.SineEaseOut
+  langs:
+  - csharp
+  - vb
+  name: PennerEquations
+  nameWithType: PennerEquations
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations
+  type: Class
+  source:
+    id: PennerEquations
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Core\Media\Animation\PennerEquations.cs
+    startLine: 6
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid.Media.Animation
+  syntax:
+    content: public static class PennerEquations
+    content.vb: Public Module PennerEquations
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.BackEaseIn
+  commentId: P:H.Controls.PropertyGrid.Media.Animation.PennerEquations.BackEaseIn
+  id: BackEaseIn
+  parent: H.Controls.PropertyGrid.Media.Animation.PennerEquations
+  langs:
+  - csharp
+  - vb
+  name: BackEaseIn
+  nameWithType: PennerEquations.BackEaseIn
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.BackEaseIn
+  type: Property
+  source:
+    id: BackEaseIn
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Core\Media\Animation\PennerEquations.cs
+    startLine: 10
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid.Media.Animation
+  syntax:
+    content: public static PennerEquation BackEaseIn { get; }
+    parameters: []
+    return:
+      type: H.Controls.PropertyGrid.Media.Animation.PennerEquation
+    content.vb: Public Shared ReadOnly Property BackEaseIn As PennerEquation
+  overload: H.Controls.PropertyGrid.Media.Animation.PennerEquations.BackEaseIn*
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.BackEaseInOut
+  commentId: P:H.Controls.PropertyGrid.Media.Animation.PennerEquations.BackEaseInOut
+  id: BackEaseInOut
+  parent: H.Controls.PropertyGrid.Media.Animation.PennerEquations
+  langs:
+  - csharp
+  - vb
+  name: BackEaseInOut
+  nameWithType: PennerEquations.BackEaseInOut
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.BackEaseInOut
+  type: Property
+  source:
+    id: BackEaseInOut
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Core\Media\Animation\PennerEquations.cs
+    startLine: 28
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid.Media.Animation
+  syntax:
+    content: public static PennerEquation BackEaseInOut { get; }
+    parameters: []
+    return:
+      type: H.Controls.PropertyGrid.Media.Animation.PennerEquation
+    content.vb: Public Shared ReadOnly Property BackEaseInOut As PennerEquation
+  overload: H.Controls.PropertyGrid.Media.Animation.PennerEquations.BackEaseInOut*
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.BackEaseOut
+  commentId: P:H.Controls.PropertyGrid.Media.Animation.PennerEquations.BackEaseOut
+  id: BackEaseOut
+  parent: H.Controls.PropertyGrid.Media.Animation.PennerEquations
+  langs:
+  - csharp
+  - vb
+  name: BackEaseOut
+  nameWithType: PennerEquations.BackEaseOut
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.BackEaseOut
+  type: Property
+  source:
+    id: BackEaseOut
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Core\Media\Animation\PennerEquations.cs
+    startLine: 46
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid.Media.Animation
+  syntax:
+    content: public static PennerEquation BackEaseOut { get; }
+    parameters: []
+    return:
+      type: H.Controls.PropertyGrid.Media.Animation.PennerEquation
+    content.vb: Public Shared ReadOnly Property BackEaseOut As PennerEquation
+  overload: H.Controls.PropertyGrid.Media.Animation.PennerEquations.BackEaseOut*
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.BounceEaseIn
+  commentId: P:H.Controls.PropertyGrid.Media.Animation.PennerEquations.BounceEaseIn
+  id: BounceEaseIn
+  parent: H.Controls.PropertyGrid.Media.Animation.PennerEquations
+  langs:
+  - csharp
+  - vb
+  name: BounceEaseIn
+  nameWithType: PennerEquations.BounceEaseIn
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.BounceEaseIn
+  type: Property
+  source:
+    id: BounceEaseIn
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Core\Media\Animation\PennerEquations.cs
+    startLine: 64
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid.Media.Animation
+  syntax:
+    content: public static PennerEquation BounceEaseIn { get; }
+    parameters: []
+    return:
+      type: H.Controls.PropertyGrid.Media.Animation.PennerEquation
+    content.vb: Public Shared ReadOnly Property BounceEaseIn As PennerEquation
+  overload: H.Controls.PropertyGrid.Media.Animation.PennerEquations.BounceEaseIn*
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.BounceEaseInOut
+  commentId: P:H.Controls.PropertyGrid.Media.Animation.PennerEquations.BounceEaseInOut
+  id: BounceEaseInOut
+  parent: H.Controls.PropertyGrid.Media.Animation.PennerEquations
+  langs:
+  - csharp
+  - vb
+  name: BounceEaseInOut
+  nameWithType: PennerEquations.BounceEaseInOut
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.BounceEaseInOut
+  type: Property
+  source:
+    id: BounceEaseInOut
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Core\Media\Animation\PennerEquations.cs
+    startLine: 82
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid.Media.Animation
+  syntax:
+    content: public static PennerEquation BounceEaseInOut { get; }
+    parameters: []
+    return:
+      type: H.Controls.PropertyGrid.Media.Animation.PennerEquation
+    content.vb: Public Shared ReadOnly Property BounceEaseInOut As PennerEquation
+  overload: H.Controls.PropertyGrid.Media.Animation.PennerEquations.BounceEaseInOut*
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.BounceEaseOut
+  commentId: P:H.Controls.PropertyGrid.Media.Animation.PennerEquations.BounceEaseOut
+  id: BounceEaseOut
+  parent: H.Controls.PropertyGrid.Media.Animation.PennerEquations
+  langs:
+  - csharp
+  - vb
+  name: BounceEaseOut
+  nameWithType: PennerEquations.BounceEaseOut
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.BounceEaseOut
+  type: Property
+  source:
+    id: BounceEaseOut
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Core\Media\Animation\PennerEquations.cs
+    startLine: 100
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid.Media.Animation
+  syntax:
+    content: public static PennerEquation BounceEaseOut { get; }
+    parameters: []
+    return:
+      type: H.Controls.PropertyGrid.Media.Animation.PennerEquation
+    content.vb: Public Shared ReadOnly Property BounceEaseOut As PennerEquation
+  overload: H.Controls.PropertyGrid.Media.Animation.PennerEquations.BounceEaseOut*
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.CircEaseIn
+  commentId: P:H.Controls.PropertyGrid.Media.Animation.PennerEquations.CircEaseIn
+  id: CircEaseIn
+  parent: H.Controls.PropertyGrid.Media.Animation.PennerEquations
+  langs:
+  - csharp
+  - vb
+  name: CircEaseIn
+  nameWithType: PennerEquations.CircEaseIn
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.CircEaseIn
+  type: Property
+  source:
+    id: CircEaseIn
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Core\Media\Animation\PennerEquations.cs
+    startLine: 118
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid.Media.Animation
+  syntax:
+    content: public static PennerEquation CircEaseIn { get; }
+    parameters: []
+    return:
+      type: H.Controls.PropertyGrid.Media.Animation.PennerEquation
+    content.vb: Public Shared ReadOnly Property CircEaseIn As PennerEquation
+  overload: H.Controls.PropertyGrid.Media.Animation.PennerEquations.CircEaseIn*
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.CircEaseInOut
+  commentId: P:H.Controls.PropertyGrid.Media.Animation.PennerEquations.CircEaseInOut
+  id: CircEaseInOut
+  parent: H.Controls.PropertyGrid.Media.Animation.PennerEquations
+  langs:
+  - csharp
+  - vb
+  name: CircEaseInOut
+  nameWithType: PennerEquations.CircEaseInOut
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.CircEaseInOut
+  type: Property
+  source:
+    id: CircEaseInOut
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Core\Media\Animation\PennerEquations.cs
+    startLine: 136
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid.Media.Animation
+  syntax:
+    content: public static PennerEquation CircEaseInOut { get; }
+    parameters: []
+    return:
+      type: H.Controls.PropertyGrid.Media.Animation.PennerEquation
+    content.vb: Public Shared ReadOnly Property CircEaseInOut As PennerEquation
+  overload: H.Controls.PropertyGrid.Media.Animation.PennerEquations.CircEaseInOut*
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.CircEaseOut
+  commentId: P:H.Controls.PropertyGrid.Media.Animation.PennerEquations.CircEaseOut
+  id: CircEaseOut
+  parent: H.Controls.PropertyGrid.Media.Animation.PennerEquations
+  langs:
+  - csharp
+  - vb
+  name: CircEaseOut
+  nameWithType: PennerEquations.CircEaseOut
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.CircEaseOut
+  type: Property
+  source:
+    id: CircEaseOut
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Core\Media\Animation\PennerEquations.cs
+    startLine: 154
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid.Media.Animation
+  syntax:
+    content: public static PennerEquation CircEaseOut { get; }
+    parameters: []
+    return:
+      type: H.Controls.PropertyGrid.Media.Animation.PennerEquation
+    content.vb: Public Shared ReadOnly Property CircEaseOut As PennerEquation
+  overload: H.Controls.PropertyGrid.Media.Animation.PennerEquations.CircEaseOut*
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.CubicEaseIn
+  commentId: P:H.Controls.PropertyGrid.Media.Animation.PennerEquations.CubicEaseIn
+  id: CubicEaseIn
+  parent: H.Controls.PropertyGrid.Media.Animation.PennerEquations
+  langs:
+  - csharp
+  - vb
+  name: CubicEaseIn
+  nameWithType: PennerEquations.CubicEaseIn
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.CubicEaseIn
+  type: Property
+  source:
+    id: CubicEaseIn
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Core\Media\Animation\PennerEquations.cs
+    startLine: 172
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid.Media.Animation
+  syntax:
+    content: public static PennerEquation CubicEaseIn { get; }
+    parameters: []
+    return:
+      type: H.Controls.PropertyGrid.Media.Animation.PennerEquation
+    content.vb: Public Shared ReadOnly Property CubicEaseIn As PennerEquation
+  overload: H.Controls.PropertyGrid.Media.Animation.PennerEquations.CubicEaseIn*
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.CubicEaseInOut
+  commentId: P:H.Controls.PropertyGrid.Media.Animation.PennerEquations.CubicEaseInOut
+  id: CubicEaseInOut
+  parent: H.Controls.PropertyGrid.Media.Animation.PennerEquations
+  langs:
+  - csharp
+  - vb
+  name: CubicEaseInOut
+  nameWithType: PennerEquations.CubicEaseInOut
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.CubicEaseInOut
+  type: Property
+  source:
+    id: CubicEaseInOut
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Core\Media\Animation\PennerEquations.cs
+    startLine: 190
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid.Media.Animation
+  syntax:
+    content: public static PennerEquation CubicEaseInOut { get; }
+    parameters: []
+    return:
+      type: H.Controls.PropertyGrid.Media.Animation.PennerEquation
+    content.vb: Public Shared ReadOnly Property CubicEaseInOut As PennerEquation
+  overload: H.Controls.PropertyGrid.Media.Animation.PennerEquations.CubicEaseInOut*
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.CubicEaseOut
+  commentId: P:H.Controls.PropertyGrid.Media.Animation.PennerEquations.CubicEaseOut
+  id: CubicEaseOut
+  parent: H.Controls.PropertyGrid.Media.Animation.PennerEquations
+  langs:
+  - csharp
+  - vb
+  name: CubicEaseOut
+  nameWithType: PennerEquations.CubicEaseOut
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.CubicEaseOut
+  type: Property
+  source:
+    id: CubicEaseOut
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Core\Media\Animation\PennerEquations.cs
+    startLine: 208
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid.Media.Animation
+  syntax:
+    content: public static PennerEquation CubicEaseOut { get; }
+    parameters: []
+    return:
+      type: H.Controls.PropertyGrid.Media.Animation.PennerEquation
+    content.vb: Public Shared ReadOnly Property CubicEaseOut As PennerEquation
+  overload: H.Controls.PropertyGrid.Media.Animation.PennerEquations.CubicEaseOut*
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.ElasticEaseIn
+  commentId: P:H.Controls.PropertyGrid.Media.Animation.PennerEquations.ElasticEaseIn
+  id: ElasticEaseIn
+  parent: H.Controls.PropertyGrid.Media.Animation.PennerEquations
+  langs:
+  - csharp
+  - vb
+  name: ElasticEaseIn
+  nameWithType: PennerEquations.ElasticEaseIn
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.ElasticEaseIn
+  type: Property
+  source:
+    id: ElasticEaseIn
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Core\Media\Animation\PennerEquations.cs
+    startLine: 226
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid.Media.Animation
+  syntax:
+    content: public static PennerEquation ElasticEaseIn { get; }
+    parameters: []
+    return:
+      type: H.Controls.PropertyGrid.Media.Animation.PennerEquation
+    content.vb: Public Shared ReadOnly Property ElasticEaseIn As PennerEquation
+  overload: H.Controls.PropertyGrid.Media.Animation.PennerEquations.ElasticEaseIn*
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.ElasticEaseInOut
+  commentId: P:H.Controls.PropertyGrid.Media.Animation.PennerEquations.ElasticEaseInOut
+  id: ElasticEaseInOut
+  parent: H.Controls.PropertyGrid.Media.Animation.PennerEquations
+  langs:
+  - csharp
+  - vb
+  name: ElasticEaseInOut
+  nameWithType: PennerEquations.ElasticEaseInOut
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.ElasticEaseInOut
+  type: Property
+  source:
+    id: ElasticEaseInOut
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Core\Media\Animation\PennerEquations.cs
+    startLine: 244
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid.Media.Animation
+  syntax:
+    content: public static PennerEquation ElasticEaseInOut { get; }
+    parameters: []
+    return:
+      type: H.Controls.PropertyGrid.Media.Animation.PennerEquation
+    content.vb: Public Shared ReadOnly Property ElasticEaseInOut As PennerEquation
+  overload: H.Controls.PropertyGrid.Media.Animation.PennerEquations.ElasticEaseInOut*
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.ElasticEaseOut
+  commentId: P:H.Controls.PropertyGrid.Media.Animation.PennerEquations.ElasticEaseOut
+  id: ElasticEaseOut
+  parent: H.Controls.PropertyGrid.Media.Animation.PennerEquations
+  langs:
+  - csharp
+  - vb
+  name: ElasticEaseOut
+  nameWithType: PennerEquations.ElasticEaseOut
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.ElasticEaseOut
+  type: Property
+  source:
+    id: ElasticEaseOut
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Core\Media\Animation\PennerEquations.cs
+    startLine: 262
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid.Media.Animation
+  syntax:
+    content: public static PennerEquation ElasticEaseOut { get; }
+    parameters: []
+    return:
+      type: H.Controls.PropertyGrid.Media.Animation.PennerEquation
+    content.vb: Public Shared ReadOnly Property ElasticEaseOut As PennerEquation
+  overload: H.Controls.PropertyGrid.Media.Animation.PennerEquations.ElasticEaseOut*
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.ExpoEaseIn
+  commentId: P:H.Controls.PropertyGrid.Media.Animation.PennerEquations.ExpoEaseIn
+  id: ExpoEaseIn
+  parent: H.Controls.PropertyGrid.Media.Animation.PennerEquations
+  langs:
+  - csharp
+  - vb
+  name: ExpoEaseIn
+  nameWithType: PennerEquations.ExpoEaseIn
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.ExpoEaseIn
+  type: Property
+  source:
+    id: ExpoEaseIn
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Core\Media\Animation\PennerEquations.cs
+    startLine: 280
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid.Media.Animation
+  syntax:
+    content: public static PennerEquation ExpoEaseIn { get; }
+    parameters: []
+    return:
+      type: H.Controls.PropertyGrid.Media.Animation.PennerEquation
+    content.vb: Public Shared ReadOnly Property ExpoEaseIn As PennerEquation
+  overload: H.Controls.PropertyGrid.Media.Animation.PennerEquations.ExpoEaseIn*
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.ExpoEaseInOut
+  commentId: P:H.Controls.PropertyGrid.Media.Animation.PennerEquations.ExpoEaseInOut
+  id: ExpoEaseInOut
+  parent: H.Controls.PropertyGrid.Media.Animation.PennerEquations
+  langs:
+  - csharp
+  - vb
+  name: ExpoEaseInOut
+  nameWithType: PennerEquations.ExpoEaseInOut
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.ExpoEaseInOut
+  type: Property
+  source:
+    id: ExpoEaseInOut
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Core\Media\Animation\PennerEquations.cs
+    startLine: 298
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid.Media.Animation
+  syntax:
+    content: public static PennerEquation ExpoEaseInOut { get; }
+    parameters: []
+    return:
+      type: H.Controls.PropertyGrid.Media.Animation.PennerEquation
+    content.vb: Public Shared ReadOnly Property ExpoEaseInOut As PennerEquation
+  overload: H.Controls.PropertyGrid.Media.Animation.PennerEquations.ExpoEaseInOut*
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.ExpoEaseOut
+  commentId: P:H.Controls.PropertyGrid.Media.Animation.PennerEquations.ExpoEaseOut
+  id: ExpoEaseOut
+  parent: H.Controls.PropertyGrid.Media.Animation.PennerEquations
+  langs:
+  - csharp
+  - vb
+  name: ExpoEaseOut
+  nameWithType: PennerEquations.ExpoEaseOut
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.ExpoEaseOut
+  type: Property
+  source:
+    id: ExpoEaseOut
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Core\Media\Animation\PennerEquations.cs
+    startLine: 316
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid.Media.Animation
+  syntax:
+    content: public static PennerEquation ExpoEaseOut { get; }
+    parameters: []
+    return:
+      type: H.Controls.PropertyGrid.Media.Animation.PennerEquation
+    content.vb: Public Shared ReadOnly Property ExpoEaseOut As PennerEquation
+  overload: H.Controls.PropertyGrid.Media.Animation.PennerEquations.ExpoEaseOut*
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.Linear
+  commentId: P:H.Controls.PropertyGrid.Media.Animation.PennerEquations.Linear
+  id: Linear
+  parent: H.Controls.PropertyGrid.Media.Animation.PennerEquations
+  langs:
+  - csharp
+  - vb
+  name: Linear
+  nameWithType: PennerEquations.Linear
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.Linear
+  type: Property
+  source:
+    id: Linear
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Core\Media\Animation\PennerEquations.cs
+    startLine: 334
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid.Media.Animation
+  syntax:
+    content: public static PennerEquation Linear { get; }
+    parameters: []
+    return:
+      type: H.Controls.PropertyGrid.Media.Animation.PennerEquation
+    content.vb: Public Shared ReadOnly Property Linear As PennerEquation
+  overload: H.Controls.PropertyGrid.Media.Animation.PennerEquations.Linear*
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuadEaseIn
+  commentId: P:H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuadEaseIn
+  id: QuadEaseIn
+  parent: H.Controls.PropertyGrid.Media.Animation.PennerEquations
+  langs:
+  - csharp
+  - vb
+  name: QuadEaseIn
+  nameWithType: PennerEquations.QuadEaseIn
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuadEaseIn
+  type: Property
+  source:
+    id: QuadEaseIn
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Core\Media\Animation\PennerEquations.cs
+    startLine: 352
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid.Media.Animation
+  syntax:
+    content: public static PennerEquation QuadEaseIn { get; }
+    parameters: []
+    return:
+      type: H.Controls.PropertyGrid.Media.Animation.PennerEquation
+    content.vb: Public Shared ReadOnly Property QuadEaseIn As PennerEquation
+  overload: H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuadEaseIn*
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuadEaseInOut
+  commentId: P:H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuadEaseInOut
+  id: QuadEaseInOut
+  parent: H.Controls.PropertyGrid.Media.Animation.PennerEquations
+  langs:
+  - csharp
+  - vb
+  name: QuadEaseInOut
+  nameWithType: PennerEquations.QuadEaseInOut
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuadEaseInOut
+  type: Property
+  source:
+    id: QuadEaseInOut
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Core\Media\Animation\PennerEquations.cs
+    startLine: 370
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid.Media.Animation
+  syntax:
+    content: public static PennerEquation QuadEaseInOut { get; }
+    parameters: []
+    return:
+      type: H.Controls.PropertyGrid.Media.Animation.PennerEquation
+    content.vb: Public Shared ReadOnly Property QuadEaseInOut As PennerEquation
+  overload: H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuadEaseInOut*
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuadEaseOut
+  commentId: P:H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuadEaseOut
+  id: QuadEaseOut
+  parent: H.Controls.PropertyGrid.Media.Animation.PennerEquations
+  langs:
+  - csharp
+  - vb
+  name: QuadEaseOut
+  nameWithType: PennerEquations.QuadEaseOut
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuadEaseOut
+  type: Property
+  source:
+    id: QuadEaseOut
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Core\Media\Animation\PennerEquations.cs
+    startLine: 388
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid.Media.Animation
+  syntax:
+    content: public static PennerEquation QuadEaseOut { get; }
+    parameters: []
+    return:
+      type: H.Controls.PropertyGrid.Media.Animation.PennerEquation
+    content.vb: Public Shared ReadOnly Property QuadEaseOut As PennerEquation
+  overload: H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuadEaseOut*
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuartEaseIn
+  commentId: P:H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuartEaseIn
+  id: QuartEaseIn
+  parent: H.Controls.PropertyGrid.Media.Animation.PennerEquations
+  langs:
+  - csharp
+  - vb
+  name: QuartEaseIn
+  nameWithType: PennerEquations.QuartEaseIn
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuartEaseIn
+  type: Property
+  source:
+    id: QuartEaseIn
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Core\Media\Animation\PennerEquations.cs
+    startLine: 406
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid.Media.Animation
+  syntax:
+    content: public static PennerEquation QuartEaseIn { get; }
+    parameters: []
+    return:
+      type: H.Controls.PropertyGrid.Media.Animation.PennerEquation
+    content.vb: Public Shared ReadOnly Property QuartEaseIn As PennerEquation
+  overload: H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuartEaseIn*
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuartEaseInOut
+  commentId: P:H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuartEaseInOut
+  id: QuartEaseInOut
+  parent: H.Controls.PropertyGrid.Media.Animation.PennerEquations
+  langs:
+  - csharp
+  - vb
+  name: QuartEaseInOut
+  nameWithType: PennerEquations.QuartEaseInOut
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuartEaseInOut
+  type: Property
+  source:
+    id: QuartEaseInOut
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Core\Media\Animation\PennerEquations.cs
+    startLine: 424
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid.Media.Animation
+  syntax:
+    content: public static PennerEquation QuartEaseInOut { get; }
+    parameters: []
+    return:
+      type: H.Controls.PropertyGrid.Media.Animation.PennerEquation
+    content.vb: Public Shared ReadOnly Property QuartEaseInOut As PennerEquation
+  overload: H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuartEaseInOut*
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuartEaseOut
+  commentId: P:H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuartEaseOut
+  id: QuartEaseOut
+  parent: H.Controls.PropertyGrid.Media.Animation.PennerEquations
+  langs:
+  - csharp
+  - vb
+  name: QuartEaseOut
+  nameWithType: PennerEquations.QuartEaseOut
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuartEaseOut
+  type: Property
+  source:
+    id: QuartEaseOut
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Core\Media\Animation\PennerEquations.cs
+    startLine: 442
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid.Media.Animation
+  syntax:
+    content: public static PennerEquation QuartEaseOut { get; }
+    parameters: []
+    return:
+      type: H.Controls.PropertyGrid.Media.Animation.PennerEquation
+    content.vb: Public Shared ReadOnly Property QuartEaseOut As PennerEquation
+  overload: H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuartEaseOut*
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuintEaseIn
+  commentId: P:H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuintEaseIn
+  id: QuintEaseIn
+  parent: H.Controls.PropertyGrid.Media.Animation.PennerEquations
+  langs:
+  - csharp
+  - vb
+  name: QuintEaseIn
+  nameWithType: PennerEquations.QuintEaseIn
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuintEaseIn
+  type: Property
+  source:
+    id: QuintEaseIn
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Core\Media\Animation\PennerEquations.cs
+    startLine: 460
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid.Media.Animation
+  syntax:
+    content: public static PennerEquation QuintEaseIn { get; }
+    parameters: []
+    return:
+      type: H.Controls.PropertyGrid.Media.Animation.PennerEquation
+    content.vb: Public Shared ReadOnly Property QuintEaseIn As PennerEquation
+  overload: H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuintEaseIn*
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuintEaseInOut
+  commentId: P:H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuintEaseInOut
+  id: QuintEaseInOut
+  parent: H.Controls.PropertyGrid.Media.Animation.PennerEquations
+  langs:
+  - csharp
+  - vb
+  name: QuintEaseInOut
+  nameWithType: PennerEquations.QuintEaseInOut
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuintEaseInOut
+  type: Property
+  source:
+    id: QuintEaseInOut
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Core\Media\Animation\PennerEquations.cs
+    startLine: 478
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid.Media.Animation
+  syntax:
+    content: public static PennerEquation QuintEaseInOut { get; }
+    parameters: []
+    return:
+      type: H.Controls.PropertyGrid.Media.Animation.PennerEquation
+    content.vb: Public Shared ReadOnly Property QuintEaseInOut As PennerEquation
+  overload: H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuintEaseInOut*
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuintEaseOut
+  commentId: P:H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuintEaseOut
+  id: QuintEaseOut
+  parent: H.Controls.PropertyGrid.Media.Animation.PennerEquations
+  langs:
+  - csharp
+  - vb
+  name: QuintEaseOut
+  nameWithType: PennerEquations.QuintEaseOut
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuintEaseOut
+  type: Property
+  source:
+    id: QuintEaseOut
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Core\Media\Animation\PennerEquations.cs
+    startLine: 496
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid.Media.Animation
+  syntax:
+    content: public static PennerEquation QuintEaseOut { get; }
+    parameters: []
+    return:
+      type: H.Controls.PropertyGrid.Media.Animation.PennerEquation
+    content.vb: Public Shared ReadOnly Property QuintEaseOut As PennerEquation
+  overload: H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuintEaseOut*
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.SineEaseIn
+  commentId: P:H.Controls.PropertyGrid.Media.Animation.PennerEquations.SineEaseIn
+  id: SineEaseIn
+  parent: H.Controls.PropertyGrid.Media.Animation.PennerEquations
+  langs:
+  - csharp
+  - vb
+  name: SineEaseIn
+  nameWithType: PennerEquations.SineEaseIn
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.SineEaseIn
+  type: Property
+  source:
+    id: SineEaseIn
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Core\Media\Animation\PennerEquations.cs
+    startLine: 514
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid.Media.Animation
+  syntax:
+    content: public static PennerEquation SineEaseIn { get; }
+    parameters: []
+    return:
+      type: H.Controls.PropertyGrid.Media.Animation.PennerEquation
+    content.vb: Public Shared ReadOnly Property SineEaseIn As PennerEquation
+  overload: H.Controls.PropertyGrid.Media.Animation.PennerEquations.SineEaseIn*
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.SineEaseInOut
+  commentId: P:H.Controls.PropertyGrid.Media.Animation.PennerEquations.SineEaseInOut
+  id: SineEaseInOut
+  parent: H.Controls.PropertyGrid.Media.Animation.PennerEquations
+  langs:
+  - csharp
+  - vb
+  name: SineEaseInOut
+  nameWithType: PennerEquations.SineEaseInOut
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.SineEaseInOut
+  type: Property
+  source:
+    id: SineEaseInOut
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Core\Media\Animation\PennerEquations.cs
+    startLine: 532
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid.Media.Animation
+  syntax:
+    content: public static PennerEquation SineEaseInOut { get; }
+    parameters: []
+    return:
+      type: H.Controls.PropertyGrid.Media.Animation.PennerEquation
+    content.vb: Public Shared ReadOnly Property SineEaseInOut As PennerEquation
+  overload: H.Controls.PropertyGrid.Media.Animation.PennerEquations.SineEaseInOut*
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.SineEaseOut
+  commentId: P:H.Controls.PropertyGrid.Media.Animation.PennerEquations.SineEaseOut
+  id: SineEaseOut
+  parent: H.Controls.PropertyGrid.Media.Animation.PennerEquations
+  langs:
+  - csharp
+  - vb
+  name: SineEaseOut
+  nameWithType: PennerEquations.SineEaseOut
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.SineEaseOut
+  type: Property
+  source:
+    id: SineEaseOut
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Core\Media\Animation\PennerEquations.cs
+    startLine: 550
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid.Media.Animation
+  syntax:
+    content: public static PennerEquation SineEaseOut { get; }
+    parameters: []
+    return:
+      type: H.Controls.PropertyGrid.Media.Animation.PennerEquation
+    content.vb: Public Shared ReadOnly Property SineEaseOut As PennerEquation
+  overload: H.Controls.PropertyGrid.Media.Animation.PennerEquations.SineEaseOut*
+references:
+- uid: H.Controls.PropertyGrid.Media.Animation
+  commentId: N:H.Controls.PropertyGrid.Media.Animation
+  href: H.html
+  name: H.Controls.PropertyGrid.Media.Animation
+  nameWithType: H.Controls.PropertyGrid.Media.Animation
+  fullName: H.Controls.PropertyGrid.Media.Animation
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.PropertyGrid
+    name: PropertyGrid
+    href: H.Controls.PropertyGrid.html
+  - name: .
+  - uid: H.Controls.PropertyGrid.Media
+    name: Media
+    href: H.Controls.PropertyGrid.Media.html
+  - name: .
+  - uid: H.Controls.PropertyGrid.Media.Animation
+    name: Animation
+    href: H.Controls.PropertyGrid.Media.Animation.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.PropertyGrid
+    name: PropertyGrid
+    href: H.Controls.PropertyGrid.html
+  - name: .
+  - uid: H.Controls.PropertyGrid.Media
+    name: Media
+    href: H.Controls.PropertyGrid.Media.html
+  - name: .
+  - uid: H.Controls.PropertyGrid.Media.Animation
+    name: Animation
+    href: H.Controls.PropertyGrid.Media.Animation.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.BackEaseIn*
+  commentId: Overload:H.Controls.PropertyGrid.Media.Animation.PennerEquations.BackEaseIn
+  href: H.Controls.PropertyGrid.Media.Animation.PennerEquations.html#H_Controls_PropertyGrid_Media_Animation_PennerEquations_BackEaseIn
+  name: BackEaseIn
+  nameWithType: PennerEquations.BackEaseIn
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.BackEaseIn
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquation
+  commentId: T:H.Controls.PropertyGrid.Media.Animation.PennerEquation
+  parent: H.Controls.PropertyGrid.Media.Animation
+  href: H.Controls.PropertyGrid.Media.Animation.PennerEquation.html
+  name: PennerEquation
+  nameWithType: PennerEquation
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquation
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.BackEaseInOut*
+  commentId: Overload:H.Controls.PropertyGrid.Media.Animation.PennerEquations.BackEaseInOut
+  href: H.Controls.PropertyGrid.Media.Animation.PennerEquations.html#H_Controls_PropertyGrid_Media_Animation_PennerEquations_BackEaseInOut
+  name: BackEaseInOut
+  nameWithType: PennerEquations.BackEaseInOut
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.BackEaseInOut
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.BackEaseOut*
+  commentId: Overload:H.Controls.PropertyGrid.Media.Animation.PennerEquations.BackEaseOut
+  href: H.Controls.PropertyGrid.Media.Animation.PennerEquations.html#H_Controls_PropertyGrid_Media_Animation_PennerEquations_BackEaseOut
+  name: BackEaseOut
+  nameWithType: PennerEquations.BackEaseOut
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.BackEaseOut
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.BounceEaseIn*
+  commentId: Overload:H.Controls.PropertyGrid.Media.Animation.PennerEquations.BounceEaseIn
+  href: H.Controls.PropertyGrid.Media.Animation.PennerEquations.html#H_Controls_PropertyGrid_Media_Animation_PennerEquations_BounceEaseIn
+  name: BounceEaseIn
+  nameWithType: PennerEquations.BounceEaseIn
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.BounceEaseIn
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.BounceEaseInOut*
+  commentId: Overload:H.Controls.PropertyGrid.Media.Animation.PennerEquations.BounceEaseInOut
+  href: H.Controls.PropertyGrid.Media.Animation.PennerEquations.html#H_Controls_PropertyGrid_Media_Animation_PennerEquations_BounceEaseInOut
+  name: BounceEaseInOut
+  nameWithType: PennerEquations.BounceEaseInOut
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.BounceEaseInOut
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.BounceEaseOut*
+  commentId: Overload:H.Controls.PropertyGrid.Media.Animation.PennerEquations.BounceEaseOut
+  href: H.Controls.PropertyGrid.Media.Animation.PennerEquations.html#H_Controls_PropertyGrid_Media_Animation_PennerEquations_BounceEaseOut
+  name: BounceEaseOut
+  nameWithType: PennerEquations.BounceEaseOut
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.BounceEaseOut
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.CircEaseIn*
+  commentId: Overload:H.Controls.PropertyGrid.Media.Animation.PennerEquations.CircEaseIn
+  href: H.Controls.PropertyGrid.Media.Animation.PennerEquations.html#H_Controls_PropertyGrid_Media_Animation_PennerEquations_CircEaseIn
+  name: CircEaseIn
+  nameWithType: PennerEquations.CircEaseIn
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.CircEaseIn
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.CircEaseInOut*
+  commentId: Overload:H.Controls.PropertyGrid.Media.Animation.PennerEquations.CircEaseInOut
+  href: H.Controls.PropertyGrid.Media.Animation.PennerEquations.html#H_Controls_PropertyGrid_Media_Animation_PennerEquations_CircEaseInOut
+  name: CircEaseInOut
+  nameWithType: PennerEquations.CircEaseInOut
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.CircEaseInOut
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.CircEaseOut*
+  commentId: Overload:H.Controls.PropertyGrid.Media.Animation.PennerEquations.CircEaseOut
+  href: H.Controls.PropertyGrid.Media.Animation.PennerEquations.html#H_Controls_PropertyGrid_Media_Animation_PennerEquations_CircEaseOut
+  name: CircEaseOut
+  nameWithType: PennerEquations.CircEaseOut
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.CircEaseOut
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.CubicEaseIn*
+  commentId: Overload:H.Controls.PropertyGrid.Media.Animation.PennerEquations.CubicEaseIn
+  href: H.Controls.PropertyGrid.Media.Animation.PennerEquations.html#H_Controls_PropertyGrid_Media_Animation_PennerEquations_CubicEaseIn
+  name: CubicEaseIn
+  nameWithType: PennerEquations.CubicEaseIn
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.CubicEaseIn
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.CubicEaseInOut*
+  commentId: Overload:H.Controls.PropertyGrid.Media.Animation.PennerEquations.CubicEaseInOut
+  href: H.Controls.PropertyGrid.Media.Animation.PennerEquations.html#H_Controls_PropertyGrid_Media_Animation_PennerEquations_CubicEaseInOut
+  name: CubicEaseInOut
+  nameWithType: PennerEquations.CubicEaseInOut
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.CubicEaseInOut
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.CubicEaseOut*
+  commentId: Overload:H.Controls.PropertyGrid.Media.Animation.PennerEquations.CubicEaseOut
+  href: H.Controls.PropertyGrid.Media.Animation.PennerEquations.html#H_Controls_PropertyGrid_Media_Animation_PennerEquations_CubicEaseOut
+  name: CubicEaseOut
+  nameWithType: PennerEquations.CubicEaseOut
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.CubicEaseOut
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.ElasticEaseIn*
+  commentId: Overload:H.Controls.PropertyGrid.Media.Animation.PennerEquations.ElasticEaseIn
+  href: H.Controls.PropertyGrid.Media.Animation.PennerEquations.html#H_Controls_PropertyGrid_Media_Animation_PennerEquations_ElasticEaseIn
+  name: ElasticEaseIn
+  nameWithType: PennerEquations.ElasticEaseIn
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.ElasticEaseIn
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.ElasticEaseInOut*
+  commentId: Overload:H.Controls.PropertyGrid.Media.Animation.PennerEquations.ElasticEaseInOut
+  href: H.Controls.PropertyGrid.Media.Animation.PennerEquations.html#H_Controls_PropertyGrid_Media_Animation_PennerEquations_ElasticEaseInOut
+  name: ElasticEaseInOut
+  nameWithType: PennerEquations.ElasticEaseInOut
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.ElasticEaseInOut
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.ElasticEaseOut*
+  commentId: Overload:H.Controls.PropertyGrid.Media.Animation.PennerEquations.ElasticEaseOut
+  href: H.Controls.PropertyGrid.Media.Animation.PennerEquations.html#H_Controls_PropertyGrid_Media_Animation_PennerEquations_ElasticEaseOut
+  name: ElasticEaseOut
+  nameWithType: PennerEquations.ElasticEaseOut
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.ElasticEaseOut
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.ExpoEaseIn*
+  commentId: Overload:H.Controls.PropertyGrid.Media.Animation.PennerEquations.ExpoEaseIn
+  href: H.Controls.PropertyGrid.Media.Animation.PennerEquations.html#H_Controls_PropertyGrid_Media_Animation_PennerEquations_ExpoEaseIn
+  name: ExpoEaseIn
+  nameWithType: PennerEquations.ExpoEaseIn
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.ExpoEaseIn
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.ExpoEaseInOut*
+  commentId: Overload:H.Controls.PropertyGrid.Media.Animation.PennerEquations.ExpoEaseInOut
+  href: H.Controls.PropertyGrid.Media.Animation.PennerEquations.html#H_Controls_PropertyGrid_Media_Animation_PennerEquations_ExpoEaseInOut
+  name: ExpoEaseInOut
+  nameWithType: PennerEquations.ExpoEaseInOut
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.ExpoEaseInOut
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.ExpoEaseOut*
+  commentId: Overload:H.Controls.PropertyGrid.Media.Animation.PennerEquations.ExpoEaseOut
+  href: H.Controls.PropertyGrid.Media.Animation.PennerEquations.html#H_Controls_PropertyGrid_Media_Animation_PennerEquations_ExpoEaseOut
+  name: ExpoEaseOut
+  nameWithType: PennerEquations.ExpoEaseOut
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.ExpoEaseOut
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.Linear*
+  commentId: Overload:H.Controls.PropertyGrid.Media.Animation.PennerEquations.Linear
+  href: H.Controls.PropertyGrid.Media.Animation.PennerEquations.html#H_Controls_PropertyGrid_Media_Animation_PennerEquations_Linear
+  name: Linear
+  nameWithType: PennerEquations.Linear
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.Linear
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuadEaseIn*
+  commentId: Overload:H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuadEaseIn
+  href: H.Controls.PropertyGrid.Media.Animation.PennerEquations.html#H_Controls_PropertyGrid_Media_Animation_PennerEquations_QuadEaseIn
+  name: QuadEaseIn
+  nameWithType: PennerEquations.QuadEaseIn
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuadEaseIn
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuadEaseInOut*
+  commentId: Overload:H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuadEaseInOut
+  href: H.Controls.PropertyGrid.Media.Animation.PennerEquations.html#H_Controls_PropertyGrid_Media_Animation_PennerEquations_QuadEaseInOut
+  name: QuadEaseInOut
+  nameWithType: PennerEquations.QuadEaseInOut
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuadEaseInOut
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuadEaseOut*
+  commentId: Overload:H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuadEaseOut
+  href: H.Controls.PropertyGrid.Media.Animation.PennerEquations.html#H_Controls_PropertyGrid_Media_Animation_PennerEquations_QuadEaseOut
+  name: QuadEaseOut
+  nameWithType: PennerEquations.QuadEaseOut
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuadEaseOut
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuartEaseIn*
+  commentId: Overload:H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuartEaseIn
+  href: H.Controls.PropertyGrid.Media.Animation.PennerEquations.html#H_Controls_PropertyGrid_Media_Animation_PennerEquations_QuartEaseIn
+  name: QuartEaseIn
+  nameWithType: PennerEquations.QuartEaseIn
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuartEaseIn
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuartEaseInOut*
+  commentId: Overload:H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuartEaseInOut
+  href: H.Controls.PropertyGrid.Media.Animation.PennerEquations.html#H_Controls_PropertyGrid_Media_Animation_PennerEquations_QuartEaseInOut
+  name: QuartEaseInOut
+  nameWithType: PennerEquations.QuartEaseInOut
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuartEaseInOut
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuartEaseOut*
+  commentId: Overload:H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuartEaseOut
+  href: H.Controls.PropertyGrid.Media.Animation.PennerEquations.html#H_Controls_PropertyGrid_Media_Animation_PennerEquations_QuartEaseOut
+  name: QuartEaseOut
+  nameWithType: PennerEquations.QuartEaseOut
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuartEaseOut
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuintEaseIn*
+  commentId: Overload:H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuintEaseIn
+  href: H.Controls.PropertyGrid.Media.Animation.PennerEquations.html#H_Controls_PropertyGrid_Media_Animation_PennerEquations_QuintEaseIn
+  name: QuintEaseIn
+  nameWithType: PennerEquations.QuintEaseIn
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuintEaseIn
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuintEaseInOut*
+  commentId: Overload:H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuintEaseInOut
+  href: H.Controls.PropertyGrid.Media.Animation.PennerEquations.html#H_Controls_PropertyGrid_Media_Animation_PennerEquations_QuintEaseInOut
+  name: QuintEaseInOut
+  nameWithType: PennerEquations.QuintEaseInOut
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuintEaseInOut
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuintEaseOut*
+  commentId: Overload:H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuintEaseOut
+  href: H.Controls.PropertyGrid.Media.Animation.PennerEquations.html#H_Controls_PropertyGrid_Media_Animation_PennerEquations_QuintEaseOut
+  name: QuintEaseOut
+  nameWithType: PennerEquations.QuintEaseOut
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.QuintEaseOut
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.SineEaseIn*
+  commentId: Overload:H.Controls.PropertyGrid.Media.Animation.PennerEquations.SineEaseIn
+  href: H.Controls.PropertyGrid.Media.Animation.PennerEquations.html#H_Controls_PropertyGrid_Media_Animation_PennerEquations_SineEaseIn
+  name: SineEaseIn
+  nameWithType: PennerEquations.SineEaseIn
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.SineEaseIn
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.SineEaseInOut*
+  commentId: Overload:H.Controls.PropertyGrid.Media.Animation.PennerEquations.SineEaseInOut
+  href: H.Controls.PropertyGrid.Media.Animation.PennerEquations.html#H_Controls_PropertyGrid_Media_Animation_PennerEquations_SineEaseInOut
+  name: SineEaseInOut
+  nameWithType: PennerEquations.SineEaseInOut
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.SineEaseInOut
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations.SineEaseOut*
+  commentId: Overload:H.Controls.PropertyGrid.Media.Animation.PennerEquations.SineEaseOut
+  href: H.Controls.PropertyGrid.Media.Animation.PennerEquations.html#H_Controls_PropertyGrid_Media_Animation_PennerEquations_SineEaseOut
+  name: SineEaseOut
+  nameWithType: PennerEquations.SineEaseOut
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations.SineEaseOut

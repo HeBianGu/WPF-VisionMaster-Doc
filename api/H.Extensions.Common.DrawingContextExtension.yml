@@ -1,0 +1,748 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.Common.DrawingContextExtension
+  commentId: T:H.Extensions.Common.DrawingContextExtension
+  id: DrawingContextExtension
+  parent: H.Extensions.Common
+  children:
+  - H.Extensions.Common.DrawingContextExtension.DrawGeometry(System.Windows.Media.DrawingContext,System.Windows.Media.Brush,System.Windows.Media.Pen,System.String)
+  - H.Extensions.Common.DrawingContextExtension.DrawGeometry(System.Windows.Media.DrawingContext,System.Windows.Media.Brush,System.Windows.Media.Pen,System.String,System.Windows.Rect)
+  - H.Extensions.Common.DrawingContextExtension.DrawGeometry(System.Windows.Media.DrawingContext,System.Windows.Media.Brush,System.Windows.Media.Pen,System.Windows.Media.Geometry,System.Windows.Rect)
+  - H.Extensions.Common.DrawingContextExtension.DrawSnappedLinesBetweenPoints(System.Windows.Media.DrawingContext,System.Windows.Media.Pen,System.Double,System.Windows.Point[])
+  - H.Extensions.Common.DrawingContextExtension.DrawText(System.Windows.Media.DrawingContext,System.String,System.Windows.Point,System.Windows.Media.Brush,System.Double)
+  - H.Extensions.Common.DrawingContextExtension.DrawTextCenterTo(System.Windows.Media.DrawingContext,System.Windows.Media.FormattedText,System.Windows.Point,System.Windows.Point)
+  - H.Extensions.Common.DrawingContextExtension.GetFormattedText(System.String,System.Double,System.Windows.Media.Brush)
+  langs:
+  - csharp
+  - vb
+  name: DrawingContextExtension
+  nameWithType: DrawingContextExtension
+  fullName: H.Extensions.Common.DrawingContextExtension
+  type: Class
+  source:
+    id: DrawingContextExtension
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extension.DrawingContext.cs
+    startLine: 16
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: public static class DrawingContextExtension
+    content.vb: Public Module DrawingContextExtension
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: H.Extensions.Common.DrawingContextExtension.DrawGeometry(System.Windows.Media.DrawingContext,System.Windows.Media.Brush,System.Windows.Media.Pen,System.Windows.Media.Geometry,System.Windows.Rect)
+  commentId: M:H.Extensions.Common.DrawingContextExtension.DrawGeometry(System.Windows.Media.DrawingContext,System.Windows.Media.Brush,System.Windows.Media.Pen,System.Windows.Media.Geometry,System.Windows.Rect)
+  id: DrawGeometry(System.Windows.Media.DrawingContext,System.Windows.Media.Brush,System.Windows.Media.Pen,System.Windows.Media.Geometry,System.Windows.Rect)
+  isExtensionMethod: true
+  parent: H.Extensions.Common.DrawingContextExtension
+  langs:
+  - csharp
+  - vb
+  name: DrawGeometry(DrawingContext, Brush, Pen, Geometry, Rect)
+  nameWithType: DrawingContextExtension.DrawGeometry(DrawingContext, Brush, Pen, Geometry, Rect)
+  fullName: H.Extensions.Common.DrawingContextExtension.DrawGeometry(System.Windows.Media.DrawingContext, System.Windows.Media.Brush, System.Windows.Media.Pen, System.Windows.Media.Geometry, System.Windows.Rect)
+  type: Method
+  source:
+    id: DrawGeometry
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extension.DrawingContext.cs
+    startLine: 19
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: public static void DrawGeometry(this DrawingContext dc, Brush brush, Pen pen, Geometry geometry, Rect target)
+    parameters:
+    - id: dc
+      type: System.Windows.Media.DrawingContext
+    - id: brush
+      type: System.Windows.Media.Brush
+    - id: pen
+      type: System.Windows.Media.Pen
+    - id: geometry
+      type: System.Windows.Media.Geometry
+    - id: target
+      type: System.Windows.Rect
+    content.vb: Public Shared Sub DrawGeometry(dc As DrawingContext, brush As Brush, pen As Pen, geometry As Geometry, target As Rect)
+  overload: H.Extensions.Common.DrawingContextExtension.DrawGeometry*
+- uid: H.Extensions.Common.DrawingContextExtension.DrawGeometry(System.Windows.Media.DrawingContext,System.Windows.Media.Brush,System.Windows.Media.Pen,System.String,System.Windows.Rect)
+  commentId: M:H.Extensions.Common.DrawingContextExtension.DrawGeometry(System.Windows.Media.DrawingContext,System.Windows.Media.Brush,System.Windows.Media.Pen,System.String,System.Windows.Rect)
+  id: DrawGeometry(System.Windows.Media.DrawingContext,System.Windows.Media.Brush,System.Windows.Media.Pen,System.String,System.Windows.Rect)
+  isExtensionMethod: true
+  parent: H.Extensions.Common.DrawingContextExtension
+  langs:
+  - csharp
+  - vb
+  name: DrawGeometry(DrawingContext, Brush, Pen, string, Rect)
+  nameWithType: DrawingContextExtension.DrawGeometry(DrawingContext, Brush, Pen, string, Rect)
+  fullName: H.Extensions.Common.DrawingContextExtension.DrawGeometry(System.Windows.Media.DrawingContext, System.Windows.Media.Brush, System.Windows.Media.Pen, string, System.Windows.Rect)
+  type: Method
+  source:
+    id: DrawGeometry
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extension.DrawingContext.cs
+    startLine: 25
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: public static void DrawGeometry(this DrawingContext dc, Brush brush, Pen pen, string geometry, Rect target)
+    parameters:
+    - id: dc
+      type: System.Windows.Media.DrawingContext
+    - id: brush
+      type: System.Windows.Media.Brush
+    - id: pen
+      type: System.Windows.Media.Pen
+    - id: geometry
+      type: System.String
+    - id: target
+      type: System.Windows.Rect
+    content.vb: Public Shared Sub DrawGeometry(dc As DrawingContext, brush As Brush, pen As Pen, geometry As String, target As Rect)
+  overload: H.Extensions.Common.DrawingContextExtension.DrawGeometry*
+  nameWithType.vb: DrawingContextExtension.DrawGeometry(DrawingContext, Brush, Pen, String, Rect)
+  fullName.vb: H.Extensions.Common.DrawingContextExtension.DrawGeometry(System.Windows.Media.DrawingContext, System.Windows.Media.Brush, System.Windows.Media.Pen, String, System.Windows.Rect)
+  name.vb: DrawGeometry(DrawingContext, Brush, Pen, String, Rect)
+- uid: H.Extensions.Common.DrawingContextExtension.DrawGeometry(System.Windows.Media.DrawingContext,System.Windows.Media.Brush,System.Windows.Media.Pen,System.String)
+  commentId: M:H.Extensions.Common.DrawingContextExtension.DrawGeometry(System.Windows.Media.DrawingContext,System.Windows.Media.Brush,System.Windows.Media.Pen,System.String)
+  id: DrawGeometry(System.Windows.Media.DrawingContext,System.Windows.Media.Brush,System.Windows.Media.Pen,System.String)
+  isExtensionMethod: true
+  parent: H.Extensions.Common.DrawingContextExtension
+  langs:
+  - csharp
+  - vb
+  name: DrawGeometry(DrawingContext, Brush, Pen, string)
+  nameWithType: DrawingContextExtension.DrawGeometry(DrawingContext, Brush, Pen, string)
+  fullName: H.Extensions.Common.DrawingContextExtension.DrawGeometry(System.Windows.Media.DrawingContext, System.Windows.Media.Brush, System.Windows.Media.Pen, string)
+  type: Method
+  source:
+    id: DrawGeometry
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extension.DrawingContext.cs
+    startLine: 32
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: public static void DrawGeometry(this DrawingContext dc, Brush brush, Pen pen, string geometry)
+    parameters:
+    - id: dc
+      type: System.Windows.Media.DrawingContext
+    - id: brush
+      type: System.Windows.Media.Brush
+    - id: pen
+      type: System.Windows.Media.Pen
+    - id: geometry
+      type: System.String
+    content.vb: Public Shared Sub DrawGeometry(dc As DrawingContext, brush As Brush, pen As Pen, geometry As String)
+  overload: H.Extensions.Common.DrawingContextExtension.DrawGeometry*
+  nameWithType.vb: DrawingContextExtension.DrawGeometry(DrawingContext, Brush, Pen, String)
+  fullName.vb: H.Extensions.Common.DrawingContextExtension.DrawGeometry(System.Windows.Media.DrawingContext, System.Windows.Media.Brush, System.Windows.Media.Pen, String)
+  name.vb: DrawGeometry(DrawingContext, Brush, Pen, String)
+- uid: H.Extensions.Common.DrawingContextExtension.DrawText(System.Windows.Media.DrawingContext,System.String,System.Windows.Point,System.Windows.Media.Brush,System.Double)
+  commentId: M:H.Extensions.Common.DrawingContextExtension.DrawText(System.Windows.Media.DrawingContext,System.String,System.Windows.Point,System.Windows.Media.Brush,System.Double)
+  id: DrawText(System.Windows.Media.DrawingContext,System.String,System.Windows.Point,System.Windows.Media.Brush,System.Double)
+  isExtensionMethod: true
+  parent: H.Extensions.Common.DrawingContextExtension
+  langs:
+  - csharp
+  - vb
+  name: DrawText(DrawingContext, string, Point, Brush, double)
+  nameWithType: DrawingContextExtension.DrawText(DrawingContext, string, Point, Brush, double)
+  fullName: H.Extensions.Common.DrawingContextExtension.DrawText(System.Windows.Media.DrawingContext, string, System.Windows.Point, System.Windows.Media.Brush, double)
+  type: Method
+  source:
+    id: DrawText
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extension.DrawingContext.cs
+    startLine: 38
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: public static void DrawText(this DrawingContext dc, string text, Point point, Brush foreground, double fontSize = 15)
+    parameters:
+    - id: dc
+      type: System.Windows.Media.DrawingContext
+    - id: text
+      type: System.String
+    - id: point
+      type: System.Windows.Point
+    - id: foreground
+      type: System.Windows.Media.Brush
+    - id: fontSize
+      type: System.Double
+    content.vb: Public Shared Sub DrawText(dc As DrawingContext, text As String, point As Point, foreground As Brush, fontSize As Double = 15)
+  overload: H.Extensions.Common.DrawingContextExtension.DrawText*
+  nameWithType.vb: DrawingContextExtension.DrawText(DrawingContext, String, Point, Brush, Double)
+  fullName.vb: H.Extensions.Common.DrawingContextExtension.DrawText(System.Windows.Media.DrawingContext, String, System.Windows.Point, System.Windows.Media.Brush, Double)
+  name.vb: DrawText(DrawingContext, String, Point, Brush, Double)
+- uid: H.Extensions.Common.DrawingContextExtension.GetFormattedText(System.String,System.Double,System.Windows.Media.Brush)
+  commentId: M:H.Extensions.Common.DrawingContextExtension.GetFormattedText(System.String,System.Double,System.Windows.Media.Brush)
+  id: GetFormattedText(System.String,System.Double,System.Windows.Media.Brush)
+  parent: H.Extensions.Common.DrawingContextExtension
+  langs:
+  - csharp
+  - vb
+  name: GetFormattedText(string, double, Brush)
+  nameWithType: DrawingContextExtension.GetFormattedText(string, double, Brush)
+  fullName: H.Extensions.Common.DrawingContextExtension.GetFormattedText(string, double, System.Windows.Media.Brush)
+  type: Method
+  source:
+    id: GetFormattedText
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extension.DrawingContext.cs
+    startLine: 44
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: public static FormattedText GetFormattedText(string text, double fontSize, Brush foreground)
+    parameters:
+    - id: text
+      type: System.String
+    - id: fontSize
+      type: System.Double
+    - id: foreground
+      type: System.Windows.Media.Brush
+    return:
+      type: System.Windows.Media.FormattedText
+    content.vb: Public Shared Function GetFormattedText(text As String, fontSize As Double, foreground As Brush) As FormattedText
+  overload: H.Extensions.Common.DrawingContextExtension.GetFormattedText*
+  nameWithType.vb: DrawingContextExtension.GetFormattedText(String, Double, Brush)
+  fullName.vb: H.Extensions.Common.DrawingContextExtension.GetFormattedText(String, Double, System.Windows.Media.Brush)
+  name.vb: GetFormattedText(String, Double, Brush)
+- uid: H.Extensions.Common.DrawingContextExtension.DrawSnappedLinesBetweenPoints(System.Windows.Media.DrawingContext,System.Windows.Media.Pen,System.Double,System.Windows.Point[])
+  commentId: M:H.Extensions.Common.DrawingContextExtension.DrawSnappedLinesBetweenPoints(System.Windows.Media.DrawingContext,System.Windows.Media.Pen,System.Double,System.Windows.Point[])
+  id: DrawSnappedLinesBetweenPoints(System.Windows.Media.DrawingContext,System.Windows.Media.Pen,System.Double,System.Windows.Point[])
+  isExtensionMethod: true
+  parent: H.Extensions.Common.DrawingContextExtension
+  langs:
+  - csharp
+  - vb
+  name: DrawSnappedLinesBetweenPoints(DrawingContext, Pen, double, params Point[])
+  nameWithType: DrawingContextExtension.DrawSnappedLinesBetweenPoints(DrawingContext, Pen, double, params Point[])
+  fullName: H.Extensions.Common.DrawingContextExtension.DrawSnappedLinesBetweenPoints(System.Windows.Media.DrawingContext, System.Windows.Media.Pen, double, params System.Windows.Point[])
+  type: Method
+  source:
+    id: DrawSnappedLinesBetweenPoints
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extension.DrawingContext.cs
+    startLine: 61
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  summary: 像素对齐
+  example: []
+  syntax:
+    content: public static void DrawSnappedLinesBetweenPoints(this DrawingContext dc, Pen pen, double lineThickness, params Point[] points)
+    parameters:
+    - id: dc
+      type: System.Windows.Media.DrawingContext
+      description: ''
+    - id: pen
+      type: System.Windows.Media.Pen
+      description: ''
+    - id: lineThickness
+      type: System.Double
+      description: ''
+    - id: points
+      type: System.Windows.Point[]
+      description: ''
+    content.vb: Public Shared Sub DrawSnappedLinesBetweenPoints(dc As DrawingContext, pen As Pen, lineThickness As Double, ParamArray points As Point())
+  overload: H.Extensions.Common.DrawingContextExtension.DrawSnappedLinesBetweenPoints*
+  nameWithType.vb: DrawingContextExtension.DrawSnappedLinesBetweenPoints(DrawingContext, Pen, Double, ParamArray Point())
+  fullName.vb: H.Extensions.Common.DrawingContextExtension.DrawSnappedLinesBetweenPoints(System.Windows.Media.DrawingContext, System.Windows.Media.Pen, Double, ParamArray System.Windows.Point())
+  name.vb: DrawSnappedLinesBetweenPoints(DrawingContext, Pen, Double, ParamArray Point())
+- uid: H.Extensions.Common.DrawingContextExtension.DrawTextCenterTo(System.Windows.Media.DrawingContext,System.Windows.Media.FormattedText,System.Windows.Point,System.Windows.Point)
+  commentId: M:H.Extensions.Common.DrawingContextExtension.DrawTextCenterTo(System.Windows.Media.DrawingContext,System.Windows.Media.FormattedText,System.Windows.Point,System.Windows.Point)
+  id: DrawTextCenterTo(System.Windows.Media.DrawingContext,System.Windows.Media.FormattedText,System.Windows.Point,System.Windows.Point)
+  isExtensionMethod: true
+  parent: H.Extensions.Common.DrawingContextExtension
+  langs:
+  - csharp
+  - vb
+  name: DrawTextCenterTo(DrawingContext, FormattedText, Point, Point)
+  nameWithType: DrawingContextExtension.DrawTextCenterTo(DrawingContext, FormattedText, Point, Point)
+  fullName: H.Extensions.Common.DrawingContextExtension.DrawTextCenterTo(System.Windows.Media.DrawingContext, System.Windows.Media.FormattedText, System.Windows.Point, System.Windows.Point)
+  type: Method
+  source:
+    id: DrawTextCenterTo
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extension.DrawingContext.cs
+    startLine: 86
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: public static void DrawTextCenterTo(this DrawingContext dc, FormattedText format, Point from, Point to)
+    parameters:
+    - id: dc
+      type: System.Windows.Media.DrawingContext
+    - id: format
+      type: System.Windows.Media.FormattedText
+    - id: from
+      type: System.Windows.Point
+    - id: to
+      type: System.Windows.Point
+    content.vb: Public Shared Sub DrawTextCenterTo(dc As DrawingContext, format As FormattedText, from As Point, [to] As Point)
+  overload: H.Extensions.Common.DrawingContextExtension.DrawTextCenterTo*
+references:
+- uid: H.Extensions.Common
+  commentId: N:H.Extensions.Common
+  href: H.html
+  name: H.Extensions.Common
+  nameWithType: H.Extensions.Common
+  fullName: H.Extensions.Common
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Common
+    name: Common
+    href: H.Extensions.Common.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Common
+    name: Common
+    href: H.Extensions.Common.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: H.Extensions.Common.DrawingContextExtension.DrawGeometry*
+  commentId: Overload:H.Extensions.Common.DrawingContextExtension.DrawGeometry
+  href: H.Extensions.Common.DrawingContextExtension.html#H_Extensions_Common_DrawingContextExtension_DrawGeometry_System_Windows_Media_DrawingContext_System_Windows_Media_Brush_System_Windows_Media_Pen_System_Windows_Media_Geometry_System_Windows_Rect_
+  name: DrawGeometry
+  nameWithType: DrawingContextExtension.DrawGeometry
+  fullName: H.Extensions.Common.DrawingContextExtension.DrawGeometry
+- uid: System.Windows.Media.DrawingContext
+  commentId: T:System.Windows.Media.DrawingContext
+  parent: System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.drawingcontext
+  name: DrawingContext
+  nameWithType: DrawingContext
+  fullName: System.Windows.Media.DrawingContext
+- uid: System.Windows.Media.Brush
+  commentId: T:System.Windows.Media.Brush
+  parent: System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.brush
+  name: Brush
+  nameWithType: Brush
+  fullName: System.Windows.Media.Brush
+- uid: System.Windows.Media.Pen
+  commentId: T:System.Windows.Media.Pen
+  parent: System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.pen
+  name: Pen
+  nameWithType: Pen
+  fullName: System.Windows.Media.Pen
+- uid: System.Windows.Media.Geometry
+  commentId: T:System.Windows.Media.Geometry
+  parent: System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.geometry
+  name: Geometry
+  nameWithType: Geometry
+  fullName: System.Windows.Media.Geometry
+- uid: System.Windows.Rect
+  commentId: T:System.Windows.Rect
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.rect
+  name: Rect
+  nameWithType: Rect
+  fullName: System.Windows.Rect
+- uid: System.Windows.Media
+  commentId: N:System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Media
+  nameWithType: System.Windows.Media
+  fullName: System.Windows.Media
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+- uid: System.Windows
+  commentId: N:System.Windows
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows
+  nameWithType: System.Windows
+  fullName: System.Windows
+  spec.csharp:
+  - uid: System
+    name: System
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  spec.vb:
+  - uid: System
+    name: System
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: H.Extensions.Common.DrawingContextExtension.DrawText*
+  commentId: Overload:H.Extensions.Common.DrawingContextExtension.DrawText
+  href: H.Extensions.Common.DrawingContextExtension.html#H_Extensions_Common_DrawingContextExtension_DrawText_System_Windows_Media_DrawingContext_System_String_System_Windows_Point_System_Windows_Media_Brush_System_Double_
+  name: DrawText
+  nameWithType: DrawingContextExtension.DrawText
+  fullName: H.Extensions.Common.DrawingContextExtension.DrawText
+- uid: System.Windows.Point
+  commentId: T:System.Windows.Point
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  name: Point
+  nameWithType: Point
+  fullName: System.Windows.Point
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: H.Extensions.Common.DrawingContextExtension.GetFormattedText*
+  commentId: Overload:H.Extensions.Common.DrawingContextExtension.GetFormattedText
+  href: H.Extensions.Common.DrawingContextExtension.html#H_Extensions_Common_DrawingContextExtension_GetFormattedText_System_String_System_Double_System_Windows_Media_Brush_
+  name: GetFormattedText
+  nameWithType: DrawingContextExtension.GetFormattedText
+  fullName: H.Extensions.Common.DrawingContextExtension.GetFormattedText
+- uid: System.Windows.Media.FormattedText
+  commentId: T:System.Windows.Media.FormattedText
+  parent: System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.formattedtext
+  name: FormattedText
+  nameWithType: FormattedText
+  fullName: System.Windows.Media.FormattedText
+- uid: H.Extensions.Common.DrawingContextExtension.DrawSnappedLinesBetweenPoints*
+  commentId: Overload:H.Extensions.Common.DrawingContextExtension.DrawSnappedLinesBetweenPoints
+  href: H.Extensions.Common.DrawingContextExtension.html#H_Extensions_Common_DrawingContextExtension_DrawSnappedLinesBetweenPoints_System_Windows_Media_DrawingContext_System_Windows_Media_Pen_System_Double_System_Windows_Point___
+  name: DrawSnappedLinesBetweenPoints
+  nameWithType: DrawingContextExtension.DrawSnappedLinesBetweenPoints
+  fullName: H.Extensions.Common.DrawingContextExtension.DrawSnappedLinesBetweenPoints
+- uid: System.Windows.Point[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  name: Point[]
+  nameWithType: Point[]
+  fullName: System.Windows.Point[]
+  nameWithType.vb: Point()
+  fullName.vb: System.Windows.Point()
+  name.vb: Point()
+  spec.csharp:
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Windows.Point
+    name: Point
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  - name: (
+  - name: )
+- uid: H.Extensions.Common.DrawingContextExtension.DrawTextCenterTo*
+  commentId: Overload:H.Extensions.Common.DrawingContextExtension.DrawTextCenterTo
+  href: H.Extensions.Common.DrawingContextExtension.html#H_Extensions_Common_DrawingContextExtension_DrawTextCenterTo_System_Windows_Media_DrawingContext_System_Windows_Media_FormattedText_System_Windows_Point_System_Windows_Point_
+  name: DrawTextCenterTo
+  nameWithType: DrawingContextExtension.DrawTextCenterTo
+  fullName: H.Extensions.Common.DrawingContextExtension.DrawTextCenterTo

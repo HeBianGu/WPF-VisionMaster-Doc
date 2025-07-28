@@ -1,0 +1,78 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.VisionMaster.NodeGroup.Groups.Takeoffs
+  commentId: N:H.VisionMaster.NodeGroup.Groups.Takeoffs
+  id: H.VisionMaster.NodeGroup.Groups.Takeoffs
+  children:
+  - H.VisionMaster.NodeGroup.Groups.Takeoffs.ITakeoffGroupableNodeData
+  - H.VisionMaster.NodeGroup.Groups.Takeoffs.TakeoffDataGroup
+  langs:
+  - csharp
+  - vb
+  name: H.VisionMaster.NodeGroup.Groups.Takeoffs
+  nameWithType: H.VisionMaster.NodeGroup.Groups.Takeoffs
+  fullName: H.VisionMaster.NodeGroup.Groups.Takeoffs
+  type: Namespace
+  assemblies:
+  - H.VisionMaster.NodeGroup
+references:
+- uid: H.VisionMaster.NodeGroup.Groups.Takeoffs.ITakeoffGroupableNodeData
+  commentId: T:H.VisionMaster.NodeGroup.Groups.Takeoffs.ITakeoffGroupableNodeData
+  parent: H.VisionMaster.NodeGroup.Groups.Takeoffs
+  href: H.VisionMaster.NodeGroup.Groups.Takeoffs.ITakeoffGroupableNodeData.html
+  name: ITakeoffGroupableNodeData
+  nameWithType: ITakeoffGroupableNodeData
+  fullName: H.VisionMaster.NodeGroup.Groups.Takeoffs.ITakeoffGroupableNodeData
+- uid: H.VisionMaster.NodeGroup.Groups.Takeoffs.TakeoffDataGroup
+  commentId: T:H.VisionMaster.NodeGroup.Groups.Takeoffs.TakeoffDataGroup
+  parent: H.VisionMaster.NodeGroup.Groups.Takeoffs
+  href: H.VisionMaster.NodeGroup.Groups.Takeoffs.TakeoffDataGroup.html
+  name: TakeoffDataGroup
+  nameWithType: TakeoffDataGroup
+  fullName: H.VisionMaster.NodeGroup.Groups.Takeoffs.TakeoffDataGroup
+- uid: H.VisionMaster.NodeGroup.Groups.Takeoffs
+  commentId: N:H.VisionMaster.NodeGroup.Groups.Takeoffs
+  href: H.html
+  name: H.VisionMaster.NodeGroup.Groups.Takeoffs
+  nameWithType: H.VisionMaster.NodeGroup.Groups.Takeoffs
+  fullName: H.VisionMaster.NodeGroup.Groups.Takeoffs
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup
+    name: NodeGroup
+    href: H.VisionMaster.NodeGroup.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup.Groups
+    name: Groups
+    href: H.VisionMaster.NodeGroup.Groups.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup.Groups.Takeoffs
+    name: Takeoffs
+    href: H.VisionMaster.NodeGroup.Groups.Takeoffs.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup
+    name: NodeGroup
+    href: H.VisionMaster.NodeGroup.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup.Groups
+    name: Groups
+    href: H.VisionMaster.NodeGroup.Groups.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup.Groups.Takeoffs
+    name: Takeoffs
+    href: H.VisionMaster.NodeGroup.Groups.Takeoffs.html

@@ -1,0 +1,2319 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.Common.ElementExtention
+  commentId: T:H.Extensions.Common.ElementExtention
+  id: ElementExtention
+  parent: H.Extensions.Common
+  children:
+  - H.Extensions.Common.ElementExtention.AddAdorner(System.Windows.UIElement,System.Windows.Documents.Adorner)
+  - H.Extensions.Common.ElementExtention.Ancestors(System.Windows.DependencyObject)
+  - H.Extensions.Common.ElementExtention.AncestorsAndSelf(System.Windows.DependencyObject)
+  - H.Extensions.Common.ElementExtention.BindCommand(System.Windows.UIElement,System.Windows.Input.ICommand)
+  - H.Extensions.Common.ElementExtention.BindCommand(System.Windows.UIElement,System.Windows.Input.ICommand,System.Action{System.Object,System.Windows.Input.ExecutedRoutedEventArgs})
+  - H.Extensions.Common.ElementExtention.ClearAdorner(System.Windows.UIElement,System.Predicate{System.Windows.Documents.Adorner})
+  - H.Extensions.Common.ElementExtention.Collapsed(System.Windows.UIElement)
+  - H.Extensions.Common.ElementExtention.FindAllVisualChild``1(System.Windows.DependencyObject,System.Predicate{``0})
+  - H.Extensions.Common.ElementExtention.GetAdorner(System.Windows.UIElement,System.Predicate{System.Windows.Documents.Adorner})
+  - H.Extensions.Common.ElementExtention.GetAdorners(System.Windows.UIElement,System.Predicate{System.Windows.Documents.Adorner})
+  - H.Extensions.Common.ElementExtention.GetChild``1(System.Windows.DependencyObject,System.Func{``0,System.Boolean})
+  - H.Extensions.Common.ElementExtention.GetChildren``1(System.Windows.DependencyObject,System.Func{``0,System.Boolean},System.Boolean)
+  - H.Extensions.Common.ElementExtention.GetContent(System.Windows.UIElement)
+  - H.Extensions.Common.ElementExtention.GetDataContext(System.Windows.UIElement)
+  - H.Extensions.Common.ElementExtention.GetElement``1(System.Windows.DependencyObject)
+  - H.Extensions.Common.ElementExtention.GetElements``1(System.Windows.DependencyObject)
+  - H.Extensions.Common.ElementExtention.GetImplementationRoot(System.Windows.DependencyObject)
+  - H.Extensions.Common.ElementExtention.GetItemsSource``1(System.Windows.UIElement)
+  - H.Extensions.Common.ElementExtention.GetParent(System.Windows.DependencyObject)
+  - H.Extensions.Common.ElementExtention.GetParent(System.Windows.DependencyObject,System.Type)
+  - H.Extensions.Common.ElementExtention.GetParent``1(System.Windows.DependencyObject)
+  - H.Extensions.Common.ElementExtention.GetParent``1(System.Windows.DependencyObject,System.Func{``0,System.Boolean})
+  - H.Extensions.Common.ElementExtention.GetTemplateByName``1(System.Windows.Controls.Control,System.String)
+  - H.Extensions.Common.ElementExtention.GetValueSync``1(System.Windows.DependencyObject,System.Windows.DependencyProperty)
+  - H.Extensions.Common.ElementExtention.GetVisualRoot``1(System.Windows.DependencyObject)
+  - H.Extensions.Common.ElementExtention.Hidden(System.Windows.UIElement)
+  - H.Extensions.Common.ElementExtention.HitTest``1(System.Windows.UIElement,System.Windows.Media.Geometry,System.Predicate{``0})
+  - H.Extensions.Common.ElementExtention.HitTest``1(System.Windows.UIElement,System.Windows.Point)
+  - H.Extensions.Common.ElementExtention.HitTest``1(System.Windows.UIElement,System.Windows.Point,System.Predicate{``0})
+  - H.Extensions.Common.ElementExtention.PrintLogicalTree(System.Windows.DependencyObject)
+  - H.Extensions.Common.ElementExtention.PrintVisualTree(System.Windows.DependencyObject)
+  - H.Extensions.Common.ElementExtention.SetValueSync``1(System.Windows.DependencyObject,System.Windows.DependencyProperty,``0)
+  - H.Extensions.Common.ElementExtention.TryGetVisualStateGroup(System.Windows.DependencyObject,System.String)
+  - H.Extensions.Common.ElementExtention.VisibilityWith(System.Windows.UIElement,System.Boolean)
+  - H.Extensions.Common.ElementExtention.Visible(System.Windows.UIElement)
+  langs:
+  - csharp
+  - vb
+  name: ElementExtention
+  nameWithType: ElementExtention
+  fullName: H.Extensions.Common.ElementExtention
+  type: Class
+  source:
+    id: ElementExtention
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extention.Element.cs
+    startLine: 19
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: public static class ElementExtention
+    content.vb: Public Module ElementExtention
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: H.Extensions.Common.ElementExtention.BindCommand(System.Windows.UIElement,System.Windows.Input.ICommand,System.Action{System.Object,System.Windows.Input.ExecutedRoutedEventArgs})
+  commentId: M:H.Extensions.Common.ElementExtention.BindCommand(System.Windows.UIElement,System.Windows.Input.ICommand,System.Action{System.Object,System.Windows.Input.ExecutedRoutedEventArgs})
+  id: BindCommand(System.Windows.UIElement,System.Windows.Input.ICommand,System.Action{System.Object,System.Windows.Input.ExecutedRoutedEventArgs})
+  isExtensionMethod: true
+  parent: H.Extensions.Common.ElementExtention
+  langs:
+  - csharp
+  - vb
+  name: BindCommand(UIElement, ICommand, Action<object, ExecutedRoutedEventArgs>)
+  nameWithType: ElementExtention.BindCommand(UIElement, ICommand, Action<object, ExecutedRoutedEventArgs>)
+  fullName: H.Extensions.Common.ElementExtention.BindCommand(System.Windows.UIElement, System.Windows.Input.ICommand, System.Action<object, System.Windows.Input.ExecutedRoutedEventArgs>)
+  type: Method
+  source:
+    id: BindCommand
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extention.Element.cs
+    startLine: 21
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: public static void BindCommand(this UIElement ui, ICommand com, Action<object, ExecutedRoutedEventArgs> call)
+    parameters:
+    - id: ui
+      type: System.Windows.UIElement
+    - id: com
+      type: System.Windows.Input.ICommand
+    - id: call
+      type: System.Action{System.Object,System.Windows.Input.ExecutedRoutedEventArgs}
+    content.vb: Public Shared Sub BindCommand(ui As UIElement, com As ICommand, [call] As Action(Of Object, ExecutedRoutedEventArgs))
+  overload: H.Extensions.Common.ElementExtention.BindCommand*
+  nameWithType.vb: ElementExtention.BindCommand(UIElement, ICommand, Action(Of Object, ExecutedRoutedEventArgs))
+  fullName.vb: H.Extensions.Common.ElementExtention.BindCommand(System.Windows.UIElement, System.Windows.Input.ICommand, System.Action(Of Object, System.Windows.Input.ExecutedRoutedEventArgs))
+  name.vb: BindCommand(UIElement, ICommand, Action(Of Object, ExecutedRoutedEventArgs))
+- uid: H.Extensions.Common.ElementExtention.BindCommand(System.Windows.UIElement,System.Windows.Input.ICommand)
+  commentId: M:H.Extensions.Common.ElementExtention.BindCommand(System.Windows.UIElement,System.Windows.Input.ICommand)
+  id: BindCommand(System.Windows.UIElement,System.Windows.Input.ICommand)
+  isExtensionMethod: true
+  parent: H.Extensions.Common.ElementExtention
+  langs:
+  - csharp
+  - vb
+  name: BindCommand(UIElement, ICommand)
+  nameWithType: ElementExtention.BindCommand(UIElement, ICommand)
+  fullName: H.Extensions.Common.ElementExtention.BindCommand(System.Windows.UIElement, System.Windows.Input.ICommand)
+  type: Method
+  source:
+    id: BindCommand
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extention.Element.cs
+    startLine: 27
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: public static void BindCommand(this UIElement ui, ICommand com)
+    parameters:
+    - id: ui
+      type: System.Windows.UIElement
+    - id: com
+      type: System.Windows.Input.ICommand
+    content.vb: Public Shared Sub BindCommand(ui As UIElement, com As ICommand)
+  overload: H.Extensions.Common.ElementExtention.BindCommand*
+- uid: H.Extensions.Common.ElementExtention.Visible(System.Windows.UIElement)
+  commentId: M:H.Extensions.Common.ElementExtention.Visible(System.Windows.UIElement)
+  id: Visible(System.Windows.UIElement)
+  isExtensionMethod: true
+  parent: H.Extensions.Common.ElementExtention
+  langs:
+  - csharp
+  - vb
+  name: Visible(UIElement)
+  nameWithType: ElementExtention.Visible(UIElement)
+  fullName: H.Extensions.Common.ElementExtention.Visible(System.Windows.UIElement)
+  type: Method
+  source:
+    id: Visible
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extention.Element.cs
+    startLine: 33
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: public static void Visible(this UIElement ui)
+    parameters:
+    - id: ui
+      type: System.Windows.UIElement
+    content.vb: Public Shared Sub Visible(ui As UIElement)
+  overload: H.Extensions.Common.ElementExtention.Visible*
+- uid: H.Extensions.Common.ElementExtention.VisibilityWith(System.Windows.UIElement,System.Boolean)
+  commentId: M:H.Extensions.Common.ElementExtention.VisibilityWith(System.Windows.UIElement,System.Boolean)
+  id: VisibilityWith(System.Windows.UIElement,System.Boolean)
+  isExtensionMethod: true
+  parent: H.Extensions.Common.ElementExtention
+  langs:
+  - csharp
+  - vb
+  name: VisibilityWith(UIElement, bool)
+  nameWithType: ElementExtention.VisibilityWith(UIElement, bool)
+  fullName: H.Extensions.Common.ElementExtention.VisibilityWith(System.Windows.UIElement, bool)
+  type: Method
+  source:
+    id: VisibilityWith
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extention.Element.cs
+    startLine: 38
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: public static void VisibilityWith(this UIElement ui, bool from)
+    parameters:
+    - id: ui
+      type: System.Windows.UIElement
+    - id: from
+      type: System.Boolean
+    content.vb: Public Shared Sub VisibilityWith(ui As UIElement, from As Boolean)
+  overload: H.Extensions.Common.ElementExtention.VisibilityWith*
+  nameWithType.vb: ElementExtention.VisibilityWith(UIElement, Boolean)
+  fullName.vb: H.Extensions.Common.ElementExtention.VisibilityWith(System.Windows.UIElement, Boolean)
+  name.vb: VisibilityWith(UIElement, Boolean)
+- uid: H.Extensions.Common.ElementExtention.Hidden(System.Windows.UIElement)
+  commentId: M:H.Extensions.Common.ElementExtention.Hidden(System.Windows.UIElement)
+  id: Hidden(System.Windows.UIElement)
+  isExtensionMethod: true
+  parent: H.Extensions.Common.ElementExtention
+  langs:
+  - csharp
+  - vb
+  name: Hidden(UIElement)
+  nameWithType: ElementExtention.Hidden(UIElement)
+  fullName: H.Extensions.Common.ElementExtention.Hidden(System.Windows.UIElement)
+  type: Method
+  source:
+    id: Hidden
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extention.Element.cs
+    startLine: 48
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: public static void Hidden(this UIElement ui)
+    parameters:
+    - id: ui
+      type: System.Windows.UIElement
+    content.vb: Public Shared Sub Hidden(ui As UIElement)
+  overload: H.Extensions.Common.ElementExtention.Hidden*
+- uid: H.Extensions.Common.ElementExtention.Collapsed(System.Windows.UIElement)
+  commentId: M:H.Extensions.Common.ElementExtention.Collapsed(System.Windows.UIElement)
+  id: Collapsed(System.Windows.UIElement)
+  isExtensionMethod: true
+  parent: H.Extensions.Common.ElementExtention
+  langs:
+  - csharp
+  - vb
+  name: Collapsed(UIElement)
+  nameWithType: ElementExtention.Collapsed(UIElement)
+  fullName: H.Extensions.Common.ElementExtention.Collapsed(System.Windows.UIElement)
+  type: Method
+  source:
+    id: Collapsed
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extention.Element.cs
+    startLine: 53
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: public static void Collapsed(this UIElement ui)
+    parameters:
+    - id: ui
+      type: System.Windows.UIElement
+    content.vb: Public Shared Sub Collapsed(ui As UIElement)
+  overload: H.Extensions.Common.ElementExtention.Collapsed*
+- uid: H.Extensions.Common.ElementExtention.GetChild``1(System.Windows.DependencyObject,System.Func{``0,System.Boolean})
+  commentId: M:H.Extensions.Common.ElementExtention.GetChild``1(System.Windows.DependencyObject,System.Func{``0,System.Boolean})
+  id: GetChild``1(System.Windows.DependencyObject,System.Func{``0,System.Boolean})
+  isExtensionMethod: true
+  parent: H.Extensions.Common.ElementExtention
+  langs:
+  - csharp
+  - vb
+  name: GetChild<T>(DependencyObject, Func<T, bool>)
+  nameWithType: ElementExtention.GetChild<T>(DependencyObject, Func<T, bool>)
+  fullName: H.Extensions.Common.ElementExtention.GetChild<T>(System.Windows.DependencyObject, System.Func<T, bool>)
+  type: Method
+  source:
+    id: GetChild
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extention.Element.cs
+    startLine: 58
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: 'public static T GetChild<T>(this DependencyObject p_element, Func<T, bool> p_func = null) where T : UIElement'
+    parameters:
+    - id: p_element
+      type: System.Windows.DependencyObject
+    - id: p_func
+      type: System.Func{{T},System.Boolean}
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function GetChild(Of T As UIElement)(p_element As DependencyObject, p_func As Func(Of T, Boolean) = Nothing) As T
+  overload: H.Extensions.Common.ElementExtention.GetChild*
+  nameWithType.vb: ElementExtention.GetChild(Of T)(DependencyObject, Func(Of T, Boolean))
+  fullName.vb: H.Extensions.Common.ElementExtention.GetChild(Of T)(System.Windows.DependencyObject, System.Func(Of T, Boolean))
+  name.vb: GetChild(Of T)(DependencyObject, Func(Of T, Boolean))
+- uid: H.Extensions.Common.ElementExtention.GetChildren``1(System.Windows.DependencyObject,System.Func{``0,System.Boolean},System.Boolean)
+  commentId: M:H.Extensions.Common.ElementExtention.GetChildren``1(System.Windows.DependencyObject,System.Func{``0,System.Boolean},System.Boolean)
+  id: GetChildren``1(System.Windows.DependencyObject,System.Func{``0,System.Boolean},System.Boolean)
+  isExtensionMethod: true
+  parent: H.Extensions.Common.ElementExtention
+  langs:
+  - csharp
+  - vb
+  name: GetChildren<T>(DependencyObject, Func<T, bool>, bool)
+  nameWithType: ElementExtention.GetChildren<T>(DependencyObject, Func<T, bool>, bool)
+  fullName: H.Extensions.Common.ElementExtention.GetChildren<T>(System.Windows.DependencyObject, System.Func<T, bool>, bool)
+  type: Method
+  source:
+    id: GetChildren
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extention.Element.cs
+    startLine: 80
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: 'public static IEnumerable<T> GetChildren<T>(this DependencyObject p_element, Func<T, bool> p_func = null, bool filterContain = false) where T : UIElement'
+    parameters:
+    - id: p_element
+      type: System.Windows.DependencyObject
+    - id: p_func
+      type: System.Func{{T},System.Boolean}
+    - id: filterContain
+      type: System.Boolean
+    typeParameters:
+    - id: T
+    return:
+      type: System.Collections.Generic.IEnumerable{{T}}
+    content.vb: Public Shared Function GetChildren(Of T As UIElement)(p_element As DependencyObject, p_func As Func(Of T, Boolean) = Nothing, filterContain As Boolean = False) As IEnumerable(Of T)
+  overload: H.Extensions.Common.ElementExtention.GetChildren*
+  nameWithType.vb: ElementExtention.GetChildren(Of T)(DependencyObject, Func(Of T, Boolean), Boolean)
+  fullName.vb: H.Extensions.Common.ElementExtention.GetChildren(Of T)(System.Windows.DependencyObject, System.Func(Of T, Boolean), Boolean)
+  name.vb: GetChildren(Of T)(DependencyObject, Func(Of T, Boolean), Boolean)
+- uid: H.Extensions.Common.ElementExtention.GetParent``1(System.Windows.DependencyObject)
+  commentId: M:H.Extensions.Common.ElementExtention.GetParent``1(System.Windows.DependencyObject)
+  id: GetParent``1(System.Windows.DependencyObject)
+  isExtensionMethod: true
+  parent: H.Extensions.Common.ElementExtention
+  langs:
+  - csharp
+  - vb
+  name: GetParent<T>(DependencyObject)
+  nameWithType: ElementExtention.GetParent<T>(DependencyObject)
+  fullName: H.Extensions.Common.ElementExtention.GetParent<T>(System.Windows.DependencyObject)
+  type: Method
+  source:
+    id: GetParent
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extention.Element.cs
+    startLine: 118
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: 'public static T GetParent<T>(this DependencyObject element) where T : DependencyObject'
+    parameters:
+    - id: element
+      type: System.Windows.DependencyObject
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function GetParent(Of T As DependencyObject)(element As DependencyObject) As T
+  overload: H.Extensions.Common.ElementExtention.GetParent*
+  nameWithType.vb: ElementExtention.GetParent(Of T)(DependencyObject)
+  fullName.vb: H.Extensions.Common.ElementExtention.GetParent(Of T)(System.Windows.DependencyObject)
+  name.vb: GetParent(Of T)(DependencyObject)
+- uid: H.Extensions.Common.ElementExtention.GetParent``1(System.Windows.DependencyObject,System.Func{``0,System.Boolean})
+  commentId: M:H.Extensions.Common.ElementExtention.GetParent``1(System.Windows.DependencyObject,System.Func{``0,System.Boolean})
+  id: GetParent``1(System.Windows.DependencyObject,System.Func{``0,System.Boolean})
+  isExtensionMethod: true
+  parent: H.Extensions.Common.ElementExtention
+  langs:
+  - csharp
+  - vb
+  name: GetParent<T>(DependencyObject, Func<T, bool>)
+  nameWithType: ElementExtention.GetParent<T>(DependencyObject, Func<T, bool>)
+  fullName: H.Extensions.Common.ElementExtention.GetParent<T>(System.Windows.DependencyObject, System.Func<T, bool>)
+  type: Method
+  source:
+    id: GetParent
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extention.Element.cs
+    startLine: 140
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: 'public static T GetParent<T>(this DependencyObject element, Func<T, bool> p_func) where T : DependencyObject'
+    parameters:
+    - id: element
+      type: System.Windows.DependencyObject
+    - id: p_func
+      type: System.Func{{T},System.Boolean}
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function GetParent(Of T As DependencyObject)(element As DependencyObject, p_func As Func(Of T, Boolean)) As T
+  overload: H.Extensions.Common.ElementExtention.GetParent*
+  nameWithType.vb: ElementExtention.GetParent(Of T)(DependencyObject, Func(Of T, Boolean))
+  fullName.vb: H.Extensions.Common.ElementExtention.GetParent(Of T)(System.Windows.DependencyObject, System.Func(Of T, Boolean))
+  name.vb: GetParent(Of T)(DependencyObject, Func(Of T, Boolean))
+- uid: H.Extensions.Common.ElementExtention.GetTemplateByName``1(System.Windows.Controls.Control,System.String)
+  commentId: M:H.Extensions.Common.ElementExtention.GetTemplateByName``1(System.Windows.Controls.Control,System.String)
+  id: GetTemplateByName``1(System.Windows.Controls.Control,System.String)
+  isExtensionMethod: true
+  parent: H.Extensions.Common.ElementExtention
+  langs:
+  - csharp
+  - vb
+  name: GetTemplateByName<T>(Control, string)
+  nameWithType: ElementExtention.GetTemplateByName<T>(Control, string)
+  fullName: H.Extensions.Common.ElementExtention.GetTemplateByName<T>(System.Windows.Controls.Control, string)
+  type: Method
+  source:
+    id: GetTemplateByName
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extention.Element.cs
+    startLine: 163
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: 'public static T GetTemplateByName<T>(this Control control, string name) where T : FrameworkElement'
+    parameters:
+    - id: control
+      type: System.Windows.Controls.Control
+    - id: name
+      type: System.String
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function GetTemplateByName(Of T As FrameworkElement)(control As Control, name As String) As T
+  overload: H.Extensions.Common.ElementExtention.GetTemplateByName*
+  nameWithType.vb: ElementExtention.GetTemplateByName(Of T)(Control, String)
+  fullName.vb: H.Extensions.Common.ElementExtention.GetTemplateByName(Of T)(System.Windows.Controls.Control, String)
+  name.vb: GetTemplateByName(Of T)(Control, String)
+- uid: H.Extensions.Common.ElementExtention.GetElement``1(System.Windows.DependencyObject)
+  commentId: M:H.Extensions.Common.ElementExtention.GetElement``1(System.Windows.DependencyObject)
+  id: GetElement``1(System.Windows.DependencyObject)
+  isExtensionMethod: true
+  parent: H.Extensions.Common.ElementExtention
+  langs:
+  - csharp
+  - vb
+  name: GetElement<T>(DependencyObject)
+  nameWithType: ElementExtention.GetElement<T>(DependencyObject)
+  fullName: H.Extensions.Common.ElementExtention.GetElement<T>(System.Windows.DependencyObject)
+  type: Method
+  source:
+    id: GetElement
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extention.Element.cs
+    startLine: 172
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: 'public static T GetElement<T>(this DependencyObject element) where T : FrameworkElement'
+    parameters:
+    - id: element
+      type: System.Windows.DependencyObject
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function GetElement(Of T As FrameworkElement)(element As DependencyObject) As T
+  overload: H.Extensions.Common.ElementExtention.GetElement*
+  nameWithType.vb: ElementExtention.GetElement(Of T)(DependencyObject)
+  fullName.vb: H.Extensions.Common.ElementExtention.GetElement(Of T)(System.Windows.DependencyObject)
+  name.vb: GetElement(Of T)(DependencyObject)
+- uid: H.Extensions.Common.ElementExtention.GetElements``1(System.Windows.DependencyObject)
+  commentId: M:H.Extensions.Common.ElementExtention.GetElements``1(System.Windows.DependencyObject)
+  id: GetElements``1(System.Windows.DependencyObject)
+  isExtensionMethod: true
+  parent: H.Extensions.Common.ElementExtention
+  langs:
+  - csharp
+  - vb
+  name: GetElements<T>(DependencyObject)
+  nameWithType: ElementExtention.GetElements<T>(DependencyObject)
+  fullName: H.Extensions.Common.ElementExtention.GetElements<T>(System.Windows.DependencyObject)
+  type: Method
+  source:
+    id: GetElements
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extention.Element.cs
+    startLine: 198
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: 'public static IEnumerable<T> GetElements<T>(this DependencyObject element) where T : FrameworkElement'
+    parameters:
+    - id: element
+      type: System.Windows.DependencyObject
+    typeParameters:
+    - id: T
+    return:
+      type: System.Collections.Generic.IEnumerable{{T}}
+    content.vb: Public Shared Function GetElements(Of T As FrameworkElement)(element As DependencyObject) As IEnumerable(Of T)
+  overload: H.Extensions.Common.ElementExtention.GetElements*
+  nameWithType.vb: ElementExtention.GetElements(Of T)(DependencyObject)
+  fullName.vb: H.Extensions.Common.ElementExtention.GetElements(Of T)(System.Windows.DependencyObject)
+  name.vb: GetElements(Of T)(DependencyObject)
+- uid: H.Extensions.Common.ElementExtention.TryGetVisualStateGroup(System.Windows.DependencyObject,System.String)
+  commentId: M:H.Extensions.Common.ElementExtention.TryGetVisualStateGroup(System.Windows.DependencyObject,System.String)
+  id: TryGetVisualStateGroup(System.Windows.DependencyObject,System.String)
+  isExtensionMethod: true
+  parent: H.Extensions.Common.ElementExtention
+  langs:
+  - csharp
+  - vb
+  name: TryGetVisualStateGroup(DependencyObject, string)
+  nameWithType: ElementExtention.TryGetVisualStateGroup(DependencyObject, string)
+  fullName: H.Extensions.Common.ElementExtention.TryGetVisualStateGroup(System.Windows.DependencyObject, string)
+  type: Method
+  source:
+    id: TryGetVisualStateGroup
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extention.Element.cs
+    startLine: 229
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: public static VisualStateGroup TryGetVisualStateGroup(this DependencyObject d, string groupName)
+    parameters:
+    - id: d
+      type: System.Windows.DependencyObject
+    - id: groupName
+      type: System.String
+    return:
+      type: System.Windows.VisualStateGroup
+    content.vb: Public Shared Function TryGetVisualStateGroup(d As DependencyObject, groupName As String) As VisualStateGroup
+  overload: H.Extensions.Common.ElementExtention.TryGetVisualStateGroup*
+  nameWithType.vb: ElementExtention.TryGetVisualStateGroup(DependencyObject, String)
+  fullName.vb: H.Extensions.Common.ElementExtention.TryGetVisualStateGroup(System.Windows.DependencyObject, String)
+  name.vb: TryGetVisualStateGroup(DependencyObject, String)
+- uid: H.Extensions.Common.ElementExtention.GetImplementationRoot(System.Windows.DependencyObject)
+  commentId: M:H.Extensions.Common.ElementExtention.GetImplementationRoot(System.Windows.DependencyObject)
+  id: GetImplementationRoot(System.Windows.DependencyObject)
+  isExtensionMethod: true
+  parent: H.Extensions.Common.ElementExtention
+  langs:
+  - csharp
+  - vb
+  name: GetImplementationRoot(DependencyObject)
+  nameWithType: ElementExtention.GetImplementationRoot(DependencyObject)
+  fullName: H.Extensions.Common.ElementExtention.GetImplementationRoot(System.Windows.DependencyObject)
+  type: Method
+  source:
+    id: GetImplementationRoot
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extention.Element.cs
+    startLine: 241
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: public static FrameworkElement GetImplementationRoot(this DependencyObject d)
+    parameters:
+    - id: d
+      type: System.Windows.DependencyObject
+    return:
+      type: System.Windows.FrameworkElement
+    content.vb: Public Shared Function GetImplementationRoot(d As DependencyObject) As FrameworkElement
+  overload: H.Extensions.Common.ElementExtention.GetImplementationRoot*
+- uid: H.Extensions.Common.ElementExtention.PrintVisualTree(System.Windows.DependencyObject)
+  commentId: M:H.Extensions.Common.ElementExtention.PrintVisualTree(System.Windows.DependencyObject)
+  id: PrintVisualTree(System.Windows.DependencyObject)
+  isExtensionMethod: true
+  parent: H.Extensions.Common.ElementExtention
+  langs:
+  - csharp
+  - vb
+  name: PrintVisualTree(DependencyObject)
+  nameWithType: ElementExtention.PrintVisualTree(DependencyObject)
+  fullName: H.Extensions.Common.ElementExtention.PrintVisualTree(System.Windows.DependencyObject)
+  type: Method
+  source:
+    id: PrintVisualTree
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extention.Element.cs
+    startLine: 248
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: public static IEnumerable<DependencyObject> PrintVisualTree(this DependencyObject obj)
+    parameters:
+    - id: obj
+      type: System.Windows.DependencyObject
+    return:
+      type: System.Collections.Generic.IEnumerable{System.Windows.DependencyObject}
+    content.vb: Public Shared Function PrintVisualTree(obj As DependencyObject) As IEnumerable(Of DependencyObject)
+  overload: H.Extensions.Common.ElementExtention.PrintVisualTree*
+- uid: H.Extensions.Common.ElementExtention.PrintLogicalTree(System.Windows.DependencyObject)
+  commentId: M:H.Extensions.Common.ElementExtention.PrintLogicalTree(System.Windows.DependencyObject)
+  id: PrintLogicalTree(System.Windows.DependencyObject)
+  isExtensionMethod: true
+  parent: H.Extensions.Common.ElementExtention
+  langs:
+  - csharp
+  - vb
+  name: PrintLogicalTree(DependencyObject)
+  nameWithType: ElementExtention.PrintLogicalTree(DependencyObject)
+  fullName: H.Extensions.Common.ElementExtention.PrintLogicalTree(System.Windows.DependencyObject)
+  type: Method
+  source:
+    id: PrintLogicalTree
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extention.Element.cs
+    startLine: 263
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: public static IEnumerable<DependencyObject> PrintLogicalTree(this DependencyObject obj)
+    parameters:
+    - id: obj
+      type: System.Windows.DependencyObject
+    return:
+      type: System.Collections.Generic.IEnumerable{System.Windows.DependencyObject}
+    content.vb: Public Shared Function PrintLogicalTree(obj As DependencyObject) As IEnumerable(Of DependencyObject)
+  overload: H.Extensions.Common.ElementExtention.PrintLogicalTree*
+- uid: H.Extensions.Common.ElementExtention.FindAllVisualChild``1(System.Windows.DependencyObject,System.Predicate{``0})
+  commentId: M:H.Extensions.Common.ElementExtention.FindAllVisualChild``1(System.Windows.DependencyObject,System.Predicate{``0})
+  id: FindAllVisualChild``1(System.Windows.DependencyObject,System.Predicate{``0})
+  isExtensionMethod: true
+  parent: H.Extensions.Common.ElementExtention
+  langs:
+  - csharp
+  - vb
+  name: FindAllVisualChild<T>(DependencyObject, Predicate<T>)
+  nameWithType: ElementExtention.FindAllVisualChild<T>(DependencyObject, Predicate<T>)
+  fullName: H.Extensions.Common.ElementExtention.FindAllVisualChild<T>(System.Windows.DependencyObject, System.Predicate<T>)
+  type: Method
+  source:
+    id: FindAllVisualChild
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extention.Element.cs
+    startLine: 281
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: 'public static IEnumerable<T> FindAllVisualChild<T>(this DependencyObject obj, Predicate<T> match) where T : DependencyObject'
+    parameters:
+    - id: obj
+      type: System.Windows.DependencyObject
+    - id: match
+      type: System.Predicate{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: System.Collections.Generic.IEnumerable{{T}}
+    content.vb: Public Shared Function FindAllVisualChild(Of T As DependencyObject)(obj As DependencyObject, match As Predicate(Of T)) As IEnumerable(Of T)
+  overload: H.Extensions.Common.ElementExtention.FindAllVisualChild*
+  nameWithType.vb: ElementExtention.FindAllVisualChild(Of T)(DependencyObject, Predicate(Of T))
+  fullName.vb: H.Extensions.Common.ElementExtention.FindAllVisualChild(Of T)(System.Windows.DependencyObject, System.Predicate(Of T))
+  name.vb: FindAllVisualChild(Of T)(DependencyObject, Predicate(Of T))
+- uid: H.Extensions.Common.ElementExtention.Ancestors(System.Windows.DependencyObject)
+  commentId: M:H.Extensions.Common.ElementExtention.Ancestors(System.Windows.DependencyObject)
+  id: Ancestors(System.Windows.DependencyObject)
+  isExtensionMethod: true
+  parent: H.Extensions.Common.ElementExtention
+  langs:
+  - csharp
+  - vb
+  name: Ancestors(DependencyObject)
+  nameWithType: ElementExtention.Ancestors(DependencyObject)
+  fullName: H.Extensions.Common.ElementExtention.Ancestors(System.Windows.DependencyObject)
+  type: Method
+  source:
+    id: Ancestors
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extention.Element.cs
+    startLine: 302
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: public static IEnumerable<DependencyObject> Ancestors(this DependencyObject dependencyObject)
+    parameters:
+    - id: dependencyObject
+      type: System.Windows.DependencyObject
+    return:
+      type: System.Collections.Generic.IEnumerable{System.Windows.DependencyObject}
+    content.vb: Public Shared Function Ancestors(dependencyObject As DependencyObject) As IEnumerable(Of DependencyObject)
+  overload: H.Extensions.Common.ElementExtention.Ancestors*
+- uid: H.Extensions.Common.ElementExtention.AncestorsAndSelf(System.Windows.DependencyObject)
+  commentId: M:H.Extensions.Common.ElementExtention.AncestorsAndSelf(System.Windows.DependencyObject)
+  id: AncestorsAndSelf(System.Windows.DependencyObject)
+  isExtensionMethod: true
+  parent: H.Extensions.Common.ElementExtention
+  langs:
+  - csharp
+  - vb
+  name: AncestorsAndSelf(DependencyObject)
+  nameWithType: ElementExtention.AncestorsAndSelf(DependencyObject)
+  fullName: H.Extensions.Common.ElementExtention.AncestorsAndSelf(System.Windows.DependencyObject)
+  type: Method
+  source:
+    id: AncestorsAndSelf
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extention.Element.cs
+    startLine: 317
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: public static IEnumerable<DependencyObject> AncestorsAndSelf(this DependencyObject dependencyObject)
+    parameters:
+    - id: dependencyObject
+      type: System.Windows.DependencyObject
+    return:
+      type: System.Collections.Generic.IEnumerable{System.Windows.DependencyObject}
+    content.vb: Public Shared Function AncestorsAndSelf(dependencyObject As DependencyObject) As IEnumerable(Of DependencyObject)
+  overload: H.Extensions.Common.ElementExtention.AncestorsAndSelf*
+- uid: H.Extensions.Common.ElementExtention.GetParent(System.Windows.DependencyObject)
+  commentId: M:H.Extensions.Common.ElementExtention.GetParent(System.Windows.DependencyObject)
+  id: GetParent(System.Windows.DependencyObject)
+  isExtensionMethod: true
+  parent: H.Extensions.Common.ElementExtention
+  langs:
+  - csharp
+  - vb
+  name: GetParent(DependencyObject)
+  nameWithType: ElementExtention.GetParent(DependencyObject)
+  fullName: H.Extensions.Common.ElementExtention.GetParent(System.Windows.DependencyObject)
+  type: Method
+  source:
+    id: GetParent
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extention.Element.cs
+    startLine: 335
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: public static DependencyObject GetParent(this DependencyObject dependencyObject)
+    parameters:
+    - id: dependencyObject
+      type: System.Windows.DependencyObject
+    return:
+      type: System.Windows.DependencyObject
+    content.vb: Public Shared Function GetParent(dependencyObject As DependencyObject) As DependencyObject
+  overload: H.Extensions.Common.ElementExtention.GetParent*
+- uid: H.Extensions.Common.ElementExtention.GetParent(System.Windows.DependencyObject,System.Type)
+  commentId: M:H.Extensions.Common.ElementExtention.GetParent(System.Windows.DependencyObject,System.Type)
+  id: GetParent(System.Windows.DependencyObject,System.Type)
+  isExtensionMethod: true
+  parent: H.Extensions.Common.ElementExtention
+  langs:
+  - csharp
+  - vb
+  name: GetParent(DependencyObject, Type)
+  nameWithType: ElementExtention.GetParent(DependencyObject, Type)
+  fullName: H.Extensions.Common.ElementExtention.GetParent(System.Windows.DependencyObject, System.Type)
+  type: Method
+  source:
+    id: GetParent
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extention.Element.cs
+    startLine: 354
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: public static DependencyObject GetParent(this DependencyObject fe, Type lookForType)
+    parameters:
+    - id: fe
+      type: System.Windows.DependencyObject
+    - id: lookForType
+      type: System.Type
+    return:
+      type: System.Windows.DependencyObject
+    content.vb: Public Shared Function GetParent(fe As DependencyObject, lookForType As Type) As DependencyObject
+  overload: H.Extensions.Common.ElementExtention.GetParent*
+- uid: H.Extensions.Common.ElementExtention.GetValueSync``1(System.Windows.DependencyObject,System.Windows.DependencyProperty)
+  commentId: M:H.Extensions.Common.ElementExtention.GetValueSync``1(System.Windows.DependencyObject,System.Windows.DependencyProperty)
+  id: GetValueSync``1(System.Windows.DependencyObject,System.Windows.DependencyProperty)
+  isExtensionMethod: true
+  parent: H.Extensions.Common.ElementExtention
+  langs:
+  - csharp
+  - vb
+  name: GetValueSync<T>(DependencyObject, DependencyProperty)
+  nameWithType: ElementExtention.GetValueSync<T>(DependencyObject, DependencyProperty)
+  fullName: H.Extensions.Common.ElementExtention.GetValueSync<T>(System.Windows.DependencyObject, System.Windows.DependencyProperty)
+  type: Method
+  source:
+    id: GetValueSync
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extention.Element.cs
+    startLine: 367
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: public static T GetValueSync<T>(this DependencyObject obj, DependencyProperty property)
+    parameters:
+    - id: obj
+      type: System.Windows.DependencyObject
+    - id: property
+      type: System.Windows.DependencyProperty
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function GetValueSync(Of T)(obj As DependencyObject, [property] As DependencyProperty) As T
+  overload: H.Extensions.Common.ElementExtention.GetValueSync*
+  nameWithType.vb: ElementExtention.GetValueSync(Of T)(DependencyObject, DependencyProperty)
+  fullName.vb: H.Extensions.Common.ElementExtention.GetValueSync(Of T)(System.Windows.DependencyObject, System.Windows.DependencyProperty)
+  name.vb: GetValueSync(Of T)(DependencyObject, DependencyProperty)
+- uid: H.Extensions.Common.ElementExtention.SetValueSync``1(System.Windows.DependencyObject,System.Windows.DependencyProperty,``0)
+  commentId: M:H.Extensions.Common.ElementExtention.SetValueSync``1(System.Windows.DependencyObject,System.Windows.DependencyProperty,``0)
+  id: SetValueSync``1(System.Windows.DependencyObject,System.Windows.DependencyProperty,``0)
+  isExtensionMethod: true
+  parent: H.Extensions.Common.ElementExtention
+  langs:
+  - csharp
+  - vb
+  name: SetValueSync<T>(DependencyObject, DependencyProperty, T)
+  nameWithType: ElementExtention.SetValueSync<T>(DependencyObject, DependencyProperty, T)
+  fullName: H.Extensions.Common.ElementExtention.SetValueSync<T>(System.Windows.DependencyObject, System.Windows.DependencyProperty, T)
+  type: Method
+  source:
+    id: SetValueSync
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extention.Element.cs
+    startLine: 375
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: public static void SetValueSync<T>(this DependencyObject obj, DependencyProperty property, T value)
+    parameters:
+    - id: obj
+      type: System.Windows.DependencyObject
+    - id: property
+      type: System.Windows.DependencyProperty
+    - id: value
+      type: '{T}'
+    typeParameters:
+    - id: T
+    content.vb: Public Shared Sub SetValueSync(Of T)(obj As DependencyObject, [property] As DependencyProperty, value As T)
+  overload: H.Extensions.Common.ElementExtention.SetValueSync*
+  nameWithType.vb: ElementExtention.SetValueSync(Of T)(DependencyObject, DependencyProperty, T)
+  fullName.vb: H.Extensions.Common.ElementExtention.SetValueSync(Of T)(System.Windows.DependencyObject, System.Windows.DependencyProperty, T)
+  name.vb: SetValueSync(Of T)(DependencyObject, DependencyProperty, T)
+- uid: H.Extensions.Common.ElementExtention.GetAdorners(System.Windows.UIElement,System.Predicate{System.Windows.Documents.Adorner})
+  commentId: M:H.Extensions.Common.ElementExtention.GetAdorners(System.Windows.UIElement,System.Predicate{System.Windows.Documents.Adorner})
+  id: GetAdorners(System.Windows.UIElement,System.Predicate{System.Windows.Documents.Adorner})
+  isExtensionMethod: true
+  parent: H.Extensions.Common.ElementExtention
+  langs:
+  - csharp
+  - vb
+  name: GetAdorners(UIElement, Predicate<Adorner>)
+  nameWithType: ElementExtention.GetAdorners(UIElement, Predicate<Adorner>)
+  fullName: H.Extensions.Common.ElementExtention.GetAdorners(System.Windows.UIElement, System.Predicate<System.Windows.Documents.Adorner>)
+  type: Method
+  source:
+    id: GetAdorners
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extention.Element.cs
+    startLine: 383
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: public static IEnumerable<Adorner> GetAdorners(this UIElement element, Predicate<Adorner> predicate = null)
+    parameters:
+    - id: element
+      type: System.Windows.UIElement
+    - id: predicate
+      type: System.Predicate{System.Windows.Documents.Adorner}
+    return:
+      type: System.Collections.Generic.IEnumerable{System.Windows.Documents.Adorner}
+    content.vb: Public Shared Function GetAdorners(element As UIElement, predicate As Predicate(Of Adorner) = Nothing) As IEnumerable(Of Adorner)
+  overload: H.Extensions.Common.ElementExtention.GetAdorners*
+  nameWithType.vb: ElementExtention.GetAdorners(UIElement, Predicate(Of Adorner))
+  fullName.vb: H.Extensions.Common.ElementExtention.GetAdorners(System.Windows.UIElement, System.Predicate(Of System.Windows.Documents.Adorner))
+  name.vb: GetAdorners(UIElement, Predicate(Of Adorner))
+- uid: H.Extensions.Common.ElementExtention.GetAdorner(System.Windows.UIElement,System.Predicate{System.Windows.Documents.Adorner})
+  commentId: M:H.Extensions.Common.ElementExtention.GetAdorner(System.Windows.UIElement,System.Predicate{System.Windows.Documents.Adorner})
+  id: GetAdorner(System.Windows.UIElement,System.Predicate{System.Windows.Documents.Adorner})
+  isExtensionMethod: true
+  parent: H.Extensions.Common.ElementExtention
+  langs:
+  - csharp
+  - vb
+  name: GetAdorner(UIElement, Predicate<Adorner>)
+  nameWithType: ElementExtention.GetAdorner(UIElement, Predicate<Adorner>)
+  fullName: H.Extensions.Common.ElementExtention.GetAdorner(System.Windows.UIElement, System.Predicate<System.Windows.Documents.Adorner>)
+  type: Method
+  source:
+    id: GetAdorner
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extention.Element.cs
+    startLine: 392
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: public static Adorner GetAdorner(this UIElement element, Predicate<Adorner> predicate = null)
+    parameters:
+    - id: element
+      type: System.Windows.UIElement
+    - id: predicate
+      type: System.Predicate{System.Windows.Documents.Adorner}
+    return:
+      type: System.Windows.Documents.Adorner
+    content.vb: Public Shared Function GetAdorner(element As UIElement, predicate As Predicate(Of Adorner) = Nothing) As Adorner
+  overload: H.Extensions.Common.ElementExtention.GetAdorner*
+  nameWithType.vb: ElementExtention.GetAdorner(UIElement, Predicate(Of Adorner))
+  fullName.vb: H.Extensions.Common.ElementExtention.GetAdorner(System.Windows.UIElement, System.Predicate(Of System.Windows.Documents.Adorner))
+  name.vb: GetAdorner(UIElement, Predicate(Of Adorner))
+- uid: H.Extensions.Common.ElementExtention.AddAdorner(System.Windows.UIElement,System.Windows.Documents.Adorner)
+  commentId: M:H.Extensions.Common.ElementExtention.AddAdorner(System.Windows.UIElement,System.Windows.Documents.Adorner)
+  id: AddAdorner(System.Windows.UIElement,System.Windows.Documents.Adorner)
+  isExtensionMethod: true
+  parent: H.Extensions.Common.ElementExtention
+  langs:
+  - csharp
+  - vb
+  name: AddAdorner(UIElement, Adorner)
+  nameWithType: ElementExtention.AddAdorner(UIElement, Adorner)
+  fullName: H.Extensions.Common.ElementExtention.AddAdorner(System.Windows.UIElement, System.Windows.Documents.Adorner)
+  type: Method
+  source:
+    id: AddAdorner
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extention.Element.cs
+    startLine: 397
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: public static bool AddAdorner(this UIElement element, Adorner adorner)
+    parameters:
+    - id: element
+      type: System.Windows.UIElement
+    - id: adorner
+      type: System.Windows.Documents.Adorner
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function AddAdorner(element As UIElement, adorner As Adorner) As Boolean
+  overload: H.Extensions.Common.ElementExtention.AddAdorner*
+- uid: H.Extensions.Common.ElementExtention.ClearAdorner(System.Windows.UIElement,System.Predicate{System.Windows.Documents.Adorner})
+  commentId: M:H.Extensions.Common.ElementExtention.ClearAdorner(System.Windows.UIElement,System.Predicate{System.Windows.Documents.Adorner})
+  id: ClearAdorner(System.Windows.UIElement,System.Predicate{System.Windows.Documents.Adorner})
+  isExtensionMethod: true
+  parent: H.Extensions.Common.ElementExtention
+  langs:
+  - csharp
+  - vb
+  name: ClearAdorner(UIElement, Predicate<Adorner>)
+  nameWithType: ElementExtention.ClearAdorner(UIElement, Predicate<Adorner>)
+  fullName: H.Extensions.Common.ElementExtention.ClearAdorner(System.Windows.UIElement, System.Predicate<System.Windows.Documents.Adorner>)
+  type: Method
+  source:
+    id: ClearAdorner
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extention.Element.cs
+    startLine: 406
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: public static bool ClearAdorner(this UIElement element, Predicate<Adorner> predicate = null)
+    parameters:
+    - id: element
+      type: System.Windows.UIElement
+    - id: predicate
+      type: System.Predicate{System.Windows.Documents.Adorner}
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function ClearAdorner(element As UIElement, predicate As Predicate(Of Adorner) = Nothing) As Boolean
+  overload: H.Extensions.Common.ElementExtention.ClearAdorner*
+  nameWithType.vb: ElementExtention.ClearAdorner(UIElement, Predicate(Of Adorner))
+  fullName.vb: H.Extensions.Common.ElementExtention.ClearAdorner(System.Windows.UIElement, System.Predicate(Of System.Windows.Documents.Adorner))
+  name.vb: ClearAdorner(UIElement, Predicate(Of Adorner))
+- uid: H.Extensions.Common.ElementExtention.HitTest``1(System.Windows.UIElement,System.Windows.Point,System.Predicate{``0})
+  commentId: M:H.Extensions.Common.ElementExtention.HitTest``1(System.Windows.UIElement,System.Windows.Point,System.Predicate{``0})
+  id: HitTest``1(System.Windows.UIElement,System.Windows.Point,System.Predicate{``0})
+  isExtensionMethod: true
+  parent: H.Extensions.Common.ElementExtention
+  langs:
+  - csharp
+  - vb
+  name: HitTest<T>(UIElement, Point, Predicate<T>)
+  nameWithType: ElementExtention.HitTest<T>(UIElement, Point, Predicate<T>)
+  fullName: H.Extensions.Common.ElementExtention.HitTest<T>(System.Windows.UIElement, System.Windows.Point, System.Predicate<T>)
+  type: Method
+  source:
+    id: HitTest
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extention.Element.cs
+    startLine: 421
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: 'public static T HitTest<T>(this UIElement element, Point point, Predicate<T> predicate = null) where T : DependencyObject'
+    parameters:
+    - id: element
+      type: System.Windows.UIElement
+    - id: point
+      type: System.Windows.Point
+    - id: predicate
+      type: System.Predicate{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function HitTest(Of T As DependencyObject)(element As UIElement, point As Point, predicate As Predicate(Of T) = Nothing) As T
+  overload: H.Extensions.Common.ElementExtention.HitTest*
+  nameWithType.vb: ElementExtention.HitTest(Of T)(UIElement, Point, Predicate(Of T))
+  fullName.vb: H.Extensions.Common.ElementExtention.HitTest(Of T)(System.Windows.UIElement, System.Windows.Point, System.Predicate(Of T))
+  name.vb: HitTest(Of T)(UIElement, Point, Predicate(Of T))
+- uid: H.Extensions.Common.ElementExtention.HitTest``1(System.Windows.UIElement,System.Windows.Point)
+  commentId: M:H.Extensions.Common.ElementExtention.HitTest``1(System.Windows.UIElement,System.Windows.Point)
+  id: HitTest``1(System.Windows.UIElement,System.Windows.Point)
+  isExtensionMethod: true
+  parent: H.Extensions.Common.ElementExtention
+  langs:
+  - csharp
+  - vb
+  name: HitTest<T>(UIElement, Point)
+  nameWithType: ElementExtention.HitTest<T>(UIElement, Point)
+  fullName: H.Extensions.Common.ElementExtention.HitTest<T>(System.Windows.UIElement, System.Windows.Point)
+  type: Method
+  source:
+    id: HitTest
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extention.Element.cs
+    startLine: 452
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: 'public static T HitTest<T>(this UIElement element, Point point) where T : DependencyObject'
+    parameters:
+    - id: element
+      type: System.Windows.UIElement
+    - id: point
+      type: System.Windows.Point
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function HitTest(Of T As DependencyObject)(element As UIElement, point As Point) As T
+  overload: H.Extensions.Common.ElementExtention.HitTest*
+  nameWithType.vb: ElementExtention.HitTest(Of T)(UIElement, Point)
+  fullName.vb: H.Extensions.Common.ElementExtention.HitTest(Of T)(System.Windows.UIElement, System.Windows.Point)
+  name.vb: HitTest(Of T)(UIElement, Point)
+- uid: H.Extensions.Common.ElementExtention.HitTest``1(System.Windows.UIElement,System.Windows.Media.Geometry,System.Predicate{``0})
+  commentId: M:H.Extensions.Common.ElementExtention.HitTest``1(System.Windows.UIElement,System.Windows.Media.Geometry,System.Predicate{``0})
+  id: HitTest``1(System.Windows.UIElement,System.Windows.Media.Geometry,System.Predicate{``0})
+  isExtensionMethod: true
+  parent: H.Extensions.Common.ElementExtention
+  langs:
+  - csharp
+  - vb
+  name: HitTest<T>(UIElement, Geometry, Predicate<T>)
+  nameWithType: ElementExtention.HitTest<T>(UIElement, Geometry, Predicate<T>)
+  fullName: H.Extensions.Common.ElementExtention.HitTest<T>(System.Windows.UIElement, System.Windows.Media.Geometry, System.Predicate<T>)
+  type: Method
+  source:
+    id: HitTest
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extention.Element.cs
+    startLine: 459
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: 'public static T HitTest<T>(this UIElement element, Geometry geometry, Predicate<T> predicate = null) where T : DependencyObject'
+    parameters:
+    - id: element
+      type: System.Windows.UIElement
+    - id: geometry
+      type: System.Windows.Media.Geometry
+    - id: predicate
+      type: System.Predicate{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function HitTest(Of T As DependencyObject)(element As UIElement, geometry As Geometry, predicate As Predicate(Of T) = Nothing) As T
+  overload: H.Extensions.Common.ElementExtention.HitTest*
+  nameWithType.vb: ElementExtention.HitTest(Of T)(UIElement, Geometry, Predicate(Of T))
+  fullName.vb: H.Extensions.Common.ElementExtention.HitTest(Of T)(System.Windows.UIElement, System.Windows.Media.Geometry, System.Predicate(Of T))
+  name.vb: HitTest(Of T)(UIElement, Geometry, Predicate(Of T))
+- uid: H.Extensions.Common.ElementExtention.GetDataContext(System.Windows.UIElement)
+  commentId: M:H.Extensions.Common.ElementExtention.GetDataContext(System.Windows.UIElement)
+  id: GetDataContext(System.Windows.UIElement)
+  isExtensionMethod: true
+  parent: H.Extensions.Common.ElementExtention
+  langs:
+  - csharp
+  - vb
+  name: GetDataContext(UIElement)
+  nameWithType: ElementExtention.GetDataContext(UIElement)
+  fullName: H.Extensions.Common.ElementExtention.GetDataContext(System.Windows.UIElement)
+  type: Method
+  source:
+    id: GetDataContext
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extention.Element.cs
+    startLine: 490
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: public static object GetDataContext(this UIElement element)
+    parameters:
+    - id: element
+      type: System.Windows.UIElement
+    return:
+      type: System.Object
+    content.vb: Public Shared Function GetDataContext(element As UIElement) As Object
+  overload: H.Extensions.Common.ElementExtention.GetDataContext*
+- uid: H.Extensions.Common.ElementExtention.GetContent(System.Windows.UIElement)
+  commentId: M:H.Extensions.Common.ElementExtention.GetContent(System.Windows.UIElement)
+  id: GetContent(System.Windows.UIElement)
+  isExtensionMethod: true
+  parent: H.Extensions.Common.ElementExtention
+  langs:
+  - csharp
+  - vb
+  name: GetContent(UIElement)
+  nameWithType: ElementExtention.GetContent(UIElement)
+  fullName: H.Extensions.Common.ElementExtention.GetContent(System.Windows.UIElement)
+  type: Method
+  source:
+    id: GetContent
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extention.Element.cs
+    startLine: 495
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: public static object GetContent(this UIElement element)
+    parameters:
+    - id: element
+      type: System.Windows.UIElement
+    return:
+      type: System.Object
+    content.vb: Public Shared Function GetContent(element As UIElement) As Object
+  overload: H.Extensions.Common.ElementExtention.GetContent*
+- uid: H.Extensions.Common.ElementExtention.GetItemsSource``1(System.Windows.UIElement)
+  commentId: M:H.Extensions.Common.ElementExtention.GetItemsSource``1(System.Windows.UIElement)
+  id: GetItemsSource``1(System.Windows.UIElement)
+  isExtensionMethod: true
+  parent: H.Extensions.Common.ElementExtention
+  langs:
+  - csharp
+  - vb
+  name: GetItemsSource<T>(UIElement)
+  nameWithType: ElementExtention.GetItemsSource<T>(UIElement)
+  fullName: H.Extensions.Common.ElementExtention.GetItemsSource<T>(System.Windows.UIElement)
+  type: Method
+  source:
+    id: GetItemsSource
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extention.Element.cs
+    startLine: 506
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: 'public static T GetItemsSource<T>(this UIElement element) where T : IEnumerable'
+    parameters:
+    - id: element
+      type: System.Windows.UIElement
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function GetItemsSource(Of T As IEnumerable)(element As UIElement) As T
+  overload: H.Extensions.Common.ElementExtention.GetItemsSource*
+  nameWithType.vb: ElementExtention.GetItemsSource(Of T)(UIElement)
+  fullName.vb: H.Extensions.Common.ElementExtention.GetItemsSource(Of T)(System.Windows.UIElement)
+  name.vb: GetItemsSource(Of T)(UIElement)
+- uid: H.Extensions.Common.ElementExtention.GetVisualRoot``1(System.Windows.DependencyObject)
+  commentId: M:H.Extensions.Common.ElementExtention.GetVisualRoot``1(System.Windows.DependencyObject)
+  id: GetVisualRoot``1(System.Windows.DependencyObject)
+  isExtensionMethod: true
+  parent: H.Extensions.Common.ElementExtention
+  langs:
+  - csharp
+  - vb
+  name: GetVisualRoot<T>(DependencyObject)
+  nameWithType: ElementExtention.GetVisualRoot<T>(DependencyObject)
+  fullName: H.Extensions.Common.ElementExtention.GetVisualRoot<T>(System.Windows.DependencyObject)
+  type: Method
+  source:
+    id: GetVisualRoot
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extention.Element.cs
+    startLine: 513
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: 'public static T GetVisualRoot<T>(this DependencyObject child) where T : DependencyObject'
+    parameters:
+    - id: child
+      type: System.Windows.DependencyObject
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function GetVisualRoot(Of T As DependencyObject)(child As DependencyObject) As T
+  overload: H.Extensions.Common.ElementExtention.GetVisualRoot*
+  nameWithType.vb: ElementExtention.GetVisualRoot(Of T)(DependencyObject)
+  fullName.vb: H.Extensions.Common.ElementExtention.GetVisualRoot(Of T)(System.Windows.DependencyObject)
+  name.vb: GetVisualRoot(Of T)(DependencyObject)
+references:
+- uid: H.Extensions.Common
+  commentId: N:H.Extensions.Common
+  href: H.html
+  name: H.Extensions.Common
+  nameWithType: H.Extensions.Common
+  fullName: H.Extensions.Common
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Common
+    name: Common
+    href: H.Extensions.Common.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Common
+    name: Common
+    href: H.Extensions.Common.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: H.Extensions.Common.ElementExtention.BindCommand*
+  commentId: Overload:H.Extensions.Common.ElementExtention.BindCommand
+  href: H.Extensions.Common.ElementExtention.html#H_Extensions_Common_ElementExtention_BindCommand_System_Windows_UIElement_System_Windows_Input_ICommand_System_Action_System_Object_System_Windows_Input_ExecutedRoutedEventArgs__
+  name: BindCommand
+  nameWithType: ElementExtention.BindCommand
+  fullName: H.Extensions.Common.ElementExtention.BindCommand
+- uid: System.Windows.UIElement
+  commentId: T:System.Windows.UIElement
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.uielement
+  name: UIElement
+  nameWithType: UIElement
+  fullName: System.Windows.UIElement
+- uid: System.Windows.Input.ICommand
+  commentId: T:System.Windows.Input.ICommand
+  parent: System.Windows.Input
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.input.icommand
+  name: ICommand
+  nameWithType: ICommand
+  fullName: System.Windows.Input.ICommand
+- uid: System.Action{System.Object,System.Windows.Input.ExecutedRoutedEventArgs}
+  commentId: T:System.Action{System.Object,System.Windows.Input.ExecutedRoutedEventArgs}
+  parent: System
+  definition: System.Action`2
+  href: https://learn.microsoft.com/dotnet/api/system.action-2
+  name: Action<object, ExecutedRoutedEventArgs>
+  nameWithType: Action<object, ExecutedRoutedEventArgs>
+  fullName: System.Action<object, System.Windows.Input.ExecutedRoutedEventArgs>
+  nameWithType.vb: Action(Of Object, ExecutedRoutedEventArgs)
+  fullName.vb: System.Action(Of Object, System.Windows.Input.ExecutedRoutedEventArgs)
+  name.vb: Action(Of Object, ExecutedRoutedEventArgs)
+  spec.csharp:
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: <
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Input.ExecutedRoutedEventArgs
+    name: ExecutedRoutedEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input.executedroutedeventargs
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Windows.Input.ExecutedRoutedEventArgs
+    name: ExecutedRoutedEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input.executedroutedeventargs
+  - name: )
+- uid: System.Windows
+  commentId: N:System.Windows
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows
+  nameWithType: System.Windows
+  fullName: System.Windows
+  spec.csharp:
+  - uid: System
+    name: System
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  spec.vb:
+  - uid: System
+    name: System
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+- uid: System.Windows.Input
+  commentId: N:System.Windows.Input
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Input
+  nameWithType: System.Windows.Input
+  fullName: System.Windows.Input
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Input
+    name: Input
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Input
+    name: Input
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input
+- uid: System.Action`2
+  commentId: T:System.Action`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action-2
+  name: Action<T1, T2>
+  nameWithType: Action<T1, T2>
+  fullName: System.Action<T1, T2>
+  nameWithType.vb: Action(Of T1, T2)
+  fullName.vb: System.Action(Of T1, T2)
+  name.vb: Action(Of T1, T2)
+  spec.csharp:
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+- uid: H.Extensions.Common.ElementExtention.Visible*
+  commentId: Overload:H.Extensions.Common.ElementExtention.Visible
+  href: H.Extensions.Common.ElementExtention.html#H_Extensions_Common_ElementExtention_Visible_System_Windows_UIElement_
+  name: Visible
+  nameWithType: ElementExtention.Visible
+  fullName: H.Extensions.Common.ElementExtention.Visible
+- uid: H.Extensions.Common.ElementExtention.VisibilityWith*
+  commentId: Overload:H.Extensions.Common.ElementExtention.VisibilityWith
+  href: H.Extensions.Common.ElementExtention.html#H_Extensions_Common_ElementExtention_VisibilityWith_System_Windows_UIElement_System_Boolean_
+  name: VisibilityWith
+  nameWithType: ElementExtention.VisibilityWith
+  fullName: H.Extensions.Common.ElementExtention.VisibilityWith
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: H.Extensions.Common.ElementExtention.Hidden*
+  commentId: Overload:H.Extensions.Common.ElementExtention.Hidden
+  href: H.Extensions.Common.ElementExtention.html#H_Extensions_Common_ElementExtention_Hidden_System_Windows_UIElement_
+  name: Hidden
+  nameWithType: ElementExtention.Hidden
+  fullName: H.Extensions.Common.ElementExtention.Hidden
+- uid: H.Extensions.Common.ElementExtention.Collapsed*
+  commentId: Overload:H.Extensions.Common.ElementExtention.Collapsed
+  href: H.Extensions.Common.ElementExtention.html#H_Extensions_Common_ElementExtention_Collapsed_System_Windows_UIElement_
+  name: Collapsed
+  nameWithType: ElementExtention.Collapsed
+  fullName: H.Extensions.Common.ElementExtention.Collapsed
+- uid: H.Extensions.Common.ElementExtention.GetChild*
+  commentId: Overload:H.Extensions.Common.ElementExtention.GetChild
+  href: H.Extensions.Common.ElementExtention.html#H_Extensions_Common_ElementExtention_GetChild__1_System_Windows_DependencyObject_System_Func___0_System_Boolean__
+  name: GetChild
+  nameWithType: ElementExtention.GetChild
+  fullName: H.Extensions.Common.ElementExtention.GetChild
+- uid: System.Windows.DependencyObject
+  commentId: T:System.Windows.DependencyObject
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject
+  name: DependencyObject
+  nameWithType: DependencyObject
+  fullName: System.Windows.DependencyObject
+- uid: System.Func{{T},System.Boolean}
+  commentId: T:System.Func{``0,System.Boolean}
+  parent: System
+  definition: System.Func`2
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<T, bool>
+  nameWithType: Func<T, bool>
+  fullName: System.Func<T, bool>
+  nameWithType.vb: Func(Of T, Boolean)
+  fullName.vb: System.Func(Of T, Boolean)
+  name.vb: Func(Of T, Boolean)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: H.Extensions.Common.ElementExtention.GetChildren*
+  commentId: Overload:H.Extensions.Common.ElementExtention.GetChildren
+  href: H.Extensions.Common.ElementExtention.html#H_Extensions_Common_ElementExtention_GetChildren__1_System_Windows_DependencyObject_System_Func___0_System_Boolean__System_Boolean_
+  name: GetChildren
+  nameWithType: ElementExtention.GetChildren
+  fullName: H.Extensions.Common.ElementExtention.GetChildren
+- uid: System.Collections.Generic.IEnumerable{{T}}
+  commentId: T:System.Collections.Generic.IEnumerable{``0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: H.Extensions.Common.ElementExtention.GetParent*
+  commentId: Overload:H.Extensions.Common.ElementExtention.GetParent
+  href: H.Extensions.Common.ElementExtention.html#H_Extensions_Common_ElementExtention_GetParent__1_System_Windows_DependencyObject_
+  name: GetParent
+  nameWithType: ElementExtention.GetParent
+  fullName: H.Extensions.Common.ElementExtention.GetParent
+- uid: H.Extensions.Common.ElementExtention.GetTemplateByName*
+  commentId: Overload:H.Extensions.Common.ElementExtention.GetTemplateByName
+  href: H.Extensions.Common.ElementExtention.html#H_Extensions_Common_ElementExtention_GetTemplateByName__1_System_Windows_Controls_Control_System_String_
+  name: GetTemplateByName
+  nameWithType: ElementExtention.GetTemplateByName
+  fullName: H.Extensions.Common.ElementExtention.GetTemplateByName
+- uid: System.Windows.Controls.Control
+  commentId: T:System.Windows.Controls.Control
+  parent: System.Windows.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.controls.control
+  name: Control
+  nameWithType: Control
+  fullName: System.Windows.Controls.Control
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Windows.Controls
+  commentId: N:System.Windows.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Controls
+  nameWithType: System.Windows.Controls
+  fullName: System.Windows.Controls
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Controls
+    name: Controls
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.controls
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Controls
+    name: Controls
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.controls
+- uid: H.Extensions.Common.ElementExtention.GetElement*
+  commentId: Overload:H.Extensions.Common.ElementExtention.GetElement
+  href: H.Extensions.Common.ElementExtention.html#H_Extensions_Common_ElementExtention_GetElement__1_System_Windows_DependencyObject_
+  name: GetElement
+  nameWithType: ElementExtention.GetElement
+  fullName: H.Extensions.Common.ElementExtention.GetElement
+- uid: H.Extensions.Common.ElementExtention.GetElements*
+  commentId: Overload:H.Extensions.Common.ElementExtention.GetElements
+  href: H.Extensions.Common.ElementExtention.html#H_Extensions_Common_ElementExtention_GetElements__1_System_Windows_DependencyObject_
+  name: GetElements
+  nameWithType: ElementExtention.GetElements
+  fullName: H.Extensions.Common.ElementExtention.GetElements
+- uid: H.Extensions.Common.ElementExtention.TryGetVisualStateGroup*
+  commentId: Overload:H.Extensions.Common.ElementExtention.TryGetVisualStateGroup
+  href: H.Extensions.Common.ElementExtention.html#H_Extensions_Common_ElementExtention_TryGetVisualStateGroup_System_Windows_DependencyObject_System_String_
+  name: TryGetVisualStateGroup
+  nameWithType: ElementExtention.TryGetVisualStateGroup
+  fullName: H.Extensions.Common.ElementExtention.TryGetVisualStateGroup
+- uid: System.Windows.VisualStateGroup
+  commentId: T:System.Windows.VisualStateGroup
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.visualstategroup
+  name: VisualStateGroup
+  nameWithType: VisualStateGroup
+  fullName: System.Windows.VisualStateGroup
+- uid: H.Extensions.Common.ElementExtention.GetImplementationRoot*
+  commentId: Overload:H.Extensions.Common.ElementExtention.GetImplementationRoot
+  href: H.Extensions.Common.ElementExtention.html#H_Extensions_Common_ElementExtention_GetImplementationRoot_System_Windows_DependencyObject_
+  name: GetImplementationRoot
+  nameWithType: ElementExtention.GetImplementationRoot
+  fullName: H.Extensions.Common.ElementExtention.GetImplementationRoot
+- uid: System.Windows.FrameworkElement
+  commentId: T:System.Windows.FrameworkElement
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement
+  name: FrameworkElement
+  nameWithType: FrameworkElement
+  fullName: System.Windows.FrameworkElement
+- uid: H.Extensions.Common.ElementExtention.PrintVisualTree*
+  commentId: Overload:H.Extensions.Common.ElementExtention.PrintVisualTree
+  href: H.Extensions.Common.ElementExtention.html#H_Extensions_Common_ElementExtention_PrintVisualTree_System_Windows_DependencyObject_
+  name: PrintVisualTree
+  nameWithType: ElementExtention.PrintVisualTree
+  fullName: H.Extensions.Common.ElementExtention.PrintVisualTree
+- uid: System.Collections.Generic.IEnumerable{System.Windows.DependencyObject}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Windows.DependencyObject}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<DependencyObject>
+  nameWithType: IEnumerable<DependencyObject>
+  fullName: System.Collections.Generic.IEnumerable<System.Windows.DependencyObject>
+  nameWithType.vb: IEnumerable(Of DependencyObject)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Windows.DependencyObject)
+  name.vb: IEnumerable(Of DependencyObject)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Windows.DependencyObject
+    name: DependencyObject
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Windows.DependencyObject
+    name: DependencyObject
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject
+  - name: )
+- uid: H.Extensions.Common.ElementExtention.PrintLogicalTree*
+  commentId: Overload:H.Extensions.Common.ElementExtention.PrintLogicalTree
+  href: H.Extensions.Common.ElementExtention.html#H_Extensions_Common_ElementExtention_PrintLogicalTree_System_Windows_DependencyObject_
+  name: PrintLogicalTree
+  nameWithType: ElementExtention.PrintLogicalTree
+  fullName: H.Extensions.Common.ElementExtention.PrintLogicalTree
+- uid: H.Extensions.Common.ElementExtention.FindAllVisualChild*
+  commentId: Overload:H.Extensions.Common.ElementExtention.FindAllVisualChild
+  href: H.Extensions.Common.ElementExtention.html#H_Extensions_Common_ElementExtention_FindAllVisualChild__1_System_Windows_DependencyObject_System_Predicate___0__
+  name: FindAllVisualChild
+  nameWithType: ElementExtention.FindAllVisualChild
+  fullName: H.Extensions.Common.ElementExtention.FindAllVisualChild
+- uid: System.Predicate{{T}}
+  commentId: T:System.Predicate{``0}
+  parent: System
+  definition: System.Predicate`1
+  href: https://learn.microsoft.com/dotnet/api/system.predicate-1
+  name: Predicate<T>
+  nameWithType: Predicate<T>
+  fullName: System.Predicate<T>
+  nameWithType.vb: Predicate(Of T)
+  fullName.vb: System.Predicate(Of T)
+  name.vb: Predicate(Of T)
+  spec.csharp:
+  - uid: System.Predicate`1
+    name: Predicate
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.predicate-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Predicate`1
+    name: Predicate
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.predicate-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Predicate`1
+  commentId: T:System.Predicate`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.predicate-1
+  name: Predicate<T>
+  nameWithType: Predicate<T>
+  fullName: System.Predicate<T>
+  nameWithType.vb: Predicate(Of T)
+  fullName.vb: System.Predicate(Of T)
+  name.vb: Predicate(Of T)
+  spec.csharp:
+  - uid: System.Predicate`1
+    name: Predicate
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.predicate-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Predicate`1
+    name: Predicate
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.predicate-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Extensions.Common.ElementExtention.Ancestors*
+  commentId: Overload:H.Extensions.Common.ElementExtention.Ancestors
+  href: H.Extensions.Common.ElementExtention.html#H_Extensions_Common_ElementExtention_Ancestors_System_Windows_DependencyObject_
+  name: Ancestors
+  nameWithType: ElementExtention.Ancestors
+  fullName: H.Extensions.Common.ElementExtention.Ancestors
+- uid: H.Extensions.Common.ElementExtention.AncestorsAndSelf*
+  commentId: Overload:H.Extensions.Common.ElementExtention.AncestorsAndSelf
+  href: H.Extensions.Common.ElementExtention.html#H_Extensions_Common_ElementExtention_AncestorsAndSelf_System_Windows_DependencyObject_
+  name: AncestorsAndSelf
+  nameWithType: ElementExtention.AncestorsAndSelf
+  fullName: H.Extensions.Common.ElementExtention.AncestorsAndSelf
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: H.Extensions.Common.ElementExtention.GetValueSync*
+  commentId: Overload:H.Extensions.Common.ElementExtention.GetValueSync
+  href: H.Extensions.Common.ElementExtention.html#H_Extensions_Common_ElementExtention_GetValueSync__1_System_Windows_DependencyObject_System_Windows_DependencyProperty_
+  name: GetValueSync
+  nameWithType: ElementExtention.GetValueSync
+  fullName: H.Extensions.Common.ElementExtention.GetValueSync
+- uid: System.Windows.DependencyProperty
+  commentId: T:System.Windows.DependencyProperty
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty
+  name: DependencyProperty
+  nameWithType: DependencyProperty
+  fullName: System.Windows.DependencyProperty
+- uid: H.Extensions.Common.ElementExtention.SetValueSync*
+  commentId: Overload:H.Extensions.Common.ElementExtention.SetValueSync
+  href: H.Extensions.Common.ElementExtention.html#H_Extensions_Common_ElementExtention_SetValueSync__1_System_Windows_DependencyObject_System_Windows_DependencyProperty___0_
+  name: SetValueSync
+  nameWithType: ElementExtention.SetValueSync
+  fullName: H.Extensions.Common.ElementExtention.SetValueSync
+- uid: H.Extensions.Common.ElementExtention.GetAdorners*
+  commentId: Overload:H.Extensions.Common.ElementExtention.GetAdorners
+  href: H.Extensions.Common.ElementExtention.html#H_Extensions_Common_ElementExtention_GetAdorners_System_Windows_UIElement_System_Predicate_System_Windows_Documents_Adorner__
+  name: GetAdorners
+  nameWithType: ElementExtention.GetAdorners
+  fullName: H.Extensions.Common.ElementExtention.GetAdorners
+- uid: System.Predicate{System.Windows.Documents.Adorner}
+  commentId: T:System.Predicate{System.Windows.Documents.Adorner}
+  parent: System
+  definition: System.Predicate`1
+  href: https://learn.microsoft.com/dotnet/api/system.predicate-1
+  name: Predicate<Adorner>
+  nameWithType: Predicate<Adorner>
+  fullName: System.Predicate<System.Windows.Documents.Adorner>
+  nameWithType.vb: Predicate(Of Adorner)
+  fullName.vb: System.Predicate(Of System.Windows.Documents.Adorner)
+  name.vb: Predicate(Of Adorner)
+  spec.csharp:
+  - uid: System.Predicate`1
+    name: Predicate
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.predicate-1
+  - name: <
+  - uid: System.Windows.Documents.Adorner
+    name: Adorner
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.documents.adorner
+  - name: '>'
+  spec.vb:
+  - uid: System.Predicate`1
+    name: Predicate
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.predicate-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Windows.Documents.Adorner
+    name: Adorner
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.documents.adorner
+  - name: )
+- uid: System.Collections.Generic.IEnumerable{System.Windows.Documents.Adorner}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Windows.Documents.Adorner}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<Adorner>
+  nameWithType: IEnumerable<Adorner>
+  fullName: System.Collections.Generic.IEnumerable<System.Windows.Documents.Adorner>
+  nameWithType.vb: IEnumerable(Of Adorner)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Windows.Documents.Adorner)
+  name.vb: IEnumerable(Of Adorner)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Windows.Documents.Adorner
+    name: Adorner
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.documents.adorner
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Windows.Documents.Adorner
+    name: Adorner
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.documents.adorner
+  - name: )
+- uid: H.Extensions.Common.ElementExtention.GetAdorner*
+  commentId: Overload:H.Extensions.Common.ElementExtention.GetAdorner
+  href: H.Extensions.Common.ElementExtention.html#H_Extensions_Common_ElementExtention_GetAdorner_System_Windows_UIElement_System_Predicate_System_Windows_Documents_Adorner__
+  name: GetAdorner
+  nameWithType: ElementExtention.GetAdorner
+  fullName: H.Extensions.Common.ElementExtention.GetAdorner
+- uid: System.Windows.Documents.Adorner
+  commentId: T:System.Windows.Documents.Adorner
+  parent: System.Windows.Documents
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.documents.adorner
+  name: Adorner
+  nameWithType: Adorner
+  fullName: System.Windows.Documents.Adorner
+- uid: System.Windows.Documents
+  commentId: N:System.Windows.Documents
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Documents
+  nameWithType: System.Windows.Documents
+  fullName: System.Windows.Documents
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Documents
+    name: Documents
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.documents
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Documents
+    name: Documents
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.documents
+- uid: H.Extensions.Common.ElementExtention.AddAdorner*
+  commentId: Overload:H.Extensions.Common.ElementExtention.AddAdorner
+  href: H.Extensions.Common.ElementExtention.html#H_Extensions_Common_ElementExtention_AddAdorner_System_Windows_UIElement_System_Windows_Documents_Adorner_
+  name: AddAdorner
+  nameWithType: ElementExtention.AddAdorner
+  fullName: H.Extensions.Common.ElementExtention.AddAdorner
+- uid: H.Extensions.Common.ElementExtention.ClearAdorner*
+  commentId: Overload:H.Extensions.Common.ElementExtention.ClearAdorner
+  href: H.Extensions.Common.ElementExtention.html#H_Extensions_Common_ElementExtention_ClearAdorner_System_Windows_UIElement_System_Predicate_System_Windows_Documents_Adorner__
+  name: ClearAdorner
+  nameWithType: ElementExtention.ClearAdorner
+  fullName: H.Extensions.Common.ElementExtention.ClearAdorner
+- uid: H.Extensions.Common.ElementExtention.HitTest*
+  commentId: Overload:H.Extensions.Common.ElementExtention.HitTest
+  href: H.Extensions.Common.ElementExtention.html#H_Extensions_Common_ElementExtention_HitTest__1_System_Windows_UIElement_System_Windows_Point_System_Predicate___0__
+  name: HitTest
+  nameWithType: ElementExtention.HitTest
+  fullName: H.Extensions.Common.ElementExtention.HitTest
+- uid: System.Windows.Point
+  commentId: T:System.Windows.Point
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  name: Point
+  nameWithType: Point
+  fullName: System.Windows.Point
+- uid: System.Windows.Media.Geometry
+  commentId: T:System.Windows.Media.Geometry
+  parent: System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.geometry
+  name: Geometry
+  nameWithType: Geometry
+  fullName: System.Windows.Media.Geometry
+- uid: System.Windows.Media
+  commentId: N:System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Media
+  nameWithType: System.Windows.Media
+  fullName: System.Windows.Media
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+- uid: H.Extensions.Common.ElementExtention.GetDataContext*
+  commentId: Overload:H.Extensions.Common.ElementExtention.GetDataContext
+  href: H.Extensions.Common.ElementExtention.html#H_Extensions_Common_ElementExtention_GetDataContext_System_Windows_UIElement_
+  name: GetDataContext
+  nameWithType: ElementExtention.GetDataContext
+  fullName: H.Extensions.Common.ElementExtention.GetDataContext
+- uid: H.Extensions.Common.ElementExtention.GetContent*
+  commentId: Overload:H.Extensions.Common.ElementExtention.GetContent
+  href: H.Extensions.Common.ElementExtention.html#H_Extensions_Common_ElementExtention_GetContent_System_Windows_UIElement_
+  name: GetContent
+  nameWithType: ElementExtention.GetContent
+  fullName: H.Extensions.Common.ElementExtention.GetContent
+- uid: H.Extensions.Common.ElementExtention.GetItemsSource*
+  commentId: Overload:H.Extensions.Common.ElementExtention.GetItemsSource
+  href: H.Extensions.Common.ElementExtention.html#H_Extensions_Common_ElementExtention_GetItemsSource__1_System_Windows_UIElement_
+  name: GetItemsSource
+  nameWithType: ElementExtention.GetItemsSource
+  fullName: H.Extensions.Common.ElementExtention.GetItemsSource
+- uid: H.Extensions.Common.ElementExtention.GetVisualRoot*
+  commentId: Overload:H.Extensions.Common.ElementExtention.GetVisualRoot
+  href: H.Extensions.Common.ElementExtention.html#H_Extensions_Common_ElementExtention_GetVisualRoot__1_System_Windows_DependencyObject_
+  name: GetVisualRoot
+  nameWithType: ElementExtention.GetVisualRoot
+  fullName: H.Extensions.Common.ElementExtention.GetVisualRoot

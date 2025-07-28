@@ -1,0 +1,341 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Windows.Ribbon
+  commentId: N:H.Windows.Ribbon
+  id: H.Windows.Ribbon
+  children:
+  - H.Windows.Ribbon.ApplicationMenuItemBindable
+  - H.Windows.Ribbon.ApplicationSplitMenuItemBindable
+  - H.Windows.Ribbon.ButtonBindable
+  - H.Windows.Ribbon.ChangedImageCommand
+  - H.Windows.Ribbon.CheckBoxBindable
+  - H.Windows.Ribbon.ComboBoxBindable
+  - H.Windows.Ribbon.Commander
+  - H.Windows.Ribbon.ContextualTabGroupBindable
+  - H.Windows.Ribbon.ControlBindableBase
+  - H.Windows.Ribbon.ExtendRibbonCommands
+  - H.Windows.Ribbon.GalleryBindable
+  - H.Windows.Ribbon.GalleryCategoryBindable
+  - H.Windows.Ribbon.GalleryCategoryBindable`1
+  - H.Windows.Ribbon.GalleryData`1
+  - H.Windows.Ribbon.GalleryItemBindable
+  - H.Windows.Ribbon.GroupBindable
+  - H.Windows.Ribbon.IService
+  - H.Windows.Ribbon.MenuButtonBindable
+  - H.Windows.Ribbon.MenuItemBindable
+  - H.Windows.Ribbon.MoveNextCommand
+  - H.Windows.Ribbon.MovePreviousCommand
+  - H.Windows.Ribbon.QATItem
+  - H.Windows.Ribbon.QATItemCollection
+  - H.Windows.Ribbon.RadioButtonBindable
+  - H.Windows.Ribbon.RecentDocumentBindable
+  - H.Windows.Ribbon.RibbonBindable
+  - H.Windows.Ribbon.RibbonKeys
+  - H.Windows.Ribbon.RibbonWindowKeys
+  - H.Windows.Ribbon.SeparatorBindable
+  - H.Windows.Ribbon.Service
+  - H.Windows.Ribbon.SplitButtonBindable
+  - H.Windows.Ribbon.SplitMenuItemBindable
+  - H.Windows.Ribbon.TabBindable
+  - H.Windows.Ribbon.TextBoxBindable
+  - H.Windows.Ribbon.ToggleButtonBindable
+  langs:
+  - csharp
+  - vb
+  name: H.Windows.Ribbon
+  nameWithType: H.Windows.Ribbon
+  fullName: H.Windows.Ribbon
+  type: Namespace
+  assemblies:
+  - H.Windows.Ribbon
+references:
+- uid: H.Windows.Ribbon.Commander
+  commentId: T:H.Windows.Ribbon.Commander
+  href: H.Windows.Ribbon.Commander.html
+  name: Commander
+  nameWithType: Commander
+  fullName: H.Windows.Ribbon.Commander
+- uid: H.Windows.Ribbon.ChangedImageCommand
+  commentId: T:H.Windows.Ribbon.ChangedImageCommand
+  parent: H.Windows.Ribbon
+  href: H.Windows.Ribbon.ChangedImageCommand.html
+  name: ChangedImageCommand
+  nameWithType: ChangedImageCommand
+  fullName: H.Windows.Ribbon.ChangedImageCommand
+- uid: H.Windows.Ribbon.MovePreviousCommand
+  commentId: T:H.Windows.Ribbon.MovePreviousCommand
+  parent: H.Windows.Ribbon
+  href: H.Windows.Ribbon.MovePreviousCommand.html
+  name: MovePreviousCommand
+  nameWithType: MovePreviousCommand
+  fullName: H.Windows.Ribbon.MovePreviousCommand
+- uid: H.Windows.Ribbon.MoveNextCommand
+  commentId: T:H.Windows.Ribbon.MoveNextCommand
+  parent: H.Windows.Ribbon
+  href: H.Windows.Ribbon.MoveNextCommand.html
+  name: MoveNextCommand
+  nameWithType: MoveNextCommand
+  fullName: H.Windows.Ribbon.MoveNextCommand
+- uid: H.Windows.Ribbon.ExtendRibbonCommands
+  commentId: T:H.Windows.Ribbon.ExtendRibbonCommands
+  href: H.Windows.Ribbon.ExtendRibbonCommands.html
+  name: ExtendRibbonCommands
+  nameWithType: ExtendRibbonCommands
+  fullName: H.Windows.Ribbon.ExtendRibbonCommands
+- uid: H.Windows.Ribbon.RibbonKeys
+  commentId: T:H.Windows.Ribbon.RibbonKeys
+  href: H.Windows.Ribbon.RibbonKeys.html
+  name: RibbonKeys
+  nameWithType: RibbonKeys
+  fullName: H.Windows.Ribbon.RibbonKeys
+- uid: H.Windows.Ribbon.RibbonWindowKeys
+  commentId: T:H.Windows.Ribbon.RibbonWindowKeys
+  href: H.Windows.Ribbon.RibbonWindowKeys.html
+  name: RibbonWindowKeys
+  nameWithType: RibbonWindowKeys
+  fullName: H.Windows.Ribbon.RibbonWindowKeys
+- uid: H.Windows.Ribbon.Service
+  commentId: T:H.Windows.Ribbon.Service
+  href: H.Windows.Ribbon.Service.html
+  name: Service
+  nameWithType: Service
+  fullName: H.Windows.Ribbon.Service
+- uid: H.Windows.Ribbon.IService
+  commentId: T:H.Windows.Ribbon.IService
+  parent: H.Windows.Ribbon
+  href: H.Windows.Ribbon.IService.html
+  name: IService
+  nameWithType: IService
+  fullName: H.Windows.Ribbon.IService
+- uid: H.Windows.Ribbon.ApplicationMenuItemBindable
+  commentId: T:H.Windows.Ribbon.ApplicationMenuItemBindable
+  href: H.Windows.Ribbon.ApplicationMenuItemBindable.html
+  name: ApplicationMenuItemBindable
+  nameWithType: ApplicationMenuItemBindable
+  fullName: H.Windows.Ribbon.ApplicationMenuItemBindable
+- uid: H.Windows.Ribbon.ApplicationSplitMenuItemBindable
+  commentId: T:H.Windows.Ribbon.ApplicationSplitMenuItemBindable
+  href: H.Windows.Ribbon.ApplicationSplitMenuItemBindable.html
+  name: ApplicationSplitMenuItemBindable
+  nameWithType: ApplicationSplitMenuItemBindable
+  fullName: H.Windows.Ribbon.ApplicationSplitMenuItemBindable
+- uid: H.Windows.Ribbon.ButtonBindable
+  commentId: T:H.Windows.Ribbon.ButtonBindable
+  parent: H.Windows.Ribbon
+  href: H.Windows.Ribbon.ButtonBindable.html
+  name: ButtonBindable
+  nameWithType: ButtonBindable
+  fullName: H.Windows.Ribbon.ButtonBindable
+- uid: H.Windows.Ribbon.CheckBoxBindable
+  commentId: T:H.Windows.Ribbon.CheckBoxBindable
+  href: H.Windows.Ribbon.CheckBoxBindable.html
+  name: CheckBoxBindable
+  nameWithType: CheckBoxBindable
+  fullName: H.Windows.Ribbon.CheckBoxBindable
+- uid: H.Windows.Ribbon.ComboBoxBindable
+  commentId: T:H.Windows.Ribbon.ComboBoxBindable
+  href: H.Windows.Ribbon.ComboBoxBindable.html
+  name: ComboBoxBindable
+  nameWithType: ComboBoxBindable
+  fullName: H.Windows.Ribbon.ComboBoxBindable
+- uid: H.Windows.Ribbon.ContextualTabGroupBindable
+  commentId: T:H.Windows.Ribbon.ContextualTabGroupBindable
+  href: H.Windows.Ribbon.ContextualTabGroupBindable.html
+  name: ContextualTabGroupBindable
+  nameWithType: ContextualTabGroupBindable
+  fullName: H.Windows.Ribbon.ContextualTabGroupBindable
+- uid: H.Windows.Ribbon.ControlBindableBase
+  commentId: T:H.Windows.Ribbon.ControlBindableBase
+  parent: H.Windows.Ribbon
+  href: H.Windows.Ribbon.ControlBindableBase.html
+  name: ControlBindableBase
+  nameWithType: ControlBindableBase
+  fullName: H.Windows.Ribbon.ControlBindableBase
+- uid: H.Windows.Ribbon.GalleryBindable
+  commentId: T:H.Windows.Ribbon.GalleryBindable
+  href: H.Windows.Ribbon.GalleryBindable.html
+  name: GalleryBindable
+  nameWithType: GalleryBindable
+  fullName: H.Windows.Ribbon.GalleryBindable
+- uid: H.Windows.Ribbon.GalleryCategoryBindable
+  commentId: T:H.Windows.Ribbon.GalleryCategoryBindable
+  href: H.Windows.Ribbon.GalleryCategoryBindable.html
+  name: GalleryCategoryBindable
+  nameWithType: GalleryCategoryBindable
+  fullName: H.Windows.Ribbon.GalleryCategoryBindable
+- uid: H.Windows.Ribbon.GalleryCategoryBindable`1
+  commentId: T:H.Windows.Ribbon.GalleryCategoryBindable`1
+  href: H.Windows.Ribbon.GalleryCategoryBindable-1.html
+  name: GalleryCategoryBindable<T>
+  nameWithType: GalleryCategoryBindable<T>
+  fullName: H.Windows.Ribbon.GalleryCategoryBindable<T>
+  nameWithType.vb: GalleryCategoryBindable(Of T)
+  fullName.vb: H.Windows.Ribbon.GalleryCategoryBindable(Of T)
+  name.vb: GalleryCategoryBindable(Of T)
+  spec.csharp:
+  - uid: H.Windows.Ribbon.GalleryCategoryBindable`1
+    name: GalleryCategoryBindable
+    href: H.Windows.Ribbon.GalleryCategoryBindable-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Windows.Ribbon.GalleryCategoryBindable`1
+    name: GalleryCategoryBindable
+    href: H.Windows.Ribbon.GalleryCategoryBindable-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Windows.Ribbon.GalleryData`1
+  commentId: T:H.Windows.Ribbon.GalleryData`1
+  href: H.Windows.Ribbon.GalleryData-1.html
+  name: GalleryData<T>
+  nameWithType: GalleryData<T>
+  fullName: H.Windows.Ribbon.GalleryData<T>
+  nameWithType.vb: GalleryData(Of T)
+  fullName.vb: H.Windows.Ribbon.GalleryData(Of T)
+  name.vb: GalleryData(Of T)
+  spec.csharp:
+  - uid: H.Windows.Ribbon.GalleryData`1
+    name: GalleryData
+    href: H.Windows.Ribbon.GalleryData-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Windows.Ribbon.GalleryData`1
+    name: GalleryData
+    href: H.Windows.Ribbon.GalleryData-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Windows.Ribbon.GalleryItemBindable
+  commentId: T:H.Windows.Ribbon.GalleryItemBindable
+  parent: H.Windows.Ribbon
+  href: H.Windows.Ribbon.GalleryItemBindable.html
+  name: GalleryItemBindable
+  nameWithType: GalleryItemBindable
+  fullName: H.Windows.Ribbon.GalleryItemBindable
+- uid: H.Windows.Ribbon.GroupBindable
+  commentId: T:H.Windows.Ribbon.GroupBindable
+  href: H.Windows.Ribbon.GroupBindable.html
+  name: GroupBindable
+  nameWithType: GroupBindable
+  fullName: H.Windows.Ribbon.GroupBindable
+- uid: H.Windows.Ribbon.MenuButtonBindable
+  commentId: T:H.Windows.Ribbon.MenuButtonBindable
+  parent: H.Windows.Ribbon
+  href: H.Windows.Ribbon.MenuButtonBindable.html
+  name: MenuButtonBindable
+  nameWithType: MenuButtonBindable
+  fullName: H.Windows.Ribbon.MenuButtonBindable
+- uid: H.Windows.Ribbon.MenuItemBindable
+  commentId: T:H.Windows.Ribbon.MenuItemBindable
+  parent: H.Windows.Ribbon
+  href: H.Windows.Ribbon.MenuItemBindable.html
+  name: MenuItemBindable
+  nameWithType: MenuItemBindable
+  fullName: H.Windows.Ribbon.MenuItemBindable
+- uid: H.Windows.Ribbon.QATItem
+  commentId: T:H.Windows.Ribbon.QATItem
+  href: H.Windows.Ribbon.QATItem.html
+  name: QATItem
+  nameWithType: QATItem
+  fullName: H.Windows.Ribbon.QATItem
+- uid: H.Windows.Ribbon.QATItemCollection
+  commentId: T:H.Windows.Ribbon.QATItemCollection
+  href: H.Windows.Ribbon.QATItemCollection.html
+  name: QATItemCollection
+  nameWithType: QATItemCollection
+  fullName: H.Windows.Ribbon.QATItemCollection
+- uid: H.Windows.Ribbon.RadioButtonBindable
+  commentId: T:H.Windows.Ribbon.RadioButtonBindable
+  href: H.Windows.Ribbon.RadioButtonBindable.html
+  name: RadioButtonBindable
+  nameWithType: RadioButtonBindable
+  fullName: H.Windows.Ribbon.RadioButtonBindable
+- uid: H.Windows.Ribbon.RecentDocumentBindable
+  commentId: T:H.Windows.Ribbon.RecentDocumentBindable
+  href: H.Windows.Ribbon.RecentDocumentBindable.html
+  name: RecentDocumentBindable
+  nameWithType: RecentDocumentBindable
+  fullName: H.Windows.Ribbon.RecentDocumentBindable
+- uid: H.Windows.Ribbon.RibbonBindable
+  commentId: T:H.Windows.Ribbon.RibbonBindable
+  href: H.Windows.Ribbon.RibbonBindable.html
+  name: RibbonBindable
+  nameWithType: RibbonBindable
+  fullName: H.Windows.Ribbon.RibbonBindable
+- uid: H.Windows.Ribbon.SeparatorBindable
+  commentId: T:H.Windows.Ribbon.SeparatorBindable
+  href: H.Windows.Ribbon.SeparatorBindable.html
+  name: SeparatorBindable
+  nameWithType: SeparatorBindable
+  fullName: H.Windows.Ribbon.SeparatorBindable
+- uid: H.Windows.Ribbon.SplitButtonBindable
+  commentId: T:H.Windows.Ribbon.SplitButtonBindable
+  parent: H.Windows.Ribbon
+  href: H.Windows.Ribbon.SplitButtonBindable.html
+  name: SplitButtonBindable
+  nameWithType: SplitButtonBindable
+  fullName: H.Windows.Ribbon.SplitButtonBindable
+- uid: H.Windows.Ribbon.SplitMenuItemBindable
+  commentId: T:H.Windows.Ribbon.SplitMenuItemBindable
+  parent: H.Windows.Ribbon
+  href: H.Windows.Ribbon.SplitMenuItemBindable.html
+  name: SplitMenuItemBindable
+  nameWithType: SplitMenuItemBindable
+  fullName: H.Windows.Ribbon.SplitMenuItemBindable
+- uid: H.Windows.Ribbon.TabBindable
+  commentId: T:H.Windows.Ribbon.TabBindable
+  href: H.Windows.Ribbon.TabBindable.html
+  name: TabBindable
+  nameWithType: TabBindable
+  fullName: H.Windows.Ribbon.TabBindable
+- uid: H.Windows.Ribbon.TextBoxBindable
+  commentId: T:H.Windows.Ribbon.TextBoxBindable
+  href: H.Windows.Ribbon.TextBoxBindable.html
+  name: TextBoxBindable
+  nameWithType: TextBoxBindable
+  fullName: H.Windows.Ribbon.TextBoxBindable
+- uid: H.Windows.Ribbon.ToggleButtonBindable
+  commentId: T:H.Windows.Ribbon.ToggleButtonBindable
+  parent: H.Windows.Ribbon
+  href: H.Windows.Ribbon.ToggleButtonBindable.html
+  name: ToggleButtonBindable
+  nameWithType: ToggleButtonBindable
+  fullName: H.Windows.Ribbon.ToggleButtonBindable
+- uid: H.Windows.Ribbon
+  commentId: N:H.Windows.Ribbon
+  href: H.html
+  name: H.Windows.Ribbon
+  nameWithType: H.Windows.Ribbon
+  fullName: H.Windows.Ribbon
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Windows
+    name: Windows
+    href: H.Windows.html
+  - name: .
+  - uid: H.Windows.Ribbon
+    name: Ribbon
+    href: H.Windows.Ribbon.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Windows
+    name: Windows
+    href: H.Windows.html
+  - name: .
+  - uid: H.Windows.Ribbon
+    name: Ribbon
+    href: H.Windows.Ribbon.html

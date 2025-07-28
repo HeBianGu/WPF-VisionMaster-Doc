@@ -1,0 +1,1203 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension
+  commentId: T:H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension
+  id: FlowableDiagramDataExtension
+  parent: H.Controls.Diagram.Presenter.Extensions
+  children:
+  - H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.GetPartDatas(H.Controls.Diagram.Datas.INodeData,H.Controls.Diagram.Presenter.DiagramDatas.Base.IDiagramData,System.Func{H.Controls.Diagram.Datas.IPartData,System.Boolean})
+  - H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.GotoState(H.Controls.Diagram.Presenter.DiagramDatas.Base.IFlowableDiagramData,System.Func{H.Controls.Diagram.Presenter.Flowables.IFlowablePartData,System.Nullable{H.Controls.Diagram.Presenter.Flowables.FlowableState}},System.Func{H.Controls.Diagram.Presenter.Flowables.IFlowableNodeData,System.Boolean})
+  - H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.GotoState(System.Collections.Generic.IEnumerable{H.Controls.Diagram.Presenter.Flowables.IFlowableNodeData},H.Controls.Diagram.Presenter.DiagramDatas.Base.IFlowableDiagramData,System.Func{H.Controls.Diagram.Presenter.Flowables.IFlowablePartData,System.Nullable{H.Controls.Diagram.Presenter.Flowables.FlowableState}})
+  - H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.GotoState(System.Collections.Generic.IEnumerable{H.Controls.Diagram.Presenter.Flowables.IFlowablePartData},System.Func{H.Controls.Diagram.Presenter.Flowables.IFlowablePartData,System.Nullable{H.Controls.Diagram.Presenter.Flowables.FlowableState}})
+  - H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.InvokeState(H.Controls.Diagram.Presenter.DiagramDatas.Base.IFlowableDiagramData,System.Func{System.Threading.Tasks.Task{System.Nullable{System.Boolean}}})
+  - H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.Reset(H.Controls.Diagram.Presenter.DiagramDatas.Base.IFlowableDiagramData)
+  - H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.Wait(H.Controls.Diagram.Presenter.DiagramDatas.Base.IFlowableDiagramData,System.Func{H.Controls.Diagram.Presenter.Flowables.IFlowableNodeData,System.Boolean})
+  langs:
+  - csharp
+  - vb
+  name: FlowableDiagramDataExtension
+  nameWithType: FlowableDiagramDataExtension
+  fullName: H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension
+  type: Class
+  source:
+    id: FlowableDiagramDataExtension
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.Diagram.Presenter\Extensions\FlowableDiagramDataExtension.cs
+    startLine: 10
+  assemblies:
+  - H.Controls.Diagram.Presenter
+  namespace: H.Controls.Diagram.Presenter.Extensions
+  syntax:
+    content: public static class FlowableDiagramDataExtension
+    content.vb: Public Module FlowableDiagramDataExtension
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.InvokeState(H.Controls.Diagram.Presenter.DiagramDatas.Base.IFlowableDiagramData,System.Func{System.Threading.Tasks.Task{System.Nullable{System.Boolean}}})
+  commentId: M:H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.InvokeState(H.Controls.Diagram.Presenter.DiagramDatas.Base.IFlowableDiagramData,System.Func{System.Threading.Tasks.Task{System.Nullable{System.Boolean}}})
+  id: InvokeState(H.Controls.Diagram.Presenter.DiagramDatas.Base.IFlowableDiagramData,System.Func{System.Threading.Tasks.Task{System.Nullable{System.Boolean}}})
+  isExtensionMethod: true
+  parent: H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension
+  langs:
+  - csharp
+  - vb
+  name: InvokeState(IFlowableDiagramData, Func<Task<bool?>>)
+  nameWithType: FlowableDiagramDataExtension.InvokeState(IFlowableDiagramData, Func<Task<bool?>>)
+  fullName: H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.InvokeState(H.Controls.Diagram.Presenter.DiagramDatas.Base.IFlowableDiagramData, System.Func<System.Threading.Tasks.Task<bool?>>)
+  type: Method
+  source:
+    id: InvokeState
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.Diagram.Presenter\Extensions\FlowableDiagramDataExtension.cs
+    startLine: 12
+  assemblies:
+  - H.Controls.Diagram.Presenter
+  namespace: H.Controls.Diagram.Presenter.Extensions
+  syntax:
+    content: public static Task<bool?> InvokeState(this IFlowableDiagramData data, Func<Task<bool?>> action)
+    parameters:
+    - id: data
+      type: H.Controls.Diagram.Presenter.DiagramDatas.Base.IFlowableDiagramData
+    - id: action
+      type: System.Func{System.Threading.Tasks.Task{System.Nullable{System.Boolean}}}
+    return:
+      type: System.Threading.Tasks.Task{System.Nullable{System.Boolean}}
+    content.vb: Public Shared Function InvokeState(data As IFlowableDiagramData, action As Func(Of Task(Of Boolean?))) As Task(Of Boolean?)
+  overload: H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.InvokeState*
+  nameWithType.vb: FlowableDiagramDataExtension.InvokeState(IFlowableDiagramData, Func(Of Task(Of Boolean?)))
+  fullName.vb: H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.InvokeState(H.Controls.Diagram.Presenter.DiagramDatas.Base.IFlowableDiagramData, System.Func(Of System.Threading.Tasks.Task(Of Boolean?)))
+  name.vb: InvokeState(IFlowableDiagramData, Func(Of Task(Of Boolean?)))
+- uid: H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.Reset(H.Controls.Diagram.Presenter.DiagramDatas.Base.IFlowableDiagramData)
+  commentId: M:H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.Reset(H.Controls.Diagram.Presenter.DiagramDatas.Base.IFlowableDiagramData)
+  id: Reset(H.Controls.Diagram.Presenter.DiagramDatas.Base.IFlowableDiagramData)
+  isExtensionMethod: true
+  parent: H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension
+  langs:
+  - csharp
+  - vb
+  name: Reset(IFlowableDiagramData)
+  nameWithType: FlowableDiagramDataExtension.Reset(IFlowableDiagramData)
+  fullName: H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.Reset(H.Controls.Diagram.Presenter.DiagramDatas.Base.IFlowableDiagramData)
+  type: Method
+  source:
+    id: Reset
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.Diagram.Presenter\Extensions\FlowableDiagramDataExtension.cs
+    startLine: 26
+  assemblies:
+  - H.Controls.Diagram.Presenter
+  namespace: H.Controls.Diagram.Presenter.Extensions
+  syntax:
+    content: public static void Reset(this IFlowableDiagramData flowableDiagramData)
+    parameters:
+    - id: flowableDiagramData
+      type: H.Controls.Diagram.Presenter.DiagramDatas.Base.IFlowableDiagramData
+    content.vb: Public Shared Sub Reset(flowableDiagramData As IFlowableDiagramData)
+  overload: H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.Reset*
+- uid: H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.Wait(H.Controls.Diagram.Presenter.DiagramDatas.Base.IFlowableDiagramData,System.Func{H.Controls.Diagram.Presenter.Flowables.IFlowableNodeData,System.Boolean})
+  commentId: M:H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.Wait(H.Controls.Diagram.Presenter.DiagramDatas.Base.IFlowableDiagramData,System.Func{H.Controls.Diagram.Presenter.Flowables.IFlowableNodeData,System.Boolean})
+  id: Wait(H.Controls.Diagram.Presenter.DiagramDatas.Base.IFlowableDiagramData,System.Func{H.Controls.Diagram.Presenter.Flowables.IFlowableNodeData,System.Boolean})
+  isExtensionMethod: true
+  parent: H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension
+  langs:
+  - csharp
+  - vb
+  name: Wait(IFlowableDiagramData, Func<IFlowableNodeData, bool>)
+  nameWithType: FlowableDiagramDataExtension.Wait(IFlowableDiagramData, Func<IFlowableNodeData, bool>)
+  fullName: H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.Wait(H.Controls.Diagram.Presenter.DiagramDatas.Base.IFlowableDiagramData, System.Func<H.Controls.Diagram.Presenter.Flowables.IFlowableNodeData, bool>)
+  type: Method
+  source:
+    id: Wait
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.Diagram.Presenter\Extensions\FlowableDiagramDataExtension.cs
+    startLine: 31
+  assemblies:
+  - H.Controls.Diagram.Presenter
+  namespace: H.Controls.Diagram.Presenter.Extensions
+  syntax:
+    content: public static void Wait(this IFlowableDiagramData flowableDiagramData, Func<IFlowableNodeData, bool> match = null)
+    parameters:
+    - id: flowableDiagramData
+      type: H.Controls.Diagram.Presenter.DiagramDatas.Base.IFlowableDiagramData
+    - id: match
+      type: System.Func{H.Controls.Diagram.Presenter.Flowables.IFlowableNodeData,System.Boolean}
+    content.vb: Public Shared Sub Wait(flowableDiagramData As IFlowableDiagramData, match As Func(Of IFlowableNodeData, Boolean) = Nothing)
+  overload: H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.Wait*
+  nameWithType.vb: FlowableDiagramDataExtension.Wait(IFlowableDiagramData, Func(Of IFlowableNodeData, Boolean))
+  fullName.vb: H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.Wait(H.Controls.Diagram.Presenter.DiagramDatas.Base.IFlowableDiagramData, System.Func(Of H.Controls.Diagram.Presenter.Flowables.IFlowableNodeData, Boolean))
+  name.vb: Wait(IFlowableDiagramData, Func(Of IFlowableNodeData, Boolean))
+- uid: H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.GetPartDatas(H.Controls.Diagram.Datas.INodeData,H.Controls.Diagram.Presenter.DiagramDatas.Base.IDiagramData,System.Func{H.Controls.Diagram.Datas.IPartData,System.Boolean})
+  commentId: M:H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.GetPartDatas(H.Controls.Diagram.Datas.INodeData,H.Controls.Diagram.Presenter.DiagramDatas.Base.IDiagramData,System.Func{H.Controls.Diagram.Datas.IPartData,System.Boolean})
+  id: GetPartDatas(H.Controls.Diagram.Datas.INodeData,H.Controls.Diagram.Presenter.DiagramDatas.Base.IDiagramData,System.Func{H.Controls.Diagram.Datas.IPartData,System.Boolean})
+  isExtensionMethod: true
+  parent: H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension
+  langs:
+  - csharp
+  - vb
+  name: GetPartDatas(INodeData, IDiagramData, Func<IPartData, bool>)
+  nameWithType: FlowableDiagramDataExtension.GetPartDatas(INodeData, IDiagramData, Func<IPartData, bool>)
+  fullName: H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.GetPartDatas(H.Controls.Diagram.Datas.INodeData, H.Controls.Diagram.Presenter.DiagramDatas.Base.IDiagramData, System.Func<H.Controls.Diagram.Datas.IPartData, bool>)
+  type: Method
+  source:
+    id: GetPartDatas
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.Diagram.Presenter\Extensions\FlowableDiagramDataExtension.cs
+    startLine: 36
+  assemblies:
+  - H.Controls.Diagram.Presenter
+  namespace: H.Controls.Diagram.Presenter.Extensions
+  syntax:
+    content: public static IEnumerable<IPartData> GetPartDatas(this INodeData nodeData, IDiagramData diagramData, Func<IPartData, bool> filter = null)
+    parameters:
+    - id: nodeData
+      type: H.Controls.Diagram.Datas.INodeData
+    - id: diagramData
+      type: H.Controls.Diagram.Presenter.DiagramDatas.Base.IDiagramData
+    - id: filter
+      type: System.Func{H.Controls.Diagram.Datas.IPartData,System.Boolean}
+    return:
+      type: System.Collections.Generic.IEnumerable{H.Controls.Diagram.Datas.IPartData}
+    content.vb: Public Shared Function GetPartDatas(nodeData As INodeData, diagramData As IDiagramData, filter As Func(Of IPartData, Boolean) = Nothing) As IEnumerable(Of IPartData)
+  overload: H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.GetPartDatas*
+  nameWithType.vb: FlowableDiagramDataExtension.GetPartDatas(INodeData, IDiagramData, Func(Of IPartData, Boolean))
+  fullName.vb: H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.GetPartDatas(H.Controls.Diagram.Datas.INodeData, H.Controls.Diagram.Presenter.DiagramDatas.Base.IDiagramData, System.Func(Of H.Controls.Diagram.Datas.IPartData, Boolean))
+  name.vb: GetPartDatas(INodeData, IDiagramData, Func(Of IPartData, Boolean))
+- uid: H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.GotoState(H.Controls.Diagram.Presenter.DiagramDatas.Base.IFlowableDiagramData,System.Func{H.Controls.Diagram.Presenter.Flowables.IFlowablePartData,System.Nullable{H.Controls.Diagram.Presenter.Flowables.FlowableState}},System.Func{H.Controls.Diagram.Presenter.Flowables.IFlowableNodeData,System.Boolean})
+  commentId: M:H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.GotoState(H.Controls.Diagram.Presenter.DiagramDatas.Base.IFlowableDiagramData,System.Func{H.Controls.Diagram.Presenter.Flowables.IFlowablePartData,System.Nullable{H.Controls.Diagram.Presenter.Flowables.FlowableState}},System.Func{H.Controls.Diagram.Presenter.Flowables.IFlowableNodeData,System.Boolean})
+  id: GotoState(H.Controls.Diagram.Presenter.DiagramDatas.Base.IFlowableDiagramData,System.Func{H.Controls.Diagram.Presenter.Flowables.IFlowablePartData,System.Nullable{H.Controls.Diagram.Presenter.Flowables.FlowableState}},System.Func{H.Controls.Diagram.Presenter.Flowables.IFlowableNodeData,System.Boolean})
+  isExtensionMethod: true
+  parent: H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension
+  langs:
+  - csharp
+  - vb
+  name: GotoState(IFlowableDiagramData, Func<IFlowablePartData, FlowableState?>, Func<IFlowableNodeData, bool>)
+  nameWithType: FlowableDiagramDataExtension.GotoState(IFlowableDiagramData, Func<IFlowablePartData, FlowableState?>, Func<IFlowableNodeData, bool>)
+  fullName: H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.GotoState(H.Controls.Diagram.Presenter.DiagramDatas.Base.IFlowableDiagramData, System.Func<H.Controls.Diagram.Presenter.Flowables.IFlowablePartData, H.Controls.Diagram.Presenter.Flowables.FlowableState?>, System.Func<H.Controls.Diagram.Presenter.Flowables.IFlowableNodeData, bool>)
+  type: Method
+  source:
+    id: GotoState
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.Diagram.Presenter\Extensions\FlowableDiagramDataExtension.cs
+    startLine: 54
+  assemblies:
+  - H.Controls.Diagram.Presenter
+  namespace: H.Controls.Diagram.Presenter.Extensions
+  syntax:
+    content: public static void GotoState(this IFlowableDiagramData flowableDiagramData, Func<IFlowablePartData, FlowableState?> gotoState, Func<IFlowableNodeData, bool> match = null)
+    parameters:
+    - id: flowableDiagramData
+      type: H.Controls.Diagram.Presenter.DiagramDatas.Base.IFlowableDiagramData
+    - id: gotoState
+      type: System.Func{H.Controls.Diagram.Presenter.Flowables.IFlowablePartData,System.Nullable{H.Controls.Diagram.Presenter.Flowables.FlowableState}}
+    - id: match
+      type: System.Func{H.Controls.Diagram.Presenter.Flowables.IFlowableNodeData,System.Boolean}
+    content.vb: Public Shared Sub GotoState(flowableDiagramData As IFlowableDiagramData, gotoState As Func(Of IFlowablePartData, FlowableState?), match As Func(Of IFlowableNodeData, Boolean) = Nothing)
+  overload: H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.GotoState*
+  nameWithType.vb: FlowableDiagramDataExtension.GotoState(IFlowableDiagramData, Func(Of IFlowablePartData, FlowableState?), Func(Of IFlowableNodeData, Boolean))
+  fullName.vb: H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.GotoState(H.Controls.Diagram.Presenter.DiagramDatas.Base.IFlowableDiagramData, System.Func(Of H.Controls.Diagram.Presenter.Flowables.IFlowablePartData, H.Controls.Diagram.Presenter.Flowables.FlowableState?), System.Func(Of H.Controls.Diagram.Presenter.Flowables.IFlowableNodeData, Boolean))
+  name.vb: GotoState(IFlowableDiagramData, Func(Of IFlowablePartData, FlowableState?), Func(Of IFlowableNodeData, Boolean))
+- uid: H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.GotoState(System.Collections.Generic.IEnumerable{H.Controls.Diagram.Presenter.Flowables.IFlowableNodeData},H.Controls.Diagram.Presenter.DiagramDatas.Base.IFlowableDiagramData,System.Func{H.Controls.Diagram.Presenter.Flowables.IFlowablePartData,System.Nullable{H.Controls.Diagram.Presenter.Flowables.FlowableState}})
+  commentId: M:H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.GotoState(System.Collections.Generic.IEnumerable{H.Controls.Diagram.Presenter.Flowables.IFlowableNodeData},H.Controls.Diagram.Presenter.DiagramDatas.Base.IFlowableDiagramData,System.Func{H.Controls.Diagram.Presenter.Flowables.IFlowablePartData,System.Nullable{H.Controls.Diagram.Presenter.Flowables.FlowableState}})
+  id: GotoState(System.Collections.Generic.IEnumerable{H.Controls.Diagram.Presenter.Flowables.IFlowableNodeData},H.Controls.Diagram.Presenter.DiagramDatas.Base.IFlowableDiagramData,System.Func{H.Controls.Diagram.Presenter.Flowables.IFlowablePartData,System.Nullable{H.Controls.Diagram.Presenter.Flowables.FlowableState}})
+  isExtensionMethod: true
+  parent: H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension
+  langs:
+  - csharp
+  - vb
+  name: GotoState(IEnumerable<IFlowableNodeData>, IFlowableDiagramData, Func<IFlowablePartData, FlowableState?>)
+  nameWithType: FlowableDiagramDataExtension.GotoState(IEnumerable<IFlowableNodeData>, IFlowableDiagramData, Func<IFlowablePartData, FlowableState?>)
+  fullName: H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.GotoState(System.Collections.Generic.IEnumerable<H.Controls.Diagram.Presenter.Flowables.IFlowableNodeData>, H.Controls.Diagram.Presenter.DiagramDatas.Base.IFlowableDiagramData, System.Func<H.Controls.Diagram.Presenter.Flowables.IFlowablePartData, H.Controls.Diagram.Presenter.Flowables.FlowableState?>)
+  type: Method
+  source:
+    id: GotoState
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.Diagram.Presenter\Extensions\FlowableDiagramDataExtension.cs
+    startLine: 59
+  assemblies:
+  - H.Controls.Diagram.Presenter
+  namespace: H.Controls.Diagram.Presenter.Extensions
+  syntax:
+    content: public static void GotoState(this IEnumerable<IFlowableNodeData> nodeDatas, IFlowableDiagramData flowableDiagramData, Func<IFlowablePartData, FlowableState?> gotoState)
+    parameters:
+    - id: nodeDatas
+      type: System.Collections.Generic.IEnumerable{H.Controls.Diagram.Presenter.Flowables.IFlowableNodeData}
+    - id: flowableDiagramData
+      type: H.Controls.Diagram.Presenter.DiagramDatas.Base.IFlowableDiagramData
+    - id: gotoState
+      type: System.Func{H.Controls.Diagram.Presenter.Flowables.IFlowablePartData,System.Nullable{H.Controls.Diagram.Presenter.Flowables.FlowableState}}
+    content.vb: Public Shared Sub GotoState(nodeDatas As IEnumerable(Of IFlowableNodeData), flowableDiagramData As IFlowableDiagramData, gotoState As Func(Of IFlowablePartData, FlowableState?))
+  overload: H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.GotoState*
+  nameWithType.vb: FlowableDiagramDataExtension.GotoState(IEnumerable(Of IFlowableNodeData), IFlowableDiagramData, Func(Of IFlowablePartData, FlowableState?))
+  fullName.vb: H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.GotoState(System.Collections.Generic.IEnumerable(Of H.Controls.Diagram.Presenter.Flowables.IFlowableNodeData), H.Controls.Diagram.Presenter.DiagramDatas.Base.IFlowableDiagramData, System.Func(Of H.Controls.Diagram.Presenter.Flowables.IFlowablePartData, H.Controls.Diagram.Presenter.Flowables.FlowableState?))
+  name.vb: GotoState(IEnumerable(Of IFlowableNodeData), IFlowableDiagramData, Func(Of IFlowablePartData, FlowableState?))
+- uid: H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.GotoState(System.Collections.Generic.IEnumerable{H.Controls.Diagram.Presenter.Flowables.IFlowablePartData},System.Func{H.Controls.Diagram.Presenter.Flowables.IFlowablePartData,System.Nullable{H.Controls.Diagram.Presenter.Flowables.FlowableState}})
+  commentId: M:H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.GotoState(System.Collections.Generic.IEnumerable{H.Controls.Diagram.Presenter.Flowables.IFlowablePartData},System.Func{H.Controls.Diagram.Presenter.Flowables.IFlowablePartData,System.Nullable{H.Controls.Diagram.Presenter.Flowables.FlowableState}})
+  id: GotoState(System.Collections.Generic.IEnumerable{H.Controls.Diagram.Presenter.Flowables.IFlowablePartData},System.Func{H.Controls.Diagram.Presenter.Flowables.IFlowablePartData,System.Nullable{H.Controls.Diagram.Presenter.Flowables.FlowableState}})
+  isExtensionMethod: true
+  parent: H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension
+  langs:
+  - csharp
+  - vb
+  name: GotoState(IEnumerable<IFlowablePartData>, Func<IFlowablePartData, FlowableState?>)
+  nameWithType: FlowableDiagramDataExtension.GotoState(IEnumerable<IFlowablePartData>, Func<IFlowablePartData, FlowableState?>)
+  fullName: H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.GotoState(System.Collections.Generic.IEnumerable<H.Controls.Diagram.Presenter.Flowables.IFlowablePartData>, System.Func<H.Controls.Diagram.Presenter.Flowables.IFlowablePartData, H.Controls.Diagram.Presenter.Flowables.FlowableState?>)
+  type: Method
+  source:
+    id: GotoState
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.Diagram.Presenter\Extensions\FlowableDiagramDataExtension.cs
+    startLine: 65
+  assemblies:
+  - H.Controls.Diagram.Presenter
+  namespace: H.Controls.Diagram.Presenter.Extensions
+  syntax:
+    content: public static void GotoState(this IEnumerable<IFlowablePartData> partDatas, Func<IFlowablePartData, FlowableState?> gotoState)
+    parameters:
+    - id: partDatas
+      type: System.Collections.Generic.IEnumerable{H.Controls.Diagram.Presenter.Flowables.IFlowablePartData}
+    - id: gotoState
+      type: System.Func{H.Controls.Diagram.Presenter.Flowables.IFlowablePartData,System.Nullable{H.Controls.Diagram.Presenter.Flowables.FlowableState}}
+    content.vb: Public Shared Sub GotoState(partDatas As IEnumerable(Of IFlowablePartData), gotoState As Func(Of IFlowablePartData, FlowableState?))
+  overload: H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.GotoState*
+  nameWithType.vb: FlowableDiagramDataExtension.GotoState(IEnumerable(Of IFlowablePartData), Func(Of IFlowablePartData, FlowableState?))
+  fullName.vb: H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.GotoState(System.Collections.Generic.IEnumerable(Of H.Controls.Diagram.Presenter.Flowables.IFlowablePartData), System.Func(Of H.Controls.Diagram.Presenter.Flowables.IFlowablePartData, H.Controls.Diagram.Presenter.Flowables.FlowableState?))
+  name.vb: GotoState(IEnumerable(Of IFlowablePartData), Func(Of IFlowablePartData, FlowableState?))
+references:
+- uid: H.Controls.Diagram.Presenter.Extensions
+  commentId: N:H.Controls.Diagram.Presenter.Extensions
+  href: H.html
+  name: H.Controls.Diagram.Presenter.Extensions
+  nameWithType: H.Controls.Diagram.Presenter.Extensions
+  fullName: H.Controls.Diagram.Presenter.Extensions
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter
+    name: Presenter
+    href: H.Controls.Diagram.Presenter.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter.Extensions
+    name: Extensions
+    href: H.Controls.Diagram.Presenter.Extensions.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter
+    name: Presenter
+    href: H.Controls.Diagram.Presenter.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter.Extensions
+    name: Extensions
+    href: H.Controls.Diagram.Presenter.Extensions.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.InvokeState*
+  commentId: Overload:H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.InvokeState
+  href: H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.html#H_Controls_Diagram_Presenter_Extensions_FlowableDiagramDataExtension_InvokeState_H_Controls_Diagram_Presenter_DiagramDatas_Base_IFlowableDiagramData_System_Func_System_Threading_Tasks_Task_System_Nullable_System_Boolean____
+  name: InvokeState
+  nameWithType: FlowableDiagramDataExtension.InvokeState
+  fullName: H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.InvokeState
+- uid: H.Controls.Diagram.Presenter.DiagramDatas.Base.IFlowableDiagramData
+  commentId: T:H.Controls.Diagram.Presenter.DiagramDatas.Base.IFlowableDiagramData
+  parent: H.Controls.Diagram.Presenter.DiagramDatas.Base
+  href: H.Controls.Diagram.Presenter.DiagramDatas.Base.IFlowableDiagramData.html
+  name: IFlowableDiagramData
+  nameWithType: IFlowableDiagramData
+  fullName: H.Controls.Diagram.Presenter.DiagramDatas.Base.IFlowableDiagramData
+- uid: System.Func{System.Threading.Tasks.Task{System.Nullable{System.Boolean}}}
+  commentId: T:System.Func{System.Threading.Tasks.Task{System.Nullable{System.Boolean}}}
+  parent: System
+  definition: System.Func`1
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: Func<Task<bool?>>
+  nameWithType: Func<Task<bool?>>
+  fullName: System.Func<System.Threading.Tasks.Task<bool?>>
+  nameWithType.vb: Func(Of Task(Of Boolean?))
+  fullName.vb: System.Func(Of System.Threading.Tasks.Task(Of Boolean?))
+  name.vb: Func(Of Task(Of Boolean?))
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+  - name: )
+  - name: )
+- uid: System.Threading.Tasks.Task{System.Nullable{System.Boolean}}
+  commentId: T:System.Threading.Tasks.Task{System.Nullable{System.Boolean}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<bool?>
+  nameWithType: Task<bool?>
+  fullName: System.Threading.Tasks.Task<bool?>
+  nameWithType.vb: Task(Of Boolean?)
+  fullName.vb: System.Threading.Tasks.Task(Of Boolean?)
+  name.vb: Task(Of Boolean?)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+  - name: )
+- uid: H.Controls.Diagram.Presenter.DiagramDatas.Base
+  commentId: N:H.Controls.Diagram.Presenter.DiagramDatas.Base
+  href: H.html
+  name: H.Controls.Diagram.Presenter.DiagramDatas.Base
+  nameWithType: H.Controls.Diagram.Presenter.DiagramDatas.Base
+  fullName: H.Controls.Diagram.Presenter.DiagramDatas.Base
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter
+    name: Presenter
+    href: H.Controls.Diagram.Presenter.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter.DiagramDatas
+    name: DiagramDatas
+    href: H.Controls.Diagram.Presenter.DiagramDatas.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter.DiagramDatas.Base
+    name: Base
+    href: H.Controls.Diagram.Presenter.DiagramDatas.Base.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter
+    name: Presenter
+    href: H.Controls.Diagram.Presenter.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter.DiagramDatas
+    name: DiagramDatas
+    href: H.Controls.Diagram.Presenter.DiagramDatas.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter.DiagramDatas.Base
+    name: Base
+    href: H.Controls.Diagram.Presenter.DiagramDatas.Base.html
+- uid: System.Func`1
+  commentId: T:System.Func`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: Func<TResult>
+  nameWithType: Func<TResult>
+  fullName: System.Func<TResult>
+  nameWithType.vb: Func(Of TResult)
+  fullName.vb: System.Func(Of TResult)
+  name.vb: Func(Of TResult)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.Reset*
+  commentId: Overload:H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.Reset
+  href: H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.html#H_Controls_Diagram_Presenter_Extensions_FlowableDiagramDataExtension_Reset_H_Controls_Diagram_Presenter_DiagramDatas_Base_IFlowableDiagramData_
+  name: Reset
+  nameWithType: FlowableDiagramDataExtension.Reset
+  fullName: H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.Reset
+- uid: H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.Wait*
+  commentId: Overload:H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.Wait
+  href: H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.html#H_Controls_Diagram_Presenter_Extensions_FlowableDiagramDataExtension_Wait_H_Controls_Diagram_Presenter_DiagramDatas_Base_IFlowableDiagramData_System_Func_H_Controls_Diagram_Presenter_Flowables_IFlowableNodeData_System_Boolean__
+  name: Wait
+  nameWithType: FlowableDiagramDataExtension.Wait
+  fullName: H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.Wait
+- uid: System.Func{H.Controls.Diagram.Presenter.Flowables.IFlowableNodeData,System.Boolean}
+  commentId: T:System.Func{H.Controls.Diagram.Presenter.Flowables.IFlowableNodeData,System.Boolean}
+  parent: System
+  definition: System.Func`2
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<IFlowableNodeData, bool>
+  nameWithType: Func<IFlowableNodeData, bool>
+  fullName: System.Func<H.Controls.Diagram.Presenter.Flowables.IFlowableNodeData, bool>
+  nameWithType.vb: Func(Of IFlowableNodeData, Boolean)
+  fullName.vb: System.Func(Of H.Controls.Diagram.Presenter.Flowables.IFlowableNodeData, Boolean)
+  name.vb: Func(Of IFlowableNodeData, Boolean)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: H.Controls.Diagram.Presenter.Flowables.IFlowableNodeData
+    name: IFlowableNodeData
+    href: H.Controls.Diagram.Presenter.Flowables.IFlowableNodeData.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.Controls.Diagram.Presenter.Flowables.IFlowableNodeData
+    name: IFlowableNodeData
+    href: H.Controls.Diagram.Presenter.Flowables.IFlowableNodeData.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.GetPartDatas*
+  commentId: Overload:H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.GetPartDatas
+  href: H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.html#H_Controls_Diagram_Presenter_Extensions_FlowableDiagramDataExtension_GetPartDatas_H_Controls_Diagram_Datas_INodeData_H_Controls_Diagram_Presenter_DiagramDatas_Base_IDiagramData_System_Func_H_Controls_Diagram_Datas_IPartData_System_Boolean__
+  name: GetPartDatas
+  nameWithType: FlowableDiagramDataExtension.GetPartDatas
+  fullName: H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.GetPartDatas
+- uid: H.Controls.Diagram.Datas.INodeData
+  commentId: T:H.Controls.Diagram.Datas.INodeData
+  parent: H.Controls.Diagram.Datas
+  href: H.Controls.Diagram.Datas.INodeData.html
+  name: INodeData
+  nameWithType: INodeData
+  fullName: H.Controls.Diagram.Datas.INodeData
+- uid: H.Controls.Diagram.Presenter.DiagramDatas.Base.IDiagramData
+  commentId: T:H.Controls.Diagram.Presenter.DiagramDatas.Base.IDiagramData
+  parent: H.Controls.Diagram.Presenter.DiagramDatas.Base
+  href: H.Controls.Diagram.Presenter.DiagramDatas.Base.IDiagramData.html
+  name: IDiagramData
+  nameWithType: IDiagramData
+  fullName: H.Controls.Diagram.Presenter.DiagramDatas.Base.IDiagramData
+- uid: System.Func{H.Controls.Diagram.Datas.IPartData,System.Boolean}
+  commentId: T:System.Func{H.Controls.Diagram.Datas.IPartData,System.Boolean}
+  parent: System
+  definition: System.Func`2
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<IPartData, bool>
+  nameWithType: Func<IPartData, bool>
+  fullName: System.Func<H.Controls.Diagram.Datas.IPartData, bool>
+  nameWithType.vb: Func(Of IPartData, Boolean)
+  fullName.vb: System.Func(Of H.Controls.Diagram.Datas.IPartData, Boolean)
+  name.vb: Func(Of IPartData, Boolean)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: H.Controls.Diagram.Datas.IPartData
+    name: IPartData
+    href: H.Controls.Diagram.Datas.IPartData.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.Controls.Diagram.Datas.IPartData
+    name: IPartData
+    href: H.Controls.Diagram.Datas.IPartData.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: System.Collections.Generic.IEnumerable{H.Controls.Diagram.Datas.IPartData}
+  commentId: T:System.Collections.Generic.IEnumerable{H.Controls.Diagram.Datas.IPartData}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<IPartData>
+  nameWithType: IEnumerable<IPartData>
+  fullName: System.Collections.Generic.IEnumerable<H.Controls.Diagram.Datas.IPartData>
+  nameWithType.vb: IEnumerable(Of IPartData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of H.Controls.Diagram.Datas.IPartData)
+  name.vb: IEnumerable(Of IPartData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: H.Controls.Diagram.Datas.IPartData
+    name: IPartData
+    href: H.Controls.Diagram.Datas.IPartData.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.Controls.Diagram.Datas.IPartData
+    name: IPartData
+    href: H.Controls.Diagram.Datas.IPartData.html
+  - name: )
+- uid: H.Controls.Diagram.Datas
+  commentId: N:H.Controls.Diagram.Datas
+  href: H.html
+  name: H.Controls.Diagram.Datas
+  nameWithType: H.Controls.Diagram.Datas
+  fullName: H.Controls.Diagram.Datas
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Datas
+    name: Datas
+    href: H.Controls.Diagram.Datas.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Datas
+    name: Datas
+    href: H.Controls.Diagram.Datas.html
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.GotoState*
+  commentId: Overload:H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.GotoState
+  href: H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.html#H_Controls_Diagram_Presenter_Extensions_FlowableDiagramDataExtension_GotoState_H_Controls_Diagram_Presenter_DiagramDatas_Base_IFlowableDiagramData_System_Func_H_Controls_Diagram_Presenter_Flowables_IFlowablePartData_System_Nullable_H_Controls_Diagram_Presenter_Flowables_FlowableState___System_Func_H_Controls_Diagram_Presenter_Flowables_IFlowableNodeData_System_Boolean__
+  name: GotoState
+  nameWithType: FlowableDiagramDataExtension.GotoState
+  fullName: H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.GotoState
+- uid: System.Func{H.Controls.Diagram.Presenter.Flowables.IFlowablePartData,System.Nullable{H.Controls.Diagram.Presenter.Flowables.FlowableState}}
+  commentId: T:System.Func{H.Controls.Diagram.Presenter.Flowables.IFlowablePartData,System.Nullable{H.Controls.Diagram.Presenter.Flowables.FlowableState}}
+  parent: System
+  definition: System.Func`2
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<IFlowablePartData, FlowableState?>
+  nameWithType: Func<IFlowablePartData, FlowableState?>
+  fullName: System.Func<H.Controls.Diagram.Presenter.Flowables.IFlowablePartData, H.Controls.Diagram.Presenter.Flowables.FlowableState?>
+  nameWithType.vb: Func(Of IFlowablePartData, FlowableState?)
+  fullName.vb: System.Func(Of H.Controls.Diagram.Presenter.Flowables.IFlowablePartData, H.Controls.Diagram.Presenter.Flowables.FlowableState?)
+  name.vb: Func(Of IFlowablePartData, FlowableState?)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: H.Controls.Diagram.Presenter.Flowables.IFlowablePartData
+    name: IFlowablePartData
+    href: H.Controls.Diagram.Presenter.Flowables.IFlowablePartData.html
+  - name: ','
+  - name: " "
+  - uid: H.Controls.Diagram.Presenter.Flowables.FlowableState
+    name: FlowableState
+    href: H.Controls.Diagram.Presenter.Flowables.FlowableState.html
+  - name: '?'
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.Controls.Diagram.Presenter.Flowables.IFlowablePartData
+    name: IFlowablePartData
+    href: H.Controls.Diagram.Presenter.Flowables.IFlowablePartData.html
+  - name: ','
+  - name: " "
+  - uid: H.Controls.Diagram.Presenter.Flowables.FlowableState
+    name: FlowableState
+    href: H.Controls.Diagram.Presenter.Flowables.FlowableState.html
+  - name: '?'
+  - name: )
+- uid: System.Collections.Generic.IEnumerable{H.Controls.Diagram.Presenter.Flowables.IFlowableNodeData}
+  commentId: T:System.Collections.Generic.IEnumerable{H.Controls.Diagram.Presenter.Flowables.IFlowableNodeData}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<IFlowableNodeData>
+  nameWithType: IEnumerable<IFlowableNodeData>
+  fullName: System.Collections.Generic.IEnumerable<H.Controls.Diagram.Presenter.Flowables.IFlowableNodeData>
+  nameWithType.vb: IEnumerable(Of IFlowableNodeData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of H.Controls.Diagram.Presenter.Flowables.IFlowableNodeData)
+  name.vb: IEnumerable(Of IFlowableNodeData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: H.Controls.Diagram.Presenter.Flowables.IFlowableNodeData
+    name: IFlowableNodeData
+    href: H.Controls.Diagram.Presenter.Flowables.IFlowableNodeData.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.Controls.Diagram.Presenter.Flowables.IFlowableNodeData
+    name: IFlowableNodeData
+    href: H.Controls.Diagram.Presenter.Flowables.IFlowableNodeData.html
+  - name: )
+- uid: System.Collections.Generic.IEnumerable{H.Controls.Diagram.Presenter.Flowables.IFlowablePartData}
+  commentId: T:System.Collections.Generic.IEnumerable{H.Controls.Diagram.Presenter.Flowables.IFlowablePartData}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<IFlowablePartData>
+  nameWithType: IEnumerable<IFlowablePartData>
+  fullName: System.Collections.Generic.IEnumerable<H.Controls.Diagram.Presenter.Flowables.IFlowablePartData>
+  nameWithType.vb: IEnumerable(Of IFlowablePartData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of H.Controls.Diagram.Presenter.Flowables.IFlowablePartData)
+  name.vb: IEnumerable(Of IFlowablePartData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: H.Controls.Diagram.Presenter.Flowables.IFlowablePartData
+    name: IFlowablePartData
+    href: H.Controls.Diagram.Presenter.Flowables.IFlowablePartData.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.Controls.Diagram.Presenter.Flowables.IFlowablePartData
+    name: IFlowablePartData
+    href: H.Controls.Diagram.Presenter.Flowables.IFlowablePartData.html
+  - name: )

@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.Behvaiors.TextBoxs
+  commentId: N:H.Extensions.Behvaiors.TextBoxs
+  id: H.Extensions.Behvaiors.TextBoxs
+  children:
+  - H.Extensions.Behvaiors.TextBoxs.TextBoxEditOnDoubleClickBebavior
+  - H.Extensions.Behvaiors.TextBoxs.TextBoxSelectAllOnFocusBebavior
+  - H.Extensions.Behvaiors.TextBoxs.TextBoxUpdateSourceOnKeyDownBebavior
+  langs:
+  - csharp
+  - vb
+  name: H.Extensions.Behvaiors.TextBoxs
+  nameWithType: H.Extensions.Behvaiors.TextBoxs
+  fullName: H.Extensions.Behvaiors.TextBoxs
+  type: Namespace
+  assemblies:
+  - H.Extensions.Behvaiors
+references:
+- uid: H.Extensions.Behvaiors.TextBoxs.TextBoxEditOnDoubleClickBebavior
+  commentId: T:H.Extensions.Behvaiors.TextBoxs.TextBoxEditOnDoubleClickBebavior
+  href: H.Extensions.Behvaiors.TextBoxs.TextBoxEditOnDoubleClickBebavior.html
+  name: TextBoxEditOnDoubleClickBebavior
+  nameWithType: TextBoxEditOnDoubleClickBebavior
+  fullName: H.Extensions.Behvaiors.TextBoxs.TextBoxEditOnDoubleClickBebavior
+- uid: H.Extensions.Behvaiors.TextBoxs.TextBoxSelectAllOnFocusBebavior
+  commentId: T:H.Extensions.Behvaiors.TextBoxs.TextBoxSelectAllOnFocusBebavior
+  href: H.Extensions.Behvaiors.TextBoxs.TextBoxSelectAllOnFocusBebavior.html
+  name: TextBoxSelectAllOnFocusBebavior
+  nameWithType: TextBoxSelectAllOnFocusBebavior
+  fullName: H.Extensions.Behvaiors.TextBoxs.TextBoxSelectAllOnFocusBebavior
+- uid: H.Extensions.Behvaiors.TextBoxs.TextBoxUpdateSourceOnKeyDownBebavior
+  commentId: T:H.Extensions.Behvaiors.TextBoxs.TextBoxUpdateSourceOnKeyDownBebavior
+  href: H.Extensions.Behvaiors.TextBoxs.TextBoxUpdateSourceOnKeyDownBebavior.html
+  name: TextBoxUpdateSourceOnKeyDownBebavior
+  nameWithType: TextBoxUpdateSourceOnKeyDownBebavior
+  fullName: H.Extensions.Behvaiors.TextBoxs.TextBoxUpdateSourceOnKeyDownBebavior

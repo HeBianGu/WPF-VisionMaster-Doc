@@ -1,0 +1,647 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.Diagram.Presenter.NodeDatas.NodeFactory
+  commentId: T:H.Controls.Diagram.Presenter.NodeDatas.NodeFactory
+  id: NodeFactory
+  parent: H.Controls.Diagram.Presenter.NodeDatas
+  children:
+  - H.Controls.Diagram.Presenter.NodeDatas.NodeFactory.GetNodeGroups(System.Collections.Generic.IEnumerable{H.Controls.Diagram.Presenter.NodeDatas.Base.NodeData})
+  - H.Controls.Diagram.Presenter.NodeDatas.NodeFactory.GetNodeGroups(System.Type[])
+  - H.Controls.Diagram.Presenter.NodeDatas.NodeFactory.LoadGeometryNodeDatas(System.Type[])
+  - H.Controls.Diagram.Presenter.NodeDatas.NodeFactory.LoadIconNodeDatas(System.Type[])
+  langs:
+  - csharp
+  - vb
+  name: NodeFactory
+  nameWithType: NodeFactory
+  fullName: H.Controls.Diagram.Presenter.NodeDatas.NodeFactory
+  type: Class
+  source:
+    id: NodeFactory
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.Diagram.Presenter\NodeDatas\NodeFactory.cs
+    startLine: 10
+  assemblies:
+  - H.Controls.Diagram.Presenter
+  namespace: H.Controls.Diagram.Presenter.NodeDatas
+  syntax:
+    content: public static class NodeFactory
+    content.vb: Public Module NodeFactory
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: H.Controls.Diagram.Presenter.NodeDatas.NodeFactory.LoadGeometryNodeDatas(System.Type[])
+  commentId: M:H.Controls.Diagram.Presenter.NodeDatas.NodeFactory.LoadGeometryNodeDatas(System.Type[])
+  id: LoadGeometryNodeDatas(System.Type[])
+  parent: H.Controls.Diagram.Presenter.NodeDatas.NodeFactory
+  langs:
+  - csharp
+  - vb
+  name: LoadGeometryNodeDatas(params Type[])
+  nameWithType: NodeFactory.LoadGeometryNodeDatas(params Type[])
+  fullName: H.Controls.Diagram.Presenter.NodeDatas.NodeFactory.LoadGeometryNodeDatas(params System.Type[])
+  type: Method
+  source:
+    id: LoadGeometryNodeDatas
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.Diagram.Presenter\NodeDatas\NodeFactory.cs
+    startLine: 12
+  assemblies:
+  - H.Controls.Diagram.Presenter
+  namespace: H.Controls.Diagram.Presenter.NodeDatas
+  syntax:
+    content: public static IEnumerable<INodeData> LoadGeometryNodeDatas(params Type[] type)
+    parameters:
+    - id: type
+      type: System.Type[]
+    return:
+      type: System.Collections.Generic.IEnumerable{H.Controls.Diagram.Datas.INodeData}
+    content.vb: Public Shared Function LoadGeometryNodeDatas(ParamArray type As Type()) As IEnumerable(Of INodeData)
+  overload: H.Controls.Diagram.Presenter.NodeDatas.NodeFactory.LoadGeometryNodeDatas*
+  nameWithType.vb: NodeFactory.LoadGeometryNodeDatas(ParamArray Type())
+  fullName.vb: H.Controls.Diagram.Presenter.NodeDatas.NodeFactory.LoadGeometryNodeDatas(ParamArray System.Type())
+  name.vb: LoadGeometryNodeDatas(ParamArray Type())
+- uid: H.Controls.Diagram.Presenter.NodeDatas.NodeFactory.LoadIconNodeDatas(System.Type[])
+  commentId: M:H.Controls.Diagram.Presenter.NodeDatas.NodeFactory.LoadIconNodeDatas(System.Type[])
+  id: LoadIconNodeDatas(System.Type[])
+  parent: H.Controls.Diagram.Presenter.NodeDatas.NodeFactory
+  langs:
+  - csharp
+  - vb
+  name: LoadIconNodeDatas(params Type[])
+  nameWithType: NodeFactory.LoadIconNodeDatas(params Type[])
+  fullName: H.Controls.Diagram.Presenter.NodeDatas.NodeFactory.LoadIconNodeDatas(params System.Type[])
+  type: Method
+  source:
+    id: LoadIconNodeDatas
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.Diagram.Presenter\NodeDatas\NodeFactory.cs
+    startLine: 41
+  assemblies:
+  - H.Controls.Diagram.Presenter
+  namespace: H.Controls.Diagram.Presenter.NodeDatas
+  syntax:
+    content: public static IEnumerable<INodeData> LoadIconNodeDatas(params Type[] type)
+    parameters:
+    - id: type
+      type: System.Type[]
+    return:
+      type: System.Collections.Generic.IEnumerable{H.Controls.Diagram.Datas.INodeData}
+    content.vb: Public Shared Function LoadIconNodeDatas(ParamArray type As Type()) As IEnumerable(Of INodeData)
+  overload: H.Controls.Diagram.Presenter.NodeDatas.NodeFactory.LoadIconNodeDatas*
+  nameWithType.vb: NodeFactory.LoadIconNodeDatas(ParamArray Type())
+  fullName.vb: H.Controls.Diagram.Presenter.NodeDatas.NodeFactory.LoadIconNodeDatas(ParamArray System.Type())
+  name.vb: LoadIconNodeDatas(ParamArray Type())
+- uid: H.Controls.Diagram.Presenter.NodeDatas.NodeFactory.GetNodeGroups(System.Collections.Generic.IEnumerable{H.Controls.Diagram.Presenter.NodeDatas.Base.NodeData})
+  commentId: M:H.Controls.Diagram.Presenter.NodeDatas.NodeFactory.GetNodeGroups(System.Collections.Generic.IEnumerable{H.Controls.Diagram.Presenter.NodeDatas.Base.NodeData})
+  id: GetNodeGroups(System.Collections.Generic.IEnumerable{H.Controls.Diagram.Presenter.NodeDatas.Base.NodeData})
+  isExtensionMethod: true
+  parent: H.Controls.Diagram.Presenter.NodeDatas.NodeFactory
+  langs:
+  - csharp
+  - vb
+  name: GetNodeGroups(IEnumerable<NodeData>)
+  nameWithType: NodeFactory.GetNodeGroups(IEnumerable<NodeData>)
+  fullName: H.Controls.Diagram.Presenter.NodeDatas.NodeFactory.GetNodeGroups(System.Collections.Generic.IEnumerable<H.Controls.Diagram.Presenter.NodeDatas.Base.NodeData>)
+  type: Method
+  source:
+    id: GetNodeGroups
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.Diagram.Presenter\NodeDatas\NodeFactory.cs
+    startLine: 52
+  assemblies:
+  - H.Controls.Diagram.Presenter
+  namespace: H.Controls.Diagram.Presenter.NodeDatas
+  syntax:
+    content: public static IEnumerable<NodeDataGroup> GetNodeGroups(this IEnumerable<NodeData> nodeDatas)
+    parameters:
+    - id: nodeDatas
+      type: System.Collections.Generic.IEnumerable{H.Controls.Diagram.Presenter.NodeDatas.Base.NodeData}
+    return:
+      type: System.Collections.Generic.IEnumerable{H.Controls.Diagram.Presenter.Provider.NodeDataGroup}
+    content.vb: Public Shared Function GetNodeGroups(nodeDatas As IEnumerable(Of NodeData)) As IEnumerable(Of NodeDataGroup)
+  overload: H.Controls.Diagram.Presenter.NodeDatas.NodeFactory.GetNodeGroups*
+  nameWithType.vb: NodeFactory.GetNodeGroups(IEnumerable(Of NodeData))
+  fullName.vb: H.Controls.Diagram.Presenter.NodeDatas.NodeFactory.GetNodeGroups(System.Collections.Generic.IEnumerable(Of H.Controls.Diagram.Presenter.NodeDatas.Base.NodeData))
+  name.vb: GetNodeGroups(IEnumerable(Of NodeData))
+- uid: H.Controls.Diagram.Presenter.NodeDatas.NodeFactory.GetNodeGroups(System.Type[])
+  commentId: M:H.Controls.Diagram.Presenter.NodeDatas.NodeFactory.GetNodeGroups(System.Type[])
+  id: GetNodeGroups(System.Type[])
+  parent: H.Controls.Diagram.Presenter.NodeDatas.NodeFactory
+  langs:
+  - csharp
+  - vb
+  name: GetNodeGroups(params Type[])
+  nameWithType: NodeFactory.GetNodeGroups(params Type[])
+  fullName: H.Controls.Diagram.Presenter.NodeDatas.NodeFactory.GetNodeGroups(params System.Type[])
+  type: Method
+  source:
+    id: GetNodeGroups
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.Diagram.Presenter\NodeDatas\NodeFactory.cs
+    startLine: 64
+  assemblies:
+  - H.Controls.Diagram.Presenter
+  namespace: H.Controls.Diagram.Presenter.NodeDatas
+  syntax:
+    content: public static IEnumerable<NodeDataGroup> GetNodeGroups(params Type[] type)
+    parameters:
+    - id: type
+      type: System.Type[]
+    return:
+      type: System.Collections.Generic.IEnumerable{H.Controls.Diagram.Presenter.Provider.NodeDataGroup}
+    content.vb: Public Shared Function GetNodeGroups(ParamArray type As Type()) As IEnumerable(Of NodeDataGroup)
+  overload: H.Controls.Diagram.Presenter.NodeDatas.NodeFactory.GetNodeGroups*
+  nameWithType.vb: NodeFactory.GetNodeGroups(ParamArray Type())
+  fullName.vb: H.Controls.Diagram.Presenter.NodeDatas.NodeFactory.GetNodeGroups(ParamArray System.Type())
+  name.vb: GetNodeGroups(ParamArray Type())
+references:
+- uid: H.Controls.Diagram.Presenter.NodeDatas
+  commentId: N:H.Controls.Diagram.Presenter.NodeDatas
+  href: H.html
+  name: H.Controls.Diagram.Presenter.NodeDatas
+  nameWithType: H.Controls.Diagram.Presenter.NodeDatas
+  fullName: H.Controls.Diagram.Presenter.NodeDatas
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter
+    name: Presenter
+    href: H.Controls.Diagram.Presenter.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter.NodeDatas
+    name: NodeDatas
+    href: H.Controls.Diagram.Presenter.NodeDatas.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter
+    name: Presenter
+    href: H.Controls.Diagram.Presenter.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter.NodeDatas
+    name: NodeDatas
+    href: H.Controls.Diagram.Presenter.NodeDatas.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: H.Controls.Diagram.Presenter.NodeDatas.NodeFactory.LoadGeometryNodeDatas*
+  commentId: Overload:H.Controls.Diagram.Presenter.NodeDatas.NodeFactory.LoadGeometryNodeDatas
+  href: H.Controls.Diagram.Presenter.NodeDatas.NodeFactory.html#H_Controls_Diagram_Presenter_NodeDatas_NodeFactory_LoadGeometryNodeDatas_System_Type___
+  name: LoadGeometryNodeDatas
+  nameWithType: NodeFactory.LoadGeometryNodeDatas
+  fullName: H.Controls.Diagram.Presenter.NodeDatas.NodeFactory.LoadGeometryNodeDatas
+- uid: System.Type[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type[]
+  nameWithType: Type[]
+  fullName: System.Type[]
+  nameWithType.vb: Type()
+  fullName.vb: System.Type()
+  name.vb: Type()
+  spec.csharp:
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: (
+  - name: )
+- uid: System.Collections.Generic.IEnumerable{H.Controls.Diagram.Datas.INodeData}
+  commentId: T:System.Collections.Generic.IEnumerable{H.Controls.Diagram.Datas.INodeData}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<INodeData>
+  nameWithType: IEnumerable<INodeData>
+  fullName: System.Collections.Generic.IEnumerable<H.Controls.Diagram.Datas.INodeData>
+  nameWithType.vb: IEnumerable(Of INodeData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of H.Controls.Diagram.Datas.INodeData)
+  name.vb: IEnumerable(Of INodeData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: H.Controls.Diagram.Datas.INodeData
+    name: INodeData
+    href: H.Controls.Diagram.Datas.INodeData.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.Controls.Diagram.Datas.INodeData
+    name: INodeData
+    href: H.Controls.Diagram.Datas.INodeData.html
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: H.Controls.Diagram.Presenter.NodeDatas.NodeFactory.LoadIconNodeDatas*
+  commentId: Overload:H.Controls.Diagram.Presenter.NodeDatas.NodeFactory.LoadIconNodeDatas
+  href: H.Controls.Diagram.Presenter.NodeDatas.NodeFactory.html#H_Controls_Diagram_Presenter_NodeDatas_NodeFactory_LoadIconNodeDatas_System_Type___
+  name: LoadIconNodeDatas
+  nameWithType: NodeFactory.LoadIconNodeDatas
+  fullName: H.Controls.Diagram.Presenter.NodeDatas.NodeFactory.LoadIconNodeDatas
+- uid: H.Controls.Diagram.Presenter.NodeDatas.NodeFactory.GetNodeGroups*
+  commentId: Overload:H.Controls.Diagram.Presenter.NodeDatas.NodeFactory.GetNodeGroups
+  href: H.Controls.Diagram.Presenter.NodeDatas.NodeFactory.html#H_Controls_Diagram_Presenter_NodeDatas_NodeFactory_GetNodeGroups_System_Collections_Generic_IEnumerable_H_Controls_Diagram_Presenter_NodeDatas_Base_NodeData__
+  name: GetNodeGroups
+  nameWithType: NodeFactory.GetNodeGroups
+  fullName: H.Controls.Diagram.Presenter.NodeDatas.NodeFactory.GetNodeGroups
+- uid: System.Collections.Generic.IEnumerable{H.Controls.Diagram.Presenter.NodeDatas.Base.NodeData}
+  commentId: T:System.Collections.Generic.IEnumerable{H.Controls.Diagram.Presenter.NodeDatas.Base.NodeData}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<NodeData>
+  nameWithType: IEnumerable<NodeData>
+  fullName: System.Collections.Generic.IEnumerable<H.Controls.Diagram.Presenter.NodeDatas.Base.NodeData>
+  nameWithType.vb: IEnumerable(Of NodeData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of H.Controls.Diagram.Presenter.NodeDatas.Base.NodeData)
+  name.vb: IEnumerable(Of NodeData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: H.Controls.Diagram.Presenter.NodeDatas.Base.NodeData
+    name: NodeData
+    href: H.Controls.Diagram.Presenter.NodeDatas.Base.NodeData.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.Controls.Diagram.Presenter.NodeDatas.Base.NodeData
+    name: NodeData
+    href: H.Controls.Diagram.Presenter.NodeDatas.Base.NodeData.html
+  - name: )
+- uid: System.Collections.Generic.IEnumerable{H.Controls.Diagram.Presenter.Provider.NodeDataGroup}
+  commentId: T:System.Collections.Generic.IEnumerable{H.Controls.Diagram.Presenter.Provider.NodeDataGroup}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<NodeDataGroup>
+  nameWithType: IEnumerable<NodeDataGroup>
+  fullName: System.Collections.Generic.IEnumerable<H.Controls.Diagram.Presenter.Provider.NodeDataGroup>
+  nameWithType.vb: IEnumerable(Of NodeDataGroup)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of H.Controls.Diagram.Presenter.Provider.NodeDataGroup)
+  name.vb: IEnumerable(Of NodeDataGroup)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: H.Controls.Diagram.Presenter.Provider.NodeDataGroup
+    name: NodeDataGroup
+    href: H.Controls.Diagram.Presenter.Provider.NodeDataGroup.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.Controls.Diagram.Presenter.Provider.NodeDataGroup
+    name: NodeDataGroup
+    href: H.Controls.Diagram.Presenter.Provider.NodeDataGroup.html
+  - name: )

@@ -1,0 +1,739 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.Dock.Controls.Extensions
+  commentId: T:H.Controls.Dock.Controls.Extensions
+  id: Extensions
+  parent: H.Controls.Dock.Controls
+  children:
+  - H.Controls.Dock.Controls.Extensions.FindLogicalAncestor``1(System.Windows.DependencyObject)
+  - H.Controls.Dock.Controls.Extensions.FindLogicalChildren``1(System.Windows.DependencyObject)
+  - H.Controls.Dock.Controls.Extensions.FindVisualAncestor``1(System.Windows.DependencyObject)
+  - H.Controls.Dock.Controls.Extensions.FindVisualChildren``1(System.Windows.DependencyObject)
+  - H.Controls.Dock.Controls.Extensions.FindVisualTreeRoot(System.Windows.DependencyObject)
+  langs:
+  - csharp
+  - vb
+  name: Extensions
+  nameWithType: Extensions
+  fullName: H.Controls.Dock.Controls.Extensions
+  type: Class
+  source:
+    id: Extensions
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.Dock\Controls\Extensions.cs
+    startLine: 9
+  assemblies:
+  - H.Controls.Dock
+  namespace: H.Controls.Dock.Controls
+  syntax:
+    content: public static class Extensions
+    content.vb: Public Module Extensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: H.Controls.Dock.Controls.Extensions.FindVisualChildren``1(System.Windows.DependencyObject)
+  commentId: M:H.Controls.Dock.Controls.Extensions.FindVisualChildren``1(System.Windows.DependencyObject)
+  id: FindVisualChildren``1(System.Windows.DependencyObject)
+  isExtensionMethod: true
+  parent: H.Controls.Dock.Controls.Extensions
+  langs:
+  - csharp
+  - vb
+  name: FindVisualChildren<T>(DependencyObject)
+  nameWithType: Extensions.FindVisualChildren<T>(DependencyObject)
+  fullName: H.Controls.Dock.Controls.Extensions.FindVisualChildren<T>(System.Windows.DependencyObject)
+  type: Method
+  source:
+    id: FindVisualChildren
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.Dock\Controls\Extensions.cs
+    startLine: 16
+  assemblies:
+  - H.Controls.Dock
+  namespace: H.Controls.Dock.Controls
+  summary: Finds all the children in the visual tree of a specific type from a certain point.
+  remarks: Uses <xref href="System.Windows.Media.VisualTreeHelper" data-throw-if-not-resolved="false"></xref> internally.
+  example: []
+  syntax:
+    content: 'public static IEnumerable<T> FindVisualChildren<T>(this DependencyObject depObj) where T : DependencyObject'
+    parameters:
+    - id: depObj
+      type: System.Windows.DependencyObject
+      description: The starting point for the search.
+    typeParameters:
+    - id: T
+      description: The type to search for.
+    return:
+      type: System.Collections.Generic.IEnumerable{{T}}
+      description: All the children found.
+    content.vb: Public Shared Function FindVisualChildren(Of T As DependencyObject)(depObj As DependencyObject) As IEnumerable(Of T)
+  overload: H.Controls.Dock.Controls.Extensions.FindVisualChildren*
+  nameWithType.vb: Extensions.FindVisualChildren(Of T)(DependencyObject)
+  fullName.vb: H.Controls.Dock.Controls.Extensions.FindVisualChildren(Of T)(System.Windows.DependencyObject)
+  name.vb: FindVisualChildren(Of T)(DependencyObject)
+- uid: H.Controls.Dock.Controls.Extensions.FindLogicalChildren``1(System.Windows.DependencyObject)
+  commentId: M:H.Controls.Dock.Controls.Extensions.FindLogicalChildren``1(System.Windows.DependencyObject)
+  id: FindLogicalChildren``1(System.Windows.DependencyObject)
+  isExtensionMethod: true
+  parent: H.Controls.Dock.Controls.Extensions
+  langs:
+  - csharp
+  - vb
+  name: FindLogicalChildren<T>(DependencyObject)
+  nameWithType: Extensions.FindLogicalChildren<T>(DependencyObject)
+  fullName: H.Controls.Dock.Controls.Extensions.FindLogicalChildren<T>(System.Windows.DependencyObject)
+  type: Method
+  source:
+    id: FindLogicalChildren
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.Dock\Controls\Extensions.cs
+    startLine: 34
+  assemblies:
+  - H.Controls.Dock
+  namespace: H.Controls.Dock.Controls
+  summary: Finds all the children in the logical tree of a specific type from a certain point.
+  remarks: Uses <xref href="System.Windows.LogicalTreeHelper" data-throw-if-not-resolved="false"></xref> internally.
+  example: []
+  syntax:
+    content: 'public static IEnumerable<T> FindLogicalChildren<T>(this DependencyObject depObj) where T : DependencyObject'
+    parameters:
+    - id: depObj
+      type: System.Windows.DependencyObject
+      description: The starting point for the search.
+    typeParameters:
+    - id: T
+      description: The type to search for.
+    return:
+      type: System.Collections.Generic.IEnumerable{{T}}
+      description: All the children found.
+    content.vb: Public Shared Function FindLogicalChildren(Of T As DependencyObject)(depObj As DependencyObject) As IEnumerable(Of T)
+  overload: H.Controls.Dock.Controls.Extensions.FindLogicalChildren*
+  nameWithType.vb: Extensions.FindLogicalChildren(Of T)(DependencyObject)
+  fullName.vb: H.Controls.Dock.Controls.Extensions.FindLogicalChildren(Of T)(System.Windows.DependencyObject)
+  name.vb: FindLogicalChildren(Of T)(DependencyObject)
+- uid: H.Controls.Dock.Controls.Extensions.FindVisualTreeRoot(System.Windows.DependencyObject)
+  commentId: M:H.Controls.Dock.Controls.Extensions.FindVisualTreeRoot(System.Windows.DependencyObject)
+  id: FindVisualTreeRoot(System.Windows.DependencyObject)
+  isExtensionMethod: true
+  parent: H.Controls.Dock.Controls.Extensions
+  langs:
+  - csharp
+  - vb
+  name: FindVisualTreeRoot(DependencyObject)
+  nameWithType: Extensions.FindVisualTreeRoot(DependencyObject)
+  fullName: H.Controls.Dock.Controls.Extensions.FindVisualTreeRoot(System.Windows.DependencyObject)
+  type: Method
+  source:
+    id: FindVisualTreeRoot
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.Dock\Controls\Extensions.cs
+    startLine: 50
+  assemblies:
+  - H.Controls.Dock
+  namespace: H.Controls.Dock.Controls
+  summary: Finds the visual root in the visual/logical tree.
+  remarks: Uses <xref href="System.Windows.LogicalTreeHelper.GetParent(System.Windows.DependencyObject)" data-throw-if-not-resolved="false"></xref> and <xref href="System.Windows.Media.VisualTreeHelper.GetParent(System.Windows.DependencyObject)" data-throw-if-not-resolved="false"></xref> internally.
+  example: []
+  syntax:
+    content: public static DependencyObject FindVisualTreeRoot(this DependencyObject initial)
+    parameters:
+    - id: initial
+      type: System.Windows.DependencyObject
+      description: The stating element.
+    return:
+      type: System.Windows.DependencyObject
+      description: The root for this branch.
+    content.vb: Public Shared Function FindVisualTreeRoot(initial As DependencyObject) As DependencyObject
+  overload: H.Controls.Dock.Controls.Extensions.FindVisualTreeRoot*
+- uid: H.Controls.Dock.Controls.Extensions.FindVisualAncestor``1(System.Windows.DependencyObject)
+  commentId: M:H.Controls.Dock.Controls.Extensions.FindVisualAncestor``1(System.Windows.DependencyObject)
+  id: FindVisualAncestor``1(System.Windows.DependencyObject)
+  isExtensionMethod: true
+  parent: H.Controls.Dock.Controls.Extensions
+  langs:
+  - csharp
+  - vb
+  name: FindVisualAncestor<T>(DependencyObject)
+  nameWithType: Extensions.FindVisualAncestor<T>(DependencyObject)
+  fullName: H.Controls.Dock.Controls.Extensions.FindVisualAncestor<T>(System.Windows.DependencyObject)
+  type: Method
+  source:
+    id: FindVisualAncestor
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.Dock\Controls\Extensions.cs
+    startLine: 75
+  assemblies:
+  - H.Controls.Dock
+  namespace: H.Controls.Dock.Controls
+  summary: Finds the first ancestor of a specific type in the visual tree.
+  remarks: Uses <xref href="System.Windows.Media.VisualTreeHelper.GetParent(System.Windows.DependencyObject)" data-throw-if-not-resolved="false"></xref> internally.
+  example: []
+  syntax:
+    content: 'public static T FindVisualAncestor<T>(this DependencyObject dependencyObject) where T : class'
+    parameters:
+    - id: dependencyObject
+      type: System.Windows.DependencyObject
+      description: The dependency object to find ancestor for.
+    typeParameters:
+    - id: T
+      description: The type to search for.
+    return:
+      type: '{T}'
+      description: The ancestor, or <code>null</code> if no match found.
+    content.vb: Public Shared Function FindVisualAncestor(Of T As Class)(dependencyObject As DependencyObject) As T
+  overload: H.Controls.Dock.Controls.Extensions.FindVisualAncestor*
+  nameWithType.vb: Extensions.FindVisualAncestor(Of T)(DependencyObject)
+  fullName.vb: H.Controls.Dock.Controls.Extensions.FindVisualAncestor(Of T)(System.Windows.DependencyObject)
+  name.vb: FindVisualAncestor(Of T)(DependencyObject)
+- uid: H.Controls.Dock.Controls.Extensions.FindLogicalAncestor``1(System.Windows.DependencyObject)
+  commentId: M:H.Controls.Dock.Controls.Extensions.FindLogicalAncestor``1(System.Windows.DependencyObject)
+  id: FindLogicalAncestor``1(System.Windows.DependencyObject)
+  isExtensionMethod: true
+  parent: H.Controls.Dock.Controls.Extensions
+  langs:
+  - csharp
+  - vb
+  name: FindLogicalAncestor<T>(DependencyObject)
+  nameWithType: Extensions.FindLogicalAncestor<T>(DependencyObject)
+  fullName: H.Controls.Dock.Controls.Extensions.FindLogicalAncestor<T>(System.Windows.DependencyObject)
+  type: Method
+  source:
+    id: FindLogicalAncestor
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.Dock\Controls\Extensions.cs
+    startLine: 91
+  assemblies:
+  - H.Controls.Dock
+  namespace: H.Controls.Dock.Controls
+  summary: Finds the first ancestor of a specific type in the logical tree / visual tree.
+  remarks: Uses <xref href="System.Windows.LogicalTreeHelper.GetParent(System.Windows.DependencyObject)" data-throw-if-not-resolved="false"></xref> and <xref href="System.Windows.Media.VisualTreeHelper.GetParent(System.Windows.DependencyObject)" data-throw-if-not-resolved="false"></xref> internally.
+  example: []
+  syntax:
+    content: 'public static T FindLogicalAncestor<T>(this DependencyObject dependencyObject) where T : class'
+    parameters:
+    - id: dependencyObject
+      type: System.Windows.DependencyObject
+      description: The dependency object to find ancestor for.
+    typeParameters:
+    - id: T
+      description: The type to search for.
+    return:
+      type: '{T}'
+      description: The ancestor, or <code>null</code> if no match found.
+    content.vb: Public Shared Function FindLogicalAncestor(Of T As Class)(dependencyObject As DependencyObject) As T
+  overload: H.Controls.Dock.Controls.Extensions.FindLogicalAncestor*
+  nameWithType.vb: Extensions.FindLogicalAncestor(Of T)(DependencyObject)
+  fullName.vb: H.Controls.Dock.Controls.Extensions.FindLogicalAncestor(Of T)(System.Windows.DependencyObject)
+  name.vb: FindLogicalAncestor(Of T)(DependencyObject)
+references:
+- uid: H.Controls.Dock.Controls
+  commentId: N:H.Controls.Dock.Controls
+  href: H.html
+  name: H.Controls.Dock.Controls
+  nameWithType: H.Controls.Dock.Controls
+  fullName: H.Controls.Dock.Controls
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Dock
+    name: Dock
+    href: H.Controls.Dock.html
+  - name: .
+  - uid: H.Controls.Dock.Controls
+    name: Controls
+    href: H.Controls.Dock.Controls.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Dock
+    name: Dock
+    href: H.Controls.Dock.html
+  - name: .
+  - uid: H.Controls.Dock.Controls
+    name: Controls
+    href: H.Controls.Dock.Controls.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Windows.Media.VisualTreeHelper
+  commentId: T:System.Windows.Media.VisualTreeHelper
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.visualtreehelper
+  name: VisualTreeHelper
+  nameWithType: VisualTreeHelper
+  fullName: System.Windows.Media.VisualTreeHelper
+- uid: H.Controls.Dock.Controls.Extensions.FindVisualChildren*
+  commentId: Overload:H.Controls.Dock.Controls.Extensions.FindVisualChildren
+  href: H.Controls.Dock.Controls.Extensions.html#H_Controls_Dock_Controls_Extensions_FindVisualChildren__1_System_Windows_DependencyObject_
+  name: FindVisualChildren
+  nameWithType: Extensions.FindVisualChildren
+  fullName: H.Controls.Dock.Controls.Extensions.FindVisualChildren
+- uid: System.Windows.DependencyObject
+  commentId: T:System.Windows.DependencyObject
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject
+  name: DependencyObject
+  nameWithType: DependencyObject
+  fullName: System.Windows.DependencyObject
+- uid: System.Collections.Generic.IEnumerable{{T}}
+  commentId: T:System.Collections.Generic.IEnumerable{``0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Windows
+  commentId: N:System.Windows
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows
+  nameWithType: System.Windows
+  fullName: System.Windows
+  spec.csharp:
+  - uid: System
+    name: System
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  spec.vb:
+  - uid: System
+    name: System
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: System.Windows.LogicalTreeHelper
+  commentId: T:System.Windows.LogicalTreeHelper
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.logicaltreehelper
+  name: LogicalTreeHelper
+  nameWithType: LogicalTreeHelper
+  fullName: System.Windows.LogicalTreeHelper
+- uid: H.Controls.Dock.Controls.Extensions.FindLogicalChildren*
+  commentId: Overload:H.Controls.Dock.Controls.Extensions.FindLogicalChildren
+  href: H.Controls.Dock.Controls.Extensions.html#H_Controls_Dock_Controls_Extensions_FindLogicalChildren__1_System_Windows_DependencyObject_
+  name: FindLogicalChildren
+  nameWithType: Extensions.FindLogicalChildren
+  fullName: H.Controls.Dock.Controls.Extensions.FindLogicalChildren
+- uid: System.Windows.LogicalTreeHelper.GetParent(System.Windows.DependencyObject)
+  commentId: M:System.Windows.LogicalTreeHelper.GetParent(System.Windows.DependencyObject)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.logicaltreehelper.getparent
+  name: GetParent(DependencyObject)
+  nameWithType: LogicalTreeHelper.GetParent(DependencyObject)
+  fullName: System.Windows.LogicalTreeHelper.GetParent(System.Windows.DependencyObject)
+  spec.csharp:
+  - uid: System.Windows.LogicalTreeHelper.GetParent(System.Windows.DependencyObject)
+    name: GetParent
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.logicaltreehelper.getparent
+  - name: (
+  - uid: System.Windows.DependencyObject
+    name: DependencyObject
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject
+  - name: )
+  spec.vb:
+  - uid: System.Windows.LogicalTreeHelper.GetParent(System.Windows.DependencyObject)
+    name: GetParent
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.logicaltreehelper.getparent
+  - name: (
+  - uid: System.Windows.DependencyObject
+    name: DependencyObject
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject
+  - name: )
+- uid: System.Windows.Media.VisualTreeHelper.GetParent(System.Windows.DependencyObject)
+  commentId: M:System.Windows.Media.VisualTreeHelper.GetParent(System.Windows.DependencyObject)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.visualtreehelper.getparent
+  name: GetParent(DependencyObject)
+  nameWithType: VisualTreeHelper.GetParent(DependencyObject)
+  fullName: System.Windows.Media.VisualTreeHelper.GetParent(System.Windows.DependencyObject)
+  spec.csharp:
+  - uid: System.Windows.Media.VisualTreeHelper.GetParent(System.Windows.DependencyObject)
+    name: GetParent
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.visualtreehelper.getparent
+  - name: (
+  - uid: System.Windows.DependencyObject
+    name: DependencyObject
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject
+  - name: )
+  spec.vb:
+  - uid: System.Windows.Media.VisualTreeHelper.GetParent(System.Windows.DependencyObject)
+    name: GetParent
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media.visualtreehelper.getparent
+  - name: (
+  - uid: System.Windows.DependencyObject
+    name: DependencyObject
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject
+  - name: )
+- uid: H.Controls.Dock.Controls.Extensions.FindVisualTreeRoot*
+  commentId: Overload:H.Controls.Dock.Controls.Extensions.FindVisualTreeRoot
+  href: H.Controls.Dock.Controls.Extensions.html#H_Controls_Dock_Controls_Extensions_FindVisualTreeRoot_System_Windows_DependencyObject_
+  name: FindVisualTreeRoot
+  nameWithType: Extensions.FindVisualTreeRoot
+  fullName: H.Controls.Dock.Controls.Extensions.FindVisualTreeRoot
+- uid: H.Controls.Dock.Controls.Extensions.FindVisualAncestor*
+  commentId: Overload:H.Controls.Dock.Controls.Extensions.FindVisualAncestor
+  href: H.Controls.Dock.Controls.Extensions.html#H_Controls_Dock_Controls_Extensions_FindVisualAncestor__1_System_Windows_DependencyObject_
+  name: FindVisualAncestor
+  nameWithType: Extensions.FindVisualAncestor
+  fullName: H.Controls.Dock.Controls.Extensions.FindVisualAncestor
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: H.Controls.Dock.Controls.Extensions.FindLogicalAncestor*
+  commentId: Overload:H.Controls.Dock.Controls.Extensions.FindLogicalAncestor
+  href: H.Controls.Dock.Controls.Extensions.html#H_Controls_Dock_Controls_Extensions_FindLogicalAncestor__1_System_Windows_DependencyObject_
+  name: FindLogicalAncestor
+  nameWithType: Extensions.FindLogicalAncestor
+  fullName: H.Controls.Dock.Controls.Extensions.FindLogicalAncestor

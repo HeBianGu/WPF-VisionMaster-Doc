@@ -1,0 +1,740 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.Unit.Functions
+  commentId: T:H.Extensions.Unit.Functions
+  id: Functions
+  parent: H.Extensions.Unit
+  children:
+  - H.Extensions.Unit.Functions.Acos(System.Double)
+  - H.Extensions.Unit.Functions.Asin(System.Double)
+  - H.Extensions.Unit.Functions.Atan2(H.Extensions.Unit.Length,H.Extensions.Unit.Length)
+  - H.Extensions.Unit.Functions.Cos(H.Extensions.Unit.Angle)
+  - H.Extensions.Unit.Functions.Sin(H.Extensions.Unit.Angle)
+  - H.Extensions.Unit.Functions.Sqrt(H.Extensions.Unit.AngularVelocitySquared)
+  - H.Extensions.Unit.Functions.Sqrt(H.Extensions.Unit.Area)
+  - H.Extensions.Unit.Functions.Sqrt(H.Extensions.Unit.PhysicalQuantity)
+  - H.Extensions.Unit.Functions.Sqrt(H.Extensions.Unit.TimeSquared)
+  - H.Extensions.Unit.Functions.Sqrt(H.Extensions.Unit.VelocitySquared)
+  - H.Extensions.Unit.Functions.Tan(H.Extensions.Unit.Angle)
+  langs:
+  - csharp
+  - vb
+  name: Functions
+  nameWithType: Functions
+  fullName: H.Extensions.Unit.Functions
+  type: Class
+  source:
+    id: Functions
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Functions.cs
+    startLine: 10
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static class Functions
+    content.vb: Public Module Functions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: H.Extensions.Unit.Functions.Sqrt(H.Extensions.Unit.Area)
+  commentId: M:H.Extensions.Unit.Functions.Sqrt(H.Extensions.Unit.Area)
+  id: Sqrt(H.Extensions.Unit.Area)
+  parent: H.Extensions.Unit.Functions
+  langs:
+  - csharp
+  - vb
+  name: Sqrt(Area)
+  nameWithType: Functions.Sqrt(Area)
+  fullName: H.Extensions.Unit.Functions.Sqrt(H.Extensions.Unit.Area)
+  type: Method
+  source:
+    id: Sqrt
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Functions.cs
+    startLine: 12
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static Length Sqrt(Area area)
+    parameters:
+    - id: area
+      type: H.Extensions.Unit.Area
+    return:
+      type: H.Extensions.Unit.Length
+    content.vb: Public Shared Function Sqrt(area As Area) As Length
+  overload: H.Extensions.Unit.Functions.Sqrt*
+- uid: H.Extensions.Unit.Functions.Sqrt(H.Extensions.Unit.VelocitySquared)
+  commentId: M:H.Extensions.Unit.Functions.Sqrt(H.Extensions.Unit.VelocitySquared)
+  id: Sqrt(H.Extensions.Unit.VelocitySquared)
+  parent: H.Extensions.Unit.Functions
+  langs:
+  - csharp
+  - vb
+  name: Sqrt(VelocitySquared)
+  nameWithType: Functions.Sqrt(VelocitySquared)
+  fullName: H.Extensions.Unit.Functions.Sqrt(H.Extensions.Unit.VelocitySquared)
+  type: Method
+  source:
+    id: Sqrt
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Functions.cs
+    startLine: 18
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static Velocity Sqrt(VelocitySquared velocitySquared)
+    parameters:
+    - id: velocitySquared
+      type: H.Extensions.Unit.VelocitySquared
+    return:
+      type: H.Extensions.Unit.Velocity
+    content.vb: Public Shared Function Sqrt(velocitySquared As VelocitySquared) As Velocity
+  overload: H.Extensions.Unit.Functions.Sqrt*
+- uid: H.Extensions.Unit.Functions.Sqrt(H.Extensions.Unit.TimeSquared)
+  commentId: M:H.Extensions.Unit.Functions.Sqrt(H.Extensions.Unit.TimeSquared)
+  id: Sqrt(H.Extensions.Unit.TimeSquared)
+  parent: H.Extensions.Unit.Functions
+  langs:
+  - csharp
+  - vb
+  name: Sqrt(TimeSquared)
+  nameWithType: Functions.Sqrt(TimeSquared)
+  fullName: H.Extensions.Unit.Functions.Sqrt(H.Extensions.Unit.TimeSquared)
+  type: Method
+  source:
+    id: Sqrt
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Functions.cs
+    startLine: 24
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static Time Sqrt(TimeSquared timeSquared)
+    parameters:
+    - id: timeSquared
+      type: H.Extensions.Unit.TimeSquared
+    return:
+      type: H.Extensions.Unit.Time
+    content.vb: Public Shared Function Sqrt(timeSquared As TimeSquared) As Time
+  overload: H.Extensions.Unit.Functions.Sqrt*
+- uid: H.Extensions.Unit.Functions.Sqrt(H.Extensions.Unit.AngularVelocitySquared)
+  commentId: M:H.Extensions.Unit.Functions.Sqrt(H.Extensions.Unit.AngularVelocitySquared)
+  id: Sqrt(H.Extensions.Unit.AngularVelocitySquared)
+  parent: H.Extensions.Unit.Functions
+  langs:
+  - csharp
+  - vb
+  name: Sqrt(AngularVelocitySquared)
+  nameWithType: Functions.Sqrt(AngularVelocitySquared)
+  fullName: H.Extensions.Unit.Functions.Sqrt(H.Extensions.Unit.AngularVelocitySquared)
+  type: Method
+  source:
+    id: Sqrt
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Functions.cs
+    startLine: 30
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static AngularVelocity Sqrt(AngularVelocitySquared angluarVelocitySquared)
+    parameters:
+    - id: angluarVelocitySquared
+      type: H.Extensions.Unit.AngularVelocitySquared
+    return:
+      type: H.Extensions.Unit.AngularVelocity
+    content.vb: Public Shared Function Sqrt(angluarVelocitySquared As AngularVelocitySquared) As AngularVelocity
+  overload: H.Extensions.Unit.Functions.Sqrt*
+- uid: H.Extensions.Unit.Functions.Sqrt(H.Extensions.Unit.PhysicalQuantity)
+  commentId: M:H.Extensions.Unit.Functions.Sqrt(H.Extensions.Unit.PhysicalQuantity)
+  id: Sqrt(H.Extensions.Unit.PhysicalQuantity)
+  parent: H.Extensions.Unit.Functions
+  langs:
+  - csharp
+  - vb
+  name: Sqrt(PhysicalQuantity)
+  nameWithType: Functions.Sqrt(PhysicalQuantity)
+  fullName: H.Extensions.Unit.Functions.Sqrt(H.Extensions.Unit.PhysicalQuantity)
+  type: Method
+  source:
+    id: Sqrt
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Functions.cs
+    startLine: 36
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static PhysicalQuantity Sqrt(PhysicalQuantity qty)
+    parameters:
+    - id: qty
+      type: H.Extensions.Unit.PhysicalQuantity
+    return:
+      type: H.Extensions.Unit.PhysicalQuantity
+    content.vb: Public Shared Function Sqrt(qty As PhysicalQuantity) As PhysicalQuantity
+  overload: H.Extensions.Unit.Functions.Sqrt*
+- uid: H.Extensions.Unit.Functions.Sin(H.Extensions.Unit.Angle)
+  commentId: M:H.Extensions.Unit.Functions.Sin(H.Extensions.Unit.Angle)
+  id: Sin(H.Extensions.Unit.Angle)
+  parent: H.Extensions.Unit.Functions
+  langs:
+  - csharp
+  - vb
+  name: Sin(Angle)
+  nameWithType: Functions.Sin(Angle)
+  fullName: H.Extensions.Unit.Functions.Sin(H.Extensions.Unit.Angle)
+  type: Method
+  source:
+    id: Sin
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Functions.cs
+    startLine: 43
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static double Sin(Angle a)
+    parameters:
+    - id: a
+      type: H.Extensions.Unit.Angle
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Sin(a As Angle) As Double
+  overload: H.Extensions.Unit.Functions.Sin*
+- uid: H.Extensions.Unit.Functions.Cos(H.Extensions.Unit.Angle)
+  commentId: M:H.Extensions.Unit.Functions.Cos(H.Extensions.Unit.Angle)
+  id: Cos(H.Extensions.Unit.Angle)
+  parent: H.Extensions.Unit.Functions
+  langs:
+  - csharp
+  - vb
+  name: Cos(Angle)
+  nameWithType: Functions.Cos(Angle)
+  fullName: H.Extensions.Unit.Functions.Cos(H.Extensions.Unit.Angle)
+  type: Method
+  source:
+    id: Cos
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Functions.cs
+    startLine: 48
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static double Cos(Angle a)
+    parameters:
+    - id: a
+      type: H.Extensions.Unit.Angle
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Cos(a As Angle) As Double
+  overload: H.Extensions.Unit.Functions.Cos*
+- uid: H.Extensions.Unit.Functions.Tan(H.Extensions.Unit.Angle)
+  commentId: M:H.Extensions.Unit.Functions.Tan(H.Extensions.Unit.Angle)
+  id: Tan(H.Extensions.Unit.Angle)
+  parent: H.Extensions.Unit.Functions
+  langs:
+  - csharp
+  - vb
+  name: Tan(Angle)
+  nameWithType: Functions.Tan(Angle)
+  fullName: H.Extensions.Unit.Functions.Tan(H.Extensions.Unit.Angle)
+  type: Method
+  source:
+    id: Tan
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Functions.cs
+    startLine: 53
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static double Tan(Angle a)
+    parameters:
+    - id: a
+      type: H.Extensions.Unit.Angle
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Tan(a As Angle) As Double
+  overload: H.Extensions.Unit.Functions.Tan*
+- uid: H.Extensions.Unit.Functions.Acos(System.Double)
+  commentId: M:H.Extensions.Unit.Functions.Acos(System.Double)
+  id: Acos(System.Double)
+  parent: H.Extensions.Unit.Functions
+  langs:
+  - csharp
+  - vb
+  name: Acos(double)
+  nameWithType: Functions.Acos(double)
+  fullName: H.Extensions.Unit.Functions.Acos(double)
+  type: Method
+  source:
+    id: Acos
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Functions.cs
+    startLine: 58
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static Angle Acos(double d)
+    parameters:
+    - id: d
+      type: System.Double
+    return:
+      type: H.Extensions.Unit.Angle
+    content.vb: Public Shared Function Acos(d As Double) As Angle
+  overload: H.Extensions.Unit.Functions.Acos*
+  nameWithType.vb: Functions.Acos(Double)
+  fullName.vb: H.Extensions.Unit.Functions.Acos(Double)
+  name.vb: Acos(Double)
+- uid: H.Extensions.Unit.Functions.Asin(System.Double)
+  commentId: M:H.Extensions.Unit.Functions.Asin(System.Double)
+  id: Asin(System.Double)
+  parent: H.Extensions.Unit.Functions
+  langs:
+  - csharp
+  - vb
+  name: Asin(double)
+  nameWithType: Functions.Asin(double)
+  fullName: H.Extensions.Unit.Functions.Asin(double)
+  type: Method
+  source:
+    id: Asin
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Functions.cs
+    startLine: 63
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static Angle Asin(double d)
+    parameters:
+    - id: d
+      type: System.Double
+    return:
+      type: H.Extensions.Unit.Angle
+    content.vb: Public Shared Function Asin(d As Double) As Angle
+  overload: H.Extensions.Unit.Functions.Asin*
+  nameWithType.vb: Functions.Asin(Double)
+  fullName.vb: H.Extensions.Unit.Functions.Asin(Double)
+  name.vb: Asin(Double)
+- uid: H.Extensions.Unit.Functions.Atan2(H.Extensions.Unit.Length,H.Extensions.Unit.Length)
+  commentId: M:H.Extensions.Unit.Functions.Atan2(H.Extensions.Unit.Length,H.Extensions.Unit.Length)
+  id: Atan2(H.Extensions.Unit.Length,H.Extensions.Unit.Length)
+  parent: H.Extensions.Unit.Functions
+  langs:
+  - csharp
+  - vb
+  name: Atan2(Length, Length)
+  nameWithType: Functions.Atan2(Length, Length)
+  fullName: H.Extensions.Unit.Functions.Atan2(H.Extensions.Unit.Length, H.Extensions.Unit.Length)
+  type: Method
+  source:
+    id: Atan2
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Functions.cs
+    startLine: 69
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static Angle Atan2(Length l1, Length l2)
+    parameters:
+    - id: l1
+      type: H.Extensions.Unit.Length
+    - id: l2
+      type: H.Extensions.Unit.Length
+    return:
+      type: H.Extensions.Unit.Angle
+    content.vb: Public Shared Function Atan2(l1 As Length, l2 As Length) As Angle
+  overload: H.Extensions.Unit.Functions.Atan2*
+references:
+- uid: H.Extensions.Unit
+  commentId: N:H.Extensions.Unit
+  href: H.html
+  name: H.Extensions.Unit
+  nameWithType: H.Extensions.Unit
+  fullName: H.Extensions.Unit
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Unit
+    name: Unit
+    href: H.Extensions.Unit.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Unit
+    name: Unit
+    href: H.Extensions.Unit.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: H.Extensions.Unit.Functions.Sqrt*
+  commentId: Overload:H.Extensions.Unit.Functions.Sqrt
+  href: H.Extensions.Unit.Functions.html#H_Extensions_Unit_Functions_Sqrt_H_Extensions_Unit_Area_
+  name: Sqrt
+  nameWithType: Functions.Sqrt
+  fullName: H.Extensions.Unit.Functions.Sqrt
+- uid: H.Extensions.Unit.Area
+  commentId: T:H.Extensions.Unit.Area
+  parent: H.Extensions.Unit
+  href: H.Extensions.Unit.Area.html
+  name: Area
+  nameWithType: Area
+  fullName: H.Extensions.Unit.Area
+- uid: H.Extensions.Unit.Length
+  commentId: T:H.Extensions.Unit.Length
+  parent: H.Extensions.Unit
+  href: H.Extensions.Unit.Length.html
+  name: Length
+  nameWithType: Length
+  fullName: H.Extensions.Unit.Length
+- uid: H.Extensions.Unit.VelocitySquared
+  commentId: T:H.Extensions.Unit.VelocitySquared
+  parent: H.Extensions.Unit
+  href: H.Extensions.Unit.VelocitySquared.html
+  name: VelocitySquared
+  nameWithType: VelocitySquared
+  fullName: H.Extensions.Unit.VelocitySquared
+- uid: H.Extensions.Unit.Velocity
+  commentId: T:H.Extensions.Unit.Velocity
+  parent: H.Extensions.Unit
+  href: H.Extensions.Unit.Velocity.html
+  name: Velocity
+  nameWithType: Velocity
+  fullName: H.Extensions.Unit.Velocity
+- uid: H.Extensions.Unit.TimeSquared
+  commentId: T:H.Extensions.Unit.TimeSquared
+  parent: H.Extensions.Unit
+  href: H.Extensions.Unit.TimeSquared.html
+  name: TimeSquared
+  nameWithType: TimeSquared
+  fullName: H.Extensions.Unit.TimeSquared
+- uid: H.Extensions.Unit.Time
+  commentId: T:H.Extensions.Unit.Time
+  parent: H.Extensions.Unit
+  href: H.Extensions.Unit.Time.html
+  name: Time
+  nameWithType: Time
+  fullName: H.Extensions.Unit.Time
+- uid: H.Extensions.Unit.AngularVelocitySquared
+  commentId: T:H.Extensions.Unit.AngularVelocitySquared
+  parent: H.Extensions.Unit
+  href: H.Extensions.Unit.AngularVelocitySquared.html
+  name: AngularVelocitySquared
+  nameWithType: AngularVelocitySquared
+  fullName: H.Extensions.Unit.AngularVelocitySquared
+- uid: H.Extensions.Unit.AngularVelocity
+  commentId: T:H.Extensions.Unit.AngularVelocity
+  parent: H.Extensions.Unit
+  href: H.Extensions.Unit.AngularVelocity.html
+  name: AngularVelocity
+  nameWithType: AngularVelocity
+  fullName: H.Extensions.Unit.AngularVelocity
+- uid: H.Extensions.Unit.PhysicalQuantity
+  commentId: T:H.Extensions.Unit.PhysicalQuantity
+  parent: H.Extensions.Unit
+  href: H.Extensions.Unit.PhysicalQuantity.html
+  name: PhysicalQuantity
+  nameWithType: PhysicalQuantity
+  fullName: H.Extensions.Unit.PhysicalQuantity
+- uid: H.Extensions.Unit.Functions.Sin*
+  commentId: Overload:H.Extensions.Unit.Functions.Sin
+  href: H.Extensions.Unit.Functions.html#H_Extensions_Unit_Functions_Sin_H_Extensions_Unit_Angle_
+  name: Sin
+  nameWithType: Functions.Sin
+  fullName: H.Extensions.Unit.Functions.Sin
+- uid: H.Extensions.Unit.Angle
+  commentId: T:H.Extensions.Unit.Angle
+  parent: H.Extensions.Unit
+  href: H.Extensions.Unit.Angle.html
+  name: Angle
+  nameWithType: Angle
+  fullName: H.Extensions.Unit.Angle
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: H.Extensions.Unit.Functions.Cos*
+  commentId: Overload:H.Extensions.Unit.Functions.Cos
+  href: H.Extensions.Unit.Functions.html#H_Extensions_Unit_Functions_Cos_H_Extensions_Unit_Angle_
+  name: Cos
+  nameWithType: Functions.Cos
+  fullName: H.Extensions.Unit.Functions.Cos
+- uid: H.Extensions.Unit.Functions.Tan*
+  commentId: Overload:H.Extensions.Unit.Functions.Tan
+  href: H.Extensions.Unit.Functions.html#H_Extensions_Unit_Functions_Tan_H_Extensions_Unit_Angle_
+  name: Tan
+  nameWithType: Functions.Tan
+  fullName: H.Extensions.Unit.Functions.Tan
+- uid: H.Extensions.Unit.Functions.Acos*
+  commentId: Overload:H.Extensions.Unit.Functions.Acos
+  href: H.Extensions.Unit.Functions.html#H_Extensions_Unit_Functions_Acos_System_Double_
+  name: Acos
+  nameWithType: Functions.Acos
+  fullName: H.Extensions.Unit.Functions.Acos
+- uid: H.Extensions.Unit.Functions.Asin*
+  commentId: Overload:H.Extensions.Unit.Functions.Asin
+  href: H.Extensions.Unit.Functions.html#H_Extensions_Unit_Functions_Asin_System_Double_
+  name: Asin
+  nameWithType: Functions.Asin
+  fullName: H.Extensions.Unit.Functions.Asin
+- uid: H.Extensions.Unit.Functions.Atan2*
+  commentId: Overload:H.Extensions.Unit.Functions.Atan2
+  href: H.Extensions.Unit.Functions.html#H_Extensions_Unit_Functions_Atan2_H_Extensions_Unit_Length_H_Extensions_Unit_Length_
+  name: Atan2
+  nameWithType: Functions.Atan2
+  fullName: H.Extensions.Unit.Functions.Atan2

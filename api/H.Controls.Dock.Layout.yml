@@ -1,0 +1,396 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.Dock.Layout
+  commentId: N:H.Controls.Dock.Layout
+  id: H.Controls.Dock.Layout
+  children:
+  - H.Controls.Dock.Layout.AnchorSide
+  - H.Controls.Dock.Layout.AnchorableShowStrategy
+  - H.Controls.Dock.Layout.ChildrenTreeChange
+  - H.Controls.Dock.Layout.ChildrenTreeChangedEventArgs
+  - H.Controls.Dock.Layout.Extensions
+  - H.Controls.Dock.Layout.IAdjustableSizeLayout
+  - H.Controls.Dock.Layout.ILayoutAnchorablePane
+  - H.Controls.Dock.Layout.ILayoutContainer
+  - H.Controls.Dock.Layout.ILayoutContentSelector
+  - H.Controls.Dock.Layout.ILayoutControl
+  - H.Controls.Dock.Layout.ILayoutDocumentPane
+  - H.Controls.Dock.Layout.ILayoutElement
+  - H.Controls.Dock.Layout.ILayoutElementForFloatingWindowExtension
+  - H.Controls.Dock.Layout.ILayoutElementWithVisibility
+  - H.Controls.Dock.Layout.ILayoutGroup
+  - H.Controls.Dock.Layout.ILayoutOrientableGroup
+  - H.Controls.Dock.Layout.ILayoutPane
+  - H.Controls.Dock.Layout.ILayoutPanelElement
+  - H.Controls.Dock.Layout.ILayoutRoot
+  - H.Controls.Dock.Layout.ILayoutUpdateStrategy
+  - H.Controls.Dock.Layout.LayoutAnchorGroup
+  - H.Controls.Dock.Layout.LayoutAnchorSide
+  - H.Controls.Dock.Layout.LayoutAnchorable
+  - H.Controls.Dock.Layout.LayoutAnchorableFloatingWindow
+  - H.Controls.Dock.Layout.LayoutAnchorablePane
+  - H.Controls.Dock.Layout.LayoutAnchorablePaneGroup
+  - H.Controls.Dock.Layout.LayoutContent
+  - H.Controls.Dock.Layout.LayoutDocument
+  - H.Controls.Dock.Layout.LayoutDocumentFloatingWindow
+  - H.Controls.Dock.Layout.LayoutDocumentPane
+  - H.Controls.Dock.Layout.LayoutDocumentPaneGroup
+  - H.Controls.Dock.Layout.LayoutElement
+  - H.Controls.Dock.Layout.LayoutElementEventArgs
+  - H.Controls.Dock.Layout.LayoutFloatingWindow
+  - H.Controls.Dock.Layout.LayoutGroupBase
+  - H.Controls.Dock.Layout.LayoutGroup`1
+  - H.Controls.Dock.Layout.LayoutPanel
+  - H.Controls.Dock.Layout.LayoutPositionableGroup`1
+  - H.Controls.Dock.Layout.LayoutRoot
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.Dock.Layout
+  nameWithType: H.Controls.Dock.Layout
+  fullName: H.Controls.Dock.Layout
+  type: Namespace
+  assemblies:
+  - H.Controls.Dock
+references:
+- uid: H.Controls.Dock.Layout.AnchorableShowStrategy
+  commentId: T:H.Controls.Dock.Layout.AnchorableShowStrategy
+  parent: H.Controls.Dock.Layout
+  href: H.Controls.Dock.Layout.AnchorableShowStrategy.html
+  name: AnchorableShowStrategy
+  nameWithType: AnchorableShowStrategy
+  fullName: H.Controls.Dock.Layout.AnchorableShowStrategy
+- uid: H.Controls.Dock.Layout.AnchorSide
+  commentId: T:H.Controls.Dock.Layout.AnchorSide
+  parent: H.Controls.Dock.Layout
+  href: H.Controls.Dock.Layout.AnchorSide.html
+  name: AnchorSide
+  nameWithType: AnchorSide
+  fullName: H.Controls.Dock.Layout.AnchorSide
+- uid: H.Controls.Dock.Layout.ChildrenTreeChange
+  commentId: T:H.Controls.Dock.Layout.ChildrenTreeChange
+  parent: H.Controls.Dock.Layout
+  href: H.Controls.Dock.Layout.ChildrenTreeChange.html
+  name: ChildrenTreeChange
+  nameWithType: ChildrenTreeChange
+  fullName: H.Controls.Dock.Layout.ChildrenTreeChange
+- uid: H.Controls.Dock.Layout.ChildrenTreeChangedEventArgs
+  commentId: T:H.Controls.Dock.Layout.ChildrenTreeChangedEventArgs
+  href: H.Controls.Dock.Layout.ChildrenTreeChangedEventArgs.html
+  name: ChildrenTreeChangedEventArgs
+  nameWithType: ChildrenTreeChangedEventArgs
+  fullName: H.Controls.Dock.Layout.ChildrenTreeChangedEventArgs
+- uid: H.Controls.Dock.Layout.Extensions
+  commentId: T:H.Controls.Dock.Layout.Extensions
+  parent: H.Controls.Dock.Layout
+  href: H.Controls.Dock.Layout.Extensions.html
+  name: Extensions
+  nameWithType: Extensions
+  fullName: H.Controls.Dock.Layout.Extensions
+- uid: H.Controls.Dock.Layout.IAdjustableSizeLayout
+  commentId: T:H.Controls.Dock.Layout.IAdjustableSizeLayout
+  parent: H.Controls.Dock.Layout
+  href: H.Controls.Dock.Layout.IAdjustableSizeLayout.html
+  name: IAdjustableSizeLayout
+  nameWithType: IAdjustableSizeLayout
+  fullName: H.Controls.Dock.Layout.IAdjustableSizeLayout
+- uid: H.Controls.Dock.Layout.ILayoutAnchorablePane
+  commentId: T:H.Controls.Dock.Layout.ILayoutAnchorablePane
+  parent: H.Controls.Dock.Layout
+  href: H.Controls.Dock.Layout.ILayoutAnchorablePane.html
+  name: ILayoutAnchorablePane
+  nameWithType: ILayoutAnchorablePane
+  fullName: H.Controls.Dock.Layout.ILayoutAnchorablePane
+- uid: H.Controls.Dock.Layout.ILayoutContainer
+  commentId: T:H.Controls.Dock.Layout.ILayoutContainer
+  parent: H.Controls.Dock.Layout
+  href: H.Controls.Dock.Layout.ILayoutContainer.html
+  name: ILayoutContainer
+  nameWithType: ILayoutContainer
+  fullName: H.Controls.Dock.Layout.ILayoutContainer
+- uid: H.Controls.Dock.Layout.ILayoutContentSelector
+  commentId: T:H.Controls.Dock.Layout.ILayoutContentSelector
+  parent: H.Controls.Dock.Layout
+  href: H.Controls.Dock.Layout.ILayoutContentSelector.html
+  name: ILayoutContentSelector
+  nameWithType: ILayoutContentSelector
+  fullName: H.Controls.Dock.Layout.ILayoutContentSelector
+- uid: H.Controls.Dock.Layout.ILayoutControl
+  commentId: T:H.Controls.Dock.Layout.ILayoutControl
+  parent: H.Controls.Dock.Layout
+  href: H.Controls.Dock.Layout.ILayoutControl.html
+  name: ILayoutControl
+  nameWithType: ILayoutControl
+  fullName: H.Controls.Dock.Layout.ILayoutControl
+- uid: H.Controls.Dock.Layout.ILayoutDocumentPane
+  commentId: T:H.Controls.Dock.Layout.ILayoutDocumentPane
+  parent: H.Controls.Dock.Layout
+  href: H.Controls.Dock.Layout.ILayoutDocumentPane.html
+  name: ILayoutDocumentPane
+  nameWithType: ILayoutDocumentPane
+  fullName: H.Controls.Dock.Layout.ILayoutDocumentPane
+- uid: H.Controls.Dock.Layout.ILayoutElement
+  commentId: T:H.Controls.Dock.Layout.ILayoutElement
+  parent: H.Controls.Dock.Layout
+  href: H.Controls.Dock.Layout.ILayoutElement.html
+  name: ILayoutElement
+  nameWithType: ILayoutElement
+  fullName: H.Controls.Dock.Layout.ILayoutElement
+- uid: H.Controls.Dock.Layout.ILayoutElementForFloatingWindowExtension
+  commentId: T:H.Controls.Dock.Layout.ILayoutElementForFloatingWindowExtension
+  href: H.Controls.Dock.Layout.ILayoutElementForFloatingWindowExtension.html
+  name: ILayoutElementForFloatingWindowExtension
+  nameWithType: ILayoutElementForFloatingWindowExtension
+  fullName: H.Controls.Dock.Layout.ILayoutElementForFloatingWindowExtension
+- uid: H.Controls.Dock.Layout.ILayoutElementWithVisibility
+  commentId: T:H.Controls.Dock.Layout.ILayoutElementWithVisibility
+  parent: H.Controls.Dock.Layout
+  href: H.Controls.Dock.Layout.ILayoutElementWithVisibility.html
+  name: ILayoutElementWithVisibility
+  nameWithType: ILayoutElementWithVisibility
+  fullName: H.Controls.Dock.Layout.ILayoutElementWithVisibility
+- uid: H.Controls.Dock.Layout.ILayoutGroup
+  commentId: T:H.Controls.Dock.Layout.ILayoutGroup
+  parent: H.Controls.Dock.Layout
+  href: H.Controls.Dock.Layout.ILayoutGroup.html
+  name: ILayoutGroup
+  nameWithType: ILayoutGroup
+  fullName: H.Controls.Dock.Layout.ILayoutGroup
+- uid: H.Controls.Dock.Layout.ILayoutOrientableGroup
+  commentId: T:H.Controls.Dock.Layout.ILayoutOrientableGroup
+  parent: H.Controls.Dock.Layout
+  href: H.Controls.Dock.Layout.ILayoutOrientableGroup.html
+  name: ILayoutOrientableGroup
+  nameWithType: ILayoutOrientableGroup
+  fullName: H.Controls.Dock.Layout.ILayoutOrientableGroup
+- uid: H.Controls.Dock.Layout.ILayoutPane
+  commentId: T:H.Controls.Dock.Layout.ILayoutPane
+  parent: H.Controls.Dock.Layout
+  href: H.Controls.Dock.Layout.ILayoutPane.html
+  name: ILayoutPane
+  nameWithType: ILayoutPane
+  fullName: H.Controls.Dock.Layout.ILayoutPane
+- uid: H.Controls.Dock.Layout.ILayoutPanelElement
+  commentId: T:H.Controls.Dock.Layout.ILayoutPanelElement
+  parent: H.Controls.Dock.Layout
+  href: H.Controls.Dock.Layout.ILayoutPanelElement.html
+  name: ILayoutPanelElement
+  nameWithType: ILayoutPanelElement
+  fullName: H.Controls.Dock.Layout.ILayoutPanelElement
+- uid: H.Controls.Dock.Layout.ILayoutRoot
+  commentId: T:H.Controls.Dock.Layout.ILayoutRoot
+  parent: H.Controls.Dock.Layout
+  href: H.Controls.Dock.Layout.ILayoutRoot.html
+  name: ILayoutRoot
+  nameWithType: ILayoutRoot
+  fullName: H.Controls.Dock.Layout.ILayoutRoot
+- uid: H.Controls.Dock.Layout.ILayoutUpdateStrategy
+  commentId: T:H.Controls.Dock.Layout.ILayoutUpdateStrategy
+  parent: H.Controls.Dock.Layout
+  href: H.Controls.Dock.Layout.ILayoutUpdateStrategy.html
+  name: ILayoutUpdateStrategy
+  nameWithType: ILayoutUpdateStrategy
+  fullName: H.Controls.Dock.Layout.ILayoutUpdateStrategy
+- uid: H.Controls.Dock.Layout.LayoutAnchorable
+  commentId: T:H.Controls.Dock.Layout.LayoutAnchorable
+  parent: H.Controls.Dock.Layout
+  href: H.Controls.Dock.Layout.LayoutAnchorable.html
+  name: LayoutAnchorable
+  nameWithType: LayoutAnchorable
+  fullName: H.Controls.Dock.Layout.LayoutAnchorable
+- uid: H.Controls.Dock.Layout.LayoutAnchorableFloatingWindow
+  commentId: T:H.Controls.Dock.Layout.LayoutAnchorableFloatingWindow
+  href: H.Controls.Dock.Layout.LayoutAnchorableFloatingWindow.html
+  name: LayoutAnchorableFloatingWindow
+  nameWithType: LayoutAnchorableFloatingWindow
+  fullName: H.Controls.Dock.Layout.LayoutAnchorableFloatingWindow
+- uid: H.Controls.Dock.Layout.LayoutAnchorablePane
+  commentId: T:H.Controls.Dock.Layout.LayoutAnchorablePane
+  parent: H.Controls.Dock.Layout
+  href: H.Controls.Dock.Layout.LayoutAnchorablePane.html
+  name: LayoutAnchorablePane
+  nameWithType: LayoutAnchorablePane
+  fullName: H.Controls.Dock.Layout.LayoutAnchorablePane
+- uid: H.Controls.Dock.Layout.LayoutAnchorablePaneGroup
+  commentId: T:H.Controls.Dock.Layout.LayoutAnchorablePaneGroup
+  parent: H.Controls.Dock.Layout
+  href: H.Controls.Dock.Layout.LayoutAnchorablePaneGroup.html
+  name: LayoutAnchorablePaneGroup
+  nameWithType: LayoutAnchorablePaneGroup
+  fullName: H.Controls.Dock.Layout.LayoutAnchorablePaneGroup
+- uid: H.Controls.Dock.Layout.LayoutAnchorGroup
+  commentId: T:H.Controls.Dock.Layout.LayoutAnchorGroup
+  href: H.Controls.Dock.Layout.LayoutAnchorGroup.html
+  name: LayoutAnchorGroup
+  nameWithType: LayoutAnchorGroup
+  fullName: H.Controls.Dock.Layout.LayoutAnchorGroup
+- uid: H.Controls.Dock.Layout.LayoutAnchorSide
+  commentId: T:H.Controls.Dock.Layout.LayoutAnchorSide
+  parent: H.Controls.Dock.Layout
+  href: H.Controls.Dock.Layout.LayoutAnchorSide.html
+  name: LayoutAnchorSide
+  nameWithType: LayoutAnchorSide
+  fullName: H.Controls.Dock.Layout.LayoutAnchorSide
+- uid: H.Controls.Dock.Layout.LayoutContent
+  commentId: T:H.Controls.Dock.Layout.LayoutContent
+  parent: H.Controls.Dock.Layout
+  href: H.Controls.Dock.Layout.LayoutContent.html
+  name: LayoutContent
+  nameWithType: LayoutContent
+  fullName: H.Controls.Dock.Layout.LayoutContent
+- uid: H.Controls.Dock.Layout.LayoutDocument
+  commentId: T:H.Controls.Dock.Layout.LayoutDocument
+  parent: H.Controls.Dock.Layout
+  href: H.Controls.Dock.Layout.LayoutDocument.html
+  name: LayoutDocument
+  nameWithType: LayoutDocument
+  fullName: H.Controls.Dock.Layout.LayoutDocument
+- uid: H.Controls.Dock.Layout.LayoutDocumentFloatingWindow
+  commentId: T:H.Controls.Dock.Layout.LayoutDocumentFloatingWindow
+  href: H.Controls.Dock.Layout.LayoutDocumentFloatingWindow.html
+  name: LayoutDocumentFloatingWindow
+  nameWithType: LayoutDocumentFloatingWindow
+  fullName: H.Controls.Dock.Layout.LayoutDocumentFloatingWindow
+- uid: H.Controls.Dock.Layout.LayoutDocumentPane
+  commentId: T:H.Controls.Dock.Layout.LayoutDocumentPane
+  parent: H.Controls.Dock.Layout
+  href: H.Controls.Dock.Layout.LayoutDocumentPane.html
+  name: LayoutDocumentPane
+  nameWithType: LayoutDocumentPane
+  fullName: H.Controls.Dock.Layout.LayoutDocumentPane
+- uid: H.Controls.Dock.Layout.LayoutDocumentPaneGroup
+  commentId: T:H.Controls.Dock.Layout.LayoutDocumentPaneGroup
+  parent: H.Controls.Dock.Layout
+  href: H.Controls.Dock.Layout.LayoutDocumentPaneGroup.html
+  name: LayoutDocumentPaneGroup
+  nameWithType: LayoutDocumentPaneGroup
+  fullName: H.Controls.Dock.Layout.LayoutDocumentPaneGroup
+- uid: H.Controls.Dock.Layout.LayoutElement
+  commentId: T:H.Controls.Dock.Layout.LayoutElement
+  parent: H.Controls.Dock.Layout
+  href: H.Controls.Dock.Layout.LayoutElement.html
+  name: LayoutElement
+  nameWithType: LayoutElement
+  fullName: H.Controls.Dock.Layout.LayoutElement
+- uid: H.Controls.Dock.Layout.LayoutElementEventArgs
+  commentId: T:H.Controls.Dock.Layout.LayoutElementEventArgs
+  href: H.Controls.Dock.Layout.LayoutElementEventArgs.html
+  name: LayoutElementEventArgs
+  nameWithType: LayoutElementEventArgs
+  fullName: H.Controls.Dock.Layout.LayoutElementEventArgs
+- uid: H.Controls.Dock.Layout.LayoutFloatingWindow
+  commentId: T:H.Controls.Dock.Layout.LayoutFloatingWindow
+  parent: H.Controls.Dock.Layout
+  href: H.Controls.Dock.Layout.LayoutFloatingWindow.html
+  name: LayoutFloatingWindow
+  nameWithType: LayoutFloatingWindow
+  fullName: H.Controls.Dock.Layout.LayoutFloatingWindow
+- uid: H.Controls.Dock.Layout.LayoutGroup`1
+  commentId: T:H.Controls.Dock.Layout.LayoutGroup`1
+  href: H.Controls.Dock.Layout.LayoutGroup-1.html
+  name: LayoutGroup<T>
+  nameWithType: LayoutGroup<T>
+  fullName: H.Controls.Dock.Layout.LayoutGroup<T>
+  nameWithType.vb: LayoutGroup(Of T)
+  fullName.vb: H.Controls.Dock.Layout.LayoutGroup(Of T)
+  name.vb: LayoutGroup(Of T)
+  spec.csharp:
+  - uid: H.Controls.Dock.Layout.LayoutGroup`1
+    name: LayoutGroup
+    href: H.Controls.Dock.Layout.LayoutGroup-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Controls.Dock.Layout.LayoutGroup`1
+    name: LayoutGroup
+    href: H.Controls.Dock.Layout.LayoutGroup-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Controls.Dock.Layout.LayoutGroupBase
+  commentId: T:H.Controls.Dock.Layout.LayoutGroupBase
+  parent: H.Controls.Dock.Layout
+  href: H.Controls.Dock.Layout.LayoutGroupBase.html
+  name: LayoutGroupBase
+  nameWithType: LayoutGroupBase
+  fullName: H.Controls.Dock.Layout.LayoutGroupBase
+- uid: H.Controls.Dock.Layout.LayoutPanel
+  commentId: T:H.Controls.Dock.Layout.LayoutPanel
+  parent: H.Controls.Dock.Layout
+  href: H.Controls.Dock.Layout.LayoutPanel.html
+  name: LayoutPanel
+  nameWithType: LayoutPanel
+  fullName: H.Controls.Dock.Layout.LayoutPanel
+- uid: H.Controls.Dock.Layout.LayoutPositionableGroup`1
+  commentId: T:H.Controls.Dock.Layout.LayoutPositionableGroup`1
+  href: H.Controls.Dock.Layout.LayoutPositionableGroup-1.html
+  name: LayoutPositionableGroup<T>
+  nameWithType: LayoutPositionableGroup<T>
+  fullName: H.Controls.Dock.Layout.LayoutPositionableGroup<T>
+  nameWithType.vb: LayoutPositionableGroup(Of T)
+  fullName.vb: H.Controls.Dock.Layout.LayoutPositionableGroup(Of T)
+  name.vb: LayoutPositionableGroup(Of T)
+  spec.csharp:
+  - uid: H.Controls.Dock.Layout.LayoutPositionableGroup`1
+    name: LayoutPositionableGroup
+    href: H.Controls.Dock.Layout.LayoutPositionableGroup-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Controls.Dock.Layout.LayoutPositionableGroup`1
+    name: LayoutPositionableGroup
+    href: H.Controls.Dock.Layout.LayoutPositionableGroup-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Controls.Dock.Layout.LayoutRoot
+  commentId: T:H.Controls.Dock.Layout.LayoutRoot
+  parent: H.Controls.Dock.Layout
+  href: H.Controls.Dock.Layout.LayoutRoot.html
+  name: LayoutRoot
+  nameWithType: LayoutRoot
+  fullName: H.Controls.Dock.Layout.LayoutRoot
+- uid: H.Controls.Dock.Layout
+  commentId: N:H.Controls.Dock.Layout
+  href: H.html
+  name: H.Controls.Dock.Layout
+  nameWithType: H.Controls.Dock.Layout
+  fullName: H.Controls.Dock.Layout
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Dock
+    name: Dock
+    href: H.Controls.Dock.html
+  - name: .
+  - uid: H.Controls.Dock.Layout
+    name: Layout
+    href: H.Controls.Dock.Layout.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Dock
+    name: Dock
+    href: H.Controls.Dock.html
+  - name: .
+  - uid: H.Controls.Dock.Layout
+    name: Layout
+    href: H.Controls.Dock.Layout.html

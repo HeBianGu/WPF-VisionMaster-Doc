@@ -1,0 +1,99 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.VisionMaster.OpenCV.NodeDatas.Src
+  commentId: N:H.VisionMaster.OpenCV.NodeDatas.Src
+  id: H.VisionMaster.OpenCV.NodeDatas.Src
+  children:
+  - H.VisionMaster.OpenCV.NodeDatas.Src.CameraCaptureNodeData
+  - H.VisionMaster.OpenCV.NodeDatas.Src.ICameraCaptureNodeData
+  - H.VisionMaster.OpenCV.NodeDatas.Src.IVideoFlowable
+  - H.VisionMaster.OpenCV.NodeDatas.Src.SrcImageFilesNodeData
+  - H.VisionMaster.OpenCV.NodeDatas.Src.SrcVideoFilesNodeData
+  langs:
+  - csharp
+  - vb
+  name: H.VisionMaster.OpenCV.NodeDatas.Src
+  nameWithType: H.VisionMaster.OpenCV.NodeDatas.Src
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Src
+  type: Namespace
+  assemblies:
+  - H.VisionMaster.OpenCV
+references:
+- uid: H.VisionMaster.OpenCV.NodeDatas.Src.ICameraCaptureNodeData
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Src.ICameraCaptureNodeData
+  parent: H.VisionMaster.OpenCV.NodeDatas.Src
+  href: H.VisionMaster.OpenCV.NodeDatas.Src.ICameraCaptureNodeData.html
+  name: ICameraCaptureNodeData
+  nameWithType: ICameraCaptureNodeData
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Src.ICameraCaptureNodeData
+- uid: H.VisionMaster.OpenCV.NodeDatas.Src.CameraCaptureNodeData
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Src.CameraCaptureNodeData
+  href: H.VisionMaster.OpenCV.NodeDatas.Src.CameraCaptureNodeData.html
+  name: CameraCaptureNodeData
+  nameWithType: CameraCaptureNodeData
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Src.CameraCaptureNodeData
+- uid: H.VisionMaster.OpenCV.NodeDatas.Src.SrcImageFilesNodeData
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Src.SrcImageFilesNodeData
+  href: H.VisionMaster.OpenCV.NodeDatas.Src.SrcImageFilesNodeData.html
+  name: SrcImageFilesNodeData
+  nameWithType: SrcImageFilesNodeData
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Src.SrcImageFilesNodeData
+- uid: H.VisionMaster.OpenCV.NodeDatas.Src.IVideoFlowable
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Src.IVideoFlowable
+  parent: H.VisionMaster.OpenCV.NodeDatas.Src
+  href: H.VisionMaster.OpenCV.NodeDatas.Src.IVideoFlowable.html
+  name: IVideoFlowable
+  nameWithType: IVideoFlowable
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Src.IVideoFlowable
+- uid: H.VisionMaster.OpenCV.NodeDatas.Src.SrcVideoFilesNodeData
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Src.SrcVideoFilesNodeData
+  href: H.VisionMaster.OpenCV.NodeDatas.Src.SrcVideoFilesNodeData.html
+  name: SrcVideoFilesNodeData
+  nameWithType: SrcVideoFilesNodeData
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Src.SrcVideoFilesNodeData
+- uid: H.VisionMaster.OpenCV.NodeDatas.Src
+  commentId: N:H.VisionMaster.OpenCV.NodeDatas.Src
+  href: H.html
+  name: H.VisionMaster.OpenCV.NodeDatas.Src
+  nameWithType: H.VisionMaster.OpenCV.NodeDatas.Src
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Src
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.OpenCV
+    name: OpenCV
+    href: H.VisionMaster.OpenCV.html
+  - name: .
+  - uid: H.VisionMaster.OpenCV.NodeDatas
+    name: NodeDatas
+    href: H.VisionMaster.OpenCV.NodeDatas.html
+  - name: .
+  - uid: H.VisionMaster.OpenCV.NodeDatas.Src
+    name: Src
+    href: H.VisionMaster.OpenCV.NodeDatas.Src.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.OpenCV
+    name: OpenCV
+    href: H.VisionMaster.OpenCV.html
+  - name: .
+  - uid: H.VisionMaster.OpenCV.NodeDatas
+    name: NodeDatas
+    href: H.VisionMaster.OpenCV.NodeDatas.html
+  - name: .
+  - uid: H.VisionMaster.OpenCV.NodeDatas.Src
+    name: Src
+    href: H.VisionMaster.OpenCV.NodeDatas.Src.html

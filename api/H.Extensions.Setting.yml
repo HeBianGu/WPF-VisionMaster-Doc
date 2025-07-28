@@ -1,0 +1,164 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.Setting
+  commentId: N:H.Extensions.Setting
+  id: H.Extensions.Setting
+  children:
+  - H.Extensions.Setting.IocOptionInstance`1
+  - H.Extensions.Setting.IocSettableInstance`2
+  - H.Extensions.Setting.LazySettableInstance`1
+  - H.Extensions.Setting.SettableBase
+  - H.Extensions.Setting.Settable`1
+  langs:
+  - csharp
+  - vb
+  name: H.Extensions.Setting
+  nameWithType: H.Extensions.Setting
+  fullName: H.Extensions.Setting
+  type: Namespace
+  assemblies:
+  - H.Extensions.Setting
+references:
+- uid: H.Extensions.Setting.SettableBase
+  commentId: T:H.Extensions.Setting.SettableBase
+  parent: H.Extensions.Setting
+  href: H.Extensions.Setting.SettableBase.html
+  name: SettableBase
+  nameWithType: SettableBase
+  fullName: H.Extensions.Setting.SettableBase
+- uid: H.Extensions.Setting.Settable`1
+  commentId: T:H.Extensions.Setting.Settable`1
+  href: H.Extensions.Setting.Settable-1.html
+  name: Settable<T>
+  nameWithType: Settable<T>
+  fullName: H.Extensions.Setting.Settable<T>
+  nameWithType.vb: Settable(Of T)
+  fullName.vb: H.Extensions.Setting.Settable(Of T)
+  name.vb: Settable(Of T)
+  spec.csharp:
+  - uid: H.Extensions.Setting.Settable`1
+    name: Settable
+    href: H.Extensions.Setting.Settable-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Extensions.Setting.Settable`1
+    name: Settable
+    href: H.Extensions.Setting.Settable-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Extensions.Setting.IocSettableInstance`2
+  commentId: T:H.Extensions.Setting.IocSettableInstance`2
+  href: H.Extensions.Setting.IocSettableInstance-2.html
+  name: IocSettableInstance<Setting, Interface>
+  nameWithType: IocSettableInstance<Setting, Interface>
+  fullName: H.Extensions.Setting.IocSettableInstance<Setting, Interface>
+  nameWithType.vb: IocSettableInstance(Of Setting, Interface)
+  fullName.vb: H.Extensions.Setting.IocSettableInstance(Of Setting, Interface)
+  name.vb: IocSettableInstance(Of Setting, Interface)
+  spec.csharp:
+  - uid: H.Extensions.Setting.IocSettableInstance`2
+    name: IocSettableInstance
+    href: H.Extensions.Setting.IocSettableInstance-2.html
+  - name: <
+  - name: Setting
+  - name: ','
+  - name: " "
+  - name: Interface
+  - name: '>'
+  spec.vb:
+  - uid: H.Extensions.Setting.IocSettableInstance`2
+    name: IocSettableInstance
+    href: H.Extensions.Setting.IocSettableInstance-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: Setting
+  - name: ','
+  - name: " "
+  - name: Interface
+  - name: )
+- uid: H.Extensions.Setting.IocOptionInstance`1
+  commentId: T:H.Extensions.Setting.IocOptionInstance`1
+  href: H.Extensions.Setting.IocOptionInstance-1.html
+  name: IocOptionInstance<Setting>
+  nameWithType: IocOptionInstance<Setting>
+  fullName: H.Extensions.Setting.IocOptionInstance<Setting>
+  nameWithType.vb: IocOptionInstance(Of Setting)
+  fullName.vb: H.Extensions.Setting.IocOptionInstance(Of Setting)
+  name.vb: IocOptionInstance(Of Setting)
+  spec.csharp:
+  - uid: H.Extensions.Setting.IocOptionInstance`1
+    name: IocOptionInstance
+    href: H.Extensions.Setting.IocOptionInstance-1.html
+  - name: <
+  - name: Setting
+  - name: '>'
+  spec.vb:
+  - uid: H.Extensions.Setting.IocOptionInstance`1
+    name: IocOptionInstance
+    href: H.Extensions.Setting.IocOptionInstance-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: Setting
+  - name: )
+- uid: H.Extensions.Setting.LazySettableInstance`1
+  commentId: T:H.Extensions.Setting.LazySettableInstance`1
+  href: H.Extensions.Setting.LazySettableInstance-1.html
+  name: LazySettableInstance<T>
+  nameWithType: LazySettableInstance<T>
+  fullName: H.Extensions.Setting.LazySettableInstance<T>
+  nameWithType.vb: LazySettableInstance(Of T)
+  fullName.vb: H.Extensions.Setting.LazySettableInstance(Of T)
+  name.vb: LazySettableInstance(Of T)
+  spec.csharp:
+  - uid: H.Extensions.Setting.LazySettableInstance`1
+    name: LazySettableInstance
+    href: H.Extensions.Setting.LazySettableInstance-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Extensions.Setting.LazySettableInstance`1
+    name: LazySettableInstance
+    href: H.Extensions.Setting.LazySettableInstance-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Extensions.Setting
+  commentId: N:H.Extensions.Setting
+  href: H.html
+  name: H.Extensions.Setting
+  nameWithType: H.Extensions.Setting
+  fullName: H.Extensions.Setting
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Setting
+    name: Setting
+    href: H.Extensions.Setting.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Setting
+    name: Setting
+    href: H.Extensions.Setting.html

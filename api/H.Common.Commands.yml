@@ -1,0 +1,70 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Common.Commands
+  commentId: N:H.Common.Commands
+  id: H.Common.Commands
+  children:
+  - H.Common.Commands.AsyncMarkupCommandBase
+  - H.Common.Commands.DisplayMarkupCommandBase
+  - H.Common.Commands.MarkupCommandBase
+  langs:
+  - csharp
+  - vb
+  name: H.Common.Commands
+  nameWithType: H.Common.Commands
+  fullName: H.Common.Commands
+  type: Namespace
+  assemblies:
+  - H.Common
+references:
+- uid: H.Common.Commands.AsyncMarkupCommandBase
+  commentId: T:H.Common.Commands.AsyncMarkupCommandBase
+  parent: H.Common.Commands
+  href: H.Common.Commands.AsyncMarkupCommandBase.html
+  name: AsyncMarkupCommandBase
+  nameWithType: AsyncMarkupCommandBase
+  fullName: H.Common.Commands.AsyncMarkupCommandBase
+- uid: H.Common.Commands.DisplayMarkupCommandBase
+  commentId: T:H.Common.Commands.DisplayMarkupCommandBase
+  parent: H.Common.Commands
+  href: H.Common.Commands.DisplayMarkupCommandBase.html
+  name: DisplayMarkupCommandBase
+  nameWithType: DisplayMarkupCommandBase
+  fullName: H.Common.Commands.DisplayMarkupCommandBase
+- uid: H.Common.Commands.MarkupCommandBase
+  commentId: T:H.Common.Commands.MarkupCommandBase
+  parent: H.Common.Commands
+  href: H.Common.Commands.MarkupCommandBase.html
+  name: MarkupCommandBase
+  nameWithType: MarkupCommandBase
+  fullName: H.Common.Commands.MarkupCommandBase
+- uid: H.Common.Commands
+  commentId: N:H.Common.Commands
+  href: H.html
+  name: H.Common.Commands
+  nameWithType: H.Common.Commands
+  fullName: H.Common.Commands
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Common
+    name: Common
+    href: H.Common.html
+  - name: .
+  - uid: H.Common.Commands
+    name: Commands
+    href: H.Common.Commands.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Common
+    name: Common
+    href: H.Common.html
+  - name: .
+  - uid: H.Common.Commands
+    name: Commands
+    href: H.Common.Commands.html

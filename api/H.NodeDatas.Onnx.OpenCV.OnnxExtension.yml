@@ -1,0 +1,1997 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.NodeDatas.Onnx.OpenCV.OnnxExtension
+  commentId: T:H.NodeDatas.Onnx.OpenCV.OnnxExtension
+  id: OnnxExtension
+  parent: H.NodeDatas.Onnx.OpenCV
+  children:
+  - H.NodeDatas.Onnx.OpenCV.OnnxExtension.Classification(OpenCvSharp.Mat,System.String,OpenCvSharp.Size,OpenCvSharp.Scalar,OpenCvSharp.Scalar,System.Collections.Generic.List{System.String},System.Int32,System.Int32,System.Single)
+  - H.NodeDatas.Onnx.OpenCV.OnnxExtension.CreateForwards(OpenCvSharp.Dnn.Net)
+  - H.NodeDatas.Onnx.OpenCV.OnnxExtension.DefectBoxes(OpenCvSharp.Mat,System.String,OpenCvSharp.Size,OpenCvSharp.Scalar,OpenCvSharp.Scalar,System.Int32,System.Int32,System.Int32,System.Single,System.Single,System.Single,H.NodeDatas.Onnx.OpenCV.Base.BoxCoordinateMode,H.NodeDatas.Onnx.OpenCV.Base.BoxGeometryType)
+  - H.NodeDatas.Onnx.OpenCV.OnnxExtension.DrawDetectBoxLabels(OpenCvSharp.Mat,System.Collections.Generic.IEnumerable{H.NodeDatas.Onnx.OpenCV.Base.DefectBox},System.Windows.Media.Color,System.Windows.Media.Color,System.Collections.Generic.List{System.String},System.Boolean)
+  - H.NodeDatas.Onnx.OpenCV.OnnxExtension.DrawDetectBoxes(OpenCvSharp.Mat,System.Windows.Media.Color,System.Int32,H.NodeDatas.Onnx.OpenCV.Base.DefectBox[])
+  - H.NodeDatas.Onnx.OpenCV.OnnxExtension.GetClassNames(System.String)
+  - H.NodeDatas.Onnx.OpenCV.OnnxExtension.GetForwards(OpenCvSharp.Mat,System.String,OpenCvSharp.Size,OpenCvSharp.Scalar,OpenCvSharp.Scalar,System.Single)
+  - H.NodeDatas.Onnx.OpenCV.OnnxExtension.GetMasks(OpenCvSharp.Mat,System.Int32,System.Int32,System.Int32)
+  - H.NodeDatas.Onnx.OpenCV.OnnxExtension.InferValues(OpenCvSharp.Mat,System.String,OpenCvSharp.Size,OpenCvSharp.Scalar,OpenCvSharp.Scalar,System.Int32,System.Int32,System.Single)
+  - H.NodeDatas.Onnx.OpenCV.OnnxExtension.SemanticSegmentation(OpenCvSharp.Mat,System.String,OpenCvSharp.Size,OpenCvSharp.Scalar,OpenCvSharp.Scalar,System.Int32,System.Int32,System.Single)
+  - H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToDefectBoxs(OpenCvSharp.Mat,System.Int32,System.Single,System.Func{System.Single,System.Single,System.Single,System.Single,OpenCvSharp.Rect2f})
+  - H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToInputMat(OpenCvSharp.Mat,System.Single,OpenCvSharp.Size,OpenCvSharp.Scalar,OpenCvSharp.Scalar)
+  - H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToNMSBoxes(System.Collections.Generic.IEnumerable{H.NodeDatas.Onnx.OpenCV.Base.DefectBox},System.Single,System.Single)
+  - H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToOutput(OpenCvSharp.Mat,System.Int32,System.Int32)
+  - H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToResultPresenter(System.Collections.Generic.IEnumerable{System.Tuple{H.NodeDatas.Onnx.OpenCV.Base.DefectBox,System.String,System.Double}})
+  - H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToSrcMask(OpenCvSharp.Mat,System.Int32,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: OnnxExtension
+  nameWithType: OnnxExtension
+  fullName: H.NodeDatas.Onnx.OpenCV.OnnxExtension
+  type: Class
+  source:
+    remote:
+      path: Source/NodeDatas/H.NodeDatas.Onnx.OpenCV/OnnxExtension.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: OnnxExtension
+    path: Source/WPF-VisionMaster/Source/NodeDatas/H.NodeDatas.Onnx.OpenCV/OnnxExtension.cs
+    startLine: 11
+  assemblies:
+  - H.NodeDatas.Onnx.OpenCV
+  namespace: H.NodeDatas.Onnx.OpenCV
+  syntax:
+    content: public static class OnnxExtension
+    content.vb: Public Module OnnxExtension
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToOutput(OpenCvSharp.Mat,System.Int32,System.Int32)
+  commentId: M:H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToOutput(OpenCvSharp.Mat,System.Int32,System.Int32)
+  id: ToOutput(OpenCvSharp.Mat,System.Int32,System.Int32)
+  isExtensionMethod: true
+  parent: H.NodeDatas.Onnx.OpenCV.OnnxExtension
+  langs:
+  - csharp
+  - vb
+  name: ToOutput(Mat, int, int)
+  nameWithType: OnnxExtension.ToOutput(Mat, int, int)
+  fullName: H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToOutput(OpenCvSharp.Mat, int, int)
+  type: Method
+  source:
+    remote:
+      path: Source/NodeDatas/H.NodeDatas.Onnx.OpenCV/OnnxExtension.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: ToOutput
+    path: Source/WPF-VisionMaster/Source/NodeDatas/H.NodeDatas.Onnx.OpenCV/OnnxExtension.cs
+    startLine: 13
+  assemblies:
+  - H.NodeDatas.Onnx.OpenCV
+  namespace: H.NodeDatas.Onnx.OpenCV
+  syntax:
+    content: public static Mat ToOutput(this Mat forward, int rowIndex = 0, int columnIndex = 1)
+    parameters:
+    - id: forward
+      type: OpenCvSharp.Mat
+    - id: rowIndex
+      type: System.Int32
+    - id: columnIndex
+      type: System.Int32
+    return:
+      type: OpenCvSharp.Mat
+    content.vb: Public Shared Function ToOutput(forward As Mat, rowIndex As Integer = 0, columnIndex As Integer = 1) As Mat
+  overload: H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToOutput*
+  nameWithType.vb: OnnxExtension.ToOutput(Mat, Integer, Integer)
+  fullName.vb: H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToOutput(OpenCvSharp.Mat, Integer, Integer)
+  name.vb: ToOutput(Mat, Integer, Integer)
+- uid: H.NodeDatas.Onnx.OpenCV.OnnxExtension.GetMasks(OpenCvSharp.Mat,System.Int32,System.Int32,System.Int32)
+  commentId: M:H.NodeDatas.Onnx.OpenCV.OnnxExtension.GetMasks(OpenCvSharp.Mat,System.Int32,System.Int32,System.Int32)
+  id: GetMasks(OpenCvSharp.Mat,System.Int32,System.Int32,System.Int32)
+  isExtensionMethod: true
+  parent: H.NodeDatas.Onnx.OpenCV.OnnxExtension
+  langs:
+  - csharp
+  - vb
+  name: GetMasks(Mat, int, int, int)
+  nameWithType: OnnxExtension.GetMasks(Mat, int, int, int)
+  fullName: H.NodeDatas.Onnx.OpenCV.OnnxExtension.GetMasks(OpenCvSharp.Mat, int, int, int)
+  type: Method
+  source:
+    remote:
+      path: Source/NodeDatas/H.NodeDatas.Onnx.OpenCV/OnnxExtension.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: GetMasks
+    path: Source/WPF-VisionMaster/Source/NodeDatas/H.NodeDatas.Onnx.OpenCV/OnnxExtension.cs
+    startLine: 25
+  assemblies:
+  - H.NodeDatas.Onnx.OpenCV
+  namespace: H.NodeDatas.Onnx.OpenCV
+  syntax:
+    content: public static IEnumerable<Mat> GetMasks(this Mat forward, int count, int rowIndex = 0, int columnIndex = 1)
+    parameters:
+    - id: forward
+      type: OpenCvSharp.Mat
+    - id: count
+      type: System.Int32
+    - id: rowIndex
+      type: System.Int32
+    - id: columnIndex
+      type: System.Int32
+    return:
+      type: System.Collections.Generic.IEnumerable{OpenCvSharp.Mat}
+    content.vb: Public Shared Function GetMasks(forward As Mat, count As Integer, rowIndex As Integer = 0, columnIndex As Integer = 1) As IEnumerable(Of Mat)
+  overload: H.NodeDatas.Onnx.OpenCV.OnnxExtension.GetMasks*
+  nameWithType.vb: OnnxExtension.GetMasks(Mat, Integer, Integer, Integer)
+  fullName.vb: H.NodeDatas.Onnx.OpenCV.OnnxExtension.GetMasks(OpenCvSharp.Mat, Integer, Integer, Integer)
+  name.vb: GetMasks(Mat, Integer, Integer, Integer)
+- uid: H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToDefectBoxs(OpenCvSharp.Mat,System.Int32,System.Single,System.Func{System.Single,System.Single,System.Single,System.Single,OpenCvSharp.Rect2f})
+  commentId: M:H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToDefectBoxs(OpenCvSharp.Mat,System.Int32,System.Single,System.Func{System.Single,System.Single,System.Single,System.Single,OpenCvSharp.Rect2f})
+  id: ToDefectBoxs(OpenCvSharp.Mat,System.Int32,System.Single,System.Func{System.Single,System.Single,System.Single,System.Single,OpenCvSharp.Rect2f})
+  isExtensionMethod: true
+  parent: H.NodeDatas.Onnx.OpenCV.OnnxExtension
+  langs:
+  - csharp
+  - vb
+  name: ToDefectBoxs(Mat, int, float, Func<float, float, float, float, Rect2f>)
+  nameWithType: OnnxExtension.ToDefectBoxs(Mat, int, float, Func<float, float, float, float, Rect2f>)
+  fullName: H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToDefectBoxs(OpenCvSharp.Mat, int, float, System.Func<float, float, float, float, OpenCvSharp.Rect2f>)
+  type: Method
+  source:
+    remote:
+      path: Source/NodeDatas/H.NodeDatas.Onnx.OpenCV/OnnxExtension.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: ToDefectBoxs
+    path: Source/WPF-VisionMaster/Source/NodeDatas/H.NodeDatas.Onnx.OpenCV/OnnxExtension.cs
+    startLine: 59
+  assemblies:
+  - H.NodeDatas.Onnx.OpenCV
+  namespace: H.NodeDatas.Onnx.OpenCV
+  summary: 根据结果数据提取
+  example: []
+  syntax:
+    content: public static IEnumerable<DefectBox> ToDefectBoxs(this Mat outputData, int confidenceIndex, float threshold, Func<float, float, float, float, Rect2f> convertToRect)
+    parameters:
+    - id: outputData
+      type: OpenCvSharp.Mat
+      description: ''
+    - id: confidenceIndex
+      type: System.Int32
+    - id: threshold
+      type: System.Single
+    - id: convertToRect
+      type: System.Func{System.Single,System.Single,System.Single,System.Single,OpenCvSharp.Rect2f}
+    return:
+      type: System.Collections.Generic.IEnumerable{H.NodeDatas.Onnx.OpenCV.Base.DefectBox}
+      description: ''
+    content.vb: Public Shared Function ToDefectBoxs(outputData As Mat, confidenceIndex As Integer, threshold As Single, convertToRect As Func(Of Single, Single, Single, Single, Rect2f)) As IEnumerable(Of DefectBox)
+  overload: H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToDefectBoxs*
+  nameWithType.vb: OnnxExtension.ToDefectBoxs(Mat, Integer, Single, Func(Of Single, Single, Single, Single, Rect2f))
+  fullName.vb: H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToDefectBoxs(OpenCvSharp.Mat, Integer, Single, System.Func(Of Single, Single, Single, Single, OpenCvSharp.Rect2f))
+  name.vb: ToDefectBoxs(Mat, Integer, Single, Func(Of Single, Single, Single, Single, Rect2f))
+- uid: H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToNMSBoxes(System.Collections.Generic.IEnumerable{H.NodeDatas.Onnx.OpenCV.Base.DefectBox},System.Single,System.Single)
+  commentId: M:H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToNMSBoxes(System.Collections.Generic.IEnumerable{H.NodeDatas.Onnx.OpenCV.Base.DefectBox},System.Single,System.Single)
+  id: ToNMSBoxes(System.Collections.Generic.IEnumerable{H.NodeDatas.Onnx.OpenCV.Base.DefectBox},System.Single,System.Single)
+  isExtensionMethod: true
+  parent: H.NodeDatas.Onnx.OpenCV.OnnxExtension
+  langs:
+  - csharp
+  - vb
+  name: ToNMSBoxes(IEnumerable<DefectBox>, float, float)
+  nameWithType: OnnxExtension.ToNMSBoxes(IEnumerable<DefectBox>, float, float)
+  fullName: H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToNMSBoxes(System.Collections.Generic.IEnumerable<H.NodeDatas.Onnx.OpenCV.Base.DefectBox>, float, float)
+  type: Method
+  source:
+    remote:
+      path: Source/NodeDatas/H.NodeDatas.Onnx.OpenCV/OnnxExtension.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: ToNMSBoxes
+    path: Source/WPF-VisionMaster/Source/NodeDatas/H.NodeDatas.Onnx.OpenCV/OnnxExtension.cs
+    startLine: 133
+  assemblies:
+  - H.NodeDatas.Onnx.OpenCV
+  namespace: H.NodeDatas.Onnx.OpenCV
+  syntax:
+    content: public static IEnumerable<DefectBox> ToNMSBoxes(this IEnumerable<DefectBox> defectBoxes, float threshold = 0.25, float nmsThreshold = 0.45)
+    parameters:
+    - id: defectBoxes
+      type: System.Collections.Generic.IEnumerable{H.NodeDatas.Onnx.OpenCV.Base.DefectBox}
+    - id: threshold
+      type: System.Single
+    - id: nmsThreshold
+      type: System.Single
+    return:
+      type: System.Collections.Generic.IEnumerable{H.NodeDatas.Onnx.OpenCV.Base.DefectBox}
+    content.vb: Public Shared Function ToNMSBoxes(defectBoxes As IEnumerable(Of DefectBox), threshold As Single = 0.25, nmsThreshold As Single = 0.45) As IEnumerable(Of DefectBox)
+  overload: H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToNMSBoxes*
+  nameWithType.vb: OnnxExtension.ToNMSBoxes(IEnumerable(Of DefectBox), Single, Single)
+  fullName.vb: H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToNMSBoxes(System.Collections.Generic.IEnumerable(Of H.NodeDatas.Onnx.OpenCV.Base.DefectBox), Single, Single)
+  name.vb: ToNMSBoxes(IEnumerable(Of DefectBox), Single, Single)
+- uid: H.NodeDatas.Onnx.OpenCV.OnnxExtension.DrawDetectBoxes(OpenCvSharp.Mat,System.Windows.Media.Color,System.Int32,H.NodeDatas.Onnx.OpenCV.Base.DefectBox[])
+  commentId: M:H.NodeDatas.Onnx.OpenCV.OnnxExtension.DrawDetectBoxes(OpenCvSharp.Mat,System.Windows.Media.Color,System.Int32,H.NodeDatas.Onnx.OpenCV.Base.DefectBox[])
+  id: DrawDetectBoxes(OpenCvSharp.Mat,System.Windows.Media.Color,System.Int32,H.NodeDatas.Onnx.OpenCV.Base.DefectBox[])
+  isExtensionMethod: true
+  parent: H.NodeDatas.Onnx.OpenCV.OnnxExtension
+  langs:
+  - csharp
+  - vb
+  name: DrawDetectBoxes(Mat, Color, int, params DefectBox[])
+  nameWithType: OnnxExtension.DrawDetectBoxes(Mat, Color, int, params DefectBox[])
+  fullName: H.NodeDatas.Onnx.OpenCV.OnnxExtension.DrawDetectBoxes(OpenCvSharp.Mat, System.Windows.Media.Color, int, params H.NodeDatas.Onnx.OpenCV.Base.DefectBox[])
+  type: Method
+  source:
+    remote:
+      path: Source/NodeDatas/H.NodeDatas.Onnx.OpenCV/OnnxExtension.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: DrawDetectBoxes
+    path: Source/WPF-VisionMaster/Source/NodeDatas/H.NodeDatas.Onnx.OpenCV/OnnxExtension.cs
+    startLine: 159
+  assemblies:
+  - H.NodeDatas.Onnx.OpenCV
+  namespace: H.NodeDatas.Onnx.OpenCV
+  syntax:
+    content: public static void DrawDetectBoxes(this Mat image, Color boxColor, int boxThickness = 1, params DefectBox[] defectBoxes)
+    parameters:
+    - id: image
+      type: OpenCvSharp.Mat
+    - id: boxColor
+      type: System.Windows.Media.Color
+    - id: boxThickness
+      type: System.Int32
+    - id: defectBoxes
+      type: H.NodeDatas.Onnx.OpenCV.Base.DefectBox[]
+    content.vb: Public Shared Sub DrawDetectBoxes(image As Mat, boxColor As Color, boxThickness As Integer = 1, ParamArray defectBoxes As DefectBox())
+  overload: H.NodeDatas.Onnx.OpenCV.OnnxExtension.DrawDetectBoxes*
+  nameWithType.vb: OnnxExtension.DrawDetectBoxes(Mat, Color, Integer, ParamArray DefectBox())
+  fullName.vb: H.NodeDatas.Onnx.OpenCV.OnnxExtension.DrawDetectBoxes(OpenCvSharp.Mat, System.Windows.Media.Color, Integer, ParamArray H.NodeDatas.Onnx.OpenCV.Base.DefectBox())
+  name.vb: DrawDetectBoxes(Mat, Color, Integer, ParamArray DefectBox())
+- uid: H.NodeDatas.Onnx.OpenCV.OnnxExtension.DrawDetectBoxLabels(OpenCvSharp.Mat,System.Collections.Generic.IEnumerable{H.NodeDatas.Onnx.OpenCV.Base.DefectBox},System.Windows.Media.Color,System.Windows.Media.Color,System.Collections.Generic.List{System.String},System.Boolean)
+  commentId: M:H.NodeDatas.Onnx.OpenCV.OnnxExtension.DrawDetectBoxLabels(OpenCvSharp.Mat,System.Collections.Generic.IEnumerable{H.NodeDatas.Onnx.OpenCV.Base.DefectBox},System.Windows.Media.Color,System.Windows.Media.Color,System.Collections.Generic.List{System.String},System.Boolean)
+  id: DrawDetectBoxLabels(OpenCvSharp.Mat,System.Collections.Generic.IEnumerable{H.NodeDatas.Onnx.OpenCV.Base.DefectBox},System.Windows.Media.Color,System.Windows.Media.Color,System.Collections.Generic.List{System.String},System.Boolean)
+  isExtensionMethod: true
+  parent: H.NodeDatas.Onnx.OpenCV.OnnxExtension
+  langs:
+  - csharp
+  - vb
+  name: DrawDetectBoxLabels(Mat, IEnumerable<DefectBox>, Color, Color, List<string>, bool)
+  nameWithType: OnnxExtension.DrawDetectBoxLabels(Mat, IEnumerable<DefectBox>, Color, Color, List<string>, bool)
+  fullName: H.NodeDatas.Onnx.OpenCV.OnnxExtension.DrawDetectBoxLabels(OpenCvSharp.Mat, System.Collections.Generic.IEnumerable<H.NodeDatas.Onnx.OpenCV.Base.DefectBox>, System.Windows.Media.Color, System.Windows.Media.Color, System.Collections.Generic.List<string>, bool)
+  type: Method
+  source:
+    remote:
+      path: Source/NodeDatas/H.NodeDatas.Onnx.OpenCV/OnnxExtension.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: DrawDetectBoxLabels
+    path: Source/WPF-VisionMaster/Source/NodeDatas/H.NodeDatas.Onnx.OpenCV/OnnxExtension.cs
+    startLine: 168
+  assemblies:
+  - H.NodeDatas.Onnx.OpenCV
+  namespace: H.NodeDatas.Onnx.OpenCV
+  syntax:
+    content: public static IEnumerable<Tuple<DefectBox, string, double>> DrawDetectBoxLabels(this Mat image, IEnumerable<DefectBox> defectBoxes, Color labelBackColor, Color labelColor, List<string> classNames, bool useScore = true)
+    parameters:
+    - id: image
+      type: OpenCvSharp.Mat
+    - id: defectBoxes
+      type: System.Collections.Generic.IEnumerable{H.NodeDatas.Onnx.OpenCV.Base.DefectBox}
+    - id: labelBackColor
+      type: System.Windows.Media.Color
+    - id: labelColor
+      type: System.Windows.Media.Color
+    - id: classNames
+      type: System.Collections.Generic.List{System.String}
+    - id: useScore
+      type: System.Boolean
+    return:
+      type: System.Collections.Generic.IEnumerable{System.Tuple{H.NodeDatas.Onnx.OpenCV.Base.DefectBox,System.String,System.Double}}
+    content.vb: Public Shared Function DrawDetectBoxLabels(image As Mat, defectBoxes As IEnumerable(Of DefectBox), labelBackColor As Color, labelColor As Color, classNames As List(Of String), useScore As Boolean = True) As IEnumerable(Of Tuple(Of DefectBox, String, Double))
+  overload: H.NodeDatas.Onnx.OpenCV.OnnxExtension.DrawDetectBoxLabels*
+  nameWithType.vb: OnnxExtension.DrawDetectBoxLabels(Mat, IEnumerable(Of DefectBox), Color, Color, List(Of String), Boolean)
+  fullName.vb: H.NodeDatas.Onnx.OpenCV.OnnxExtension.DrawDetectBoxLabels(OpenCvSharp.Mat, System.Collections.Generic.IEnumerable(Of H.NodeDatas.Onnx.OpenCV.Base.DefectBox), System.Windows.Media.Color, System.Windows.Media.Color, System.Collections.Generic.List(Of String), Boolean)
+  name.vb: DrawDetectBoxLabels(Mat, IEnumerable(Of DefectBox), Color, Color, List(Of String), Boolean)
+- uid: H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToResultPresenter(System.Collections.Generic.IEnumerable{System.Tuple{H.NodeDatas.Onnx.OpenCV.Base.DefectBox,System.String,System.Double}})
+  commentId: M:H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToResultPresenter(System.Collections.Generic.IEnumerable{System.Tuple{H.NodeDatas.Onnx.OpenCV.Base.DefectBox,System.String,System.Double}})
+  id: ToResultPresenter(System.Collections.Generic.IEnumerable{System.Tuple{H.NodeDatas.Onnx.OpenCV.Base.DefectBox,System.String,System.Double}})
+  isExtensionMethod: true
+  parent: H.NodeDatas.Onnx.OpenCV.OnnxExtension
+  langs:
+  - csharp
+  - vb
+  name: ToResultPresenter(IEnumerable<Tuple<DefectBox, string, double>>)
+  nameWithType: OnnxExtension.ToResultPresenter(IEnumerable<Tuple<DefectBox, string, double>>)
+  fullName: H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToResultPresenter(System.Collections.Generic.IEnumerable<System.Tuple<H.NodeDatas.Onnx.OpenCV.Base.DefectBox, string, double>>)
+  type: Method
+  source:
+    remote:
+      path: Source/NodeDatas/H.NodeDatas.Onnx.OpenCV/OnnxExtension.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: ToResultPresenter
+    path: Source/WPF-VisionMaster/Source/NodeDatas/H.NodeDatas.Onnx.OpenCV/OnnxExtension.cs
+    startLine: 190
+  assemblies:
+  - H.NodeDatas.Onnx.OpenCV
+  namespace: H.NodeDatas.Onnx.OpenCV
+  syntax:
+    content: public static IResultPresenter ToResultPresenter(this IEnumerable<Tuple<DefectBox, string, double>> tuples)
+    parameters:
+    - id: tuples
+      type: System.Collections.Generic.IEnumerable{System.Tuple{H.NodeDatas.Onnx.OpenCV.Base.DefectBox,System.String,System.Double}}
+    return:
+      type: H.Controls.Diagram.Presenter.NodeDatas.Base.IResultPresenter
+    content.vb: Public Shared Function ToResultPresenter(tuples As IEnumerable(Of Tuple(Of DefectBox, String, Double))) As IResultPresenter
+  overload: H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToResultPresenter*
+  nameWithType.vb: OnnxExtension.ToResultPresenter(IEnumerable(Of Tuple(Of DefectBox, String, Double)))
+  fullName.vb: H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToResultPresenter(System.Collections.Generic.IEnumerable(Of System.Tuple(Of H.NodeDatas.Onnx.OpenCV.Base.DefectBox, String, Double)))
+  name.vb: ToResultPresenter(IEnumerable(Of Tuple(Of DefectBox, String, Double)))
+- uid: H.NodeDatas.Onnx.OpenCV.OnnxExtension.CreateForwards(OpenCvSharp.Dnn.Net)
+  commentId: M:H.NodeDatas.Onnx.OpenCV.OnnxExtension.CreateForwards(OpenCvSharp.Dnn.Net)
+  id: CreateForwards(OpenCvSharp.Dnn.Net)
+  isExtensionMethod: true
+  parent: H.NodeDatas.Onnx.OpenCV.OnnxExtension
+  langs:
+  - csharp
+  - vb
+  name: CreateForwards(Net)
+  nameWithType: OnnxExtension.CreateForwards(Net)
+  fullName: H.NodeDatas.Onnx.OpenCV.OnnxExtension.CreateForwards(OpenCvSharp.Dnn.Net)
+  type: Method
+  source:
+    remote:
+      path: Source/NodeDatas/H.NodeDatas.Onnx.OpenCV/OnnxExtension.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: CreateForwards
+    path: Source/WPF-VisionMaster/Source/NodeDatas/H.NodeDatas.Onnx.OpenCV/OnnxExtension.cs
+    startLine: 197
+  assemblies:
+  - H.NodeDatas.Onnx.OpenCV
+  namespace: H.NodeDatas.Onnx.OpenCV
+  syntax:
+    content: public static IEnumerable<Mat> CreateForwards(this Net net)
+    parameters:
+    - id: net
+      type: OpenCvSharp.Dnn.Net
+    return:
+      type: System.Collections.Generic.IEnumerable{OpenCvSharp.Mat}
+    content.vb: Public Shared Function CreateForwards(net As Net) As IEnumerable(Of Mat)
+  overload: H.NodeDatas.Onnx.OpenCV.OnnxExtension.CreateForwards*
+- uid: H.NodeDatas.Onnx.OpenCV.OnnxExtension.GetForwards(OpenCvSharp.Mat,System.String,OpenCvSharp.Size,OpenCvSharp.Scalar,OpenCvSharp.Scalar,System.Single)
+  commentId: M:H.NodeDatas.Onnx.OpenCV.OnnxExtension.GetForwards(OpenCvSharp.Mat,System.String,OpenCvSharp.Size,OpenCvSharp.Scalar,OpenCvSharp.Scalar,System.Single)
+  id: GetForwards(OpenCvSharp.Mat,System.String,OpenCvSharp.Size,OpenCvSharp.Scalar,OpenCvSharp.Scalar,System.Single)
+  isExtensionMethod: true
+  parent: H.NodeDatas.Onnx.OpenCV.OnnxExtension
+  langs:
+  - csharp
+  - vb
+  name: GetForwards(Mat, string, Size, Scalar, Scalar, float)
+  nameWithType: OnnxExtension.GetForwards(Mat, string, Size, Scalar, Scalar, float)
+  fullName: H.NodeDatas.Onnx.OpenCV.OnnxExtension.GetForwards(OpenCvSharp.Mat, string, OpenCvSharp.Size, OpenCvSharp.Scalar, OpenCvSharp.Scalar, float)
+  type: Method
+  source:
+    remote:
+      path: Source/NodeDatas/H.NodeDatas.Onnx.OpenCV/OnnxExtension.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: GetForwards
+    path: Source/WPF-VisionMaster/Source/NodeDatas/H.NodeDatas.Onnx.OpenCV/OnnxExtension.cs
+    startLine: 212
+  assemblies:
+  - H.NodeDatas.Onnx.OpenCV
+  namespace: H.NodeDatas.Onnx.OpenCV
+  syntax:
+    content: public static IEnumerable<Mat> GetForwards(this Mat image, string model_path, Size inputSize, Scalar mean, Scalar std, float blobScaleFactor = 255)
+    parameters:
+    - id: image
+      type: OpenCvSharp.Mat
+    - id: model_path
+      type: System.String
+    - id: inputSize
+      type: OpenCvSharp.Size
+    - id: mean
+      type: OpenCvSharp.Scalar
+    - id: std
+      type: OpenCvSharp.Scalar
+    - id: blobScaleFactor
+      type: System.Single
+    return:
+      type: System.Collections.Generic.IEnumerable{OpenCvSharp.Mat}
+    content.vb: Public Shared Function GetForwards(image As Mat, model_path As String, inputSize As Size, mean As Scalar, std As Scalar, blobScaleFactor As Single = 255) As IEnumerable(Of Mat)
+  overload: H.NodeDatas.Onnx.OpenCV.OnnxExtension.GetForwards*
+  nameWithType.vb: OnnxExtension.GetForwards(Mat, String, Size, Scalar, Scalar, Single)
+  fullName.vb: H.NodeDatas.Onnx.OpenCV.OnnxExtension.GetForwards(OpenCvSharp.Mat, String, OpenCvSharp.Size, OpenCvSharp.Scalar, OpenCvSharp.Scalar, Single)
+  name.vb: GetForwards(Mat, String, Size, Scalar, Scalar, Single)
+- uid: H.NodeDatas.Onnx.OpenCV.OnnxExtension.DefectBoxes(OpenCvSharp.Mat,System.String,OpenCvSharp.Size,OpenCvSharp.Scalar,OpenCvSharp.Scalar,System.Int32,System.Int32,System.Int32,System.Single,System.Single,System.Single,H.NodeDatas.Onnx.OpenCV.Base.BoxCoordinateMode,H.NodeDatas.Onnx.OpenCV.Base.BoxGeometryType)
+  commentId: M:H.NodeDatas.Onnx.OpenCV.OnnxExtension.DefectBoxes(OpenCvSharp.Mat,System.String,OpenCvSharp.Size,OpenCvSharp.Scalar,OpenCvSharp.Scalar,System.Int32,System.Int32,System.Int32,System.Single,System.Single,System.Single,H.NodeDatas.Onnx.OpenCV.Base.BoxCoordinateMode,H.NodeDatas.Onnx.OpenCV.Base.BoxGeometryType)
+  id: DefectBoxes(OpenCvSharp.Mat,System.String,OpenCvSharp.Size,OpenCvSharp.Scalar,OpenCvSharp.Scalar,System.Int32,System.Int32,System.Int32,System.Single,System.Single,System.Single,H.NodeDatas.Onnx.OpenCV.Base.BoxCoordinateMode,H.NodeDatas.Onnx.OpenCV.Base.BoxGeometryType)
+  isExtensionMethod: true
+  parent: H.NodeDatas.Onnx.OpenCV.OnnxExtension
+  langs:
+  - csharp
+  - vb
+  name: DefectBoxes(Mat, string, Size, Scalar, Scalar, int, int, int, float, float, float, BoxCoordinateMode, BoxGeometryType)
+  nameWithType: OnnxExtension.DefectBoxes(Mat, string, Size, Scalar, Scalar, int, int, int, float, float, float, BoxCoordinateMode, BoxGeometryType)
+  fullName: H.NodeDatas.Onnx.OpenCV.OnnxExtension.DefectBoxes(OpenCvSharp.Mat, string, OpenCvSharp.Size, OpenCvSharp.Scalar, OpenCvSharp.Scalar, int, int, int, float, float, float, H.NodeDatas.Onnx.OpenCV.Base.BoxCoordinateMode, H.NodeDatas.Onnx.OpenCV.Base.BoxGeometryType)
+  type: Method
+  source:
+    remote:
+      path: Source/NodeDatas/H.NodeDatas.Onnx.OpenCV/OnnxExtension.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: DefectBoxes
+    path: Source/WPF-VisionMaster/Source/NodeDatas/H.NodeDatas.Onnx.OpenCV/OnnxExtension.cs
+    startLine: 222
+  assemblies:
+  - H.NodeDatas.Onnx.OpenCV
+  namespace: H.NodeDatas.Onnx.OpenCV
+  syntax:
+    content: public static IEnumerable<DefectBox> DefectBoxes(this Mat image, string model_path, Size inputSize, Scalar mean, Scalar std, int rowIndex = 1, int columnIndex = 2, int confidenceIndex = 4, float threshold = 0.25, float nmsThreshold = 0.45, float blobScaleFactor = 255, BoxCoordinateMode boxCoordinateMode = BoxCoordinateMode.AbsolutePixels, BoxGeometryType boxGeometryType = BoxGeometryType.CenterWithSize)
+    parameters:
+    - id: image
+      type: OpenCvSharp.Mat
+    - id: model_path
+      type: System.String
+    - id: inputSize
+      type: OpenCvSharp.Size
+    - id: mean
+      type: OpenCvSharp.Scalar
+    - id: std
+      type: OpenCvSharp.Scalar
+    - id: rowIndex
+      type: System.Int32
+    - id: columnIndex
+      type: System.Int32
+    - id: confidenceIndex
+      type: System.Int32
+    - id: threshold
+      type: System.Single
+    - id: nmsThreshold
+      type: System.Single
+    - id: blobScaleFactor
+      type: System.Single
+    - id: boxCoordinateMode
+      type: H.NodeDatas.Onnx.OpenCV.Base.BoxCoordinateMode
+    - id: boxGeometryType
+      type: H.NodeDatas.Onnx.OpenCV.Base.BoxGeometryType
+    return:
+      type: System.Collections.Generic.IEnumerable{H.NodeDatas.Onnx.OpenCV.Base.DefectBox}
+    content.vb: Public Shared Function DefectBoxes(image As Mat, model_path As String, inputSize As Size, mean As Scalar, std As Scalar, rowIndex As Integer = 1, columnIndex As Integer = 2, confidenceIndex As Integer = 4, threshold As Single = 0.25, nmsThreshold As Single = 0.45, blobScaleFactor As Single = 255, boxCoordinateMode As BoxCoordinateMode = BoxCoordinateMode.AbsolutePixels, boxGeometryType As BoxGeometryType = BoxGeometryType.CenterWithSize) As IEnumerable(Of DefectBox)
+  overload: H.NodeDatas.Onnx.OpenCV.OnnxExtension.DefectBoxes*
+  nameWithType.vb: OnnxExtension.DefectBoxes(Mat, String, Size, Scalar, Scalar, Integer, Integer, Integer, Single, Single, Single, BoxCoordinateMode, BoxGeometryType)
+  fullName.vb: H.NodeDatas.Onnx.OpenCV.OnnxExtension.DefectBoxes(OpenCvSharp.Mat, String, OpenCvSharp.Size, OpenCvSharp.Scalar, OpenCvSharp.Scalar, Integer, Integer, Integer, Single, Single, Single, H.NodeDatas.Onnx.OpenCV.Base.BoxCoordinateMode, H.NodeDatas.Onnx.OpenCV.Base.BoxGeometryType)
+  name.vb: DefectBoxes(Mat, String, Size, Scalar, Scalar, Integer, Integer, Integer, Single, Single, Single, BoxCoordinateMode, BoxGeometryType)
+- uid: H.NodeDatas.Onnx.OpenCV.OnnxExtension.InferValues(OpenCvSharp.Mat,System.String,OpenCvSharp.Size,OpenCvSharp.Scalar,OpenCvSharp.Scalar,System.Int32,System.Int32,System.Single)
+  commentId: M:H.NodeDatas.Onnx.OpenCV.OnnxExtension.InferValues(OpenCvSharp.Mat,System.String,OpenCvSharp.Size,OpenCvSharp.Scalar,OpenCvSharp.Scalar,System.Int32,System.Int32,System.Single)
+  id: InferValues(OpenCvSharp.Mat,System.String,OpenCvSharp.Size,OpenCvSharp.Scalar,OpenCvSharp.Scalar,System.Int32,System.Int32,System.Single)
+  isExtensionMethod: true
+  parent: H.NodeDatas.Onnx.OpenCV.OnnxExtension
+  langs:
+  - csharp
+  - vb
+  name: InferValues(Mat, string, Size, Scalar, Scalar, int, int, float)
+  nameWithType: OnnxExtension.InferValues(Mat, string, Size, Scalar, Scalar, int, int, float)
+  fullName: H.NodeDatas.Onnx.OpenCV.OnnxExtension.InferValues(OpenCvSharp.Mat, string, OpenCvSharp.Size, OpenCvSharp.Scalar, OpenCvSharp.Scalar, int, int, float)
+  type: Method
+  source:
+    remote:
+      path: Source/NodeDatas/H.NodeDatas.Onnx.OpenCV/OnnxExtension.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: InferValues
+    path: Source/WPF-VisionMaster/Source/NodeDatas/H.NodeDatas.Onnx.OpenCV/OnnxExtension.cs
+    startLine: 293
+  assemblies:
+  - H.NodeDatas.Onnx.OpenCV
+  namespace: H.NodeDatas.Onnx.OpenCV
+  syntax:
+    content: public static IEnumerable<float> InferValues(this Mat image, string model_path, Size inputSize, Scalar mean, Scalar std, int rowIndex = 1, int columnIndex = 2, float blobScaleFactor = 255)
+    parameters:
+    - id: image
+      type: OpenCvSharp.Mat
+    - id: model_path
+      type: System.String
+    - id: inputSize
+      type: OpenCvSharp.Size
+    - id: mean
+      type: OpenCvSharp.Scalar
+    - id: std
+      type: OpenCvSharp.Scalar
+    - id: rowIndex
+      type: System.Int32
+    - id: columnIndex
+      type: System.Int32
+    - id: blobScaleFactor
+      type: System.Single
+    return:
+      type: System.Collections.Generic.IEnumerable{System.Single}
+    content.vb: Public Shared Function InferValues(image As Mat, model_path As String, inputSize As Size, mean As Scalar, std As Scalar, rowIndex As Integer = 1, columnIndex As Integer = 2, blobScaleFactor As Single = 255) As IEnumerable(Of Single)
+  overload: H.NodeDatas.Onnx.OpenCV.OnnxExtension.InferValues*
+  nameWithType.vb: OnnxExtension.InferValues(Mat, String, Size, Scalar, Scalar, Integer, Integer, Single)
+  fullName.vb: H.NodeDatas.Onnx.OpenCV.OnnxExtension.InferValues(OpenCvSharp.Mat, String, OpenCvSharp.Size, OpenCvSharp.Scalar, OpenCvSharp.Scalar, Integer, Integer, Single)
+  name.vb: InferValues(Mat, String, Size, Scalar, Scalar, Integer, Integer, Single)
+- uid: H.NodeDatas.Onnx.OpenCV.OnnxExtension.Classification(OpenCvSharp.Mat,System.String,OpenCvSharp.Size,OpenCvSharp.Scalar,OpenCvSharp.Scalar,System.Collections.Generic.List{System.String},System.Int32,System.Int32,System.Single)
+  commentId: M:H.NodeDatas.Onnx.OpenCV.OnnxExtension.Classification(OpenCvSharp.Mat,System.String,OpenCvSharp.Size,OpenCvSharp.Scalar,OpenCvSharp.Scalar,System.Collections.Generic.List{System.String},System.Int32,System.Int32,System.Single)
+  id: Classification(OpenCvSharp.Mat,System.String,OpenCvSharp.Size,OpenCvSharp.Scalar,OpenCvSharp.Scalar,System.Collections.Generic.List{System.String},System.Int32,System.Int32,System.Single)
+  isExtensionMethod: true
+  parent: H.NodeDatas.Onnx.OpenCV.OnnxExtension
+  langs:
+  - csharp
+  - vb
+  name: Classification(Mat, string, Size, Scalar, Scalar, List<string>, int, int, float)
+  nameWithType: OnnxExtension.Classification(Mat, string, Size, Scalar, Scalar, List<string>, int, int, float)
+  fullName: H.NodeDatas.Onnx.OpenCV.OnnxExtension.Classification(OpenCvSharp.Mat, string, OpenCvSharp.Size, OpenCvSharp.Scalar, OpenCvSharp.Scalar, System.Collections.Generic.List<string>, int, int, float)
+  type: Method
+  source:
+    remote:
+      path: Source/NodeDatas/H.NodeDatas.Onnx.OpenCV/OnnxExtension.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: Classification
+    path: Source/WPF-VisionMaster/Source/NodeDatas/H.NodeDatas.Onnx.OpenCV/OnnxExtension.cs
+    startLine: 321
+  assemblies:
+  - H.NodeDatas.Onnx.OpenCV
+  namespace: H.NodeDatas.Onnx.OpenCV
+  syntax:
+    content: public static IEnumerable<Tuple<string, float>> Classification(this Mat image, string model_path, Size inputSize, Scalar mean, Scalar std, List<string> classNames, int rowIndex = 1, int columnIndex = 2, float blobScaleFactor = 255)
+    parameters:
+    - id: image
+      type: OpenCvSharp.Mat
+    - id: model_path
+      type: System.String
+    - id: inputSize
+      type: OpenCvSharp.Size
+    - id: mean
+      type: OpenCvSharp.Scalar
+    - id: std
+      type: OpenCvSharp.Scalar
+    - id: classNames
+      type: System.Collections.Generic.List{System.String}
+    - id: rowIndex
+      type: System.Int32
+    - id: columnIndex
+      type: System.Int32
+    - id: blobScaleFactor
+      type: System.Single
+    return:
+      type: System.Collections.Generic.IEnumerable{System.Tuple{System.String,System.Single}}
+    content.vb: Public Shared Function Classification(image As Mat, model_path As String, inputSize As Size, mean As Scalar, std As Scalar, classNames As List(Of String), rowIndex As Integer = 1, columnIndex As Integer = 2, blobScaleFactor As Single = 255) As IEnumerable(Of Tuple(Of String, Single))
+  overload: H.NodeDatas.Onnx.OpenCV.OnnxExtension.Classification*
+  nameWithType.vb: OnnxExtension.Classification(Mat, String, Size, Scalar, Scalar, List(Of String), Integer, Integer, Single)
+  fullName.vb: H.NodeDatas.Onnx.OpenCV.OnnxExtension.Classification(OpenCvSharp.Mat, String, OpenCvSharp.Size, OpenCvSharp.Scalar, OpenCvSharp.Scalar, System.Collections.Generic.List(Of String), Integer, Integer, Single)
+  name.vb: Classification(Mat, String, Size, Scalar, Scalar, List(Of String), Integer, Integer, Single)
+- uid: H.NodeDatas.Onnx.OpenCV.OnnxExtension.SemanticSegmentation(OpenCvSharp.Mat,System.String,OpenCvSharp.Size,OpenCvSharp.Scalar,OpenCvSharp.Scalar,System.Int32,System.Int32,System.Single)
+  commentId: M:H.NodeDatas.Onnx.OpenCV.OnnxExtension.SemanticSegmentation(OpenCvSharp.Mat,System.String,OpenCvSharp.Size,OpenCvSharp.Scalar,OpenCvSharp.Scalar,System.Int32,System.Int32,System.Single)
+  id: SemanticSegmentation(OpenCvSharp.Mat,System.String,OpenCvSharp.Size,OpenCvSharp.Scalar,OpenCvSharp.Scalar,System.Int32,System.Int32,System.Single)
+  isExtensionMethod: true
+  parent: H.NodeDatas.Onnx.OpenCV.OnnxExtension
+  langs:
+  - csharp
+  - vb
+  name: SemanticSegmentation(Mat, string, Size, Scalar, Scalar, int, int, float)
+  nameWithType: OnnxExtension.SemanticSegmentation(Mat, string, Size, Scalar, Scalar, int, int, float)
+  fullName: H.NodeDatas.Onnx.OpenCV.OnnxExtension.SemanticSegmentation(OpenCvSharp.Mat, string, OpenCvSharp.Size, OpenCvSharp.Scalar, OpenCvSharp.Scalar, int, int, float)
+  type: Method
+  source:
+    remote:
+      path: Source/NodeDatas/H.NodeDatas.Onnx.OpenCV/OnnxExtension.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: SemanticSegmentation
+    path: Source/WPF-VisionMaster/Source/NodeDatas/H.NodeDatas.Onnx.OpenCV/OnnxExtension.cs
+    startLine: 337
+  assemblies:
+  - H.NodeDatas.Onnx.OpenCV
+  namespace: H.NodeDatas.Onnx.OpenCV
+  syntax:
+    content: public static IEnumerable<Tuple<float, Mat>> SemanticSegmentation(this Mat image, string model_path, Size inputSize, Scalar mean, Scalar std, int rowIndex = 1, int columnIndex = 2, float blobScaleFactor = 255)
+    parameters:
+    - id: image
+      type: OpenCvSharp.Mat
+    - id: model_path
+      type: System.String
+    - id: inputSize
+      type: OpenCvSharp.Size
+    - id: mean
+      type: OpenCvSharp.Scalar
+    - id: std
+      type: OpenCvSharp.Scalar
+    - id: rowIndex
+      type: System.Int32
+    - id: columnIndex
+      type: System.Int32
+    - id: blobScaleFactor
+      type: System.Single
+    return:
+      type: System.Collections.Generic.IEnumerable{System.Tuple{System.Single,OpenCvSharp.Mat}}
+    content.vb: Public Shared Function SemanticSegmentation(image As Mat, model_path As String, inputSize As Size, mean As Scalar, std As Scalar, rowIndex As Integer = 1, columnIndex As Integer = 2, blobScaleFactor As Single = 255) As IEnumerable(Of Tuple(Of Single, Mat))
+  overload: H.NodeDatas.Onnx.OpenCV.OnnxExtension.SemanticSegmentation*
+  nameWithType.vb: OnnxExtension.SemanticSegmentation(Mat, String, Size, Scalar, Scalar, Integer, Integer, Single)
+  fullName.vb: H.NodeDatas.Onnx.OpenCV.OnnxExtension.SemanticSegmentation(OpenCvSharp.Mat, String, OpenCvSharp.Size, OpenCvSharp.Scalar, OpenCvSharp.Scalar, Integer, Integer, Single)
+  name.vb: SemanticSegmentation(Mat, String, Size, Scalar, Scalar, Integer, Integer, Single)
+- uid: H.NodeDatas.Onnx.OpenCV.OnnxExtension.GetClassNames(System.String)
+  commentId: M:H.NodeDatas.Onnx.OpenCV.OnnxExtension.GetClassNames(System.String)
+  id: GetClassNames(System.String)
+  isExtensionMethod: true
+  parent: H.NodeDatas.Onnx.OpenCV.OnnxExtension
+  langs:
+  - csharp
+  - vb
+  name: GetClassNames(string)
+  nameWithType: OnnxExtension.GetClassNames(string)
+  fullName: H.NodeDatas.Onnx.OpenCV.OnnxExtension.GetClassNames(string)
+  type: Method
+  source:
+    remote:
+      path: Source/NodeDatas/H.NodeDatas.Onnx.OpenCV/OnnxExtension.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: GetClassNames
+    path: Source/WPF-VisionMaster/Source/NodeDatas/H.NodeDatas.Onnx.OpenCV/OnnxExtension.cs
+    startLine: 360
+  assemblies:
+  - H.NodeDatas.Onnx.OpenCV
+  namespace: H.NodeDatas.Onnx.OpenCV
+  syntax:
+    content: public static IEnumerable<string> GetClassNames(this string lablePath)
+    parameters:
+    - id: lablePath
+      type: System.String
+    return:
+      type: System.Collections.Generic.IEnumerable{System.String}
+    content.vb: Public Shared Function GetClassNames(lablePath As String) As IEnumerable(Of String)
+  overload: H.NodeDatas.Onnx.OpenCV.OnnxExtension.GetClassNames*
+  nameWithType.vb: OnnxExtension.GetClassNames(String)
+  fullName.vb: H.NodeDatas.Onnx.OpenCV.OnnxExtension.GetClassNames(String)
+  name.vb: GetClassNames(String)
+- uid: H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToSrcMask(OpenCvSharp.Mat,System.Int32,System.Int32)
+  commentId: M:H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToSrcMask(OpenCvSharp.Mat,System.Int32,System.Int32)
+  id: ToSrcMask(OpenCvSharp.Mat,System.Int32,System.Int32)
+  isExtensionMethod: true
+  parent: H.NodeDatas.Onnx.OpenCV.OnnxExtension
+  langs:
+  - csharp
+  - vb
+  name: ToSrcMask(Mat, int, int)
+  nameWithType: OnnxExtension.ToSrcMask(Mat, int, int)
+  fullName: H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToSrcMask(OpenCvSharp.Mat, int, int)
+  type: Method
+  source:
+    remote:
+      path: Source/NodeDatas/H.NodeDatas.Onnx.OpenCV/OnnxExtension.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: ToSrcMask
+    path: Source/WPF-VisionMaster/Source/NodeDatas/H.NodeDatas.Onnx.OpenCV/OnnxExtension.cs
+    startLine: 387
+  assemblies:
+  - H.NodeDatas.Onnx.OpenCV
+  namespace: H.NodeDatas.Onnx.OpenCV
+  summary: 将输出掩码转换为原图的掩码
+  example: []
+  syntax:
+    content: public static Mat ToSrcMask(this Mat forward, int rows, int cols)
+    parameters:
+    - id: forward
+      type: OpenCvSharp.Mat
+      description: ''
+    - id: rows
+      type: System.Int32
+    - id: cols
+      type: System.Int32
+    return:
+      type: OpenCvSharp.Mat
+      description: ''
+    content.vb: Public Shared Function ToSrcMask(forward As Mat, rows As Integer, cols As Integer) As Mat
+  overload: H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToSrcMask*
+  nameWithType.vb: OnnxExtension.ToSrcMask(Mat, Integer, Integer)
+  fullName.vb: H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToSrcMask(OpenCvSharp.Mat, Integer, Integer)
+  name.vb: ToSrcMask(Mat, Integer, Integer)
+- uid: H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToInputMat(OpenCvSharp.Mat,System.Single,OpenCvSharp.Size,OpenCvSharp.Scalar,OpenCvSharp.Scalar)
+  commentId: M:H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToInputMat(OpenCvSharp.Mat,System.Single,OpenCvSharp.Size,OpenCvSharp.Scalar,OpenCvSharp.Scalar)
+  id: ToInputMat(OpenCvSharp.Mat,System.Single,OpenCvSharp.Size,OpenCvSharp.Scalar,OpenCvSharp.Scalar)
+  isExtensionMethod: true
+  parent: H.NodeDatas.Onnx.OpenCV.OnnxExtension
+  langs:
+  - csharp
+  - vb
+  name: ToInputMat(Mat, float, Size, Scalar, Scalar)
+  nameWithType: OnnxExtension.ToInputMat(Mat, float, Size, Scalar, Scalar)
+  fullName: H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToInputMat(OpenCvSharp.Mat, float, OpenCvSharp.Size, OpenCvSharp.Scalar, OpenCvSharp.Scalar)
+  type: Method
+  source:
+    remote:
+      path: Source/NodeDatas/H.NodeDatas.Onnx.OpenCV/OnnxExtension.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: ToInputMat
+    path: Source/WPF-VisionMaster/Source/NodeDatas/H.NodeDatas.Onnx.OpenCV/OnnxExtension.cs
+    startLine: 416
+  assemblies:
+  - H.NodeDatas.Onnx.OpenCV
+  namespace: H.NodeDatas.Onnx.OpenCV
+  summary: 将原图归一化处理到模型输入格式
+  example: []
+  syntax:
+    content: public static Mat ToInputMat(this Mat image, float blobScaleFactor, Size inputSize, Scalar mean, Scalar std)
+    parameters:
+    - id: image
+      type: OpenCvSharp.Mat
+      description: ''
+    - id: blobScaleFactor
+      type: System.Single
+      description: ''
+    - id: inputSize
+      type: OpenCvSharp.Size
+      description: ''
+    - id: mean
+      type: OpenCvSharp.Scalar
+      description: ''
+    - id: std
+      type: OpenCvSharp.Scalar
+      description: ''
+    return:
+      type: OpenCvSharp.Mat
+      description: ''
+    content.vb: Public Shared Function ToInputMat(image As Mat, blobScaleFactor As Single, inputSize As Size, mean As Scalar, std As Scalar) As Mat
+  overload: H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToInputMat*
+  nameWithType.vb: OnnxExtension.ToInputMat(Mat, Single, Size, Scalar, Scalar)
+  fullName.vb: H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToInputMat(OpenCvSharp.Mat, Single, OpenCvSharp.Size, OpenCvSharp.Scalar, OpenCvSharp.Scalar)
+  name.vb: ToInputMat(Mat, Single, Size, Scalar, Scalar)
+references:
+- uid: H.NodeDatas.Onnx.OpenCV
+  commentId: N:H.NodeDatas.Onnx.OpenCV
+  href: H.html
+  name: H.NodeDatas.Onnx.OpenCV
+  nameWithType: H.NodeDatas.Onnx.OpenCV
+  fullName: H.NodeDatas.Onnx.OpenCV
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.NodeDatas
+    name: NodeDatas
+    href: H.NodeDatas.html
+  - name: .
+  - uid: H.NodeDatas.Onnx
+    name: Onnx
+    href: H.NodeDatas.Onnx.html
+  - name: .
+  - uid: H.NodeDatas.Onnx.OpenCV
+    name: OpenCV
+    href: H.NodeDatas.Onnx.OpenCV.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.NodeDatas
+    name: NodeDatas
+    href: H.NodeDatas.html
+  - name: .
+  - uid: H.NodeDatas.Onnx
+    name: Onnx
+    href: H.NodeDatas.Onnx.html
+  - name: .
+  - uid: H.NodeDatas.Onnx.OpenCV
+    name: OpenCV
+    href: H.NodeDatas.Onnx.OpenCV.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToOutput*
+  commentId: Overload:H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToOutput
+  href: H.NodeDatas.Onnx.OpenCV.OnnxExtension.html#H_NodeDatas_Onnx_OpenCV_OnnxExtension_ToOutput_OpenCvSharp_Mat_System_Int32_System_Int32_
+  name: ToOutput
+  nameWithType: OnnxExtension.ToOutput
+  fullName: H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToOutput
+- uid: OpenCvSharp.Mat
+  commentId: T:OpenCvSharp.Mat
+  parent: OpenCvSharp
+  isExternal: true
+  name: Mat
+  nameWithType: Mat
+  fullName: OpenCvSharp.Mat
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: OpenCvSharp
+  commentId: N:OpenCvSharp
+  isExternal: true
+  name: OpenCvSharp
+  nameWithType: OpenCvSharp
+  fullName: OpenCvSharp
+- uid: H.NodeDatas.Onnx.OpenCV.OnnxExtension.GetMasks*
+  commentId: Overload:H.NodeDatas.Onnx.OpenCV.OnnxExtension.GetMasks
+  href: H.NodeDatas.Onnx.OpenCV.OnnxExtension.html#H_NodeDatas_Onnx_OpenCV_OnnxExtension_GetMasks_OpenCvSharp_Mat_System_Int32_System_Int32_System_Int32_
+  name: GetMasks
+  nameWithType: OnnxExtension.GetMasks
+  fullName: H.NodeDatas.Onnx.OpenCV.OnnxExtension.GetMasks
+- uid: System.Collections.Generic.IEnumerable{OpenCvSharp.Mat}
+  commentId: T:System.Collections.Generic.IEnumerable{OpenCvSharp.Mat}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<Mat>
+  nameWithType: IEnumerable<Mat>
+  fullName: System.Collections.Generic.IEnumerable<OpenCvSharp.Mat>
+  nameWithType.vb: IEnumerable(Of Mat)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of OpenCvSharp.Mat)
+  name.vb: IEnumerable(Of Mat)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: OpenCvSharp.Mat
+    name: Mat
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: OpenCvSharp.Mat
+    name: Mat
+    isExternal: true
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToDefectBoxs*
+  commentId: Overload:H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToDefectBoxs
+  href: H.NodeDatas.Onnx.OpenCV.OnnxExtension.html#H_NodeDatas_Onnx_OpenCV_OnnxExtension_ToDefectBoxs_OpenCvSharp_Mat_System_Int32_System_Single_System_Func_System_Single_System_Single_System_Single_System_Single_OpenCvSharp_Rect2f__
+  name: ToDefectBoxs
+  nameWithType: OnnxExtension.ToDefectBoxs
+  fullName: H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToDefectBoxs
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: System.Func{System.Single,System.Single,System.Single,System.Single,OpenCvSharp.Rect2f}
+  commentId: T:System.Func{System.Single,System.Single,System.Single,System.Single,OpenCvSharp.Rect2f}
+  parent: System
+  definition: System.Func`5
+  href: https://learn.microsoft.com/dotnet/api/system.func-5
+  name: Func<float, float, float, float, Rect2f>
+  nameWithType: Func<float, float, float, float, Rect2f>
+  fullName: System.Func<float, float, float, float, OpenCvSharp.Rect2f>
+  nameWithType.vb: Func(Of Single, Single, Single, Single, Rect2f)
+  fullName.vb: System.Func(Of Single, Single, Single, Single, OpenCvSharp.Rect2f)
+  name.vb: Func(Of Single, Single, Single, Single, Rect2f)
+  spec.csharp:
+  - uid: System.Func`5
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-5
+  - name: <
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: ','
+  - name: " "
+  - uid: OpenCvSharp.Rect2f
+    name: Rect2f
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`5
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-5
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: ','
+  - name: " "
+  - uid: OpenCvSharp.Rect2f
+    name: Rect2f
+    isExternal: true
+  - name: )
+- uid: System.Collections.Generic.IEnumerable{H.NodeDatas.Onnx.OpenCV.Base.DefectBox}
+  commentId: T:System.Collections.Generic.IEnumerable{H.NodeDatas.Onnx.OpenCV.Base.DefectBox}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<DefectBox>
+  nameWithType: IEnumerable<DefectBox>
+  fullName: System.Collections.Generic.IEnumerable<H.NodeDatas.Onnx.OpenCV.Base.DefectBox>
+  nameWithType.vb: IEnumerable(Of DefectBox)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of H.NodeDatas.Onnx.OpenCV.Base.DefectBox)
+  name.vb: IEnumerable(Of DefectBox)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: H.NodeDatas.Onnx.OpenCV.Base.DefectBox
+    name: DefectBox
+    href: H.NodeDatas.Onnx.OpenCV.Base.DefectBox.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.NodeDatas.Onnx.OpenCV.Base.DefectBox
+    name: DefectBox
+    href: H.NodeDatas.Onnx.OpenCV.Base.DefectBox.html
+  - name: )
+- uid: System.Func`5
+  commentId: T:System.Func`5
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-5
+  name: Func<T1, T2, T3, T4, TResult>
+  nameWithType: Func<T1, T2, T3, T4, TResult>
+  fullName: System.Func<T1, T2, T3, T4, TResult>
+  nameWithType.vb: Func(Of T1, T2, T3, T4, TResult)
+  fullName.vb: System.Func(Of T1, T2, T3, T4, TResult)
+  name.vb: Func(Of T1, T2, T3, T4, TResult)
+  spec.csharp:
+  - uid: System.Func`5
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-5
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`5
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-5
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToNMSBoxes*
+  commentId: Overload:H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToNMSBoxes
+  href: H.NodeDatas.Onnx.OpenCV.OnnxExtension.html#H_NodeDatas_Onnx_OpenCV_OnnxExtension_ToNMSBoxes_System_Collections_Generic_IEnumerable_H_NodeDatas_Onnx_OpenCV_Base_DefectBox__System_Single_System_Single_
+  name: ToNMSBoxes
+  nameWithType: OnnxExtension.ToNMSBoxes
+  fullName: H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToNMSBoxes
+- uid: H.NodeDatas.Onnx.OpenCV.OnnxExtension.DrawDetectBoxes*
+  commentId: Overload:H.NodeDatas.Onnx.OpenCV.OnnxExtension.DrawDetectBoxes
+  href: H.NodeDatas.Onnx.OpenCV.OnnxExtension.html#H_NodeDatas_Onnx_OpenCV_OnnxExtension_DrawDetectBoxes_OpenCvSharp_Mat_System_Windows_Media_Color_System_Int32_H_NodeDatas_Onnx_OpenCV_Base_DefectBox___
+  name: DrawDetectBoxes
+  nameWithType: OnnxExtension.DrawDetectBoxes
+  fullName: H.NodeDatas.Onnx.OpenCV.OnnxExtension.DrawDetectBoxes
+- uid: System.Windows.Media.Color
+  commentId: T:System.Windows.Media.Color
+  parent: System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.color
+  name: Color
+  nameWithType: Color
+  fullName: System.Windows.Media.Color
+- uid: H.NodeDatas.Onnx.OpenCV.Base.DefectBox[]
+  isExternal: true
+  href: H.NodeDatas.Onnx.OpenCV.Base.DefectBox.html
+  name: DefectBox[]
+  nameWithType: DefectBox[]
+  fullName: H.NodeDatas.Onnx.OpenCV.Base.DefectBox[]
+  nameWithType.vb: DefectBox()
+  fullName.vb: H.NodeDatas.Onnx.OpenCV.Base.DefectBox()
+  name.vb: DefectBox()
+  spec.csharp:
+  - uid: H.NodeDatas.Onnx.OpenCV.Base.DefectBox
+    name: DefectBox
+    href: H.NodeDatas.Onnx.OpenCV.Base.DefectBox.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: H.NodeDatas.Onnx.OpenCV.Base.DefectBox
+    name: DefectBox
+    href: H.NodeDatas.Onnx.OpenCV.Base.DefectBox.html
+  - name: (
+  - name: )
+- uid: System.Windows.Media
+  commentId: N:System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Media
+  nameWithType: System.Windows.Media
+  fullName: System.Windows.Media
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+- uid: H.NodeDatas.Onnx.OpenCV.OnnxExtension.DrawDetectBoxLabels*
+  commentId: Overload:H.NodeDatas.Onnx.OpenCV.OnnxExtension.DrawDetectBoxLabels
+  href: H.NodeDatas.Onnx.OpenCV.OnnxExtension.html#H_NodeDatas_Onnx_OpenCV_OnnxExtension_DrawDetectBoxLabels_OpenCvSharp_Mat_System_Collections_Generic_IEnumerable_H_NodeDatas_Onnx_OpenCV_Base_DefectBox__System_Windows_Media_Color_System_Windows_Media_Color_System_Collections_Generic_List_System_String__System_Boolean_
+  name: DrawDetectBoxLabels
+  nameWithType: OnnxExtension.DrawDetectBoxLabels
+  fullName: H.NodeDatas.Onnx.OpenCV.OnnxExtension.DrawDetectBoxLabels
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<string>
+  nameWithType: List<string>
+  fullName: System.Collections.Generic.List<string>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Collections.Generic.IEnumerable{System.Tuple{H.NodeDatas.Onnx.OpenCV.Base.DefectBox,System.String,System.Double}}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Tuple{H.NodeDatas.Onnx.OpenCV.Base.DefectBox,System.String,System.Double}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<Tuple<DefectBox, string, double>>
+  nameWithType: IEnumerable<Tuple<DefectBox, string, double>>
+  fullName: System.Collections.Generic.IEnumerable<System.Tuple<H.NodeDatas.Onnx.OpenCV.Base.DefectBox, string, double>>
+  nameWithType.vb: IEnumerable(Of Tuple(Of DefectBox, String, Double))
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Tuple(Of H.NodeDatas.Onnx.OpenCV.Base.DefectBox, String, Double))
+  name.vb: IEnumerable(Of Tuple(Of DefectBox, String, Double))
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Tuple`3
+    name: Tuple
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.tuple-3
+  - name: <
+  - uid: H.NodeDatas.Onnx.OpenCV.Base.DefectBox
+    name: DefectBox
+    href: H.NodeDatas.Onnx.OpenCV.Base.DefectBox.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Tuple`3
+    name: Tuple
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.tuple-3
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.NodeDatas.Onnx.OpenCV.Base.DefectBox
+    name: DefectBox
+    href: H.NodeDatas.Onnx.OpenCV.Base.DefectBox.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToResultPresenter*
+  commentId: Overload:H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToResultPresenter
+  href: H.NodeDatas.Onnx.OpenCV.OnnxExtension.html#H_NodeDatas_Onnx_OpenCV_OnnxExtension_ToResultPresenter_System_Collections_Generic_IEnumerable_System_Tuple_H_NodeDatas_Onnx_OpenCV_Base_DefectBox_System_String_System_Double___
+  name: ToResultPresenter
+  nameWithType: OnnxExtension.ToResultPresenter
+  fullName: H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToResultPresenter
+- uid: H.Controls.Diagram.Presenter.NodeDatas.Base.IResultPresenter
+  commentId: T:H.Controls.Diagram.Presenter.NodeDatas.Base.IResultPresenter
+  parent: H.Controls.Diagram.Presenter.NodeDatas.Base
+  href: H.Controls.Diagram.Presenter.NodeDatas.Base.IResultPresenter.html
+  name: IResultPresenter
+  nameWithType: IResultPresenter
+  fullName: H.Controls.Diagram.Presenter.NodeDatas.Base.IResultPresenter
+- uid: H.Controls.Diagram.Presenter.NodeDatas.Base
+  commentId: N:H.Controls.Diagram.Presenter.NodeDatas.Base
+  href: H.html
+  name: H.Controls.Diagram.Presenter.NodeDatas.Base
+  nameWithType: H.Controls.Diagram.Presenter.NodeDatas.Base
+  fullName: H.Controls.Diagram.Presenter.NodeDatas.Base
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter
+    name: Presenter
+    href: H.Controls.Diagram.Presenter.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter.NodeDatas
+    name: NodeDatas
+    href: H.Controls.Diagram.Presenter.NodeDatas.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter.NodeDatas.Base
+    name: Base
+    href: H.Controls.Diagram.Presenter.NodeDatas.Base.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter
+    name: Presenter
+    href: H.Controls.Diagram.Presenter.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter.NodeDatas
+    name: NodeDatas
+    href: H.Controls.Diagram.Presenter.NodeDatas.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter.NodeDatas.Base
+    name: Base
+    href: H.Controls.Diagram.Presenter.NodeDatas.Base.html
+- uid: H.NodeDatas.Onnx.OpenCV.OnnxExtension.CreateForwards*
+  commentId: Overload:H.NodeDatas.Onnx.OpenCV.OnnxExtension.CreateForwards
+  href: H.NodeDatas.Onnx.OpenCV.OnnxExtension.html#H_NodeDatas_Onnx_OpenCV_OnnxExtension_CreateForwards_OpenCvSharp_Dnn_Net_
+  name: CreateForwards
+  nameWithType: OnnxExtension.CreateForwards
+  fullName: H.NodeDatas.Onnx.OpenCV.OnnxExtension.CreateForwards
+- uid: OpenCvSharp.Dnn.Net
+  commentId: T:OpenCvSharp.Dnn.Net
+  parent: OpenCvSharp.Dnn
+  isExternal: true
+  name: Net
+  nameWithType: Net
+  fullName: OpenCvSharp.Dnn.Net
+- uid: OpenCvSharp.Dnn
+  commentId: N:OpenCvSharp.Dnn
+  isExternal: true
+  name: OpenCvSharp.Dnn
+  nameWithType: OpenCvSharp.Dnn
+  fullName: OpenCvSharp.Dnn
+  spec.csharp:
+  - uid: OpenCvSharp
+    name: OpenCvSharp
+    isExternal: true
+  - name: .
+  - uid: OpenCvSharp.Dnn
+    name: Dnn
+    isExternal: true
+  spec.vb:
+  - uid: OpenCvSharp
+    name: OpenCvSharp
+    isExternal: true
+  - name: .
+  - uid: OpenCvSharp.Dnn
+    name: Dnn
+    isExternal: true
+- uid: H.NodeDatas.Onnx.OpenCV.OnnxExtension.GetForwards*
+  commentId: Overload:H.NodeDatas.Onnx.OpenCV.OnnxExtension.GetForwards
+  href: H.NodeDatas.Onnx.OpenCV.OnnxExtension.html#H_NodeDatas_Onnx_OpenCV_OnnxExtension_GetForwards_OpenCvSharp_Mat_System_String_OpenCvSharp_Size_OpenCvSharp_Scalar_OpenCvSharp_Scalar_System_Single_
+  name: GetForwards
+  nameWithType: OnnxExtension.GetForwards
+  fullName: H.NodeDatas.Onnx.OpenCV.OnnxExtension.GetForwards
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: OpenCvSharp.Size
+  commentId: T:OpenCvSharp.Size
+  parent: OpenCvSharp
+  isExternal: true
+  name: Size
+  nameWithType: Size
+  fullName: OpenCvSharp.Size
+- uid: OpenCvSharp.Scalar
+  commentId: T:OpenCvSharp.Scalar
+  parent: OpenCvSharp
+  isExternal: true
+  name: Scalar
+  nameWithType: Scalar
+  fullName: OpenCvSharp.Scalar
+- uid: H.NodeDatas.Onnx.OpenCV.OnnxExtension.DefectBoxes*
+  commentId: Overload:H.NodeDatas.Onnx.OpenCV.OnnxExtension.DefectBoxes
+  href: H.NodeDatas.Onnx.OpenCV.OnnxExtension.html#H_NodeDatas_Onnx_OpenCV_OnnxExtension_DefectBoxes_OpenCvSharp_Mat_System_String_OpenCvSharp_Size_OpenCvSharp_Scalar_OpenCvSharp_Scalar_System_Int32_System_Int32_System_Int32_System_Single_System_Single_System_Single_H_NodeDatas_Onnx_OpenCV_Base_BoxCoordinateMode_H_NodeDatas_Onnx_OpenCV_Base_BoxGeometryType_
+  name: DefectBoxes
+  nameWithType: OnnxExtension.DefectBoxes
+  fullName: H.NodeDatas.Onnx.OpenCV.OnnxExtension.DefectBoxes
+- uid: H.NodeDatas.Onnx.OpenCV.Base.BoxCoordinateMode
+  commentId: T:H.NodeDatas.Onnx.OpenCV.Base.BoxCoordinateMode
+  parent: H.NodeDatas.Onnx.OpenCV.Base
+  href: H.NodeDatas.Onnx.OpenCV.Base.BoxCoordinateMode.html
+  name: BoxCoordinateMode
+  nameWithType: BoxCoordinateMode
+  fullName: H.NodeDatas.Onnx.OpenCV.Base.BoxCoordinateMode
+- uid: H.NodeDatas.Onnx.OpenCV.Base.BoxGeometryType
+  commentId: T:H.NodeDatas.Onnx.OpenCV.Base.BoxGeometryType
+  parent: H.NodeDatas.Onnx.OpenCV.Base
+  href: H.NodeDatas.Onnx.OpenCV.Base.BoxGeometryType.html
+  name: BoxGeometryType
+  nameWithType: BoxGeometryType
+  fullName: H.NodeDatas.Onnx.OpenCV.Base.BoxGeometryType
+- uid: H.NodeDatas.Onnx.OpenCV.Base
+  commentId: N:H.NodeDatas.Onnx.OpenCV.Base
+  href: H.html
+  name: H.NodeDatas.Onnx.OpenCV.Base
+  nameWithType: H.NodeDatas.Onnx.OpenCV.Base
+  fullName: H.NodeDatas.Onnx.OpenCV.Base
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.NodeDatas
+    name: NodeDatas
+    href: H.NodeDatas.html
+  - name: .
+  - uid: H.NodeDatas.Onnx
+    name: Onnx
+    href: H.NodeDatas.Onnx.html
+  - name: .
+  - uid: H.NodeDatas.Onnx.OpenCV
+    name: OpenCV
+    href: H.NodeDatas.Onnx.OpenCV.html
+  - name: .
+  - uid: H.NodeDatas.Onnx.OpenCV.Base
+    name: Base
+    href: H.NodeDatas.Onnx.OpenCV.Base.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.NodeDatas
+    name: NodeDatas
+    href: H.NodeDatas.html
+  - name: .
+  - uid: H.NodeDatas.Onnx
+    name: Onnx
+    href: H.NodeDatas.Onnx.html
+  - name: .
+  - uid: H.NodeDatas.Onnx.OpenCV
+    name: OpenCV
+    href: H.NodeDatas.Onnx.OpenCV.html
+  - name: .
+  - uid: H.NodeDatas.Onnx.OpenCV.Base
+    name: Base
+    href: H.NodeDatas.Onnx.OpenCV.Base.html
+- uid: H.NodeDatas.Onnx.OpenCV.OnnxExtension.InferValues*
+  commentId: Overload:H.NodeDatas.Onnx.OpenCV.OnnxExtension.InferValues
+  href: H.NodeDatas.Onnx.OpenCV.OnnxExtension.html#H_NodeDatas_Onnx_OpenCV_OnnxExtension_InferValues_OpenCvSharp_Mat_System_String_OpenCvSharp_Size_OpenCvSharp_Scalar_OpenCvSharp_Scalar_System_Int32_System_Int32_System_Single_
+  name: InferValues
+  nameWithType: OnnxExtension.InferValues
+  fullName: H.NodeDatas.Onnx.OpenCV.OnnxExtension.InferValues
+- uid: System.Collections.Generic.IEnumerable{System.Single}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Single}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<float>
+  nameWithType: IEnumerable<float>
+  fullName: System.Collections.Generic.IEnumerable<float>
+  nameWithType.vb: IEnumerable(Of Single)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Single)
+  name.vb: IEnumerable(Of Single)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+- uid: H.NodeDatas.Onnx.OpenCV.OnnxExtension.Classification*
+  commentId: Overload:H.NodeDatas.Onnx.OpenCV.OnnxExtension.Classification
+  href: H.NodeDatas.Onnx.OpenCV.OnnxExtension.html#H_NodeDatas_Onnx_OpenCV_OnnxExtension_Classification_OpenCvSharp_Mat_System_String_OpenCvSharp_Size_OpenCvSharp_Scalar_OpenCvSharp_Scalar_System_Collections_Generic_List_System_String__System_Int32_System_Int32_System_Single_
+  name: Classification
+  nameWithType: OnnxExtension.Classification
+  fullName: H.NodeDatas.Onnx.OpenCV.OnnxExtension.Classification
+- uid: System.Collections.Generic.IEnumerable{System.Tuple{System.String,System.Single}}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Tuple{System.String,System.Single}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<Tuple<string, float>>
+  nameWithType: IEnumerable<Tuple<string, float>>
+  fullName: System.Collections.Generic.IEnumerable<System.Tuple<string, float>>
+  nameWithType.vb: IEnumerable(Of Tuple(Of String, Single))
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Tuple(Of String, Single))
+  name.vb: IEnumerable(Of Tuple(Of String, Single))
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Tuple`2
+    name: Tuple
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.tuple-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Tuple`2
+    name: Tuple
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.tuple-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+  - name: )
+- uid: H.NodeDatas.Onnx.OpenCV.OnnxExtension.SemanticSegmentation*
+  commentId: Overload:H.NodeDatas.Onnx.OpenCV.OnnxExtension.SemanticSegmentation
+  href: H.NodeDatas.Onnx.OpenCV.OnnxExtension.html#H_NodeDatas_Onnx_OpenCV_OnnxExtension_SemanticSegmentation_OpenCvSharp_Mat_System_String_OpenCvSharp_Size_OpenCvSharp_Scalar_OpenCvSharp_Scalar_System_Int32_System_Int32_System_Single_
+  name: SemanticSegmentation
+  nameWithType: OnnxExtension.SemanticSegmentation
+  fullName: H.NodeDatas.Onnx.OpenCV.OnnxExtension.SemanticSegmentation
+- uid: System.Collections.Generic.IEnumerable{System.Tuple{System.Single,OpenCvSharp.Mat}}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Tuple{System.Single,OpenCvSharp.Mat}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<Tuple<float, Mat>>
+  nameWithType: IEnumerable<Tuple<float, Mat>>
+  fullName: System.Collections.Generic.IEnumerable<System.Tuple<float, OpenCvSharp.Mat>>
+  nameWithType.vb: IEnumerable(Of Tuple(Of Single, Mat))
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Tuple(Of Single, OpenCvSharp.Mat))
+  name.vb: IEnumerable(Of Tuple(Of Single, Mat))
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Tuple`2
+    name: Tuple
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.tuple-2
+  - name: <
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: ','
+  - name: " "
+  - uid: OpenCvSharp.Mat
+    name: Mat
+    isExternal: true
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Tuple`2
+    name: Tuple
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.tuple-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: ','
+  - name: " "
+  - uid: OpenCvSharp.Mat
+    name: Mat
+    isExternal: true
+  - name: )
+  - name: )
+- uid: H.NodeDatas.Onnx.OpenCV.OnnxExtension.GetClassNames*
+  commentId: Overload:H.NodeDatas.Onnx.OpenCV.OnnxExtension.GetClassNames
+  href: H.NodeDatas.Onnx.OpenCV.OnnxExtension.html#H_NodeDatas_Onnx_OpenCV_OnnxExtension_GetClassNames_System_String_
+  name: GetClassNames
+  nameWithType: OnnxExtension.GetClassNames
+  fullName: H.NodeDatas.Onnx.OpenCV.OnnxExtension.GetClassNames
+- uid: System.Collections.Generic.IEnumerable{System.String}
+  commentId: T:System.Collections.Generic.IEnumerable{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<string>
+  nameWithType: IEnumerable<string>
+  fullName: System.Collections.Generic.IEnumerable<string>
+  nameWithType.vb: IEnumerable(Of String)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of String)
+  name.vb: IEnumerable(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToSrcMask*
+  commentId: Overload:H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToSrcMask
+  href: H.NodeDatas.Onnx.OpenCV.OnnxExtension.html#H_NodeDatas_Onnx_OpenCV_OnnxExtension_ToSrcMask_OpenCvSharp_Mat_System_Int32_System_Int32_
+  name: ToSrcMask
+  nameWithType: OnnxExtension.ToSrcMask
+  fullName: H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToSrcMask
+- uid: H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToInputMat*
+  commentId: Overload:H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToInputMat
+  href: H.NodeDatas.Onnx.OpenCV.OnnxExtension.html#H_NodeDatas_Onnx_OpenCV_OnnxExtension_ToInputMat_OpenCvSharp_Mat_System_Single_OpenCvSharp_Size_OpenCvSharp_Scalar_OpenCvSharp_Scalar_
+  name: ToInputMat
+  nameWithType: OnnxExtension.ToInputMat
+  fullName: H.NodeDatas.Onnx.OpenCV.OnnxExtension.ToInputMat

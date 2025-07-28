@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.ValueConverter.Visiblilitys
+  commentId: N:H.ValueConverter.Visiblilitys
+  id: H.ValueConverter.Visiblilitys
+  children:
+  - H.ValueConverter.Visiblilitys.GetEqualsToVisibilityStringConverter
+  - H.ValueConverter.Visiblilitys.GetItemInListToVisibilityConverter
+  langs:
+  - csharp
+  - vb
+  name: H.ValueConverter.Visiblilitys
+  nameWithType: H.ValueConverter.Visiblilitys
+  fullName: H.ValueConverter.Visiblilitys
+  type: Namespace
+  assemblies:
+  - H.ValueConverter
+references:
+- uid: H.ValueConverter.Visiblilitys.GetEqualsToVisibilityStringConverter
+  commentId: T:H.ValueConverter.Visiblilitys.GetEqualsToVisibilityStringConverter
+  href: H.ValueConverter.Visiblilitys.GetEqualsToVisibilityStringConverter.html
+  name: GetEqualsToVisibilityStringConverter
+  nameWithType: GetEqualsToVisibilityStringConverter
+  fullName: H.ValueConverter.Visiblilitys.GetEqualsToVisibilityStringConverter
+- uid: H.ValueConverter.Visiblilitys.GetItemInListToVisibilityConverter
+  commentId: T:H.ValueConverter.Visiblilitys.GetItemInListToVisibilityConverter
+  href: H.ValueConverter.Visiblilitys.GetItemInListToVisibilityConverter.html
+  name: GetItemInListToVisibilityConverter
+  nameWithType: GetItemInListToVisibilityConverter
+  fullName: H.ValueConverter.Visiblilitys.GetItemInListToVisibilityConverter

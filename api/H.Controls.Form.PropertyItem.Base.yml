@@ -1,0 +1,49 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.Form.PropertyItem.Base
+  commentId: N:H.Controls.Form.PropertyItem.Base
+  id: H.Controls.Form.PropertyItem.Base
+  children:
+  - H.Controls.Form.PropertyItem.Base.SelectSourcePropertyItem
+  - H.Controls.Form.PropertyItem.Base.SelectSourcePropertyItem`1
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.Form.PropertyItem.Base
+  nameWithType: H.Controls.Form.PropertyItem.Base
+  fullName: H.Controls.Form.PropertyItem.Base
+  type: Namespace
+  assemblies:
+  - H.Controls.Form.PropertyItem
+references:
+- uid: H.Controls.Form.PropertyItem.Base.SelectSourcePropertyItem`1
+  commentId: T:H.Controls.Form.PropertyItem.Base.SelectSourcePropertyItem`1
+  href: H.Controls.Form.PropertyItem.Base.SelectSourcePropertyItem-1.html
+  name: SelectSourcePropertyItem<T>
+  nameWithType: SelectSourcePropertyItem<T>
+  fullName: H.Controls.Form.PropertyItem.Base.SelectSourcePropertyItem<T>
+  nameWithType.vb: SelectSourcePropertyItem(Of T)
+  fullName.vb: H.Controls.Form.PropertyItem.Base.SelectSourcePropertyItem(Of T)
+  name.vb: SelectSourcePropertyItem(Of T)
+  spec.csharp:
+  - uid: H.Controls.Form.PropertyItem.Base.SelectSourcePropertyItem`1
+    name: SelectSourcePropertyItem
+    href: H.Controls.Form.PropertyItem.Base.SelectSourcePropertyItem-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Controls.Form.PropertyItem.Base.SelectSourcePropertyItem`1
+    name: SelectSourcePropertyItem
+    href: H.Controls.Form.PropertyItem.Base.SelectSourcePropertyItem-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Controls.Form.PropertyItem.Base.SelectSourcePropertyItem
+  commentId: T:H.Controls.Form.PropertyItem.Base.SelectSourcePropertyItem
+  href: H.Controls.Form.PropertyItem.Base.SelectSourcePropertyItem.html
+  name: SelectSourcePropertyItem
+  nameWithType: SelectSourcePropertyItem
+  fullName: H.Controls.Form.PropertyItem.Base.SelectSourcePropertyItem

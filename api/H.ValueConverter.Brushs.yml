@@ -1,0 +1,44 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.ValueConverter.Brushs
+  commentId: N:H.ValueConverter.Brushs
+  id: H.ValueConverter.Brushs
+  children:
+  - H.ValueConverter.Brushs.BrushRoundConverter
+  - H.ValueConverter.Brushs.GetBackgroundToForegroundConverter
+  - H.ValueConverter.Brushs.GetColorToBrushConverter
+  - H.ValueConverter.Brushs.GetLevelColorConverter
+  langs:
+  - csharp
+  - vb
+  name: H.ValueConverter.Brushs
+  nameWithType: H.ValueConverter.Brushs
+  fullName: H.ValueConverter.Brushs
+  type: Namespace
+  assemblies:
+  - H.ValueConverter
+references:
+- uid: H.ValueConverter.Brushs.BrushRoundConverter
+  commentId: T:H.ValueConverter.Brushs.BrushRoundConverter
+  href: H.ValueConverter.Brushs.BrushRoundConverter.html
+  name: BrushRoundConverter
+  nameWithType: BrushRoundConverter
+  fullName: H.ValueConverter.Brushs.BrushRoundConverter
+- uid: H.ValueConverter.Brushs.GetBackgroundToForegroundConverter
+  commentId: T:H.ValueConverter.Brushs.GetBackgroundToForegroundConverter
+  href: H.ValueConverter.Brushs.GetBackgroundToForegroundConverter.html
+  name: GetBackgroundToForegroundConverter
+  nameWithType: GetBackgroundToForegroundConverter
+  fullName: H.ValueConverter.Brushs.GetBackgroundToForegroundConverter
+- uid: H.ValueConverter.Brushs.GetColorToBrushConverter
+  commentId: T:H.ValueConverter.Brushs.GetColorToBrushConverter
+  href: H.ValueConverter.Brushs.GetColorToBrushConverter.html
+  name: GetColorToBrushConverter
+  nameWithType: GetColorToBrushConverter
+  fullName: H.ValueConverter.Brushs.GetColorToBrushConverter
+- uid: H.ValueConverter.Brushs.GetLevelColorConverter
+  commentId: T:H.ValueConverter.Brushs.GetLevelColorConverter
+  href: H.ValueConverter.Brushs.GetLevelColorConverter.html
+  name: GetLevelColorConverter
+  nameWithType: GetLevelColorConverter
+  fullName: H.ValueConverter.Brushs.GetLevelColorConverter

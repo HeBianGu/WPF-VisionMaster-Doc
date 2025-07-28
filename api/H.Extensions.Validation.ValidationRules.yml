@@ -1,0 +1,76 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.Validation.ValidationRules
+  commentId: N:H.Extensions.Validation.ValidationRules
+  id: H.Extensions.Validation.ValidationRules
+  children:
+  - H.Extensions.Validation.ValidationRules.RegularExpressionValidationRule
+  - H.Extensions.Validation.ValidationRules.RequiredValidationRule
+  - H.Extensions.Validation.ValidationRules.ValidationRuleBase
+  langs:
+  - csharp
+  - vb
+  name: H.Extensions.Validation.ValidationRules
+  nameWithType: H.Extensions.Validation.ValidationRules
+  fullName: H.Extensions.Validation.ValidationRules
+  type: Namespace
+  assemblies:
+  - H.Extensions.Validation
+references:
+- uid: H.Extensions.Validation.ValidationRules.RegularExpressionValidationRule
+  commentId: T:H.Extensions.Validation.ValidationRules.RegularExpressionValidationRule
+  href: H.Extensions.Validation.ValidationRules.RegularExpressionValidationRule.html
+  name: RegularExpressionValidationRule
+  nameWithType: RegularExpressionValidationRule
+  fullName: H.Extensions.Validation.ValidationRules.RegularExpressionValidationRule
+- uid: H.Extensions.Validation.ValidationRules.RequiredValidationRule
+  commentId: T:H.Extensions.Validation.ValidationRules.RequiredValidationRule
+  href: H.Extensions.Validation.ValidationRules.RequiredValidationRule.html
+  name: RequiredValidationRule
+  nameWithType: RequiredValidationRule
+  fullName: H.Extensions.Validation.ValidationRules.RequiredValidationRule
+- uid: H.Extensions.Validation.ValidationRules.ValidationRuleBase
+  commentId: T:H.Extensions.Validation.ValidationRules.ValidationRuleBase
+  parent: H.Extensions.Validation.ValidationRules
+  href: H.Extensions.Validation.ValidationRules.ValidationRuleBase.html
+  name: ValidationRuleBase
+  nameWithType: ValidationRuleBase
+  fullName: H.Extensions.Validation.ValidationRules.ValidationRuleBase
+- uid: H.Extensions.Validation.ValidationRules
+  commentId: N:H.Extensions.Validation.ValidationRules
+  href: H.html
+  name: H.Extensions.Validation.ValidationRules
+  nameWithType: H.Extensions.Validation.ValidationRules
+  fullName: H.Extensions.Validation.ValidationRules
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Validation
+    name: Validation
+    href: H.Extensions.Validation.html
+  - name: .
+  - uid: H.Extensions.Validation.ValidationRules
+    name: ValidationRules
+    href: H.Extensions.Validation.ValidationRules.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Validation
+    name: Validation
+    href: H.Extensions.Validation.html
+  - name: .
+  - uid: H.Extensions.Validation.ValidationRules
+    name: ValidationRules
+    href: H.Extensions.Validation.ValidationRules.html

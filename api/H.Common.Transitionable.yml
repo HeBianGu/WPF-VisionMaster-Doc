@@ -1,0 +1,84 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Common.Transitionable
+  commentId: N:H.Common.Transitionable
+  id: H.Common.Transitionable
+  children:
+  - H.Common.Transitionable.ITransitionHostable
+  - H.Common.Transitionable.ITransitionable
+  - H.Common.Transitionable.IsHitTestVisibleDisposable
+  - H.Common.Transitionable.RenderTransformDisposable
+  - H.Common.Transitionable.TransitionHostableExtensions
+  langs:
+  - csharp
+  - vb
+  name: H.Common.Transitionable
+  nameWithType: H.Common.Transitionable
+  fullName: H.Common.Transitionable
+  type: Namespace
+  assemblies:
+  - H.Common
+references:
+- uid: H.Common.Transitionable.IsHitTestVisibleDisposable
+  commentId: T:H.Common.Transitionable.IsHitTestVisibleDisposable
+  href: H.Common.Transitionable.IsHitTestVisibleDisposable.html
+  name: IsHitTestVisibleDisposable
+  nameWithType: IsHitTestVisibleDisposable
+  fullName: H.Common.Transitionable.IsHitTestVisibleDisposable
+- uid: H.Common.Transitionable.ITransitionable
+  commentId: T:H.Common.Transitionable.ITransitionable
+  parent: H.Common.Transitionable
+  href: H.Common.Transitionable.ITransitionable.html
+  name: ITransitionable
+  nameWithType: ITransitionable
+  fullName: H.Common.Transitionable.ITransitionable
+- uid: H.Common.Transitionable.ITransitionHostable
+  commentId: T:H.Common.Transitionable.ITransitionHostable
+  parent: H.Common.Transitionable
+  href: H.Common.Transitionable.ITransitionHostable.html
+  name: ITransitionHostable
+  nameWithType: ITransitionHostable
+  fullName: H.Common.Transitionable.ITransitionHostable
+- uid: H.Common.Transitionable.RenderTransformDisposable
+  commentId: T:H.Common.Transitionable.RenderTransformDisposable
+  href: H.Common.Transitionable.RenderTransformDisposable.html
+  name: RenderTransformDisposable
+  nameWithType: RenderTransformDisposable
+  fullName: H.Common.Transitionable.RenderTransformDisposable
+- uid: H.Common.Transitionable.TransitionHostableExtensions
+  commentId: T:H.Common.Transitionable.TransitionHostableExtensions
+  parent: H.Common.Transitionable
+  href: H.Common.Transitionable.TransitionHostableExtensions.html
+  name: TransitionHostableExtensions
+  nameWithType: TransitionHostableExtensions
+  fullName: H.Common.Transitionable.TransitionHostableExtensions
+- uid: H.Common.Transitionable
+  commentId: N:H.Common.Transitionable
+  href: H.html
+  name: H.Common.Transitionable
+  nameWithType: H.Common.Transitionable
+  fullName: H.Common.Transitionable
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Common
+    name: Common
+    href: H.Common.html
+  - name: .
+  - uid: H.Common.Transitionable
+    name: Transitionable
+    href: H.Common.Transitionable.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Common
+    name: Common
+    href: H.Common.html
+  - name: .
+  - uid: H.Common.Transitionable
+    name: Transitionable
+    href: H.Common.Transitionable.html

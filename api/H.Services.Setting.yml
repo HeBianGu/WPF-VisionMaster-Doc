@@ -1,0 +1,99 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Services.Setting
+  commentId: N:H.Services.Setting
+  id: H.Services.Setting
+  children:
+  - H.Services.Setting.ISettable
+  - H.Services.Setting.ISettingButtonPresenter
+  - H.Services.Setting.ISettingDataOption
+  - H.Services.Setting.ISettingDataService
+  - H.Services.Setting.ISettingViewPresenter
+  - H.Services.Setting.IocSetting
+  - H.Services.Setting.SettingGroupNames
+  langs:
+  - csharp
+  - vb
+  name: H.Services.Setting
+  nameWithType: H.Services.Setting
+  fullName: H.Services.Setting
+  type: Namespace
+  assemblies:
+  - H.Services.Setting
+references:
+- uid: H.Services.Setting.IocSetting
+  commentId: T:H.Services.Setting.IocSetting
+  href: H.Services.Setting.IocSetting.html
+  name: IocSetting
+  nameWithType: IocSetting
+  fullName: H.Services.Setting.IocSetting
+- uid: H.Services.Setting.ISettable
+  commentId: T:H.Services.Setting.ISettable
+  parent: H.Services.Setting
+  href: H.Services.Setting.ISettable.html
+  name: ISettable
+  nameWithType: ISettable
+  fullName: H.Services.Setting.ISettable
+- uid: H.Services.Setting.ISettingButtonPresenter
+  commentId: T:H.Services.Setting.ISettingButtonPresenter
+  href: H.Services.Setting.ISettingButtonPresenter.html
+  name: ISettingButtonPresenter
+  nameWithType: ISettingButtonPresenter
+  fullName: H.Services.Setting.ISettingButtonPresenter
+- uid: H.Services.Setting.ISettingDataService
+  commentId: T:H.Services.Setting.ISettingDataService
+  parent: H.Services.Setting
+  href: H.Services.Setting.ISettingDataService.html
+  name: ISettingDataService
+  nameWithType: ISettingDataService
+  fullName: H.Services.Setting.ISettingDataService
+- uid: H.Services.Setting.ISettingDataOption
+  commentId: T:H.Services.Setting.ISettingDataOption
+  parent: H.Services.Setting
+  href: H.Services.Setting.ISettingDataOption.html
+  name: ISettingDataOption
+  nameWithType: ISettingDataOption
+  fullName: H.Services.Setting.ISettingDataOption
+- uid: H.Services.Setting.ISettingViewPresenter
+  commentId: T:H.Services.Setting.ISettingViewPresenter
+  parent: H.Services.Setting
+  href: H.Services.Setting.ISettingViewPresenter.html
+  name: ISettingViewPresenter
+  nameWithType: ISettingViewPresenter
+  fullName: H.Services.Setting.ISettingViewPresenter
+- uid: H.Services.Setting.SettingGroupNames
+  commentId: T:H.Services.Setting.SettingGroupNames
+  href: H.Services.Setting.SettingGroupNames.html
+  name: SettingGroupNames
+  nameWithType: SettingGroupNames
+  fullName: H.Services.Setting.SettingGroupNames
+- uid: H.Services.Setting
+  commentId: N:H.Services.Setting
+  href: H.html
+  name: H.Services.Setting
+  nameWithType: H.Services.Setting
+  fullName: H.Services.Setting
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Setting
+    name: Setting
+    href: H.Services.Setting.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Setting
+    name: Setting
+    href: H.Services.Setting.html

@@ -1,0 +1,462 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.LicenseExtention
+  commentId: T:System.LicenseExtention
+  id: LicenseExtention
+  parent: System
+  children:
+  - System.LicenseExtention.AddLicenseService(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.Modules.License.ILicenseOptions})
+  - System.LicenseExtention.UseLicense(System.IApplicationBuilder,System.Action{H.Modules.License.ILicenseOptions})
+  langs:
+  - csharp
+  - vb
+  name: LicenseExtention
+  nameWithType: LicenseExtention
+  fullName: System.LicenseExtention
+  type: Class
+  source:
+    id: LicenseExtention
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Modules\H.Modules.License\Extention.cs
+    startLine: 16
+  assemblies:
+  - H.Modules.License
+  namespace: System
+  syntax:
+    content: public static class LicenseExtention
+    content.vb: Public Module LicenseExtention
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: System.LicenseExtention.AddLicenseService(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.Modules.License.ILicenseOptions})
+  commentId: M:System.LicenseExtention.AddLicenseService(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.Modules.License.ILicenseOptions})
+  id: AddLicenseService(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.Modules.License.ILicenseOptions})
+  isExtensionMethod: true
+  parent: System.LicenseExtention
+  langs:
+  - csharp
+  - vb
+  name: AddLicenseService(IServiceCollection, Action<ILicenseOptions>)
+  nameWithType: LicenseExtention.AddLicenseService(IServiceCollection, Action<ILicenseOptions>)
+  fullName: System.LicenseExtention.AddLicenseService(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<H.Modules.License.ILicenseOptions>)
+  type: Method
+  source:
+    id: AddLicenseService
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Modules\H.Modules.License\Extention.cs
+    startLine: 18
+  assemblies:
+  - H.Modules.License
+  namespace: System
+  syntax:
+    content: public static IServiceCollection AddLicenseService(this IServiceCollection service, Action<ILicenseOptions> setupAction = null)
+    parameters:
+    - id: service
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    - id: setupAction
+      type: System.Action{H.Modules.License.ILicenseOptions}
+    return:
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    content.vb: Public Shared Function AddLicenseService(service As IServiceCollection, setupAction As Action(Of ILicenseOptions) = Nothing) As IServiceCollection
+  overload: System.LicenseExtention.AddLicenseService*
+  nameWithType.vb: LicenseExtention.AddLicenseService(IServiceCollection, Action(Of ILicenseOptions))
+  fullName.vb: System.LicenseExtention.AddLicenseService(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action(Of H.Modules.License.ILicenseOptions))
+  name.vb: AddLicenseService(IServiceCollection, Action(Of ILicenseOptions))
+- uid: System.LicenseExtention.UseLicense(System.IApplicationBuilder,System.Action{H.Modules.License.ILicenseOptions})
+  commentId: M:System.LicenseExtention.UseLicense(System.IApplicationBuilder,System.Action{H.Modules.License.ILicenseOptions})
+  id: UseLicense(System.IApplicationBuilder,System.Action{H.Modules.License.ILicenseOptions})
+  isExtensionMethod: true
+  parent: System.LicenseExtention
+  langs:
+  - csharp
+  - vb
+  name: UseLicense(IApplicationBuilder, Action<ILicenseOptions>)
+  nameWithType: LicenseExtention.UseLicense(IApplicationBuilder, Action<ILicenseOptions>)
+  fullName: System.LicenseExtention.UseLicense(System.IApplicationBuilder, System.Action<H.Modules.License.ILicenseOptions>)
+  type: Method
+  source:
+    id: UseLicense
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Modules\H.Modules.License\Extention.cs
+    startLine: 30
+  assemblies:
+  - H.Modules.License
+  namespace: System
+  syntax:
+    content: public static void UseLicense(this IApplicationBuilder service, Action<ILicenseOptions> action = null)
+    parameters:
+    - id: service
+      type: System.IApplicationBuilder
+    - id: action
+      type: System.Action{H.Modules.License.ILicenseOptions}
+    content.vb: Public Shared Sub UseLicense(service As IApplicationBuilder, action As Action(Of ILicenseOptions) = Nothing)
+  overload: System.LicenseExtention.UseLicense*
+  nameWithType.vb: LicenseExtention.UseLicense(IApplicationBuilder, Action(Of ILicenseOptions))
+  fullName.vb: System.LicenseExtention.UseLicense(System.IApplicationBuilder, System.Action(Of H.Modules.License.ILicenseOptions))
+  name.vb: UseLicense(IApplicationBuilder, Action(Of ILicenseOptions))
+references:
+- uid: System
+  commentId: N:System
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.LicenseExtention.AddLicenseService*
+  commentId: Overload:System.LicenseExtention.AddLicenseService
+  href: System.LicenseExtention.html#System_LicenseExtention_AddLicenseService_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_Action_H_Modules_License_ILicenseOptions__
+  name: AddLicenseService
+  nameWithType: LicenseExtention.AddLicenseService
+  fullName: System.LicenseExtention.AddLicenseService
+- uid: Microsoft.Extensions.DependencyInjection.IServiceCollection
+  commentId: T:Microsoft.Extensions.DependencyInjection.IServiceCollection
+  parent: Microsoft.Extensions.DependencyInjection
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection.iservicecollection
+  name: IServiceCollection
+  nameWithType: IServiceCollection
+  fullName: Microsoft.Extensions.DependencyInjection.IServiceCollection
+- uid: System.Action{H.Modules.License.ILicenseOptions}
+  commentId: T:System.Action{H.Modules.License.ILicenseOptions}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<ILicenseOptions>
+  nameWithType: Action<ILicenseOptions>
+  fullName: System.Action<H.Modules.License.ILicenseOptions>
+  nameWithType.vb: Action(Of ILicenseOptions)
+  fullName.vb: System.Action(Of H.Modules.License.ILicenseOptions)
+  name.vb: Action(Of ILicenseOptions)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: H.Modules.License.ILicenseOptions
+    name: ILicenseOptions
+    href: H.Modules.License.ILicenseOptions.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.Modules.License.ILicenseOptions
+    name: ILicenseOptions
+    href: H.Modules.License.ILicenseOptions.html
+  - name: )
+- uid: Microsoft.Extensions.DependencyInjection
+  commentId: N:Microsoft.Extensions.DependencyInjection
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Extensions.DependencyInjection
+  nameWithType: Microsoft.Extensions.DependencyInjection
+  fullName: Microsoft.Extensions.DependencyInjection
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.DependencyInjection
+    name: DependencyInjection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.DependencyInjection
+    name: DependencyInjection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.LicenseExtention.UseLicense*
+  commentId: Overload:System.LicenseExtention.UseLicense
+  href: System.LicenseExtention.html#System_LicenseExtention_UseLicense_System_IApplicationBuilder_System_Action_H_Modules_License_ILicenseOptions__
+  name: UseLicense
+  nameWithType: LicenseExtention.UseLicense
+  fullName: System.LicenseExtention.UseLicense
+- uid: System.IApplicationBuilder
+  commentId: T:System.IApplicationBuilder
+  parent: System
+  href: System.IApplicationBuilder.html
+  name: IApplicationBuilder
+  nameWithType: IApplicationBuilder
+  fullName: System.IApplicationBuilder

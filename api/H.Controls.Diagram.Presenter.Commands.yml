@@ -1,0 +1,92 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.Diagram.Presenter.Commands
+  commentId: N:H.Controls.Diagram.Presenter.Commands
+  id: H.Controls.Diagram.Presenter.Commands
+  children:
+  - H.Controls.Diagram.Presenter.Commands.AddNodeCommand
+  - H.Controls.Diagram.Presenter.Commands.AddNodeCommandBase
+  - H.Controls.Diagram.Presenter.Commands.AddNodeFromDataTypeCommand
+  - H.Controls.Diagram.Presenter.Commands.ApplayStyleCommand
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.Diagram.Presenter.Commands
+  nameWithType: H.Controls.Diagram.Presenter.Commands
+  fullName: H.Controls.Diagram.Presenter.Commands
+  type: Namespace
+  assemblies:
+  - H.Controls.Diagram.Presenter
+references:
+- uid: H.Controls.Diagram.Presenter.Commands.AddNodeCommandBase
+  commentId: T:H.Controls.Diagram.Presenter.Commands.AddNodeCommandBase
+  parent: H.Controls.Diagram.Presenter.Commands
+  href: H.Controls.Diagram.Presenter.Commands.AddNodeCommandBase.html
+  name: AddNodeCommandBase
+  nameWithType: AddNodeCommandBase
+  fullName: H.Controls.Diagram.Presenter.Commands.AddNodeCommandBase
+- uid: H.Controls.Diagram.Presenter.Commands.AddNodeCommand
+  commentId: T:H.Controls.Diagram.Presenter.Commands.AddNodeCommand
+  parent: H.Controls.Diagram.Presenter.Commands
+  href: H.Controls.Diagram.Presenter.Commands.AddNodeCommand.html
+  name: AddNodeCommand
+  nameWithType: AddNodeCommand
+  fullName: H.Controls.Diagram.Presenter.Commands.AddNodeCommand
+- uid: H.Controls.Diagram.Presenter.Commands.AddNodeFromDataTypeCommand
+  commentId: T:H.Controls.Diagram.Presenter.Commands.AddNodeFromDataTypeCommand
+  href: H.Controls.Diagram.Presenter.Commands.AddNodeFromDataTypeCommand.html
+  name: AddNodeFromDataTypeCommand
+  nameWithType: AddNodeFromDataTypeCommand
+  fullName: H.Controls.Diagram.Presenter.Commands.AddNodeFromDataTypeCommand
+- uid: H.Controls.Diagram.Presenter.Commands.ApplayStyleCommand
+  commentId: T:H.Controls.Diagram.Presenter.Commands.ApplayStyleCommand
+  href: H.Controls.Diagram.Presenter.Commands.ApplayStyleCommand.html
+  name: ApplayStyleCommand
+  nameWithType: ApplayStyleCommand
+  fullName: H.Controls.Diagram.Presenter.Commands.ApplayStyleCommand
+- uid: H.Controls.Diagram.Presenter.Commands
+  commentId: N:H.Controls.Diagram.Presenter.Commands
+  href: H.html
+  name: H.Controls.Diagram.Presenter.Commands
+  nameWithType: H.Controls.Diagram.Presenter.Commands
+  fullName: H.Controls.Diagram.Presenter.Commands
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter
+    name: Presenter
+    href: H.Controls.Diagram.Presenter.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter.Commands
+    name: Commands
+    href: H.Controls.Diagram.Presenter.Commands.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter
+    name: Presenter
+    href: H.Controls.Diagram.Presenter.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter.Commands
+    name: Commands
+    href: H.Controls.Diagram.Presenter.Commands.html

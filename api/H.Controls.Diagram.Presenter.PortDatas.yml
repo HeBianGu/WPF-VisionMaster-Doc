@@ -1,0 +1,136 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.Diagram.Presenter.PortDatas
+  commentId: N:H.Controls.Diagram.Presenter.PortDatas
+  id: H.Controls.Diagram.Presenter.PortDatas
+  children:
+  - H.Controls.Diagram.Presenter.PortDatas.FlowablePortData
+  - H.Controls.Diagram.Presenter.PortDatas.FlowablePortData`1
+  - H.Controls.Diagram.Presenter.PortDatas.ITextPortData
+  - H.Controls.Diagram.Presenter.PortDatas.PortData
+  - H.Controls.Diagram.Presenter.PortDatas.PortDataBase
+  - H.Controls.Diagram.Presenter.PortDatas.TextPortData
+  - H.Controls.Diagram.Presenter.PortDatas.TextPortDataExtension
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.Diagram.Presenter.PortDatas
+  nameWithType: H.Controls.Diagram.Presenter.PortDatas
+  fullName: H.Controls.Diagram.Presenter.PortDatas
+  type: Namespace
+  assemblies:
+  - H.Controls.Diagram.Presenter
+references:
+- uid: H.Controls.Diagram.Presenter.PortDatas.FlowablePortData
+  commentId: T:H.Controls.Diagram.Presenter.PortDatas.FlowablePortData
+  parent: H.Controls.Diagram.Presenter.PortDatas
+  href: H.Controls.Diagram.Presenter.PortDatas.FlowablePortData.html
+  name: FlowablePortData
+  nameWithType: FlowablePortData
+  fullName: H.Controls.Diagram.Presenter.PortDatas.FlowablePortData
+- uid: H.Controls.Diagram.Presenter.PortDatas.FlowablePortData`1
+  commentId: T:H.Controls.Diagram.Presenter.PortDatas.FlowablePortData`1
+  href: H.Controls.Diagram.Presenter.PortDatas.FlowablePortData-1.html
+  name: FlowablePortData<T>
+  nameWithType: FlowablePortData<T>
+  fullName: H.Controls.Diagram.Presenter.PortDatas.FlowablePortData<T>
+  nameWithType.vb: FlowablePortData(Of T)
+  fullName.vb: H.Controls.Diagram.Presenter.PortDatas.FlowablePortData(Of T)
+  name.vb: FlowablePortData(Of T)
+  spec.csharp:
+  - uid: H.Controls.Diagram.Presenter.PortDatas.FlowablePortData`1
+    name: FlowablePortData
+    href: H.Controls.Diagram.Presenter.PortDatas.FlowablePortData-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Controls.Diagram.Presenter.PortDatas.FlowablePortData`1
+    name: FlowablePortData
+    href: H.Controls.Diagram.Presenter.PortDatas.FlowablePortData-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Controls.Diagram.Presenter.PortDatas.PortData
+  commentId: T:H.Controls.Diagram.Presenter.PortDatas.PortData
+  parent: H.Controls.Diagram.Presenter.PortDatas
+  href: H.Controls.Diagram.Presenter.PortDatas.PortData.html
+  name: PortData
+  nameWithType: PortData
+  fullName: H.Controls.Diagram.Presenter.PortDatas.PortData
+- uid: H.Controls.Diagram.Presenter.PortDatas.PortDataBase
+  commentId: T:H.Controls.Diagram.Presenter.PortDatas.PortDataBase
+  parent: H.Controls.Diagram.Presenter.PortDatas
+  href: H.Controls.Diagram.Presenter.PortDatas.PortDataBase.html
+  name: PortDataBase
+  nameWithType: PortDataBase
+  fullName: H.Controls.Diagram.Presenter.PortDatas.PortDataBase
+- uid: H.Controls.Diagram.Presenter.PortDatas.ITextPortData
+  commentId: T:H.Controls.Diagram.Presenter.PortDatas.ITextPortData
+  parent: H.Controls.Diagram.Presenter.PortDatas
+  href: H.Controls.Diagram.Presenter.PortDatas.ITextPortData.html
+  name: ITextPortData
+  nameWithType: ITextPortData
+  fullName: H.Controls.Diagram.Presenter.PortDatas.ITextPortData
+- uid: H.Controls.Diagram.Presenter.PortDatas.TextPortData
+  commentId: T:H.Controls.Diagram.Presenter.PortDatas.TextPortData
+  parent: H.Controls.Diagram.Presenter.PortDatas
+  href: H.Controls.Diagram.Presenter.PortDatas.TextPortData.html
+  name: TextPortData
+  nameWithType: TextPortData
+  fullName: H.Controls.Diagram.Presenter.PortDatas.TextPortData
+- uid: H.Controls.Diagram.Presenter.PortDatas.TextPortDataExtension
+  commentId: T:H.Controls.Diagram.Presenter.PortDatas.TextPortDataExtension
+  parent: H.Controls.Diagram.Presenter.PortDatas
+  href: H.Controls.Diagram.Presenter.PortDatas.TextPortDataExtension.html
+  name: TextPortDataExtension
+  nameWithType: TextPortDataExtension
+  fullName: H.Controls.Diagram.Presenter.PortDatas.TextPortDataExtension
+- uid: H.Controls.Diagram.Presenter.PortDatas
+  commentId: N:H.Controls.Diagram.Presenter.PortDatas
+  href: H.html
+  name: H.Controls.Diagram.Presenter.PortDatas
+  nameWithType: H.Controls.Diagram.Presenter.PortDatas
+  fullName: H.Controls.Diagram.Presenter.PortDatas
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter
+    name: Presenter
+    href: H.Controls.Diagram.Presenter.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter.PortDatas
+    name: PortDatas
+    href: H.Controls.Diagram.Presenter.PortDatas.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter
+    name: Presenter
+    href: H.Controls.Diagram.Presenter.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter.PortDatas
+    name: PortDatas
+    href: H.Controls.Diagram.Presenter.PortDatas.html

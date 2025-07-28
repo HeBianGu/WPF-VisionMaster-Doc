@@ -1,0 +1,44 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.ValueConverter.Ints
+  commentId: N:H.ValueConverter.Ints
+  id: H.ValueConverter.Ints
+  children:
+  - H.ValueConverter.Ints.GetDoubleTextConverter
+  - H.ValueConverter.Ints.GetIntToValueConverter
+  - H.ValueConverter.Ints.GetStringReplaceConverter
+  - H.ValueConverter.Ints.GetStringSplitIndexConverter
+  langs:
+  - csharp
+  - vb
+  name: H.ValueConverter.Ints
+  nameWithType: H.ValueConverter.Ints
+  fullName: H.ValueConverter.Ints
+  type: Namespace
+  assemblies:
+  - H.ValueConverter
+references:
+- uid: H.ValueConverter.Ints.GetDoubleTextConverter
+  commentId: T:H.ValueConverter.Ints.GetDoubleTextConverter
+  href: H.ValueConverter.Ints.GetDoubleTextConverter.html
+  name: GetDoubleTextConverter
+  nameWithType: GetDoubleTextConverter
+  fullName: H.ValueConverter.Ints.GetDoubleTextConverter
+- uid: H.ValueConverter.Ints.GetIntToValueConverter
+  commentId: T:H.ValueConverter.Ints.GetIntToValueConverter
+  href: H.ValueConverter.Ints.GetIntToValueConverter.html
+  name: GetIntToValueConverter
+  nameWithType: GetIntToValueConverter
+  fullName: H.ValueConverter.Ints.GetIntToValueConverter
+- uid: H.ValueConverter.Ints.GetStringReplaceConverter
+  commentId: T:H.ValueConverter.Ints.GetStringReplaceConverter
+  href: H.ValueConverter.Ints.GetStringReplaceConverter.html
+  name: GetStringReplaceConverter
+  nameWithType: GetStringReplaceConverter
+  fullName: H.ValueConverter.Ints.GetStringReplaceConverter
+- uid: H.ValueConverter.Ints.GetStringSplitIndexConverter
+  commentId: T:H.ValueConverter.Ints.GetStringSplitIndexConverter
+  href: H.ValueConverter.Ints.GetStringSplitIndexConverter.html
+  name: GetStringSplitIndexConverter
+  nameWithType: GetStringSplitIndexConverter
+  fullName: H.ValueConverter.Ints.GetStringSplitIndexConverter

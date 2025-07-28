@@ -1,0 +1,126 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.Form.PropertyItem
+  commentId: N:H.Controls.Form.PropertyItem
+  id: H.Controls.Form.PropertyItem
+  children:
+  - H.Controls.Form.PropertyItem.BindingVisibablePropertyItemDemoModel
+  - H.Controls.Form.PropertyItem.ComboBoxPropertyItemDemoModel
+  - H.Controls.Form.PropertyItem.DemoModelItem
+  - H.Controls.Form.PropertyItem.EnumerablePropertyItemDemoModel
+  - H.Controls.Form.PropertyItem.FontIconButtonCommandPropertyItem
+  - H.Controls.Form.PropertyItem.FormPropertyItemDemoModel
+  - H.Controls.Form.PropertyItem.ListBoxPropertyItemDemoModel
+  - H.Controls.Form.PropertyItem.MultiListBoxPropertyItemDemoModel
+  - H.Controls.Form.PropertyItem.SourcePropertyItemDemoModel
+  - H.Controls.Form.PropertyItem.TextPropertyItemDemoModel
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.Form.PropertyItem
+  nameWithType: H.Controls.Form.PropertyItem
+  fullName: H.Controls.Form.PropertyItem
+  type: Namespace
+  assemblies:
+  - H.Controls.Form.PropertyItem
+references:
+- uid: H.Controls.Form.PropertyItem.BindingVisibablePropertyItemDemoModel
+  commentId: T:H.Controls.Form.PropertyItem.BindingVisibablePropertyItemDemoModel
+  href: H.Controls.Form.PropertyItem.BindingVisibablePropertyItemDemoModel.html
+  name: BindingVisibablePropertyItemDemoModel
+  nameWithType: BindingVisibablePropertyItemDemoModel
+  fullName: H.Controls.Form.PropertyItem.BindingVisibablePropertyItemDemoModel
+- uid: H.Controls.Form.PropertyItem.FontIconButtonCommandPropertyItem
+  commentId: T:H.Controls.Form.PropertyItem.FontIconButtonCommandPropertyItem
+  href: H.Controls.Form.PropertyItem.FontIconButtonCommandPropertyItem.html
+  name: FontIconButtonCommandPropertyItem
+  nameWithType: FontIconButtonCommandPropertyItem
+  fullName: H.Controls.Form.PropertyItem.FontIconButtonCommandPropertyItem
+- uid: H.Controls.Form.PropertyItem.FormPropertyItemDemoModel
+  commentId: T:H.Controls.Form.PropertyItem.FormPropertyItemDemoModel
+  href: H.Controls.Form.PropertyItem.FormPropertyItemDemoModel.html
+  name: FormPropertyItemDemoModel
+  nameWithType: FormPropertyItemDemoModel
+  fullName: H.Controls.Form.PropertyItem.FormPropertyItemDemoModel
+- uid: H.Controls.Form.PropertyItem.SourcePropertyItemDemoModel
+  commentId: T:H.Controls.Form.PropertyItem.SourcePropertyItemDemoModel
+  parent: H.Controls.Form.PropertyItem
+  href: H.Controls.Form.PropertyItem.SourcePropertyItemDemoModel.html
+  name: SourcePropertyItemDemoModel
+  nameWithType: SourcePropertyItemDemoModel
+  fullName: H.Controls.Form.PropertyItem.SourcePropertyItemDemoModel
+- uid: H.Controls.Form.PropertyItem.ComboBoxPropertyItemDemoModel
+  commentId: T:H.Controls.Form.PropertyItem.ComboBoxPropertyItemDemoModel
+  href: H.Controls.Form.PropertyItem.ComboBoxPropertyItemDemoModel.html
+  name: ComboBoxPropertyItemDemoModel
+  nameWithType: ComboBoxPropertyItemDemoModel
+  fullName: H.Controls.Form.PropertyItem.ComboBoxPropertyItemDemoModel
+- uid: H.Controls.Form.PropertyItem.ListBoxPropertyItemDemoModel
+  commentId: T:H.Controls.Form.PropertyItem.ListBoxPropertyItemDemoModel
+  href: H.Controls.Form.PropertyItem.ListBoxPropertyItemDemoModel.html
+  name: ListBoxPropertyItemDemoModel
+  nameWithType: ListBoxPropertyItemDemoModel
+  fullName: H.Controls.Form.PropertyItem.ListBoxPropertyItemDemoModel
+- uid: H.Controls.Form.PropertyItem.MultiListBoxPropertyItemDemoModel
+  commentId: T:H.Controls.Form.PropertyItem.MultiListBoxPropertyItemDemoModel
+  href: H.Controls.Form.PropertyItem.MultiListBoxPropertyItemDemoModel.html
+  name: MultiListBoxPropertyItemDemoModel
+  nameWithType: MultiListBoxPropertyItemDemoModel
+  fullName: H.Controls.Form.PropertyItem.MultiListBoxPropertyItemDemoModel
+- uid: H.Controls.Form.PropertyItem.EnumerablePropertyItemDemoModel
+  commentId: T:H.Controls.Form.PropertyItem.EnumerablePropertyItemDemoModel
+  href: H.Controls.Form.PropertyItem.EnumerablePropertyItemDemoModel.html
+  name: EnumerablePropertyItemDemoModel
+  nameWithType: EnumerablePropertyItemDemoModel
+  fullName: H.Controls.Form.PropertyItem.EnumerablePropertyItemDemoModel
+- uid: H.Controls.Form.PropertyItem.DemoModelItem
+  commentId: T:H.Controls.Form.PropertyItem.DemoModelItem
+  parent: H.Controls.Form.PropertyItem
+  href: H.Controls.Form.PropertyItem.DemoModelItem.html
+  name: DemoModelItem
+  nameWithType: DemoModelItem
+  fullName: H.Controls.Form.PropertyItem.DemoModelItem
+- uid: H.Controls.Form.PropertyItem.TextPropertyItemDemoModel
+  commentId: T:H.Controls.Form.PropertyItem.TextPropertyItemDemoModel
+  href: H.Controls.Form.PropertyItem.TextPropertyItemDemoModel.html
+  name: TextPropertyItemDemoModel
+  nameWithType: TextPropertyItemDemoModel
+  fullName: H.Controls.Form.PropertyItem.TextPropertyItemDemoModel
+- uid: H.Controls.Form.PropertyItem
+  commentId: N:H.Controls.Form.PropertyItem
+  href: H.html
+  name: H.Controls.Form.PropertyItem
+  nameWithType: H.Controls.Form.PropertyItem
+  fullName: H.Controls.Form.PropertyItem
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Form
+    name: Form
+    href: H.Controls.Form.html
+  - name: .
+  - uid: H.Controls.Form.PropertyItem
+    name: PropertyItem
+    href: H.Controls.Form.PropertyItem.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Form
+    name: Form
+    href: H.Controls.Form.html
+  - name: .
+  - uid: H.Controls.Form.PropertyItem
+    name: PropertyItem
+    href: H.Controls.Form.PropertyItem.html

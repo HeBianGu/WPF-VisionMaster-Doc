@@ -1,0 +1,44 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.NodeDatas.Onnx.OpenCV.NodeDatas
+  commentId: N:H.NodeDatas.Onnx.OpenCV.NodeDatas
+  id: H.NodeDatas.Onnx.OpenCV.NodeDatas
+  children:
+  - H.NodeDatas.Onnx.OpenCV.NodeDatas.ClsOnnxNodeData
+  - H.NodeDatas.Onnx.OpenCV.NodeDatas.InferOnnxNodeData
+  - H.NodeDatas.Onnx.OpenCV.NodeDatas.ObjDetectOnnxNodeData
+  - H.NodeDatas.Onnx.OpenCV.NodeDatas.SemSegOnnxNodeData
+  langs:
+  - csharp
+  - vb
+  name: H.NodeDatas.Onnx.OpenCV.NodeDatas
+  nameWithType: H.NodeDatas.Onnx.OpenCV.NodeDatas
+  fullName: H.NodeDatas.Onnx.OpenCV.NodeDatas
+  type: Namespace
+  assemblies:
+  - H.NodeDatas.Onnx.OpenCV
+references:
+- uid: H.NodeDatas.Onnx.OpenCV.NodeDatas.ClsOnnxNodeData
+  commentId: T:H.NodeDatas.Onnx.OpenCV.NodeDatas.ClsOnnxNodeData
+  href: H.NodeDatas.Onnx.OpenCV.NodeDatas.ClsOnnxNodeData.html
+  name: ClsOnnxNodeData
+  nameWithType: ClsOnnxNodeData
+  fullName: H.NodeDatas.Onnx.OpenCV.NodeDatas.ClsOnnxNodeData
+- uid: H.NodeDatas.Onnx.OpenCV.NodeDatas.InferOnnxNodeData
+  commentId: T:H.NodeDatas.Onnx.OpenCV.NodeDatas.InferOnnxNodeData
+  href: H.NodeDatas.Onnx.OpenCV.NodeDatas.InferOnnxNodeData.html
+  name: InferOnnxNodeData
+  nameWithType: InferOnnxNodeData
+  fullName: H.NodeDatas.Onnx.OpenCV.NodeDatas.InferOnnxNodeData
+- uid: H.NodeDatas.Onnx.OpenCV.NodeDatas.ObjDetectOnnxNodeData
+  commentId: T:H.NodeDatas.Onnx.OpenCV.NodeDatas.ObjDetectOnnxNodeData
+  href: H.NodeDatas.Onnx.OpenCV.NodeDatas.ObjDetectOnnxNodeData.html
+  name: ObjDetectOnnxNodeData
+  nameWithType: ObjDetectOnnxNodeData
+  fullName: H.NodeDatas.Onnx.OpenCV.NodeDatas.ObjDetectOnnxNodeData
+- uid: H.NodeDatas.Onnx.OpenCV.NodeDatas.SemSegOnnxNodeData
+  commentId: T:H.NodeDatas.Onnx.OpenCV.NodeDatas.SemSegOnnxNodeData
+  href: H.NodeDatas.Onnx.OpenCV.NodeDatas.SemSegOnnxNodeData.html
+  name: SemSegOnnxNodeData
+  nameWithType: SemSegOnnxNodeData
+  fullName: H.NodeDatas.Onnx.OpenCV.NodeDatas.SemSegOnnxNodeData

@@ -1,0 +1,507 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.ImageColorPicker.Drawings.DrawingContextExtension
+  commentId: T:H.Controls.ImageColorPicker.Drawings.DrawingContextExtension
+  id: DrawingContextExtension
+  parent: H.Controls.ImageColorPicker.Drawings
+  children:
+  - H.Controls.ImageColorPicker.Drawings.DrawingContextExtension.DrawColorText(System.Windows.Media.DrawingContext,System.Windows.Point,System.Windows.Media.Color,System.Windows.Media.Visual,System.Double)
+  - H.Controls.ImageColorPicker.Drawings.DrawingContextExtension.DrawHandle(System.Windows.Media.DrawingContext,System.Windows.Point,System.Windows.Media.Brush,System.Double,System.Double)
+  langs:
+  - csharp
+  - vb
+  name: DrawingContextExtension
+  nameWithType: DrawingContextExtension
+  fullName: H.Controls.ImageColorPicker.Drawings.DrawingContextExtension
+  type: Class
+  source:
+    id: DrawingContextExtension
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.ImageColorPicker\Drawings\ColorPickerDrawingVisual.cs
+    startLine: 78
+  assemblies:
+  - H.Controls.ImageColorPicker
+  namespace: H.Controls.ImageColorPicker.Drawings
+  syntax:
+    content: public static class DrawingContextExtension
+    content.vb: Public Module DrawingContextExtension
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: H.Controls.ImageColorPicker.Drawings.DrawingContextExtension.DrawHandle(System.Windows.Media.DrawingContext,System.Windows.Point,System.Windows.Media.Brush,System.Double,System.Double)
+  commentId: M:H.Controls.ImageColorPicker.Drawings.DrawingContextExtension.DrawHandle(System.Windows.Media.DrawingContext,System.Windows.Point,System.Windows.Media.Brush,System.Double,System.Double)
+  id: DrawHandle(System.Windows.Media.DrawingContext,System.Windows.Point,System.Windows.Media.Brush,System.Double,System.Double)
+  isExtensionMethod: true
+  parent: H.Controls.ImageColorPicker.Drawings.DrawingContextExtension
+  langs:
+  - csharp
+  - vb
+  name: DrawHandle(DrawingContext, Point, Brush, double, double)
+  nameWithType: DrawingContextExtension.DrawHandle(DrawingContext, Point, Brush, double, double)
+  fullName: H.Controls.ImageColorPicker.Drawings.DrawingContextExtension.DrawHandle(System.Windows.Media.DrawingContext, System.Windows.Point, System.Windows.Media.Brush, double, double)
+  type: Method
+  source:
+    id: DrawHandle
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.ImageColorPicker\Drawings\ColorPickerDrawingVisual.cs
+    startLine: 80
+  assemblies:
+  - H.Controls.ImageColorPicker
+  namespace: H.Controls.ImageColorPicker.Drawings
+  syntax:
+    content: public static void DrawHandle(this DrawingContext dc, Point point, Brush stroke, double strokeThickness = 1, double len = 6)
+    parameters:
+    - id: dc
+      type: System.Windows.Media.DrawingContext
+    - id: point
+      type: System.Windows.Point
+    - id: stroke
+      type: System.Windows.Media.Brush
+    - id: strokeThickness
+      type: System.Double
+    - id: len
+      type: System.Double
+    content.vb: Public Shared Sub DrawHandle(dc As DrawingContext, point As Point, stroke As Brush, strokeThickness As Double = 1, len As Double = 6)
+  overload: H.Controls.ImageColorPicker.Drawings.DrawingContextExtension.DrawHandle*
+  nameWithType.vb: DrawingContextExtension.DrawHandle(DrawingContext, Point, Brush, Double, Double)
+  fullName.vb: H.Controls.ImageColorPicker.Drawings.DrawingContextExtension.DrawHandle(System.Windows.Media.DrawingContext, System.Windows.Point, System.Windows.Media.Brush, Double, Double)
+  name.vb: DrawHandle(DrawingContext, Point, Brush, Double, Double)
+- uid: H.Controls.ImageColorPicker.Drawings.DrawingContextExtension.DrawColorText(System.Windows.Media.DrawingContext,System.Windows.Point,System.Windows.Media.Color,System.Windows.Media.Visual,System.Double)
+  commentId: M:H.Controls.ImageColorPicker.Drawings.DrawingContextExtension.DrawColorText(System.Windows.Media.DrawingContext,System.Windows.Point,System.Windows.Media.Color,System.Windows.Media.Visual,System.Double)
+  id: DrawColorText(System.Windows.Media.DrawingContext,System.Windows.Point,System.Windows.Media.Color,System.Windows.Media.Visual,System.Double)
+  isExtensionMethod: true
+  parent: H.Controls.ImageColorPicker.Drawings.DrawingContextExtension
+  langs:
+  - csharp
+  - vb
+  name: DrawColorText(DrawingContext, Point, Color, Visual, double)
+  nameWithType: DrawingContextExtension.DrawColorText(DrawingContext, Point, Color, Visual, double)
+  fullName: H.Controls.ImageColorPicker.Drawings.DrawingContextExtension.DrawColorText(System.Windows.Media.DrawingContext, System.Windows.Point, System.Windows.Media.Color, System.Windows.Media.Visual, double)
+  type: Method
+  source:
+    id: DrawColorText
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.ImageColorPicker\Drawings\ColorPickerDrawingVisual.cs
+    startLine: 86
+  assemblies:
+  - H.Controls.ImageColorPicker
+  namespace: H.Controls.ImageColorPicker.Drawings
+  syntax:
+    content: public static void DrawColorText(this DrawingContext dc, Point point, Color color, Visual visual, double fontSize = 10)
+    parameters:
+    - id: dc
+      type: System.Windows.Media.DrawingContext
+    - id: point
+      type: System.Windows.Point
+    - id: color
+      type: System.Windows.Media.Color
+    - id: visual
+      type: System.Windows.Media.Visual
+    - id: fontSize
+      type: System.Double
+    content.vb: Public Shared Sub DrawColorText(dc As DrawingContext, point As Point, color As Color, visual As Visual, fontSize As Double = 10)
+  overload: H.Controls.ImageColorPicker.Drawings.DrawingContextExtension.DrawColorText*
+  nameWithType.vb: DrawingContextExtension.DrawColorText(DrawingContext, Point, Color, Visual, Double)
+  fullName.vb: H.Controls.ImageColorPicker.Drawings.DrawingContextExtension.DrawColorText(System.Windows.Media.DrawingContext, System.Windows.Point, System.Windows.Media.Color, System.Windows.Media.Visual, Double)
+  name.vb: DrawColorText(DrawingContext, Point, Color, Visual, Double)
+references:
+- uid: H.Controls.ImageColorPicker.Drawings
+  commentId: N:H.Controls.ImageColorPicker.Drawings
+  href: H.html
+  name: H.Controls.ImageColorPicker.Drawings
+  nameWithType: H.Controls.ImageColorPicker.Drawings
+  fullName: H.Controls.ImageColorPicker.Drawings
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.ImageColorPicker
+    name: ImageColorPicker
+    href: H.Controls.ImageColorPicker.html
+  - name: .
+  - uid: H.Controls.ImageColorPicker.Drawings
+    name: Drawings
+    href: H.Controls.ImageColorPicker.Drawings.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.ImageColorPicker
+    name: ImageColorPicker
+    href: H.Controls.ImageColorPicker.html
+  - name: .
+  - uid: H.Controls.ImageColorPicker.Drawings
+    name: Drawings
+    href: H.Controls.ImageColorPicker.Drawings.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: H.Controls.ImageColorPicker.Drawings.DrawingContextExtension.DrawHandle*
+  commentId: Overload:H.Controls.ImageColorPicker.Drawings.DrawingContextExtension.DrawHandle
+  href: H.Controls.ImageColorPicker.Drawings.DrawingContextExtension.html#H_Controls_ImageColorPicker_Drawings_DrawingContextExtension_DrawHandle_System_Windows_Media_DrawingContext_System_Windows_Point_System_Windows_Media_Brush_System_Double_System_Double_
+  name: DrawHandle
+  nameWithType: DrawingContextExtension.DrawHandle
+  fullName: H.Controls.ImageColorPicker.Drawings.DrawingContextExtension.DrawHandle
+- uid: System.Windows.Media.DrawingContext
+  commentId: T:System.Windows.Media.DrawingContext
+  parent: System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.drawingcontext
+  name: DrawingContext
+  nameWithType: DrawingContext
+  fullName: System.Windows.Media.DrawingContext
+- uid: System.Windows.Point
+  commentId: T:System.Windows.Point
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  name: Point
+  nameWithType: Point
+  fullName: System.Windows.Point
+- uid: System.Windows.Media.Brush
+  commentId: T:System.Windows.Media.Brush
+  parent: System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.brush
+  name: Brush
+  nameWithType: Brush
+  fullName: System.Windows.Media.Brush
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: System.Windows.Media
+  commentId: N:System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Media
+  nameWithType: System.Windows.Media
+  fullName: System.Windows.Media
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+- uid: System.Windows
+  commentId: N:System.Windows
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows
+  nameWithType: System.Windows
+  fullName: System.Windows
+  spec.csharp:
+  - uid: System
+    name: System
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  spec.vb:
+  - uid: System
+    name: System
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+- uid: H.Controls.ImageColorPicker.Drawings.DrawingContextExtension.DrawColorText*
+  commentId: Overload:H.Controls.ImageColorPicker.Drawings.DrawingContextExtension.DrawColorText
+  href: H.Controls.ImageColorPicker.Drawings.DrawingContextExtension.html#H_Controls_ImageColorPicker_Drawings_DrawingContextExtension_DrawColorText_System_Windows_Media_DrawingContext_System_Windows_Point_System_Windows_Media_Color_System_Windows_Media_Visual_System_Double_
+  name: DrawColorText
+  nameWithType: DrawingContextExtension.DrawColorText
+  fullName: H.Controls.ImageColorPicker.Drawings.DrawingContextExtension.DrawColorText
+- uid: System.Windows.Media.Color
+  commentId: T:System.Windows.Media.Color
+  parent: System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.color
+  name: Color
+  nameWithType: Color
+  fullName: System.Windows.Media.Color
+- uid: System.Windows.Media.Visual
+  commentId: T:System.Windows.Media.Visual
+  parent: System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.visual
+  name: Visual
+  nameWithType: Visual
+  fullName: System.Windows.Media.Visual

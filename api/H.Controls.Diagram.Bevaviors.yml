@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.Diagram.Bevaviors
+  commentId: N:H.Controls.Diagram.Bevaviors
+  id: H.Controls.Diagram.Bevaviors
+  children:
+  - H.Controls.Diagram.Bevaviors.NodeMouseDragBehavior
+  - H.Controls.Diagram.Bevaviors.NodeMouseOverBehavior
+  - H.Controls.Diagram.Bevaviors.NodeSelectionBehavior
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.Diagram.Bevaviors
+  nameWithType: H.Controls.Diagram.Bevaviors
+  fullName: H.Controls.Diagram.Bevaviors
+  type: Namespace
+  assemblies:
+  - H.Controls.Diagram
+references:
+- uid: H.Controls.Diagram.Bevaviors.NodeMouseDragBehavior
+  commentId: T:H.Controls.Diagram.Bevaviors.NodeMouseDragBehavior
+  href: H.Controls.Diagram.Bevaviors.NodeMouseDragBehavior.html
+  name: NodeMouseDragBehavior
+  nameWithType: NodeMouseDragBehavior
+  fullName: H.Controls.Diagram.Bevaviors.NodeMouseDragBehavior
+- uid: H.Controls.Diagram.Bevaviors.NodeMouseOverBehavior
+  commentId: T:H.Controls.Diagram.Bevaviors.NodeMouseOverBehavior
+  href: H.Controls.Diagram.Bevaviors.NodeMouseOverBehavior.html
+  name: NodeMouseOverBehavior
+  nameWithType: NodeMouseOverBehavior
+  fullName: H.Controls.Diagram.Bevaviors.NodeMouseOverBehavior
+- uid: H.Controls.Diagram.Bevaviors.NodeSelectionBehavior
+  commentId: T:H.Controls.Diagram.Bevaviors.NodeSelectionBehavior
+  href: H.Controls.Diagram.Bevaviors.NodeSelectionBehavior.html
+  name: NodeSelectionBehavior
+  nameWithType: NodeSelectionBehavior
+  fullName: H.Controls.Diagram.Bevaviors.NodeSelectionBehavior

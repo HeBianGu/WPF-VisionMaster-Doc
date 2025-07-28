@@ -1,0 +1,105 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.Step
+  commentId: N:H.Controls.Step
+  id: H.Controls.Step
+  children:
+  - H.Controls.Step.IStepItemPresenter
+  - H.Controls.Step.ShowStepCommand
+  - H.Controls.Step.ShowVerticalStepCommand
+  - H.Controls.Step.Step
+  - H.Controls.Step.StepItemPresenter
+  - H.Controls.Step.StepItemVerticalPresenter
+  - H.Controls.Step.StepPresenter
+  - H.Controls.Step.StepState
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.Step
+  nameWithType: H.Controls.Step
+  fullName: H.Controls.Step
+  type: Namespace
+  assemblies:
+  - H.Controls.Step
+references:
+- uid: H.Controls.Step.IStepItemPresenter
+  commentId: T:H.Controls.Step.IStepItemPresenter
+  parent: H.Controls.Step
+  href: H.Controls.Step.IStepItemPresenter.html
+  name: IStepItemPresenter
+  nameWithType: IStepItemPresenter
+  fullName: H.Controls.Step.IStepItemPresenter
+- uid: H.Controls.Step.ShowStepCommand
+  commentId: T:H.Controls.Step.ShowStepCommand
+  href: H.Controls.Step.ShowStepCommand.html
+  name: ShowStepCommand
+  nameWithType: ShowStepCommand
+  fullName: H.Controls.Step.ShowStepCommand
+- uid: H.Controls.Step.ShowVerticalStepCommand
+  commentId: T:H.Controls.Step.ShowVerticalStepCommand
+  href: H.Controls.Step.ShowVerticalStepCommand.html
+  name: ShowVerticalStepCommand
+  nameWithType: ShowVerticalStepCommand
+  fullName: H.Controls.Step.ShowVerticalStepCommand
+- uid: H.Controls.Step.Step
+  commentId: T:H.Controls.Step.Step
+  href: H.Controls.Step.Step.html
+  name: Step
+  nameWithType: Step
+  fullName: H.Controls.Step.Step
+- uid: H.Controls.Step.StepItemPresenter
+  commentId: T:H.Controls.Step.StepItemPresenter
+  parent: H.Controls.Step
+  href: H.Controls.Step.StepItemPresenter.html
+  name: StepItemPresenter
+  nameWithType: StepItemPresenter
+  fullName: H.Controls.Step.StepItemPresenter
+- uid: H.Controls.Step.StepItemVerticalPresenter
+  commentId: T:H.Controls.Step.StepItemVerticalPresenter
+  href: H.Controls.Step.StepItemVerticalPresenter.html
+  name: StepItemVerticalPresenter
+  nameWithType: StepItemVerticalPresenter
+  fullName: H.Controls.Step.StepItemVerticalPresenter
+- uid: H.Controls.Step.StepPresenter
+  commentId: T:H.Controls.Step.StepPresenter
+  href: H.Controls.Step.StepPresenter.html
+  name: StepPresenter
+  nameWithType: StepPresenter
+  fullName: H.Controls.Step.StepPresenter
+- uid: H.Controls.Step.StepState
+  commentId: T:H.Controls.Step.StepState
+  parent: H.Controls.Step
+  href: H.Controls.Step.StepState.html
+  name: StepState
+  nameWithType: StepState
+  fullName: H.Controls.Step.StepState
+- uid: H.Controls.Step
+  commentId: N:H.Controls.Step
+  href: H.html
+  name: H.Controls.Step
+  nameWithType: H.Controls.Step
+  fullName: H.Controls.Step
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Step
+    name: Step
+    href: H.Controls.Step.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Step
+    name: Step
+    href: H.Controls.Step.html

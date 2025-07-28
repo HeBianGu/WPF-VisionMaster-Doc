@@ -1,0 +1,86 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Services.Common.SplashScreen
+  commentId: N:H.Services.Common.SplashScreen
+  id: H.Services.Common.SplashScreen
+  children:
+  - H.Services.Common.SplashScreen.IAppLoadService
+  - H.Services.Common.SplashScreen.IAppSaveService
+  - H.Services.Common.SplashScreen.ILicenseLoadService
+  - H.Services.Common.SplashScreen.ISplashScreenViewPresenter
+  langs:
+  - csharp
+  - vb
+  name: H.Services.Common.SplashScreen
+  nameWithType: H.Services.Common.SplashScreen
+  fullName: H.Services.Common.SplashScreen
+  type: Namespace
+  assemblies:
+  - H.Services.Common
+references:
+- uid: H.Services.Common.SplashScreen.IAppLoadService
+  commentId: T:H.Services.Common.SplashScreen.IAppLoadService
+  parent: H.Services.Common.SplashScreen
+  href: H.Services.Common.SplashScreen.IAppLoadService.html
+  name: IAppLoadService
+  nameWithType: IAppLoadService
+  fullName: H.Services.Common.SplashScreen.IAppLoadService
+- uid: H.Services.Common.SplashScreen.IAppSaveService
+  commentId: T:H.Services.Common.SplashScreen.IAppSaveService
+  parent: H.Services.Common.SplashScreen
+  href: H.Services.Common.SplashScreen.IAppSaveService.html
+  name: IAppSaveService
+  nameWithType: IAppSaveService
+  fullName: H.Services.Common.SplashScreen.IAppSaveService
+- uid: H.Services.Common.SplashScreen.ILicenseLoadService
+  commentId: T:H.Services.Common.SplashScreen.ILicenseLoadService
+  parent: H.Services.Common.SplashScreen
+  href: H.Services.Common.SplashScreen.ILicenseLoadService.html
+  name: ILicenseLoadService
+  nameWithType: ILicenseLoadService
+  fullName: H.Services.Common.SplashScreen.ILicenseLoadService
+- uid: H.Services.Common.SplashScreen.ISplashScreenViewPresenter
+  commentId: T:H.Services.Common.SplashScreen.ISplashScreenViewPresenter
+  parent: H.Services.Common.SplashScreen
+  href: H.Services.Common.SplashScreen.ISplashScreenViewPresenter.html
+  name: ISplashScreenViewPresenter
+  nameWithType: ISplashScreenViewPresenter
+  fullName: H.Services.Common.SplashScreen.ISplashScreenViewPresenter
+- uid: H.Services.Common.SplashScreen
+  commentId: N:H.Services.Common.SplashScreen
+  href: H.html
+  name: H.Services.Common.SplashScreen
+  nameWithType: H.Services.Common.SplashScreen
+  fullName: H.Services.Common.SplashScreen
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Common
+    name: Common
+    href: H.Services.Common.html
+  - name: .
+  - uid: H.Services.Common.SplashScreen
+    name: SplashScreen
+    href: H.Services.Common.SplashScreen.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Common
+    name: Common
+    href: H.Services.Common.html
+  - name: .
+  - uid: H.Services.Common.SplashScreen
+    name: SplashScreen
+    href: H.Services.Common.SplashScreen.html

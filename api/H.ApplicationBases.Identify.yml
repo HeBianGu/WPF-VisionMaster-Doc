@@ -1,0 +1,68 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.ApplicationBases.Identify
+  commentId: N:H.ApplicationBases.Identify
+  id: H.ApplicationBases.Identify
+  children:
+  - H.ApplicationBases.Identify.DefaultIndentifyOptions
+  - H.ApplicationBases.Identify.IDefaultIndentifyOptions
+  - H.ApplicationBases.Identify.IdentifyApplicationBase
+  langs:
+  - csharp
+  - vb
+  name: H.ApplicationBases.Identify
+  nameWithType: H.ApplicationBases.Identify
+  fullName: H.ApplicationBases.Identify
+  type: Namespace
+  assemblies:
+  - H.ApplicationBases.Identify
+references:
+- uid: H.ApplicationBases.Identify.DefaultIndentifyOptions
+  commentId: T:H.ApplicationBases.Identify.DefaultIndentifyOptions
+  href: H.ApplicationBases.Identify.DefaultIndentifyOptions.html
+  name: DefaultIndentifyOptions
+  nameWithType: DefaultIndentifyOptions
+  fullName: H.ApplicationBases.Identify.DefaultIndentifyOptions
+- uid: H.ApplicationBases.Identify.IDefaultIndentifyOptions
+  commentId: T:H.ApplicationBases.Identify.IDefaultIndentifyOptions
+  parent: H.ApplicationBases.Identify
+  href: H.ApplicationBases.Identify.IDefaultIndentifyOptions.html
+  name: IDefaultIndentifyOptions
+  nameWithType: IDefaultIndentifyOptions
+  fullName: H.ApplicationBases.Identify.IDefaultIndentifyOptions
+- uid: H.ApplicationBases.Identify.IdentifyApplicationBase
+  commentId: T:H.ApplicationBases.Identify.IdentifyApplicationBase
+  href: H.ApplicationBases.Identify.IdentifyApplicationBase.html
+  name: IdentifyApplicationBase
+  nameWithType: IdentifyApplicationBase
+  fullName: H.ApplicationBases.Identify.IdentifyApplicationBase
+- uid: H.ApplicationBases.Identify
+  commentId: N:H.ApplicationBases.Identify
+  href: H.html
+  name: H.ApplicationBases.Identify
+  nameWithType: H.ApplicationBases.Identify
+  fullName: H.ApplicationBases.Identify
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.ApplicationBases
+    name: ApplicationBases
+    href: H.ApplicationBases.html
+  - name: .
+  - uid: H.ApplicationBases.Identify
+    name: Identify
+    href: H.ApplicationBases.Identify.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.ApplicationBases
+    name: ApplicationBases
+    href: H.ApplicationBases.html
+  - name: .
+  - uid: H.ApplicationBases.Identify
+    name: Identify
+    href: H.ApplicationBases.Identify.html

@@ -1,0 +1,727 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.Diagram.DiagramExtension
+  commentId: T:H.Controls.Diagram.DiagramExtension
+  id: DiagramExtension
+  parent: H.Controls.Diagram
+  children:
+  - H.Controls.Diagram.DiagramExtension.AligmentNodes(H.Controls.Diagram.Diagram)
+  - H.Controls.Diagram.DiagramExtension.InsertLinkNode(H.Controls.Diagram.Diagram,H.Controls.Diagram.Parts.Link,H.Controls.Diagram.Parts.Node)
+  - H.Controls.Diagram.DiagramExtension.LinkNode(H.Controls.Diagram.Diagram,H.Controls.Diagram.Parts.Node,H.Controls.Diagram.Parts.Node,System.Windows.Controls.Dock)
+  - H.Controls.Diagram.DiagramExtension.LinkNode(H.Controls.Diagram.Diagram,H.Controls.Diagram.Parts.Port,H.Controls.Diagram.Parts.Node)
+  - H.Controls.Diagram.DiagramExtension.LinkOnEnd(H.Controls.Diagram.Diagram,H.Controls.Diagram.Parts.Node,System.Windows.Controls.Dock)
+  - H.Controls.Diagram.DiagramExtension.LinkPort(H.Controls.Diagram.Diagram,H.Controls.Diagram.Parts.Port,H.Controls.Diagram.Parts.Port)
+  - H.Controls.Diagram.DiagramExtension.RemoveLink(H.Controls.Diagram.Diagram,H.Controls.Diagram.Parts.Link)
+  - H.Controls.Diagram.DiagramExtension.ZoomToFit(H.Controls.Diagram.IDiagram,H.Controls.Diagram.Parts.Base.Part[])
+  langs:
+  - csharp
+  - vb
+  name: DiagramExtension
+  nameWithType: DiagramExtension
+  fullName: H.Controls.Diagram.DiagramExtension
+  type: Class
+  source:
+    id: DiagramExtension
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.Diagram\DiagramExtension.cs
+    startLine: 13
+  assemblies:
+  - H.Controls.Diagram
+  namespace: H.Controls.Diagram
+  syntax:
+    content: public static class DiagramExtension
+    content.vb: Public Module DiagramExtension
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: H.Controls.Diagram.DiagramExtension.AligmentNodes(H.Controls.Diagram.Diagram)
+  commentId: M:H.Controls.Diagram.DiagramExtension.AligmentNodes(H.Controls.Diagram.Diagram)
+  id: AligmentNodes(H.Controls.Diagram.Diagram)
+  isExtensionMethod: true
+  parent: H.Controls.Diagram.DiagramExtension
+  langs:
+  - csharp
+  - vb
+  name: AligmentNodes(Diagram)
+  nameWithType: DiagramExtension.AligmentNodes(Diagram)
+  fullName: H.Controls.Diagram.DiagramExtension.AligmentNodes(H.Controls.Diagram.Diagram)
+  type: Method
+  source:
+    id: AligmentNodes
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.Diagram\DiagramExtension.cs
+    startLine: 15
+  assemblies:
+  - H.Controls.Diagram
+  namespace: H.Controls.Diagram
+  syntax:
+    content: public static void AligmentNodes(this Diagram diagram)
+    parameters:
+    - id: diagram
+      type: H.Controls.Diagram.Diagram
+    content.vb: Public Shared Sub AligmentNodes(diagram As Diagram)
+  overload: H.Controls.Diagram.DiagramExtension.AligmentNodes*
+- uid: H.Controls.Diagram.DiagramExtension.LinkNode(H.Controls.Diagram.Diagram,H.Controls.Diagram.Parts.Node,H.Controls.Diagram.Parts.Node,System.Windows.Controls.Dock)
+  commentId: M:H.Controls.Diagram.DiagramExtension.LinkNode(H.Controls.Diagram.Diagram,H.Controls.Diagram.Parts.Node,H.Controls.Diagram.Parts.Node,System.Windows.Controls.Dock)
+  id: LinkNode(H.Controls.Diagram.Diagram,H.Controls.Diagram.Parts.Node,H.Controls.Diagram.Parts.Node,System.Windows.Controls.Dock)
+  isExtensionMethod: true
+  parent: H.Controls.Diagram.DiagramExtension
+  langs:
+  - csharp
+  - vb
+  name: LinkNode(Diagram, Node, Node, Dock)
+  nameWithType: DiagramExtension.LinkNode(Diagram, Node, Node, Dock)
+  fullName: H.Controls.Diagram.DiagramExtension.LinkNode(H.Controls.Diagram.Diagram, H.Controls.Diagram.Parts.Node, H.Controls.Diagram.Parts.Node, System.Windows.Controls.Dock)
+  type: Method
+  source:
+    id: LinkNode
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.Diagram\DiagramExtension.cs
+    startLine: 21
+  assemblies:
+  - H.Controls.Diagram
+  namespace: H.Controls.Diagram
+  syntax:
+    content: public static void LinkNode(this Diagram diagram, Node from, Node to, Dock dock = Dock.Bottom)
+    parameters:
+    - id: diagram
+      type: H.Controls.Diagram.Diagram
+    - id: from
+      type: H.Controls.Diagram.Parts.Node
+    - id: to
+      type: H.Controls.Diagram.Parts.Node
+    - id: dock
+      type: System.Windows.Controls.Dock
+    content.vb: Public Shared Sub LinkNode(diagram As Diagram, from As Node, [to] As Node, dock As Dock = Dock.Bottom)
+  overload: H.Controls.Diagram.DiagramExtension.LinkNode*
+- uid: H.Controls.Diagram.DiagramExtension.LinkNode(H.Controls.Diagram.Diagram,H.Controls.Diagram.Parts.Port,H.Controls.Diagram.Parts.Node)
+  commentId: M:H.Controls.Diagram.DiagramExtension.LinkNode(H.Controls.Diagram.Diagram,H.Controls.Diagram.Parts.Port,H.Controls.Diagram.Parts.Node)
+  id: LinkNode(H.Controls.Diagram.Diagram,H.Controls.Diagram.Parts.Port,H.Controls.Diagram.Parts.Node)
+  isExtensionMethod: true
+  parent: H.Controls.Diagram.DiagramExtension
+  langs:
+  - csharp
+  - vb
+  name: LinkNode(Diagram, Port, Node)
+  nameWithType: DiagramExtension.LinkNode(Diagram, Port, Node)
+  fullName: H.Controls.Diagram.DiagramExtension.LinkNode(H.Controls.Diagram.Diagram, H.Controls.Diagram.Parts.Port, H.Controls.Diagram.Parts.Node)
+  type: Method
+  source:
+    id: LinkNode
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.Diagram\DiagramExtension.cs
+    startLine: 34
+  assemblies:
+  - H.Controls.Diagram
+  namespace: H.Controls.Diagram
+  syntax:
+    content: public static void LinkNode(this Diagram diagram, Port fromPort, Node to)
+    parameters:
+    - id: diagram
+      type: H.Controls.Diagram.Diagram
+    - id: fromPort
+      type: H.Controls.Diagram.Parts.Port
+    - id: to
+      type: H.Controls.Diagram.Parts.Node
+    content.vb: Public Shared Sub LinkNode(diagram As Diagram, fromPort As Port, [to] As Node)
+  overload: H.Controls.Diagram.DiagramExtension.LinkNode*
+- uid: H.Controls.Diagram.DiagramExtension.LinkPort(H.Controls.Diagram.Diagram,H.Controls.Diagram.Parts.Port,H.Controls.Diagram.Parts.Port)
+  commentId: M:H.Controls.Diagram.DiagramExtension.LinkPort(H.Controls.Diagram.Diagram,H.Controls.Diagram.Parts.Port,H.Controls.Diagram.Parts.Port)
+  id: LinkPort(H.Controls.Diagram.Diagram,H.Controls.Diagram.Parts.Port,H.Controls.Diagram.Parts.Port)
+  isExtensionMethod: true
+  parent: H.Controls.Diagram.DiagramExtension
+  langs:
+  - csharp
+  - vb
+  name: LinkPort(Diagram, Port, Port)
+  nameWithType: DiagramExtension.LinkPort(Diagram, Port, Port)
+  fullName: H.Controls.Diagram.DiagramExtension.LinkPort(H.Controls.Diagram.Diagram, H.Controls.Diagram.Parts.Port, H.Controls.Diagram.Parts.Port)
+  type: Method
+  source:
+    id: LinkPort
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.Diagram\DiagramExtension.cs
+    startLine: 47
+  assemblies:
+  - H.Controls.Diagram
+  namespace: H.Controls.Diagram
+  syntax:
+    content: public static void LinkPort(this Diagram diagram, Port fromPort, Port toPort)
+    parameters:
+    - id: diagram
+      type: H.Controls.Diagram.Diagram
+    - id: fromPort
+      type: H.Controls.Diagram.Parts.Port
+    - id: toPort
+      type: H.Controls.Diagram.Parts.Port
+    content.vb: Public Shared Sub LinkPort(diagram As Diagram, fromPort As Port, toPort As Port)
+  overload: H.Controls.Diagram.DiagramExtension.LinkPort*
+- uid: H.Controls.Diagram.DiagramExtension.RemoveLink(H.Controls.Diagram.Diagram,H.Controls.Diagram.Parts.Link)
+  commentId: M:H.Controls.Diagram.DiagramExtension.RemoveLink(H.Controls.Diagram.Diagram,H.Controls.Diagram.Parts.Link)
+  id: RemoveLink(H.Controls.Diagram.Diagram,H.Controls.Diagram.Parts.Link)
+  isExtensionMethod: true
+  parent: H.Controls.Diagram.DiagramExtension
+  langs:
+  - csharp
+  - vb
+  name: RemoveLink(Diagram, Link)
+  nameWithType: DiagramExtension.RemoveLink(Diagram, Link)
+  fullName: H.Controls.Diagram.DiagramExtension.RemoveLink(H.Controls.Diagram.Diagram, H.Controls.Diagram.Parts.Link)
+  type: Method
+  source:
+    id: RemoveLink
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.Diagram\DiagramExtension.cs
+    startLine: 58
+  assemblies:
+  - H.Controls.Diagram
+  namespace: H.Controls.Diagram
+  syntax:
+    content: public static void RemoveLink(this Diagram diagram, Link link)
+    parameters:
+    - id: diagram
+      type: H.Controls.Diagram.Diagram
+    - id: link
+      type: H.Controls.Diagram.Parts.Link
+    content.vb: Public Shared Sub RemoveLink(diagram As Diagram, link As Link)
+  overload: H.Controls.Diagram.DiagramExtension.RemoveLink*
+- uid: H.Controls.Diagram.DiagramExtension.InsertLinkNode(H.Controls.Diagram.Diagram,H.Controls.Diagram.Parts.Link,H.Controls.Diagram.Parts.Node)
+  commentId: M:H.Controls.Diagram.DiagramExtension.InsertLinkNode(H.Controls.Diagram.Diagram,H.Controls.Diagram.Parts.Link,H.Controls.Diagram.Parts.Node)
+  id: InsertLinkNode(H.Controls.Diagram.Diagram,H.Controls.Diagram.Parts.Link,H.Controls.Diagram.Parts.Node)
+  isExtensionMethod: true
+  parent: H.Controls.Diagram.DiagramExtension
+  langs:
+  - csharp
+  - vb
+  name: InsertLinkNode(Diagram, Link, Node)
+  nameWithType: DiagramExtension.InsertLinkNode(Diagram, Link, Node)
+  fullName: H.Controls.Diagram.DiagramExtension.InsertLinkNode(H.Controls.Diagram.Diagram, H.Controls.Diagram.Parts.Link, H.Controls.Diagram.Parts.Node)
+  type: Method
+  source:
+    id: InsertLinkNode
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.Diagram\DiagramExtension.cs
+    startLine: 64
+  assemblies:
+  - H.Controls.Diagram
+  namespace: H.Controls.Diagram
+  syntax:
+    content: public static void InsertLinkNode(this Diagram diagram, Link link, Node node)
+    parameters:
+    - id: diagram
+      type: H.Controls.Diagram.Diagram
+    - id: link
+      type: H.Controls.Diagram.Parts.Link
+    - id: node
+      type: H.Controls.Diagram.Parts.Node
+    content.vb: Public Shared Sub InsertLinkNode(diagram As Diagram, link As Link, node As Node)
+  overload: H.Controls.Diagram.DiagramExtension.InsertLinkNode*
+- uid: H.Controls.Diagram.DiagramExtension.ZoomToFit(H.Controls.Diagram.IDiagram,H.Controls.Diagram.Parts.Base.Part[])
+  commentId: M:H.Controls.Diagram.DiagramExtension.ZoomToFit(H.Controls.Diagram.IDiagram,H.Controls.Diagram.Parts.Base.Part[])
+  id: ZoomToFit(H.Controls.Diagram.IDiagram,H.Controls.Diagram.Parts.Base.Part[])
+  isExtensionMethod: true
+  parent: H.Controls.Diagram.DiagramExtension
+  langs:
+  - csharp
+  - vb
+  name: ZoomToFit(IDiagram, params Part[])
+  nameWithType: DiagramExtension.ZoomToFit(IDiagram, params Part[])
+  fullName: H.Controls.Diagram.DiagramExtension.ZoomToFit(H.Controls.Diagram.IDiagram, params H.Controls.Diagram.Parts.Base.Part[])
+  type: Method
+  source:
+    id: ZoomToFit
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.Diagram\DiagramExtension.cs
+    startLine: 103
+  assemblies:
+  - H.Controls.Diagram
+  namespace: H.Controls.Diagram
+  syntax:
+    content: public static void ZoomToFit(this IDiagram diagram, params Part[] parts)
+    parameters:
+    - id: diagram
+      type: H.Controls.Diagram.IDiagram
+    - id: parts
+      type: H.Controls.Diagram.Parts.Base.Part[]
+    content.vb: Public Shared Sub ZoomToFit(diagram As IDiagram, ParamArray parts As Part())
+  overload: H.Controls.Diagram.DiagramExtension.ZoomToFit*
+  nameWithType.vb: DiagramExtension.ZoomToFit(IDiagram, ParamArray Part())
+  fullName.vb: H.Controls.Diagram.DiagramExtension.ZoomToFit(H.Controls.Diagram.IDiagram, ParamArray H.Controls.Diagram.Parts.Base.Part())
+  name.vb: ZoomToFit(IDiagram, ParamArray Part())
+- uid: H.Controls.Diagram.DiagramExtension.LinkOnEnd(H.Controls.Diagram.Diagram,H.Controls.Diagram.Parts.Node,System.Windows.Controls.Dock)
+  commentId: M:H.Controls.Diagram.DiagramExtension.LinkOnEnd(H.Controls.Diagram.Diagram,H.Controls.Diagram.Parts.Node,System.Windows.Controls.Dock)
+  id: LinkOnEnd(H.Controls.Diagram.Diagram,H.Controls.Diagram.Parts.Node,System.Windows.Controls.Dock)
+  isExtensionMethod: true
+  parent: H.Controls.Diagram.DiagramExtension
+  langs:
+  - csharp
+  - vb
+  name: LinkOnEnd(Diagram, Node, Dock)
+  nameWithType: DiagramExtension.LinkOnEnd(Diagram, Node, Dock)
+  fullName: H.Controls.Diagram.DiagramExtension.LinkOnEnd(H.Controls.Diagram.Diagram, H.Controls.Diagram.Parts.Node, System.Windows.Controls.Dock)
+  type: Method
+  source:
+    id: LinkOnEnd
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.Diagram\DiagramExtension.cs
+    startLine: 108
+  assemblies:
+  - H.Controls.Diagram
+  namespace: H.Controls.Diagram
+  syntax:
+    content: public static void LinkOnEnd(this Diagram diagram, Node node, Dock dock = Dock.Bottom)
+    parameters:
+    - id: diagram
+      type: H.Controls.Diagram.Diagram
+    - id: node
+      type: H.Controls.Diagram.Parts.Node
+    - id: dock
+      type: System.Windows.Controls.Dock
+    content.vb: Public Shared Sub LinkOnEnd(diagram As Diagram, node As Node, dock As Dock = Dock.Bottom)
+  overload: H.Controls.Diagram.DiagramExtension.LinkOnEnd*
+references:
+- uid: H.Controls.Diagram
+  commentId: N:H.Controls.Diagram
+  href: H.html
+  name: H.Controls.Diagram
+  nameWithType: H.Controls.Diagram
+  fullName: H.Controls.Diagram
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: H.Controls.Diagram.DiagramExtension.AligmentNodes*
+  commentId: Overload:H.Controls.Diagram.DiagramExtension.AligmentNodes
+  href: H.Controls.Diagram.DiagramExtension.html#H_Controls_Diagram_DiagramExtension_AligmentNodes_H_Controls_Diagram_Diagram_
+  name: AligmentNodes
+  nameWithType: DiagramExtension.AligmentNodes
+  fullName: H.Controls.Diagram.DiagramExtension.AligmentNodes
+- uid: H.Controls.Diagram.Diagram
+  commentId: T:H.Controls.Diagram.Diagram
+  parent: H.Controls.Diagram
+  href: H.Controls.Diagram.Diagram.html
+  name: Diagram
+  nameWithType: Diagram
+  fullName: H.Controls.Diagram.Diagram
+- uid: H.Controls.Diagram.DiagramExtension.LinkNode*
+  commentId: Overload:H.Controls.Diagram.DiagramExtension.LinkNode
+  href: H.Controls.Diagram.DiagramExtension.html#H_Controls_Diagram_DiagramExtension_LinkNode_H_Controls_Diagram_Diagram_H_Controls_Diagram_Parts_Node_H_Controls_Diagram_Parts_Node_System_Windows_Controls_Dock_
+  name: LinkNode
+  nameWithType: DiagramExtension.LinkNode
+  fullName: H.Controls.Diagram.DiagramExtension.LinkNode
+- uid: H.Controls.Diagram.Parts.Node
+  commentId: T:H.Controls.Diagram.Parts.Node
+  parent: H.Controls.Diagram.Parts
+  href: H.Controls.Diagram.Parts.Node.html
+  name: Node
+  nameWithType: Node
+  fullName: H.Controls.Diagram.Parts.Node
+- uid: System.Windows.Controls.Dock
+  commentId: T:System.Windows.Controls.Dock
+  parent: System.Windows.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.controls.dock
+  name: Dock
+  nameWithType: Dock
+  fullName: System.Windows.Controls.Dock
+- uid: H.Controls.Diagram.Parts
+  commentId: N:H.Controls.Diagram.Parts
+  href: H.html
+  name: H.Controls.Diagram.Parts
+  nameWithType: H.Controls.Diagram.Parts
+  fullName: H.Controls.Diagram.Parts
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Parts
+    name: Parts
+    href: H.Controls.Diagram.Parts.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Parts
+    name: Parts
+    href: H.Controls.Diagram.Parts.html
+- uid: System.Windows.Controls
+  commentId: N:System.Windows.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Controls
+  nameWithType: System.Windows.Controls
+  fullName: System.Windows.Controls
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Controls
+    name: Controls
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.controls
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Controls
+    name: Controls
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.controls
+- uid: H.Controls.Diagram.Parts.Port
+  commentId: T:H.Controls.Diagram.Parts.Port
+  parent: H.Controls.Diagram.Parts
+  href: H.Controls.Diagram.Parts.Port.html
+  name: Port
+  nameWithType: Port
+  fullName: H.Controls.Diagram.Parts.Port
+- uid: H.Controls.Diagram.DiagramExtension.LinkPort*
+  commentId: Overload:H.Controls.Diagram.DiagramExtension.LinkPort
+  href: H.Controls.Diagram.DiagramExtension.html#H_Controls_Diagram_DiagramExtension_LinkPort_H_Controls_Diagram_Diagram_H_Controls_Diagram_Parts_Port_H_Controls_Diagram_Parts_Port_
+  name: LinkPort
+  nameWithType: DiagramExtension.LinkPort
+  fullName: H.Controls.Diagram.DiagramExtension.LinkPort
+- uid: H.Controls.Diagram.DiagramExtension.RemoveLink*
+  commentId: Overload:H.Controls.Diagram.DiagramExtension.RemoveLink
+  href: H.Controls.Diagram.DiagramExtension.html#H_Controls_Diagram_DiagramExtension_RemoveLink_H_Controls_Diagram_Diagram_H_Controls_Diagram_Parts_Link_
+  name: RemoveLink
+  nameWithType: DiagramExtension.RemoveLink
+  fullName: H.Controls.Diagram.DiagramExtension.RemoveLink
+- uid: H.Controls.Diagram.Parts.Link
+  commentId: T:H.Controls.Diagram.Parts.Link
+  parent: H.Controls.Diagram.Parts
+  href: H.Controls.Diagram.Parts.Link.html
+  name: Link
+  nameWithType: Link
+  fullName: H.Controls.Diagram.Parts.Link
+- uid: H.Controls.Diagram.DiagramExtension.InsertLinkNode*
+  commentId: Overload:H.Controls.Diagram.DiagramExtension.InsertLinkNode
+  href: H.Controls.Diagram.DiagramExtension.html#H_Controls_Diagram_DiagramExtension_InsertLinkNode_H_Controls_Diagram_Diagram_H_Controls_Diagram_Parts_Link_H_Controls_Diagram_Parts_Node_
+  name: InsertLinkNode
+  nameWithType: DiagramExtension.InsertLinkNode
+  fullName: H.Controls.Diagram.DiagramExtension.InsertLinkNode
+- uid: H.Controls.Diagram.DiagramExtension.ZoomToFit*
+  commentId: Overload:H.Controls.Diagram.DiagramExtension.ZoomToFit
+  href: H.Controls.Diagram.DiagramExtension.html#H_Controls_Diagram_DiagramExtension_ZoomToFit_H_Controls_Diagram_IDiagram_H_Controls_Diagram_Parts_Base_Part___
+  name: ZoomToFit
+  nameWithType: DiagramExtension.ZoomToFit
+  fullName: H.Controls.Diagram.DiagramExtension.ZoomToFit
+- uid: H.Controls.Diagram.IDiagram
+  commentId: T:H.Controls.Diagram.IDiagram
+  parent: H.Controls.Diagram
+  href: H.Controls.Diagram.IDiagram.html
+  name: IDiagram
+  nameWithType: IDiagram
+  fullName: H.Controls.Diagram.IDiagram
+- uid: H.Controls.Diagram.Parts.Base.Part[]
+  isExternal: true
+  href: H.Controls.Diagram.Parts.Base.Part.html
+  name: Part[]
+  nameWithType: Part[]
+  fullName: H.Controls.Diagram.Parts.Base.Part[]
+  nameWithType.vb: Part()
+  fullName.vb: H.Controls.Diagram.Parts.Base.Part()
+  name.vb: Part()
+  spec.csharp:
+  - uid: H.Controls.Diagram.Parts.Base.Part
+    name: Part
+    href: H.Controls.Diagram.Parts.Base.Part.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: H.Controls.Diagram.Parts.Base.Part
+    name: Part
+    href: H.Controls.Diagram.Parts.Base.Part.html
+  - name: (
+  - name: )
+- uid: H.Controls.Diagram.DiagramExtension.LinkOnEnd*
+  commentId: Overload:H.Controls.Diagram.DiagramExtension.LinkOnEnd
+  href: H.Controls.Diagram.DiagramExtension.html#H_Controls_Diagram_DiagramExtension_LinkOnEnd_H_Controls_Diagram_Diagram_H_Controls_Diagram_Parts_Node_System_Windows_Controls_Dock_
+  name: LinkOnEnd
+  nameWithType: DiagramExtension.LinkOnEnd
+  fullName: H.Controls.Diagram.DiagramExtension.LinkOnEnd

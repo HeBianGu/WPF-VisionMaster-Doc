@@ -1,0 +1,91 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.NewtonsoftJson.Jsonable
+  commentId: N:H.Extensions.NewtonsoftJson.Jsonable
+  id: H.Extensions.NewtonsoftJson.Jsonable
+  children:
+  - H.Extensions.NewtonsoftJson.Jsonable.IJsonable
+  - H.Extensions.NewtonsoftJson.Jsonable.JsonableJsonConverter
+  - H.Extensions.NewtonsoftJson.Jsonable.MyJsonable
+  - H.Extensions.NewtonsoftJson.Jsonable.NewtonsoftJsonBindableBase
+  - H.Extensions.NewtonsoftJson.Jsonable.NewtonsoftJsonableBase
+  langs:
+  - csharp
+  - vb
+  name: H.Extensions.NewtonsoftJson.Jsonable
+  nameWithType: H.Extensions.NewtonsoftJson.Jsonable
+  fullName: H.Extensions.NewtonsoftJson.Jsonable
+  type: Namespace
+  assemblies:
+  - H.Extensions.NewtonsoftJson
+references:
+- uid: H.Extensions.NewtonsoftJson.Jsonable.IJsonable
+  commentId: T:H.Extensions.NewtonsoftJson.Jsonable.IJsonable
+  parent: H.Extensions.NewtonsoftJson.Jsonable
+  href: H.Extensions.NewtonsoftJson.Jsonable.IJsonable.html
+  name: IJsonable
+  nameWithType: IJsonable
+  fullName: H.Extensions.NewtonsoftJson.Jsonable.IJsonable
+- uid: H.Extensions.NewtonsoftJson.Jsonable.MyJsonable
+  commentId: T:H.Extensions.NewtonsoftJson.Jsonable.MyJsonable
+  href: H.Extensions.NewtonsoftJson.Jsonable.MyJsonable.html
+  name: MyJsonable
+  nameWithType: MyJsonable
+  fullName: H.Extensions.NewtonsoftJson.Jsonable.MyJsonable
+- uid: H.Extensions.NewtonsoftJson.Jsonable.JsonableJsonConverter
+  commentId: T:H.Extensions.NewtonsoftJson.Jsonable.JsonableJsonConverter
+  href: H.Extensions.NewtonsoftJson.Jsonable.JsonableJsonConverter.html
+  name: JsonableJsonConverter
+  nameWithType: JsonableJsonConverter
+  fullName: H.Extensions.NewtonsoftJson.Jsonable.JsonableJsonConverter
+- uid: H.Extensions.NewtonsoftJson.Jsonable.NewtonsoftJsonableBase
+  commentId: T:H.Extensions.NewtonsoftJson.Jsonable.NewtonsoftJsonableBase
+  parent: H.Extensions.NewtonsoftJson.Jsonable
+  href: H.Extensions.NewtonsoftJson.Jsonable.NewtonsoftJsonableBase.html
+  name: NewtonsoftJsonableBase
+  nameWithType: NewtonsoftJsonableBase
+  fullName: H.Extensions.NewtonsoftJson.Jsonable.NewtonsoftJsonableBase
+- uid: H.Extensions.NewtonsoftJson.Jsonable.NewtonsoftJsonBindableBase
+  commentId: T:H.Extensions.NewtonsoftJson.Jsonable.NewtonsoftJsonBindableBase
+  href: H.Extensions.NewtonsoftJson.Jsonable.NewtonsoftJsonBindableBase.html
+  name: NewtonsoftJsonBindableBase
+  nameWithType: NewtonsoftJsonBindableBase
+  fullName: H.Extensions.NewtonsoftJson.Jsonable.NewtonsoftJsonBindableBase
+- uid: H.Extensions.NewtonsoftJson.Jsonable
+  commentId: N:H.Extensions.NewtonsoftJson.Jsonable
+  href: H.html
+  name: H.Extensions.NewtonsoftJson.Jsonable
+  nameWithType: H.Extensions.NewtonsoftJson.Jsonable
+  fullName: H.Extensions.NewtonsoftJson.Jsonable
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.NewtonsoftJson
+    name: NewtonsoftJson
+    href: H.Extensions.NewtonsoftJson.html
+  - name: .
+  - uid: H.Extensions.NewtonsoftJson.Jsonable
+    name: Jsonable
+    href: H.Extensions.NewtonsoftJson.Jsonable.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.NewtonsoftJson
+    name: NewtonsoftJson
+    href: H.Extensions.NewtonsoftJson.html
+  - name: .
+  - uid: H.Extensions.NewtonsoftJson.Jsonable
+    name: Jsonable
+    href: H.Extensions.NewtonsoftJson.Jsonable.html

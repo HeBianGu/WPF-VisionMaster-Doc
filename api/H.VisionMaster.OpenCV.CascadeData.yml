@@ -1,0 +1,682 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.VisionMaster.OpenCV.CascadeData
+  commentId: T:H.VisionMaster.OpenCV.CascadeData
+  id: CascadeData
+  parent: H.VisionMaster.OpenCV
+  children:
+  - H.VisionMaster.OpenCV.CascadeData.Eye
+  - H.VisionMaster.OpenCV.CascadeData.Eyeglasses
+  - H.VisionMaster.OpenCV.CascadeData.Frontalcatface
+  - H.VisionMaster.OpenCV.CascadeData.Frontalface
+  - H.VisionMaster.OpenCV.CascadeData.Fullbody
+  - H.VisionMaster.OpenCV.CascadeData.Lefteye
+  - H.VisionMaster.OpenCV.CascadeData.Licence_plate
+  - H.VisionMaster.OpenCV.CascadeData.Lowerbody
+  - H.VisionMaster.OpenCV.CascadeData.Profileface
+  - H.VisionMaster.OpenCV.CascadeData.Righteye
+  - H.VisionMaster.OpenCV.CascadeData.Russian_plate_number
+  - H.VisionMaster.OpenCV.CascadeData.Smile
+  - H.VisionMaster.OpenCV.CascadeData.Upperbody
+  langs:
+  - csharp
+  - vb
+  name: CascadeData
+  nameWithType: CascadeData
+  fullName: H.VisionMaster.OpenCV.CascadeData
+  type: Class
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.OpenCV/CascadeData.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: CascadeData
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.OpenCV/CascadeData.cs
+    startLine: 13
+  assemblies:
+  - H.VisionMaster.OpenCV
+  namespace: H.VisionMaster.OpenCV
+  summary: Text file paths
+  example: []
+  syntax:
+    content: public static class CascadeData
+    content.vb: Public Module CascadeData
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: H.VisionMaster.OpenCV.CascadeData.Eye
+  commentId: F:H.VisionMaster.OpenCV.CascadeData.Eye
+  id: Eye
+  parent: H.VisionMaster.OpenCV.CascadeData
+  langs:
+  - csharp
+  - vb
+  name: Eye
+  nameWithType: CascadeData.Eye
+  fullName: H.VisionMaster.OpenCV.CascadeData.Eye
+  type: Field
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.OpenCV/CascadeData.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: Eye
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.OpenCV/CascadeData.cs
+    startLine: 15
+  assemblies:
+  - H.VisionMaster.OpenCV
+  namespace: H.VisionMaster.OpenCV
+  syntax:
+    content: public const string Eye = "Data/Cascade/haarcascades/haarcascade_eye.xml"
+    return:
+      type: System.String
+    content.vb: Public Const Eye As String = "Data/Cascade/haarcascades/haarcascade_eye.xml"
+- uid: H.VisionMaster.OpenCV.CascadeData.Eyeglasses
+  commentId: F:H.VisionMaster.OpenCV.CascadeData.Eyeglasses
+  id: Eyeglasses
+  parent: H.VisionMaster.OpenCV.CascadeData
+  langs:
+  - csharp
+  - vb
+  name: Eyeglasses
+  nameWithType: CascadeData.Eyeglasses
+  fullName: H.VisionMaster.OpenCV.CascadeData.Eyeglasses
+  type: Field
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.OpenCV/CascadeData.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: Eyeglasses
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.OpenCV/CascadeData.cs
+    startLine: 16
+  assemblies:
+  - H.VisionMaster.OpenCV
+  namespace: H.VisionMaster.OpenCV
+  syntax:
+    content: public const string Eyeglasses = "Data/Cascade/haarcascades/haarcascade_eye_tree_eyeglasses.xml"
+    return:
+      type: System.String
+    content.vb: Public Const Eyeglasses As String = "Data/Cascade/haarcascades/haarcascade_eye_tree_eyeglasses.xml"
+- uid: H.VisionMaster.OpenCV.CascadeData.Frontalcatface
+  commentId: F:H.VisionMaster.OpenCV.CascadeData.Frontalcatface
+  id: Frontalcatface
+  parent: H.VisionMaster.OpenCV.CascadeData
+  langs:
+  - csharp
+  - vb
+  name: Frontalcatface
+  nameWithType: CascadeData.Frontalcatface
+  fullName: H.VisionMaster.OpenCV.CascadeData.Frontalcatface
+  type: Field
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.OpenCV/CascadeData.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: Frontalcatface
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.OpenCV/CascadeData.cs
+    startLine: 17
+  assemblies:
+  - H.VisionMaster.OpenCV
+  namespace: H.VisionMaster.OpenCV
+  syntax:
+    content: public const string Frontalcatface = "Data/Cascade/haarcascades/haarcascade_frontalcatface.xml"
+    return:
+      type: System.String
+    content.vb: Public Const Frontalcatface As String = "Data/Cascade/haarcascades/haarcascade_frontalcatface.xml"
+- uid: H.VisionMaster.OpenCV.CascadeData.Frontalface
+  commentId: F:H.VisionMaster.OpenCV.CascadeData.Frontalface
+  id: Frontalface
+  parent: H.VisionMaster.OpenCV.CascadeData
+  langs:
+  - csharp
+  - vb
+  name: Frontalface
+  nameWithType: CascadeData.Frontalface
+  fullName: H.VisionMaster.OpenCV.CascadeData.Frontalface
+  type: Field
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.OpenCV/CascadeData.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: Frontalface
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.OpenCV/CascadeData.cs
+    startLine: 18
+  assemblies:
+  - H.VisionMaster.OpenCV
+  namespace: H.VisionMaster.OpenCV
+  syntax:
+    content: public const string Frontalface = "Data/Cascade/haarcascades/haarcascade_frontalface_default.xml"
+    return:
+      type: System.String
+    content.vb: Public Const Frontalface As String = "Data/Cascade/haarcascades/haarcascade_frontalface_default.xml"
+- uid: H.VisionMaster.OpenCV.CascadeData.Fullbody
+  commentId: F:H.VisionMaster.OpenCV.CascadeData.Fullbody
+  id: Fullbody
+  parent: H.VisionMaster.OpenCV.CascadeData
+  langs:
+  - csharp
+  - vb
+  name: Fullbody
+  nameWithType: CascadeData.Fullbody
+  fullName: H.VisionMaster.OpenCV.CascadeData.Fullbody
+  type: Field
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.OpenCV/CascadeData.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: Fullbody
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.OpenCV/CascadeData.cs
+    startLine: 19
+  assemblies:
+  - H.VisionMaster.OpenCV
+  namespace: H.VisionMaster.OpenCV
+  syntax:
+    content: public const string Fullbody = "Data/Cascade/haarcascades/haarcascade_fullbody.xml"
+    return:
+      type: System.String
+    content.vb: Public Const Fullbody As String = "Data/Cascade/haarcascades/haarcascade_fullbody.xml"
+- uid: H.VisionMaster.OpenCV.CascadeData.Lefteye
+  commentId: F:H.VisionMaster.OpenCV.CascadeData.Lefteye
+  id: Lefteye
+  parent: H.VisionMaster.OpenCV.CascadeData
+  langs:
+  - csharp
+  - vb
+  name: Lefteye
+  nameWithType: CascadeData.Lefteye
+  fullName: H.VisionMaster.OpenCV.CascadeData.Lefteye
+  type: Field
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.OpenCV/CascadeData.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: Lefteye
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.OpenCV/CascadeData.cs
+    startLine: 20
+  assemblies:
+  - H.VisionMaster.OpenCV
+  namespace: H.VisionMaster.OpenCV
+  syntax:
+    content: public const string Lefteye = "Data/Cascade/haarcascades/haarcascade_lefteye_2splits.xml"
+    return:
+      type: System.String
+    content.vb: Public Const Lefteye As String = "Data/Cascade/haarcascades/haarcascade_lefteye_2splits.xml"
+- uid: H.VisionMaster.OpenCV.CascadeData.Licence_plate
+  commentId: F:H.VisionMaster.OpenCV.CascadeData.Licence_plate
+  id: Licence_plate
+  parent: H.VisionMaster.OpenCV.CascadeData
+  langs:
+  - csharp
+  - vb
+  name: Licence_plate
+  nameWithType: CascadeData.Licence_plate
+  fullName: H.VisionMaster.OpenCV.CascadeData.Licence_plate
+  type: Field
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.OpenCV/CascadeData.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: Licence_plate
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.OpenCV/CascadeData.cs
+    startLine: 21
+  assemblies:
+  - H.VisionMaster.OpenCV
+  namespace: H.VisionMaster.OpenCV
+  syntax:
+    content: public const string Licence_plate = "Data/Cascade/haarcascades/haarcascade_licence_plate_rus_16stages.xml"
+    return:
+      type: System.String
+    content.vb: Public Const Licence_plate As String = "Data/Cascade/haarcascades/haarcascade_licence_plate_rus_16stages.xml"
+- uid: H.VisionMaster.OpenCV.CascadeData.Lowerbody
+  commentId: F:H.VisionMaster.OpenCV.CascadeData.Lowerbody
+  id: Lowerbody
+  parent: H.VisionMaster.OpenCV.CascadeData
+  langs:
+  - csharp
+  - vb
+  name: Lowerbody
+  nameWithType: CascadeData.Lowerbody
+  fullName: H.VisionMaster.OpenCV.CascadeData.Lowerbody
+  type: Field
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.OpenCV/CascadeData.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: Lowerbody
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.OpenCV/CascadeData.cs
+    startLine: 22
+  assemblies:
+  - H.VisionMaster.OpenCV
+  namespace: H.VisionMaster.OpenCV
+  syntax:
+    content: public const string Lowerbody = "Data/Cascade/haarcascades/haarcascade_lowerbody.xml"
+    return:
+      type: System.String
+    content.vb: Public Const Lowerbody As String = "Data/Cascade/haarcascades/haarcascade_lowerbody.xml"
+- uid: H.VisionMaster.OpenCV.CascadeData.Profileface
+  commentId: F:H.VisionMaster.OpenCV.CascadeData.Profileface
+  id: Profileface
+  parent: H.VisionMaster.OpenCV.CascadeData
+  langs:
+  - csharp
+  - vb
+  name: Profileface
+  nameWithType: CascadeData.Profileface
+  fullName: H.VisionMaster.OpenCV.CascadeData.Profileface
+  type: Field
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.OpenCV/CascadeData.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: Profileface
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.OpenCV/CascadeData.cs
+    startLine: 23
+  assemblies:
+  - H.VisionMaster.OpenCV
+  namespace: H.VisionMaster.OpenCV
+  syntax:
+    content: public const string Profileface = "Data/Cascade/haarcascades/haarcascade_profileface.xml"
+    return:
+      type: System.String
+    content.vb: Public Const Profileface As String = "Data/Cascade/haarcascades/haarcascade_profileface.xml"
+- uid: H.VisionMaster.OpenCV.CascadeData.Righteye
+  commentId: F:H.VisionMaster.OpenCV.CascadeData.Righteye
+  id: Righteye
+  parent: H.VisionMaster.OpenCV.CascadeData
+  langs:
+  - csharp
+  - vb
+  name: Righteye
+  nameWithType: CascadeData.Righteye
+  fullName: H.VisionMaster.OpenCV.CascadeData.Righteye
+  type: Field
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.OpenCV/CascadeData.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: Righteye
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.OpenCV/CascadeData.cs
+    startLine: 24
+  assemblies:
+  - H.VisionMaster.OpenCV
+  namespace: H.VisionMaster.OpenCV
+  syntax:
+    content: public const string Righteye = "Data/Cascade/haarcascades/haarcascade_righteye_2splits.xml"
+    return:
+      type: System.String
+    content.vb: Public Const Righteye As String = "Data/Cascade/haarcascades/haarcascade_righteye_2splits.xml"
+- uid: H.VisionMaster.OpenCV.CascadeData.Russian_plate_number
+  commentId: F:H.VisionMaster.OpenCV.CascadeData.Russian_plate_number
+  id: Russian_plate_number
+  parent: H.VisionMaster.OpenCV.CascadeData
+  langs:
+  - csharp
+  - vb
+  name: Russian_plate_number
+  nameWithType: CascadeData.Russian_plate_number
+  fullName: H.VisionMaster.OpenCV.CascadeData.Russian_plate_number
+  type: Field
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.OpenCV/CascadeData.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: Russian_plate_number
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.OpenCV/CascadeData.cs
+    startLine: 25
+  assemblies:
+  - H.VisionMaster.OpenCV
+  namespace: H.VisionMaster.OpenCV
+  syntax:
+    content: public const string Russian_plate_number = "Data/Cascade/haarcascades/haarcascade_russian_plate_number.xml"
+    return:
+      type: System.String
+    content.vb: Public Const Russian_plate_number As String = "Data/Cascade/haarcascades/haarcascade_russian_plate_number.xml"
+- uid: H.VisionMaster.OpenCV.CascadeData.Smile
+  commentId: F:H.VisionMaster.OpenCV.CascadeData.Smile
+  id: Smile
+  parent: H.VisionMaster.OpenCV.CascadeData
+  langs:
+  - csharp
+  - vb
+  name: Smile
+  nameWithType: CascadeData.Smile
+  fullName: H.VisionMaster.OpenCV.CascadeData.Smile
+  type: Field
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.OpenCV/CascadeData.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: Smile
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.OpenCV/CascadeData.cs
+    startLine: 26
+  assemblies:
+  - H.VisionMaster.OpenCV
+  namespace: H.VisionMaster.OpenCV
+  syntax:
+    content: public const string Smile = "Data/Cascade/haarcascades/haarcascade_smile.xml"
+    return:
+      type: System.String
+    content.vb: Public Const Smile As String = "Data/Cascade/haarcascades/haarcascade_smile.xml"
+- uid: H.VisionMaster.OpenCV.CascadeData.Upperbody
+  commentId: F:H.VisionMaster.OpenCV.CascadeData.Upperbody
+  id: Upperbody
+  parent: H.VisionMaster.OpenCV.CascadeData
+  langs:
+  - csharp
+  - vb
+  name: Upperbody
+  nameWithType: CascadeData.Upperbody
+  fullName: H.VisionMaster.OpenCV.CascadeData.Upperbody
+  type: Field
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.OpenCV/CascadeData.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: Upperbody
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.OpenCV/CascadeData.cs
+    startLine: 27
+  assemblies:
+  - H.VisionMaster.OpenCV
+  namespace: H.VisionMaster.OpenCV
+  syntax:
+    content: public const string Upperbody = "Data/Cascade/haarcascades/haarcascade_upperbody.xml"
+    return:
+      type: System.String
+    content.vb: Public Const Upperbody As String = "Data/Cascade/haarcascades/haarcascade_upperbody.xml"
+references:
+- uid: H.VisionMaster.OpenCV
+  commentId: N:H.VisionMaster.OpenCV
+  href: H.html
+  name: H.VisionMaster.OpenCV
+  nameWithType: H.VisionMaster.OpenCV
+  fullName: H.VisionMaster.OpenCV
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.OpenCV
+    name: OpenCV
+    href: H.VisionMaster.OpenCV.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.OpenCV
+    name: OpenCV
+    href: H.VisionMaster.OpenCV.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

@@ -1,0 +1,70 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Services.Message.Notify
+  commentId: N:H.Services.Message.Notify
+  id: H.Services.Message.Notify
+  children:
+  - H.Services.Message.Notify.ISystemNotifyMessage
+  - H.Services.Message.Notify.NotifyBalloonIcon
+  langs:
+  - csharp
+  - vb
+  name: H.Services.Message.Notify
+  nameWithType: H.Services.Message.Notify
+  fullName: H.Services.Message.Notify
+  type: Namespace
+  assemblies:
+  - H.Services.Message
+references:
+- uid: H.Services.Message.Notify.ISystemNotifyMessage
+  commentId: T:H.Services.Message.Notify.ISystemNotifyMessage
+  parent: H.Services.Message.Notify
+  href: H.Services.Message.Notify.ISystemNotifyMessage.html
+  name: ISystemNotifyMessage
+  nameWithType: ISystemNotifyMessage
+  fullName: H.Services.Message.Notify.ISystemNotifyMessage
+- uid: H.Services.Message.Notify.NotifyBalloonIcon
+  commentId: T:H.Services.Message.Notify.NotifyBalloonIcon
+  parent: H.Services.Message.Notify
+  href: H.Services.Message.Notify.NotifyBalloonIcon.html
+  name: NotifyBalloonIcon
+  nameWithType: NotifyBalloonIcon
+  fullName: H.Services.Message.Notify.NotifyBalloonIcon
+- uid: H.Services.Message.Notify
+  commentId: N:H.Services.Message.Notify
+  href: H.html
+  name: H.Services.Message.Notify
+  nameWithType: H.Services.Message.Notify
+  fullName: H.Services.Message.Notify
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Message
+    name: Message
+    href: H.Services.Message.html
+  - name: .
+  - uid: H.Services.Message.Notify
+    name: Notify
+    href: H.Services.Message.Notify.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Message
+    name: Message
+    href: H.Services.Message.html
+  - name: .
+  - uid: H.Services.Message.Notify
+    name: Notify
+    href: H.Services.Message.Notify.html

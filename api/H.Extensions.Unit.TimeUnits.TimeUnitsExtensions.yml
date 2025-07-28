@@ -1,0 +1,1103 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions
+  commentId: T:H.Extensions.Unit.TimeUnits.TimeUnitsExtensions
+  id: TimeUnitsExtensions
+  parent: H.Extensions.Unit.TimeUnits
+  children:
+  - H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Days(System.Double)
+  - H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Days(System.Int32)
+  - H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Hours(System.Double)
+  - H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Hours(System.Int32)
+  - H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.InDays(H.Extensions.Unit.Time)
+  - H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.InHours(H.Extensions.Unit.Time)
+  - H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.InJulianYears(H.Extensions.Unit.Time)
+  - H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.InMinutes(H.Extensions.Unit.Time)
+  - H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.InMonths(H.Extensions.Unit.Time)
+  - H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.InSiderialYears(H.Extensions.Unit.Time)
+  - H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.InWeeks(H.Extensions.Unit.Time)
+  - H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.JulianYears(System.Double)
+  - H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.JulianYears(System.Int32)
+  - H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Minutes(System.Double)
+  - H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Minutes(System.Int32)
+  - H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Months(System.Double)
+  - H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Months(System.Int32)
+  - H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.SiderialYears(System.Double)
+  - H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.SiderialYears(System.Int32)
+  - H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Weeks(System.Double)
+  - H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Weeks(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: TimeUnitsExtensions
+  nameWithType: TimeUnitsExtensions
+  fullName: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions
+  type: Class
+  source:
+    id: TimeUnitsExtensions
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\TimeUnits.cs
+    startLine: 47
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.TimeUnits
+  syntax:
+    content: public static class TimeUnitsExtensions
+    content.vb: Public Module TimeUnitsExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Minutes(System.Int32)
+  commentId: M:H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Minutes(System.Int32)
+  id: Minutes(System.Int32)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: Minutes(int)
+  nameWithType: TimeUnitsExtensions.Minutes(int)
+  fullName: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Minutes(int)
+  type: Method
+  source:
+    id: Minutes
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\TimeUnits.cs
+    startLine: 49
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.TimeUnits
+  syntax:
+    content: public static Time Minutes(this int v)
+    parameters:
+    - id: v
+      type: System.Int32
+    return:
+      type: H.Extensions.Unit.Time
+    content.vb: Public Shared Function Minutes(v As Integer) As Time
+  overload: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Minutes*
+  nameWithType.vb: TimeUnitsExtensions.Minutes(Integer)
+  fullName.vb: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Minutes(Integer)
+  name.vb: Minutes(Integer)
+- uid: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Minutes(System.Double)
+  commentId: M:H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Minutes(System.Double)
+  id: Minutes(System.Double)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: Minutes(double)
+  nameWithType: TimeUnitsExtensions.Minutes(double)
+  fullName: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Minutes(double)
+  type: Method
+  source:
+    id: Minutes
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\TimeUnits.cs
+    startLine: 50
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.TimeUnits
+  syntax:
+    content: public static Time Minutes(this double v)
+    parameters:
+    - id: v
+      type: System.Double
+    return:
+      type: H.Extensions.Unit.Time
+    content.vb: Public Shared Function Minutes(v As Double) As Time
+  overload: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Minutes*
+  nameWithType.vb: TimeUnitsExtensions.Minutes(Double)
+  fullName.vb: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Minutes(Double)
+  name.vb: Minutes(Double)
+- uid: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.InMinutes(H.Extensions.Unit.Time)
+  commentId: M:H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.InMinutes(H.Extensions.Unit.Time)
+  id: InMinutes(H.Extensions.Unit.Time)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: InMinutes(Time)
+  nameWithType: TimeUnitsExtensions.InMinutes(Time)
+  fullName: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.InMinutes(H.Extensions.Unit.Time)
+  type: Method
+  source:
+    id: InMinutes
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\TimeUnits.cs
+    startLine: 54
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.TimeUnits
+  syntax:
+    content: public static double InMinutes(this Time v)
+    parameters:
+    - id: v
+      type: H.Extensions.Unit.Time
+    return:
+      type: System.Double
+    content.vb: Public Shared Function InMinutes(v As Time) As Double
+  overload: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.InMinutes*
+- uid: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Hours(System.Int32)
+  commentId: M:H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Hours(System.Int32)
+  id: Hours(System.Int32)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: Hours(int)
+  nameWithType: TimeUnitsExtensions.Hours(int)
+  fullName: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Hours(int)
+  type: Method
+  source:
+    id: Hours
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\TimeUnits.cs
+    startLine: 58
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.TimeUnits
+  syntax:
+    content: public static Time Hours(this int v)
+    parameters:
+    - id: v
+      type: System.Int32
+    return:
+      type: H.Extensions.Unit.Time
+    content.vb: Public Shared Function Hours(v As Integer) As Time
+  overload: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Hours*
+  nameWithType.vb: TimeUnitsExtensions.Hours(Integer)
+  fullName.vb: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Hours(Integer)
+  name.vb: Hours(Integer)
+- uid: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Hours(System.Double)
+  commentId: M:H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Hours(System.Double)
+  id: Hours(System.Double)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: Hours(double)
+  nameWithType: TimeUnitsExtensions.Hours(double)
+  fullName: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Hours(double)
+  type: Method
+  source:
+    id: Hours
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\TimeUnits.cs
+    startLine: 59
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.TimeUnits
+  syntax:
+    content: public static Time Hours(this double v)
+    parameters:
+    - id: v
+      type: System.Double
+    return:
+      type: H.Extensions.Unit.Time
+    content.vb: Public Shared Function Hours(v As Double) As Time
+  overload: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Hours*
+  nameWithType.vb: TimeUnitsExtensions.Hours(Double)
+  fullName.vb: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Hours(Double)
+  name.vb: Hours(Double)
+- uid: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.InHours(H.Extensions.Unit.Time)
+  commentId: M:H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.InHours(H.Extensions.Unit.Time)
+  id: InHours(H.Extensions.Unit.Time)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: InHours(Time)
+  nameWithType: TimeUnitsExtensions.InHours(Time)
+  fullName: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.InHours(H.Extensions.Unit.Time)
+  type: Method
+  source:
+    id: InHours
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\TimeUnits.cs
+    startLine: 63
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.TimeUnits
+  syntax:
+    content: public static double InHours(this Time v)
+    parameters:
+    - id: v
+      type: H.Extensions.Unit.Time
+    return:
+      type: System.Double
+    content.vb: Public Shared Function InHours(v As Time) As Double
+  overload: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.InHours*
+- uid: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Days(System.Int32)
+  commentId: M:H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Days(System.Int32)
+  id: Days(System.Int32)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: Days(int)
+  nameWithType: TimeUnitsExtensions.Days(int)
+  fullName: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Days(int)
+  type: Method
+  source:
+    id: Days
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\TimeUnits.cs
+    startLine: 67
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.TimeUnits
+  syntax:
+    content: public static Time Days(this int v)
+    parameters:
+    - id: v
+      type: System.Int32
+    return:
+      type: H.Extensions.Unit.Time
+    content.vb: Public Shared Function Days(v As Integer) As Time
+  overload: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Days*
+  nameWithType.vb: TimeUnitsExtensions.Days(Integer)
+  fullName.vb: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Days(Integer)
+  name.vb: Days(Integer)
+- uid: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Days(System.Double)
+  commentId: M:H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Days(System.Double)
+  id: Days(System.Double)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: Days(double)
+  nameWithType: TimeUnitsExtensions.Days(double)
+  fullName: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Days(double)
+  type: Method
+  source:
+    id: Days
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\TimeUnits.cs
+    startLine: 68
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.TimeUnits
+  syntax:
+    content: public static Time Days(this double v)
+    parameters:
+    - id: v
+      type: System.Double
+    return:
+      type: H.Extensions.Unit.Time
+    content.vb: Public Shared Function Days(v As Double) As Time
+  overload: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Days*
+  nameWithType.vb: TimeUnitsExtensions.Days(Double)
+  fullName.vb: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Days(Double)
+  name.vb: Days(Double)
+- uid: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.InDays(H.Extensions.Unit.Time)
+  commentId: M:H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.InDays(H.Extensions.Unit.Time)
+  id: InDays(H.Extensions.Unit.Time)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: InDays(Time)
+  nameWithType: TimeUnitsExtensions.InDays(Time)
+  fullName: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.InDays(H.Extensions.Unit.Time)
+  type: Method
+  source:
+    id: InDays
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\TimeUnits.cs
+    startLine: 72
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.TimeUnits
+  syntax:
+    content: public static double InDays(this Time v)
+    parameters:
+    - id: v
+      type: H.Extensions.Unit.Time
+    return:
+      type: System.Double
+    content.vb: Public Shared Function InDays(v As Time) As Double
+  overload: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.InDays*
+- uid: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Weeks(System.Int32)
+  commentId: M:H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Weeks(System.Int32)
+  id: Weeks(System.Int32)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: Weeks(int)
+  nameWithType: TimeUnitsExtensions.Weeks(int)
+  fullName: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Weeks(int)
+  type: Method
+  source:
+    id: Weeks
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\TimeUnits.cs
+    startLine: 76
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.TimeUnits
+  syntax:
+    content: public static Time Weeks(this int v)
+    parameters:
+    - id: v
+      type: System.Int32
+    return:
+      type: H.Extensions.Unit.Time
+    content.vb: Public Shared Function Weeks(v As Integer) As Time
+  overload: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Weeks*
+  nameWithType.vb: TimeUnitsExtensions.Weeks(Integer)
+  fullName.vb: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Weeks(Integer)
+  name.vb: Weeks(Integer)
+- uid: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Weeks(System.Double)
+  commentId: M:H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Weeks(System.Double)
+  id: Weeks(System.Double)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: Weeks(double)
+  nameWithType: TimeUnitsExtensions.Weeks(double)
+  fullName: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Weeks(double)
+  type: Method
+  source:
+    id: Weeks
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\TimeUnits.cs
+    startLine: 77
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.TimeUnits
+  syntax:
+    content: public static Time Weeks(this double v)
+    parameters:
+    - id: v
+      type: System.Double
+    return:
+      type: H.Extensions.Unit.Time
+    content.vb: Public Shared Function Weeks(v As Double) As Time
+  overload: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Weeks*
+  nameWithType.vb: TimeUnitsExtensions.Weeks(Double)
+  fullName.vb: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Weeks(Double)
+  name.vb: Weeks(Double)
+- uid: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.InWeeks(H.Extensions.Unit.Time)
+  commentId: M:H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.InWeeks(H.Extensions.Unit.Time)
+  id: InWeeks(H.Extensions.Unit.Time)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: InWeeks(Time)
+  nameWithType: TimeUnitsExtensions.InWeeks(Time)
+  fullName: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.InWeeks(H.Extensions.Unit.Time)
+  type: Method
+  source:
+    id: InWeeks
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\TimeUnits.cs
+    startLine: 81
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.TimeUnits
+  syntax:
+    content: public static double InWeeks(this Time v)
+    parameters:
+    - id: v
+      type: H.Extensions.Unit.Time
+    return:
+      type: System.Double
+    content.vb: Public Shared Function InWeeks(v As Time) As Double
+  overload: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.InWeeks*
+- uid: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Months(System.Int32)
+  commentId: M:H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Months(System.Int32)
+  id: Months(System.Int32)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: Months(int)
+  nameWithType: TimeUnitsExtensions.Months(int)
+  fullName: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Months(int)
+  type: Method
+  source:
+    id: Months
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\TimeUnits.cs
+    startLine: 85
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.TimeUnits
+  syntax:
+    content: public static Time Months(this int v)
+    parameters:
+    - id: v
+      type: System.Int32
+    return:
+      type: H.Extensions.Unit.Time
+    content.vb: Public Shared Function Months(v As Integer) As Time
+  overload: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Months*
+  nameWithType.vb: TimeUnitsExtensions.Months(Integer)
+  fullName.vb: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Months(Integer)
+  name.vb: Months(Integer)
+- uid: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Months(System.Double)
+  commentId: M:H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Months(System.Double)
+  id: Months(System.Double)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: Months(double)
+  nameWithType: TimeUnitsExtensions.Months(double)
+  fullName: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Months(double)
+  type: Method
+  source:
+    id: Months
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\TimeUnits.cs
+    startLine: 86
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.TimeUnits
+  syntax:
+    content: public static Time Months(this double v)
+    parameters:
+    - id: v
+      type: System.Double
+    return:
+      type: H.Extensions.Unit.Time
+    content.vb: Public Shared Function Months(v As Double) As Time
+  overload: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Months*
+  nameWithType.vb: TimeUnitsExtensions.Months(Double)
+  fullName.vb: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Months(Double)
+  name.vb: Months(Double)
+- uid: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.InMonths(H.Extensions.Unit.Time)
+  commentId: M:H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.InMonths(H.Extensions.Unit.Time)
+  id: InMonths(H.Extensions.Unit.Time)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: InMonths(Time)
+  nameWithType: TimeUnitsExtensions.InMonths(Time)
+  fullName: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.InMonths(H.Extensions.Unit.Time)
+  type: Method
+  source:
+    id: InMonths
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\TimeUnits.cs
+    startLine: 90
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.TimeUnits
+  syntax:
+    content: public static double InMonths(this Time v)
+    parameters:
+    - id: v
+      type: H.Extensions.Unit.Time
+    return:
+      type: System.Double
+    content.vb: Public Shared Function InMonths(v As Time) As Double
+  overload: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.InMonths*
+- uid: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.JulianYears(System.Int32)
+  commentId: M:H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.JulianYears(System.Int32)
+  id: JulianYears(System.Int32)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: JulianYears(int)
+  nameWithType: TimeUnitsExtensions.JulianYears(int)
+  fullName: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.JulianYears(int)
+  type: Method
+  source:
+    id: JulianYears
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\TimeUnits.cs
+    startLine: 94
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.TimeUnits
+  syntax:
+    content: public static Time JulianYears(this int v)
+    parameters:
+    - id: v
+      type: System.Int32
+    return:
+      type: H.Extensions.Unit.Time
+    content.vb: Public Shared Function JulianYears(v As Integer) As Time
+  overload: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.JulianYears*
+  nameWithType.vb: TimeUnitsExtensions.JulianYears(Integer)
+  fullName.vb: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.JulianYears(Integer)
+  name.vb: JulianYears(Integer)
+- uid: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.JulianYears(System.Double)
+  commentId: M:H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.JulianYears(System.Double)
+  id: JulianYears(System.Double)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: JulianYears(double)
+  nameWithType: TimeUnitsExtensions.JulianYears(double)
+  fullName: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.JulianYears(double)
+  type: Method
+  source:
+    id: JulianYears
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\TimeUnits.cs
+    startLine: 95
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.TimeUnits
+  syntax:
+    content: public static Time JulianYears(this double v)
+    parameters:
+    - id: v
+      type: System.Double
+    return:
+      type: H.Extensions.Unit.Time
+    content.vb: Public Shared Function JulianYears(v As Double) As Time
+  overload: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.JulianYears*
+  nameWithType.vb: TimeUnitsExtensions.JulianYears(Double)
+  fullName.vb: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.JulianYears(Double)
+  name.vb: JulianYears(Double)
+- uid: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.InJulianYears(H.Extensions.Unit.Time)
+  commentId: M:H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.InJulianYears(H.Extensions.Unit.Time)
+  id: InJulianYears(H.Extensions.Unit.Time)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: InJulianYears(Time)
+  nameWithType: TimeUnitsExtensions.InJulianYears(Time)
+  fullName: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.InJulianYears(H.Extensions.Unit.Time)
+  type: Method
+  source:
+    id: InJulianYears
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\TimeUnits.cs
+    startLine: 99
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.TimeUnits
+  syntax:
+    content: public static double InJulianYears(this Time v)
+    parameters:
+    - id: v
+      type: H.Extensions.Unit.Time
+    return:
+      type: System.Double
+    content.vb: Public Shared Function InJulianYears(v As Time) As Double
+  overload: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.InJulianYears*
+- uid: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.SiderialYears(System.Int32)
+  commentId: M:H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.SiderialYears(System.Int32)
+  id: SiderialYears(System.Int32)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: SiderialYears(int)
+  nameWithType: TimeUnitsExtensions.SiderialYears(int)
+  fullName: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.SiderialYears(int)
+  type: Method
+  source:
+    id: SiderialYears
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\TimeUnits.cs
+    startLine: 103
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.TimeUnits
+  syntax:
+    content: public static Time SiderialYears(this int v)
+    parameters:
+    - id: v
+      type: System.Int32
+    return:
+      type: H.Extensions.Unit.Time
+    content.vb: Public Shared Function SiderialYears(v As Integer) As Time
+  overload: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.SiderialYears*
+  nameWithType.vb: TimeUnitsExtensions.SiderialYears(Integer)
+  fullName.vb: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.SiderialYears(Integer)
+  name.vb: SiderialYears(Integer)
+- uid: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.SiderialYears(System.Double)
+  commentId: M:H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.SiderialYears(System.Double)
+  id: SiderialYears(System.Double)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: SiderialYears(double)
+  nameWithType: TimeUnitsExtensions.SiderialYears(double)
+  fullName: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.SiderialYears(double)
+  type: Method
+  source:
+    id: SiderialYears
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\TimeUnits.cs
+    startLine: 104
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.TimeUnits
+  syntax:
+    content: public static Time SiderialYears(this double v)
+    parameters:
+    - id: v
+      type: System.Double
+    return:
+      type: H.Extensions.Unit.Time
+    content.vb: Public Shared Function SiderialYears(v As Double) As Time
+  overload: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.SiderialYears*
+  nameWithType.vb: TimeUnitsExtensions.SiderialYears(Double)
+  fullName.vb: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.SiderialYears(Double)
+  name.vb: SiderialYears(Double)
+- uid: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.InSiderialYears(H.Extensions.Unit.Time)
+  commentId: M:H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.InSiderialYears(H.Extensions.Unit.Time)
+  id: InSiderialYears(H.Extensions.Unit.Time)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: InSiderialYears(Time)
+  nameWithType: TimeUnitsExtensions.InSiderialYears(Time)
+  fullName: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.InSiderialYears(H.Extensions.Unit.Time)
+  type: Method
+  source:
+    id: InSiderialYears
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\TimeUnits.cs
+    startLine: 108
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit.TimeUnits
+  syntax:
+    content: public static double InSiderialYears(this Time v)
+    parameters:
+    - id: v
+      type: H.Extensions.Unit.Time
+    return:
+      type: System.Double
+    content.vb: Public Shared Function InSiderialYears(v As Time) As Double
+  overload: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.InSiderialYears*
+references:
+- uid: H.Extensions.Unit.TimeUnits
+  commentId: N:H.Extensions.Unit.TimeUnits
+  href: H.html
+  name: H.Extensions.Unit.TimeUnits
+  nameWithType: H.Extensions.Unit.TimeUnits
+  fullName: H.Extensions.Unit.TimeUnits
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Unit
+    name: Unit
+    href: H.Extensions.Unit.html
+  - name: .
+  - uid: H.Extensions.Unit.TimeUnits
+    name: TimeUnits
+    href: H.Extensions.Unit.TimeUnits.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Unit
+    name: Unit
+    href: H.Extensions.Unit.html
+  - name: .
+  - uid: H.Extensions.Unit.TimeUnits
+    name: TimeUnits
+    href: H.Extensions.Unit.TimeUnits.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Minutes*
+  commentId: Overload:H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Minutes
+  href: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.html#H_Extensions_Unit_TimeUnits_TimeUnitsExtensions_Minutes_System_Int32_
+  name: Minutes
+  nameWithType: TimeUnitsExtensions.Minutes
+  fullName: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Minutes
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: H.Extensions.Unit.Time
+  commentId: T:H.Extensions.Unit.Time
+  parent: H.Extensions.Unit
+  href: H.Extensions.Unit.Time.html
+  name: Time
+  nameWithType: Time
+  fullName: H.Extensions.Unit.Time
+- uid: H.Extensions.Unit
+  commentId: N:H.Extensions.Unit
+  href: H.html
+  name: H.Extensions.Unit
+  nameWithType: H.Extensions.Unit
+  fullName: H.Extensions.Unit
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Unit
+    name: Unit
+    href: H.Extensions.Unit.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Unit
+    name: Unit
+    href: H.Extensions.Unit.html
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.InMinutes*
+  commentId: Overload:H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.InMinutes
+  href: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.html#H_Extensions_Unit_TimeUnits_TimeUnitsExtensions_InMinutes_H_Extensions_Unit_Time_
+  name: InMinutes
+  nameWithType: TimeUnitsExtensions.InMinutes
+  fullName: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.InMinutes
+- uid: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Hours*
+  commentId: Overload:H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Hours
+  href: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.html#H_Extensions_Unit_TimeUnits_TimeUnitsExtensions_Hours_System_Int32_
+  name: Hours
+  nameWithType: TimeUnitsExtensions.Hours
+  fullName: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Hours
+- uid: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.InHours*
+  commentId: Overload:H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.InHours
+  href: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.html#H_Extensions_Unit_TimeUnits_TimeUnitsExtensions_InHours_H_Extensions_Unit_Time_
+  name: InHours
+  nameWithType: TimeUnitsExtensions.InHours
+  fullName: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.InHours
+- uid: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Days*
+  commentId: Overload:H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Days
+  href: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.html#H_Extensions_Unit_TimeUnits_TimeUnitsExtensions_Days_System_Int32_
+  name: Days
+  nameWithType: TimeUnitsExtensions.Days
+  fullName: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Days
+- uid: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.InDays*
+  commentId: Overload:H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.InDays
+  href: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.html#H_Extensions_Unit_TimeUnits_TimeUnitsExtensions_InDays_H_Extensions_Unit_Time_
+  name: InDays
+  nameWithType: TimeUnitsExtensions.InDays
+  fullName: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.InDays
+- uid: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Weeks*
+  commentId: Overload:H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Weeks
+  href: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.html#H_Extensions_Unit_TimeUnits_TimeUnitsExtensions_Weeks_System_Int32_
+  name: Weeks
+  nameWithType: TimeUnitsExtensions.Weeks
+  fullName: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Weeks
+- uid: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.InWeeks*
+  commentId: Overload:H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.InWeeks
+  href: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.html#H_Extensions_Unit_TimeUnits_TimeUnitsExtensions_InWeeks_H_Extensions_Unit_Time_
+  name: InWeeks
+  nameWithType: TimeUnitsExtensions.InWeeks
+  fullName: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.InWeeks
+- uid: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Months*
+  commentId: Overload:H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Months
+  href: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.html#H_Extensions_Unit_TimeUnits_TimeUnitsExtensions_Months_System_Int32_
+  name: Months
+  nameWithType: TimeUnitsExtensions.Months
+  fullName: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.Months
+- uid: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.InMonths*
+  commentId: Overload:H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.InMonths
+  href: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.html#H_Extensions_Unit_TimeUnits_TimeUnitsExtensions_InMonths_H_Extensions_Unit_Time_
+  name: InMonths
+  nameWithType: TimeUnitsExtensions.InMonths
+  fullName: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.InMonths
+- uid: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.JulianYears*
+  commentId: Overload:H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.JulianYears
+  href: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.html#H_Extensions_Unit_TimeUnits_TimeUnitsExtensions_JulianYears_System_Int32_
+  name: JulianYears
+  nameWithType: TimeUnitsExtensions.JulianYears
+  fullName: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.JulianYears
+- uid: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.InJulianYears*
+  commentId: Overload:H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.InJulianYears
+  href: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.html#H_Extensions_Unit_TimeUnits_TimeUnitsExtensions_InJulianYears_H_Extensions_Unit_Time_
+  name: InJulianYears
+  nameWithType: TimeUnitsExtensions.InJulianYears
+  fullName: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.InJulianYears
+- uid: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.SiderialYears*
+  commentId: Overload:H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.SiderialYears
+  href: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.html#H_Extensions_Unit_TimeUnits_TimeUnitsExtensions_SiderialYears_System_Int32_
+  name: SiderialYears
+  nameWithType: TimeUnitsExtensions.SiderialYears
+  fullName: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.SiderialYears
+- uid: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.InSiderialYears*
+  commentId: Overload:H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.InSiderialYears
+  href: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.html#H_Extensions_Unit_TimeUnits_TimeUnitsExtensions_InSiderialYears_H_Extensions_Unit_Time_
+  name: InSiderialYears
+  nameWithType: TimeUnitsExtensions.InSiderialYears
+  fullName: H.Extensions.Unit.TimeUnits.TimeUnitsExtensions.InSiderialYears

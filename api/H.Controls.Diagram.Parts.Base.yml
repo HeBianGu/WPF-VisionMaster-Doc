@@ -1,0 +1,78 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.Diagram.Parts.Base
+  commentId: N:H.Controls.Diagram.Parts.Base
+  id: H.Controls.Diagram.Parts.Base
+  children:
+  - H.Controls.Diagram.Parts.Base.FlowablePart
+  - H.Controls.Diagram.Parts.Base.Part
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.Diagram.Parts.Base
+  nameWithType: H.Controls.Diagram.Parts.Base
+  fullName: H.Controls.Diagram.Parts.Base
+  type: Namespace
+  assemblies:
+  - H.Controls.Diagram
+references:
+- uid: H.Controls.Diagram.Parts.Base.FlowablePart
+  commentId: T:H.Controls.Diagram.Parts.Base.FlowablePart
+  parent: H.Controls.Diagram.Parts.Base
+  href: H.Controls.Diagram.Parts.Base.FlowablePart.html
+  name: FlowablePart
+  nameWithType: FlowablePart
+  fullName: H.Controls.Diagram.Parts.Base.FlowablePart
+- uid: H.Controls.Diagram.Parts.Base.Part
+  commentId: T:H.Controls.Diagram.Parts.Base.Part
+  parent: H.Controls.Diagram.Parts.Base
+  href: H.Controls.Diagram.Parts.Base.Part.html
+  name: Part
+  nameWithType: Part
+  fullName: H.Controls.Diagram.Parts.Base.Part
+- uid: H.Controls.Diagram.Parts.Base
+  commentId: N:H.Controls.Diagram.Parts.Base
+  href: H.html
+  name: H.Controls.Diagram.Parts.Base
+  nameWithType: H.Controls.Diagram.Parts.Base
+  fullName: H.Controls.Diagram.Parts.Base
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Parts
+    name: Parts
+    href: H.Controls.Diagram.Parts.html
+  - name: .
+  - uid: H.Controls.Diagram.Parts.Base
+    name: Base
+    href: H.Controls.Diagram.Parts.Base.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Parts
+    name: Parts
+    href: H.Controls.Diagram.Parts.html
+  - name: .
+  - uid: H.Controls.Diagram.Parts.Base
+    name: Base
+    href: H.Controls.Diagram.Parts.Base.html

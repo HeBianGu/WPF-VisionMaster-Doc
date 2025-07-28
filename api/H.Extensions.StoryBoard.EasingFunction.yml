@@ -1,0 +1,44 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.StoryBoard.EasingFunction
+  commentId: N:H.Extensions.StoryBoard.EasingFunction
+  id: H.Extensions.StoryBoard.EasingFunction
+  children:
+  - H.Extensions.StoryBoard.EasingFunction.CubicBezierEase
+  - H.Extensions.StoryBoard.EasingFunction.EasingFunctionFactroy
+  - H.Extensions.StoryBoard.EasingFunction.PointEx
+  - H.Extensions.StoryBoard.EasingFunction.PowerEasingFunction
+  langs:
+  - csharp
+  - vb
+  name: H.Extensions.StoryBoard.EasingFunction
+  nameWithType: H.Extensions.StoryBoard.EasingFunction
+  fullName: H.Extensions.StoryBoard.EasingFunction
+  type: Namespace
+  assemblies:
+  - H.Extensions.StoryBoard
+references:
+- uid: H.Extensions.StoryBoard.EasingFunction.CubicBezierEase
+  commentId: T:H.Extensions.StoryBoard.EasingFunction.CubicBezierEase
+  href: H.Extensions.StoryBoard.EasingFunction.CubicBezierEase.html
+  name: CubicBezierEase
+  nameWithType: CubicBezierEase
+  fullName: H.Extensions.StoryBoard.EasingFunction.CubicBezierEase
+- uid: H.Extensions.StoryBoard.EasingFunction.EasingFunctionFactroy
+  commentId: T:H.Extensions.StoryBoard.EasingFunction.EasingFunctionFactroy
+  href: H.Extensions.StoryBoard.EasingFunction.EasingFunctionFactroy.html
+  name: EasingFunctionFactroy
+  nameWithType: EasingFunctionFactroy
+  fullName: H.Extensions.StoryBoard.EasingFunction.EasingFunctionFactroy
+- uid: H.Extensions.StoryBoard.EasingFunction.PointEx
+  commentId: T:H.Extensions.StoryBoard.EasingFunction.PointEx
+  href: H.Extensions.StoryBoard.EasingFunction.PointEx.html
+  name: PointEx
+  nameWithType: PointEx
+  fullName: H.Extensions.StoryBoard.EasingFunction.PointEx
+- uid: H.Extensions.StoryBoard.EasingFunction.PowerEasingFunction
+  commentId: T:H.Extensions.StoryBoard.EasingFunction.PowerEasingFunction
+  href: H.Extensions.StoryBoard.EasingFunction.PowerEasingFunction.html
+  name: PowerEasingFunction
+  nameWithType: PowerEasingFunction
+  fullName: H.Extensions.StoryBoard.EasingFunction.PowerEasingFunction

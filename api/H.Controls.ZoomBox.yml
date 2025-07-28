@@ -1,0 +1,266 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.ZoomBox
+  commentId: N:H.Controls.ZoomBox
+  id: H.Controls.ZoomBox
+  children:
+  - H.Controls.ZoomBox.IndexChangedEventArgs
+  - H.Controls.ZoomBox.IndexChangedEventHandler
+  - H.Controls.ZoomBox.InvalidContentException
+  - H.Controls.ZoomBox.InvalidTemplateException
+  - H.Controls.ZoomBox.KeyModifier
+  - H.Controls.ZoomBox.KeyModifierCollection
+  - H.Controls.ZoomBox.KeyModifierCollectionConverter
+  - H.Controls.ZoomBox.PropertyChangedEventArgs`1
+  - H.Controls.ZoomBox.PropertyChangedEventHandler`1
+  - H.Controls.ZoomBox.RoundedValueConverter
+  - H.Controls.ZoomBox.VisibilityToBoolConverter
+  - H.Controls.ZoomBox.VisualTreeHelperEx
+  - H.Controls.ZoomBox.Zoombox
+  - H.Controls.ZoomBox.ZoomboxCursors
+  - H.Controls.ZoomBox.ZoomboxView
+  - H.Controls.ZoomBox.ZoomboxViewChangedEventArgs
+  - H.Controls.ZoomBox.ZoomboxViewChangedEventHandler
+  - H.Controls.ZoomBox.ZoomboxViewConverter
+  - H.Controls.ZoomBox.ZoomboxViewException
+  - H.Controls.ZoomBox.ZoomboxViewFinderDisplay
+  - H.Controls.ZoomBox.ZoomboxViewKind
+  - H.Controls.ZoomBox.ZoomboxViewStack
+  - H.Controls.ZoomBox.ZoomboxViewStackMode
+  - H.Controls.ZoomBox.ZoomboxZoomOn
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.ZoomBox
+  nameWithType: H.Controls.ZoomBox
+  fullName: H.Controls.ZoomBox
+  type: Namespace
+  assemblies:
+  - H.Controls.ZoomBox
+references:
+- uid: H.Controls.ZoomBox.IndexChangedEventArgs
+  commentId: T:H.Controls.ZoomBox.IndexChangedEventArgs
+  parent: H.Controls.ZoomBox
+  href: H.Controls.ZoomBox.IndexChangedEventArgs.html
+  name: IndexChangedEventArgs
+  nameWithType: IndexChangedEventArgs
+  fullName: H.Controls.ZoomBox.IndexChangedEventArgs
+- uid: H.Controls.ZoomBox.IndexChangedEventHandler
+  commentId: T:H.Controls.ZoomBox.IndexChangedEventHandler
+  parent: H.Controls.ZoomBox
+  href: H.Controls.ZoomBox.IndexChangedEventHandler.html
+  name: IndexChangedEventHandler
+  nameWithType: IndexChangedEventHandler
+  fullName: H.Controls.ZoomBox.IndexChangedEventHandler
+- uid: H.Controls.ZoomBox.InvalidContentException
+  commentId: T:H.Controls.ZoomBox.InvalidContentException
+  href: H.Controls.ZoomBox.InvalidContentException.html
+  name: InvalidContentException
+  nameWithType: InvalidContentException
+  fullName: H.Controls.ZoomBox.InvalidContentException
+- uid: H.Controls.ZoomBox.InvalidTemplateException
+  commentId: T:H.Controls.ZoomBox.InvalidTemplateException
+  href: H.Controls.ZoomBox.InvalidTemplateException.html
+  name: InvalidTemplateException
+  nameWithType: InvalidTemplateException
+  fullName: H.Controls.ZoomBox.InvalidTemplateException
+- uid: H.Controls.ZoomBox.KeyModifier
+  commentId: T:H.Controls.ZoomBox.KeyModifier
+  parent: H.Controls.ZoomBox
+  href: H.Controls.ZoomBox.KeyModifier.html
+  name: KeyModifier
+  nameWithType: KeyModifier
+  fullName: H.Controls.ZoomBox.KeyModifier
+- uid: H.Controls.ZoomBox.KeyModifierCollection
+  commentId: T:H.Controls.ZoomBox.KeyModifierCollection
+  parent: H.Controls.ZoomBox
+  href: H.Controls.ZoomBox.KeyModifierCollection.html
+  name: KeyModifierCollection
+  nameWithType: KeyModifierCollection
+  fullName: H.Controls.ZoomBox.KeyModifierCollection
+- uid: H.Controls.ZoomBox.KeyModifierCollectionConverter
+  commentId: T:H.Controls.ZoomBox.KeyModifierCollectionConverter
+  parent: H.Controls.ZoomBox
+  href: H.Controls.ZoomBox.KeyModifierCollectionConverter.html
+  name: KeyModifierCollectionConverter
+  nameWithType: KeyModifierCollectionConverter
+  fullName: H.Controls.ZoomBox.KeyModifierCollectionConverter
+- uid: H.Controls.ZoomBox.PropertyChangedEventArgs`1
+  commentId: T:H.Controls.ZoomBox.PropertyChangedEventArgs`1
+  href: H.Controls.ZoomBox.PropertyChangedEventArgs-1.html
+  name: PropertyChangedEventArgs<T>
+  nameWithType: PropertyChangedEventArgs<T>
+  fullName: H.Controls.ZoomBox.PropertyChangedEventArgs<T>
+  nameWithType.vb: PropertyChangedEventArgs(Of T)
+  fullName.vb: H.Controls.ZoomBox.PropertyChangedEventArgs(Of T)
+  name.vb: PropertyChangedEventArgs(Of T)
+  spec.csharp:
+  - uid: H.Controls.ZoomBox.PropertyChangedEventArgs`1
+    name: PropertyChangedEventArgs
+    href: H.Controls.ZoomBox.PropertyChangedEventArgs-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Controls.ZoomBox.PropertyChangedEventArgs`1
+    name: PropertyChangedEventArgs
+    href: H.Controls.ZoomBox.PropertyChangedEventArgs-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Controls.ZoomBox.PropertyChangedEventHandler`1
+  commentId: T:H.Controls.ZoomBox.PropertyChangedEventHandler`1
+  href: H.Controls.ZoomBox.PropertyChangedEventHandler-1.html
+  name: PropertyChangedEventHandler<T>
+  nameWithType: PropertyChangedEventHandler<T>
+  fullName: H.Controls.ZoomBox.PropertyChangedEventHandler<T>
+  nameWithType.vb: PropertyChangedEventHandler(Of T)
+  fullName.vb: H.Controls.ZoomBox.PropertyChangedEventHandler(Of T)
+  name.vb: PropertyChangedEventHandler(Of T)
+  spec.csharp:
+  - uid: H.Controls.ZoomBox.PropertyChangedEventHandler`1
+    name: PropertyChangedEventHandler
+    href: H.Controls.ZoomBox.PropertyChangedEventHandler-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Controls.ZoomBox.PropertyChangedEventHandler`1
+    name: PropertyChangedEventHandler
+    href: H.Controls.ZoomBox.PropertyChangedEventHandler-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Controls.ZoomBox.RoundedValueConverter
+  commentId: T:H.Controls.ZoomBox.RoundedValueConverter
+  href: H.Controls.ZoomBox.RoundedValueConverter.html
+  name: RoundedValueConverter
+  nameWithType: RoundedValueConverter
+  fullName: H.Controls.ZoomBox.RoundedValueConverter
+- uid: H.Controls.ZoomBox.VisibilityToBoolConverter
+  commentId: T:H.Controls.ZoomBox.VisibilityToBoolConverter
+  href: H.Controls.ZoomBox.VisibilityToBoolConverter.html
+  name: VisibilityToBoolConverter
+  nameWithType: VisibilityToBoolConverter
+  fullName: H.Controls.ZoomBox.VisibilityToBoolConverter
+- uid: H.Controls.ZoomBox.VisualTreeHelperEx
+  commentId: T:H.Controls.ZoomBox.VisualTreeHelperEx
+  href: H.Controls.ZoomBox.VisualTreeHelperEx.html
+  name: VisualTreeHelperEx
+  nameWithType: VisualTreeHelperEx
+  fullName: H.Controls.ZoomBox.VisualTreeHelperEx
+- uid: H.Controls.ZoomBox.Zoombox
+  commentId: T:H.Controls.ZoomBox.Zoombox
+  parent: H.Controls.ZoomBox
+  href: H.Controls.ZoomBox.Zoombox.html
+  name: Zoombox
+  nameWithType: Zoombox
+  fullName: H.Controls.ZoomBox.Zoombox
+- uid: H.Controls.ZoomBox.ZoomboxCursors
+  commentId: T:H.Controls.ZoomBox.ZoomboxCursors
+  href: H.Controls.ZoomBox.ZoomboxCursors.html
+  name: ZoomboxCursors
+  nameWithType: ZoomboxCursors
+  fullName: H.Controls.ZoomBox.ZoomboxCursors
+- uid: H.Controls.ZoomBox.ZoomboxView
+  commentId: T:H.Controls.ZoomBox.ZoomboxView
+  parent: H.Controls.ZoomBox
+  href: H.Controls.ZoomBox.ZoomboxView.html
+  name: ZoomboxView
+  nameWithType: ZoomboxView
+  fullName: H.Controls.ZoomBox.ZoomboxView
+- uid: H.Controls.ZoomBox.ZoomboxViewChangedEventArgs
+  commentId: T:H.Controls.ZoomBox.ZoomboxViewChangedEventArgs
+  parent: H.Controls.ZoomBox
+  href: H.Controls.ZoomBox.ZoomboxViewChangedEventArgs.html
+  name: ZoomboxViewChangedEventArgs
+  nameWithType: ZoomboxViewChangedEventArgs
+  fullName: H.Controls.ZoomBox.ZoomboxViewChangedEventArgs
+- uid: H.Controls.ZoomBox.ZoomboxViewChangedEventHandler
+  commentId: T:H.Controls.ZoomBox.ZoomboxViewChangedEventHandler
+  parent: H.Controls.ZoomBox
+  href: H.Controls.ZoomBox.ZoomboxViewChangedEventHandler.html
+  name: ZoomboxViewChangedEventHandler
+  nameWithType: ZoomboxViewChangedEventHandler
+  fullName: H.Controls.ZoomBox.ZoomboxViewChangedEventHandler
+- uid: H.Controls.ZoomBox.ZoomboxViewConverter
+  commentId: T:H.Controls.ZoomBox.ZoomboxViewConverter
+  parent: H.Controls.ZoomBox
+  href: H.Controls.ZoomBox.ZoomboxViewConverter.html
+  name: ZoomboxViewConverter
+  nameWithType: ZoomboxViewConverter
+  fullName: H.Controls.ZoomBox.ZoomboxViewConverter
+- uid: H.Controls.ZoomBox.ZoomboxViewException
+  commentId: T:H.Controls.ZoomBox.ZoomboxViewException
+  href: H.Controls.ZoomBox.ZoomboxViewException.html
+  name: ZoomboxViewException
+  nameWithType: ZoomboxViewException
+  fullName: H.Controls.ZoomBox.ZoomboxViewException
+- uid: H.Controls.ZoomBox.ZoomboxViewFinderDisplay
+  commentId: T:H.Controls.ZoomBox.ZoomboxViewFinderDisplay
+  href: H.Controls.ZoomBox.ZoomboxViewFinderDisplay.html
+  name: ZoomboxViewFinderDisplay
+  nameWithType: ZoomboxViewFinderDisplay
+  fullName: H.Controls.ZoomBox.ZoomboxViewFinderDisplay
+- uid: H.Controls.ZoomBox.ZoomboxViewKind
+  commentId: T:H.Controls.ZoomBox.ZoomboxViewKind
+  parent: H.Controls.ZoomBox
+  href: H.Controls.ZoomBox.ZoomboxViewKind.html
+  name: ZoomboxViewKind
+  nameWithType: ZoomboxViewKind
+  fullName: H.Controls.ZoomBox.ZoomboxViewKind
+- uid: H.Controls.ZoomBox.ZoomboxViewStack
+  commentId: T:H.Controls.ZoomBox.ZoomboxViewStack
+  parent: H.Controls.ZoomBox
+  href: H.Controls.ZoomBox.ZoomboxViewStack.html
+  name: ZoomboxViewStack
+  nameWithType: ZoomboxViewStack
+  fullName: H.Controls.ZoomBox.ZoomboxViewStack
+- uid: H.Controls.ZoomBox.ZoomboxViewStackMode
+  commentId: T:H.Controls.ZoomBox.ZoomboxViewStackMode
+  parent: H.Controls.ZoomBox
+  href: H.Controls.ZoomBox.ZoomboxViewStackMode.html
+  name: ZoomboxViewStackMode
+  nameWithType: ZoomboxViewStackMode
+  fullName: H.Controls.ZoomBox.ZoomboxViewStackMode
+- uid: H.Controls.ZoomBox.ZoomboxZoomOn
+  commentId: T:H.Controls.ZoomBox.ZoomboxZoomOn
+  parent: H.Controls.ZoomBox
+  href: H.Controls.ZoomBox.ZoomboxZoomOn.html
+  name: ZoomboxZoomOn
+  nameWithType: ZoomboxZoomOn
+  fullName: H.Controls.ZoomBox.ZoomboxZoomOn
+- uid: H.Controls.ZoomBox
+  commentId: N:H.Controls.ZoomBox
+  href: H.html
+  name: H.Controls.ZoomBox
+  nameWithType: H.Controls.ZoomBox
+  fullName: H.Controls.ZoomBox
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.ZoomBox
+    name: ZoomBox
+    href: H.Controls.ZoomBox.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.ZoomBox
+    name: ZoomBox
+    href: H.Controls.ZoomBox.html

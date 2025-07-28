@@ -1,0 +1,120 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.Form.Attributes
+  commentId: N:H.Controls.Form.Attributes
+  id: H.Controls.Form.Attributes
+  children:
+  - H.Controls.Form.Attributes.BindingAttribute
+  - H.Controls.Form.Attributes.BindingVisiblableMethodNameAttribute
+  - H.Controls.Form.Attributes.BindingVisibleablePropertyNameAttribute
+  - H.Controls.Form.Attributes.NotifyMethodNameAttribute
+  - H.Controls.Form.Attributes.PropertyAttribute
+  - H.Controls.Form.Attributes.PropertyItemAttribute
+  - H.Controls.Form.Attributes.RefreshOnValueChangedAttribute
+  - H.Controls.Form.Attributes.TextBoxAttribute
+  - H.Controls.Form.Attributes.UnitAttribute
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.Form.Attributes
+  nameWithType: H.Controls.Form.Attributes
+  fullName: H.Controls.Form.Attributes
+  type: Namespace
+  assemblies:
+  - H.Controls.Form
+references:
+- uid: H.Controls.Form.Attributes.BindingAttribute
+  commentId: T:H.Controls.Form.Attributes.BindingAttribute
+  href: H.Controls.Form.Attributes.BindingAttribute.html
+  name: BindingAttribute
+  nameWithType: BindingAttribute
+  fullName: H.Controls.Form.Attributes.BindingAttribute
+- uid: H.Controls.Form.Attributes.BindingVisiblableMethodNameAttribute
+  commentId: T:H.Controls.Form.Attributes.BindingVisiblableMethodNameAttribute
+  parent: H.Controls.Form.Attributes
+  href: H.Controls.Form.Attributes.BindingVisiblableMethodNameAttribute.html
+  name: BindingVisiblableMethodNameAttribute
+  nameWithType: BindingVisiblableMethodNameAttribute
+  fullName: H.Controls.Form.Attributes.BindingVisiblableMethodNameAttribute
+- uid: H.Controls.Form.Attributes.BindingVisibleablePropertyNameAttribute
+  commentId: T:H.Controls.Form.Attributes.BindingVisibleablePropertyNameAttribute
+  href: H.Controls.Form.Attributes.BindingVisibleablePropertyNameAttribute.html
+  name: BindingVisibleablePropertyNameAttribute
+  nameWithType: BindingVisibleablePropertyNameAttribute
+  fullName: H.Controls.Form.Attributes.BindingVisibleablePropertyNameAttribute
+- uid: H.Controls.Form.Attributes.NotifyMethodNameAttribute
+  commentId: T:H.Controls.Form.Attributes.NotifyMethodNameAttribute
+  href: H.Controls.Form.Attributes.NotifyMethodNameAttribute.html
+  name: NotifyMethodNameAttribute
+  nameWithType: NotifyMethodNameAttribute
+  fullName: H.Controls.Form.Attributes.NotifyMethodNameAttribute
+- uid: H.Controls.Form.Attributes.PropertyAttribute
+  commentId: T:H.Controls.Form.Attributes.PropertyAttribute
+  href: H.Controls.Form.Attributes.PropertyAttribute.html
+  name: PropertyAttribute
+  nameWithType: PropertyAttribute
+  fullName: H.Controls.Form.Attributes.PropertyAttribute
+- uid: H.Controls.Form.Attributes.PropertyItemAttribute
+  commentId: T:H.Controls.Form.Attributes.PropertyItemAttribute
+  parent: H.Controls.Form.Attributes
+  href: H.Controls.Form.Attributes.PropertyItemAttribute.html
+  name: PropertyItemAttribute
+  nameWithType: PropertyItemAttribute
+  fullName: H.Controls.Form.Attributes.PropertyItemAttribute
+- uid: H.Controls.Form.Attributes.RefreshOnValueChangedAttribute
+  commentId: T:H.Controls.Form.Attributes.RefreshOnValueChangedAttribute
+  parent: H.Controls.Form.Attributes
+  href: H.Controls.Form.Attributes.RefreshOnValueChangedAttribute.html
+  name: RefreshOnValueChangedAttribute
+  nameWithType: RefreshOnValueChangedAttribute
+  fullName: H.Controls.Form.Attributes.RefreshOnValueChangedAttribute
+- uid: H.Controls.Form.Attributes.TextBoxAttribute
+  commentId: T:H.Controls.Form.Attributes.TextBoxAttribute
+  href: H.Controls.Form.Attributes.TextBoxAttribute.html
+  name: TextBoxAttribute
+  nameWithType: TextBoxAttribute
+  fullName: H.Controls.Form.Attributes.TextBoxAttribute
+- uid: H.Controls.Form.Attributes.UnitAttribute
+  commentId: T:H.Controls.Form.Attributes.UnitAttribute
+  href: H.Controls.Form.Attributes.UnitAttribute.html
+  name: UnitAttribute
+  nameWithType: UnitAttribute
+  fullName: H.Controls.Form.Attributes.UnitAttribute
+- uid: H.Controls.Form.Attributes
+  commentId: N:H.Controls.Form.Attributes
+  href: H.html
+  name: H.Controls.Form.Attributes
+  nameWithType: H.Controls.Form.Attributes
+  fullName: H.Controls.Form.Attributes
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Form
+    name: Form
+    href: H.Controls.Form.html
+  - name: .
+  - uid: H.Controls.Form.Attributes
+    name: Attributes
+    href: H.Controls.Form.Attributes.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Form
+    name: Form
+    href: H.Controls.Form.html
+  - name: .
+  - uid: H.Controls.Form.Attributes
+    name: Attributes
+    href: H.Controls.Form.Attributes.html

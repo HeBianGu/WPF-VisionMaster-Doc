@@ -1,0 +1,83 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.Diagram.Presenter
+  commentId: N:H.Controls.Diagram.Presenter
+  id: H.Controls.Diagram.Presenter
+  children:
+  - H.Controls.Diagram.Presenter.CommandsPropertyPresenter
+  - H.Controls.Diagram.Presenter.DiagramKeys
+  - H.Controls.Diagram.Presenter.DiagramSetting
+  - H.Controls.Diagram.Presenter.FlowableDiagramDataSetting
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.Diagram.Presenter
+  nameWithType: H.Controls.Diagram.Presenter
+  fullName: H.Controls.Diagram.Presenter
+  type: Namespace
+  assemblies:
+  - H.Controls.Diagram.Presenter
+references:
+- uid: H.Controls.Diagram.Presenter.CommandsPropertyPresenter
+  commentId: T:H.Controls.Diagram.Presenter.CommandsPropertyPresenter
+  parent: H.Controls.Diagram.Presenter
+  href: H.Controls.Diagram.Presenter.CommandsPropertyPresenter.html
+  name: CommandsPropertyPresenter
+  nameWithType: CommandsPropertyPresenter
+  fullName: H.Controls.Diagram.Presenter.CommandsPropertyPresenter
+- uid: H.Controls.Diagram.Presenter.DiagramKeys
+  commentId: T:H.Controls.Diagram.Presenter.DiagramKeys
+  href: H.Controls.Diagram.Presenter.DiagramKeys.html
+  name: DiagramKeys
+  nameWithType: DiagramKeys
+  fullName: H.Controls.Diagram.Presenter.DiagramKeys
+- uid: H.Controls.Diagram.Presenter.DiagramSetting
+  commentId: T:H.Controls.Diagram.Presenter.DiagramSetting
+  href: H.Controls.Diagram.Presenter.DiagramSetting.html
+  name: DiagramSetting
+  nameWithType: DiagramSetting
+  fullName: H.Controls.Diagram.Presenter.DiagramSetting
+- uid: H.Controls.Diagram.Presenter.FlowableDiagramDataSetting
+  commentId: T:H.Controls.Diagram.Presenter.FlowableDiagramDataSetting
+  href: H.Controls.Diagram.Presenter.FlowableDiagramDataSetting.html
+  name: FlowableDiagramDataSetting
+  nameWithType: FlowableDiagramDataSetting
+  fullName: H.Controls.Diagram.Presenter.FlowableDiagramDataSetting
+- uid: H.Controls.Diagram.Presenter
+  commentId: N:H.Controls.Diagram.Presenter
+  href: H.html
+  name: H.Controls.Diagram.Presenter
+  nameWithType: H.Controls.Diagram.Presenter
+  fullName: H.Controls.Diagram.Presenter
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter
+    name: Presenter
+    href: H.Controls.Diagram.Presenter.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter
+    name: Presenter
+    href: H.Controls.Diagram.Presenter.html

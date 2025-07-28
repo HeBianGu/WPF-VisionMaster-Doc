@@ -1,0 +1,124 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.StoryBoard
+  commentId: N:H.Extensions.StoryBoard
+  id: H.Extensions.StoryBoard
+  children:
+  - H.Extensions.StoryBoard.DoubleStoryboard
+  - H.Extensions.StoryBoard.ElementExtention
+  - H.Extensions.StoryBoard.StoryBoardKeys
+  - H.Extensions.StoryBoard.StoryBoardProvider
+  - H.Extensions.StoryBoard.StoryboardEngineBase
+  - H.Extensions.StoryBoard.StoryboardEngineBase`1
+  - H.Extensions.StoryBoard.StoryboardFactory
+  - H.Extensions.StoryBoard.StoryboardSetting
+  langs:
+  - csharp
+  - vb
+  name: H.Extensions.StoryBoard
+  nameWithType: H.Extensions.StoryBoard
+  fullName: H.Extensions.StoryBoard
+  type: Namespace
+  assemblies:
+  - H.Extensions.StoryBoard
+references:
+- uid: H.Extensions.StoryBoard.DoubleStoryboard
+  commentId: T:H.Extensions.StoryBoard.DoubleStoryboard
+  parent: H.Extensions.StoryBoard
+  href: H.Extensions.StoryBoard.DoubleStoryboard.html
+  name: DoubleStoryboard
+  nameWithType: DoubleStoryboard
+  fullName: H.Extensions.StoryBoard.DoubleStoryboard
+- uid: H.Extensions.StoryBoard.ElementExtention
+  commentId: T:H.Extensions.StoryBoard.ElementExtention
+  parent: H.Extensions.StoryBoard
+  href: H.Extensions.StoryBoard.ElementExtention.html
+  name: ElementExtention
+  nameWithType: ElementExtention
+  fullName: H.Extensions.StoryBoard.ElementExtention
+- uid: H.Extensions.StoryBoard.StoryboardEngineBase
+  commentId: T:H.Extensions.StoryBoard.StoryboardEngineBase
+  parent: H.Extensions.StoryBoard
+  href: H.Extensions.StoryBoard.StoryboardEngineBase.html
+  name: StoryboardEngineBase
+  nameWithType: StoryboardEngineBase
+  fullName: H.Extensions.StoryBoard.StoryboardEngineBase
+- uid: H.Extensions.StoryBoard.StoryboardEngineBase`1
+  commentId: T:H.Extensions.StoryBoard.StoryboardEngineBase`1
+  href: H.Extensions.StoryBoard.StoryboardEngineBase-1.html
+  name: StoryboardEngineBase<T>
+  nameWithType: StoryboardEngineBase<T>
+  fullName: H.Extensions.StoryBoard.StoryboardEngineBase<T>
+  nameWithType.vb: StoryboardEngineBase(Of T)
+  fullName.vb: H.Extensions.StoryBoard.StoryboardEngineBase(Of T)
+  name.vb: StoryboardEngineBase(Of T)
+  spec.csharp:
+  - uid: H.Extensions.StoryBoard.StoryboardEngineBase`1
+    name: StoryboardEngineBase
+    href: H.Extensions.StoryBoard.StoryboardEngineBase-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Extensions.StoryBoard.StoryboardEngineBase`1
+    name: StoryboardEngineBase
+    href: H.Extensions.StoryBoard.StoryboardEngineBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Extensions.StoryBoard.StoryboardFactory
+  commentId: T:H.Extensions.StoryBoard.StoryboardFactory
+  href: H.Extensions.StoryBoard.StoryboardFactory.html
+  name: StoryboardFactory
+  nameWithType: StoryboardFactory
+  fullName: H.Extensions.StoryBoard.StoryboardFactory
+- uid: H.Extensions.StoryBoard.StoryBoardKeys
+  commentId: T:H.Extensions.StoryBoard.StoryBoardKeys
+  href: H.Extensions.StoryBoard.StoryBoardKeys.html
+  name: StoryBoardKeys
+  nameWithType: StoryBoardKeys
+  fullName: H.Extensions.StoryBoard.StoryBoardKeys
+- uid: H.Extensions.StoryBoard.StoryBoardProvider
+  commentId: T:H.Extensions.StoryBoard.StoryBoardProvider
+  href: H.Extensions.StoryBoard.StoryBoardProvider.html
+  name: StoryBoardProvider
+  nameWithType: StoryBoardProvider
+  fullName: H.Extensions.StoryBoard.StoryBoardProvider
+- uid: H.Extensions.StoryBoard.StoryboardSetting
+  commentId: T:H.Extensions.StoryBoard.StoryboardSetting
+  href: H.Extensions.StoryBoard.StoryboardSetting.html
+  name: StoryboardSetting
+  nameWithType: StoryboardSetting
+  fullName: H.Extensions.StoryBoard.StoryboardSetting
+- uid: H.Extensions.StoryBoard
+  commentId: N:H.Extensions.StoryBoard
+  href: H.html
+  name: H.Extensions.StoryBoard
+  nameWithType: H.Extensions.StoryBoard
+  fullName: H.Extensions.StoryBoard
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.StoryBoard
+    name: StoryBoard
+    href: H.Extensions.StoryBoard.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.StoryBoard
+    name: StoryBoard
+    href: H.Extensions.StoryBoard.html

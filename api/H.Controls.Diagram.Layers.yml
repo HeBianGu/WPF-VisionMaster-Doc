@@ -1,0 +1,70 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.Diagram.Layers
+  commentId: N:H.Controls.Diagram.Layers
+  id: H.Controls.Diagram.Layers
+  children:
+  - H.Controls.Diagram.Layers.LinkLayer
+  - H.Controls.Diagram.Layers.NodeLayer
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.Diagram.Layers
+  nameWithType: H.Controls.Diagram.Layers
+  fullName: H.Controls.Diagram.Layers
+  type: Namespace
+  assemblies:
+  - H.Controls.Diagram
+references:
+- uid: H.Controls.Diagram.Layers.LinkLayer
+  commentId: T:H.Controls.Diagram.Layers.LinkLayer
+  parent: H.Controls.Diagram.Layers
+  href: H.Controls.Diagram.Layers.LinkLayer.html
+  name: LinkLayer
+  nameWithType: LinkLayer
+  fullName: H.Controls.Diagram.Layers.LinkLayer
+- uid: H.Controls.Diagram.Layers.NodeLayer
+  commentId: T:H.Controls.Diagram.Layers.NodeLayer
+  parent: H.Controls.Diagram.Layers
+  href: H.Controls.Diagram.Layers.NodeLayer.html
+  name: NodeLayer
+  nameWithType: NodeLayer
+  fullName: H.Controls.Diagram.Layers.NodeLayer
+- uid: H.Controls.Diagram.Layers
+  commentId: N:H.Controls.Diagram.Layers
+  href: H.html
+  name: H.Controls.Diagram.Layers
+  nameWithType: H.Controls.Diagram.Layers
+  fullName: H.Controls.Diagram.Layers
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Layers
+    name: Layers
+    href: H.Controls.Diagram.Layers.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Layers
+    name: Layers
+    href: H.Controls.Diagram.Layers.html

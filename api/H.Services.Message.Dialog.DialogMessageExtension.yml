@@ -1,0 +1,947 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Services.Message.Dialog.DialogMessageExtension
+  commentId: T:H.Services.Message.Dialog.DialogMessageExtension
+  id: DialogMessageExtension
+  parent: H.Services.Message.Dialog
+  children:
+  - H.Services.Message.Dialog.DialogMessageExtension.ShowDeleteAllDialog(H.Services.Message.Dialog.IDialogMessageService,System.Action{System.Nullable{System.Boolean}})
+  - H.Services.Message.Dialog.DialogMessageExtension.ShowDeleteDialog(H.Services.Message.Dialog.IDialogMessageService,System.Action{System.Nullable{System.Boolean}})
+  - H.Services.Message.Dialog.DialogMessageExtension.ShowDialog(H.Services.Message.Dialog.IDialogMessageService,System.Object,System.Action{System.Nullable{System.Boolean}},System.Action{H.Services.Message.Dialog.IDialog},System.Func{System.Threading.Tasks.Task{System.Boolean}})
+  - H.Services.Message.Dialog.DialogMessageExtension.ShowDialog``1(H.Services.Message.Dialog.IDialogMessageService,System.Action{``0},System.Action{``0},System.Action{H.Services.Message.Dialog.IDialog},System.Func{``0,System.Threading.Tasks.Task{System.Boolean}})
+  - H.Services.Message.Dialog.DialogMessageExtension.ShowNotImplementedDialog(H.Services.Message.Dialog.IDialogMessageService)
+  langs:
+  - csharp
+  - vb
+  name: DialogMessageExtension
+  nameWithType: DialogMessageExtension
+  fullName: H.Services.Message.Dialog.DialogMessageExtension
+  type: Class
+  source:
+    id: DialogMessageExtension
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Services\H.Services.Message\Dialog\IDialogMessageService.cs
+    startLine: 76
+  assemblies:
+  - H.Services.Message
+  namespace: H.Services.Message.Dialog
+  summary: 对话框消息服务扩展类
+  example: []
+  syntax:
+    content: public static class DialogMessageExtension
+    content.vb: Public Module DialogMessageExtension
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: H.Services.Message.Dialog.DialogMessageExtension.ShowDialog(H.Services.Message.Dialog.IDialogMessageService,System.Object,System.Action{System.Nullable{System.Boolean}},System.Action{H.Services.Message.Dialog.IDialog},System.Func{System.Threading.Tasks.Task{System.Boolean}})
+  commentId: M:H.Services.Message.Dialog.DialogMessageExtension.ShowDialog(H.Services.Message.Dialog.IDialogMessageService,System.Object,System.Action{System.Nullable{System.Boolean}},System.Action{H.Services.Message.Dialog.IDialog},System.Func{System.Threading.Tasks.Task{System.Boolean}})
+  id: ShowDialog(H.Services.Message.Dialog.IDialogMessageService,System.Object,System.Action{System.Nullable{System.Boolean}},System.Action{H.Services.Message.Dialog.IDialog},System.Func{System.Threading.Tasks.Task{System.Boolean}})
+  isExtensionMethod: true
+  parent: H.Services.Message.Dialog.DialogMessageExtension
+  langs:
+  - csharp
+  - vb
+  name: ShowDialog(IDialogMessageService, object, Action<bool?>, Action<IDialog>, Func<Task<bool>>)
+  nameWithType: DialogMessageExtension.ShowDialog(IDialogMessageService, object, Action<bool?>, Action<IDialog>, Func<Task<bool>>)
+  fullName: H.Services.Message.Dialog.DialogMessageExtension.ShowDialog(H.Services.Message.Dialog.IDialogMessageService, object, System.Action<bool?>, System.Action<H.Services.Message.Dialog.IDialog>, System.Func<System.Threading.Tasks.Task<bool>>)
+  type: Method
+  source:
+    id: ShowDialog
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Services\H.Services.Message\Dialog\IDialogMessageService.cs
+    startLine: 87
+  assemblies:
+  - H.Services.Message
+  namespace: H.Services.Message.Dialog
+  summary: 显示对话框
+  example: []
+  syntax:
+    content: public static Task<bool?> ShowDialog(this IDialogMessageService service, object presenter, Action<bool?> sumitAction, Action<IDialog> builder = null, Func<Task<bool>> canSumit = null)
+    parameters:
+    - id: service
+      type: H.Services.Message.Dialog.IDialogMessageService
+      description: 对话框消息服务
+    - id: presenter
+      type: System.Object
+      description: 对话框的呈现者
+    - id: sumitAction
+      type: System.Action{System.Nullable{System.Boolean}}
+      description: 确定按钮点击后的操作
+    - id: builder
+      type: System.Action{H.Services.Message.Dialog.IDialog}
+      description: 对话框构建器
+    - id: canSumit
+      type: System.Func{System.Threading.Tasks.Task{System.Boolean}}
+      description: 确定按钮是否可用的条件
+    return:
+      type: System.Threading.Tasks.Task{System.Nullable{System.Boolean}}
+      description: 对话框的结果
+    content.vb: Public Shared Function ShowDialog(service As IDialogMessageService, presenter As Object, sumitAction As Action(Of Boolean?), builder As Action(Of IDialog) = Nothing, canSumit As Func(Of Task(Of Boolean)) = Nothing) As Task(Of Boolean?)
+  overload: H.Services.Message.Dialog.DialogMessageExtension.ShowDialog*
+  nameWithType.vb: DialogMessageExtension.ShowDialog(IDialogMessageService, Object, Action(Of Boolean?), Action(Of IDialog), Func(Of Task(Of Boolean)))
+  fullName.vb: H.Services.Message.Dialog.DialogMessageExtension.ShowDialog(H.Services.Message.Dialog.IDialogMessageService, Object, System.Action(Of Boolean?), System.Action(Of H.Services.Message.Dialog.IDialog), System.Func(Of System.Threading.Tasks.Task(Of Boolean)))
+  name.vb: ShowDialog(IDialogMessageService, Object, Action(Of Boolean?), Action(Of IDialog), Func(Of Task(Of Boolean)))
+- uid: H.Services.Message.Dialog.DialogMessageExtension.ShowDialog``1(H.Services.Message.Dialog.IDialogMessageService,System.Action{``0},System.Action{``0},System.Action{H.Services.Message.Dialog.IDialog},System.Func{``0,System.Threading.Tasks.Task{System.Boolean}})
+  commentId: M:H.Services.Message.Dialog.DialogMessageExtension.ShowDialog``1(H.Services.Message.Dialog.IDialogMessageService,System.Action{``0},System.Action{``0},System.Action{H.Services.Message.Dialog.IDialog},System.Func{``0,System.Threading.Tasks.Task{System.Boolean}})
+  id: ShowDialog``1(H.Services.Message.Dialog.IDialogMessageService,System.Action{``0},System.Action{``0},System.Action{H.Services.Message.Dialog.IDialog},System.Func{``0,System.Threading.Tasks.Task{System.Boolean}})
+  isExtensionMethod: true
+  parent: H.Services.Message.Dialog.DialogMessageExtension
+  langs:
+  - csharp
+  - vb
+  name: ShowDialog<T>(IDialogMessageService, Action<T>, Action<T>, Action<IDialog>, Func<T, Task<bool>>)
+  nameWithType: DialogMessageExtension.ShowDialog<T>(IDialogMessageService, Action<T>, Action<T>, Action<IDialog>, Func<T, Task<bool>>)
+  fullName: H.Services.Message.Dialog.DialogMessageExtension.ShowDialog<T>(H.Services.Message.Dialog.IDialogMessageService, System.Action<T>, System.Action<T>, System.Action<H.Services.Message.Dialog.IDialog>, System.Func<T, System.Threading.Tasks.Task<bool>>)
+  type: Method
+  source:
+    id: ShowDialog
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Services\H.Services.Message\Dialog\IDialogMessageService.cs
+    startLine: 106
+  assemblies:
+  - H.Services.Message
+  namespace: H.Services.Message.Dialog
+  summary: 显示对话框
+  example: []
+  syntax:
+    content: 'public static Task<bool?> ShowDialog<T>(this IDialogMessageService dialog, Action<T> option, Action<T> sumitAction, Action<IDialog> builder = null, Func<T, Task<bool>> canSumit = null) where T : new()'
+    parameters:
+    - id: dialog
+      type: H.Services.Message.Dialog.IDialogMessageService
+      description: 对话框消息服务
+    - id: option
+      type: System.Action{{T}}
+      description: 对话框呈现者的选项设置
+    - id: sumitAction
+      type: System.Action{{T}}
+      description: 确定按钮点击后的操作
+    - id: builder
+      type: System.Action{H.Services.Message.Dialog.IDialog}
+      description: 对话框构建器
+    - id: canSumit
+      type: System.Func{{T},System.Threading.Tasks.Task{System.Boolean}}
+      description: 确定按钮是否可用的条件
+    typeParameters:
+    - id: T
+      description: 呈现者的类型
+    return:
+      type: System.Threading.Tasks.Task{System.Nullable{System.Boolean}}
+      description: 对话框的结果
+    content.vb: Public Shared Function ShowDialog(Of T As New)(dialog As IDialogMessageService, [option] As Action(Of T), sumitAction As Action(Of T), builder As Action(Of IDialog) = Nothing, canSumit As Func(Of T, Task(Of Boolean)) = Nothing) As Task(Of Boolean?)
+  overload: H.Services.Message.Dialog.DialogMessageExtension.ShowDialog*
+  nameWithType.vb: DialogMessageExtension.ShowDialog(Of T)(IDialogMessageService, Action(Of T), Action(Of T), Action(Of IDialog), Func(Of T, Task(Of Boolean)))
+  fullName.vb: H.Services.Message.Dialog.DialogMessageExtension.ShowDialog(Of T)(H.Services.Message.Dialog.IDialogMessageService, System.Action(Of T), System.Action(Of T), System.Action(Of H.Services.Message.Dialog.IDialog), System.Func(Of T, System.Threading.Tasks.Task(Of Boolean)))
+  name.vb: ShowDialog(Of T)(IDialogMessageService, Action(Of T), Action(Of T), Action(Of IDialog), Func(Of T, Task(Of Boolean)))
+- uid: H.Services.Message.Dialog.DialogMessageExtension.ShowDeleteAllDialog(H.Services.Message.Dialog.IDialogMessageService,System.Action{System.Nullable{System.Boolean}})
+  commentId: M:H.Services.Message.Dialog.DialogMessageExtension.ShowDeleteAllDialog(H.Services.Message.Dialog.IDialogMessageService,System.Action{System.Nullable{System.Boolean}})
+  id: ShowDeleteAllDialog(H.Services.Message.Dialog.IDialogMessageService,System.Action{System.Nullable{System.Boolean}})
+  isExtensionMethod: true
+  parent: H.Services.Message.Dialog.DialogMessageExtension
+  langs:
+  - csharp
+  - vb
+  name: ShowDeleteAllDialog(IDialogMessageService, Action<bool?>)
+  nameWithType: DialogMessageExtension.ShowDeleteAllDialog(IDialogMessageService, Action<bool?>)
+  fullName: H.Services.Message.Dialog.DialogMessageExtension.ShowDeleteAllDialog(H.Services.Message.Dialog.IDialogMessageService, System.Action<bool?>)
+  type: Method
+  source:
+    id: ShowDeleteAllDialog
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Services\H.Services.Message\Dialog\IDialogMessageService.cs
+    startLine: 119
+  assemblies:
+  - H.Services.Message
+  namespace: H.Services.Message.Dialog
+  summary: 显示全部删除对话框
+  example: []
+  syntax:
+    content: public static Task<bool?> ShowDeleteAllDialog(this IDialogMessageService service, Action<bool?> sumitAction)
+    parameters:
+    - id: service
+      type: H.Services.Message.Dialog.IDialogMessageService
+      description: 对话框消息服务
+    - id: sumitAction
+      type: System.Action{System.Nullable{System.Boolean}}
+      description: 确定按钮点击后的操作
+    return:
+      type: System.Threading.Tasks.Task{System.Nullable{System.Boolean}}
+      description: 对话框的结果
+    content.vb: Public Shared Function ShowDeleteAllDialog(service As IDialogMessageService, sumitAction As Action(Of Boolean?)) As Task(Of Boolean?)
+  overload: H.Services.Message.Dialog.DialogMessageExtension.ShowDeleteAllDialog*
+  nameWithType.vb: DialogMessageExtension.ShowDeleteAllDialog(IDialogMessageService, Action(Of Boolean?))
+  fullName.vb: H.Services.Message.Dialog.DialogMessageExtension.ShowDeleteAllDialog(H.Services.Message.Dialog.IDialogMessageService, System.Action(Of Boolean?))
+  name.vb: ShowDeleteAllDialog(IDialogMessageService, Action(Of Boolean?))
+- uid: H.Services.Message.Dialog.DialogMessageExtension.ShowDeleteDialog(H.Services.Message.Dialog.IDialogMessageService,System.Action{System.Nullable{System.Boolean}})
+  commentId: M:H.Services.Message.Dialog.DialogMessageExtension.ShowDeleteDialog(H.Services.Message.Dialog.IDialogMessageService,System.Action{System.Nullable{System.Boolean}})
+  id: ShowDeleteDialog(H.Services.Message.Dialog.IDialogMessageService,System.Action{System.Nullable{System.Boolean}})
+  isExtensionMethod: true
+  parent: H.Services.Message.Dialog.DialogMessageExtension
+  langs:
+  - csharp
+  - vb
+  name: ShowDeleteDialog(IDialogMessageService, Action<bool?>)
+  nameWithType: DialogMessageExtension.ShowDeleteDialog(IDialogMessageService, Action<bool?>)
+  fullName: H.Services.Message.Dialog.DialogMessageExtension.ShowDeleteDialog(H.Services.Message.Dialog.IDialogMessageService, System.Action<bool?>)
+  type: Method
+  source:
+    id: ShowDeleteDialog
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Services\H.Services.Message\Dialog\IDialogMessageService.cs
+    startLine: 130
+  assemblies:
+  - H.Services.Message
+  namespace: H.Services.Message.Dialog
+  summary: 显示删除对话框
+  example: []
+  syntax:
+    content: public static Task<bool?> ShowDeleteDialog(this IDialogMessageService service, Action<bool?> sumitAction)
+    parameters:
+    - id: service
+      type: H.Services.Message.Dialog.IDialogMessageService
+      description: 对话框消息服务
+    - id: sumitAction
+      type: System.Action{System.Nullable{System.Boolean}}
+      description: 确定按钮点击后的操作
+    return:
+      type: System.Threading.Tasks.Task{System.Nullable{System.Boolean}}
+      description: 对话框的结果
+    content.vb: Public Shared Function ShowDeleteDialog(service As IDialogMessageService, sumitAction As Action(Of Boolean?)) As Task(Of Boolean?)
+  overload: H.Services.Message.Dialog.DialogMessageExtension.ShowDeleteDialog*
+  nameWithType.vb: DialogMessageExtension.ShowDeleteDialog(IDialogMessageService, Action(Of Boolean?))
+  fullName.vb: H.Services.Message.Dialog.DialogMessageExtension.ShowDeleteDialog(H.Services.Message.Dialog.IDialogMessageService, System.Action(Of Boolean?))
+  name.vb: ShowDeleteDialog(IDialogMessageService, Action(Of Boolean?))
+- uid: H.Services.Message.Dialog.DialogMessageExtension.ShowNotImplementedDialog(H.Services.Message.Dialog.IDialogMessageService)
+  commentId: M:H.Services.Message.Dialog.DialogMessageExtension.ShowNotImplementedDialog(H.Services.Message.Dialog.IDialogMessageService)
+  id: ShowNotImplementedDialog(H.Services.Message.Dialog.IDialogMessageService)
+  isExtensionMethod: true
+  parent: H.Services.Message.Dialog.DialogMessageExtension
+  langs:
+  - csharp
+  - vb
+  name: ShowNotImplementedDialog(IDialogMessageService)
+  nameWithType: DialogMessageExtension.ShowNotImplementedDialog(IDialogMessageService)
+  fullName: H.Services.Message.Dialog.DialogMessageExtension.ShowNotImplementedDialog(H.Services.Message.Dialog.IDialogMessageService)
+  type: Method
+  source:
+    id: ShowNotImplementedDialog
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Services\H.Services.Message\Dialog\IDialogMessageService.cs
+    startLine: 140
+  assemblies:
+  - H.Services.Message
+  namespace: H.Services.Message.Dialog
+  summary: 显示未实现功能对话框
+  example: []
+  syntax:
+    content: public static Task<bool?> ShowNotImplementedDialog(this IDialogMessageService service)
+    parameters:
+    - id: service
+      type: H.Services.Message.Dialog.IDialogMessageService
+      description: 对话框消息服务
+    return:
+      type: System.Threading.Tasks.Task{System.Nullable{System.Boolean}}
+      description: 对话框的结果
+    content.vb: Public Shared Function ShowNotImplementedDialog(service As IDialogMessageService) As Task(Of Boolean?)
+  overload: H.Services.Message.Dialog.DialogMessageExtension.ShowNotImplementedDialog*
+references:
+- uid: H.Services.Message.Dialog
+  commentId: N:H.Services.Message.Dialog
+  href: H.html
+  name: H.Services.Message.Dialog
+  nameWithType: H.Services.Message.Dialog
+  fullName: H.Services.Message.Dialog
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Message
+    name: Message
+    href: H.Services.Message.html
+  - name: .
+  - uid: H.Services.Message.Dialog
+    name: Dialog
+    href: H.Services.Message.Dialog.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Message
+    name: Message
+    href: H.Services.Message.html
+  - name: .
+  - uid: H.Services.Message.Dialog
+    name: Dialog
+    href: H.Services.Message.Dialog.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: H.Services.Message.Dialog.DialogMessageExtension.ShowDialog*
+  commentId: Overload:H.Services.Message.Dialog.DialogMessageExtension.ShowDialog
+  href: H.Services.Message.Dialog.DialogMessageExtension.html#H_Services_Message_Dialog_DialogMessageExtension_ShowDialog_H_Services_Message_Dialog_IDialogMessageService_System_Object_System_Action_System_Nullable_System_Boolean___System_Action_H_Services_Message_Dialog_IDialog__System_Func_System_Threading_Tasks_Task_System_Boolean___
+  name: ShowDialog
+  nameWithType: DialogMessageExtension.ShowDialog
+  fullName: H.Services.Message.Dialog.DialogMessageExtension.ShowDialog
+- uid: H.Services.Message.Dialog.IDialogMessageService
+  commentId: T:H.Services.Message.Dialog.IDialogMessageService
+  parent: H.Services.Message.Dialog
+  href: H.Services.Message.Dialog.IDialogMessageService.html
+  name: IDialogMessageService
+  nameWithType: IDialogMessageService
+  fullName: H.Services.Message.Dialog.IDialogMessageService
+- uid: System.Action{System.Nullable{System.Boolean}}
+  commentId: T:System.Action{System.Nullable{System.Boolean}}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<bool?>
+  nameWithType: Action<bool?>
+  fullName: System.Action<bool?>
+  nameWithType.vb: Action(Of Boolean?)
+  fullName.vb: System.Action(Of Boolean?)
+  name.vb: Action(Of Boolean?)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+  - name: )
+- uid: System.Action{H.Services.Message.Dialog.IDialog}
+  commentId: T:System.Action{H.Services.Message.Dialog.IDialog}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<IDialog>
+  nameWithType: Action<IDialog>
+  fullName: System.Action<H.Services.Message.Dialog.IDialog>
+  nameWithType.vb: Action(Of IDialog)
+  fullName.vb: System.Action(Of H.Services.Message.Dialog.IDialog)
+  name.vb: Action(Of IDialog)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: H.Services.Message.Dialog.IDialog
+    name: IDialog
+    href: H.Services.Message.Dialog.IDialog.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.Services.Message.Dialog.IDialog
+    name: IDialog
+    href: H.Services.Message.Dialog.IDialog.html
+  - name: )
+- uid: System.Func{System.Threading.Tasks.Task{System.Boolean}}
+  commentId: T:System.Func{System.Threading.Tasks.Task{System.Boolean}}
+  parent: System
+  definition: System.Func`1
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: Func<Task<bool>>
+  nameWithType: Func<Task<bool>>
+  fullName: System.Func<System.Threading.Tasks.Task<bool>>
+  nameWithType.vb: Func(Of Task(Of Boolean))
+  fullName.vb: System.Func(Of System.Threading.Tasks.Task(Of Boolean))
+  name.vb: Func(Of Task(Of Boolean))
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  - name: )
+- uid: System.Threading.Tasks.Task{System.Nullable{System.Boolean}}
+  commentId: T:System.Threading.Tasks.Task{System.Nullable{System.Boolean}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<bool?>
+  nameWithType: Task<bool?>
+  fullName: System.Threading.Tasks.Task<bool?>
+  nameWithType.vb: Task(Of Boolean?)
+  fullName.vb: System.Threading.Tasks.Task(Of Boolean?)
+  name.vb: Task(Of Boolean?)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+  - name: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Func`1
+  commentId: T:System.Func`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: Func<TResult>
+  nameWithType: Func<TResult>
+  fullName: System.Func<TResult>
+  nameWithType.vb: Func(Of TResult)
+  fullName.vb: System.Func(Of TResult)
+  name.vb: Func(Of TResult)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: System.Action{{T}}
+  commentId: T:System.Action{``0}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Func{{T},System.Threading.Tasks.Task{System.Boolean}}
+  commentId: T:System.Func{``0,System.Threading.Tasks.Task{System.Boolean}}
+  parent: System
+  definition: System.Func`2
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<T, Task<bool>>
+  nameWithType: Func<T, Task<bool>>
+  fullName: System.Func<T, System.Threading.Tasks.Task<bool>>
+  nameWithType.vb: Func(Of T, Task(Of Boolean))
+  fullName.vb: System.Func(Of T, System.Threading.Tasks.Task(Of Boolean))
+  name.vb: Func(Of T, Task(Of Boolean))
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  - name: )
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: H.Services.Message.Dialog.DialogMessageExtension.ShowDeleteAllDialog*
+  commentId: Overload:H.Services.Message.Dialog.DialogMessageExtension.ShowDeleteAllDialog
+  href: H.Services.Message.Dialog.DialogMessageExtension.html#H_Services_Message_Dialog_DialogMessageExtension_ShowDeleteAllDialog_H_Services_Message_Dialog_IDialogMessageService_System_Action_System_Nullable_System_Boolean___
+  name: ShowDeleteAllDialog
+  nameWithType: DialogMessageExtension.ShowDeleteAllDialog
+  fullName: H.Services.Message.Dialog.DialogMessageExtension.ShowDeleteAllDialog
+- uid: H.Services.Message.Dialog.DialogMessageExtension.ShowDeleteDialog*
+  commentId: Overload:H.Services.Message.Dialog.DialogMessageExtension.ShowDeleteDialog
+  href: H.Services.Message.Dialog.DialogMessageExtension.html#H_Services_Message_Dialog_DialogMessageExtension_ShowDeleteDialog_H_Services_Message_Dialog_IDialogMessageService_System_Action_System_Nullable_System_Boolean___
+  name: ShowDeleteDialog
+  nameWithType: DialogMessageExtension.ShowDeleteDialog
+  fullName: H.Services.Message.Dialog.DialogMessageExtension.ShowDeleteDialog
+- uid: H.Services.Message.Dialog.DialogMessageExtension.ShowNotImplementedDialog*
+  commentId: Overload:H.Services.Message.Dialog.DialogMessageExtension.ShowNotImplementedDialog
+  href: H.Services.Message.Dialog.DialogMessageExtension.html#H_Services_Message_Dialog_DialogMessageExtension_ShowNotImplementedDialog_H_Services_Message_Dialog_IDialogMessageService_
+  name: ShowNotImplementedDialog
+  nameWithType: DialogMessageExtension.ShowNotImplementedDialog
+  fullName: H.Services.Message.Dialog.DialogMessageExtension.ShowNotImplementedDialog

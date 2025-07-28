@@ -1,0 +1,233 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.VisionMaster.OpenCV.NodeDatas.Other
+  commentId: N:H.VisionMaster.OpenCV.NodeDatas.Other
+  id: H.VisionMaster.OpenCV.NodeDatas.Other
+  children:
+  - H.VisionMaster.OpenCV.NodeDatas.Other.DnnSuperres
+  - H.VisionMaster.OpenCV.NodeDatas.Other.HaarCascade
+  - H.VisionMaster.OpenCV.NodeDatas.Other.HaarType
+  - H.VisionMaster.OpenCV.NodeDatas.Other.Hist
+  - H.VisionMaster.OpenCV.NodeDatas.Other.Hog
+  - H.VisionMaster.OpenCV.NodeDatas.Other.LbpCascade
+  - H.VisionMaster.OpenCV.NodeDatas.Other.NGOutputNodeData
+  - H.VisionMaster.OpenCV.NodeDatas.Other.OKOutputNodeData
+  - H.VisionMaster.OpenCV.NodeDatas.Other.SVM
+  - H.VisionMaster.OpenCV.NodeDatas.Other.SeamlessClone
+  - H.VisionMaster.OpenCV.NodeDatas.Other.SeamlessCloneBackground
+  - H.VisionMaster.OpenCV.NodeDatas.Other.SeamlessCloneBase
+  - H.VisionMaster.OpenCV.NodeDatas.Other.ShowDialogNotifyMessageOutputNodeData
+  - H.VisionMaster.OpenCV.NodeDatas.Other.ShowErrorNotifyMessageOutputNodeData
+  - H.VisionMaster.OpenCV.NodeDatas.Other.ShowFatalNotifyMessageOutputNodeData
+  - H.VisionMaster.OpenCV.NodeDatas.Other.ShowInfoNotifyMessageOutputNodeData
+  - H.VisionMaster.OpenCV.NodeDatas.Other.ShowSuccessNotifyMessageOutputNodeData
+  - H.VisionMaster.OpenCV.NodeDatas.Other.ShowWarnNotifyMessageOutputNodeData
+  - H.VisionMaster.OpenCV.NodeDatas.Other.Stitching
+  - H.VisionMaster.OpenCV.NodeDatas.Other.Subdiv2D
+  - H.VisionMaster.OpenCV.NodeDatas.Other.Subdiv2DOutType
+  - H.VisionMaster.OpenCV.NodeDatas.Other.WarpAffineTransform
+  - H.VisionMaster.OpenCV.NodeDatas.Other.WarpPerspectiveTransform
+  - H.VisionMaster.OpenCV.NodeDatas.Other.Yolov3
+  langs:
+  - csharp
+  - vb
+  name: H.VisionMaster.OpenCV.NodeDatas.Other
+  nameWithType: H.VisionMaster.OpenCV.NodeDatas.Other
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Other
+  type: Namespace
+  assemblies:
+  - H.VisionMaster.OpenCV
+references:
+- uid: H.VisionMaster.OpenCV.NodeDatas.Other.SeamlessCloneBackground
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Other.SeamlessCloneBackground
+  href: H.VisionMaster.OpenCV.NodeDatas.Other.SeamlessCloneBackground.html
+  name: SeamlessCloneBackground
+  nameWithType: SeamlessCloneBackground
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Other.SeamlessCloneBackground
+- uid: H.VisionMaster.OpenCV.NodeDatas.Other.DnnSuperres
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Other.DnnSuperres
+  href: H.VisionMaster.OpenCV.NodeDatas.Other.DnnSuperres.html
+  name: DnnSuperres
+  nameWithType: DnnSuperres
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Other.DnnSuperres
+- uid: H.VisionMaster.OpenCV.NodeDatas.Other.HaarCascade
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Other.HaarCascade
+  href: H.VisionMaster.OpenCV.NodeDatas.Other.HaarCascade.html
+  name: HaarCascade
+  nameWithType: HaarCascade
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Other.HaarCascade
+- uid: H.VisionMaster.OpenCV.NodeDatas.Other.HaarType
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Other.HaarType
+  parent: H.VisionMaster.OpenCV.NodeDatas.Other
+  href: H.VisionMaster.OpenCV.NodeDatas.Other.HaarType.html
+  name: HaarType
+  nameWithType: HaarType
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Other.HaarType
+- uid: H.VisionMaster.OpenCV.NodeDatas.Other.Hist
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Other.Hist
+  href: H.VisionMaster.OpenCV.NodeDatas.Other.Hist.html
+  name: Hist
+  nameWithType: Hist
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Other.Hist
+- uid: H.VisionMaster.OpenCV.NodeDatas.Other.Hog
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Other.Hog
+  href: H.VisionMaster.OpenCV.NodeDatas.Other.Hog.html
+  name: Hog
+  nameWithType: Hog
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Other.Hog
+- uid: H.VisionMaster.OpenCV.NodeDatas.Other.LbpCascade
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Other.LbpCascade
+  href: H.VisionMaster.OpenCV.NodeDatas.Other.LbpCascade.html
+  name: LbpCascade
+  nameWithType: LbpCascade
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Other.LbpCascade
+- uid: H.VisionMaster.OpenCV.NodeDatas.Other.SeamlessCloneBase
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Other.SeamlessCloneBase
+  parent: H.VisionMaster.OpenCV.NodeDatas.Other
+  href: H.VisionMaster.OpenCV.NodeDatas.Other.SeamlessCloneBase.html
+  name: SeamlessCloneBase
+  nameWithType: SeamlessCloneBase
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Other.SeamlessCloneBase
+- uid: H.VisionMaster.OpenCV.NodeDatas.Other.SeamlessClone
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Other.SeamlessClone
+  href: H.VisionMaster.OpenCV.NodeDatas.Other.SeamlessClone.html
+  name: SeamlessClone
+  nameWithType: SeamlessClone
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Other.SeamlessClone
+- uid: H.VisionMaster.OpenCV.NodeDatas.Other.Stitching
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Other.Stitching
+  href: H.VisionMaster.OpenCV.NodeDatas.Other.Stitching.html
+  name: Stitching
+  nameWithType: Stitching
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Other.Stitching
+- uid: H.VisionMaster.OpenCV.NodeDatas.Other.Subdiv2D
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Other.Subdiv2D
+  href: H.VisionMaster.OpenCV.NodeDatas.Other.Subdiv2D.html
+  name: Subdiv2D
+  nameWithType: Subdiv2D
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Other.Subdiv2D
+- uid: H.VisionMaster.OpenCV.NodeDatas.Other.Subdiv2DOutType
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Other.Subdiv2DOutType
+  parent: H.VisionMaster.OpenCV.NodeDatas.Other
+  href: H.VisionMaster.OpenCV.NodeDatas.Other.Subdiv2DOutType.html
+  name: Subdiv2DOutType
+  nameWithType: Subdiv2DOutType
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Other.Subdiv2DOutType
+- uid: H.VisionMaster.OpenCV.NodeDatas.Other.SVM
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Other.SVM
+  href: H.VisionMaster.OpenCV.NodeDatas.Other.SVM.html
+  name: SVM
+  nameWithType: SVM
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Other.SVM
+- uid: H.VisionMaster.OpenCV.NodeDatas.Other.WarpAffineTransform
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Other.WarpAffineTransform
+  href: H.VisionMaster.OpenCV.NodeDatas.Other.WarpAffineTransform.html
+  name: WarpAffineTransform
+  nameWithType: WarpAffineTransform
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Other.WarpAffineTransform
+- uid: H.VisionMaster.OpenCV.NodeDatas.Other.WarpPerspectiveTransform
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Other.WarpPerspectiveTransform
+  href: H.VisionMaster.OpenCV.NodeDatas.Other.WarpPerspectiveTransform.html
+  name: WarpPerspectiveTransform
+  nameWithType: WarpPerspectiveTransform
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Other.WarpPerspectiveTransform
+- uid: H.VisionMaster.OpenCV.NodeDatas.Other.Yolov3
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Other.Yolov3
+  href: H.VisionMaster.OpenCV.NodeDatas.Other.Yolov3.html
+  name: Yolov3
+  nameWithType: Yolov3
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Other.Yolov3
+- uid: H.VisionMaster.OpenCV.NodeDatas.Other.NGOutputNodeData
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Other.NGOutputNodeData
+  href: H.VisionMaster.OpenCV.NodeDatas.Other.NGOutputNodeData.html
+  name: NGOutputNodeData
+  nameWithType: NGOutputNodeData
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Other.NGOutputNodeData
+- uid: H.VisionMaster.OpenCV.NodeDatas.Other.OKOutputNodeData
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Other.OKOutputNodeData
+  href: H.VisionMaster.OpenCV.NodeDatas.Other.OKOutputNodeData.html
+  name: OKOutputNodeData
+  nameWithType: OKOutputNodeData
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Other.OKOutputNodeData
+- uid: H.VisionMaster.OpenCV.NodeDatas.Other.ShowDialogNotifyMessageOutputNodeData
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Other.ShowDialogNotifyMessageOutputNodeData
+  href: H.VisionMaster.OpenCV.NodeDatas.Other.ShowDialogNotifyMessageOutputNodeData.html
+  name: ShowDialogNotifyMessageOutputNodeData
+  nameWithType: ShowDialogNotifyMessageOutputNodeData
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Other.ShowDialogNotifyMessageOutputNodeData
+- uid: H.VisionMaster.OpenCV.NodeDatas.Other.ShowErrorNotifyMessageOutputNodeData
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Other.ShowErrorNotifyMessageOutputNodeData
+  href: H.VisionMaster.OpenCV.NodeDatas.Other.ShowErrorNotifyMessageOutputNodeData.html
+  name: ShowErrorNotifyMessageOutputNodeData
+  nameWithType: ShowErrorNotifyMessageOutputNodeData
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Other.ShowErrorNotifyMessageOutputNodeData
+- uid: H.VisionMaster.OpenCV.NodeDatas.Other.ShowFatalNotifyMessageOutputNodeData
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Other.ShowFatalNotifyMessageOutputNodeData
+  href: H.VisionMaster.OpenCV.NodeDatas.Other.ShowFatalNotifyMessageOutputNodeData.html
+  name: ShowFatalNotifyMessageOutputNodeData
+  nameWithType: ShowFatalNotifyMessageOutputNodeData
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Other.ShowFatalNotifyMessageOutputNodeData
+- uid: H.VisionMaster.OpenCV.NodeDatas.Other.ShowInfoNotifyMessageOutputNodeData
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Other.ShowInfoNotifyMessageOutputNodeData
+  href: H.VisionMaster.OpenCV.NodeDatas.Other.ShowInfoNotifyMessageOutputNodeData.html
+  name: ShowInfoNotifyMessageOutputNodeData
+  nameWithType: ShowInfoNotifyMessageOutputNodeData
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Other.ShowInfoNotifyMessageOutputNodeData
+- uid: H.VisionMaster.OpenCV.NodeDatas.Other.ShowSuccessNotifyMessageOutputNodeData
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Other.ShowSuccessNotifyMessageOutputNodeData
+  href: H.VisionMaster.OpenCV.NodeDatas.Other.ShowSuccessNotifyMessageOutputNodeData.html
+  name: ShowSuccessNotifyMessageOutputNodeData
+  nameWithType: ShowSuccessNotifyMessageOutputNodeData
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Other.ShowSuccessNotifyMessageOutputNodeData
+- uid: H.VisionMaster.OpenCV.NodeDatas.Other.ShowWarnNotifyMessageOutputNodeData
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Other.ShowWarnNotifyMessageOutputNodeData
+  href: H.VisionMaster.OpenCV.NodeDatas.Other.ShowWarnNotifyMessageOutputNodeData.html
+  name: ShowWarnNotifyMessageOutputNodeData
+  nameWithType: ShowWarnNotifyMessageOutputNodeData
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Other.ShowWarnNotifyMessageOutputNodeData
+- uid: H.VisionMaster.OpenCV.NodeDatas.Other
+  commentId: N:H.VisionMaster.OpenCV.NodeDatas.Other
+  href: H.html
+  name: H.VisionMaster.OpenCV.NodeDatas.Other
+  nameWithType: H.VisionMaster.OpenCV.NodeDatas.Other
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Other
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.OpenCV
+    name: OpenCV
+    href: H.VisionMaster.OpenCV.html
+  - name: .
+  - uid: H.VisionMaster.OpenCV.NodeDatas
+    name: NodeDatas
+    href: H.VisionMaster.OpenCV.NodeDatas.html
+  - name: .
+  - uid: H.VisionMaster.OpenCV.NodeDatas.Other
+    name: Other
+    href: H.VisionMaster.OpenCV.NodeDatas.Other.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.OpenCV
+    name: OpenCV
+    href: H.VisionMaster.OpenCV.html
+  - name: .
+  - uid: H.VisionMaster.OpenCV.NodeDatas
+    name: NodeDatas
+    href: H.VisionMaster.OpenCV.NodeDatas.html
+  - name: .
+  - uid: H.VisionMaster.OpenCV.NodeDatas.Other
+    name: Other
+    href: H.VisionMaster.OpenCV.NodeDatas.Other.html

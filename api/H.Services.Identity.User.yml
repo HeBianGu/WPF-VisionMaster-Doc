@@ -1,0 +1,70 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Services.Identity.User
+  commentId: N:H.Services.Identity.User
+  id: H.Services.Identity.User
+  children:
+  - H.Services.Identity.User.IUser
+  - H.Services.Identity.User.IUserViewPresenter
+  langs:
+  - csharp
+  - vb
+  name: H.Services.Identity.User
+  nameWithType: H.Services.Identity.User
+  fullName: H.Services.Identity.User
+  type: Namespace
+  assemblies:
+  - H.Services.Identity
+references:
+- uid: H.Services.Identity.User.IUser
+  commentId: T:H.Services.Identity.User.IUser
+  parent: H.Services.Identity.User
+  href: H.Services.Identity.User.IUser.html
+  name: IUser
+  nameWithType: IUser
+  fullName: H.Services.Identity.User.IUser
+- uid: H.Services.Identity.User.IUserViewPresenter
+  commentId: T:H.Services.Identity.User.IUserViewPresenter
+  parent: H.Services.Identity.User
+  href: H.Services.Identity.User.IUserViewPresenter.html
+  name: IUserViewPresenter
+  nameWithType: IUserViewPresenter
+  fullName: H.Services.Identity.User.IUserViewPresenter
+- uid: H.Services.Identity.User
+  commentId: N:H.Services.Identity.User
+  href: H.html
+  name: H.Services.Identity.User
+  nameWithType: H.Services.Identity.User
+  fullName: H.Services.Identity.User
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Identity
+    name: Identity
+    href: H.Services.Identity.html
+  - name: .
+  - uid: H.Services.Identity.User
+    name: User
+    href: H.Services.Identity.User.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Identity
+    name: Identity
+    href: H.Services.Identity.html
+  - name: .
+  - uid: H.Services.Identity.User
+    name: User
+    href: H.Services.Identity.User.html

@@ -1,0 +1,111 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Modules.Help.Base
+  commentId: N:H.Modules.Help.Base
+  id: H.Modules.Help.Base
+  children:
+  - H.Modules.Help.Base.IShowHelpService
+  - H.Modules.Help.Base.IUriHelpOptions
+  - H.Modules.Help.Base.ProcessExtension
+  - H.Modules.Help.Base.ShowHelpServiceBase
+  - H.Modules.Help.Base.UriHelpOptionsBase`1
+  langs:
+  - csharp
+  - vb
+  name: H.Modules.Help.Base
+  nameWithType: H.Modules.Help.Base
+  fullName: H.Modules.Help.Base
+  type: Namespace
+  assemblies:
+  - H.Modules.Help
+references:
+- uid: H.Modules.Help.Base.IShowHelpService
+  commentId: T:H.Modules.Help.Base.IShowHelpService
+  parent: H.Modules.Help.Base
+  href: H.Modules.Help.Base.IShowHelpService.html
+  name: IShowHelpService
+  nameWithType: IShowHelpService
+  fullName: H.Modules.Help.Base.IShowHelpService
+- uid: H.Modules.Help.Base.IUriHelpOptions
+  commentId: T:H.Modules.Help.Base.IUriHelpOptions
+  parent: H.Modules.Help.Base
+  href: H.Modules.Help.Base.IUriHelpOptions.html
+  name: IUriHelpOptions
+  nameWithType: IUriHelpOptions
+  fullName: H.Modules.Help.Base.IUriHelpOptions
+- uid: H.Modules.Help.Base.ProcessExtension
+  commentId: T:H.Modules.Help.Base.ProcessExtension
+  href: H.Modules.Help.Base.ProcessExtension.html
+  name: ProcessExtension
+  nameWithType: ProcessExtension
+  fullName: H.Modules.Help.Base.ProcessExtension
+- uid: H.Modules.Help.Base.ShowHelpServiceBase
+  commentId: T:H.Modules.Help.Base.ShowHelpServiceBase
+  parent: H.Modules.Help.Base
+  href: H.Modules.Help.Base.ShowHelpServiceBase.html
+  name: ShowHelpServiceBase
+  nameWithType: ShowHelpServiceBase
+  fullName: H.Modules.Help.Base.ShowHelpServiceBase
+- uid: H.Modules.Help.Base.UriHelpOptionsBase`1
+  commentId: T:H.Modules.Help.Base.UriHelpOptionsBase`1
+  href: H.Modules.Help.Base.UriHelpOptionsBase-1.html
+  name: UriHelpOptionsBase<T>
+  nameWithType: UriHelpOptionsBase<T>
+  fullName: H.Modules.Help.Base.UriHelpOptionsBase<T>
+  nameWithType.vb: UriHelpOptionsBase(Of T)
+  fullName.vb: H.Modules.Help.Base.UriHelpOptionsBase(Of T)
+  name.vb: UriHelpOptionsBase(Of T)
+  spec.csharp:
+  - uid: H.Modules.Help.Base.UriHelpOptionsBase`1
+    name: UriHelpOptionsBase
+    href: H.Modules.Help.Base.UriHelpOptionsBase-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Modules.Help.Base.UriHelpOptionsBase`1
+    name: UriHelpOptionsBase
+    href: H.Modules.Help.Base.UriHelpOptionsBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Modules.Help.Base
+  commentId: N:H.Modules.Help.Base
+  href: H.html
+  name: H.Modules.Help.Base
+  nameWithType: H.Modules.Help.Base
+  fullName: H.Modules.Help.Base
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Modules
+    name: Modules
+    href: H.Modules.html
+  - name: .
+  - uid: H.Modules.Help
+    name: Help
+    href: H.Modules.Help.html
+  - name: .
+  - uid: H.Modules.Help.Base
+    name: Base
+    href: H.Modules.Help.Base.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Modules
+    name: Modules
+    href: H.Modules.html
+  - name: .
+  - uid: H.Modules.Help
+    name: Help
+    href: H.Modules.Help.html
+  - name: .
+  - uid: H.Modules.Help.Base
+    name: Base
+    href: H.Modules.Help.Base.html

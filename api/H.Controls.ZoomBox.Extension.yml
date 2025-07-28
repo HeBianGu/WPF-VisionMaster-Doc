@@ -1,0 +1,105 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.ZoomBox.Extension
+  commentId: N:H.Controls.ZoomBox.Extension
+  id: H.Controls.ZoomBox.Extension
+  children:
+  - H.Controls.ZoomBox.Extension.DialogServiceExtension
+  - H.Controls.ZoomBox.Extension.IImageZoomViewPresenter
+  - H.Controls.ZoomBox.Extension.ImageZoomViewPresenter
+  - H.Controls.ZoomBox.Extension.ShowZoomViewImageCommand
+  - H.Controls.ZoomBox.Extension.ShowZoomViewImageFileCommand
+  - H.Controls.ZoomBox.Extension.ZoomBoxFitOnLoadedBehavior
+  - H.Controls.ZoomBox.Extension.ZoomBoxFitOnSizeChangedBehavior
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.ZoomBox.Extension
+  nameWithType: H.Controls.ZoomBox.Extension
+  fullName: H.Controls.ZoomBox.Extension
+  type: Namespace
+  assemblies:
+  - H.Controls.ZoomBox.Extension
+references:
+- uid: H.Controls.ZoomBox.Extension.DialogServiceExtension
+  commentId: T:H.Controls.ZoomBox.Extension.DialogServiceExtension
+  parent: H.Controls.ZoomBox.Extension
+  href: H.Controls.ZoomBox.Extension.DialogServiceExtension.html
+  name: DialogServiceExtension
+  nameWithType: DialogServiceExtension
+  fullName: H.Controls.ZoomBox.Extension.DialogServiceExtension
+- uid: H.Controls.ZoomBox.Extension.IImageZoomViewPresenter
+  commentId: T:H.Controls.ZoomBox.Extension.IImageZoomViewPresenter
+  parent: H.Controls.ZoomBox.Extension
+  href: H.Controls.ZoomBox.Extension.IImageZoomViewPresenter.html
+  name: IImageZoomViewPresenter
+  nameWithType: IImageZoomViewPresenter
+  fullName: H.Controls.ZoomBox.Extension.IImageZoomViewPresenter
+- uid: H.Controls.ZoomBox.Extension.ImageZoomViewPresenter
+  commentId: T:H.Controls.ZoomBox.Extension.ImageZoomViewPresenter
+  href: H.Controls.ZoomBox.Extension.ImageZoomViewPresenter.html
+  name: ImageZoomViewPresenter
+  nameWithType: ImageZoomViewPresenter
+  fullName: H.Controls.ZoomBox.Extension.ImageZoomViewPresenter
+- uid: H.Controls.ZoomBox.Extension.ShowZoomViewImageCommand
+  commentId: T:H.Controls.ZoomBox.Extension.ShowZoomViewImageCommand
+  href: H.Controls.ZoomBox.Extension.ShowZoomViewImageCommand.html
+  name: ShowZoomViewImageCommand
+  nameWithType: ShowZoomViewImageCommand
+  fullName: H.Controls.ZoomBox.Extension.ShowZoomViewImageCommand
+- uid: H.Controls.ZoomBox.Extension.ShowZoomViewImageFileCommand
+  commentId: T:H.Controls.ZoomBox.Extension.ShowZoomViewImageFileCommand
+  href: H.Controls.ZoomBox.Extension.ShowZoomViewImageFileCommand.html
+  name: ShowZoomViewImageFileCommand
+  nameWithType: ShowZoomViewImageFileCommand
+  fullName: H.Controls.ZoomBox.Extension.ShowZoomViewImageFileCommand
+- uid: H.Controls.ZoomBox.Extension.ZoomBoxFitOnLoadedBehavior
+  commentId: T:H.Controls.ZoomBox.Extension.ZoomBoxFitOnLoadedBehavior
+  href: H.Controls.ZoomBox.Extension.ZoomBoxFitOnLoadedBehavior.html
+  name: ZoomBoxFitOnLoadedBehavior
+  nameWithType: ZoomBoxFitOnLoadedBehavior
+  fullName: H.Controls.ZoomBox.Extension.ZoomBoxFitOnLoadedBehavior
+- uid: H.Controls.ZoomBox.Extension.ZoomBoxFitOnSizeChangedBehavior
+  commentId: T:H.Controls.ZoomBox.Extension.ZoomBoxFitOnSizeChangedBehavior
+  href: H.Controls.ZoomBox.Extension.ZoomBoxFitOnSizeChangedBehavior.html
+  name: ZoomBoxFitOnSizeChangedBehavior
+  nameWithType: ZoomBoxFitOnSizeChangedBehavior
+  fullName: H.Controls.ZoomBox.Extension.ZoomBoxFitOnSizeChangedBehavior
+- uid: H.Controls.ZoomBox.Extension
+  commentId: N:H.Controls.ZoomBox.Extension
+  href: H.html
+  name: H.Controls.ZoomBox.Extension
+  nameWithType: H.Controls.ZoomBox.Extension
+  fullName: H.Controls.ZoomBox.Extension
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.ZoomBox
+    name: ZoomBox
+    href: H.Controls.ZoomBox.html
+  - name: .
+  - uid: H.Controls.ZoomBox.Extension
+    name: Extension
+    href: H.Controls.ZoomBox.Extension.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.ZoomBox
+    name: ZoomBox
+    href: H.Controls.ZoomBox.html
+  - name: .
+  - uid: H.Controls.ZoomBox.Extension
+    name: Extension
+    href: H.Controls.ZoomBox.Extension.html

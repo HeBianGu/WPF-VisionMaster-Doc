@@ -1,0 +1,78 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.VisionMaster.NodeGroup.Groups.Morphologys
+  commentId: N:H.VisionMaster.NodeGroup.Groups.Morphologys
+  id: H.VisionMaster.NodeGroup.Groups.Morphologys
+  children:
+  - H.VisionMaster.NodeGroup.Groups.Morphologys.IMorphologyGroupableNodeData
+  - H.VisionMaster.NodeGroup.Groups.Morphologys.MorphologyDataGroup
+  langs:
+  - csharp
+  - vb
+  name: H.VisionMaster.NodeGroup.Groups.Morphologys
+  nameWithType: H.VisionMaster.NodeGroup.Groups.Morphologys
+  fullName: H.VisionMaster.NodeGroup.Groups.Morphologys
+  type: Namespace
+  assemblies:
+  - H.VisionMaster.NodeGroup
+references:
+- uid: H.VisionMaster.NodeGroup.Groups.Morphologys.IMorphologyGroupableNodeData
+  commentId: T:H.VisionMaster.NodeGroup.Groups.Morphologys.IMorphologyGroupableNodeData
+  parent: H.VisionMaster.NodeGroup.Groups.Morphologys
+  href: H.VisionMaster.NodeGroup.Groups.Morphologys.IMorphologyGroupableNodeData.html
+  name: IMorphologyGroupableNodeData
+  nameWithType: IMorphologyGroupableNodeData
+  fullName: H.VisionMaster.NodeGroup.Groups.Morphologys.IMorphologyGroupableNodeData
+- uid: H.VisionMaster.NodeGroup.Groups.Morphologys.MorphologyDataGroup
+  commentId: T:H.VisionMaster.NodeGroup.Groups.Morphologys.MorphologyDataGroup
+  parent: H.VisionMaster.NodeGroup.Groups.Morphologys
+  href: H.VisionMaster.NodeGroup.Groups.Morphologys.MorphologyDataGroup.html
+  name: MorphologyDataGroup
+  nameWithType: MorphologyDataGroup
+  fullName: H.VisionMaster.NodeGroup.Groups.Morphologys.MorphologyDataGroup
+- uid: H.VisionMaster.NodeGroup.Groups.Morphologys
+  commentId: N:H.VisionMaster.NodeGroup.Groups.Morphologys
+  href: H.html
+  name: H.VisionMaster.NodeGroup.Groups.Morphologys
+  nameWithType: H.VisionMaster.NodeGroup.Groups.Morphologys
+  fullName: H.VisionMaster.NodeGroup.Groups.Morphologys
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup
+    name: NodeGroup
+    href: H.VisionMaster.NodeGroup.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup.Groups
+    name: Groups
+    href: H.VisionMaster.NodeGroup.Groups.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup.Groups.Morphologys
+    name: Morphologys
+    href: H.VisionMaster.NodeGroup.Groups.Morphologys.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup
+    name: NodeGroup
+    href: H.VisionMaster.NodeGroup.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup.Groups
+    name: Groups
+    href: H.VisionMaster.NodeGroup.Groups.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup.Groups.Morphologys
+    name: Morphologys
+    href: H.VisionMaster.NodeGroup.Groups.Morphologys.html

@@ -1,0 +1,153 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.PropertyGrid.Media.Animation
+  commentId: N:H.Controls.PropertyGrid.Media.Animation
+  id: H.Controls.PropertyGrid.Media.Animation
+  children:
+  - H.Controls.PropertyGrid.Media.Animation.AnimationRate
+  - H.Controls.PropertyGrid.Media.Animation.AnimationRateConverter
+  - H.Controls.PropertyGrid.Media.Animation.IterativeAnimationEquationDelegate`1
+  - H.Controls.PropertyGrid.Media.Animation.IterativeEquationConverter
+  - H.Controls.PropertyGrid.Media.Animation.IterativeEquation`1
+  - H.Controls.PropertyGrid.Media.Animation.PennerEquation
+  - H.Controls.PropertyGrid.Media.Animation.PennerEquations
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.PropertyGrid.Media.Animation
+  nameWithType: H.Controls.PropertyGrid.Media.Animation
+  fullName: H.Controls.PropertyGrid.Media.Animation
+  type: Namespace
+  assemblies:
+  - H.Controls.PropertyGrid
+references:
+- uid: H.Controls.PropertyGrid.Media.Animation.AnimationRate
+  commentId: T:H.Controls.PropertyGrid.Media.Animation.AnimationRate
+  parent: H.Controls.PropertyGrid.Media.Animation
+  href: H.Controls.PropertyGrid.Media.Animation.AnimationRate.html
+  name: AnimationRate
+  nameWithType: AnimationRate
+  fullName: H.Controls.PropertyGrid.Media.Animation.AnimationRate
+- uid: H.Controls.PropertyGrid.Media.Animation.AnimationRateConverter
+  commentId: T:H.Controls.PropertyGrid.Media.Animation.AnimationRateConverter
+  parent: H.Controls.PropertyGrid.Media.Animation
+  href: H.Controls.PropertyGrid.Media.Animation.AnimationRateConverter.html
+  name: AnimationRateConverter
+  nameWithType: AnimationRateConverter
+  fullName: H.Controls.PropertyGrid.Media.Animation.AnimationRateConverter
+- uid: H.Controls.PropertyGrid.Media.Animation.IterativeEquation`1
+  commentId: T:H.Controls.PropertyGrid.Media.Animation.IterativeEquation`1
+  href: H.Controls.PropertyGrid.Media.Animation.IterativeEquation-1.html
+  name: IterativeEquation<T>
+  nameWithType: IterativeEquation<T>
+  fullName: H.Controls.PropertyGrid.Media.Animation.IterativeEquation<T>
+  nameWithType.vb: IterativeEquation(Of T)
+  fullName.vb: H.Controls.PropertyGrid.Media.Animation.IterativeEquation(Of T)
+  name.vb: IterativeEquation(Of T)
+  spec.csharp:
+  - uid: H.Controls.PropertyGrid.Media.Animation.IterativeEquation`1
+    name: IterativeEquation
+    href: H.Controls.PropertyGrid.Media.Animation.IterativeEquation-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Controls.PropertyGrid.Media.Animation.IterativeEquation`1
+    name: IterativeEquation
+    href: H.Controls.PropertyGrid.Media.Animation.IterativeEquation-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Controls.PropertyGrid.Media.Animation.IterativeAnimationEquationDelegate`1
+  commentId: T:H.Controls.PropertyGrid.Media.Animation.IterativeAnimationEquationDelegate`1
+  href: H.Controls.PropertyGrid.Media.Animation.IterativeAnimationEquationDelegate-1.html
+  name: IterativeAnimationEquationDelegate<T>
+  nameWithType: IterativeAnimationEquationDelegate<T>
+  fullName: H.Controls.PropertyGrid.Media.Animation.IterativeAnimationEquationDelegate<T>
+  nameWithType.vb: IterativeAnimationEquationDelegate(Of T)
+  fullName.vb: H.Controls.PropertyGrid.Media.Animation.IterativeAnimationEquationDelegate(Of T)
+  name.vb: IterativeAnimationEquationDelegate(Of T)
+  spec.csharp:
+  - uid: H.Controls.PropertyGrid.Media.Animation.IterativeAnimationEquationDelegate`1
+    name: IterativeAnimationEquationDelegate
+    href: H.Controls.PropertyGrid.Media.Animation.IterativeAnimationEquationDelegate-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Controls.PropertyGrid.Media.Animation.IterativeAnimationEquationDelegate`1
+    name: IterativeAnimationEquationDelegate
+    href: H.Controls.PropertyGrid.Media.Animation.IterativeAnimationEquationDelegate-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Controls.PropertyGrid.Media.Animation.IterativeEquationConverter
+  commentId: T:H.Controls.PropertyGrid.Media.Animation.IterativeEquationConverter
+  parent: H.Controls.PropertyGrid.Media.Animation
+  href: H.Controls.PropertyGrid.Media.Animation.IterativeEquationConverter.html
+  name: IterativeEquationConverter
+  nameWithType: IterativeEquationConverter
+  fullName: H.Controls.PropertyGrid.Media.Animation.IterativeEquationConverter
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquation
+  commentId: T:H.Controls.PropertyGrid.Media.Animation.PennerEquation
+  parent: H.Controls.PropertyGrid.Media.Animation
+  href: H.Controls.PropertyGrid.Media.Animation.PennerEquation.html
+  name: PennerEquation
+  nameWithType: PennerEquation
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquation
+- uid: H.Controls.PropertyGrid.Media.Animation.PennerEquations
+  commentId: T:H.Controls.PropertyGrid.Media.Animation.PennerEquations
+  href: H.Controls.PropertyGrid.Media.Animation.PennerEquations.html
+  name: PennerEquations
+  nameWithType: PennerEquations
+  fullName: H.Controls.PropertyGrid.Media.Animation.PennerEquations
+- uid: H.Controls.PropertyGrid.Media.Animation
+  commentId: N:H.Controls.PropertyGrid.Media.Animation
+  href: H.html
+  name: H.Controls.PropertyGrid.Media.Animation
+  nameWithType: H.Controls.PropertyGrid.Media.Animation
+  fullName: H.Controls.PropertyGrid.Media.Animation
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.PropertyGrid
+    name: PropertyGrid
+    href: H.Controls.PropertyGrid.html
+  - name: .
+  - uid: H.Controls.PropertyGrid.Media
+    name: Media
+    href: H.Controls.PropertyGrid.Media.html
+  - name: .
+  - uid: H.Controls.PropertyGrid.Media.Animation
+    name: Animation
+    href: H.Controls.PropertyGrid.Media.Animation.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.PropertyGrid
+    name: PropertyGrid
+    href: H.Controls.PropertyGrid.html
+  - name: .
+  - uid: H.Controls.PropertyGrid.Media
+    name: Media
+    href: H.Controls.PropertyGrid.Media.html
+  - name: .
+  - uid: H.Controls.PropertyGrid.Media.Animation
+    name: Animation
+    href: H.Controls.PropertyGrid.Media.Animation.html

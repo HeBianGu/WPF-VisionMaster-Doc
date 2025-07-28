@@ -1,0 +1,110 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.Diagram.Presenter.Extensions
+  commentId: N:H.Controls.Diagram.Presenter.Extensions
+  id: H.Controls.Diagram.Presenter.Extensions
+  children:
+  - H.Controls.Diagram.Presenter.Extensions.DiagramDataExtension
+  - H.Controls.Diagram.Presenter.Extensions.DiagramableNodeDataExtension
+  - H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension
+  - H.Controls.Diagram.Presenter.Extensions.LinkDataExtension
+  - H.Controls.Diagram.Presenter.Extensions.NodeDataExtension
+  - H.Controls.Diagram.Presenter.Extensions.PortDataExtension
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.Diagram.Presenter.Extensions
+  nameWithType: H.Controls.Diagram.Presenter.Extensions
+  fullName: H.Controls.Diagram.Presenter.Extensions
+  type: Namespace
+  assemblies:
+  - H.Controls.Diagram.Presenter
+references:
+- uid: H.Controls.Diagram.Presenter.Extensions.DiagramableNodeDataExtension
+  commentId: T:H.Controls.Diagram.Presenter.Extensions.DiagramableNodeDataExtension
+  parent: H.Controls.Diagram.Presenter.Extensions
+  href: H.Controls.Diagram.Presenter.Extensions.DiagramableNodeDataExtension.html
+  name: DiagramableNodeDataExtension
+  nameWithType: DiagramableNodeDataExtension
+  fullName: H.Controls.Diagram.Presenter.Extensions.DiagramableNodeDataExtension
+- uid: H.Controls.Diagram.Presenter.Extensions.DiagramDataExtension
+  commentId: T:H.Controls.Diagram.Presenter.Extensions.DiagramDataExtension
+  parent: H.Controls.Diagram.Presenter.Extensions
+  href: H.Controls.Diagram.Presenter.Extensions.DiagramDataExtension.html
+  name: DiagramDataExtension
+  nameWithType: DiagramDataExtension
+  fullName: H.Controls.Diagram.Presenter.Extensions.DiagramDataExtension
+- uid: H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension
+  commentId: T:H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension
+  parent: H.Controls.Diagram.Presenter.Extensions
+  href: H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension.html
+  name: FlowableDiagramDataExtension
+  nameWithType: FlowableDiagramDataExtension
+  fullName: H.Controls.Diagram.Presenter.Extensions.FlowableDiagramDataExtension
+- uid: H.Controls.Diagram.Presenter.Extensions.LinkDataExtension
+  commentId: T:H.Controls.Diagram.Presenter.Extensions.LinkDataExtension
+  parent: H.Controls.Diagram.Presenter.Extensions
+  href: H.Controls.Diagram.Presenter.Extensions.LinkDataExtension.html
+  name: LinkDataExtension
+  nameWithType: LinkDataExtension
+  fullName: H.Controls.Diagram.Presenter.Extensions.LinkDataExtension
+- uid: H.Controls.Diagram.Presenter.Extensions.NodeDataExtension
+  commentId: T:H.Controls.Diagram.Presenter.Extensions.NodeDataExtension
+  parent: H.Controls.Diagram.Presenter.Extensions
+  href: H.Controls.Diagram.Presenter.Extensions.NodeDataExtension.html
+  name: NodeDataExtension
+  nameWithType: NodeDataExtension
+  fullName: H.Controls.Diagram.Presenter.Extensions.NodeDataExtension
+- uid: H.Controls.Diagram.Presenter.Extensions.PortDataExtension
+  commentId: T:H.Controls.Diagram.Presenter.Extensions.PortDataExtension
+  parent: H.Controls.Diagram.Presenter.Extensions
+  href: H.Controls.Diagram.Presenter.Extensions.PortDataExtension.html
+  name: PortDataExtension
+  nameWithType: PortDataExtension
+  fullName: H.Controls.Diagram.Presenter.Extensions.PortDataExtension
+- uid: H.Controls.Diagram.Presenter.Extensions
+  commentId: N:H.Controls.Diagram.Presenter.Extensions
+  href: H.html
+  name: H.Controls.Diagram.Presenter.Extensions
+  nameWithType: H.Controls.Diagram.Presenter.Extensions
+  fullName: H.Controls.Diagram.Presenter.Extensions
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter
+    name: Presenter
+    href: H.Controls.Diagram.Presenter.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter.Extensions
+    name: Extensions
+    href: H.Controls.Diagram.Presenter.Extensions.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter
+    name: Presenter
+    href: H.Controls.Diagram.Presenter.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter.Extensions
+    name: Extensions
+    href: H.Controls.Diagram.Presenter.Extensions.html

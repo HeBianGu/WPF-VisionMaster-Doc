@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Presenters.Repository
+  commentId: N:H.Presenters.Repository
+  id: H.Presenters.Repository
+  children:
+  - H.Presenters.Repository.RepositoryPresenter
+  - H.Presenters.Repository.RepositoryPresenterExtension
+  langs:
+  - csharp
+  - vb
+  name: H.Presenters.Repository
+  nameWithType: H.Presenters.Repository
+  fullName: H.Presenters.Repository
+  type: Namespace
+  assemblies:
+  - H.Presenters.Repository
+references:
+- uid: H.Presenters.Repository.RepositoryPresenter
+  commentId: T:H.Presenters.Repository.RepositoryPresenter
+  href: H.Presenters.Repository.RepositoryPresenter.html
+  name: RepositoryPresenter
+  nameWithType: RepositoryPresenter
+  fullName: H.Presenters.Repository.RepositoryPresenter
+- uid: H.Presenters.Repository.RepositoryPresenterExtension
+  commentId: T:H.Presenters.Repository.RepositoryPresenterExtension
+  href: H.Presenters.Repository.RepositoryPresenterExtension.html
+  name: RepositoryPresenterExtension
+  nameWithType: RepositoryPresenterExtension
+  fullName: H.Presenters.Repository.RepositoryPresenterExtension

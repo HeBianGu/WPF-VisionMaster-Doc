@@ -1,0 +1,85 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Modules.Guide.Base
+  commentId: N:H.Modules.Guide.Base
+  id: H.Modules.Guide.Base
+  children:
+  - H.Modules.Guide.Base.GuideBoxAdorner
+  - H.Modules.Guide.Base.GuideExtension
+  - H.Modules.Guide.Base.GuideTree
+  - H.Modules.Guide.Base.GuideTreeNode
+  langs:
+  - csharp
+  - vb
+  name: H.Modules.Guide.Base
+  nameWithType: H.Modules.Guide.Base
+  fullName: H.Modules.Guide.Base
+  type: Namespace
+  assemblies:
+  - H.Modules.Guide
+references:
+- uid: H.Modules.Guide.Base.GuideBoxAdorner
+  commentId: T:H.Modules.Guide.Base.GuideBoxAdorner
+  href: H.Modules.Guide.Base.GuideBoxAdorner.html
+  name: GuideBoxAdorner
+  nameWithType: GuideBoxAdorner
+  fullName: H.Modules.Guide.Base.GuideBoxAdorner
+- uid: H.Modules.Guide.Base.GuideExtension
+  commentId: T:H.Modules.Guide.Base.GuideExtension
+  parent: H.Modules.Guide.Base
+  href: H.Modules.Guide.Base.GuideExtension.html
+  name: GuideExtension
+  nameWithType: GuideExtension
+  fullName: H.Modules.Guide.Base.GuideExtension
+- uid: H.Modules.Guide.Base.GuideTree
+  commentId: T:H.Modules.Guide.Base.GuideTree
+  parent: H.Modules.Guide.Base
+  href: H.Modules.Guide.Base.GuideTree.html
+  name: GuideTree
+  nameWithType: GuideTree
+  fullName: H.Modules.Guide.Base.GuideTree
+- uid: H.Modules.Guide.Base.GuideTreeNode
+  commentId: T:H.Modules.Guide.Base.GuideTreeNode
+  parent: H.Modules.Guide.Base
+  href: H.Modules.Guide.Base.GuideTreeNode.html
+  name: GuideTreeNode
+  nameWithType: GuideTreeNode
+  fullName: H.Modules.Guide.Base.GuideTreeNode
+- uid: H.Modules.Guide.Base
+  commentId: N:H.Modules.Guide.Base
+  href: H.html
+  name: H.Modules.Guide.Base
+  nameWithType: H.Modules.Guide.Base
+  fullName: H.Modules.Guide.Base
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Modules
+    name: Modules
+    href: H.Modules.html
+  - name: .
+  - uid: H.Modules.Guide
+    name: Guide
+    href: H.Modules.Guide.html
+  - name: .
+  - uid: H.Modules.Guide.Base
+    name: Base
+    href: H.Modules.Guide.Base.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Modules
+    name: Modules
+    href: H.Modules.html
+  - name: .
+  - uid: H.Modules.Guide
+    name: Guide
+    href: H.Modules.Guide.html
+  - name: .
+  - uid: H.Modules.Guide.Base
+    name: Base
+    href: H.Modules.Guide.Base.html

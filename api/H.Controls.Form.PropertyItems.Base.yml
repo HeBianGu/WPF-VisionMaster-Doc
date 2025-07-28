@@ -1,0 +1,218 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.Form.PropertyItems.Base
+  commentId: N:H.Controls.Form.PropertyItems.Base
+  id: H.Controls.Form.PropertyItems.Base
+  children:
+  - H.Controls.Form.PropertyItems.Base.BindingVisiblablePropertyItemBase
+  - H.Controls.Form.PropertyItems.Base.IBindingVisibleable
+  - H.Controls.Form.PropertyItems.Base.IHitTestPropertyViewItem
+  - H.Controls.Form.PropertyItems.Base.IPropertyItem
+  - H.Controls.Form.PropertyItems.Base.IPropertyValueChanged
+  - H.Controls.Form.PropertyItems.Base.IPropertyValueChanged`1
+  - H.Controls.Form.PropertyItems.Base.IPropertyViewItem
+  - H.Controls.Form.PropertyItems.Base.IRefreshOnValueChanged
+  - H.Controls.Form.PropertyItems.Base.IValueChangeable
+  - H.Controls.Form.PropertyItems.Base.ItemsSourcePropertyItem`1
+  - H.Controls.Form.PropertyItems.Base.ObjectPropertyItemBase
+  - H.Controls.Form.PropertyItems.Base.ObjectPropertyItem`1
+  - H.Controls.Form.PropertyItems.Base.StringHost
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.Form.PropertyItems.Base
+  nameWithType: H.Controls.Form.PropertyItems.Base
+  fullName: H.Controls.Form.PropertyItems.Base
+  type: Namespace
+  assemblies:
+  - H.Controls.Form
+references:
+- uid: H.Controls.Form.PropertyItems.Base.IRefreshOnValueChanged
+  commentId: T:H.Controls.Form.PropertyItems.Base.IRefreshOnValueChanged
+  parent: H.Controls.Form.PropertyItems.Base
+  href: H.Controls.Form.PropertyItems.Base.IRefreshOnValueChanged.html
+  name: IRefreshOnValueChanged
+  nameWithType: IRefreshOnValueChanged
+  fullName: H.Controls.Form.PropertyItems.Base.IRefreshOnValueChanged
+- uid: H.Controls.Form.PropertyItems.Base.BindingVisiblablePropertyItemBase
+  commentId: T:H.Controls.Form.PropertyItems.Base.BindingVisiblablePropertyItemBase
+  parent: H.Controls.Form.PropertyItems.Base
+  href: H.Controls.Form.PropertyItems.Base.BindingVisiblablePropertyItemBase.html
+  name: BindingVisiblablePropertyItemBase
+  nameWithType: BindingVisiblablePropertyItemBase
+  fullName: H.Controls.Form.PropertyItems.Base.BindingVisiblablePropertyItemBase
+- uid: H.Controls.Form.PropertyItems.Base.IBindingVisibleable
+  commentId: T:H.Controls.Form.PropertyItems.Base.IBindingVisibleable
+  parent: H.Controls.Form.PropertyItems.Base
+  href: H.Controls.Form.PropertyItems.Base.IBindingVisibleable.html
+  name: IBindingVisibleable
+  nameWithType: IBindingVisibleable
+  fullName: H.Controls.Form.PropertyItems.Base.IBindingVisibleable
+- uid: H.Controls.Form.PropertyItems.Base.IPropertyItem
+  commentId: T:H.Controls.Form.PropertyItems.Base.IPropertyItem
+  parent: H.Controls.Form.PropertyItems.Base
+  href: H.Controls.Form.PropertyItems.Base.IPropertyItem.html
+  name: IPropertyItem
+  nameWithType: IPropertyItem
+  fullName: H.Controls.Form.PropertyItems.Base.IPropertyItem
+- uid: H.Controls.Form.PropertyItems.Base.IPropertyViewItem
+  commentId: T:H.Controls.Form.PropertyItems.Base.IPropertyViewItem
+  parent: H.Controls.Form.PropertyItems.Base
+  href: H.Controls.Form.PropertyItems.Base.IPropertyViewItem.html
+  name: IPropertyViewItem
+  nameWithType: IPropertyViewItem
+  fullName: H.Controls.Form.PropertyItems.Base.IPropertyViewItem
+- uid: H.Controls.Form.PropertyItems.Base.IHitTestPropertyViewItem
+  commentId: T:H.Controls.Form.PropertyItems.Base.IHitTestPropertyViewItem
+  parent: H.Controls.Form.PropertyItems.Base
+  href: H.Controls.Form.PropertyItems.Base.IHitTestPropertyViewItem.html
+  name: IHitTestPropertyViewItem
+  nameWithType: IHitTestPropertyViewItem
+  fullName: H.Controls.Form.PropertyItems.Base.IHitTestPropertyViewItem
+- uid: H.Controls.Form.PropertyItems.Base.IPropertyValueChanged
+  commentId: T:H.Controls.Form.PropertyItems.Base.IPropertyValueChanged
+  href: H.Controls.Form.PropertyItems.Base.IPropertyValueChanged.html
+  name: IPropertyValueChanged
+  nameWithType: IPropertyValueChanged
+  fullName: H.Controls.Form.PropertyItems.Base.IPropertyValueChanged
+- uid: H.Controls.Form.PropertyItems.Base.IPropertyValueChanged`1
+  commentId: T:H.Controls.Form.PropertyItems.Base.IPropertyValueChanged`1
+  href: H.Controls.Form.PropertyItems.Base.IPropertyValueChanged-1.html
+  name: IPropertyValueChanged<PropertyType>
+  nameWithType: IPropertyValueChanged<PropertyType>
+  fullName: H.Controls.Form.PropertyItems.Base.IPropertyValueChanged<PropertyType>
+  nameWithType.vb: IPropertyValueChanged(Of PropertyType)
+  fullName.vb: H.Controls.Form.PropertyItems.Base.IPropertyValueChanged(Of PropertyType)
+  name.vb: IPropertyValueChanged(Of PropertyType)
+  spec.csharp:
+  - uid: H.Controls.Form.PropertyItems.Base.IPropertyValueChanged`1
+    name: IPropertyValueChanged
+    href: H.Controls.Form.PropertyItems.Base.IPropertyValueChanged-1.html
+  - name: <
+  - name: PropertyType
+  - name: '>'
+  spec.vb:
+  - uid: H.Controls.Form.PropertyItems.Base.IPropertyValueChanged`1
+    name: IPropertyValueChanged
+    href: H.Controls.Form.PropertyItems.Base.IPropertyValueChanged-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: PropertyType
+  - name: )
+- uid: H.Controls.Form.PropertyItems.Base.ItemsSourcePropertyItem`1
+  commentId: T:H.Controls.Form.PropertyItems.Base.ItemsSourcePropertyItem`1
+  href: H.Controls.Form.PropertyItems.Base.ItemsSourcePropertyItem-1.html
+  name: ItemsSourcePropertyItem<T>
+  nameWithType: ItemsSourcePropertyItem<T>
+  fullName: H.Controls.Form.PropertyItems.Base.ItemsSourcePropertyItem<T>
+  nameWithType.vb: ItemsSourcePropertyItem(Of T)
+  fullName.vb: H.Controls.Form.PropertyItems.Base.ItemsSourcePropertyItem(Of T)
+  name.vb: ItemsSourcePropertyItem(Of T)
+  spec.csharp:
+  - uid: H.Controls.Form.PropertyItems.Base.ItemsSourcePropertyItem`1
+    name: ItemsSourcePropertyItem
+    href: H.Controls.Form.PropertyItems.Base.ItemsSourcePropertyItem-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Controls.Form.PropertyItems.Base.ItemsSourcePropertyItem`1
+    name: ItemsSourcePropertyItem
+    href: H.Controls.Form.PropertyItems.Base.ItemsSourcePropertyItem-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Controls.Form.PropertyItems.Base.IValueChangeable
+  commentId: T:H.Controls.Form.PropertyItems.Base.IValueChangeable
+  parent: H.Controls.Form.PropertyItems.Base
+  href: H.Controls.Form.PropertyItems.Base.IValueChangeable.html
+  name: IValueChangeable
+  nameWithType: IValueChangeable
+  fullName: H.Controls.Form.PropertyItems.Base.IValueChangeable
+- uid: H.Controls.Form.PropertyItems.Base.ObjectPropertyItem`1
+  commentId: T:H.Controls.Form.PropertyItems.Base.ObjectPropertyItem`1
+  href: H.Controls.Form.PropertyItems.Base.ObjectPropertyItem-1.html
+  name: ObjectPropertyItem<T>
+  nameWithType: ObjectPropertyItem<T>
+  fullName: H.Controls.Form.PropertyItems.Base.ObjectPropertyItem<T>
+  nameWithType.vb: ObjectPropertyItem(Of T)
+  fullName.vb: H.Controls.Form.PropertyItems.Base.ObjectPropertyItem(Of T)
+  name.vb: ObjectPropertyItem(Of T)
+  spec.csharp:
+  - uid: H.Controls.Form.PropertyItems.Base.ObjectPropertyItem`1
+    name: ObjectPropertyItem
+    href: H.Controls.Form.PropertyItems.Base.ObjectPropertyItem-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Controls.Form.PropertyItems.Base.ObjectPropertyItem`1
+    name: ObjectPropertyItem
+    href: H.Controls.Form.PropertyItems.Base.ObjectPropertyItem-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Controls.Form.PropertyItems.Base.ObjectPropertyItemBase
+  commentId: T:H.Controls.Form.PropertyItems.Base.ObjectPropertyItemBase
+  parent: H.Controls.Form.PropertyItems.Base
+  href: H.Controls.Form.PropertyItems.Base.ObjectPropertyItemBase.html
+  name: ObjectPropertyItemBase
+  nameWithType: ObjectPropertyItemBase
+  fullName: H.Controls.Form.PropertyItems.Base.ObjectPropertyItemBase
+- uid: H.Controls.Form.PropertyItems.Base.StringHost
+  commentId: T:H.Controls.Form.PropertyItems.Base.StringHost
+  href: H.Controls.Form.PropertyItems.Base.StringHost.html
+  name: StringHost
+  nameWithType: StringHost
+  fullName: H.Controls.Form.PropertyItems.Base.StringHost
+- uid: H.Controls.Form.PropertyItems.Base
+  commentId: N:H.Controls.Form.PropertyItems.Base
+  href: H.html
+  name: H.Controls.Form.PropertyItems.Base
+  nameWithType: H.Controls.Form.PropertyItems.Base
+  fullName: H.Controls.Form.PropertyItems.Base
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Form
+    name: Form
+    href: H.Controls.Form.html
+  - name: .
+  - uid: H.Controls.Form.PropertyItems
+    name: PropertyItems
+    href: H.Controls.Form.PropertyItems.html
+  - name: .
+  - uid: H.Controls.Form.PropertyItems.Base
+    name: Base
+    href: H.Controls.Form.PropertyItems.Base.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Form
+    name: Form
+    href: H.Controls.Form.html
+  - name: .
+  - uid: H.Controls.Form.PropertyItems
+    name: PropertyItems
+    href: H.Controls.Form.PropertyItems.html
+  - name: .
+  - uid: H.Controls.Form.PropertyItems.Base
+    name: Base
+    href: H.Controls.Form.PropertyItems.Base.html

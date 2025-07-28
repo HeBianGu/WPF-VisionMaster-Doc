@@ -1,0 +1,118 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.Dock
+  commentId: N:H.Controls.Dock
+  id: H.Controls.Dock
+  children:
+  - H.Controls.Dock.AnchorableClosedEventArgs
+  - H.Controls.Dock.AnchorableClosingEventArgs
+  - H.Controls.Dock.AnchorableHiddenEventArgs
+  - H.Controls.Dock.AnchorableHidingEventArgs
+  - H.Controls.Dock.DockingManager
+  - H.Controls.Dock.DocumentClosedEventArgs
+  - H.Controls.Dock.DocumentClosingEventArgs
+  - H.Controls.Dock.LayoutFloatingWindowControlClosedEventArgs
+  - H.Controls.Dock.LayoutFloatingWindowControlCreatedEventArgs
+  - H.Controls.Dock.ReferenceEqualityComparer
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.Dock
+  nameWithType: H.Controls.Dock
+  fullName: H.Controls.Dock
+  type: Namespace
+  assemblies:
+  - H.Controls.Dock
+references:
+- uid: H.Controls.Dock.AnchorableClosedEventArgs
+  commentId: T:H.Controls.Dock.AnchorableClosedEventArgs
+  href: H.Controls.Dock.AnchorableClosedEventArgs.html
+  name: AnchorableClosedEventArgs
+  nameWithType: AnchorableClosedEventArgs
+  fullName: H.Controls.Dock.AnchorableClosedEventArgs
+- uid: H.Controls.Dock.AnchorableClosingEventArgs
+  commentId: T:H.Controls.Dock.AnchorableClosingEventArgs
+  href: H.Controls.Dock.AnchorableClosingEventArgs.html
+  name: AnchorableClosingEventArgs
+  nameWithType: AnchorableClosingEventArgs
+  fullName: H.Controls.Dock.AnchorableClosingEventArgs
+- uid: H.Controls.Dock.AnchorableHiddenEventArgs
+  commentId: T:H.Controls.Dock.AnchorableHiddenEventArgs
+  href: H.Controls.Dock.AnchorableHiddenEventArgs.html
+  name: AnchorableHiddenEventArgs
+  nameWithType: AnchorableHiddenEventArgs
+  fullName: H.Controls.Dock.AnchorableHiddenEventArgs
+- uid: H.Controls.Dock.AnchorableHidingEventArgs
+  commentId: T:H.Controls.Dock.AnchorableHidingEventArgs
+  href: H.Controls.Dock.AnchorableHidingEventArgs.html
+  name: AnchorableHidingEventArgs
+  nameWithType: AnchorableHidingEventArgs
+  fullName: H.Controls.Dock.AnchorableHidingEventArgs
+- uid: H.Controls.Dock.DockingManager
+  commentId: T:H.Controls.Dock.DockingManager
+  parent: H.Controls.Dock
+  href: H.Controls.Dock.DockingManager.html
+  name: DockingManager
+  nameWithType: DockingManager
+  fullName: H.Controls.Dock.DockingManager
+- uid: H.Controls.Dock.DocumentClosedEventArgs
+  commentId: T:H.Controls.Dock.DocumentClosedEventArgs
+  href: H.Controls.Dock.DocumentClosedEventArgs.html
+  name: DocumentClosedEventArgs
+  nameWithType: DocumentClosedEventArgs
+  fullName: H.Controls.Dock.DocumentClosedEventArgs
+- uid: H.Controls.Dock.DocumentClosingEventArgs
+  commentId: T:H.Controls.Dock.DocumentClosingEventArgs
+  href: H.Controls.Dock.DocumentClosingEventArgs.html
+  name: DocumentClosingEventArgs
+  nameWithType: DocumentClosingEventArgs
+  fullName: H.Controls.Dock.DocumentClosingEventArgs
+- uid: H.Controls.Dock.LayoutFloatingWindowControlClosedEventArgs
+  commentId: T:H.Controls.Dock.LayoutFloatingWindowControlClosedEventArgs
+  href: H.Controls.Dock.LayoutFloatingWindowControlClosedEventArgs.html
+  name: LayoutFloatingWindowControlClosedEventArgs
+  nameWithType: LayoutFloatingWindowControlClosedEventArgs
+  fullName: H.Controls.Dock.LayoutFloatingWindowControlClosedEventArgs
+- uid: H.Controls.Dock.LayoutFloatingWindowControlCreatedEventArgs
+  commentId: T:H.Controls.Dock.LayoutFloatingWindowControlCreatedEventArgs
+  href: H.Controls.Dock.LayoutFloatingWindowControlCreatedEventArgs.html
+  name: LayoutFloatingWindowControlCreatedEventArgs
+  nameWithType: LayoutFloatingWindowControlCreatedEventArgs
+  fullName: H.Controls.Dock.LayoutFloatingWindowControlCreatedEventArgs
+- uid: H.Controls.Dock.ReferenceEqualityComparer
+  commentId: T:H.Controls.Dock.ReferenceEqualityComparer
+  parent: H.Controls.Dock
+  href: H.Controls.Dock.ReferenceEqualityComparer.html
+  name: ReferenceEqualityComparer
+  nameWithType: ReferenceEqualityComparer
+  fullName: H.Controls.Dock.ReferenceEqualityComparer
+- uid: H.Controls.Dock
+  commentId: N:H.Controls.Dock
+  href: H.html
+  name: H.Controls.Dock
+  nameWithType: H.Controls.Dock
+  fullName: H.Controls.Dock
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Dock
+    name: Dock
+    href: H.Controls.Dock.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Dock
+    name: Dock
+    href: H.Controls.Dock.html

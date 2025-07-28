@@ -1,0 +1,547 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Themes.LayoutKeys
+  commentId: T:H.Themes.LayoutKeys
+  id: LayoutKeys
+  parent: H.Themes
+  children:
+  - H.Themes.LayoutKeys.CornerRadius
+  - H.Themes.LayoutKeys.IconHeight
+  - H.Themes.LayoutKeys.ItemHeight
+  - H.Themes.LayoutKeys.Margin
+  - H.Themes.LayoutKeys.Padding
+  - H.Themes.LayoutKeys.RowHeight
+  - H.Themes.LayoutKeys.WindowCaptionHeight
+  langs:
+  - csharp
+  - vb
+  name: LayoutKeys
+  nameWithType: LayoutKeys
+  fullName: H.Themes.LayoutKeys
+  type: Class
+  source:
+    id: LayoutKeys
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\LayoutKeys.xaml.cs
+    startLine: 10
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static class LayoutKeys
+    content.vb: Public Module LayoutKeys
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: H.Themes.LayoutKeys.RowHeight
+  commentId: P:H.Themes.LayoutKeys.RowHeight
+  id: RowHeight
+  parent: H.Themes.LayoutKeys
+  langs:
+  - csharp
+  - vb
+  name: RowHeight
+  nameWithType: LayoutKeys.RowHeight
+  fullName: H.Themes.LayoutKeys.RowHeight
+  type: Property
+  source:
+    id: RowHeight
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\LayoutKeys.xaml.cs
+    startLine: 12
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey RowHeight { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property RowHeight As ComponentResourceKey
+  overload: H.Themes.LayoutKeys.RowHeight*
+- uid: H.Themes.LayoutKeys.ItemHeight
+  commentId: P:H.Themes.LayoutKeys.ItemHeight
+  id: ItemHeight
+  parent: H.Themes.LayoutKeys
+  langs:
+  - csharp
+  - vb
+  name: ItemHeight
+  nameWithType: LayoutKeys.ItemHeight
+  fullName: H.Themes.LayoutKeys.ItemHeight
+  type: Property
+  source:
+    id: ItemHeight
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\LayoutKeys.xaml.cs
+    startLine: 13
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey ItemHeight { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property ItemHeight As ComponentResourceKey
+  overload: H.Themes.LayoutKeys.ItemHeight*
+- uid: H.Themes.LayoutKeys.WindowCaptionHeight
+  commentId: P:H.Themes.LayoutKeys.WindowCaptionHeight
+  id: WindowCaptionHeight
+  parent: H.Themes.LayoutKeys
+  langs:
+  - csharp
+  - vb
+  name: WindowCaptionHeight
+  nameWithType: LayoutKeys.WindowCaptionHeight
+  fullName: H.Themes.LayoutKeys.WindowCaptionHeight
+  type: Property
+  source:
+    id: WindowCaptionHeight
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\LayoutKeys.xaml.cs
+    startLine: 14
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey WindowCaptionHeight { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property WindowCaptionHeight As ComponentResourceKey
+  overload: H.Themes.LayoutKeys.WindowCaptionHeight*
+- uid: H.Themes.LayoutKeys.CornerRadius
+  commentId: P:H.Themes.LayoutKeys.CornerRadius
+  id: CornerRadius
+  parent: H.Themes.LayoutKeys
+  langs:
+  - csharp
+  - vb
+  name: CornerRadius
+  nameWithType: LayoutKeys.CornerRadius
+  fullName: H.Themes.LayoutKeys.CornerRadius
+  type: Property
+  source:
+    id: CornerRadius
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\LayoutKeys.xaml.cs
+    startLine: 15
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey CornerRadius { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property CornerRadius As ComponentResourceKey
+  overload: H.Themes.LayoutKeys.CornerRadius*
+- uid: H.Themes.LayoutKeys.Padding
+  commentId: P:H.Themes.LayoutKeys.Padding
+  id: Padding
+  parent: H.Themes.LayoutKeys
+  langs:
+  - csharp
+  - vb
+  name: Padding
+  nameWithType: LayoutKeys.Padding
+  fullName: H.Themes.LayoutKeys.Padding
+  type: Property
+  source:
+    id: Padding
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\LayoutKeys.xaml.cs
+    startLine: 17
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey Padding { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Padding As ComponentResourceKey
+  overload: H.Themes.LayoutKeys.Padding*
+- uid: H.Themes.LayoutKeys.Margin
+  commentId: P:H.Themes.LayoutKeys.Margin
+  id: Margin
+  parent: H.Themes.LayoutKeys
+  langs:
+  - csharp
+  - vb
+  name: Margin
+  nameWithType: LayoutKeys.Margin
+  fullName: H.Themes.LayoutKeys.Margin
+  type: Property
+  source:
+    id: Margin
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\LayoutKeys.xaml.cs
+    startLine: 19
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey Margin { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Margin As ComponentResourceKey
+  overload: H.Themes.LayoutKeys.Margin*
+- uid: H.Themes.LayoutKeys.IconHeight
+  commentId: P:H.Themes.LayoutKeys.IconHeight
+  id: IconHeight
+  parent: H.Themes.LayoutKeys
+  langs:
+  - csharp
+  - vb
+  name: IconHeight
+  nameWithType: LayoutKeys.IconHeight
+  fullName: H.Themes.LayoutKeys.IconHeight
+  type: Property
+  source:
+    id: IconHeight
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\LayoutKeys.xaml.cs
+    startLine: 21
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey IconHeight { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property IconHeight As ComponentResourceKey
+  overload: H.Themes.LayoutKeys.IconHeight*
+references:
+- uid: H.Themes
+  commentId: N:H.Themes
+  href: H.html
+  name: H.Themes
+  nameWithType: H.Themes
+  fullName: H.Themes
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Themes
+    name: Themes
+    href: H.Themes.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Themes
+    name: Themes
+    href: H.Themes.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: H.Themes.LayoutKeys.RowHeight*
+  commentId: Overload:H.Themes.LayoutKeys.RowHeight
+  href: H.Themes.LayoutKeys.html#H_Themes_LayoutKeys_RowHeight
+  name: RowHeight
+  nameWithType: LayoutKeys.RowHeight
+  fullName: H.Themes.LayoutKeys.RowHeight
+- uid: System.Windows.ComponentResourceKey
+  commentId: T:System.Windows.ComponentResourceKey
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.componentresourcekey
+  name: ComponentResourceKey
+  nameWithType: ComponentResourceKey
+  fullName: System.Windows.ComponentResourceKey
+- uid: System.Windows
+  commentId: N:System.Windows
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows
+  nameWithType: System.Windows
+  fullName: System.Windows
+  spec.csharp:
+  - uid: System
+    name: System
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  spec.vb:
+  - uid: System
+    name: System
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+- uid: H.Themes.LayoutKeys.ItemHeight*
+  commentId: Overload:H.Themes.LayoutKeys.ItemHeight
+  href: H.Themes.LayoutKeys.html#H_Themes_LayoutKeys_ItemHeight
+  name: ItemHeight
+  nameWithType: LayoutKeys.ItemHeight
+  fullName: H.Themes.LayoutKeys.ItemHeight
+- uid: H.Themes.LayoutKeys.WindowCaptionHeight*
+  commentId: Overload:H.Themes.LayoutKeys.WindowCaptionHeight
+  href: H.Themes.LayoutKeys.html#H_Themes_LayoutKeys_WindowCaptionHeight
+  name: WindowCaptionHeight
+  nameWithType: LayoutKeys.WindowCaptionHeight
+  fullName: H.Themes.LayoutKeys.WindowCaptionHeight
+- uid: H.Themes.LayoutKeys.CornerRadius*
+  commentId: Overload:H.Themes.LayoutKeys.CornerRadius
+  href: H.Themes.LayoutKeys.html#H_Themes_LayoutKeys_CornerRadius
+  name: CornerRadius
+  nameWithType: LayoutKeys.CornerRadius
+  fullName: H.Themes.LayoutKeys.CornerRadius
+- uid: H.Themes.LayoutKeys.Padding*
+  commentId: Overload:H.Themes.LayoutKeys.Padding
+  href: H.Themes.LayoutKeys.html#H_Themes_LayoutKeys_Padding
+  name: Padding
+  nameWithType: LayoutKeys.Padding
+  fullName: H.Themes.LayoutKeys.Padding
+- uid: H.Themes.LayoutKeys.Margin*
+  commentId: Overload:H.Themes.LayoutKeys.Margin
+  href: H.Themes.LayoutKeys.html#H_Themes_LayoutKeys_Margin
+  name: Margin
+  nameWithType: LayoutKeys.Margin
+  fullName: H.Themes.LayoutKeys.Margin
+- uid: H.Themes.LayoutKeys.IconHeight*
+  commentId: Overload:H.Themes.LayoutKeys.IconHeight
+  href: H.Themes.LayoutKeys.html#H_Themes_LayoutKeys_IconHeight
+  name: IconHeight
+  nameWithType: LayoutKeys.IconHeight
+  fullName: H.Themes.LayoutKeys.IconHeight

@@ -1,0 +1,78 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.VisionMaster.NodeGroup.Groups.Conditions
+  commentId: N:H.VisionMaster.NodeGroup.Groups.Conditions
+  id: H.VisionMaster.NodeGroup.Groups.Conditions
+  children:
+  - H.VisionMaster.NodeGroup.Groups.Conditions.ConditionDataGroup
+  - H.VisionMaster.NodeGroup.Groups.Conditions.IConditionGroupableNodeData
+  langs:
+  - csharp
+  - vb
+  name: H.VisionMaster.NodeGroup.Groups.Conditions
+  nameWithType: H.VisionMaster.NodeGroup.Groups.Conditions
+  fullName: H.VisionMaster.NodeGroup.Groups.Conditions
+  type: Namespace
+  assemblies:
+  - H.VisionMaster.NodeGroup
+references:
+- uid: H.VisionMaster.NodeGroup.Groups.Conditions.IConditionGroupableNodeData
+  commentId: T:H.VisionMaster.NodeGroup.Groups.Conditions.IConditionGroupableNodeData
+  parent: H.VisionMaster.NodeGroup.Groups.Conditions
+  href: H.VisionMaster.NodeGroup.Groups.Conditions.IConditionGroupableNodeData.html
+  name: IConditionGroupableNodeData
+  nameWithType: IConditionGroupableNodeData
+  fullName: H.VisionMaster.NodeGroup.Groups.Conditions.IConditionGroupableNodeData
+- uid: H.VisionMaster.NodeGroup.Groups.Conditions.ConditionDataGroup
+  commentId: T:H.VisionMaster.NodeGroup.Groups.Conditions.ConditionDataGroup
+  parent: H.VisionMaster.NodeGroup.Groups.Conditions
+  href: H.VisionMaster.NodeGroup.Groups.Conditions.ConditionDataGroup.html
+  name: ConditionDataGroup
+  nameWithType: ConditionDataGroup
+  fullName: H.VisionMaster.NodeGroup.Groups.Conditions.ConditionDataGroup
+- uid: H.VisionMaster.NodeGroup.Groups.Conditions
+  commentId: N:H.VisionMaster.NodeGroup.Groups.Conditions
+  href: H.html
+  name: H.VisionMaster.NodeGroup.Groups.Conditions
+  nameWithType: H.VisionMaster.NodeGroup.Groups.Conditions
+  fullName: H.VisionMaster.NodeGroup.Groups.Conditions
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup
+    name: NodeGroup
+    href: H.VisionMaster.NodeGroup.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup.Groups
+    name: Groups
+    href: H.VisionMaster.NodeGroup.Groups.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup.Groups.Conditions
+    name: Conditions
+    href: H.VisionMaster.NodeGroup.Groups.Conditions.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup
+    name: NodeGroup
+    href: H.VisionMaster.NodeGroup.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup.Groups
+    name: Groups
+    href: H.VisionMaster.NodeGroup.Groups.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup.Groups.Conditions
+    name: Conditions
+    href: H.VisionMaster.NodeGroup.Groups.Conditions.html

@@ -1,0 +1,84 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.Behvaiors.DataGrids
+  commentId: N:H.Extensions.Behvaiors.DataGrids
+  id: H.Extensions.Behvaiors.DataGrids
+  children:
+  - H.Extensions.Behvaiors.DataGrids.DataGridAutoColumnBehavior
+  - H.Extensions.Behvaiors.DataGrids.DataGridColumnAttribute
+  - H.Extensions.Behvaiors.DataGrids.DataGridDropBehavior
+  - H.Extensions.Behvaiors.DataGrids.IDataGridColumn
+  langs:
+  - csharp
+  - vb
+  name: H.Extensions.Behvaiors.DataGrids
+  nameWithType: H.Extensions.Behvaiors.DataGrids
+  fullName: H.Extensions.Behvaiors.DataGrids
+  type: Namespace
+  assemblies:
+  - H.Extensions.Behvaiors
+references:
+- uid: H.Extensions.Behvaiors.DataGrids.DataGridAutoColumnBehavior
+  commentId: T:H.Extensions.Behvaiors.DataGrids.DataGridAutoColumnBehavior
+  href: H.Extensions.Behvaiors.DataGrids.DataGridAutoColumnBehavior.html
+  name: DataGridAutoColumnBehavior
+  nameWithType: DataGridAutoColumnBehavior
+  fullName: H.Extensions.Behvaiors.DataGrids.DataGridAutoColumnBehavior
+- uid: H.Extensions.Behvaiors.DataGrids.DataGridColumnAttribute
+  commentId: T:H.Extensions.Behvaiors.DataGrids.DataGridColumnAttribute
+  parent: H.Extensions.Behvaiors.DataGrids
+  href: H.Extensions.Behvaiors.DataGrids.DataGridColumnAttribute.html
+  name: DataGridColumnAttribute
+  nameWithType: DataGridColumnAttribute
+  fullName: H.Extensions.Behvaiors.DataGrids.DataGridColumnAttribute
+- uid: H.Extensions.Behvaiors.DataGrids.DataGridDropBehavior
+  commentId: T:H.Extensions.Behvaiors.DataGrids.DataGridDropBehavior
+  href: H.Extensions.Behvaiors.DataGrids.DataGridDropBehavior.html
+  name: DataGridDropBehavior
+  nameWithType: DataGridDropBehavior
+  fullName: H.Extensions.Behvaiors.DataGrids.DataGridDropBehavior
+- uid: H.Extensions.Behvaiors.DataGrids.IDataGridColumn
+  commentId: T:H.Extensions.Behvaiors.DataGrids.IDataGridColumn
+  parent: H.Extensions.Behvaiors.DataGrids
+  href: H.Extensions.Behvaiors.DataGrids.IDataGridColumn.html
+  name: IDataGridColumn
+  nameWithType: IDataGridColumn
+  fullName: H.Extensions.Behvaiors.DataGrids.IDataGridColumn
+- uid: H.Extensions.Behvaiors.DataGrids
+  commentId: N:H.Extensions.Behvaiors.DataGrids
+  href: H.html
+  name: H.Extensions.Behvaiors.DataGrids
+  nameWithType: H.Extensions.Behvaiors.DataGrids
+  fullName: H.Extensions.Behvaiors.DataGrids
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Behvaiors
+    name: Behvaiors
+    href: H.Extensions.Behvaiors.html
+  - name: .
+  - uid: H.Extensions.Behvaiors.DataGrids
+    name: DataGrids
+    href: H.Extensions.Behvaiors.DataGrids.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Behvaiors
+    name: Behvaiors
+    href: H.Extensions.Behvaiors.html
+  - name: .
+  - uid: H.Extensions.Behvaiors.DataGrids
+    name: DataGrids
+    href: H.Extensions.Behvaiors.DataGrids.html

@@ -1,0 +1,113 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.DataBases.Sqlite
+  commentId: N:H.DataBases.Sqlite
+  id: H.DataBases.Sqlite
+  children:
+  - H.DataBases.Sqlite.ISqliteSettable
+  - H.DataBases.Sqlite.SqliteDbConnectService`1
+  - H.DataBases.Sqlite.SqliteSettable
+  - H.DataBases.Sqlite.SqliteSettableBase`1
+  langs:
+  - csharp
+  - vb
+  name: H.DataBases.Sqlite
+  nameWithType: H.DataBases.Sqlite
+  fullName: H.DataBases.Sqlite
+  type: Namespace
+  assemblies:
+  - H.DataBases.Sqlite
+references:
+- uid: H.DataBases.Sqlite.ISqliteSettable
+  commentId: T:H.DataBases.Sqlite.ISqliteSettable
+  parent: H.DataBases.Sqlite
+  href: H.DataBases.Sqlite.ISqliteSettable.html
+  name: ISqliteSettable
+  nameWithType: ISqliteSettable
+  fullName: H.DataBases.Sqlite.ISqliteSettable
+- uid: H.DataBases.Sqlite.SqliteDbConnectService`1
+  commentId: T:H.DataBases.Sqlite.SqliteDbConnectService`1
+  href: H.DataBases.Sqlite.SqliteDbConnectService-1.html
+  name: SqliteDbConnectService<TDbContext>
+  nameWithType: SqliteDbConnectService<TDbContext>
+  fullName: H.DataBases.Sqlite.SqliteDbConnectService<TDbContext>
+  nameWithType.vb: SqliteDbConnectService(Of TDbContext)
+  fullName.vb: H.DataBases.Sqlite.SqliteDbConnectService(Of TDbContext)
+  name.vb: SqliteDbConnectService(Of TDbContext)
+  spec.csharp:
+  - uid: H.DataBases.Sqlite.SqliteDbConnectService`1
+    name: SqliteDbConnectService
+    href: H.DataBases.Sqlite.SqliteDbConnectService-1.html
+  - name: <
+  - name: TDbContext
+  - name: '>'
+  spec.vb:
+  - uid: H.DataBases.Sqlite.SqliteDbConnectService`1
+    name: SqliteDbConnectService
+    href: H.DataBases.Sqlite.SqliteDbConnectService-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TDbContext
+  - name: )
+- uid: H.DataBases.Sqlite.SqliteSettable
+  commentId: T:H.DataBases.Sqlite.SqliteSettable
+  href: H.DataBases.Sqlite.SqliteSettable.html
+  name: SqliteSettable
+  nameWithType: SqliteSettable
+  fullName: H.DataBases.Sqlite.SqliteSettable
+- uid: H.DataBases.Sqlite.SqliteSettableBase`1
+  commentId: T:H.DataBases.Sqlite.SqliteSettableBase`1
+  href: H.DataBases.Sqlite.SqliteSettableBase-1.html
+  name: SqliteSettableBase<TSetting>
+  nameWithType: SqliteSettableBase<TSetting>
+  fullName: H.DataBases.Sqlite.SqliteSettableBase<TSetting>
+  nameWithType.vb: SqliteSettableBase(Of TSetting)
+  fullName.vb: H.DataBases.Sqlite.SqliteSettableBase(Of TSetting)
+  name.vb: SqliteSettableBase(Of TSetting)
+  spec.csharp:
+  - uid: H.DataBases.Sqlite.SqliteSettableBase`1
+    name: SqliteSettableBase
+    href: H.DataBases.Sqlite.SqliteSettableBase-1.html
+  - name: <
+  - name: TSetting
+  - name: '>'
+  spec.vb:
+  - uid: H.DataBases.Sqlite.SqliteSettableBase`1
+    name: SqliteSettableBase
+    href: H.DataBases.Sqlite.SqliteSettableBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSetting
+  - name: )
+- uid: H.DataBases.Sqlite
+  commentId: N:H.DataBases.Sqlite
+  href: H.html
+  name: H.DataBases.Sqlite
+  nameWithType: H.DataBases.Sqlite
+  fullName: H.DataBases.Sqlite
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.DataBases
+    name: DataBases
+    href: H.DataBases.html
+  - name: .
+  - uid: H.DataBases.Sqlite
+    name: Sqlite
+    href: H.DataBases.Sqlite.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.DataBases
+    name: DataBases
+    href: H.DataBases.html
+  - name: .
+  - uid: H.DataBases.Sqlite
+    name: Sqlite
+    href: H.DataBases.Sqlite.html

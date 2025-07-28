@@ -1,0 +1,205 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.VisionMaster.OpenCV.NodeDatas.Basic
+  commentId: N:H.VisionMaster.OpenCV.NodeDatas.Basic
+  id: H.VisionMaster.OpenCV.NodeDatas.Basic
+  children:
+  - H.VisionMaster.OpenCV.NodeDatas.Basic.AddSutract
+  - H.VisionMaster.OpenCV.NodeDatas.Basic.BitwiseNot
+  - H.VisionMaster.OpenCV.NodeDatas.Basic.Canny
+  - H.VisionMaster.OpenCV.NodeDatas.Basic.CvtColor
+  - H.VisionMaster.OpenCV.NodeDatas.Basic.DrawContourType
+  - H.VisionMaster.OpenCV.NodeDatas.Basic.FindContours
+  - H.VisionMaster.OpenCV.NodeDatas.Basic.Flip
+  - H.VisionMaster.OpenCV.NodeDatas.Basic.HSVInRange
+  - H.VisionMaster.OpenCV.NodeDatas.Basic.HomographyTransform
+  - H.VisionMaster.OpenCV.NodeDatas.Basic.MultiplayDivide
+  - H.VisionMaster.OpenCV.NodeDatas.Basic.Normalize
+  - H.VisionMaster.OpenCV.NodeDatas.Basic.Pow
+  - H.VisionMaster.OpenCV.NodeDatas.Basic.Repeat
+  - H.VisionMaster.OpenCV.NodeDatas.Basic.Resize
+  - H.VisionMaster.OpenCV.NodeDatas.Basic.ResizeMode
+  - H.VisionMaster.OpenCV.NodeDatas.Basic.Rotate
+  - H.VisionMaster.OpenCV.NodeDatas.Basic.SplitBGR
+  - H.VisionMaster.OpenCV.NodeDatas.Basic.SplitSelectType
+  - H.VisionMaster.OpenCV.NodeDatas.Basic.Threshold
+  - H.VisionMaster.OpenCV.NodeDatas.Basic.Transpose
+  langs:
+  - csharp
+  - vb
+  name: H.VisionMaster.OpenCV.NodeDatas.Basic
+  nameWithType: H.VisionMaster.OpenCV.NodeDatas.Basic
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Basic
+  type: Namespace
+  assemblies:
+  - H.VisionMaster.OpenCV
+references:
+- uid: H.VisionMaster.OpenCV.NodeDatas.Basic.AddSutract
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Basic.AddSutract
+  href: H.VisionMaster.OpenCV.NodeDatas.Basic.AddSutract.html
+  name: AddSutract
+  nameWithType: AddSutract
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Basic.AddSutract
+- uid: H.VisionMaster.OpenCV.NodeDatas.Basic.BitwiseNot
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Basic.BitwiseNot
+  href: H.VisionMaster.OpenCV.NodeDatas.Basic.BitwiseNot.html
+  name: BitwiseNot
+  nameWithType: BitwiseNot
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Basic.BitwiseNot
+- uid: H.VisionMaster.OpenCV.NodeDatas.Basic.CvtColor
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Basic.CvtColor
+  href: H.VisionMaster.OpenCV.NodeDatas.Basic.CvtColor.html
+  name: CvtColor
+  nameWithType: CvtColor
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Basic.CvtColor
+- uid: H.VisionMaster.OpenCV.NodeDatas.Basic.Flip
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Basic.Flip
+  href: H.VisionMaster.OpenCV.NodeDatas.Basic.Flip.html
+  name: Flip
+  nameWithType: Flip
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Basic.Flip
+- uid: H.VisionMaster.OpenCV.NodeDatas.Basic.MultiplayDivide
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Basic.MultiplayDivide
+  href: H.VisionMaster.OpenCV.NodeDatas.Basic.MultiplayDivide.html
+  name: MultiplayDivide
+  nameWithType: MultiplayDivide
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Basic.MultiplayDivide
+- uid: H.VisionMaster.OpenCV.NodeDatas.Basic.Normalize
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Basic.Normalize
+  href: H.VisionMaster.OpenCV.NodeDatas.Basic.Normalize.html
+  name: Normalize
+  nameWithType: Normalize
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Basic.Normalize
+- uid: H.VisionMaster.OpenCV.NodeDatas.Basic.Pow
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Basic.Pow
+  href: H.VisionMaster.OpenCV.NodeDatas.Basic.Pow.html
+  name: Pow
+  nameWithType: Pow
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Basic.Pow
+- uid: H.VisionMaster.OpenCV.NodeDatas.Basic.Transpose
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Basic.Transpose
+  href: H.VisionMaster.OpenCV.NodeDatas.Basic.Transpose.html
+  name: Transpose
+  nameWithType: Transpose
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Basic.Transpose
+- uid: H.VisionMaster.OpenCV.NodeDatas.Basic.Repeat
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Basic.Repeat
+  href: H.VisionMaster.OpenCV.NodeDatas.Basic.Repeat.html
+  name: Repeat
+  nameWithType: Repeat
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Basic.Repeat
+- uid: H.VisionMaster.OpenCV.NodeDatas.Basic.Resize
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Basic.Resize
+  href: H.VisionMaster.OpenCV.NodeDatas.Basic.Resize.html
+  name: Resize
+  nameWithType: Resize
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Basic.Resize
+- uid: H.VisionMaster.OpenCV.NodeDatas.Basic.ResizeMode
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Basic.ResizeMode
+  parent: H.VisionMaster.OpenCV.NodeDatas.Basic
+  href: H.VisionMaster.OpenCV.NodeDatas.Basic.ResizeMode.html
+  name: ResizeMode
+  nameWithType: ResizeMode
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Basic.ResizeMode
+- uid: H.VisionMaster.OpenCV.NodeDatas.Basic.Rotate
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Basic.Rotate
+  href: H.VisionMaster.OpenCV.NodeDatas.Basic.Rotate.html
+  name: Rotate
+  nameWithType: Rotate
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Basic.Rotate
+- uid: H.VisionMaster.OpenCV.NodeDatas.Basic.SplitBGR
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Basic.SplitBGR
+  href: H.VisionMaster.OpenCV.NodeDatas.Basic.SplitBGR.html
+  name: SplitBGR
+  nameWithType: SplitBGR
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Basic.SplitBGR
+- uid: H.VisionMaster.OpenCV.NodeDatas.Basic.SplitSelectType
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Basic.SplitSelectType
+  parent: H.VisionMaster.OpenCV.NodeDatas.Basic
+  href: H.VisionMaster.OpenCV.NodeDatas.Basic.SplitSelectType.html
+  name: SplitSelectType
+  nameWithType: SplitSelectType
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Basic.SplitSelectType
+- uid: H.VisionMaster.OpenCV.NodeDatas.Basic.Threshold
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Basic.Threshold
+  href: H.VisionMaster.OpenCV.NodeDatas.Basic.Threshold.html
+  name: Threshold
+  nameWithType: Threshold
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Basic.Threshold
+- uid: H.VisionMaster.OpenCV.NodeDatas.Basic.HSVInRange
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Basic.HSVInRange
+  href: H.VisionMaster.OpenCV.NodeDatas.Basic.HSVInRange.html
+  name: HSVInRange
+  nameWithType: HSVInRange
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Basic.HSVInRange
+- uid: H.VisionMaster.OpenCV.NodeDatas.Basic.Canny
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Basic.Canny
+  href: H.VisionMaster.OpenCV.NodeDatas.Basic.Canny.html
+  name: Canny
+  nameWithType: Canny
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Basic.Canny
+- uid: H.VisionMaster.OpenCV.NodeDatas.Basic.FindContours
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Basic.FindContours
+  href: H.VisionMaster.OpenCV.NodeDatas.Basic.FindContours.html
+  name: FindContours
+  nameWithType: FindContours
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Basic.FindContours
+- uid: H.VisionMaster.OpenCV.NodeDatas.Basic.DrawContourType
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Basic.DrawContourType
+  parent: H.VisionMaster.OpenCV.NodeDatas.Basic
+  href: H.VisionMaster.OpenCV.NodeDatas.Basic.DrawContourType.html
+  name: DrawContourType
+  nameWithType: DrawContourType
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Basic.DrawContourType
+- uid: H.VisionMaster.OpenCV.NodeDatas.Basic.HomographyTransform
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Basic.HomographyTransform
+  href: H.VisionMaster.OpenCV.NodeDatas.Basic.HomographyTransform.html
+  name: HomographyTransform
+  nameWithType: HomographyTransform
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Basic.HomographyTransform
+- uid: H.VisionMaster.OpenCV.NodeDatas.Basic
+  commentId: N:H.VisionMaster.OpenCV.NodeDatas.Basic
+  href: H.html
+  name: H.VisionMaster.OpenCV.NodeDatas.Basic
+  nameWithType: H.VisionMaster.OpenCV.NodeDatas.Basic
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Basic
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.OpenCV
+    name: OpenCV
+    href: H.VisionMaster.OpenCV.html
+  - name: .
+  - uid: H.VisionMaster.OpenCV.NodeDatas
+    name: NodeDatas
+    href: H.VisionMaster.OpenCV.NodeDatas.html
+  - name: .
+  - uid: H.VisionMaster.OpenCV.NodeDatas.Basic
+    name: Basic
+    href: H.VisionMaster.OpenCV.NodeDatas.Basic.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.OpenCV
+    name: OpenCV
+    href: H.VisionMaster.OpenCV.html
+  - name: .
+  - uid: H.VisionMaster.OpenCV.NodeDatas
+    name: NodeDatas
+    href: H.VisionMaster.OpenCV.NodeDatas.html
+  - name: .
+  - uid: H.VisionMaster.OpenCV.NodeDatas.Basic
+    name: Basic
+    href: H.VisionMaster.OpenCV.NodeDatas.Basic.html

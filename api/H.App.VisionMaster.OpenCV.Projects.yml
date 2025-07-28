@@ -1,0 +1,77 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.App.VisionMaster.OpenCV.Projects
+  commentId: N:H.App.VisionMaster.OpenCV.Projects
+  id: H.App.VisionMaster.OpenCV.Projects
+  children:
+  - H.App.VisionMaster.OpenCV.Projects.VisionProjectItem
+  - H.App.VisionMaster.OpenCV.Projects.VisionProjectService
+  langs:
+  - csharp
+  - vb
+  name: H.App.VisionMaster.OpenCV.Projects
+  nameWithType: H.App.VisionMaster.OpenCV.Projects
+  fullName: H.App.VisionMaster.OpenCV.Projects
+  type: Namespace
+  assemblies:
+  - H.App.VisionMaster.OpenCV
+references:
+- uid: H.App.VisionMaster.OpenCV.Projects.VisionProjectItem
+  commentId: T:H.App.VisionMaster.OpenCV.Projects.VisionProjectItem
+  parent: H.App.VisionMaster.OpenCV.Projects
+  href: H.App.VisionMaster.OpenCV.Projects.VisionProjectItem.html
+  name: VisionProjectItem
+  nameWithType: VisionProjectItem
+  fullName: H.App.VisionMaster.OpenCV.Projects.VisionProjectItem
+- uid: H.App.VisionMaster.OpenCV.Projects.VisionProjectService
+  commentId: T:H.App.VisionMaster.OpenCV.Projects.VisionProjectService
+  href: H.App.VisionMaster.OpenCV.Projects.VisionProjectService.html
+  name: VisionProjectService
+  nameWithType: VisionProjectService
+  fullName: H.App.VisionMaster.OpenCV.Projects.VisionProjectService
+- uid: H.App.VisionMaster.OpenCV.Projects
+  commentId: N:H.App.VisionMaster.OpenCV.Projects
+  href: H.html
+  name: H.App.VisionMaster.OpenCV.Projects
+  nameWithType: H.App.VisionMaster.OpenCV.Projects
+  fullName: H.App.VisionMaster.OpenCV.Projects
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.App
+    name: App
+    href: H.App.html
+  - name: .
+  - uid: H.App.VisionMaster
+    name: VisionMaster
+    href: H.App.VisionMaster.html
+  - name: .
+  - uid: H.App.VisionMaster.OpenCV
+    name: OpenCV
+    href: H.App.VisionMaster.OpenCV.html
+  - name: .
+  - uid: H.App.VisionMaster.OpenCV.Projects
+    name: Projects
+    href: H.App.VisionMaster.OpenCV.Projects.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.App
+    name: App
+    href: H.App.html
+  - name: .
+  - uid: H.App.VisionMaster
+    name: VisionMaster
+    href: H.App.VisionMaster.html
+  - name: .
+  - uid: H.App.VisionMaster.OpenCV
+    name: OpenCV
+    href: H.App.VisionMaster.OpenCV.html
+  - name: .
+  - uid: H.App.VisionMaster.OpenCV.Projects
+    name: Projects
+    href: H.App.VisionMaster.OpenCV.Projects.html

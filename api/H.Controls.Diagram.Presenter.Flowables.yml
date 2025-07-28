@@ -1,0 +1,213 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.Diagram.Presenter.Flowables
+  commentId: N:H.Controls.Diagram.Presenter.Flowables
+  id: H.Controls.Diagram.Presenter.Flowables
+  children:
+  - H.Controls.Diagram.Presenter.Flowables.DiagramFlowableMode
+  - H.Controls.Diagram.Presenter.Flowables.DiagramFlowableState
+  - H.Controls.Diagram.Presenter.Flowables.DiagramFlowableZoomMode
+  - H.Controls.Diagram.Presenter.Flowables.FlowableExtension
+  - H.Controls.Diagram.Presenter.Flowables.FlowableInvokeMode
+  - H.Controls.Diagram.Presenter.Flowables.FlowableResult
+  - H.Controls.Diagram.Presenter.Flowables.FlowableResultState
+  - H.Controls.Diagram.Presenter.Flowables.FlowableResult`1
+  - H.Controls.Diagram.Presenter.Flowables.FlowableState
+  - H.Controls.Diagram.Presenter.Flowables.IFlowableDiagram
+  - H.Controls.Diagram.Presenter.Flowables.IFlowableLinkData
+  - H.Controls.Diagram.Presenter.Flowables.IFlowableNodeData
+  - H.Controls.Diagram.Presenter.Flowables.IFlowablePartData
+  - H.Controls.Diagram.Presenter.Flowables.IFlowablePortData
+  - H.Controls.Diagram.Presenter.Flowables.IFlowableResult
+  - H.Controls.Diagram.Presenter.Flowables.PartDataInvokable
+  - H.Controls.Diagram.Presenter.Flowables.PartInvokable
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.Diagram.Presenter.Flowables
+  nameWithType: H.Controls.Diagram.Presenter.Flowables
+  fullName: H.Controls.Diagram.Presenter.Flowables
+  type: Namespace
+  assemblies:
+  - H.Controls.Diagram.Presenter
+references:
+- uid: H.Controls.Diagram.Presenter.Flowables.DiagramFlowableMode
+  commentId: T:H.Controls.Diagram.Presenter.Flowables.DiagramFlowableMode
+  parent: H.Controls.Diagram.Presenter.Flowables
+  href: H.Controls.Diagram.Presenter.Flowables.DiagramFlowableMode.html
+  name: DiagramFlowableMode
+  nameWithType: DiagramFlowableMode
+  fullName: H.Controls.Diagram.Presenter.Flowables.DiagramFlowableMode
+- uid: H.Controls.Diagram.Presenter.Flowables.DiagramFlowableState
+  commentId: T:H.Controls.Diagram.Presenter.Flowables.DiagramFlowableState
+  parent: H.Controls.Diagram.Presenter.Flowables
+  href: H.Controls.Diagram.Presenter.Flowables.DiagramFlowableState.html
+  name: DiagramFlowableState
+  nameWithType: DiagramFlowableState
+  fullName: H.Controls.Diagram.Presenter.Flowables.DiagramFlowableState
+- uid: H.Controls.Diagram.Presenter.Flowables.DiagramFlowableZoomMode
+  commentId: T:H.Controls.Diagram.Presenter.Flowables.DiagramFlowableZoomMode
+  parent: H.Controls.Diagram.Presenter.Flowables
+  href: H.Controls.Diagram.Presenter.Flowables.DiagramFlowableZoomMode.html
+  name: DiagramFlowableZoomMode
+  nameWithType: DiagramFlowableZoomMode
+  fullName: H.Controls.Diagram.Presenter.Flowables.DiagramFlowableZoomMode
+- uid: H.Controls.Diagram.Presenter.Flowables.IFlowableDiagram
+  commentId: T:H.Controls.Diagram.Presenter.Flowables.IFlowableDiagram
+  href: H.Controls.Diagram.Presenter.Flowables.IFlowableDiagram.html
+  name: IFlowableDiagram
+  nameWithType: IFlowableDiagram
+  fullName: H.Controls.Diagram.Presenter.Flowables.IFlowableDiagram
+- uid: H.Controls.Diagram.Presenter.Flowables.FlowableExtension
+  commentId: T:H.Controls.Diagram.Presenter.Flowables.FlowableExtension
+  parent: H.Controls.Diagram.Presenter.Flowables
+  href: H.Controls.Diagram.Presenter.Flowables.FlowableExtension.html
+  name: FlowableExtension
+  nameWithType: FlowableExtension
+  fullName: H.Controls.Diagram.Presenter.Flowables.FlowableExtension
+- uid: H.Controls.Diagram.Presenter.Flowables.PartInvokable
+  commentId: T:H.Controls.Diagram.Presenter.Flowables.PartInvokable
+  href: H.Controls.Diagram.Presenter.Flowables.PartInvokable.html
+  name: PartInvokable
+  nameWithType: PartInvokable
+  fullName: H.Controls.Diagram.Presenter.Flowables.PartInvokable
+- uid: H.Controls.Diagram.Presenter.Flowables.PartDataInvokable
+  commentId: T:H.Controls.Diagram.Presenter.Flowables.PartDataInvokable
+  href: H.Controls.Diagram.Presenter.Flowables.PartDataInvokable.html
+  name: PartDataInvokable
+  nameWithType: PartDataInvokable
+  fullName: H.Controls.Diagram.Presenter.Flowables.PartDataInvokable
+- uid: H.Controls.Diagram.Presenter.Flowables.FlowableInvokeMode
+  commentId: T:H.Controls.Diagram.Presenter.Flowables.FlowableInvokeMode
+  parent: H.Controls.Diagram.Presenter.Flowables
+  href: H.Controls.Diagram.Presenter.Flowables.FlowableInvokeMode.html
+  name: FlowableInvokeMode
+  nameWithType: FlowableInvokeMode
+  fullName: H.Controls.Diagram.Presenter.Flowables.FlowableInvokeMode
+- uid: H.Controls.Diagram.Presenter.Flowables.FlowableResult
+  commentId: T:H.Controls.Diagram.Presenter.Flowables.FlowableResult
+  parent: H.Controls.Diagram.Presenter.Flowables
+  href: H.Controls.Diagram.Presenter.Flowables.FlowableResult.html
+  name: FlowableResult
+  nameWithType: FlowableResult
+  fullName: H.Controls.Diagram.Presenter.Flowables.FlowableResult
+- uid: H.Controls.Diagram.Presenter.Flowables.FlowableResult`1
+  commentId: T:H.Controls.Diagram.Presenter.Flowables.FlowableResult`1
+  href: H.Controls.Diagram.Presenter.Flowables.FlowableResult-1.html
+  name: FlowableResult<T>
+  nameWithType: FlowableResult<T>
+  fullName: H.Controls.Diagram.Presenter.Flowables.FlowableResult<T>
+  nameWithType.vb: FlowableResult(Of T)
+  fullName.vb: H.Controls.Diagram.Presenter.Flowables.FlowableResult(Of T)
+  name.vb: FlowableResult(Of T)
+  spec.csharp:
+  - uid: H.Controls.Diagram.Presenter.Flowables.FlowableResult`1
+    name: FlowableResult
+    href: H.Controls.Diagram.Presenter.Flowables.FlowableResult-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Controls.Diagram.Presenter.Flowables.FlowableResult`1
+    name: FlowableResult
+    href: H.Controls.Diagram.Presenter.Flowables.FlowableResult-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Controls.Diagram.Presenter.Flowables.FlowableResultState
+  commentId: T:H.Controls.Diagram.Presenter.Flowables.FlowableResultState
+  parent: H.Controls.Diagram.Presenter.Flowables
+  href: H.Controls.Diagram.Presenter.Flowables.FlowableResultState.html
+  name: FlowableResultState
+  nameWithType: FlowableResultState
+  fullName: H.Controls.Diagram.Presenter.Flowables.FlowableResultState
+- uid: H.Controls.Diagram.Presenter.Flowables.FlowableState
+  commentId: T:H.Controls.Diagram.Presenter.Flowables.FlowableState
+  parent: H.Controls.Diagram.Presenter.Flowables
+  href: H.Controls.Diagram.Presenter.Flowables.FlowableState.html
+  name: FlowableState
+  nameWithType: FlowableState
+  fullName: H.Controls.Diagram.Presenter.Flowables.FlowableState
+- uid: H.Controls.Diagram.Presenter.Flowables.IFlowableLinkData
+  commentId: T:H.Controls.Diagram.Presenter.Flowables.IFlowableLinkData
+  parent: H.Controls.Diagram.Presenter.Flowables
+  href: H.Controls.Diagram.Presenter.Flowables.IFlowableLinkData.html
+  name: IFlowableLinkData
+  nameWithType: IFlowableLinkData
+  fullName: H.Controls.Diagram.Presenter.Flowables.IFlowableLinkData
+- uid: H.Controls.Diagram.Presenter.Flowables.IFlowableNodeData
+  commentId: T:H.Controls.Diagram.Presenter.Flowables.IFlowableNodeData
+  parent: H.Controls.Diagram.Presenter.Flowables
+  href: H.Controls.Diagram.Presenter.Flowables.IFlowableNodeData.html
+  name: IFlowableNodeData
+  nameWithType: IFlowableNodeData
+  fullName: H.Controls.Diagram.Presenter.Flowables.IFlowableNodeData
+- uid: H.Controls.Diagram.Presenter.Flowables.IFlowablePartData
+  commentId: T:H.Controls.Diagram.Presenter.Flowables.IFlowablePartData
+  parent: H.Controls.Diagram.Presenter.Flowables
+  href: H.Controls.Diagram.Presenter.Flowables.IFlowablePartData.html
+  name: IFlowablePartData
+  nameWithType: IFlowablePartData
+  fullName: H.Controls.Diagram.Presenter.Flowables.IFlowablePartData
+- uid: H.Controls.Diagram.Presenter.Flowables.IFlowablePortData
+  commentId: T:H.Controls.Diagram.Presenter.Flowables.IFlowablePortData
+  parent: H.Controls.Diagram.Presenter.Flowables
+  href: H.Controls.Diagram.Presenter.Flowables.IFlowablePortData.html
+  name: IFlowablePortData
+  nameWithType: IFlowablePortData
+  fullName: H.Controls.Diagram.Presenter.Flowables.IFlowablePortData
+- uid: H.Controls.Diagram.Presenter.Flowables.IFlowableResult
+  commentId: T:H.Controls.Diagram.Presenter.Flowables.IFlowableResult
+  parent: H.Controls.Diagram.Presenter.Flowables
+  href: H.Controls.Diagram.Presenter.Flowables.IFlowableResult.html
+  name: IFlowableResult
+  nameWithType: IFlowableResult
+  fullName: H.Controls.Diagram.Presenter.Flowables.IFlowableResult
+- uid: H.Controls.Diagram.Presenter.Flowables
+  commentId: N:H.Controls.Diagram.Presenter.Flowables
+  href: H.html
+  name: H.Controls.Diagram.Presenter.Flowables
+  nameWithType: H.Controls.Diagram.Presenter.Flowables
+  fullName: H.Controls.Diagram.Presenter.Flowables
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter
+    name: Presenter
+    href: H.Controls.Diagram.Presenter.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter.Flowables
+    name: Flowables
+    href: H.Controls.Diagram.Presenter.Flowables.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter
+    name: Presenter
+    href: H.Controls.Diagram.Presenter.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter.Flowables
+    name: Flowables
+    href: H.Controls.Diagram.Presenter.Flowables.html

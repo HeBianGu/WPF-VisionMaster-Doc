@@ -1,0 +1,97 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.Vlc
+  commentId: N:H.Controls.Vlc
+  id: H.Controls.Vlc
+  children:
+  - H.Controls.Vlc.FullScreenType
+  - H.Controls.Vlc.FullWindow
+  - H.Controls.Vlc.IService
+  - H.Controls.Vlc.Service
+  - H.Controls.Vlc.VlcPlayer
+  - H.Controls.Vlc.VlcPlayerCommands
+  - H.Controls.Vlc.VlcSetting
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.Vlc
+  nameWithType: H.Controls.Vlc
+  fullName: H.Controls.Vlc
+  type: Namespace
+  assemblies:
+  - H.Controls.Vlc
+references:
+- uid: H.Controls.Vlc.FullWindow
+  commentId: T:H.Controls.Vlc.FullWindow
+  href: H.Controls.Vlc.FullWindow.html
+  name: FullWindow
+  nameWithType: FullWindow
+  fullName: H.Controls.Vlc.FullWindow
+- uid: H.Controls.Vlc.Service
+  commentId: T:H.Controls.Vlc.Service
+  href: H.Controls.Vlc.Service.html
+  name: Service
+  nameWithType: Service
+  fullName: H.Controls.Vlc.Service
+- uid: H.Controls.Vlc.IService
+  commentId: T:H.Controls.Vlc.IService
+  parent: H.Controls.Vlc
+  href: H.Controls.Vlc.IService.html
+  name: IService
+  nameWithType: IService
+  fullName: H.Controls.Vlc.IService
+- uid: H.Controls.Vlc.FullScreenType
+  commentId: T:H.Controls.Vlc.FullScreenType
+  parent: H.Controls.Vlc
+  href: H.Controls.Vlc.FullScreenType.html
+  name: FullScreenType
+  nameWithType: FullScreenType
+  fullName: H.Controls.Vlc.FullScreenType
+- uid: H.Controls.Vlc.VlcPlayer
+  commentId: T:H.Controls.Vlc.VlcPlayer
+  href: H.Controls.Vlc.VlcPlayer.html
+  name: VlcPlayer
+  nameWithType: VlcPlayer
+  fullName: H.Controls.Vlc.VlcPlayer
+- uid: H.Controls.Vlc.VlcPlayerCommands
+  commentId: T:H.Controls.Vlc.VlcPlayerCommands
+  href: H.Controls.Vlc.VlcPlayerCommands.html
+  name: VlcPlayerCommands
+  nameWithType: VlcPlayerCommands
+  fullName: H.Controls.Vlc.VlcPlayerCommands
+- uid: H.Controls.Vlc.VlcSetting
+  commentId: T:H.Controls.Vlc.VlcSetting
+  href: H.Controls.Vlc.VlcSetting.html
+  name: VlcSetting
+  nameWithType: VlcSetting
+  fullName: H.Controls.Vlc.VlcSetting
+- uid: H.Controls.Vlc
+  commentId: N:H.Controls.Vlc
+  href: H.html
+  name: H.Controls.Vlc
+  nameWithType: H.Controls.Vlc
+  fullName: H.Controls.Vlc
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Vlc
+    name: Vlc
+    href: H.Controls.Vlc.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Vlc
+    name: Vlc
+    href: H.Controls.Vlc.html

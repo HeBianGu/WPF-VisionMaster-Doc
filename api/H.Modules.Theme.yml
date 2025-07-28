@@ -1,0 +1,113 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Modules.Theme
+  commentId: N:H.Modules.Theme
+  id: H.Modules.Theme
+  children:
+  - H.Modules.Theme.ColorThemeViewPresenter
+  - H.Modules.Theme.IColorThemeOptions
+  - H.Modules.Theme.IColorThemeViewPresenter
+  - H.Modules.Theme.IIconFontFamilysOptions
+  - H.Modules.Theme.IThemeOptions
+  - H.Modules.Theme.LoadThemeOptionsService
+  - H.Modules.Theme.ShowColorThemeViewCommand
+  - H.Modules.Theme.SwitchThemeViewPresenter
+  - H.Modules.Theme.ThemeOptions
+  langs:
+  - csharp
+  - vb
+  name: H.Modules.Theme
+  nameWithType: H.Modules.Theme
+  fullName: H.Modules.Theme
+  type: Namespace
+  assemblies:
+  - H.Modules.Theme
+references:
+- uid: H.Modules.Theme.ColorThemeViewPresenter
+  commentId: T:H.Modules.Theme.ColorThemeViewPresenter
+  href: H.Modules.Theme.ColorThemeViewPresenter.html
+  name: ColorThemeViewPresenter
+  nameWithType: ColorThemeViewPresenter
+  fullName: H.Modules.Theme.ColorThemeViewPresenter
+- uid: H.Modules.Theme.IColorThemeOptions
+  commentId: T:H.Modules.Theme.IColorThemeOptions
+  parent: H.Modules.Theme
+  href: H.Modules.Theme.IColorThemeOptions.html
+  name: IColorThemeOptions
+  nameWithType: IColorThemeOptions
+  fullName: H.Modules.Theme.IColorThemeOptions
+- uid: H.Modules.Theme.IColorThemeViewPresenter
+  commentId: T:H.Modules.Theme.IColorThemeViewPresenter
+  parent: H.Modules.Theme
+  href: H.Modules.Theme.IColorThemeViewPresenter.html
+  name: IColorThemeViewPresenter
+  nameWithType: IColorThemeViewPresenter
+  fullName: H.Modules.Theme.IColorThemeViewPresenter
+- uid: H.Modules.Theme.IIconFontFamilysOptions
+  commentId: T:H.Modules.Theme.IIconFontFamilysOptions
+  parent: H.Modules.Theme
+  href: H.Modules.Theme.IIconFontFamilysOptions.html
+  name: IIconFontFamilysOptions
+  nameWithType: IIconFontFamilysOptions
+  fullName: H.Modules.Theme.IIconFontFamilysOptions
+- uid: H.Modules.Theme.IThemeOptions
+  commentId: T:H.Modules.Theme.IThemeOptions
+  parent: H.Modules.Theme
+  href: H.Modules.Theme.IThemeOptions.html
+  name: IThemeOptions
+  nameWithType: IThemeOptions
+  fullName: H.Modules.Theme.IThemeOptions
+- uid: H.Modules.Theme.LoadThemeOptionsService
+  commentId: T:H.Modules.Theme.LoadThemeOptionsService
+  href: H.Modules.Theme.LoadThemeOptionsService.html
+  name: LoadThemeOptionsService
+  nameWithType: LoadThemeOptionsService
+  fullName: H.Modules.Theme.LoadThemeOptionsService
+- uid: H.Modules.Theme.ShowColorThemeViewCommand
+  commentId: T:H.Modules.Theme.ShowColorThemeViewCommand
+  href: H.Modules.Theme.ShowColorThemeViewCommand.html
+  name: ShowColorThemeViewCommand
+  nameWithType: ShowColorThemeViewCommand
+  fullName: H.Modules.Theme.ShowColorThemeViewCommand
+- uid: H.Modules.Theme.SwitchThemeViewPresenter
+  commentId: T:H.Modules.Theme.SwitchThemeViewPresenter
+  href: H.Modules.Theme.SwitchThemeViewPresenter.html
+  name: SwitchThemeViewPresenter
+  nameWithType: SwitchThemeViewPresenter
+  fullName: H.Modules.Theme.SwitchThemeViewPresenter
+- uid: H.Modules.Theme.ThemeOptions
+  commentId: T:H.Modules.Theme.ThemeOptions
+  href: H.Modules.Theme.ThemeOptions.html
+  name: ThemeOptions
+  nameWithType: ThemeOptions
+  fullName: H.Modules.Theme.ThemeOptions
+- uid: H.Modules.Theme
+  commentId: N:H.Modules.Theme
+  href: H.html
+  name: H.Modules.Theme
+  nameWithType: H.Modules.Theme
+  fullName: H.Modules.Theme
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Modules
+    name: Modules
+    href: H.Modules.html
+  - name: .
+  - uid: H.Modules.Theme
+    name: Theme
+    href: H.Modules.Theme.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Modules
+    name: Modules
+    href: H.Modules.html
+  - name: .
+  - uid: H.Modules.Theme
+    name: Theme
+    href: H.Modules.Theme.html

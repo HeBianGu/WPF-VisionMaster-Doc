@@ -1,0 +1,132 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.PrintBox
+  commentId: N:H.Controls.PrintBox
+  id: H.Controls.PrintBox
+  children:
+  - H.Controls.PrintBox.DocumentViewPresenter
+  - H.Controls.PrintBox.IPagerSizeViewPresenter
+  - H.Controls.PrintBox.PageSize
+  - H.Controls.PrintBox.PageSizeNames
+  - H.Controls.PrintBox.PagerSizeViewPresenter
+  - H.Controls.PrintBox.PrintBox
+  - H.Controls.PrintBox.PrintBoxSetting
+  - H.Controls.PrintBox.PrintCommands
+  - H.Controls.PrintBox.PrintDocumentViewer
+  - H.Controls.PrintBox.PrintPage
+  - H.Controls.PrintBox.PrintProvider
+  - H.Controls.PrintBox.PrintRuler
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.PrintBox
+  nameWithType: H.Controls.PrintBox
+  fullName: H.Controls.PrintBox
+  type: Namespace
+  assemblies:
+  - H.Controls.PrintBox
+references:
+- uid: H.Controls.PrintBox.DocumentViewPresenter
+  commentId: T:H.Controls.PrintBox.DocumentViewPresenter
+  href: H.Controls.PrintBox.DocumentViewPresenter.html
+  name: DocumentViewPresenter
+  nameWithType: DocumentViewPresenter
+  fullName: H.Controls.PrintBox.DocumentViewPresenter
+- uid: H.Controls.PrintBox.IPagerSizeViewPresenter
+  commentId: T:H.Controls.PrintBox.IPagerSizeViewPresenter
+  parent: H.Controls.PrintBox
+  href: H.Controls.PrintBox.IPagerSizeViewPresenter.html
+  name: IPagerSizeViewPresenter
+  nameWithType: IPagerSizeViewPresenter
+  fullName: H.Controls.PrintBox.IPagerSizeViewPresenter
+- uid: H.Controls.PrintBox.PagerSizeViewPresenter
+  commentId: T:H.Controls.PrintBox.PagerSizeViewPresenter
+  href: H.Controls.PrintBox.PagerSizeViewPresenter.html
+  name: PagerSizeViewPresenter
+  nameWithType: PagerSizeViewPresenter
+  fullName: H.Controls.PrintBox.PagerSizeViewPresenter
+- uid: H.Controls.PrintBox.PageSizeNames
+  commentId: T:H.Controls.PrintBox.PageSizeNames
+  href: H.Controls.PrintBox.PageSizeNames.html
+  name: PageSizeNames
+  nameWithType: PageSizeNames
+  fullName: H.Controls.PrintBox.PageSizeNames
+- uid: H.Controls.PrintBox.PageSize
+  commentId: T:H.Controls.PrintBox.PageSize
+  parent: H.Controls.PrintBox
+  href: H.Controls.PrintBox.PageSize.html
+  name: PageSize
+  nameWithType: PageSize
+  fullName: H.Controls.PrintBox.PageSize
+- uid: H.Controls.PrintBox.PrintBox
+  commentId: T:H.Controls.PrintBox.PrintBox
+  href: H.Controls.PrintBox.PrintBox.html
+  name: PrintBox
+  nameWithType: PrintBox
+  fullName: H.Controls.PrintBox.PrintBox
+- uid: H.Controls.PrintBox.PrintBoxSetting
+  commentId: T:H.Controls.PrintBox.PrintBoxSetting
+  href: H.Controls.PrintBox.PrintBoxSetting.html
+  name: PrintBoxSetting
+  nameWithType: PrintBoxSetting
+  fullName: H.Controls.PrintBox.PrintBoxSetting
+- uid: H.Controls.PrintBox.PrintCommands
+  commentId: T:H.Controls.PrintBox.PrintCommands
+  href: H.Controls.PrintBox.PrintCommands.html
+  name: PrintCommands
+  nameWithType: PrintCommands
+  fullName: H.Controls.PrintBox.PrintCommands
+- uid: H.Controls.PrintBox.PrintDocumentViewer
+  commentId: T:H.Controls.PrintBox.PrintDocumentViewer
+  href: H.Controls.PrintBox.PrintDocumentViewer.html
+  name: PrintDocumentViewer
+  nameWithType: PrintDocumentViewer
+  fullName: H.Controls.PrintBox.PrintDocumentViewer
+- uid: H.Controls.PrintBox.PrintPage
+  commentId: T:H.Controls.PrintBox.PrintPage
+  href: H.Controls.PrintBox.PrintPage.html
+  name: PrintPage
+  nameWithType: PrintPage
+  fullName: H.Controls.PrintBox.PrintPage
+- uid: H.Controls.PrintBox.PrintProvider
+  commentId: T:H.Controls.PrintBox.PrintProvider
+  href: H.Controls.PrintBox.PrintProvider.html
+  name: PrintProvider
+  nameWithType: PrintProvider
+  fullName: H.Controls.PrintBox.PrintProvider
+- uid: H.Controls.PrintBox.PrintRuler
+  commentId: T:H.Controls.PrintBox.PrintRuler
+  href: H.Controls.PrintBox.PrintRuler.html
+  name: PrintRuler
+  nameWithType: PrintRuler
+  fullName: H.Controls.PrintBox.PrintRuler
+- uid: H.Controls.PrintBox
+  commentId: N:H.Controls.PrintBox
+  href: H.html
+  name: H.Controls.PrintBox
+  nameWithType: H.Controls.PrintBox
+  fullName: H.Controls.PrintBox
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.PrintBox
+    name: PrintBox
+    href: H.Controls.PrintBox.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.PrintBox
+    name: PrintBox
+    href: H.Controls.PrintBox.html

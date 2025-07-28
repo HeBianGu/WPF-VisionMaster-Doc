@@ -1,0 +1,142 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.VisionMaster.OpenCV.NodeDatas.Detector
+  commentId: N:H.VisionMaster.OpenCV.NodeDatas.Detector
+  id: H.VisionMaster.OpenCV.NodeDatas.Detector
+  children:
+  - H.VisionMaster.OpenCV.NodeDatas.Detector.BestMatchBase64TemplateMatchingNodeData
+  - H.VisionMaster.OpenCV.NodeDatas.Detector.BlobDetector
+  - H.VisionMaster.OpenCV.NodeDatas.Detector.BlobType
+  - H.VisionMaster.OpenCV.NodeDatas.Detector.HSVInRangeRenderBlobMatchingNodeData
+  - H.VisionMaster.OpenCV.NodeDatas.Detector.HoughLines
+  - H.VisionMaster.OpenCV.NodeDatas.Detector.HoughLinesP
+  - H.VisionMaster.OpenCV.NodeDatas.Detector.HoughLinesPBase
+  - H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension
+  - H.VisionMaster.OpenCV.NodeDatas.Detector.QRCode
+  - H.VisionMaster.OpenCV.NodeDatas.Detector.RenderBlobs
+  - H.VisionMaster.OpenCV.NodeDatas.Detector.TemplateBase64MatchingNodeData
+  langs:
+  - csharp
+  - vb
+  name: H.VisionMaster.OpenCV.NodeDatas.Detector
+  nameWithType: H.VisionMaster.OpenCV.NodeDatas.Detector
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Detector
+  type: Namespace
+  assemblies:
+  - H.VisionMaster.OpenCV
+references:
+- uid: H.VisionMaster.OpenCV.NodeDatas.Detector.BestMatchBase64TemplateMatchingNodeData
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Detector.BestMatchBase64TemplateMatchingNodeData
+  href: H.VisionMaster.OpenCV.NodeDatas.Detector.BestMatchBase64TemplateMatchingNodeData.html
+  name: BestMatchBase64TemplateMatchingNodeData
+  nameWithType: BestMatchBase64TemplateMatchingNodeData
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Detector.BestMatchBase64TemplateMatchingNodeData
+- uid: H.VisionMaster.OpenCV.NodeDatas.Detector.HSVInRangeRenderBlobMatchingNodeData
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Detector.HSVInRangeRenderBlobMatchingNodeData
+  href: H.VisionMaster.OpenCV.NodeDatas.Detector.HSVInRangeRenderBlobMatchingNodeData.html
+  name: HSVInRangeRenderBlobMatchingNodeData
+  nameWithType: HSVInRangeRenderBlobMatchingNodeData
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Detector.HSVInRangeRenderBlobMatchingNodeData
+- uid: H.VisionMaster.OpenCV.NodeDatas.Detector.TemplateBase64MatchingNodeData
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Detector.TemplateBase64MatchingNodeData
+  href: H.VisionMaster.OpenCV.NodeDatas.Detector.TemplateBase64MatchingNodeData.html
+  name: TemplateBase64MatchingNodeData
+  nameWithType: TemplateBase64MatchingNodeData
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Detector.TemplateBase64MatchingNodeData
+- uid: H.VisionMaster.OpenCV.NodeDatas.Detector.BlobDetector
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Detector.BlobDetector
+  href: H.VisionMaster.OpenCV.NodeDatas.Detector.BlobDetector.html
+  name: BlobDetector
+  nameWithType: BlobDetector
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Detector.BlobDetector
+- uid: H.VisionMaster.OpenCV.NodeDatas.Detector.BlobType
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Detector.BlobType
+  parent: H.VisionMaster.OpenCV.NodeDatas.Detector
+  href: H.VisionMaster.OpenCV.NodeDatas.Detector.BlobType.html
+  name: BlobType
+  nameWithType: BlobType
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Detector.BlobType
+- uid: H.VisionMaster.OpenCV.NodeDatas.Detector.HoughLines
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Detector.HoughLines
+  href: H.VisionMaster.OpenCV.NodeDatas.Detector.HoughLines.html
+  name: HoughLines
+  nameWithType: HoughLines
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Detector.HoughLines
+- uid: H.VisionMaster.OpenCV.NodeDatas.Detector.HoughLinesP
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Detector.HoughLinesP
+  href: H.VisionMaster.OpenCV.NodeDatas.Detector.HoughLinesP.html
+  name: HoughLinesP
+  nameWithType: HoughLinesP
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Detector.HoughLinesP
+- uid: H.VisionMaster.OpenCV.NodeDatas.Detector.HoughLinesPBase
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Detector.HoughLinesPBase
+  parent: H.VisionMaster.OpenCV.NodeDatas.Detector
+  href: H.VisionMaster.OpenCV.NodeDatas.Detector.HoughLinesPBase.html
+  name: HoughLinesPBase
+  nameWithType: HoughLinesPBase
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Detector.HoughLinesPBase
+- uid: H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension
+  href: H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.html
+  name: LineSegmentPointExtension
+  nameWithType: LineSegmentPointExtension
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension
+- uid: H.VisionMaster.OpenCV.NodeDatas.Detector.QRCode
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Detector.QRCode
+  href: H.VisionMaster.OpenCV.NodeDatas.Detector.QRCode.html
+  name: QRCode
+  nameWithType: QRCode
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Detector.QRCode
+- uid: H.VisionMaster.OpenCV.NodeDatas.Detector.RenderBlobs
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Detector.RenderBlobs
+  parent: H.VisionMaster.OpenCV.NodeDatas.Detector
+  href: H.VisionMaster.OpenCV.NodeDatas.Detector.RenderBlobs.html
+  name: RenderBlobs
+  nameWithType: RenderBlobs
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Detector.RenderBlobs
+- uid: H.VisionMaster.OpenCV.NodeDatas.Detector
+  commentId: N:H.VisionMaster.OpenCV.NodeDatas.Detector
+  href: H.html
+  name: H.VisionMaster.OpenCV.NodeDatas.Detector
+  nameWithType: H.VisionMaster.OpenCV.NodeDatas.Detector
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Detector
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.OpenCV
+    name: OpenCV
+    href: H.VisionMaster.OpenCV.html
+  - name: .
+  - uid: H.VisionMaster.OpenCV.NodeDatas
+    name: NodeDatas
+    href: H.VisionMaster.OpenCV.NodeDatas.html
+  - name: .
+  - uid: H.VisionMaster.OpenCV.NodeDatas.Detector
+    name: Detector
+    href: H.VisionMaster.OpenCV.NodeDatas.Detector.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.OpenCV
+    name: OpenCV
+    href: H.VisionMaster.OpenCV.html
+  - name: .
+  - uid: H.VisionMaster.OpenCV.NodeDatas
+    name: NodeDatas
+    href: H.VisionMaster.OpenCV.NodeDatas.html
+  - name: .
+  - uid: H.VisionMaster.OpenCV.NodeDatas.Detector
+    name: Detector
+    href: H.VisionMaster.OpenCV.NodeDatas.Detector.html

@@ -1,0 +1,86 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.VisionMaster.NodeGroup.Groups.SrcImages
+  commentId: N:H.VisionMaster.NodeGroup.Groups.SrcImages
+  id: H.VisionMaster.NodeGroup.Groups.SrcImages
+  children:
+  - H.VisionMaster.NodeGroup.Groups.SrcImages.IImageDataGroup
+  - H.VisionMaster.NodeGroup.Groups.SrcImages.ISrcImageGroupableNodeData
+  - H.VisionMaster.NodeGroup.Groups.SrcImages.SrcImageDataGroup
+  langs:
+  - csharp
+  - vb
+  name: H.VisionMaster.NodeGroup.Groups.SrcImages
+  nameWithType: H.VisionMaster.NodeGroup.Groups.SrcImages
+  fullName: H.VisionMaster.NodeGroup.Groups.SrcImages
+  type: Namespace
+  assemblies:
+  - H.VisionMaster.NodeGroup
+references:
+- uid: H.VisionMaster.NodeGroup.Groups.SrcImages.IImageDataGroup
+  commentId: T:H.VisionMaster.NodeGroup.Groups.SrcImages.IImageDataGroup
+  parent: H.VisionMaster.NodeGroup.Groups.SrcImages
+  href: H.VisionMaster.NodeGroup.Groups.SrcImages.IImageDataGroup.html
+  name: IImageDataGroup
+  nameWithType: IImageDataGroup
+  fullName: H.VisionMaster.NodeGroup.Groups.SrcImages.IImageDataGroup
+- uid: H.VisionMaster.NodeGroup.Groups.SrcImages.SrcImageDataGroup
+  commentId: T:H.VisionMaster.NodeGroup.Groups.SrcImages.SrcImageDataGroup
+  parent: H.VisionMaster.NodeGroup.Groups.SrcImages
+  href: H.VisionMaster.NodeGroup.Groups.SrcImages.SrcImageDataGroup.html
+  name: SrcImageDataGroup
+  nameWithType: SrcImageDataGroup
+  fullName: H.VisionMaster.NodeGroup.Groups.SrcImages.SrcImageDataGroup
+- uid: H.VisionMaster.NodeGroup.Groups.SrcImages.ISrcImageGroupableNodeData
+  commentId: T:H.VisionMaster.NodeGroup.Groups.SrcImages.ISrcImageGroupableNodeData
+  parent: H.VisionMaster.NodeGroup.Groups.SrcImages
+  href: H.VisionMaster.NodeGroup.Groups.SrcImages.ISrcImageGroupableNodeData.html
+  name: ISrcImageGroupableNodeData
+  nameWithType: ISrcImageGroupableNodeData
+  fullName: H.VisionMaster.NodeGroup.Groups.SrcImages.ISrcImageGroupableNodeData
+- uid: H.VisionMaster.NodeGroup.Groups.SrcImages
+  commentId: N:H.VisionMaster.NodeGroup.Groups.SrcImages
+  href: H.html
+  name: H.VisionMaster.NodeGroup.Groups.SrcImages
+  nameWithType: H.VisionMaster.NodeGroup.Groups.SrcImages
+  fullName: H.VisionMaster.NodeGroup.Groups.SrcImages
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup
+    name: NodeGroup
+    href: H.VisionMaster.NodeGroup.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup.Groups
+    name: Groups
+    href: H.VisionMaster.NodeGroup.Groups.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup.Groups.SrcImages
+    name: SrcImages
+    href: H.VisionMaster.NodeGroup.Groups.SrcImages.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup
+    name: NodeGroup
+    href: H.VisionMaster.NodeGroup.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup.Groups
+    name: Groups
+    href: H.VisionMaster.NodeGroup.Groups.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup.Groups.SrcImages
+    name: SrcImages
+    href: H.VisionMaster.NodeGroup.Groups.SrcImages.html

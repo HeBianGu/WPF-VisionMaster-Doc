@@ -1,0 +1,146 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Services.Message.IODialog
+  commentId: N:H.Services.Message.IODialog
+  id: H.Services.Message.IODialog
+  children:
+  - H.Services.Message.IODialog.IIOFileDialogOption
+  - H.Services.Message.IODialog.IIOFileDialogService
+  - H.Services.Message.IODialog.IIOFolderDialogService
+  - H.Services.Message.IODialog.IIOSaveFileDialogOption
+  - H.Services.Message.IODialog.IOFileDialogExtension
+  - H.Services.Message.IODialog.IOFileDialogOption
+  - H.Services.Message.IODialog.IOFileDialogOptionActions
+  - H.Services.Message.IODialog.IOFileDialogService
+  - H.Services.Message.IODialog.IOFolderDialogServiceExtension
+  - H.Services.Message.IODialog.IOSaveFileDialogOption
+  - H.Services.Message.IODialog.IOpenFilePathable
+  - H.Services.Message.IODialog.ShowOpenFilePathableDialog
+  langs:
+  - csharp
+  - vb
+  name: H.Services.Message.IODialog
+  nameWithType: H.Services.Message.IODialog
+  fullName: H.Services.Message.IODialog
+  type: Namespace
+  assemblies:
+  - H.Services.Message
+references:
+- uid: H.Services.Message.IODialog.IIOFileDialogOption
+  commentId: T:H.Services.Message.IODialog.IIOFileDialogOption
+  parent: H.Services.Message.IODialog
+  href: H.Services.Message.IODialog.IIOFileDialogOption.html
+  name: IIOFileDialogOption
+  nameWithType: IIOFileDialogOption
+  fullName: H.Services.Message.IODialog.IIOFileDialogOption
+- uid: H.Services.Message.IODialog.IIOFileDialogService
+  commentId: T:H.Services.Message.IODialog.IIOFileDialogService
+  parent: H.Services.Message.IODialog
+  href: H.Services.Message.IODialog.IIOFileDialogService.html
+  name: IIOFileDialogService
+  nameWithType: IIOFileDialogService
+  fullName: H.Services.Message.IODialog.IIOFileDialogService
+- uid: H.Services.Message.IODialog.IIOFolderDialogService
+  commentId: T:H.Services.Message.IODialog.IIOFolderDialogService
+  parent: H.Services.Message.IODialog
+  href: H.Services.Message.IODialog.IIOFolderDialogService.html
+  name: IIOFolderDialogService
+  nameWithType: IIOFolderDialogService
+  fullName: H.Services.Message.IODialog.IIOFolderDialogService
+- uid: H.Services.Message.IODialog.IOFolderDialogServiceExtension
+  commentId: T:H.Services.Message.IODialog.IOFolderDialogServiceExtension
+  parent: H.Services.Message.IODialog
+  href: H.Services.Message.IODialog.IOFolderDialogServiceExtension.html
+  name: IOFolderDialogServiceExtension
+  nameWithType: IOFolderDialogServiceExtension
+  fullName: H.Services.Message.IODialog.IOFolderDialogServiceExtension
+- uid: H.Services.Message.IODialog.IIOSaveFileDialogOption
+  commentId: T:H.Services.Message.IODialog.IIOSaveFileDialogOption
+  parent: H.Services.Message.IODialog
+  href: H.Services.Message.IODialog.IIOSaveFileDialogOption.html
+  name: IIOSaveFileDialogOption
+  nameWithType: IIOSaveFileDialogOption
+  fullName: H.Services.Message.IODialog.IIOSaveFileDialogOption
+- uid: H.Services.Message.IODialog.IOFileDialogExtension
+  commentId: T:H.Services.Message.IODialog.IOFileDialogExtension
+  parent: H.Services.Message.IODialog
+  href: H.Services.Message.IODialog.IOFileDialogExtension.html
+  name: IOFileDialogExtension
+  nameWithType: IOFileDialogExtension
+  fullName: H.Services.Message.IODialog.IOFileDialogExtension
+- uid: H.Services.Message.IODialog.IOFileDialogOption
+  commentId: T:H.Services.Message.IODialog.IOFileDialogOption
+  parent: H.Services.Message.IODialog
+  href: H.Services.Message.IODialog.IOFileDialogOption.html
+  name: IOFileDialogOption
+  nameWithType: IOFileDialogOption
+  fullName: H.Services.Message.IODialog.IOFileDialogOption
+- uid: H.Services.Message.IODialog.IOFileDialogOptionActions
+  commentId: T:H.Services.Message.IODialog.IOFileDialogOptionActions
+  href: H.Services.Message.IODialog.IOFileDialogOptionActions.html
+  name: IOFileDialogOptionActions
+  nameWithType: IOFileDialogOptionActions
+  fullName: H.Services.Message.IODialog.IOFileDialogOptionActions
+- uid: H.Services.Message.IODialog.IOFileDialogService
+  commentId: T:H.Services.Message.IODialog.IOFileDialogService
+  href: H.Services.Message.IODialog.IOFileDialogService.html
+  name: IOFileDialogService
+  nameWithType: IOFileDialogService
+  fullName: H.Services.Message.IODialog.IOFileDialogService
+- uid: H.Services.Message.IODialog.IOpenFilePathable
+  commentId: T:H.Services.Message.IODialog.IOpenFilePathable
+  parent: H.Services.Message.IODialog
+  href: H.Services.Message.IODialog.IOpenFilePathable.html
+  name: IOpenFilePathable
+  nameWithType: IOpenFilePathable
+  fullName: H.Services.Message.IODialog.IOpenFilePathable
+- uid: H.Services.Message.IODialog.IOSaveFileDialogOption
+  commentId: T:H.Services.Message.IODialog.IOSaveFileDialogOption
+  href: H.Services.Message.IODialog.IOSaveFileDialogOption.html
+  name: IOSaveFileDialogOption
+  nameWithType: IOSaveFileDialogOption
+  fullName: H.Services.Message.IODialog.IOSaveFileDialogOption
+- uid: H.Services.Message.IODialog.ShowOpenFilePathableDialog
+  commentId: T:H.Services.Message.IODialog.ShowOpenFilePathableDialog
+  href: H.Services.Message.IODialog.ShowOpenFilePathableDialog.html
+  name: ShowOpenFilePathableDialog
+  nameWithType: ShowOpenFilePathableDialog
+  fullName: H.Services.Message.IODialog.ShowOpenFilePathableDialog
+- uid: H.Services.Message.IODialog
+  commentId: N:H.Services.Message.IODialog
+  href: H.html
+  name: H.Services.Message.IODialog
+  nameWithType: H.Services.Message.IODialog
+  fullName: H.Services.Message.IODialog
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Message
+    name: Message
+    href: H.Services.Message.html
+  - name: .
+  - uid: H.Services.Message.IODialog
+    name: IODialog
+    href: H.Services.Message.IODialog.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Message
+    name: Message
+    href: H.Services.Message.html
+  - name: .
+  - uid: H.Services.Message.IODialog
+    name: IODialog
+    href: H.Services.Message.IODialog.html

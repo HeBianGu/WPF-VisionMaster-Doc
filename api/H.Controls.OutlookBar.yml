@@ -1,0 +1,98 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.OutlookBar
+  commentId: N:H.Controls.OutlookBar
+  id: H.Controls.OutlookBar
+  children:
+  - H.Controls.OutlookBar.AnimationDecorator
+  - H.Controls.OutlookBar.IKeyTipControl
+  - H.Controls.OutlookBar.OdcExpander
+  - H.Controls.OutlookBar.OutlookBar
+  - H.Controls.OutlookBar.OutlookSection
+  - H.Controls.OutlookBar.OverflowMenuCreatedEventArgs
+  - H.Controls.OutlookBar.PopupHelper
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.OutlookBar
+  nameWithType: H.Controls.OutlookBar
+  fullName: H.Controls.OutlookBar
+  type: Namespace
+  assemblies:
+  - H.Controls.OutlookBar
+references:
+- uid: H.Controls.OutlookBar.AnimationDecorator
+  commentId: T:H.Controls.OutlookBar.AnimationDecorator
+  href: H.Controls.OutlookBar.AnimationDecorator.html
+  name: AnimationDecorator
+  nameWithType: AnimationDecorator
+  fullName: H.Controls.OutlookBar.AnimationDecorator
+- uid: H.Controls.OutlookBar.IKeyTipControl
+  commentId: T:H.Controls.OutlookBar.IKeyTipControl
+  parent: H.Controls.OutlookBar
+  href: H.Controls.OutlookBar.IKeyTipControl.html
+  name: IKeyTipControl
+  nameWithType: IKeyTipControl
+  fullName: H.Controls.OutlookBar.IKeyTipControl
+- uid: H.Controls.OutlookBar.PopupHelper
+  commentId: T:H.Controls.OutlookBar.PopupHelper
+  parent: H.Controls.OutlookBar
+  href: H.Controls.OutlookBar.PopupHelper.html
+  name: PopupHelper
+  nameWithType: PopupHelper
+  fullName: H.Controls.OutlookBar.PopupHelper
+- uid: H.Controls.OutlookBar.OdcExpander
+  commentId: T:H.Controls.OutlookBar.OdcExpander
+  href: H.Controls.OutlookBar.OdcExpander.html
+  name: OdcExpander
+  nameWithType: OdcExpander
+  fullName: H.Controls.OutlookBar.OdcExpander
+- uid: H.Controls.OutlookBar.OutlookBar
+  commentId: T:H.Controls.OutlookBar.OutlookBar
+  href: H.Controls.OutlookBar.OutlookBar.html
+  name: OutlookBar
+  nameWithType: OutlookBar
+  fullName: H.Controls.OutlookBar.OutlookBar
+- uid: H.Controls.OutlookBar.OutlookSection
+  commentId: T:H.Controls.OutlookBar.OutlookSection
+  parent: H.Controls.OutlookBar
+  href: H.Controls.OutlookBar.OutlookSection.html
+  name: OutlookSection
+  nameWithType: OutlookSection
+  fullName: H.Controls.OutlookBar.OutlookSection
+- uid: H.Controls.OutlookBar.OverflowMenuCreatedEventArgs
+  commentId: T:H.Controls.OutlookBar.OverflowMenuCreatedEventArgs
+  href: H.Controls.OutlookBar.OverflowMenuCreatedEventArgs.html
+  name: OverflowMenuCreatedEventArgs
+  nameWithType: OverflowMenuCreatedEventArgs
+  fullName: H.Controls.OutlookBar.OverflowMenuCreatedEventArgs
+- uid: H.Controls.OutlookBar
+  commentId: N:H.Controls.OutlookBar
+  href: H.html
+  name: H.Controls.OutlookBar
+  nameWithType: H.Controls.OutlookBar
+  fullName: H.Controls.OutlookBar
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.OutlookBar
+    name: OutlookBar
+    href: H.Controls.OutlookBar.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.OutlookBar
+    name: OutlookBar
+    href: H.Controls.OutlookBar.html

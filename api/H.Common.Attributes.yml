@@ -1,0 +1,61 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Common.Attributes
+  commentId: N:H.Common.Attributes
+  id: H.Common.Attributes
+  children:
+  - H.Common.Attributes.IDAttribute
+  - H.Common.Attributes.IconAttribute
+  langs:
+  - csharp
+  - vb
+  name: H.Common.Attributes
+  nameWithType: H.Common.Attributes
+  fullName: H.Common.Attributes
+  type: Namespace
+  assemblies:
+  - H.Common
+references:
+- uid: H.Common.Attributes.IconAttribute
+  commentId: T:H.Common.Attributes.IconAttribute
+  parent: H.Common.Attributes
+  href: H.Common.Attributes.IconAttribute.html
+  name: IconAttribute
+  nameWithType: IconAttribute
+  fullName: H.Common.Attributes.IconAttribute
+- uid: H.Common.Attributes.IDAttribute
+  commentId: T:H.Common.Attributes.IDAttribute
+  href: H.Common.Attributes.IDAttribute.html
+  name: IDAttribute
+  nameWithType: IDAttribute
+  fullName: H.Common.Attributes.IDAttribute
+- uid: H.Common.Attributes
+  commentId: N:H.Common.Attributes
+  href: H.html
+  name: H.Common.Attributes
+  nameWithType: H.Common.Attributes
+  fullName: H.Common.Attributes
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Common
+    name: Common
+    href: H.Common.html
+  - name: .
+  - uid: H.Common.Attributes
+    name: Attributes
+    href: H.Common.Attributes.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Common
+    name: Common
+    href: H.Common.html
+  - name: .
+  - uid: H.Common.Attributes
+    name: Attributes
+    href: H.Common.Attributes.html

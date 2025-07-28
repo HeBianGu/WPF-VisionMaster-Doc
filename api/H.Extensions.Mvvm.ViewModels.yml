@@ -1,0 +1,174 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.Mvvm.ViewModels
+  commentId: N:H.Extensions.Mvvm.ViewModels
+  id: H.Extensions.Mvvm.ViewModels
+  children:
+  - H.Extensions.Mvvm.ViewModels.DisplayBindable`1
+  - H.Extensions.Mvvm.ViewModels.IDisplayBindable
+  - H.Extensions.Mvvm.ViewModels.IModelBindable
+  - H.Extensions.Mvvm.ViewModels.IModelBindable`1
+  - H.Extensions.Mvvm.ViewModels.ModelBindable`1
+  - H.Extensions.Mvvm.ViewModels.SelectBindable`1
+  langs:
+  - csharp
+  - vb
+  name: H.Extensions.Mvvm.ViewModels
+  nameWithType: H.Extensions.Mvvm.ViewModels
+  fullName: H.Extensions.Mvvm.ViewModels
+  type: Namespace
+  assemblies:
+  - H.Extensions.Mvvm
+references:
+- uid: H.Extensions.Mvvm.ViewModels.DisplayBindable`1
+  commentId: T:H.Extensions.Mvvm.ViewModels.DisplayBindable`1
+  href: H.Extensions.Mvvm.ViewModels.DisplayBindable-1.html
+  name: DisplayBindable<T>
+  nameWithType: DisplayBindable<T>
+  fullName: H.Extensions.Mvvm.ViewModels.DisplayBindable<T>
+  nameWithType.vb: DisplayBindable(Of T)
+  fullName.vb: H.Extensions.Mvvm.ViewModels.DisplayBindable(Of T)
+  name.vb: DisplayBindable(Of T)
+  spec.csharp:
+  - uid: H.Extensions.Mvvm.ViewModels.DisplayBindable`1
+    name: DisplayBindable
+    href: H.Extensions.Mvvm.ViewModels.DisplayBindable-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Extensions.Mvvm.ViewModels.DisplayBindable`1
+    name: DisplayBindable
+    href: H.Extensions.Mvvm.ViewModels.DisplayBindable-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Extensions.Mvvm.ViewModels.IDisplayBindable
+  commentId: T:H.Extensions.Mvvm.ViewModels.IDisplayBindable
+  parent: H.Extensions.Mvvm.ViewModels
+  href: H.Extensions.Mvvm.ViewModels.IDisplayBindable.html
+  name: IDisplayBindable
+  nameWithType: IDisplayBindable
+  fullName: H.Extensions.Mvvm.ViewModels.IDisplayBindable
+- uid: H.Extensions.Mvvm.ViewModels.IModelBindable
+  commentId: T:H.Extensions.Mvvm.ViewModels.IModelBindable
+  parent: H.Extensions.Mvvm.ViewModels
+  href: H.Extensions.Mvvm.ViewModels.IModelBindable.html
+  name: IModelBindable
+  nameWithType: IModelBindable
+  fullName: H.Extensions.Mvvm.ViewModels.IModelBindable
+- uid: H.Extensions.Mvvm.ViewModels.IModelBindable`1
+  commentId: T:H.Extensions.Mvvm.ViewModels.IModelBindable`1
+  href: H.Extensions.Mvvm.ViewModels.IModelBindable-1.html
+  name: IModelBindable<T>
+  nameWithType: IModelBindable<T>
+  fullName: H.Extensions.Mvvm.ViewModels.IModelBindable<T>
+  nameWithType.vb: IModelBindable(Of T)
+  fullName.vb: H.Extensions.Mvvm.ViewModels.IModelBindable(Of T)
+  name.vb: IModelBindable(Of T)
+  spec.csharp:
+  - uid: H.Extensions.Mvvm.ViewModels.IModelBindable`1
+    name: IModelBindable
+    href: H.Extensions.Mvvm.ViewModels.IModelBindable-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Extensions.Mvvm.ViewModels.IModelBindable`1
+    name: IModelBindable
+    href: H.Extensions.Mvvm.ViewModels.IModelBindable-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Extensions.Mvvm.ViewModels.ModelBindable`1
+  commentId: T:H.Extensions.Mvvm.ViewModels.ModelBindable`1
+  href: H.Extensions.Mvvm.ViewModels.ModelBindable-1.html
+  name: ModelBindable<T>
+  nameWithType: ModelBindable<T>
+  fullName: H.Extensions.Mvvm.ViewModels.ModelBindable<T>
+  nameWithType.vb: ModelBindable(Of T)
+  fullName.vb: H.Extensions.Mvvm.ViewModels.ModelBindable(Of T)
+  name.vb: ModelBindable(Of T)
+  spec.csharp:
+  - uid: H.Extensions.Mvvm.ViewModels.ModelBindable`1
+    name: ModelBindable
+    href: H.Extensions.Mvvm.ViewModels.ModelBindable-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Extensions.Mvvm.ViewModels.ModelBindable`1
+    name: ModelBindable
+    href: H.Extensions.Mvvm.ViewModels.ModelBindable-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Extensions.Mvvm.ViewModels.SelectBindable`1
+  commentId: T:H.Extensions.Mvvm.ViewModels.SelectBindable`1
+  href: H.Extensions.Mvvm.ViewModels.SelectBindable-1.html
+  name: SelectBindable<T>
+  nameWithType: SelectBindable<T>
+  fullName: H.Extensions.Mvvm.ViewModels.SelectBindable<T>
+  nameWithType.vb: SelectBindable(Of T)
+  fullName.vb: H.Extensions.Mvvm.ViewModels.SelectBindable(Of T)
+  name.vb: SelectBindable(Of T)
+  spec.csharp:
+  - uid: H.Extensions.Mvvm.ViewModels.SelectBindable`1
+    name: SelectBindable
+    href: H.Extensions.Mvvm.ViewModels.SelectBindable-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Extensions.Mvvm.ViewModels.SelectBindable`1
+    name: SelectBindable
+    href: H.Extensions.Mvvm.ViewModels.SelectBindable-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Extensions.Mvvm.ViewModels
+  commentId: N:H.Extensions.Mvvm.ViewModels
+  href: H.html
+  name: H.Extensions.Mvvm.ViewModels
+  nameWithType: H.Extensions.Mvvm.ViewModels
+  fullName: H.Extensions.Mvvm.ViewModels
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Mvvm
+    name: Mvvm
+    href: H.Extensions.Mvvm.html
+  - name: .
+  - uid: H.Extensions.Mvvm.ViewModels
+    name: ViewModels
+    href: H.Extensions.Mvvm.ViewModels.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Mvvm
+    name: Mvvm
+    href: H.Extensions.Mvvm.html
+  - name: .
+  - uid: H.Extensions.Mvvm.ViewModels
+    name: ViewModels
+    href: H.Extensions.Mvvm.ViewModels.html

@@ -1,0 +1,75 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Modules.Upgrade
+  commentId: N:H.Modules.Upgrade
+  id: H.Modules.Upgrade
+  children:
+  - H.Modules.Upgrade.IUpgradeOptions
+  - H.Modules.Upgrade.ShowUpgradeCommand
+  - H.Modules.Upgrade.UpdateXmlInfo
+  - H.Modules.Upgrade.UpgradeOptions
+  langs:
+  - csharp
+  - vb
+  name: H.Modules.Upgrade
+  nameWithType: H.Modules.Upgrade
+  fullName: H.Modules.Upgrade
+  type: Namespace
+  assemblies:
+  - H.Modules.Upgrade
+references:
+- uid: H.Modules.Upgrade.IUpgradeOptions
+  commentId: T:H.Modules.Upgrade.IUpgradeOptions
+  parent: H.Modules.Upgrade
+  href: H.Modules.Upgrade.IUpgradeOptions.html
+  name: IUpgradeOptions
+  nameWithType: IUpgradeOptions
+  fullName: H.Modules.Upgrade.IUpgradeOptions
+- uid: H.Modules.Upgrade.ShowUpgradeCommand
+  commentId: T:H.Modules.Upgrade.ShowUpgradeCommand
+  href: H.Modules.Upgrade.ShowUpgradeCommand.html
+  name: ShowUpgradeCommand
+  nameWithType: ShowUpgradeCommand
+  fullName: H.Modules.Upgrade.ShowUpgradeCommand
+- uid: H.Modules.Upgrade.UpdateXmlInfo
+  commentId: T:H.Modules.Upgrade.UpdateXmlInfo
+  href: H.Modules.Upgrade.UpdateXmlInfo.html
+  name: UpdateXmlInfo
+  nameWithType: UpdateXmlInfo
+  fullName: H.Modules.Upgrade.UpdateXmlInfo
+- uid: H.Modules.Upgrade.UpgradeOptions
+  commentId: T:H.Modules.Upgrade.UpgradeOptions
+  href: H.Modules.Upgrade.UpgradeOptions.html
+  name: UpgradeOptions
+  nameWithType: UpgradeOptions
+  fullName: H.Modules.Upgrade.UpgradeOptions
+- uid: H.Modules.Upgrade
+  commentId: N:H.Modules.Upgrade
+  href: H.html
+  name: H.Modules.Upgrade
+  nameWithType: H.Modules.Upgrade
+  fullName: H.Modules.Upgrade
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Modules
+    name: Modules
+    href: H.Modules.html
+  - name: .
+  - uid: H.Modules.Upgrade
+    name: Upgrade
+    href: H.Modules.Upgrade.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Modules
+    name: Modules
+    href: H.Modules.html
+  - name: .
+  - uid: H.Modules.Upgrade
+    name: Upgrade
+    href: H.Modules.Upgrade.html

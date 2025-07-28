@@ -1,0 +1,70 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.Unit.British
+  commentId: N:H.Extensions.Unit.British
+  id: H.Extensions.Unit.British
+  children:
+  - H.Extensions.Unit.British.BritishUnits
+  - H.Extensions.Unit.British.BritishUnitsExtensions
+  langs:
+  - csharp
+  - vb
+  name: H.Extensions.Unit.British
+  nameWithType: H.Extensions.Unit.British
+  fullName: H.Extensions.Unit.British
+  type: Namespace
+  assemblies:
+  - H.Extensions.Unit
+references:
+- uid: H.Extensions.Unit.British.BritishUnits
+  commentId: T:H.Extensions.Unit.British.BritishUnits
+  parent: H.Extensions.Unit.British
+  href: H.Extensions.Unit.British.BritishUnits.html
+  name: BritishUnits
+  nameWithType: BritishUnits
+  fullName: H.Extensions.Unit.British.BritishUnits
+- uid: H.Extensions.Unit.British.BritishUnitsExtensions
+  commentId: T:H.Extensions.Unit.British.BritishUnitsExtensions
+  parent: H.Extensions.Unit.British
+  href: H.Extensions.Unit.British.BritishUnitsExtensions.html
+  name: BritishUnitsExtensions
+  nameWithType: BritishUnitsExtensions
+  fullName: H.Extensions.Unit.British.BritishUnitsExtensions
+- uid: H.Extensions.Unit.British
+  commentId: N:H.Extensions.Unit.British
+  href: H.html
+  name: H.Extensions.Unit.British
+  nameWithType: H.Extensions.Unit.British
+  fullName: H.Extensions.Unit.British
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Unit
+    name: Unit
+    href: H.Extensions.Unit.html
+  - name: .
+  - uid: H.Extensions.Unit.British
+    name: British
+    href: H.Extensions.Unit.British.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Unit
+    name: Unit
+    href: H.Extensions.Unit.html
+  - name: .
+  - uid: H.Extensions.Unit.British
+    name: British
+    href: H.Extensions.Unit.British.html

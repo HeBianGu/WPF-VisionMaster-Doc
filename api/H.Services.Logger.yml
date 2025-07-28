@@ -1,0 +1,76 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Services.Logger
+  commentId: N:H.Services.Logger
+  id: H.Services.Logger
+  children:
+  - H.Services.Logger.ILogService
+  - H.Services.Logger.IocLog
+  - H.Services.Logger.LogCommand
+  - H.Services.Logger.LogType
+  langs:
+  - csharp
+  - vb
+  name: H.Services.Logger
+  nameWithType: H.Services.Logger
+  fullName: H.Services.Logger
+  type: Namespace
+  assemblies:
+  - H.Services.Logger
+references:
+- uid: H.Services.Logger.ILogService
+  commentId: T:H.Services.Logger.ILogService
+  parent: H.Services.Logger
+  href: H.Services.Logger.ILogService.html
+  name: ILogService
+  nameWithType: ILogService
+  fullName: H.Services.Logger.ILogService
+- uid: H.Services.Logger.IocLog
+  commentId: T:H.Services.Logger.IocLog
+  href: H.Services.Logger.IocLog.html
+  name: IocLog
+  nameWithType: IocLog
+  fullName: H.Services.Logger.IocLog
+- uid: H.Services.Logger.LogCommand
+  commentId: T:H.Services.Logger.LogCommand
+  href: H.Services.Logger.LogCommand.html
+  name: LogCommand
+  nameWithType: LogCommand
+  fullName: H.Services.Logger.LogCommand
+- uid: H.Services.Logger.LogType
+  commentId: T:H.Services.Logger.LogType
+  parent: H.Services.Logger
+  href: H.Services.Logger.LogType.html
+  name: LogType
+  nameWithType: LogType
+  fullName: H.Services.Logger.LogType
+- uid: H.Services.Logger
+  commentId: N:H.Services.Logger
+  href: H.html
+  name: H.Services.Logger
+  nameWithType: H.Services.Logger
+  fullName: H.Services.Logger
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Logger
+    name: Logger
+    href: H.Services.Logger.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Logger
+    name: Logger
+    href: H.Services.Logger.html

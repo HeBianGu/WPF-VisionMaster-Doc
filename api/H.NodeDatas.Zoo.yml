@@ -1,0 +1,62 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.NodeDatas.Zoo
+  commentId: N:H.NodeDatas.Zoo
+  id: H.NodeDatas.Zoo
+  children:
+  - H.NodeDatas.Zoo.IZooNodeDataGroup
+  - H.NodeDatas.Zoo.ZooNodeDataGroup
+  langs:
+  - csharp
+  - vb
+  name: H.NodeDatas.Zoo
+  nameWithType: H.NodeDatas.Zoo
+  fullName: H.NodeDatas.Zoo
+  type: Namespace
+  assemblies:
+  - H.NodeDatas.Zoo
+references:
+- uid: H.NodeDatas.Zoo.IZooNodeDataGroup
+  commentId: T:H.NodeDatas.Zoo.IZooNodeDataGroup
+  parent: H.NodeDatas.Zoo
+  href: H.NodeDatas.Zoo.IZooNodeDataGroup.html
+  name: IZooNodeDataGroup
+  nameWithType: IZooNodeDataGroup
+  fullName: H.NodeDatas.Zoo.IZooNodeDataGroup
+- uid: H.NodeDatas.Zoo.ZooNodeDataGroup
+  commentId: T:H.NodeDatas.Zoo.ZooNodeDataGroup
+  parent: H.NodeDatas.Zoo
+  href: H.NodeDatas.Zoo.ZooNodeDataGroup.html
+  name: ZooNodeDataGroup
+  nameWithType: ZooNodeDataGroup
+  fullName: H.NodeDatas.Zoo.ZooNodeDataGroup
+- uid: H.NodeDatas.Zoo
+  commentId: N:H.NodeDatas.Zoo
+  href: H.html
+  name: H.NodeDatas.Zoo
+  nameWithType: H.NodeDatas.Zoo
+  fullName: H.NodeDatas.Zoo
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.NodeDatas
+    name: NodeDatas
+    href: H.NodeDatas.html
+  - name: .
+  - uid: H.NodeDatas.Zoo
+    name: Zoo
+    href: H.NodeDatas.Zoo.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.NodeDatas
+    name: NodeDatas
+    href: H.NodeDatas.html
+  - name: .
+  - uid: H.NodeDatas.Zoo
+    name: Zoo
+    href: H.NodeDatas.Zoo.html

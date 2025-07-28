@@ -1,0 +1,305 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Common.Interfaces
+  commentId: N:H.Common.Interfaces
+  id: H.Common.Interfaces
+  children:
+  - H.Common.Interfaces.IAdornerDialogElement
+  - H.Common.Interfaces.IClearable
+  - H.Common.Interfaces.ICloneable`1
+  - H.Common.Interfaces.IDable
+  - H.Common.Interfaces.IDataSource`1
+  - H.Common.Interfaces.IDefaultable
+  - H.Common.Interfaces.IDescriptionable
+  - H.Common.Interfaces.IDesignPresenter
+  - H.Common.Interfaces.IDesignable
+  - H.Common.Interfaces.IGroupable
+  - H.Common.Interfaces.IIconable
+  - H.Common.Interfaces.ILayoutable
+  - H.Common.Interfaces.ILoadable
+  - H.Common.Interfaces.ILoginedSplashLoadable
+  - H.Common.Interfaces.IMainWindowLoadedLoadable
+  - H.Common.Interfaces.IMessageable
+  - H.Common.Interfaces.INameable
+  - H.Common.Interfaces.IOrderable
+  - H.Common.Interfaces.ISaveable
+  - H.Common.Interfaces.ISearchable
+  - H.Common.Interfaces.ISelectable
+  - H.Common.Interfaces.ISplashLoadable
+  - H.Common.Interfaces.ISplashSave
+  - H.Common.Interfaces.IStopwatchable
+  - H.Common.Interfaces.ITextable
+  - H.Common.Interfaces.ITitleable
+  - H.Common.Interfaces.IZoombox
+  - H.Common.Interfaces.LayoutableExtension
+  langs:
+  - csharp
+  - vb
+  name: H.Common.Interfaces
+  nameWithType: H.Common.Interfaces
+  fullName: H.Common.Interfaces
+  type: Namespace
+  assemblies:
+  - H.Common
+references:
+- uid: H.Common.Interfaces.IAdornerDialogElement
+  commentId: T:H.Common.Interfaces.IAdornerDialogElement
+  parent: H.Common.Interfaces
+  href: H.Common.Interfaces.IAdornerDialogElement.html
+  name: IAdornerDialogElement
+  nameWithType: IAdornerDialogElement
+  fullName: H.Common.Interfaces.IAdornerDialogElement
+- uid: H.Common.Interfaces.IClearable
+  commentId: T:H.Common.Interfaces.IClearable
+  parent: H.Common.Interfaces
+  href: H.Common.Interfaces.IClearable.html
+  name: IClearable
+  nameWithType: IClearable
+  fullName: H.Common.Interfaces.IClearable
+- uid: H.Common.Interfaces.ICloneable`1
+  commentId: T:H.Common.Interfaces.ICloneable`1
+  href: H.Common.Interfaces.ICloneable-1.html
+  name: ICloneable<T>
+  nameWithType: ICloneable<T>
+  fullName: H.Common.Interfaces.ICloneable<T>
+  nameWithType.vb: ICloneable(Of T)
+  fullName.vb: H.Common.Interfaces.ICloneable(Of T)
+  name.vb: ICloneable(Of T)
+  spec.csharp:
+  - uid: H.Common.Interfaces.ICloneable`1
+    name: ICloneable
+    href: H.Common.Interfaces.ICloneable-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Common.Interfaces.ICloneable`1
+    name: ICloneable
+    href: H.Common.Interfaces.ICloneable-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Common.Interfaces.IDable
+  commentId: T:H.Common.Interfaces.IDable
+  parent: H.Common.Interfaces
+  href: H.Common.Interfaces.IDable.html
+  name: IDable
+  nameWithType: IDable
+  fullName: H.Common.Interfaces.IDable
+- uid: H.Common.Interfaces.IDataSource`1
+  commentId: T:H.Common.Interfaces.IDataSource`1
+  href: H.Common.Interfaces.IDataSource-1.html
+  name: IDataSource<T>
+  nameWithType: IDataSource<T>
+  fullName: H.Common.Interfaces.IDataSource<T>
+  nameWithType.vb: IDataSource(Of T)
+  fullName.vb: H.Common.Interfaces.IDataSource(Of T)
+  name.vb: IDataSource(Of T)
+  spec.csharp:
+  - uid: H.Common.Interfaces.IDataSource`1
+    name: IDataSource
+    href: H.Common.Interfaces.IDataSource-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Common.Interfaces.IDataSource`1
+    name: IDataSource
+    href: H.Common.Interfaces.IDataSource-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Common.Interfaces.IDefaultable
+  commentId: T:H.Common.Interfaces.IDefaultable
+  parent: H.Common.Interfaces
+  href: H.Common.Interfaces.IDefaultable.html
+  name: IDefaultable
+  nameWithType: IDefaultable
+  fullName: H.Common.Interfaces.IDefaultable
+- uid: H.Common.Interfaces.IDescriptionable
+  commentId: T:H.Common.Interfaces.IDescriptionable
+  parent: H.Common.Interfaces
+  href: H.Common.Interfaces.IDescriptionable.html
+  name: IDescriptionable
+  nameWithType: IDescriptionable
+  fullName: H.Common.Interfaces.IDescriptionable
+- uid: H.Common.Interfaces.IDesignable
+  commentId: T:H.Common.Interfaces.IDesignable
+  href: H.Common.Interfaces.IDesignable.html
+  name: IDesignable
+  nameWithType: IDesignable
+  fullName: H.Common.Interfaces.IDesignable
+- uid: H.Common.Interfaces.IDesignPresenter
+  commentId: T:H.Common.Interfaces.IDesignPresenter
+  parent: H.Common.Interfaces
+  href: H.Common.Interfaces.IDesignPresenter.html
+  name: IDesignPresenter
+  nameWithType: IDesignPresenter
+  fullName: H.Common.Interfaces.IDesignPresenter
+- uid: H.Common.Interfaces.IGroupable
+  commentId: T:H.Common.Interfaces.IGroupable
+  parent: H.Common.Interfaces
+  href: H.Common.Interfaces.IGroupable.html
+  name: IGroupable
+  nameWithType: IGroupable
+  fullName: H.Common.Interfaces.IGroupable
+- uid: H.Common.Interfaces.IIconable
+  commentId: T:H.Common.Interfaces.IIconable
+  parent: H.Common.Interfaces
+  href: H.Common.Interfaces.IIconable.html
+  name: IIconable
+  nameWithType: IIconable
+  fullName: H.Common.Interfaces.IIconable
+- uid: H.Common.Interfaces.ILayoutable
+  commentId: T:H.Common.Interfaces.ILayoutable
+  parent: H.Common.Interfaces
+  href: H.Common.Interfaces.ILayoutable.html
+  name: ILayoutable
+  nameWithType: ILayoutable
+  fullName: H.Common.Interfaces.ILayoutable
+- uid: H.Common.Interfaces.LayoutableExtension
+  commentId: T:H.Common.Interfaces.LayoutableExtension
+  parent: H.Common.Interfaces
+  href: H.Common.Interfaces.LayoutableExtension.html
+  name: LayoutableExtension
+  nameWithType: LayoutableExtension
+  fullName: H.Common.Interfaces.LayoutableExtension
+- uid: H.Common.Interfaces.ILoadable
+  commentId: T:H.Common.Interfaces.ILoadable
+  parent: H.Common.Interfaces
+  href: H.Common.Interfaces.ILoadable.html
+  name: ILoadable
+  nameWithType: ILoadable
+  fullName: H.Common.Interfaces.ILoadable
+- uid: H.Common.Interfaces.ILoginedSplashLoadable
+  commentId: T:H.Common.Interfaces.ILoginedSplashLoadable
+  parent: H.Common.Interfaces
+  href: H.Common.Interfaces.ILoginedSplashLoadable.html
+  name: ILoginedSplashLoadable
+  nameWithType: ILoginedSplashLoadable
+  fullName: H.Common.Interfaces.ILoginedSplashLoadable
+- uid: H.Common.Interfaces.IMainWindowLoadedLoadable
+  commentId: T:H.Common.Interfaces.IMainWindowLoadedLoadable
+  parent: H.Common.Interfaces
+  href: H.Common.Interfaces.IMainWindowLoadedLoadable.html
+  name: IMainWindowLoadedLoadable
+  nameWithType: IMainWindowLoadedLoadable
+  fullName: H.Common.Interfaces.IMainWindowLoadedLoadable
+- uid: H.Common.Interfaces.IMessageable
+  commentId: T:H.Common.Interfaces.IMessageable
+  parent: H.Common.Interfaces
+  href: H.Common.Interfaces.IMessageable.html
+  name: IMessageable
+  nameWithType: IMessageable
+  fullName: H.Common.Interfaces.IMessageable
+- uid: H.Common.Interfaces.INameable
+  commentId: T:H.Common.Interfaces.INameable
+  parent: H.Common.Interfaces
+  href: H.Common.Interfaces.INameable.html
+  name: INameable
+  nameWithType: INameable
+  fullName: H.Common.Interfaces.INameable
+- uid: H.Common.Interfaces.IOrderable
+  commentId: T:H.Common.Interfaces.IOrderable
+  parent: H.Common.Interfaces
+  href: H.Common.Interfaces.IOrderable.html
+  name: IOrderable
+  nameWithType: IOrderable
+  fullName: H.Common.Interfaces.IOrderable
+- uid: H.Common.Interfaces.ISaveable
+  commentId: T:H.Common.Interfaces.ISaveable
+  parent: H.Common.Interfaces
+  href: H.Common.Interfaces.ISaveable.html
+  name: ISaveable
+  nameWithType: ISaveable
+  fullName: H.Common.Interfaces.ISaveable
+- uid: H.Common.Interfaces.ISearchable
+  commentId: T:H.Common.Interfaces.ISearchable
+  parent: H.Common.Interfaces
+  href: H.Common.Interfaces.ISearchable.html
+  name: ISearchable
+  nameWithType: ISearchable
+  fullName: H.Common.Interfaces.ISearchable
+- uid: H.Common.Interfaces.ISelectable
+  commentId: T:H.Common.Interfaces.ISelectable
+  parent: H.Common.Interfaces
+  href: H.Common.Interfaces.ISelectable.html
+  name: ISelectable
+  nameWithType: ISelectable
+  fullName: H.Common.Interfaces.ISelectable
+- uid: H.Common.Interfaces.ISplashLoadable
+  commentId: T:H.Common.Interfaces.ISplashLoadable
+  parent: H.Common.Interfaces
+  href: H.Common.Interfaces.ISplashLoadable.html
+  name: ISplashLoadable
+  nameWithType: ISplashLoadable
+  fullName: H.Common.Interfaces.ISplashLoadable
+- uid: H.Common.Interfaces.ISplashSave
+  commentId: T:H.Common.Interfaces.ISplashSave
+  parent: H.Common.Interfaces
+  href: H.Common.Interfaces.ISplashSave.html
+  name: ISplashSave
+  nameWithType: ISplashSave
+  fullName: H.Common.Interfaces.ISplashSave
+- uid: H.Common.Interfaces.IStopwatchable
+  commentId: T:H.Common.Interfaces.IStopwatchable
+  parent: H.Common.Interfaces
+  href: H.Common.Interfaces.IStopwatchable.html
+  name: IStopwatchable
+  nameWithType: IStopwatchable
+  fullName: H.Common.Interfaces.IStopwatchable
+- uid: H.Common.Interfaces.ITextable
+  commentId: T:H.Common.Interfaces.ITextable
+  parent: H.Common.Interfaces
+  href: H.Common.Interfaces.ITextable.html
+  name: ITextable
+  nameWithType: ITextable
+  fullName: H.Common.Interfaces.ITextable
+- uid: H.Common.Interfaces.ITitleable
+  commentId: T:H.Common.Interfaces.ITitleable
+  parent: H.Common.Interfaces
+  href: H.Common.Interfaces.ITitleable.html
+  name: ITitleable
+  nameWithType: ITitleable
+  fullName: H.Common.Interfaces.ITitleable
+- uid: H.Common.Interfaces.IZoombox
+  commentId: T:H.Common.Interfaces.IZoombox
+  parent: H.Common.Interfaces
+  href: H.Common.Interfaces.IZoombox.html
+  name: IZoombox
+  nameWithType: IZoombox
+  fullName: H.Common.Interfaces.IZoombox
+- uid: H.Common.Interfaces
+  commentId: N:H.Common.Interfaces
+  href: H.html
+  name: H.Common.Interfaces
+  nameWithType: H.Common.Interfaces
+  fullName: H.Common.Interfaces
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Common
+    name: Common
+    href: H.Common.html
+  - name: .
+  - uid: H.Common.Interfaces
+    name: Interfaces
+    href: H.Common.Interfaces.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Common
+    name: Common
+    href: H.Common.html
+  - name: .
+  - uid: H.Common.Interfaces
+    name: Interfaces
+    href: H.Common.Interfaces.html

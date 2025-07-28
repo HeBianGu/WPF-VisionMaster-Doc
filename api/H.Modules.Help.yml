@@ -1,0 +1,117 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Modules.Help
+  commentId: N:H.Modules.Help
+  id: H.Modules.Help
+  children:
+  - H.Modules.Help.ShowBlogContactCommand
+  - H.Modules.Help.ShowContactCommand
+  - H.Modules.Help.ShowGitHubIssueContactCommand
+  - H.Modules.Help.ShowGithubContactCommand
+  - H.Modules.Help.ShowPodcastContactCommand
+  - H.Modules.Help.ShowQQContactCommand
+  - H.Modules.Help.ShowReleaseVersionsCommand
+  - H.Modules.Help.ShowSendMailContactCommand
+  - H.Modules.Help.ShowSupportCommand
+  - H.Modules.Help.ShowWebSiteCommand
+  langs:
+  - csharp
+  - vb
+  name: H.Modules.Help
+  nameWithType: H.Modules.Help
+  fullName: H.Modules.Help
+  type: Namespace
+  assemblies:
+  - H.Modules.Help
+references:
+- uid: H.Modules.Help.ShowContactCommand
+  commentId: T:H.Modules.Help.ShowContactCommand
+  parent: H.Modules.Help
+  href: H.Modules.Help.ShowContactCommand.html
+  name: ShowContactCommand
+  nameWithType: ShowContactCommand
+  fullName: H.Modules.Help.ShowContactCommand
+- uid: H.Modules.Help.ShowGithubContactCommand
+  commentId: T:H.Modules.Help.ShowGithubContactCommand
+  href: H.Modules.Help.ShowGithubContactCommand.html
+  name: ShowGithubContactCommand
+  nameWithType: ShowGithubContactCommand
+  fullName: H.Modules.Help.ShowGithubContactCommand
+- uid: H.Modules.Help.ShowSendMailContactCommand
+  commentId: T:H.Modules.Help.ShowSendMailContactCommand
+  href: H.Modules.Help.ShowSendMailContactCommand.html
+  name: ShowSendMailContactCommand
+  nameWithType: ShowSendMailContactCommand
+  fullName: H.Modules.Help.ShowSendMailContactCommand
+- uid: H.Modules.Help.ShowQQContactCommand
+  commentId: T:H.Modules.Help.ShowQQContactCommand
+  href: H.Modules.Help.ShowQQContactCommand.html
+  name: ShowQQContactCommand
+  nameWithType: ShowQQContactCommand
+  fullName: H.Modules.Help.ShowQQContactCommand
+- uid: H.Modules.Help.ShowBlogContactCommand
+  commentId: T:H.Modules.Help.ShowBlogContactCommand
+  href: H.Modules.Help.ShowBlogContactCommand.html
+  name: ShowBlogContactCommand
+  nameWithType: ShowBlogContactCommand
+  fullName: H.Modules.Help.ShowBlogContactCommand
+- uid: H.Modules.Help.ShowPodcastContactCommand
+  commentId: T:H.Modules.Help.ShowPodcastContactCommand
+  href: H.Modules.Help.ShowPodcastContactCommand.html
+  name: ShowPodcastContactCommand
+  nameWithType: ShowPodcastContactCommand
+  fullName: H.Modules.Help.ShowPodcastContactCommand
+- uid: H.Modules.Help.ShowGitHubIssueContactCommand
+  commentId: T:H.Modules.Help.ShowGitHubIssueContactCommand
+  href: H.Modules.Help.ShowGitHubIssueContactCommand.html
+  name: ShowGitHubIssueContactCommand
+  nameWithType: ShowGitHubIssueContactCommand
+  fullName: H.Modules.Help.ShowGitHubIssueContactCommand
+- uid: H.Modules.Help.ShowReleaseVersionsCommand
+  commentId: T:H.Modules.Help.ShowReleaseVersionsCommand
+  href: H.Modules.Help.ShowReleaseVersionsCommand.html
+  name: ShowReleaseVersionsCommand
+  nameWithType: ShowReleaseVersionsCommand
+  fullName: H.Modules.Help.ShowReleaseVersionsCommand
+- uid: H.Modules.Help.ShowSupportCommand
+  commentId: T:H.Modules.Help.ShowSupportCommand
+  href: H.Modules.Help.ShowSupportCommand.html
+  name: ShowSupportCommand
+  nameWithType: ShowSupportCommand
+  fullName: H.Modules.Help.ShowSupportCommand
+- uid: H.Modules.Help.ShowWebSiteCommand
+  commentId: T:H.Modules.Help.ShowWebSiteCommand
+  href: H.Modules.Help.ShowWebSiteCommand.html
+  name: ShowWebSiteCommand
+  nameWithType: ShowWebSiteCommand
+  fullName: H.Modules.Help.ShowWebSiteCommand
+- uid: H.Modules.Help
+  commentId: N:H.Modules.Help
+  href: H.html
+  name: H.Modules.Help
+  nameWithType: H.Modules.Help
+  fullName: H.Modules.Help
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Modules
+    name: Modules
+    href: H.Modules.html
+  - name: .
+  - uid: H.Modules.Help
+    name: Help
+    href: H.Modules.Help.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Modules
+    name: Modules
+    href: H.Modules.html
+  - name: .
+  - uid: H.Modules.Help
+    name: Help
+    href: H.Modules.Help.html

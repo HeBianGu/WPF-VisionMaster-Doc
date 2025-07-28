@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.ApplicationBases.Messages
+  commentId: N:H.ApplicationBases.Messages
+  id: H.ApplicationBases.Messages
+  children:
+  - H.ApplicationBases.Messages.MessageApplicationBase
+  langs:
+  - csharp
+  - vb
+  name: H.ApplicationBases.Messages
+  nameWithType: H.ApplicationBases.Messages
+  fullName: H.ApplicationBases.Messages
+  type: Namespace
+  assemblies:
+  - H.ApplicationBases.Messages
+references:
+- uid: H.ApplicationBases.Messages.MessageApplicationBase
+  commentId: T:H.ApplicationBases.Messages.MessageApplicationBase
+  href: H.ApplicationBases.Messages.MessageApplicationBase.html
+  name: MessageApplicationBase
+  nameWithType: MessageApplicationBase
+  fullName: H.ApplicationBases.Messages.MessageApplicationBase

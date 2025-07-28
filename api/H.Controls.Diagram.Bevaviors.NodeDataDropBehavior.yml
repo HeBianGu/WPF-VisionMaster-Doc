@@ -1,0 +1,117 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.Diagram.Bevaviors.NodeDataDropBehavior
+  commentId: N:H.Controls.Diagram.Bevaviors.NodeDataDropBehavior
+  id: H.Controls.Diagram.Bevaviors.NodeDataDropBehavior
+  children:
+  - H.Controls.Diagram.Bevaviors.NodeDataDropBehavior.DiagramDropNodeDataBehavior
+  - H.Controls.Diagram.Bevaviors.NodeDataDropBehavior.DiagramDropTypeNodeDataBehavior
+  - H.Controls.Diagram.Bevaviors.NodeDataDropBehavior.DropNodeDataBehaviorBase`1
+  - H.Controls.Diagram.Bevaviors.NodeDataDropBehavior.LinkDropNodeDataBevaior
+  - H.Controls.Diagram.Bevaviors.NodeDataDropBehavior.PortDropNodeDataBevaior
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.Diagram.Bevaviors.NodeDataDropBehavior
+  nameWithType: H.Controls.Diagram.Bevaviors.NodeDataDropBehavior
+  fullName: H.Controls.Diagram.Bevaviors.NodeDataDropBehavior
+  type: Namespace
+  assemblies:
+  - H.Controls.Diagram
+references:
+- uid: H.Controls.Diagram.Bevaviors.NodeDataDropBehavior.DiagramDropNodeDataBehavior
+  commentId: T:H.Controls.Diagram.Bevaviors.NodeDataDropBehavior.DiagramDropNodeDataBehavior
+  parent: H.Controls.Diagram.Bevaviors.NodeDataDropBehavior
+  href: H.Controls.Diagram.Bevaviors.NodeDataDropBehavior.DiagramDropNodeDataBehavior.html
+  name: DiagramDropNodeDataBehavior
+  nameWithType: DiagramDropNodeDataBehavior
+  fullName: H.Controls.Diagram.Bevaviors.NodeDataDropBehavior.DiagramDropNodeDataBehavior
+- uid: H.Controls.Diagram.Bevaviors.NodeDataDropBehavior.DiagramDropTypeNodeDataBehavior
+  commentId: T:H.Controls.Diagram.Bevaviors.NodeDataDropBehavior.DiagramDropTypeNodeDataBehavior
+  href: H.Controls.Diagram.Bevaviors.NodeDataDropBehavior.DiagramDropTypeNodeDataBehavior.html
+  name: DiagramDropTypeNodeDataBehavior
+  nameWithType: DiagramDropTypeNodeDataBehavior
+  fullName: H.Controls.Diagram.Bevaviors.NodeDataDropBehavior.DiagramDropTypeNodeDataBehavior
+- uid: H.Controls.Diagram.Bevaviors.NodeDataDropBehavior.DropNodeDataBehaviorBase`1
+  commentId: T:H.Controls.Diagram.Bevaviors.NodeDataDropBehavior.DropNodeDataBehaviorBase`1
+  href: H.Controls.Diagram.Bevaviors.NodeDataDropBehavior.DropNodeDataBehaviorBase-1.html
+  name: DropNodeDataBehaviorBase<T>
+  nameWithType: DropNodeDataBehaviorBase<T>
+  fullName: H.Controls.Diagram.Bevaviors.NodeDataDropBehavior.DropNodeDataBehaviorBase<T>
+  nameWithType.vb: DropNodeDataBehaviorBase(Of T)
+  fullName.vb: H.Controls.Diagram.Bevaviors.NodeDataDropBehavior.DropNodeDataBehaviorBase(Of T)
+  name.vb: DropNodeDataBehaviorBase(Of T)
+  spec.csharp:
+  - uid: H.Controls.Diagram.Bevaviors.NodeDataDropBehavior.DropNodeDataBehaviorBase`1
+    name: DropNodeDataBehaviorBase
+    href: H.Controls.Diagram.Bevaviors.NodeDataDropBehavior.DropNodeDataBehaviorBase-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Controls.Diagram.Bevaviors.NodeDataDropBehavior.DropNodeDataBehaviorBase`1
+    name: DropNodeDataBehaviorBase
+    href: H.Controls.Diagram.Bevaviors.NodeDataDropBehavior.DropNodeDataBehaviorBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Controls.Diagram.Bevaviors.NodeDataDropBehavior.LinkDropNodeDataBevaior
+  commentId: T:H.Controls.Diagram.Bevaviors.NodeDataDropBehavior.LinkDropNodeDataBevaior
+  href: H.Controls.Diagram.Bevaviors.NodeDataDropBehavior.LinkDropNodeDataBevaior.html
+  name: LinkDropNodeDataBevaior
+  nameWithType: LinkDropNodeDataBevaior
+  fullName: H.Controls.Diagram.Bevaviors.NodeDataDropBehavior.LinkDropNodeDataBevaior
+- uid: H.Controls.Diagram.Bevaviors.NodeDataDropBehavior.PortDropNodeDataBevaior
+  commentId: T:H.Controls.Diagram.Bevaviors.NodeDataDropBehavior.PortDropNodeDataBevaior
+  href: H.Controls.Diagram.Bevaviors.NodeDataDropBehavior.PortDropNodeDataBevaior.html
+  name: PortDropNodeDataBevaior
+  nameWithType: PortDropNodeDataBevaior
+  fullName: H.Controls.Diagram.Bevaviors.NodeDataDropBehavior.PortDropNodeDataBevaior
+- uid: H.Controls.Diagram.Bevaviors.NodeDataDropBehavior
+  commentId: N:H.Controls.Diagram.Bevaviors.NodeDataDropBehavior
+  href: H.html
+  name: H.Controls.Diagram.Bevaviors.NodeDataDropBehavior
+  nameWithType: H.Controls.Diagram.Bevaviors.NodeDataDropBehavior
+  fullName: H.Controls.Diagram.Bevaviors.NodeDataDropBehavior
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Bevaviors
+    name: Bevaviors
+    href: H.Controls.Diagram.Bevaviors.html
+  - name: .
+  - uid: H.Controls.Diagram.Bevaviors.NodeDataDropBehavior
+    name: NodeDataDropBehavior
+    href: H.Controls.Diagram.Bevaviors.NodeDataDropBehavior.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Bevaviors
+    name: Bevaviors
+    href: H.Controls.Diagram.Bevaviors.html
+  - name: .
+  - uid: H.Controls.Diagram.Bevaviors.NodeDataDropBehavior
+    name: NodeDataDropBehavior
+    href: H.Controls.Diagram.Bevaviors.NodeDataDropBehavior.html

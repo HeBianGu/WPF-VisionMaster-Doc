@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Modules.Sponsor
+  commentId: N:H.Modules.Sponsor
+  id: H.Modules.Sponsor
+  children:
+  - H.Modules.Sponsor.ISponsorPresenter
+  - H.Modules.Sponsor.ShowSponsorCommand
+  langs:
+  - csharp
+  - vb
+  name: H.Modules.Sponsor
+  nameWithType: H.Modules.Sponsor
+  fullName: H.Modules.Sponsor
+  type: Namespace
+  assemblies:
+  - H.Modules.Sponsor
+references:
+- uid: H.Modules.Sponsor.ISponsorPresenter
+  commentId: T:H.Modules.Sponsor.ISponsorPresenter
+  href: H.Modules.Sponsor.ISponsorPresenter.html
+  name: ISponsorPresenter
+  nameWithType: ISponsorPresenter
+  fullName: H.Modules.Sponsor.ISponsorPresenter
+- uid: H.Modules.Sponsor.ShowSponsorCommand
+  commentId: T:H.Modules.Sponsor.ShowSponsorCommand
+  href: H.Modules.Sponsor.ShowSponsorCommand.html
+  name: ShowSponsorCommand
+  nameWithType: ShowSponsorCommand
+  fullName: H.Modules.Sponsor.ShowSponsorCommand

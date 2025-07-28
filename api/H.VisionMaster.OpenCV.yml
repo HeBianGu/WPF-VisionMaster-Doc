@@ -1,0 +1,65 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.VisionMaster.OpenCV
+  commentId: N:H.VisionMaster.OpenCV
+  id: H.VisionMaster.OpenCV
+  children:
+  - H.VisionMaster.OpenCV.AssertPathExtesion
+  - H.VisionMaster.OpenCV.CascadeData
+  - H.VisionMaster.OpenCV.ColorProvider
+  - H.VisionMaster.OpenCV.HSVRange
+  - H.VisionMaster.OpenCV.MatExtension
+  - H.VisionMaster.OpenCV.OpenvCVExtension
+  - H.VisionMaster.OpenCV.TextPath
+  langs:
+  - csharp
+  - vb
+  name: H.VisionMaster.OpenCV
+  nameWithType: H.VisionMaster.OpenCV
+  fullName: H.VisionMaster.OpenCV
+  type: Namespace
+  assemblies:
+  - H.VisionMaster.OpenCV
+references:
+- uid: H.VisionMaster.OpenCV.CascadeData
+  commentId: T:H.VisionMaster.OpenCV.CascadeData
+  href: H.VisionMaster.OpenCV.CascadeData.html
+  name: CascadeData
+  nameWithType: CascadeData
+  fullName: H.VisionMaster.OpenCV.CascadeData
+- uid: H.VisionMaster.OpenCV.MatExtension
+  commentId: T:H.VisionMaster.OpenCV.MatExtension
+  href: H.VisionMaster.OpenCV.MatExtension.html
+  name: MatExtension
+  nameWithType: MatExtension
+  fullName: H.VisionMaster.OpenCV.MatExtension
+- uid: H.VisionMaster.OpenCV.HSVRange
+  commentId: T:H.VisionMaster.OpenCV.HSVRange
+  href: H.VisionMaster.OpenCV.HSVRange.html
+  name: HSVRange
+  nameWithType: HSVRange
+  fullName: H.VisionMaster.OpenCV.HSVRange
+- uid: H.VisionMaster.OpenCV.ColorProvider
+  commentId: T:H.VisionMaster.OpenCV.ColorProvider
+  href: H.VisionMaster.OpenCV.ColorProvider.html
+  name: ColorProvider
+  nameWithType: ColorProvider
+  fullName: H.VisionMaster.OpenCV.ColorProvider
+- uid: H.VisionMaster.OpenCV.OpenvCVExtension
+  commentId: T:H.VisionMaster.OpenCV.OpenvCVExtension
+  href: H.VisionMaster.OpenCV.OpenvCVExtension.html
+  name: OpenvCVExtension
+  nameWithType: OpenvCVExtension
+  fullName: H.VisionMaster.OpenCV.OpenvCVExtension
+- uid: H.VisionMaster.OpenCV.AssertPathExtesion
+  commentId: T:H.VisionMaster.OpenCV.AssertPathExtesion
+  href: H.VisionMaster.OpenCV.AssertPathExtesion.html
+  name: AssertPathExtesion
+  nameWithType: AssertPathExtesion
+  fullName: H.VisionMaster.OpenCV.AssertPathExtesion
+- uid: H.VisionMaster.OpenCV.TextPath
+  commentId: T:H.VisionMaster.OpenCV.TextPath
+  href: H.VisionMaster.OpenCV.TextPath.html
+  name: TextPath
+  nameWithType: TextPath
+  fullName: H.VisionMaster.OpenCV.TextPath

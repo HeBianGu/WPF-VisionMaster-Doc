@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.TypeLicense.LicenseProviders
+  commentId: N:H.Extensions.TypeLicense.LicenseProviders
+  id: H.Extensions.TypeLicense.LicenseProviders
+  children:
+  - H.Extensions.TypeLicense.LicenseProviders.DefaultTypeFileLicenseProvider
+  - H.Extensions.TypeLicense.LicenseProviders.EndTimeTypeFileLicenseProvider
+  - H.Extensions.TypeLicense.LicenseProviders.EndTimeTypeLicense
+  - H.Extensions.TypeLicense.LicenseProviders.ITypeLicense
+  - H.Extensions.TypeLicense.LicenseProviders.IValidLicense
+  - H.Extensions.TypeLicense.LicenseProviders.JsonTypeFileLicenseProvider
+  - H.Extensions.TypeLicense.LicenseProviders.JsonTypeFileLicenseProvider`1
+  - H.Extensions.TypeLicense.LicenseProviders.TypeFileLicenseProviderBase
+  - H.Extensions.TypeLicense.LicenseProviders.TypeLicense
+  - H.Extensions.TypeLicense.LicenseProviders.ValidTypeLicense
+  langs:
+  - csharp
+  - vb
+  name: H.Extensions.TypeLicense.LicenseProviders
+  nameWithType: H.Extensions.TypeLicense.LicenseProviders
+  fullName: H.Extensions.TypeLicense.LicenseProviders
+  type: Namespace
+  assemblies:
+  - H.Extensions.TypeLicense
+references:
+- uid: H.Extensions.TypeLicense.LicenseProviders.DefaultTypeFileLicenseProvider
+  commentId: T:H.Extensions.TypeLicense.LicenseProviders.DefaultTypeFileLicenseProvider
+  href: H.Extensions.TypeLicense.LicenseProviders.DefaultTypeFileLicenseProvider.html
+  name: DefaultTypeFileLicenseProvider
+  nameWithType: DefaultTypeFileLicenseProvider
+  fullName: H.Extensions.TypeLicense.LicenseProviders.DefaultTypeFileLicenseProvider
+- uid: H.Extensions.TypeLicense.LicenseProviders.EndTimeTypeFileLicenseProvider
+  commentId: T:H.Extensions.TypeLicense.LicenseProviders.EndTimeTypeFileLicenseProvider
+  href: H.Extensions.TypeLicense.LicenseProviders.EndTimeTypeFileLicenseProvider.html
+  name: EndTimeTypeFileLicenseProvider
+  nameWithType: EndTimeTypeFileLicenseProvider
+  fullName: H.Extensions.TypeLicense.LicenseProviders.EndTimeTypeFileLicenseProvider
+- uid: H.Extensions.TypeLicense.LicenseProviders.EndTimeTypeLicense
+  commentId: T:H.Extensions.TypeLicense.LicenseProviders.EndTimeTypeLicense
+  href: H.Extensions.TypeLicense.LicenseProviders.EndTimeTypeLicense.html
+  name: EndTimeTypeLicense
+  nameWithType: EndTimeTypeLicense
+  fullName: H.Extensions.TypeLicense.LicenseProviders.EndTimeTypeLicense
+- uid: H.Extensions.TypeLicense.LicenseProviders.JsonTypeFileLicenseProvider`1
+  commentId: T:H.Extensions.TypeLicense.LicenseProviders.JsonTypeFileLicenseProvider`1
+  href: H.Extensions.TypeLicense.LicenseProviders.JsonTypeFileLicenseProvider-1.html
+  name: JsonTypeFileLicenseProvider<T>
+  nameWithType: JsonTypeFileLicenseProvider<T>
+  fullName: H.Extensions.TypeLicense.LicenseProviders.JsonTypeFileLicenseProvider<T>
+  nameWithType.vb: JsonTypeFileLicenseProvider(Of T)
+  fullName.vb: H.Extensions.TypeLicense.LicenseProviders.JsonTypeFileLicenseProvider(Of T)
+  name.vb: JsonTypeFileLicenseProvider(Of T)
+  spec.csharp:
+  - uid: H.Extensions.TypeLicense.LicenseProviders.JsonTypeFileLicenseProvider`1
+    name: JsonTypeFileLicenseProvider
+    href: H.Extensions.TypeLicense.LicenseProviders.JsonTypeFileLicenseProvider-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Extensions.TypeLicense.LicenseProviders.JsonTypeFileLicenseProvider`1
+    name: JsonTypeFileLicenseProvider
+    href: H.Extensions.TypeLicense.LicenseProviders.JsonTypeFileLicenseProvider-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Extensions.TypeLicense.LicenseProviders.JsonTypeFileLicenseProvider
+  commentId: T:H.Extensions.TypeLicense.LicenseProviders.JsonTypeFileLicenseProvider
+  href: H.Extensions.TypeLicense.LicenseProviders.JsonTypeFileLicenseProvider.html
+  name: JsonTypeFileLicenseProvider
+  nameWithType: JsonTypeFileLicenseProvider
+  fullName: H.Extensions.TypeLicense.LicenseProviders.JsonTypeFileLicenseProvider
+- uid: H.Extensions.TypeLicense.LicenseProviders.TypeFileLicenseProviderBase
+  commentId: T:H.Extensions.TypeLicense.LicenseProviders.TypeFileLicenseProviderBase
+  parent: H.Extensions.TypeLicense.LicenseProviders
+  href: H.Extensions.TypeLicense.LicenseProviders.TypeFileLicenseProviderBase.html
+  name: TypeFileLicenseProviderBase
+  nameWithType: TypeFileLicenseProviderBase
+  fullName: H.Extensions.TypeLicense.LicenseProviders.TypeFileLicenseProviderBase
+- uid: H.Extensions.TypeLicense.LicenseProviders.ITypeLicense
+  commentId: T:H.Extensions.TypeLicense.LicenseProviders.ITypeLicense
+  parent: H.Extensions.TypeLicense.LicenseProviders
+  href: H.Extensions.TypeLicense.LicenseProviders.ITypeLicense.html
+  name: ITypeLicense
+  nameWithType: ITypeLicense
+  fullName: H.Extensions.TypeLicense.LicenseProviders.ITypeLicense
+- uid: H.Extensions.TypeLicense.LicenseProviders.TypeLicense
+  commentId: T:H.Extensions.TypeLicense.LicenseProviders.TypeLicense
+  parent: H.Extensions.TypeLicense.LicenseProviders
+  href: H.Extensions.TypeLicense.LicenseProviders.TypeLicense.html
+  name: TypeLicense
+  nameWithType: TypeLicense
+  fullName: H.Extensions.TypeLicense.LicenseProviders.TypeLicense
+- uid: H.Extensions.TypeLicense.LicenseProviders.IValidLicense
+  commentId: T:H.Extensions.TypeLicense.LicenseProviders.IValidLicense
+  parent: H.Extensions.TypeLicense.LicenseProviders
+  href: H.Extensions.TypeLicense.LicenseProviders.IValidLicense.html
+  name: IValidLicense
+  nameWithType: IValidLicense
+  fullName: H.Extensions.TypeLicense.LicenseProviders.IValidLicense
+- uid: H.Extensions.TypeLicense.LicenseProviders.ValidTypeLicense
+  commentId: T:H.Extensions.TypeLicense.LicenseProviders.ValidTypeLicense
+  parent: H.Extensions.TypeLicense.LicenseProviders
+  href: H.Extensions.TypeLicense.LicenseProviders.ValidTypeLicense.html
+  name: ValidTypeLicense
+  nameWithType: ValidTypeLicense
+  fullName: H.Extensions.TypeLicense.LicenseProviders.ValidTypeLicense
+- uid: H.Extensions.TypeLicense.LicenseProviders
+  commentId: N:H.Extensions.TypeLicense.LicenseProviders
+  href: H.html
+  name: H.Extensions.TypeLicense.LicenseProviders
+  nameWithType: H.Extensions.TypeLicense.LicenseProviders
+  fullName: H.Extensions.TypeLicense.LicenseProviders
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.TypeLicense
+    name: TypeLicense
+    href: H.Extensions.TypeLicense.html
+  - name: .
+  - uid: H.Extensions.TypeLicense.LicenseProviders
+    name: LicenseProviders
+    href: H.Extensions.TypeLicense.LicenseProviders.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.TypeLicense
+    name: TypeLicense
+    href: H.Extensions.TypeLicense.html
+  - name: .
+  - uid: H.Extensions.TypeLicense.LicenseProviders
+    name: LicenseProviders
+    href: H.Extensions.TypeLicense.LicenseProviders.html

@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.TreeListView
+  commentId: N:H.Controls.TreeListView
+  id: H.Controls.TreeListView
+  children:
+  - H.Controls.TreeListView.GetLevelToIndentConverter
+  - H.Controls.TreeListView.TreeListView
+  - H.Controls.TreeListView.TreeListViewItem
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.TreeListView
+  nameWithType: H.Controls.TreeListView
+  fullName: H.Controls.TreeListView
+  type: Namespace
+  assemblies:
+  - H.Controls.TreeListView
+references:
+- uid: H.Controls.TreeListView.GetLevelToIndentConverter
+  commentId: T:H.Controls.TreeListView.GetLevelToIndentConverter
+  href: H.Controls.TreeListView.GetLevelToIndentConverter.html
+  name: GetLevelToIndentConverter
+  nameWithType: GetLevelToIndentConverter
+  fullName: H.Controls.TreeListView.GetLevelToIndentConverter
+- uid: H.Controls.TreeListView.TreeListView
+  commentId: T:H.Controls.TreeListView.TreeListView
+  href: H.Controls.TreeListView.TreeListView.html
+  name: TreeListView
+  nameWithType: TreeListView
+  fullName: H.Controls.TreeListView.TreeListView
+- uid: H.Controls.TreeListView.TreeListViewItem
+  commentId: T:H.Controls.TreeListView.TreeListViewItem
+  href: H.Controls.TreeListView.TreeListViewItem.html
+  name: TreeListViewItem
+  nameWithType: TreeListViewItem
+  fullName: H.Controls.TreeListView.TreeListViewItem

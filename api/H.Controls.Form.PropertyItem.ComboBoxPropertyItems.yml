@@ -1,0 +1,117 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.Form.PropertyItem.ComboBoxPropertyItems
+  commentId: N:H.Controls.Form.PropertyItem.ComboBoxPropertyItems
+  id: H.Controls.Form.PropertyItem.ComboBoxPropertyItems
+  children:
+  - H.Controls.Form.PropertyItem.ComboBoxPropertyItems.ComboBoxPropertyItem
+  - H.Controls.Form.PropertyItem.ComboBoxPropertyItems.EnumComboBoxPropertyItem
+  - H.Controls.Form.PropertyItem.ComboBoxPropertyItems.FormComboBoxPropertyItem
+  - H.Controls.Form.PropertyItem.ComboBoxPropertyItems.ListBoxPropertyItem
+  - H.Controls.Form.PropertyItem.ComboBoxPropertyItems.MultiListBoxPropertyItem
+  - H.Controls.Form.PropertyItem.ComboBoxPropertyItems.PresenterComboBoxPropertyItem
+  - H.Controls.Form.PropertyItem.ComboBoxPropertyItems.SelectedIndexComboBoxPropertyItem
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.Form.PropertyItem.ComboBoxPropertyItems
+  nameWithType: H.Controls.Form.PropertyItem.ComboBoxPropertyItems
+  fullName: H.Controls.Form.PropertyItem.ComboBoxPropertyItems
+  type: Namespace
+  assemblies:
+  - H.Controls.Form.PropertyItem
+references:
+- uid: H.Controls.Form.PropertyItem.ComboBoxPropertyItems.ComboBoxPropertyItem
+  commentId: T:H.Controls.Form.PropertyItem.ComboBoxPropertyItems.ComboBoxPropertyItem
+  parent: H.Controls.Form.PropertyItem.ComboBoxPropertyItems
+  href: H.Controls.Form.PropertyItem.ComboBoxPropertyItems.ComboBoxPropertyItem.html
+  name: ComboBoxPropertyItem
+  nameWithType: ComboBoxPropertyItem
+  fullName: H.Controls.Form.PropertyItem.ComboBoxPropertyItems.ComboBoxPropertyItem
+- uid: H.Controls.Form.PropertyItem.ComboBoxPropertyItems.EnumComboBoxPropertyItem
+  commentId: T:H.Controls.Form.PropertyItem.ComboBoxPropertyItems.EnumComboBoxPropertyItem
+  parent: H.Controls.Form.PropertyItem.ComboBoxPropertyItems
+  href: H.Controls.Form.PropertyItem.ComboBoxPropertyItems.EnumComboBoxPropertyItem.html
+  name: EnumComboBoxPropertyItem
+  nameWithType: EnumComboBoxPropertyItem
+  fullName: H.Controls.Form.PropertyItem.ComboBoxPropertyItems.EnumComboBoxPropertyItem
+- uid: H.Controls.Form.PropertyItem.ComboBoxPropertyItems.FormComboBoxPropertyItem
+  commentId: T:H.Controls.Form.PropertyItem.ComboBoxPropertyItems.FormComboBoxPropertyItem
+  parent: H.Controls.Form.PropertyItem.ComboBoxPropertyItems
+  href: H.Controls.Form.PropertyItem.ComboBoxPropertyItems.FormComboBoxPropertyItem.html
+  name: FormComboBoxPropertyItem
+  nameWithType: FormComboBoxPropertyItem
+  fullName: H.Controls.Form.PropertyItem.ComboBoxPropertyItems.FormComboBoxPropertyItem
+- uid: H.Controls.Form.PropertyItem.ComboBoxPropertyItems.PresenterComboBoxPropertyItem
+  commentId: T:H.Controls.Form.PropertyItem.ComboBoxPropertyItems.PresenterComboBoxPropertyItem
+  parent: H.Controls.Form.PropertyItem.ComboBoxPropertyItems
+  href: H.Controls.Form.PropertyItem.ComboBoxPropertyItems.PresenterComboBoxPropertyItem.html
+  name: PresenterComboBoxPropertyItem
+  nameWithType: PresenterComboBoxPropertyItem
+  fullName: H.Controls.Form.PropertyItem.ComboBoxPropertyItems.PresenterComboBoxPropertyItem
+- uid: H.Controls.Form.PropertyItem.ComboBoxPropertyItems.SelectedIndexComboBoxPropertyItem
+  commentId: T:H.Controls.Form.PropertyItem.ComboBoxPropertyItems.SelectedIndexComboBoxPropertyItem
+  href: H.Controls.Form.PropertyItem.ComboBoxPropertyItems.SelectedIndexComboBoxPropertyItem.html
+  name: SelectedIndexComboBoxPropertyItem
+  nameWithType: SelectedIndexComboBoxPropertyItem
+  fullName: H.Controls.Form.PropertyItem.ComboBoxPropertyItems.SelectedIndexComboBoxPropertyItem
+- uid: H.Controls.Form.PropertyItem.ComboBoxPropertyItems.ListBoxPropertyItem
+  commentId: T:H.Controls.Form.PropertyItem.ComboBoxPropertyItems.ListBoxPropertyItem
+  parent: H.Controls.Form.PropertyItem.ComboBoxPropertyItems
+  href: H.Controls.Form.PropertyItem.ComboBoxPropertyItems.ListBoxPropertyItem.html
+  name: ListBoxPropertyItem
+  nameWithType: ListBoxPropertyItem
+  fullName: H.Controls.Form.PropertyItem.ComboBoxPropertyItems.ListBoxPropertyItem
+- uid: H.Controls.Form.PropertyItem.ComboBoxPropertyItems.MultiListBoxPropertyItem
+  commentId: T:H.Controls.Form.PropertyItem.ComboBoxPropertyItems.MultiListBoxPropertyItem
+  parent: H.Controls.Form.PropertyItem.ComboBoxPropertyItems
+  href: H.Controls.Form.PropertyItem.ComboBoxPropertyItems.MultiListBoxPropertyItem.html
+  name: MultiListBoxPropertyItem
+  nameWithType: MultiListBoxPropertyItem
+  fullName: H.Controls.Form.PropertyItem.ComboBoxPropertyItems.MultiListBoxPropertyItem
+- uid: H.Controls.Form.PropertyItem.ComboBoxPropertyItems
+  commentId: N:H.Controls.Form.PropertyItem.ComboBoxPropertyItems
+  href: H.html
+  name: H.Controls.Form.PropertyItem.ComboBoxPropertyItems
+  nameWithType: H.Controls.Form.PropertyItem.ComboBoxPropertyItems
+  fullName: H.Controls.Form.PropertyItem.ComboBoxPropertyItems
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Form
+    name: Form
+    href: H.Controls.Form.html
+  - name: .
+  - uid: H.Controls.Form.PropertyItem
+    name: PropertyItem
+    href: H.Controls.Form.PropertyItem.html
+  - name: .
+  - uid: H.Controls.Form.PropertyItem.ComboBoxPropertyItems
+    name: ComboBoxPropertyItems
+    href: H.Controls.Form.PropertyItem.ComboBoxPropertyItems.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Form
+    name: Form
+    href: H.Controls.Form.html
+  - name: .
+  - uid: H.Controls.Form.PropertyItem
+    name: PropertyItem
+    href: H.Controls.Form.PropertyItem.html
+  - name: .
+  - uid: H.Controls.Form.PropertyItem.ComboBoxPropertyItems
+    name: ComboBoxPropertyItems
+    href: H.Controls.Form.PropertyItem.ComboBoxPropertyItems.html

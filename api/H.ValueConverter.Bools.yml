@@ -1,0 +1,44 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.ValueConverter.Bools
+  commentId: N:H.ValueConverter.Bools
+  id: H.ValueConverter.Bools
+  children:
+  - H.ValueConverter.Bools.GetBoolToValueConverter
+  - H.ValueConverter.Bools.GetTrueToCollapsedConverter
+  - H.ValueConverter.Bools.GetTrueToFalseValueConverter
+  - H.ValueConverter.Bools.GetTrueToVisibleConverter
+  langs:
+  - csharp
+  - vb
+  name: H.ValueConverter.Bools
+  nameWithType: H.ValueConverter.Bools
+  fullName: H.ValueConverter.Bools
+  type: Namespace
+  assemblies:
+  - H.ValueConverter
+references:
+- uid: H.ValueConverter.Bools.GetBoolToValueConverter
+  commentId: T:H.ValueConverter.Bools.GetBoolToValueConverter
+  href: H.ValueConverter.Bools.GetBoolToValueConverter.html
+  name: GetBoolToValueConverter
+  nameWithType: GetBoolToValueConverter
+  fullName: H.ValueConverter.Bools.GetBoolToValueConverter
+- uid: H.ValueConverter.Bools.GetTrueToCollapsedConverter
+  commentId: T:H.ValueConverter.Bools.GetTrueToCollapsedConverter
+  href: H.ValueConverter.Bools.GetTrueToCollapsedConverter.html
+  name: GetTrueToCollapsedConverter
+  nameWithType: GetTrueToCollapsedConverter
+  fullName: H.ValueConverter.Bools.GetTrueToCollapsedConverter
+- uid: H.ValueConverter.Bools.GetTrueToFalseValueConverter
+  commentId: T:H.ValueConverter.Bools.GetTrueToFalseValueConverter
+  href: H.ValueConverter.Bools.GetTrueToFalseValueConverter.html
+  name: GetTrueToFalseValueConverter
+  nameWithType: GetTrueToFalseValueConverter
+  fullName: H.ValueConverter.Bools.GetTrueToFalseValueConverter
+- uid: H.ValueConverter.Bools.GetTrueToVisibleConverter
+  commentId: T:H.ValueConverter.Bools.GetTrueToVisibleConverter
+  href: H.ValueConverter.Bools.GetTrueToVisibleConverter.html
+  name: GetTrueToVisibleConverter
+  nameWithType: GetTrueToVisibleConverter
+  fullName: H.ValueConverter.Bools.GetTrueToVisibleConverter

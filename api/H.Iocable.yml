@@ -1,0 +1,172 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Iocable
+  commentId: N:H.Iocable
+  id: H.Iocable
+  children:
+  - H.Iocable.Ioc
+  - H.Iocable.IocBindable`2
+  - H.Iocable.IocExtension
+  - H.Iocable.IocThrowIfNone`1
+  - H.Iocable.Ioc`1
+  - H.Iocable.Ioc`2
+  - H.Iocable.ThrowIfNoneIoc`1
+  langs:
+  - csharp
+  - vb
+  name: H.Iocable
+  nameWithType: H.Iocable
+  fullName: H.Iocable
+  type: Namespace
+  assemblies:
+  - H.Iocable
+references:
+- uid: H.Iocable.Ioc
+  commentId: T:H.Iocable.Ioc
+  href: H.Iocable.Ioc.html
+  name: Ioc
+  nameWithType: Ioc
+  fullName: H.Iocable.Ioc
+- uid: H.Iocable.Ioc`2
+  commentId: T:H.Iocable.Ioc`2
+  href: H.Iocable.Ioc-2.html
+  name: Ioc<T, Interface>
+  nameWithType: Ioc<T, Interface>
+  fullName: H.Iocable.Ioc<T, Interface>
+  nameWithType.vb: Ioc(Of T, Interface)
+  fullName.vb: H.Iocable.Ioc(Of T, Interface)
+  name.vb: Ioc(Of T, Interface)
+  spec.csharp:
+  - uid: H.Iocable.Ioc`2
+    name: Ioc
+    href: H.Iocable.Ioc-2.html
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: Interface
+  - name: '>'
+  spec.vb:
+  - uid: H.Iocable.Ioc`2
+    name: Ioc
+    href: H.Iocable.Ioc-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: Interface
+  - name: )
+- uid: H.Iocable.Ioc`1
+  commentId: T:H.Iocable.Ioc`1
+  href: H.Iocable.Ioc-1.html
+  name: Ioc<Interface>
+  nameWithType: Ioc<Interface>
+  fullName: H.Iocable.Ioc<Interface>
+  nameWithType.vb: Ioc(Of Interface)
+  fullName.vb: H.Iocable.Ioc(Of Interface)
+  name.vb: Ioc(Of Interface)
+  spec.csharp:
+  - uid: H.Iocable.Ioc`1
+    name: Ioc
+    href: H.Iocable.Ioc-1.html
+  - name: <
+  - name: Interface
+  - name: '>'
+  spec.vb:
+  - uid: H.Iocable.Ioc`1
+    name: Ioc
+    href: H.Iocable.Ioc-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: Interface
+  - name: )
+- uid: H.Iocable.IocBindable`2
+  commentId: T:H.Iocable.IocBindable`2
+  href: H.Iocable.IocBindable-2.html
+  name: IocBindable<T, Interface>
+  nameWithType: IocBindable<T, Interface>
+  fullName: H.Iocable.IocBindable<T, Interface>
+  nameWithType.vb: IocBindable(Of T, Interface)
+  fullName.vb: H.Iocable.IocBindable(Of T, Interface)
+  name.vb: IocBindable(Of T, Interface)
+  spec.csharp:
+  - uid: H.Iocable.IocBindable`2
+    name: IocBindable
+    href: H.Iocable.IocBindable-2.html
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: Interface
+  - name: '>'
+  spec.vb:
+  - uid: H.Iocable.IocBindable`2
+    name: IocBindable
+    href: H.Iocable.IocBindable-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: Interface
+  - name: )
+- uid: H.Iocable.IocExtension
+  commentId: T:H.Iocable.IocExtension
+  href: H.Iocable.IocExtension.html
+  name: IocExtension
+  nameWithType: IocExtension
+  fullName: H.Iocable.IocExtension
+- uid: H.Iocable.IocThrowIfNone`1
+  commentId: T:H.Iocable.IocThrowIfNone`1
+  href: H.Iocable.IocThrowIfNone-1.html
+  name: IocThrowIfNone<Interface>
+  nameWithType: IocThrowIfNone<Interface>
+  fullName: H.Iocable.IocThrowIfNone<Interface>
+  nameWithType.vb: IocThrowIfNone(Of Interface)
+  fullName.vb: H.Iocable.IocThrowIfNone(Of Interface)
+  name.vb: IocThrowIfNone(Of Interface)
+  spec.csharp:
+  - uid: H.Iocable.IocThrowIfNone`1
+    name: IocThrowIfNone
+    href: H.Iocable.IocThrowIfNone-1.html
+  - name: <
+  - name: Interface
+  - name: '>'
+  spec.vb:
+  - uid: H.Iocable.IocThrowIfNone`1
+    name: IocThrowIfNone
+    href: H.Iocable.IocThrowIfNone-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: Interface
+  - name: )
+- uid: H.Iocable.ThrowIfNoneIoc`1
+  commentId: T:H.Iocable.ThrowIfNoneIoc`1
+  href: H.Iocable.ThrowIfNoneIoc-1.html
+  name: ThrowIfNoneIoc<Interface>
+  nameWithType: ThrowIfNoneIoc<Interface>
+  fullName: H.Iocable.ThrowIfNoneIoc<Interface>
+  nameWithType.vb: ThrowIfNoneIoc(Of Interface)
+  fullName.vb: H.Iocable.ThrowIfNoneIoc(Of Interface)
+  name.vb: ThrowIfNoneIoc(Of Interface)
+  spec.csharp:
+  - uid: H.Iocable.ThrowIfNoneIoc`1
+    name: ThrowIfNoneIoc
+    href: H.Iocable.ThrowIfNoneIoc-1.html
+  - name: <
+  - name: Interface
+  - name: '>'
+  spec.vb:
+  - uid: H.Iocable.ThrowIfNoneIoc`1
+    name: ThrowIfNoneIoc
+    href: H.Iocable.ThrowIfNoneIoc-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: Interface
+  - name: )

@@ -1,0 +1,51 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.Behvaiors.TreeViews
+  commentId: N:H.Extensions.Behvaiors.TreeViews
+  id: H.Extensions.Behvaiors.TreeViews
+  children:
+  - H.Extensions.Behvaiors.TreeViews.TreeViewItemContainSelectItemBehavior
+  - H.Extensions.Behvaiors.TreeViews.TreeViewItemSetSelectedOnMouseDownBehavior
+  - H.Extensions.Behvaiors.TreeViews.TreeViewSelectNoneOnMouseDownBehavior
+  - H.Extensions.Behvaiors.TreeViews.TreeViewSelectedItemBindableBehavior
+  - H.Extensions.Behvaiors.TreeViews.TreeViewSelectedItemsBindableBehavior
+  langs:
+  - csharp
+  - vb
+  name: H.Extensions.Behvaiors.TreeViews
+  nameWithType: H.Extensions.Behvaiors.TreeViews
+  fullName: H.Extensions.Behvaiors.TreeViews
+  type: Namespace
+  assemblies:
+  - H.Extensions.Behvaiors
+references:
+- uid: H.Extensions.Behvaiors.TreeViews.TreeViewItemContainSelectItemBehavior
+  commentId: T:H.Extensions.Behvaiors.TreeViews.TreeViewItemContainSelectItemBehavior
+  href: H.Extensions.Behvaiors.TreeViews.TreeViewItemContainSelectItemBehavior.html
+  name: TreeViewItemContainSelectItemBehavior
+  nameWithType: TreeViewItemContainSelectItemBehavior
+  fullName: H.Extensions.Behvaiors.TreeViews.TreeViewItemContainSelectItemBehavior
+- uid: H.Extensions.Behvaiors.TreeViews.TreeViewItemSetSelectedOnMouseDownBehavior
+  commentId: T:H.Extensions.Behvaiors.TreeViews.TreeViewItemSetSelectedOnMouseDownBehavior
+  href: H.Extensions.Behvaiors.TreeViews.TreeViewItemSetSelectedOnMouseDownBehavior.html
+  name: TreeViewItemSetSelectedOnMouseDownBehavior
+  nameWithType: TreeViewItemSetSelectedOnMouseDownBehavior
+  fullName: H.Extensions.Behvaiors.TreeViews.TreeViewItemSetSelectedOnMouseDownBehavior
+- uid: H.Extensions.Behvaiors.TreeViews.TreeViewSelectedItemBindableBehavior
+  commentId: T:H.Extensions.Behvaiors.TreeViews.TreeViewSelectedItemBindableBehavior
+  href: H.Extensions.Behvaiors.TreeViews.TreeViewSelectedItemBindableBehavior.html
+  name: TreeViewSelectedItemBindableBehavior
+  nameWithType: TreeViewSelectedItemBindableBehavior
+  fullName: H.Extensions.Behvaiors.TreeViews.TreeViewSelectedItemBindableBehavior
+- uid: H.Extensions.Behvaiors.TreeViews.TreeViewSelectedItemsBindableBehavior
+  commentId: T:H.Extensions.Behvaiors.TreeViews.TreeViewSelectedItemsBindableBehavior
+  href: H.Extensions.Behvaiors.TreeViews.TreeViewSelectedItemsBindableBehavior.html
+  name: TreeViewSelectedItemsBindableBehavior
+  nameWithType: TreeViewSelectedItemsBindableBehavior
+  fullName: H.Extensions.Behvaiors.TreeViews.TreeViewSelectedItemsBindableBehavior
+- uid: H.Extensions.Behvaiors.TreeViews.TreeViewSelectNoneOnMouseDownBehavior
+  commentId: T:H.Extensions.Behvaiors.TreeViews.TreeViewSelectNoneOnMouseDownBehavior
+  href: H.Extensions.Behvaiors.TreeViews.TreeViewSelectNoneOnMouseDownBehavior.html
+  name: TreeViewSelectNoneOnMouseDownBehavior
+  nameWithType: TreeViewSelectNoneOnMouseDownBehavior
+  fullName: H.Extensions.Behvaiors.TreeViews.TreeViewSelectNoneOnMouseDownBehavior

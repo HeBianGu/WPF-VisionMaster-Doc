@@ -1,0 +1,585 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.Diagram.Presenter.Extensions.LinkDataExtension
+  commentId: T:H.Controls.Diagram.Presenter.Extensions.LinkDataExtension
+  id: LinkDataExtension
+  parent: H.Controls.Diagram.Presenter.Extensions
+  children:
+  - H.Controls.Diagram.Presenter.Extensions.LinkDataExtension.GetFromNodeData(H.Controls.Diagram.Datas.ILinkData,H.Controls.Diagram.Presenter.DiagramDatas.Base.IDiagramData)
+  - H.Controls.Diagram.Presenter.Extensions.LinkDataExtension.GetFromPortData(H.Controls.Diagram.Datas.ILinkData,H.Controls.Diagram.Presenter.DiagramDatas.Base.IDiagramData)
+  - H.Controls.Diagram.Presenter.Extensions.LinkDataExtension.GetToNodeData(H.Controls.Diagram.Datas.ILinkData,H.Controls.Diagram.Presenter.DiagramDatas.Base.IDiagramData)
+  - H.Controls.Diagram.Presenter.Extensions.LinkDataExtension.GetToPortData(H.Controls.Diagram.Datas.ILinkData,H.Controls.Diagram.Presenter.DiagramDatas.Base.IDiagramData)
+  langs:
+  - csharp
+  - vb
+  name: LinkDataExtension
+  nameWithType: LinkDataExtension
+  fullName: H.Controls.Diagram.Presenter.Extensions.LinkDataExtension
+  type: Class
+  source:
+    id: LinkDataExtension
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.Diagram.Presenter\Extensions\LinkDataExtension.cs
+    startLine: 10
+  assemblies:
+  - H.Controls.Diagram.Presenter
+  namespace: H.Controls.Diagram.Presenter.Extensions
+  syntax:
+    content: public static class LinkDataExtension
+    content.vb: Public Module LinkDataExtension
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: H.Controls.Diagram.Presenter.Extensions.LinkDataExtension.GetToNodeData(H.Controls.Diagram.Datas.ILinkData,H.Controls.Diagram.Presenter.DiagramDatas.Base.IDiagramData)
+  commentId: M:H.Controls.Diagram.Presenter.Extensions.LinkDataExtension.GetToNodeData(H.Controls.Diagram.Datas.ILinkData,H.Controls.Diagram.Presenter.DiagramDatas.Base.IDiagramData)
+  id: GetToNodeData(H.Controls.Diagram.Datas.ILinkData,H.Controls.Diagram.Presenter.DiagramDatas.Base.IDiagramData)
+  isExtensionMethod: true
+  parent: H.Controls.Diagram.Presenter.Extensions.LinkDataExtension
+  langs:
+  - csharp
+  - vb
+  name: GetToNodeData(ILinkData, IDiagramData)
+  nameWithType: LinkDataExtension.GetToNodeData(ILinkData, IDiagramData)
+  fullName: H.Controls.Diagram.Presenter.Extensions.LinkDataExtension.GetToNodeData(H.Controls.Diagram.Datas.ILinkData, H.Controls.Diagram.Presenter.DiagramDatas.Base.IDiagramData)
+  type: Method
+  source:
+    id: GetToNodeData
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.Diagram.Presenter\Extensions\LinkDataExtension.cs
+    startLine: 12
+  assemblies:
+  - H.Controls.Diagram.Presenter
+  namespace: H.Controls.Diagram.Presenter.Extensions
+  syntax:
+    content: public static INodeData GetToNodeData(this ILinkData linkData, IDiagramData diagramData)
+    parameters:
+    - id: linkData
+      type: H.Controls.Diagram.Datas.ILinkData
+    - id: diagramData
+      type: H.Controls.Diagram.Presenter.DiagramDatas.Base.IDiagramData
+    return:
+      type: H.Controls.Diagram.Datas.INodeData
+    content.vb: Public Shared Function GetToNodeData(linkData As ILinkData, diagramData As IDiagramData) As INodeData
+  overload: H.Controls.Diagram.Presenter.Extensions.LinkDataExtension.GetToNodeData*
+- uid: H.Controls.Diagram.Presenter.Extensions.LinkDataExtension.GetFromNodeData(H.Controls.Diagram.Datas.ILinkData,H.Controls.Diagram.Presenter.DiagramDatas.Base.IDiagramData)
+  commentId: M:H.Controls.Diagram.Presenter.Extensions.LinkDataExtension.GetFromNodeData(H.Controls.Diagram.Datas.ILinkData,H.Controls.Diagram.Presenter.DiagramDatas.Base.IDiagramData)
+  id: GetFromNodeData(H.Controls.Diagram.Datas.ILinkData,H.Controls.Diagram.Presenter.DiagramDatas.Base.IDiagramData)
+  isExtensionMethod: true
+  parent: H.Controls.Diagram.Presenter.Extensions.LinkDataExtension
+  langs:
+  - csharp
+  - vb
+  name: GetFromNodeData(ILinkData, IDiagramData)
+  nameWithType: LinkDataExtension.GetFromNodeData(ILinkData, IDiagramData)
+  fullName: H.Controls.Diagram.Presenter.Extensions.LinkDataExtension.GetFromNodeData(H.Controls.Diagram.Datas.ILinkData, H.Controls.Diagram.Presenter.DiagramDatas.Base.IDiagramData)
+  type: Method
+  source:
+    id: GetFromNodeData
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.Diagram.Presenter\Extensions\LinkDataExtension.cs
+    startLine: 18
+  assemblies:
+  - H.Controls.Diagram.Presenter
+  namespace: H.Controls.Diagram.Presenter.Extensions
+  syntax:
+    content: public static INodeData GetFromNodeData(this ILinkData linkData, IDiagramData diagramData)
+    parameters:
+    - id: linkData
+      type: H.Controls.Diagram.Datas.ILinkData
+    - id: diagramData
+      type: H.Controls.Diagram.Presenter.DiagramDatas.Base.IDiagramData
+    return:
+      type: H.Controls.Diagram.Datas.INodeData
+    content.vb: Public Shared Function GetFromNodeData(linkData As ILinkData, diagramData As IDiagramData) As INodeData
+  overload: H.Controls.Diagram.Presenter.Extensions.LinkDataExtension.GetFromNodeData*
+- uid: H.Controls.Diagram.Presenter.Extensions.LinkDataExtension.GetFromPortData(H.Controls.Diagram.Datas.ILinkData,H.Controls.Diagram.Presenter.DiagramDatas.Base.IDiagramData)
+  commentId: M:H.Controls.Diagram.Presenter.Extensions.LinkDataExtension.GetFromPortData(H.Controls.Diagram.Datas.ILinkData,H.Controls.Diagram.Presenter.DiagramDatas.Base.IDiagramData)
+  id: GetFromPortData(H.Controls.Diagram.Datas.ILinkData,H.Controls.Diagram.Presenter.DiagramDatas.Base.IDiagramData)
+  isExtensionMethod: true
+  parent: H.Controls.Diagram.Presenter.Extensions.LinkDataExtension
+  langs:
+  - csharp
+  - vb
+  name: GetFromPortData(ILinkData, IDiagramData)
+  nameWithType: LinkDataExtension.GetFromPortData(ILinkData, IDiagramData)
+  fullName: H.Controls.Diagram.Presenter.Extensions.LinkDataExtension.GetFromPortData(H.Controls.Diagram.Datas.ILinkData, H.Controls.Diagram.Presenter.DiagramDatas.Base.IDiagramData)
+  type: Method
+  source:
+    id: GetFromPortData
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.Diagram.Presenter\Extensions\LinkDataExtension.cs
+    startLine: 25
+  assemblies:
+  - H.Controls.Diagram.Presenter
+  namespace: H.Controls.Diagram.Presenter.Extensions
+  syntax:
+    content: public static IPortData GetFromPortData(this ILinkData linkData, IDiagramData diagramData)
+    parameters:
+    - id: linkData
+      type: H.Controls.Diagram.Datas.ILinkData
+    - id: diagramData
+      type: H.Controls.Diagram.Presenter.DiagramDatas.Base.IDiagramData
+    return:
+      type: H.Controls.Diagram.Datas.IPortData
+    content.vb: Public Shared Function GetFromPortData(linkData As ILinkData, diagramData As IDiagramData) As IPortData
+  overload: H.Controls.Diagram.Presenter.Extensions.LinkDataExtension.GetFromPortData*
+- uid: H.Controls.Diagram.Presenter.Extensions.LinkDataExtension.GetToPortData(H.Controls.Diagram.Datas.ILinkData,H.Controls.Diagram.Presenter.DiagramDatas.Base.IDiagramData)
+  commentId: M:H.Controls.Diagram.Presenter.Extensions.LinkDataExtension.GetToPortData(H.Controls.Diagram.Datas.ILinkData,H.Controls.Diagram.Presenter.DiagramDatas.Base.IDiagramData)
+  id: GetToPortData(H.Controls.Diagram.Datas.ILinkData,H.Controls.Diagram.Presenter.DiagramDatas.Base.IDiagramData)
+  isExtensionMethod: true
+  parent: H.Controls.Diagram.Presenter.Extensions.LinkDataExtension
+  langs:
+  - csharp
+  - vb
+  name: GetToPortData(ILinkData, IDiagramData)
+  nameWithType: LinkDataExtension.GetToPortData(ILinkData, IDiagramData)
+  fullName: H.Controls.Diagram.Presenter.Extensions.LinkDataExtension.GetToPortData(H.Controls.Diagram.Datas.ILinkData, H.Controls.Diagram.Presenter.DiagramDatas.Base.IDiagramData)
+  type: Method
+  source:
+    id: GetToPortData
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.Diagram.Presenter\Extensions\LinkDataExtension.cs
+    startLine: 29
+  assemblies:
+  - H.Controls.Diagram.Presenter
+  namespace: H.Controls.Diagram.Presenter.Extensions
+  syntax:
+    content: public static IPortData GetToPortData(this ILinkData linkData, IDiagramData diagramData)
+    parameters:
+    - id: linkData
+      type: H.Controls.Diagram.Datas.ILinkData
+    - id: diagramData
+      type: H.Controls.Diagram.Presenter.DiagramDatas.Base.IDiagramData
+    return:
+      type: H.Controls.Diagram.Datas.IPortData
+    content.vb: Public Shared Function GetToPortData(linkData As ILinkData, diagramData As IDiagramData) As IPortData
+  overload: H.Controls.Diagram.Presenter.Extensions.LinkDataExtension.GetToPortData*
+references:
+- uid: H.Controls.Diagram.Presenter.Extensions
+  commentId: N:H.Controls.Diagram.Presenter.Extensions
+  href: H.html
+  name: H.Controls.Diagram.Presenter.Extensions
+  nameWithType: H.Controls.Diagram.Presenter.Extensions
+  fullName: H.Controls.Diagram.Presenter.Extensions
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter
+    name: Presenter
+    href: H.Controls.Diagram.Presenter.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter.Extensions
+    name: Extensions
+    href: H.Controls.Diagram.Presenter.Extensions.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter
+    name: Presenter
+    href: H.Controls.Diagram.Presenter.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter.Extensions
+    name: Extensions
+    href: H.Controls.Diagram.Presenter.Extensions.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: H.Controls.Diagram.Presenter.Extensions.LinkDataExtension.GetToNodeData*
+  commentId: Overload:H.Controls.Diagram.Presenter.Extensions.LinkDataExtension.GetToNodeData
+  href: H.Controls.Diagram.Presenter.Extensions.LinkDataExtension.html#H_Controls_Diagram_Presenter_Extensions_LinkDataExtension_GetToNodeData_H_Controls_Diagram_Datas_ILinkData_H_Controls_Diagram_Presenter_DiagramDatas_Base_IDiagramData_
+  name: GetToNodeData
+  nameWithType: LinkDataExtension.GetToNodeData
+  fullName: H.Controls.Diagram.Presenter.Extensions.LinkDataExtension.GetToNodeData
+- uid: H.Controls.Diagram.Datas.ILinkData
+  commentId: T:H.Controls.Diagram.Datas.ILinkData
+  parent: H.Controls.Diagram.Datas
+  href: H.Controls.Diagram.Datas.ILinkData.html
+  name: ILinkData
+  nameWithType: ILinkData
+  fullName: H.Controls.Diagram.Datas.ILinkData
+- uid: H.Controls.Diagram.Presenter.DiagramDatas.Base.IDiagramData
+  commentId: T:H.Controls.Diagram.Presenter.DiagramDatas.Base.IDiagramData
+  parent: H.Controls.Diagram.Presenter.DiagramDatas.Base
+  href: H.Controls.Diagram.Presenter.DiagramDatas.Base.IDiagramData.html
+  name: IDiagramData
+  nameWithType: IDiagramData
+  fullName: H.Controls.Diagram.Presenter.DiagramDatas.Base.IDiagramData
+- uid: H.Controls.Diagram.Datas.INodeData
+  commentId: T:H.Controls.Diagram.Datas.INodeData
+  parent: H.Controls.Diagram.Datas
+  href: H.Controls.Diagram.Datas.INodeData.html
+  name: INodeData
+  nameWithType: INodeData
+  fullName: H.Controls.Diagram.Datas.INodeData
+- uid: H.Controls.Diagram.Datas
+  commentId: N:H.Controls.Diagram.Datas
+  href: H.html
+  name: H.Controls.Diagram.Datas
+  nameWithType: H.Controls.Diagram.Datas
+  fullName: H.Controls.Diagram.Datas
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Datas
+    name: Datas
+    href: H.Controls.Diagram.Datas.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Datas
+    name: Datas
+    href: H.Controls.Diagram.Datas.html
+- uid: H.Controls.Diagram.Presenter.DiagramDatas.Base
+  commentId: N:H.Controls.Diagram.Presenter.DiagramDatas.Base
+  href: H.html
+  name: H.Controls.Diagram.Presenter.DiagramDatas.Base
+  nameWithType: H.Controls.Diagram.Presenter.DiagramDatas.Base
+  fullName: H.Controls.Diagram.Presenter.DiagramDatas.Base
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter
+    name: Presenter
+    href: H.Controls.Diagram.Presenter.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter.DiagramDatas
+    name: DiagramDatas
+    href: H.Controls.Diagram.Presenter.DiagramDatas.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter.DiagramDatas.Base
+    name: Base
+    href: H.Controls.Diagram.Presenter.DiagramDatas.Base.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter
+    name: Presenter
+    href: H.Controls.Diagram.Presenter.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter.DiagramDatas
+    name: DiagramDatas
+    href: H.Controls.Diagram.Presenter.DiagramDatas.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter.DiagramDatas.Base
+    name: Base
+    href: H.Controls.Diagram.Presenter.DiagramDatas.Base.html
+- uid: H.Controls.Diagram.Presenter.Extensions.LinkDataExtension.GetFromNodeData*
+  commentId: Overload:H.Controls.Diagram.Presenter.Extensions.LinkDataExtension.GetFromNodeData
+  href: H.Controls.Diagram.Presenter.Extensions.LinkDataExtension.html#H_Controls_Diagram_Presenter_Extensions_LinkDataExtension_GetFromNodeData_H_Controls_Diagram_Datas_ILinkData_H_Controls_Diagram_Presenter_DiagramDatas_Base_IDiagramData_
+  name: GetFromNodeData
+  nameWithType: LinkDataExtension.GetFromNodeData
+  fullName: H.Controls.Diagram.Presenter.Extensions.LinkDataExtension.GetFromNodeData
+- uid: H.Controls.Diagram.Presenter.Extensions.LinkDataExtension.GetFromPortData*
+  commentId: Overload:H.Controls.Diagram.Presenter.Extensions.LinkDataExtension.GetFromPortData
+  href: H.Controls.Diagram.Presenter.Extensions.LinkDataExtension.html#H_Controls_Diagram_Presenter_Extensions_LinkDataExtension_GetFromPortData_H_Controls_Diagram_Datas_ILinkData_H_Controls_Diagram_Presenter_DiagramDatas_Base_IDiagramData_
+  name: GetFromPortData
+  nameWithType: LinkDataExtension.GetFromPortData
+  fullName: H.Controls.Diagram.Presenter.Extensions.LinkDataExtension.GetFromPortData
+- uid: H.Controls.Diagram.Datas.IPortData
+  commentId: T:H.Controls.Diagram.Datas.IPortData
+  parent: H.Controls.Diagram.Datas
+  href: H.Controls.Diagram.Datas.IPortData.html
+  name: IPortData
+  nameWithType: IPortData
+  fullName: H.Controls.Diagram.Datas.IPortData
+- uid: H.Controls.Diagram.Presenter.Extensions.LinkDataExtension.GetToPortData*
+  commentId: Overload:H.Controls.Diagram.Presenter.Extensions.LinkDataExtension.GetToPortData
+  href: H.Controls.Diagram.Presenter.Extensions.LinkDataExtension.html#H_Controls_Diagram_Presenter_Extensions_LinkDataExtension_GetToPortData_H_Controls_Diagram_Datas_ILinkData_H_Controls_Diagram_Presenter_DiagramDatas_Base_IDiagramData_
+  name: GetToPortData
+  nameWithType: LinkDataExtension.GetToPortData
+  fullName: H.Controls.Diagram.Presenter.Extensions.LinkDataExtension.GetToPortData

@@ -1,0 +1,105 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Modules.Guide.Commands
+  commentId: N:H.Modules.Guide.Commands
+  id: H.Modules.Guide.Commands
+  children:
+  - H.Modules.Guide.Commands.ShowGuideCommand
+  - H.Modules.Guide.Commands.ShowGuideCommandBase
+  - H.Modules.Guide.Commands.ShowGuideTreeCommand
+  - H.Modules.Guide.Commands.ShowGuideTreeCommandBase
+  - H.Modules.Guide.Commands.ShowNewGuideCommand
+  - H.Modules.Guide.Commands.ShowNewGuideTreeCommand
+  - H.Modules.Guide.Commands.ShowVersionGuideCommand
+  langs:
+  - csharp
+  - vb
+  name: H.Modules.Guide.Commands
+  nameWithType: H.Modules.Guide.Commands
+  fullName: H.Modules.Guide.Commands
+  type: Namespace
+  assemblies:
+  - H.Modules.Guide
+references:
+- uid: H.Modules.Guide.Commands.ShowGuideCommand
+  commentId: T:H.Modules.Guide.Commands.ShowGuideCommand
+  href: H.Modules.Guide.Commands.ShowGuideCommand.html
+  name: ShowGuideCommand
+  nameWithType: ShowGuideCommand
+  fullName: H.Modules.Guide.Commands.ShowGuideCommand
+- uid: H.Modules.Guide.Commands.ShowGuideCommandBase
+  commentId: T:H.Modules.Guide.Commands.ShowGuideCommandBase
+  parent: H.Modules.Guide.Commands
+  href: H.Modules.Guide.Commands.ShowGuideCommandBase.html
+  name: ShowGuideCommandBase
+  nameWithType: ShowGuideCommandBase
+  fullName: H.Modules.Guide.Commands.ShowGuideCommandBase
+- uid: H.Modules.Guide.Commands.ShowGuideTreeCommand
+  commentId: T:H.Modules.Guide.Commands.ShowGuideTreeCommand
+  href: H.Modules.Guide.Commands.ShowGuideTreeCommand.html
+  name: ShowGuideTreeCommand
+  nameWithType: ShowGuideTreeCommand
+  fullName: H.Modules.Guide.Commands.ShowGuideTreeCommand
+- uid: H.Modules.Guide.Commands.ShowGuideTreeCommandBase
+  commentId: T:H.Modules.Guide.Commands.ShowGuideTreeCommandBase
+  parent: H.Modules.Guide.Commands
+  href: H.Modules.Guide.Commands.ShowGuideTreeCommandBase.html
+  name: ShowGuideTreeCommandBase
+  nameWithType: ShowGuideTreeCommandBase
+  fullName: H.Modules.Guide.Commands.ShowGuideTreeCommandBase
+- uid: H.Modules.Guide.Commands.ShowNewGuideCommand
+  commentId: T:H.Modules.Guide.Commands.ShowNewGuideCommand
+  href: H.Modules.Guide.Commands.ShowNewGuideCommand.html
+  name: ShowNewGuideCommand
+  nameWithType: ShowNewGuideCommand
+  fullName: H.Modules.Guide.Commands.ShowNewGuideCommand
+- uid: H.Modules.Guide.Commands.ShowNewGuideTreeCommand
+  commentId: T:H.Modules.Guide.Commands.ShowNewGuideTreeCommand
+  href: H.Modules.Guide.Commands.ShowNewGuideTreeCommand.html
+  name: ShowNewGuideTreeCommand
+  nameWithType: ShowNewGuideTreeCommand
+  fullName: H.Modules.Guide.Commands.ShowNewGuideTreeCommand
+- uid: H.Modules.Guide.Commands.ShowVersionGuideCommand
+  commentId: T:H.Modules.Guide.Commands.ShowVersionGuideCommand
+  href: H.Modules.Guide.Commands.ShowVersionGuideCommand.html
+  name: ShowVersionGuideCommand
+  nameWithType: ShowVersionGuideCommand
+  fullName: H.Modules.Guide.Commands.ShowVersionGuideCommand
+- uid: H.Modules.Guide.Commands
+  commentId: N:H.Modules.Guide.Commands
+  href: H.html
+  name: H.Modules.Guide.Commands
+  nameWithType: H.Modules.Guide.Commands
+  fullName: H.Modules.Guide.Commands
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Modules
+    name: Modules
+    href: H.Modules.html
+  - name: .
+  - uid: H.Modules.Guide
+    name: Guide
+    href: H.Modules.Guide.html
+  - name: .
+  - uid: H.Modules.Guide.Commands
+    name: Commands
+    href: H.Modules.Guide.Commands.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Modules
+    name: Modules
+    href: H.Modules.html
+  - name: .
+  - uid: H.Modules.Guide
+    name: Guide
+    href: H.Modules.Guide.html
+  - name: .
+  - uid: H.Modules.Guide.Commands
+    name: Commands
+    href: H.Modules.Guide.Commands.html

@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Modules.Messages.Form
+  commentId: N:H.Modules.Messages.Form
+  id: H.Modules.Messages.Form
+  children:
+  - H.Modules.Messages.Form.FormMessageService
+  langs:
+  - csharp
+  - vb
+  name: H.Modules.Messages.Form
+  nameWithType: H.Modules.Messages.Form
+  fullName: H.Modules.Messages.Form
+  type: Namespace
+  assemblies:
+  - H.Modules.Messages.Form
+references:
+- uid: H.Modules.Messages.Form.FormMessageService
+  commentId: T:H.Modules.Messages.Form.FormMessageService
+  href: H.Modules.Messages.Form.FormMessageService.html
+  name: FormMessageService
+  nameWithType: FormMessageService
+  fullName: H.Modules.Messages.Form.FormMessageService

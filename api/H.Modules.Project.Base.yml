@@ -1,0 +1,84 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Modules.Project.Base
+  commentId: N:H.Modules.Project.Base
+  id: H.Modules.Project.Base
+  children:
+  - H.Modules.Project.Base.IProjectTemplate
+  - H.Modules.Project.Base.ProjectItemBase
+  - H.Modules.Project.Base.ProjectItemViewModel
+  - H.Modules.Project.Base.ProjectTemplate
+  langs:
+  - csharp
+  - vb
+  name: H.Modules.Project.Base
+  nameWithType: H.Modules.Project.Base
+  fullName: H.Modules.Project.Base
+  type: Namespace
+  assemblies:
+  - H.Modules.Project
+references:
+- uid: H.Modules.Project.Base.IProjectTemplate
+  commentId: T:H.Modules.Project.Base.IProjectTemplate
+  parent: H.Modules.Project.Base
+  href: H.Modules.Project.Base.IProjectTemplate.html
+  name: IProjectTemplate
+  nameWithType: IProjectTemplate
+  fullName: H.Modules.Project.Base.IProjectTemplate
+- uid: H.Modules.Project.Base.ProjectItemBase
+  commentId: T:H.Modules.Project.Base.ProjectItemBase
+  parent: H.Modules.Project.Base
+  href: H.Modules.Project.Base.ProjectItemBase.html
+  name: ProjectItemBase
+  nameWithType: ProjectItemBase
+  fullName: H.Modules.Project.Base.ProjectItemBase
+- uid: H.Modules.Project.Base.ProjectItemViewModel
+  commentId: T:H.Modules.Project.Base.ProjectItemViewModel
+  href: H.Modules.Project.Base.ProjectItemViewModel.html
+  name: ProjectItemViewModel
+  nameWithType: ProjectItemViewModel
+  fullName: H.Modules.Project.Base.ProjectItemViewModel
+- uid: H.Modules.Project.Base.ProjectTemplate
+  commentId: T:H.Modules.Project.Base.ProjectTemplate
+  href: H.Modules.Project.Base.ProjectTemplate.html
+  name: ProjectTemplate
+  nameWithType: ProjectTemplate
+  fullName: H.Modules.Project.Base.ProjectTemplate
+- uid: H.Modules.Project.Base
+  commentId: N:H.Modules.Project.Base
+  href: H.html
+  name: H.Modules.Project.Base
+  nameWithType: H.Modules.Project.Base
+  fullName: H.Modules.Project.Base
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Modules
+    name: Modules
+    href: H.Modules.html
+  - name: .
+  - uid: H.Modules.Project
+    name: Project
+    href: H.Modules.Project.html
+  - name: .
+  - uid: H.Modules.Project.Base
+    name: Base
+    href: H.Modules.Project.Base.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Modules
+    name: Modules
+    href: H.Modules.html
+  - name: .
+  - uid: H.Modules.Project
+    name: Project
+    href: H.Modules.Project.html
+  - name: .
+  - uid: H.Modules.Project.Base
+    name: Base
+    href: H.Modules.Project.Base.html

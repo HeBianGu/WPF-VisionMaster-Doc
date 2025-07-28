@@ -1,0 +1,84 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.Behvaiors.Triggers
+  commentId: N:H.Extensions.Behvaiors.Triggers
+  id: H.Extensions.Behvaiors.Triggers
+  children:
+  - H.Extensions.Behvaiors.Triggers.MousePressClickTrigger
+  - H.Extensions.Behvaiors.Triggers.MousePressTrigger
+  - H.Extensions.Behvaiors.Triggers.MouseTrigger
+  - H.Extensions.Behvaiors.Triggers.MouseTriggerMode
+  langs:
+  - csharp
+  - vb
+  name: H.Extensions.Behvaiors.Triggers
+  nameWithType: H.Extensions.Behvaiors.Triggers
+  fullName: H.Extensions.Behvaiors.Triggers
+  type: Namespace
+  assemblies:
+  - H.Extensions.Behvaiors
+references:
+- uid: H.Extensions.Behvaiors.Triggers.MousePressClickTrigger
+  commentId: T:H.Extensions.Behvaiors.Triggers.MousePressClickTrigger
+  href: H.Extensions.Behvaiors.Triggers.MousePressClickTrigger.html
+  name: MousePressClickTrigger
+  nameWithType: MousePressClickTrigger
+  fullName: H.Extensions.Behvaiors.Triggers.MousePressClickTrigger
+- uid: H.Extensions.Behvaiors.Triggers.MousePressTrigger
+  commentId: T:H.Extensions.Behvaiors.Triggers.MousePressTrigger
+  parent: H.Extensions.Behvaiors.Triggers
+  href: H.Extensions.Behvaiors.Triggers.MousePressTrigger.html
+  name: MousePressTrigger
+  nameWithType: MousePressTrigger
+  fullName: H.Extensions.Behvaiors.Triggers.MousePressTrigger
+- uid: H.Extensions.Behvaiors.Triggers.MouseTrigger
+  commentId: T:H.Extensions.Behvaiors.Triggers.MouseTrigger
+  href: H.Extensions.Behvaiors.Triggers.MouseTrigger.html
+  name: MouseTrigger
+  nameWithType: MouseTrigger
+  fullName: H.Extensions.Behvaiors.Triggers.MouseTrigger
+- uid: H.Extensions.Behvaiors.Triggers.MouseTriggerMode
+  commentId: T:H.Extensions.Behvaiors.Triggers.MouseTriggerMode
+  parent: H.Extensions.Behvaiors.Triggers
+  href: H.Extensions.Behvaiors.Triggers.MouseTriggerMode.html
+  name: MouseTriggerMode
+  nameWithType: MouseTriggerMode
+  fullName: H.Extensions.Behvaiors.Triggers.MouseTriggerMode
+- uid: H.Extensions.Behvaiors.Triggers
+  commentId: N:H.Extensions.Behvaiors.Triggers
+  href: H.html
+  name: H.Extensions.Behvaiors.Triggers
+  nameWithType: H.Extensions.Behvaiors.Triggers
+  fullName: H.Extensions.Behvaiors.Triggers
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Behvaiors
+    name: Behvaiors
+    href: H.Extensions.Behvaiors.html
+  - name: .
+  - uid: H.Extensions.Behvaiors.Triggers
+    name: Triggers
+    href: H.Extensions.Behvaiors.Triggers.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Behvaiors
+    name: Behvaiors
+    href: H.Extensions.Behvaiors.html
+  - name: .
+  - uid: H.Extensions.Behvaiors.Triggers
+    name: Triggers
+    href: H.Extensions.Behvaiors.Triggers.html

@@ -1,0 +1,128 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.TextJsonable
+  commentId: N:H.Extensions.TextJsonable
+  id: H.Extensions.TextJsonable
+  children:
+  - H.Extensions.TextJsonable.ITextJsonable
+  - H.Extensions.TextJsonable.ITextJsonableReader
+  - H.Extensions.TextJsonable.ITextJsonableWriter
+  - H.Extensions.TextJsonable.JsonBindableBase
+  - H.Extensions.TextJsonable.MyDisposable
+  - H.Extensions.TextJsonable.MyJsonBindable
+  - H.Extensions.TextJsonable.TextJsonMetaSettingService
+  - H.Extensions.TextJsonable.TextJsonableBase
+  - H.Extensions.TextJsonable.TextJsonableExtensions
+  - H.Extensions.TextJsonable.TextJsonableJsonConverter
+  - H.Extensions.TextJsonable.TypeJsonWriterJsonable
+  langs:
+  - csharp
+  - vb
+  name: H.Extensions.TextJsonable
+  nameWithType: H.Extensions.TextJsonable
+  fullName: H.Extensions.TextJsonable
+  type: Namespace
+  assemblies:
+  - H.Extensions.TextJsonable
+references:
+- uid: H.Extensions.TextJsonable.ITextJsonable
+  commentId: T:H.Extensions.TextJsonable.ITextJsonable
+  parent: H.Extensions.TextJsonable
+  href: H.Extensions.TextJsonable.ITextJsonable.html
+  name: ITextJsonable
+  nameWithType: ITextJsonable
+  fullName: H.Extensions.TextJsonable.ITextJsonable
+- uid: H.Extensions.TextJsonable.ITextJsonableReader
+  commentId: T:H.Extensions.TextJsonable.ITextJsonableReader
+  parent: H.Extensions.TextJsonable
+  href: H.Extensions.TextJsonable.ITextJsonableReader.html
+  name: ITextJsonableReader
+  nameWithType: ITextJsonableReader
+  fullName: H.Extensions.TextJsonable.ITextJsonableReader
+- uid: H.Extensions.TextJsonable.ITextJsonableWriter
+  commentId: T:H.Extensions.TextJsonable.ITextJsonableWriter
+  parent: H.Extensions.TextJsonable
+  href: H.Extensions.TextJsonable.ITextJsonableWriter.html
+  name: ITextJsonableWriter
+  nameWithType: ITextJsonableWriter
+  fullName: H.Extensions.TextJsonable.ITextJsonableWriter
+- uid: H.Extensions.TextJsonable.JsonBindableBase
+  commentId: T:H.Extensions.TextJsonable.JsonBindableBase
+  parent: H.Extensions.TextJsonable
+  href: H.Extensions.TextJsonable.JsonBindableBase.html
+  name: JsonBindableBase
+  nameWithType: JsonBindableBase
+  fullName: H.Extensions.TextJsonable.JsonBindableBase
+- uid: H.Extensions.TextJsonable.MyJsonBindable
+  commentId: T:H.Extensions.TextJsonable.MyJsonBindable
+  href: H.Extensions.TextJsonable.MyJsonBindable.html
+  name: MyJsonBindable
+  nameWithType: MyJsonBindable
+  fullName: H.Extensions.TextJsonable.MyJsonBindable
+- uid: H.Extensions.TextJsonable.MyDisposable
+  commentId: T:H.Extensions.TextJsonable.MyDisposable
+  href: H.Extensions.TextJsonable.MyDisposable.html
+  name: MyDisposable
+  nameWithType: MyDisposable
+  fullName: H.Extensions.TextJsonable.MyDisposable
+- uid: H.Extensions.TextJsonable.TextJsonableBase
+  commentId: T:H.Extensions.TextJsonable.TextJsonableBase
+  href: H.Extensions.TextJsonable.TextJsonableBase.html
+  name: TextJsonableBase
+  nameWithType: TextJsonableBase
+  fullName: H.Extensions.TextJsonable.TextJsonableBase
+- uid: H.Extensions.TextJsonable.TextJsonableExtensions
+  commentId: T:H.Extensions.TextJsonable.TextJsonableExtensions
+  parent: H.Extensions.TextJsonable
+  href: H.Extensions.TextJsonable.TextJsonableExtensions.html
+  name: TextJsonableExtensions
+  nameWithType: TextJsonableExtensions
+  fullName: H.Extensions.TextJsonable.TextJsonableExtensions
+- uid: H.Extensions.TextJsonable.TypeJsonWriterJsonable
+  commentId: T:H.Extensions.TextJsonable.TypeJsonWriterJsonable
+  href: H.Extensions.TextJsonable.TypeJsonWriterJsonable.html
+  name: TypeJsonWriterJsonable
+  nameWithType: TypeJsonWriterJsonable
+  fullName: H.Extensions.TextJsonable.TypeJsonWriterJsonable
+- uid: H.Extensions.TextJsonable.TextJsonableJsonConverter
+  commentId: T:H.Extensions.TextJsonable.TextJsonableJsonConverter
+  href: H.Extensions.TextJsonable.TextJsonableJsonConverter.html
+  name: TextJsonableJsonConverter
+  nameWithType: TextJsonableJsonConverter
+  fullName: H.Extensions.TextJsonable.TextJsonableJsonConverter
+- uid: H.Extensions.TextJsonable.TextJsonMetaSettingService
+  commentId: T:H.Extensions.TextJsonable.TextJsonMetaSettingService
+  href: H.Extensions.TextJsonable.TextJsonMetaSettingService.html
+  name: TextJsonMetaSettingService
+  nameWithType: TextJsonMetaSettingService
+  fullName: H.Extensions.TextJsonable.TextJsonMetaSettingService
+- uid: H.Extensions.TextJsonable
+  commentId: N:H.Extensions.TextJsonable
+  href: H.html
+  name: H.Extensions.TextJsonable
+  nameWithType: H.Extensions.TextJsonable
+  fullName: H.Extensions.TextJsonable
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.TextJsonable
+    name: TextJsonable
+    href: H.Extensions.TextJsonable.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.TextJsonable
+    name: TextJsonable
+    href: H.Extensions.TextJsonable.html

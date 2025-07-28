@@ -1,0 +1,98 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.Adorner.Draggable
+  commentId: N:H.Controls.Adorner.Draggable
+  id: H.Controls.Adorner.Draggable
+  children:
+  - H.Controls.Adorner.Draggable.DragControlTemplateAdorner
+  - H.Controls.Adorner.Draggable.DragableDataTemplateAdorner
+  - H.Controls.Adorner.Draggable.DraggableAdorner
+  - H.Controls.Adorner.Draggable.DraggableAdornerMode
+  - H.Controls.Adorner.Draggable.IDoDragDrop
+  - H.Controls.Adorner.Draggable.IDraggableAdorner
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.Adorner.Draggable
+  nameWithType: H.Controls.Adorner.Draggable
+  fullName: H.Controls.Adorner.Draggable
+  type: Namespace
+  assemblies:
+  - H.Controls.Adorner
+references:
+- uid: H.Controls.Adorner.Draggable.DragableDataTemplateAdorner
+  commentId: T:H.Controls.Adorner.Draggable.DragableDataTemplateAdorner
+  href: H.Controls.Adorner.Draggable.DragableDataTemplateAdorner.html
+  name: DragableDataTemplateAdorner
+  nameWithType: DragableDataTemplateAdorner
+  fullName: H.Controls.Adorner.Draggable.DragableDataTemplateAdorner
+- uid: H.Controls.Adorner.Draggable.DragControlTemplateAdorner
+  commentId: T:H.Controls.Adorner.Draggable.DragControlTemplateAdorner
+  href: H.Controls.Adorner.Draggable.DragControlTemplateAdorner.html
+  name: DragControlTemplateAdorner
+  nameWithType: DragControlTemplateAdorner
+  fullName: H.Controls.Adorner.Draggable.DragControlTemplateAdorner
+- uid: H.Controls.Adorner.Draggable.DraggableAdorner
+  commentId: T:H.Controls.Adorner.Draggable.DraggableAdorner
+  href: H.Controls.Adorner.Draggable.DraggableAdorner.html
+  name: DraggableAdorner
+  nameWithType: DraggableAdorner
+  fullName: H.Controls.Adorner.Draggable.DraggableAdorner
+- uid: H.Controls.Adorner.Draggable.DraggableAdornerMode
+  commentId: T:H.Controls.Adorner.Draggable.DraggableAdornerMode
+  parent: H.Controls.Adorner.Draggable
+  href: H.Controls.Adorner.Draggable.DraggableAdornerMode.html
+  name: DraggableAdornerMode
+  nameWithType: DraggableAdornerMode
+  fullName: H.Controls.Adorner.Draggable.DraggableAdornerMode
+- uid: H.Controls.Adorner.Draggable.IDoDragDrop
+  commentId: T:H.Controls.Adorner.Draggable.IDoDragDrop
+  href: H.Controls.Adorner.Draggable.IDoDragDrop.html
+  name: IDoDragDrop
+  nameWithType: IDoDragDrop
+  fullName: H.Controls.Adorner.Draggable.IDoDragDrop
+- uid: H.Controls.Adorner.Draggable.IDraggableAdorner
+  commentId: T:H.Controls.Adorner.Draggable.IDraggableAdorner
+  parent: H.Controls.Adorner.Draggable
+  href: H.Controls.Adorner.Draggable.IDraggableAdorner.html
+  name: IDraggableAdorner
+  nameWithType: IDraggableAdorner
+  fullName: H.Controls.Adorner.Draggable.IDraggableAdorner
+- uid: H.Controls.Adorner.Draggable
+  commentId: N:H.Controls.Adorner.Draggable
+  href: H.html
+  name: H.Controls.Adorner.Draggable
+  nameWithType: H.Controls.Adorner.Draggable
+  fullName: H.Controls.Adorner.Draggable
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Adorner
+    name: Adorner
+    href: H.Controls.Adorner.html
+  - name: .
+  - uid: H.Controls.Adorner.Draggable
+    name: Draggable
+    href: H.Controls.Adorner.Draggable.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Adorner
+    name: Adorner
+    href: H.Controls.Adorner.html
+  - name: .
+  - uid: H.Controls.Adorner.Draggable
+    name: Draggable
+    href: H.Controls.Adorner.Draggable.html

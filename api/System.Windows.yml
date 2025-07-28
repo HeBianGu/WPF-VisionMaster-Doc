@@ -1,0 +1,42 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Windows
+  commentId: N:System.Windows
+  id: System.Windows
+  children:
+  - System.Windows.RoutedEventArgs`1
+  langs:
+  - csharp
+  - vb
+  name: System.Windows
+  nameWithType: System.Windows
+  fullName: System.Windows
+  type: Namespace
+  assemblies:
+  - H.Common
+references:
+- uid: System.Windows.RoutedEventArgs`1
+  commentId: T:System.Windows.RoutedEventArgs`1
+  href: System.Windows.RoutedEventArgs-1.html
+  name: RoutedEventArgs<T>
+  nameWithType: RoutedEventArgs<T>
+  fullName: System.Windows.RoutedEventArgs<T>
+  nameWithType.vb: RoutedEventArgs(Of T)
+  fullName.vb: System.Windows.RoutedEventArgs(Of T)
+  name.vb: RoutedEventArgs(Of T)
+  spec.csharp:
+  - uid: System.Windows.RoutedEventArgs`1
+    name: RoutedEventArgs
+    href: System.Windows.RoutedEventArgs-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Windows.RoutedEventArgs`1
+    name: RoutedEventArgs
+    href: System.Windows.RoutedEventArgs-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )

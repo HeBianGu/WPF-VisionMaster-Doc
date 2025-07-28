@@ -1,0 +1,75 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Styles.StyleResources
+  commentId: N:H.Styles.StyleResources
+  id: H.Styles.StyleResources
+  children:
+  - H.Styles.StyleResources.ConciseStyleExtension
+  - H.Styles.StyleResources.ConciseStyleResource
+  - H.Styles.StyleResources.IStyleResource
+  - H.Styles.StyleResources.NoneStyleResource
+  langs:
+  - csharp
+  - vb
+  name: H.Styles.StyleResources
+  nameWithType: H.Styles.StyleResources
+  fullName: H.Styles.StyleResources
+  type: Namespace
+  assemblies:
+  - H.Style
+references:
+- uid: H.Styles.StyleResources.ConciseStyleResource
+  commentId: T:H.Styles.StyleResources.ConciseStyleResource
+  href: H.Styles.StyleResources.ConciseStyleResource.html
+  name: ConciseStyleResource
+  nameWithType: ConciseStyleResource
+  fullName: H.Styles.StyleResources.ConciseStyleResource
+- uid: H.Styles.StyleResources.ConciseStyleExtension
+  commentId: T:H.Styles.StyleResources.ConciseStyleExtension
+  href: H.Styles.StyleResources.ConciseStyleExtension.html
+  name: ConciseStyleExtension
+  nameWithType: ConciseStyleExtension
+  fullName: H.Styles.StyleResources.ConciseStyleExtension
+- uid: H.Styles.StyleResources.IStyleResource
+  commentId: T:H.Styles.StyleResources.IStyleResource
+  parent: H.Styles.StyleResources
+  href: H.Styles.StyleResources.IStyleResource.html
+  name: IStyleResource
+  nameWithType: IStyleResource
+  fullName: H.Styles.StyleResources.IStyleResource
+- uid: H.Styles.StyleResources.NoneStyleResource
+  commentId: T:H.Styles.StyleResources.NoneStyleResource
+  href: H.Styles.StyleResources.NoneStyleResource.html
+  name: NoneStyleResource
+  nameWithType: NoneStyleResource
+  fullName: H.Styles.StyleResources.NoneStyleResource
+- uid: H.Styles.StyleResources
+  commentId: N:H.Styles.StyleResources
+  href: H.html
+  name: H.Styles.StyleResources
+  nameWithType: H.Styles.StyleResources
+  fullName: H.Styles.StyleResources
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Styles
+    name: Styles
+    href: H.Styles.html
+  - name: .
+  - uid: H.Styles.StyleResources
+    name: StyleResources
+    href: H.Styles.StyleResources.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Styles
+    name: Styles
+    href: H.Styles.html
+  - name: .
+  - uid: H.Styles.StyleResources
+    name: StyleResources
+    href: H.Styles.StyleResources.html

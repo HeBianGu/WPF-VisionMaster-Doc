@@ -1,0 +1,116 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.Mail
+  commentId: N:H.Extensions.Mail
+  id: H.Extensions.Mail
+  children:
+  - H.Extensions.Mail.ISmtpSendOptions
+  - H.Extensions.Mail.LogMailService
+  - H.Extensions.Mail.MailMessagePresenter
+  - H.Extensions.Mail.MailService
+  - H.Extensions.Mail.SendMailCommand
+  - H.Extensions.Mail.SmtpSendOptions
+  - H.Extensions.Mail.SmtpSendOptions`1
+  langs:
+  - csharp
+  - vb
+  name: H.Extensions.Mail
+  nameWithType: H.Extensions.Mail
+  fullName: H.Extensions.Mail
+  type: Namespace
+  assemblies:
+  - H.Extensions.Mail
+references:
+- uid: H.Extensions.Mail.ISmtpSendOptions
+  commentId: T:H.Extensions.Mail.ISmtpSendOptions
+  parent: H.Extensions.Mail
+  href: H.Extensions.Mail.ISmtpSendOptions.html
+  name: ISmtpSendOptions
+  nameWithType: ISmtpSendOptions
+  fullName: H.Extensions.Mail.ISmtpSendOptions
+- uid: H.Extensions.Mail.LogMailService
+  commentId: T:H.Extensions.Mail.LogMailService
+  href: H.Extensions.Mail.LogMailService.html
+  name: LogMailService
+  nameWithType: LogMailService
+  fullName: H.Extensions.Mail.LogMailService
+- uid: H.Extensions.Mail.MailMessagePresenter
+  commentId: T:H.Extensions.Mail.MailMessagePresenter
+  href: H.Extensions.Mail.MailMessagePresenter.html
+  name: MailMessagePresenter
+  nameWithType: MailMessagePresenter
+  fullName: H.Extensions.Mail.MailMessagePresenter
+- uid: H.Extensions.Mail.MailService
+  commentId: T:H.Extensions.Mail.MailService
+  parent: H.Extensions.Mail
+  href: H.Extensions.Mail.MailService.html
+  name: MailService
+  nameWithType: MailService
+  fullName: H.Extensions.Mail.MailService
+- uid: H.Extensions.Mail.SendMailCommand
+  commentId: T:H.Extensions.Mail.SendMailCommand
+  href: H.Extensions.Mail.SendMailCommand.html
+  name: SendMailCommand
+  nameWithType: SendMailCommand
+  fullName: H.Extensions.Mail.SendMailCommand
+- uid: H.Extensions.Mail.SmtpSendOptions`1
+  commentId: T:H.Extensions.Mail.SmtpSendOptions`1
+  href: H.Extensions.Mail.SmtpSendOptions-1.html
+  name: SmtpSendOptions<T>
+  nameWithType: SmtpSendOptions<T>
+  fullName: H.Extensions.Mail.SmtpSendOptions<T>
+  nameWithType.vb: SmtpSendOptions(Of T)
+  fullName.vb: H.Extensions.Mail.SmtpSendOptions(Of T)
+  name.vb: SmtpSendOptions(Of T)
+  spec.csharp:
+  - uid: H.Extensions.Mail.SmtpSendOptions`1
+    name: SmtpSendOptions
+    href: H.Extensions.Mail.SmtpSendOptions-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Extensions.Mail.SmtpSendOptions`1
+    name: SmtpSendOptions
+    href: H.Extensions.Mail.SmtpSendOptions-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Extensions.Mail.SmtpSendOptions
+  commentId: T:H.Extensions.Mail.SmtpSendOptions
+  href: H.Extensions.Mail.SmtpSendOptions.html
+  name: SmtpSendOptions
+  nameWithType: SmtpSendOptions
+  fullName: H.Extensions.Mail.SmtpSendOptions
+- uid: H.Extensions.Mail
+  commentId: N:H.Extensions.Mail
+  href: H.html
+  name: H.Extensions.Mail
+  nameWithType: H.Extensions.Mail
+  fullName: H.Extensions.Mail
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Mail
+    name: Mail
+    href: H.Extensions.Mail.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Mail
+    name: Mail
+    href: H.Extensions.Mail.html

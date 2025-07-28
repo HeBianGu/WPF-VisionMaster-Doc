@@ -1,0 +1,51 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.App.VisionMaster.OpenCV.NodeDatas
+  commentId: N:H.App.VisionMaster.OpenCV.NodeDatas
+  id: H.App.VisionMaster.OpenCV.NodeDatas
+  children:
+  - H.App.VisionMaster.OpenCV.NodeDatas.AgeInferOnnxNodeData
+  - H.App.VisionMaster.OpenCV.NodeDatas.GenderClsOnnxNodeData
+  - H.App.VisionMaster.OpenCV.NodeDatas.HumanSemSegOnnxNodeData
+  - H.App.VisionMaster.OpenCV.NodeDatas.Yolov5FaceOnnxNodeData
+  - H.App.VisionMaster.OpenCV.NodeDatas.Yolov5OnnxNodeData
+  langs:
+  - csharp
+  - vb
+  name: H.App.VisionMaster.OpenCV.NodeDatas
+  nameWithType: H.App.VisionMaster.OpenCV.NodeDatas
+  fullName: H.App.VisionMaster.OpenCV.NodeDatas
+  type: Namespace
+  assemblies:
+  - H.App.VisionMaster.OpenCV
+references:
+- uid: H.App.VisionMaster.OpenCV.NodeDatas.AgeInferOnnxNodeData
+  commentId: T:H.App.VisionMaster.OpenCV.NodeDatas.AgeInferOnnxNodeData
+  href: H.App.VisionMaster.OpenCV.NodeDatas.AgeInferOnnxNodeData.html
+  name: AgeInferOnnxNodeData
+  nameWithType: AgeInferOnnxNodeData
+  fullName: H.App.VisionMaster.OpenCV.NodeDatas.AgeInferOnnxNodeData
+- uid: H.App.VisionMaster.OpenCV.NodeDatas.GenderClsOnnxNodeData
+  commentId: T:H.App.VisionMaster.OpenCV.NodeDatas.GenderClsOnnxNodeData
+  href: H.App.VisionMaster.OpenCV.NodeDatas.GenderClsOnnxNodeData.html
+  name: GenderClsOnnxNodeData
+  nameWithType: GenderClsOnnxNodeData
+  fullName: H.App.VisionMaster.OpenCV.NodeDatas.GenderClsOnnxNodeData
+- uid: H.App.VisionMaster.OpenCV.NodeDatas.HumanSemSegOnnxNodeData
+  commentId: T:H.App.VisionMaster.OpenCV.NodeDatas.HumanSemSegOnnxNodeData
+  href: H.App.VisionMaster.OpenCV.NodeDatas.HumanSemSegOnnxNodeData.html
+  name: HumanSemSegOnnxNodeData
+  nameWithType: HumanSemSegOnnxNodeData
+  fullName: H.App.VisionMaster.OpenCV.NodeDatas.HumanSemSegOnnxNodeData
+- uid: H.App.VisionMaster.OpenCV.NodeDatas.Yolov5FaceOnnxNodeData
+  commentId: T:H.App.VisionMaster.OpenCV.NodeDatas.Yolov5FaceOnnxNodeData
+  href: H.App.VisionMaster.OpenCV.NodeDatas.Yolov5FaceOnnxNodeData.html
+  name: Yolov5FaceOnnxNodeData
+  nameWithType: Yolov5FaceOnnxNodeData
+  fullName: H.App.VisionMaster.OpenCV.NodeDatas.Yolov5FaceOnnxNodeData
+- uid: H.App.VisionMaster.OpenCV.NodeDatas.Yolov5OnnxNodeData
+  commentId: T:H.App.VisionMaster.OpenCV.NodeDatas.Yolov5OnnxNodeData
+  href: H.App.VisionMaster.OpenCV.NodeDatas.Yolov5OnnxNodeData.html
+  name: Yolov5OnnxNodeData
+  nameWithType: Yolov5OnnxNodeData
+  fullName: H.App.VisionMaster.OpenCV.NodeDatas.Yolov5OnnxNodeData

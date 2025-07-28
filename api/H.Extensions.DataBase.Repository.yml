@@ -1,0 +1,265 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.DataBase.Repository
+  commentId: N:H.Extensions.DataBase.Repository
+  id: H.Extensions.DataBase.Repository
+  children:
+  - H.Extensions.DataBase.Repository.DateRepositoryBindable`1
+  - H.Extensions.DataBase.Repository.IRepositoryBindable
+  - H.Extensions.DataBase.Repository.IRepositoryBindableBase`1
+  - H.Extensions.DataBase.Repository.IRepositoryBindable`1
+  - H.Extensions.DataBase.Repository.ITreePath
+  - H.Extensions.DataBase.Repository.ITreeRepositoryBindable`1
+  - H.Extensions.DataBase.Repository.RepositoryBindableBase
+  - H.Extensions.DataBase.Repository.RepositoryBindableBase`2
+  - H.Extensions.DataBase.Repository.RepositoryBindable`1
+  - H.Extensions.DataBase.Repository.TreeRepositoryBindable`1
+  langs:
+  - csharp
+  - vb
+  name: H.Extensions.DataBase.Repository
+  nameWithType: H.Extensions.DataBase.Repository
+  fullName: H.Extensions.DataBase.Repository
+  type: Namespace
+  assemblies:
+  - H.Extensions.DataBase.Repository
+references:
+- uid: H.Extensions.DataBase.Repository.DateRepositoryBindable`1
+  commentId: T:H.Extensions.DataBase.Repository.DateRepositoryBindable`1
+  href: H.Extensions.DataBase.Repository.DateRepositoryBindable-1.html
+  name: DateRepositoryBindable<TEntity>
+  nameWithType: DateRepositoryBindable<TEntity>
+  fullName: H.Extensions.DataBase.Repository.DateRepositoryBindable<TEntity>
+  nameWithType.vb: DateRepositoryBindable(Of TEntity)
+  fullName.vb: H.Extensions.DataBase.Repository.DateRepositoryBindable(Of TEntity)
+  name.vb: DateRepositoryBindable(Of TEntity)
+  spec.csharp:
+  - uid: H.Extensions.DataBase.Repository.DateRepositoryBindable`1
+    name: DateRepositoryBindable
+    href: H.Extensions.DataBase.Repository.DateRepositoryBindable-1.html
+  - name: <
+  - name: TEntity
+  - name: '>'
+  spec.vb:
+  - uid: H.Extensions.DataBase.Repository.DateRepositoryBindable`1
+    name: DateRepositoryBindable
+    href: H.Extensions.DataBase.Repository.DateRepositoryBindable-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: )
+- uid: H.Extensions.DataBase.Repository.IRepositoryBindable
+  commentId: T:H.Extensions.DataBase.Repository.IRepositoryBindable
+  parent: H.Extensions.DataBase.Repository
+  href: H.Extensions.DataBase.Repository.IRepositoryBindable.html
+  name: IRepositoryBindable
+  nameWithType: IRepositoryBindable
+  fullName: H.Extensions.DataBase.Repository.IRepositoryBindable
+- uid: H.Extensions.DataBase.Repository.IRepositoryBindable`1
+  commentId: T:H.Extensions.DataBase.Repository.IRepositoryBindable`1
+  href: H.Extensions.DataBase.Repository.IRepositoryBindable-1.html
+  name: IRepositoryBindable<TEntity>
+  nameWithType: IRepositoryBindable<TEntity>
+  fullName: H.Extensions.DataBase.Repository.IRepositoryBindable<TEntity>
+  nameWithType.vb: IRepositoryBindable(Of TEntity)
+  fullName.vb: H.Extensions.DataBase.Repository.IRepositoryBindable(Of TEntity)
+  name.vb: IRepositoryBindable(Of TEntity)
+  spec.csharp:
+  - uid: H.Extensions.DataBase.Repository.IRepositoryBindable`1
+    name: IRepositoryBindable
+    href: H.Extensions.DataBase.Repository.IRepositoryBindable-1.html
+  - name: <
+  - name: TEntity
+  - name: '>'
+  spec.vb:
+  - uid: H.Extensions.DataBase.Repository.IRepositoryBindable`1
+    name: IRepositoryBindable
+    href: H.Extensions.DataBase.Repository.IRepositoryBindable-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: )
+- uid: H.Extensions.DataBase.Repository.IRepositoryBindableBase`1
+  commentId: T:H.Extensions.DataBase.Repository.IRepositoryBindableBase`1
+  href: H.Extensions.DataBase.Repository.IRepositoryBindableBase-1.html
+  name: IRepositoryBindableBase<TEntity>
+  nameWithType: IRepositoryBindableBase<TEntity>
+  fullName: H.Extensions.DataBase.Repository.IRepositoryBindableBase<TEntity>
+  nameWithType.vb: IRepositoryBindableBase(Of TEntity)
+  fullName.vb: H.Extensions.DataBase.Repository.IRepositoryBindableBase(Of TEntity)
+  name.vb: IRepositoryBindableBase(Of TEntity)
+  spec.csharp:
+  - uid: H.Extensions.DataBase.Repository.IRepositoryBindableBase`1
+    name: IRepositoryBindableBase
+    href: H.Extensions.DataBase.Repository.IRepositoryBindableBase-1.html
+  - name: <
+  - name: TEntity
+  - name: '>'
+  spec.vb:
+  - uid: H.Extensions.DataBase.Repository.IRepositoryBindableBase`1
+    name: IRepositoryBindableBase
+    href: H.Extensions.DataBase.Repository.IRepositoryBindableBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: )
+- uid: H.Extensions.DataBase.Repository.ITreePath
+  commentId: T:H.Extensions.DataBase.Repository.ITreePath
+  href: H.Extensions.DataBase.Repository.ITreePath.html
+  name: ITreePath
+  nameWithType: ITreePath
+  fullName: H.Extensions.DataBase.Repository.ITreePath
+- uid: H.Extensions.DataBase.Repository.ITreeRepositoryBindable`1
+  commentId: T:H.Extensions.DataBase.Repository.ITreeRepositoryBindable`1
+  href: H.Extensions.DataBase.Repository.ITreeRepositoryBindable-1.html
+  name: ITreeRepositoryBindable<TEntity>
+  nameWithType: ITreeRepositoryBindable<TEntity>
+  fullName: H.Extensions.DataBase.Repository.ITreeRepositoryBindable<TEntity>
+  nameWithType.vb: ITreeRepositoryBindable(Of TEntity)
+  fullName.vb: H.Extensions.DataBase.Repository.ITreeRepositoryBindable(Of TEntity)
+  name.vb: ITreeRepositoryBindable(Of TEntity)
+  spec.csharp:
+  - uid: H.Extensions.DataBase.Repository.ITreeRepositoryBindable`1
+    name: ITreeRepositoryBindable
+    href: H.Extensions.DataBase.Repository.ITreeRepositoryBindable-1.html
+  - name: <
+  - name: TEntity
+  - name: '>'
+  spec.vb:
+  - uid: H.Extensions.DataBase.Repository.ITreeRepositoryBindable`1
+    name: ITreeRepositoryBindable
+    href: H.Extensions.DataBase.Repository.ITreeRepositoryBindable-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: )
+- uid: H.Extensions.DataBase.Repository.RepositoryBindable`1
+  commentId: T:H.Extensions.DataBase.Repository.RepositoryBindable`1
+  href: H.Extensions.DataBase.Repository.RepositoryBindable-1.html
+  name: RepositoryBindable<TEntity>
+  nameWithType: RepositoryBindable<TEntity>
+  fullName: H.Extensions.DataBase.Repository.RepositoryBindable<TEntity>
+  nameWithType.vb: RepositoryBindable(Of TEntity)
+  fullName.vb: H.Extensions.DataBase.Repository.RepositoryBindable(Of TEntity)
+  name.vb: RepositoryBindable(Of TEntity)
+  spec.csharp:
+  - uid: H.Extensions.DataBase.Repository.RepositoryBindable`1
+    name: RepositoryBindable
+    href: H.Extensions.DataBase.Repository.RepositoryBindable-1.html
+  - name: <
+  - name: TEntity
+  - name: '>'
+  spec.vb:
+  - uid: H.Extensions.DataBase.Repository.RepositoryBindable`1
+    name: RepositoryBindable
+    href: H.Extensions.DataBase.Repository.RepositoryBindable-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: )
+- uid: H.Extensions.DataBase.Repository.RepositoryBindableBase
+  commentId: T:H.Extensions.DataBase.Repository.RepositoryBindableBase
+  parent: H.Extensions.DataBase.Repository
+  href: H.Extensions.DataBase.Repository.RepositoryBindableBase.html
+  name: RepositoryBindableBase
+  nameWithType: RepositoryBindableBase
+  fullName: H.Extensions.DataBase.Repository.RepositoryBindableBase
+- uid: H.Extensions.DataBase.Repository.RepositoryBindableBase`2
+  commentId: T:H.Extensions.DataBase.Repository.RepositoryBindableBase`2
+  href: H.Extensions.DataBase.Repository.RepositoryBindableBase-2.html
+  name: RepositoryBindableBase<TViewModel, TEntity>
+  nameWithType: RepositoryBindableBase<TViewModel, TEntity>
+  fullName: H.Extensions.DataBase.Repository.RepositoryBindableBase<TViewModel, TEntity>
+  nameWithType.vb: RepositoryBindableBase(Of TViewModel, TEntity)
+  fullName.vb: H.Extensions.DataBase.Repository.RepositoryBindableBase(Of TViewModel, TEntity)
+  name.vb: RepositoryBindableBase(Of TViewModel, TEntity)
+  spec.csharp:
+  - uid: H.Extensions.DataBase.Repository.RepositoryBindableBase`2
+    name: RepositoryBindableBase
+    href: H.Extensions.DataBase.Repository.RepositoryBindableBase-2.html
+  - name: <
+  - name: TViewModel
+  - name: ','
+  - name: " "
+  - name: TEntity
+  - name: '>'
+  spec.vb:
+  - uid: H.Extensions.DataBase.Repository.RepositoryBindableBase`2
+    name: RepositoryBindableBase
+    href: H.Extensions.DataBase.Repository.RepositoryBindableBase-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TViewModel
+  - name: ','
+  - name: " "
+  - name: TEntity
+  - name: )
+- uid: H.Extensions.DataBase.Repository.TreeRepositoryBindable`1
+  commentId: T:H.Extensions.DataBase.Repository.TreeRepositoryBindable`1
+  href: H.Extensions.DataBase.Repository.TreeRepositoryBindable-1.html
+  name: TreeRepositoryBindable<TEntity>
+  nameWithType: TreeRepositoryBindable<TEntity>
+  fullName: H.Extensions.DataBase.Repository.TreeRepositoryBindable<TEntity>
+  nameWithType.vb: TreeRepositoryBindable(Of TEntity)
+  fullName.vb: H.Extensions.DataBase.Repository.TreeRepositoryBindable(Of TEntity)
+  name.vb: TreeRepositoryBindable(Of TEntity)
+  spec.csharp:
+  - uid: H.Extensions.DataBase.Repository.TreeRepositoryBindable`1
+    name: TreeRepositoryBindable
+    href: H.Extensions.DataBase.Repository.TreeRepositoryBindable-1.html
+  - name: <
+  - name: TEntity
+  - name: '>'
+  spec.vb:
+  - uid: H.Extensions.DataBase.Repository.TreeRepositoryBindable`1
+    name: TreeRepositoryBindable
+    href: H.Extensions.DataBase.Repository.TreeRepositoryBindable-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: )
+- uid: H.Extensions.DataBase.Repository
+  commentId: N:H.Extensions.DataBase.Repository
+  href: H.html
+  name: H.Extensions.DataBase.Repository
+  nameWithType: H.Extensions.DataBase.Repository
+  fullName: H.Extensions.DataBase.Repository
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.DataBase
+    name: DataBase
+    href: H.Extensions.DataBase.html
+  - name: .
+  - uid: H.Extensions.DataBase.Repository
+    name: Repository
+    href: H.Extensions.DataBase.Repository.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.DataBase
+    name: DataBase
+    href: H.Extensions.DataBase.html
+  - name: .
+  - uid: H.Extensions.DataBase.Repository
+    name: Repository
+    href: H.Extensions.DataBase.Repository.html

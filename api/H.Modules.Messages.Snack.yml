@@ -1,0 +1,139 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Modules.Messages.Snack
+  commentId: N:H.Modules.Messages.Snack
+  id: H.Modules.Messages.Snack
+  children:
+  - H.Modules.Messages.Snack.DialogMessagePresenter
+  - H.Modules.Messages.Snack.ErrorMessagePresenter
+  - H.Modules.Messages.Snack.FatalMessagePresenter
+  - H.Modules.Messages.Snack.InfoMessagePresenter
+  - H.Modules.Messages.Snack.MessagePresenterBase
+  - H.Modules.Messages.Snack.ProgressMessagePresenter
+  - H.Modules.Messages.Snack.SnackBoxPresenter
+  - H.Modules.Messages.Snack.SnackDialog
+  - H.Modules.Messages.Snack.SnackMessageService
+  - H.Modules.Messages.Snack.StringMessagePresenter
+  - H.Modules.Messages.Snack.SuccessMessagePresenter
+  - H.Modules.Messages.Snack.WarnMessagePresenter
+  langs:
+  - csharp
+  - vb
+  name: H.Modules.Messages.Snack
+  nameWithType: H.Modules.Messages.Snack
+  fullName: H.Modules.Messages.Snack
+  type: Namespace
+  assemblies:
+  - H.Modules.Messages.Snack
+references:
+- uid: H.Modules.Messages.Snack.DialogMessagePresenter
+  commentId: T:H.Modules.Messages.Snack.DialogMessagePresenter
+  href: H.Modules.Messages.Snack.DialogMessagePresenter.html
+  name: DialogMessagePresenter
+  nameWithType: DialogMessagePresenter
+  fullName: H.Modules.Messages.Snack.DialogMessagePresenter
+- uid: H.Modules.Messages.Snack.ErrorMessagePresenter
+  commentId: T:H.Modules.Messages.Snack.ErrorMessagePresenter
+  href: H.Modules.Messages.Snack.ErrorMessagePresenter.html
+  name: ErrorMessagePresenter
+  nameWithType: ErrorMessagePresenter
+  fullName: H.Modules.Messages.Snack.ErrorMessagePresenter
+- uid: H.Modules.Messages.Snack.FatalMessagePresenter
+  commentId: T:H.Modules.Messages.Snack.FatalMessagePresenter
+  href: H.Modules.Messages.Snack.FatalMessagePresenter.html
+  name: FatalMessagePresenter
+  nameWithType: FatalMessagePresenter
+  fullName: H.Modules.Messages.Snack.FatalMessagePresenter
+- uid: H.Modules.Messages.Snack.InfoMessagePresenter
+  commentId: T:H.Modules.Messages.Snack.InfoMessagePresenter
+  href: H.Modules.Messages.Snack.InfoMessagePresenter.html
+  name: InfoMessagePresenter
+  nameWithType: InfoMessagePresenter
+  fullName: H.Modules.Messages.Snack.InfoMessagePresenter
+- uid: H.Modules.Messages.Snack.MessagePresenterBase
+  commentId: T:H.Modules.Messages.Snack.MessagePresenterBase
+  parent: H.Modules.Messages.Snack
+  href: H.Modules.Messages.Snack.MessagePresenterBase.html
+  name: MessagePresenterBase
+  nameWithType: MessagePresenterBase
+  fullName: H.Modules.Messages.Snack.MessagePresenterBase
+- uid: H.Modules.Messages.Snack.ProgressMessagePresenter
+  commentId: T:H.Modules.Messages.Snack.ProgressMessagePresenter
+  href: H.Modules.Messages.Snack.ProgressMessagePresenter.html
+  name: ProgressMessagePresenter
+  nameWithType: ProgressMessagePresenter
+  fullName: H.Modules.Messages.Snack.ProgressMessagePresenter
+- uid: H.Modules.Messages.Snack.StringMessagePresenter
+  commentId: T:H.Modules.Messages.Snack.StringMessagePresenter
+  href: H.Modules.Messages.Snack.StringMessagePresenter.html
+  name: StringMessagePresenter
+  nameWithType: StringMessagePresenter
+  fullName: H.Modules.Messages.Snack.StringMessagePresenter
+- uid: H.Modules.Messages.Snack.SuccessMessagePresenter
+  commentId: T:H.Modules.Messages.Snack.SuccessMessagePresenter
+  href: H.Modules.Messages.Snack.SuccessMessagePresenter.html
+  name: SuccessMessagePresenter
+  nameWithType: SuccessMessagePresenter
+  fullName: H.Modules.Messages.Snack.SuccessMessagePresenter
+- uid: H.Modules.Messages.Snack.WarnMessagePresenter
+  commentId: T:H.Modules.Messages.Snack.WarnMessagePresenter
+  href: H.Modules.Messages.Snack.WarnMessagePresenter.html
+  name: WarnMessagePresenter
+  nameWithType: WarnMessagePresenter
+  fullName: H.Modules.Messages.Snack.WarnMessagePresenter
+- uid: H.Modules.Messages.Snack.SnackBoxPresenter
+  commentId: T:H.Modules.Messages.Snack.SnackBoxPresenter
+  href: H.Modules.Messages.Snack.SnackBoxPresenter.html
+  name: SnackBoxPresenter
+  nameWithType: SnackBoxPresenter
+  fullName: H.Modules.Messages.Snack.SnackBoxPresenter
+- uid: H.Modules.Messages.Snack.SnackDialog
+  commentId: T:H.Modules.Messages.Snack.SnackDialog
+  href: H.Modules.Messages.Snack.SnackDialog.html
+  name: SnackDialog
+  nameWithType: SnackDialog
+  fullName: H.Modules.Messages.Snack.SnackDialog
+- uid: H.Modules.Messages.Snack.SnackMessageService
+  commentId: T:H.Modules.Messages.Snack.SnackMessageService
+  href: H.Modules.Messages.Snack.SnackMessageService.html
+  name: SnackMessageService
+  nameWithType: SnackMessageService
+  fullName: H.Modules.Messages.Snack.SnackMessageService
+- uid: H.Modules.Messages.Snack
+  commentId: N:H.Modules.Messages.Snack
+  href: H.html
+  name: H.Modules.Messages.Snack
+  nameWithType: H.Modules.Messages.Snack
+  fullName: H.Modules.Messages.Snack
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Modules
+    name: Modules
+    href: H.Modules.html
+  - name: .
+  - uid: H.Modules.Messages
+    name: Messages
+    href: H.Modules.Messages.html
+  - name: .
+  - uid: H.Modules.Messages.Snack
+    name: Snack
+    href: H.Modules.Messages.Snack.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Modules
+    name: Modules
+    href: H.Modules.html
+  - name: .
+  - uid: H.Modules.Messages
+    name: Messages
+    href: H.Modules.Messages.html
+  - name: .
+  - uid: H.Modules.Messages.Snack
+    name: Snack
+    href: H.Modules.Messages.Snack.html

@@ -1,0 +1,164 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Modules.License
+  commentId: N:H.Modules.License
+  id: H.Modules.License
+  children:
+  - H.Modules.License.ILicenseFlagViewPresenter
+  - H.Modules.License.ILicenseManager
+  - H.Modules.License.ILicenseOptions
+  - H.Modules.License.ILicenseService
+  - H.Modules.License.ILicenseViewPresenter
+  - H.Modules.License.IVipFlagViewPresenter
+  - H.Modules.License.LicenseFlagViewPresenter
+  - H.Modules.License.LicenseLoadService
+  - H.Modules.License.LicenseManager
+  - H.Modules.License.LicenseOption
+  - H.Modules.License.LicenseOptions
+  - H.Modules.License.LicenseProxy
+  - H.Modules.License.LicenseViewPresenter
+  - H.Modules.License.ShowLicenseCommand
+  - H.Modules.License.ShowVipCommand
+  - H.Modules.License.VipFlagViewPresenter
+  langs:
+  - csharp
+  - vb
+  name: H.Modules.License
+  nameWithType: H.Modules.License
+  fullName: H.Modules.License
+  type: Namespace
+  assemblies:
+  - H.Modules.License
+references:
+- uid: H.Modules.License.ILicenseOptions
+  commentId: T:H.Modules.License.ILicenseOptions
+  parent: H.Modules.License
+  href: H.Modules.License.ILicenseOptions.html
+  name: ILicenseOptions
+  nameWithType: ILicenseOptions
+  fullName: H.Modules.License.ILicenseOptions
+- uid: H.Modules.License.ILicenseFlagViewPresenter
+  commentId: T:H.Modules.License.ILicenseFlagViewPresenter
+  parent: H.Modules.License
+  href: H.Modules.License.ILicenseFlagViewPresenter.html
+  name: ILicenseFlagViewPresenter
+  nameWithType: ILicenseFlagViewPresenter
+  fullName: H.Modules.License.ILicenseFlagViewPresenter
+- uid: H.Modules.License.LicenseFlagViewPresenter
+  commentId: T:H.Modules.License.LicenseFlagViewPresenter
+  href: H.Modules.License.LicenseFlagViewPresenter.html
+  name: LicenseFlagViewPresenter
+  nameWithType: LicenseFlagViewPresenter
+  fullName: H.Modules.License.LicenseFlagViewPresenter
+- uid: H.Modules.License.LicenseOptions
+  commentId: T:H.Modules.License.LicenseOptions
+  href: H.Modules.License.LicenseOptions.html
+  name: LicenseOptions
+  nameWithType: LicenseOptions
+  fullName: H.Modules.License.LicenseOptions
+- uid: H.Modules.License.ILicenseViewPresenter
+  commentId: T:H.Modules.License.ILicenseViewPresenter
+  parent: H.Modules.License
+  href: H.Modules.License.ILicenseViewPresenter.html
+  name: ILicenseViewPresenter
+  nameWithType: ILicenseViewPresenter
+  fullName: H.Modules.License.ILicenseViewPresenter
+- uid: H.Modules.License.LicenseViewPresenter
+  commentId: T:H.Modules.License.LicenseViewPresenter
+  href: H.Modules.License.LicenseViewPresenter.html
+  name: LicenseViewPresenter
+  nameWithType: LicenseViewPresenter
+  fullName: H.Modules.License.LicenseViewPresenter
+- uid: H.Modules.License.ILicenseManager
+  commentId: T:H.Modules.License.ILicenseManager
+  parent: H.Modules.License
+  href: H.Modules.License.ILicenseManager.html
+  name: ILicenseManager
+  nameWithType: ILicenseManager
+  fullName: H.Modules.License.ILicenseManager
+- uid: H.Modules.License.LicenseManager
+  commentId: T:H.Modules.License.LicenseManager
+  href: H.Modules.License.LicenseManager.html
+  name: LicenseManager
+  nameWithType: LicenseManager
+  fullName: H.Modules.License.LicenseManager
+- uid: H.Modules.License.LicenseOption
+  commentId: T:H.Modules.License.LicenseOption
+  parent: H.Modules.License
+  href: H.Modules.License.LicenseOption.html
+  name: LicenseOption
+  nameWithType: LicenseOption
+  fullName: H.Modules.License.LicenseOption
+- uid: H.Modules.License.ShowLicenseCommand
+  commentId: T:H.Modules.License.ShowLicenseCommand
+  href: H.Modules.License.ShowLicenseCommand.html
+  name: ShowLicenseCommand
+  nameWithType: ShowLicenseCommand
+  fullName: H.Modules.License.ShowLicenseCommand
+- uid: H.Modules.License.ShowVipCommand
+  commentId: T:H.Modules.License.ShowVipCommand
+  href: H.Modules.License.ShowVipCommand.html
+  name: ShowVipCommand
+  nameWithType: ShowVipCommand
+  fullName: H.Modules.License.ShowVipCommand
+- uid: H.Modules.License.ILicenseService
+  commentId: T:H.Modules.License.ILicenseService
+  href: H.Modules.License.ILicenseService.html
+  name: ILicenseService
+  nameWithType: ILicenseService
+  fullName: H.Modules.License.ILicenseService
+- uid: H.Modules.License.LicenseProxy
+  commentId: T:H.Modules.License.LicenseProxy
+  href: H.Modules.License.LicenseProxy.html
+  name: LicenseProxy
+  nameWithType: LicenseProxy
+  fullName: H.Modules.License.LicenseProxy
+- uid: H.Modules.License.LicenseLoadService
+  commentId: T:H.Modules.License.LicenseLoadService
+  href: H.Modules.License.LicenseLoadService.html
+  name: LicenseLoadService
+  nameWithType: LicenseLoadService
+  fullName: H.Modules.License.LicenseLoadService
+- uid: H.Modules.License.IVipFlagViewPresenter
+  commentId: T:H.Modules.License.IVipFlagViewPresenter
+  parent: H.Modules.License
+  href: H.Modules.License.IVipFlagViewPresenter.html
+  name: IVipFlagViewPresenter
+  nameWithType: IVipFlagViewPresenter
+  fullName: H.Modules.License.IVipFlagViewPresenter
+- uid: H.Modules.License.VipFlagViewPresenter
+  commentId: T:H.Modules.License.VipFlagViewPresenter
+  href: H.Modules.License.VipFlagViewPresenter.html
+  name: VipFlagViewPresenter
+  nameWithType: VipFlagViewPresenter
+  fullName: H.Modules.License.VipFlagViewPresenter
+- uid: H.Modules.License
+  commentId: N:H.Modules.License
+  href: H.html
+  name: H.Modules.License
+  nameWithType: H.Modules.License
+  fullName: H.Modules.License
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Modules
+    name: Modules
+    href: H.Modules.html
+  - name: .
+  - uid: H.Modules.License
+    name: License
+    href: H.Modules.License.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Modules
+    name: Modules
+    href: H.Modules.html
+  - name: .
+  - uid: H.Modules.License
+    name: License
+    href: H.Modules.License.html

@@ -1,0 +1,133 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Presenters.Design.Base
+  commentId: N:H.Presenters.Design.Base
+  id: H.Presenters.Design.Base
+  children:
+  - H.Presenters.Design.Base.CloneableDesignPresenterBase
+  - H.Presenters.Design.Base.ColumnPropertyInfo
+  - H.Presenters.Design.Base.CommandsDesignPresenterBase
+  - H.Presenters.Design.Base.DataGridPresenterBase
+  - H.Presenters.Design.Base.DropAdornerDesignPresenterBase
+  - H.Presenters.Design.Base.GridBase
+  - H.Presenters.Design.Base.GridPresenterBase
+  - H.Presenters.Design.Base.ICloneableDesignPresenter
+  - H.Presenters.Design.Base.ITextData
+  - H.Presenters.Design.Base.PanelPresenterBase
+  langs:
+  - csharp
+  - vb
+  name: H.Presenters.Design.Base
+  nameWithType: H.Presenters.Design.Base
+  fullName: H.Presenters.Design.Base
+  type: Namespace
+  assemblies:
+  - H.Presenters.Design
+references:
+- uid: H.Presenters.Design.Base.CloneableDesignPresenterBase
+  commentId: T:H.Presenters.Design.Base.CloneableDesignPresenterBase
+  parent: H.Presenters.Design.Base
+  href: H.Presenters.Design.Base.CloneableDesignPresenterBase.html
+  name: CloneableDesignPresenterBase
+  nameWithType: CloneableDesignPresenterBase
+  fullName: H.Presenters.Design.Base.CloneableDesignPresenterBase
+- uid: H.Presenters.Design.Base.ColumnPropertyInfo
+  commentId: T:H.Presenters.Design.Base.ColumnPropertyInfo
+  href: H.Presenters.Design.Base.ColumnPropertyInfo.html
+  name: ColumnPropertyInfo
+  nameWithType: ColumnPropertyInfo
+  fullName: H.Presenters.Design.Base.ColumnPropertyInfo
+- uid: H.Presenters.Design.Base.CommandsDesignPresenterBase
+  commentId: T:H.Presenters.Design.Base.CommandsDesignPresenterBase
+  parent: H.Presenters.Design.Base
+  href: H.Presenters.Design.Base.CommandsDesignPresenterBase.html
+  name: CommandsDesignPresenterBase
+  nameWithType: CommandsDesignPresenterBase
+  fullName: H.Presenters.Design.Base.CommandsDesignPresenterBase
+- uid: H.Presenters.Design.Base.DataGridPresenterBase
+  commentId: T:H.Presenters.Design.Base.DataGridPresenterBase
+  parent: H.Presenters.Design.Base
+  href: H.Presenters.Design.Base.DataGridPresenterBase.html
+  name: DataGridPresenterBase
+  nameWithType: DataGridPresenterBase
+  fullName: H.Presenters.Design.Base.DataGridPresenterBase
+- uid: H.Presenters.Design.Base.DropAdornerDesignPresenterBase
+  commentId: T:H.Presenters.Design.Base.DropAdornerDesignPresenterBase
+  parent: H.Presenters.Design.Base
+  href: H.Presenters.Design.Base.DropAdornerDesignPresenterBase.html
+  name: DropAdornerDesignPresenterBase
+  nameWithType: DropAdornerDesignPresenterBase
+  fullName: H.Presenters.Design.Base.DropAdornerDesignPresenterBase
+- uid: H.Presenters.Design.Base.GridBase
+  commentId: T:H.Presenters.Design.Base.GridBase
+  parent: H.Presenters.Design.Base
+  href: H.Presenters.Design.Base.GridBase.html
+  name: GridBase
+  nameWithType: GridBase
+  fullName: H.Presenters.Design.Base.GridBase
+- uid: H.Presenters.Design.Base.GridPresenterBase
+  commentId: T:H.Presenters.Design.Base.GridPresenterBase
+  parent: H.Presenters.Design.Base
+  href: H.Presenters.Design.Base.GridPresenterBase.html
+  name: GridPresenterBase
+  nameWithType: GridPresenterBase
+  fullName: H.Presenters.Design.Base.GridPresenterBase
+- uid: H.Presenters.Design.Base.ICloneableDesignPresenter
+  commentId: T:H.Presenters.Design.Base.ICloneableDesignPresenter
+  parent: H.Presenters.Design.Base
+  href: H.Presenters.Design.Base.ICloneableDesignPresenter.html
+  name: ICloneableDesignPresenter
+  nameWithType: ICloneableDesignPresenter
+  fullName: H.Presenters.Design.Base.ICloneableDesignPresenter
+- uid: H.Presenters.Design.Base.ITextData
+  commentId: T:H.Presenters.Design.Base.ITextData
+  parent: H.Presenters.Design.Base
+  href: H.Presenters.Design.Base.ITextData.html
+  name: ITextData
+  nameWithType: ITextData
+  fullName: H.Presenters.Design.Base.ITextData
+- uid: H.Presenters.Design.Base.PanelPresenterBase
+  commentId: T:H.Presenters.Design.Base.PanelPresenterBase
+  parent: H.Presenters.Design.Base
+  href: H.Presenters.Design.Base.PanelPresenterBase.html
+  name: PanelPresenterBase
+  nameWithType: PanelPresenterBase
+  fullName: H.Presenters.Design.Base.PanelPresenterBase
+- uid: H.Presenters.Design.Base
+  commentId: N:H.Presenters.Design.Base
+  href: H.html
+  name: H.Presenters.Design.Base
+  nameWithType: H.Presenters.Design.Base
+  fullName: H.Presenters.Design.Base
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Presenters
+    name: Presenters
+    href: H.Presenters.html
+  - name: .
+  - uid: H.Presenters.Design
+    name: Design
+    href: H.Presenters.Design.html
+  - name: .
+  - uid: H.Presenters.Design.Base
+    name: Base
+    href: H.Presenters.Design.Base.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Presenters
+    name: Presenters
+    href: H.Presenters.html
+  - name: .
+  - uid: H.Presenters.Design
+    name: Design
+    href: H.Presenters.Design.html
+  - name: .
+  - uid: H.Presenters.Design.Base
+    name: Base
+    href: H.Presenters.Design.Base.html

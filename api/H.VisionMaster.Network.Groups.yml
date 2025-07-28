@@ -1,0 +1,77 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.VisionMaster.Network.Groups
+  commentId: N:H.VisionMaster.Network.Groups
+  id: H.VisionMaster.Network.Groups
+  children:
+  - H.VisionMaster.Network.Groups.INetwrokDataGroup
+  - H.VisionMaster.Network.Groups.INetwrokNodeData
+  - H.VisionMaster.Network.Groups.NetworkDataGroup
+  langs:
+  - csharp
+  - vb
+  name: H.VisionMaster.Network.Groups
+  nameWithType: H.VisionMaster.Network.Groups
+  fullName: H.VisionMaster.Network.Groups
+  type: Namespace
+  assemblies:
+  - H.VisionMaster.Network
+references:
+- uid: H.VisionMaster.Network.Groups.INetwrokDataGroup
+  commentId: T:H.VisionMaster.Network.Groups.INetwrokDataGroup
+  parent: H.VisionMaster.Network.Groups
+  href: H.VisionMaster.Network.Groups.INetwrokDataGroup.html
+  name: INetwrokDataGroup
+  nameWithType: INetwrokDataGroup
+  fullName: H.VisionMaster.Network.Groups.INetwrokDataGroup
+- uid: H.VisionMaster.Network.Groups.NetworkDataGroup
+  commentId: T:H.VisionMaster.Network.Groups.NetworkDataGroup
+  href: H.VisionMaster.Network.Groups.NetworkDataGroup.html
+  name: NetworkDataGroup
+  nameWithType: NetworkDataGroup
+  fullName: H.VisionMaster.Network.Groups.NetworkDataGroup
+- uid: H.VisionMaster.Network.Groups.INetwrokNodeData
+  commentId: T:H.VisionMaster.Network.Groups.INetwrokNodeData
+  parent: H.VisionMaster.Network.Groups
+  href: H.VisionMaster.Network.Groups.INetwrokNodeData.html
+  name: INetwrokNodeData
+  nameWithType: INetwrokNodeData
+  fullName: H.VisionMaster.Network.Groups.INetwrokNodeData
+- uid: H.VisionMaster.Network.Groups
+  commentId: N:H.VisionMaster.Network.Groups
+  href: H.html
+  name: H.VisionMaster.Network.Groups
+  nameWithType: H.VisionMaster.Network.Groups
+  fullName: H.VisionMaster.Network.Groups
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.Network
+    name: Network
+    href: H.VisionMaster.Network.html
+  - name: .
+  - uid: H.VisionMaster.Network.Groups
+    name: Groups
+    href: H.VisionMaster.Network.Groups.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.Network
+    name: Network
+    href: H.VisionMaster.Network.html
+  - name: .
+  - uid: H.VisionMaster.Network.Groups
+    name: Groups
+    href: H.VisionMaster.Network.Groups.html

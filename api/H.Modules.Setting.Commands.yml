@@ -1,0 +1,51 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Modules.Setting.Commands
+  commentId: N:H.Modules.Setting.Commands
+  id: H.Modules.Setting.Commands
+  children:
+  - H.Modules.Setting.Commands.CancelSettingCommand
+  - H.Modules.Setting.Commands.CancelSettingDataCommand
+  - H.Modules.Setting.Commands.SettingDefaultCommand
+  - H.Modules.Setting.Commands.ShowSettingCommand
+  - H.Modules.Setting.Commands.SumitSettingDataCommand
+  langs:
+  - csharp
+  - vb
+  name: H.Modules.Setting.Commands
+  nameWithType: H.Modules.Setting.Commands
+  fullName: H.Modules.Setting.Commands
+  type: Namespace
+  assemblies:
+  - H.Modules.Setting
+references:
+- uid: H.Modules.Setting.Commands.CancelSettingCommand
+  commentId: T:H.Modules.Setting.Commands.CancelSettingCommand
+  href: H.Modules.Setting.Commands.CancelSettingCommand.html
+  name: CancelSettingCommand
+  nameWithType: CancelSettingCommand
+  fullName: H.Modules.Setting.Commands.CancelSettingCommand
+- uid: H.Modules.Setting.Commands.CancelSettingDataCommand
+  commentId: T:H.Modules.Setting.Commands.CancelSettingDataCommand
+  href: H.Modules.Setting.Commands.CancelSettingDataCommand.html
+  name: CancelSettingDataCommand
+  nameWithType: CancelSettingDataCommand
+  fullName: H.Modules.Setting.Commands.CancelSettingDataCommand
+- uid: H.Modules.Setting.Commands.SettingDefaultCommand
+  commentId: T:H.Modules.Setting.Commands.SettingDefaultCommand
+  href: H.Modules.Setting.Commands.SettingDefaultCommand.html
+  name: SettingDefaultCommand
+  nameWithType: SettingDefaultCommand
+  fullName: H.Modules.Setting.Commands.SettingDefaultCommand
+- uid: H.Modules.Setting.Commands.ShowSettingCommand
+  commentId: T:H.Modules.Setting.Commands.ShowSettingCommand
+  href: H.Modules.Setting.Commands.ShowSettingCommand.html
+  name: ShowSettingCommand
+  nameWithType: ShowSettingCommand
+  fullName: H.Modules.Setting.Commands.ShowSettingCommand
+- uid: H.Modules.Setting.Commands.SumitSettingDataCommand
+  commentId: T:H.Modules.Setting.Commands.SumitSettingDataCommand
+  href: H.Modules.Setting.Commands.SumitSettingDataCommand.html
+  name: SumitSettingDataCommand
+  nameWithType: SumitSettingDataCommand
+  fullName: H.Modules.Setting.Commands.SumitSettingDataCommand

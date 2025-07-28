@@ -1,0 +1,78 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.VisionMaster.NodeGroup.Groups.Detector
+  commentId: N:H.VisionMaster.NodeGroup.Groups.Detector
+  id: H.VisionMaster.NodeGroup.Groups.Detector
+  children:
+  - H.VisionMaster.NodeGroup.Groups.Detector.DetectorDataGroup
+  - H.VisionMaster.NodeGroup.Groups.Detector.IDetectorGroupableNodeData
+  langs:
+  - csharp
+  - vb
+  name: H.VisionMaster.NodeGroup.Groups.Detector
+  nameWithType: H.VisionMaster.NodeGroup.Groups.Detector
+  fullName: H.VisionMaster.NodeGroup.Groups.Detector
+  type: Namespace
+  assemblies:
+  - H.VisionMaster.NodeGroup
+references:
+- uid: H.VisionMaster.NodeGroup.Groups.Detector.IDetectorGroupableNodeData
+  commentId: T:H.VisionMaster.NodeGroup.Groups.Detector.IDetectorGroupableNodeData
+  parent: H.VisionMaster.NodeGroup.Groups.Detector
+  href: H.VisionMaster.NodeGroup.Groups.Detector.IDetectorGroupableNodeData.html
+  name: IDetectorGroupableNodeData
+  nameWithType: IDetectorGroupableNodeData
+  fullName: H.VisionMaster.NodeGroup.Groups.Detector.IDetectorGroupableNodeData
+- uid: H.VisionMaster.NodeGroup.Groups.Detector.DetectorDataGroup
+  commentId: T:H.VisionMaster.NodeGroup.Groups.Detector.DetectorDataGroup
+  parent: H.VisionMaster.NodeGroup.Groups.Detector
+  href: H.VisionMaster.NodeGroup.Groups.Detector.DetectorDataGroup.html
+  name: DetectorDataGroup
+  nameWithType: DetectorDataGroup
+  fullName: H.VisionMaster.NodeGroup.Groups.Detector.DetectorDataGroup
+- uid: H.VisionMaster.NodeGroup.Groups.Detector
+  commentId: N:H.VisionMaster.NodeGroup.Groups.Detector
+  href: H.html
+  name: H.VisionMaster.NodeGroup.Groups.Detector
+  nameWithType: H.VisionMaster.NodeGroup.Groups.Detector
+  fullName: H.VisionMaster.NodeGroup.Groups.Detector
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup
+    name: NodeGroup
+    href: H.VisionMaster.NodeGroup.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup.Groups
+    name: Groups
+    href: H.VisionMaster.NodeGroup.Groups.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup.Groups.Detector
+    name: Detector
+    href: H.VisionMaster.NodeGroup.Groups.Detector.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup
+    name: NodeGroup
+    href: H.VisionMaster.NodeGroup.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup.Groups
+    name: Groups
+    href: H.VisionMaster.NodeGroup.Groups.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup.Groups.Detector
+    name: Detector
+    href: H.VisionMaster.NodeGroup.Groups.Detector.html

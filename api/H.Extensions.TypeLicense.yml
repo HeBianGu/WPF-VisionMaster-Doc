@@ -1,0 +1,76 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.TypeLicense
+  commentId: N:H.Extensions.TypeLicense
+  id: H.Extensions.TypeLicense
+  children:
+  - H.Extensions.TypeLicense.ITypeLicenseOptions
+  - H.Extensions.TypeLicense.ITypeLicenseService
+  - H.Extensions.TypeLicense.TypeLicenseOptions
+  - H.Extensions.TypeLicense.TypeLicenseService
+  langs:
+  - csharp
+  - vb
+  name: H.Extensions.TypeLicense
+  nameWithType: H.Extensions.TypeLicense
+  fullName: H.Extensions.TypeLicense
+  type: Namespace
+  assemblies:
+  - H.Extensions.TypeLicense
+references:
+- uid: H.Extensions.TypeLicense.ITypeLicenseOptions
+  commentId: T:H.Extensions.TypeLicense.ITypeLicenseOptions
+  parent: H.Extensions.TypeLicense
+  href: H.Extensions.TypeLicense.ITypeLicenseOptions.html
+  name: ITypeLicenseOptions
+  nameWithType: ITypeLicenseOptions
+  fullName: H.Extensions.TypeLicense.ITypeLicenseOptions
+- uid: H.Extensions.TypeLicense.ITypeLicenseService
+  commentId: T:H.Extensions.TypeLicense.ITypeLicenseService
+  parent: H.Extensions.TypeLicense
+  href: H.Extensions.TypeLicense.ITypeLicenseService.html
+  name: ITypeLicenseService
+  nameWithType: ITypeLicenseService
+  fullName: H.Extensions.TypeLicense.ITypeLicenseService
+- uid: H.Extensions.TypeLicense.TypeLicenseOptions
+  commentId: T:H.Extensions.TypeLicense.TypeLicenseOptions
+  href: H.Extensions.TypeLicense.TypeLicenseOptions.html
+  name: TypeLicenseOptions
+  nameWithType: TypeLicenseOptions
+  fullName: H.Extensions.TypeLicense.TypeLicenseOptions
+- uid: H.Extensions.TypeLicense.TypeLicenseService
+  commentId: T:H.Extensions.TypeLicense.TypeLicenseService
+  href: H.Extensions.TypeLicense.TypeLicenseService.html
+  name: TypeLicenseService
+  nameWithType: TypeLicenseService
+  fullName: H.Extensions.TypeLicense.TypeLicenseService
+- uid: H.Extensions.TypeLicense
+  commentId: N:H.Extensions.TypeLicense
+  href: H.html
+  name: H.Extensions.TypeLicense
+  nameWithType: H.Extensions.TypeLicense
+  fullName: H.Extensions.TypeLicense
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.TypeLicense
+    name: TypeLicense
+    href: H.Extensions.TypeLicense.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.TypeLicense
+    name: TypeLicense
+    href: H.Extensions.TypeLicense.html

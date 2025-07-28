@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.App.VisionMaster.OpenCV
+  commentId: N:H.App.VisionMaster.OpenCV
+  id: H.App.VisionMaster.OpenCV
+  children:
+  - H.App.VisionMaster.OpenCV.App
+  - H.App.VisionMaster.OpenCV.MainViewModel
+  - H.App.VisionMaster.OpenCV.MainWindow
+  langs:
+  - csharp
+  - vb
+  name: H.App.VisionMaster.OpenCV
+  nameWithType: H.App.VisionMaster.OpenCV
+  fullName: H.App.VisionMaster.OpenCV
+  type: Namespace
+  assemblies:
+  - H.App.VisionMaster.OpenCV
+references:
+- uid: H.App.VisionMaster.OpenCV.App
+  commentId: T:H.App.VisionMaster.OpenCV.App
+  href: H.App.VisionMaster.OpenCV.App.html
+  name: App
+  nameWithType: App
+  fullName: H.App.VisionMaster.OpenCV.App
+- uid: H.App.VisionMaster.OpenCV.MainViewModel
+  commentId: T:H.App.VisionMaster.OpenCV.MainViewModel
+  href: H.App.VisionMaster.OpenCV.MainViewModel.html
+  name: MainViewModel
+  nameWithType: MainViewModel
+  fullName: H.App.VisionMaster.OpenCV.MainViewModel
+- uid: H.App.VisionMaster.OpenCV.MainWindow
+  commentId: T:H.App.VisionMaster.OpenCV.MainWindow
+  href: H.App.VisionMaster.OpenCV.MainWindow.html
+  name: MainWindow
+  nameWithType: MainWindow
+  fullName: H.App.VisionMaster.OpenCV.MainWindow

@@ -1,0 +1,89 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Modules.About
+  commentId: N:H.Modules.About
+  id: H.Modules.About
+  children:
+  - H.Modules.About.AboutOptions
+  - H.Modules.About.AboutViewPresenter
+  - H.Modules.About.IAboutOptions
+  - H.Modules.About.ShowAboutCommand
+  - H.Modules.About.ShowAgreementCommand
+  - H.Modules.About.ShowPrivacyCommand
+  langs:
+  - csharp
+  - vb
+  name: H.Modules.About
+  nameWithType: H.Modules.About
+  fullName: H.Modules.About
+  type: Namespace
+  assemblies:
+  - H.Modules.About
+references:
+- uid: H.Modules.About.AboutOptions
+  commentId: T:H.Modules.About.AboutOptions
+  href: H.Modules.About.AboutOptions.html
+  name: AboutOptions
+  nameWithType: AboutOptions
+  fullName: H.Modules.About.AboutOptions
+- uid: H.Modules.About.AboutViewPresenter
+  commentId: T:H.Modules.About.AboutViewPresenter
+  href: H.Modules.About.AboutViewPresenter.html
+  name: AboutViewPresenter
+  nameWithType: AboutViewPresenter
+  fullName: H.Modules.About.AboutViewPresenter
+- uid: H.Modules.About.IAboutOptions
+  commentId: T:H.Modules.About.IAboutOptions
+  parent: H.Modules.About
+  href: H.Modules.About.IAboutOptions.html
+  name: IAboutOptions
+  nameWithType: IAboutOptions
+  fullName: H.Modules.About.IAboutOptions
+- uid: H.Modules.About.ShowAboutCommand
+  commentId: T:H.Modules.About.ShowAboutCommand
+  href: H.Modules.About.ShowAboutCommand.html
+  name: ShowAboutCommand
+  nameWithType: ShowAboutCommand
+  fullName: H.Modules.About.ShowAboutCommand
+- uid: H.Modules.About.ShowAgreementCommand
+  commentId: T:H.Modules.About.ShowAgreementCommand
+  href: H.Modules.About.ShowAgreementCommand.html
+  name: ShowAgreementCommand
+  nameWithType: ShowAgreementCommand
+  fullName: H.Modules.About.ShowAgreementCommand
+- uid: H.Modules.About.ShowPrivacyCommand
+  commentId: T:H.Modules.About.ShowPrivacyCommand
+  href: H.Modules.About.ShowPrivacyCommand.html
+  name: ShowPrivacyCommand
+  nameWithType: ShowPrivacyCommand
+  fullName: H.Modules.About.ShowPrivacyCommand
+- uid: H.Modules.About
+  commentId: N:H.Modules.About
+  href: H.html
+  name: H.Modules.About
+  nameWithType: H.Modules.About
+  fullName: H.Modules.About
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Modules
+    name: Modules
+    href: H.Modules.html
+  - name: .
+  - uid: H.Modules.About
+    name: About
+    href: H.Modules.About.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Modules
+    name: Modules
+    href: H.Modules.html
+  - name: .
+  - uid: H.Modules.About
+    name: About
+    href: H.Modules.About.html

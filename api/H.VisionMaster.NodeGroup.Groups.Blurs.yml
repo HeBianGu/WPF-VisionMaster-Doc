@@ -1,0 +1,78 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.VisionMaster.NodeGroup.Groups.Blurs
+  commentId: N:H.VisionMaster.NodeGroup.Groups.Blurs
+  id: H.VisionMaster.NodeGroup.Groups.Blurs
+  children:
+  - H.VisionMaster.NodeGroup.Groups.Blurs.BlurDataGroup
+  - H.VisionMaster.NodeGroup.Groups.Blurs.IBlurGroupableNodeData
+  langs:
+  - csharp
+  - vb
+  name: H.VisionMaster.NodeGroup.Groups.Blurs
+  nameWithType: H.VisionMaster.NodeGroup.Groups.Blurs
+  fullName: H.VisionMaster.NodeGroup.Groups.Blurs
+  type: Namespace
+  assemblies:
+  - H.VisionMaster.NodeGroup
+references:
+- uid: H.VisionMaster.NodeGroup.Groups.Blurs.IBlurGroupableNodeData
+  commentId: T:H.VisionMaster.NodeGroup.Groups.Blurs.IBlurGroupableNodeData
+  parent: H.VisionMaster.NodeGroup.Groups.Blurs
+  href: H.VisionMaster.NodeGroup.Groups.Blurs.IBlurGroupableNodeData.html
+  name: IBlurGroupableNodeData
+  nameWithType: IBlurGroupableNodeData
+  fullName: H.VisionMaster.NodeGroup.Groups.Blurs.IBlurGroupableNodeData
+- uid: H.VisionMaster.NodeGroup.Groups.Blurs.BlurDataGroup
+  commentId: T:H.VisionMaster.NodeGroup.Groups.Blurs.BlurDataGroup
+  parent: H.VisionMaster.NodeGroup.Groups.Blurs
+  href: H.VisionMaster.NodeGroup.Groups.Blurs.BlurDataGroup.html
+  name: BlurDataGroup
+  nameWithType: BlurDataGroup
+  fullName: H.VisionMaster.NodeGroup.Groups.Blurs.BlurDataGroup
+- uid: H.VisionMaster.NodeGroup.Groups.Blurs
+  commentId: N:H.VisionMaster.NodeGroup.Groups.Blurs
+  href: H.html
+  name: H.VisionMaster.NodeGroup.Groups.Blurs
+  nameWithType: H.VisionMaster.NodeGroup.Groups.Blurs
+  fullName: H.VisionMaster.NodeGroup.Groups.Blurs
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup
+    name: NodeGroup
+    href: H.VisionMaster.NodeGroup.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup.Groups
+    name: Groups
+    href: H.VisionMaster.NodeGroup.Groups.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup.Groups.Blurs
+    name: Blurs
+    href: H.VisionMaster.NodeGroup.Groups.Blurs.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup
+    name: NodeGroup
+    href: H.VisionMaster.NodeGroup.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup.Groups
+    name: Groups
+    href: H.VisionMaster.NodeGroup.Groups.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup.Groups.Blurs
+    name: Blurs
+    href: H.VisionMaster.NodeGroup.Groups.Blurs.html

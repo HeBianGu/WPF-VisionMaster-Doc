@@ -1,0 +1,68 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.ApplicationBases.Default
+  commentId: N:H.ApplicationBases.Default
+  id: H.ApplicationBases.Default
+  children:
+  - H.ApplicationBases.Default.DefaultApplicationBase
+  - H.ApplicationBases.Default.DefaultApplicationOptions
+  - H.ApplicationBases.Default.IDefaultApplicationOptions
+  langs:
+  - csharp
+  - vb
+  name: H.ApplicationBases.Default
+  nameWithType: H.ApplicationBases.Default
+  fullName: H.ApplicationBases.Default
+  type: Namespace
+  assemblies:
+  - H.ApplicationBases.Default
+references:
+- uid: H.ApplicationBases.Default.DefaultApplicationBase
+  commentId: T:H.ApplicationBases.Default.DefaultApplicationBase
+  href: H.ApplicationBases.Default.DefaultApplicationBase.html
+  name: DefaultApplicationBase
+  nameWithType: DefaultApplicationBase
+  fullName: H.ApplicationBases.Default.DefaultApplicationBase
+- uid: H.ApplicationBases.Default.DefaultApplicationOptions
+  commentId: T:H.ApplicationBases.Default.DefaultApplicationOptions
+  href: H.ApplicationBases.Default.DefaultApplicationOptions.html
+  name: DefaultApplicationOptions
+  nameWithType: DefaultApplicationOptions
+  fullName: H.ApplicationBases.Default.DefaultApplicationOptions
+- uid: H.ApplicationBases.Default.IDefaultApplicationOptions
+  commentId: T:H.ApplicationBases.Default.IDefaultApplicationOptions
+  parent: H.ApplicationBases.Default
+  href: H.ApplicationBases.Default.IDefaultApplicationOptions.html
+  name: IDefaultApplicationOptions
+  nameWithType: IDefaultApplicationOptions
+  fullName: H.ApplicationBases.Default.IDefaultApplicationOptions
+- uid: H.ApplicationBases.Default
+  commentId: N:H.ApplicationBases.Default
+  href: H.html
+  name: H.ApplicationBases.Default
+  nameWithType: H.ApplicationBases.Default
+  fullName: H.ApplicationBases.Default
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.ApplicationBases
+    name: ApplicationBases
+    href: H.ApplicationBases.html
+  - name: .
+  - uid: H.ApplicationBases.Default
+    name: Default
+    href: H.ApplicationBases.Default.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.ApplicationBases
+    name: ApplicationBases
+    href: H.ApplicationBases.html
+  - name: .
+  - uid: H.ApplicationBases.Default
+    name: Default
+    href: H.ApplicationBases.Default.html

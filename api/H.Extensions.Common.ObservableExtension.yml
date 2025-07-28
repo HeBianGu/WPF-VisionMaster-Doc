@@ -1,0 +1,1596 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.Common.ObservableExtension
+  commentId: T:H.Extensions.Common.ObservableExtension
+  id: ObservableExtension
+  parent: H.Extensions.Common
+  children:
+  - H.Extensions.Common.ObservableExtension.AddRange``1(System.Collections.ObjectModel.ObservableCollection{``0},System.Collections.Generic.IEnumerable{``0})
+  - H.Extensions.Common.ObservableExtension.BeginInvoke``1(System.Collections.ObjectModel.ObservableCollection{``0},System.Action{System.Collections.ObjectModel.ObservableCollection{``0}})
+  - H.Extensions.Common.ObservableExtension.CreateObservableCollection``1(System.Type)
+  - H.Extensions.Common.ObservableExtension.Foreach``1(System.Collections.ObjectModel.ObservableCollection{``0},System.Action{``0})
+  - H.Extensions.Common.ObservableExtension.GetNext``1(System.Collections.ObjectModel.ObservableCollection{``0},``0,System.Boolean)
+  - H.Extensions.Common.ObservableExtension.GetProvious``1(System.Collections.ObjectModel.ObservableCollection{``0},``0,System.Boolean)
+  - H.Extensions.Common.ObservableExtension.Invoke``1(System.Collections.ObjectModel.ObservableCollection{``0},System.Action{System.Collections.ObjectModel.ObservableCollection{``0}})
+  - H.Extensions.Common.ObservableExtension.OrderByDesc``2(System.Collections.ObjectModel.Collection{``0},System.Func{``0,``1})
+  - H.Extensions.Common.ObservableExtension.OrderBy``2(System.Collections.ObjectModel.Collection{``0},System.Func{``0,``1})
+  - H.Extensions.Common.ObservableExtension.OrderBy``2(System.Collections.ObjectModel.Collection{``0},System.Func{``0,``1},System.Boolean)
+  - H.Extensions.Common.ObservableExtension.Random``1(System.Collections.ObjectModel.ObservableCollection{``0})
+  - H.Extensions.Common.ObservableExtension.Refresh``1(System.Collections.ObjectModel.ObservableCollection{``0})
+  - H.Extensions.Common.ObservableExtension.RemoveAll``1(System.Collections.ObjectModel.ObservableCollection{``0},System.Func{``0,System.Boolean},System.Boolean)
+  - H.Extensions.Common.ObservableExtension.Replace``1(System.Collections.ObjectModel.ObservableCollection{``0},``0,System.Predicate{``0})
+  - H.Extensions.Common.ObservableExtension.Sort``1(System.Collections.ObjectModel.ObservableCollection{``0})
+  - H.Extensions.Common.ObservableExtension.Sort``1(System.Collections.ObjectModel.ObservableCollection{``0},System.Comparison{``0})
+  - H.Extensions.Common.ObservableExtension.ToObservable``1(System.Collections.Generic.IEnumerable{``0})
+  langs:
+  - csharp
+  - vb
+  name: ObservableExtension
+  nameWithType: ObservableExtension
+  fullName: H.Extensions.Common.ObservableExtension
+  type: Class
+  source:
+    id: ObservableExtension
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extension.Observable.cs
+    startLine: 15
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: public static class ObservableExtension
+    content.vb: Public Module ObservableExtension
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: H.Extensions.Common.ObservableExtension.OrderBy``2(System.Collections.ObjectModel.Collection{``0},System.Func{``0,``1})
+  commentId: M:H.Extensions.Common.ObservableExtension.OrderBy``2(System.Collections.ObjectModel.Collection{``0},System.Func{``0,``1})
+  id: OrderBy``2(System.Collections.ObjectModel.Collection{``0},System.Func{``0,``1})
+  isExtensionMethod: true
+  parent: H.Extensions.Common.ObservableExtension
+  langs:
+  - csharp
+  - vb
+  name: OrderBy<TSource, TKey>(Collection<TSource>, Func<TSource, TKey>)
+  nameWithType: ObservableExtension.OrderBy<TSource, TKey>(Collection<TSource>, Func<TSource, TKey>)
+  fullName: H.Extensions.Common.ObservableExtension.OrderBy<TSource, TKey>(System.Collections.ObjectModel.Collection<TSource>, System.Func<TSource, TKey>)
+  type: Method
+  source:
+    id: OrderBy
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extension.Observable.cs
+    startLine: 17
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: public static void OrderBy<TSource, TKey>(this Collection<TSource> source, Func<TSource, TKey> keySelector)
+    parameters:
+    - id: source
+      type: System.Collections.ObjectModel.Collection{{TSource}}
+    - id: keySelector
+      type: System.Func{{TSource},{TKey}}
+    typeParameters:
+    - id: TSource
+    - id: TKey
+    content.vb: Public Shared Sub OrderBy(Of TSource, TKey)(source As Collection(Of TSource), keySelector As Func(Of TSource, TKey))
+  overload: H.Extensions.Common.ObservableExtension.OrderBy*
+  nameWithType.vb: ObservableExtension.OrderBy(Of TSource, TKey)(Collection(Of TSource), Func(Of TSource, TKey))
+  fullName.vb: H.Extensions.Common.ObservableExtension.OrderBy(Of TSource, TKey)(System.Collections.ObjectModel.Collection(Of TSource), System.Func(Of TSource, TKey))
+  name.vb: OrderBy(Of TSource, TKey)(Collection(Of TSource), Func(Of TSource, TKey))
+- uid: H.Extensions.Common.ObservableExtension.OrderBy``2(System.Collections.ObjectModel.Collection{``0},System.Func{``0,``1},System.Boolean)
+  commentId: M:H.Extensions.Common.ObservableExtension.OrderBy``2(System.Collections.ObjectModel.Collection{``0},System.Func{``0,``1},System.Boolean)
+  id: OrderBy``2(System.Collections.ObjectModel.Collection{``0},System.Func{``0,``1},System.Boolean)
+  isExtensionMethod: true
+  parent: H.Extensions.Common.ObservableExtension
+  langs:
+  - csharp
+  - vb
+  name: OrderBy<TSource, TKey>(Collection<TSource>, Func<TSource, TKey>, bool)
+  nameWithType: ObservableExtension.OrderBy<TSource, TKey>(Collection<TSource>, Func<TSource, TKey>, bool)
+  fullName: H.Extensions.Common.ObservableExtension.OrderBy<TSource, TKey>(System.Collections.ObjectModel.Collection<TSource>, System.Func<TSource, TKey>, bool)
+  type: Method
+  source:
+    id: OrderBy
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extension.Observable.cs
+    startLine: 25
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: public static void OrderBy<TSource, TKey>(this Collection<TSource> source, Func<TSource, TKey> keySelector, bool isdesc)
+    parameters:
+    - id: source
+      type: System.Collections.ObjectModel.Collection{{TSource}}
+    - id: keySelector
+      type: System.Func{{TSource},{TKey}}
+    - id: isdesc
+      type: System.Boolean
+    typeParameters:
+    - id: TSource
+    - id: TKey
+    content.vb: Public Shared Sub OrderBy(Of TSource, TKey)(source As Collection(Of TSource), keySelector As Func(Of TSource, TKey), isdesc As Boolean)
+  overload: H.Extensions.Common.ObservableExtension.OrderBy*
+  nameWithType.vb: ObservableExtension.OrderBy(Of TSource, TKey)(Collection(Of TSource), Func(Of TSource, TKey), Boolean)
+  fullName.vb: H.Extensions.Common.ObservableExtension.OrderBy(Of TSource, TKey)(System.Collections.ObjectModel.Collection(Of TSource), System.Func(Of TSource, TKey), Boolean)
+  name.vb: OrderBy(Of TSource, TKey)(Collection(Of TSource), Func(Of TSource, TKey), Boolean)
+- uid: H.Extensions.Common.ObservableExtension.OrderByDesc``2(System.Collections.ObjectModel.Collection{``0},System.Func{``0,``1})
+  commentId: M:H.Extensions.Common.ObservableExtension.OrderByDesc``2(System.Collections.ObjectModel.Collection{``0},System.Func{``0,``1})
+  id: OrderByDesc``2(System.Collections.ObjectModel.Collection{``0},System.Func{``0,``1})
+  isExtensionMethod: true
+  parent: H.Extensions.Common.ObservableExtension
+  langs:
+  - csharp
+  - vb
+  name: OrderByDesc<TSource, TKey>(Collection<TSource>, Func<TSource, TKey>)
+  nameWithType: ObservableExtension.OrderByDesc<TSource, TKey>(Collection<TSource>, Func<TSource, TKey>)
+  fullName: H.Extensions.Common.ObservableExtension.OrderByDesc<TSource, TKey>(System.Collections.ObjectModel.Collection<TSource>, System.Func<TSource, TKey>)
+  type: Method
+  source:
+    id: OrderByDesc
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extension.Observable.cs
+    startLine: 33
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: public static void OrderByDesc<TSource, TKey>(this Collection<TSource> source, Func<TSource, TKey> keySelector)
+    parameters:
+    - id: source
+      type: System.Collections.ObjectModel.Collection{{TSource}}
+    - id: keySelector
+      type: System.Func{{TSource},{TKey}}
+    typeParameters:
+    - id: TSource
+    - id: TKey
+    content.vb: Public Shared Sub OrderByDesc(Of TSource, TKey)(source As Collection(Of TSource), keySelector As Func(Of TSource, TKey))
+  overload: H.Extensions.Common.ObservableExtension.OrderByDesc*
+  nameWithType.vb: ObservableExtension.OrderByDesc(Of TSource, TKey)(Collection(Of TSource), Func(Of TSource, TKey))
+  fullName.vb: H.Extensions.Common.ObservableExtension.OrderByDesc(Of TSource, TKey)(System.Collections.ObjectModel.Collection(Of TSource), System.Func(Of TSource, TKey))
+  name.vb: OrderByDesc(Of TSource, TKey)(Collection(Of TSource), Func(Of TSource, TKey))
+- uid: H.Extensions.Common.ObservableExtension.Sort``1(System.Collections.ObjectModel.ObservableCollection{``0})
+  commentId: M:H.Extensions.Common.ObservableExtension.Sort``1(System.Collections.ObjectModel.ObservableCollection{``0})
+  id: Sort``1(System.Collections.ObjectModel.ObservableCollection{``0})
+  isExtensionMethod: true
+  parent: H.Extensions.Common.ObservableExtension
+  langs:
+  - csharp
+  - vb
+  name: Sort<T>(ObservableCollection<T>)
+  nameWithType: ObservableExtension.Sort<T>(ObservableCollection<T>)
+  fullName: H.Extensions.Common.ObservableExtension.Sort<T>(System.Collections.ObjectModel.ObservableCollection<T>)
+  type: Method
+  source:
+    id: Sort
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extension.Observable.cs
+    startLine: 42
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  summary: 排序
+  example: []
+  syntax:
+    content: 'public static void Sort<T>(this ObservableCollection<T> collection) where T : IComparable'
+    parameters:
+    - id: collection
+      type: System.Collections.ObjectModel.ObservableCollection{{T}}
+    typeParameters:
+    - id: T
+    content.vb: Public Shared Sub Sort(Of T As IComparable)(collection As ObservableCollection(Of T))
+  overload: H.Extensions.Common.ObservableExtension.Sort*
+  nameWithType.vb: ObservableExtension.Sort(Of T)(ObservableCollection(Of T))
+  fullName.vb: H.Extensions.Common.ObservableExtension.Sort(Of T)(System.Collections.ObjectModel.ObservableCollection(Of T))
+  name.vb: Sort(Of T)(ObservableCollection(Of T))
+- uid: H.Extensions.Common.ObservableExtension.Sort``1(System.Collections.ObjectModel.ObservableCollection{``0},System.Comparison{``0})
+  commentId: M:H.Extensions.Common.ObservableExtension.Sort``1(System.Collections.ObjectModel.ObservableCollection{``0},System.Comparison{``0})
+  id: Sort``1(System.Collections.ObjectModel.ObservableCollection{``0},System.Comparison{``0})
+  isExtensionMethod: true
+  parent: H.Extensions.Common.ObservableExtension
+  langs:
+  - csharp
+  - vb
+  name: Sort<T>(ObservableCollection<T>, Comparison<T>)
+  nameWithType: ObservableExtension.Sort<T>(ObservableCollection<T>, Comparison<T>)
+  fullName: H.Extensions.Common.ObservableExtension.Sort<T>(System.Collections.ObjectModel.ObservableCollection<T>, System.Comparison<T>)
+  type: Method
+  source:
+    id: Sort
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extension.Observable.cs
+    startLine: 51
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: public static ObservableCollection<T> Sort<T>(this ObservableCollection<T> collection, Comparison<T> comparison)
+    parameters:
+    - id: collection
+      type: System.Collections.ObjectModel.ObservableCollection{{T}}
+    - id: comparison
+      type: System.Comparison{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: System.Collections.ObjectModel.ObservableCollection{{T}}
+    content.vb: Public Shared Function Sort(Of T)(collection As ObservableCollection(Of T), comparison As Comparison(Of T)) As ObservableCollection(Of T)
+  overload: H.Extensions.Common.ObservableExtension.Sort*
+  nameWithType.vb: ObservableExtension.Sort(Of T)(ObservableCollection(Of T), Comparison(Of T))
+  fullName.vb: H.Extensions.Common.ObservableExtension.Sort(Of T)(System.Collections.ObjectModel.ObservableCollection(Of T), System.Comparison(Of T))
+  name.vb: Sort(Of T)(ObservableCollection(Of T), Comparison(Of T))
+- uid: H.Extensions.Common.ObservableExtension.ToObservable``1(System.Collections.Generic.IEnumerable{``0})
+  commentId: M:H.Extensions.Common.ObservableExtension.ToObservable``1(System.Collections.Generic.IEnumerable{``0})
+  id: ToObservable``1(System.Collections.Generic.IEnumerable{``0})
+  isExtensionMethod: true
+  parent: H.Extensions.Common.ObservableExtension
+  langs:
+  - csharp
+  - vb
+  name: ToObservable<T>(IEnumerable<T>)
+  nameWithType: ObservableExtension.ToObservable<T>(IEnumerable<T>)
+  fullName: H.Extensions.Common.ObservableExtension.ToObservable<T>(System.Collections.Generic.IEnumerable<T>)
+  type: Method
+  source:
+    id: ToObservable
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extension.Observable.cs
+    startLine: 59
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  summary: 转成 ObservableCollection 集合
+  example: []
+  syntax:
+    content: public static ObservableCollection<T> ToObservable<T>(this IEnumerable<T> collection)
+    parameters:
+    - id: collection
+      type: System.Collections.Generic.IEnumerable{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: System.Collections.ObjectModel.ObservableCollection{{T}}
+    content.vb: Public Shared Function ToObservable(Of T)(collection As IEnumerable(Of T)) As ObservableCollection(Of T)
+  overload: H.Extensions.Common.ObservableExtension.ToObservable*
+  nameWithType.vb: ObservableExtension.ToObservable(Of T)(IEnumerable(Of T))
+  fullName.vb: H.Extensions.Common.ObservableExtension.ToObservable(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  name.vb: ToObservable(Of T)(IEnumerable(Of T))
+- uid: H.Extensions.Common.ObservableExtension.Invoke``1(System.Collections.ObjectModel.ObservableCollection{``0},System.Action{System.Collections.ObjectModel.ObservableCollection{``0}})
+  commentId: M:H.Extensions.Common.ObservableExtension.Invoke``1(System.Collections.ObjectModel.ObservableCollection{``0},System.Action{System.Collections.ObjectModel.ObservableCollection{``0}})
+  id: Invoke``1(System.Collections.ObjectModel.ObservableCollection{``0},System.Action{System.Collections.ObjectModel.ObservableCollection{``0}})
+  isExtensionMethod: true
+  parent: H.Extensions.Common.ObservableExtension
+  langs:
+  - csharp
+  - vb
+  name: Invoke<T>(ObservableCollection<T>, Action<ObservableCollection<T>>)
+  nameWithType: ObservableExtension.Invoke<T>(ObservableCollection<T>, Action<ObservableCollection<T>>)
+  fullName: H.Extensions.Common.ObservableExtension.Invoke<T>(System.Collections.ObjectModel.ObservableCollection<T>, System.Action<System.Collections.ObjectModel.ObservableCollection<T>>)
+  type: Method
+  source:
+    id: Invoke
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extension.Observable.cs
+    startLine: 65
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  summary: 调用主线程执行Action
+  example: []
+  syntax:
+    content: public static void Invoke<T>(this ObservableCollection<T> collection, Action<ObservableCollection<T>> action)
+    parameters:
+    - id: collection
+      type: System.Collections.ObjectModel.ObservableCollection{{T}}
+    - id: action
+      type: System.Action{System.Collections.ObjectModel.ObservableCollection{{T}}}
+    typeParameters:
+    - id: T
+    content.vb: Public Shared Sub Invoke(Of T)(collection As ObservableCollection(Of T), action As Action(Of ObservableCollection(Of T)))
+  overload: H.Extensions.Common.ObservableExtension.Invoke*
+  nameWithType.vb: ObservableExtension.Invoke(Of T)(ObservableCollection(Of T), Action(Of ObservableCollection(Of T)))
+  fullName.vb: H.Extensions.Common.ObservableExtension.Invoke(Of T)(System.Collections.ObjectModel.ObservableCollection(Of T), System.Action(Of System.Collections.ObjectModel.ObservableCollection(Of T)))
+  name.vb: Invoke(Of T)(ObservableCollection(Of T), Action(Of ObservableCollection(Of T)))
+- uid: H.Extensions.Common.ObservableExtension.BeginInvoke``1(System.Collections.ObjectModel.ObservableCollection{``0},System.Action{System.Collections.ObjectModel.ObservableCollection{``0}})
+  commentId: M:H.Extensions.Common.ObservableExtension.BeginInvoke``1(System.Collections.ObjectModel.ObservableCollection{``0},System.Action{System.Collections.ObjectModel.ObservableCollection{``0}})
+  id: BeginInvoke``1(System.Collections.ObjectModel.ObservableCollection{``0},System.Action{System.Collections.ObjectModel.ObservableCollection{``0}})
+  isExtensionMethod: true
+  parent: H.Extensions.Common.ObservableExtension
+  langs:
+  - csharp
+  - vb
+  name: BeginInvoke<T>(ObservableCollection<T>, Action<ObservableCollection<T>>)
+  nameWithType: ObservableExtension.BeginInvoke<T>(ObservableCollection<T>, Action<ObservableCollection<T>>)
+  fullName: H.Extensions.Common.ObservableExtension.BeginInvoke<T>(System.Collections.ObjectModel.ObservableCollection<T>, System.Action<System.Collections.ObjectModel.ObservableCollection<T>>)
+  type: Method
+  source:
+    id: BeginInvoke
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extension.Observable.cs
+    startLine: 71
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  summary: 调用主线程执行Action
+  example: []
+  syntax:
+    content: public static void BeginInvoke<T>(this ObservableCollection<T> collection, Action<ObservableCollection<T>> action)
+    parameters:
+    - id: collection
+      type: System.Collections.ObjectModel.ObservableCollection{{T}}
+    - id: action
+      type: System.Action{System.Collections.ObjectModel.ObservableCollection{{T}}}
+    typeParameters:
+    - id: T
+    content.vb: Public Shared Sub BeginInvoke(Of T)(collection As ObservableCollection(Of T), action As Action(Of ObservableCollection(Of T)))
+  overload: H.Extensions.Common.ObservableExtension.BeginInvoke*
+  nameWithType.vb: ObservableExtension.BeginInvoke(Of T)(ObservableCollection(Of T), Action(Of ObservableCollection(Of T)))
+  fullName.vb: H.Extensions.Common.ObservableExtension.BeginInvoke(Of T)(System.Collections.ObjectModel.ObservableCollection(Of T), System.Action(Of System.Collections.ObjectModel.ObservableCollection(Of T)))
+  name.vb: BeginInvoke(Of T)(ObservableCollection(Of T), Action(Of ObservableCollection(Of T)))
+- uid: H.Extensions.Common.ObservableExtension.Refresh``1(System.Collections.ObjectModel.ObservableCollection{``0})
+  commentId: M:H.Extensions.Common.ObservableExtension.Refresh``1(System.Collections.ObjectModel.ObservableCollection{``0})
+  id: Refresh``1(System.Collections.ObjectModel.ObservableCollection{``0})
+  isExtensionMethod: true
+  parent: H.Extensions.Common.ObservableExtension
+  langs:
+  - csharp
+  - vb
+  name: Refresh<T>(ObservableCollection<T>)
+  nameWithType: ObservableExtension.Refresh<T>(ObservableCollection<T>)
+  fullName: H.Extensions.Common.ObservableExtension.Refresh<T>(System.Collections.ObjectModel.ObservableCollection<T>)
+  type: Method
+  source:
+    id: Refresh
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extension.Observable.cs
+    startLine: 78
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  summary: 更新集合 通知UI
+  example: []
+  syntax:
+    content: public static void Refresh<T>(this ObservableCollection<T> collection)
+    parameters:
+    - id: collection
+      type: System.Collections.ObjectModel.ObservableCollection{{T}}
+    typeParameters:
+    - id: T
+    content.vb: Public Shared Sub Refresh(Of T)(collection As ObservableCollection(Of T))
+  overload: H.Extensions.Common.ObservableExtension.Refresh*
+  nameWithType.vb: ObservableExtension.Refresh(Of T)(ObservableCollection(Of T))
+  fullName.vb: H.Extensions.Common.ObservableExtension.Refresh(Of T)(System.Collections.ObjectModel.ObservableCollection(Of T))
+  name.vb: Refresh(Of T)(ObservableCollection(Of T))
+- uid: H.Extensions.Common.ObservableExtension.Foreach``1(System.Collections.ObjectModel.ObservableCollection{``0},System.Action{``0})
+  commentId: M:H.Extensions.Common.ObservableExtension.Foreach``1(System.Collections.ObjectModel.ObservableCollection{``0},System.Action{``0})
+  id: Foreach``1(System.Collections.ObjectModel.ObservableCollection{``0},System.Action{``0})
+  isExtensionMethod: true
+  parent: H.Extensions.Common.ObservableExtension
+  langs:
+  - csharp
+  - vb
+  name: Foreach<T>(ObservableCollection<T>, Action<T>)
+  nameWithType: ObservableExtension.Foreach<T>(ObservableCollection<T>, Action<T>)
+  fullName: H.Extensions.Common.ObservableExtension.Foreach<T>(System.Collections.ObjectModel.ObservableCollection<T>, System.Action<T>)
+  type: Method
+  source:
+    id: Foreach
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extension.Observable.cs
+    startLine: 94
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  summary: 对集合中的 每一项执行Action
+  example: []
+  syntax:
+    content: public static void Foreach<T>(this ObservableCollection<T> collection, Action<T> action)
+    parameters:
+    - id: collection
+      type: System.Collections.ObjectModel.ObservableCollection{{T}}
+    - id: action
+      type: System.Action{{T}}
+    typeParameters:
+    - id: T
+    content.vb: Public Shared Sub Foreach(Of T)(collection As ObservableCollection(Of T), action As Action(Of T))
+  overload: H.Extensions.Common.ObservableExtension.Foreach*
+  nameWithType.vb: ObservableExtension.Foreach(Of T)(ObservableCollection(Of T), Action(Of T))
+  fullName.vb: H.Extensions.Common.ObservableExtension.Foreach(Of T)(System.Collections.ObjectModel.ObservableCollection(Of T), System.Action(Of T))
+  name.vb: Foreach(Of T)(ObservableCollection(Of T), Action(Of T))
+- uid: H.Extensions.Common.ObservableExtension.Random``1(System.Collections.ObjectModel.ObservableCollection{``0})
+  commentId: M:H.Extensions.Common.ObservableExtension.Random``1(System.Collections.ObjectModel.ObservableCollection{``0})
+  id: Random``1(System.Collections.ObjectModel.ObservableCollection{``0})
+  isExtensionMethod: true
+  parent: H.Extensions.Common.ObservableExtension
+  langs:
+  - csharp
+  - vb
+  name: Random<T>(ObservableCollection<T>)
+  nameWithType: ObservableExtension.Random<T>(ObservableCollection<T>)
+  fullName: H.Extensions.Common.ObservableExtension.Random<T>(System.Collections.ObjectModel.ObservableCollection<T>)
+  type: Method
+  source:
+    id: Random
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extension.Observable.cs
+    startLine: 102
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  summary: 随机排序
+  example: []
+  syntax:
+    content: public static ObservableCollection<T> Random<T>(this ObservableCollection<T> collection)
+    parameters:
+    - id: collection
+      type: System.Collections.ObjectModel.ObservableCollection{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: System.Collections.ObjectModel.ObservableCollection{{T}}
+    content.vb: Public Shared Function Random(Of T)(collection As ObservableCollection(Of T)) As ObservableCollection(Of T)
+  overload: H.Extensions.Common.ObservableExtension.Random*
+  nameWithType.vb: ObservableExtension.Random(Of T)(ObservableCollection(Of T))
+  fullName.vb: H.Extensions.Common.ObservableExtension.Random(Of T)(System.Collections.ObjectModel.ObservableCollection(Of T))
+  name.vb: Random(Of T)(ObservableCollection(Of T))
+- uid: H.Extensions.Common.ObservableExtension.RemoveAll``1(System.Collections.ObjectModel.ObservableCollection{``0},System.Func{``0,System.Boolean},System.Boolean)
+  commentId: M:H.Extensions.Common.ObservableExtension.RemoveAll``1(System.Collections.ObjectModel.ObservableCollection{``0},System.Func{``0,System.Boolean},System.Boolean)
+  id: RemoveAll``1(System.Collections.ObjectModel.ObservableCollection{``0},System.Func{``0,System.Boolean},System.Boolean)
+  isExtensionMethod: true
+  parent: H.Extensions.Common.ObservableExtension
+  langs:
+  - csharp
+  - vb
+  name: RemoveAll<T>(ObservableCollection<T>, Func<T, bool>, bool)
+  nameWithType: ObservableExtension.RemoveAll<T>(ObservableCollection<T>, Func<T, bool>, bool)
+  fullName: H.Extensions.Common.ObservableExtension.RemoveAll<T>(System.Collections.ObjectModel.ObservableCollection<T>, System.Func<T, bool>, bool)
+  type: Method
+  source:
+    id: RemoveAll
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extension.Observable.cs
+    startLine: 117
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: public static void RemoveAll<T>(this ObservableCollection<T> collection, Func<T, bool> predicate, bool useDispatcher = true)
+    parameters:
+    - id: collection
+      type: System.Collections.ObjectModel.ObservableCollection{{T}}
+    - id: predicate
+      type: System.Func{{T},System.Boolean}
+    - id: useDispatcher
+      type: System.Boolean
+    typeParameters:
+    - id: T
+    content.vb: Public Shared Sub RemoveAll(Of T)(collection As ObservableCollection(Of T), predicate As Func(Of T, Boolean), useDispatcher As Boolean = True)
+  overload: H.Extensions.Common.ObservableExtension.RemoveAll*
+  nameWithType.vb: ObservableExtension.RemoveAll(Of T)(ObservableCollection(Of T), Func(Of T, Boolean), Boolean)
+  fullName.vb: H.Extensions.Common.ObservableExtension.RemoveAll(Of T)(System.Collections.ObjectModel.ObservableCollection(Of T), System.Func(Of T, Boolean), Boolean)
+  name.vb: RemoveAll(Of T)(ObservableCollection(Of T), Func(Of T, Boolean), Boolean)
+- uid: H.Extensions.Common.ObservableExtension.CreateObservableCollection``1(System.Type)
+  commentId: M:H.Extensions.Common.ObservableExtension.CreateObservableCollection``1(System.Type)
+  id: CreateObservableCollection``1(System.Type)
+  isExtensionMethod: true
+  parent: H.Extensions.Common.ObservableExtension
+  langs:
+  - csharp
+  - vb
+  name: CreateObservableCollection<T>(Type)
+  nameWithType: ObservableExtension.CreateObservableCollection<T>(Type)
+  fullName: H.Extensions.Common.ObservableExtension.CreateObservableCollection<T>(System.Type)
+  type: Method
+  source:
+    id: CreateObservableCollection
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extension.Observable.cs
+    startLine: 139
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: 'public static T CreateObservableCollection<T>(this Type t) where T : IEnumerable'
+    parameters:
+    - id: t
+      type: System.Type
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function CreateObservableCollection(Of T As IEnumerable)(t As Type) As T
+  overload: H.Extensions.Common.ObservableExtension.CreateObservableCollection*
+  nameWithType.vb: ObservableExtension.CreateObservableCollection(Of T)(Type)
+  fullName.vb: H.Extensions.Common.ObservableExtension.CreateObservableCollection(Of T)(System.Type)
+  name.vb: CreateObservableCollection(Of T)(Type)
+- uid: H.Extensions.Common.ObservableExtension.AddRange``1(System.Collections.ObjectModel.ObservableCollection{``0},System.Collections.Generic.IEnumerable{``0})
+  commentId: M:H.Extensions.Common.ObservableExtension.AddRange``1(System.Collections.ObjectModel.ObservableCollection{``0},System.Collections.Generic.IEnumerable{``0})
+  id: AddRange``1(System.Collections.ObjectModel.ObservableCollection{``0},System.Collections.Generic.IEnumerable{``0})
+  isExtensionMethod: true
+  parent: H.Extensions.Common.ObservableExtension
+  langs:
+  - csharp
+  - vb
+  name: AddRange<T>(ObservableCollection<T>, IEnumerable<T>)
+  nameWithType: ObservableExtension.AddRange<T>(ObservableCollection<T>, IEnumerable<T>)
+  fullName: H.Extensions.Common.ObservableExtension.AddRange<T>(System.Collections.ObjectModel.ObservableCollection<T>, System.Collections.Generic.IEnumerable<T>)
+  type: Method
+  source:
+    id: AddRange
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extension.Observable.cs
+    startLine: 147
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: public static void AddRange<T>(this ObservableCollection<T> collection, IEnumerable<T> ts)
+    parameters:
+    - id: collection
+      type: System.Collections.ObjectModel.ObservableCollection{{T}}
+    - id: ts
+      type: System.Collections.Generic.IEnumerable{{T}}
+    typeParameters:
+    - id: T
+    content.vb: Public Shared Sub AddRange(Of T)(collection As ObservableCollection(Of T), ts As IEnumerable(Of T))
+  overload: H.Extensions.Common.ObservableExtension.AddRange*
+  nameWithType.vb: ObservableExtension.AddRange(Of T)(ObservableCollection(Of T), IEnumerable(Of T))
+  fullName.vb: H.Extensions.Common.ObservableExtension.AddRange(Of T)(System.Collections.ObjectModel.ObservableCollection(Of T), System.Collections.Generic.IEnumerable(Of T))
+  name.vb: AddRange(Of T)(ObservableCollection(Of T), IEnumerable(Of T))
+- uid: H.Extensions.Common.ObservableExtension.Replace``1(System.Collections.ObjectModel.ObservableCollection{``0},``0,System.Predicate{``0})
+  commentId: M:H.Extensions.Common.ObservableExtension.Replace``1(System.Collections.ObjectModel.ObservableCollection{``0},``0,System.Predicate{``0})
+  id: Replace``1(System.Collections.ObjectModel.ObservableCollection{``0},``0,System.Predicate{``0})
+  isExtensionMethod: true
+  parent: H.Extensions.Common.ObservableExtension
+  langs:
+  - csharp
+  - vb
+  name: Replace<T>(ObservableCollection<T>, T, Predicate<T>)
+  nameWithType: ObservableExtension.Replace<T>(ObservableCollection<T>, T, Predicate<T>)
+  fullName: H.Extensions.Common.ObservableExtension.Replace<T>(System.Collections.ObjectModel.ObservableCollection<T>, T, System.Predicate<T>)
+  type: Method
+  source:
+    id: Replace
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extension.Observable.cs
+    startLine: 155
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: public static void Replace<T>(this ObservableCollection<T> collection, T t, Predicate<T> predicate)
+    parameters:
+    - id: collection
+      type: System.Collections.ObjectModel.ObservableCollection{{T}}
+    - id: t
+      type: '{T}'
+    - id: predicate
+      type: System.Predicate{{T}}
+    typeParameters:
+    - id: T
+    content.vb: Public Shared Sub Replace(Of T)(collection As ObservableCollection(Of T), t As T, predicate As Predicate(Of T))
+  overload: H.Extensions.Common.ObservableExtension.Replace*
+  nameWithType.vb: ObservableExtension.Replace(Of T)(ObservableCollection(Of T), T, Predicate(Of T))
+  fullName.vb: H.Extensions.Common.ObservableExtension.Replace(Of T)(System.Collections.ObjectModel.ObservableCollection(Of T), T, System.Predicate(Of T))
+  name.vb: Replace(Of T)(ObservableCollection(Of T), T, Predicate(Of T))
+- uid: H.Extensions.Common.ObservableExtension.GetNext``1(System.Collections.ObjectModel.ObservableCollection{``0},``0,System.Boolean)
+  commentId: M:H.Extensions.Common.ObservableExtension.GetNext``1(System.Collections.ObjectModel.ObservableCollection{``0},``0,System.Boolean)
+  id: GetNext``1(System.Collections.ObjectModel.ObservableCollection{``0},``0,System.Boolean)
+  isExtensionMethod: true
+  parent: H.Extensions.Common.ObservableExtension
+  langs:
+  - csharp
+  - vb
+  name: GetNext<T>(ObservableCollection<T>, T, bool)
+  nameWithType: ObservableExtension.GetNext<T>(ObservableCollection<T>, T, bool)
+  fullName: H.Extensions.Common.ObservableExtension.GetNext<T>(System.Collections.ObjectModel.ObservableCollection<T>, T, bool)
+  type: Method
+  source:
+    id: GetNext
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extension.Observable.cs
+    startLine: 165
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: public static T GetNext<T>(this ObservableCollection<T> collection, T item, bool circulation = true)
+    parameters:
+    - id: collection
+      type: System.Collections.ObjectModel.ObservableCollection{{T}}
+    - id: item
+      type: '{T}'
+    - id: circulation
+      type: System.Boolean
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function GetNext(Of T)(collection As ObservableCollection(Of T), item As T, circulation As Boolean = True) As T
+  overload: H.Extensions.Common.ObservableExtension.GetNext*
+  nameWithType.vb: ObservableExtension.GetNext(Of T)(ObservableCollection(Of T), T, Boolean)
+  fullName.vb: H.Extensions.Common.ObservableExtension.GetNext(Of T)(System.Collections.ObjectModel.ObservableCollection(Of T), T, Boolean)
+  name.vb: GetNext(Of T)(ObservableCollection(Of T), T, Boolean)
+- uid: H.Extensions.Common.ObservableExtension.GetProvious``1(System.Collections.ObjectModel.ObservableCollection{``0},``0,System.Boolean)
+  commentId: M:H.Extensions.Common.ObservableExtension.GetProvious``1(System.Collections.ObjectModel.ObservableCollection{``0},``0,System.Boolean)
+  id: GetProvious``1(System.Collections.ObjectModel.ObservableCollection{``0},``0,System.Boolean)
+  isExtensionMethod: true
+  parent: H.Extensions.Common.ObservableExtension
+  langs:
+  - csharp
+  - vb
+  name: GetProvious<T>(ObservableCollection<T>, T, bool)
+  nameWithType: ObservableExtension.GetProvious<T>(ObservableCollection<T>, T, bool)
+  fullName: H.Extensions.Common.ObservableExtension.GetProvious<T>(System.Collections.ObjectModel.ObservableCollection<T>, T, bool)
+  type: Method
+  source:
+    id: GetProvious
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extension.Observable.cs
+    startLine: 177
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: public static T GetProvious<T>(this ObservableCollection<T> collection, T item, bool circulation = true)
+    parameters:
+    - id: collection
+      type: System.Collections.ObjectModel.ObservableCollection{{T}}
+    - id: item
+      type: '{T}'
+    - id: circulation
+      type: System.Boolean
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function GetProvious(Of T)(collection As ObservableCollection(Of T), item As T, circulation As Boolean = True) As T
+  overload: H.Extensions.Common.ObservableExtension.GetProvious*
+  nameWithType.vb: ObservableExtension.GetProvious(Of T)(ObservableCollection(Of T), T, Boolean)
+  fullName.vb: H.Extensions.Common.ObservableExtension.GetProvious(Of T)(System.Collections.ObjectModel.ObservableCollection(Of T), T, Boolean)
+  name.vb: GetProvious(Of T)(ObservableCollection(Of T), T, Boolean)
+references:
+- uid: H.Extensions.Common
+  commentId: N:H.Extensions.Common
+  href: H.html
+  name: H.Extensions.Common
+  nameWithType: H.Extensions.Common
+  fullName: H.Extensions.Common
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Common
+    name: Common
+    href: H.Extensions.Common.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Common
+    name: Common
+    href: H.Extensions.Common.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: H.Extensions.Common.ObservableExtension.OrderBy*
+  commentId: Overload:H.Extensions.Common.ObservableExtension.OrderBy
+  href: H.Extensions.Common.ObservableExtension.html#H_Extensions_Common_ObservableExtension_OrderBy__2_System_Collections_ObjectModel_Collection___0__System_Func___0___1__
+  name: OrderBy
+  nameWithType: ObservableExtension.OrderBy
+  fullName: H.Extensions.Common.ObservableExtension.OrderBy
+- uid: System.Collections.ObjectModel.Collection{{TSource}}
+  commentId: T:System.Collections.ObjectModel.Collection{``0}
+  parent: System.Collections.ObjectModel
+  definition: System.Collections.ObjectModel.Collection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.collection-1
+  name: Collection<TSource>
+  nameWithType: Collection<TSource>
+  fullName: System.Collections.ObjectModel.Collection<TSource>
+  nameWithType.vb: Collection(Of TSource)
+  fullName.vb: System.Collections.ObjectModel.Collection(Of TSource)
+  name.vb: Collection(Of TSource)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.Collection`1
+    name: Collection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.collection-1
+  - name: <
+  - name: TSource
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.Collection`1
+    name: Collection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.collection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: )
+- uid: System.Func{{TSource},{TKey}}
+  commentId: T:System.Func{``0,``1}
+  parent: System
+  definition: System.Func`2
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<TSource, TKey>
+  nameWithType: Func<TSource, TKey>
+  fullName: System.Func<TSource, TKey>
+  nameWithType.vb: Func(Of TSource, TKey)
+  fullName.vb: System.Func(Of TSource, TKey)
+  name.vb: Func(Of TSource, TKey)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: ','
+  - name: " "
+  - name: TKey
+  - name: )
+- uid: System.Collections.ObjectModel.Collection`1
+  commentId: T:System.Collections.ObjectModel.Collection`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.collection-1
+  name: Collection<T>
+  nameWithType: Collection<T>
+  fullName: System.Collections.ObjectModel.Collection<T>
+  nameWithType.vb: Collection(Of T)
+  fullName.vb: System.Collections.ObjectModel.Collection(Of T)
+  name.vb: Collection(Of T)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.Collection`1
+    name: Collection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.collection-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.Collection`1
+    name: Collection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.collection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.ObjectModel
+  commentId: N:System.Collections.ObjectModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.ObjectModel
+  nameWithType: System.Collections.ObjectModel
+  fullName: System.Collections.ObjectModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.ObjectModel
+    name: ObjectModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.ObjectModel
+    name: ObjectModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: H.Extensions.Common.ObservableExtension.OrderByDesc*
+  commentId: Overload:H.Extensions.Common.ObservableExtension.OrderByDesc
+  href: H.Extensions.Common.ObservableExtension.html#H_Extensions_Common_ObservableExtension_OrderByDesc__2_System_Collections_ObjectModel_Collection___0__System_Func___0___1__
+  name: OrderByDesc
+  nameWithType: ObservableExtension.OrderByDesc
+  fullName: H.Extensions.Common.ObservableExtension.OrderByDesc
+- uid: H.Extensions.Common.ObservableExtension.Sort*
+  commentId: Overload:H.Extensions.Common.ObservableExtension.Sort
+  href: H.Extensions.Common.ObservableExtension.html#H_Extensions_Common_ObservableExtension_Sort__1_System_Collections_ObjectModel_ObservableCollection___0__
+  name: Sort
+  nameWithType: ObservableExtension.Sort
+  fullName: H.Extensions.Common.ObservableExtension.Sort
+- uid: System.Collections.ObjectModel.ObservableCollection{{T}}
+  commentId: T:System.Collections.ObjectModel.ObservableCollection{``0}
+  parent: System.Collections.ObjectModel
+  definition: System.Collections.ObjectModel.ObservableCollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  name: ObservableCollection<T>
+  nameWithType: ObservableCollection<T>
+  fullName: System.Collections.ObjectModel.ObservableCollection<T>
+  nameWithType.vb: ObservableCollection(Of T)
+  fullName.vb: System.Collections.ObjectModel.ObservableCollection(Of T)
+  name.vb: ObservableCollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.ObjectModel.ObservableCollection`1
+  commentId: T:System.Collections.ObjectModel.ObservableCollection`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  name: ObservableCollection<T>
+  nameWithType: ObservableCollection<T>
+  fullName: System.Collections.ObjectModel.ObservableCollection<T>
+  nameWithType.vb: ObservableCollection(Of T)
+  fullName.vb: System.Collections.ObjectModel.ObservableCollection(Of T)
+  name.vb: ObservableCollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Comparison{{T}}
+  commentId: T:System.Comparison{``0}
+  parent: System
+  definition: System.Comparison`1
+  href: https://learn.microsoft.com/dotnet/api/system.comparison-1
+  name: Comparison<T>
+  nameWithType: Comparison<T>
+  fullName: System.Comparison<T>
+  nameWithType.vb: Comparison(Of T)
+  fullName.vb: System.Comparison(Of T)
+  name.vb: Comparison(Of T)
+  spec.csharp:
+  - uid: System.Comparison`1
+    name: Comparison
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.comparison-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Comparison`1
+    name: Comparison
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.comparison-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Comparison`1
+  commentId: T:System.Comparison`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.comparison-1
+  name: Comparison<T>
+  nameWithType: Comparison<T>
+  fullName: System.Comparison<T>
+  nameWithType.vb: Comparison(Of T)
+  fullName.vb: System.Comparison(Of T)
+  name.vb: Comparison(Of T)
+  spec.csharp:
+  - uid: System.Comparison`1
+    name: Comparison
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.comparison-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Comparison`1
+    name: Comparison
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.comparison-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Extensions.Common.ObservableExtension.ToObservable*
+  commentId: Overload:H.Extensions.Common.ObservableExtension.ToObservable
+  href: H.Extensions.Common.ObservableExtension.html#H_Extensions_Common_ObservableExtension_ToObservable__1_System_Collections_Generic_IEnumerable___0__
+  name: ToObservable
+  nameWithType: ObservableExtension.ToObservable
+  fullName: H.Extensions.Common.ObservableExtension.ToObservable
+- uid: System.Collections.Generic.IEnumerable{{T}}
+  commentId: T:System.Collections.Generic.IEnumerable{``0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: H.Extensions.Common.ObservableExtension.Invoke*
+  commentId: Overload:H.Extensions.Common.ObservableExtension.Invoke
+  href: H.Extensions.Common.ObservableExtension.html#H_Extensions_Common_ObservableExtension_Invoke__1_System_Collections_ObjectModel_ObservableCollection___0__System_Action_System_Collections_ObjectModel_ObservableCollection___0___
+  name: Invoke
+  nameWithType: ObservableExtension.Invoke
+  fullName: H.Extensions.Common.ObservableExtension.Invoke
+- uid: System.Action{System.Collections.ObjectModel.ObservableCollection{{T}}}
+  commentId: T:System.Action{System.Collections.ObjectModel.ObservableCollection{``0}}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<ObservableCollection<T>>
+  nameWithType: Action<ObservableCollection<T>>
+  fullName: System.Action<System.Collections.ObjectModel.ObservableCollection<T>>
+  nameWithType.vb: Action(Of ObservableCollection(Of T))
+  fullName.vb: System.Action(Of System.Collections.ObjectModel.ObservableCollection(Of T))
+  name.vb: Action(Of ObservableCollection(Of T))
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Extensions.Common.ObservableExtension.BeginInvoke*
+  commentId: Overload:H.Extensions.Common.ObservableExtension.BeginInvoke
+  href: H.Extensions.Common.ObservableExtension.html#H_Extensions_Common_ObservableExtension_BeginInvoke__1_System_Collections_ObjectModel_ObservableCollection___0__System_Action_System_Collections_ObjectModel_ObservableCollection___0___
+  name: BeginInvoke
+  nameWithType: ObservableExtension.BeginInvoke
+  fullName: H.Extensions.Common.ObservableExtension.BeginInvoke
+- uid: H.Extensions.Common.ObservableExtension.Refresh*
+  commentId: Overload:H.Extensions.Common.ObservableExtension.Refresh
+  href: H.Extensions.Common.ObservableExtension.html#H_Extensions_Common_ObservableExtension_Refresh__1_System_Collections_ObjectModel_ObservableCollection___0__
+  name: Refresh
+  nameWithType: ObservableExtension.Refresh
+  fullName: H.Extensions.Common.ObservableExtension.Refresh
+- uid: H.Extensions.Common.ObservableExtension.Foreach*
+  commentId: Overload:H.Extensions.Common.ObservableExtension.Foreach
+  href: H.Extensions.Common.ObservableExtension.html#H_Extensions_Common_ObservableExtension_Foreach__1_System_Collections_ObjectModel_ObservableCollection___0__System_Action___0__
+  name: Foreach
+  nameWithType: ObservableExtension.Foreach
+  fullName: H.Extensions.Common.ObservableExtension.Foreach
+- uid: System.Action{{T}}
+  commentId: T:System.Action{``0}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Extensions.Common.ObservableExtension.Random*
+  commentId: Overload:H.Extensions.Common.ObservableExtension.Random
+  href: H.Extensions.Common.ObservableExtension.html#H_Extensions_Common_ObservableExtension_Random__1_System_Collections_ObjectModel_ObservableCollection___0__
+  name: Random
+  nameWithType: ObservableExtension.Random
+  fullName: H.Extensions.Common.ObservableExtension.Random
+- uid: H.Extensions.Common.ObservableExtension.RemoveAll*
+  commentId: Overload:H.Extensions.Common.ObservableExtension.RemoveAll
+  href: H.Extensions.Common.ObservableExtension.html#H_Extensions_Common_ObservableExtension_RemoveAll__1_System_Collections_ObjectModel_ObservableCollection___0__System_Func___0_System_Boolean__System_Boolean_
+  name: RemoveAll
+  nameWithType: ObservableExtension.RemoveAll
+  fullName: H.Extensions.Common.ObservableExtension.RemoveAll
+- uid: System.Func{{T},System.Boolean}
+  commentId: T:System.Func{``0,System.Boolean}
+  parent: System
+  definition: System.Func`2
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<T, bool>
+  nameWithType: Func<T, bool>
+  fullName: System.Func<T, bool>
+  nameWithType.vb: Func(Of T, Boolean)
+  fullName.vb: System.Func(Of T, Boolean)
+  name.vb: Func(Of T, Boolean)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: H.Extensions.Common.ObservableExtension.CreateObservableCollection*
+  commentId: Overload:H.Extensions.Common.ObservableExtension.CreateObservableCollection
+  href: H.Extensions.Common.ObservableExtension.html#H_Extensions_Common_ObservableExtension_CreateObservableCollection__1_System_Type_
+  name: CreateObservableCollection
+  nameWithType: ObservableExtension.CreateObservableCollection
+  fullName: H.Extensions.Common.ObservableExtension.CreateObservableCollection
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: H.Extensions.Common.ObservableExtension.AddRange*
+  commentId: Overload:H.Extensions.Common.ObservableExtension.AddRange
+  href: H.Extensions.Common.ObservableExtension.html#H_Extensions_Common_ObservableExtension_AddRange__1_System_Collections_ObjectModel_ObservableCollection___0__System_Collections_Generic_IEnumerable___0__
+  name: AddRange
+  nameWithType: ObservableExtension.AddRange
+  fullName: H.Extensions.Common.ObservableExtension.AddRange
+- uid: H.Extensions.Common.ObservableExtension.Replace*
+  commentId: Overload:H.Extensions.Common.ObservableExtension.Replace
+  href: H.Extensions.Common.ObservableExtension.html#H_Extensions_Common_ObservableExtension_Replace__1_System_Collections_ObjectModel_ObservableCollection___0____0_System_Predicate___0__
+  name: Replace
+  nameWithType: ObservableExtension.Replace
+  fullName: H.Extensions.Common.ObservableExtension.Replace
+- uid: System.Predicate{{T}}
+  commentId: T:System.Predicate{``0}
+  parent: System
+  definition: System.Predicate`1
+  href: https://learn.microsoft.com/dotnet/api/system.predicate-1
+  name: Predicate<T>
+  nameWithType: Predicate<T>
+  fullName: System.Predicate<T>
+  nameWithType.vb: Predicate(Of T)
+  fullName.vb: System.Predicate(Of T)
+  name.vb: Predicate(Of T)
+  spec.csharp:
+  - uid: System.Predicate`1
+    name: Predicate
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.predicate-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Predicate`1
+    name: Predicate
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.predicate-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Predicate`1
+  commentId: T:System.Predicate`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.predicate-1
+  name: Predicate<T>
+  nameWithType: Predicate<T>
+  fullName: System.Predicate<T>
+  nameWithType.vb: Predicate(Of T)
+  fullName.vb: System.Predicate(Of T)
+  name.vb: Predicate(Of T)
+  spec.csharp:
+  - uid: System.Predicate`1
+    name: Predicate
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.predicate-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Predicate`1
+    name: Predicate
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.predicate-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Extensions.Common.ObservableExtension.GetNext*
+  commentId: Overload:H.Extensions.Common.ObservableExtension.GetNext
+  href: H.Extensions.Common.ObservableExtension.html#H_Extensions_Common_ObservableExtension_GetNext__1_System_Collections_ObjectModel_ObservableCollection___0____0_System_Boolean_
+  name: GetNext
+  nameWithType: ObservableExtension.GetNext
+  fullName: H.Extensions.Common.ObservableExtension.GetNext
+- uid: H.Extensions.Common.ObservableExtension.GetProvious*
+  commentId: Overload:H.Extensions.Common.ObservableExtension.GetProvious
+  href: H.Extensions.Common.ObservableExtension.html#H_Extensions_Common_ObservableExtension_GetProvious__1_System_Collections_ObjectModel_ObservableCollection___0____0_System_Boolean_
+  name: GetProvious
+  nameWithType: ObservableExtension.GetProvious
+  fullName: H.Extensions.Common.ObservableExtension.GetProvious

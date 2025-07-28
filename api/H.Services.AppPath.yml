@@ -1,0 +1,69 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Services.AppPath
+  commentId: N:H.Services.AppPath
+  id: H.Services.AppPath
+  children:
+  - H.Services.AppPath.AppPathExtension
+  - H.Services.AppPath.AppPaths
+  - H.Services.AppPath.IAppPathServce
+  langs:
+  - csharp
+  - vb
+  name: H.Services.AppPath
+  nameWithType: H.Services.AppPath
+  fullName: H.Services.AppPath
+  type: Namespace
+  assemblies:
+  - H.Services.AppPath
+references:
+- uid: H.Services.AppPath.AppPathExtension
+  commentId: T:H.Services.AppPath.AppPathExtension
+  parent: H.Services.AppPath
+  href: H.Services.AppPath.AppPathExtension.html
+  name: AppPathExtension
+  nameWithType: AppPathExtension
+  fullName: H.Services.AppPath.AppPathExtension
+- uid: H.Services.AppPath.AppPaths
+  commentId: T:H.Services.AppPath.AppPaths
+  href: H.Services.AppPath.AppPaths.html
+  name: AppPaths
+  nameWithType: AppPaths
+  fullName: H.Services.AppPath.AppPaths
+- uid: H.Services.AppPath.IAppPathServce
+  commentId: T:H.Services.AppPath.IAppPathServce
+  parent: H.Services.AppPath
+  href: H.Services.AppPath.IAppPathServce.html
+  name: IAppPathServce
+  nameWithType: IAppPathServce
+  fullName: H.Services.AppPath.IAppPathServce
+- uid: H.Services.AppPath
+  commentId: N:H.Services.AppPath
+  href: H.html
+  name: H.Services.AppPath
+  nameWithType: H.Services.AppPath
+  fullName: H.Services.AppPath
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.AppPath
+    name: AppPath
+    href: H.Services.AppPath.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.AppPath
+    name: AppPath
+    href: H.Services.AppPath.html

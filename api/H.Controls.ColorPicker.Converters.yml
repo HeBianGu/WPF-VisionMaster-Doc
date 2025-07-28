@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.ColorPicker.Converters
+  commentId: N:H.Controls.ColorPicker.Converters
+  id: H.Controls.ColorPicker.Converters
+  children:
+  - H.Controls.ColorPicker.Converters.DividedSizeConverter
+  - H.Controls.ColorPicker.Converters.TextBoxTextStringFormatMultiValueConverter
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.ColorPicker.Converters
+  nameWithType: H.Controls.ColorPicker.Converters
+  fullName: H.Controls.ColorPicker.Converters
+  type: Namespace
+  assemblies:
+  - H.Controls.ColorPicker
+references:
+- uid: H.Controls.ColorPicker.Converters.DividedSizeConverter
+  commentId: T:H.Controls.ColorPicker.Converters.DividedSizeConverter
+  href: H.Controls.ColorPicker.Converters.DividedSizeConverter.html
+  name: DividedSizeConverter
+  nameWithType: DividedSizeConverter
+  fullName: H.Controls.ColorPicker.Converters.DividedSizeConverter
+- uid: H.Controls.ColorPicker.Converters.TextBoxTextStringFormatMultiValueConverter
+  commentId: T:H.Controls.ColorPicker.Converters.TextBoxTextStringFormatMultiValueConverter
+  href: H.Controls.ColorPicker.Converters.TextBoxTextStringFormatMultiValueConverter.html
+  name: TextBoxTextStringFormatMultiValueConverter
+  nameWithType: TextBoxTextStringFormatMultiValueConverter
+  fullName: H.Controls.ColorPicker.Converters.TextBoxTextStringFormatMultiValueConverter

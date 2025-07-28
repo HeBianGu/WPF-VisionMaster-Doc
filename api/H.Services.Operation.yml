@@ -1,0 +1,69 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Services.Operation
+  commentId: N:H.Services.Operation
+  id: H.Services.Operation
+  children:
+  - H.Services.Operation.IOperationService
+  - H.Services.Operation.IOperationViewPresenter
+  - H.Services.Operation.OperationType
+  langs:
+  - csharp
+  - vb
+  name: H.Services.Operation
+  nameWithType: H.Services.Operation
+  fullName: H.Services.Operation
+  type: Namespace
+  assemblies:
+  - H.Services.Operation
+references:
+- uid: H.Services.Operation.IOperationService
+  commentId: T:H.Services.Operation.IOperationService
+  href: H.Services.Operation.IOperationService.html
+  name: IOperationService
+  nameWithType: IOperationService
+  fullName: H.Services.Operation.IOperationService
+- uid: H.Services.Operation.IOperationViewPresenter
+  commentId: T:H.Services.Operation.IOperationViewPresenter
+  parent: H.Services.Operation
+  href: H.Services.Operation.IOperationViewPresenter.html
+  name: IOperationViewPresenter
+  nameWithType: IOperationViewPresenter
+  fullName: H.Services.Operation.IOperationViewPresenter
+- uid: H.Services.Operation.OperationType
+  commentId: T:H.Services.Operation.OperationType
+  parent: H.Services.Operation
+  href: H.Services.Operation.OperationType.html
+  name: OperationType
+  nameWithType: OperationType
+  fullName: H.Services.Operation.OperationType
+- uid: H.Services.Operation
+  commentId: N:H.Services.Operation
+  href: H.html
+  name: H.Services.Operation
+  nameWithType: H.Services.Operation
+  fullName: H.Services.Operation
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Operation
+    name: Operation
+    href: H.Services.Operation.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Operation
+    name: Operation
+    href: H.Services.Operation.html

@@ -1,0 +1,120 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.Tree
+  commentId: N:H.Extensions.Tree
+  id: H.Extensions.Tree
+  children:
+  - H.Extensions.Tree.ClassTypeTree
+  - H.Extensions.Tree.ClassTypeTreeDataProviderExtension
+  - H.Extensions.Tree.ClassTypeTreeExtension
+  - H.Extensions.Tree.ExploreTree
+  - H.Extensions.Tree.ExploreTreeDataProviderExtension
+  - H.Extensions.Tree.IParent
+  - H.Extensions.Tree.ITree
+  - H.Extensions.Tree.ParentExtension
+  - H.Extensions.Tree.TreeExtension
+  - H.Extensions.Tree.TreeViewItemLazyLoadBehavior
+  langs:
+  - csharp
+  - vb
+  name: H.Extensions.Tree
+  nameWithType: H.Extensions.Tree
+  fullName: H.Extensions.Tree
+  type: Namespace
+  assemblies:
+  - H.Extensions.Tree
+references:
+- uid: H.Extensions.Tree.ClassTypeTree
+  commentId: T:H.Extensions.Tree.ClassTypeTree
+  href: H.Extensions.Tree.ClassTypeTree.html
+  name: ClassTypeTree
+  nameWithType: ClassTypeTree
+  fullName: H.Extensions.Tree.ClassTypeTree
+- uid: H.Extensions.Tree.ClassTypeTreeDataProviderExtension
+  commentId: T:H.Extensions.Tree.ClassTypeTreeDataProviderExtension
+  href: H.Extensions.Tree.ClassTypeTreeDataProviderExtension.html
+  name: ClassTypeTreeDataProviderExtension
+  nameWithType: ClassTypeTreeDataProviderExtension
+  fullName: H.Extensions.Tree.ClassTypeTreeDataProviderExtension
+- uid: H.Extensions.Tree.ClassTypeTreeExtension
+  commentId: T:H.Extensions.Tree.ClassTypeTreeExtension
+  href: H.Extensions.Tree.ClassTypeTreeExtension.html
+  name: ClassTypeTreeExtension
+  nameWithType: ClassTypeTreeExtension
+  fullName: H.Extensions.Tree.ClassTypeTreeExtension
+- uid: H.Extensions.Tree.ExploreTree
+  commentId: T:H.Extensions.Tree.ExploreTree
+  href: H.Extensions.Tree.ExploreTree.html
+  name: ExploreTree
+  nameWithType: ExploreTree
+  fullName: H.Extensions.Tree.ExploreTree
+- uid: H.Extensions.Tree.ExploreTreeDataProviderExtension
+  commentId: T:H.Extensions.Tree.ExploreTreeDataProviderExtension
+  href: H.Extensions.Tree.ExploreTreeDataProviderExtension.html
+  name: ExploreTreeDataProviderExtension
+  nameWithType: ExploreTreeDataProviderExtension
+  fullName: H.Extensions.Tree.ExploreTreeDataProviderExtension
+- uid: H.Extensions.Tree.IParent
+  commentId: T:H.Extensions.Tree.IParent
+  parent: H.Extensions.Tree
+  href: H.Extensions.Tree.IParent.html
+  name: IParent
+  nameWithType: IParent
+  fullName: H.Extensions.Tree.IParent
+- uid: H.Extensions.Tree.ITree
+  commentId: T:H.Extensions.Tree.ITree
+  parent: H.Extensions.Tree
+  href: H.Extensions.Tree.ITree.html
+  name: ITree
+  nameWithType: ITree
+  fullName: H.Extensions.Tree.ITree
+- uid: H.Extensions.Tree.ParentExtension
+  commentId: T:H.Extensions.Tree.ParentExtension
+  parent: H.Extensions.Tree
+  href: H.Extensions.Tree.ParentExtension.html
+  name: ParentExtension
+  nameWithType: ParentExtension
+  fullName: H.Extensions.Tree.ParentExtension
+- uid: H.Extensions.Tree.TreeExtension
+  commentId: T:H.Extensions.Tree.TreeExtension
+  parent: H.Extensions.Tree
+  href: H.Extensions.Tree.TreeExtension.html
+  name: TreeExtension
+  nameWithType: TreeExtension
+  fullName: H.Extensions.Tree.TreeExtension
+- uid: H.Extensions.Tree.TreeViewItemLazyLoadBehavior
+  commentId: T:H.Extensions.Tree.TreeViewItemLazyLoadBehavior
+  href: H.Extensions.Tree.TreeViewItemLazyLoadBehavior.html
+  name: TreeViewItemLazyLoadBehavior
+  nameWithType: TreeViewItemLazyLoadBehavior
+  fullName: H.Extensions.Tree.TreeViewItemLazyLoadBehavior
+- uid: H.Extensions.Tree
+  commentId: N:H.Extensions.Tree
+  href: H.html
+  name: H.Extensions.Tree
+  nameWithType: H.Extensions.Tree
+  fullName: H.Extensions.Tree
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Tree
+    name: Tree
+    href: H.Extensions.Tree.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Tree
+    name: Tree
+    href: H.Extensions.Tree.html

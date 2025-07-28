@@ -1,0 +1,1034 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class LayoutGroup&lt;T&gt; | WPF-VisionMasterOpenCV2.0开发文档 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class LayoutGroup&lt;T&gt; | WPF-VisionMasterOpenCV2.0开发文档 ">
+      
+      <meta name="description" content="Provides a base class for layout anchorable (group and non-group) related classes that implement the viewmodel aspect for layout anchorable controls.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="WPF-VisionMasterOpenCV2.0开发文档">
+            WPF-VisionMasterOpenCV2.0开发文档
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="H.Controls.Dock.Layout.LayoutGroup`1">
+
+
+
+  <h1 id="H_Controls_Dock_Layout_LayoutGroup_1" data-uid="H.Controls.Dock.Layout.LayoutGroup`1" class="text-break">
+Class LayoutGroup&lt;T&gt;  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="H.html">H</a>.<a class="xref" href="H.Controls.html">Controls</a>.<a class="xref" href="H.Controls.Dock.html">Dock</a>.<a class="xref" href="H.Controls.Dock.Layout.html">Layout</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>H.Controls.Dock.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Provides a base class for layout anchorable (group and non-group) related classes
+that implement the viewmodel aspect for layout anchorable controls.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+public abstract class LayoutGroup&lt;T&gt; : LayoutGroupBase, ILayoutGroup, ILayoutContainer, ILayoutElement, INotifyPropertyChanged, INotifyPropertyChanging, IXmlSerializable where T : class, ILayoutElement</code></pre>
+  </div>
+
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherobject">DispatcherObject</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject">DependencyObject</a></div>
+      <div><a class="xref" href="H.Controls.Dock.Layout.LayoutElement.html">LayoutElement</a></div>
+      <div><a class="xref" href="H.Controls.Dock.Layout.LayoutGroupBase.html">LayoutGroupBase</a></div>
+      <div><span class="xref">LayoutGroup&lt;T&gt;</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="H.Controls.Dock.Layout.ILayoutGroup.html">ILayoutGroup</a></div>
+      <div><a class="xref" href="H.Controls.Dock.Layout.ILayoutContainer.html">ILayoutContainer</a></div>
+      <div><a class="xref" href="H.Controls.Dock.Layout.ILayoutElement.html">ILayoutElement</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanging">INotifyPropertyChanging</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.xml.serialization.ixmlserializable">IXmlSerializable</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="H.Controls.Dock.Layout.LayoutAnchorGroup.html">LayoutAnchorGroup</a></div>
+      <div><a class="xref" href="H.Controls.Dock.Layout.LayoutAnchorSide.html">LayoutAnchorSide</a></div>
+      <div><a class="xref" href="H.Controls.Dock.Layout.LayoutPositionableGroup-1.html">LayoutPositionableGroup&lt;T&gt;</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="H.Controls.Dock.Layout.LayoutGroupBase.html#H_Controls_Dock_Layout_LayoutGroupBase_ChildrenCollectionChanged">LayoutGroupBase.ChildrenCollectionChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Dock.Layout.LayoutGroupBase.html#H_Controls_Dock_Layout_LayoutGroupBase_ChildrenTreeChanged">LayoutGroupBase.ChildrenTreeChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Dock.Layout.LayoutGroupBase.html#H_Controls_Dock_Layout_LayoutGroupBase_OnChildrenCollectionChanged">LayoutGroupBase.OnChildrenCollectionChanged()</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Dock.Layout.LayoutGroupBase.html#H_Controls_Dock_Layout_LayoutGroupBase_OnChildrenTreeChanged_H_Controls_Dock_Layout_ChildrenTreeChange_">LayoutGroupBase.OnChildrenTreeChanged(ChildrenTreeChange)</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Dock.Layout.LayoutGroupBase.html#H_Controls_Dock_Layout_LayoutGroupBase_NotifyChildrenTreeChanged_H_Controls_Dock_Layout_ChildrenTreeChange_">LayoutGroupBase.NotifyChildrenTreeChanged(ChildrenTreeChange)</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Dock.Layout.LayoutElement.html#H_Controls_Dock_Layout_LayoutElement_PropertyChanged">LayoutElement.PropertyChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Dock.Layout.LayoutElement.html#H_Controls_Dock_Layout_LayoutElement_PropertyChanging">LayoutElement.PropertyChanging</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Dock.Layout.LayoutElement.html#H_Controls_Dock_Layout_LayoutElement_Parent">LayoutElement.Parent</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Dock.Layout.LayoutElement.html#H_Controls_Dock_Layout_LayoutElement_Root">LayoutElement.Root</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Dock.Layout.LayoutElement.html#H_Controls_Dock_Layout_LayoutElement_ConsoleDump_System_Int32_">LayoutElement.ConsoleDump(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Dock.Layout.LayoutElement.html#H_Controls_Dock_Layout_LayoutElement_OnParentChanging_H_Controls_Dock_Layout_ILayoutContainer_H_Controls_Dock_Layout_ILayoutContainer_">LayoutElement.OnParentChanging(ILayoutContainer, ILayoutContainer)</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Dock.Layout.LayoutElement.html#H_Controls_Dock_Layout_LayoutElement_OnRootChanged_H_Controls_Dock_Layout_ILayoutRoot_H_Controls_Dock_Layout_ILayoutRoot_">LayoutElement.OnRootChanged(ILayoutRoot, ILayoutRoot)</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Dock.Layout.LayoutElement.html#H_Controls_Dock_Layout_LayoutElement_RaisePropertyChanged_System_String_">LayoutElement.RaisePropertyChanged(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Controls.Dock.Layout.LayoutElement.html#H_Controls_Dock_Layout_LayoutElement_RaisePropertyChanging_System_String_">LayoutElement.RaisePropertyChanging(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.clearvalue#system-windows-dependencyobject-clearvalue(system-windows-dependencyproperty)">DependencyObject.ClearValue(DependencyProperty)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.clearvalue#system-windows-dependencyobject-clearvalue(system-windows-dependencypropertykey)">DependencyObject.ClearValue(DependencyPropertyKey)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.coercevalue">DependencyObject.CoerceValue(DependencyProperty)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.equals">DependencyObject.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.gethashcode">DependencyObject.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.getlocalvalueenumerator">DependencyObject.GetLocalValueEnumerator()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.getvalue">DependencyObject.GetValue(DependencyProperty)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.invalidateproperty">DependencyObject.InvalidateProperty(DependencyProperty)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.onpropertychanged">DependencyObject.OnPropertyChanged(DependencyPropertyChangedEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.readlocalvalue">DependencyObject.ReadLocalValue(DependencyProperty)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.setcurrentvalue">DependencyObject.SetCurrentValue(DependencyProperty, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.setvalue#system-windows-dependencyobject-setvalue(system-windows-dependencyproperty-system-object)">DependencyObject.SetValue(DependencyProperty, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.setvalue#system-windows-dependencyobject-setvalue(system-windows-dependencypropertykey-system-object)">DependencyObject.SetValue(DependencyPropertyKey, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.shouldserializeproperty">DependencyObject.ShouldSerializeProperty(DependencyProperty)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.dependencyobjecttype">DependencyObject.DependencyObjectType</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject.issealed">DependencyObject.IsSealed</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherobject.dispatcher">DispatcherObject.Dispatcher</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="H.Controls.Dock.Layout.Extensions.html#H_Controls_Dock_Layout_Extensions_ContainsChildOfType__1_H_Controls_Dock_Layout_ILayoutContainer_">Extensions.ContainsChildOfType&lt;T&gt;(ILayoutContainer)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Controls.Dock.Layout.Extensions.html#H_Controls_Dock_Layout_Extensions_ContainsChildOfType__2_H_Controls_Dock_Layout_ILayoutContainer_">Extensions.ContainsChildOfType&lt;T, S&gt;(ILayoutContainer)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Controls.Dock.Layout.Extensions.html#H_Controls_Dock_Layout_Extensions_IsOfType__2_H_Controls_Dock_Layout_ILayoutContainer_">Extensions.IsOfType&lt;T, S&gt;(ILayoutContainer)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Controls.Dock.Layout.Extensions.html#H_Controls_Dock_Layout_Extensions_Descendents_H_Controls_Dock_Layout_ILayoutElement_">Extensions.Descendents(ILayoutElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Controls.Dock.Layout.Extensions.html#H_Controls_Dock_Layout_Extensions_FindParent__1_H_Controls_Dock_Layout_ILayoutElement_">Extensions.FindParent&lt;T&gt;(ILayoutElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Controls.Dock.Layout.Extensions.html#H_Controls_Dock_Layout_Extensions_GetRoot_H_Controls_Dock_Layout_ILayoutElement_">Extensions.GetRoot(ILayoutElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Controls.Dock.Layout.Extensions.html#H_Controls_Dock_Layout_Extensions_GetSide_H_Controls_Dock_Layout_ILayoutElement_">Extensions.GetSide(ILayoutElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_CloneCast__1___0_System_Predicate_System_Reflection_PropertyInfo__">ObjectExtension.CloneCast&lt;T&gt;(T, Predicate&lt;PropertyInfo&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_ToEnumerable__1___0_">ObjectExtension.ToEnumerable&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.NewtonsoftJson.NewtonsoftJsonSerializerServiceExtension.html#H_Extensions_NewtonsoftJson_NewtonsoftJsonSerializerServiceExtension_CloneByNewtonsoftJson__1___0_">NewtonsoftJsonSerializerServiceExtension.CloneByNewtonsoftJson&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.VisionMaster.ResultPresenter.ResultPresenterExtension.html#H_VisionMaster_ResultPresenter_ResultPresenterExtension_ToValueResultPresenter__1___0_">ResultPresenterExtension.ToValueResultPresenter&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="System.Windows.Threading.DispatcherExtension.html#System_Windows_Threading_DispatcherExtension_GetDispatcherValue__2___0_System_Func___0___1__">DispatcherExtension.GetDispatcherValue&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="System.Windows.Threading.DispatcherExtension.html#System_Windows_Threading_DispatcherExtension_InvokeDispatcher__1___0_System_Action___0__">DispatcherExtension.InvokeDispatcher&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="System.Windows.Threading.DispatcherExtension.html#System_Windows_Threading_DispatcherExtension_InvokeDispatcher__2___0_System_Func___0___1__">DispatcherExtension.InvokeDispatcher&lt;T, R&gt;(T, Func&lt;T, R&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Controls.FilterColumnDataGrid.Extensions.html#H_Controls_FilterColumnDataGrid_Extensions_GetPropertyValue_System_Object_System_String_">Extensions.GetPropertyValue(object, string)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Controls.FilterColumnDataGrid.Extensions.html#H_Controls_FilterColumnDataGrid_Extensions_GetPropertyValue__1_System_Object_System_String_">Extensions.GetPropertyValue&lt;T&gt;(object, string)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Controls.Form.Provider.PropertyInfoExtention.html#H_Controls_Form_Provider_PropertyInfoExtention_ChangeType__1_System_Object_">PropertyInfoExtention.ChangeType&lt;T&gt;(object)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_CloneBy_System_Object_System_Predicate_System_Reflection_PropertyInfo__">ObjectExtension.CloneBy(object, Predicate&lt;PropertyInfo&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_CopyPropertyValueFrom_System_Object_System_Object_System_Predicate_System_Reflection_PropertyInfo__System_Func_System_Reflection_PropertyInfo_System_Reflection_PropertyInfo_System_Boolean__">ObjectExtension.CopyPropertyValueFrom(object, object, Predicate&lt;PropertyInfo&gt;, Func&lt;PropertyInfo, PropertyInfo, bool&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_IsMacth_System_Object_System_Func_System_Reflection_PropertyInfo_System_Object_System_Boolean__">ObjectExtension.IsMacth(object, Func&lt;PropertyInfo, object, bool&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_IsMacth_System_Object_System_String_">ObjectExtension.IsMacth(object, string)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_ModelState_System_Object_System_Collections_Generic_List_System_String___">ObjectExtension.ModelState(object, out List&lt;string&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_ModelStateDeep_System_Object_System_String__">ObjectExtension.ModelStateDeep(object, out string)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_TryChangeType_System_Object_System_Type_System_Object__">ObjectExtension.TryChangeType(object, Type, out object)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_TryChangeType__1_System_Object_">ObjectExtension.TryChangeType&lt;T&gt;(object)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_TryChangeType__1_System_Object___0__">ObjectExtension.TryChangeType&lt;T&gt;(object, out T)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_TryConvertToString_System_Object_">ObjectExtension.TryConvertToString(object)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_TryConvertToString_System_Object_System_String__">ObjectExtension.TryConvertToString(object, out string)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.TextJsonable.TextJsonableExtensions.html#H_Extensions_TextJsonable_TextJsonableExtensions_GetJsonPropertyInfos_System_Object_">TextJsonableExtensions.GetJsonPropertyInfos(object)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.TextJsonable.TextJsonableExtensions.html#H_Extensions_TextJsonable_TextJsonableExtensions_WriteJson_System_Object_System_Text_Json_Utf8JsonWriter_System_Text_Json_JsonSerializerOptions_System_Boolean_">TextJsonableExtensions.WriteJson(object, Utf8JsonWriter, JsonSerializerOptions, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.TextJsonable.TextJsonableExtensions.html#H_Extensions_TextJsonable_TextJsonableExtensions_WriteType_System_Object_System_Text_Json_Utf8JsonWriter_">TextJsonableExtensions.WriteType(object, Utf8JsonWriter)</a>
+  </div>
+  <div>
+      <a class="xref" href="System.Windows.Threading.DispatcherExtension.html#System_Windows_Threading_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_">DispatcherExtension.DelayInvoke(object, Action, DispatcherPriority)</a>
+  </div>
+  <div>
+      <a class="xref" href="System.Windows.Threading.DispatcherExtension.html#System_Windows_Threading_DispatcherExtension_DelayInvoke_System_Object_System_Collections_IList_System_Action_System_Object__System_Action_System_Windows_Threading_DispatcherPriority_">DispatcherExtension.DelayInvoke(object, IList, Action&lt;object&gt;, Action, DispatcherPriority)</a>
+  </div>
+  <div>
+      <a class="xref" href="System.Windows.Threading.DispatcherExtension.html#System_Windows_Threading_DispatcherExtension_DelayInvoke_System_Object_System_Collections_IList_System_Func_System_Collections_IList__System_Action_System_Windows_Threading_DispatcherPriority_">DispatcherExtension.DelayInvoke(object, IList, Func&lt;IList&gt;, Action, DispatcherPriority)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Controls.Dock.Controls.Extensions.html#H_Controls_Dock_Controls_Extensions_FindLogicalAncestor__1_System_Windows_DependencyObject_">Extensions.FindLogicalAncestor&lt;T&gt;(DependencyObject)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Controls.Dock.Controls.Extensions.html#H_Controls_Dock_Controls_Extensions_FindLogicalChildren__1_System_Windows_DependencyObject_">Extensions.FindLogicalChildren&lt;T&gt;(DependencyObject)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Controls.Dock.Controls.Extensions.html#H_Controls_Dock_Controls_Extensions_FindVisualAncestor__1_System_Windows_DependencyObject_">Extensions.FindVisualAncestor&lt;T&gt;(DependencyObject)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Controls.Dock.Controls.Extensions.html#H_Controls_Dock_Controls_Extensions_FindVisualChildren__1_System_Windows_DependencyObject_">Extensions.FindVisualChildren&lt;T&gt;(DependencyObject)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Controls.Dock.Controls.Extensions.html#H_Controls_Dock_Controls_Extensions_FindVisualTreeRoot_System_Windows_DependencyObject_">Extensions.FindVisualTreeRoot(DependencyObject)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Controls.FilterColumnDataGrid.VisualTreeHelpers.html#H_Controls_FilterColumnDataGrid_VisualTreeHelpers_FindVisualChild__1_System_Windows_DependencyObject_">VisualTreeHelpers.FindVisualChild&lt;T&gt;(DependencyObject)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Controls.FilterColumnDataGrid.VisualTreeHelpers.html#H_Controls_FilterColumnDataGrid_VisualTreeHelpers_FindVisualChild__1_System_Windows_DependencyObject_System_String_">VisualTreeHelpers.FindVisualChild&lt;T&gt;(DependencyObject, string)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Controls.FilterColumnDataGrid.VisualTreeHelpers.html#H_Controls_FilterColumnDataGrid_VisualTreeHelpers_TryFindParent__1_System_Windows_DependencyObject_">VisualTreeHelpers.TryFindParent&lt;T&gt;(DependencyObject)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ElementExtention.html#H_Extensions_Common_ElementExtention_Ancestors_System_Windows_DependencyObject_">ElementExtention.Ancestors(DependencyObject)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ElementExtention.html#H_Extensions_Common_ElementExtention_AncestorsAndSelf_System_Windows_DependencyObject_">ElementExtention.AncestorsAndSelf(DependencyObject)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ElementExtention.html#H_Extensions_Common_ElementExtention_FindAllVisualChild__1_System_Windows_DependencyObject_System_Predicate___0__">ElementExtention.FindAllVisualChild&lt;T&gt;(DependencyObject, Predicate&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ElementExtention.html#H_Extensions_Common_ElementExtention_GetChild__1_System_Windows_DependencyObject_System_Func___0_System_Boolean__">ElementExtention.GetChild&lt;T&gt;(DependencyObject, Func&lt;T, bool&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ElementExtention.html#H_Extensions_Common_ElementExtention_GetChildren__1_System_Windows_DependencyObject_System_Func___0_System_Boolean__System_Boolean_">ElementExtention.GetChildren&lt;T&gt;(DependencyObject, Func&lt;T, bool&gt;, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ElementExtention.html#H_Extensions_Common_ElementExtention_GetElement__1_System_Windows_DependencyObject_">ElementExtention.GetElement&lt;T&gt;(DependencyObject)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ElementExtention.html#H_Extensions_Common_ElementExtention_GetElements__1_System_Windows_DependencyObject_">ElementExtention.GetElements&lt;T&gt;(DependencyObject)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ElementExtention.html#H_Extensions_Common_ElementExtention_GetImplementationRoot_System_Windows_DependencyObject_">ElementExtention.GetImplementationRoot(DependencyObject)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ElementExtention.html#H_Extensions_Common_ElementExtention_GetParent_System_Windows_DependencyObject_">ElementExtention.GetParent(DependencyObject)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ElementExtention.html#H_Extensions_Common_ElementExtention_GetParent_System_Windows_DependencyObject_System_Type_">ElementExtention.GetParent(DependencyObject, Type)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ElementExtention.html#H_Extensions_Common_ElementExtention_GetParent__1_System_Windows_DependencyObject_">ElementExtention.GetParent&lt;T&gt;(DependencyObject)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ElementExtention.html#H_Extensions_Common_ElementExtention_GetParent__1_System_Windows_DependencyObject_System_Func___0_System_Boolean__">ElementExtention.GetParent&lt;T&gt;(DependencyObject, Func&lt;T, bool&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ElementExtention.html#H_Extensions_Common_ElementExtention_GetValueSync__1_System_Windows_DependencyObject_System_Windows_DependencyProperty_">ElementExtention.GetValueSync&lt;T&gt;(DependencyObject, DependencyProperty)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ElementExtention.html#H_Extensions_Common_ElementExtention_GetVisualRoot__1_System_Windows_DependencyObject_">ElementExtention.GetVisualRoot&lt;T&gt;(DependencyObject)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ElementExtention.html#H_Extensions_Common_ElementExtention_PrintLogicalTree_System_Windows_DependencyObject_">ElementExtention.PrintLogicalTree(DependencyObject)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ElementExtention.html#H_Extensions_Common_ElementExtention_PrintVisualTree_System_Windows_DependencyObject_">ElementExtention.PrintVisualTree(DependencyObject)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ElementExtention.html#H_Extensions_Common_ElementExtention_SetValueSync__1_System_Windows_DependencyObject_System_Windows_DependencyProperty___0_">ElementExtention.SetValueSync&lt;T&gt;(DependencyObject, DependencyProperty, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ElementExtention.html#H_Extensions_Common_ElementExtention_TryGetVisualStateGroup_System_Windows_DependencyObject_System_String_">ElementExtention.TryGetVisualStateGroup(DependencyObject, string)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="H_Controls_Dock_Layout_LayoutGroup_1_Children_" data-uid="H.Controls.Dock.Layout.LayoutGroup`1.Children*"></a>
+
+  <h3 id="H_Controls_Dock_Layout_LayoutGroup_1_Children" data-uid="H.Controls.Dock.Layout.LayoutGroup`1.Children">
+  Children
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets a collection of children objects below this object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ObservableCollection&lt;T&gt; Children { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1">ObservableCollection</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Controls_Dock_Layout_LayoutGroup_1_ChildrenCount_" data-uid="H.Controls.Dock.Layout.LayoutGroup`1.ChildrenCount*"></a>
+
+  <h3 id="H_Controls_Dock_Layout_LayoutGroup_1_ChildrenCount" data-uid="H.Controls.Dock.Layout.LayoutGroup`1.ChildrenCount">
+  ChildrenCount
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the number of of children objects below this object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int ChildrenCount { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Controls_Dock_Layout_LayoutGroup_1_IsVisible_" data-uid="H.Controls.Dock.Layout.LayoutGroup`1.IsVisible*"></a>
+
+  <h3 id="H_Controls_Dock_Layout_LayoutGroup_1_IsVisible" data-uid="H.Controls.Dock.Layout.LayoutGroup`1.IsVisible">
+  IsVisible
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets whether this object is visible or not.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsVisible { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="H_Controls_Dock_Layout_LayoutGroup_1_ChildMoved_" data-uid="H.Controls.Dock.Layout.LayoutGroup`1.ChildMoved*"></a>
+
+  <h3 id="H_Controls_Dock_Layout_LayoutGroup_1_ChildMoved_System_Int32_System_Int32_" data-uid="H.Controls.Dock.Layout.LayoutGroup`1.ChildMoved(System.Int32,System.Int32)">
+  ChildMoved(int, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void ChildMoved(int oldIndex, int newIndex)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>oldIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>newIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Controls_Dock_Layout_LayoutGroup_1_ComputeVisibility_" data-uid="H.Controls.Dock.Layout.LayoutGroup`1.ComputeVisibility*"></a>
+
+  <h3 id="H_Controls_Dock_Layout_LayoutGroup_1_ComputeVisibility" data-uid="H.Controls.Dock.Layout.LayoutGroup`1.ComputeVisibility">
+  ComputeVisibility()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Interface definition for a layout element that can update its visibility (IsVisible) property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ComputeVisibility()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Controls_Dock_Layout_LayoutGroup_1_GetVisibility_" data-uid="H.Controls.Dock.Layout.LayoutGroup`1.GetVisibility*"></a>
+
+  <h3 id="H_Controls_Dock_Layout_LayoutGroup_1_GetVisibility" data-uid="H.Controls.Dock.Layout.LayoutGroup`1.GetVisibility">
+  GetVisibility()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract bool GetVisibility()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Controls_Dock_Layout_LayoutGroup_1_IndexOfChild_" data-uid="H.Controls.Dock.Layout.LayoutGroup`1.IndexOfChild*"></a>
+
+  <h3 id="H_Controls_Dock_Layout_LayoutGroup_1_IndexOfChild_H_Controls_Dock_Layout_ILayoutElement_" data-uid="H.Controls.Dock.Layout.LayoutGroup`1.IndexOfChild(H.Controls.Dock.Layout.ILayoutElement)">
+  IndexOfChild(ILayoutElement)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Interface definition for a group of layout elements that can act as a container.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int IndexOfChild(ILayoutElement element)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>element</code> <a class="xref" href="H.Controls.Dock.Layout.ILayoutElement.html">ILayoutElement</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Controls_Dock_Layout_LayoutGroup_1_InsertChildAt_" data-uid="H.Controls.Dock.Layout.LayoutGroup`1.InsertChildAt*"></a>
+
+  <h3 id="H_Controls_Dock_Layout_LayoutGroup_1_InsertChildAt_System_Int32_H_Controls_Dock_Layout_ILayoutElement_" data-uid="H.Controls.Dock.Layout.LayoutGroup`1.InsertChildAt(System.Int32,H.Controls.Dock.Layout.ILayoutElement)">
+  InsertChildAt(int, ILayoutElement)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Interface definition for a group of layout elements that can act as a container.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void InsertChildAt(int index, ILayoutElement element)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>element</code> <a class="xref" href="H.Controls.Dock.Layout.ILayoutElement.html">ILayoutElement</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Controls_Dock_Layout_LayoutGroup_1_MoveChild_" data-uid="H.Controls.Dock.Layout.LayoutGroup`1.MoveChild*"></a>
+
+  <h3 id="H_Controls_Dock_Layout_LayoutGroup_1_MoveChild_System_Int32_System_Int32_" data-uid="H.Controls.Dock.Layout.LayoutGroup`1.MoveChild(System.Int32,System.Int32)">
+  MoveChild(int, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Defines an API to layout model that can manipluate its child entries by moving
+them from one index to the other or by removing a particular child from its child collection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MoveChild(int oldIndex, int newIndex)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>oldIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>newIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Controls_Dock_Layout_LayoutGroup_1_OnIsVisibleChanged_" data-uid="H.Controls.Dock.Layout.LayoutGroup`1.OnIsVisibleChanged*"></a>
+
+  <h3 id="H_Controls_Dock_Layout_LayoutGroup_1_OnIsVisibleChanged" data-uid="H.Controls.Dock.Layout.LayoutGroup`1.OnIsVisibleChanged">
+  OnIsVisibleChanged()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnIsVisibleChanged()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Controls_Dock_Layout_LayoutGroup_1_OnParentChanged_" data-uid="H.Controls.Dock.Layout.LayoutGroup`1.OnParentChanged*"></a>
+
+  <h3 id="H_Controls_Dock_Layout_LayoutGroup_1_OnParentChanged_H_Controls_Dock_Layout_ILayoutContainer_H_Controls_Dock_Layout_ILayoutContainer_" data-uid="H.Controls.Dock.Layout.LayoutGroup`1.OnParentChanged(H.Controls.Dock.Layout.ILayoutContainer,H.Controls.Dock.Layout.ILayoutContainer)">
+  OnParentChanged(ILayoutContainer, ILayoutContainer)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Provides derived classes an opportunity to handle changes to the <a class="xref" href="H.Controls.Dock.Layout.LayoutElement.html#H_Controls_Dock_Layout_LayoutElement_Parent">Parent</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnParentChanged(ILayoutContainer oldValue, ILayoutContainer newValue)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>oldValue</code> <a class="xref" href="H.Controls.Dock.Layout.ILayoutContainer.html">ILayoutContainer</a></dt>
+    <dd></dd>
+    <dt><code>newValue</code> <a class="xref" href="H.Controls.Dock.Layout.ILayoutContainer.html">ILayoutContainer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Controls_Dock_Layout_LayoutGroup_1_ReadXml_" data-uid="H.Controls.Dock.Layout.LayoutGroup`1.ReadXml*"></a>
+
+  <h3 id="H_Controls_Dock_Layout_LayoutGroup_1_ReadXml_System_Xml_XmlReader_" data-uid="H.Controls.Dock.Layout.LayoutGroup`1.ReadXml(System.Xml.XmlReader)">
+  ReadXml(XmlReader)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>provides a standard overridable implementation for deriving classes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void ReadXml(XmlReader reader)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>reader</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.xml.xmlreader">XmlReader</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Controls_Dock_Layout_LayoutGroup_1_RemoveChild_" data-uid="H.Controls.Dock.Layout.LayoutGroup`1.RemoveChild*"></a>
+
+  <h3 id="H_Controls_Dock_Layout_LayoutGroup_1_RemoveChild_H_Controls_Dock_Layout_ILayoutElement_" data-uid="H.Controls.Dock.Layout.LayoutGroup`1.RemoveChild(H.Controls.Dock.Layout.ILayoutElement)">
+  RemoveChild(ILayoutElement)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Defines an interface that is implemented by a layout model that can contain other <a class="xref" href="H.Controls.Dock.Layout.LayoutElement.html">LayoutElement</a>s (<a class="xref" href="H.Controls.Dock.Layout.LayoutGroup-1.html">LayoutGroup&lt;T&gt;</a>, LayoutPane etc).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveChild(ILayoutElement element)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>element</code> <a class="xref" href="H.Controls.Dock.Layout.ILayoutElement.html">ILayoutElement</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Controls_Dock_Layout_LayoutGroup_1_RemoveChildAt_" data-uid="H.Controls.Dock.Layout.LayoutGroup`1.RemoveChildAt*"></a>
+
+  <h3 id="H_Controls_Dock_Layout_LayoutGroup_1_RemoveChildAt_System_Int32_" data-uid="H.Controls.Dock.Layout.LayoutGroup`1.RemoveChildAt(System.Int32)">
+  RemoveChildAt(int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Interface definition for a group of layout elements that can act as a container.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveChildAt(int childIndex)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>childIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Controls_Dock_Layout_LayoutGroup_1_ReplaceChild_" data-uid="H.Controls.Dock.Layout.LayoutGroup`1.ReplaceChild*"></a>
+
+  <h3 id="H_Controls_Dock_Layout_LayoutGroup_1_ReplaceChild_H_Controls_Dock_Layout_ILayoutElement_H_Controls_Dock_Layout_ILayoutElement_" data-uid="H.Controls.Dock.Layout.LayoutGroup`1.ReplaceChild(H.Controls.Dock.Layout.ILayoutElement,H.Controls.Dock.Layout.ILayoutElement)">
+  ReplaceChild(ILayoutElement, ILayoutElement)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Defines an interface that is implemented by a layout model that can contain other <a class="xref" href="H.Controls.Dock.Layout.LayoutElement.html">LayoutElement</a>s (<a class="xref" href="H.Controls.Dock.Layout.LayoutGroup-1.html">LayoutGroup&lt;T&gt;</a>, LayoutPane etc).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReplaceChild(ILayoutElement oldElement, ILayoutElement newElement)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>oldElement</code> <a class="xref" href="H.Controls.Dock.Layout.ILayoutElement.html">ILayoutElement</a></dt>
+    <dd></dd>
+    <dt><code>newElement</code> <a class="xref" href="H.Controls.Dock.Layout.ILayoutElement.html">ILayoutElement</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Controls_Dock_Layout_LayoutGroup_1_ReplaceChildAt_" data-uid="H.Controls.Dock.Layout.LayoutGroup`1.ReplaceChildAt*"></a>
+
+  <h3 id="H_Controls_Dock_Layout_LayoutGroup_1_ReplaceChildAt_System_Int32_H_Controls_Dock_Layout_ILayoutElement_" data-uid="H.Controls.Dock.Layout.LayoutGroup`1.ReplaceChildAt(System.Int32,H.Controls.Dock.Layout.ILayoutElement)">
+  ReplaceChildAt(int, ILayoutElement)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Interface definition for a group of layout elements that can act as a container.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReplaceChildAt(int index, ILayoutElement element)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>element</code> <a class="xref" href="H.Controls.Dock.Layout.ILayoutElement.html">ILayoutElement</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Controls_Dock_Layout_LayoutGroup_1_WriteXml_" data-uid="H.Controls.Dock.Layout.LayoutGroup`1.WriteXml*"></a>
+
+  <h3 id="H_Controls_Dock_Layout_LayoutGroup_1_WriteXml_System_Xml_XmlWriter_" data-uid="H.Controls.Dock.Layout.LayoutGroup`1.WriteXml(System.Xml.XmlWriter)">
+  WriteXml(XmlWriter)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>provides a standard overridable implementation for deriving classes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void WriteXml(XmlWriter writer)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>writer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter">XmlWriter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

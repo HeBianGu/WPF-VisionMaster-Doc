@@ -1,0 +1,1060 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Attach.ItemsControlService
+  commentId: T:H.Attach.ItemsControlService
+  id: ItemsControlService
+  parent: H.Attach
+  children:
+  - H.Attach.ItemsControlService.EndToolProperty
+  - H.Attach.ItemsControlService.GetEndTool(System.Windows.DependencyObject)
+  - H.Attach.ItemsControlService.GetHomeTool(System.Windows.DependencyObject)
+  - H.Attach.ItemsControlService.GetInnerSource(System.Windows.DependencyObject)
+  - H.Attach.ItemsControlService.GetSelectedItems(System.Windows.DependencyObject)
+  - H.Attach.ItemsControlService.GetTools(System.Windows.DependencyObject)
+  - H.Attach.ItemsControlService.HomeToolProperty
+  - H.Attach.ItemsControlService.InnerSourceProperty
+  - H.Attach.ItemsControlService.OnEndToolChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)
+  - H.Attach.ItemsControlService.OnHomeToolChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)
+  - H.Attach.ItemsControlService.OnInnerSourceChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)
+  - H.Attach.ItemsControlService.OnSelectedItemsChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)
+  - H.Attach.ItemsControlService.OnToolsChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)
+  - H.Attach.ItemsControlService.SelectedItemsProperty
+  - H.Attach.ItemsControlService.SetEndTool(System.Windows.DependencyObject,System.Windows.Controls.ControlTemplate)
+  - H.Attach.ItemsControlService.SetHomeTool(System.Windows.DependencyObject,System.Windows.Controls.ControlTemplate)
+  - H.Attach.ItemsControlService.SetInnerSource(System.Windows.DependencyObject,System.Collections.IEnumerable)
+  - H.Attach.ItemsControlService.SetSelectedItems(System.Windows.DependencyObject,System.Collections.IList)
+  - H.Attach.ItemsControlService.SetTools(System.Windows.DependencyObject,System.Object)
+  - H.Attach.ItemsControlService.ToolsProperty
+  langs:
+  - csharp
+  - vb
+  name: ItemsControlService
+  nameWithType: ItemsControlService
+  fullName: H.Attach.ItemsControlService
+  type: Class
+  source:
+    id: ItemsControlService
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Base\H.Attach\Cattach.ItemsControl.cs
+    startLine: 15
+  assemblies:
+  - H.Attach
+  namespace: H.Attach
+  syntax:
+    content: public static class ItemsControlService
+    content.vb: Public Module ItemsControlService
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: H.Attach.ItemsControlService.GetInnerSource(System.Windows.DependencyObject)
+  commentId: M:H.Attach.ItemsControlService.GetInnerSource(System.Windows.DependencyObject)
+  id: GetInnerSource(System.Windows.DependencyObject)
+  parent: H.Attach.ItemsControlService
+  langs:
+  - csharp
+  - vb
+  name: GetInnerSource(DependencyObject)
+  nameWithType: ItemsControlService.GetInnerSource(DependencyObject)
+  fullName: H.Attach.ItemsControlService.GetInnerSource(System.Windows.DependencyObject)
+  type: Method
+  source:
+    id: GetInnerSource
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Base\H.Attach\Cattach.ItemsControl.cs
+    startLine: 17
+  assemblies:
+  - H.Attach
+  namespace: H.Attach
+  syntax:
+    content: public static IEnumerable GetInnerSource(DependencyObject obj)
+    parameters:
+    - id: obj
+      type: System.Windows.DependencyObject
+    return:
+      type: System.Collections.IEnumerable
+    content.vb: Public Shared Function GetInnerSource(obj As DependencyObject) As IEnumerable
+  overload: H.Attach.ItemsControlService.GetInnerSource*
+- uid: H.Attach.ItemsControlService.SetInnerSource(System.Windows.DependencyObject,System.Collections.IEnumerable)
+  commentId: M:H.Attach.ItemsControlService.SetInnerSource(System.Windows.DependencyObject,System.Collections.IEnumerable)
+  id: SetInnerSource(System.Windows.DependencyObject,System.Collections.IEnumerable)
+  parent: H.Attach.ItemsControlService
+  langs:
+  - csharp
+  - vb
+  name: SetInnerSource(DependencyObject, IEnumerable)
+  nameWithType: ItemsControlService.SetInnerSource(DependencyObject, IEnumerable)
+  fullName: H.Attach.ItemsControlService.SetInnerSource(System.Windows.DependencyObject, System.Collections.IEnumerable)
+  type: Method
+  source:
+    id: SetInnerSource
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Base\H.Attach\Cattach.ItemsControl.cs
+    startLine: 22
+  assemblies:
+  - H.Attach
+  namespace: H.Attach
+  syntax:
+    content: public static void SetInnerSource(DependencyObject obj, IEnumerable value)
+    parameters:
+    - id: obj
+      type: System.Windows.DependencyObject
+    - id: value
+      type: System.Collections.IEnumerable
+    content.vb: Public Shared Sub SetInnerSource(obj As DependencyObject, value As IEnumerable)
+  overload: H.Attach.ItemsControlService.SetInnerSource*
+- uid: H.Attach.ItemsControlService.InnerSourceProperty
+  commentId: F:H.Attach.ItemsControlService.InnerSourceProperty
+  id: InnerSourceProperty
+  parent: H.Attach.ItemsControlService
+  langs:
+  - csharp
+  - vb
+  name: InnerSourceProperty
+  nameWithType: ItemsControlService.InnerSourceProperty
+  fullName: H.Attach.ItemsControlService.InnerSourceProperty
+  type: Field
+  source:
+    id: InnerSourceProperty
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Base\H.Attach\Cattach.ItemsControl.cs
+    startLine: 27
+  assemblies:
+  - H.Attach
+  namespace: H.Attach
+  syntax:
+    content: public static readonly DependencyProperty InnerSourceProperty
+    return:
+      type: System.Windows.DependencyProperty
+    content.vb: Public Shared ReadOnly InnerSourceProperty As DependencyProperty
+- uid: H.Attach.ItemsControlService.OnInnerSourceChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)
+  commentId: M:H.Attach.ItemsControlService.OnInnerSourceChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)
+  id: OnInnerSourceChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)
+  parent: H.Attach.ItemsControlService
+  langs:
+  - csharp
+  - vb
+  name: OnInnerSourceChanged(DependencyObject, DependencyPropertyChangedEventArgs)
+  nameWithType: ItemsControlService.OnInnerSourceChanged(DependencyObject, DependencyPropertyChangedEventArgs)
+  fullName: H.Attach.ItemsControlService.OnInnerSourceChanged(System.Windows.DependencyObject, System.Windows.DependencyPropertyChangedEventArgs)
+  type: Method
+  source:
+    id: OnInnerSourceChanged
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Base\H.Attach\Cattach.ItemsControl.cs
+    startLine: 30
+  assemblies:
+  - H.Attach
+  namespace: H.Attach
+  syntax:
+    content: public static void OnInnerSourceChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
+    parameters:
+    - id: d
+      type: System.Windows.DependencyObject
+    - id: e
+      type: System.Windows.DependencyPropertyChangedEventArgs
+    content.vb: Public Shared Sub OnInnerSourceChanged(d As DependencyObject, e As DependencyPropertyChangedEventArgs)
+  overload: H.Attach.ItemsControlService.OnInnerSourceChanged*
+- uid: H.Attach.ItemsControlService.GetTools(System.Windows.DependencyObject)
+  commentId: M:H.Attach.ItemsControlService.GetTools(System.Windows.DependencyObject)
+  id: GetTools(System.Windows.DependencyObject)
+  parent: H.Attach.ItemsControlService
+  langs:
+  - csharp
+  - vb
+  name: GetTools(DependencyObject)
+  nameWithType: ItemsControlService.GetTools(DependencyObject)
+  fullName: H.Attach.ItemsControlService.GetTools(System.Windows.DependencyObject)
+  type: Method
+  source:
+    id: GetTools
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Base\H.Attach\Cattach.ItemsControl.cs
+    startLine: 41
+  assemblies:
+  - H.Attach
+  namespace: H.Attach
+  syntax:
+    content: public static object GetTools(DependencyObject obj)
+    parameters:
+    - id: obj
+      type: System.Windows.DependencyObject
+    return:
+      type: System.Object
+    content.vb: Public Shared Function GetTools(obj As DependencyObject) As Object
+  overload: H.Attach.ItemsControlService.GetTools*
+- uid: H.Attach.ItemsControlService.SetTools(System.Windows.DependencyObject,System.Object)
+  commentId: M:H.Attach.ItemsControlService.SetTools(System.Windows.DependencyObject,System.Object)
+  id: SetTools(System.Windows.DependencyObject,System.Object)
+  parent: H.Attach.ItemsControlService
+  langs:
+  - csharp
+  - vb
+  name: SetTools(DependencyObject, object)
+  nameWithType: ItemsControlService.SetTools(DependencyObject, object)
+  fullName: H.Attach.ItemsControlService.SetTools(System.Windows.DependencyObject, object)
+  type: Method
+  source:
+    id: SetTools
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Base\H.Attach\Cattach.ItemsControl.cs
+    startLine: 46
+  assemblies:
+  - H.Attach
+  namespace: H.Attach
+  syntax:
+    content: public static void SetTools(DependencyObject obj, object value)
+    parameters:
+    - id: obj
+      type: System.Windows.DependencyObject
+    - id: value
+      type: System.Object
+    content.vb: Public Shared Sub SetTools(obj As DependencyObject, value As Object)
+  overload: H.Attach.ItemsControlService.SetTools*
+  nameWithType.vb: ItemsControlService.SetTools(DependencyObject, Object)
+  fullName.vb: H.Attach.ItemsControlService.SetTools(System.Windows.DependencyObject, Object)
+  name.vb: SetTools(DependencyObject, Object)
+- uid: H.Attach.ItemsControlService.ToolsProperty
+  commentId: F:H.Attach.ItemsControlService.ToolsProperty
+  id: ToolsProperty
+  parent: H.Attach.ItemsControlService
+  langs:
+  - csharp
+  - vb
+  name: ToolsProperty
+  nameWithType: ItemsControlService.ToolsProperty
+  fullName: H.Attach.ItemsControlService.ToolsProperty
+  type: Field
+  source:
+    id: ToolsProperty
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Base\H.Attach\Cattach.ItemsControl.cs
+    startLine: 51
+  assemblies:
+  - H.Attach
+  namespace: H.Attach
+  syntax:
+    content: public static readonly DependencyProperty ToolsProperty
+    return:
+      type: System.Windows.DependencyProperty
+    content.vb: Public Shared ReadOnly ToolsProperty As DependencyProperty
+- uid: H.Attach.ItemsControlService.OnToolsChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)
+  commentId: M:H.Attach.ItemsControlService.OnToolsChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)
+  id: OnToolsChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)
+  parent: H.Attach.ItemsControlService
+  langs:
+  - csharp
+  - vb
+  name: OnToolsChanged(DependencyObject, DependencyPropertyChangedEventArgs)
+  nameWithType: ItemsControlService.OnToolsChanged(DependencyObject, DependencyPropertyChangedEventArgs)
+  fullName: H.Attach.ItemsControlService.OnToolsChanged(System.Windows.DependencyObject, System.Windows.DependencyPropertyChangedEventArgs)
+  type: Method
+  source:
+    id: OnToolsChanged
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Base\H.Attach\Cattach.ItemsControl.cs
+    startLine: 54
+  assemblies:
+  - H.Attach
+  namespace: H.Attach
+  syntax:
+    content: public static void OnToolsChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
+    parameters:
+    - id: d
+      type: System.Windows.DependencyObject
+    - id: e
+      type: System.Windows.DependencyPropertyChangedEventArgs
+    content.vb: Public Shared Sub OnToolsChanged(d As DependencyObject, e As DependencyPropertyChangedEventArgs)
+  overload: H.Attach.ItemsControlService.OnToolsChanged*
+- uid: H.Attach.ItemsControlService.GetHomeTool(System.Windows.DependencyObject)
+  commentId: M:H.Attach.ItemsControlService.GetHomeTool(System.Windows.DependencyObject)
+  id: GetHomeTool(System.Windows.DependencyObject)
+  parent: H.Attach.ItemsControlService
+  langs:
+  - csharp
+  - vb
+  name: GetHomeTool(DependencyObject)
+  nameWithType: ItemsControlService.GetHomeTool(DependencyObject)
+  fullName: H.Attach.ItemsControlService.GetHomeTool(System.Windows.DependencyObject)
+  type: Method
+  source:
+    id: GetHomeTool
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Base\H.Attach\Cattach.ItemsControl.cs
+    startLine: 65
+  assemblies:
+  - H.Attach
+  namespace: H.Attach
+  syntax:
+    content: public static ControlTemplate GetHomeTool(DependencyObject obj)
+    parameters:
+    - id: obj
+      type: System.Windows.DependencyObject
+    return:
+      type: System.Windows.Controls.ControlTemplate
+    content.vb: Public Shared Function GetHomeTool(obj As DependencyObject) As ControlTemplate
+  overload: H.Attach.ItemsControlService.GetHomeTool*
+- uid: H.Attach.ItemsControlService.SetHomeTool(System.Windows.DependencyObject,System.Windows.Controls.ControlTemplate)
+  commentId: M:H.Attach.ItemsControlService.SetHomeTool(System.Windows.DependencyObject,System.Windows.Controls.ControlTemplate)
+  id: SetHomeTool(System.Windows.DependencyObject,System.Windows.Controls.ControlTemplate)
+  parent: H.Attach.ItemsControlService
+  langs:
+  - csharp
+  - vb
+  name: SetHomeTool(DependencyObject, ControlTemplate)
+  nameWithType: ItemsControlService.SetHomeTool(DependencyObject, ControlTemplate)
+  fullName: H.Attach.ItemsControlService.SetHomeTool(System.Windows.DependencyObject, System.Windows.Controls.ControlTemplate)
+  type: Method
+  source:
+    id: SetHomeTool
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Base\H.Attach\Cattach.ItemsControl.cs
+    startLine: 70
+  assemblies:
+  - H.Attach
+  namespace: H.Attach
+  syntax:
+    content: public static void SetHomeTool(DependencyObject obj, ControlTemplate value)
+    parameters:
+    - id: obj
+      type: System.Windows.DependencyObject
+    - id: value
+      type: System.Windows.Controls.ControlTemplate
+    content.vb: Public Shared Sub SetHomeTool(obj As DependencyObject, value As ControlTemplate)
+  overload: H.Attach.ItemsControlService.SetHomeTool*
+- uid: H.Attach.ItemsControlService.HomeToolProperty
+  commentId: F:H.Attach.ItemsControlService.HomeToolProperty
+  id: HomeToolProperty
+  parent: H.Attach.ItemsControlService
+  langs:
+  - csharp
+  - vb
+  name: HomeToolProperty
+  nameWithType: ItemsControlService.HomeToolProperty
+  fullName: H.Attach.ItemsControlService.HomeToolProperty
+  type: Field
+  source:
+    id: HomeToolProperty
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Base\H.Attach\Cattach.ItemsControl.cs
+    startLine: 75
+  assemblies:
+  - H.Attach
+  namespace: H.Attach
+  syntax:
+    content: public static readonly DependencyProperty HomeToolProperty
+    return:
+      type: System.Windows.DependencyProperty
+    content.vb: Public Shared ReadOnly HomeToolProperty As DependencyProperty
+- uid: H.Attach.ItemsControlService.OnHomeToolChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)
+  commentId: M:H.Attach.ItemsControlService.OnHomeToolChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)
+  id: OnHomeToolChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)
+  parent: H.Attach.ItemsControlService
+  langs:
+  - csharp
+  - vb
+  name: OnHomeToolChanged(DependencyObject, DependencyPropertyChangedEventArgs)
+  nameWithType: ItemsControlService.OnHomeToolChanged(DependencyObject, DependencyPropertyChangedEventArgs)
+  fullName: H.Attach.ItemsControlService.OnHomeToolChanged(System.Windows.DependencyObject, System.Windows.DependencyPropertyChangedEventArgs)
+  type: Method
+  source:
+    id: OnHomeToolChanged
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Base\H.Attach\Cattach.ItemsControl.cs
+    startLine: 78
+  assemblies:
+  - H.Attach
+  namespace: H.Attach
+  syntax:
+    content: public static void OnHomeToolChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
+    parameters:
+    - id: d
+      type: System.Windows.DependencyObject
+    - id: e
+      type: System.Windows.DependencyPropertyChangedEventArgs
+    content.vb: Public Shared Sub OnHomeToolChanged(d As DependencyObject, e As DependencyPropertyChangedEventArgs)
+  overload: H.Attach.ItemsControlService.OnHomeToolChanged*
+- uid: H.Attach.ItemsControlService.GetEndTool(System.Windows.DependencyObject)
+  commentId: M:H.Attach.ItemsControlService.GetEndTool(System.Windows.DependencyObject)
+  id: GetEndTool(System.Windows.DependencyObject)
+  parent: H.Attach.ItemsControlService
+  langs:
+  - csharp
+  - vb
+  name: GetEndTool(DependencyObject)
+  nameWithType: ItemsControlService.GetEndTool(DependencyObject)
+  fullName: H.Attach.ItemsControlService.GetEndTool(System.Windows.DependencyObject)
+  type: Method
+  source:
+    id: GetEndTool
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Base\H.Attach\Cattach.ItemsControl.cs
+    startLine: 86
+  assemblies:
+  - H.Attach
+  namespace: H.Attach
+  syntax:
+    content: public static ControlTemplate GetEndTool(DependencyObject obj)
+    parameters:
+    - id: obj
+      type: System.Windows.DependencyObject
+    return:
+      type: System.Windows.Controls.ControlTemplate
+    content.vb: Public Shared Function GetEndTool(obj As DependencyObject) As ControlTemplate
+  overload: H.Attach.ItemsControlService.GetEndTool*
+- uid: H.Attach.ItemsControlService.SetEndTool(System.Windows.DependencyObject,System.Windows.Controls.ControlTemplate)
+  commentId: M:H.Attach.ItemsControlService.SetEndTool(System.Windows.DependencyObject,System.Windows.Controls.ControlTemplate)
+  id: SetEndTool(System.Windows.DependencyObject,System.Windows.Controls.ControlTemplate)
+  parent: H.Attach.ItemsControlService
+  langs:
+  - csharp
+  - vb
+  name: SetEndTool(DependencyObject, ControlTemplate)
+  nameWithType: ItemsControlService.SetEndTool(DependencyObject, ControlTemplate)
+  fullName: H.Attach.ItemsControlService.SetEndTool(System.Windows.DependencyObject, System.Windows.Controls.ControlTemplate)
+  type: Method
+  source:
+    id: SetEndTool
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Base\H.Attach\Cattach.ItemsControl.cs
+    startLine: 91
+  assemblies:
+  - H.Attach
+  namespace: H.Attach
+  syntax:
+    content: public static void SetEndTool(DependencyObject obj, ControlTemplate value)
+    parameters:
+    - id: obj
+      type: System.Windows.DependencyObject
+    - id: value
+      type: System.Windows.Controls.ControlTemplate
+    content.vb: Public Shared Sub SetEndTool(obj As DependencyObject, value As ControlTemplate)
+  overload: H.Attach.ItemsControlService.SetEndTool*
+- uid: H.Attach.ItemsControlService.EndToolProperty
+  commentId: F:H.Attach.ItemsControlService.EndToolProperty
+  id: EndToolProperty
+  parent: H.Attach.ItemsControlService
+  langs:
+  - csharp
+  - vb
+  name: EndToolProperty
+  nameWithType: ItemsControlService.EndToolProperty
+  fullName: H.Attach.ItemsControlService.EndToolProperty
+  type: Field
+  source:
+    id: EndToolProperty
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Base\H.Attach\Cattach.ItemsControl.cs
+    startLine: 96
+  assemblies:
+  - H.Attach
+  namespace: H.Attach
+  syntax:
+    content: public static readonly DependencyProperty EndToolProperty
+    return:
+      type: System.Windows.DependencyProperty
+    content.vb: Public Shared ReadOnly EndToolProperty As DependencyProperty
+- uid: H.Attach.ItemsControlService.OnEndToolChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)
+  commentId: M:H.Attach.ItemsControlService.OnEndToolChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)
+  id: OnEndToolChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)
+  parent: H.Attach.ItemsControlService
+  langs:
+  - csharp
+  - vb
+  name: OnEndToolChanged(DependencyObject, DependencyPropertyChangedEventArgs)
+  nameWithType: ItemsControlService.OnEndToolChanged(DependencyObject, DependencyPropertyChangedEventArgs)
+  fullName: H.Attach.ItemsControlService.OnEndToolChanged(System.Windows.DependencyObject, System.Windows.DependencyPropertyChangedEventArgs)
+  type: Method
+  source:
+    id: OnEndToolChanged
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Base\H.Attach\Cattach.ItemsControl.cs
+    startLine: 99
+  assemblies:
+  - H.Attach
+  namespace: H.Attach
+  syntax:
+    content: public static void OnEndToolChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
+    parameters:
+    - id: d
+      type: System.Windows.DependencyObject
+    - id: e
+      type: System.Windows.DependencyPropertyChangedEventArgs
+    content.vb: Public Shared Sub OnEndToolChanged(d As DependencyObject, e As DependencyPropertyChangedEventArgs)
+  overload: H.Attach.ItemsControlService.OnEndToolChanged*
+- uid: H.Attach.ItemsControlService.GetSelectedItems(System.Windows.DependencyObject)
+  commentId: M:H.Attach.ItemsControlService.GetSelectedItems(System.Windows.DependencyObject)
+  id: GetSelectedItems(System.Windows.DependencyObject)
+  parent: H.Attach.ItemsControlService
+  langs:
+  - csharp
+  - vb
+  name: GetSelectedItems(DependencyObject)
+  nameWithType: ItemsControlService.GetSelectedItems(DependencyObject)
+  fullName: H.Attach.ItemsControlService.GetSelectedItems(System.Windows.DependencyObject)
+  type: Method
+  source:
+    id: GetSelectedItems
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Base\H.Attach\Cattach.ItemsControl.cs
+    startLine: 137
+  assemblies:
+  - H.Attach
+  namespace: H.Attach
+  syntax:
+    content: public static IList GetSelectedItems(DependencyObject obj)
+    parameters:
+    - id: obj
+      type: System.Windows.DependencyObject
+    return:
+      type: System.Collections.IList
+    content.vb: Public Shared Function GetSelectedItems(obj As DependencyObject) As IList
+  overload: H.Attach.ItemsControlService.GetSelectedItems*
+- uid: H.Attach.ItemsControlService.SetSelectedItems(System.Windows.DependencyObject,System.Collections.IList)
+  commentId: M:H.Attach.ItemsControlService.SetSelectedItems(System.Windows.DependencyObject,System.Collections.IList)
+  id: SetSelectedItems(System.Windows.DependencyObject,System.Collections.IList)
+  parent: H.Attach.ItemsControlService
+  langs:
+  - csharp
+  - vb
+  name: SetSelectedItems(DependencyObject, IList)
+  nameWithType: ItemsControlService.SetSelectedItems(DependencyObject, IList)
+  fullName: H.Attach.ItemsControlService.SetSelectedItems(System.Windows.DependencyObject, System.Collections.IList)
+  type: Method
+  source:
+    id: SetSelectedItems
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Base\H.Attach\Cattach.ItemsControl.cs
+    startLine: 142
+  assemblies:
+  - H.Attach
+  namespace: H.Attach
+  syntax:
+    content: public static void SetSelectedItems(DependencyObject obj, IList value)
+    parameters:
+    - id: obj
+      type: System.Windows.DependencyObject
+    - id: value
+      type: System.Collections.IList
+    content.vb: Public Shared Sub SetSelectedItems(obj As DependencyObject, value As IList)
+  overload: H.Attach.ItemsControlService.SetSelectedItems*
+- uid: H.Attach.ItemsControlService.SelectedItemsProperty
+  commentId: F:H.Attach.ItemsControlService.SelectedItemsProperty
+  id: SelectedItemsProperty
+  parent: H.Attach.ItemsControlService
+  langs:
+  - csharp
+  - vb
+  name: SelectedItemsProperty
+  nameWithType: ItemsControlService.SelectedItemsProperty
+  fullName: H.Attach.ItemsControlService.SelectedItemsProperty
+  type: Field
+  source:
+    id: SelectedItemsProperty
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Base\H.Attach\Cattach.ItemsControl.cs
+    startLine: 149
+  assemblies:
+  - H.Attach
+  namespace: H.Attach
+  syntax:
+    content: public static readonly DependencyProperty SelectedItemsProperty
+    return:
+      type: System.Windows.DependencyProperty
+    content.vb: Public Shared ReadOnly SelectedItemsProperty As DependencyProperty
+- uid: H.Attach.ItemsControlService.OnSelectedItemsChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)
+  commentId: M:H.Attach.ItemsControlService.OnSelectedItemsChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)
+  id: OnSelectedItemsChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)
+  parent: H.Attach.ItemsControlService
+  langs:
+  - csharp
+  - vb
+  name: OnSelectedItemsChanged(DependencyObject, DependencyPropertyChangedEventArgs)
+  nameWithType: ItemsControlService.OnSelectedItemsChanged(DependencyObject, DependencyPropertyChangedEventArgs)
+  fullName: H.Attach.ItemsControlService.OnSelectedItemsChanged(System.Windows.DependencyObject, System.Windows.DependencyPropertyChangedEventArgs)
+  type: Method
+  source:
+    id: OnSelectedItemsChanged
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Base\H.Attach\Cattach.ItemsControl.cs
+    startLine: 153
+  assemblies:
+  - H.Attach
+  namespace: H.Attach
+  syntax:
+    content: public static void OnSelectedItemsChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
+    parameters:
+    - id: d
+      type: System.Windows.DependencyObject
+    - id: e
+      type: System.Windows.DependencyPropertyChangedEventArgs
+    content.vb: Public Shared Sub OnSelectedItemsChanged(d As DependencyObject, e As DependencyPropertyChangedEventArgs)
+  overload: H.Attach.ItemsControlService.OnSelectedItemsChanged*
+references:
+- uid: H.Attach
+  commentId: N:H.Attach
+  href: H.html
+  name: H.Attach
+  nameWithType: H.Attach
+  fullName: H.Attach
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Attach
+    name: Attach
+    href: H.Attach.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Attach
+    name: Attach
+    href: H.Attach.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: H.Attach.ItemsControlService.GetInnerSource*
+  commentId: Overload:H.Attach.ItemsControlService.GetInnerSource
+  href: H.Attach.ItemsControlService.html#H_Attach_ItemsControlService_GetInnerSource_System_Windows_DependencyObject_
+  name: GetInnerSource
+  nameWithType: ItemsControlService.GetInnerSource
+  fullName: H.Attach.ItemsControlService.GetInnerSource
+- uid: System.Windows.DependencyObject
+  commentId: T:System.Windows.DependencyObject
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject
+  name: DependencyObject
+  nameWithType: DependencyObject
+  fullName: System.Windows.DependencyObject
+- uid: System.Collections.IEnumerable
+  commentId: T:System.Collections.IEnumerable
+  parent: System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable
+  name: IEnumerable
+  nameWithType: IEnumerable
+  fullName: System.Collections.IEnumerable
+- uid: System.Windows
+  commentId: N:System.Windows
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows
+  nameWithType: System.Windows
+  fullName: System.Windows
+  spec.csharp:
+  - uid: System
+    name: System
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  spec.vb:
+  - uid: System
+    name: System
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+- uid: H.Attach.ItemsControlService.SetInnerSource*
+  commentId: Overload:H.Attach.ItemsControlService.SetInnerSource
+  href: H.Attach.ItemsControlService.html#H_Attach_ItemsControlService_SetInnerSource_System_Windows_DependencyObject_System_Collections_IEnumerable_
+  name: SetInnerSource
+  nameWithType: ItemsControlService.SetInnerSource
+  fullName: H.Attach.ItemsControlService.SetInnerSource
+- uid: System.Windows.DependencyProperty
+  commentId: T:System.Windows.DependencyProperty
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty
+  name: DependencyProperty
+  nameWithType: DependencyProperty
+  fullName: System.Windows.DependencyProperty
+- uid: H.Attach.ItemsControlService.OnInnerSourceChanged*
+  commentId: Overload:H.Attach.ItemsControlService.OnInnerSourceChanged
+  href: H.Attach.ItemsControlService.html#H_Attach_ItemsControlService_OnInnerSourceChanged_System_Windows_DependencyObject_System_Windows_DependencyPropertyChangedEventArgs_
+  name: OnInnerSourceChanged
+  nameWithType: ItemsControlService.OnInnerSourceChanged
+  fullName: H.Attach.ItemsControlService.OnInnerSourceChanged
+- uid: System.Windows.DependencyPropertyChangedEventArgs
+  commentId: T:System.Windows.DependencyPropertyChangedEventArgs
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.dependencypropertychangedeventargs
+  name: DependencyPropertyChangedEventArgs
+  nameWithType: DependencyPropertyChangedEventArgs
+  fullName: System.Windows.DependencyPropertyChangedEventArgs
+- uid: H.Attach.ItemsControlService.GetTools*
+  commentId: Overload:H.Attach.ItemsControlService.GetTools
+  href: H.Attach.ItemsControlService.html#H_Attach_ItemsControlService_GetTools_System_Windows_DependencyObject_
+  name: GetTools
+  nameWithType: ItemsControlService.GetTools
+  fullName: H.Attach.ItemsControlService.GetTools
+- uid: H.Attach.ItemsControlService.SetTools*
+  commentId: Overload:H.Attach.ItemsControlService.SetTools
+  href: H.Attach.ItemsControlService.html#H_Attach_ItemsControlService_SetTools_System_Windows_DependencyObject_System_Object_
+  name: SetTools
+  nameWithType: ItemsControlService.SetTools
+  fullName: H.Attach.ItemsControlService.SetTools
+- uid: H.Attach.ItemsControlService.OnToolsChanged*
+  commentId: Overload:H.Attach.ItemsControlService.OnToolsChanged
+  href: H.Attach.ItemsControlService.html#H_Attach_ItemsControlService_OnToolsChanged_System_Windows_DependencyObject_System_Windows_DependencyPropertyChangedEventArgs_
+  name: OnToolsChanged
+  nameWithType: ItemsControlService.OnToolsChanged
+  fullName: H.Attach.ItemsControlService.OnToolsChanged
+- uid: H.Attach.ItemsControlService.GetHomeTool*
+  commentId: Overload:H.Attach.ItemsControlService.GetHomeTool
+  href: H.Attach.ItemsControlService.html#H_Attach_ItemsControlService_GetHomeTool_System_Windows_DependencyObject_
+  name: GetHomeTool
+  nameWithType: ItemsControlService.GetHomeTool
+  fullName: H.Attach.ItemsControlService.GetHomeTool
+- uid: System.Windows.Controls.ControlTemplate
+  commentId: T:System.Windows.Controls.ControlTemplate
+  parent: System.Windows.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.controls.controltemplate
+  name: ControlTemplate
+  nameWithType: ControlTemplate
+  fullName: System.Windows.Controls.ControlTemplate
+- uid: System.Windows.Controls
+  commentId: N:System.Windows.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Controls
+  nameWithType: System.Windows.Controls
+  fullName: System.Windows.Controls
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Controls
+    name: Controls
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.controls
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Controls
+    name: Controls
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.controls
+- uid: H.Attach.ItemsControlService.SetHomeTool*
+  commentId: Overload:H.Attach.ItemsControlService.SetHomeTool
+  href: H.Attach.ItemsControlService.html#H_Attach_ItemsControlService_SetHomeTool_System_Windows_DependencyObject_System_Windows_Controls_ControlTemplate_
+  name: SetHomeTool
+  nameWithType: ItemsControlService.SetHomeTool
+  fullName: H.Attach.ItemsControlService.SetHomeTool
+- uid: H.Attach.ItemsControlService.OnHomeToolChanged*
+  commentId: Overload:H.Attach.ItemsControlService.OnHomeToolChanged
+  href: H.Attach.ItemsControlService.html#H_Attach_ItemsControlService_OnHomeToolChanged_System_Windows_DependencyObject_System_Windows_DependencyPropertyChangedEventArgs_
+  name: OnHomeToolChanged
+  nameWithType: ItemsControlService.OnHomeToolChanged
+  fullName: H.Attach.ItemsControlService.OnHomeToolChanged
+- uid: H.Attach.ItemsControlService.GetEndTool*
+  commentId: Overload:H.Attach.ItemsControlService.GetEndTool
+  href: H.Attach.ItemsControlService.html#H_Attach_ItemsControlService_GetEndTool_System_Windows_DependencyObject_
+  name: GetEndTool
+  nameWithType: ItemsControlService.GetEndTool
+  fullName: H.Attach.ItemsControlService.GetEndTool
+- uid: H.Attach.ItemsControlService.SetEndTool*
+  commentId: Overload:H.Attach.ItemsControlService.SetEndTool
+  href: H.Attach.ItemsControlService.html#H_Attach_ItemsControlService_SetEndTool_System_Windows_DependencyObject_System_Windows_Controls_ControlTemplate_
+  name: SetEndTool
+  nameWithType: ItemsControlService.SetEndTool
+  fullName: H.Attach.ItemsControlService.SetEndTool
+- uid: H.Attach.ItemsControlService.OnEndToolChanged*
+  commentId: Overload:H.Attach.ItemsControlService.OnEndToolChanged
+  href: H.Attach.ItemsControlService.html#H_Attach_ItemsControlService_OnEndToolChanged_System_Windows_DependencyObject_System_Windows_DependencyPropertyChangedEventArgs_
+  name: OnEndToolChanged
+  nameWithType: ItemsControlService.OnEndToolChanged
+  fullName: H.Attach.ItemsControlService.OnEndToolChanged
+- uid: H.Attach.ItemsControlService.GetSelectedItems*
+  commentId: Overload:H.Attach.ItemsControlService.GetSelectedItems
+  href: H.Attach.ItemsControlService.html#H_Attach_ItemsControlService_GetSelectedItems_System_Windows_DependencyObject_
+  name: GetSelectedItems
+  nameWithType: ItemsControlService.GetSelectedItems
+  fullName: H.Attach.ItemsControlService.GetSelectedItems
+- uid: System.Collections.IList
+  commentId: T:System.Collections.IList
+  parent: System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.ilist
+  name: IList
+  nameWithType: IList
+  fullName: System.Collections.IList
+- uid: H.Attach.ItemsControlService.SetSelectedItems*
+  commentId: Overload:H.Attach.ItemsControlService.SetSelectedItems
+  href: H.Attach.ItemsControlService.html#H_Attach_ItemsControlService_SetSelectedItems_System_Windows_DependencyObject_System_Collections_IList_
+  name: SetSelectedItems
+  nameWithType: ItemsControlService.SetSelectedItems
+  fullName: H.Attach.ItemsControlService.SetSelectedItems
+- uid: H.Attach.ItemsControlService.OnSelectedItemsChanged*
+  commentId: Overload:H.Attach.ItemsControlService.OnSelectedItemsChanged
+  href: H.Attach.ItemsControlService.html#H_Attach_ItemsControlService_OnSelectedItemsChanged_System_Windows_DependencyObject_System_Windows_DependencyPropertyChangedEventArgs_
+  name: OnSelectedItemsChanged
+  nameWithType: ItemsControlService.OnSelectedItemsChanged
+  fullName: H.Attach.ItemsControlService.OnSelectedItemsChanged

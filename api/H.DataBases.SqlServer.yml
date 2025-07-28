@@ -1,0 +1,113 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.DataBases.SqlServer
+  commentId: N:H.DataBases.SqlServer
+  id: H.DataBases.SqlServer
+  children:
+  - H.DataBases.SqlServer.ISqlServerOption
+  - H.DataBases.SqlServer.SqlServerDbConnectService`1
+  - H.DataBases.SqlServer.SqlServerSettable
+  - H.DataBases.SqlServer.SqlServerSettable`1
+  langs:
+  - csharp
+  - vb
+  name: H.DataBases.SqlServer
+  nameWithType: H.DataBases.SqlServer
+  fullName: H.DataBases.SqlServer
+  type: Namespace
+  assemblies:
+  - H.DataBases.SqlServer
+references:
+- uid: H.DataBases.SqlServer.ISqlServerOption
+  commentId: T:H.DataBases.SqlServer.ISqlServerOption
+  parent: H.DataBases.SqlServer
+  href: H.DataBases.SqlServer.ISqlServerOption.html
+  name: ISqlServerOption
+  nameWithType: ISqlServerOption
+  fullName: H.DataBases.SqlServer.ISqlServerOption
+- uid: H.DataBases.SqlServer.SqlServerDbConnectService`1
+  commentId: T:H.DataBases.SqlServer.SqlServerDbConnectService`1
+  href: H.DataBases.SqlServer.SqlServerDbConnectService-1.html
+  name: SqlServerDbConnectService<TDbContext>
+  nameWithType: SqlServerDbConnectService<TDbContext>
+  fullName: H.DataBases.SqlServer.SqlServerDbConnectService<TDbContext>
+  nameWithType.vb: SqlServerDbConnectService(Of TDbContext)
+  fullName.vb: H.DataBases.SqlServer.SqlServerDbConnectService(Of TDbContext)
+  name.vb: SqlServerDbConnectService(Of TDbContext)
+  spec.csharp:
+  - uid: H.DataBases.SqlServer.SqlServerDbConnectService`1
+    name: SqlServerDbConnectService
+    href: H.DataBases.SqlServer.SqlServerDbConnectService-1.html
+  - name: <
+  - name: TDbContext
+  - name: '>'
+  spec.vb:
+  - uid: H.DataBases.SqlServer.SqlServerDbConnectService`1
+    name: SqlServerDbConnectService
+    href: H.DataBases.SqlServer.SqlServerDbConnectService-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TDbContext
+  - name: )
+- uid: H.DataBases.SqlServer.SqlServerSettable`1
+  commentId: T:H.DataBases.SqlServer.SqlServerSettable`1
+  href: H.DataBases.SqlServer.SqlServerSettable-1.html
+  name: SqlServerSettable<TSetting>
+  nameWithType: SqlServerSettable<TSetting>
+  fullName: H.DataBases.SqlServer.SqlServerSettable<TSetting>
+  nameWithType.vb: SqlServerSettable(Of TSetting)
+  fullName.vb: H.DataBases.SqlServer.SqlServerSettable(Of TSetting)
+  name.vb: SqlServerSettable(Of TSetting)
+  spec.csharp:
+  - uid: H.DataBases.SqlServer.SqlServerSettable`1
+    name: SqlServerSettable
+    href: H.DataBases.SqlServer.SqlServerSettable-1.html
+  - name: <
+  - name: TSetting
+  - name: '>'
+  spec.vb:
+  - uid: H.DataBases.SqlServer.SqlServerSettable`1
+    name: SqlServerSettable
+    href: H.DataBases.SqlServer.SqlServerSettable-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSetting
+  - name: )
+- uid: H.DataBases.SqlServer.SqlServerSettable
+  commentId: T:H.DataBases.SqlServer.SqlServerSettable
+  href: H.DataBases.SqlServer.SqlServerSettable.html
+  name: SqlServerSettable
+  nameWithType: SqlServerSettable
+  fullName: H.DataBases.SqlServer.SqlServerSettable
+- uid: H.DataBases.SqlServer
+  commentId: N:H.DataBases.SqlServer
+  href: H.html
+  name: H.DataBases.SqlServer
+  nameWithType: H.DataBases.SqlServer
+  fullName: H.DataBases.SqlServer
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.DataBases
+    name: DataBases
+    href: H.DataBases.html
+  - name: .
+  - uid: H.DataBases.SqlServer
+    name: SqlServer
+    href: H.DataBases.SqlServer.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.DataBases
+    name: DataBases
+    href: H.DataBases.html
+  - name: .
+  - uid: H.DataBases.SqlServer
+    name: SqlServer
+    href: H.DataBases.SqlServer.html

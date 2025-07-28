@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>WPF-Control | WPF-VisionMasterOpenCV2.0开发文档 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="WPF-Control | WPF-VisionMasterOpenCV2.0开发文档 ">
+      
+      
+      <link rel="icon" href="../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../index.html">
+            <img id="logo" class="svg" src="../../../../logo.svg" alt="WPF-VisionMasterOpenCV2.0开发文档">
+            WPF-VisionMasterOpenCV2.0开发文档
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+
+      <div class="content">
+        <div class="actionbar">
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="wpf-control">WPF-Control</h1>
+
+<p>WPF控件和皮肤库</p>
+<p align="left"> 
+    <img alt="dotnet-version" src="https://img.shields.io/badge/.net-v6.0-windows.svg">
+    <img alt="dotnet-version" src="https://img.shields.io/badge/.net-v7.0-windows.svg">
+    <img alt="dotnet-version" src="https://img.shields.io/badge/.net-v8.0-windows.svg">
+    <img alt="csharp-version" src="https://img.shields.io/badge/C%23-9.0-blue.svg">
+    <img alt="IDE-version" src="https://img.shields.io/badge/IDE-vs2022-blue.svg">
+</p>
+<p><a href="https://www.nuget.org/packages/H.Services.Common"><img src="https://buildstats.info/nuget/H.Services.Common" alt="NuGet"></a></p>
+<p><a href="https://starchart.cc/HeBianGu/WPF-Control"><img src="https://starchart.cc/HeBianGu/WPF-Control.svg" alt="Stargazers over time"></a></p>
+<h2 id="开发文档">开发文档</h2>
+<p><a href="https://hebiangu.github.io/WPF-Control-Docs/">https://hebiangu.github.io/WPF-Control-Docs/</a></p>
+<h2 id="推荐学习官方文档">推荐学习官方文档</h2>
+<p><a href="https://learn.microsoft.com/zh-cn/dotnet/api/system.windows.controls?view=windowsdesktop-8.0?wt.mc_id=MVP_380318">https://learn.microsoft.com/zh-cn/dotnet/api/system.windows.controls?view=windowsdesktop-8.0?wt.mc_id=MVP_380318</a></p>
+<h2 id="推荐查看在线源码">推荐查看在线源码</h2>
+<p><a href="https://referencesource.microsoft.com/?wt.mc_id=MVP_380318">https://referencesource.microsoft.com/?wt.mc_id=MVP_380318</a></p>
+<h2 id="ioc">IOC</h2>
+<p>Microsoft.Extensions.DependencyInjection</p>
+<h2 id="communitytoolkitmvvm">CommunityToolkit.Mvvm</h2>
+<p><a href="https://github.com/CommunityToolkit/dotnet">https://github.com/CommunityToolkit/dotnet</a></p>
+<h2 id="behaviors">Behaviors</h2>
+<p>Microsoft.Xaml.Behaviors.Wpf</p>
+<p><a href="https://github.com/microsoft/XamlBehaviorsWpf">https://github.com/microsoft/XamlBehaviorsWpf</a></p>
+<h2 id="avalondock">AvalonDock</h2>
+<p><a href="https://github.com/Dirkster99/AvalonDock">https://github.com/Dirkster99/AvalonDock</a></p>
+<h2 id="xceedwpftoolkit">Xceed.Wpf.Toolkit</h2>
+<p><a href="https://github.com/xceedsoftware/wpftoolkit">https://github.com/xceedsoftware/wpftoolkit</a></p>
+<p><a href="https://github.com/JekPoint/Xceed.Wpf.Toolkit">https://github.com/JekPoint/Xceed.Wpf.Toolkit</a></p>
+<h2 id="datagridfilter">DataGridFilter</h2>
+<p><a href="https://github.com/macgile/DataGridFilter">https://github.com/macgile/DataGridFilter</a></p>
+<h2 id="pdfiumviewer">PdfiumViewer</h2>
+<p><a href="https://github.com/bezzad/PdfiumViewer">https://github.com/bezzad/PdfiumViewer</a></p>
+<h2 id="qrcoder">QRCoder</h2>
+<p><a href="https://github.com/codebude/QRCoder/">https://github.com/codebude/QRCoder/</a></p>
+<h2 id="quartz">Quartz</h2>
+<p><a href="https://github.com/quartznet/quartznet">https://github.com/quartznet/quartznet</a></p>
+<h2 id="colorpicker">ColorPicker</h2>
+<p><a href="https://github.com/PixiEditor/ColorPicker">https://github.com/PixiEditor/ColorPicker</a></p>
+<h2 id="vlcdotnet">Vlc.DotNet</h2>
+<p><a href="https://github.com/ZeBobo5/Vlc.DotNet">https://github.com/ZeBobo5/Vlc.DotNet</a></p>
+<h2 id="cscore">Cscore</h2>
+<p><a href="https://github.com/filoe/cscore">https://github.com/filoe/cscore</a></p>
+<h2 id="odysseywpf">OdysseyWPF</h2>
+<p><a href="https://github.com/jogibear9988/OdysseyWPF">https://github.com/jogibear9988/OdysseyWPF</a></p>
+<h2 id="wpf-controlbase">WPF-ControlBase</h2>
+<p><a href="https://github.com/HeBianGu/WPF-ControlBase">https://github.com/HeBianGu/WPF-ControlBase</a></p>
+<h2 id="autoupdaternet">AutoUpdater.NET</h2>
+<p><a href="https://github.com/ravibpatel/AutoUpdater.NET">https://github.com/ravibpatel/AutoUpdater.NET</a></p>
+<h2 id="示例图片">示例图片</h2>
+<h3 id="基础控件样式">基础控件样式</h3>
+<p><img src="https://raw.githubusercontent.com/HeBianGu/WPF-Control/main/Document/Controls.png" alt="qrcode"></p>
+<h3 id="流程图控件">流程图控件</h3>
+<p><img src="https://raw.githubusercontent.com/HeBianGu/WPF-Control/main/Document/Diagram.png" alt="qrcode"></p>
+<h3 id="图表控件">图表控件</h3>
+<p><img src="https://raw.githubusercontent.com/HeBianGu/WPF-Control/main/Document/Chart2D.png" alt="qrcode"></p>
+<h3 id="设计器控件">设计器控件</h3>
+<p><img src="https://raw.githubusercontent.com/HeBianGu/WPF-Control/main/Document/Design.png" alt="qrcode"></p>
+<h3 id="dock控件">Dock控件</h3>
+<p><img src="https://raw.githubusercontent.com/HeBianGu/WPF-Control/main/Document/Dock.png" alt="qrcode"></p>
+<h3 id="收藏夹控件">收藏夹控件</h3>
+<p><img src="https://raw.githubusercontent.com/HeBianGu/WPF-Control/main/Document/FavoriteBox.png" alt="qrcode"></p>
+<h3 id="列头带过滤器的表格控件">列头带过滤器的表格控件</h3>
+<p><img src="https://raw.githubusercontent.com/HeBianGu/WPF-Control/main/Document/FilterDataGrid.png" alt="qrcode"></p>
+<h3 id="过滤器控件">过滤器控件</h3>
+<p><img src="https://raw.githubusercontent.com/HeBianGu/WPF-Control/main/Document/FiltterBox.png" alt="qrcode"></p>
+<h3 id="表单控件">表单控件</h3>
+<p><img src="https://raw.githubusercontent.com/HeBianGu/WPF-Control/main/Document/Form.png" alt="qrcode"></p>
+<h3 id="分割区域控件">分割区域控件</h3>
+<p><img src="https://raw.githubusercontent.com/HeBianGu/WPF-Control/main/Document/GridSpliterBox.png" alt="qrcode"></p>
+<h3 id="向导控件">向导控件</h3>
+<p><img src="https://raw.githubusercontent.com/HeBianGu/WPF-Control/main/Document/Guide.png" alt="qrcode"></p>
+<h3 id="身份认证控件用户角色权限和操作日志管理">身份认证控件(用户，角色，权限和操作日志管理)</h3>
+<p><img src="https://raw.githubusercontent.com/HeBianGu/WPF-Control/main/Document/Identify.png" alt="qrcode"></p>
+<h3 id="许可和会员管理控件">许可和会员管理控件</h3>
+<p><img src="https://raw.githubusercontent.com/HeBianGu/WPF-Control/main/Document/License.png" alt="qrcode"></p>
+<h3 id="登录和注册控件">登录和注册控件</h3>
+<p><img src="https://raw.githubusercontent.com/HeBianGu/WPF-Control/main/Document/Login.png" alt="qrcode"></p>
+<h3 id="通知消息控件">通知消息控件</h3>
+<p><img src="https://raw.githubusercontent.com/HeBianGu/WPF-Control/main/Document/NotifyMessage.png" alt="qrcode"></p>
+<h3 id="排序器控件">排序器控件</h3>
+<p><img src="https://raw.githubusercontent.com/HeBianGu/WPF-Control/main/Document/OrderBox.png" alt="qrcode"></p>
+<h3 id="outlookbar控件">OutlookBar控件</h3>
+<p><img src="https://raw.githubusercontent.com/HeBianGu/WPF-Control/main/Document/OutlookBar.png" alt="qrcode"></p>
+<h3 id="pdf控件">PDF控件</h3>
+<p><img src="https://raw.githubusercontent.com/HeBianGu/WPF-Control/main/Document/PDFBox.png" alt="qrcode"></p>
+<h3 id="打印控件">打印控件</h3>
+<p><img src="https://raw.githubusercontent.com/HeBianGu/WPF-Control/main/Document/PrintBox.png" alt="qrcode"></p>
+<h3 id="项目管理控件">项目管理控件</h3>
+<p><img src="https://raw.githubusercontent.com/HeBianGu/WPF-Control/main/Document/Project.png" alt="qrcode"></p>
+<h3 id="propertygrid控件">PropertyGrid控件</h3>
+<p><img src="https://raw.githubusercontent.com/HeBianGu/WPF-Control/main/Document/PropertyGrid.png" alt="qrcode"></p>
+<h3 id="二维码控件">二维码控件</h3>
+<p><img src="https://raw.githubusercontent.com/HeBianGu/WPF-Control/main/Document/QRCode.png" alt="qrcode"></p>
+<h3 id="仓储控件可以直接绑定model根据仓储模型自动生成页面">仓储控件(可以直接绑定Model，根据仓储模型自动生成页面)</h3>
+<p><img src="https://raw.githubusercontent.com/HeBianGu/WPF-Control/main/Document/Repository.png" alt="qrcode"></p>
+<h3 id="ribbon控件样式">Ribbon控件样式</h3>
+<p><img src="https://raw.githubusercontent.com/HeBianGu/WPF-Control/main/Document/Ribbon.png" alt="qrcode"></p>
+<h3 id="系统设置控件">系统设置控件</h3>
+<p><img src="https://raw.githubusercontent.com/HeBianGu/WPF-Control/main/Document/Setting.png" alt="qrcode"></p>
+<h3 id="侧边菜单控件">侧边菜单控件</h3>
+<p><img src="https://raw.githubusercontent.com/HeBianGu/WPF-Control/main/Document/SideMenu.png" alt="qrcode"></p>
+<h3 id="进度消息控件">进度消息控件</h3>
+<p><img src="https://raw.githubusercontent.com/HeBianGu/WPF-Control/main/Document/StepMessage.png" alt="qrcode"></p>
+<h3 id="tag标签控件">Tag标签控件</h3>
+<p><img src="https://raw.githubusercontent.com/HeBianGu/WPF-Control/main/Document/TagBox.png" alt="qrcode"></p>
+<h3 id="主题设置控件">主题设置控件</h3>
+<p><img src="https://raw.githubusercontent.com/HeBianGu/WPF-Control/main/Document/Theme.png" alt="qrcode"></p>
+<h3 id="系统升级更新控件">系统升级更新控件</h3>
+<p><img src="https://raw.githubusercontent.com/HeBianGu/WPF-Control/main/Document/Upgrade.png" alt="qrcode"></p>
+<h3 id="vlc视频控件">Vlc视频控件</h3>
+<p><img src="https://raw.githubusercontent.com/HeBianGu/WPF-Control/main/Document/Vlc.png" alt="qrcode"></p>
+<h2 id="作者">作者</h2>
+<p><a href="https://github.com/HeBianGu" target="_blank"><img style="height:auto;" alt="" width="40" height="40" class="avatar avatar-user width-full border color-bg-default" src="https://avatars.githubusercontent.com/u/20257332?v=4"></a></p>
+<h2 id="赞助支持">赞助支持</h2>
+<h3 id="支付宝">支付宝</h3>
+<img align="center" src="https://gitee.com/hebiangu/wpf-document/raw/master/WPF-Controls/Images/z.jpg" width="200">
+<p><a href="https://gitee.com/hebiangu/wpf-document/blob/master/WPF-Controls/Images/z.jpg">图片打不开？</a></p>
+<h3 id="微信">微信</h3>
+<img align="center" src="https://gitee.com/hebiangu/wpf-document/raw/master/WPF-Controls/Images/w.jpg" width="210">
+<p><a href="https://gitee.com/hebiangu/wpf-document/blob/master/WPF-Controls/Images/w.jpg">图片打不开？</a></p>
+<h2 id="博客">博客</h2>
+<p><a href="https://space.bilibili.com/370266611">https://space.bilibili.com/370266611</a></p>
+<h2 id="参考视频">参考视频</h2>
+<p><a href="https://www.bilibili.com/video/BV1HhqTYxEDd">https://www.bilibili.com/video/BV1HhqTYxEDd</a></p>
+<p><a href="https://www.bilibili.com/video/BV1qy421i74b">https://www.bilibili.com/video/BV1qy421i74b</a></p>
+<h2 id="参考项目">参考项目</h2>
+<p><a href="https://github.com/HeBianGu/WPF-ControlBase">https://github.com/HeBianGu/WPF-ControlBase</a>
+QQ:908293466</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

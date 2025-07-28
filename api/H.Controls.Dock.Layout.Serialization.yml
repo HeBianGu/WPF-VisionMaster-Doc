@@ -1,0 +1,84 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.Dock.Layout.Serialization
+  commentId: N:H.Controls.Dock.Layout.Serialization
+  id: H.Controls.Dock.Layout.Serialization
+  children:
+  - H.Controls.Dock.Layout.Serialization.LayoutSerializationCallbackEventArgs
+  - H.Controls.Dock.Layout.Serialization.LayoutSerializer
+  - H.Controls.Dock.Layout.Serialization.XmlLayoutSerializer
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.Dock.Layout.Serialization
+  nameWithType: H.Controls.Dock.Layout.Serialization
+  fullName: H.Controls.Dock.Layout.Serialization
+  type: Namespace
+  assemblies:
+  - H.Controls.Dock
+references:
+- uid: H.Controls.Dock.Layout.Serialization.LayoutSerializationCallbackEventArgs
+  commentId: T:H.Controls.Dock.Layout.Serialization.LayoutSerializationCallbackEventArgs
+  href: H.Controls.Dock.Layout.Serialization.LayoutSerializationCallbackEventArgs.html
+  name: LayoutSerializationCallbackEventArgs
+  nameWithType: LayoutSerializationCallbackEventArgs
+  fullName: H.Controls.Dock.Layout.Serialization.LayoutSerializationCallbackEventArgs
+- uid: H.Controls.Dock.Layout.Serialization.LayoutSerializer
+  commentId: T:H.Controls.Dock.Layout.Serialization.LayoutSerializer
+  parent: H.Controls.Dock.Layout.Serialization
+  href: H.Controls.Dock.Layout.Serialization.LayoutSerializer.html
+  name: LayoutSerializer
+  nameWithType: LayoutSerializer
+  fullName: H.Controls.Dock.Layout.Serialization.LayoutSerializer
+- uid: H.Controls.Dock.Layout.Serialization.XmlLayoutSerializer
+  commentId: T:H.Controls.Dock.Layout.Serialization.XmlLayoutSerializer
+  href: H.Controls.Dock.Layout.Serialization.XmlLayoutSerializer.html
+  name: XmlLayoutSerializer
+  nameWithType: XmlLayoutSerializer
+  fullName: H.Controls.Dock.Layout.Serialization.XmlLayoutSerializer
+- uid: H.Controls.Dock.Layout.Serialization
+  commentId: N:H.Controls.Dock.Layout.Serialization
+  href: H.html
+  name: H.Controls.Dock.Layout.Serialization
+  nameWithType: H.Controls.Dock.Layout.Serialization
+  fullName: H.Controls.Dock.Layout.Serialization
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Dock
+    name: Dock
+    href: H.Controls.Dock.html
+  - name: .
+  - uid: H.Controls.Dock.Layout
+    name: Layout
+    href: H.Controls.Dock.Layout.html
+  - name: .
+  - uid: H.Controls.Dock.Layout.Serialization
+    name: Serialization
+    href: H.Controls.Dock.Layout.Serialization.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Dock
+    name: Dock
+    href: H.Controls.Dock.html
+  - name: .
+  - uid: H.Controls.Dock.Layout
+    name: Layout
+    href: H.Controls.Dock.Layout.html
+  - name: .
+  - uid: H.Controls.Dock.Layout.Serialization
+    name: Serialization
+    href: H.Controls.Dock.Layout.Serialization.html

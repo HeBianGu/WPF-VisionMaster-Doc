@@ -1,0 +1,68 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.ApplicationBases.Themes
+  commentId: N:H.ApplicationBases.Themes
+  id: H.ApplicationBases.Themes
+  children:
+  - H.ApplicationBases.Themes.DefaultThemeOptions
+  - H.ApplicationBases.Themes.IDefaultThemeOptions
+  - H.ApplicationBases.Themes.ThemesApplicationBase
+  langs:
+  - csharp
+  - vb
+  name: H.ApplicationBases.Themes
+  nameWithType: H.ApplicationBases.Themes
+  fullName: H.ApplicationBases.Themes
+  type: Namespace
+  assemblies:
+  - H.ApplicationBases.Themes
+references:
+- uid: H.ApplicationBases.Themes.DefaultThemeOptions
+  commentId: T:H.ApplicationBases.Themes.DefaultThemeOptions
+  href: H.ApplicationBases.Themes.DefaultThemeOptions.html
+  name: DefaultThemeOptions
+  nameWithType: DefaultThemeOptions
+  fullName: H.ApplicationBases.Themes.DefaultThemeOptions
+- uid: H.ApplicationBases.Themes.IDefaultThemeOptions
+  commentId: T:H.ApplicationBases.Themes.IDefaultThemeOptions
+  parent: H.ApplicationBases.Themes
+  href: H.ApplicationBases.Themes.IDefaultThemeOptions.html
+  name: IDefaultThemeOptions
+  nameWithType: IDefaultThemeOptions
+  fullName: H.ApplicationBases.Themes.IDefaultThemeOptions
+- uid: H.ApplicationBases.Themes.ThemesApplicationBase
+  commentId: T:H.ApplicationBases.Themes.ThemesApplicationBase
+  href: H.ApplicationBases.Themes.ThemesApplicationBase.html
+  name: ThemesApplicationBase
+  nameWithType: ThemesApplicationBase
+  fullName: H.ApplicationBases.Themes.ThemesApplicationBase
+- uid: H.ApplicationBases.Themes
+  commentId: N:H.ApplicationBases.Themes
+  href: H.html
+  name: H.ApplicationBases.Themes
+  nameWithType: H.ApplicationBases.Themes
+  fullName: H.ApplicationBases.Themes
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.ApplicationBases
+    name: ApplicationBases
+    href: H.ApplicationBases.html
+  - name: .
+  - uid: H.ApplicationBases.Themes
+    name: Themes
+    href: H.ApplicationBases.Themes.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.ApplicationBases
+    name: ApplicationBases
+    href: H.ApplicationBases.html
+  - name: .
+  - uid: H.ApplicationBases.Themes
+    name: Themes
+    href: H.ApplicationBases.Themes.html

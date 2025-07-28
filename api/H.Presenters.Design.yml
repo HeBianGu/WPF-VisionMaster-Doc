@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Presenters.Design
+  commentId: N:H.Presenters.Design
+  id: H.Presenters.Design
+  children:
+  - H.Presenters.Design.DesignPresenterSelectedBehavior
+  - H.Presenters.Design.GetDesignPresenters
+  langs:
+  - csharp
+  - vb
+  name: H.Presenters.Design
+  nameWithType: H.Presenters.Design
+  fullName: H.Presenters.Design
+  type: Namespace
+  assemblies:
+  - H.Presenters.Design
+references:
+- uid: H.Presenters.Design.GetDesignPresenters
+  commentId: T:H.Presenters.Design.GetDesignPresenters
+  href: H.Presenters.Design.GetDesignPresenters.html
+  name: GetDesignPresenters
+  nameWithType: GetDesignPresenters
+  fullName: H.Presenters.Design.GetDesignPresenters
+- uid: H.Presenters.Design.DesignPresenterSelectedBehavior
+  commentId: T:H.Presenters.Design.DesignPresenterSelectedBehavior
+  href: H.Presenters.Design.DesignPresenterSelectedBehavior.html
+  name: DesignPresenterSelectedBehavior
+  nameWithType: DesignPresenterSelectedBehavior
+  fullName: H.Presenters.Design.DesignPresenterSelectedBehavior

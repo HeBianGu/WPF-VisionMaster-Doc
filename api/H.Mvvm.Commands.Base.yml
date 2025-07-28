@@ -1,0 +1,62 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Mvvm.Commands.Base
+  commentId: N:H.Mvvm.Commands.Base
+  id: H.Mvvm.Commands.Base
+  children:
+  - H.Mvvm.Commands.Base.CommandBase
+  langs:
+  - csharp
+  - vb
+  name: H.Mvvm.Commands.Base
+  nameWithType: H.Mvvm.Commands.Base
+  fullName: H.Mvvm.Commands.Base
+  type: Namespace
+  assemblies:
+  - H.Mvvm
+references:
+- uid: H.Mvvm.Commands.Base.CommandBase
+  commentId: T:H.Mvvm.Commands.Base.CommandBase
+  parent: H.Mvvm.Commands.Base
+  href: H.Mvvm.Commands.Base.CommandBase.html
+  name: CommandBase
+  nameWithType: CommandBase
+  fullName: H.Mvvm.Commands.Base.CommandBase
+- uid: H.Mvvm.Commands.Base
+  commentId: N:H.Mvvm.Commands.Base
+  href: H.html
+  name: H.Mvvm.Commands.Base
+  nameWithType: H.Mvvm.Commands.Base
+  fullName: H.Mvvm.Commands.Base
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Mvvm
+    name: Mvvm
+    href: H.Mvvm.html
+  - name: .
+  - uid: H.Mvvm.Commands
+    name: Commands
+    href: H.Mvvm.Commands.html
+  - name: .
+  - uid: H.Mvvm.Commands.Base
+    name: Base
+    href: H.Mvvm.Commands.Base.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Mvvm
+    name: Mvvm
+    href: H.Mvvm.html
+  - name: .
+  - uid: H.Mvvm.Commands
+    name: Commands
+    href: H.Mvvm.Commands.html
+  - name: .
+  - uid: H.Mvvm.Commands.Base
+    name: Base
+    href: H.Mvvm.Commands.Base.html

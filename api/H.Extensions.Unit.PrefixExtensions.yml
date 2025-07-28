@@ -1,0 +1,2003 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.Unit.PrefixExtensions
+  commentId: T:H.Extensions.Unit.PrefixExtensions
+  id: PrefixExtensions
+  parent: H.Extensions.Unit
+  children:
+  - H.Extensions.Unit.PrefixExtensions.Atto(System.Double)
+  - H.Extensions.Unit.PrefixExtensions.Atto(System.Int32)
+  - H.Extensions.Unit.PrefixExtensions.Centi(System.Double)
+  - H.Extensions.Unit.PrefixExtensions.Centi(System.Int32)
+  - H.Extensions.Unit.PrefixExtensions.Deca(System.Double)
+  - H.Extensions.Unit.PrefixExtensions.Deca(System.Int32)
+  - H.Extensions.Unit.PrefixExtensions.Deci(System.Double)
+  - H.Extensions.Unit.PrefixExtensions.Deci(System.Int32)
+  - H.Extensions.Unit.PrefixExtensions.Exa(System.Double)
+  - H.Extensions.Unit.PrefixExtensions.Exa(System.Int32)
+  - H.Extensions.Unit.PrefixExtensions.Femto(System.Double)
+  - H.Extensions.Unit.PrefixExtensions.Femto(System.Int32)
+  - H.Extensions.Unit.PrefixExtensions.Giga(System.Double)
+  - H.Extensions.Unit.PrefixExtensions.Giga(System.Int32)
+  - H.Extensions.Unit.PrefixExtensions.Hecto(System.Double)
+  - H.Extensions.Unit.PrefixExtensions.Hecto(System.Int32)
+  - H.Extensions.Unit.PrefixExtensions.Kilo(System.Double)
+  - H.Extensions.Unit.PrefixExtensions.Kilo(System.Int32)
+  - H.Extensions.Unit.PrefixExtensions.Mega(System.Double)
+  - H.Extensions.Unit.PrefixExtensions.Mega(System.Int32)
+  - H.Extensions.Unit.PrefixExtensions.Micro(System.Double)
+  - H.Extensions.Unit.PrefixExtensions.Micro(System.Int32)
+  - H.Extensions.Unit.PrefixExtensions.Milli(System.Double)
+  - H.Extensions.Unit.PrefixExtensions.Milli(System.Int32)
+  - H.Extensions.Unit.PrefixExtensions.Nano(System.Double)
+  - H.Extensions.Unit.PrefixExtensions.Nano(System.Int32)
+  - H.Extensions.Unit.PrefixExtensions.Peta(System.Double)
+  - H.Extensions.Unit.PrefixExtensions.Peta(System.Int32)
+  - H.Extensions.Unit.PrefixExtensions.Pico(System.Double)
+  - H.Extensions.Unit.PrefixExtensions.Pico(System.Int32)
+  - H.Extensions.Unit.PrefixExtensions.Quecto(System.Double)
+  - H.Extensions.Unit.PrefixExtensions.Quecto(System.Int32)
+  - H.Extensions.Unit.PrefixExtensions.Quetta(System.Double)
+  - H.Extensions.Unit.PrefixExtensions.Quetta(System.Int32)
+  - H.Extensions.Unit.PrefixExtensions.Ronna(System.Double)
+  - H.Extensions.Unit.PrefixExtensions.Ronna(System.Int32)
+  - H.Extensions.Unit.PrefixExtensions.Ronto(System.Double)
+  - H.Extensions.Unit.PrefixExtensions.Ronto(System.Int32)
+  - H.Extensions.Unit.PrefixExtensions.Tera(System.Double)
+  - H.Extensions.Unit.PrefixExtensions.Tera(System.Int32)
+  - H.Extensions.Unit.PrefixExtensions.Yocto(System.Double)
+  - H.Extensions.Unit.PrefixExtensions.Yocto(System.Int32)
+  - H.Extensions.Unit.PrefixExtensions.Yotta(System.Double)
+  - H.Extensions.Unit.PrefixExtensions.Yotta(System.Int32)
+  - H.Extensions.Unit.PrefixExtensions.Zepto(System.Double)
+  - H.Extensions.Unit.PrefixExtensions.Zepto(System.Int32)
+  - H.Extensions.Unit.PrefixExtensions.Zetta(System.Double)
+  - H.Extensions.Unit.PrefixExtensions.Zetta(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: PrefixExtensions
+  nameWithType: PrefixExtensions
+  fullName: H.Extensions.Unit.PrefixExtensions
+  type: Class
+  source:
+    id: PrefixExtensions
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Prefixes.cs
+    startLine: 60
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static class PrefixExtensions
+    content.vb: Public Module PrefixExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: H.Extensions.Unit.PrefixExtensions.Quetta(System.Int32)
+  commentId: M:H.Extensions.Unit.PrefixExtensions.Quetta(System.Int32)
+  id: Quetta(System.Int32)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.PrefixExtensions
+  langs:
+  - csharp
+  - vb
+  name: Quetta(int)
+  nameWithType: PrefixExtensions.Quetta(int)
+  fullName: H.Extensions.Unit.PrefixExtensions.Quetta(int)
+  type: Method
+  source:
+    id: Quetta
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Prefixes.cs
+    startLine: 62
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static double Quetta(this int v)
+    parameters:
+    - id: v
+      type: System.Int32
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Quetta(v As Integer) As Double
+  overload: H.Extensions.Unit.PrefixExtensions.Quetta*
+  nameWithType.vb: PrefixExtensions.Quetta(Integer)
+  fullName.vb: H.Extensions.Unit.PrefixExtensions.Quetta(Integer)
+  name.vb: Quetta(Integer)
+- uid: H.Extensions.Unit.PrefixExtensions.Ronna(System.Int32)
+  commentId: M:H.Extensions.Unit.PrefixExtensions.Ronna(System.Int32)
+  id: Ronna(System.Int32)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.PrefixExtensions
+  langs:
+  - csharp
+  - vb
+  name: Ronna(int)
+  nameWithType: PrefixExtensions.Ronna(int)
+  fullName: H.Extensions.Unit.PrefixExtensions.Ronna(int)
+  type: Method
+  source:
+    id: Ronna
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Prefixes.cs
+    startLine: 63
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static double Ronna(this int v)
+    parameters:
+    - id: v
+      type: System.Int32
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Ronna(v As Integer) As Double
+  overload: H.Extensions.Unit.PrefixExtensions.Ronna*
+  nameWithType.vb: PrefixExtensions.Ronna(Integer)
+  fullName.vb: H.Extensions.Unit.PrefixExtensions.Ronna(Integer)
+  name.vb: Ronna(Integer)
+- uid: H.Extensions.Unit.PrefixExtensions.Yotta(System.Int32)
+  commentId: M:H.Extensions.Unit.PrefixExtensions.Yotta(System.Int32)
+  id: Yotta(System.Int32)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.PrefixExtensions
+  langs:
+  - csharp
+  - vb
+  name: Yotta(int)
+  nameWithType: PrefixExtensions.Yotta(int)
+  fullName: H.Extensions.Unit.PrefixExtensions.Yotta(int)
+  type: Method
+  source:
+    id: Yotta
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Prefixes.cs
+    startLine: 64
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static double Yotta(this int v)
+    parameters:
+    - id: v
+      type: System.Int32
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Yotta(v As Integer) As Double
+  overload: H.Extensions.Unit.PrefixExtensions.Yotta*
+  nameWithType.vb: PrefixExtensions.Yotta(Integer)
+  fullName.vb: H.Extensions.Unit.PrefixExtensions.Yotta(Integer)
+  name.vb: Yotta(Integer)
+- uid: H.Extensions.Unit.PrefixExtensions.Zetta(System.Int32)
+  commentId: M:H.Extensions.Unit.PrefixExtensions.Zetta(System.Int32)
+  id: Zetta(System.Int32)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.PrefixExtensions
+  langs:
+  - csharp
+  - vb
+  name: Zetta(int)
+  nameWithType: PrefixExtensions.Zetta(int)
+  fullName: H.Extensions.Unit.PrefixExtensions.Zetta(int)
+  type: Method
+  source:
+    id: Zetta
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Prefixes.cs
+    startLine: 65
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static double Zetta(this int v)
+    parameters:
+    - id: v
+      type: System.Int32
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Zetta(v As Integer) As Double
+  overload: H.Extensions.Unit.PrefixExtensions.Zetta*
+  nameWithType.vb: PrefixExtensions.Zetta(Integer)
+  fullName.vb: H.Extensions.Unit.PrefixExtensions.Zetta(Integer)
+  name.vb: Zetta(Integer)
+- uid: H.Extensions.Unit.PrefixExtensions.Exa(System.Int32)
+  commentId: M:H.Extensions.Unit.PrefixExtensions.Exa(System.Int32)
+  id: Exa(System.Int32)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.PrefixExtensions
+  langs:
+  - csharp
+  - vb
+  name: Exa(int)
+  nameWithType: PrefixExtensions.Exa(int)
+  fullName: H.Extensions.Unit.PrefixExtensions.Exa(int)
+  type: Method
+  source:
+    id: Exa
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Prefixes.cs
+    startLine: 66
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static double Exa(this int v)
+    parameters:
+    - id: v
+      type: System.Int32
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Exa(v As Integer) As Double
+  overload: H.Extensions.Unit.PrefixExtensions.Exa*
+  nameWithType.vb: PrefixExtensions.Exa(Integer)
+  fullName.vb: H.Extensions.Unit.PrefixExtensions.Exa(Integer)
+  name.vb: Exa(Integer)
+- uid: H.Extensions.Unit.PrefixExtensions.Peta(System.Int32)
+  commentId: M:H.Extensions.Unit.PrefixExtensions.Peta(System.Int32)
+  id: Peta(System.Int32)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.PrefixExtensions
+  langs:
+  - csharp
+  - vb
+  name: Peta(int)
+  nameWithType: PrefixExtensions.Peta(int)
+  fullName: H.Extensions.Unit.PrefixExtensions.Peta(int)
+  type: Method
+  source:
+    id: Peta
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Prefixes.cs
+    startLine: 67
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static double Peta(this int v)
+    parameters:
+    - id: v
+      type: System.Int32
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Peta(v As Integer) As Double
+  overload: H.Extensions.Unit.PrefixExtensions.Peta*
+  nameWithType.vb: PrefixExtensions.Peta(Integer)
+  fullName.vb: H.Extensions.Unit.PrefixExtensions.Peta(Integer)
+  name.vb: Peta(Integer)
+- uid: H.Extensions.Unit.PrefixExtensions.Tera(System.Int32)
+  commentId: M:H.Extensions.Unit.PrefixExtensions.Tera(System.Int32)
+  id: Tera(System.Int32)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.PrefixExtensions
+  langs:
+  - csharp
+  - vb
+  name: Tera(int)
+  nameWithType: PrefixExtensions.Tera(int)
+  fullName: H.Extensions.Unit.PrefixExtensions.Tera(int)
+  type: Method
+  source:
+    id: Tera
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Prefixes.cs
+    startLine: 68
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static double Tera(this int v)
+    parameters:
+    - id: v
+      type: System.Int32
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Tera(v As Integer) As Double
+  overload: H.Extensions.Unit.PrefixExtensions.Tera*
+  nameWithType.vb: PrefixExtensions.Tera(Integer)
+  fullName.vb: H.Extensions.Unit.PrefixExtensions.Tera(Integer)
+  name.vb: Tera(Integer)
+- uid: H.Extensions.Unit.PrefixExtensions.Giga(System.Int32)
+  commentId: M:H.Extensions.Unit.PrefixExtensions.Giga(System.Int32)
+  id: Giga(System.Int32)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.PrefixExtensions
+  langs:
+  - csharp
+  - vb
+  name: Giga(int)
+  nameWithType: PrefixExtensions.Giga(int)
+  fullName: H.Extensions.Unit.PrefixExtensions.Giga(int)
+  type: Method
+  source:
+    id: Giga
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Prefixes.cs
+    startLine: 69
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static double Giga(this int v)
+    parameters:
+    - id: v
+      type: System.Int32
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Giga(v As Integer) As Double
+  overload: H.Extensions.Unit.PrefixExtensions.Giga*
+  nameWithType.vb: PrefixExtensions.Giga(Integer)
+  fullName.vb: H.Extensions.Unit.PrefixExtensions.Giga(Integer)
+  name.vb: Giga(Integer)
+- uid: H.Extensions.Unit.PrefixExtensions.Mega(System.Int32)
+  commentId: M:H.Extensions.Unit.PrefixExtensions.Mega(System.Int32)
+  id: Mega(System.Int32)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.PrefixExtensions
+  langs:
+  - csharp
+  - vb
+  name: Mega(int)
+  nameWithType: PrefixExtensions.Mega(int)
+  fullName: H.Extensions.Unit.PrefixExtensions.Mega(int)
+  type: Method
+  source:
+    id: Mega
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Prefixes.cs
+    startLine: 70
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static double Mega(this int v)
+    parameters:
+    - id: v
+      type: System.Int32
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Mega(v As Integer) As Double
+  overload: H.Extensions.Unit.PrefixExtensions.Mega*
+  nameWithType.vb: PrefixExtensions.Mega(Integer)
+  fullName.vb: H.Extensions.Unit.PrefixExtensions.Mega(Integer)
+  name.vb: Mega(Integer)
+- uid: H.Extensions.Unit.PrefixExtensions.Kilo(System.Int32)
+  commentId: M:H.Extensions.Unit.PrefixExtensions.Kilo(System.Int32)
+  id: Kilo(System.Int32)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.PrefixExtensions
+  langs:
+  - csharp
+  - vb
+  name: Kilo(int)
+  nameWithType: PrefixExtensions.Kilo(int)
+  fullName: H.Extensions.Unit.PrefixExtensions.Kilo(int)
+  type: Method
+  source:
+    id: Kilo
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Prefixes.cs
+    startLine: 71
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static double Kilo(this int v)
+    parameters:
+    - id: v
+      type: System.Int32
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Kilo(v As Integer) As Double
+  overload: H.Extensions.Unit.PrefixExtensions.Kilo*
+  nameWithType.vb: PrefixExtensions.Kilo(Integer)
+  fullName.vb: H.Extensions.Unit.PrefixExtensions.Kilo(Integer)
+  name.vb: Kilo(Integer)
+- uid: H.Extensions.Unit.PrefixExtensions.Hecto(System.Int32)
+  commentId: M:H.Extensions.Unit.PrefixExtensions.Hecto(System.Int32)
+  id: Hecto(System.Int32)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.PrefixExtensions
+  langs:
+  - csharp
+  - vb
+  name: Hecto(int)
+  nameWithType: PrefixExtensions.Hecto(int)
+  fullName: H.Extensions.Unit.PrefixExtensions.Hecto(int)
+  type: Method
+  source:
+    id: Hecto
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Prefixes.cs
+    startLine: 72
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static double Hecto(this int v)
+    parameters:
+    - id: v
+      type: System.Int32
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Hecto(v As Integer) As Double
+  overload: H.Extensions.Unit.PrefixExtensions.Hecto*
+  nameWithType.vb: PrefixExtensions.Hecto(Integer)
+  fullName.vb: H.Extensions.Unit.PrefixExtensions.Hecto(Integer)
+  name.vb: Hecto(Integer)
+- uid: H.Extensions.Unit.PrefixExtensions.Deca(System.Int32)
+  commentId: M:H.Extensions.Unit.PrefixExtensions.Deca(System.Int32)
+  id: Deca(System.Int32)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.PrefixExtensions
+  langs:
+  - csharp
+  - vb
+  name: Deca(int)
+  nameWithType: PrefixExtensions.Deca(int)
+  fullName: H.Extensions.Unit.PrefixExtensions.Deca(int)
+  type: Method
+  source:
+    id: Deca
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Prefixes.cs
+    startLine: 73
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static double Deca(this int v)
+    parameters:
+    - id: v
+      type: System.Int32
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Deca(v As Integer) As Double
+  overload: H.Extensions.Unit.PrefixExtensions.Deca*
+  nameWithType.vb: PrefixExtensions.Deca(Integer)
+  fullName.vb: H.Extensions.Unit.PrefixExtensions.Deca(Integer)
+  name.vb: Deca(Integer)
+- uid: H.Extensions.Unit.PrefixExtensions.Deci(System.Int32)
+  commentId: M:H.Extensions.Unit.PrefixExtensions.Deci(System.Int32)
+  id: Deci(System.Int32)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.PrefixExtensions
+  langs:
+  - csharp
+  - vb
+  name: Deci(int)
+  nameWithType: PrefixExtensions.Deci(int)
+  fullName: H.Extensions.Unit.PrefixExtensions.Deci(int)
+  type: Method
+  source:
+    id: Deci
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Prefixes.cs
+    startLine: 74
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static double Deci(this int v)
+    parameters:
+    - id: v
+      type: System.Int32
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Deci(v As Integer) As Double
+  overload: H.Extensions.Unit.PrefixExtensions.Deci*
+  nameWithType.vb: PrefixExtensions.Deci(Integer)
+  fullName.vb: H.Extensions.Unit.PrefixExtensions.Deci(Integer)
+  name.vb: Deci(Integer)
+- uid: H.Extensions.Unit.PrefixExtensions.Centi(System.Int32)
+  commentId: M:H.Extensions.Unit.PrefixExtensions.Centi(System.Int32)
+  id: Centi(System.Int32)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.PrefixExtensions
+  langs:
+  - csharp
+  - vb
+  name: Centi(int)
+  nameWithType: PrefixExtensions.Centi(int)
+  fullName: H.Extensions.Unit.PrefixExtensions.Centi(int)
+  type: Method
+  source:
+    id: Centi
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Prefixes.cs
+    startLine: 75
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static double Centi(this int v)
+    parameters:
+    - id: v
+      type: System.Int32
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Centi(v As Integer) As Double
+  overload: H.Extensions.Unit.PrefixExtensions.Centi*
+  nameWithType.vb: PrefixExtensions.Centi(Integer)
+  fullName.vb: H.Extensions.Unit.PrefixExtensions.Centi(Integer)
+  name.vb: Centi(Integer)
+- uid: H.Extensions.Unit.PrefixExtensions.Milli(System.Int32)
+  commentId: M:H.Extensions.Unit.PrefixExtensions.Milli(System.Int32)
+  id: Milli(System.Int32)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.PrefixExtensions
+  langs:
+  - csharp
+  - vb
+  name: Milli(int)
+  nameWithType: PrefixExtensions.Milli(int)
+  fullName: H.Extensions.Unit.PrefixExtensions.Milli(int)
+  type: Method
+  source:
+    id: Milli
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Prefixes.cs
+    startLine: 76
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static double Milli(this int v)
+    parameters:
+    - id: v
+      type: System.Int32
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Milli(v As Integer) As Double
+  overload: H.Extensions.Unit.PrefixExtensions.Milli*
+  nameWithType.vb: PrefixExtensions.Milli(Integer)
+  fullName.vb: H.Extensions.Unit.PrefixExtensions.Milli(Integer)
+  name.vb: Milli(Integer)
+- uid: H.Extensions.Unit.PrefixExtensions.Micro(System.Int32)
+  commentId: M:H.Extensions.Unit.PrefixExtensions.Micro(System.Int32)
+  id: Micro(System.Int32)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.PrefixExtensions
+  langs:
+  - csharp
+  - vb
+  name: Micro(int)
+  nameWithType: PrefixExtensions.Micro(int)
+  fullName: H.Extensions.Unit.PrefixExtensions.Micro(int)
+  type: Method
+  source:
+    id: Micro
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Prefixes.cs
+    startLine: 77
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static double Micro(this int v)
+    parameters:
+    - id: v
+      type: System.Int32
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Micro(v As Integer) As Double
+  overload: H.Extensions.Unit.PrefixExtensions.Micro*
+  nameWithType.vb: PrefixExtensions.Micro(Integer)
+  fullName.vb: H.Extensions.Unit.PrefixExtensions.Micro(Integer)
+  name.vb: Micro(Integer)
+- uid: H.Extensions.Unit.PrefixExtensions.Nano(System.Int32)
+  commentId: M:H.Extensions.Unit.PrefixExtensions.Nano(System.Int32)
+  id: Nano(System.Int32)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.PrefixExtensions
+  langs:
+  - csharp
+  - vb
+  name: Nano(int)
+  nameWithType: PrefixExtensions.Nano(int)
+  fullName: H.Extensions.Unit.PrefixExtensions.Nano(int)
+  type: Method
+  source:
+    id: Nano
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Prefixes.cs
+    startLine: 78
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static double Nano(this int v)
+    parameters:
+    - id: v
+      type: System.Int32
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Nano(v As Integer) As Double
+  overload: H.Extensions.Unit.PrefixExtensions.Nano*
+  nameWithType.vb: PrefixExtensions.Nano(Integer)
+  fullName.vb: H.Extensions.Unit.PrefixExtensions.Nano(Integer)
+  name.vb: Nano(Integer)
+- uid: H.Extensions.Unit.PrefixExtensions.Pico(System.Int32)
+  commentId: M:H.Extensions.Unit.PrefixExtensions.Pico(System.Int32)
+  id: Pico(System.Int32)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.PrefixExtensions
+  langs:
+  - csharp
+  - vb
+  name: Pico(int)
+  nameWithType: PrefixExtensions.Pico(int)
+  fullName: H.Extensions.Unit.PrefixExtensions.Pico(int)
+  type: Method
+  source:
+    id: Pico
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Prefixes.cs
+    startLine: 79
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static double Pico(this int v)
+    parameters:
+    - id: v
+      type: System.Int32
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Pico(v As Integer) As Double
+  overload: H.Extensions.Unit.PrefixExtensions.Pico*
+  nameWithType.vb: PrefixExtensions.Pico(Integer)
+  fullName.vb: H.Extensions.Unit.PrefixExtensions.Pico(Integer)
+  name.vb: Pico(Integer)
+- uid: H.Extensions.Unit.PrefixExtensions.Femto(System.Int32)
+  commentId: M:H.Extensions.Unit.PrefixExtensions.Femto(System.Int32)
+  id: Femto(System.Int32)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.PrefixExtensions
+  langs:
+  - csharp
+  - vb
+  name: Femto(int)
+  nameWithType: PrefixExtensions.Femto(int)
+  fullName: H.Extensions.Unit.PrefixExtensions.Femto(int)
+  type: Method
+  source:
+    id: Femto
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Prefixes.cs
+    startLine: 80
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static double Femto(this int v)
+    parameters:
+    - id: v
+      type: System.Int32
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Femto(v As Integer) As Double
+  overload: H.Extensions.Unit.PrefixExtensions.Femto*
+  nameWithType.vb: PrefixExtensions.Femto(Integer)
+  fullName.vb: H.Extensions.Unit.PrefixExtensions.Femto(Integer)
+  name.vb: Femto(Integer)
+- uid: H.Extensions.Unit.PrefixExtensions.Atto(System.Int32)
+  commentId: M:H.Extensions.Unit.PrefixExtensions.Atto(System.Int32)
+  id: Atto(System.Int32)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.PrefixExtensions
+  langs:
+  - csharp
+  - vb
+  name: Atto(int)
+  nameWithType: PrefixExtensions.Atto(int)
+  fullName: H.Extensions.Unit.PrefixExtensions.Atto(int)
+  type: Method
+  source:
+    id: Atto
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Prefixes.cs
+    startLine: 81
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static double Atto(this int v)
+    parameters:
+    - id: v
+      type: System.Int32
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Atto(v As Integer) As Double
+  overload: H.Extensions.Unit.PrefixExtensions.Atto*
+  nameWithType.vb: PrefixExtensions.Atto(Integer)
+  fullName.vb: H.Extensions.Unit.PrefixExtensions.Atto(Integer)
+  name.vb: Atto(Integer)
+- uid: H.Extensions.Unit.PrefixExtensions.Zepto(System.Int32)
+  commentId: M:H.Extensions.Unit.PrefixExtensions.Zepto(System.Int32)
+  id: Zepto(System.Int32)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.PrefixExtensions
+  langs:
+  - csharp
+  - vb
+  name: Zepto(int)
+  nameWithType: PrefixExtensions.Zepto(int)
+  fullName: H.Extensions.Unit.PrefixExtensions.Zepto(int)
+  type: Method
+  source:
+    id: Zepto
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Prefixes.cs
+    startLine: 82
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static double Zepto(this int v)
+    parameters:
+    - id: v
+      type: System.Int32
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Zepto(v As Integer) As Double
+  overload: H.Extensions.Unit.PrefixExtensions.Zepto*
+  nameWithType.vb: PrefixExtensions.Zepto(Integer)
+  fullName.vb: H.Extensions.Unit.PrefixExtensions.Zepto(Integer)
+  name.vb: Zepto(Integer)
+- uid: H.Extensions.Unit.PrefixExtensions.Yocto(System.Int32)
+  commentId: M:H.Extensions.Unit.PrefixExtensions.Yocto(System.Int32)
+  id: Yocto(System.Int32)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.PrefixExtensions
+  langs:
+  - csharp
+  - vb
+  name: Yocto(int)
+  nameWithType: PrefixExtensions.Yocto(int)
+  fullName: H.Extensions.Unit.PrefixExtensions.Yocto(int)
+  type: Method
+  source:
+    id: Yocto
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Prefixes.cs
+    startLine: 83
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static double Yocto(this int v)
+    parameters:
+    - id: v
+      type: System.Int32
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Yocto(v As Integer) As Double
+  overload: H.Extensions.Unit.PrefixExtensions.Yocto*
+  nameWithType.vb: PrefixExtensions.Yocto(Integer)
+  fullName.vb: H.Extensions.Unit.PrefixExtensions.Yocto(Integer)
+  name.vb: Yocto(Integer)
+- uid: H.Extensions.Unit.PrefixExtensions.Ronto(System.Int32)
+  commentId: M:H.Extensions.Unit.PrefixExtensions.Ronto(System.Int32)
+  id: Ronto(System.Int32)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.PrefixExtensions
+  langs:
+  - csharp
+  - vb
+  name: Ronto(int)
+  nameWithType: PrefixExtensions.Ronto(int)
+  fullName: H.Extensions.Unit.PrefixExtensions.Ronto(int)
+  type: Method
+  source:
+    id: Ronto
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Prefixes.cs
+    startLine: 84
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static double Ronto(this int v)
+    parameters:
+    - id: v
+      type: System.Int32
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Ronto(v As Integer) As Double
+  overload: H.Extensions.Unit.PrefixExtensions.Ronto*
+  nameWithType.vb: PrefixExtensions.Ronto(Integer)
+  fullName.vb: H.Extensions.Unit.PrefixExtensions.Ronto(Integer)
+  name.vb: Ronto(Integer)
+- uid: H.Extensions.Unit.PrefixExtensions.Quecto(System.Int32)
+  commentId: M:H.Extensions.Unit.PrefixExtensions.Quecto(System.Int32)
+  id: Quecto(System.Int32)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.PrefixExtensions
+  langs:
+  - csharp
+  - vb
+  name: Quecto(int)
+  nameWithType: PrefixExtensions.Quecto(int)
+  fullName: H.Extensions.Unit.PrefixExtensions.Quecto(int)
+  type: Method
+  source:
+    id: Quecto
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Prefixes.cs
+    startLine: 85
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static double Quecto(this int v)
+    parameters:
+    - id: v
+      type: System.Int32
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Quecto(v As Integer) As Double
+  overload: H.Extensions.Unit.PrefixExtensions.Quecto*
+  nameWithType.vb: PrefixExtensions.Quecto(Integer)
+  fullName.vb: H.Extensions.Unit.PrefixExtensions.Quecto(Integer)
+  name.vb: Quecto(Integer)
+- uid: H.Extensions.Unit.PrefixExtensions.Quetta(System.Double)
+  commentId: M:H.Extensions.Unit.PrefixExtensions.Quetta(System.Double)
+  id: Quetta(System.Double)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.PrefixExtensions
+  langs:
+  - csharp
+  - vb
+  name: Quetta(double)
+  nameWithType: PrefixExtensions.Quetta(double)
+  fullName: H.Extensions.Unit.PrefixExtensions.Quetta(double)
+  type: Method
+  source:
+    id: Quetta
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Prefixes.cs
+    startLine: 87
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static double Quetta(this double v)
+    parameters:
+    - id: v
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Quetta(v As Double) As Double
+  overload: H.Extensions.Unit.PrefixExtensions.Quetta*
+  nameWithType.vb: PrefixExtensions.Quetta(Double)
+  fullName.vb: H.Extensions.Unit.PrefixExtensions.Quetta(Double)
+  name.vb: Quetta(Double)
+- uid: H.Extensions.Unit.PrefixExtensions.Ronna(System.Double)
+  commentId: M:H.Extensions.Unit.PrefixExtensions.Ronna(System.Double)
+  id: Ronna(System.Double)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.PrefixExtensions
+  langs:
+  - csharp
+  - vb
+  name: Ronna(double)
+  nameWithType: PrefixExtensions.Ronna(double)
+  fullName: H.Extensions.Unit.PrefixExtensions.Ronna(double)
+  type: Method
+  source:
+    id: Ronna
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Prefixes.cs
+    startLine: 88
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static double Ronna(this double v)
+    parameters:
+    - id: v
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Ronna(v As Double) As Double
+  overload: H.Extensions.Unit.PrefixExtensions.Ronna*
+  nameWithType.vb: PrefixExtensions.Ronna(Double)
+  fullName.vb: H.Extensions.Unit.PrefixExtensions.Ronna(Double)
+  name.vb: Ronna(Double)
+- uid: H.Extensions.Unit.PrefixExtensions.Yotta(System.Double)
+  commentId: M:H.Extensions.Unit.PrefixExtensions.Yotta(System.Double)
+  id: Yotta(System.Double)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.PrefixExtensions
+  langs:
+  - csharp
+  - vb
+  name: Yotta(double)
+  nameWithType: PrefixExtensions.Yotta(double)
+  fullName: H.Extensions.Unit.PrefixExtensions.Yotta(double)
+  type: Method
+  source:
+    id: Yotta
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Prefixes.cs
+    startLine: 89
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static double Yotta(this double v)
+    parameters:
+    - id: v
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Yotta(v As Double) As Double
+  overload: H.Extensions.Unit.PrefixExtensions.Yotta*
+  nameWithType.vb: PrefixExtensions.Yotta(Double)
+  fullName.vb: H.Extensions.Unit.PrefixExtensions.Yotta(Double)
+  name.vb: Yotta(Double)
+- uid: H.Extensions.Unit.PrefixExtensions.Zetta(System.Double)
+  commentId: M:H.Extensions.Unit.PrefixExtensions.Zetta(System.Double)
+  id: Zetta(System.Double)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.PrefixExtensions
+  langs:
+  - csharp
+  - vb
+  name: Zetta(double)
+  nameWithType: PrefixExtensions.Zetta(double)
+  fullName: H.Extensions.Unit.PrefixExtensions.Zetta(double)
+  type: Method
+  source:
+    id: Zetta
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Prefixes.cs
+    startLine: 90
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static double Zetta(this double v)
+    parameters:
+    - id: v
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Zetta(v As Double) As Double
+  overload: H.Extensions.Unit.PrefixExtensions.Zetta*
+  nameWithType.vb: PrefixExtensions.Zetta(Double)
+  fullName.vb: H.Extensions.Unit.PrefixExtensions.Zetta(Double)
+  name.vb: Zetta(Double)
+- uid: H.Extensions.Unit.PrefixExtensions.Exa(System.Double)
+  commentId: M:H.Extensions.Unit.PrefixExtensions.Exa(System.Double)
+  id: Exa(System.Double)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.PrefixExtensions
+  langs:
+  - csharp
+  - vb
+  name: Exa(double)
+  nameWithType: PrefixExtensions.Exa(double)
+  fullName: H.Extensions.Unit.PrefixExtensions.Exa(double)
+  type: Method
+  source:
+    id: Exa
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Prefixes.cs
+    startLine: 91
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static double Exa(this double v)
+    parameters:
+    - id: v
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Exa(v As Double) As Double
+  overload: H.Extensions.Unit.PrefixExtensions.Exa*
+  nameWithType.vb: PrefixExtensions.Exa(Double)
+  fullName.vb: H.Extensions.Unit.PrefixExtensions.Exa(Double)
+  name.vb: Exa(Double)
+- uid: H.Extensions.Unit.PrefixExtensions.Peta(System.Double)
+  commentId: M:H.Extensions.Unit.PrefixExtensions.Peta(System.Double)
+  id: Peta(System.Double)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.PrefixExtensions
+  langs:
+  - csharp
+  - vb
+  name: Peta(double)
+  nameWithType: PrefixExtensions.Peta(double)
+  fullName: H.Extensions.Unit.PrefixExtensions.Peta(double)
+  type: Method
+  source:
+    id: Peta
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Prefixes.cs
+    startLine: 92
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static double Peta(this double v)
+    parameters:
+    - id: v
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Peta(v As Double) As Double
+  overload: H.Extensions.Unit.PrefixExtensions.Peta*
+  nameWithType.vb: PrefixExtensions.Peta(Double)
+  fullName.vb: H.Extensions.Unit.PrefixExtensions.Peta(Double)
+  name.vb: Peta(Double)
+- uid: H.Extensions.Unit.PrefixExtensions.Tera(System.Double)
+  commentId: M:H.Extensions.Unit.PrefixExtensions.Tera(System.Double)
+  id: Tera(System.Double)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.PrefixExtensions
+  langs:
+  - csharp
+  - vb
+  name: Tera(double)
+  nameWithType: PrefixExtensions.Tera(double)
+  fullName: H.Extensions.Unit.PrefixExtensions.Tera(double)
+  type: Method
+  source:
+    id: Tera
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Prefixes.cs
+    startLine: 93
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static double Tera(this double v)
+    parameters:
+    - id: v
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Tera(v As Double) As Double
+  overload: H.Extensions.Unit.PrefixExtensions.Tera*
+  nameWithType.vb: PrefixExtensions.Tera(Double)
+  fullName.vb: H.Extensions.Unit.PrefixExtensions.Tera(Double)
+  name.vb: Tera(Double)
+- uid: H.Extensions.Unit.PrefixExtensions.Giga(System.Double)
+  commentId: M:H.Extensions.Unit.PrefixExtensions.Giga(System.Double)
+  id: Giga(System.Double)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.PrefixExtensions
+  langs:
+  - csharp
+  - vb
+  name: Giga(double)
+  nameWithType: PrefixExtensions.Giga(double)
+  fullName: H.Extensions.Unit.PrefixExtensions.Giga(double)
+  type: Method
+  source:
+    id: Giga
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Prefixes.cs
+    startLine: 94
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static double Giga(this double v)
+    parameters:
+    - id: v
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Giga(v As Double) As Double
+  overload: H.Extensions.Unit.PrefixExtensions.Giga*
+  nameWithType.vb: PrefixExtensions.Giga(Double)
+  fullName.vb: H.Extensions.Unit.PrefixExtensions.Giga(Double)
+  name.vb: Giga(Double)
+- uid: H.Extensions.Unit.PrefixExtensions.Mega(System.Double)
+  commentId: M:H.Extensions.Unit.PrefixExtensions.Mega(System.Double)
+  id: Mega(System.Double)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.PrefixExtensions
+  langs:
+  - csharp
+  - vb
+  name: Mega(double)
+  nameWithType: PrefixExtensions.Mega(double)
+  fullName: H.Extensions.Unit.PrefixExtensions.Mega(double)
+  type: Method
+  source:
+    id: Mega
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Prefixes.cs
+    startLine: 95
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static double Mega(this double v)
+    parameters:
+    - id: v
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Mega(v As Double) As Double
+  overload: H.Extensions.Unit.PrefixExtensions.Mega*
+  nameWithType.vb: PrefixExtensions.Mega(Double)
+  fullName.vb: H.Extensions.Unit.PrefixExtensions.Mega(Double)
+  name.vb: Mega(Double)
+- uid: H.Extensions.Unit.PrefixExtensions.Kilo(System.Double)
+  commentId: M:H.Extensions.Unit.PrefixExtensions.Kilo(System.Double)
+  id: Kilo(System.Double)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.PrefixExtensions
+  langs:
+  - csharp
+  - vb
+  name: Kilo(double)
+  nameWithType: PrefixExtensions.Kilo(double)
+  fullName: H.Extensions.Unit.PrefixExtensions.Kilo(double)
+  type: Method
+  source:
+    id: Kilo
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Prefixes.cs
+    startLine: 96
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static double Kilo(this double v)
+    parameters:
+    - id: v
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Kilo(v As Double) As Double
+  overload: H.Extensions.Unit.PrefixExtensions.Kilo*
+  nameWithType.vb: PrefixExtensions.Kilo(Double)
+  fullName.vb: H.Extensions.Unit.PrefixExtensions.Kilo(Double)
+  name.vb: Kilo(Double)
+- uid: H.Extensions.Unit.PrefixExtensions.Hecto(System.Double)
+  commentId: M:H.Extensions.Unit.PrefixExtensions.Hecto(System.Double)
+  id: Hecto(System.Double)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.PrefixExtensions
+  langs:
+  - csharp
+  - vb
+  name: Hecto(double)
+  nameWithType: PrefixExtensions.Hecto(double)
+  fullName: H.Extensions.Unit.PrefixExtensions.Hecto(double)
+  type: Method
+  source:
+    id: Hecto
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Prefixes.cs
+    startLine: 97
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static double Hecto(this double v)
+    parameters:
+    - id: v
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Hecto(v As Double) As Double
+  overload: H.Extensions.Unit.PrefixExtensions.Hecto*
+  nameWithType.vb: PrefixExtensions.Hecto(Double)
+  fullName.vb: H.Extensions.Unit.PrefixExtensions.Hecto(Double)
+  name.vb: Hecto(Double)
+- uid: H.Extensions.Unit.PrefixExtensions.Deca(System.Double)
+  commentId: M:H.Extensions.Unit.PrefixExtensions.Deca(System.Double)
+  id: Deca(System.Double)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.PrefixExtensions
+  langs:
+  - csharp
+  - vb
+  name: Deca(double)
+  nameWithType: PrefixExtensions.Deca(double)
+  fullName: H.Extensions.Unit.PrefixExtensions.Deca(double)
+  type: Method
+  source:
+    id: Deca
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Prefixes.cs
+    startLine: 98
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static double Deca(this double v)
+    parameters:
+    - id: v
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Deca(v As Double) As Double
+  overload: H.Extensions.Unit.PrefixExtensions.Deca*
+  nameWithType.vb: PrefixExtensions.Deca(Double)
+  fullName.vb: H.Extensions.Unit.PrefixExtensions.Deca(Double)
+  name.vb: Deca(Double)
+- uid: H.Extensions.Unit.PrefixExtensions.Deci(System.Double)
+  commentId: M:H.Extensions.Unit.PrefixExtensions.Deci(System.Double)
+  id: Deci(System.Double)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.PrefixExtensions
+  langs:
+  - csharp
+  - vb
+  name: Deci(double)
+  nameWithType: PrefixExtensions.Deci(double)
+  fullName: H.Extensions.Unit.PrefixExtensions.Deci(double)
+  type: Method
+  source:
+    id: Deci
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Prefixes.cs
+    startLine: 99
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static double Deci(this double v)
+    parameters:
+    - id: v
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Deci(v As Double) As Double
+  overload: H.Extensions.Unit.PrefixExtensions.Deci*
+  nameWithType.vb: PrefixExtensions.Deci(Double)
+  fullName.vb: H.Extensions.Unit.PrefixExtensions.Deci(Double)
+  name.vb: Deci(Double)
+- uid: H.Extensions.Unit.PrefixExtensions.Centi(System.Double)
+  commentId: M:H.Extensions.Unit.PrefixExtensions.Centi(System.Double)
+  id: Centi(System.Double)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.PrefixExtensions
+  langs:
+  - csharp
+  - vb
+  name: Centi(double)
+  nameWithType: PrefixExtensions.Centi(double)
+  fullName: H.Extensions.Unit.PrefixExtensions.Centi(double)
+  type: Method
+  source:
+    id: Centi
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Prefixes.cs
+    startLine: 100
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static double Centi(this double v)
+    parameters:
+    - id: v
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Centi(v As Double) As Double
+  overload: H.Extensions.Unit.PrefixExtensions.Centi*
+  nameWithType.vb: PrefixExtensions.Centi(Double)
+  fullName.vb: H.Extensions.Unit.PrefixExtensions.Centi(Double)
+  name.vb: Centi(Double)
+- uid: H.Extensions.Unit.PrefixExtensions.Milli(System.Double)
+  commentId: M:H.Extensions.Unit.PrefixExtensions.Milli(System.Double)
+  id: Milli(System.Double)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.PrefixExtensions
+  langs:
+  - csharp
+  - vb
+  name: Milli(double)
+  nameWithType: PrefixExtensions.Milli(double)
+  fullName: H.Extensions.Unit.PrefixExtensions.Milli(double)
+  type: Method
+  source:
+    id: Milli
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Prefixes.cs
+    startLine: 101
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static double Milli(this double v)
+    parameters:
+    - id: v
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Milli(v As Double) As Double
+  overload: H.Extensions.Unit.PrefixExtensions.Milli*
+  nameWithType.vb: PrefixExtensions.Milli(Double)
+  fullName.vb: H.Extensions.Unit.PrefixExtensions.Milli(Double)
+  name.vb: Milli(Double)
+- uid: H.Extensions.Unit.PrefixExtensions.Micro(System.Double)
+  commentId: M:H.Extensions.Unit.PrefixExtensions.Micro(System.Double)
+  id: Micro(System.Double)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.PrefixExtensions
+  langs:
+  - csharp
+  - vb
+  name: Micro(double)
+  nameWithType: PrefixExtensions.Micro(double)
+  fullName: H.Extensions.Unit.PrefixExtensions.Micro(double)
+  type: Method
+  source:
+    id: Micro
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Prefixes.cs
+    startLine: 102
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static double Micro(this double v)
+    parameters:
+    - id: v
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Micro(v As Double) As Double
+  overload: H.Extensions.Unit.PrefixExtensions.Micro*
+  nameWithType.vb: PrefixExtensions.Micro(Double)
+  fullName.vb: H.Extensions.Unit.PrefixExtensions.Micro(Double)
+  name.vb: Micro(Double)
+- uid: H.Extensions.Unit.PrefixExtensions.Nano(System.Double)
+  commentId: M:H.Extensions.Unit.PrefixExtensions.Nano(System.Double)
+  id: Nano(System.Double)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.PrefixExtensions
+  langs:
+  - csharp
+  - vb
+  name: Nano(double)
+  nameWithType: PrefixExtensions.Nano(double)
+  fullName: H.Extensions.Unit.PrefixExtensions.Nano(double)
+  type: Method
+  source:
+    id: Nano
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Prefixes.cs
+    startLine: 103
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static double Nano(this double v)
+    parameters:
+    - id: v
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Nano(v As Double) As Double
+  overload: H.Extensions.Unit.PrefixExtensions.Nano*
+  nameWithType.vb: PrefixExtensions.Nano(Double)
+  fullName.vb: H.Extensions.Unit.PrefixExtensions.Nano(Double)
+  name.vb: Nano(Double)
+- uid: H.Extensions.Unit.PrefixExtensions.Pico(System.Double)
+  commentId: M:H.Extensions.Unit.PrefixExtensions.Pico(System.Double)
+  id: Pico(System.Double)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.PrefixExtensions
+  langs:
+  - csharp
+  - vb
+  name: Pico(double)
+  nameWithType: PrefixExtensions.Pico(double)
+  fullName: H.Extensions.Unit.PrefixExtensions.Pico(double)
+  type: Method
+  source:
+    id: Pico
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Prefixes.cs
+    startLine: 104
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static double Pico(this double v)
+    parameters:
+    - id: v
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Pico(v As Double) As Double
+  overload: H.Extensions.Unit.PrefixExtensions.Pico*
+  nameWithType.vb: PrefixExtensions.Pico(Double)
+  fullName.vb: H.Extensions.Unit.PrefixExtensions.Pico(Double)
+  name.vb: Pico(Double)
+- uid: H.Extensions.Unit.PrefixExtensions.Femto(System.Double)
+  commentId: M:H.Extensions.Unit.PrefixExtensions.Femto(System.Double)
+  id: Femto(System.Double)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.PrefixExtensions
+  langs:
+  - csharp
+  - vb
+  name: Femto(double)
+  nameWithType: PrefixExtensions.Femto(double)
+  fullName: H.Extensions.Unit.PrefixExtensions.Femto(double)
+  type: Method
+  source:
+    id: Femto
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Prefixes.cs
+    startLine: 105
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static double Femto(this double v)
+    parameters:
+    - id: v
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Femto(v As Double) As Double
+  overload: H.Extensions.Unit.PrefixExtensions.Femto*
+  nameWithType.vb: PrefixExtensions.Femto(Double)
+  fullName.vb: H.Extensions.Unit.PrefixExtensions.Femto(Double)
+  name.vb: Femto(Double)
+- uid: H.Extensions.Unit.PrefixExtensions.Atto(System.Double)
+  commentId: M:H.Extensions.Unit.PrefixExtensions.Atto(System.Double)
+  id: Atto(System.Double)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.PrefixExtensions
+  langs:
+  - csharp
+  - vb
+  name: Atto(double)
+  nameWithType: PrefixExtensions.Atto(double)
+  fullName: H.Extensions.Unit.PrefixExtensions.Atto(double)
+  type: Method
+  source:
+    id: Atto
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Prefixes.cs
+    startLine: 106
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static double Atto(this double v)
+    parameters:
+    - id: v
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Atto(v As Double) As Double
+  overload: H.Extensions.Unit.PrefixExtensions.Atto*
+  nameWithType.vb: PrefixExtensions.Atto(Double)
+  fullName.vb: H.Extensions.Unit.PrefixExtensions.Atto(Double)
+  name.vb: Atto(Double)
+- uid: H.Extensions.Unit.PrefixExtensions.Zepto(System.Double)
+  commentId: M:H.Extensions.Unit.PrefixExtensions.Zepto(System.Double)
+  id: Zepto(System.Double)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.PrefixExtensions
+  langs:
+  - csharp
+  - vb
+  name: Zepto(double)
+  nameWithType: PrefixExtensions.Zepto(double)
+  fullName: H.Extensions.Unit.PrefixExtensions.Zepto(double)
+  type: Method
+  source:
+    id: Zepto
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Prefixes.cs
+    startLine: 107
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static double Zepto(this double v)
+    parameters:
+    - id: v
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Zepto(v As Double) As Double
+  overload: H.Extensions.Unit.PrefixExtensions.Zepto*
+  nameWithType.vb: PrefixExtensions.Zepto(Double)
+  fullName.vb: H.Extensions.Unit.PrefixExtensions.Zepto(Double)
+  name.vb: Zepto(Double)
+- uid: H.Extensions.Unit.PrefixExtensions.Yocto(System.Double)
+  commentId: M:H.Extensions.Unit.PrefixExtensions.Yocto(System.Double)
+  id: Yocto(System.Double)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.PrefixExtensions
+  langs:
+  - csharp
+  - vb
+  name: Yocto(double)
+  nameWithType: PrefixExtensions.Yocto(double)
+  fullName: H.Extensions.Unit.PrefixExtensions.Yocto(double)
+  type: Method
+  source:
+    id: Yocto
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Prefixes.cs
+    startLine: 108
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static double Yocto(this double v)
+    parameters:
+    - id: v
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Yocto(v As Double) As Double
+  overload: H.Extensions.Unit.PrefixExtensions.Yocto*
+  nameWithType.vb: PrefixExtensions.Yocto(Double)
+  fullName.vb: H.Extensions.Unit.PrefixExtensions.Yocto(Double)
+  name.vb: Yocto(Double)
+- uid: H.Extensions.Unit.PrefixExtensions.Ronto(System.Double)
+  commentId: M:H.Extensions.Unit.PrefixExtensions.Ronto(System.Double)
+  id: Ronto(System.Double)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.PrefixExtensions
+  langs:
+  - csharp
+  - vb
+  name: Ronto(double)
+  nameWithType: PrefixExtensions.Ronto(double)
+  fullName: H.Extensions.Unit.PrefixExtensions.Ronto(double)
+  type: Method
+  source:
+    id: Ronto
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Prefixes.cs
+    startLine: 109
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static double Ronto(this double v)
+    parameters:
+    - id: v
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Ronto(v As Double) As Double
+  overload: H.Extensions.Unit.PrefixExtensions.Ronto*
+  nameWithType.vb: PrefixExtensions.Ronto(Double)
+  fullName.vb: H.Extensions.Unit.PrefixExtensions.Ronto(Double)
+  name.vb: Ronto(Double)
+- uid: H.Extensions.Unit.PrefixExtensions.Quecto(System.Double)
+  commentId: M:H.Extensions.Unit.PrefixExtensions.Quecto(System.Double)
+  id: Quecto(System.Double)
+  isExtensionMethod: true
+  parent: H.Extensions.Unit.PrefixExtensions
+  langs:
+  - csharp
+  - vb
+  name: Quecto(double)
+  nameWithType: PrefixExtensions.Quecto(double)
+  fullName: H.Extensions.Unit.PrefixExtensions.Quecto(double)
+  type: Method
+  source:
+    id: Quecto
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Unit\PhysicalUnits\Provider\Prefixes.cs
+    startLine: 110
+  assemblies:
+  - H.Extensions.Unit
+  namespace: H.Extensions.Unit
+  syntax:
+    content: public static double Quecto(this double v)
+    parameters:
+    - id: v
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Shared Function Quecto(v As Double) As Double
+  overload: H.Extensions.Unit.PrefixExtensions.Quecto*
+  nameWithType.vb: PrefixExtensions.Quecto(Double)
+  fullName.vb: H.Extensions.Unit.PrefixExtensions.Quecto(Double)
+  name.vb: Quecto(Double)
+references:
+- uid: H.Extensions.Unit
+  commentId: N:H.Extensions.Unit
+  href: H.html
+  name: H.Extensions.Unit
+  nameWithType: H.Extensions.Unit
+  fullName: H.Extensions.Unit
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Unit
+    name: Unit
+    href: H.Extensions.Unit.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Unit
+    name: Unit
+    href: H.Extensions.Unit.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: H.Extensions.Unit.PrefixExtensions.Quetta*
+  commentId: Overload:H.Extensions.Unit.PrefixExtensions.Quetta
+  href: H.Extensions.Unit.PrefixExtensions.html#H_Extensions_Unit_PrefixExtensions_Quetta_System_Int32_
+  name: Quetta
+  nameWithType: PrefixExtensions.Quetta
+  fullName: H.Extensions.Unit.PrefixExtensions.Quetta
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: H.Extensions.Unit.PrefixExtensions.Ronna*
+  commentId: Overload:H.Extensions.Unit.PrefixExtensions.Ronna
+  href: H.Extensions.Unit.PrefixExtensions.html#H_Extensions_Unit_PrefixExtensions_Ronna_System_Int32_
+  name: Ronna
+  nameWithType: PrefixExtensions.Ronna
+  fullName: H.Extensions.Unit.PrefixExtensions.Ronna
+- uid: H.Extensions.Unit.PrefixExtensions.Yotta*
+  commentId: Overload:H.Extensions.Unit.PrefixExtensions.Yotta
+  href: H.Extensions.Unit.PrefixExtensions.html#H_Extensions_Unit_PrefixExtensions_Yotta_System_Int32_
+  name: Yotta
+  nameWithType: PrefixExtensions.Yotta
+  fullName: H.Extensions.Unit.PrefixExtensions.Yotta
+- uid: H.Extensions.Unit.PrefixExtensions.Zetta*
+  commentId: Overload:H.Extensions.Unit.PrefixExtensions.Zetta
+  href: H.Extensions.Unit.PrefixExtensions.html#H_Extensions_Unit_PrefixExtensions_Zetta_System_Int32_
+  name: Zetta
+  nameWithType: PrefixExtensions.Zetta
+  fullName: H.Extensions.Unit.PrefixExtensions.Zetta
+- uid: H.Extensions.Unit.PrefixExtensions.Exa*
+  commentId: Overload:H.Extensions.Unit.PrefixExtensions.Exa
+  href: H.Extensions.Unit.PrefixExtensions.html#H_Extensions_Unit_PrefixExtensions_Exa_System_Int32_
+  name: Exa
+  nameWithType: PrefixExtensions.Exa
+  fullName: H.Extensions.Unit.PrefixExtensions.Exa
+- uid: H.Extensions.Unit.PrefixExtensions.Peta*
+  commentId: Overload:H.Extensions.Unit.PrefixExtensions.Peta
+  href: H.Extensions.Unit.PrefixExtensions.html#H_Extensions_Unit_PrefixExtensions_Peta_System_Int32_
+  name: Peta
+  nameWithType: PrefixExtensions.Peta
+  fullName: H.Extensions.Unit.PrefixExtensions.Peta
+- uid: H.Extensions.Unit.PrefixExtensions.Tera*
+  commentId: Overload:H.Extensions.Unit.PrefixExtensions.Tera
+  href: H.Extensions.Unit.PrefixExtensions.html#H_Extensions_Unit_PrefixExtensions_Tera_System_Int32_
+  name: Tera
+  nameWithType: PrefixExtensions.Tera
+  fullName: H.Extensions.Unit.PrefixExtensions.Tera
+- uid: H.Extensions.Unit.PrefixExtensions.Giga*
+  commentId: Overload:H.Extensions.Unit.PrefixExtensions.Giga
+  href: H.Extensions.Unit.PrefixExtensions.html#H_Extensions_Unit_PrefixExtensions_Giga_System_Int32_
+  name: Giga
+  nameWithType: PrefixExtensions.Giga
+  fullName: H.Extensions.Unit.PrefixExtensions.Giga
+- uid: H.Extensions.Unit.PrefixExtensions.Mega*
+  commentId: Overload:H.Extensions.Unit.PrefixExtensions.Mega
+  href: H.Extensions.Unit.PrefixExtensions.html#H_Extensions_Unit_PrefixExtensions_Mega_System_Int32_
+  name: Mega
+  nameWithType: PrefixExtensions.Mega
+  fullName: H.Extensions.Unit.PrefixExtensions.Mega
+- uid: H.Extensions.Unit.PrefixExtensions.Kilo*
+  commentId: Overload:H.Extensions.Unit.PrefixExtensions.Kilo
+  href: H.Extensions.Unit.PrefixExtensions.html#H_Extensions_Unit_PrefixExtensions_Kilo_System_Int32_
+  name: Kilo
+  nameWithType: PrefixExtensions.Kilo
+  fullName: H.Extensions.Unit.PrefixExtensions.Kilo
+- uid: H.Extensions.Unit.PrefixExtensions.Hecto*
+  commentId: Overload:H.Extensions.Unit.PrefixExtensions.Hecto
+  href: H.Extensions.Unit.PrefixExtensions.html#H_Extensions_Unit_PrefixExtensions_Hecto_System_Int32_
+  name: Hecto
+  nameWithType: PrefixExtensions.Hecto
+  fullName: H.Extensions.Unit.PrefixExtensions.Hecto
+- uid: H.Extensions.Unit.PrefixExtensions.Deca*
+  commentId: Overload:H.Extensions.Unit.PrefixExtensions.Deca
+  href: H.Extensions.Unit.PrefixExtensions.html#H_Extensions_Unit_PrefixExtensions_Deca_System_Int32_
+  name: Deca
+  nameWithType: PrefixExtensions.Deca
+  fullName: H.Extensions.Unit.PrefixExtensions.Deca
+- uid: H.Extensions.Unit.PrefixExtensions.Deci*
+  commentId: Overload:H.Extensions.Unit.PrefixExtensions.Deci
+  href: H.Extensions.Unit.PrefixExtensions.html#H_Extensions_Unit_PrefixExtensions_Deci_System_Int32_
+  name: Deci
+  nameWithType: PrefixExtensions.Deci
+  fullName: H.Extensions.Unit.PrefixExtensions.Deci
+- uid: H.Extensions.Unit.PrefixExtensions.Centi*
+  commentId: Overload:H.Extensions.Unit.PrefixExtensions.Centi
+  href: H.Extensions.Unit.PrefixExtensions.html#H_Extensions_Unit_PrefixExtensions_Centi_System_Int32_
+  name: Centi
+  nameWithType: PrefixExtensions.Centi
+  fullName: H.Extensions.Unit.PrefixExtensions.Centi
+- uid: H.Extensions.Unit.PrefixExtensions.Milli*
+  commentId: Overload:H.Extensions.Unit.PrefixExtensions.Milli
+  href: H.Extensions.Unit.PrefixExtensions.html#H_Extensions_Unit_PrefixExtensions_Milli_System_Int32_
+  name: Milli
+  nameWithType: PrefixExtensions.Milli
+  fullName: H.Extensions.Unit.PrefixExtensions.Milli
+- uid: H.Extensions.Unit.PrefixExtensions.Micro*
+  commentId: Overload:H.Extensions.Unit.PrefixExtensions.Micro
+  href: H.Extensions.Unit.PrefixExtensions.html#H_Extensions_Unit_PrefixExtensions_Micro_System_Int32_
+  name: Micro
+  nameWithType: PrefixExtensions.Micro
+  fullName: H.Extensions.Unit.PrefixExtensions.Micro
+- uid: H.Extensions.Unit.PrefixExtensions.Nano*
+  commentId: Overload:H.Extensions.Unit.PrefixExtensions.Nano
+  href: H.Extensions.Unit.PrefixExtensions.html#H_Extensions_Unit_PrefixExtensions_Nano_System_Int32_
+  name: Nano
+  nameWithType: PrefixExtensions.Nano
+  fullName: H.Extensions.Unit.PrefixExtensions.Nano
+- uid: H.Extensions.Unit.PrefixExtensions.Pico*
+  commentId: Overload:H.Extensions.Unit.PrefixExtensions.Pico
+  href: H.Extensions.Unit.PrefixExtensions.html#H_Extensions_Unit_PrefixExtensions_Pico_System_Int32_
+  name: Pico
+  nameWithType: PrefixExtensions.Pico
+  fullName: H.Extensions.Unit.PrefixExtensions.Pico
+- uid: H.Extensions.Unit.PrefixExtensions.Femto*
+  commentId: Overload:H.Extensions.Unit.PrefixExtensions.Femto
+  href: H.Extensions.Unit.PrefixExtensions.html#H_Extensions_Unit_PrefixExtensions_Femto_System_Int32_
+  name: Femto
+  nameWithType: PrefixExtensions.Femto
+  fullName: H.Extensions.Unit.PrefixExtensions.Femto
+- uid: H.Extensions.Unit.PrefixExtensions.Atto*
+  commentId: Overload:H.Extensions.Unit.PrefixExtensions.Atto
+  href: H.Extensions.Unit.PrefixExtensions.html#H_Extensions_Unit_PrefixExtensions_Atto_System_Int32_
+  name: Atto
+  nameWithType: PrefixExtensions.Atto
+  fullName: H.Extensions.Unit.PrefixExtensions.Atto
+- uid: H.Extensions.Unit.PrefixExtensions.Zepto*
+  commentId: Overload:H.Extensions.Unit.PrefixExtensions.Zepto
+  href: H.Extensions.Unit.PrefixExtensions.html#H_Extensions_Unit_PrefixExtensions_Zepto_System_Int32_
+  name: Zepto
+  nameWithType: PrefixExtensions.Zepto
+  fullName: H.Extensions.Unit.PrefixExtensions.Zepto
+- uid: H.Extensions.Unit.PrefixExtensions.Yocto*
+  commentId: Overload:H.Extensions.Unit.PrefixExtensions.Yocto
+  href: H.Extensions.Unit.PrefixExtensions.html#H_Extensions_Unit_PrefixExtensions_Yocto_System_Int32_
+  name: Yocto
+  nameWithType: PrefixExtensions.Yocto
+  fullName: H.Extensions.Unit.PrefixExtensions.Yocto
+- uid: H.Extensions.Unit.PrefixExtensions.Ronto*
+  commentId: Overload:H.Extensions.Unit.PrefixExtensions.Ronto
+  href: H.Extensions.Unit.PrefixExtensions.html#H_Extensions_Unit_PrefixExtensions_Ronto_System_Int32_
+  name: Ronto
+  nameWithType: PrefixExtensions.Ronto
+  fullName: H.Extensions.Unit.PrefixExtensions.Ronto
+- uid: H.Extensions.Unit.PrefixExtensions.Quecto*
+  commentId: Overload:H.Extensions.Unit.PrefixExtensions.Quecto
+  href: H.Extensions.Unit.PrefixExtensions.html#H_Extensions_Unit_PrefixExtensions_Quecto_System_Int32_
+  name: Quecto
+  nameWithType: PrefixExtensions.Quecto
+  fullName: H.Extensions.Unit.PrefixExtensions.Quecto

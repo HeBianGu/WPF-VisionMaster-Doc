@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.App.VisionMaster.OpenCV.Commands
+  commentId: N:H.App.VisionMaster.OpenCV.Commands
+  id: H.App.VisionMaster.OpenCV.Commands
+  children:
+  - H.App.VisionMaster.OpenCV.Commands.ZoomToRectCommand
+  langs:
+  - csharp
+  - vb
+  name: H.App.VisionMaster.OpenCV.Commands
+  nameWithType: H.App.VisionMaster.OpenCV.Commands
+  fullName: H.App.VisionMaster.OpenCV.Commands
+  type: Namespace
+  assemblies:
+  - H.App.VisionMaster.OpenCV
+references:
+- uid: H.App.VisionMaster.OpenCV.Commands.ZoomToRectCommand
+  commentId: T:H.App.VisionMaster.OpenCV.Commands.ZoomToRectCommand
+  href: H.App.VisionMaster.OpenCV.Commands.ZoomToRectCommand.html
+  name: ZoomToRectCommand
+  nameWithType: ZoomToRectCommand
+  fullName: H.App.VisionMaster.OpenCV.Commands.ZoomToRectCommand

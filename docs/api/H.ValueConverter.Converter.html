@@ -1,0 +1,4750 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class Converter | WPF-VisionMasterOpenCV2.0开发文档 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class Converter | WPF-VisionMasterOpenCV2.0开发文档 ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="WPF-VisionMasterOpenCV2.0开发文档">
+            WPF-VisionMasterOpenCV2.0开发文档
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="H.ValueConverter.Converter">
+
+
+
+  <h1 id="H_ValueConverter_Converter" data-uid="H.ValueConverter.Converter" class="text-break">
+Class Converter  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="H.html">H</a>.<a class="xref" href="H.ValueConverter.html">ValueConverter</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>H.ValueConverter.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class Converter</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">Converter</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="H_ValueConverter_Converter_GetAllEqualsToVisible_" data-uid="H.ValueConverter.Converter.GetAllEqualsToVisible*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetAllEqualsToVisible" data-uid="H.ValueConverter.Converter.GetAllEqualsToVisible">
+  GetAllEqualsToVisible
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IMultiValueConverter GetAllEqualsToVisible { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.imultivalueconverter">IMultiValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetAllTrueToVisible_" data-uid="H.ValueConverter.Converter.GetAllTrueToVisible*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetAllTrueToVisible" data-uid="H.ValueConverter.Converter.GetAllTrueToVisible">
+  GetAllTrueToVisible
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IMultiValueConverter GetAllTrueToVisible { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.imultivalueconverter">IMultiValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetBoolNullAndTrueToVisble_" data-uid="H.ValueConverter.Converter.GetBoolNullAndTrueToVisble*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetBoolNullAndTrueToVisble" data-uid="H.ValueConverter.Converter.GetBoolNullAndTrueToVisble">
+  GetBoolNullAndTrueToVisble
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetBoolNullAndTrueToVisble { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetBoolNullFalseToVisble_" data-uid="H.ValueConverter.Converter.GetBoolNullFalseToVisble*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetBoolNullFalseToVisble" data-uid="H.ValueConverter.Converter.GetBoolNullFalseToVisble">
+  GetBoolNullFalseToVisble
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetBoolNullFalseToVisble { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetBoolenNullToConnectState_" data-uid="H.ValueConverter.Converter.GetBoolenNullToConnectState*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetBoolenNullToConnectState" data-uid="H.ValueConverter.Converter.GetBoolenNullToConnectState">
+  GetBoolenNullToConnectState
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetBoolenNullToConnectState { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetBoolenToConnectState_" data-uid="H.ValueConverter.Converter.GetBoolenToConnectState*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetBoolenToConnectState" data-uid="H.ValueConverter.Converter.GetBoolenToConnectState">
+  GetBoolenToConnectState
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetBoolenToConnectState { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetBoolenToPassState_" data-uid="H.ValueConverter.Converter.GetBoolenToPassState*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetBoolenToPassState" data-uid="H.ValueConverter.Converter.GetBoolenToPassState">
+  GetBoolenToPassState
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetBoolenToPassState { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetChangeExtension_" data-uid="H.ValueConverter.Converter.GetChangeExtension*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetChangeExtension" data-uid="H.ValueConverter.Converter.GetChangeExtension">
+  GetChangeExtension
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetChangeExtension { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetColorToSolidColorBrush_" data-uid="H.ValueConverter.Converter.GetColorToSolidColorBrush*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetColorToSolidColorBrush" data-uid="H.ValueConverter.Converter.GetColorToSolidColorBrush">
+  GetColorToSolidColorBrush
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetColorToSolidColorBrush { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetComparable_" data-uid="H.ValueConverter.Converter.GetComparable*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetComparable" data-uid="H.ValueConverter.Converter.GetComparable">
+  GetComparable
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetComparable { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetComparableAllTrueToVisible_" data-uid="H.ValueConverter.Converter.GetComparableAllTrueToVisible*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetComparableAllTrueToVisible" data-uid="H.ValueConverter.Converter.GetComparableAllTrueToVisible">
+  GetComparableAllTrueToVisible
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IMultiValueConverter GetComparableAllTrueToVisible { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.imultivalueconverter">IMultiValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetDateTimeNowToString_" data-uid="H.ValueConverter.Converter.GetDateTimeNowToString*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetDateTimeNowToString" data-uid="H.ValueConverter.Converter.GetDateTimeNowToString">
+  GetDateTimeNowToString
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetDateTimeNowToString { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetDateTimeParseExact_" data-uid="H.ValueConverter.Converter.GetDateTimeParseExact*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetDateTimeParseExact" data-uid="H.ValueConverter.Converter.GetDateTimeParseExact">
+  GetDateTimeParseExact
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetDateTimeParseExact { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetDateTimeToAddDays_" data-uid="H.ValueConverter.Converter.GetDateTimeToAddDays*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetDateTimeToAddDays" data-uid="H.ValueConverter.Converter.GetDateTimeToAddDays">
+  GetDateTimeToAddDays
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetDateTimeToAddDays { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetDateTimeToAddHours_" data-uid="H.ValueConverter.Converter.GetDateTimeToAddHours*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetDateTimeToAddHours" data-uid="H.ValueConverter.Converter.GetDateTimeToAddHours">
+  GetDateTimeToAddHours
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetDateTimeToAddHours { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetDateTimeToAddMilliseconds_" data-uid="H.ValueConverter.Converter.GetDateTimeToAddMilliseconds*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetDateTimeToAddMilliseconds" data-uid="H.ValueConverter.Converter.GetDateTimeToAddMilliseconds">
+  GetDateTimeToAddMilliseconds
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetDateTimeToAddMilliseconds { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetDateTimeToAddMonths_" data-uid="H.ValueConverter.Converter.GetDateTimeToAddMonths*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetDateTimeToAddMonths" data-uid="H.ValueConverter.Converter.GetDateTimeToAddMonths">
+  GetDateTimeToAddMonths
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetDateTimeToAddMonths { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetDateTimeToAddSeconds_" data-uid="H.ValueConverter.Converter.GetDateTimeToAddSeconds*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetDateTimeToAddSeconds" data-uid="H.ValueConverter.Converter.GetDateTimeToAddSeconds">
+  GetDateTimeToAddSeconds
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetDateTimeToAddSeconds { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetDateTimeToAddTicks_" data-uid="H.ValueConverter.Converter.GetDateTimeToAddTicks*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetDateTimeToAddTicks" data-uid="H.ValueConverter.Converter.GetDateTimeToAddTicks">
+  GetDateTimeToAddTicks
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetDateTimeToAddTicks { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetDateTimeToAddYears_" data-uid="H.ValueConverter.Converter.GetDateTimeToAddYears*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetDateTimeToAddYears" data-uid="H.ValueConverter.Converter.GetDateTimeToAddYears">
+  GetDateTimeToAddYears
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetDateTimeToAddYears { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetDateTimeToAge_" data-uid="H.ValueConverter.Converter.GetDateTimeToAge*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetDateTimeToAge" data-uid="H.ValueConverter.Converter.GetDateTimeToAge">
+  GetDateTimeToAge
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetDateTimeToAge { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetDateTimeToDate_" data-uid="H.ValueConverter.Converter.GetDateTimeToDate*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetDateTimeToDate" data-uid="H.ValueConverter.Converter.GetDateTimeToDate">
+  GetDateTimeToDate
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetDateTimeToDate { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetDateTimeToDateString_" data-uid="H.ValueConverter.Converter.GetDateTimeToDateString*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetDateTimeToDateString" data-uid="H.ValueConverter.Converter.GetDateTimeToDateString">
+  GetDateTimeToDateString
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetDateTimeToDateString { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetDateTimeToString_" data-uid="H.ValueConverter.Converter.GetDateTimeToString*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetDateTimeToString" data-uid="H.ValueConverter.Converter.GetDateTimeToString">
+  GetDateTimeToString
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetDateTimeToString { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetDateTimeToTicks_" data-uid="H.ValueConverter.Converter.GetDateTimeToTicks*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetDateTimeToTicks" data-uid="H.ValueConverter.Converter.GetDateTimeToTicks">
+  GetDateTimeToTicks
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetDateTimeToTicks { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetDiaplayDescription_" data-uid="H.ValueConverter.Converter.GetDiaplayDescription*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetDiaplayDescription" data-uid="H.ValueConverter.Converter.GetDiaplayDescription">
+  GetDiaplayDescription
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetDiaplayDescription { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetDiaplayName_" data-uid="H.ValueConverter.Converter.GetDiaplayName*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetDiaplayName" data-uid="H.ValueConverter.Converter.GetDiaplayName">
+  GetDiaplayName
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetDiaplayName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetDirectoryCreationTime_" data-uid="H.ValueConverter.Converter.GetDirectoryCreationTime*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetDirectoryCreationTime" data-uid="H.ValueConverter.Converter.GetDirectoryCreationTime">
+  GetDirectoryCreationTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetDirectoryCreationTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetDirectoryDirectories_" data-uid="H.ValueConverter.Converter.GetDirectoryDirectories*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetDirectoryDirectories" data-uid="H.ValueConverter.Converter.GetDirectoryDirectories">
+  GetDirectoryDirectories
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetDirectoryDirectories { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetDirectoryExists_" data-uid="H.ValueConverter.Converter.GetDirectoryExists*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetDirectoryExists" data-uid="H.ValueConverter.Converter.GetDirectoryExists">
+  GetDirectoryExists
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetDirectoryExists { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetDirectoryFileSystemEntries_" data-uid="H.ValueConverter.Converter.GetDirectoryFileSystemEntries*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetDirectoryFileSystemEntries" data-uid="H.ValueConverter.Converter.GetDirectoryFileSystemEntries">
+  GetDirectoryFileSystemEntries
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetDirectoryFileSystemEntries { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetDirectoryFiles_" data-uid="H.ValueConverter.Converter.GetDirectoryFiles*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetDirectoryFiles" data-uid="H.ValueConverter.Converter.GetDirectoryFiles">
+  GetDirectoryFiles
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetDirectoryFiles { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetDirectoryLastAccessTime_" data-uid="H.ValueConverter.Converter.GetDirectoryLastAccessTime*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetDirectoryLastAccessTime" data-uid="H.ValueConverter.Converter.GetDirectoryLastAccessTime">
+  GetDirectoryLastAccessTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetDirectoryLastAccessTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetDirectoryLastWriteTime_" data-uid="H.ValueConverter.Converter.GetDirectoryLastWriteTime*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetDirectoryLastWriteTime" data-uid="H.ValueConverter.Converter.GetDirectoryLastWriteTime">
+  GetDirectoryLastWriteTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetDirectoryLastWriteTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetDirectoryName_" data-uid="H.ValueConverter.Converter.GetDirectoryName*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetDirectoryName" data-uid="H.ValueConverter.Converter.GetDirectoryName">
+  GetDirectoryName
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetDirectoryName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetDirectoryParent_" data-uid="H.ValueConverter.Converter.GetDirectoryParent*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetDirectoryParent" data-uid="H.ValueConverter.Converter.GetDirectoryParent">
+  GetDirectoryParent
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetDirectoryParent { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetDoubleToCornerRadius_" data-uid="H.ValueConverter.Converter.GetDoubleToCornerRadius*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetDoubleToCornerRadius" data-uid="H.ValueConverter.Converter.GetDoubleToCornerRadius">
+  GetDoubleToCornerRadius
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetDoubleToCornerRadius { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetDoubleToCornerRadiusBottm_" data-uid="H.ValueConverter.Converter.GetDoubleToCornerRadiusBottm*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetDoubleToCornerRadiusBottm" data-uid="H.ValueConverter.Converter.GetDoubleToCornerRadiusBottm">
+  GetDoubleToCornerRadiusBottm
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetDoubleToCornerRadiusBottm { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetDoubleToCornerRadiusLeft_" data-uid="H.ValueConverter.Converter.GetDoubleToCornerRadiusLeft*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetDoubleToCornerRadiusLeft" data-uid="H.ValueConverter.Converter.GetDoubleToCornerRadiusLeft">
+  GetDoubleToCornerRadiusLeft
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetDoubleToCornerRadiusLeft { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetDoubleToCornerRadiusLeftBottom_" data-uid="H.ValueConverter.Converter.GetDoubleToCornerRadiusLeftBottom*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetDoubleToCornerRadiusLeftBottom" data-uid="H.ValueConverter.Converter.GetDoubleToCornerRadiusLeftBottom">
+  GetDoubleToCornerRadiusLeftBottom
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetDoubleToCornerRadiusLeftBottom { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetDoubleToCornerRadiusLeftTop_" data-uid="H.ValueConverter.Converter.GetDoubleToCornerRadiusLeftTop*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetDoubleToCornerRadiusLeftTop" data-uid="H.ValueConverter.Converter.GetDoubleToCornerRadiusLeftTop">
+  GetDoubleToCornerRadiusLeftTop
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetDoubleToCornerRadiusLeftTop { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetDoubleToCornerRadiusRightBottom_" data-uid="H.ValueConverter.Converter.GetDoubleToCornerRadiusRightBottom*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetDoubleToCornerRadiusRightBottom" data-uid="H.ValueConverter.Converter.GetDoubleToCornerRadiusRightBottom">
+  GetDoubleToCornerRadiusRightBottom
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetDoubleToCornerRadiusRightBottom { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetDoubleToCornerRadiusRightTop_" data-uid="H.ValueConverter.Converter.GetDoubleToCornerRadiusRightTop*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetDoubleToCornerRadiusRightTop" data-uid="H.ValueConverter.Converter.GetDoubleToCornerRadiusRightTop">
+  GetDoubleToCornerRadiusRightTop
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetDoubleToCornerRadiusRightTop { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetDoubleToCornerRadiusRigth_" data-uid="H.ValueConverter.Converter.GetDoubleToCornerRadiusRigth*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetDoubleToCornerRadiusRigth" data-uid="H.ValueConverter.Converter.GetDoubleToCornerRadiusRigth">
+  GetDoubleToCornerRadiusRigth
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetDoubleToCornerRadiusRigth { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetDoubleToCornerRadiusTop_" data-uid="H.ValueConverter.Converter.GetDoubleToCornerRadiusTop*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetDoubleToCornerRadiusTop" data-uid="H.ValueConverter.Converter.GetDoubleToCornerRadiusTop">
+  GetDoubleToCornerRadiusTop
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetDoubleToCornerRadiusTop { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetEnumSource_" data-uid="H.ValueConverter.Converter.GetEnumSource*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetEnumSource" data-uid="H.ValueConverter.Converter.GetEnumSource">
+  GetEnumSource
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetEnumSource { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetExtension_" data-uid="H.ValueConverter.Converter.GetExtension*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetExtension" data-uid="H.ValueConverter.Converter.GetExtension">
+  GetExtension
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetExtension { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetFalse_" data-uid="H.ValueConverter.Converter.GetFalse*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetFalse" data-uid="H.ValueConverter.Converter.GetFalse">
+  GetFalse
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetFalse { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetFalseToHidden_" data-uid="H.ValueConverter.Converter.GetFalseToHidden*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetFalseToHidden" data-uid="H.ValueConverter.Converter.GetFalseToHidden">
+  GetFalseToHidden
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetFalseToHidden { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetFileCreationTime_" data-uid="H.ValueConverter.Converter.GetFileCreationTime*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetFileCreationTime" data-uid="H.ValueConverter.Converter.GetFileCreationTime">
+  GetFileCreationTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetFileCreationTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetFileExists_" data-uid="H.ValueConverter.Converter.GetFileExists*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetFileExists" data-uid="H.ValueConverter.Converter.GetFileExists">
+  GetFileExists
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetFileExists { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetFileFileAttributes_" data-uid="H.ValueConverter.Converter.GetFileFileAttributes*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetFileFileAttributes" data-uid="H.ValueConverter.Converter.GetFileFileAttributes">
+  GetFileFileAttributes
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetFileFileAttributes { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetFileImageSource_" data-uid="H.ValueConverter.Converter.GetFileImageSource*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetFileImageSource" data-uid="H.ValueConverter.Converter.GetFileImageSource">
+  GetFileImageSource
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetFileImageSource { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetFileLastAccessTime_" data-uid="H.ValueConverter.Converter.GetFileLastAccessTime*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetFileLastAccessTime" data-uid="H.ValueConverter.Converter.GetFileLastAccessTime">
+  GetFileLastAccessTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetFileLastAccessTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetFileLength_" data-uid="H.ValueConverter.Converter.GetFileLength*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetFileLength" data-uid="H.ValueConverter.Converter.GetFileLength">
+  GetFileLength
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetFileLength { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetFileName_" data-uid="H.ValueConverter.Converter.GetFileName*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetFileName" data-uid="H.ValueConverter.Converter.GetFileName">
+  GetFileName
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetFileName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetFileNameWithoutExtension_" data-uid="H.ValueConverter.Converter.GetFileNameWithoutExtension*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetFileNameWithoutExtension" data-uid="H.ValueConverter.Converter.GetFileNameWithoutExtension">
+  GetFileNameWithoutExtension
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetFileNameWithoutExtension { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetFileReadAllText_" data-uid="H.ValueConverter.Converter.GetFileReadAllText*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetFileReadAllText" data-uid="H.ValueConverter.Converter.GetFileReadAllText">
+  GetFileReadAllText
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetFileReadAllText { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetFullPath_" data-uid="H.ValueConverter.Converter.GetFullPath*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetFullPath" data-uid="H.ValueConverter.Converter.GetFullPath">
+  GetFullPath
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetFullPath { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetGreaterThan_" data-uid="H.ValueConverter.Converter.GetGreaterThan*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetGreaterThan" data-uid="H.ValueConverter.Converter.GetGreaterThan">
+  GetGreaterThan
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetGreaterThan { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetHasExtension_" data-uid="H.ValueConverter.Converter.GetHasExtension*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetHasExtension" data-uid="H.ValueConverter.Converter.GetHasExtension">
+  GetHasExtension
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetHasExtension { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetIConvertibler_" data-uid="H.ValueConverter.Converter.GetIConvertibler*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetIConvertibler" data-uid="H.ValueConverter.Converter.GetIConvertibler">
+  GetIConvertibler
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetIConvertibler { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetIEnumerableCast_" data-uid="H.ValueConverter.Converter.GetIEnumerableCast*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetIEnumerableCast" data-uid="H.ValueConverter.Converter.GetIEnumerableCast">
+  GetIEnumerableCast
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetIEnumerableCast { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetIEnumerableCount_" data-uid="H.ValueConverter.Converter.GetIEnumerableCount*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetIEnumerableCount" data-uid="H.ValueConverter.Converter.GetIEnumerableCount">
+  GetIEnumerableCount
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetIEnumerableCount { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetIEnumerableDistinct_" data-uid="H.ValueConverter.Converter.GetIEnumerableDistinct*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetIEnumerableDistinct" data-uid="H.ValueConverter.Converter.GetIEnumerableDistinct">
+  GetIEnumerableDistinct
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetIEnumerableDistinct { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetIEnumerableElementAt_" data-uid="H.ValueConverter.Converter.GetIEnumerableElementAt*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetIEnumerableElementAt" data-uid="H.ValueConverter.Converter.GetIEnumerableElementAt">
+  GetIEnumerableElementAt
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetIEnumerableElementAt { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetIEnumerableExcept_" data-uid="H.ValueConverter.Converter.GetIEnumerableExcept*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetIEnumerableExcept" data-uid="H.ValueConverter.Converter.GetIEnumerableExcept">
+  GetIEnumerableExcept
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetIEnumerableExcept { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetIEnumerableFirstOrDefault_" data-uid="H.ValueConverter.Converter.GetIEnumerableFirstOrDefault*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetIEnumerableFirstOrDefault" data-uid="H.ValueConverter.Converter.GetIEnumerableFirstOrDefault">
+  GetIEnumerableFirstOrDefault
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetIEnumerableFirstOrDefault { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetIEnumerableLastOrDefault_" data-uid="H.ValueConverter.Converter.GetIEnumerableLastOrDefault*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetIEnumerableLastOrDefault" data-uid="H.ValueConverter.Converter.GetIEnumerableLastOrDefault">
+  GetIEnumerableLastOrDefault
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetIEnumerableLastOrDefault { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetIEnumerableMax_" data-uid="H.ValueConverter.Converter.GetIEnumerableMax*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetIEnumerableMax" data-uid="H.ValueConverter.Converter.GetIEnumerableMax">
+  GetIEnumerableMax
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetIEnumerableMax { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetIEnumerableMin_" data-uid="H.ValueConverter.Converter.GetIEnumerableMin*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetIEnumerableMin" data-uid="H.ValueConverter.Converter.GetIEnumerableMin">
+  GetIEnumerableMin
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetIEnumerableMin { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetIEnumerablePropertyList_" data-uid="H.ValueConverter.Converter.GetIEnumerablePropertyList*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetIEnumerablePropertyList" data-uid="H.ValueConverter.Converter.GetIEnumerablePropertyList">
+  GetIEnumerablePropertyList
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetIEnumerablePropertyList { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetIEnumerableReverse_" data-uid="H.ValueConverter.Converter.GetIEnumerableReverse*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetIEnumerableReverse" data-uid="H.ValueConverter.Converter.GetIEnumerableReverse">
+  GetIEnumerableReverse
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetIEnumerableReverse { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetIEnumerableTake_" data-uid="H.ValueConverter.Converter.GetIEnumerableTake*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetIEnumerableTake" data-uid="H.ValueConverter.Converter.GetIEnumerableTake">
+  GetIEnumerableTake
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetIEnumerableTake { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetIntLessZeroString_" data-uid="H.ValueConverter.Converter.GetIntLessZeroString*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetIntLessZeroString" data-uid="H.ValueConverter.Converter.GetIntLessZeroString">
+  GetIntLessZeroString
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetIntLessZeroString { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetIntToBoolen_" data-uid="H.ValueConverter.Converter.GetIntToBoolen*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetIntToBoolen" data-uid="H.ValueConverter.Converter.GetIntToBoolen">
+  GetIntToBoolen
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetIntToBoolen { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetIntToCollapsed_" data-uid="H.ValueConverter.Converter.GetIntToCollapsed*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetIntToCollapsed" data-uid="H.ValueConverter.Converter.GetIntToCollapsed">
+  GetIntToCollapsed
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetIntToCollapsed { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetIntToVisible_" data-uid="H.ValueConverter.Converter.GetIntToVisible*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetIntToVisible" data-uid="H.ValueConverter.Converter.GetIntToVisible">
+  GetIntToVisible
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetIntToVisible { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetIsAbstract_" data-uid="H.ValueConverter.Converter.GetIsAbstract*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetIsAbstract" data-uid="H.ValueConverter.Converter.GetIsAbstract">
+  GetIsAbstract
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetIsAbstract { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetIsArray_" data-uid="H.ValueConverter.Converter.GetIsArray*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetIsArray" data-uid="H.ValueConverter.Converter.GetIsArray">
+  GetIsArray
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetIsArray { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetIsAssignableFrom_" data-uid="H.ValueConverter.Converter.GetIsAssignableFrom*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetIsAssignableFrom" data-uid="H.ValueConverter.Converter.GetIsAssignableFrom">
+  GetIsAssignableFrom
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetIsAssignableFrom { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetIsClass_" data-uid="H.ValueConverter.Converter.GetIsClass*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetIsClass" data-uid="H.ValueConverter.Converter.GetIsClass">
+  GetIsClass
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetIsClass { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetIsEnum_" data-uid="H.ValueConverter.Converter.GetIsEnum*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetIsEnum" data-uid="H.ValueConverter.Converter.GetIsEnum">
+  GetIsEnum
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetIsEnum { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetIsGenericType_" data-uid="H.ValueConverter.Converter.GetIsGenericType*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetIsGenericType" data-uid="H.ValueConverter.Converter.GetIsGenericType">
+  GetIsGenericType
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetIsGenericType { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetIsValueType_" data-uid="H.ValueConverter.Converter.GetIsValueType*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetIsValueType" data-uid="H.ValueConverter.Converter.GetIsValueType">
+  GetIsValueType
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetIsValueType { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetLessThan_" data-uid="H.ValueConverter.Converter.GetLessThan*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetLessThan" data-uid="H.ValueConverter.Converter.GetLessThan">
+  GetLessThan
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetLessThan { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetListEmptyToCollapsed_" data-uid="H.ValueConverter.Converter.GetListEmptyToCollapsed*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetListEmptyToCollapsed" data-uid="H.ValueConverter.Converter.GetListEmptyToCollapsed">
+  GetListEmptyToCollapsed
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetListEmptyToCollapsed { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetListEmptyToVisible_" data-uid="H.ValueConverter.Converter.GetListEmptyToVisible*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetListEmptyToVisible" data-uid="H.ValueConverter.Converter.GetListEmptyToVisible">
+  GetListEmptyToVisible
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetListEmptyToVisible { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetMathAbs_" data-uid="H.ValueConverter.Converter.GetMathAbs*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetMathAbs" data-uid="H.ValueConverter.Converter.GetMathAbs">
+  GetMathAbs
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetMathAbs { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetMathAddition_" data-uid="H.ValueConverter.Converter.GetMathAddition*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetMathAddition" data-uid="H.ValueConverter.Converter.GetMathAddition">
+  GetMathAddition
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetMathAddition { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetMathCos_" data-uid="H.ValueConverter.Converter.GetMathCos*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetMathCos" data-uid="H.ValueConverter.Converter.GetMathCos">
+  GetMathCos
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetMathCos { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetMathExp_" data-uid="H.ValueConverter.Converter.GetMathExp*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetMathExp" data-uid="H.ValueConverter.Converter.GetMathExp">
+  GetMathExp
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetMathExp { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetMathFloor_" data-uid="H.ValueConverter.Converter.GetMathFloor*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetMathFloor" data-uid="H.ValueConverter.Converter.GetMathFloor">
+  GetMathFloor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetMathFloor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetMathLog_" data-uid="H.ValueConverter.Converter.GetMathLog*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetMathLog" data-uid="H.ValueConverter.Converter.GetMathLog">
+  GetMathLog
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetMathLog { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetMathMax_" data-uid="H.ValueConverter.Converter.GetMathMax*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetMathMax" data-uid="H.ValueConverter.Converter.GetMathMax">
+  GetMathMax
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetMathMax { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetMathMin_" data-uid="H.ValueConverter.Converter.GetMathMin*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetMathMin" data-uid="H.ValueConverter.Converter.GetMathMin">
+  GetMathMin
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetMathMin { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetMathMultiplication_" data-uid="H.ValueConverter.Converter.GetMathMultiplication*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetMathMultiplication" data-uid="H.ValueConverter.Converter.GetMathMultiplication">
+  GetMathMultiplication
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetMathMultiplication { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetMathPow_" data-uid="H.ValueConverter.Converter.GetMathPow*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetMathPow" data-uid="H.ValueConverter.Converter.GetMathPow">
+  GetMathPow
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetMathPow { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetMathRound_" data-uid="H.ValueConverter.Converter.GetMathRound*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetMathRound" data-uid="H.ValueConverter.Converter.GetMathRound">
+  GetMathRound
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetMathRound { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetMathSin_" data-uid="H.ValueConverter.Converter.GetMathSin*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetMathSin" data-uid="H.ValueConverter.Converter.GetMathSin">
+  GetMathSin
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetMathSin { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetMathSqrt_" data-uid="H.ValueConverter.Converter.GetMathSqrt*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetMathSqrt" data-uid="H.ValueConverter.Converter.GetMathSqrt">
+  GetMathSqrt
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetMathSqrt { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetMathTan_" data-uid="H.ValueConverter.Converter.GetMathTan*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetMathTan" data-uid="H.ValueConverter.Converter.GetMathTan">
+  GetMathTan
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetMathTan { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetNullToCollapsed_" data-uid="H.ValueConverter.Converter.GetNullToCollapsed*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetNullToCollapsed" data-uid="H.ValueConverter.Converter.GetNullToCollapsed">
+  GetNullToCollapsed
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetNullToCollapsed { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetNullToFalse_" data-uid="H.ValueConverter.Converter.GetNullToFalse*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetNullToFalse" data-uid="H.ValueConverter.Converter.GetNullToFalse">
+  GetNullToFalse
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetNullToFalse { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetNullToVisible_" data-uid="H.ValueConverter.Converter.GetNullToVisible*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetNullToVisible" data-uid="H.ValueConverter.Converter.GetNullToVisible">
+  GetNullToVisible
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetNullToVisible { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetObjType_" data-uid="H.ValueConverter.Converter.GetObjType*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetObjType" data-uid="H.ValueConverter.Converter.GetObjType">
+  GetObjType
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetObjType { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetObjTypeFullName_" data-uid="H.ValueConverter.Converter.GetObjTypeFullName*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetObjTypeFullName" data-uid="H.ValueConverter.Converter.GetObjTypeFullName">
+  GetObjTypeFullName
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetObjTypeFullName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetObjTypeName_" data-uid="H.ValueConverter.Converter.GetObjTypeName*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetObjTypeName" data-uid="H.ValueConverter.Converter.GetObjTypeName">
+  GetObjTypeName
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetObjTypeName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetPathRoot_" data-uid="H.ValueConverter.Converter.GetPathRoot*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetPathRoot" data-uid="H.ValueConverter.Converter.GetPathRoot">
+  GetPathRoot
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetPathRoot { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetPropertyInfoDiaplayName_" data-uid="H.ValueConverter.Converter.GetPropertyInfoDiaplayName*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetPropertyInfoDiaplayName" data-uid="H.ValueConverter.Converter.GetPropertyInfoDiaplayName">
+  GetPropertyInfoDiaplayName
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetPropertyInfoDiaplayName { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetSolidColorBrushToColor_" data-uid="H.ValueConverter.Converter.GetSolidColorBrushToColor*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetSolidColorBrushToColor" data-uid="H.ValueConverter.Converter.GetSolidColorBrushToColor">
+  GetSolidColorBrushToColor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetSolidColorBrushToColor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetStringContains_" data-uid="H.ValueConverter.Converter.GetStringContains*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetStringContains" data-uid="H.ValueConverter.Converter.GetStringContains">
+  GetStringContains
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetStringContains { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetStringEndsWith_" data-uid="H.ValueConverter.Converter.GetStringEndsWith*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetStringEndsWith" data-uid="H.ValueConverter.Converter.GetStringEndsWith">
+  GetStringEndsWith
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetStringEndsWith { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetStringFormat_" data-uid="H.ValueConverter.Converter.GetStringFormat*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetStringFormat" data-uid="H.ValueConverter.Converter.GetStringFormat">
+  GetStringFormat
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetStringFormat { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetStringIsNullOrEmpty_" data-uid="H.ValueConverter.Converter.GetStringIsNullOrEmpty*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetStringIsNullOrEmpty" data-uid="H.ValueConverter.Converter.GetStringIsNullOrEmpty">
+  GetStringIsNullOrEmpty
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetStringIsNullOrEmpty { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetStringJoin_" data-uid="H.ValueConverter.Converter.GetStringJoin*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetStringJoin" data-uid="H.ValueConverter.Converter.GetStringJoin">
+  GetStringJoin
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetStringJoin { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetStringPadLeft_" data-uid="H.ValueConverter.Converter.GetStringPadLeft*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetStringPadLeft" data-uid="H.ValueConverter.Converter.GetStringPadLeft">
+  GetStringPadLeft
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetStringPadLeft { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetStringPadRight_" data-uid="H.ValueConverter.Converter.GetStringPadRight*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetStringPadRight" data-uid="H.ValueConverter.Converter.GetStringPadRight">
+  GetStringPadRight
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetStringPadRight { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetStringSplit_" data-uid="H.ValueConverter.Converter.GetStringSplit*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetStringSplit" data-uid="H.ValueConverter.Converter.GetStringSplit">
+  GetStringSplit
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetStringSplit { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetStringStartsWith_" data-uid="H.ValueConverter.Converter.GetStringStartsWith*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetStringStartsWith" data-uid="H.ValueConverter.Converter.GetStringStartsWith">
+  GetStringStartsWith
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetStringStartsWith { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetStringSubstring_" data-uid="H.ValueConverter.Converter.GetStringSubstring*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetStringSubstring" data-uid="H.ValueConverter.Converter.GetStringSubstring">
+  GetStringSubstring
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetStringSubstring { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetStringToCharArray_" data-uid="H.ValueConverter.Converter.GetStringToCharArray*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetStringToCharArray" data-uid="H.ValueConverter.Converter.GetStringToCharArray">
+  GetStringToCharArray
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetStringToCharArray { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetStringToLower_" data-uid="H.ValueConverter.Converter.GetStringToLower*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetStringToLower" data-uid="H.ValueConverter.Converter.GetStringToLower">
+  GetStringToLower
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetStringToLower { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetStringToUpper_" data-uid="H.ValueConverter.Converter.GetStringToUpper*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetStringToUpper" data-uid="H.ValueConverter.Converter.GetStringToUpper">
+  GetStringToUpper
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetStringToUpper { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetStringTrim_" data-uid="H.ValueConverter.Converter.GetStringTrim*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetStringTrim" data-uid="H.ValueConverter.Converter.GetStringTrim">
+  GetStringTrim
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetStringTrim { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetTimeSpanStr_" data-uid="H.ValueConverter.Converter.GetTimeSpanStr*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetTimeSpanStr" data-uid="H.ValueConverter.Converter.GetTimeSpanStr">
+  GetTimeSpanStr
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetTimeSpanStr { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetTimeSpanStrFromDays_" data-uid="H.ValueConverter.Converter.GetTimeSpanStrFromDays*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetTimeSpanStrFromDays" data-uid="H.ValueConverter.Converter.GetTimeSpanStrFromDays">
+  GetTimeSpanStrFromDays
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetTimeSpanStrFromDays { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetTimeSpanStrFromHours_" data-uid="H.ValueConverter.Converter.GetTimeSpanStrFromHours*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetTimeSpanStrFromHours" data-uid="H.ValueConverter.Converter.GetTimeSpanStrFromHours">
+  GetTimeSpanStrFromHours
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetTimeSpanStrFromHours { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetTimeSpanStrFromMilliseconds_" data-uid="H.ValueConverter.Converter.GetTimeSpanStrFromMilliseconds*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetTimeSpanStrFromMilliseconds" data-uid="H.ValueConverter.Converter.GetTimeSpanStrFromMilliseconds">
+  GetTimeSpanStrFromMilliseconds
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetTimeSpanStrFromMilliseconds { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetTimeSpanStrFromMinutes_" data-uid="H.ValueConverter.Converter.GetTimeSpanStrFromMinutes*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetTimeSpanStrFromMinutes" data-uid="H.ValueConverter.Converter.GetTimeSpanStrFromMinutes">
+  GetTimeSpanStrFromMinutes
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetTimeSpanStrFromMinutes { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetTimeSpanStrFromSeconds_" data-uid="H.ValueConverter.Converter.GetTimeSpanStrFromSeconds*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetTimeSpanStrFromSeconds" data-uid="H.ValueConverter.Converter.GetTimeSpanStrFromSeconds">
+  GetTimeSpanStrFromSeconds
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetTimeSpanStrFromSeconds { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetTimeSpanStrFromTicks_" data-uid="H.ValueConverter.Converter.GetTimeSpanStrFromTicks*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetTimeSpanStrFromTicks" data-uid="H.ValueConverter.Converter.GetTimeSpanStrFromTicks">
+  GetTimeSpanStrFromTicks
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetTimeSpanStrFromTicks { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetTreeViewItemLevel_" data-uid="H.ValueConverter.Converter.GetTreeViewItemLevel*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetTreeViewItemLevel" data-uid="H.ValueConverter.Converter.GetTreeViewItemLevel">
+  GetTreeViewItemLevel
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ConverterBase&lt;TreeViewItem, int&gt; GetTreeViewItemLevel { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.ValueConverter.ConverterBase-2.html">ConverterBase</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.controls.treeviewitem">TreeViewItem</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetTreeViewItemMargin_" data-uid="H.ValueConverter.Converter.GetTreeViewItemMargin*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetTreeViewItemMargin" data-uid="H.ValueConverter.Converter.GetTreeViewItemMargin">
+  GetTreeViewItemMargin
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetTreeViewItemMargin { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetTrue_" data-uid="H.ValueConverter.Converter.GetTrue*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetTrue" data-uid="H.ValueConverter.Converter.GetTrue">
+  GetTrue
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetTrue { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetTrueAllToVisible_" data-uid="H.ValueConverter.Converter.GetTrueAllToVisible*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetTrueAllToVisible" data-uid="H.ValueConverter.Converter.GetTrueAllToVisible">
+  GetTrueAllToVisible
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IMultiValueConverter GetTrueAllToVisible { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.imultivalueconverter">IMultiValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetTrueToCollapsed_" data-uid="H.ValueConverter.Converter.GetTrueToCollapsed*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetTrueToCollapsed" data-uid="H.ValueConverter.Converter.GetTrueToCollapsed">
+  GetTrueToCollapsed
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetTrueToCollapsed { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetTrueToFalse_" data-uid="H.ValueConverter.Converter.GetTrueToFalse*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetTrueToFalse" data-uid="H.ValueConverter.Converter.GetTrueToFalse">
+  GetTrueToFalse
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetTrueToFalse { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetTrueToHidden_" data-uid="H.ValueConverter.Converter.GetTrueToHidden*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetTrueToHidden" data-uid="H.ValueConverter.Converter.GetTrueToHidden">
+  GetTrueToHidden
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetTrueToHidden { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetTrueToVisible_" data-uid="H.ValueConverter.Converter.GetTrueToVisible*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetTrueToVisible" data-uid="H.ValueConverter.Converter.GetTrueToVisible">
+  GetTrueToVisible
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetTrueToVisible { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetUri_" data-uid="H.ValueConverter.Converter.GetUri*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetUri" data-uid="H.ValueConverter.Converter.GetUri">
+  GetUri
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetUri { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetUriAbsolute_" data-uid="H.ValueConverter.Converter.GetUriAbsolute*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetUriAbsolute" data-uid="H.ValueConverter.Converter.GetUriAbsolute">
+  GetUriAbsolute
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetUriAbsolute { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetUriRelative_" data-uid="H.ValueConverter.Converter.GetUriRelative*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetUriRelative" data-uid="H.ValueConverter.Converter.GetUriRelative">
+  GetUriRelative
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetUriRelative { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_GetVisibleToTrue_" data-uid="H.ValueConverter.Converter.GetVisibleToTrue*"></a>
+
+  <h3 id="H_ValueConverter_Converter_GetVisibleToTrue" data-uid="H.ValueConverter.Converter.GetVisibleToTrue">
+  GetVisibleToTrue
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter GetVisibleToTrue { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_IsInterface_" data-uid="H.ValueConverter.Converter.IsInterface*"></a>
+
+  <h3 id="H_ValueConverter_Converter_IsInterface" data-uid="H.ValueConverter.Converter.IsInterface">
+  IsInterface
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IValueConverter IsInterface { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.data.ivalueconverter">IValueConverter</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="H_ValueConverter_Converter_TimespanToDislay_" data-uid="H.ValueConverter.Converter.TimespanToDislay*"></a>
+
+  <h3 id="H_ValueConverter_Converter_TimespanToDislay_System_TimeSpan_" data-uid="H.ValueConverter.Converter.TimespanToDislay(System.TimeSpan)">
+  TimespanToDislay(TimeSpan)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string TimespanToDislay(this TimeSpan t)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>t</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_ValueConverter_Converter_TimespanToString_" data-uid="H.ValueConverter.Converter.TimespanToString*"></a>
+
+  <h3 id="H_ValueConverter_Converter_TimespanToString_System_TimeSpan_" data-uid="H.ValueConverter.Converter.TimespanToString(System.TimeSpan)">
+  TimespanToString(TimeSpan)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string TimespanToString(this TimeSpan t)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>t</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

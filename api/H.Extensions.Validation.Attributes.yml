@@ -1,0 +1,69 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.Validation.Attributes
+  commentId: N:H.Extensions.Validation.Attributes
+  id: H.Extensions.Validation.Attributes
+  children:
+  - H.Extensions.Validation.Attributes.IPAddressAttribute
+  - H.Extensions.Validation.Attributes.TypeConverterValidationAttribute
+  langs:
+  - csharp
+  - vb
+  name: H.Extensions.Validation.Attributes
+  nameWithType: H.Extensions.Validation.Attributes
+  fullName: H.Extensions.Validation.Attributes
+  type: Namespace
+  assemblies:
+  - H.Extensions.Validation
+references:
+- uid: H.Extensions.Validation.Attributes.IPAddressAttribute
+  commentId: T:H.Extensions.Validation.Attributes.IPAddressAttribute
+  parent: H.Extensions.Validation.Attributes
+  href: H.Extensions.Validation.Attributes.IPAddressAttribute.html
+  name: IPAddressAttribute
+  nameWithType: IPAddressAttribute
+  fullName: H.Extensions.Validation.Attributes.IPAddressAttribute
+- uid: H.Extensions.Validation.Attributes.TypeConverterValidationAttribute
+  commentId: T:H.Extensions.Validation.Attributes.TypeConverterValidationAttribute
+  href: H.Extensions.Validation.Attributes.TypeConverterValidationAttribute.html
+  name: TypeConverterValidationAttribute
+  nameWithType: TypeConverterValidationAttribute
+  fullName: H.Extensions.Validation.Attributes.TypeConverterValidationAttribute
+- uid: H.Extensions.Validation.Attributes
+  commentId: N:H.Extensions.Validation.Attributes
+  href: H.html
+  name: H.Extensions.Validation.Attributes
+  nameWithType: H.Extensions.Validation.Attributes
+  fullName: H.Extensions.Validation.Attributes
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Validation
+    name: Validation
+    href: H.Extensions.Validation.html
+  - name: .
+  - uid: H.Extensions.Validation.Attributes
+    name: Attributes
+    href: H.Extensions.Validation.Attributes.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Validation
+    name: Validation
+    href: H.Extensions.Validation.html
+  - name: .
+  - uid: H.Extensions.Validation.Attributes
+    name: Attributes
+    href: H.Extensions.Validation.Attributes.html

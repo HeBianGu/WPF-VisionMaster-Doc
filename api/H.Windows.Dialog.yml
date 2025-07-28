@@ -1,0 +1,82 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Windows.Dialog
+  commentId: N:H.Windows.Dialog
+  id: H.Windows.Dialog
+  children:
+  - H.Windows.Dialog.DialogCommandBase
+  - H.Windows.Dialog.DialogKeys
+  - H.Windows.Dialog.DialogWindow
+  - H.Windows.Dialog.ShowIocDialogWindowCommand
+  - H.Windows.Dialog.SumitWindowCommand
+  langs:
+  - csharp
+  - vb
+  name: H.Windows.Dialog
+  nameWithType: H.Windows.Dialog
+  fullName: H.Windows.Dialog
+  type: Namespace
+  assemblies:
+  - H.Windows.Dialog
+references:
+- uid: H.Windows.Dialog.DialogCommandBase
+  commentId: T:H.Windows.Dialog.DialogCommandBase
+  parent: H.Windows.Dialog
+  href: H.Windows.Dialog.DialogCommandBase.html
+  name: DialogCommandBase
+  nameWithType: DialogCommandBase
+  fullName: H.Windows.Dialog.DialogCommandBase
+- uid: H.Windows.Dialog.DialogKeys
+  commentId: T:H.Windows.Dialog.DialogKeys
+  href: H.Windows.Dialog.DialogKeys.html
+  name: DialogKeys
+  nameWithType: DialogKeys
+  fullName: H.Windows.Dialog.DialogKeys
+- uid: H.Windows.Dialog.DialogWindow
+  commentId: T:H.Windows.Dialog.DialogWindow
+  href: H.Windows.Dialog.DialogWindow.html
+  name: DialogWindow
+  nameWithType: DialogWindow
+  fullName: H.Windows.Dialog.DialogWindow
+- uid: H.Windows.Dialog.ShowIocDialogWindowCommand
+  commentId: T:H.Windows.Dialog.ShowIocDialogWindowCommand
+  href: H.Windows.Dialog.ShowIocDialogWindowCommand.html
+  name: ShowIocDialogWindowCommand
+  nameWithType: ShowIocDialogWindowCommand
+  fullName: H.Windows.Dialog.ShowIocDialogWindowCommand
+- uid: H.Windows.Dialog.SumitWindowCommand
+  commentId: T:H.Windows.Dialog.SumitWindowCommand
+  href: H.Windows.Dialog.SumitWindowCommand.html
+  name: SumitWindowCommand
+  nameWithType: SumitWindowCommand
+  fullName: H.Windows.Dialog.SumitWindowCommand
+- uid: H.Windows.Dialog
+  commentId: N:H.Windows.Dialog
+  href: H.html
+  name: H.Windows.Dialog
+  nameWithType: H.Windows.Dialog
+  fullName: H.Windows.Dialog
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Windows
+    name: Windows
+    href: H.Windows.html
+  - name: .
+  - uid: H.Windows.Dialog
+    name: Dialog
+    href: H.Windows.Dialog.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Windows
+    name: Windows
+    href: H.Windows.html
+  - name: .
+  - uid: H.Windows.Dialog
+    name: Dialog
+    href: H.Windows.Dialog.html

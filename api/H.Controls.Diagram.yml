@@ -1,0 +1,153 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.Diagram
+  commentId: N:H.Controls.Diagram
+  id: H.Controls.Diagram
+  children:
+  - H.Controls.Diagram.DataConverterExtension
+  - H.Controls.Diagram.Diagram
+  - H.Controls.Diagram.DiagramCommands
+  - H.Controls.Diagram.DiagramEffectKey
+  - H.Controls.Diagram.DiagramExtension
+  - H.Controls.Diagram.DisplayPortMode
+  - H.Controls.Diagram.DockExtension
+  - H.Controls.Diagram.IDiagram
+  - H.Controls.Diagram.IDiagramDataSource
+  - H.Controls.Diagram.IFlowable
+  - H.Controls.Diagram.LinkMode
+  - H.Controls.Diagram.NodeExtension
+  - H.Controls.Diagram.NoteResizeAdorner
+  - H.Controls.Diagram.RemoveNodeCommand
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.Diagram
+  nameWithType: H.Controls.Diagram
+  fullName: H.Controls.Diagram
+  type: Namespace
+  assemblies:
+  - H.Controls.Diagram
+references:
+- uid: H.Controls.Diagram.RemoveNodeCommand
+  commentId: T:H.Controls.Diagram.RemoveNodeCommand
+  href: H.Controls.Diagram.RemoveNodeCommand.html
+  name: RemoveNodeCommand
+  nameWithType: RemoveNodeCommand
+  fullName: H.Controls.Diagram.RemoveNodeCommand
+- uid: H.Controls.Diagram.DataConverterExtension
+  commentId: T:H.Controls.Diagram.DataConverterExtension
+  href: H.Controls.Diagram.DataConverterExtension.html
+  name: DataConverterExtension
+  nameWithType: DataConverterExtension
+  fullName: H.Controls.Diagram.DataConverterExtension
+- uid: H.Controls.Diagram.IDiagram
+  commentId: T:H.Controls.Diagram.IDiagram
+  parent: H.Controls.Diagram
+  href: H.Controls.Diagram.IDiagram.html
+  name: IDiagram
+  nameWithType: IDiagram
+  fullName: H.Controls.Diagram.IDiagram
+- uid: H.Controls.Diagram.Diagram
+  commentId: T:H.Controls.Diagram.Diagram
+  parent: H.Controls.Diagram
+  href: H.Controls.Diagram.Diagram.html
+  name: Diagram
+  nameWithType: Diagram
+  fullName: H.Controls.Diagram.Diagram
+- uid: H.Controls.Diagram.DiagramCommands
+  commentId: T:H.Controls.Diagram.DiagramCommands
+  href: H.Controls.Diagram.DiagramCommands.html
+  name: DiagramCommands
+  nameWithType: DiagramCommands
+  fullName: H.Controls.Diagram.DiagramCommands
+- uid: H.Controls.Diagram.DiagramEffectKey
+  commentId: T:H.Controls.Diagram.DiagramEffectKey
+  href: H.Controls.Diagram.DiagramEffectKey.html
+  name: DiagramEffectKey
+  nameWithType: DiagramEffectKey
+  fullName: H.Controls.Diagram.DiagramEffectKey
+- uid: H.Controls.Diagram.DiagramExtension
+  commentId: T:H.Controls.Diagram.DiagramExtension
+  parent: H.Controls.Diagram
+  href: H.Controls.Diagram.DiagramExtension.html
+  name: DiagramExtension
+  nameWithType: DiagramExtension
+  fullName: H.Controls.Diagram.DiagramExtension
+- uid: H.Controls.Diagram.DisplayPortMode
+  commentId: T:H.Controls.Diagram.DisplayPortMode
+  parent: H.Controls.Diagram
+  href: H.Controls.Diagram.DisplayPortMode.html
+  name: DisplayPortMode
+  nameWithType: DisplayPortMode
+  fullName: H.Controls.Diagram.DisplayPortMode
+- uid: H.Controls.Diagram.DockExtension
+  commentId: T:H.Controls.Diagram.DockExtension
+  parent: H.Controls.Diagram
+  href: H.Controls.Diagram.DockExtension.html
+  name: DockExtension
+  nameWithType: DockExtension
+  fullName: H.Controls.Diagram.DockExtension
+- uid: H.Controls.Diagram.IDiagramDataSource
+  commentId: T:H.Controls.Diagram.IDiagramDataSource
+  parent: H.Controls.Diagram
+  href: H.Controls.Diagram.IDiagramDataSource.html
+  name: IDiagramDataSource
+  nameWithType: IDiagramDataSource
+  fullName: H.Controls.Diagram.IDiagramDataSource
+- uid: H.Controls.Diagram.IFlowable
+  commentId: T:H.Controls.Diagram.IFlowable
+  parent: H.Controls.Diagram
+  href: H.Controls.Diagram.IFlowable.html
+  name: IFlowable
+  nameWithType: IFlowable
+  fullName: H.Controls.Diagram.IFlowable
+- uid: H.Controls.Diagram.LinkMode
+  commentId: T:H.Controls.Diagram.LinkMode
+  parent: H.Controls.Diagram
+  href: H.Controls.Diagram.LinkMode.html
+  name: LinkMode
+  nameWithType: LinkMode
+  fullName: H.Controls.Diagram.LinkMode
+- uid: H.Controls.Diagram.NodeExtension
+  commentId: T:H.Controls.Diagram.NodeExtension
+  parent: H.Controls.Diagram
+  href: H.Controls.Diagram.NodeExtension.html
+  name: NodeExtension
+  nameWithType: NodeExtension
+  fullName: H.Controls.Diagram.NodeExtension
+- uid: H.Controls.Diagram.NoteResizeAdorner
+  commentId: T:H.Controls.Diagram.NoteResizeAdorner
+  href: H.Controls.Diagram.NoteResizeAdorner.html
+  name: NoteResizeAdorner
+  nameWithType: NoteResizeAdorner
+  fullName: H.Controls.Diagram.NoteResizeAdorner
+- uid: H.Controls.Diagram
+  commentId: N:H.Controls.Diagram
+  href: H.html
+  name: H.Controls.Diagram
+  nameWithType: H.Controls.Diagram
+  fullName: H.Controls.Diagram
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html

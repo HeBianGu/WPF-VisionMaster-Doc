@@ -1,0 +1,907 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.PropertyGrid.ResourceKeys
+  commentId: T:H.Controls.PropertyGrid.ResourceKeys
+  id: ResourceKeys
+  parent: H.Controls.PropertyGrid
+  children:
+  - H.Controls.PropertyGrid.ResourceKeys.ButtonDisabledOuterBorderKey
+  - H.Controls.PropertyGrid.ResourceKeys.ButtonFocusedBackgroundKey
+  - H.Controls.PropertyGrid.ResourceKeys.ButtonFocusedInnerBorderKey
+  - H.Controls.PropertyGrid.ResourceKeys.ButtonFocusedOuterBorderKey
+  - H.Controls.PropertyGrid.ResourceKeys.ButtonInnerBorderDisabledKey
+  - H.Controls.PropertyGrid.ResourceKeys.ButtonMouseOverBackgroundKey
+  - H.Controls.PropertyGrid.ResourceKeys.ButtonMouseOverInnerBorderKey
+  - H.Controls.PropertyGrid.ResourceKeys.ButtonMouseOverOuterBorderKey
+  - H.Controls.PropertyGrid.ResourceKeys.ButtonNormalBackgroundKey
+  - H.Controls.PropertyGrid.ResourceKeys.ButtonNormalInnerBorderKey
+  - H.Controls.PropertyGrid.ResourceKeys.ButtonNormalOuterBorderKey
+  - H.Controls.PropertyGrid.ResourceKeys.ButtonPressedBackgroundKey
+  - H.Controls.PropertyGrid.ResourceKeys.ButtonPressedInnerBorderKey
+  - H.Controls.PropertyGrid.ResourceKeys.ButtonPressedOuterBorderKey
+  - H.Controls.PropertyGrid.ResourceKeys.ControlDisabledBackgroundKey
+  - H.Controls.PropertyGrid.ResourceKeys.ControlFocusedBorderKey
+  - H.Controls.PropertyGrid.ResourceKeys.ControlMouseOverBorderKey
+  - H.Controls.PropertyGrid.ResourceKeys.ControlNormalBackgroundKey
+  - H.Controls.PropertyGrid.ResourceKeys.ControlNormalBorderKey
+  - H.Controls.PropertyGrid.ResourceKeys.ControlSelectedBorderKey
+  - H.Controls.PropertyGrid.ResourceKeys.GlyphDisabledForegroundKey
+  - H.Controls.PropertyGrid.ResourceKeys.GlyphNormalForegroundKey
+  - H.Controls.PropertyGrid.ResourceKeys.SpinButtonCornerRadiusKey
+  - H.Controls.PropertyGrid.ResourceKeys.SpinnerButtonStyleKey
+  langs:
+  - csharp
+  - vb
+  name: ResourceKeys
+  nameWithType: ResourceKeys
+  fullName: H.Controls.PropertyGrid.ResourceKeys
+  type: Class
+  source:
+    id: ResourceKeys
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Primitives\Themes\ResourceKeys.cs
+    startLine: 6
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid
+  syntax:
+    content: public static class ResourceKeys
+    content.vb: Public Module ResourceKeys
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: H.Controls.PropertyGrid.ResourceKeys.ControlNormalBackgroundKey
+  commentId: F:H.Controls.PropertyGrid.ResourceKeys.ControlNormalBackgroundKey
+  id: ControlNormalBackgroundKey
+  parent: H.Controls.PropertyGrid.ResourceKeys
+  langs:
+  - csharp
+  - vb
+  name: ControlNormalBackgroundKey
+  nameWithType: ResourceKeys.ControlNormalBackgroundKey
+  fullName: H.Controls.PropertyGrid.ResourceKeys.ControlNormalBackgroundKey
+  type: Field
+  source:
+    id: ControlNormalBackgroundKey
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Primitives\Themes\ResourceKeys.cs
+    startLine: 10
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid
+  syntax:
+    content: public static readonly ComponentResourceKey ControlNormalBackgroundKey
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly ControlNormalBackgroundKey As ComponentResourceKey
+- uid: H.Controls.PropertyGrid.ResourceKeys.ControlDisabledBackgroundKey
+  commentId: F:H.Controls.PropertyGrid.ResourceKeys.ControlDisabledBackgroundKey
+  id: ControlDisabledBackgroundKey
+  parent: H.Controls.PropertyGrid.ResourceKeys
+  langs:
+  - csharp
+  - vb
+  name: ControlDisabledBackgroundKey
+  nameWithType: ResourceKeys.ControlDisabledBackgroundKey
+  fullName: H.Controls.PropertyGrid.ResourceKeys.ControlDisabledBackgroundKey
+  type: Field
+  source:
+    id: ControlDisabledBackgroundKey
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Primitives\Themes\ResourceKeys.cs
+    startLine: 11
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid
+  syntax:
+    content: public static readonly ComponentResourceKey ControlDisabledBackgroundKey
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly ControlDisabledBackgroundKey As ComponentResourceKey
+- uid: H.Controls.PropertyGrid.ResourceKeys.ControlNormalBorderKey
+  commentId: F:H.Controls.PropertyGrid.ResourceKeys.ControlNormalBorderKey
+  id: ControlNormalBorderKey
+  parent: H.Controls.PropertyGrid.ResourceKeys
+  langs:
+  - csharp
+  - vb
+  name: ControlNormalBorderKey
+  nameWithType: ResourceKeys.ControlNormalBorderKey
+  fullName: H.Controls.PropertyGrid.ResourceKeys.ControlNormalBorderKey
+  type: Field
+  source:
+    id: ControlNormalBorderKey
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Primitives\Themes\ResourceKeys.cs
+    startLine: 12
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid
+  syntax:
+    content: public static readonly ComponentResourceKey ControlNormalBorderKey
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly ControlNormalBorderKey As ComponentResourceKey
+- uid: H.Controls.PropertyGrid.ResourceKeys.ControlMouseOverBorderKey
+  commentId: F:H.Controls.PropertyGrid.ResourceKeys.ControlMouseOverBorderKey
+  id: ControlMouseOverBorderKey
+  parent: H.Controls.PropertyGrid.ResourceKeys
+  langs:
+  - csharp
+  - vb
+  name: ControlMouseOverBorderKey
+  nameWithType: ResourceKeys.ControlMouseOverBorderKey
+  fullName: H.Controls.PropertyGrid.ResourceKeys.ControlMouseOverBorderKey
+  type: Field
+  source:
+    id: ControlMouseOverBorderKey
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Primitives\Themes\ResourceKeys.cs
+    startLine: 13
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid
+  syntax:
+    content: public static readonly ComponentResourceKey ControlMouseOverBorderKey
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly ControlMouseOverBorderKey As ComponentResourceKey
+- uid: H.Controls.PropertyGrid.ResourceKeys.ControlSelectedBorderKey
+  commentId: F:H.Controls.PropertyGrid.ResourceKeys.ControlSelectedBorderKey
+  id: ControlSelectedBorderKey
+  parent: H.Controls.PropertyGrid.ResourceKeys
+  langs:
+  - csharp
+  - vb
+  name: ControlSelectedBorderKey
+  nameWithType: ResourceKeys.ControlSelectedBorderKey
+  fullName: H.Controls.PropertyGrid.ResourceKeys.ControlSelectedBorderKey
+  type: Field
+  source:
+    id: ControlSelectedBorderKey
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Primitives\Themes\ResourceKeys.cs
+    startLine: 14
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid
+  syntax:
+    content: public static readonly ComponentResourceKey ControlSelectedBorderKey
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly ControlSelectedBorderKey As ComponentResourceKey
+- uid: H.Controls.PropertyGrid.ResourceKeys.ControlFocusedBorderKey
+  commentId: F:H.Controls.PropertyGrid.ResourceKeys.ControlFocusedBorderKey
+  id: ControlFocusedBorderKey
+  parent: H.Controls.PropertyGrid.ResourceKeys
+  langs:
+  - csharp
+  - vb
+  name: ControlFocusedBorderKey
+  nameWithType: ResourceKeys.ControlFocusedBorderKey
+  fullName: H.Controls.PropertyGrid.ResourceKeys.ControlFocusedBorderKey
+  type: Field
+  source:
+    id: ControlFocusedBorderKey
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Primitives\Themes\ResourceKeys.cs
+    startLine: 15
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid
+  syntax:
+    content: public static readonly ComponentResourceKey ControlFocusedBorderKey
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly ControlFocusedBorderKey As ComponentResourceKey
+- uid: H.Controls.PropertyGrid.ResourceKeys.ButtonNormalOuterBorderKey
+  commentId: F:H.Controls.PropertyGrid.ResourceKeys.ButtonNormalOuterBorderKey
+  id: ButtonNormalOuterBorderKey
+  parent: H.Controls.PropertyGrid.ResourceKeys
+  langs:
+  - csharp
+  - vb
+  name: ButtonNormalOuterBorderKey
+  nameWithType: ResourceKeys.ButtonNormalOuterBorderKey
+  fullName: H.Controls.PropertyGrid.ResourceKeys.ButtonNormalOuterBorderKey
+  type: Field
+  source:
+    id: ButtonNormalOuterBorderKey
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Primitives\Themes\ResourceKeys.cs
+    startLine: 17
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid
+  syntax:
+    content: public static readonly ComponentResourceKey ButtonNormalOuterBorderKey
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly ButtonNormalOuterBorderKey As ComponentResourceKey
+- uid: H.Controls.PropertyGrid.ResourceKeys.ButtonNormalInnerBorderKey
+  commentId: F:H.Controls.PropertyGrid.ResourceKeys.ButtonNormalInnerBorderKey
+  id: ButtonNormalInnerBorderKey
+  parent: H.Controls.PropertyGrid.ResourceKeys
+  langs:
+  - csharp
+  - vb
+  name: ButtonNormalInnerBorderKey
+  nameWithType: ResourceKeys.ButtonNormalInnerBorderKey
+  fullName: H.Controls.PropertyGrid.ResourceKeys.ButtonNormalInnerBorderKey
+  type: Field
+  source:
+    id: ButtonNormalInnerBorderKey
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Primitives\Themes\ResourceKeys.cs
+    startLine: 18
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid
+  syntax:
+    content: public static readonly ComponentResourceKey ButtonNormalInnerBorderKey
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly ButtonNormalInnerBorderKey As ComponentResourceKey
+- uid: H.Controls.PropertyGrid.ResourceKeys.ButtonNormalBackgroundKey
+  commentId: F:H.Controls.PropertyGrid.ResourceKeys.ButtonNormalBackgroundKey
+  id: ButtonNormalBackgroundKey
+  parent: H.Controls.PropertyGrid.ResourceKeys
+  langs:
+  - csharp
+  - vb
+  name: ButtonNormalBackgroundKey
+  nameWithType: ResourceKeys.ButtonNormalBackgroundKey
+  fullName: H.Controls.PropertyGrid.ResourceKeys.ButtonNormalBackgroundKey
+  type: Field
+  source:
+    id: ButtonNormalBackgroundKey
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Primitives\Themes\ResourceKeys.cs
+    startLine: 19
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid
+  syntax:
+    content: public static readonly ComponentResourceKey ButtonNormalBackgroundKey
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly ButtonNormalBackgroundKey As ComponentResourceKey
+- uid: H.Controls.PropertyGrid.ResourceKeys.ButtonMouseOverBackgroundKey
+  commentId: F:H.Controls.PropertyGrid.ResourceKeys.ButtonMouseOverBackgroundKey
+  id: ButtonMouseOverBackgroundKey
+  parent: H.Controls.PropertyGrid.ResourceKeys
+  langs:
+  - csharp
+  - vb
+  name: ButtonMouseOverBackgroundKey
+  nameWithType: ResourceKeys.ButtonMouseOverBackgroundKey
+  fullName: H.Controls.PropertyGrid.ResourceKeys.ButtonMouseOverBackgroundKey
+  type: Field
+  source:
+    id: ButtonMouseOverBackgroundKey
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Primitives\Themes\ResourceKeys.cs
+    startLine: 21
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid
+  syntax:
+    content: public static readonly ComponentResourceKey ButtonMouseOverBackgroundKey
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly ButtonMouseOverBackgroundKey As ComponentResourceKey
+- uid: H.Controls.PropertyGrid.ResourceKeys.ButtonMouseOverOuterBorderKey
+  commentId: F:H.Controls.PropertyGrid.ResourceKeys.ButtonMouseOverOuterBorderKey
+  id: ButtonMouseOverOuterBorderKey
+  parent: H.Controls.PropertyGrid.ResourceKeys
+  langs:
+  - csharp
+  - vb
+  name: ButtonMouseOverOuterBorderKey
+  nameWithType: ResourceKeys.ButtonMouseOverOuterBorderKey
+  fullName: H.Controls.PropertyGrid.ResourceKeys.ButtonMouseOverOuterBorderKey
+  type: Field
+  source:
+    id: ButtonMouseOverOuterBorderKey
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Primitives\Themes\ResourceKeys.cs
+    startLine: 22
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid
+  syntax:
+    content: public static readonly ComponentResourceKey ButtonMouseOverOuterBorderKey
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly ButtonMouseOverOuterBorderKey As ComponentResourceKey
+- uid: H.Controls.PropertyGrid.ResourceKeys.ButtonMouseOverInnerBorderKey
+  commentId: F:H.Controls.PropertyGrid.ResourceKeys.ButtonMouseOverInnerBorderKey
+  id: ButtonMouseOverInnerBorderKey
+  parent: H.Controls.PropertyGrid.ResourceKeys
+  langs:
+  - csharp
+  - vb
+  name: ButtonMouseOverInnerBorderKey
+  nameWithType: ResourceKeys.ButtonMouseOverInnerBorderKey
+  fullName: H.Controls.PropertyGrid.ResourceKeys.ButtonMouseOverInnerBorderKey
+  type: Field
+  source:
+    id: ButtonMouseOverInnerBorderKey
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Primitives\Themes\ResourceKeys.cs
+    startLine: 23
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid
+  syntax:
+    content: public static readonly ComponentResourceKey ButtonMouseOverInnerBorderKey
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly ButtonMouseOverInnerBorderKey As ComponentResourceKey
+- uid: H.Controls.PropertyGrid.ResourceKeys.ButtonPressedOuterBorderKey
+  commentId: F:H.Controls.PropertyGrid.ResourceKeys.ButtonPressedOuterBorderKey
+  id: ButtonPressedOuterBorderKey
+  parent: H.Controls.PropertyGrid.ResourceKeys
+  langs:
+  - csharp
+  - vb
+  name: ButtonPressedOuterBorderKey
+  nameWithType: ResourceKeys.ButtonPressedOuterBorderKey
+  fullName: H.Controls.PropertyGrid.ResourceKeys.ButtonPressedOuterBorderKey
+  type: Field
+  source:
+    id: ButtonPressedOuterBorderKey
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Primitives\Themes\ResourceKeys.cs
+    startLine: 25
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid
+  syntax:
+    content: public static readonly ComponentResourceKey ButtonPressedOuterBorderKey
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly ButtonPressedOuterBorderKey As ComponentResourceKey
+- uid: H.Controls.PropertyGrid.ResourceKeys.ButtonPressedInnerBorderKey
+  commentId: F:H.Controls.PropertyGrid.ResourceKeys.ButtonPressedInnerBorderKey
+  id: ButtonPressedInnerBorderKey
+  parent: H.Controls.PropertyGrid.ResourceKeys
+  langs:
+  - csharp
+  - vb
+  name: ButtonPressedInnerBorderKey
+  nameWithType: ResourceKeys.ButtonPressedInnerBorderKey
+  fullName: H.Controls.PropertyGrid.ResourceKeys.ButtonPressedInnerBorderKey
+  type: Field
+  source:
+    id: ButtonPressedInnerBorderKey
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Primitives\Themes\ResourceKeys.cs
+    startLine: 26
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid
+  syntax:
+    content: public static readonly ComponentResourceKey ButtonPressedInnerBorderKey
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly ButtonPressedInnerBorderKey As ComponentResourceKey
+- uid: H.Controls.PropertyGrid.ResourceKeys.ButtonPressedBackgroundKey
+  commentId: F:H.Controls.PropertyGrid.ResourceKeys.ButtonPressedBackgroundKey
+  id: ButtonPressedBackgroundKey
+  parent: H.Controls.PropertyGrid.ResourceKeys
+  langs:
+  - csharp
+  - vb
+  name: ButtonPressedBackgroundKey
+  nameWithType: ResourceKeys.ButtonPressedBackgroundKey
+  fullName: H.Controls.PropertyGrid.ResourceKeys.ButtonPressedBackgroundKey
+  type: Field
+  source:
+    id: ButtonPressedBackgroundKey
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Primitives\Themes\ResourceKeys.cs
+    startLine: 27
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid
+  syntax:
+    content: public static readonly ComponentResourceKey ButtonPressedBackgroundKey
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly ButtonPressedBackgroundKey As ComponentResourceKey
+- uid: H.Controls.PropertyGrid.ResourceKeys.ButtonFocusedOuterBorderKey
+  commentId: F:H.Controls.PropertyGrid.ResourceKeys.ButtonFocusedOuterBorderKey
+  id: ButtonFocusedOuterBorderKey
+  parent: H.Controls.PropertyGrid.ResourceKeys
+  langs:
+  - csharp
+  - vb
+  name: ButtonFocusedOuterBorderKey
+  nameWithType: ResourceKeys.ButtonFocusedOuterBorderKey
+  fullName: H.Controls.PropertyGrid.ResourceKeys.ButtonFocusedOuterBorderKey
+  type: Field
+  source:
+    id: ButtonFocusedOuterBorderKey
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Primitives\Themes\ResourceKeys.cs
+    startLine: 29
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid
+  syntax:
+    content: public static readonly ComponentResourceKey ButtonFocusedOuterBorderKey
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly ButtonFocusedOuterBorderKey As ComponentResourceKey
+- uid: H.Controls.PropertyGrid.ResourceKeys.ButtonFocusedInnerBorderKey
+  commentId: F:H.Controls.PropertyGrid.ResourceKeys.ButtonFocusedInnerBorderKey
+  id: ButtonFocusedInnerBorderKey
+  parent: H.Controls.PropertyGrid.ResourceKeys
+  langs:
+  - csharp
+  - vb
+  name: ButtonFocusedInnerBorderKey
+  nameWithType: ResourceKeys.ButtonFocusedInnerBorderKey
+  fullName: H.Controls.PropertyGrid.ResourceKeys.ButtonFocusedInnerBorderKey
+  type: Field
+  source:
+    id: ButtonFocusedInnerBorderKey
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Primitives\Themes\ResourceKeys.cs
+    startLine: 30
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid
+  syntax:
+    content: public static readonly ComponentResourceKey ButtonFocusedInnerBorderKey
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly ButtonFocusedInnerBorderKey As ComponentResourceKey
+- uid: H.Controls.PropertyGrid.ResourceKeys.ButtonFocusedBackgroundKey
+  commentId: F:H.Controls.PropertyGrid.ResourceKeys.ButtonFocusedBackgroundKey
+  id: ButtonFocusedBackgroundKey
+  parent: H.Controls.PropertyGrid.ResourceKeys
+  langs:
+  - csharp
+  - vb
+  name: ButtonFocusedBackgroundKey
+  nameWithType: ResourceKeys.ButtonFocusedBackgroundKey
+  fullName: H.Controls.PropertyGrid.ResourceKeys.ButtonFocusedBackgroundKey
+  type: Field
+  source:
+    id: ButtonFocusedBackgroundKey
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Primitives\Themes\ResourceKeys.cs
+    startLine: 31
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid
+  syntax:
+    content: public static readonly ComponentResourceKey ButtonFocusedBackgroundKey
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly ButtonFocusedBackgroundKey As ComponentResourceKey
+- uid: H.Controls.PropertyGrid.ResourceKeys.ButtonDisabledOuterBorderKey
+  commentId: F:H.Controls.PropertyGrid.ResourceKeys.ButtonDisabledOuterBorderKey
+  id: ButtonDisabledOuterBorderKey
+  parent: H.Controls.PropertyGrid.ResourceKeys
+  langs:
+  - csharp
+  - vb
+  name: ButtonDisabledOuterBorderKey
+  nameWithType: ResourceKeys.ButtonDisabledOuterBorderKey
+  fullName: H.Controls.PropertyGrid.ResourceKeys.ButtonDisabledOuterBorderKey
+  type: Field
+  source:
+    id: ButtonDisabledOuterBorderKey
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Primitives\Themes\ResourceKeys.cs
+    startLine: 33
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid
+  syntax:
+    content: public static readonly ComponentResourceKey ButtonDisabledOuterBorderKey
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly ButtonDisabledOuterBorderKey As ComponentResourceKey
+- uid: H.Controls.PropertyGrid.ResourceKeys.ButtonInnerBorderDisabledKey
+  commentId: F:H.Controls.PropertyGrid.ResourceKeys.ButtonInnerBorderDisabledKey
+  id: ButtonInnerBorderDisabledKey
+  parent: H.Controls.PropertyGrid.ResourceKeys
+  langs:
+  - csharp
+  - vb
+  name: ButtonInnerBorderDisabledKey
+  nameWithType: ResourceKeys.ButtonInnerBorderDisabledKey
+  fullName: H.Controls.PropertyGrid.ResourceKeys.ButtonInnerBorderDisabledKey
+  type: Field
+  source:
+    id: ButtonInnerBorderDisabledKey
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Primitives\Themes\ResourceKeys.cs
+    startLine: 34
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid
+  syntax:
+    content: public static readonly ComponentResourceKey ButtonInnerBorderDisabledKey
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly ButtonInnerBorderDisabledKey As ComponentResourceKey
+- uid: H.Controls.PropertyGrid.ResourceKeys.GlyphNormalForegroundKey
+  commentId: F:H.Controls.PropertyGrid.ResourceKeys.GlyphNormalForegroundKey
+  id: GlyphNormalForegroundKey
+  parent: H.Controls.PropertyGrid.ResourceKeys
+  langs:
+  - csharp
+  - vb
+  name: GlyphNormalForegroundKey
+  nameWithType: ResourceKeys.GlyphNormalForegroundKey
+  fullName: H.Controls.PropertyGrid.ResourceKeys.GlyphNormalForegroundKey
+  type: Field
+  source:
+    id: GlyphNormalForegroundKey
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Primitives\Themes\ResourceKeys.cs
+    startLine: 38
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid
+  syntax:
+    content: public static readonly ComponentResourceKey GlyphNormalForegroundKey
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly GlyphNormalForegroundKey As ComponentResourceKey
+- uid: H.Controls.PropertyGrid.ResourceKeys.GlyphDisabledForegroundKey
+  commentId: F:H.Controls.PropertyGrid.ResourceKeys.GlyphDisabledForegroundKey
+  id: GlyphDisabledForegroundKey
+  parent: H.Controls.PropertyGrid.ResourceKeys
+  langs:
+  - csharp
+  - vb
+  name: GlyphDisabledForegroundKey
+  nameWithType: ResourceKeys.GlyphDisabledForegroundKey
+  fullName: H.Controls.PropertyGrid.ResourceKeys.GlyphDisabledForegroundKey
+  type: Field
+  source:
+    id: GlyphDisabledForegroundKey
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Primitives\Themes\ResourceKeys.cs
+    startLine: 39
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid
+  syntax:
+    content: public static readonly ComponentResourceKey GlyphDisabledForegroundKey
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly GlyphDisabledForegroundKey As ComponentResourceKey
+- uid: H.Controls.PropertyGrid.ResourceKeys.SpinButtonCornerRadiusKey
+  commentId: F:H.Controls.PropertyGrid.ResourceKeys.SpinButtonCornerRadiusKey
+  id: SpinButtonCornerRadiusKey
+  parent: H.Controls.PropertyGrid.ResourceKeys
+  langs:
+  - csharp
+  - vb
+  name: SpinButtonCornerRadiusKey
+  nameWithType: ResourceKeys.SpinButtonCornerRadiusKey
+  fullName: H.Controls.PropertyGrid.ResourceKeys.SpinButtonCornerRadiusKey
+  type: Field
+  source:
+    id: SpinButtonCornerRadiusKey
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Primitives\Themes\ResourceKeys.cs
+    startLine: 41
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid
+  syntax:
+    content: public static readonly ComponentResourceKey SpinButtonCornerRadiusKey
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly SpinButtonCornerRadiusKey As ComponentResourceKey
+- uid: H.Controls.PropertyGrid.ResourceKeys.SpinnerButtonStyleKey
+  commentId: F:H.Controls.PropertyGrid.ResourceKeys.SpinnerButtonStyleKey
+  id: SpinnerButtonStyleKey
+  parent: H.Controls.PropertyGrid.ResourceKeys
+  langs:
+  - csharp
+  - vb
+  name: SpinnerButtonStyleKey
+  nameWithType: ResourceKeys.SpinnerButtonStyleKey
+  fullName: H.Controls.PropertyGrid.ResourceKeys.SpinnerButtonStyleKey
+  type: Field
+  source:
+    id: SpinnerButtonStyleKey
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Primitives\Themes\ResourceKeys.cs
+    startLine: 43
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid
+  syntax:
+    content: public static readonly ComponentResourceKey SpinnerButtonStyleKey
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly SpinnerButtonStyleKey As ComponentResourceKey
+references:
+- uid: H.Controls.PropertyGrid
+  commentId: N:H.Controls.PropertyGrid
+  href: H.html
+  name: H.Controls.PropertyGrid
+  nameWithType: H.Controls.PropertyGrid
+  fullName: H.Controls.PropertyGrid
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.PropertyGrid
+    name: PropertyGrid
+    href: H.Controls.PropertyGrid.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.PropertyGrid
+    name: PropertyGrid
+    href: H.Controls.PropertyGrid.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Windows.ComponentResourceKey
+  commentId: T:System.Windows.ComponentResourceKey
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.componentresourcekey
+  name: ComponentResourceKey
+  nameWithType: ComponentResourceKey
+  fullName: System.Windows.ComponentResourceKey
+- uid: System.Windows
+  commentId: N:System.Windows
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows
+  nameWithType: System.Windows
+  fullName: System.Windows
+  spec.csharp:
+  - uid: System
+    name: System
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  spec.vb:
+  - uid: System
+    name: System
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    href: https://learn.microsoft.com/dotnet/api/system.windows

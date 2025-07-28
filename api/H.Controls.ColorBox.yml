@@ -1,0 +1,82 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.ColorBox
+  commentId: N:H.Controls.ColorBox
+  id: H.Controls.ColorBox
+  children:
+  - H.Controls.ColorBox.ColorBox
+  - H.Controls.ColorBox.ColorBoxService
+  - H.Controls.ColorBox.ColorBoxSetting
+  - H.Controls.ColorBox.ColorSourceExtension
+  - H.Controls.ColorBox.IColorBoxService
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.ColorBox
+  nameWithType: H.Controls.ColorBox
+  fullName: H.Controls.ColorBox
+  type: Namespace
+  assemblies:
+  - H.Controls.ColorBox
+references:
+- uid: H.Controls.ColorBox.ColorBox
+  commentId: T:H.Controls.ColorBox.ColorBox
+  href: H.Controls.ColorBox.ColorBox.html
+  name: ColorBox
+  nameWithType: ColorBox
+  fullName: H.Controls.ColorBox.ColorBox
+- uid: H.Controls.ColorBox.ColorSourceExtension
+  commentId: T:H.Controls.ColorBox.ColorSourceExtension
+  href: H.Controls.ColorBox.ColorSourceExtension.html
+  name: ColorSourceExtension
+  nameWithType: ColorSourceExtension
+  fullName: H.Controls.ColorBox.ColorSourceExtension
+- uid: H.Controls.ColorBox.ColorBoxService
+  commentId: T:H.Controls.ColorBox.ColorBoxService
+  href: H.Controls.ColorBox.ColorBoxService.html
+  name: ColorBoxService
+  nameWithType: ColorBoxService
+  fullName: H.Controls.ColorBox.ColorBoxService
+- uid: H.Controls.ColorBox.IColorBoxService
+  commentId: T:H.Controls.ColorBox.IColorBoxService
+  parent: H.Controls.ColorBox
+  href: H.Controls.ColorBox.IColorBoxService.html
+  name: IColorBoxService
+  nameWithType: IColorBoxService
+  fullName: H.Controls.ColorBox.IColorBoxService
+- uid: H.Controls.ColorBox.ColorBoxSetting
+  commentId: T:H.Controls.ColorBox.ColorBoxSetting
+  href: H.Controls.ColorBox.ColorBoxSetting.html
+  name: ColorBoxSetting
+  nameWithType: ColorBoxSetting
+  fullName: H.Controls.ColorBox.ColorBoxSetting
+- uid: H.Controls.ColorBox
+  commentId: N:H.Controls.ColorBox
+  href: H.html
+  name: H.Controls.ColorBox
+  nameWithType: H.Controls.ColorBox
+  fullName: H.Controls.ColorBox
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.ColorBox
+    name: ColorBox
+    href: H.Controls.ColorBox.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.ColorBox
+    name: ColorBox
+    href: H.Controls.ColorBox.html

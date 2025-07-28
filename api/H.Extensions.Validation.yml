@@ -1,0 +1,139 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.Validation
+  commentId: N:H.Extensions.Validation
+  id: H.Extensions.Validation
+  children:
+  - H.Extensions.Validation.ValidationModelViewModel`1
+  - H.Extensions.Validation.ValidationPropertyBase
+  - H.Extensions.Validation.ValidationPropertyChangedBase
+  - H.Extensions.Validation.ValidationProperty`1
+  - H.Extensions.Validation.ValidationSelectedViewModel`1
+  langs:
+  - csharp
+  - vb
+  name: H.Extensions.Validation
+  nameWithType: H.Extensions.Validation
+  fullName: H.Extensions.Validation
+  type: Namespace
+  assemblies:
+  - H.Extensions.Validation
+references:
+- uid: H.Extensions.Validation.ValidationModelViewModel`1
+  commentId: T:H.Extensions.Validation.ValidationModelViewModel`1
+  href: H.Extensions.Validation.ValidationModelViewModel-1.html
+  name: ValidationModelViewModel<T>
+  nameWithType: ValidationModelViewModel<T>
+  fullName: H.Extensions.Validation.ValidationModelViewModel<T>
+  nameWithType.vb: ValidationModelViewModel(Of T)
+  fullName.vb: H.Extensions.Validation.ValidationModelViewModel(Of T)
+  name.vb: ValidationModelViewModel(Of T)
+  spec.csharp:
+  - uid: H.Extensions.Validation.ValidationModelViewModel`1
+    name: ValidationModelViewModel
+    href: H.Extensions.Validation.ValidationModelViewModel-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Extensions.Validation.ValidationModelViewModel`1
+    name: ValidationModelViewModel
+    href: H.Extensions.Validation.ValidationModelViewModel-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Extensions.Validation.ValidationProperty`1
+  commentId: T:H.Extensions.Validation.ValidationProperty`1
+  href: H.Extensions.Validation.ValidationProperty-1.html
+  name: ValidationProperty<V>
+  nameWithType: ValidationProperty<V>
+  fullName: H.Extensions.Validation.ValidationProperty<V>
+  nameWithType.vb: ValidationProperty(Of V)
+  fullName.vb: H.Extensions.Validation.ValidationProperty(Of V)
+  name.vb: ValidationProperty(Of V)
+  spec.csharp:
+  - uid: H.Extensions.Validation.ValidationProperty`1
+    name: ValidationProperty
+    href: H.Extensions.Validation.ValidationProperty-1.html
+  - name: <
+  - name: V
+  - name: '>'
+  spec.vb:
+  - uid: H.Extensions.Validation.ValidationProperty`1
+    name: ValidationProperty
+    href: H.Extensions.Validation.ValidationProperty-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: V
+  - name: )
+- uid: H.Extensions.Validation.ValidationPropertyBase
+  commentId: T:H.Extensions.Validation.ValidationPropertyBase
+  parent: H.Extensions.Validation
+  href: H.Extensions.Validation.ValidationPropertyBase.html
+  name: ValidationPropertyBase
+  nameWithType: ValidationPropertyBase
+  fullName: H.Extensions.Validation.ValidationPropertyBase
+- uid: H.Extensions.Validation.ValidationPropertyChangedBase
+  commentId: T:H.Extensions.Validation.ValidationPropertyChangedBase
+  href: H.Extensions.Validation.ValidationPropertyChangedBase.html
+  name: ValidationPropertyChangedBase
+  nameWithType: ValidationPropertyChangedBase
+  fullName: H.Extensions.Validation.ValidationPropertyChangedBase
+- uid: H.Extensions.Validation.ValidationSelectedViewModel`1
+  commentId: T:H.Extensions.Validation.ValidationSelectedViewModel`1
+  href: H.Extensions.Validation.ValidationSelectedViewModel-1.html
+  name: ValidationSelectedViewModel<T>
+  nameWithType: ValidationSelectedViewModel<T>
+  fullName: H.Extensions.Validation.ValidationSelectedViewModel<T>
+  nameWithType.vb: ValidationSelectedViewModel(Of T)
+  fullName.vb: H.Extensions.Validation.ValidationSelectedViewModel(Of T)
+  name.vb: ValidationSelectedViewModel(Of T)
+  spec.csharp:
+  - uid: H.Extensions.Validation.ValidationSelectedViewModel`1
+    name: ValidationSelectedViewModel
+    href: H.Extensions.Validation.ValidationSelectedViewModel-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Extensions.Validation.ValidationSelectedViewModel`1
+    name: ValidationSelectedViewModel
+    href: H.Extensions.Validation.ValidationSelectedViewModel-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Extensions.Validation
+  commentId: N:H.Extensions.Validation
+  href: H.html
+  name: H.Extensions.Validation
+  nameWithType: H.Extensions.Validation
+  fullName: H.Extensions.Validation
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Validation
+    name: Validation
+    href: H.Extensions.Validation.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Validation
+    name: Validation
+    href: H.Extensions.Validation.html

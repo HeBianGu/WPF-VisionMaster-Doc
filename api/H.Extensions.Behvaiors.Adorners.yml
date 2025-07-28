@@ -1,0 +1,138 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.Behvaiors.Adorners
+  commentId: N:H.Extensions.Behvaiors.Adorners
+  id: H.Extensions.Behvaiors.Adorners
+  children:
+  - H.Extensions.Behvaiors.Adorners.AdornerBehaviorBase
+  - H.Extensions.Behvaiors.Adorners.DragOverHitTestAdornerBehavior
+  - H.Extensions.Behvaiors.Adorners.HitTestAdornerBehavior
+  - H.Extensions.Behvaiors.Adorners.IGetDragAdorner
+  - H.Extensions.Behvaiors.Adorners.IGetDropAdorner
+  - H.Extensions.Behvaiors.Adorners.IHitTestElementDrag
+  - H.Extensions.Behvaiors.Adorners.IHitTestElementDrop
+  - H.Extensions.Behvaiors.Adorners.LoadedAdornerBehavior
+  - H.Extensions.Behvaiors.Adorners.MouseOverAdornerBehavior
+  - H.Extensions.Behvaiors.Adorners.MouseOverHitTestAdornerBehavior
+  - H.Extensions.Behvaiors.Adorners.SelectedHitTestAdornerBehavior
+  langs:
+  - csharp
+  - vb
+  name: H.Extensions.Behvaiors.Adorners
+  nameWithType: H.Extensions.Behvaiors.Adorners
+  fullName: H.Extensions.Behvaiors.Adorners
+  type: Namespace
+  assemblies:
+  - H.Extensions.Behvaiors
+references:
+- uid: H.Extensions.Behvaiors.Adorners.AdornerBehaviorBase
+  commentId: T:H.Extensions.Behvaiors.Adorners.AdornerBehaviorBase
+  parent: H.Extensions.Behvaiors.Adorners
+  href: H.Extensions.Behvaiors.Adorners.AdornerBehaviorBase.html
+  name: AdornerBehaviorBase
+  nameWithType: AdornerBehaviorBase
+  fullName: H.Extensions.Behvaiors.Adorners.AdornerBehaviorBase
+- uid: H.Extensions.Behvaiors.Adorners.IHitTestElementDrag
+  commentId: T:H.Extensions.Behvaiors.Adorners.IHitTestElementDrag
+  parent: H.Extensions.Behvaiors.Adorners
+  href: H.Extensions.Behvaiors.Adorners.IHitTestElementDrag.html
+  name: IHitTestElementDrag
+  nameWithType: IHitTestElementDrag
+  fullName: H.Extensions.Behvaiors.Adorners.IHitTestElementDrag
+- uid: H.Extensions.Behvaiors.Adorners.IGetDropAdorner
+  commentId: T:H.Extensions.Behvaiors.Adorners.IGetDropAdorner
+  parent: H.Extensions.Behvaiors.Adorners
+  href: H.Extensions.Behvaiors.Adorners.IGetDropAdorner.html
+  name: IGetDropAdorner
+  nameWithType: IGetDropAdorner
+  fullName: H.Extensions.Behvaiors.Adorners.IGetDropAdorner
+- uid: H.Extensions.Behvaiors.Adorners.IGetDragAdorner
+  commentId: T:H.Extensions.Behvaiors.Adorners.IGetDragAdorner
+  parent: H.Extensions.Behvaiors.Adorners
+  href: H.Extensions.Behvaiors.Adorners.IGetDragAdorner.html
+  name: IGetDragAdorner
+  nameWithType: IGetDragAdorner
+  fullName: H.Extensions.Behvaiors.Adorners.IGetDragAdorner
+- uid: H.Extensions.Behvaiors.Adorners.IHitTestElementDrop
+  commentId: T:H.Extensions.Behvaiors.Adorners.IHitTestElementDrop
+  parent: H.Extensions.Behvaiors.Adorners
+  href: H.Extensions.Behvaiors.Adorners.IHitTestElementDrop.html
+  name: IHitTestElementDrop
+  nameWithType: IHitTestElementDrop
+  fullName: H.Extensions.Behvaiors.Adorners.IHitTestElementDrop
+- uid: H.Extensions.Behvaiors.Adorners.HitTestAdornerBehavior
+  commentId: T:H.Extensions.Behvaiors.Adorners.HitTestAdornerBehavior
+  parent: H.Extensions.Behvaiors.Adorners
+  href: H.Extensions.Behvaiors.Adorners.HitTestAdornerBehavior.html
+  name: HitTestAdornerBehavior
+  nameWithType: HitTestAdornerBehavior
+  fullName: H.Extensions.Behvaiors.Adorners.HitTestAdornerBehavior
+- uid: H.Extensions.Behvaiors.Adorners.DragOverHitTestAdornerBehavior
+  commentId: T:H.Extensions.Behvaiors.Adorners.DragOverHitTestAdornerBehavior
+  href: H.Extensions.Behvaiors.Adorners.DragOverHitTestAdornerBehavior.html
+  name: DragOverHitTestAdornerBehavior
+  nameWithType: DragOverHitTestAdornerBehavior
+  fullName: H.Extensions.Behvaiors.Adorners.DragOverHitTestAdornerBehavior
+- uid: H.Extensions.Behvaiors.Adorners.MouseOverHitTestAdornerBehavior
+  commentId: T:H.Extensions.Behvaiors.Adorners.MouseOverHitTestAdornerBehavior
+  href: H.Extensions.Behvaiors.Adorners.MouseOverHitTestAdornerBehavior.html
+  name: MouseOverHitTestAdornerBehavior
+  nameWithType: MouseOverHitTestAdornerBehavior
+  fullName: H.Extensions.Behvaiors.Adorners.MouseOverHitTestAdornerBehavior
+- uid: H.Extensions.Behvaiors.Adorners.SelectedHitTestAdornerBehavior
+  commentId: T:H.Extensions.Behvaiors.Adorners.SelectedHitTestAdornerBehavior
+  parent: H.Extensions.Behvaiors.Adorners
+  href: H.Extensions.Behvaiors.Adorners.SelectedHitTestAdornerBehavior.html
+  name: SelectedHitTestAdornerBehavior
+  nameWithType: SelectedHitTestAdornerBehavior
+  fullName: H.Extensions.Behvaiors.Adorners.SelectedHitTestAdornerBehavior
+- uid: H.Extensions.Behvaiors.Adorners.LoadedAdornerBehavior
+  commentId: T:H.Extensions.Behvaiors.Adorners.LoadedAdornerBehavior
+  href: H.Extensions.Behvaiors.Adorners.LoadedAdornerBehavior.html
+  name: LoadedAdornerBehavior
+  nameWithType: LoadedAdornerBehavior
+  fullName: H.Extensions.Behvaiors.Adorners.LoadedAdornerBehavior
+- uid: H.Extensions.Behvaiors.Adorners.MouseOverAdornerBehavior
+  commentId: T:H.Extensions.Behvaiors.Adorners.MouseOverAdornerBehavior
+  href: H.Extensions.Behvaiors.Adorners.MouseOverAdornerBehavior.html
+  name: MouseOverAdornerBehavior
+  nameWithType: MouseOverAdornerBehavior
+  fullName: H.Extensions.Behvaiors.Adorners.MouseOverAdornerBehavior
+- uid: H.Extensions.Behvaiors.Adorners
+  commentId: N:H.Extensions.Behvaiors.Adorners
+  href: H.html
+  name: H.Extensions.Behvaiors.Adorners
+  nameWithType: H.Extensions.Behvaiors.Adorners
+  fullName: H.Extensions.Behvaiors.Adorners
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Behvaiors
+    name: Behvaiors
+    href: H.Extensions.Behvaiors.html
+  - name: .
+  - uid: H.Extensions.Behvaiors.Adorners
+    name: Adorners
+    href: H.Extensions.Behvaiors.Adorners.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Behvaiors
+    name: Behvaiors
+    href: H.Extensions.Behvaiors.html
+  - name: .
+  - uid: H.Extensions.Behvaiors.Adorners
+    name: Adorners
+    href: H.Extensions.Behvaiors.Adorners.html

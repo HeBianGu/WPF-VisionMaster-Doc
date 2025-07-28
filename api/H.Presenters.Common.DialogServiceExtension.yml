@@ -1,0 +1,2072 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Presenters.Common.DialogServiceExtension
+  commentId: T:H.Presenters.Common.DialogServiceExtension
+  id: DialogServiceExtension
+  parent: H.Presenters.Common
+  children:
+  - H.Presenters.Common.DialogServiceExtension.ShowDataGrid(H.Services.Message.Dialog.IDialogMessageService,System.Action{H.Presenters.Common.IItemsSourcePresenter},System.Action{H.Presenters.Common.IItemsSourcePresenter},System.Action{H.Services.Message.Dialog.IDialog},System.Func{H.Presenters.Common.IItemsSourcePresenter,System.Threading.Tasks.Task{System.Boolean}})
+  - H.Presenters.Common.DialogServiceExtension.ShowFilePathTextBox(H.Services.Message.Dialog.IDialogMessageService,System.Action{H.Presenters.Common.IFilePathTextBoxPresenter},System.Action{H.Presenters.Common.IFilePathTextBoxPresenter},System.Action{H.Services.Message.Dialog.IDialog},System.Func{H.Presenters.Common.IFilePathTextBoxPresenter,System.Threading.Tasks.Task{System.Boolean}})
+  - H.Presenters.Common.DialogServiceExtension.ShowImageSource(H.Services.Message.Dialog.IDialogMessageService,System.Action{H.Presenters.Common.IImageFilePathPresenter},System.Action{H.Presenters.Common.IImageFilePathPresenter},System.Action{H.Services.Message.Dialog.IDialog},System.Func{H.Presenters.Common.IImageFilePathPresenter,System.Threading.Tasks.Task{System.Boolean}})
+  - H.Presenters.Common.DialogServiceExtension.ShowImageSource(H.Services.Message.Dialog.IDialogMessageService,System.Action{H.Presenters.Common.IImageViewPresenter},System.Action{H.Services.Message.Dialog.IDialog})
+  - H.Presenters.Common.DialogServiceExtension.ShowImageSource(H.Services.Message.Dialog.IDialogMessageService,System.String,System.Action{H.Services.Message.Dialog.IDialog})
+  - H.Presenters.Common.DialogServiceExtension.ShowImageSource(H.Services.Message.Dialog.IDialogMessageService,System.String,System.Action{System.String},System.Action{H.Services.Message.Dialog.IDialog},System.Func{H.Presenters.Common.IImageFilePathPresenter,System.Threading.Tasks.Task{System.Boolean}})
+  - H.Presenters.Common.DialogServiceExtension.ShowImageSource(H.Services.Message.Dialog.IDialogMessageService,System.Windows.Media.ImageSource,System.Action{H.Services.Message.Dialog.IDialog})
+  - H.Presenters.Common.DialogServiceExtension.ShowItemsControl(H.Services.Message.Dialog.IDialogMessageService,System.Action{H.Presenters.Common.IItemsSourcePresenter},System.Action{H.Presenters.Common.IItemsSourcePresenter},System.Action{H.Services.Message.Dialog.IDialog},System.Func{H.Presenters.Common.IItemsSourcePresenter,System.Threading.Tasks.Task{System.Boolean}})
+  - H.Presenters.Common.DialogServiceExtension.ShowListBox(H.Services.Message.Dialog.IDialogMessageService,System.Action{H.Presenters.Common.IListBoxPresenter},System.Action{H.Presenters.Common.IListBoxPresenter},System.Action{H.Services.Message.Dialog.IDialog},System.Func{H.Presenters.Common.IListBoxPresenter,System.Threading.Tasks.Task{System.Boolean}})
+  - H.Presenters.Common.DialogServiceExtension.ShowListBox``1(H.Services.Message.Dialog.IDialogMessageService,System.Action{H.Presenters.Common.IListBoxPresenter},System.Action{H.Presenters.Common.IListBoxPresenter},System.Action{H.Services.Message.Dialog.IDialog},System.Func{H.Presenters.Common.IListBoxPresenter,System.Threading.Tasks.Task{System.Boolean}})
+  - H.Presenters.Common.DialogServiceExtension.ShowPasswordBox(H.Services.Message.Dialog.IDialogMessageService,System.Action{H.Presenters.Common.IPasswordBoxPresenter},System.Action{H.Presenters.Common.IPasswordBoxPresenter},System.Action{H.Services.Message.Dialog.IDialog},System.Func{H.Presenters.Common.IPasswordBoxPresenter,System.Threading.Tasks.Task{System.Boolean}})
+  - H.Presenters.Common.DialogServiceExtension.ShowPasswordBox(H.Services.Message.Dialog.IDialogMessageService,System.String,System.Action{System.String},System.Action{H.Services.Message.Dialog.IDialog},System.Func{H.Presenters.Common.IPasswordBoxPresenter,System.Threading.Tasks.Task{System.Boolean}})
+  - H.Presenters.Common.DialogServiceExtension.ShowTextBox(H.Services.Message.Dialog.IDialogMessageService,System.Action{H.Presenters.Common.ITextBoxPresenter},System.Action{H.Presenters.Common.ITextBoxPresenter},System.Action{H.Services.Message.Dialog.IDialog},System.Func{H.Presenters.Common.ITextBoxPresenter,System.Threading.Tasks.Task{System.Boolean}})
+  - H.Presenters.Common.DialogServiceExtension.ShowTextBox(H.Services.Message.Dialog.IDialogMessageService,System.String,System.Action{System.String},System.Action{H.Services.Message.Dialog.IDialog},System.Func{H.Presenters.Common.ITextBoxPresenter,System.Threading.Tasks.Task{System.Boolean}})
+  - H.Presenters.Common.DialogServiceExtension.ShowTextBox``1(H.Services.Message.Dialog.IDialogMessageService,``0,System.Action{``0},System.Action{H.Services.Message.Dialog.IDialog},System.Func{H.Presenters.Common.ITextBoxPresenter,System.Threading.Tasks.Task{System.Boolean}})
+  - H.Presenters.Common.DialogServiceExtension.ShowTreeView(H.Services.Message.Dialog.IDialogMessageService,System.Action{H.Presenters.Common.ITreeViewPresenter},System.Action{H.Presenters.Common.ITreeViewPresenter},System.Action{H.Services.Message.Dialog.IDialog},System.Func{H.Presenters.Common.ITreeViewPresenter,System.Threading.Tasks.Task{System.Boolean}})
+  langs:
+  - csharp
+  - vb
+  name: DialogServiceExtension
+  nameWithType: DialogServiceExtension
+  fullName: H.Presenters.Common.DialogServiceExtension
+  type: Class
+  source:
+    id: DialogServiceExtension
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Presenters\H.Presenters.Common\TreeViewPresenter.xaml.cs
+    startLine: 49
+  assemblies:
+  - H.Presenters.Common
+  namespace: H.Presenters.Common
+  syntax:
+    content: public static class DialogServiceExtension
+    content.vb: Public Module DialogServiceExtension
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: H.Presenters.Common.DialogServiceExtension.ShowDataGrid(H.Services.Message.Dialog.IDialogMessageService,System.Action{H.Presenters.Common.IItemsSourcePresenter},System.Action{H.Presenters.Common.IItemsSourcePresenter},System.Action{H.Services.Message.Dialog.IDialog},System.Func{H.Presenters.Common.IItemsSourcePresenter,System.Threading.Tasks.Task{System.Boolean}})
+  commentId: M:H.Presenters.Common.DialogServiceExtension.ShowDataGrid(H.Services.Message.Dialog.IDialogMessageService,System.Action{H.Presenters.Common.IItemsSourcePresenter},System.Action{H.Presenters.Common.IItemsSourcePresenter},System.Action{H.Services.Message.Dialog.IDialog},System.Func{H.Presenters.Common.IItemsSourcePresenter,System.Threading.Tasks.Task{System.Boolean}})
+  id: ShowDataGrid(H.Services.Message.Dialog.IDialogMessageService,System.Action{H.Presenters.Common.IItemsSourcePresenter},System.Action{H.Presenters.Common.IItemsSourcePresenter},System.Action{H.Services.Message.Dialog.IDialog},System.Func{H.Presenters.Common.IItemsSourcePresenter,System.Threading.Tasks.Task{System.Boolean}})
+  isExtensionMethod: true
+  parent: H.Presenters.Common.DialogServiceExtension
+  langs:
+  - csharp
+  - vb
+  name: ShowDataGrid(IDialogMessageService, Action<IItemsSourcePresenter>, Action<IItemsSourcePresenter>, Action<IDialog>, Func<IItemsSourcePresenter, Task<bool>>)
+  nameWithType: DialogServiceExtension.ShowDataGrid(IDialogMessageService, Action<IItemsSourcePresenter>, Action<IItemsSourcePresenter>, Action<IDialog>, Func<IItemsSourcePresenter, Task<bool>>)
+  fullName: H.Presenters.Common.DialogServiceExtension.ShowDataGrid(H.Services.Message.Dialog.IDialogMessageService, System.Action<H.Presenters.Common.IItemsSourcePresenter>, System.Action<H.Presenters.Common.IItemsSourcePresenter>, System.Action<H.Services.Message.Dialog.IDialog>, System.Func<H.Presenters.Common.IItemsSourcePresenter, System.Threading.Tasks.Task<bool>>)
+  type: Method
+  source:
+    id: ShowDataGrid
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Presenters\H.Presenters.Common\DataGridPresenter.xaml.cs
+    startLine: 27
+  assemblies:
+  - H.Presenters.Common
+  namespace: H.Presenters.Common
+  syntax:
+    content: public static Task<bool?> ShowDataGrid(this IDialogMessageService service, Action<IItemsSourcePresenter> option, Action<IItemsSourcePresenter> sumitAction = null, Action<IDialog> builder = null, Func<IItemsSourcePresenter, Task<bool>> canSumit = null)
+    parameters:
+    - id: service
+      type: H.Services.Message.Dialog.IDialogMessageService
+    - id: option
+      type: System.Action{H.Presenters.Common.IItemsSourcePresenter}
+    - id: sumitAction
+      type: System.Action{H.Presenters.Common.IItemsSourcePresenter}
+    - id: builder
+      type: System.Action{H.Services.Message.Dialog.IDialog}
+    - id: canSumit
+      type: System.Func{H.Presenters.Common.IItemsSourcePresenter,System.Threading.Tasks.Task{System.Boolean}}
+    return:
+      type: System.Threading.Tasks.Task{System.Nullable{System.Boolean}}
+    content.vb: Public Shared Function ShowDataGrid(service As IDialogMessageService, [option] As Action(Of IItemsSourcePresenter), sumitAction As Action(Of IItemsSourcePresenter) = Nothing, builder As Action(Of IDialog) = Nothing, canSumit As Func(Of IItemsSourcePresenter, Task(Of Boolean)) = Nothing) As Task(Of Boolean?)
+  overload: H.Presenters.Common.DialogServiceExtension.ShowDataGrid*
+  nameWithType.vb: DialogServiceExtension.ShowDataGrid(IDialogMessageService, Action(Of IItemsSourcePresenter), Action(Of IItemsSourcePresenter), Action(Of IDialog), Func(Of IItemsSourcePresenter, Task(Of Boolean)))
+  fullName.vb: H.Presenters.Common.DialogServiceExtension.ShowDataGrid(H.Services.Message.Dialog.IDialogMessageService, System.Action(Of H.Presenters.Common.IItemsSourcePresenter), System.Action(Of H.Presenters.Common.IItemsSourcePresenter), System.Action(Of H.Services.Message.Dialog.IDialog), System.Func(Of H.Presenters.Common.IItemsSourcePresenter, System.Threading.Tasks.Task(Of Boolean)))
+  name.vb: ShowDataGrid(IDialogMessageService, Action(Of IItemsSourcePresenter), Action(Of IItemsSourcePresenter), Action(Of IDialog), Func(Of IItemsSourcePresenter, Task(Of Boolean)))
+- uid: H.Presenters.Common.DialogServiceExtension.ShowFilePathTextBox(H.Services.Message.Dialog.IDialogMessageService,System.Action{H.Presenters.Common.IFilePathTextBoxPresenter},System.Action{H.Presenters.Common.IFilePathTextBoxPresenter},System.Action{H.Services.Message.Dialog.IDialog},System.Func{H.Presenters.Common.IFilePathTextBoxPresenter,System.Threading.Tasks.Task{System.Boolean}})
+  commentId: M:H.Presenters.Common.DialogServiceExtension.ShowFilePathTextBox(H.Services.Message.Dialog.IDialogMessageService,System.Action{H.Presenters.Common.IFilePathTextBoxPresenter},System.Action{H.Presenters.Common.IFilePathTextBoxPresenter},System.Action{H.Services.Message.Dialog.IDialog},System.Func{H.Presenters.Common.IFilePathTextBoxPresenter,System.Threading.Tasks.Task{System.Boolean}})
+  id: ShowFilePathTextBox(H.Services.Message.Dialog.IDialogMessageService,System.Action{H.Presenters.Common.IFilePathTextBoxPresenter},System.Action{H.Presenters.Common.IFilePathTextBoxPresenter},System.Action{H.Services.Message.Dialog.IDialog},System.Func{H.Presenters.Common.IFilePathTextBoxPresenter,System.Threading.Tasks.Task{System.Boolean}})
+  isExtensionMethod: true
+  parent: H.Presenters.Common.DialogServiceExtension
+  langs:
+  - csharp
+  - vb
+  name: ShowFilePathTextBox(IDialogMessageService, Action<IFilePathTextBoxPresenter>, Action<IFilePathTextBoxPresenter>, Action<IDialog>, Func<IFilePathTextBoxPresenter, Task<bool>>)
+  nameWithType: DialogServiceExtension.ShowFilePathTextBox(IDialogMessageService, Action<IFilePathTextBoxPresenter>, Action<IFilePathTextBoxPresenter>, Action<IDialog>, Func<IFilePathTextBoxPresenter, Task<bool>>)
+  fullName: H.Presenters.Common.DialogServiceExtension.ShowFilePathTextBox(H.Services.Message.Dialog.IDialogMessageService, System.Action<H.Presenters.Common.IFilePathTextBoxPresenter>, System.Action<H.Presenters.Common.IFilePathTextBoxPresenter>, System.Action<H.Services.Message.Dialog.IDialog>, System.Func<H.Presenters.Common.IFilePathTextBoxPresenter, System.Threading.Tasks.Task<bool>>)
+  type: Method
+  source:
+    id: ShowFilePathTextBox
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Presenters\H.Presenters.Common\FilePathTextBoxPresenter.xaml.cs
+    startLine: 36
+  assemblies:
+  - H.Presenters.Common
+  namespace: H.Presenters.Common
+  syntax:
+    content: public static Task<bool?> ShowFilePathTextBox(this IDialogMessageService service, Action<IFilePathTextBoxPresenter> option, Action<IFilePathTextBoxPresenter> sumitAction, Action<IDialog> builder = null, Func<IFilePathTextBoxPresenter, Task<bool>> canSumit = null)
+    parameters:
+    - id: service
+      type: H.Services.Message.Dialog.IDialogMessageService
+    - id: option
+      type: System.Action{H.Presenters.Common.IFilePathTextBoxPresenter}
+    - id: sumitAction
+      type: System.Action{H.Presenters.Common.IFilePathTextBoxPresenter}
+    - id: builder
+      type: System.Action{H.Services.Message.Dialog.IDialog}
+    - id: canSumit
+      type: System.Func{H.Presenters.Common.IFilePathTextBoxPresenter,System.Threading.Tasks.Task{System.Boolean}}
+    return:
+      type: System.Threading.Tasks.Task{System.Nullable{System.Boolean}}
+    content.vb: Public Shared Function ShowFilePathTextBox(service As IDialogMessageService, [option] As Action(Of IFilePathTextBoxPresenter), sumitAction As Action(Of IFilePathTextBoxPresenter), builder As Action(Of IDialog) = Nothing, canSumit As Func(Of IFilePathTextBoxPresenter, Task(Of Boolean)) = Nothing) As Task(Of Boolean?)
+  overload: H.Presenters.Common.DialogServiceExtension.ShowFilePathTextBox*
+  nameWithType.vb: DialogServiceExtension.ShowFilePathTextBox(IDialogMessageService, Action(Of IFilePathTextBoxPresenter), Action(Of IFilePathTextBoxPresenter), Action(Of IDialog), Func(Of IFilePathTextBoxPresenter, Task(Of Boolean)))
+  fullName.vb: H.Presenters.Common.DialogServiceExtension.ShowFilePathTextBox(H.Services.Message.Dialog.IDialogMessageService, System.Action(Of H.Presenters.Common.IFilePathTextBoxPresenter), System.Action(Of H.Presenters.Common.IFilePathTextBoxPresenter), System.Action(Of H.Services.Message.Dialog.IDialog), System.Func(Of H.Presenters.Common.IFilePathTextBoxPresenter, System.Threading.Tasks.Task(Of Boolean)))
+  name.vb: ShowFilePathTextBox(IDialogMessageService, Action(Of IFilePathTextBoxPresenter), Action(Of IFilePathTextBoxPresenter), Action(Of IDialog), Func(Of IFilePathTextBoxPresenter, Task(Of Boolean)))
+- uid: H.Presenters.Common.DialogServiceExtension.ShowImageSource(H.Services.Message.Dialog.IDialogMessageService,System.Action{H.Presenters.Common.IImageFilePathPresenter},System.Action{H.Presenters.Common.IImageFilePathPresenter},System.Action{H.Services.Message.Dialog.IDialog},System.Func{H.Presenters.Common.IImageFilePathPresenter,System.Threading.Tasks.Task{System.Boolean}})
+  commentId: M:H.Presenters.Common.DialogServiceExtension.ShowImageSource(H.Services.Message.Dialog.IDialogMessageService,System.Action{H.Presenters.Common.IImageFilePathPresenter},System.Action{H.Presenters.Common.IImageFilePathPresenter},System.Action{H.Services.Message.Dialog.IDialog},System.Func{H.Presenters.Common.IImageFilePathPresenter,System.Threading.Tasks.Task{System.Boolean}})
+  id: ShowImageSource(H.Services.Message.Dialog.IDialogMessageService,System.Action{H.Presenters.Common.IImageFilePathPresenter},System.Action{H.Presenters.Common.IImageFilePathPresenter},System.Action{H.Services.Message.Dialog.IDialog},System.Func{H.Presenters.Common.IImageFilePathPresenter,System.Threading.Tasks.Task{System.Boolean}})
+  isExtensionMethod: true
+  parent: H.Presenters.Common.DialogServiceExtension
+  langs:
+  - csharp
+  - vb
+  name: ShowImageSource(IDialogMessageService, Action<IImageFilePathPresenter>, Action<IImageFilePathPresenter>, Action<IDialog>, Func<IImageFilePathPresenter, Task<bool>>)
+  nameWithType: DialogServiceExtension.ShowImageSource(IDialogMessageService, Action<IImageFilePathPresenter>, Action<IImageFilePathPresenter>, Action<IDialog>, Func<IImageFilePathPresenter, Task<bool>>)
+  fullName: H.Presenters.Common.DialogServiceExtension.ShowImageSource(H.Services.Message.Dialog.IDialogMessageService, System.Action<H.Presenters.Common.IImageFilePathPresenter>, System.Action<H.Presenters.Common.IImageFilePathPresenter>, System.Action<H.Services.Message.Dialog.IDialog>, System.Func<H.Presenters.Common.IImageFilePathPresenter, System.Threading.Tasks.Task<bool>>)
+  type: Method
+  source:
+    id: ShowImageSource
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Presenters\H.Presenters.Common\ImageFilePathPresenter.xaml.cs
+    startLine: 46
+  assemblies:
+  - H.Presenters.Common
+  namespace: H.Presenters.Common
+  syntax:
+    content: public static Task<bool?> ShowImageSource(this IDialogMessageService service, Action<IImageFilePathPresenter> option, Action<IImageFilePathPresenter> sumitAction, Action<IDialog> builder = null, Func<IImageFilePathPresenter, Task<bool>> canSumit = null)
+    parameters:
+    - id: service
+      type: H.Services.Message.Dialog.IDialogMessageService
+    - id: option
+      type: System.Action{H.Presenters.Common.IImageFilePathPresenter}
+    - id: sumitAction
+      type: System.Action{H.Presenters.Common.IImageFilePathPresenter}
+    - id: builder
+      type: System.Action{H.Services.Message.Dialog.IDialog}
+    - id: canSumit
+      type: System.Func{H.Presenters.Common.IImageFilePathPresenter,System.Threading.Tasks.Task{System.Boolean}}
+    return:
+      type: System.Threading.Tasks.Task{System.Nullable{System.Boolean}}
+    content.vb: Public Shared Function ShowImageSource(service As IDialogMessageService, [option] As Action(Of IImageFilePathPresenter), sumitAction As Action(Of IImageFilePathPresenter), builder As Action(Of IDialog) = Nothing, canSumit As Func(Of IImageFilePathPresenter, Task(Of Boolean)) = Nothing) As Task(Of Boolean?)
+  overload: H.Presenters.Common.DialogServiceExtension.ShowImageSource*
+  nameWithType.vb: DialogServiceExtension.ShowImageSource(IDialogMessageService, Action(Of IImageFilePathPresenter), Action(Of IImageFilePathPresenter), Action(Of IDialog), Func(Of IImageFilePathPresenter, Task(Of Boolean)))
+  fullName.vb: H.Presenters.Common.DialogServiceExtension.ShowImageSource(H.Services.Message.Dialog.IDialogMessageService, System.Action(Of H.Presenters.Common.IImageFilePathPresenter), System.Action(Of H.Presenters.Common.IImageFilePathPresenter), System.Action(Of H.Services.Message.Dialog.IDialog), System.Func(Of H.Presenters.Common.IImageFilePathPresenter, System.Threading.Tasks.Task(Of Boolean)))
+  name.vb: ShowImageSource(IDialogMessageService, Action(Of IImageFilePathPresenter), Action(Of IImageFilePathPresenter), Action(Of IDialog), Func(Of IImageFilePathPresenter, Task(Of Boolean)))
+- uid: H.Presenters.Common.DialogServiceExtension.ShowImageSource(H.Services.Message.Dialog.IDialogMessageService,System.String,System.Action{System.String},System.Action{H.Services.Message.Dialog.IDialog},System.Func{H.Presenters.Common.IImageFilePathPresenter,System.Threading.Tasks.Task{System.Boolean}})
+  commentId: M:H.Presenters.Common.DialogServiceExtension.ShowImageSource(H.Services.Message.Dialog.IDialogMessageService,System.String,System.Action{System.String},System.Action{H.Services.Message.Dialog.IDialog},System.Func{H.Presenters.Common.IImageFilePathPresenter,System.Threading.Tasks.Task{System.Boolean}})
+  id: ShowImageSource(H.Services.Message.Dialog.IDialogMessageService,System.String,System.Action{System.String},System.Action{H.Services.Message.Dialog.IDialog},System.Func{H.Presenters.Common.IImageFilePathPresenter,System.Threading.Tasks.Task{System.Boolean}})
+  isExtensionMethod: true
+  parent: H.Presenters.Common.DialogServiceExtension
+  langs:
+  - csharp
+  - vb
+  name: ShowImageSource(IDialogMessageService, string, Action<string>, Action<IDialog>, Func<IImageFilePathPresenter, Task<bool>>)
+  nameWithType: DialogServiceExtension.ShowImageSource(IDialogMessageService, string, Action<string>, Action<IDialog>, Func<IImageFilePathPresenter, Task<bool>>)
+  fullName: H.Presenters.Common.DialogServiceExtension.ShowImageSource(H.Services.Message.Dialog.IDialogMessageService, string, System.Action<string>, System.Action<H.Services.Message.Dialog.IDialog>, System.Func<H.Presenters.Common.IImageFilePathPresenter, System.Threading.Tasks.Task<bool>>)
+  type: Method
+  source:
+    id: ShowImageSource
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Presenters\H.Presenters.Common\ImageFilePathPresenter.xaml.cs
+    startLine: 55
+  assemblies:
+  - H.Presenters.Common
+  namespace: H.Presenters.Common
+  syntax:
+    content: public static Task<bool?> ShowImageSource(this IDialogMessageService service, string filePath, Action<string> sumitAction, Action<IDialog> builder = null, Func<IImageFilePathPresenter, Task<bool>> canSumit = null)
+    parameters:
+    - id: service
+      type: H.Services.Message.Dialog.IDialogMessageService
+    - id: filePath
+      type: System.String
+    - id: sumitAction
+      type: System.Action{System.String}
+    - id: builder
+      type: System.Action{H.Services.Message.Dialog.IDialog}
+    - id: canSumit
+      type: System.Func{H.Presenters.Common.IImageFilePathPresenter,System.Threading.Tasks.Task{System.Boolean}}
+    return:
+      type: System.Threading.Tasks.Task{System.Nullable{System.Boolean}}
+    content.vb: Public Shared Function ShowImageSource(service As IDialogMessageService, filePath As String, sumitAction As Action(Of String), builder As Action(Of IDialog) = Nothing, canSumit As Func(Of IImageFilePathPresenter, Task(Of Boolean)) = Nothing) As Task(Of Boolean?)
+  overload: H.Presenters.Common.DialogServiceExtension.ShowImageSource*
+  nameWithType.vb: DialogServiceExtension.ShowImageSource(IDialogMessageService, String, Action(Of String), Action(Of IDialog), Func(Of IImageFilePathPresenter, Task(Of Boolean)))
+  fullName.vb: H.Presenters.Common.DialogServiceExtension.ShowImageSource(H.Services.Message.Dialog.IDialogMessageService, String, System.Action(Of String), System.Action(Of H.Services.Message.Dialog.IDialog), System.Func(Of H.Presenters.Common.IImageFilePathPresenter, System.Threading.Tasks.Task(Of Boolean)))
+  name.vb: ShowImageSource(IDialogMessageService, String, Action(Of String), Action(Of IDialog), Func(Of IImageFilePathPresenter, Task(Of Boolean)))
+- uid: H.Presenters.Common.DialogServiceExtension.ShowImageSource(H.Services.Message.Dialog.IDialogMessageService,System.Action{H.Presenters.Common.IImageViewPresenter},System.Action{H.Services.Message.Dialog.IDialog})
+  commentId: M:H.Presenters.Common.DialogServiceExtension.ShowImageSource(H.Services.Message.Dialog.IDialogMessageService,System.Action{H.Presenters.Common.IImageViewPresenter},System.Action{H.Services.Message.Dialog.IDialog})
+  id: ShowImageSource(H.Services.Message.Dialog.IDialogMessageService,System.Action{H.Presenters.Common.IImageViewPresenter},System.Action{H.Services.Message.Dialog.IDialog})
+  isExtensionMethod: true
+  parent: H.Presenters.Common.DialogServiceExtension
+  langs:
+  - csharp
+  - vb
+  name: ShowImageSource(IDialogMessageService, Action<IImageViewPresenter>, Action<IDialog>)
+  nameWithType: DialogServiceExtension.ShowImageSource(IDialogMessageService, Action<IImageViewPresenter>, Action<IDialog>)
+  fullName: H.Presenters.Common.DialogServiceExtension.ShowImageSource(H.Services.Message.Dialog.IDialogMessageService, System.Action<H.Presenters.Common.IImageViewPresenter>, System.Action<H.Services.Message.Dialog.IDialog>)
+  type: Method
+  source:
+    id: ShowImageSource
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Presenters\H.Presenters.Common\ImageViewPresenter.xaml.cs
+    startLine: 35
+  assemblies:
+  - H.Presenters.Common
+  namespace: H.Presenters.Common
+  syntax:
+    content: public static Task<bool?> ShowImageSource(this IDialogMessageService service, Action<IImageViewPresenter> option, Action<IDialog> builder = null)
+    parameters:
+    - id: service
+      type: H.Services.Message.Dialog.IDialogMessageService
+    - id: option
+      type: System.Action{H.Presenters.Common.IImageViewPresenter}
+    - id: builder
+      type: System.Action{H.Services.Message.Dialog.IDialog}
+    return:
+      type: System.Threading.Tasks.Task{System.Nullable{System.Boolean}}
+    content.vb: Public Shared Function ShowImageSource(service As IDialogMessageService, [option] As Action(Of IImageViewPresenter), builder As Action(Of IDialog) = Nothing) As Task(Of Boolean?)
+  overload: H.Presenters.Common.DialogServiceExtension.ShowImageSource*
+  nameWithType.vb: DialogServiceExtension.ShowImageSource(IDialogMessageService, Action(Of IImageViewPresenter), Action(Of IDialog))
+  fullName.vb: H.Presenters.Common.DialogServiceExtension.ShowImageSource(H.Services.Message.Dialog.IDialogMessageService, System.Action(Of H.Presenters.Common.IImageViewPresenter), System.Action(Of H.Services.Message.Dialog.IDialog))
+  name.vb: ShowImageSource(IDialogMessageService, Action(Of IImageViewPresenter), Action(Of IDialog))
+- uid: H.Presenters.Common.DialogServiceExtension.ShowImageSource(H.Services.Message.Dialog.IDialogMessageService,System.Windows.Media.ImageSource,System.Action{H.Services.Message.Dialog.IDialog})
+  commentId: M:H.Presenters.Common.DialogServiceExtension.ShowImageSource(H.Services.Message.Dialog.IDialogMessageService,System.Windows.Media.ImageSource,System.Action{H.Services.Message.Dialog.IDialog})
+  id: ShowImageSource(H.Services.Message.Dialog.IDialogMessageService,System.Windows.Media.ImageSource,System.Action{H.Services.Message.Dialog.IDialog})
+  isExtensionMethod: true
+  parent: H.Presenters.Common.DialogServiceExtension
+  langs:
+  - csharp
+  - vb
+  name: ShowImageSource(IDialogMessageService, ImageSource, Action<IDialog>)
+  nameWithType: DialogServiceExtension.ShowImageSource(IDialogMessageService, ImageSource, Action<IDialog>)
+  fullName: H.Presenters.Common.DialogServiceExtension.ShowImageSource(H.Services.Message.Dialog.IDialogMessageService, System.Windows.Media.ImageSource, System.Action<H.Services.Message.Dialog.IDialog>)
+  type: Method
+  source:
+    id: ShowImageSource
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Presenters\H.Presenters.Common\ImageViewPresenter.xaml.cs
+    startLine: 45
+  assemblies:
+  - H.Presenters.Common
+  namespace: H.Presenters.Common
+  syntax:
+    content: public static Task<bool?> ShowImageSource(this IDialogMessageService service, ImageSource imageSource, Action<IDialog> builder = null)
+    parameters:
+    - id: service
+      type: H.Services.Message.Dialog.IDialogMessageService
+    - id: imageSource
+      type: System.Windows.Media.ImageSource
+    - id: builder
+      type: System.Action{H.Services.Message.Dialog.IDialog}
+    return:
+      type: System.Threading.Tasks.Task{System.Nullable{System.Boolean}}
+    content.vb: Public Shared Function ShowImageSource(service As IDialogMessageService, imageSource As ImageSource, builder As Action(Of IDialog) = Nothing) As Task(Of Boolean?)
+  overload: H.Presenters.Common.DialogServiceExtension.ShowImageSource*
+  nameWithType.vb: DialogServiceExtension.ShowImageSource(IDialogMessageService, ImageSource, Action(Of IDialog))
+  fullName.vb: H.Presenters.Common.DialogServiceExtension.ShowImageSource(H.Services.Message.Dialog.IDialogMessageService, System.Windows.Media.ImageSource, System.Action(Of H.Services.Message.Dialog.IDialog))
+  name.vb: ShowImageSource(IDialogMessageService, ImageSource, Action(Of IDialog))
+- uid: H.Presenters.Common.DialogServiceExtension.ShowImageSource(H.Services.Message.Dialog.IDialogMessageService,System.String,System.Action{H.Services.Message.Dialog.IDialog})
+  commentId: M:H.Presenters.Common.DialogServiceExtension.ShowImageSource(H.Services.Message.Dialog.IDialogMessageService,System.String,System.Action{H.Services.Message.Dialog.IDialog})
+  id: ShowImageSource(H.Services.Message.Dialog.IDialogMessageService,System.String,System.Action{H.Services.Message.Dialog.IDialog})
+  isExtensionMethod: true
+  parent: H.Presenters.Common.DialogServiceExtension
+  langs:
+  - csharp
+  - vb
+  name: ShowImageSource(IDialogMessageService, string, Action<IDialog>)
+  nameWithType: DialogServiceExtension.ShowImageSource(IDialogMessageService, string, Action<IDialog>)
+  fullName: H.Presenters.Common.DialogServiceExtension.ShowImageSource(H.Services.Message.Dialog.IDialogMessageService, string, System.Action<H.Services.Message.Dialog.IDialog>)
+  type: Method
+  source:
+    id: ShowImageSource
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Presenters\H.Presenters.Common\ImageViewPresenter.xaml.cs
+    startLine: 50
+  assemblies:
+  - H.Presenters.Common
+  namespace: H.Presenters.Common
+  syntax:
+    content: public static Task<bool?> ShowImageSource(this IDialogMessageService service, string filePath, Action<IDialog> builder = null)
+    parameters:
+    - id: service
+      type: H.Services.Message.Dialog.IDialogMessageService
+    - id: filePath
+      type: System.String
+    - id: builder
+      type: System.Action{H.Services.Message.Dialog.IDialog}
+    return:
+      type: System.Threading.Tasks.Task{System.Nullable{System.Boolean}}
+    content.vb: Public Shared Function ShowImageSource(service As IDialogMessageService, filePath As String, builder As Action(Of IDialog) = Nothing) As Task(Of Boolean?)
+  overload: H.Presenters.Common.DialogServiceExtension.ShowImageSource*
+  nameWithType.vb: DialogServiceExtension.ShowImageSource(IDialogMessageService, String, Action(Of IDialog))
+  fullName.vb: H.Presenters.Common.DialogServiceExtension.ShowImageSource(H.Services.Message.Dialog.IDialogMessageService, String, System.Action(Of H.Services.Message.Dialog.IDialog))
+  name.vb: ShowImageSource(IDialogMessageService, String, Action(Of IDialog))
+- uid: H.Presenters.Common.DialogServiceExtension.ShowItemsControl(H.Services.Message.Dialog.IDialogMessageService,System.Action{H.Presenters.Common.IItemsSourcePresenter},System.Action{H.Presenters.Common.IItemsSourcePresenter},System.Action{H.Services.Message.Dialog.IDialog},System.Func{H.Presenters.Common.IItemsSourcePresenter,System.Threading.Tasks.Task{System.Boolean}})
+  commentId: M:H.Presenters.Common.DialogServiceExtension.ShowItemsControl(H.Services.Message.Dialog.IDialogMessageService,System.Action{H.Presenters.Common.IItemsSourcePresenter},System.Action{H.Presenters.Common.IItemsSourcePresenter},System.Action{H.Services.Message.Dialog.IDialog},System.Func{H.Presenters.Common.IItemsSourcePresenter,System.Threading.Tasks.Task{System.Boolean}})
+  id: ShowItemsControl(H.Services.Message.Dialog.IDialogMessageService,System.Action{H.Presenters.Common.IItemsSourcePresenter},System.Action{H.Presenters.Common.IItemsSourcePresenter},System.Action{H.Services.Message.Dialog.IDialog},System.Func{H.Presenters.Common.IItemsSourcePresenter,System.Threading.Tasks.Task{System.Boolean}})
+  isExtensionMethod: true
+  parent: H.Presenters.Common.DialogServiceExtension
+  langs:
+  - csharp
+  - vb
+  name: ShowItemsControl(IDialogMessageService, Action<IItemsSourcePresenter>, Action<IItemsSourcePresenter>, Action<IDialog>, Func<IItemsSourcePresenter, Task<bool>>)
+  nameWithType: DialogServiceExtension.ShowItemsControl(IDialogMessageService, Action<IItemsSourcePresenter>, Action<IItemsSourcePresenter>, Action<IDialog>, Func<IItemsSourcePresenter, Task<bool>>)
+  fullName: H.Presenters.Common.DialogServiceExtension.ShowItemsControl(H.Services.Message.Dialog.IDialogMessageService, System.Action<H.Presenters.Common.IItemsSourcePresenter>, System.Action<H.Presenters.Common.IItemsSourcePresenter>, System.Action<H.Services.Message.Dialog.IDialog>, System.Func<H.Presenters.Common.IItemsSourcePresenter, System.Threading.Tasks.Task<bool>>)
+  type: Method
+  source:
+    id: ShowItemsControl
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Presenters\H.Presenters.Common\ItemsControlPresenter.xaml.cs
+    startLine: 64
+  assemblies:
+  - H.Presenters.Common
+  namespace: H.Presenters.Common
+  syntax:
+    content: public static Task<bool?> ShowItemsControl(this IDialogMessageService service, Action<IItemsSourcePresenter> option, Action<IItemsSourcePresenter> sumitAction = null, Action<IDialog> builder = null, Func<IItemsSourcePresenter, Task<bool>> canSumit = null)
+    parameters:
+    - id: service
+      type: H.Services.Message.Dialog.IDialogMessageService
+    - id: option
+      type: System.Action{H.Presenters.Common.IItemsSourcePresenter}
+    - id: sumitAction
+      type: System.Action{H.Presenters.Common.IItemsSourcePresenter}
+    - id: builder
+      type: System.Action{H.Services.Message.Dialog.IDialog}
+    - id: canSumit
+      type: System.Func{H.Presenters.Common.IItemsSourcePresenter,System.Threading.Tasks.Task{System.Boolean}}
+    return:
+      type: System.Threading.Tasks.Task{System.Nullable{System.Boolean}}
+    content.vb: Public Shared Function ShowItemsControl(service As IDialogMessageService, [option] As Action(Of IItemsSourcePresenter), sumitAction As Action(Of IItemsSourcePresenter) = Nothing, builder As Action(Of IDialog) = Nothing, canSumit As Func(Of IItemsSourcePresenter, Task(Of Boolean)) = Nothing) As Task(Of Boolean?)
+  overload: H.Presenters.Common.DialogServiceExtension.ShowItemsControl*
+  nameWithType.vb: DialogServiceExtension.ShowItemsControl(IDialogMessageService, Action(Of IItemsSourcePresenter), Action(Of IItemsSourcePresenter), Action(Of IDialog), Func(Of IItemsSourcePresenter, Task(Of Boolean)))
+  fullName.vb: H.Presenters.Common.DialogServiceExtension.ShowItemsControl(H.Services.Message.Dialog.IDialogMessageService, System.Action(Of H.Presenters.Common.IItemsSourcePresenter), System.Action(Of H.Presenters.Common.IItemsSourcePresenter), System.Action(Of H.Services.Message.Dialog.IDialog), System.Func(Of H.Presenters.Common.IItemsSourcePresenter, System.Threading.Tasks.Task(Of Boolean)))
+  name.vb: ShowItemsControl(IDialogMessageService, Action(Of IItemsSourcePresenter), Action(Of IItemsSourcePresenter), Action(Of IDialog), Func(Of IItemsSourcePresenter, Task(Of Boolean)))
+- uid: H.Presenters.Common.DialogServiceExtension.ShowListBox(H.Services.Message.Dialog.IDialogMessageService,System.Action{H.Presenters.Common.IListBoxPresenter},System.Action{H.Presenters.Common.IListBoxPresenter},System.Action{H.Services.Message.Dialog.IDialog},System.Func{H.Presenters.Common.IListBoxPresenter,System.Threading.Tasks.Task{System.Boolean}})
+  commentId: M:H.Presenters.Common.DialogServiceExtension.ShowListBox(H.Services.Message.Dialog.IDialogMessageService,System.Action{H.Presenters.Common.IListBoxPresenter},System.Action{H.Presenters.Common.IListBoxPresenter},System.Action{H.Services.Message.Dialog.IDialog},System.Func{H.Presenters.Common.IListBoxPresenter,System.Threading.Tasks.Task{System.Boolean}})
+  id: ShowListBox(H.Services.Message.Dialog.IDialogMessageService,System.Action{H.Presenters.Common.IListBoxPresenter},System.Action{H.Presenters.Common.IListBoxPresenter},System.Action{H.Services.Message.Dialog.IDialog},System.Func{H.Presenters.Common.IListBoxPresenter,System.Threading.Tasks.Task{System.Boolean}})
+  isExtensionMethod: true
+  parent: H.Presenters.Common.DialogServiceExtension
+  langs:
+  - csharp
+  - vb
+  name: ShowListBox(IDialogMessageService, Action<IListBoxPresenter>, Action<IListBoxPresenter>, Action<IDialog>, Func<IListBoxPresenter, Task<bool>>)
+  nameWithType: DialogServiceExtension.ShowListBox(IDialogMessageService, Action<IListBoxPresenter>, Action<IListBoxPresenter>, Action<IDialog>, Func<IListBoxPresenter, Task<bool>>)
+  fullName: H.Presenters.Common.DialogServiceExtension.ShowListBox(H.Services.Message.Dialog.IDialogMessageService, System.Action<H.Presenters.Common.IListBoxPresenter>, System.Action<H.Presenters.Common.IListBoxPresenter>, System.Action<H.Services.Message.Dialog.IDialog>, System.Func<H.Presenters.Common.IListBoxPresenter, System.Threading.Tasks.Task<bool>>)
+  type: Method
+  source:
+    id: ShowListBox
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Presenters\H.Presenters.Common\ListBoxPresenter.xaml.cs
+    startLine: 77
+  assemblies:
+  - H.Presenters.Common
+  namespace: H.Presenters.Common
+  syntax:
+    content: >-
+      [Obsolete("ShowListBox<T>")]
+
+      public static Task<bool?> ShowListBox(this IDialogMessageService service, Action<IListBoxPresenter> option, Action<IListBoxPresenter> sumitAction = null, Action<IDialog> builder = null, Func<IListBoxPresenter, Task<bool>> canSumit = null)
+    parameters:
+    - id: service
+      type: H.Services.Message.Dialog.IDialogMessageService
+    - id: option
+      type: System.Action{H.Presenters.Common.IListBoxPresenter}
+    - id: sumitAction
+      type: System.Action{H.Presenters.Common.IListBoxPresenter}
+    - id: builder
+      type: System.Action{H.Services.Message.Dialog.IDialog}
+    - id: canSumit
+      type: System.Func{H.Presenters.Common.IListBoxPresenter,System.Threading.Tasks.Task{System.Boolean}}
+    return:
+      type: System.Threading.Tasks.Task{System.Nullable{System.Boolean}}
+    content.vb: >-
+      <Obsolete("ShowListBox<T>")>
+
+      Public Shared Function ShowListBox(service As IDialogMessageService, [option] As Action(Of IListBoxPresenter), sumitAction As Action(Of IListBoxPresenter) = Nothing, builder As Action(Of IDialog) = Nothing, canSumit As Func(Of IListBoxPresenter, Task(Of Boolean)) = Nothing) As Task(Of Boolean?)
+  overload: H.Presenters.Common.DialogServiceExtension.ShowListBox*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: ShowListBox<T>
+  nameWithType.vb: DialogServiceExtension.ShowListBox(IDialogMessageService, Action(Of IListBoxPresenter), Action(Of IListBoxPresenter), Action(Of IDialog), Func(Of IListBoxPresenter, Task(Of Boolean)))
+  fullName.vb: H.Presenters.Common.DialogServiceExtension.ShowListBox(H.Services.Message.Dialog.IDialogMessageService, System.Action(Of H.Presenters.Common.IListBoxPresenter), System.Action(Of H.Presenters.Common.IListBoxPresenter), System.Action(Of H.Services.Message.Dialog.IDialog), System.Func(Of H.Presenters.Common.IListBoxPresenter, System.Threading.Tasks.Task(Of Boolean)))
+  name.vb: ShowListBox(IDialogMessageService, Action(Of IListBoxPresenter), Action(Of IListBoxPresenter), Action(Of IDialog), Func(Of IListBoxPresenter, Task(Of Boolean)))
+- uid: H.Presenters.Common.DialogServiceExtension.ShowListBox``1(H.Services.Message.Dialog.IDialogMessageService,System.Action{H.Presenters.Common.IListBoxPresenter},System.Action{H.Presenters.Common.IListBoxPresenter},System.Action{H.Services.Message.Dialog.IDialog},System.Func{H.Presenters.Common.IListBoxPresenter,System.Threading.Tasks.Task{System.Boolean}})
+  commentId: M:H.Presenters.Common.DialogServiceExtension.ShowListBox``1(H.Services.Message.Dialog.IDialogMessageService,System.Action{H.Presenters.Common.IListBoxPresenter},System.Action{H.Presenters.Common.IListBoxPresenter},System.Action{H.Services.Message.Dialog.IDialog},System.Func{H.Presenters.Common.IListBoxPresenter,System.Threading.Tasks.Task{System.Boolean}})
+  id: ShowListBox``1(H.Services.Message.Dialog.IDialogMessageService,System.Action{H.Presenters.Common.IListBoxPresenter},System.Action{H.Presenters.Common.IListBoxPresenter},System.Action{H.Services.Message.Dialog.IDialog},System.Func{H.Presenters.Common.IListBoxPresenter,System.Threading.Tasks.Task{System.Boolean}})
+  isExtensionMethod: true
+  parent: H.Presenters.Common.DialogServiceExtension
+  langs:
+  - csharp
+  - vb
+  name: ShowListBox<T>(IDialogMessageService, Action<IListBoxPresenter>, Action<IListBoxPresenter>, Action<IDialog>, Func<IListBoxPresenter, Task<bool>>)
+  nameWithType: DialogServiceExtension.ShowListBox<T>(IDialogMessageService, Action<IListBoxPresenter>, Action<IListBoxPresenter>, Action<IDialog>, Func<IListBoxPresenter, Task<bool>>)
+  fullName: H.Presenters.Common.DialogServiceExtension.ShowListBox<T>(H.Services.Message.Dialog.IDialogMessageService, System.Action<H.Presenters.Common.IListBoxPresenter>, System.Action<H.Presenters.Common.IListBoxPresenter>, System.Action<H.Services.Message.Dialog.IDialog>, System.Func<H.Presenters.Common.IListBoxPresenter, System.Threading.Tasks.Task<bool>>)
+  type: Method
+  source:
+    id: ShowListBox
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Presenters\H.Presenters.Common\ListBoxPresenter.xaml.cs
+    startLine: 89
+  assemblies:
+  - H.Presenters.Common
+  namespace: H.Presenters.Common
+  syntax:
+    content: public static Task<T> ShowListBox<T>(this IDialogMessageService service, Action<IListBoxPresenter> option, Action<IListBoxPresenter> sumitAction = null, Action<IDialog> builder = null, Func<IListBoxPresenter, Task<bool>> canSumit = null)
+    parameters:
+    - id: service
+      type: H.Services.Message.Dialog.IDialogMessageService
+    - id: option
+      type: System.Action{H.Presenters.Common.IListBoxPresenter}
+    - id: sumitAction
+      type: System.Action{H.Presenters.Common.IListBoxPresenter}
+    - id: builder
+      type: System.Action{H.Services.Message.Dialog.IDialog}
+    - id: canSumit
+      type: System.Func{H.Presenters.Common.IListBoxPresenter,System.Threading.Tasks.Task{System.Boolean}}
+    typeParameters:
+    - id: T
+    return:
+      type: System.Threading.Tasks.Task{{T}}
+    content.vb: Public Shared Function ShowListBox(Of T)(service As IDialogMessageService, [option] As Action(Of IListBoxPresenter), sumitAction As Action(Of IListBoxPresenter) = Nothing, builder As Action(Of IDialog) = Nothing, canSumit As Func(Of IListBoxPresenter, Task(Of Boolean)) = Nothing) As Task(Of T)
+  overload: H.Presenters.Common.DialogServiceExtension.ShowListBox*
+  nameWithType.vb: DialogServiceExtension.ShowListBox(Of T)(IDialogMessageService, Action(Of IListBoxPresenter), Action(Of IListBoxPresenter), Action(Of IDialog), Func(Of IListBoxPresenter, Task(Of Boolean)))
+  fullName.vb: H.Presenters.Common.DialogServiceExtension.ShowListBox(Of T)(H.Services.Message.Dialog.IDialogMessageService, System.Action(Of H.Presenters.Common.IListBoxPresenter), System.Action(Of H.Presenters.Common.IListBoxPresenter), System.Action(Of H.Services.Message.Dialog.IDialog), System.Func(Of H.Presenters.Common.IListBoxPresenter, System.Threading.Tasks.Task(Of Boolean)))
+  name.vb: ShowListBox(Of T)(IDialogMessageService, Action(Of IListBoxPresenter), Action(Of IListBoxPresenter), Action(Of IDialog), Func(Of IListBoxPresenter, Task(Of Boolean)))
+- uid: H.Presenters.Common.DialogServiceExtension.ShowPasswordBox(H.Services.Message.Dialog.IDialogMessageService,System.Action{H.Presenters.Common.IPasswordBoxPresenter},System.Action{H.Presenters.Common.IPasswordBoxPresenter},System.Action{H.Services.Message.Dialog.IDialog},System.Func{H.Presenters.Common.IPasswordBoxPresenter,System.Threading.Tasks.Task{System.Boolean}})
+  commentId: M:H.Presenters.Common.DialogServiceExtension.ShowPasswordBox(H.Services.Message.Dialog.IDialogMessageService,System.Action{H.Presenters.Common.IPasswordBoxPresenter},System.Action{H.Presenters.Common.IPasswordBoxPresenter},System.Action{H.Services.Message.Dialog.IDialog},System.Func{H.Presenters.Common.IPasswordBoxPresenter,System.Threading.Tasks.Task{System.Boolean}})
+  id: ShowPasswordBox(H.Services.Message.Dialog.IDialogMessageService,System.Action{H.Presenters.Common.IPasswordBoxPresenter},System.Action{H.Presenters.Common.IPasswordBoxPresenter},System.Action{H.Services.Message.Dialog.IDialog},System.Func{H.Presenters.Common.IPasswordBoxPresenter,System.Threading.Tasks.Task{System.Boolean}})
+  isExtensionMethod: true
+  parent: H.Presenters.Common.DialogServiceExtension
+  langs:
+  - csharp
+  - vb
+  name: ShowPasswordBox(IDialogMessageService, Action<IPasswordBoxPresenter>, Action<IPasswordBoxPresenter>, Action<IDialog>, Func<IPasswordBoxPresenter, Task<bool>>)
+  nameWithType: DialogServiceExtension.ShowPasswordBox(IDialogMessageService, Action<IPasswordBoxPresenter>, Action<IPasswordBoxPresenter>, Action<IDialog>, Func<IPasswordBoxPresenter, Task<bool>>)
+  fullName: H.Presenters.Common.DialogServiceExtension.ShowPasswordBox(H.Services.Message.Dialog.IDialogMessageService, System.Action<H.Presenters.Common.IPasswordBoxPresenter>, System.Action<H.Presenters.Common.IPasswordBoxPresenter>, System.Action<H.Services.Message.Dialog.IDialog>, System.Func<H.Presenters.Common.IPasswordBoxPresenter, System.Threading.Tasks.Task<bool>>)
+  type: Method
+  source:
+    id: ShowPasswordBox
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Presenters\H.Presenters.Common\PasswordBoxPresenter.xaml.cs
+    startLine: 24
+  assemblies:
+  - H.Presenters.Common
+  namespace: H.Presenters.Common
+  syntax:
+    content: public static Task<bool?> ShowPasswordBox(this IDialogMessageService service, Action<IPasswordBoxPresenter> option, Action<IPasswordBoxPresenter> sumitAction, Action<IDialog> builder = null, Func<IPasswordBoxPresenter, Task<bool>> canSumit = null)
+    parameters:
+    - id: service
+      type: H.Services.Message.Dialog.IDialogMessageService
+    - id: option
+      type: System.Action{H.Presenters.Common.IPasswordBoxPresenter}
+    - id: sumitAction
+      type: System.Action{H.Presenters.Common.IPasswordBoxPresenter}
+    - id: builder
+      type: System.Action{H.Services.Message.Dialog.IDialog}
+    - id: canSumit
+      type: System.Func{H.Presenters.Common.IPasswordBoxPresenter,System.Threading.Tasks.Task{System.Boolean}}
+    return:
+      type: System.Threading.Tasks.Task{System.Nullable{System.Boolean}}
+    content.vb: Public Shared Function ShowPasswordBox(service As IDialogMessageService, [option] As Action(Of IPasswordBoxPresenter), sumitAction As Action(Of IPasswordBoxPresenter), builder As Action(Of IDialog) = Nothing, canSumit As Func(Of IPasswordBoxPresenter, Task(Of Boolean)) = Nothing) As Task(Of Boolean?)
+  overload: H.Presenters.Common.DialogServiceExtension.ShowPasswordBox*
+  nameWithType.vb: DialogServiceExtension.ShowPasswordBox(IDialogMessageService, Action(Of IPasswordBoxPresenter), Action(Of IPasswordBoxPresenter), Action(Of IDialog), Func(Of IPasswordBoxPresenter, Task(Of Boolean)))
+  fullName.vb: H.Presenters.Common.DialogServiceExtension.ShowPasswordBox(H.Services.Message.Dialog.IDialogMessageService, System.Action(Of H.Presenters.Common.IPasswordBoxPresenter), System.Action(Of H.Presenters.Common.IPasswordBoxPresenter), System.Action(Of H.Services.Message.Dialog.IDialog), System.Func(Of H.Presenters.Common.IPasswordBoxPresenter, System.Threading.Tasks.Task(Of Boolean)))
+  name.vb: ShowPasswordBox(IDialogMessageService, Action(Of IPasswordBoxPresenter), Action(Of IPasswordBoxPresenter), Action(Of IDialog), Func(Of IPasswordBoxPresenter, Task(Of Boolean)))
+- uid: H.Presenters.Common.DialogServiceExtension.ShowPasswordBox(H.Services.Message.Dialog.IDialogMessageService,System.String,System.Action{System.String},System.Action{H.Services.Message.Dialog.IDialog},System.Func{H.Presenters.Common.IPasswordBoxPresenter,System.Threading.Tasks.Task{System.Boolean}})
+  commentId: M:H.Presenters.Common.DialogServiceExtension.ShowPasswordBox(H.Services.Message.Dialog.IDialogMessageService,System.String,System.Action{System.String},System.Action{H.Services.Message.Dialog.IDialog},System.Func{H.Presenters.Common.IPasswordBoxPresenter,System.Threading.Tasks.Task{System.Boolean}})
+  id: ShowPasswordBox(H.Services.Message.Dialog.IDialogMessageService,System.String,System.Action{System.String},System.Action{H.Services.Message.Dialog.IDialog},System.Func{H.Presenters.Common.IPasswordBoxPresenter,System.Threading.Tasks.Task{System.Boolean}})
+  isExtensionMethod: true
+  parent: H.Presenters.Common.DialogServiceExtension
+  langs:
+  - csharp
+  - vb
+  name: ShowPasswordBox(IDialogMessageService, string, Action<string>, Action<IDialog>, Func<IPasswordBoxPresenter, Task<bool>>)
+  nameWithType: DialogServiceExtension.ShowPasswordBox(IDialogMessageService, string, Action<string>, Action<IDialog>, Func<IPasswordBoxPresenter, Task<bool>>)
+  fullName: H.Presenters.Common.DialogServiceExtension.ShowPasswordBox(H.Services.Message.Dialog.IDialogMessageService, string, System.Action<string>, System.Action<H.Services.Message.Dialog.IDialog>, System.Func<H.Presenters.Common.IPasswordBoxPresenter, System.Threading.Tasks.Task<bool>>)
+  type: Method
+  source:
+    id: ShowPasswordBox
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Presenters\H.Presenters.Common\PasswordBoxPresenter.xaml.cs
+    startLine: 29
+  assemblies:
+  - H.Presenters.Common
+  namespace: H.Presenters.Common
+  syntax:
+    content: public static Task<bool?> ShowPasswordBox(this IDialogMessageService service, string password, Action<string> sumitAction, Action<IDialog> builder = null, Func<IPasswordBoxPresenter, Task<bool>> canSumit = null)
+    parameters:
+    - id: service
+      type: H.Services.Message.Dialog.IDialogMessageService
+    - id: password
+      type: System.String
+    - id: sumitAction
+      type: System.Action{System.String}
+    - id: builder
+      type: System.Action{H.Services.Message.Dialog.IDialog}
+    - id: canSumit
+      type: System.Func{H.Presenters.Common.IPasswordBoxPresenter,System.Threading.Tasks.Task{System.Boolean}}
+    return:
+      type: System.Threading.Tasks.Task{System.Nullable{System.Boolean}}
+    content.vb: Public Shared Function ShowPasswordBox(service As IDialogMessageService, password As String, sumitAction As Action(Of String), builder As Action(Of IDialog) = Nothing, canSumit As Func(Of IPasswordBoxPresenter, Task(Of Boolean)) = Nothing) As Task(Of Boolean?)
+  overload: H.Presenters.Common.DialogServiceExtension.ShowPasswordBox*
+  nameWithType.vb: DialogServiceExtension.ShowPasswordBox(IDialogMessageService, String, Action(Of String), Action(Of IDialog), Func(Of IPasswordBoxPresenter, Task(Of Boolean)))
+  fullName.vb: H.Presenters.Common.DialogServiceExtension.ShowPasswordBox(H.Services.Message.Dialog.IDialogMessageService, String, System.Action(Of String), System.Action(Of H.Services.Message.Dialog.IDialog), System.Func(Of H.Presenters.Common.IPasswordBoxPresenter, System.Threading.Tasks.Task(Of Boolean)))
+  name.vb: ShowPasswordBox(IDialogMessageService, String, Action(Of String), Action(Of IDialog), Func(Of IPasswordBoxPresenter, Task(Of Boolean)))
+- uid: H.Presenters.Common.DialogServiceExtension.ShowTextBox(H.Services.Message.Dialog.IDialogMessageService,System.Action{H.Presenters.Common.ITextBoxPresenter},System.Action{H.Presenters.Common.ITextBoxPresenter},System.Action{H.Services.Message.Dialog.IDialog},System.Func{H.Presenters.Common.ITextBoxPresenter,System.Threading.Tasks.Task{System.Boolean}})
+  commentId: M:H.Presenters.Common.DialogServiceExtension.ShowTextBox(H.Services.Message.Dialog.IDialogMessageService,System.Action{H.Presenters.Common.ITextBoxPresenter},System.Action{H.Presenters.Common.ITextBoxPresenter},System.Action{H.Services.Message.Dialog.IDialog},System.Func{H.Presenters.Common.ITextBoxPresenter,System.Threading.Tasks.Task{System.Boolean}})
+  id: ShowTextBox(H.Services.Message.Dialog.IDialogMessageService,System.Action{H.Presenters.Common.ITextBoxPresenter},System.Action{H.Presenters.Common.ITextBoxPresenter},System.Action{H.Services.Message.Dialog.IDialog},System.Func{H.Presenters.Common.ITextBoxPresenter,System.Threading.Tasks.Task{System.Boolean}})
+  isExtensionMethod: true
+  parent: H.Presenters.Common.DialogServiceExtension
+  langs:
+  - csharp
+  - vb
+  name: ShowTextBox(IDialogMessageService, Action<ITextBoxPresenter>, Action<ITextBoxPresenter>, Action<IDialog>, Func<ITextBoxPresenter, Task<bool>>)
+  nameWithType: DialogServiceExtension.ShowTextBox(IDialogMessageService, Action<ITextBoxPresenter>, Action<ITextBoxPresenter>, Action<IDialog>, Func<ITextBoxPresenter, Task<bool>>)
+  fullName: H.Presenters.Common.DialogServiceExtension.ShowTextBox(H.Services.Message.Dialog.IDialogMessageService, System.Action<H.Presenters.Common.ITextBoxPresenter>, System.Action<H.Presenters.Common.ITextBoxPresenter>, System.Action<H.Services.Message.Dialog.IDialog>, System.Func<H.Presenters.Common.ITextBoxPresenter, System.Threading.Tasks.Task<bool>>)
+  type: Method
+  source:
+    id: ShowTextBox
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Presenters\H.Presenters.Common\TextBoxPresenter.xaml.cs
+    startLine: 27
+  assemblies:
+  - H.Presenters.Common
+  namespace: H.Presenters.Common
+  syntax:
+    content: public static Task<bool?> ShowTextBox(this IDialogMessageService service, Action<ITextBoxPresenter> option, Action<ITextBoxPresenter> sumitAction = null, Action<IDialog> builder = null, Func<ITextBoxPresenter, Task<bool>> canSumit = null)
+    parameters:
+    - id: service
+      type: H.Services.Message.Dialog.IDialogMessageService
+    - id: option
+      type: System.Action{H.Presenters.Common.ITextBoxPresenter}
+    - id: sumitAction
+      type: System.Action{H.Presenters.Common.ITextBoxPresenter}
+    - id: builder
+      type: System.Action{H.Services.Message.Dialog.IDialog}
+    - id: canSumit
+      type: System.Func{H.Presenters.Common.ITextBoxPresenter,System.Threading.Tasks.Task{System.Boolean}}
+    return:
+      type: System.Threading.Tasks.Task{System.Nullable{System.Boolean}}
+    content.vb: Public Shared Function ShowTextBox(service As IDialogMessageService, [option] As Action(Of ITextBoxPresenter), sumitAction As Action(Of ITextBoxPresenter) = Nothing, builder As Action(Of IDialog) = Nothing, canSumit As Func(Of ITextBoxPresenter, Task(Of Boolean)) = Nothing) As Task(Of Boolean?)
+  overload: H.Presenters.Common.DialogServiceExtension.ShowTextBox*
+  nameWithType.vb: DialogServiceExtension.ShowTextBox(IDialogMessageService, Action(Of ITextBoxPresenter), Action(Of ITextBoxPresenter), Action(Of IDialog), Func(Of ITextBoxPresenter, Task(Of Boolean)))
+  fullName.vb: H.Presenters.Common.DialogServiceExtension.ShowTextBox(H.Services.Message.Dialog.IDialogMessageService, System.Action(Of H.Presenters.Common.ITextBoxPresenter), System.Action(Of H.Presenters.Common.ITextBoxPresenter), System.Action(Of H.Services.Message.Dialog.IDialog), System.Func(Of H.Presenters.Common.ITextBoxPresenter, System.Threading.Tasks.Task(Of Boolean)))
+  name.vb: ShowTextBox(IDialogMessageService, Action(Of ITextBoxPresenter), Action(Of ITextBoxPresenter), Action(Of IDialog), Func(Of ITextBoxPresenter, Task(Of Boolean)))
+- uid: H.Presenters.Common.DialogServiceExtension.ShowTextBox``1(H.Services.Message.Dialog.IDialogMessageService,``0,System.Action{``0},System.Action{H.Services.Message.Dialog.IDialog},System.Func{H.Presenters.Common.ITextBoxPresenter,System.Threading.Tasks.Task{System.Boolean}})
+  commentId: M:H.Presenters.Common.DialogServiceExtension.ShowTextBox``1(H.Services.Message.Dialog.IDialogMessageService,``0,System.Action{``0},System.Action{H.Services.Message.Dialog.IDialog},System.Func{H.Presenters.Common.ITextBoxPresenter,System.Threading.Tasks.Task{System.Boolean}})
+  id: ShowTextBox``1(H.Services.Message.Dialog.IDialogMessageService,``0,System.Action{``0},System.Action{H.Services.Message.Dialog.IDialog},System.Func{H.Presenters.Common.ITextBoxPresenter,System.Threading.Tasks.Task{System.Boolean}})
+  isExtensionMethod: true
+  parent: H.Presenters.Common.DialogServiceExtension
+  langs:
+  - csharp
+  - vb
+  name: ShowTextBox<ResultT>(IDialogMessageService, ResultT, Action<ResultT>, Action<IDialog>, Func<ITextBoxPresenter, Task<bool>>)
+  nameWithType: DialogServiceExtension.ShowTextBox<ResultT>(IDialogMessageService, ResultT, Action<ResultT>, Action<IDialog>, Func<ITextBoxPresenter, Task<bool>>)
+  fullName: H.Presenters.Common.DialogServiceExtension.ShowTextBox<ResultT>(H.Services.Message.Dialog.IDialogMessageService, ResultT, System.Action<ResultT>, System.Action<H.Services.Message.Dialog.IDialog>, System.Func<H.Presenters.Common.ITextBoxPresenter, System.Threading.Tasks.Task<bool>>)
+  type: Method
+  source:
+    id: ShowTextBox
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Presenters\H.Presenters.Common\TextBoxPresenter.xaml.cs
+    startLine: 37
+  assemblies:
+  - H.Presenters.Common
+  namespace: H.Presenters.Common
+  syntax:
+    content: public static Task<bool?> ShowTextBox<ResultT>(this IDialogMessageService service, ResultT value, Action<ResultT> sumitAction = null, Action<IDialog> builder = null, Func<ITextBoxPresenter, Task<bool>> canSumit = null)
+    parameters:
+    - id: service
+      type: H.Services.Message.Dialog.IDialogMessageService
+    - id: value
+      type: '{ResultT}'
+    - id: sumitAction
+      type: System.Action{{ResultT}}
+    - id: builder
+      type: System.Action{H.Services.Message.Dialog.IDialog}
+    - id: canSumit
+      type: System.Func{H.Presenters.Common.ITextBoxPresenter,System.Threading.Tasks.Task{System.Boolean}}
+    typeParameters:
+    - id: ResultT
+    return:
+      type: System.Threading.Tasks.Task{System.Nullable{System.Boolean}}
+    content.vb: Public Shared Function ShowTextBox(Of ResultT)(service As IDialogMessageService, value As ResultT, sumitAction As Action(Of ResultT) = Nothing, builder As Action(Of IDialog) = Nothing, canSumit As Func(Of ITextBoxPresenter, Task(Of Boolean)) = Nothing) As Task(Of Boolean?)
+  overload: H.Presenters.Common.DialogServiceExtension.ShowTextBox*
+  nameWithType.vb: DialogServiceExtension.ShowTextBox(Of ResultT)(IDialogMessageService, ResultT, Action(Of ResultT), Action(Of IDialog), Func(Of ITextBoxPresenter, Task(Of Boolean)))
+  fullName.vb: H.Presenters.Common.DialogServiceExtension.ShowTextBox(Of ResultT)(H.Services.Message.Dialog.IDialogMessageService, ResultT, System.Action(Of ResultT), System.Action(Of H.Services.Message.Dialog.IDialog), System.Func(Of H.Presenters.Common.ITextBoxPresenter, System.Threading.Tasks.Task(Of Boolean)))
+  name.vb: ShowTextBox(Of ResultT)(IDialogMessageService, ResultT, Action(Of ResultT), Action(Of IDialog), Func(Of ITextBoxPresenter, Task(Of Boolean)))
+- uid: H.Presenters.Common.DialogServiceExtension.ShowTextBox(H.Services.Message.Dialog.IDialogMessageService,System.String,System.Action{System.String},System.Action{H.Services.Message.Dialog.IDialog},System.Func{H.Presenters.Common.ITextBoxPresenter,System.Threading.Tasks.Task{System.Boolean}})
+  commentId: M:H.Presenters.Common.DialogServiceExtension.ShowTextBox(H.Services.Message.Dialog.IDialogMessageService,System.String,System.Action{System.String},System.Action{H.Services.Message.Dialog.IDialog},System.Func{H.Presenters.Common.ITextBoxPresenter,System.Threading.Tasks.Task{System.Boolean}})
+  id: ShowTextBox(H.Services.Message.Dialog.IDialogMessageService,System.String,System.Action{System.String},System.Action{H.Services.Message.Dialog.IDialog},System.Func{H.Presenters.Common.ITextBoxPresenter,System.Threading.Tasks.Task{System.Boolean}})
+  isExtensionMethod: true
+  parent: H.Presenters.Common.DialogServiceExtension
+  langs:
+  - csharp
+  - vb
+  name: ShowTextBox(IDialogMessageService, string, Action<string>, Action<IDialog>, Func<ITextBoxPresenter, Task<bool>>)
+  nameWithType: DialogServiceExtension.ShowTextBox(IDialogMessageService, string, Action<string>, Action<IDialog>, Func<ITextBoxPresenter, Task<bool>>)
+  fullName: H.Presenters.Common.DialogServiceExtension.ShowTextBox(H.Services.Message.Dialog.IDialogMessageService, string, System.Action<string>, System.Action<H.Services.Message.Dialog.IDialog>, System.Func<H.Presenters.Common.ITextBoxPresenter, System.Threading.Tasks.Task<bool>>)
+  type: Method
+  source:
+    id: ShowTextBox
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Presenters\H.Presenters.Common\TextBoxPresenter.xaml.cs
+    startLine: 64
+  assemblies:
+  - H.Presenters.Common
+  namespace: H.Presenters.Common
+  syntax:
+    content: public static Task<bool?> ShowTextBox(this IDialogMessageService service, string text, Action<string> sumitAction = null, Action<IDialog> builder = null, Func<ITextBoxPresenter, Task<bool>> canSumit = null)
+    parameters:
+    - id: service
+      type: H.Services.Message.Dialog.IDialogMessageService
+    - id: text
+      type: System.String
+    - id: sumitAction
+      type: System.Action{System.String}
+    - id: builder
+      type: System.Action{H.Services.Message.Dialog.IDialog}
+    - id: canSumit
+      type: System.Func{H.Presenters.Common.ITextBoxPresenter,System.Threading.Tasks.Task{System.Boolean}}
+    return:
+      type: System.Threading.Tasks.Task{System.Nullable{System.Boolean}}
+    content.vb: Public Shared Function ShowTextBox(service As IDialogMessageService, text As String, sumitAction As Action(Of String) = Nothing, builder As Action(Of IDialog) = Nothing, canSumit As Func(Of ITextBoxPresenter, Task(Of Boolean)) = Nothing) As Task(Of Boolean?)
+  overload: H.Presenters.Common.DialogServiceExtension.ShowTextBox*
+  nameWithType.vb: DialogServiceExtension.ShowTextBox(IDialogMessageService, String, Action(Of String), Action(Of IDialog), Func(Of ITextBoxPresenter, Task(Of Boolean)))
+  fullName.vb: H.Presenters.Common.DialogServiceExtension.ShowTextBox(H.Services.Message.Dialog.IDialogMessageService, String, System.Action(Of String), System.Action(Of H.Services.Message.Dialog.IDialog), System.Func(Of H.Presenters.Common.ITextBoxPresenter, System.Threading.Tasks.Task(Of Boolean)))
+  name.vb: ShowTextBox(IDialogMessageService, String, Action(Of String), Action(Of IDialog), Func(Of ITextBoxPresenter, Task(Of Boolean)))
+- uid: H.Presenters.Common.DialogServiceExtension.ShowTreeView(H.Services.Message.Dialog.IDialogMessageService,System.Action{H.Presenters.Common.ITreeViewPresenter},System.Action{H.Presenters.Common.ITreeViewPresenter},System.Action{H.Services.Message.Dialog.IDialog},System.Func{H.Presenters.Common.ITreeViewPresenter,System.Threading.Tasks.Task{System.Boolean}})
+  commentId: M:H.Presenters.Common.DialogServiceExtension.ShowTreeView(H.Services.Message.Dialog.IDialogMessageService,System.Action{H.Presenters.Common.ITreeViewPresenter},System.Action{H.Presenters.Common.ITreeViewPresenter},System.Action{H.Services.Message.Dialog.IDialog},System.Func{H.Presenters.Common.ITreeViewPresenter,System.Threading.Tasks.Task{System.Boolean}})
+  id: ShowTreeView(H.Services.Message.Dialog.IDialogMessageService,System.Action{H.Presenters.Common.ITreeViewPresenter},System.Action{H.Presenters.Common.ITreeViewPresenter},System.Action{H.Services.Message.Dialog.IDialog},System.Func{H.Presenters.Common.ITreeViewPresenter,System.Threading.Tasks.Task{System.Boolean}})
+  isExtensionMethod: true
+  parent: H.Presenters.Common.DialogServiceExtension
+  langs:
+  - csharp
+  - vb
+  name: ShowTreeView(IDialogMessageService, Action<ITreeViewPresenter>, Action<ITreeViewPresenter>, Action<IDialog>, Func<ITreeViewPresenter, Task<bool>>)
+  nameWithType: DialogServiceExtension.ShowTreeView(IDialogMessageService, Action<ITreeViewPresenter>, Action<ITreeViewPresenter>, Action<IDialog>, Func<ITreeViewPresenter, Task<bool>>)
+  fullName: H.Presenters.Common.DialogServiceExtension.ShowTreeView(H.Services.Message.Dialog.IDialogMessageService, System.Action<H.Presenters.Common.ITreeViewPresenter>, System.Action<H.Presenters.Common.ITreeViewPresenter>, System.Action<H.Services.Message.Dialog.IDialog>, System.Func<H.Presenters.Common.ITreeViewPresenter, System.Threading.Tasks.Task<bool>>)
+  type: Method
+  source:
+    id: ShowTreeView
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Presenters\H.Presenters.Common\TreeViewPresenter.xaml.cs
+    startLine: 51
+  assemblies:
+  - H.Presenters.Common
+  namespace: H.Presenters.Common
+  syntax:
+    content: public static Task<bool?> ShowTreeView(this IDialogMessageService service, Action<ITreeViewPresenter> option, Action<ITreeViewPresenter> sumitAction = null, Action<IDialog> builder = null, Func<ITreeViewPresenter, Task<bool>> canSumit = null)
+    parameters:
+    - id: service
+      type: H.Services.Message.Dialog.IDialogMessageService
+    - id: option
+      type: System.Action{H.Presenters.Common.ITreeViewPresenter}
+    - id: sumitAction
+      type: System.Action{H.Presenters.Common.ITreeViewPresenter}
+    - id: builder
+      type: System.Action{H.Services.Message.Dialog.IDialog}
+    - id: canSumit
+      type: System.Func{H.Presenters.Common.ITreeViewPresenter,System.Threading.Tasks.Task{System.Boolean}}
+    return:
+      type: System.Threading.Tasks.Task{System.Nullable{System.Boolean}}
+    content.vb: Public Shared Function ShowTreeView(service As IDialogMessageService, [option] As Action(Of ITreeViewPresenter), sumitAction As Action(Of ITreeViewPresenter) = Nothing, builder As Action(Of IDialog) = Nothing, canSumit As Func(Of ITreeViewPresenter, Task(Of Boolean)) = Nothing) As Task(Of Boolean?)
+  overload: H.Presenters.Common.DialogServiceExtension.ShowTreeView*
+  nameWithType.vb: DialogServiceExtension.ShowTreeView(IDialogMessageService, Action(Of ITreeViewPresenter), Action(Of ITreeViewPresenter), Action(Of IDialog), Func(Of ITreeViewPresenter, Task(Of Boolean)))
+  fullName.vb: H.Presenters.Common.DialogServiceExtension.ShowTreeView(H.Services.Message.Dialog.IDialogMessageService, System.Action(Of H.Presenters.Common.ITreeViewPresenter), System.Action(Of H.Presenters.Common.ITreeViewPresenter), System.Action(Of H.Services.Message.Dialog.IDialog), System.Func(Of H.Presenters.Common.ITreeViewPresenter, System.Threading.Tasks.Task(Of Boolean)))
+  name.vb: ShowTreeView(IDialogMessageService, Action(Of ITreeViewPresenter), Action(Of ITreeViewPresenter), Action(Of IDialog), Func(Of ITreeViewPresenter, Task(Of Boolean)))
+references:
+- uid: H.Presenters.Common
+  commentId: N:H.Presenters.Common
+  href: H.html
+  name: H.Presenters.Common
+  nameWithType: H.Presenters.Common
+  fullName: H.Presenters.Common
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Presenters
+    name: Presenters
+    href: H.Presenters.html
+  - name: .
+  - uid: H.Presenters.Common
+    name: Common
+    href: H.Presenters.Common.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Presenters
+    name: Presenters
+    href: H.Presenters.html
+  - name: .
+  - uid: H.Presenters.Common
+    name: Common
+    href: H.Presenters.Common.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: H.Presenters.Common.DialogServiceExtension.ShowDataGrid*
+  commentId: Overload:H.Presenters.Common.DialogServiceExtension.ShowDataGrid
+  href: H.Presenters.Common.DialogServiceExtension.html#H_Presenters_Common_DialogServiceExtension_ShowDataGrid_H_Services_Message_Dialog_IDialogMessageService_System_Action_H_Presenters_Common_IItemsSourcePresenter__System_Action_H_Presenters_Common_IItemsSourcePresenter__System_Action_H_Services_Message_Dialog_IDialog__System_Func_H_Presenters_Common_IItemsSourcePresenter_System_Threading_Tasks_Task_System_Boolean___
+  name: ShowDataGrid
+  nameWithType: DialogServiceExtension.ShowDataGrid
+  fullName: H.Presenters.Common.DialogServiceExtension.ShowDataGrid
+- uid: H.Services.Message.Dialog.IDialogMessageService
+  commentId: T:H.Services.Message.Dialog.IDialogMessageService
+  parent: H.Services.Message.Dialog
+  href: H.Services.Message.Dialog.IDialogMessageService.html
+  name: IDialogMessageService
+  nameWithType: IDialogMessageService
+  fullName: H.Services.Message.Dialog.IDialogMessageService
+- uid: System.Action{H.Presenters.Common.IItemsSourcePresenter}
+  commentId: T:System.Action{H.Presenters.Common.IItemsSourcePresenter}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<IItemsSourcePresenter>
+  nameWithType: Action<IItemsSourcePresenter>
+  fullName: System.Action<H.Presenters.Common.IItemsSourcePresenter>
+  nameWithType.vb: Action(Of IItemsSourcePresenter)
+  fullName.vb: System.Action(Of H.Presenters.Common.IItemsSourcePresenter)
+  name.vb: Action(Of IItemsSourcePresenter)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: H.Presenters.Common.IItemsSourcePresenter
+    name: IItemsSourcePresenter
+    href: H.Presenters.Common.IItemsSourcePresenter.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.Presenters.Common.IItemsSourcePresenter
+    name: IItemsSourcePresenter
+    href: H.Presenters.Common.IItemsSourcePresenter.html
+  - name: )
+- uid: System.Action{H.Services.Message.Dialog.IDialog}
+  commentId: T:System.Action{H.Services.Message.Dialog.IDialog}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<IDialog>
+  nameWithType: Action<IDialog>
+  fullName: System.Action<H.Services.Message.Dialog.IDialog>
+  nameWithType.vb: Action(Of IDialog)
+  fullName.vb: System.Action(Of H.Services.Message.Dialog.IDialog)
+  name.vb: Action(Of IDialog)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: H.Services.Message.Dialog.IDialog
+    name: IDialog
+    href: H.Services.Message.Dialog.IDialog.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.Services.Message.Dialog.IDialog
+    name: IDialog
+    href: H.Services.Message.Dialog.IDialog.html
+  - name: )
+- uid: System.Func{H.Presenters.Common.IItemsSourcePresenter,System.Threading.Tasks.Task{System.Boolean}}
+  commentId: T:System.Func{H.Presenters.Common.IItemsSourcePresenter,System.Threading.Tasks.Task{System.Boolean}}
+  parent: System
+  definition: System.Func`2
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<IItemsSourcePresenter, Task<bool>>
+  nameWithType: Func<IItemsSourcePresenter, Task<bool>>
+  fullName: System.Func<H.Presenters.Common.IItemsSourcePresenter, System.Threading.Tasks.Task<bool>>
+  nameWithType.vb: Func(Of IItemsSourcePresenter, Task(Of Boolean))
+  fullName.vb: System.Func(Of H.Presenters.Common.IItemsSourcePresenter, System.Threading.Tasks.Task(Of Boolean))
+  name.vb: Func(Of IItemsSourcePresenter, Task(Of Boolean))
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: H.Presenters.Common.IItemsSourcePresenter
+    name: IItemsSourcePresenter
+    href: H.Presenters.Common.IItemsSourcePresenter.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.Presenters.Common.IItemsSourcePresenter
+    name: IItemsSourcePresenter
+    href: H.Presenters.Common.IItemsSourcePresenter.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  - name: )
+- uid: System.Threading.Tasks.Task{System.Nullable{System.Boolean}}
+  commentId: T:System.Threading.Tasks.Task{System.Nullable{System.Boolean}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<bool?>
+  nameWithType: Task<bool?>
+  fullName: System.Threading.Tasks.Task<bool?>
+  nameWithType.vb: Task(Of Boolean?)
+  fullName.vb: System.Threading.Tasks.Task(Of Boolean?)
+  name.vb: Task(Of Boolean?)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+  - name: )
+- uid: H.Services.Message.Dialog
+  commentId: N:H.Services.Message.Dialog
+  href: H.html
+  name: H.Services.Message.Dialog
+  nameWithType: H.Services.Message.Dialog
+  fullName: H.Services.Message.Dialog
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Message
+    name: Message
+    href: H.Services.Message.html
+  - name: .
+  - uid: H.Services.Message.Dialog
+    name: Dialog
+    href: H.Services.Message.Dialog.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Message
+    name: Message
+    href: H.Services.Message.html
+  - name: .
+  - uid: H.Services.Message.Dialog
+    name: Dialog
+    href: H.Services.Message.Dialog.html
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: H.Presenters.Common.DialogServiceExtension.ShowFilePathTextBox*
+  commentId: Overload:H.Presenters.Common.DialogServiceExtension.ShowFilePathTextBox
+  href: H.Presenters.Common.DialogServiceExtension.html#H_Presenters_Common_DialogServiceExtension_ShowFilePathTextBox_H_Services_Message_Dialog_IDialogMessageService_System_Action_H_Presenters_Common_IFilePathTextBoxPresenter__System_Action_H_Presenters_Common_IFilePathTextBoxPresenter__System_Action_H_Services_Message_Dialog_IDialog__System_Func_H_Presenters_Common_IFilePathTextBoxPresenter_System_Threading_Tasks_Task_System_Boolean___
+  name: ShowFilePathTextBox
+  nameWithType: DialogServiceExtension.ShowFilePathTextBox
+  fullName: H.Presenters.Common.DialogServiceExtension.ShowFilePathTextBox
+- uid: System.Action{H.Presenters.Common.IFilePathTextBoxPresenter}
+  commentId: T:System.Action{H.Presenters.Common.IFilePathTextBoxPresenter}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<IFilePathTextBoxPresenter>
+  nameWithType: Action<IFilePathTextBoxPresenter>
+  fullName: System.Action<H.Presenters.Common.IFilePathTextBoxPresenter>
+  nameWithType.vb: Action(Of IFilePathTextBoxPresenter)
+  fullName.vb: System.Action(Of H.Presenters.Common.IFilePathTextBoxPresenter)
+  name.vb: Action(Of IFilePathTextBoxPresenter)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: H.Presenters.Common.IFilePathTextBoxPresenter
+    name: IFilePathTextBoxPresenter
+    href: H.Presenters.Common.IFilePathTextBoxPresenter.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.Presenters.Common.IFilePathTextBoxPresenter
+    name: IFilePathTextBoxPresenter
+    href: H.Presenters.Common.IFilePathTextBoxPresenter.html
+  - name: )
+- uid: System.Func{H.Presenters.Common.IFilePathTextBoxPresenter,System.Threading.Tasks.Task{System.Boolean}}
+  commentId: T:System.Func{H.Presenters.Common.IFilePathTextBoxPresenter,System.Threading.Tasks.Task{System.Boolean}}
+  parent: System
+  definition: System.Func`2
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<IFilePathTextBoxPresenter, Task<bool>>
+  nameWithType: Func<IFilePathTextBoxPresenter, Task<bool>>
+  fullName: System.Func<H.Presenters.Common.IFilePathTextBoxPresenter, System.Threading.Tasks.Task<bool>>
+  nameWithType.vb: Func(Of IFilePathTextBoxPresenter, Task(Of Boolean))
+  fullName.vb: System.Func(Of H.Presenters.Common.IFilePathTextBoxPresenter, System.Threading.Tasks.Task(Of Boolean))
+  name.vb: Func(Of IFilePathTextBoxPresenter, Task(Of Boolean))
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: H.Presenters.Common.IFilePathTextBoxPresenter
+    name: IFilePathTextBoxPresenter
+    href: H.Presenters.Common.IFilePathTextBoxPresenter.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.Presenters.Common.IFilePathTextBoxPresenter
+    name: IFilePathTextBoxPresenter
+    href: H.Presenters.Common.IFilePathTextBoxPresenter.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  - name: )
+- uid: H.Presenters.Common.DialogServiceExtension.ShowImageSource*
+  commentId: Overload:H.Presenters.Common.DialogServiceExtension.ShowImageSource
+  href: H.Presenters.Common.DialogServiceExtension.html#H_Presenters_Common_DialogServiceExtension_ShowImageSource_H_Services_Message_Dialog_IDialogMessageService_System_Action_H_Presenters_Common_IImageFilePathPresenter__System_Action_H_Presenters_Common_IImageFilePathPresenter__System_Action_H_Services_Message_Dialog_IDialog__System_Func_H_Presenters_Common_IImageFilePathPresenter_System_Threading_Tasks_Task_System_Boolean___
+  name: ShowImageSource
+  nameWithType: DialogServiceExtension.ShowImageSource
+  fullName: H.Presenters.Common.DialogServiceExtension.ShowImageSource
+- uid: System.Action{H.Presenters.Common.IImageFilePathPresenter}
+  commentId: T:System.Action{H.Presenters.Common.IImageFilePathPresenter}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<IImageFilePathPresenter>
+  nameWithType: Action<IImageFilePathPresenter>
+  fullName: System.Action<H.Presenters.Common.IImageFilePathPresenter>
+  nameWithType.vb: Action(Of IImageFilePathPresenter)
+  fullName.vb: System.Action(Of H.Presenters.Common.IImageFilePathPresenter)
+  name.vb: Action(Of IImageFilePathPresenter)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: H.Presenters.Common.IImageFilePathPresenter
+    name: IImageFilePathPresenter
+    href: H.Presenters.Common.IImageFilePathPresenter.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.Presenters.Common.IImageFilePathPresenter
+    name: IImageFilePathPresenter
+    href: H.Presenters.Common.IImageFilePathPresenter.html
+  - name: )
+- uid: System.Func{H.Presenters.Common.IImageFilePathPresenter,System.Threading.Tasks.Task{System.Boolean}}
+  commentId: T:System.Func{H.Presenters.Common.IImageFilePathPresenter,System.Threading.Tasks.Task{System.Boolean}}
+  parent: System
+  definition: System.Func`2
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<IImageFilePathPresenter, Task<bool>>
+  nameWithType: Func<IImageFilePathPresenter, Task<bool>>
+  fullName: System.Func<H.Presenters.Common.IImageFilePathPresenter, System.Threading.Tasks.Task<bool>>
+  nameWithType.vb: Func(Of IImageFilePathPresenter, Task(Of Boolean))
+  fullName.vb: System.Func(Of H.Presenters.Common.IImageFilePathPresenter, System.Threading.Tasks.Task(Of Boolean))
+  name.vb: Func(Of IImageFilePathPresenter, Task(Of Boolean))
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: H.Presenters.Common.IImageFilePathPresenter
+    name: IImageFilePathPresenter
+    href: H.Presenters.Common.IImageFilePathPresenter.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.Presenters.Common.IImageFilePathPresenter
+    name: IImageFilePathPresenter
+    href: H.Presenters.Common.IImageFilePathPresenter.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Action{System.String}
+  commentId: T:System.Action{System.String}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<string>
+  nameWithType: Action<string>
+  fullName: System.Action<string>
+  nameWithType.vb: Action(Of String)
+  fullName.vb: System.Action(Of String)
+  name.vb: Action(Of String)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Action{H.Presenters.Common.IImageViewPresenter}
+  commentId: T:System.Action{H.Presenters.Common.IImageViewPresenter}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<IImageViewPresenter>
+  nameWithType: Action<IImageViewPresenter>
+  fullName: System.Action<H.Presenters.Common.IImageViewPresenter>
+  nameWithType.vb: Action(Of IImageViewPresenter)
+  fullName.vb: System.Action(Of H.Presenters.Common.IImageViewPresenter)
+  name.vb: Action(Of IImageViewPresenter)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: H.Presenters.Common.IImageViewPresenter
+    name: IImageViewPresenter
+    href: H.Presenters.Common.IImageViewPresenter.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.Presenters.Common.IImageViewPresenter
+    name: IImageViewPresenter
+    href: H.Presenters.Common.IImageViewPresenter.html
+  - name: )
+- uid: System.Windows.Media.ImageSource
+  commentId: T:System.Windows.Media.ImageSource
+  parent: System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.imagesource
+  name: ImageSource
+  nameWithType: ImageSource
+  fullName: System.Windows.Media.ImageSource
+- uid: System.Windows.Media
+  commentId: N:System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Media
+  nameWithType: System.Windows.Media
+  fullName: System.Windows.Media
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+- uid: H.Presenters.Common.DialogServiceExtension.ShowItemsControl*
+  commentId: Overload:H.Presenters.Common.DialogServiceExtension.ShowItemsControl
+  href: H.Presenters.Common.DialogServiceExtension.html#H_Presenters_Common_DialogServiceExtension_ShowItemsControl_H_Services_Message_Dialog_IDialogMessageService_System_Action_H_Presenters_Common_IItemsSourcePresenter__System_Action_H_Presenters_Common_IItemsSourcePresenter__System_Action_H_Services_Message_Dialog_IDialog__System_Func_H_Presenters_Common_IItemsSourcePresenter_System_Threading_Tasks_Task_System_Boolean___
+  name: ShowItemsControl
+  nameWithType: DialogServiceExtension.ShowItemsControl
+  fullName: H.Presenters.Common.DialogServiceExtension.ShowItemsControl
+- uid: H.Presenters.Common.DialogServiceExtension.ShowListBox*
+  commentId: Overload:H.Presenters.Common.DialogServiceExtension.ShowListBox
+  href: H.Presenters.Common.DialogServiceExtension.html#H_Presenters_Common_DialogServiceExtension_ShowListBox_H_Services_Message_Dialog_IDialogMessageService_System_Action_H_Presenters_Common_IListBoxPresenter__System_Action_H_Presenters_Common_IListBoxPresenter__System_Action_H_Services_Message_Dialog_IDialog__System_Func_H_Presenters_Common_IListBoxPresenter_System_Threading_Tasks_Task_System_Boolean___
+  name: ShowListBox
+  nameWithType: DialogServiceExtension.ShowListBox
+  fullName: H.Presenters.Common.DialogServiceExtension.ShowListBox
+- uid: System.Action{H.Presenters.Common.IListBoxPresenter}
+  commentId: T:System.Action{H.Presenters.Common.IListBoxPresenter}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<IListBoxPresenter>
+  nameWithType: Action<IListBoxPresenter>
+  fullName: System.Action<H.Presenters.Common.IListBoxPresenter>
+  nameWithType.vb: Action(Of IListBoxPresenter)
+  fullName.vb: System.Action(Of H.Presenters.Common.IListBoxPresenter)
+  name.vb: Action(Of IListBoxPresenter)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: H.Presenters.Common.IListBoxPresenter
+    name: IListBoxPresenter
+    href: H.Presenters.Common.IListBoxPresenter.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.Presenters.Common.IListBoxPresenter
+    name: IListBoxPresenter
+    href: H.Presenters.Common.IListBoxPresenter.html
+  - name: )
+- uid: System.Func{H.Presenters.Common.IListBoxPresenter,System.Threading.Tasks.Task{System.Boolean}}
+  commentId: T:System.Func{H.Presenters.Common.IListBoxPresenter,System.Threading.Tasks.Task{System.Boolean}}
+  parent: System
+  definition: System.Func`2
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<IListBoxPresenter, Task<bool>>
+  nameWithType: Func<IListBoxPresenter, Task<bool>>
+  fullName: System.Func<H.Presenters.Common.IListBoxPresenter, System.Threading.Tasks.Task<bool>>
+  nameWithType.vb: Func(Of IListBoxPresenter, Task(Of Boolean))
+  fullName.vb: System.Func(Of H.Presenters.Common.IListBoxPresenter, System.Threading.Tasks.Task(Of Boolean))
+  name.vb: Func(Of IListBoxPresenter, Task(Of Boolean))
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: H.Presenters.Common.IListBoxPresenter
+    name: IListBoxPresenter
+    href: H.Presenters.Common.IListBoxPresenter.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.Presenters.Common.IListBoxPresenter
+    name: IListBoxPresenter
+    href: H.Presenters.Common.IListBoxPresenter.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  - name: )
+- uid: System.Threading.Tasks.Task{{T}}
+  commentId: T:System.Threading.Tasks.Task{``0}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<T>
+  nameWithType: Task<T>
+  fullName: System.Threading.Tasks.Task<T>
+  nameWithType.vb: Task(Of T)
+  fullName.vb: System.Threading.Tasks.Task(Of T)
+  name.vb: Task(Of T)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Presenters.Common.DialogServiceExtension.ShowPasswordBox*
+  commentId: Overload:H.Presenters.Common.DialogServiceExtension.ShowPasswordBox
+  href: H.Presenters.Common.DialogServiceExtension.html#H_Presenters_Common_DialogServiceExtension_ShowPasswordBox_H_Services_Message_Dialog_IDialogMessageService_System_Action_H_Presenters_Common_IPasswordBoxPresenter__System_Action_H_Presenters_Common_IPasswordBoxPresenter__System_Action_H_Services_Message_Dialog_IDialog__System_Func_H_Presenters_Common_IPasswordBoxPresenter_System_Threading_Tasks_Task_System_Boolean___
+  name: ShowPasswordBox
+  nameWithType: DialogServiceExtension.ShowPasswordBox
+  fullName: H.Presenters.Common.DialogServiceExtension.ShowPasswordBox
+- uid: System.Action{H.Presenters.Common.IPasswordBoxPresenter}
+  commentId: T:System.Action{H.Presenters.Common.IPasswordBoxPresenter}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<IPasswordBoxPresenter>
+  nameWithType: Action<IPasswordBoxPresenter>
+  fullName: System.Action<H.Presenters.Common.IPasswordBoxPresenter>
+  nameWithType.vb: Action(Of IPasswordBoxPresenter)
+  fullName.vb: System.Action(Of H.Presenters.Common.IPasswordBoxPresenter)
+  name.vb: Action(Of IPasswordBoxPresenter)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: H.Presenters.Common.IPasswordBoxPresenter
+    name: IPasswordBoxPresenter
+    href: H.Presenters.Common.IPasswordBoxPresenter.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.Presenters.Common.IPasswordBoxPresenter
+    name: IPasswordBoxPresenter
+    href: H.Presenters.Common.IPasswordBoxPresenter.html
+  - name: )
+- uid: System.Func{H.Presenters.Common.IPasswordBoxPresenter,System.Threading.Tasks.Task{System.Boolean}}
+  commentId: T:System.Func{H.Presenters.Common.IPasswordBoxPresenter,System.Threading.Tasks.Task{System.Boolean}}
+  parent: System
+  definition: System.Func`2
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<IPasswordBoxPresenter, Task<bool>>
+  nameWithType: Func<IPasswordBoxPresenter, Task<bool>>
+  fullName: System.Func<H.Presenters.Common.IPasswordBoxPresenter, System.Threading.Tasks.Task<bool>>
+  nameWithType.vb: Func(Of IPasswordBoxPresenter, Task(Of Boolean))
+  fullName.vb: System.Func(Of H.Presenters.Common.IPasswordBoxPresenter, System.Threading.Tasks.Task(Of Boolean))
+  name.vb: Func(Of IPasswordBoxPresenter, Task(Of Boolean))
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: H.Presenters.Common.IPasswordBoxPresenter
+    name: IPasswordBoxPresenter
+    href: H.Presenters.Common.IPasswordBoxPresenter.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.Presenters.Common.IPasswordBoxPresenter
+    name: IPasswordBoxPresenter
+    href: H.Presenters.Common.IPasswordBoxPresenter.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  - name: )
+- uid: H.Presenters.Common.DialogServiceExtension.ShowTextBox*
+  commentId: Overload:H.Presenters.Common.DialogServiceExtension.ShowTextBox
+  href: H.Presenters.Common.DialogServiceExtension.html#H_Presenters_Common_DialogServiceExtension_ShowTextBox_H_Services_Message_Dialog_IDialogMessageService_System_Action_H_Presenters_Common_ITextBoxPresenter__System_Action_H_Presenters_Common_ITextBoxPresenter__System_Action_H_Services_Message_Dialog_IDialog__System_Func_H_Presenters_Common_ITextBoxPresenter_System_Threading_Tasks_Task_System_Boolean___
+  name: ShowTextBox
+  nameWithType: DialogServiceExtension.ShowTextBox
+  fullName: H.Presenters.Common.DialogServiceExtension.ShowTextBox
+- uid: System.Action{H.Presenters.Common.ITextBoxPresenter}
+  commentId: T:System.Action{H.Presenters.Common.ITextBoxPresenter}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<ITextBoxPresenter>
+  nameWithType: Action<ITextBoxPresenter>
+  fullName: System.Action<H.Presenters.Common.ITextBoxPresenter>
+  nameWithType.vb: Action(Of ITextBoxPresenter)
+  fullName.vb: System.Action(Of H.Presenters.Common.ITextBoxPresenter)
+  name.vb: Action(Of ITextBoxPresenter)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: H.Presenters.Common.ITextBoxPresenter
+    name: ITextBoxPresenter
+    href: H.Presenters.Common.ITextBoxPresenter.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.Presenters.Common.ITextBoxPresenter
+    name: ITextBoxPresenter
+    href: H.Presenters.Common.ITextBoxPresenter.html
+  - name: )
+- uid: System.Func{H.Presenters.Common.ITextBoxPresenter,System.Threading.Tasks.Task{System.Boolean}}
+  commentId: T:System.Func{H.Presenters.Common.ITextBoxPresenter,System.Threading.Tasks.Task{System.Boolean}}
+  parent: System
+  definition: System.Func`2
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<ITextBoxPresenter, Task<bool>>
+  nameWithType: Func<ITextBoxPresenter, Task<bool>>
+  fullName: System.Func<H.Presenters.Common.ITextBoxPresenter, System.Threading.Tasks.Task<bool>>
+  nameWithType.vb: Func(Of ITextBoxPresenter, Task(Of Boolean))
+  fullName.vb: System.Func(Of H.Presenters.Common.ITextBoxPresenter, System.Threading.Tasks.Task(Of Boolean))
+  name.vb: Func(Of ITextBoxPresenter, Task(Of Boolean))
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: H.Presenters.Common.ITextBoxPresenter
+    name: ITextBoxPresenter
+    href: H.Presenters.Common.ITextBoxPresenter.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.Presenters.Common.ITextBoxPresenter
+    name: ITextBoxPresenter
+    href: H.Presenters.Common.ITextBoxPresenter.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  - name: )
+- uid: '{ResultT}'
+  commentId: '!:ResultT'
+  definition: ResultT
+  name: ResultT
+  nameWithType: ResultT
+  fullName: ResultT
+- uid: System.Action{{ResultT}}
+  commentId: T:System.Action{``0}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<ResultT>
+  nameWithType: Action<ResultT>
+  fullName: System.Action<ResultT>
+  nameWithType.vb: Action(Of ResultT)
+  fullName.vb: System.Action(Of ResultT)
+  name.vb: Action(Of ResultT)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: ResultT
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ResultT
+  - name: )
+- uid: ResultT
+  commentId: '!:ResultT'
+  name: ResultT
+  nameWithType: ResultT
+  fullName: ResultT
+- uid: H.Presenters.Common.DialogServiceExtension.ShowTreeView*
+  commentId: Overload:H.Presenters.Common.DialogServiceExtension.ShowTreeView
+  href: H.Presenters.Common.DialogServiceExtension.html#H_Presenters_Common_DialogServiceExtension_ShowTreeView_H_Services_Message_Dialog_IDialogMessageService_System_Action_H_Presenters_Common_ITreeViewPresenter__System_Action_H_Presenters_Common_ITreeViewPresenter__System_Action_H_Services_Message_Dialog_IDialog__System_Func_H_Presenters_Common_ITreeViewPresenter_System_Threading_Tasks_Task_System_Boolean___
+  name: ShowTreeView
+  nameWithType: DialogServiceExtension.ShowTreeView
+  fullName: H.Presenters.Common.DialogServiceExtension.ShowTreeView
+- uid: System.Action{H.Presenters.Common.ITreeViewPresenter}
+  commentId: T:System.Action{H.Presenters.Common.ITreeViewPresenter}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<ITreeViewPresenter>
+  nameWithType: Action<ITreeViewPresenter>
+  fullName: System.Action<H.Presenters.Common.ITreeViewPresenter>
+  nameWithType.vb: Action(Of ITreeViewPresenter)
+  fullName.vb: System.Action(Of H.Presenters.Common.ITreeViewPresenter)
+  name.vb: Action(Of ITreeViewPresenter)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: H.Presenters.Common.ITreeViewPresenter
+    name: ITreeViewPresenter
+    href: H.Presenters.Common.ITreeViewPresenter.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.Presenters.Common.ITreeViewPresenter
+    name: ITreeViewPresenter
+    href: H.Presenters.Common.ITreeViewPresenter.html
+  - name: )
+- uid: System.Func{H.Presenters.Common.ITreeViewPresenter,System.Threading.Tasks.Task{System.Boolean}}
+  commentId: T:System.Func{H.Presenters.Common.ITreeViewPresenter,System.Threading.Tasks.Task{System.Boolean}}
+  parent: System
+  definition: System.Func`2
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<ITreeViewPresenter, Task<bool>>
+  nameWithType: Func<ITreeViewPresenter, Task<bool>>
+  fullName: System.Func<H.Presenters.Common.ITreeViewPresenter, System.Threading.Tasks.Task<bool>>
+  nameWithType.vb: Func(Of ITreeViewPresenter, Task(Of Boolean))
+  fullName.vb: System.Func(Of H.Presenters.Common.ITreeViewPresenter, System.Threading.Tasks.Task(Of Boolean))
+  name.vb: Func(Of ITreeViewPresenter, Task(Of Boolean))
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: H.Presenters.Common.ITreeViewPresenter
+    name: ITreeViewPresenter
+    href: H.Presenters.Common.ITreeViewPresenter.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.Presenters.Common.ITreeViewPresenter
+    name: ITreeViewPresenter
+    href: H.Presenters.Common.ITreeViewPresenter.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  - name: )

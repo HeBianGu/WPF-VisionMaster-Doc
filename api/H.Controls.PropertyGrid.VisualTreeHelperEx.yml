@@ -1,0 +1,682 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.PropertyGrid.VisualTreeHelperEx
+  commentId: T:H.Controls.PropertyGrid.VisualTreeHelperEx
+  id: VisualTreeHelperEx
+  parent: H.Controls.PropertyGrid
+  children:
+  - H.Controls.PropertyGrid.VisualTreeHelperEx.FindAncestorByType(System.Windows.DependencyObject,System.Type,System.Boolean)
+  - H.Controls.PropertyGrid.VisualTreeHelperEx.FindAncestorByType``1(System.Windows.DependencyObject)
+  - H.Controls.PropertyGrid.VisualTreeHelperEx.FindDescendantByName(System.Windows.Media.Visual,System.String)
+  - H.Controls.PropertyGrid.VisualTreeHelperEx.FindDescendantByType(System.Windows.Media.Visual,System.Type)
+  - H.Controls.PropertyGrid.VisualTreeHelperEx.FindDescendantByType(System.Windows.Media.Visual,System.Type,System.Boolean)
+  - H.Controls.PropertyGrid.VisualTreeHelperEx.FindDescendantByType``1(System.Windows.Media.Visual)
+  - H.Controls.PropertyGrid.VisualTreeHelperEx.FindDescendantWithPropertyValue(System.Windows.Media.Visual,System.Windows.DependencyProperty,System.Object)
+  langs:
+  - csharp
+  - vb
+  name: VisualTreeHelperEx
+  nameWithType: VisualTreeHelperEx
+  fullName: H.Controls.PropertyGrid.VisualTreeHelperEx
+  type: Class
+  source:
+    id: VisualTreeHelperEx
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Core\Utilities\VisualTreeHelperEx.cs
+    startLine: 8
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid
+  syntax:
+    content: public static class VisualTreeHelperEx
+    content.vb: Public Module VisualTreeHelperEx
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: H.Controls.PropertyGrid.VisualTreeHelperEx.FindAncestorByType(System.Windows.DependencyObject,System.Type,System.Boolean)
+  commentId: M:H.Controls.PropertyGrid.VisualTreeHelperEx.FindAncestorByType(System.Windows.DependencyObject,System.Type,System.Boolean)
+  id: FindAncestorByType(System.Windows.DependencyObject,System.Type,System.Boolean)
+  parent: H.Controls.PropertyGrid.VisualTreeHelperEx
+  langs:
+  - csharp
+  - vb
+  name: FindAncestorByType(DependencyObject, Type, bool)
+  nameWithType: VisualTreeHelperEx.FindAncestorByType(DependencyObject, Type, bool)
+  fullName: H.Controls.PropertyGrid.VisualTreeHelperEx.FindAncestorByType(System.Windows.DependencyObject, System.Type, bool)
+  type: Method
+  source:
+    id: FindAncestorByType
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Core\Utilities\VisualTreeHelperEx.cs
+    startLine: 10
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid
+  syntax:
+    content: public static DependencyObject FindAncestorByType(DependencyObject element, Type type, bool specificTypeOnly)
+    parameters:
+    - id: element
+      type: System.Windows.DependencyObject
+    - id: type
+      type: System.Type
+    - id: specificTypeOnly
+      type: System.Boolean
+    return:
+      type: System.Windows.DependencyObject
+    content.vb: Public Shared Function FindAncestorByType(element As DependencyObject, type As Type, specificTypeOnly As Boolean) As DependencyObject
+  overload: H.Controls.PropertyGrid.VisualTreeHelperEx.FindAncestorByType*
+  nameWithType.vb: VisualTreeHelperEx.FindAncestorByType(DependencyObject, Type, Boolean)
+  fullName.vb: H.Controls.PropertyGrid.VisualTreeHelperEx.FindAncestorByType(System.Windows.DependencyObject, System.Type, Boolean)
+  name.vb: FindAncestorByType(DependencyObject, Type, Boolean)
+- uid: H.Controls.PropertyGrid.VisualTreeHelperEx.FindAncestorByType``1(System.Windows.DependencyObject)
+  commentId: M:H.Controls.PropertyGrid.VisualTreeHelperEx.FindAncestorByType``1(System.Windows.DependencyObject)
+  id: FindAncestorByType``1(System.Windows.DependencyObject)
+  parent: H.Controls.PropertyGrid.VisualTreeHelperEx
+  langs:
+  - csharp
+  - vb
+  name: FindAncestorByType<T>(DependencyObject)
+  nameWithType: VisualTreeHelperEx.FindAncestorByType<T>(DependencyObject)
+  fullName: H.Controls.PropertyGrid.VisualTreeHelperEx.FindAncestorByType<T>(System.Windows.DependencyObject)
+  type: Method
+  source:
+    id: FindAncestorByType
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Core\Utilities\VisualTreeHelperEx.cs
+    startLine: 22
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid
+  syntax:
+    content: 'public static T FindAncestorByType<T>(DependencyObject depObj) where T : DependencyObject'
+    parameters:
+    - id: depObj
+      type: System.Windows.DependencyObject
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function FindAncestorByType(Of T As DependencyObject)(depObj As DependencyObject) As T
+  overload: H.Controls.PropertyGrid.VisualTreeHelperEx.FindAncestorByType*
+  nameWithType.vb: VisualTreeHelperEx.FindAncestorByType(Of T)(DependencyObject)
+  fullName.vb: H.Controls.PropertyGrid.VisualTreeHelperEx.FindAncestorByType(Of T)(System.Windows.DependencyObject)
+  name.vb: FindAncestorByType(Of T)(DependencyObject)
+- uid: H.Controls.PropertyGrid.VisualTreeHelperEx.FindDescendantByName(System.Windows.Media.Visual,System.String)
+  commentId: M:H.Controls.PropertyGrid.VisualTreeHelperEx.FindDescendantByName(System.Windows.Media.Visual,System.String)
+  id: FindDescendantByName(System.Windows.Media.Visual,System.String)
+  parent: H.Controls.PropertyGrid.VisualTreeHelperEx
+  langs:
+  - csharp
+  - vb
+  name: FindDescendantByName(Visual, string)
+  nameWithType: VisualTreeHelperEx.FindDescendantByName(Visual, string)
+  fullName: H.Controls.PropertyGrid.VisualTreeHelperEx.FindDescendantByName(System.Windows.Media.Visual, string)
+  type: Method
+  source:
+    id: FindDescendantByName
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Core\Utilities\VisualTreeHelperEx.cs
+    startLine: 40
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid
+  syntax:
+    content: public static Visual FindDescendantByName(Visual element, string name)
+    parameters:
+    - id: element
+      type: System.Windows.Media.Visual
+    - id: name
+      type: System.String
+    return:
+      type: System.Windows.Media.Visual
+    content.vb: Public Shared Function FindDescendantByName(element As Visual, name As String) As Visual
+  overload: H.Controls.PropertyGrid.VisualTreeHelperEx.FindDescendantByName*
+  nameWithType.vb: VisualTreeHelperEx.FindDescendantByName(Visual, String)
+  fullName.vb: H.Controls.PropertyGrid.VisualTreeHelperEx.FindDescendantByName(System.Windows.Media.Visual, String)
+  name.vb: FindDescendantByName(Visual, String)
+- uid: H.Controls.PropertyGrid.VisualTreeHelperEx.FindDescendantByType(System.Windows.Media.Visual,System.Type)
+  commentId: M:H.Controls.PropertyGrid.VisualTreeHelperEx.FindDescendantByType(System.Windows.Media.Visual,System.Type)
+  id: FindDescendantByType(System.Windows.Media.Visual,System.Type)
+  parent: H.Controls.PropertyGrid.VisualTreeHelperEx
+  langs:
+  - csharp
+  - vb
+  name: FindDescendantByType(Visual, Type)
+  nameWithType: VisualTreeHelperEx.FindDescendantByType(Visual, Type)
+  fullName: H.Controls.PropertyGrid.VisualTreeHelperEx.FindDescendantByType(System.Windows.Media.Visual, System.Type)
+  type: Method
+  source:
+    id: FindDescendantByType
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Core\Utilities\VisualTreeHelperEx.cs
+    startLine: 60
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid
+  syntax:
+    content: public static Visual FindDescendantByType(Visual element, Type type)
+    parameters:
+    - id: element
+      type: System.Windows.Media.Visual
+    - id: type
+      type: System.Type
+    return:
+      type: System.Windows.Media.Visual
+    content.vb: Public Shared Function FindDescendantByType(element As Visual, type As Type) As Visual
+  overload: H.Controls.PropertyGrid.VisualTreeHelperEx.FindDescendantByType*
+- uid: H.Controls.PropertyGrid.VisualTreeHelperEx.FindDescendantByType(System.Windows.Media.Visual,System.Type,System.Boolean)
+  commentId: M:H.Controls.PropertyGrid.VisualTreeHelperEx.FindDescendantByType(System.Windows.Media.Visual,System.Type,System.Boolean)
+  id: FindDescendantByType(System.Windows.Media.Visual,System.Type,System.Boolean)
+  parent: H.Controls.PropertyGrid.VisualTreeHelperEx
+  langs:
+  - csharp
+  - vb
+  name: FindDescendantByType(Visual, Type, bool)
+  nameWithType: VisualTreeHelperEx.FindDescendantByType(Visual, Type, bool)
+  fullName: H.Controls.PropertyGrid.VisualTreeHelperEx.FindDescendantByType(System.Windows.Media.Visual, System.Type, bool)
+  type: Method
+  source:
+    id: FindDescendantByType
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Core\Utilities\VisualTreeHelperEx.cs
+    startLine: 65
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid
+  syntax:
+    content: public static Visual FindDescendantByType(Visual element, Type type, bool specificTypeOnly)
+    parameters:
+    - id: element
+      type: System.Windows.Media.Visual
+    - id: type
+      type: System.Type
+    - id: specificTypeOnly
+      type: System.Boolean
+    return:
+      type: System.Windows.Media.Visual
+    content.vb: Public Shared Function FindDescendantByType(element As Visual, type As Type, specificTypeOnly As Boolean) As Visual
+  overload: H.Controls.PropertyGrid.VisualTreeHelperEx.FindDescendantByType*
+  nameWithType.vb: VisualTreeHelperEx.FindDescendantByType(Visual, Type, Boolean)
+  fullName.vb: H.Controls.PropertyGrid.VisualTreeHelperEx.FindDescendantByType(System.Windows.Media.Visual, System.Type, Boolean)
+  name.vb: FindDescendantByType(Visual, Type, Boolean)
+- uid: H.Controls.PropertyGrid.VisualTreeHelperEx.FindDescendantByType``1(System.Windows.Media.Visual)
+  commentId: M:H.Controls.PropertyGrid.VisualTreeHelperEx.FindDescendantByType``1(System.Windows.Media.Visual)
+  id: FindDescendantByType``1(System.Windows.Media.Visual)
+  parent: H.Controls.PropertyGrid.VisualTreeHelperEx
+  langs:
+  - csharp
+  - vb
+  name: FindDescendantByType<T>(Visual)
+  nameWithType: VisualTreeHelperEx.FindDescendantByType<T>(Visual)
+  fullName: H.Controls.PropertyGrid.VisualTreeHelperEx.FindDescendantByType<T>(System.Windows.Media.Visual)
+  type: Method
+  source:
+    id: FindDescendantByType
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Core\Utilities\VisualTreeHelperEx.cs
+    startLine: 89
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid
+  syntax:
+    content: 'public static T FindDescendantByType<T>(Visual element) where T : Visual'
+    parameters:
+    - id: element
+      type: System.Windows.Media.Visual
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function FindDescendantByType(Of T As Visual)(element As Visual) As T
+  overload: H.Controls.PropertyGrid.VisualTreeHelperEx.FindDescendantByType*
+  nameWithType.vb: VisualTreeHelperEx.FindDescendantByType(Of T)(Visual)
+  fullName.vb: H.Controls.PropertyGrid.VisualTreeHelperEx.FindDescendantByType(Of T)(System.Windows.Media.Visual)
+  name.vb: FindDescendantByType(Of T)(Visual)
+- uid: H.Controls.PropertyGrid.VisualTreeHelperEx.FindDescendantWithPropertyValue(System.Windows.Media.Visual,System.Windows.DependencyProperty,System.Object)
+  commentId: M:H.Controls.PropertyGrid.VisualTreeHelperEx.FindDescendantWithPropertyValue(System.Windows.Media.Visual,System.Windows.DependencyProperty,System.Object)
+  id: FindDescendantWithPropertyValue(System.Windows.Media.Visual,System.Windows.DependencyProperty,System.Object)
+  parent: H.Controls.PropertyGrid.VisualTreeHelperEx
+  langs:
+  - csharp
+  - vb
+  name: FindDescendantWithPropertyValue(Visual, DependencyProperty, object)
+  nameWithType: VisualTreeHelperEx.FindDescendantWithPropertyValue(Visual, DependencyProperty, object)
+  fullName: H.Controls.PropertyGrid.VisualTreeHelperEx.FindDescendantWithPropertyValue(System.Windows.Media.Visual, System.Windows.DependencyProperty, object)
+  type: Method
+  source:
+    id: FindDescendantWithPropertyValue
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PropertyGrid\Core\Utilities\VisualTreeHelperEx.cs
+    startLine: 96
+  assemblies:
+  - H.Controls.PropertyGrid
+  namespace: H.Controls.PropertyGrid
+  syntax:
+    content: public static Visual FindDescendantWithPropertyValue(Visual element, DependencyProperty dp, object value)
+    parameters:
+    - id: element
+      type: System.Windows.Media.Visual
+    - id: dp
+      type: System.Windows.DependencyProperty
+    - id: value
+      type: System.Object
+    return:
+      type: System.Windows.Media.Visual
+    content.vb: Public Shared Function FindDescendantWithPropertyValue(element As Visual, dp As DependencyProperty, value As Object) As Visual
+  overload: H.Controls.PropertyGrid.VisualTreeHelperEx.FindDescendantWithPropertyValue*
+  nameWithType.vb: VisualTreeHelperEx.FindDescendantWithPropertyValue(Visual, DependencyProperty, Object)
+  fullName.vb: H.Controls.PropertyGrid.VisualTreeHelperEx.FindDescendantWithPropertyValue(System.Windows.Media.Visual, System.Windows.DependencyProperty, Object)
+  name.vb: FindDescendantWithPropertyValue(Visual, DependencyProperty, Object)
+references:
+- uid: H.Controls.PropertyGrid
+  commentId: N:H.Controls.PropertyGrid
+  href: H.html
+  name: H.Controls.PropertyGrid
+  nameWithType: H.Controls.PropertyGrid
+  fullName: H.Controls.PropertyGrid
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.PropertyGrid
+    name: PropertyGrid
+    href: H.Controls.PropertyGrid.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.PropertyGrid
+    name: PropertyGrid
+    href: H.Controls.PropertyGrid.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: H.Controls.PropertyGrid.VisualTreeHelperEx.FindAncestorByType*
+  commentId: Overload:H.Controls.PropertyGrid.VisualTreeHelperEx.FindAncestorByType
+  href: H.Controls.PropertyGrid.VisualTreeHelperEx.html#H_Controls_PropertyGrid_VisualTreeHelperEx_FindAncestorByType_System_Windows_DependencyObject_System_Type_System_Boolean_
+  name: FindAncestorByType
+  nameWithType: VisualTreeHelperEx.FindAncestorByType
+  fullName: H.Controls.PropertyGrid.VisualTreeHelperEx.FindAncestorByType
+- uid: System.Windows.DependencyObject
+  commentId: T:System.Windows.DependencyObject
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject
+  name: DependencyObject
+  nameWithType: DependencyObject
+  fullName: System.Windows.DependencyObject
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Windows
+  commentId: N:System.Windows
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows
+  nameWithType: System.Windows
+  fullName: System.Windows
+  spec.csharp:
+  - uid: System
+    name: System
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  spec.vb:
+  - uid: System
+    name: System
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: H.Controls.PropertyGrid.VisualTreeHelperEx.FindDescendantByName*
+  commentId: Overload:H.Controls.PropertyGrid.VisualTreeHelperEx.FindDescendantByName
+  href: H.Controls.PropertyGrid.VisualTreeHelperEx.html#H_Controls_PropertyGrid_VisualTreeHelperEx_FindDescendantByName_System_Windows_Media_Visual_System_String_
+  name: FindDescendantByName
+  nameWithType: VisualTreeHelperEx.FindDescendantByName
+  fullName: H.Controls.PropertyGrid.VisualTreeHelperEx.FindDescendantByName
+- uid: System.Windows.Media.Visual
+  commentId: T:System.Windows.Media.Visual
+  parent: System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.visual
+  name: Visual
+  nameWithType: Visual
+  fullName: System.Windows.Media.Visual
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Windows.Media
+  commentId: N:System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Media
+  nameWithType: System.Windows.Media
+  fullName: System.Windows.Media
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+- uid: H.Controls.PropertyGrid.VisualTreeHelperEx.FindDescendantByType*
+  commentId: Overload:H.Controls.PropertyGrid.VisualTreeHelperEx.FindDescendantByType
+  href: H.Controls.PropertyGrid.VisualTreeHelperEx.html#H_Controls_PropertyGrid_VisualTreeHelperEx_FindDescendantByType_System_Windows_Media_Visual_System_Type_
+  name: FindDescendantByType
+  nameWithType: VisualTreeHelperEx.FindDescendantByType
+  fullName: H.Controls.PropertyGrid.VisualTreeHelperEx.FindDescendantByType
+- uid: H.Controls.PropertyGrid.VisualTreeHelperEx.FindDescendantWithPropertyValue*
+  commentId: Overload:H.Controls.PropertyGrid.VisualTreeHelperEx.FindDescendantWithPropertyValue
+  href: H.Controls.PropertyGrid.VisualTreeHelperEx.html#H_Controls_PropertyGrid_VisualTreeHelperEx_FindDescendantWithPropertyValue_System_Windows_Media_Visual_System_Windows_DependencyProperty_System_Object_
+  name: FindDescendantWithPropertyValue
+  nameWithType: VisualTreeHelperEx.FindDescendantWithPropertyValue
+  fullName: H.Controls.PropertyGrid.VisualTreeHelperEx.FindDescendantWithPropertyValue
+- uid: System.Windows.DependencyProperty
+  commentId: T:System.Windows.DependencyProperty
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty
+  name: DependencyProperty
+  nameWithType: DependencyProperty
+  fullName: System.Windows.DependencyProperty

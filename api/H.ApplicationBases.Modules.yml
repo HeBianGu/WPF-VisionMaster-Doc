@@ -1,0 +1,68 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.ApplicationBases.Modules
+  commentId: N:H.ApplicationBases.Modules
+  id: H.ApplicationBases.Modules
+  children:
+  - H.ApplicationBases.Modules.DefaultModuleOptions
+  - H.ApplicationBases.Modules.IDefaultModuleOptions
+  - H.ApplicationBases.Modules.ModulesApplicationBase
+  langs:
+  - csharp
+  - vb
+  name: H.ApplicationBases.Modules
+  nameWithType: H.ApplicationBases.Modules
+  fullName: H.ApplicationBases.Modules
+  type: Namespace
+  assemblies:
+  - H.ApplicationBases.Modules
+references:
+- uid: H.ApplicationBases.Modules.DefaultModuleOptions
+  commentId: T:H.ApplicationBases.Modules.DefaultModuleOptions
+  href: H.ApplicationBases.Modules.DefaultModuleOptions.html
+  name: DefaultModuleOptions
+  nameWithType: DefaultModuleOptions
+  fullName: H.ApplicationBases.Modules.DefaultModuleOptions
+- uid: H.ApplicationBases.Modules.IDefaultModuleOptions
+  commentId: T:H.ApplicationBases.Modules.IDefaultModuleOptions
+  parent: H.ApplicationBases.Modules
+  href: H.ApplicationBases.Modules.IDefaultModuleOptions.html
+  name: IDefaultModuleOptions
+  nameWithType: IDefaultModuleOptions
+  fullName: H.ApplicationBases.Modules.IDefaultModuleOptions
+- uid: H.ApplicationBases.Modules.ModulesApplicationBase
+  commentId: T:H.ApplicationBases.Modules.ModulesApplicationBase
+  href: H.ApplicationBases.Modules.ModulesApplicationBase.html
+  name: ModulesApplicationBase
+  nameWithType: ModulesApplicationBase
+  fullName: H.ApplicationBases.Modules.ModulesApplicationBase
+- uid: H.ApplicationBases.Modules
+  commentId: N:H.ApplicationBases.Modules
+  href: H.html
+  name: H.ApplicationBases.Modules
+  nameWithType: H.ApplicationBases.Modules
+  fullName: H.ApplicationBases.Modules
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.ApplicationBases
+    name: ApplicationBases
+    href: H.ApplicationBases.html
+  - name: .
+  - uid: H.ApplicationBases.Modules
+    name: Modules
+    href: H.ApplicationBases.Modules.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.ApplicationBases
+    name: ApplicationBases
+    href: H.ApplicationBases.html
+  - name: .
+  - uid: H.ApplicationBases.Modules
+    name: Modules
+    href: H.ApplicationBases.Modules.html

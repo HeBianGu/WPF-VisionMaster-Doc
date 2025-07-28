@@ -1,0 +1,56 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Common
+  commentId: N:H.Common
+  id: H.Common
+  children:
+  - H.Common.BindingProxy
+  - H.Common.LazyInstance`1
+  - H.Common.Stopwatchable
+  langs:
+  - csharp
+  - vb
+  name: H.Common
+  nameWithType: H.Common
+  fullName: H.Common
+  type: Namespace
+  assemblies:
+  - H.Common
+references:
+- uid: H.Common.BindingProxy
+  commentId: T:H.Common.BindingProxy
+  href: H.Common.BindingProxy.html
+  name: BindingProxy
+  nameWithType: BindingProxy
+  fullName: H.Common.BindingProxy
+- uid: H.Common.LazyInstance`1
+  commentId: T:H.Common.LazyInstance`1
+  href: H.Common.LazyInstance-1.html
+  name: LazyInstance<T>
+  nameWithType: LazyInstance<T>
+  fullName: H.Common.LazyInstance<T>
+  nameWithType.vb: LazyInstance(Of T)
+  fullName.vb: H.Common.LazyInstance(Of T)
+  name.vb: LazyInstance(Of T)
+  spec.csharp:
+  - uid: H.Common.LazyInstance`1
+    name: LazyInstance
+    href: H.Common.LazyInstance-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Common.LazyInstance`1
+    name: LazyInstance
+    href: H.Common.LazyInstance-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Common.Stopwatchable
+  commentId: T:H.Common.Stopwatchable
+  href: H.Common.Stopwatchable.html
+  name: Stopwatchable
+  nameWithType: Stopwatchable
+  fullName: H.Common.Stopwatchable

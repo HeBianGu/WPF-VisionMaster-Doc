@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.ValueConverter.Files
+  commentId: N:H.ValueConverter.Files
+  id: H.ValueConverter.Files
+  children:
+  - H.ValueConverter.Files.GetByteToSizeDisplayConverter
+  langs:
+  - csharp
+  - vb
+  name: H.ValueConverter.Files
+  nameWithType: H.ValueConverter.Files
+  fullName: H.ValueConverter.Files
+  type: Namespace
+  assemblies:
+  - H.ValueConverter
+references:
+- uid: H.ValueConverter.Files.GetByteToSizeDisplayConverter
+  commentId: T:H.ValueConverter.Files.GetByteToSizeDisplayConverter
+  href: H.ValueConverter.Files.GetByteToSizeDisplayConverter.html
+  name: GetByteToSizeDisplayConverter
+  nameWithType: GetByteToSizeDisplayConverter
+  fullName: H.ValueConverter.Files.GetByteToSizeDisplayConverter

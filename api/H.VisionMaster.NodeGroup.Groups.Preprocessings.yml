@@ -1,0 +1,78 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.VisionMaster.NodeGroup.Groups.Preprocessings
+  commentId: N:H.VisionMaster.NodeGroup.Groups.Preprocessings
+  id: H.VisionMaster.NodeGroup.Groups.Preprocessings
+  children:
+  - H.VisionMaster.NodeGroup.Groups.Preprocessings.IPreprocessingGroupableNodeData
+  - H.VisionMaster.NodeGroup.Groups.Preprocessings.PreprocessingDataGroup
+  langs:
+  - csharp
+  - vb
+  name: H.VisionMaster.NodeGroup.Groups.Preprocessings
+  nameWithType: H.VisionMaster.NodeGroup.Groups.Preprocessings
+  fullName: H.VisionMaster.NodeGroup.Groups.Preprocessings
+  type: Namespace
+  assemblies:
+  - H.VisionMaster.NodeGroup
+references:
+- uid: H.VisionMaster.NodeGroup.Groups.Preprocessings.IPreprocessingGroupableNodeData
+  commentId: T:H.VisionMaster.NodeGroup.Groups.Preprocessings.IPreprocessingGroupableNodeData
+  parent: H.VisionMaster.NodeGroup.Groups.Preprocessings
+  href: H.VisionMaster.NodeGroup.Groups.Preprocessings.IPreprocessingGroupableNodeData.html
+  name: IPreprocessingGroupableNodeData
+  nameWithType: IPreprocessingGroupableNodeData
+  fullName: H.VisionMaster.NodeGroup.Groups.Preprocessings.IPreprocessingGroupableNodeData
+- uid: H.VisionMaster.NodeGroup.Groups.Preprocessings.PreprocessingDataGroup
+  commentId: T:H.VisionMaster.NodeGroup.Groups.Preprocessings.PreprocessingDataGroup
+  parent: H.VisionMaster.NodeGroup.Groups.Preprocessings
+  href: H.VisionMaster.NodeGroup.Groups.Preprocessings.PreprocessingDataGroup.html
+  name: PreprocessingDataGroup
+  nameWithType: PreprocessingDataGroup
+  fullName: H.VisionMaster.NodeGroup.Groups.Preprocessings.PreprocessingDataGroup
+- uid: H.VisionMaster.NodeGroup.Groups.Preprocessings
+  commentId: N:H.VisionMaster.NodeGroup.Groups.Preprocessings
+  href: H.html
+  name: H.VisionMaster.NodeGroup.Groups.Preprocessings
+  nameWithType: H.VisionMaster.NodeGroup.Groups.Preprocessings
+  fullName: H.VisionMaster.NodeGroup.Groups.Preprocessings
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup
+    name: NodeGroup
+    href: H.VisionMaster.NodeGroup.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup.Groups
+    name: Groups
+    href: H.VisionMaster.NodeGroup.Groups.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup.Groups.Preprocessings
+    name: Preprocessings
+    href: H.VisionMaster.NodeGroup.Groups.Preprocessings.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup
+    name: NodeGroup
+    href: H.VisionMaster.NodeGroup.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup.Groups
+    name: Groups
+    href: H.VisionMaster.NodeGroup.Groups.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup.Groups.Preprocessings
+    name: Preprocessings
+    href: H.VisionMaster.NodeGroup.Groups.Preprocessings.html

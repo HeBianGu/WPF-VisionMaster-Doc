@@ -1,0 +1,136 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.Diagram.Presenter.NodeDatas.Card
+  commentId: N:H.Controls.Diagram.Presenter.NodeDatas.Card
+  id: H.Controls.Diagram.Presenter.NodeDatas.Card
+  children:
+  - H.Controls.Diagram.Presenter.NodeDatas.Card.CardNodeData
+  - H.Controls.Diagram.Presenter.NodeDatas.Card.CheckCardNodeData
+  - H.Controls.Diagram.Presenter.NodeDatas.Card.EndCardNodeData
+  - H.Controls.Diagram.Presenter.NodeDatas.Card.FlowableDiagramTemplateNodeData
+  - H.Controls.Diagram.Presenter.NodeDatas.Card.LineCardNodeData
+  - H.Controls.Diagram.Presenter.NodeDatas.Card.MessageCardNodeData
+  - H.Controls.Diagram.Presenter.NodeDatas.Card.PointCardNodeData
+  - H.Controls.Diagram.Presenter.NodeDatas.Card.StartCardNodeData
+  - H.Controls.Diagram.Presenter.NodeDatas.Card.TitleCardNodeData
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.Diagram.Presenter.NodeDatas.Card
+  nameWithType: H.Controls.Diagram.Presenter.NodeDatas.Card
+  fullName: H.Controls.Diagram.Presenter.NodeDatas.Card
+  type: Namespace
+  assemblies:
+  - H.Controls.Diagram.Presenter
+references:
+- uid: H.Controls.Diagram.Presenter.NodeDatas.Card.CardNodeData
+  commentId: T:H.Controls.Diagram.Presenter.NodeDatas.Card.CardNodeData
+  parent: H.Controls.Diagram.Presenter.NodeDatas.Card
+  href: H.Controls.Diagram.Presenter.NodeDatas.Card.CardNodeData.html
+  name: CardNodeData
+  nameWithType: CardNodeData
+  fullName: H.Controls.Diagram.Presenter.NodeDatas.Card.CardNodeData
+- uid: H.Controls.Diagram.Presenter.NodeDatas.Card.CheckCardNodeData
+  commentId: T:H.Controls.Diagram.Presenter.NodeDatas.Card.CheckCardNodeData
+  href: H.Controls.Diagram.Presenter.NodeDatas.Card.CheckCardNodeData.html
+  name: CheckCardNodeData
+  nameWithType: CheckCardNodeData
+  fullName: H.Controls.Diagram.Presenter.NodeDatas.Card.CheckCardNodeData
+- uid: H.Controls.Diagram.Presenter.NodeDatas.Card.FlowableDiagramTemplateNodeData
+  commentId: T:H.Controls.Diagram.Presenter.NodeDatas.Card.FlowableDiagramTemplateNodeData
+  parent: H.Controls.Diagram.Presenter.NodeDatas.Card
+  href: H.Controls.Diagram.Presenter.NodeDatas.Card.FlowableDiagramTemplateNodeData.html
+  name: FlowableDiagramTemplateNodeData
+  nameWithType: FlowableDiagramTemplateNodeData
+  fullName: H.Controls.Diagram.Presenter.NodeDatas.Card.FlowableDiagramTemplateNodeData
+- uid: H.Controls.Diagram.Presenter.NodeDatas.Card.LineCardNodeData
+  commentId: T:H.Controls.Diagram.Presenter.NodeDatas.Card.LineCardNodeData
+  href: H.Controls.Diagram.Presenter.NodeDatas.Card.LineCardNodeData.html
+  name: LineCardNodeData
+  nameWithType: LineCardNodeData
+  fullName: H.Controls.Diagram.Presenter.NodeDatas.Card.LineCardNodeData
+- uid: H.Controls.Diagram.Presenter.NodeDatas.Card.PointCardNodeData
+  commentId: T:H.Controls.Diagram.Presenter.NodeDatas.Card.PointCardNodeData
+  href: H.Controls.Diagram.Presenter.NodeDatas.Card.PointCardNodeData.html
+  name: PointCardNodeData
+  nameWithType: PointCardNodeData
+  fullName: H.Controls.Diagram.Presenter.NodeDatas.Card.PointCardNodeData
+- uid: H.Controls.Diagram.Presenter.NodeDatas.Card.TitleCardNodeData
+  commentId: T:H.Controls.Diagram.Presenter.NodeDatas.Card.TitleCardNodeData
+  parent: H.Controls.Diagram.Presenter.NodeDatas.Card
+  href: H.Controls.Diagram.Presenter.NodeDatas.Card.TitleCardNodeData.html
+  name: TitleCardNodeData
+  nameWithType: TitleCardNodeData
+  fullName: H.Controls.Diagram.Presenter.NodeDatas.Card.TitleCardNodeData
+- uid: H.Controls.Diagram.Presenter.NodeDatas.Card.EndCardNodeData
+  commentId: T:H.Controls.Diagram.Presenter.NodeDatas.Card.EndCardNodeData
+  href: H.Controls.Diagram.Presenter.NodeDatas.Card.EndCardNodeData.html
+  name: EndCardNodeData
+  nameWithType: EndCardNodeData
+  fullName: H.Controls.Diagram.Presenter.NodeDatas.Card.EndCardNodeData
+- uid: H.Controls.Diagram.Presenter.NodeDatas.Card.StartCardNodeData
+  commentId: T:H.Controls.Diagram.Presenter.NodeDatas.Card.StartCardNodeData
+  href: H.Controls.Diagram.Presenter.NodeDatas.Card.StartCardNodeData.html
+  name: StartCardNodeData
+  nameWithType: StartCardNodeData
+  fullName: H.Controls.Diagram.Presenter.NodeDatas.Card.StartCardNodeData
+- uid: H.Controls.Diagram.Presenter.NodeDatas.Card.MessageCardNodeData
+  commentId: T:H.Controls.Diagram.Presenter.NodeDatas.Card.MessageCardNodeData
+  href: H.Controls.Diagram.Presenter.NodeDatas.Card.MessageCardNodeData.html
+  name: MessageCardNodeData
+  nameWithType: MessageCardNodeData
+  fullName: H.Controls.Diagram.Presenter.NodeDatas.Card.MessageCardNodeData
+- uid: H.Controls.Diagram.Presenter.NodeDatas.Card
+  commentId: N:H.Controls.Diagram.Presenter.NodeDatas.Card
+  href: H.html
+  name: H.Controls.Diagram.Presenter.NodeDatas.Card
+  nameWithType: H.Controls.Diagram.Presenter.NodeDatas.Card
+  fullName: H.Controls.Diagram.Presenter.NodeDatas.Card
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter
+    name: Presenter
+    href: H.Controls.Diagram.Presenter.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter.NodeDatas
+    name: NodeDatas
+    href: H.Controls.Diagram.Presenter.NodeDatas.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter.NodeDatas.Card
+    name: Card
+    href: H.Controls.Diagram.Presenter.NodeDatas.Card.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter
+    name: Presenter
+    href: H.Controls.Diagram.Presenter.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter.NodeDatas
+    name: NodeDatas
+    href: H.Controls.Diagram.Presenter.NodeDatas.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter.NodeDatas.Card
+    name: Card
+    href: H.Controls.Diagram.Presenter.NodeDatas.Card.html

@@ -1,0 +1,99 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.Diagram.Presenter.Provider.Tree
+  commentId: N:H.Controls.Diagram.Presenter.Provider.Tree
+  id: H.Controls.Diagram.Presenter.Provider.Tree
+  children:
+  - H.Controls.Diagram.Presenter.Provider.Tree.LinkTreeNode
+  - H.Controls.Diagram.Presenter.Provider.Tree.NodeTreeNode
+  - H.Controls.Diagram.Presenter.Provider.Tree.PartTreeNodeBase
+  - H.Controls.Diagram.Presenter.Provider.Tree.PortTreeNode
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.Diagram.Presenter.Provider.Tree
+  nameWithType: H.Controls.Diagram.Presenter.Provider.Tree
+  fullName: H.Controls.Diagram.Presenter.Provider.Tree
+  type: Namespace
+  assemblies:
+  - H.Controls.Diagram.Presenter
+references:
+- uid: H.Controls.Diagram.Presenter.Provider.Tree.LinkTreeNode
+  commentId: T:H.Controls.Diagram.Presenter.Provider.Tree.LinkTreeNode
+  href: H.Controls.Diagram.Presenter.Provider.Tree.LinkTreeNode.html
+  name: LinkTreeNode
+  nameWithType: LinkTreeNode
+  fullName: H.Controls.Diagram.Presenter.Provider.Tree.LinkTreeNode
+- uid: H.Controls.Diagram.Presenter.Provider.Tree.NodeTreeNode
+  commentId: T:H.Controls.Diagram.Presenter.Provider.Tree.NodeTreeNode
+  href: H.Controls.Diagram.Presenter.Provider.Tree.NodeTreeNode.html
+  name: NodeTreeNode
+  nameWithType: NodeTreeNode
+  fullName: H.Controls.Diagram.Presenter.Provider.Tree.NodeTreeNode
+- uid: H.Controls.Diagram.Presenter.Provider.Tree.PartTreeNodeBase
+  commentId: T:H.Controls.Diagram.Presenter.Provider.Tree.PartTreeNodeBase
+  parent: H.Controls.Diagram.Presenter.Provider.Tree
+  href: H.Controls.Diagram.Presenter.Provider.Tree.PartTreeNodeBase.html
+  name: PartTreeNodeBase
+  nameWithType: PartTreeNodeBase
+  fullName: H.Controls.Diagram.Presenter.Provider.Tree.PartTreeNodeBase
+- uid: H.Controls.Diagram.Presenter.Provider.Tree.PortTreeNode
+  commentId: T:H.Controls.Diagram.Presenter.Provider.Tree.PortTreeNode
+  href: H.Controls.Diagram.Presenter.Provider.Tree.PortTreeNode.html
+  name: PortTreeNode
+  nameWithType: PortTreeNode
+  fullName: H.Controls.Diagram.Presenter.Provider.Tree.PortTreeNode
+- uid: H.Controls.Diagram.Presenter.Provider.Tree
+  commentId: N:H.Controls.Diagram.Presenter.Provider.Tree
+  href: H.html
+  name: H.Controls.Diagram.Presenter.Provider.Tree
+  nameWithType: H.Controls.Diagram.Presenter.Provider.Tree
+  fullName: H.Controls.Diagram.Presenter.Provider.Tree
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter
+    name: Presenter
+    href: H.Controls.Diagram.Presenter.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter.Provider
+    name: Provider
+    href: H.Controls.Diagram.Presenter.Provider.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter.Provider.Tree
+    name: Tree
+    href: H.Controls.Diagram.Presenter.Provider.Tree.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter
+    name: Presenter
+    href: H.Controls.Diagram.Presenter.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter.Provider
+    name: Provider
+    href: H.Controls.Diagram.Presenter.Provider.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter.Provider.Tree
+    name: Tree
+    href: H.Controls.Diagram.Presenter.Provider.Tree.html

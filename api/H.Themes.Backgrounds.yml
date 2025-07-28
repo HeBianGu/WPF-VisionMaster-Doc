@@ -1,0 +1,104 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Themes.Backgrounds
+  commentId: N:H.Themes.Backgrounds
+  id: H.Themes.Backgrounds
+  children:
+  - H.Themes.Backgrounds.BackgroundThemeExtension
+  - H.Themes.Backgrounds.BackgroundThemeType
+  - H.Themes.Backgrounds.DrawingBrushResource
+  - H.Themes.Backgrounds.IBackgroundResource
+  - H.Themes.Backgrounds.ImageBrushResource
+  - H.Themes.Backgrounds.LinearGradientBrushResource
+  - H.Themes.Backgrounds.RadialGradientBrushResource
+  - H.Themes.Backgrounds.SolidColorBrushResource
+  langs:
+  - csharp
+  - vb
+  name: H.Themes.Backgrounds
+  nameWithType: H.Themes.Backgrounds
+  fullName: H.Themes.Backgrounds
+  type: Namespace
+  assemblies:
+  - H.Theme
+references:
+- uid: H.Themes.Backgrounds.BackgroundThemeExtension
+  commentId: T:H.Themes.Backgrounds.BackgroundThemeExtension
+  href: H.Themes.Backgrounds.BackgroundThemeExtension.html
+  name: BackgroundThemeExtension
+  nameWithType: BackgroundThemeExtension
+  fullName: H.Themes.Backgrounds.BackgroundThemeExtension
+- uid: H.Themes.Backgrounds.BackgroundThemeType
+  commentId: T:H.Themes.Backgrounds.BackgroundThemeType
+  parent: H.Themes.Backgrounds
+  href: H.Themes.Backgrounds.BackgroundThemeType.html
+  name: BackgroundThemeType
+  nameWithType: BackgroundThemeType
+  fullName: H.Themes.Backgrounds.BackgroundThemeType
+- uid: H.Themes.Backgrounds.DrawingBrushResource
+  commentId: T:H.Themes.Backgrounds.DrawingBrushResource
+  href: H.Themes.Backgrounds.DrawingBrushResource.html
+  name: DrawingBrushResource
+  nameWithType: DrawingBrushResource
+  fullName: H.Themes.Backgrounds.DrawingBrushResource
+- uid: H.Themes.Backgrounds.IBackgroundResource
+  commentId: T:H.Themes.Backgrounds.IBackgroundResource
+  parent: H.Themes.Backgrounds
+  href: H.Themes.Backgrounds.IBackgroundResource.html
+  name: IBackgroundResource
+  nameWithType: IBackgroundResource
+  fullName: H.Themes.Backgrounds.IBackgroundResource
+- uid: H.Themes.Backgrounds.ImageBrushResource
+  commentId: T:H.Themes.Backgrounds.ImageBrushResource
+  href: H.Themes.Backgrounds.ImageBrushResource.html
+  name: ImageBrushResource
+  nameWithType: ImageBrushResource
+  fullName: H.Themes.Backgrounds.ImageBrushResource
+- uid: H.Themes.Backgrounds.LinearGradientBrushResource
+  commentId: T:H.Themes.Backgrounds.LinearGradientBrushResource
+  href: H.Themes.Backgrounds.LinearGradientBrushResource.html
+  name: LinearGradientBrushResource
+  nameWithType: LinearGradientBrushResource
+  fullName: H.Themes.Backgrounds.LinearGradientBrushResource
+- uid: H.Themes.Backgrounds.RadialGradientBrushResource
+  commentId: T:H.Themes.Backgrounds.RadialGradientBrushResource
+  href: H.Themes.Backgrounds.RadialGradientBrushResource.html
+  name: RadialGradientBrushResource
+  nameWithType: RadialGradientBrushResource
+  fullName: H.Themes.Backgrounds.RadialGradientBrushResource
+- uid: H.Themes.Backgrounds.SolidColorBrushResource
+  commentId: T:H.Themes.Backgrounds.SolidColorBrushResource
+  href: H.Themes.Backgrounds.SolidColorBrushResource.html
+  name: SolidColorBrushResource
+  nameWithType: SolidColorBrushResource
+  fullName: H.Themes.Backgrounds.SolidColorBrushResource
+- uid: H.Themes.Backgrounds
+  commentId: N:H.Themes.Backgrounds
+  href: H.html
+  name: H.Themes.Backgrounds
+  nameWithType: H.Themes.Backgrounds
+  fullName: H.Themes.Backgrounds
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Themes
+    name: Themes
+    href: H.Themes.html
+  - name: .
+  - uid: H.Themes.Backgrounds
+    name: Backgrounds
+    href: H.Themes.Backgrounds.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Themes
+    name: Themes
+    href: H.Themes.html
+  - name: .
+  - uid: H.Themes.Backgrounds
+    name: Backgrounds
+    href: H.Themes.Backgrounds.html

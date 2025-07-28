@@ -1,0 +1,84 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Services.Identity.Author
+  commentId: N:H.Services.Identity.Author
+  id: H.Services.Identity.Author
+  children:
+  - H.Services.Identity.Author.Authority
+  - H.Services.Identity.Author.IAuthor
+  - H.Services.Identity.Author.IAuthority
+  - H.Services.Identity.Author.IAuthorityViewPresenter
+  langs:
+  - csharp
+  - vb
+  name: H.Services.Identity.Author
+  nameWithType: H.Services.Identity.Author
+  fullName: H.Services.Identity.Author
+  type: Namespace
+  assemblies:
+  - H.Services.Identity
+references:
+- uid: H.Services.Identity.Author.Authority
+  commentId: T:H.Services.Identity.Author.Authority
+  href: H.Services.Identity.Author.Authority.html
+  name: Authority
+  nameWithType: Authority
+  fullName: H.Services.Identity.Author.Authority
+- uid: H.Services.Identity.Author.IAuthor
+  commentId: T:H.Services.Identity.Author.IAuthor
+  href: H.Services.Identity.Author.IAuthor.html
+  name: IAuthor
+  nameWithType: IAuthor
+  fullName: H.Services.Identity.Author.IAuthor
+- uid: H.Services.Identity.Author.IAuthority
+  commentId: T:H.Services.Identity.Author.IAuthority
+  parent: H.Services.Identity.Author
+  href: H.Services.Identity.Author.IAuthority.html
+  name: IAuthority
+  nameWithType: IAuthority
+  fullName: H.Services.Identity.Author.IAuthority
+- uid: H.Services.Identity.Author.IAuthorityViewPresenter
+  commentId: T:H.Services.Identity.Author.IAuthorityViewPresenter
+  parent: H.Services.Identity.Author
+  href: H.Services.Identity.Author.IAuthorityViewPresenter.html
+  name: IAuthorityViewPresenter
+  nameWithType: IAuthorityViewPresenter
+  fullName: H.Services.Identity.Author.IAuthorityViewPresenter
+- uid: H.Services.Identity.Author
+  commentId: N:H.Services.Identity.Author
+  href: H.html
+  name: H.Services.Identity.Author
+  nameWithType: H.Services.Identity.Author
+  fullName: H.Services.Identity.Author
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Identity
+    name: Identity
+    href: H.Services.Identity.html
+  - name: .
+  - uid: H.Services.Identity.Author
+    name: Author
+    href: H.Services.Identity.Author.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Identity
+    name: Identity
+    href: H.Services.Identity.html
+  - name: .
+  - uid: H.Services.Identity.Author
+    name: Author
+    href: H.Services.Identity.Author.html

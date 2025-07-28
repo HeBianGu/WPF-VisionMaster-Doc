@@ -1,0 +1,106 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.ObservableSource
+  commentId: N:H.Extensions.ObservableSource
+  id: H.Extensions.ObservableSource
+  children:
+  - H.Extensions.ObservableSource.IObservableSource
+  - H.Extensions.ObservableSource.IObservableSource`1
+  - H.Extensions.ObservableSource.ObservableSource`1
+  langs:
+  - csharp
+  - vb
+  name: H.Extensions.ObservableSource
+  nameWithType: H.Extensions.ObservableSource
+  fullName: H.Extensions.ObservableSource
+  type: Namespace
+  assemblies:
+  - H.Extensions.ObservableSource
+references:
+- uid: H.Extensions.ObservableSource.IObservableSource
+  commentId: T:H.Extensions.ObservableSource.IObservableSource
+  parent: H.Extensions.ObservableSource
+  href: H.Extensions.ObservableSource.IObservableSource.html
+  name: IObservableSource
+  nameWithType: IObservableSource
+  fullName: H.Extensions.ObservableSource.IObservableSource
+- uid: H.Extensions.ObservableSource.IObservableSource`1
+  commentId: T:H.Extensions.ObservableSource.IObservableSource`1
+  href: H.Extensions.ObservableSource.IObservableSource-1.html
+  name: IObservableSource<T>
+  nameWithType: IObservableSource<T>
+  fullName: H.Extensions.ObservableSource.IObservableSource<T>
+  nameWithType.vb: IObservableSource(Of T)
+  fullName.vb: H.Extensions.ObservableSource.IObservableSource(Of T)
+  name.vb: IObservableSource(Of T)
+  spec.csharp:
+  - uid: H.Extensions.ObservableSource.IObservableSource`1
+    name: IObservableSource
+    href: H.Extensions.ObservableSource.IObservableSource-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Extensions.ObservableSource.IObservableSource`1
+    name: IObservableSource
+    href: H.Extensions.ObservableSource.IObservableSource-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Extensions.ObservableSource.ObservableSource`1
+  commentId: T:H.Extensions.ObservableSource.ObservableSource`1
+  href: H.Extensions.ObservableSource.ObservableSource-1.html
+  name: ObservableSource<T>
+  nameWithType: ObservableSource<T>
+  fullName: H.Extensions.ObservableSource.ObservableSource<T>
+  nameWithType.vb: ObservableSource(Of T)
+  fullName.vb: H.Extensions.ObservableSource.ObservableSource(Of T)
+  name.vb: ObservableSource(Of T)
+  spec.csharp:
+  - uid: H.Extensions.ObservableSource.ObservableSource`1
+    name: ObservableSource
+    href: H.Extensions.ObservableSource.ObservableSource-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Extensions.ObservableSource.ObservableSource`1
+    name: ObservableSource
+    href: H.Extensions.ObservableSource.ObservableSource-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Extensions.ObservableSource
+  commentId: N:H.Extensions.ObservableSource
+  href: H.html
+  name: H.Extensions.ObservableSource
+  nameWithType: H.Extensions.ObservableSource
+  fullName: H.Extensions.ObservableSource
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.ObservableSource
+    name: ObservableSource
+    href: H.Extensions.ObservableSource.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.ObservableSource
+    name: ObservableSource
+    href: H.Extensions.ObservableSource.html

@@ -1,0 +1,61 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Services.Common
+  commentId: N:H.Services.Common
+  id: H.Services.Common
+  children:
+  - H.Services.Common.DbIoc
+  - H.Services.Common.IChartDataProvider
+  langs:
+  - csharp
+  - vb
+  name: H.Services.Common
+  nameWithType: H.Services.Common
+  fullName: H.Services.Common
+  type: Namespace
+  assemblies:
+  - H.Services.Common
+references:
+- uid: H.Services.Common.DbIoc
+  commentId: T:H.Services.Common.DbIoc
+  href: H.Services.Common.DbIoc.html
+  name: DbIoc
+  nameWithType: DbIoc
+  fullName: H.Services.Common.DbIoc
+- uid: H.Services.Common.IChartDataProvider
+  commentId: T:H.Services.Common.IChartDataProvider
+  parent: H.Services.Common
+  href: H.Services.Common.IChartDataProvider.html
+  name: IChartDataProvider
+  nameWithType: IChartDataProvider
+  fullName: H.Services.Common.IChartDataProvider
+- uid: H.Services.Common
+  commentId: N:H.Services.Common
+  href: H.html
+  name: H.Services.Common
+  nameWithType: H.Services.Common
+  fullName: H.Services.Common
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Common
+    name: Common
+    href: H.Services.Common.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Common
+    name: Common
+    href: H.Services.Common.html

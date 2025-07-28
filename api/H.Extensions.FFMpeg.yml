@@ -1,0 +1,83 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.FFMpeg
+  commentId: N:H.Extensions.FFMpeg
+  id: H.Extensions.FFMpeg
+  children:
+  - H.Extensions.FFMpeg.FFMpegOption
+  - H.Extensions.FFMpeg.FFMpegService
+  - H.Extensions.FFMpeg.IFFMpegOption
+  - H.Extensions.FFMpeg.IFFMpegService
+  - H.Extensions.FFMpeg.IocFFMpeg
+  langs:
+  - csharp
+  - vb
+  name: H.Extensions.FFMpeg
+  nameWithType: H.Extensions.FFMpeg
+  fullName: H.Extensions.FFMpeg
+  type: Namespace
+  assemblies:
+  - H.Extensions.FFMpeg
+references:
+- uid: H.Extensions.FFMpeg.FFMpegOption
+  commentId: T:H.Extensions.FFMpeg.FFMpegOption
+  href: H.Extensions.FFMpeg.FFMpegOption.html
+  name: FFMpegOption
+  nameWithType: FFMpegOption
+  fullName: H.Extensions.FFMpeg.FFMpegOption
+- uid: H.Extensions.FFMpeg.FFMpegService
+  commentId: T:H.Extensions.FFMpeg.FFMpegService
+  href: H.Extensions.FFMpeg.FFMpegService.html
+  name: FFMpegService
+  nameWithType: FFMpegService
+  fullName: H.Extensions.FFMpeg.FFMpegService
+- uid: H.Extensions.FFMpeg.IFFMpegOption
+  commentId: T:H.Extensions.FFMpeg.IFFMpegOption
+  parent: H.Extensions.FFMpeg
+  href: H.Extensions.FFMpeg.IFFMpegOption.html
+  name: IFFMpegOption
+  nameWithType: IFFMpegOption
+  fullName: H.Extensions.FFMpeg.IFFMpegOption
+- uid: H.Extensions.FFMpeg.IFFMpegService
+  commentId: T:H.Extensions.FFMpeg.IFFMpegService
+  parent: H.Extensions.FFMpeg
+  href: H.Extensions.FFMpeg.IFFMpegService.html
+  name: IFFMpegService
+  nameWithType: IFFMpegService
+  fullName: H.Extensions.FFMpeg.IFFMpegService
+- uid: H.Extensions.FFMpeg.IocFFMpeg
+  commentId: T:H.Extensions.FFMpeg.IocFFMpeg
+  href: H.Extensions.FFMpeg.IocFFMpeg.html
+  name: IocFFMpeg
+  nameWithType: IocFFMpeg
+  fullName: H.Extensions.FFMpeg.IocFFMpeg
+- uid: H.Extensions.FFMpeg
+  commentId: N:H.Extensions.FFMpeg
+  href: H.html
+  name: H.Extensions.FFMpeg
+  nameWithType: H.Extensions.FFMpeg
+  fullName: H.Extensions.FFMpeg
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.FFMpeg
+    name: FFMpeg
+    href: H.Extensions.FFMpeg.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.FFMpeg
+    name: FFMpeg
+    href: H.Extensions.FFMpeg.html

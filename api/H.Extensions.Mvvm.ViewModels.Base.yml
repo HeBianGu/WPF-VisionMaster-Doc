@@ -1,0 +1,112 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.Mvvm.ViewModels.Base
+  commentId: N:H.Extensions.Mvvm.ViewModels.Base
+  id: H.Extensions.Mvvm.ViewModels.Base
+  children:
+  - H.Extensions.Mvvm.ViewModels.Base.CommandsBindableBase
+  - H.Extensions.Mvvm.ViewModels.Base.DesignPresenterBase
+  - H.Extensions.Mvvm.ViewModels.Base.DisplayBindableBase
+  - H.Extensions.Mvvm.ViewModels.Base.GroupDisplayBindableBase`1
+  langs:
+  - csharp
+  - vb
+  name: H.Extensions.Mvvm.ViewModels.Base
+  nameWithType: H.Extensions.Mvvm.ViewModels.Base
+  fullName: H.Extensions.Mvvm.ViewModels.Base
+  type: Namespace
+  assemblies:
+  - H.Extensions.Mvvm
+references:
+- uid: H.Extensions.Mvvm.ViewModels.Base.CommandsBindableBase
+  commentId: T:H.Extensions.Mvvm.ViewModels.Base.CommandsBindableBase
+  parent: H.Extensions.Mvvm.ViewModels.Base
+  href: H.Extensions.Mvvm.ViewModels.Base.CommandsBindableBase.html
+  name: CommandsBindableBase
+  nameWithType: CommandsBindableBase
+  fullName: H.Extensions.Mvvm.ViewModels.Base.CommandsBindableBase
+- uid: H.Extensions.Mvvm.ViewModels.Base.DesignPresenterBase
+  commentId: T:H.Extensions.Mvvm.ViewModels.Base.DesignPresenterBase
+  parent: H.Extensions.Mvvm.ViewModels.Base
+  href: H.Extensions.Mvvm.ViewModels.Base.DesignPresenterBase.html
+  name: DesignPresenterBase
+  nameWithType: DesignPresenterBase
+  fullName: H.Extensions.Mvvm.ViewModels.Base.DesignPresenterBase
+- uid: H.Extensions.Mvvm.ViewModels.Base.DisplayBindableBase
+  commentId: T:H.Extensions.Mvvm.ViewModels.Base.DisplayBindableBase
+  parent: H.Extensions.Mvvm.ViewModels.Base
+  href: H.Extensions.Mvvm.ViewModels.Base.DisplayBindableBase.html
+  name: DisplayBindableBase
+  nameWithType: DisplayBindableBase
+  fullName: H.Extensions.Mvvm.ViewModels.Base.DisplayBindableBase
+- uid: H.Extensions.Mvvm.ViewModels.Base.GroupDisplayBindableBase`1
+  commentId: T:H.Extensions.Mvvm.ViewModels.Base.GroupDisplayBindableBase`1
+  href: H.Extensions.Mvvm.ViewModels.Base.GroupDisplayBindableBase-1.html
+  name: GroupDisplayBindableBase<T>
+  nameWithType: GroupDisplayBindableBase<T>
+  fullName: H.Extensions.Mvvm.ViewModels.Base.GroupDisplayBindableBase<T>
+  nameWithType.vb: GroupDisplayBindableBase(Of T)
+  fullName.vb: H.Extensions.Mvvm.ViewModels.Base.GroupDisplayBindableBase(Of T)
+  name.vb: GroupDisplayBindableBase(Of T)
+  spec.csharp:
+  - uid: H.Extensions.Mvvm.ViewModels.Base.GroupDisplayBindableBase`1
+    name: GroupDisplayBindableBase
+    href: H.Extensions.Mvvm.ViewModels.Base.GroupDisplayBindableBase-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Extensions.Mvvm.ViewModels.Base.GroupDisplayBindableBase`1
+    name: GroupDisplayBindableBase
+    href: H.Extensions.Mvvm.ViewModels.Base.GroupDisplayBindableBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Extensions.Mvvm.ViewModels.Base
+  commentId: N:H.Extensions.Mvvm.ViewModels.Base
+  href: H.html
+  name: H.Extensions.Mvvm.ViewModels.Base
+  nameWithType: H.Extensions.Mvvm.ViewModels.Base
+  fullName: H.Extensions.Mvvm.ViewModels.Base
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Mvvm
+    name: Mvvm
+    href: H.Extensions.Mvvm.html
+  - name: .
+  - uid: H.Extensions.Mvvm.ViewModels
+    name: ViewModels
+    href: H.Extensions.Mvvm.ViewModels.html
+  - name: .
+  - uid: H.Extensions.Mvvm.ViewModels.Base
+    name: Base
+    href: H.Extensions.Mvvm.ViewModels.Base.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Mvvm
+    name: Mvvm
+    href: H.Extensions.Mvvm.html
+  - name: .
+  - uid: H.Extensions.Mvvm.ViewModels
+    name: ViewModels
+    href: H.Extensions.Mvvm.ViewModels.html
+  - name: .
+  - uid: H.Extensions.Mvvm.ViewModels.Base
+    name: Base
+    href: H.Extensions.Mvvm.ViewModels.Base.html

@@ -1,0 +1,84 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Modules.Help.WebSite
+  commentId: N:H.Modules.Help.WebSite
+  id: H.Modules.Help.WebSite
+  children:
+  - H.Modules.Help.WebSite.IWebsiteOptions
+  - H.Modules.Help.WebSite.IWebsiteService
+  - H.Modules.Help.WebSite.WebsiteOptions
+  - H.Modules.Help.WebSite.WebsiteService
+  langs:
+  - csharp
+  - vb
+  name: H.Modules.Help.WebSite
+  nameWithType: H.Modules.Help.WebSite
+  fullName: H.Modules.Help.WebSite
+  type: Namespace
+  assemblies:
+  - H.Modules.Help
+references:
+- uid: H.Modules.Help.WebSite.IWebsiteOptions
+  commentId: T:H.Modules.Help.WebSite.IWebsiteOptions
+  parent: H.Modules.Help.WebSite
+  href: H.Modules.Help.WebSite.IWebsiteOptions.html
+  name: IWebsiteOptions
+  nameWithType: IWebsiteOptions
+  fullName: H.Modules.Help.WebSite.IWebsiteOptions
+- uid: H.Modules.Help.WebSite.IWebsiteService
+  commentId: T:H.Modules.Help.WebSite.IWebsiteService
+  parent: H.Modules.Help.WebSite
+  href: H.Modules.Help.WebSite.IWebsiteService.html
+  name: IWebsiteService
+  nameWithType: IWebsiteService
+  fullName: H.Modules.Help.WebSite.IWebsiteService
+- uid: H.Modules.Help.WebSite.WebsiteOptions
+  commentId: T:H.Modules.Help.WebSite.WebsiteOptions
+  href: H.Modules.Help.WebSite.WebsiteOptions.html
+  name: WebsiteOptions
+  nameWithType: WebsiteOptions
+  fullName: H.Modules.Help.WebSite.WebsiteOptions
+- uid: H.Modules.Help.WebSite.WebsiteService
+  commentId: T:H.Modules.Help.WebSite.WebsiteService
+  href: H.Modules.Help.WebSite.WebsiteService.html
+  name: WebsiteService
+  nameWithType: WebsiteService
+  fullName: H.Modules.Help.WebSite.WebsiteService
+- uid: H.Modules.Help.WebSite
+  commentId: N:H.Modules.Help.WebSite
+  href: H.html
+  name: H.Modules.Help.WebSite
+  nameWithType: H.Modules.Help.WebSite
+  fullName: H.Modules.Help.WebSite
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Modules
+    name: Modules
+    href: H.Modules.html
+  - name: .
+  - uid: H.Modules.Help
+    name: Help
+    href: H.Modules.Help.html
+  - name: .
+  - uid: H.Modules.Help.WebSite
+    name: WebSite
+    href: H.Modules.Help.WebSite.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Modules
+    name: Modules
+    href: H.Modules.html
+  - name: .
+  - uid: H.Modules.Help
+    name: Help
+    href: H.Modules.Help.html
+  - name: .
+  - uid: H.Modules.Help.WebSite
+    name: WebSite
+    href: H.Modules.Help.WebSite.html

@@ -1,0 +1,626 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.ValueConverter.Images.IconHelper
+  commentId: T:H.Extensions.ValueConverter.Images.IconHelper
+  id: IconHelper
+  parent: H.Extensions.ValueConverter.Images
+  children:
+  - H.Extensions.ValueConverter.Images.IconHelper.GetDirectoryIcon
+  - H.Extensions.ValueConverter.Images.IconHelper.GetFileIcon(System.String)
+  - H.Extensions.ValueConverter.Images.IconHelper.GetIconToImageSource(System.Drawing.Icon)
+  - H.Extensions.ValueConverter.Images.IconHelper.GetSystemInfoIcon(System.String)
+  - H.Extensions.ValueConverter.Images.IconHelper.SHGetFileInfo(System.String,System.UInt32,H.Extensions.ValueConverter.Images.SHFILEINFO@,System.UInt32,System.UInt32)
+  langs:
+  - csharp
+  - vb
+  name: IconHelper
+  nameWithType: IconHelper
+  fullName: H.Extensions.ValueConverter.Images.IconHelper
+  type: Class
+  source:
+    id: IconHelper
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.ValueConverter\Images\IconHelper.cs
+    startLine: 14
+  assemblies:
+  - H.Extensions.ValueConverter
+  namespace: H.Extensions.ValueConverter.Images
+  summary: 获取文件关联图标
+  example: []
+  syntax:
+    content: public static class IconHelper
+    content.vb: Public Module IconHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: H.Extensions.ValueConverter.Images.IconHelper.SHGetFileInfo(System.String,System.UInt32,H.Extensions.ValueConverter.Images.SHFILEINFO@,System.UInt32,System.UInt32)
+  commentId: M:H.Extensions.ValueConverter.Images.IconHelper.SHGetFileInfo(System.String,System.UInt32,H.Extensions.ValueConverter.Images.SHFILEINFO@,System.UInt32,System.UInt32)
+  id: SHGetFileInfo(System.String,System.UInt32,H.Extensions.ValueConverter.Images.SHFILEINFO@,System.UInt32,System.UInt32)
+  parent: H.Extensions.ValueConverter.Images.IconHelper
+  langs:
+  - csharp
+  - vb
+  name: SHGetFileInfo(string, uint, ref SHFILEINFO, uint, uint)
+  nameWithType: IconHelper.SHGetFileInfo(string, uint, ref SHFILEINFO, uint, uint)
+  fullName: H.Extensions.ValueConverter.Images.IconHelper.SHGetFileInfo(string, uint, ref H.Extensions.ValueConverter.Images.SHFILEINFO, uint, uint)
+  type: Method
+  assemblies:
+  - H.Extensions.ValueConverter
+  namespace: H.Extensions.ValueConverter.Images
+  summary: 返回系统设置的图标
+  example: []
+  syntax:
+    content: public static extern nint SHGetFileInfo(string pszPath, uint dwFileAttributes, ref SHFILEINFO psfi, uint cbSizeFileInfo, uint uFlags)
+    parameters:
+    - id: pszPath
+      type: System.String
+      description: 文件路径 如果为""  返回文件夹的
+    - id: dwFileAttributes
+      type: System.UInt32
+      description: "0"
+    - id: psfi
+      type: H.Extensions.ValueConverter.Images.SHFILEINFO
+      description: 结构体
+    - id: cbSizeFileInfo
+      type: System.UInt32
+      description: 结构体大小
+    - id: uFlags
+      type: System.UInt32
+      description: 枚举类型
+    return:
+      type: System.IntPtr
+      description: -1失败
+    content.vb: Public Shared Function SHGetFileInfo(pszPath As String, dwFileAttributes As UInteger, psfi As SHFILEINFO, cbSizeFileInfo As UInteger, uFlags As UInteger) As IntPtr
+  overload: H.Extensions.ValueConverter.Images.IconHelper.SHGetFileInfo*
+  nameWithType.vb: IconHelper.SHGetFileInfo(String, UInteger, SHFILEINFO, UInteger, UInteger)
+  fullName.vb: H.Extensions.ValueConverter.Images.IconHelper.SHGetFileInfo(String, UInteger, H.Extensions.ValueConverter.Images.SHFILEINFO, UInteger, UInteger)
+  name.vb: SHGetFileInfo(String, UInteger, SHFILEINFO, UInteger, UInteger)
+- uid: H.Extensions.ValueConverter.Images.IconHelper.GetFileIcon(System.String)
+  commentId: M:H.Extensions.ValueConverter.Images.IconHelper.GetFileIcon(System.String)
+  id: GetFileIcon(System.String)
+  parent: H.Extensions.ValueConverter.Images.IconHelper
+  langs:
+  - csharp
+  - vb
+  name: GetFileIcon(string)
+  nameWithType: IconHelper.GetFileIcon(string)
+  fullName: H.Extensions.ValueConverter.Images.IconHelper.GetFileIcon(string)
+  type: Method
+  source:
+    id: GetFileIcon
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.ValueConverter\Images\IconHelper.cs
+    startLine: 27
+  assemblies:
+  - H.Extensions.ValueConverter
+  namespace: H.Extensions.ValueConverter.Images
+  summary: 获取文件图标
+  example: []
+  syntax:
+    content: public static Icon GetFileIcon(string p_Path)
+    parameters:
+    - id: p_Path
+      type: System.String
+    return:
+      type: System.Drawing.Icon
+    content.vb: Public Shared Function GetFileIcon(p_Path As String) As Icon
+  overload: H.Extensions.ValueConverter.Images.IconHelper.GetFileIcon*
+  nameWithType.vb: IconHelper.GetFileIcon(String)
+  fullName.vb: H.Extensions.ValueConverter.Images.IconHelper.GetFileIcon(String)
+  name.vb: GetFileIcon(String)
+- uid: H.Extensions.ValueConverter.Images.IconHelper.GetDirectoryIcon
+  commentId: M:H.Extensions.ValueConverter.Images.IconHelper.GetDirectoryIcon
+  id: GetDirectoryIcon
+  parent: H.Extensions.ValueConverter.Images.IconHelper
+  langs:
+  - csharp
+  - vb
+  name: GetDirectoryIcon()
+  nameWithType: IconHelper.GetDirectoryIcon()
+  fullName: H.Extensions.ValueConverter.Images.IconHelper.GetDirectoryIcon()
+  type: Method
+  source:
+    id: GetDirectoryIcon
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.ValueConverter\Images\IconHelper.cs
+    startLine: 37
+  assemblies:
+  - H.Extensions.ValueConverter
+  namespace: H.Extensions.ValueConverter.Images
+  summary: 获取文件夹图标
+  example: []
+  syntax:
+    content: public static Icon GetDirectoryIcon()
+    return:
+      type: System.Drawing.Icon
+    content.vb: Public Shared Function GetDirectoryIcon() As Icon
+  overload: H.Extensions.ValueConverter.Images.IconHelper.GetDirectoryIcon*
+- uid: H.Extensions.ValueConverter.Images.IconHelper.GetSystemInfoIcon(System.String)
+  commentId: M:H.Extensions.ValueConverter.Images.IconHelper.GetSystemInfoIcon(System.String)
+  id: GetSystemInfoIcon(System.String)
+  parent: H.Extensions.ValueConverter.Images.IconHelper
+  langs:
+  - csharp
+  - vb
+  name: GetSystemInfoIcon(string)
+  nameWithType: IconHelper.GetSystemInfoIcon(string)
+  fullName: H.Extensions.ValueConverter.Images.IconHelper.GetSystemInfoIcon(string)
+  type: Method
+  source:
+    id: GetSystemInfoIcon
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.ValueConverter\Images\IconHelper.cs
+    startLine: 47
+  assemblies:
+  - H.Extensions.ValueConverter
+  namespace: H.Extensions.ValueConverter.Images
+  summary: 获取系统图标
+  example: []
+  syntax:
+    content: public static Icon GetSystemInfoIcon(string p_Path)
+    parameters:
+    - id: p_Path
+      type: System.String
+    return:
+      type: System.Drawing.Icon
+    content.vb: Public Shared Function GetSystemInfoIcon(p_Path As String) As Icon
+  overload: H.Extensions.ValueConverter.Images.IconHelper.GetSystemInfoIcon*
+  nameWithType.vb: IconHelper.GetSystemInfoIcon(String)
+  fullName.vb: H.Extensions.ValueConverter.Images.IconHelper.GetSystemInfoIcon(String)
+  name.vb: GetSystemInfoIcon(String)
+- uid: H.Extensions.ValueConverter.Images.IconHelper.GetIconToImageSource(System.Drawing.Icon)
+  commentId: M:H.Extensions.ValueConverter.Images.IconHelper.GetIconToImageSource(System.Drawing.Icon)
+  id: GetIconToImageSource(System.Drawing.Icon)
+  parent: H.Extensions.ValueConverter.Images.IconHelper
+  langs:
+  - csharp
+  - vb
+  name: GetIconToImageSource(Icon)
+  nameWithType: IconHelper.GetIconToImageSource(Icon)
+  fullName: H.Extensions.ValueConverter.Images.IconHelper.GetIconToImageSource(System.Drawing.Icon)
+  type: Method
+  source:
+    id: GetIconToImageSource
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.ValueConverter\Images\IconHelper.cs
+    startLine: 67
+  assemblies:
+  - H.Extensions.ValueConverter
+  namespace: H.Extensions.ValueConverter.Images
+  syntax:
+    content: public static ImageSource GetIconToImageSource(Icon icon)
+    parameters:
+    - id: icon
+      type: System.Drawing.Icon
+    return:
+      type: System.Windows.Media.ImageSource
+    content.vb: Public Shared Function GetIconToImageSource(icon As Icon) As ImageSource
+  overload: H.Extensions.ValueConverter.Images.IconHelper.GetIconToImageSource*
+references:
+- uid: H.Extensions.ValueConverter.Images
+  commentId: N:H.Extensions.ValueConverter.Images
+  href: H.html
+  name: H.Extensions.ValueConverter.Images
+  nameWithType: H.Extensions.ValueConverter.Images
+  fullName: H.Extensions.ValueConverter.Images
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.ValueConverter
+    name: ValueConverter
+    href: H.Extensions.ValueConverter.html
+  - name: .
+  - uid: H.Extensions.ValueConverter.Images
+    name: Images
+    href: H.Extensions.ValueConverter.Images.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.ValueConverter
+    name: ValueConverter
+    href: H.Extensions.ValueConverter.html
+  - name: .
+  - uid: H.Extensions.ValueConverter.Images
+    name: Images
+    href: H.Extensions.ValueConverter.Images.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: H.Extensions.ValueConverter.Images.IconHelper.SHGetFileInfo*
+  commentId: Overload:H.Extensions.ValueConverter.Images.IconHelper.SHGetFileInfo
+  isExternal: true
+  href: H.Extensions.ValueConverter.Images.IconHelper.html#H_Extensions_ValueConverter_Images_IconHelper_SHGetFileInfo_System_String_System_UInt32_H_Extensions_ValueConverter_Images_SHFILEINFO__System_UInt32_System_UInt32_
+  name: SHGetFileInfo
+  nameWithType: IconHelper.SHGetFileInfo
+  fullName: H.Extensions.ValueConverter.Images.IconHelper.SHGetFileInfo
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: H.Extensions.ValueConverter.Images.SHFILEINFO
+  commentId: T:H.Extensions.ValueConverter.Images.SHFILEINFO
+  parent: H.Extensions.ValueConverter.Images
+  href: H.Extensions.ValueConverter.Images.SHFILEINFO.html
+  name: SHFILEINFO
+  nameWithType: SHFILEINFO
+  fullName: H.Extensions.ValueConverter.Images.SHFILEINFO
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.intptr
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: H.Extensions.ValueConverter.Images.IconHelper.GetFileIcon*
+  commentId: Overload:H.Extensions.ValueConverter.Images.IconHelper.GetFileIcon
+  href: H.Extensions.ValueConverter.Images.IconHelper.html#H_Extensions_ValueConverter_Images_IconHelper_GetFileIcon_System_String_
+  name: GetFileIcon
+  nameWithType: IconHelper.GetFileIcon
+  fullName: H.Extensions.ValueConverter.Images.IconHelper.GetFileIcon
+- uid: System.Drawing.Icon
+  commentId: T:System.Drawing.Icon
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.icon
+  name: Icon
+  nameWithType: Icon
+  fullName: System.Drawing.Icon
+- uid: System.Drawing
+  commentId: N:System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Drawing
+  nameWithType: System.Drawing
+  fullName: System.Drawing
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+- uid: H.Extensions.ValueConverter.Images.IconHelper.GetDirectoryIcon*
+  commentId: Overload:H.Extensions.ValueConverter.Images.IconHelper.GetDirectoryIcon
+  href: H.Extensions.ValueConverter.Images.IconHelper.html#H_Extensions_ValueConverter_Images_IconHelper_GetDirectoryIcon
+  name: GetDirectoryIcon
+  nameWithType: IconHelper.GetDirectoryIcon
+  fullName: H.Extensions.ValueConverter.Images.IconHelper.GetDirectoryIcon
+- uid: H.Extensions.ValueConverter.Images.IconHelper.GetSystemInfoIcon*
+  commentId: Overload:H.Extensions.ValueConverter.Images.IconHelper.GetSystemInfoIcon
+  href: H.Extensions.ValueConverter.Images.IconHelper.html#H_Extensions_ValueConverter_Images_IconHelper_GetSystemInfoIcon_System_String_
+  name: GetSystemInfoIcon
+  nameWithType: IconHelper.GetSystemInfoIcon
+  fullName: H.Extensions.ValueConverter.Images.IconHelper.GetSystemInfoIcon
+- uid: H.Extensions.ValueConverter.Images.IconHelper.GetIconToImageSource*
+  commentId: Overload:H.Extensions.ValueConverter.Images.IconHelper.GetIconToImageSource
+  href: H.Extensions.ValueConverter.Images.IconHelper.html#H_Extensions_ValueConverter_Images_IconHelper_GetIconToImageSource_System_Drawing_Icon_
+  name: GetIconToImageSource
+  nameWithType: IconHelper.GetIconToImageSource
+  fullName: H.Extensions.ValueConverter.Images.IconHelper.GetIconToImageSource
+- uid: System.Windows.Media.ImageSource
+  commentId: T:System.Windows.Media.ImageSource
+  parent: System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.imagesource
+  name: ImageSource
+  nameWithType: ImageSource
+  fullName: System.Windows.Media.ImageSource
+- uid: System.Windows.Media
+  commentId: N:System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Media
+  nameWithType: System.Windows.Media
+  fullName: System.Windows.Media
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media

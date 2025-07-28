@@ -1,0 +1,91 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.ValueConverter.Images
+  commentId: N:H.Extensions.ValueConverter.Images
+  id: H.Extensions.ValueConverter.Images
+  children:
+  - H.Extensions.ValueConverter.Images.GetFilePathToSystemInfoIconConverter
+  - H.Extensions.ValueConverter.Images.GetIconToImageSourceConverter
+  - H.Extensions.ValueConverter.Images.IconHelper
+  - H.Extensions.ValueConverter.Images.SHFILEINFO
+  - H.Extensions.ValueConverter.Images.SHGFI
+  langs:
+  - csharp
+  - vb
+  name: H.Extensions.ValueConverter.Images
+  nameWithType: H.Extensions.ValueConverter.Images
+  fullName: H.Extensions.ValueConverter.Images
+  type: Namespace
+  assemblies:
+  - H.Extensions.ValueConverter
+references:
+- uid: H.Extensions.ValueConverter.Images.GetFilePathToSystemInfoIconConverter
+  commentId: T:H.Extensions.ValueConverter.Images.GetFilePathToSystemInfoIconConverter
+  href: H.Extensions.ValueConverter.Images.GetFilePathToSystemInfoIconConverter.html
+  name: GetFilePathToSystemInfoIconConverter
+  nameWithType: GetFilePathToSystemInfoIconConverter
+  fullName: H.Extensions.ValueConverter.Images.GetFilePathToSystemInfoIconConverter
+- uid: H.Extensions.ValueConverter.Images.GetIconToImageSourceConverter
+  commentId: T:H.Extensions.ValueConverter.Images.GetIconToImageSourceConverter
+  href: H.Extensions.ValueConverter.Images.GetIconToImageSourceConverter.html
+  name: GetIconToImageSourceConverter
+  nameWithType: GetIconToImageSourceConverter
+  fullName: H.Extensions.ValueConverter.Images.GetIconToImageSourceConverter
+- uid: H.Extensions.ValueConverter.Images.IconHelper
+  commentId: T:H.Extensions.ValueConverter.Images.IconHelper
+  href: H.Extensions.ValueConverter.Images.IconHelper.html
+  name: IconHelper
+  nameWithType: IconHelper
+  fullName: H.Extensions.ValueConverter.Images.IconHelper
+- uid: H.Extensions.ValueConverter.Images.SHFILEINFO
+  commentId: T:H.Extensions.ValueConverter.Images.SHFILEINFO
+  parent: H.Extensions.ValueConverter.Images
+  href: H.Extensions.ValueConverter.Images.SHFILEINFO.html
+  name: SHFILEINFO
+  nameWithType: SHFILEINFO
+  fullName: H.Extensions.ValueConverter.Images.SHFILEINFO
+- uid: H.Extensions.ValueConverter.Images.SHGFI
+  commentId: T:H.Extensions.ValueConverter.Images.SHGFI
+  parent: H.Extensions.ValueConverter.Images
+  href: H.Extensions.ValueConverter.Images.SHGFI.html
+  name: SHGFI
+  nameWithType: SHGFI
+  fullName: H.Extensions.ValueConverter.Images.SHGFI
+- uid: H.Extensions.ValueConverter.Images
+  commentId: N:H.Extensions.ValueConverter.Images
+  href: H.html
+  name: H.Extensions.ValueConverter.Images
+  nameWithType: H.Extensions.ValueConverter.Images
+  fullName: H.Extensions.ValueConverter.Images
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.ValueConverter
+    name: ValueConverter
+    href: H.Extensions.ValueConverter.html
+  - name: .
+  - uid: H.Extensions.ValueConverter.Images
+    name: Images
+    href: H.Extensions.ValueConverter.Images.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.ValueConverter
+    name: ValueConverter
+    href: H.Extensions.ValueConverter.html
+  - name: .
+  - uid: H.Extensions.ValueConverter.Images
+    name: Images
+    href: H.Extensions.ValueConverter.Images.html

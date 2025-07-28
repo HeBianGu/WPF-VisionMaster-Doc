@@ -1,0 +1,657 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension
+  id: LineSegmentPointExtension
+  parent: H.VisionMaster.OpenCV.NodeDatas.Detector
+  children:
+  - H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.CalculateAngle(OpenCvSharp.LineSegmentPoint)
+  - H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.IsAngleNear(OpenCvSharp.LineSegmentPoint,System.Single,System.Single)
+  - H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.IsAngleNear(System.Single,System.Single,System.Single)
+  - H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.IsDiagonal135(OpenCvSharp.LineSegmentPoint,System.Single)
+  - H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.IsDiagonal45(OpenCvSharp.LineSegmentPoint,System.Single)
+  - H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.IsHorizontal(OpenCvSharp.LineSegmentPoint,System.Single)
+  - H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.IsVertical(OpenCvSharp.LineSegmentPoint,System.Single)
+  langs:
+  - csharp
+  - vb
+  name: LineSegmentPointExtension
+  nameWithType: LineSegmentPointExtension
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension
+  type: Class
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.OpenCV/NodeDatas/7 - Detector/HoughLinesP.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: LineSegmentPointExtension
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.OpenCV/NodeDatas/7 - Detector/HoughLinesP.cs
+    startLine: 239
+  assemblies:
+  - H.VisionMaster.OpenCV
+  namespace: H.VisionMaster.OpenCV.NodeDatas.Detector
+  syntax:
+    content: public static class LineSegmentPointExtension
+    content.vb: Public Module LineSegmentPointExtension
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.CalculateAngle(OpenCvSharp.LineSegmentPoint)
+  commentId: M:H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.CalculateAngle(OpenCvSharp.LineSegmentPoint)
+  id: CalculateAngle(OpenCvSharp.LineSegmentPoint)
+  isExtensionMethod: true
+  parent: H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension
+  langs:
+  - csharp
+  - vb
+  name: CalculateAngle(LineSegmentPoint)
+  nameWithType: LineSegmentPointExtension.CalculateAngle(LineSegmentPoint)
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.CalculateAngle(OpenCvSharp.LineSegmentPoint)
+  type: Method
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.OpenCV/NodeDatas/7 - Detector/HoughLinesP.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: CalculateAngle
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.OpenCV/NodeDatas/7 - Detector/HoughLinesP.cs
+    startLine: 242
+  assemblies:
+  - H.VisionMaster.OpenCV
+  namespace: H.VisionMaster.OpenCV.NodeDatas.Detector
+  syntax:
+    content: public static float CalculateAngle(this LineSegmentPoint lineSegment)
+    parameters:
+    - id: lineSegment
+      type: OpenCvSharp.LineSegmentPoint
+    return:
+      type: System.Single
+    content.vb: Public Shared Function CalculateAngle(lineSegment As LineSegmentPoint) As Single
+  overload: H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.CalculateAngle*
+- uid: H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.IsHorizontal(OpenCvSharp.LineSegmentPoint,System.Single)
+  commentId: M:H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.IsHorizontal(OpenCvSharp.LineSegmentPoint,System.Single)
+  id: IsHorizontal(OpenCvSharp.LineSegmentPoint,System.Single)
+  isExtensionMethod: true
+  parent: H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension
+  langs:
+  - csharp
+  - vb
+  name: IsHorizontal(LineSegmentPoint, float)
+  nameWithType: LineSegmentPointExtension.IsHorizontal(LineSegmentPoint, float)
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.IsHorizontal(OpenCvSharp.LineSegmentPoint, float)
+  type: Method
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.OpenCV/NodeDatas/7 - Detector/HoughLinesP.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: IsHorizontal
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.OpenCV/NodeDatas/7 - Detector/HoughLinesP.cs
+    startLine: 258
+  assemblies:
+  - H.VisionMaster.OpenCV
+  namespace: H.VisionMaster.OpenCV.NodeDatas.Detector
+  syntax:
+    content: public static bool IsHorizontal(this LineSegmentPoint lineSegment, float tolerance = 15)
+    parameters:
+    - id: lineSegment
+      type: OpenCvSharp.LineSegmentPoint
+    - id: tolerance
+      type: System.Single
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsHorizontal(lineSegment As LineSegmentPoint, tolerance As Single = 15) As Boolean
+  overload: H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.IsHorizontal*
+  nameWithType.vb: LineSegmentPointExtension.IsHorizontal(LineSegmentPoint, Single)
+  fullName.vb: H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.IsHorizontal(OpenCvSharp.LineSegmentPoint, Single)
+  name.vb: IsHorizontal(LineSegmentPoint, Single)
+- uid: H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.IsVertical(OpenCvSharp.LineSegmentPoint,System.Single)
+  commentId: M:H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.IsVertical(OpenCvSharp.LineSegmentPoint,System.Single)
+  id: IsVertical(OpenCvSharp.LineSegmentPoint,System.Single)
+  isExtensionMethod: true
+  parent: H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension
+  langs:
+  - csharp
+  - vb
+  name: IsVertical(LineSegmentPoint, float)
+  nameWithType: LineSegmentPointExtension.IsVertical(LineSegmentPoint, float)
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.IsVertical(OpenCvSharp.LineSegmentPoint, float)
+  type: Method
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.OpenCV/NodeDatas/7 - Detector/HoughLinesP.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: IsVertical
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.OpenCV/NodeDatas/7 - Detector/HoughLinesP.cs
+    startLine: 266
+  assemblies:
+  - H.VisionMaster.OpenCV
+  namespace: H.VisionMaster.OpenCV.NodeDatas.Detector
+  syntax:
+    content: public static bool IsVertical(this LineSegmentPoint lineSegment, float tolerance = 15)
+    parameters:
+    - id: lineSegment
+      type: OpenCvSharp.LineSegmentPoint
+    - id: tolerance
+      type: System.Single
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsVertical(lineSegment As LineSegmentPoint, tolerance As Single = 15) As Boolean
+  overload: H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.IsVertical*
+  nameWithType.vb: LineSegmentPointExtension.IsVertical(LineSegmentPoint, Single)
+  fullName.vb: H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.IsVertical(OpenCvSharp.LineSegmentPoint, Single)
+  name.vb: IsVertical(LineSegmentPoint, Single)
+- uid: H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.IsDiagonal45(OpenCvSharp.LineSegmentPoint,System.Single)
+  commentId: M:H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.IsDiagonal45(OpenCvSharp.LineSegmentPoint,System.Single)
+  id: IsDiagonal45(OpenCvSharp.LineSegmentPoint,System.Single)
+  isExtensionMethod: true
+  parent: H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension
+  langs:
+  - csharp
+  - vb
+  name: IsDiagonal45(LineSegmentPoint, float)
+  nameWithType: LineSegmentPointExtension.IsDiagonal45(LineSegmentPoint, float)
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.IsDiagonal45(OpenCvSharp.LineSegmentPoint, float)
+  type: Method
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.OpenCV/NodeDatas/7 - Detector/HoughLinesP.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: IsDiagonal45
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.OpenCV/NodeDatas/7 - Detector/HoughLinesP.cs
+    startLine: 274
+  assemblies:
+  - H.VisionMaster.OpenCV
+  namespace: H.VisionMaster.OpenCV.NodeDatas.Detector
+  syntax:
+    content: public static bool IsDiagonal45(this LineSegmentPoint lineSegment, float tolerance = 15)
+    parameters:
+    - id: lineSegment
+      type: OpenCvSharp.LineSegmentPoint
+    - id: tolerance
+      type: System.Single
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsDiagonal45(lineSegment As LineSegmentPoint, tolerance As Single = 15) As Boolean
+  overload: H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.IsDiagonal45*
+  nameWithType.vb: LineSegmentPointExtension.IsDiagonal45(LineSegmentPoint, Single)
+  fullName.vb: H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.IsDiagonal45(OpenCvSharp.LineSegmentPoint, Single)
+  name.vb: IsDiagonal45(LineSegmentPoint, Single)
+- uid: H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.IsDiagonal135(OpenCvSharp.LineSegmentPoint,System.Single)
+  commentId: M:H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.IsDiagonal135(OpenCvSharp.LineSegmentPoint,System.Single)
+  id: IsDiagonal135(OpenCvSharp.LineSegmentPoint,System.Single)
+  isExtensionMethod: true
+  parent: H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension
+  langs:
+  - csharp
+  - vb
+  name: IsDiagonal135(LineSegmentPoint, float)
+  nameWithType: LineSegmentPointExtension.IsDiagonal135(LineSegmentPoint, float)
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.IsDiagonal135(OpenCvSharp.LineSegmentPoint, float)
+  type: Method
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.OpenCV/NodeDatas/7 - Detector/HoughLinesP.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: IsDiagonal135
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.OpenCV/NodeDatas/7 - Detector/HoughLinesP.cs
+    startLine: 282
+  assemblies:
+  - H.VisionMaster.OpenCV
+  namespace: H.VisionMaster.OpenCV.NodeDatas.Detector
+  syntax:
+    content: public static bool IsDiagonal135(this LineSegmentPoint lineSegment, float tolerance = 15)
+    parameters:
+    - id: lineSegment
+      type: OpenCvSharp.LineSegmentPoint
+    - id: tolerance
+      type: System.Single
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsDiagonal135(lineSegment As LineSegmentPoint, tolerance As Single = 15) As Boolean
+  overload: H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.IsDiagonal135*
+  nameWithType.vb: LineSegmentPointExtension.IsDiagonal135(LineSegmentPoint, Single)
+  fullName.vb: H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.IsDiagonal135(OpenCvSharp.LineSegmentPoint, Single)
+  name.vb: IsDiagonal135(LineSegmentPoint, Single)
+- uid: H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.IsAngleNear(OpenCvSharp.LineSegmentPoint,System.Single,System.Single)
+  commentId: M:H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.IsAngleNear(OpenCvSharp.LineSegmentPoint,System.Single,System.Single)
+  id: IsAngleNear(OpenCvSharp.LineSegmentPoint,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension
+  langs:
+  - csharp
+  - vb
+  name: IsAngleNear(LineSegmentPoint, float, float)
+  nameWithType: LineSegmentPointExtension.IsAngleNear(LineSegmentPoint, float, float)
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.IsAngleNear(OpenCvSharp.LineSegmentPoint, float, float)
+  type: Method
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.OpenCV/NodeDatas/7 - Detector/HoughLinesP.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: IsAngleNear
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.OpenCV/NodeDatas/7 - Detector/HoughLinesP.cs
+    startLine: 290
+  assemblies:
+  - H.VisionMaster.OpenCV
+  namespace: H.VisionMaster.OpenCV.NodeDatas.Detector
+  syntax:
+    content: public static bool IsAngleNear(this LineSegmentPoint lineSegment, float targetAngle, float tolerance = 15)
+    parameters:
+    - id: lineSegment
+      type: OpenCvSharp.LineSegmentPoint
+    - id: targetAngle
+      type: System.Single
+    - id: tolerance
+      type: System.Single
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsAngleNear(lineSegment As LineSegmentPoint, targetAngle As Single, tolerance As Single = 15) As Boolean
+  overload: H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.IsAngleNear*
+  nameWithType.vb: LineSegmentPointExtension.IsAngleNear(LineSegmentPoint, Single, Single)
+  fullName.vb: H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.IsAngleNear(OpenCvSharp.LineSegmentPoint, Single, Single)
+  name.vb: IsAngleNear(LineSegmentPoint, Single, Single)
+- uid: H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.IsAngleNear(System.Single,System.Single,System.Single)
+  commentId: M:H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.IsAngleNear(System.Single,System.Single,System.Single)
+  id: IsAngleNear(System.Single,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension
+  langs:
+  - csharp
+  - vb
+  name: IsAngleNear(float, float, float)
+  nameWithType: LineSegmentPointExtension.IsAngleNear(float, float, float)
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.IsAngleNear(float, float, float)
+  type: Method
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.OpenCV/NodeDatas/7 - Detector/HoughLinesP.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: IsAngleNear
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.OpenCV/NodeDatas/7 - Detector/HoughLinesP.cs
+    startLine: 296
+  assemblies:
+  - H.VisionMaster.OpenCV
+  namespace: H.VisionMaster.OpenCV.NodeDatas.Detector
+  syntax:
+    content: public static bool IsAngleNear(this float angle, float targetAngle, float tolerance = 15)
+    parameters:
+    - id: angle
+      type: System.Single
+    - id: targetAngle
+      type: System.Single
+    - id: tolerance
+      type: System.Single
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsAngleNear(angle As Single, targetAngle As Single, tolerance As Single = 15) As Boolean
+  overload: H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.IsAngleNear*
+  nameWithType.vb: LineSegmentPointExtension.IsAngleNear(Single, Single, Single)
+  fullName.vb: H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.IsAngleNear(Single, Single, Single)
+  name.vb: IsAngleNear(Single, Single, Single)
+references:
+- uid: H.VisionMaster.OpenCV.NodeDatas.Detector
+  commentId: N:H.VisionMaster.OpenCV.NodeDatas.Detector
+  href: H.html
+  name: H.VisionMaster.OpenCV.NodeDatas.Detector
+  nameWithType: H.VisionMaster.OpenCV.NodeDatas.Detector
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Detector
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.OpenCV
+    name: OpenCV
+    href: H.VisionMaster.OpenCV.html
+  - name: .
+  - uid: H.VisionMaster.OpenCV.NodeDatas
+    name: NodeDatas
+    href: H.VisionMaster.OpenCV.NodeDatas.html
+  - name: .
+  - uid: H.VisionMaster.OpenCV.NodeDatas.Detector
+    name: Detector
+    href: H.VisionMaster.OpenCV.NodeDatas.Detector.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.OpenCV
+    name: OpenCV
+    href: H.VisionMaster.OpenCV.html
+  - name: .
+  - uid: H.VisionMaster.OpenCV.NodeDatas
+    name: NodeDatas
+    href: H.VisionMaster.OpenCV.NodeDatas.html
+  - name: .
+  - uid: H.VisionMaster.OpenCV.NodeDatas.Detector
+    name: Detector
+    href: H.VisionMaster.OpenCV.NodeDatas.Detector.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.CalculateAngle*
+  commentId: Overload:H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.CalculateAngle
+  href: H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.html#H_VisionMaster_OpenCV_NodeDatas_Detector_LineSegmentPointExtension_CalculateAngle_OpenCvSharp_LineSegmentPoint_
+  name: CalculateAngle
+  nameWithType: LineSegmentPointExtension.CalculateAngle
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.CalculateAngle
+- uid: OpenCvSharp.LineSegmentPoint
+  commentId: T:OpenCvSharp.LineSegmentPoint
+  parent: OpenCvSharp
+  isExternal: true
+  name: LineSegmentPoint
+  nameWithType: LineSegmentPoint
+  fullName: OpenCvSharp.LineSegmentPoint
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: OpenCvSharp
+  commentId: N:OpenCvSharp
+  isExternal: true
+  name: OpenCvSharp
+  nameWithType: OpenCvSharp
+  fullName: OpenCvSharp
+- uid: H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.IsHorizontal*
+  commentId: Overload:H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.IsHorizontal
+  href: H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.html#H_VisionMaster_OpenCV_NodeDatas_Detector_LineSegmentPointExtension_IsHorizontal_OpenCvSharp_LineSegmentPoint_System_Single_
+  name: IsHorizontal
+  nameWithType: LineSegmentPointExtension.IsHorizontal
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.IsHorizontal
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.IsVertical*
+  commentId: Overload:H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.IsVertical
+  href: H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.html#H_VisionMaster_OpenCV_NodeDatas_Detector_LineSegmentPointExtension_IsVertical_OpenCvSharp_LineSegmentPoint_System_Single_
+  name: IsVertical
+  nameWithType: LineSegmentPointExtension.IsVertical
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.IsVertical
+- uid: H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.IsDiagonal45*
+  commentId: Overload:H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.IsDiagonal45
+  href: H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.html#H_VisionMaster_OpenCV_NodeDatas_Detector_LineSegmentPointExtension_IsDiagonal45_OpenCvSharp_LineSegmentPoint_System_Single_
+  name: IsDiagonal45
+  nameWithType: LineSegmentPointExtension.IsDiagonal45
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.IsDiagonal45
+- uid: H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.IsDiagonal135*
+  commentId: Overload:H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.IsDiagonal135
+  href: H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.html#H_VisionMaster_OpenCV_NodeDatas_Detector_LineSegmentPointExtension_IsDiagonal135_OpenCvSharp_LineSegmentPoint_System_Single_
+  name: IsDiagonal135
+  nameWithType: LineSegmentPointExtension.IsDiagonal135
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.IsDiagonal135
+- uid: H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.IsAngleNear*
+  commentId: Overload:H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.IsAngleNear
+  href: H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.html#H_VisionMaster_OpenCV_NodeDatas_Detector_LineSegmentPointExtension_IsAngleNear_OpenCvSharp_LineSegmentPoint_System_Single_System_Single_
+  name: IsAngleNear
+  nameWithType: LineSegmentPointExtension.IsAngleNear
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Detector.LineSegmentPointExtension.IsAngleNear

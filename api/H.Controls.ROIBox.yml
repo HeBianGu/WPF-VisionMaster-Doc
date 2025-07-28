@@ -1,0 +1,69 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.ROIBox
+  commentId: N:H.Controls.ROIBox
+  id: H.Controls.ROIBox
+  children:
+  - H.Controls.ROIBox.HitHandleType
+  - H.Controls.ROIBox.ROIBox
+  - H.Controls.ROIBox.ROIBoxCommands
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.ROIBox
+  nameWithType: H.Controls.ROIBox
+  fullName: H.Controls.ROIBox
+  type: Namespace
+  assemblies:
+  - H.Controls.ROIBox
+references:
+- uid: H.Controls.ROIBox.HitHandleType
+  commentId: T:H.Controls.ROIBox.HitHandleType
+  parent: H.Controls.ROIBox
+  href: H.Controls.ROIBox.HitHandleType.html
+  name: HitHandleType
+  nameWithType: HitHandleType
+  fullName: H.Controls.ROIBox.HitHandleType
+- uid: H.Controls.ROIBox.ROIBoxCommands
+  commentId: T:H.Controls.ROIBox.ROIBoxCommands
+  href: H.Controls.ROIBox.ROIBoxCommands.html
+  name: ROIBoxCommands
+  nameWithType: ROIBoxCommands
+  fullName: H.Controls.ROIBox.ROIBoxCommands
+- uid: H.Controls.ROIBox.ROIBox
+  commentId: T:H.Controls.ROIBox.ROIBox
+  parent: H.Controls.ROIBox
+  href: H.Controls.ROIBox.ROIBox.html
+  name: ROIBox
+  nameWithType: ROIBox
+  fullName: H.Controls.ROIBox.ROIBox
+- uid: H.Controls.ROIBox
+  commentId: N:H.Controls.ROIBox
+  href: H.html
+  name: H.Controls.ROIBox
+  nameWithType: H.Controls.ROIBox
+  fullName: H.Controls.ROIBox
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.ROIBox
+    name: ROIBox
+    href: H.Controls.ROIBox.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.ROIBox
+    name: ROIBox
+    href: H.Controls.ROIBox.html

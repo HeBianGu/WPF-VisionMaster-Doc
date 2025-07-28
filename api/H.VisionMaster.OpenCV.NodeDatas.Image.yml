@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.VisionMaster.OpenCV.NodeDatas.Image
+  commentId: N:H.VisionMaster.OpenCV.NodeDatas.Image
+  id: H.VisionMaster.OpenCV.NodeDatas.Image
+  children:
+  - H.VisionMaster.OpenCV.NodeDatas.Image.OpenCVConditionNodeData
+  - H.VisionMaster.OpenCV.NodeDatas.Image.PixelThresholdIfConditionNodeData
+  langs:
+  - csharp
+  - vb
+  name: H.VisionMaster.OpenCV.NodeDatas.Image
+  nameWithType: H.VisionMaster.OpenCV.NodeDatas.Image
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Image
+  type: Namespace
+  assemblies:
+  - H.VisionMaster.OpenCV
+references:
+- uid: H.VisionMaster.OpenCV.NodeDatas.Image.OpenCVConditionNodeData
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Image.OpenCVConditionNodeData
+  href: H.VisionMaster.OpenCV.NodeDatas.Image.OpenCVConditionNodeData.html
+  name: OpenCVConditionNodeData
+  nameWithType: OpenCVConditionNodeData
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Image.OpenCVConditionNodeData
+- uid: H.VisionMaster.OpenCV.NodeDatas.Image.PixelThresholdIfConditionNodeData
+  commentId: T:H.VisionMaster.OpenCV.NodeDatas.Image.PixelThresholdIfConditionNodeData
+  href: H.VisionMaster.OpenCV.NodeDatas.Image.PixelThresholdIfConditionNodeData.html
+  name: PixelThresholdIfConditionNodeData
+  nameWithType: PixelThresholdIfConditionNodeData
+  fullName: H.VisionMaster.OpenCV.NodeDatas.Image.PixelThresholdIfConditionNodeData

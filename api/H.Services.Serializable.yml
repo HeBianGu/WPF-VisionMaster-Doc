@@ -1,0 +1,135 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Services.Serializable
+  commentId: N:H.Services.Serializable
+  id: H.Services.Serializable
+  children:
+  - H.Services.Serializable.Extention
+  - H.Services.Serializable.ICloneService
+  - H.Services.Serializable.IJsonSerializerService
+  - H.Services.Serializable.ISerializerService
+  - H.Services.Serializable.IXmlSerializerService
+  - H.Services.Serializable.IXmlable
+  - H.Services.Serializable.IocSerializer
+  - H.Services.Serializable.JsonCloneService
+  - H.Services.Serializable.SerializerServiceExtensions
+  - H.Services.Serializable.TextJsonOptions
+  - H.Services.Serializable.TextJsonSerializerService
+  - H.Services.Serializable.TypeConverterJsonConverter
+  langs:
+  - csharp
+  - vb
+  name: H.Services.Serializable
+  nameWithType: H.Services.Serializable
+  fullName: H.Services.Serializable
+  type: Namespace
+  assemblies:
+  - H.Services.Serializable
+references:
+- uid: H.Services.Serializable.Extention
+  commentId: T:H.Services.Serializable.Extention
+  href: H.Services.Serializable.Extention.html
+  name: Extention
+  nameWithType: Extention
+  fullName: H.Services.Serializable.Extention
+- uid: H.Services.Serializable.ICloneService
+  commentId: T:H.Services.Serializable.ICloneService
+  parent: H.Services.Serializable
+  href: H.Services.Serializable.ICloneService.html
+  name: ICloneService
+  nameWithType: ICloneService
+  fullName: H.Services.Serializable.ICloneService
+- uid: H.Services.Serializable.IJsonSerializerService
+  commentId: T:H.Services.Serializable.IJsonSerializerService
+  parent: H.Services.Serializable
+  href: H.Services.Serializable.IJsonSerializerService.html
+  name: IJsonSerializerService
+  nameWithType: IJsonSerializerService
+  fullName: H.Services.Serializable.IJsonSerializerService
+- uid: H.Services.Serializable.IocSerializer
+  commentId: T:H.Services.Serializable.IocSerializer
+  href: H.Services.Serializable.IocSerializer.html
+  name: IocSerializer
+  nameWithType: IocSerializer
+  fullName: H.Services.Serializable.IocSerializer
+- uid: H.Services.Serializable.ISerializerService
+  commentId: T:H.Services.Serializable.ISerializerService
+  parent: H.Services.Serializable
+  href: H.Services.Serializable.ISerializerService.html
+  name: ISerializerService
+  nameWithType: ISerializerService
+  fullName: H.Services.Serializable.ISerializerService
+- uid: H.Services.Serializable.SerializerServiceExtensions
+  commentId: T:H.Services.Serializable.SerializerServiceExtensions
+  parent: H.Services.Serializable
+  href: H.Services.Serializable.SerializerServiceExtensions.html
+  name: SerializerServiceExtensions
+  nameWithType: SerializerServiceExtensions
+  fullName: H.Services.Serializable.SerializerServiceExtensions
+- uid: H.Services.Serializable.IXmlable
+  commentId: T:H.Services.Serializable.IXmlable
+  parent: H.Services.Serializable
+  href: H.Services.Serializable.IXmlable.html
+  name: IXmlable
+  nameWithType: IXmlable
+  fullName: H.Services.Serializable.IXmlable
+- uid: H.Services.Serializable.IXmlSerializerService
+  commentId: T:H.Services.Serializable.IXmlSerializerService
+  href: H.Services.Serializable.IXmlSerializerService.html
+  name: IXmlSerializerService
+  nameWithType: IXmlSerializerService
+  fullName: H.Services.Serializable.IXmlSerializerService
+- uid: H.Services.Serializable.JsonCloneService
+  commentId: T:H.Services.Serializable.JsonCloneService
+  href: H.Services.Serializable.JsonCloneService.html
+  name: JsonCloneService
+  nameWithType: JsonCloneService
+  fullName: H.Services.Serializable.JsonCloneService
+- uid: H.Services.Serializable.TextJsonOptions
+  commentId: T:H.Services.Serializable.TextJsonOptions
+  href: H.Services.Serializable.TextJsonOptions.html
+  name: TextJsonOptions
+  nameWithType: TextJsonOptions
+  fullName: H.Services.Serializable.TextJsonOptions
+- uid: H.Services.Serializable.TextJsonSerializerService
+  commentId: T:H.Services.Serializable.TextJsonSerializerService
+  href: H.Services.Serializable.TextJsonSerializerService.html
+  name: TextJsonSerializerService
+  nameWithType: TextJsonSerializerService
+  fullName: H.Services.Serializable.TextJsonSerializerService
+- uid: H.Services.Serializable.TypeConverterJsonConverter
+  commentId: T:H.Services.Serializable.TypeConverterJsonConverter
+  href: H.Services.Serializable.TypeConverterJsonConverter.html
+  name: TypeConverterJsonConverter
+  nameWithType: TypeConverterJsonConverter
+  fullName: H.Services.Serializable.TypeConverterJsonConverter
+- uid: H.Services.Serializable
+  commentId: N:H.Services.Serializable
+  href: H.html
+  name: H.Services.Serializable
+  nameWithType: H.Services.Serializable
+  fullName: H.Services.Serializable
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Serializable
+    name: Serializable
+    href: H.Services.Serializable.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Serializable
+    name: Serializable
+    href: H.Services.Serializable.html

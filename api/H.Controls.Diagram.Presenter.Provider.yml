@@ -1,0 +1,51 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.Diagram.Presenter.Provider
+  commentId: N:H.Controls.Diagram.Presenter.Provider
+  id: H.Controls.Diagram.Presenter.Provider
+  children:
+  - H.Controls.Diagram.Presenter.Provider.DiagramTheme
+  - H.Controls.Diagram.Presenter.Provider.DiagramThemeGroup
+  - H.Controls.Diagram.Presenter.Provider.DisplayGraphSource
+  - H.Controls.Diagram.Presenter.Provider.FlowableDiagramDataSource
+  - H.Controls.Diagram.Presenter.Provider.NodeDataGroup
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.Diagram.Presenter.Provider
+  nameWithType: H.Controls.Diagram.Presenter.Provider
+  fullName: H.Controls.Diagram.Presenter.Provider
+  type: Namespace
+  assemblies:
+  - H.Controls.Diagram.Presenter
+references:
+- uid: H.Controls.Diagram.Presenter.Provider.FlowableDiagramDataSource
+  commentId: T:H.Controls.Diagram.Presenter.Provider.FlowableDiagramDataSource
+  href: H.Controls.Diagram.Presenter.Provider.FlowableDiagramDataSource.html
+  name: FlowableDiagramDataSource
+  nameWithType: FlowableDiagramDataSource
+  fullName: H.Controls.Diagram.Presenter.Provider.FlowableDiagramDataSource
+- uid: H.Controls.Diagram.Presenter.Provider.DiagramTheme
+  commentId: T:H.Controls.Diagram.Presenter.Provider.DiagramTheme
+  href: H.Controls.Diagram.Presenter.Provider.DiagramTheme.html
+  name: DiagramTheme
+  nameWithType: DiagramTheme
+  fullName: H.Controls.Diagram.Presenter.Provider.DiagramTheme
+- uid: H.Controls.Diagram.Presenter.Provider.DiagramThemeGroup
+  commentId: T:H.Controls.Diagram.Presenter.Provider.DiagramThemeGroup
+  href: H.Controls.Diagram.Presenter.Provider.DiagramThemeGroup.html
+  name: DiagramThemeGroup
+  nameWithType: DiagramThemeGroup
+  fullName: H.Controls.Diagram.Presenter.Provider.DiagramThemeGroup
+- uid: H.Controls.Diagram.Presenter.Provider.DisplayGraphSource
+  commentId: T:H.Controls.Diagram.Presenter.Provider.DisplayGraphSource
+  href: H.Controls.Diagram.Presenter.Provider.DisplayGraphSource.html
+  name: DisplayGraphSource
+  nameWithType: DisplayGraphSource
+  fullName: H.Controls.Diagram.Presenter.Provider.DisplayGraphSource
+- uid: H.Controls.Diagram.Presenter.Provider.NodeDataGroup
+  commentId: T:H.Controls.Diagram.Presenter.Provider.NodeDataGroup
+  href: H.Controls.Diagram.Presenter.Provider.NodeDataGroup.html
+  name: NodeDataGroup
+  nameWithType: NodeDataGroup
+  fullName: H.Controls.Diagram.Presenter.Provider.NodeDataGroup

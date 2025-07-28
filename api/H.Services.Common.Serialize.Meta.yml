@@ -1,0 +1,86 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Services.Common.Serialize.Meta
+  commentId: N:H.Services.Common.Serialize.Meta
+  id: H.Services.Common.Serialize.Meta
+  children:
+  - H.Services.Common.Serialize.Meta.IMetaSetting
+  - H.Services.Common.Serialize.Meta.IMetaSettingService
+  - H.Services.Common.Serialize.Meta.JsonMetaSettingServiceBase
+  langs:
+  - csharp
+  - vb
+  name: H.Services.Common.Serialize.Meta
+  nameWithType: H.Services.Common.Serialize.Meta
+  fullName: H.Services.Common.Serialize.Meta
+  type: Namespace
+  assemblies:
+  - H.Services.Common
+references:
+- uid: H.Services.Common.Serialize.Meta.IMetaSetting
+  commentId: T:H.Services.Common.Serialize.Meta.IMetaSetting
+  parent: H.Services.Common.Serialize.Meta
+  href: H.Services.Common.Serialize.Meta.IMetaSetting.html
+  name: IMetaSetting
+  nameWithType: IMetaSetting
+  fullName: H.Services.Common.Serialize.Meta.IMetaSetting
+- uid: H.Services.Common.Serialize.Meta.IMetaSettingService
+  commentId: T:H.Services.Common.Serialize.Meta.IMetaSettingService
+  parent: H.Services.Common.Serialize.Meta
+  href: H.Services.Common.Serialize.Meta.IMetaSettingService.html
+  name: IMetaSettingService
+  nameWithType: IMetaSettingService
+  fullName: H.Services.Common.Serialize.Meta.IMetaSettingService
+- uid: H.Services.Common.Serialize.Meta.JsonMetaSettingServiceBase
+  commentId: T:H.Services.Common.Serialize.Meta.JsonMetaSettingServiceBase
+  parent: H.Services.Common.Serialize.Meta
+  href: H.Services.Common.Serialize.Meta.JsonMetaSettingServiceBase.html
+  name: JsonMetaSettingServiceBase
+  nameWithType: JsonMetaSettingServiceBase
+  fullName: H.Services.Common.Serialize.Meta.JsonMetaSettingServiceBase
+- uid: H.Services.Common.Serialize.Meta
+  commentId: N:H.Services.Common.Serialize.Meta
+  href: H.html
+  name: H.Services.Common.Serialize.Meta
+  nameWithType: H.Services.Common.Serialize.Meta
+  fullName: H.Services.Common.Serialize.Meta
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Common
+    name: Common
+    href: H.Services.Common.html
+  - name: .
+  - uid: H.Services.Common.Serialize
+    name: Serialize
+    href: H.Services.Common.Serialize.html
+  - name: .
+  - uid: H.Services.Common.Serialize.Meta
+    name: Meta
+    href: H.Services.Common.Serialize.Meta.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Common
+    name: Common
+    href: H.Services.Common.html
+  - name: .
+  - uid: H.Services.Common.Serialize
+    name: Serialize
+    href: H.Services.Common.Serialize.html
+  - name: .
+  - uid: H.Services.Common.Serialize.Meta
+    name: Meta
+    href: H.Services.Common.Serialize.Meta.html

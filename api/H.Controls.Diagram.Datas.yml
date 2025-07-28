@@ -1,0 +1,180 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.Diagram.Datas
+  commentId: N:H.Controls.Diagram.Datas
+  id: H.Controls.Diagram.Datas
+  children:
+  - H.Controls.Diagram.Datas.DefaultLinkData
+  - H.Controls.Diagram.Datas.DefaultPortData
+  - H.Controls.Diagram.Datas.DynamicLinkData
+  - H.Controls.Diagram.Datas.IData
+  - H.Controls.Diagram.Datas.IDropable
+  - H.Controls.Diagram.Datas.ILinkData
+  - H.Controls.Diagram.Datas.ILinkDataCreator
+  - H.Controls.Diagram.Datas.ILinkInitializer
+  - H.Controls.Diagram.Datas.INodeData
+  - H.Controls.Diagram.Datas.IOnDiagramDeserialized
+  - H.Controls.Diagram.Datas.IPartData
+  - H.Controls.Diagram.Datas.IPortData
+  - H.Controls.Diagram.Datas.IPortDataCreator
+  - H.Controls.Diagram.Datas.IPortableNodeData
+  - H.Controls.Diagram.Datas.ITemplate
+  - H.Controls.Diagram.Datas.PortType
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.Diagram.Datas
+  nameWithType: H.Controls.Diagram.Datas
+  fullName: H.Controls.Diagram.Datas
+  type: Namespace
+  assemblies:
+  - H.Controls.Diagram
+references:
+- uid: H.Controls.Diagram.Datas.DefaultLinkData
+  commentId: T:H.Controls.Diagram.Datas.DefaultLinkData
+  parent: H.Controls.Diagram.Datas
+  href: H.Controls.Diagram.Datas.DefaultLinkData.html
+  name: DefaultLinkData
+  nameWithType: DefaultLinkData
+  fullName: H.Controls.Diagram.Datas.DefaultLinkData
+- uid: H.Controls.Diagram.Datas.DefaultPortData
+  commentId: T:H.Controls.Diagram.Datas.DefaultPortData
+  href: H.Controls.Diagram.Datas.DefaultPortData.html
+  name: DefaultPortData
+  nameWithType: DefaultPortData
+  fullName: H.Controls.Diagram.Datas.DefaultPortData
+- uid: H.Controls.Diagram.Datas.DynamicLinkData
+  commentId: T:H.Controls.Diagram.Datas.DynamicLinkData
+  href: H.Controls.Diagram.Datas.DynamicLinkData.html
+  name: DynamicLinkData
+  nameWithType: DynamicLinkData
+  fullName: H.Controls.Diagram.Datas.DynamicLinkData
+- uid: H.Controls.Diagram.Datas.IData
+  commentId: T:H.Controls.Diagram.Datas.IData
+  parent: H.Controls.Diagram.Datas
+  href: H.Controls.Diagram.Datas.IData.html
+  name: IData
+  nameWithType: IData
+  fullName: H.Controls.Diagram.Datas.IData
+- uid: H.Controls.Diagram.Datas.IDropable
+  commentId: T:H.Controls.Diagram.Datas.IDropable
+  parent: H.Controls.Diagram.Datas
+  href: H.Controls.Diagram.Datas.IDropable.html
+  name: IDropable
+  nameWithType: IDropable
+  fullName: H.Controls.Diagram.Datas.IDropable
+- uid: H.Controls.Diagram.Datas.ILinkData
+  commentId: T:H.Controls.Diagram.Datas.ILinkData
+  parent: H.Controls.Diagram.Datas
+  href: H.Controls.Diagram.Datas.ILinkData.html
+  name: ILinkData
+  nameWithType: ILinkData
+  fullName: H.Controls.Diagram.Datas.ILinkData
+- uid: H.Controls.Diagram.Datas.ILinkDataCreator
+  commentId: T:H.Controls.Diagram.Datas.ILinkDataCreator
+  parent: H.Controls.Diagram.Datas
+  href: H.Controls.Diagram.Datas.ILinkDataCreator.html
+  name: ILinkDataCreator
+  nameWithType: ILinkDataCreator
+  fullName: H.Controls.Diagram.Datas.ILinkDataCreator
+- uid: H.Controls.Diagram.Datas.ILinkInitializer
+  commentId: T:H.Controls.Diagram.Datas.ILinkInitializer
+  parent: H.Controls.Diagram.Datas
+  href: H.Controls.Diagram.Datas.ILinkInitializer.html
+  name: ILinkInitializer
+  nameWithType: ILinkInitializer
+  fullName: H.Controls.Diagram.Datas.ILinkInitializer
+- uid: H.Controls.Diagram.Datas.INodeData
+  commentId: T:H.Controls.Diagram.Datas.INodeData
+  parent: H.Controls.Diagram.Datas
+  href: H.Controls.Diagram.Datas.INodeData.html
+  name: INodeData
+  nameWithType: INodeData
+  fullName: H.Controls.Diagram.Datas.INodeData
+- uid: H.Controls.Diagram.Datas.IOnDiagramDeserialized
+  commentId: T:H.Controls.Diagram.Datas.IOnDiagramDeserialized
+  parent: H.Controls.Diagram.Datas
+  href: H.Controls.Diagram.Datas.IOnDiagramDeserialized.html
+  name: IOnDiagramDeserialized
+  nameWithType: IOnDiagramDeserialized
+  fullName: H.Controls.Diagram.Datas.IOnDiagramDeserialized
+- uid: H.Controls.Diagram.Datas.IPartData
+  commentId: T:H.Controls.Diagram.Datas.IPartData
+  parent: H.Controls.Diagram.Datas
+  href: H.Controls.Diagram.Datas.IPartData.html
+  name: IPartData
+  nameWithType: IPartData
+  fullName: H.Controls.Diagram.Datas.IPartData
+- uid: H.Controls.Diagram.Datas.IPortableNodeData
+  commentId: T:H.Controls.Diagram.Datas.IPortableNodeData
+  parent: H.Controls.Diagram.Datas
+  href: H.Controls.Diagram.Datas.IPortableNodeData.html
+  name: IPortableNodeData
+  nameWithType: IPortableNodeData
+  fullName: H.Controls.Diagram.Datas.IPortableNodeData
+- uid: H.Controls.Diagram.Datas.IPortData
+  commentId: T:H.Controls.Diagram.Datas.IPortData
+  parent: H.Controls.Diagram.Datas
+  href: H.Controls.Diagram.Datas.IPortData.html
+  name: IPortData
+  nameWithType: IPortData
+  fullName: H.Controls.Diagram.Datas.IPortData
+- uid: H.Controls.Diagram.Datas.IPortDataCreator
+  commentId: T:H.Controls.Diagram.Datas.IPortDataCreator
+  parent: H.Controls.Diagram.Datas
+  href: H.Controls.Diagram.Datas.IPortDataCreator.html
+  name: IPortDataCreator
+  nameWithType: IPortDataCreator
+  fullName: H.Controls.Diagram.Datas.IPortDataCreator
+- uid: H.Controls.Diagram.Datas.ITemplate
+  commentId: T:H.Controls.Diagram.Datas.ITemplate
+  parent: H.Controls.Diagram.Datas
+  href: H.Controls.Diagram.Datas.ITemplate.html
+  name: ITemplate
+  nameWithType: ITemplate
+  fullName: H.Controls.Diagram.Datas.ITemplate
+- uid: H.Controls.Diagram.Datas.PortType
+  commentId: T:H.Controls.Diagram.Datas.PortType
+  parent: H.Controls.Diagram.Datas
+  href: H.Controls.Diagram.Datas.PortType.html
+  name: PortType
+  nameWithType: PortType
+  fullName: H.Controls.Diagram.Datas.PortType
+- uid: H.Controls.Diagram.Datas
+  commentId: N:H.Controls.Diagram.Datas
+  href: H.html
+  name: H.Controls.Diagram.Datas
+  nameWithType: H.Controls.Diagram.Datas
+  fullName: H.Controls.Diagram.Datas
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Datas
+    name: Datas
+    href: H.Controls.Diagram.Datas.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Datas
+    name: Datas
+    href: H.Controls.Diagram.Datas.html

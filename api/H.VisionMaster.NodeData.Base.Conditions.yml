@@ -1,0 +1,146 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.VisionMaster.NodeData.Base.Conditions
+  commentId: N:H.VisionMaster.NodeData.Base.Conditions
+  id: H.VisionMaster.NodeData.Base.Conditions
+  children:
+  - H.VisionMaster.NodeData.Base.Conditions.ConditionNodeData`1
+  - H.VisionMaster.NodeData.Base.Conditions.IConditionNodeData
+  - H.VisionMaster.NodeData.Base.Conditions.IVisionPropertyConditionPrensenter
+  - H.VisionMaster.NodeData.Base.Conditions.VisionPropertyConditionPrensenter
+  - H.VisionMaster.NodeData.Base.Conditions.VisionPropertyConditionsPrensenter
+  - H.VisionMaster.NodeData.Base.Conditions.WaitAllParallelNodeData`1
+  langs:
+  - csharp
+  - vb
+  name: H.VisionMaster.NodeData.Base.Conditions
+  nameWithType: H.VisionMaster.NodeData.Base.Conditions
+  fullName: H.VisionMaster.NodeData.Base.Conditions
+  type: Namespace
+  assemblies:
+  - H.VisionMaster.NodeData
+references:
+- uid: H.VisionMaster.NodeData.Base.Conditions.IConditionNodeData
+  commentId: T:H.VisionMaster.NodeData.Base.Conditions.IConditionNodeData
+  parent: H.VisionMaster.NodeData.Base.Conditions
+  href: H.VisionMaster.NodeData.Base.Conditions.IConditionNodeData.html
+  name: IConditionNodeData
+  nameWithType: IConditionNodeData
+  fullName: H.VisionMaster.NodeData.Base.Conditions.IConditionNodeData
+- uid: H.VisionMaster.NodeData.Base.Conditions.ConditionNodeData`1
+  commentId: T:H.VisionMaster.NodeData.Base.Conditions.ConditionNodeData`1
+  href: H.VisionMaster.NodeData.Base.Conditions.ConditionNodeData-1.html
+  name: ConditionNodeData<T>
+  nameWithType: ConditionNodeData<T>
+  fullName: H.VisionMaster.NodeData.Base.Conditions.ConditionNodeData<T>
+  nameWithType.vb: ConditionNodeData(Of T)
+  fullName.vb: H.VisionMaster.NodeData.Base.Conditions.ConditionNodeData(Of T)
+  name.vb: ConditionNodeData(Of T)
+  spec.csharp:
+  - uid: H.VisionMaster.NodeData.Base.Conditions.ConditionNodeData`1
+    name: ConditionNodeData
+    href: H.VisionMaster.NodeData.Base.Conditions.ConditionNodeData-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.VisionMaster.NodeData.Base.Conditions.ConditionNodeData`1
+    name: ConditionNodeData
+    href: H.VisionMaster.NodeData.Base.Conditions.ConditionNodeData-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.VisionMaster.NodeData.Base.Conditions.IVisionPropertyConditionPrensenter
+  commentId: T:H.VisionMaster.NodeData.Base.Conditions.IVisionPropertyConditionPrensenter
+  parent: H.VisionMaster.NodeData.Base.Conditions
+  href: H.VisionMaster.NodeData.Base.Conditions.IVisionPropertyConditionPrensenter.html
+  name: IVisionPropertyConditionPrensenter
+  nameWithType: IVisionPropertyConditionPrensenter
+  fullName: H.VisionMaster.NodeData.Base.Conditions.IVisionPropertyConditionPrensenter
+- uid: H.VisionMaster.NodeData.Base.Conditions.VisionPropertyConditionPrensenter
+  commentId: T:H.VisionMaster.NodeData.Base.Conditions.VisionPropertyConditionPrensenter
+  parent: H.VisionMaster.NodeData.Base.Conditions
+  href: H.VisionMaster.NodeData.Base.Conditions.VisionPropertyConditionPrensenter.html
+  name: VisionPropertyConditionPrensenter
+  nameWithType: VisionPropertyConditionPrensenter
+  fullName: H.VisionMaster.NodeData.Base.Conditions.VisionPropertyConditionPrensenter
+- uid: H.VisionMaster.NodeData.Base.Conditions.VisionPropertyConditionsPrensenter
+  commentId: T:H.VisionMaster.NodeData.Base.Conditions.VisionPropertyConditionsPrensenter
+  parent: H.VisionMaster.NodeData.Base.Conditions
+  href: H.VisionMaster.NodeData.Base.Conditions.VisionPropertyConditionsPrensenter.html
+  name: VisionPropertyConditionsPrensenter
+  nameWithType: VisionPropertyConditionsPrensenter
+  fullName: H.VisionMaster.NodeData.Base.Conditions.VisionPropertyConditionsPrensenter
+- uid: H.VisionMaster.NodeData.Base.Conditions.WaitAllParallelNodeData`1
+  commentId: T:H.VisionMaster.NodeData.Base.Conditions.WaitAllParallelNodeData`1
+  href: H.VisionMaster.NodeData.Base.Conditions.WaitAllParallelNodeData-1.html
+  name: WaitAllParallelNodeData<T>
+  nameWithType: WaitAllParallelNodeData<T>
+  fullName: H.VisionMaster.NodeData.Base.Conditions.WaitAllParallelNodeData<T>
+  nameWithType.vb: WaitAllParallelNodeData(Of T)
+  fullName.vb: H.VisionMaster.NodeData.Base.Conditions.WaitAllParallelNodeData(Of T)
+  name.vb: WaitAllParallelNodeData(Of T)
+  spec.csharp:
+  - uid: H.VisionMaster.NodeData.Base.Conditions.WaitAllParallelNodeData`1
+    name: WaitAllParallelNodeData
+    href: H.VisionMaster.NodeData.Base.Conditions.WaitAllParallelNodeData-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.VisionMaster.NodeData.Base.Conditions.WaitAllParallelNodeData`1
+    name: WaitAllParallelNodeData
+    href: H.VisionMaster.NodeData.Base.Conditions.WaitAllParallelNodeData-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.VisionMaster.NodeData.Base.Conditions
+  commentId: N:H.VisionMaster.NodeData.Base.Conditions
+  href: H.html
+  name: H.VisionMaster.NodeData.Base.Conditions
+  nameWithType: H.VisionMaster.NodeData.Base.Conditions
+  fullName: H.VisionMaster.NodeData.Base.Conditions
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.NodeData
+    name: NodeData
+    href: H.VisionMaster.NodeData.html
+  - name: .
+  - uid: H.VisionMaster.NodeData.Base
+    name: Base
+    href: H.VisionMaster.NodeData.Base.html
+  - name: .
+  - uid: H.VisionMaster.NodeData.Base.Conditions
+    name: Conditions
+    href: H.VisionMaster.NodeData.Base.Conditions.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.NodeData
+    name: NodeData
+    href: H.VisionMaster.NodeData.html
+  - name: .
+  - uid: H.VisionMaster.NodeData.Base
+    name: Base
+    href: H.VisionMaster.NodeData.Base.html
+  - name: .
+  - uid: H.VisionMaster.NodeData.Base.Conditions
+    name: Conditions
+    href: H.VisionMaster.NodeData.Base.Conditions.html

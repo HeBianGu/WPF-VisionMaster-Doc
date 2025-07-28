@@ -1,0 +1,76 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.Behvaiors.FrameworkElements
+  commentId: N:H.Extensions.Behvaiors.FrameworkElements
+  id: H.Extensions.Behvaiors.FrameworkElements
+  children:
+  - H.Extensions.Behvaiors.FrameworkElements.ElementDragStateBehavior
+  - H.Extensions.Behvaiors.FrameworkElements.FrameworkElementDragDropFileBehavior
+  - H.Extensions.Behvaiors.FrameworkElements.FrameworkElementDragDropFileBehaviorBase
+  langs:
+  - csharp
+  - vb
+  name: H.Extensions.Behvaiors.FrameworkElements
+  nameWithType: H.Extensions.Behvaiors.FrameworkElements
+  fullName: H.Extensions.Behvaiors.FrameworkElements
+  type: Namespace
+  assemblies:
+  - H.Extensions.Behvaiors
+references:
+- uid: H.Extensions.Behvaiors.FrameworkElements.ElementDragStateBehavior
+  commentId: T:H.Extensions.Behvaiors.FrameworkElements.ElementDragStateBehavior
+  href: H.Extensions.Behvaiors.FrameworkElements.ElementDragStateBehavior.html
+  name: ElementDragStateBehavior
+  nameWithType: ElementDragStateBehavior
+  fullName: H.Extensions.Behvaiors.FrameworkElements.ElementDragStateBehavior
+- uid: H.Extensions.Behvaiors.FrameworkElements.FrameworkElementDragDropFileBehaviorBase
+  commentId: T:H.Extensions.Behvaiors.FrameworkElements.FrameworkElementDragDropFileBehaviorBase
+  parent: H.Extensions.Behvaiors.FrameworkElements
+  href: H.Extensions.Behvaiors.FrameworkElements.FrameworkElementDragDropFileBehaviorBase.html
+  name: FrameworkElementDragDropFileBehaviorBase
+  nameWithType: FrameworkElementDragDropFileBehaviorBase
+  fullName: H.Extensions.Behvaiors.FrameworkElements.FrameworkElementDragDropFileBehaviorBase
+- uid: H.Extensions.Behvaiors.FrameworkElements.FrameworkElementDragDropFileBehavior
+  commentId: T:H.Extensions.Behvaiors.FrameworkElements.FrameworkElementDragDropFileBehavior
+  href: H.Extensions.Behvaiors.FrameworkElements.FrameworkElementDragDropFileBehavior.html
+  name: FrameworkElementDragDropFileBehavior
+  nameWithType: FrameworkElementDragDropFileBehavior
+  fullName: H.Extensions.Behvaiors.FrameworkElements.FrameworkElementDragDropFileBehavior
+- uid: H.Extensions.Behvaiors.FrameworkElements
+  commentId: N:H.Extensions.Behvaiors.FrameworkElements
+  href: H.html
+  name: H.Extensions.Behvaiors.FrameworkElements
+  nameWithType: H.Extensions.Behvaiors.FrameworkElements
+  fullName: H.Extensions.Behvaiors.FrameworkElements
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Behvaiors
+    name: Behvaiors
+    href: H.Extensions.Behvaiors.html
+  - name: .
+  - uid: H.Extensions.Behvaiors.FrameworkElements
+    name: FrameworkElements
+    href: H.Extensions.Behvaiors.FrameworkElements.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Behvaiors
+    name: Behvaiors
+    href: H.Extensions.Behvaiors.html
+  - name: .
+  - uid: H.Extensions.Behvaiors.FrameworkElements
+    name: FrameworkElements
+    href: H.Extensions.Behvaiors.FrameworkElements.html

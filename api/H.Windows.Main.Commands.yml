@@ -1,0 +1,105 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Windows.Main.Commands
+  commentId: N:H.Windows.Main.Commands
+  id: H.Windows.Main.Commands
+  children:
+  - H.Windows.Main.Commands.CloseAfterSaveWindowCommand
+  - H.Windows.Main.Commands.CloseWindowCommand
+  - H.Windows.Main.Commands.MaximizeWindowCommand
+  - H.Windows.Main.Commands.MinimizeWindowCommand
+  - H.Windows.Main.Commands.RestoreWindowCommand
+  - H.Windows.Main.Commands.TranslationCloseWindowCommand
+  - H.Windows.Main.Commands.WindowCommandBase
+  langs:
+  - csharp
+  - vb
+  name: H.Windows.Main.Commands
+  nameWithType: H.Windows.Main.Commands
+  fullName: H.Windows.Main.Commands
+  type: Namespace
+  assemblies:
+  - H.Windows.Main
+references:
+- uid: H.Windows.Main.Commands.TranslationCloseWindowCommand
+  commentId: T:H.Windows.Main.Commands.TranslationCloseWindowCommand
+  href: H.Windows.Main.Commands.TranslationCloseWindowCommand.html
+  name: TranslationCloseWindowCommand
+  nameWithType: TranslationCloseWindowCommand
+  fullName: H.Windows.Main.Commands.TranslationCloseWindowCommand
+- uid: H.Windows.Main.Commands.WindowCommandBase
+  commentId: T:H.Windows.Main.Commands.WindowCommandBase
+  parent: H.Windows.Main.Commands
+  href: H.Windows.Main.Commands.WindowCommandBase.html
+  name: WindowCommandBase
+  nameWithType: WindowCommandBase
+  fullName: H.Windows.Main.Commands.WindowCommandBase
+- uid: H.Windows.Main.Commands.CloseWindowCommand
+  commentId: T:H.Windows.Main.Commands.CloseWindowCommand
+  parent: H.Windows.Main.Commands
+  href: H.Windows.Main.Commands.CloseWindowCommand.html
+  name: CloseWindowCommand
+  nameWithType: CloseWindowCommand
+  fullName: H.Windows.Main.Commands.CloseWindowCommand
+- uid: H.Windows.Main.Commands.CloseAfterSaveWindowCommand
+  commentId: T:H.Windows.Main.Commands.CloseAfterSaveWindowCommand
+  href: H.Windows.Main.Commands.CloseAfterSaveWindowCommand.html
+  name: CloseAfterSaveWindowCommand
+  nameWithType: CloseAfterSaveWindowCommand
+  fullName: H.Windows.Main.Commands.CloseAfterSaveWindowCommand
+- uid: H.Windows.Main.Commands.MaximizeWindowCommand
+  commentId: T:H.Windows.Main.Commands.MaximizeWindowCommand
+  href: H.Windows.Main.Commands.MaximizeWindowCommand.html
+  name: MaximizeWindowCommand
+  nameWithType: MaximizeWindowCommand
+  fullName: H.Windows.Main.Commands.MaximizeWindowCommand
+- uid: H.Windows.Main.Commands.MinimizeWindowCommand
+  commentId: T:H.Windows.Main.Commands.MinimizeWindowCommand
+  href: H.Windows.Main.Commands.MinimizeWindowCommand.html
+  name: MinimizeWindowCommand
+  nameWithType: MinimizeWindowCommand
+  fullName: H.Windows.Main.Commands.MinimizeWindowCommand
+- uid: H.Windows.Main.Commands.RestoreWindowCommand
+  commentId: T:H.Windows.Main.Commands.RestoreWindowCommand
+  href: H.Windows.Main.Commands.RestoreWindowCommand.html
+  name: RestoreWindowCommand
+  nameWithType: RestoreWindowCommand
+  fullName: H.Windows.Main.Commands.RestoreWindowCommand
+- uid: H.Windows.Main.Commands
+  commentId: N:H.Windows.Main.Commands
+  href: H.html
+  name: H.Windows.Main.Commands
+  nameWithType: H.Windows.Main.Commands
+  fullName: H.Windows.Main.Commands
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Windows
+    name: Windows
+    href: H.Windows.html
+  - name: .
+  - uid: H.Windows.Main
+    name: Main
+    href: H.Windows.Main.html
+  - name: .
+  - uid: H.Windows.Main.Commands
+    name: Commands
+    href: H.Windows.Main.Commands.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Windows
+    name: Windows
+    href: H.Windows.html
+  - name: .
+  - uid: H.Windows.Main
+    name: Main
+    href: H.Windows.Main.html
+  - name: .
+  - uid: H.Windows.Main.Commands
+    name: Commands
+    href: H.Windows.Main.Commands.html

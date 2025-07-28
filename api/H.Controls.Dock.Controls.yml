@@ -1,0 +1,380 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.Dock.Controls
+  commentId: N:H.Controls.Dock.Controls
+  id: H.Controls.Dock.Controls
+  children:
+  - H.Controls.Dock.Controls.AnchorablePaneTabPanel
+  - H.Controls.Dock.Controls.AnchorablePaneTitle
+  - H.Controls.Dock.Controls.ContextMenuEx
+  - H.Controls.Dock.Controls.DocumentPaneTabPanel
+  - H.Controls.Dock.Controls.DropAreaType
+  - H.Controls.Dock.Controls.DropArea`1
+  - H.Controls.Dock.Controls.DropDownButton
+  - H.Controls.Dock.Controls.DropDownControlArea
+  - H.Controls.Dock.Controls.DropTargetType
+  - H.Controls.Dock.Controls.Extensions
+  - H.Controls.Dock.Controls.IDropArea
+  - H.Controls.Dock.Controls.LayoutAnchorControl
+  - H.Controls.Dock.Controls.LayoutAnchorGroupControl
+  - H.Controls.Dock.Controls.LayoutAnchorSideControl
+  - H.Controls.Dock.Controls.LayoutAnchorableControl
+  - H.Controls.Dock.Controls.LayoutAnchorableFloatingWindowControl
+  - H.Controls.Dock.Controls.LayoutAnchorableItem
+  - H.Controls.Dock.Controls.LayoutAnchorablePaneControl
+  - H.Controls.Dock.Controls.LayoutAnchorablePaneGroupControl
+  - H.Controls.Dock.Controls.LayoutAnchorableTabItem
+  - H.Controls.Dock.Controls.LayoutAutoHideWindowControl
+  - H.Controls.Dock.Controls.LayoutDocumentControl
+  - H.Controls.Dock.Controls.LayoutDocumentFloatingWindowControl
+  - H.Controls.Dock.Controls.LayoutDocumentItem
+  - H.Controls.Dock.Controls.LayoutDocumentPaneControl
+  - H.Controls.Dock.Controls.LayoutDocumentPaneGroupControl
+  - H.Controls.Dock.Controls.LayoutDocumentTabItem
+  - H.Controls.Dock.Controls.LayoutFloatingWindowControl
+  - H.Controls.Dock.Controls.LayoutFloatingWindowControl.FloatingWindowContentHost
+  - H.Controls.Dock.Controls.LayoutGridControl`1
+  - H.Controls.Dock.Controls.LayoutGridResizerControl
+  - H.Controls.Dock.Controls.LayoutItem
+  - H.Controls.Dock.Controls.LayoutPanelControl
+  - H.Controls.Dock.Controls.MenuItemEx
+  - H.Controls.Dock.Controls.NavigatorWindow
+  - H.Controls.Dock.Controls.OverlayWindow
+  - H.Controls.Dock.Controls.TabControlEx
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.Dock.Controls
+  nameWithType: H.Controls.Dock.Controls
+  fullName: H.Controls.Dock.Controls
+  type: Namespace
+  assemblies:
+  - H.Controls.Dock
+references:
+- uid: H.Controls.Dock.Controls.AnchorablePaneTabPanel
+  commentId: T:H.Controls.Dock.Controls.AnchorablePaneTabPanel
+  href: H.Controls.Dock.Controls.AnchorablePaneTabPanel.html
+  name: AnchorablePaneTabPanel
+  nameWithType: AnchorablePaneTabPanel
+  fullName: H.Controls.Dock.Controls.AnchorablePaneTabPanel
+- uid: H.Controls.Dock.Controls.AnchorablePaneTitle
+  commentId: T:H.Controls.Dock.Controls.AnchorablePaneTitle
+  href: H.Controls.Dock.Controls.AnchorablePaneTitle.html
+  name: AnchorablePaneTitle
+  nameWithType: AnchorablePaneTitle
+  fullName: H.Controls.Dock.Controls.AnchorablePaneTitle
+- uid: H.Controls.Dock.Controls.ContextMenuEx
+  commentId: T:H.Controls.Dock.Controls.ContextMenuEx
+  href: H.Controls.Dock.Controls.ContextMenuEx.html
+  name: ContextMenuEx
+  nameWithType: ContextMenuEx
+  fullName: H.Controls.Dock.Controls.ContextMenuEx
+- uid: H.Controls.Dock.Controls.DocumentPaneTabPanel
+  commentId: T:H.Controls.Dock.Controls.DocumentPaneTabPanel
+  href: H.Controls.Dock.Controls.DocumentPaneTabPanel.html
+  name: DocumentPaneTabPanel
+  nameWithType: DocumentPaneTabPanel
+  fullName: H.Controls.Dock.Controls.DocumentPaneTabPanel
+- uid: H.Controls.Dock.Controls.DropAreaType
+  commentId: T:H.Controls.Dock.Controls.DropAreaType
+  parent: H.Controls.Dock.Controls
+  href: H.Controls.Dock.Controls.DropAreaType.html
+  name: DropAreaType
+  nameWithType: DropAreaType
+  fullName: H.Controls.Dock.Controls.DropAreaType
+- uid: H.Controls.Dock.Controls.IDropArea
+  commentId: T:H.Controls.Dock.Controls.IDropArea
+  parent: H.Controls.Dock.Controls
+  href: H.Controls.Dock.Controls.IDropArea.html
+  name: IDropArea
+  nameWithType: IDropArea
+  fullName: H.Controls.Dock.Controls.IDropArea
+- uid: H.Controls.Dock.Controls.DropArea`1
+  commentId: T:H.Controls.Dock.Controls.DropArea`1
+  href: H.Controls.Dock.Controls.DropArea-1.html
+  name: DropArea<T>
+  nameWithType: DropArea<T>
+  fullName: H.Controls.Dock.Controls.DropArea<T>
+  nameWithType.vb: DropArea(Of T)
+  fullName.vb: H.Controls.Dock.Controls.DropArea(Of T)
+  name.vb: DropArea(Of T)
+  spec.csharp:
+  - uid: H.Controls.Dock.Controls.DropArea`1
+    name: DropArea
+    href: H.Controls.Dock.Controls.DropArea-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Controls.Dock.Controls.DropArea`1
+    name: DropArea
+    href: H.Controls.Dock.Controls.DropArea-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Controls.Dock.Controls.DropDownButton
+  commentId: T:H.Controls.Dock.Controls.DropDownButton
+  href: H.Controls.Dock.Controls.DropDownButton.html
+  name: DropDownButton
+  nameWithType: DropDownButton
+  fullName: H.Controls.Dock.Controls.DropDownButton
+- uid: H.Controls.Dock.Controls.DropDownControlArea
+  commentId: T:H.Controls.Dock.Controls.DropDownControlArea
+  href: H.Controls.Dock.Controls.DropDownControlArea.html
+  name: DropDownControlArea
+  nameWithType: DropDownControlArea
+  fullName: H.Controls.Dock.Controls.DropDownControlArea
+- uid: H.Controls.Dock.Controls.DropTargetType
+  commentId: T:H.Controls.Dock.Controls.DropTargetType
+  parent: H.Controls.Dock.Controls
+  href: H.Controls.Dock.Controls.DropTargetType.html
+  name: DropTargetType
+  nameWithType: DropTargetType
+  fullName: H.Controls.Dock.Controls.DropTargetType
+- uid: H.Controls.Dock.Controls.Extensions
+  commentId: T:H.Controls.Dock.Controls.Extensions
+  parent: H.Controls.Dock.Controls
+  href: H.Controls.Dock.Controls.Extensions.html
+  name: Extensions
+  nameWithType: Extensions
+  fullName: H.Controls.Dock.Controls.Extensions
+- uid: H.Controls.Dock.Controls.LayoutAnchorableControl
+  commentId: T:H.Controls.Dock.Controls.LayoutAnchorableControl
+  href: H.Controls.Dock.Controls.LayoutAnchorableControl.html
+  name: LayoutAnchorableControl
+  nameWithType: LayoutAnchorableControl
+  fullName: H.Controls.Dock.Controls.LayoutAnchorableControl
+- uid: H.Controls.Dock.Controls.LayoutAnchorableFloatingWindowControl
+  commentId: T:H.Controls.Dock.Controls.LayoutAnchorableFloatingWindowControl
+  href: H.Controls.Dock.Controls.LayoutAnchorableFloatingWindowControl.html
+  name: LayoutAnchorableFloatingWindowControl
+  nameWithType: LayoutAnchorableFloatingWindowControl
+  fullName: H.Controls.Dock.Controls.LayoutAnchorableFloatingWindowControl
+- uid: H.Controls.Dock.Controls.LayoutAnchorableItem
+  commentId: T:H.Controls.Dock.Controls.LayoutAnchorableItem
+  parent: H.Controls.Dock.Controls
+  href: H.Controls.Dock.Controls.LayoutAnchorableItem.html
+  name: LayoutAnchorableItem
+  nameWithType: LayoutAnchorableItem
+  fullName: H.Controls.Dock.Controls.LayoutAnchorableItem
+- uid: H.Controls.Dock.Controls.LayoutAnchorablePaneControl
+  commentId: T:H.Controls.Dock.Controls.LayoutAnchorablePaneControl
+  href: H.Controls.Dock.Controls.LayoutAnchorablePaneControl.html
+  name: LayoutAnchorablePaneControl
+  nameWithType: LayoutAnchorablePaneControl
+  fullName: H.Controls.Dock.Controls.LayoutAnchorablePaneControl
+- uid: H.Controls.Dock.Controls.LayoutAnchorablePaneGroupControl
+  commentId: T:H.Controls.Dock.Controls.LayoutAnchorablePaneGroupControl
+  href: H.Controls.Dock.Controls.LayoutAnchorablePaneGroupControl.html
+  name: LayoutAnchorablePaneGroupControl
+  nameWithType: LayoutAnchorablePaneGroupControl
+  fullName: H.Controls.Dock.Controls.LayoutAnchorablePaneGroupControl
+- uid: H.Controls.Dock.Controls.LayoutAnchorableTabItem
+  commentId: T:H.Controls.Dock.Controls.LayoutAnchorableTabItem
+  href: H.Controls.Dock.Controls.LayoutAnchorableTabItem.html
+  name: LayoutAnchorableTabItem
+  nameWithType: LayoutAnchorableTabItem
+  fullName: H.Controls.Dock.Controls.LayoutAnchorableTabItem
+- uid: H.Controls.Dock.Controls.LayoutAnchorControl
+  commentId: T:H.Controls.Dock.Controls.LayoutAnchorControl
+  href: H.Controls.Dock.Controls.LayoutAnchorControl.html
+  name: LayoutAnchorControl
+  nameWithType: LayoutAnchorControl
+  fullName: H.Controls.Dock.Controls.LayoutAnchorControl
+- uid: H.Controls.Dock.Controls.LayoutAnchorGroupControl
+  commentId: T:H.Controls.Dock.Controls.LayoutAnchorGroupControl
+  href: H.Controls.Dock.Controls.LayoutAnchorGroupControl.html
+  name: LayoutAnchorGroupControl
+  nameWithType: LayoutAnchorGroupControl
+  fullName: H.Controls.Dock.Controls.LayoutAnchorGroupControl
+- uid: H.Controls.Dock.Controls.LayoutAnchorSideControl
+  commentId: T:H.Controls.Dock.Controls.LayoutAnchorSideControl
+  parent: H.Controls.Dock.Controls
+  href: H.Controls.Dock.Controls.LayoutAnchorSideControl.html
+  name: LayoutAnchorSideControl
+  nameWithType: LayoutAnchorSideControl
+  fullName: H.Controls.Dock.Controls.LayoutAnchorSideControl
+- uid: H.Controls.Dock.Controls.LayoutAutoHideWindowControl
+  commentId: T:H.Controls.Dock.Controls.LayoutAutoHideWindowControl
+  parent: H.Controls.Dock.Controls
+  href: H.Controls.Dock.Controls.LayoutAutoHideWindowControl.html
+  name: LayoutAutoHideWindowControl
+  nameWithType: LayoutAutoHideWindowControl
+  fullName: H.Controls.Dock.Controls.LayoutAutoHideWindowControl
+- uid: H.Controls.Dock.Controls.LayoutDocumentControl
+  commentId: T:H.Controls.Dock.Controls.LayoutDocumentControl
+  href: H.Controls.Dock.Controls.LayoutDocumentControl.html
+  name: LayoutDocumentControl
+  nameWithType: LayoutDocumentControl
+  fullName: H.Controls.Dock.Controls.LayoutDocumentControl
+- uid: H.Controls.Dock.Controls.LayoutDocumentFloatingWindowControl
+  commentId: T:H.Controls.Dock.Controls.LayoutDocumentFloatingWindowControl
+  href: H.Controls.Dock.Controls.LayoutDocumentFloatingWindowControl.html
+  name: LayoutDocumentFloatingWindowControl
+  nameWithType: LayoutDocumentFloatingWindowControl
+  fullName: H.Controls.Dock.Controls.LayoutDocumentFloatingWindowControl
+- uid: H.Controls.Dock.Controls.LayoutDocumentItem
+  commentId: T:H.Controls.Dock.Controls.LayoutDocumentItem
+  parent: H.Controls.Dock.Controls
+  href: H.Controls.Dock.Controls.LayoutDocumentItem.html
+  name: LayoutDocumentItem
+  nameWithType: LayoutDocumentItem
+  fullName: H.Controls.Dock.Controls.LayoutDocumentItem
+- uid: H.Controls.Dock.Controls.LayoutDocumentPaneControl
+  commentId: T:H.Controls.Dock.Controls.LayoutDocumentPaneControl
+  href: H.Controls.Dock.Controls.LayoutDocumentPaneControl.html
+  name: LayoutDocumentPaneControl
+  nameWithType: LayoutDocumentPaneControl
+  fullName: H.Controls.Dock.Controls.LayoutDocumentPaneControl
+- uid: H.Controls.Dock.Controls.LayoutDocumentPaneGroupControl
+  commentId: T:H.Controls.Dock.Controls.LayoutDocumentPaneGroupControl
+  href: H.Controls.Dock.Controls.LayoutDocumentPaneGroupControl.html
+  name: LayoutDocumentPaneGroupControl
+  nameWithType: LayoutDocumentPaneGroupControl
+  fullName: H.Controls.Dock.Controls.LayoutDocumentPaneGroupControl
+- uid: H.Controls.Dock.Controls.LayoutDocumentTabItem
+  commentId: T:H.Controls.Dock.Controls.LayoutDocumentTabItem
+  parent: H.Controls.Dock.Controls
+  href: H.Controls.Dock.Controls.LayoutDocumentTabItem.html
+  name: LayoutDocumentTabItem
+  nameWithType: LayoutDocumentTabItem
+  fullName: H.Controls.Dock.Controls.LayoutDocumentTabItem
+- uid: H.Controls.Dock.Controls.LayoutFloatingWindowControl
+  commentId: T:H.Controls.Dock.Controls.LayoutFloatingWindowControl
+  parent: H.Controls.Dock.Controls
+  href: H.Controls.Dock.Controls.LayoutFloatingWindowControl.html
+  name: LayoutFloatingWindowControl
+  nameWithType: LayoutFloatingWindowControl
+  fullName: H.Controls.Dock.Controls.LayoutFloatingWindowControl
+- uid: H.Controls.Dock.Controls.LayoutFloatingWindowControl.FloatingWindowContentHost
+  commentId: T:H.Controls.Dock.Controls.LayoutFloatingWindowControl.FloatingWindowContentHost
+  href: H.Controls.Dock.Controls.LayoutFloatingWindowControl.html
+  name: LayoutFloatingWindowControl.FloatingWindowContentHost
+  nameWithType: LayoutFloatingWindowControl.FloatingWindowContentHost
+  fullName: H.Controls.Dock.Controls.LayoutFloatingWindowControl.FloatingWindowContentHost
+  spec.csharp:
+  - uid: H.Controls.Dock.Controls.LayoutFloatingWindowControl
+    name: LayoutFloatingWindowControl
+    href: H.Controls.Dock.Controls.LayoutFloatingWindowControl.html
+  - name: .
+  - uid: H.Controls.Dock.Controls.LayoutFloatingWindowControl.FloatingWindowContentHost
+    name: FloatingWindowContentHost
+    href: H.Controls.Dock.Controls.LayoutFloatingWindowControl.FloatingWindowContentHost.html
+  spec.vb:
+  - uid: H.Controls.Dock.Controls.LayoutFloatingWindowControl
+    name: LayoutFloatingWindowControl
+    href: H.Controls.Dock.Controls.LayoutFloatingWindowControl.html
+  - name: .
+  - uid: H.Controls.Dock.Controls.LayoutFloatingWindowControl.FloatingWindowContentHost
+    name: FloatingWindowContentHost
+    href: H.Controls.Dock.Controls.LayoutFloatingWindowControl.FloatingWindowContentHost.html
+- uid: H.Controls.Dock.Controls.LayoutGridControl`1
+  commentId: T:H.Controls.Dock.Controls.LayoutGridControl`1
+  href: H.Controls.Dock.Controls.LayoutGridControl-1.html
+  name: LayoutGridControl<T>
+  nameWithType: LayoutGridControl<T>
+  fullName: H.Controls.Dock.Controls.LayoutGridControl<T>
+  nameWithType.vb: LayoutGridControl(Of T)
+  fullName.vb: H.Controls.Dock.Controls.LayoutGridControl(Of T)
+  name.vb: LayoutGridControl(Of T)
+  spec.csharp:
+  - uid: H.Controls.Dock.Controls.LayoutGridControl`1
+    name: LayoutGridControl
+    href: H.Controls.Dock.Controls.LayoutGridControl-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Controls.Dock.Controls.LayoutGridControl`1
+    name: LayoutGridControl
+    href: H.Controls.Dock.Controls.LayoutGridControl-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Controls.Dock.Controls.LayoutGridResizerControl
+  commentId: T:H.Controls.Dock.Controls.LayoutGridResizerControl
+  href: H.Controls.Dock.Controls.LayoutGridResizerControl.html
+  name: LayoutGridResizerControl
+  nameWithType: LayoutGridResizerControl
+  fullName: H.Controls.Dock.Controls.LayoutGridResizerControl
+- uid: H.Controls.Dock.Controls.LayoutItem
+  commentId: T:H.Controls.Dock.Controls.LayoutItem
+  parent: H.Controls.Dock.Controls
+  href: H.Controls.Dock.Controls.LayoutItem.html
+  name: LayoutItem
+  nameWithType: LayoutItem
+  fullName: H.Controls.Dock.Controls.LayoutItem
+- uid: H.Controls.Dock.Controls.LayoutPanelControl
+  commentId: T:H.Controls.Dock.Controls.LayoutPanelControl
+  parent: H.Controls.Dock.Controls
+  href: H.Controls.Dock.Controls.LayoutPanelControl.html
+  name: LayoutPanelControl
+  nameWithType: LayoutPanelControl
+  fullName: H.Controls.Dock.Controls.LayoutPanelControl
+- uid: H.Controls.Dock.Controls.MenuItemEx
+  commentId: T:H.Controls.Dock.Controls.MenuItemEx
+  href: H.Controls.Dock.Controls.MenuItemEx.html
+  name: MenuItemEx
+  nameWithType: MenuItemEx
+  fullName: H.Controls.Dock.Controls.MenuItemEx
+- uid: H.Controls.Dock.Controls.NavigatorWindow
+  commentId: T:H.Controls.Dock.Controls.NavigatorWindow
+  href: H.Controls.Dock.Controls.NavigatorWindow.html
+  name: NavigatorWindow
+  nameWithType: NavigatorWindow
+  fullName: H.Controls.Dock.Controls.NavigatorWindow
+- uid: H.Controls.Dock.Controls.OverlayWindow
+  commentId: T:H.Controls.Dock.Controls.OverlayWindow
+  href: H.Controls.Dock.Controls.OverlayWindow.html
+  name: OverlayWindow
+  nameWithType: OverlayWindow
+  fullName: H.Controls.Dock.Controls.OverlayWindow
+- uid: H.Controls.Dock.Controls.TabControlEx
+  commentId: T:H.Controls.Dock.Controls.TabControlEx
+  parent: H.Controls.Dock.Controls
+  href: H.Controls.Dock.Controls.TabControlEx.html
+  name: TabControlEx
+  nameWithType: TabControlEx
+  fullName: H.Controls.Dock.Controls.TabControlEx
+- uid: H.Controls.Dock.Controls
+  commentId: N:H.Controls.Dock.Controls
+  href: H.html
+  name: H.Controls.Dock.Controls
+  nameWithType: H.Controls.Dock.Controls
+  fullName: H.Controls.Dock.Controls
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Dock
+    name: Dock
+    href: H.Controls.Dock.html
+  - name: .
+  - uid: H.Controls.Dock.Controls
+    name: Controls
+    href: H.Controls.Dock.Controls.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Dock
+    name: Dock
+    href: H.Controls.Dock.html
+  - name: .
+  - uid: H.Controls.Dock.Controls
+    name: Controls
+    href: H.Controls.Dock.Controls.html

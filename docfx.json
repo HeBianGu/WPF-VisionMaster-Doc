@@ -1,0 +1,46 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dotnet/docfx/main/schemas/docfx.schema.json",
+  "metadata": [
+    {
+      "src": [
+        {
+          "src": "Source\\WPF-VisionMaster\\Solution", // 相对路径移到 src 字段
+          "files": [ "WPF-VisionMaster.sln" ], // 使用通配符匹配 .csproj或.sln 文件
+          "exclude": [ "**/bin/**", "**/obj/**" ]
+        }
+      ],
+      "dest": "api"
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.{md,yml}"
+        ],
+        "exclude": [
+          "_site/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**"
+        ]
+      }
+    ],
+    "output": "_site",
+    "template": [
+      "default",
+      "modern"
+    ],
+    "globalMetadata": {
+      "_appName": "WPF-VisionMasterOpenCV2.0开发文档",
+      "_appTitle": "WPF-VisionMasterOpenCV2.0开发文档",
+      "_enableSearch": true,
+      "pdf": false,
+      "_disableExtensionMethods": true //禁用 Extension Methods（扩展方法）
+    }
+  }
+}

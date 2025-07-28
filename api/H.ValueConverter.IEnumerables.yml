@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.ValueConverter.IEnumerables
+  commentId: N:H.ValueConverter.IEnumerables
+  id: H.ValueConverter.IEnumerables
+  children:
+  - H.ValueConverter.IEnumerables.GetAnyConverter
+  - H.ValueConverter.IEnumerables.GetMultiComboboxSelectConverter
+  - H.ValueConverter.IEnumerables.GetTrueForAllConverter
+  langs:
+  - csharp
+  - vb
+  name: H.ValueConverter.IEnumerables
+  nameWithType: H.ValueConverter.IEnumerables
+  fullName: H.ValueConverter.IEnumerables
+  type: Namespace
+  assemblies:
+  - H.ValueConverter
+references:
+- uid: H.ValueConverter.IEnumerables.GetAnyConverter
+  commentId: T:H.ValueConverter.IEnumerables.GetAnyConverter
+  href: H.ValueConverter.IEnumerables.GetAnyConverter.html
+  name: GetAnyConverter
+  nameWithType: GetAnyConverter
+  fullName: H.ValueConverter.IEnumerables.GetAnyConverter
+- uid: H.ValueConverter.IEnumerables.GetMultiComboboxSelectConverter
+  commentId: T:H.ValueConverter.IEnumerables.GetMultiComboboxSelectConverter
+  href: H.ValueConverter.IEnumerables.GetMultiComboboxSelectConverter.html
+  name: GetMultiComboboxSelectConverter
+  nameWithType: GetMultiComboboxSelectConverter
+  fullName: H.ValueConverter.IEnumerables.GetMultiComboboxSelectConverter
+- uid: H.ValueConverter.IEnumerables.GetTrueForAllConverter
+  commentId: T:H.ValueConverter.IEnumerables.GetTrueForAllConverter
+  href: H.ValueConverter.IEnumerables.GetTrueForAllConverter.html
+  name: GetTrueForAllConverter
+  nameWithType: GetTrueForAllConverter
+  fullName: H.ValueConverter.IEnumerables.GetTrueForAllConverter

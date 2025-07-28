@@ -1,0 +1,62 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Services.Common.About
+  commentId: N:H.Services.Common.About
+  id: H.Services.Common.About
+  children:
+  - H.Services.Common.About.IAboutViewPresenter
+  langs:
+  - csharp
+  - vb
+  name: H.Services.Common.About
+  nameWithType: H.Services.Common.About
+  fullName: H.Services.Common.About
+  type: Namespace
+  assemblies:
+  - H.Services.Common
+references:
+- uid: H.Services.Common.About.IAboutViewPresenter
+  commentId: T:H.Services.Common.About.IAboutViewPresenter
+  parent: H.Services.Common.About
+  href: H.Services.Common.About.IAboutViewPresenter.html
+  name: IAboutViewPresenter
+  nameWithType: IAboutViewPresenter
+  fullName: H.Services.Common.About.IAboutViewPresenter
+- uid: H.Services.Common.About
+  commentId: N:H.Services.Common.About
+  href: H.html
+  name: H.Services.Common.About
+  nameWithType: H.Services.Common.About
+  fullName: H.Services.Common.About
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Common
+    name: Common
+    href: H.Services.Common.html
+  - name: .
+  - uid: H.Services.Common.About
+    name: About
+    href: H.Services.Common.About.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Common
+    name: Common
+    href: H.Services.Common.html
+  - name: .
+  - uid: H.Services.Common.About
+    name: About
+    href: H.Services.Common.About.html

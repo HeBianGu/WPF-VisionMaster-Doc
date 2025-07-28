@@ -1,0 +1,125 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Modules.Project.Commands
+  commentId: N:H.Modules.Project.Commands
+  id: H.Modules.Project.Commands
+  children:
+  - H.Modules.Project.Commands.ShowCurrentProjectFileCommand
+  - H.Modules.Project.Commands.ShowDeleteProjectCommand
+  - H.Modules.Project.Commands.ShowEditProjectCommand
+  - H.Modules.Project.Commands.ShowNewProjectCommand
+  - H.Modules.Project.Commands.ShowOpenProjectCommand
+  - H.Modules.Project.Commands.ShowProjectCommandBase
+  - H.Modules.Project.Commands.ShowProjectsCommand
+  - H.Modules.Project.Commands.ShowProjectsOrNewCommand
+  - H.Modules.Project.Commands.ShowSaveProjectCommand
+  - H.Modules.Project.Commands.ShowSaveProjectsCommand
+  langs:
+  - csharp
+  - vb
+  name: H.Modules.Project.Commands
+  nameWithType: H.Modules.Project.Commands
+  fullName: H.Modules.Project.Commands
+  type: Namespace
+  assemblies:
+  - H.Modules.Project
+references:
+- uid: H.Modules.Project.Commands.ShowCurrentProjectFileCommand
+  commentId: T:H.Modules.Project.Commands.ShowCurrentProjectFileCommand
+  href: H.Modules.Project.Commands.ShowCurrentProjectFileCommand.html
+  name: ShowCurrentProjectFileCommand
+  nameWithType: ShowCurrentProjectFileCommand
+  fullName: H.Modules.Project.Commands.ShowCurrentProjectFileCommand
+- uid: H.Modules.Project.Commands.ShowDeleteProjectCommand
+  commentId: T:H.Modules.Project.Commands.ShowDeleteProjectCommand
+  href: H.Modules.Project.Commands.ShowDeleteProjectCommand.html
+  name: ShowDeleteProjectCommand
+  nameWithType: ShowDeleteProjectCommand
+  fullName: H.Modules.Project.Commands.ShowDeleteProjectCommand
+- uid: H.Modules.Project.Commands.ShowEditProjectCommand
+  commentId: T:H.Modules.Project.Commands.ShowEditProjectCommand
+  href: H.Modules.Project.Commands.ShowEditProjectCommand.html
+  name: ShowEditProjectCommand
+  nameWithType: ShowEditProjectCommand
+  fullName: H.Modules.Project.Commands.ShowEditProjectCommand
+- uid: H.Modules.Project.Commands.ShowNewProjectCommand
+  commentId: T:H.Modules.Project.Commands.ShowNewProjectCommand
+  href: H.Modules.Project.Commands.ShowNewProjectCommand.html
+  name: ShowNewProjectCommand
+  nameWithType: ShowNewProjectCommand
+  fullName: H.Modules.Project.Commands.ShowNewProjectCommand
+- uid: H.Modules.Project.Commands.ShowOpenProjectCommand
+  commentId: T:H.Modules.Project.Commands.ShowOpenProjectCommand
+  href: H.Modules.Project.Commands.ShowOpenProjectCommand.html
+  name: ShowOpenProjectCommand
+  nameWithType: ShowOpenProjectCommand
+  fullName: H.Modules.Project.Commands.ShowOpenProjectCommand
+- uid: H.Modules.Project.Commands.ShowProjectCommandBase
+  commentId: T:H.Modules.Project.Commands.ShowProjectCommandBase
+  parent: H.Modules.Project.Commands
+  href: H.Modules.Project.Commands.ShowProjectCommandBase.html
+  name: ShowProjectCommandBase
+  nameWithType: ShowProjectCommandBase
+  fullName: H.Modules.Project.Commands.ShowProjectCommandBase
+- uid: H.Modules.Project.Commands.ShowProjectsCommand
+  commentId: T:H.Modules.Project.Commands.ShowProjectsCommand
+  href: H.Modules.Project.Commands.ShowProjectsCommand.html
+  name: ShowProjectsCommand
+  nameWithType: ShowProjectsCommand
+  fullName: H.Modules.Project.Commands.ShowProjectsCommand
+- uid: H.Modules.Project.Commands.ShowProjectsOrNewCommand
+  commentId: T:H.Modules.Project.Commands.ShowProjectsOrNewCommand
+  href: H.Modules.Project.Commands.ShowProjectsOrNewCommand.html
+  name: ShowProjectsOrNewCommand
+  nameWithType: ShowProjectsOrNewCommand
+  fullName: H.Modules.Project.Commands.ShowProjectsOrNewCommand
+- uid: H.Modules.Project.Commands.ShowSaveProjectCommand
+  commentId: T:H.Modules.Project.Commands.ShowSaveProjectCommand
+  href: H.Modules.Project.Commands.ShowSaveProjectCommand.html
+  name: ShowSaveProjectCommand
+  nameWithType: ShowSaveProjectCommand
+  fullName: H.Modules.Project.Commands.ShowSaveProjectCommand
+- uid: H.Modules.Project.Commands.ShowSaveProjectsCommand
+  commentId: T:H.Modules.Project.Commands.ShowSaveProjectsCommand
+  href: H.Modules.Project.Commands.ShowSaveProjectsCommand.html
+  name: ShowSaveProjectsCommand
+  nameWithType: ShowSaveProjectsCommand
+  fullName: H.Modules.Project.Commands.ShowSaveProjectsCommand
+- uid: H.Modules.Project.Commands
+  commentId: N:H.Modules.Project.Commands
+  href: H.html
+  name: H.Modules.Project.Commands
+  nameWithType: H.Modules.Project.Commands
+  fullName: H.Modules.Project.Commands
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Modules
+    name: Modules
+    href: H.Modules.html
+  - name: .
+  - uid: H.Modules.Project
+    name: Project
+    href: H.Modules.Project.html
+  - name: .
+  - uid: H.Modules.Project.Commands
+    name: Commands
+    href: H.Modules.Project.Commands.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Modules
+    name: Modules
+    href: H.Modules.html
+  - name: .
+  - uid: H.Modules.Project
+    name: Project
+    href: H.Modules.Project.html
+  - name: .
+  - uid: H.Modules.Project.Commands
+    name: Commands
+    href: H.Modules.Project.Commands.html

@@ -1,0 +1,44 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Modules.Login.Commands
+  commentId: N:H.Modules.Login.Commands
+  id: H.Modules.Login.Commands
+  children:
+  - H.Modules.Login.Commands.LoginCommand
+  - H.Modules.Login.Commands.LogoutCommand
+  - H.Modules.Login.Commands.ShowCurrentUserCommand
+  - H.Modules.Login.Commands.SwitchUserCommand
+  langs:
+  - csharp
+  - vb
+  name: H.Modules.Login.Commands
+  nameWithType: H.Modules.Login.Commands
+  fullName: H.Modules.Login.Commands
+  type: Namespace
+  assemblies:
+  - H.Modules.Login
+references:
+- uid: H.Modules.Login.Commands.LoginCommand
+  commentId: T:H.Modules.Login.Commands.LoginCommand
+  href: H.Modules.Login.Commands.LoginCommand.html
+  name: LoginCommand
+  nameWithType: LoginCommand
+  fullName: H.Modules.Login.Commands.LoginCommand
+- uid: H.Modules.Login.Commands.LogoutCommand
+  commentId: T:H.Modules.Login.Commands.LogoutCommand
+  href: H.Modules.Login.Commands.LogoutCommand.html
+  name: LogoutCommand
+  nameWithType: LogoutCommand
+  fullName: H.Modules.Login.Commands.LogoutCommand
+- uid: H.Modules.Login.Commands.ShowCurrentUserCommand
+  commentId: T:H.Modules.Login.Commands.ShowCurrentUserCommand
+  href: H.Modules.Login.Commands.ShowCurrentUserCommand.html
+  name: ShowCurrentUserCommand
+  nameWithType: ShowCurrentUserCommand
+  fullName: H.Modules.Login.Commands.ShowCurrentUserCommand
+- uid: H.Modules.Login.Commands.SwitchUserCommand
+  commentId: T:H.Modules.Login.Commands.SwitchUserCommand
+  href: H.Modules.Login.Commands.SwitchUserCommand.html
+  name: SwitchUserCommand
+  nameWithType: SwitchUserCommand
+  fullName: H.Modules.Login.Commands.SwitchUserCommand

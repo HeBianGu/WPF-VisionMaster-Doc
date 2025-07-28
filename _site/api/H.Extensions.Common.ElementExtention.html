@@ -1,0 +1,1527 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ElementExtention | WPF-VisionMasterOpenCV2.0开发文档 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ElementExtention | WPF-VisionMasterOpenCV2.0开发文档 ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="WPF-VisionMasterOpenCV2.0开发文档">
+            WPF-VisionMasterOpenCV2.0开发文档
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="H.Extensions.Common.ElementExtention">
+
+
+
+  <h1 id="H_Extensions_Common_ElementExtention" data-uid="H.Extensions.Common.ElementExtention" class="text-break">
+Class ElementExtention  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="H.html">H</a>.<a class="xref" href="H.Extensions.html">Extensions</a>.<a class="xref" href="H.Extensions.Common.html">Common</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>H.Extensions.Common.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class ElementExtention</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">ElementExtention</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="H_Extensions_Common_ElementExtention_AddAdorner_" data-uid="H.Extensions.Common.ElementExtention.AddAdorner*"></a>
+
+  <h3 id="H_Extensions_Common_ElementExtention_AddAdorner_System_Windows_UIElement_System_Windows_Documents_Adorner_" data-uid="H.Extensions.Common.ElementExtention.AddAdorner(System.Windows.UIElement,System.Windows.Documents.Adorner)">
+  AddAdorner(UIElement, Adorner)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool AddAdorner(this UIElement element, Adorner adorner)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>element</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.uielement">UIElement</a></dt>
+    <dd></dd>
+    <dt><code>adorner</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.documents.adorner">Adorner</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Common_ElementExtention_Ancestors_" data-uid="H.Extensions.Common.ElementExtention.Ancestors*"></a>
+
+  <h3 id="H_Extensions_Common_ElementExtention_Ancestors_System_Windows_DependencyObject_" data-uid="H.Extensions.Common.ElementExtention.Ancestors(System.Windows.DependencyObject)">
+  Ancestors(DependencyObject)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;DependencyObject&gt; Ancestors(this DependencyObject dependencyObject)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dependencyObject</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject">DependencyObject</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject">DependencyObject</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Common_ElementExtention_AncestorsAndSelf_" data-uid="H.Extensions.Common.ElementExtention.AncestorsAndSelf*"></a>
+
+  <h3 id="H_Extensions_Common_ElementExtention_AncestorsAndSelf_System_Windows_DependencyObject_" data-uid="H.Extensions.Common.ElementExtention.AncestorsAndSelf(System.Windows.DependencyObject)">
+  AncestorsAndSelf(DependencyObject)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;DependencyObject&gt; AncestorsAndSelf(this DependencyObject dependencyObject)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dependencyObject</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject">DependencyObject</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject">DependencyObject</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Common_ElementExtention_BindCommand_" data-uid="H.Extensions.Common.ElementExtention.BindCommand*"></a>
+
+  <h3 id="H_Extensions_Common_ElementExtention_BindCommand_System_Windows_UIElement_System_Windows_Input_ICommand_" data-uid="H.Extensions.Common.ElementExtention.BindCommand(System.Windows.UIElement,System.Windows.Input.ICommand)">
+  BindCommand(UIElement, ICommand)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void BindCommand(this UIElement ui, ICommand com)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>ui</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.uielement">UIElement</a></dt>
+    <dd></dd>
+    <dt><code>com</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.input.icommand">ICommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Common_ElementExtention_BindCommand_" data-uid="H.Extensions.Common.ElementExtention.BindCommand*"></a>
+
+  <h3 id="H_Extensions_Common_ElementExtention_BindCommand_System_Windows_UIElement_System_Windows_Input_ICommand_System_Action_System_Object_System_Windows_Input_ExecutedRoutedEventArgs__" data-uid="H.Extensions.Common.ElementExtention.BindCommand(System.Windows.UIElement,System.Windows.Input.ICommand,System.Action{System.Object,System.Windows.Input.ExecutedRoutedEventArgs})">
+  BindCommand(UIElement, ICommand, Action&lt;object, ExecutedRoutedEventArgs&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void BindCommand(this UIElement ui, ICommand com, Action&lt;object, ExecutedRoutedEventArgs&gt; call)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>ui</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.uielement">UIElement</a></dt>
+    <dd></dd>
+    <dt><code>com</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.input.icommand">ICommand</a></dt>
+    <dd></dd>
+    <dt><code>call</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-2">Action</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.input.executedroutedeventargs">ExecutedRoutedEventArgs</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Common_ElementExtention_ClearAdorner_" data-uid="H.Extensions.Common.ElementExtention.ClearAdorner*"></a>
+
+  <h3 id="H_Extensions_Common_ElementExtention_ClearAdorner_System_Windows_UIElement_System_Predicate_System_Windows_Documents_Adorner__" data-uid="H.Extensions.Common.ElementExtention.ClearAdorner(System.Windows.UIElement,System.Predicate{System.Windows.Documents.Adorner})">
+  ClearAdorner(UIElement, Predicate&lt;Adorner&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ClearAdorner(this UIElement element, Predicate&lt;Adorner&gt; predicate = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>element</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.uielement">UIElement</a></dt>
+    <dd></dd>
+    <dt><code>predicate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.predicate-1">Predicate</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.documents.adorner">Adorner</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Common_ElementExtention_Collapsed_" data-uid="H.Extensions.Common.ElementExtention.Collapsed*"></a>
+
+  <h3 id="H_Extensions_Common_ElementExtention_Collapsed_System_Windows_UIElement_" data-uid="H.Extensions.Common.ElementExtention.Collapsed(System.Windows.UIElement)">
+  Collapsed(UIElement)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Collapsed(this UIElement ui)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>ui</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.uielement">UIElement</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Common_ElementExtention_FindAllVisualChild_" data-uid="H.Extensions.Common.ElementExtention.FindAllVisualChild*"></a>
+
+  <h3 id="H_Extensions_Common_ElementExtention_FindAllVisualChild__1_System_Windows_DependencyObject_System_Predicate___0__" data-uid="H.Extensions.Common.ElementExtention.FindAllVisualChild``1(System.Windows.DependencyObject,System.Predicate{``0})">
+  FindAllVisualChild&lt;T&gt;(DependencyObject, Predicate&lt;T&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;T&gt; FindAllVisualChild&lt;T&gt;(this DependencyObject obj, Predicate&lt;T&gt; match) where T : DependencyObject</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject">DependencyObject</a></dt>
+    <dd></dd>
+    <dt><code>match</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.predicate-1">Predicate</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Common_ElementExtention_GetAdorner_" data-uid="H.Extensions.Common.ElementExtention.GetAdorner*"></a>
+
+  <h3 id="H_Extensions_Common_ElementExtention_GetAdorner_System_Windows_UIElement_System_Predicate_System_Windows_Documents_Adorner__" data-uid="H.Extensions.Common.ElementExtention.GetAdorner(System.Windows.UIElement,System.Predicate{System.Windows.Documents.Adorner})">
+  GetAdorner(UIElement, Predicate&lt;Adorner&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Adorner GetAdorner(this UIElement element, Predicate&lt;Adorner&gt; predicate = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>element</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.uielement">UIElement</a></dt>
+    <dd></dd>
+    <dt><code>predicate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.predicate-1">Predicate</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.documents.adorner">Adorner</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.documents.adorner">Adorner</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Common_ElementExtention_GetAdorners_" data-uid="H.Extensions.Common.ElementExtention.GetAdorners*"></a>
+
+  <h3 id="H_Extensions_Common_ElementExtention_GetAdorners_System_Windows_UIElement_System_Predicate_System_Windows_Documents_Adorner__" data-uid="H.Extensions.Common.ElementExtention.GetAdorners(System.Windows.UIElement,System.Predicate{System.Windows.Documents.Adorner})">
+  GetAdorners(UIElement, Predicate&lt;Adorner&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;Adorner&gt; GetAdorners(this UIElement element, Predicate&lt;Adorner&gt; predicate = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>element</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.uielement">UIElement</a></dt>
+    <dd></dd>
+    <dt><code>predicate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.predicate-1">Predicate</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.documents.adorner">Adorner</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.documents.adorner">Adorner</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Common_ElementExtention_GetChild_" data-uid="H.Extensions.Common.ElementExtention.GetChild*"></a>
+
+  <h3 id="H_Extensions_Common_ElementExtention_GetChild__1_System_Windows_DependencyObject_System_Func___0_System_Boolean__" data-uid="H.Extensions.Common.ElementExtention.GetChild``1(System.Windows.DependencyObject,System.Func{``0,System.Boolean})">
+  GetChild&lt;T&gt;(DependencyObject, Func&lt;T, bool&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T GetChild&lt;T&gt;(this DependencyObject p_element, Func&lt;T, bool&gt; p_func = null) where T : UIElement</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>p_element</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject">DependencyObject</a></dt>
+    <dd></dd>
+    <dt><code>p_func</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Common_ElementExtention_GetChildren_" data-uid="H.Extensions.Common.ElementExtention.GetChildren*"></a>
+
+  <h3 id="H_Extensions_Common_ElementExtention_GetChildren__1_System_Windows_DependencyObject_System_Func___0_System_Boolean__System_Boolean_" data-uid="H.Extensions.Common.ElementExtention.GetChildren``1(System.Windows.DependencyObject,System.Func{``0,System.Boolean},System.Boolean)">
+  GetChildren&lt;T&gt;(DependencyObject, Func&lt;T, bool&gt;, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;T&gt; GetChildren&lt;T&gt;(this DependencyObject p_element, Func&lt;T, bool&gt; p_func = null, bool filterContain = false) where T : UIElement</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>p_element</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject">DependencyObject</a></dt>
+    <dd></dd>
+    <dt><code>p_func</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>filterContain</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Common_ElementExtention_GetContent_" data-uid="H.Extensions.Common.ElementExtention.GetContent*"></a>
+
+  <h3 id="H_Extensions_Common_ElementExtention_GetContent_System_Windows_UIElement_" data-uid="H.Extensions.Common.ElementExtention.GetContent(System.Windows.UIElement)">
+  GetContent(UIElement)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static object GetContent(this UIElement element)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>element</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.uielement">UIElement</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Common_ElementExtention_GetDataContext_" data-uid="H.Extensions.Common.ElementExtention.GetDataContext*"></a>
+
+  <h3 id="H_Extensions_Common_ElementExtention_GetDataContext_System_Windows_UIElement_" data-uid="H.Extensions.Common.ElementExtention.GetDataContext(System.Windows.UIElement)">
+  GetDataContext(UIElement)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static object GetDataContext(this UIElement element)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>element</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.uielement">UIElement</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Common_ElementExtention_GetElement_" data-uid="H.Extensions.Common.ElementExtention.GetElement*"></a>
+
+  <h3 id="H_Extensions_Common_ElementExtention_GetElement__1_System_Windows_DependencyObject_" data-uid="H.Extensions.Common.ElementExtention.GetElement``1(System.Windows.DependencyObject)">
+  GetElement&lt;T&gt;(DependencyObject)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T GetElement&lt;T&gt;(this DependencyObject element) where T : FrameworkElement</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>element</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject">DependencyObject</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Common_ElementExtention_GetElements_" data-uid="H.Extensions.Common.ElementExtention.GetElements*"></a>
+
+  <h3 id="H_Extensions_Common_ElementExtention_GetElements__1_System_Windows_DependencyObject_" data-uid="H.Extensions.Common.ElementExtention.GetElements``1(System.Windows.DependencyObject)">
+  GetElements&lt;T&gt;(DependencyObject)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;T&gt; GetElements&lt;T&gt;(this DependencyObject element) where T : FrameworkElement</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>element</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject">DependencyObject</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Common_ElementExtention_GetImplementationRoot_" data-uid="H.Extensions.Common.ElementExtention.GetImplementationRoot*"></a>
+
+  <h3 id="H_Extensions_Common_ElementExtention_GetImplementationRoot_System_Windows_DependencyObject_" data-uid="H.Extensions.Common.ElementExtention.GetImplementationRoot(System.Windows.DependencyObject)">
+  GetImplementationRoot(DependencyObject)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FrameworkElement GetImplementationRoot(this DependencyObject d)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>d</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject">DependencyObject</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.frameworkelement">FrameworkElement</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Common_ElementExtention_GetItemsSource_" data-uid="H.Extensions.Common.ElementExtention.GetItemsSource*"></a>
+
+  <h3 id="H_Extensions_Common_ElementExtention_GetItemsSource__1_System_Windows_UIElement_" data-uid="H.Extensions.Common.ElementExtention.GetItemsSource``1(System.Windows.UIElement)">
+  GetItemsSource&lt;T&gt;(UIElement)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T GetItemsSource&lt;T&gt;(this UIElement element) where T : IEnumerable</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>element</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.uielement">UIElement</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Common_ElementExtention_GetParent_" data-uid="H.Extensions.Common.ElementExtention.GetParent*"></a>
+
+  <h3 id="H_Extensions_Common_ElementExtention_GetParent_System_Windows_DependencyObject_" data-uid="H.Extensions.Common.ElementExtention.GetParent(System.Windows.DependencyObject)">
+  GetParent(DependencyObject)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DependencyObject GetParent(this DependencyObject dependencyObject)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dependencyObject</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject">DependencyObject</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject">DependencyObject</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Common_ElementExtention_GetParent_" data-uid="H.Extensions.Common.ElementExtention.GetParent*"></a>
+
+  <h3 id="H_Extensions_Common_ElementExtention_GetParent_System_Windows_DependencyObject_System_Type_" data-uid="H.Extensions.Common.ElementExtention.GetParent(System.Windows.DependencyObject,System.Type)">
+  GetParent(DependencyObject, Type)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DependencyObject GetParent(this DependencyObject fe, Type lookForType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>fe</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject">DependencyObject</a></dt>
+    <dd></dd>
+    <dt><code>lookForType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject">DependencyObject</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Common_ElementExtention_GetParent_" data-uid="H.Extensions.Common.ElementExtention.GetParent*"></a>
+
+  <h3 id="H_Extensions_Common_ElementExtention_GetParent__1_System_Windows_DependencyObject_" data-uid="H.Extensions.Common.ElementExtention.GetParent``1(System.Windows.DependencyObject)">
+  GetParent&lt;T&gt;(DependencyObject)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T GetParent&lt;T&gt;(this DependencyObject element) where T : DependencyObject</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>element</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject">DependencyObject</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Common_ElementExtention_GetParent_" data-uid="H.Extensions.Common.ElementExtention.GetParent*"></a>
+
+  <h3 id="H_Extensions_Common_ElementExtention_GetParent__1_System_Windows_DependencyObject_System_Func___0_System_Boolean__" data-uid="H.Extensions.Common.ElementExtention.GetParent``1(System.Windows.DependencyObject,System.Func{``0,System.Boolean})">
+  GetParent&lt;T&gt;(DependencyObject, Func&lt;T, bool&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T GetParent&lt;T&gt;(this DependencyObject element, Func&lt;T, bool&gt; p_func) where T : DependencyObject</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>element</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject">DependencyObject</a></dt>
+    <dd></dd>
+    <dt><code>p_func</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Common_ElementExtention_GetTemplateByName_" data-uid="H.Extensions.Common.ElementExtention.GetTemplateByName*"></a>
+
+  <h3 id="H_Extensions_Common_ElementExtention_GetTemplateByName__1_System_Windows_Controls_Control_System_String_" data-uid="H.Extensions.Common.ElementExtention.GetTemplateByName``1(System.Windows.Controls.Control,System.String)">
+  GetTemplateByName&lt;T&gt;(Control, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T GetTemplateByName&lt;T&gt;(this Control control, string name) where T : FrameworkElement</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>control</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.controls.control">Control</a></dt>
+    <dd></dd>
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Common_ElementExtention_GetValueSync_" data-uid="H.Extensions.Common.ElementExtention.GetValueSync*"></a>
+
+  <h3 id="H_Extensions_Common_ElementExtention_GetValueSync__1_System_Windows_DependencyObject_System_Windows_DependencyProperty_" data-uid="H.Extensions.Common.ElementExtention.GetValueSync``1(System.Windows.DependencyObject,System.Windows.DependencyProperty)">
+  GetValueSync&lt;T&gt;(DependencyObject, DependencyProperty)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T GetValueSync&lt;T&gt;(this DependencyObject obj, DependencyProperty property)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject">DependencyObject</a></dt>
+    <dd></dd>
+    <dt><code>property</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty">DependencyProperty</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Common_ElementExtention_GetVisualRoot_" data-uid="H.Extensions.Common.ElementExtention.GetVisualRoot*"></a>
+
+  <h3 id="H_Extensions_Common_ElementExtention_GetVisualRoot__1_System_Windows_DependencyObject_" data-uid="H.Extensions.Common.ElementExtention.GetVisualRoot``1(System.Windows.DependencyObject)">
+  GetVisualRoot&lt;T&gt;(DependencyObject)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T GetVisualRoot&lt;T&gt;(this DependencyObject child) where T : DependencyObject</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>child</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject">DependencyObject</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Common_ElementExtention_Hidden_" data-uid="H.Extensions.Common.ElementExtention.Hidden*"></a>
+
+  <h3 id="H_Extensions_Common_ElementExtention_Hidden_System_Windows_UIElement_" data-uid="H.Extensions.Common.ElementExtention.Hidden(System.Windows.UIElement)">
+  Hidden(UIElement)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Hidden(this UIElement ui)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>ui</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.uielement">UIElement</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Common_ElementExtention_HitTest_" data-uid="H.Extensions.Common.ElementExtention.HitTest*"></a>
+
+  <h3 id="H_Extensions_Common_ElementExtention_HitTest__1_System_Windows_UIElement_System_Windows_Media_Geometry_System_Predicate___0__" data-uid="H.Extensions.Common.ElementExtention.HitTest``1(System.Windows.UIElement,System.Windows.Media.Geometry,System.Predicate{``0})">
+  HitTest&lt;T&gt;(UIElement, Geometry, Predicate&lt;T&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T HitTest&lt;T&gt;(this UIElement element, Geometry geometry, Predicate&lt;T&gt; predicate = null) where T : DependencyObject</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>element</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.uielement">UIElement</a></dt>
+    <dd></dd>
+    <dt><code>geometry</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.geometry">Geometry</a></dt>
+    <dd></dd>
+    <dt><code>predicate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.predicate-1">Predicate</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Common_ElementExtention_HitTest_" data-uid="H.Extensions.Common.ElementExtention.HitTest*"></a>
+
+  <h3 id="H_Extensions_Common_ElementExtention_HitTest__1_System_Windows_UIElement_System_Windows_Point_" data-uid="H.Extensions.Common.ElementExtention.HitTest``1(System.Windows.UIElement,System.Windows.Point)">
+  HitTest&lt;T&gt;(UIElement, Point)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T HitTest&lt;T&gt;(this UIElement element, Point point) where T : DependencyObject</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>element</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.uielement">UIElement</a></dt>
+    <dd></dd>
+    <dt><code>point</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.point">Point</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Common_ElementExtention_HitTest_" data-uid="H.Extensions.Common.ElementExtention.HitTest*"></a>
+
+  <h3 id="H_Extensions_Common_ElementExtention_HitTest__1_System_Windows_UIElement_System_Windows_Point_System_Predicate___0__" data-uid="H.Extensions.Common.ElementExtention.HitTest``1(System.Windows.UIElement,System.Windows.Point,System.Predicate{``0})">
+  HitTest&lt;T&gt;(UIElement, Point, Predicate&lt;T&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T HitTest&lt;T&gt;(this UIElement element, Point point, Predicate&lt;T&gt; predicate = null) where T : DependencyObject</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>element</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.uielement">UIElement</a></dt>
+    <dd></dd>
+    <dt><code>point</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.point">Point</a></dt>
+    <dd></dd>
+    <dt><code>predicate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.predicate-1">Predicate</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Common_ElementExtention_PrintLogicalTree_" data-uid="H.Extensions.Common.ElementExtention.PrintLogicalTree*"></a>
+
+  <h3 id="H_Extensions_Common_ElementExtention_PrintLogicalTree_System_Windows_DependencyObject_" data-uid="H.Extensions.Common.ElementExtention.PrintLogicalTree(System.Windows.DependencyObject)">
+  PrintLogicalTree(DependencyObject)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;DependencyObject&gt; PrintLogicalTree(this DependencyObject obj)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject">DependencyObject</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject">DependencyObject</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Common_ElementExtention_PrintVisualTree_" data-uid="H.Extensions.Common.ElementExtention.PrintVisualTree*"></a>
+
+  <h3 id="H_Extensions_Common_ElementExtention_PrintVisualTree_System_Windows_DependencyObject_" data-uid="H.Extensions.Common.ElementExtention.PrintVisualTree(System.Windows.DependencyObject)">
+  PrintVisualTree(DependencyObject)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;DependencyObject&gt; PrintVisualTree(this DependencyObject obj)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject">DependencyObject</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject">DependencyObject</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Common_ElementExtention_SetValueSync_" data-uid="H.Extensions.Common.ElementExtention.SetValueSync*"></a>
+
+  <h3 id="H_Extensions_Common_ElementExtention_SetValueSync__1_System_Windows_DependencyObject_System_Windows_DependencyProperty___0_" data-uid="H.Extensions.Common.ElementExtention.SetValueSync``1(System.Windows.DependencyObject,System.Windows.DependencyProperty,``0)">
+  SetValueSync&lt;T&gt;(DependencyObject, DependencyProperty, T)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetValueSync&lt;T&gt;(this DependencyObject obj, DependencyProperty property, T value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject">DependencyObject</a></dt>
+    <dd></dd>
+    <dt><code>property</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyproperty">DependencyProperty</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Common_ElementExtention_TryGetVisualStateGroup_" data-uid="H.Extensions.Common.ElementExtention.TryGetVisualStateGroup*"></a>
+
+  <h3 id="H_Extensions_Common_ElementExtention_TryGetVisualStateGroup_System_Windows_DependencyObject_System_String_" data-uid="H.Extensions.Common.ElementExtention.TryGetVisualStateGroup(System.Windows.DependencyObject,System.String)">
+  TryGetVisualStateGroup(DependencyObject, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static VisualStateGroup TryGetVisualStateGroup(this DependencyObject d, string groupName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>d</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.dependencyobject">DependencyObject</a></dt>
+    <dd></dd>
+    <dt><code>groupName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.visualstategroup">VisualStateGroup</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Common_ElementExtention_VisibilityWith_" data-uid="H.Extensions.Common.ElementExtention.VisibilityWith*"></a>
+
+  <h3 id="H_Extensions_Common_ElementExtention_VisibilityWith_System_Windows_UIElement_System_Boolean_" data-uid="H.Extensions.Common.ElementExtention.VisibilityWith(System.Windows.UIElement,System.Boolean)">
+  VisibilityWith(UIElement, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void VisibilityWith(this UIElement ui, bool from)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>ui</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.uielement">UIElement</a></dt>
+    <dd></dd>
+    <dt><code>from</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_Common_ElementExtention_Visible_" data-uid="H.Extensions.Common.ElementExtention.Visible*"></a>
+
+  <h3 id="H_Extensions_Common_ElementExtention_Visible_System_Windows_UIElement_" data-uid="H.Extensions.Common.ElementExtention.Visible(System.Windows.UIElement)">
+  Visible(UIElement)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Visible(this UIElement ui)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>ui</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.uielement">UIElement</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

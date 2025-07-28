@@ -1,0 +1,90 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.Diagram.Layouts
+  commentId: N:H.Controls.Diagram.Layouts
+  id: H.Controls.Diagram.Layouts
+  children:
+  - H.Controls.Diagram.Layouts.CircularLayout
+  - H.Controls.Diagram.Layouts.ForceDirectedLayout
+  - H.Controls.Diagram.Layouts.GridLayout
+  - H.Controls.Diagram.Layouts.LocationLayout
+  - H.Controls.Diagram.Layouts.TreeLayout
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.Diagram.Layouts
+  nameWithType: H.Controls.Diagram.Layouts
+  fullName: H.Controls.Diagram.Layouts
+  type: Namespace
+  assemblies:
+  - H.Controls.Diagram
+references:
+- uid: H.Controls.Diagram.Layouts.CircularLayout
+  commentId: T:H.Controls.Diagram.Layouts.CircularLayout
+  href: H.Controls.Diagram.Layouts.CircularLayout.html
+  name: CircularLayout
+  nameWithType: CircularLayout
+  fullName: H.Controls.Diagram.Layouts.CircularLayout
+- uid: H.Controls.Diagram.Layouts.ForceDirectedLayout
+  commentId: T:H.Controls.Diagram.Layouts.ForceDirectedLayout
+  href: H.Controls.Diagram.Layouts.ForceDirectedLayout.html
+  name: ForceDirectedLayout
+  nameWithType: ForceDirectedLayout
+  fullName: H.Controls.Diagram.Layouts.ForceDirectedLayout
+- uid: H.Controls.Diagram.Layouts.GridLayout
+  commentId: T:H.Controls.Diagram.Layouts.GridLayout
+  href: H.Controls.Diagram.Layouts.GridLayout.html
+  name: GridLayout
+  nameWithType: GridLayout
+  fullName: H.Controls.Diagram.Layouts.GridLayout
+- uid: H.Controls.Diagram.Layouts.LocationLayout
+  commentId: T:H.Controls.Diagram.Layouts.LocationLayout
+  parent: H.Controls.Diagram.Layouts
+  href: H.Controls.Diagram.Layouts.LocationLayout.html
+  name: LocationLayout
+  nameWithType: LocationLayout
+  fullName: H.Controls.Diagram.Layouts.LocationLayout
+- uid: H.Controls.Diagram.Layouts.TreeLayout
+  commentId: T:H.Controls.Diagram.Layouts.TreeLayout
+  href: H.Controls.Diagram.Layouts.TreeLayout.html
+  name: TreeLayout
+  nameWithType: TreeLayout
+  fullName: H.Controls.Diagram.Layouts.TreeLayout
+- uid: H.Controls.Diagram.Layouts
+  commentId: N:H.Controls.Diagram.Layouts
+  href: H.html
+  name: H.Controls.Diagram.Layouts
+  nameWithType: H.Controls.Diagram.Layouts
+  fullName: H.Controls.Diagram.Layouts
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Layouts
+    name: Layouts
+    href: H.Controls.Diagram.Layouts.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Layouts
+    name: Layouts
+    href: H.Controls.Diagram.Layouts.html

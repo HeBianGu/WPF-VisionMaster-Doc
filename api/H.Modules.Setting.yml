@@ -1,0 +1,82 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Modules.Setting
+  commentId: N:H.Modules.Setting
+  id: H.Modules.Setting
+  children:
+  - H.Modules.Setting.ISettingSecurityViewOption
+  - H.Modules.Setting.ISettingViewOptions
+  - H.Modules.Setting.SettableGroup
+  - H.Modules.Setting.SettingDataService
+  - H.Modules.Setting.SettingViewPresenter
+  langs:
+  - csharp
+  - vb
+  name: H.Modules.Setting
+  nameWithType: H.Modules.Setting
+  fullName: H.Modules.Setting
+  type: Namespace
+  assemblies:
+  - H.Modules.Setting
+references:
+- uid: H.Modules.Setting.ISettingSecurityViewOption
+  commentId: T:H.Modules.Setting.ISettingSecurityViewOption
+  href: H.Modules.Setting.ISettingSecurityViewOption.html
+  name: ISettingSecurityViewOption
+  nameWithType: ISettingSecurityViewOption
+  fullName: H.Modules.Setting.ISettingSecurityViewOption
+- uid: H.Modules.Setting.ISettingViewOptions
+  commentId: T:H.Modules.Setting.ISettingViewOptions
+  href: H.Modules.Setting.ISettingViewOptions.html
+  name: ISettingViewOptions
+  nameWithType: ISettingViewOptions
+  fullName: H.Modules.Setting.ISettingViewOptions
+- uid: H.Modules.Setting.SettingDataService
+  commentId: T:H.Modules.Setting.SettingDataService
+  href: H.Modules.Setting.SettingDataService.html
+  name: SettingDataService
+  nameWithType: SettingDataService
+  fullName: H.Modules.Setting.SettingDataService
+- uid: H.Modules.Setting.SettableGroup
+  commentId: T:H.Modules.Setting.SettableGroup
+  parent: H.Modules.Setting
+  href: H.Modules.Setting.SettableGroup.html
+  name: SettableGroup
+  nameWithType: SettableGroup
+  fullName: H.Modules.Setting.SettableGroup
+- uid: H.Modules.Setting.SettingViewPresenter
+  commentId: T:H.Modules.Setting.SettingViewPresenter
+  href: H.Modules.Setting.SettingViewPresenter.html
+  name: SettingViewPresenter
+  nameWithType: SettingViewPresenter
+  fullName: H.Modules.Setting.SettingViewPresenter
+- uid: H.Modules.Setting
+  commentId: N:H.Modules.Setting
+  href: H.html
+  name: H.Modules.Setting
+  nameWithType: H.Modules.Setting
+  fullName: H.Modules.Setting
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Modules
+    name: Modules
+    href: H.Modules.html
+  - name: .
+  - uid: H.Modules.Setting
+    name: Setting
+    href: H.Modules.Setting.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Modules
+    name: Modules
+    href: H.Modules.html
+  - name: .
+  - uid: H.Modules.Setting
+    name: Setting
+    href: H.Modules.Setting.html

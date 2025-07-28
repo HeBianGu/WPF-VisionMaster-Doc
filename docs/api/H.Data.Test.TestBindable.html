@@ -1,0 +1,1557 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class TestBindable | WPF-VisionMasterOpenCV2.0开发文档 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class TestBindable | WPF-VisionMasterOpenCV2.0开发文档 ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="WPF-VisionMasterOpenCV2.0开发文档">
+            WPF-VisionMasterOpenCV2.0开发文档
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="H.Data.Test.TestBindable">
+
+
+
+  <h1 id="H_Data_Test_TestBindable" data-uid="H.Data.Test.TestBindable" class="text-break">
+Class TestBindable  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="H.html">H</a>.<a class="xref" href="H.Data.html">Data</a>.<a class="xref" href="H.Data.Test.html">Test</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>H.Data.Test.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class TestBindable : TreeNodeBase&lt;DateTime&gt;, INotifyPropertyChanged, IModelBindable&lt;DateTime&gt;, IModelBindable, ISelectable, ITreeNode, ISearchable</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="H.Mvvm.ViewModels.Base.BindableBase.html">BindableBase</a></div>
+      <div><a class="xref" href="H.Extensions.Mvvm.ViewModels.ModelBindable-1.html">ModelBindable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>&gt;</div>
+      <div><a class="xref" href="H.Extensions.Mvvm.ViewModels.SelectBindable-1.html">SelectBindable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>&gt;</div>
+      <div><a class="xref" href="H.Extensions.Mvvm.ViewModels.Tree.TreeNodeBase-1.html">TreeNodeBase</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>&gt;</div>
+      <div><span class="xref">TestBindable</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
+      <div><a class="xref" href="H.Extensions.Mvvm.ViewModels.IModelBindable-1.html">IModelBindable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>&gt;</div>
+      <div><a class="xref" href="H.Extensions.Mvvm.ViewModels.IModelBindable.html">IModelBindable</a></div>
+      <div><a class="xref" href="H.Common.Interfaces.ISelectable.html">ISelectable</a></div>
+      <div><a class="xref" href="H.Extensions.Mvvm.ViewModels.Tree.ITreeNode.html">ITreeNode</a></div>
+      <div><a class="xref" href="H.Common.Interfaces.ISearchable.html">ISearchable</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Tree.TreeNodeBase-1.html#H_Extensions_Mvvm_ViewModels_Tree_TreeNodeBase_1_TreeNodeEntity">TreeNodeBase&lt;DateTime&gt;.TreeNodeEntity</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Tree.TreeNodeBase-1.html#H_Extensions_Mvvm_ViewModels_Tree_TreeNodeBase_1_IsChecked">TreeNodeBase&lt;DateTime&gt;.IsChecked</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Tree.TreeNodeBase-1.html#H_Extensions_Mvvm_ViewModels_Tree_TreeNodeBase_1_IsCheckable">TreeNodeBase&lt;DateTime&gt;.IsCheckable</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Tree.TreeNodeBase-1.html#H_Extensions_Mvvm_ViewModels_Tree_TreeNodeBase_1_Visibility">TreeNodeBase&lt;DateTime&gt;.Visibility</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Tree.TreeNodeBase-1.html#H_Extensions_Mvvm_ViewModels_Tree_TreeNodeBase_1_IsExpanded">TreeNodeBase&lt;DateTime&gt;.IsExpanded</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Tree.TreeNodeBase-1.html#H_Extensions_Mvvm_ViewModels_Tree_TreeNodeBase_1_IsLoaded">TreeNodeBase&lt;DateTime&gt;.IsLoaded</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Tree.TreeNodeBase-1.html#H_Extensions_Mvvm_ViewModels_Tree_TreeNodeBase_1_Parent">TreeNodeBase&lt;DateTime&gt;.Parent</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Tree.TreeNodeBase-1.html#H_Extensions_Mvvm_ViewModels_Tree_TreeNodeBase_1_Nodes">TreeNodeBase&lt;DateTime&gt;.Nodes</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Tree.TreeNodeBase-1.html#H_Extensions_Mvvm_ViewModels_Tree_TreeNodeBase_1_AddNode_H_Extensions_Mvvm_ViewModels_Tree_TreeNodeBase__0__">TreeNodeBase&lt;DateTime&gt;.AddNode(TreeNodeBase&lt;DateTime&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Tree.TreeNodeBase-1.html#H_Extensions_Mvvm_ViewModels_Tree_TreeNodeBase_1_Foreach_System_Action_H_Extensions_Mvvm_ViewModels_Tree_TreeNodeBase__0___">TreeNodeBase&lt;DateTime&gt;.Foreach(Action&lt;TreeNodeBase&lt;DateTime&gt;&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Tree.TreeNodeBase-1.html#H_Extensions_Mvvm_ViewModels_Tree_TreeNodeBase_1_FindAll_System_Predicate_H_Extensions_Mvvm_ViewModels_Tree_TreeNodeBase__0___">TreeNodeBase&lt;DateTime&gt;.FindAll(Predicate&lt;TreeNodeBase&lt;DateTime&gt;&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Tree.TreeNodeBase-1.html#H_Extensions_Mvvm_ViewModels_Tree_TreeNodeBase_1_FindAllParent_System_Predicate_H_Extensions_Mvvm_ViewModels_Tree_TreeNodeBase__0___">TreeNodeBase&lt;DateTime&gt;.FindAllParent(Predicate&lt;TreeNodeBase&lt;DateTime&gt;&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Tree.TreeNodeBase-1.html#H_Extensions_Mvvm_ViewModels_Tree_TreeNodeBase_1_Filter_System_String_">TreeNodeBase&lt;DateTime&gt;.Filter(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.SelectBindable-1.html#H_Extensions_Mvvm_ViewModels_SelectBindable_1_IsSelected">SelectBindable&lt;DateTime&gt;.IsSelected</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.ModelBindable-1.html#H_Extensions_Mvvm_ViewModels_ModelBindable_1_Model">ModelBindable&lt;DateTime&gt;.Model</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.ModelBindable-1.html#H_Extensions_Mvvm_ViewModels_ModelBindable_1_GetModel">ModelBindable&lt;DateTime&gt;.GetModel()</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.ModelBindable-1.html#H_Extensions_Mvvm_ViewModels_ModelBindable_1_Visible">ModelBindable&lt;DateTime&gt;.Visible</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.ModelBindable-1.html#H_Extensions_Mvvm_ViewModels_ModelBindable_1_IsEnbled">ModelBindable&lt;DateTime&gt;.IsEnbled</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.ModelBindable-1.html#H_Extensions_Mvvm_ViewModels_ModelBindable_1_IsBuzy">ModelBindable&lt;DateTime&gt;.IsBuzy</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.ModelBindable-1.html#H_Extensions_Mvvm_ViewModels_ModelBindable_1_Message">ModelBindable&lt;DateTime&gt;.Message</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.ModelBindable-1.html#H_Extensions_Mvvm_ViewModels_ModelBindable_1_LoadValue_System_String__">ModelBindable&lt;DateTime&gt;.LoadValue(out string)</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.ModelBindable-1.html#H_Extensions_Mvvm_ViewModels_ModelBindable_1_SaveValue_System_String__">ModelBindable&lt;DateTime&gt;.SaveValue(out string)</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Mvvm.ViewModels.Base.BindableBase.html#H_Mvvm_ViewModels_Base_BindableBase_PropertyChanged">BindableBase.PropertyChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Mvvm.ViewModels.Base.BindableBase.html#H_Mvvm_ViewModels_Base_BindableBase_RaisePropertyChanged_System_String_">BindableBase.RaisePropertyChanged(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_CloneCast__1___0_System_Predicate_System_Reflection_PropertyInfo__">ObjectExtension.CloneCast&lt;T&gt;(T, Predicate&lt;PropertyInfo&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_ToEnumerable__1___0_">ObjectExtension.ToEnumerable&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.NewtonsoftJson.NewtonsoftJsonSerializerServiceExtension.html#H_Extensions_NewtonsoftJson_NewtonsoftJsonSerializerServiceExtension_CloneByNewtonsoftJson__1___0_">NewtonsoftJsonSerializerServiceExtension.CloneByNewtonsoftJson&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.VisionMaster.ResultPresenter.ResultPresenterExtension.html#H_VisionMaster_ResultPresenter_ResultPresenterExtension_ToValueResultPresenter__1___0_">ResultPresenterExtension.ToValueResultPresenter&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Controls.FilterColumnDataGrid.Extensions.html#H_Controls_FilterColumnDataGrid_Extensions_GetPropertyValue_System_Object_System_String_">Extensions.GetPropertyValue(object, string)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Controls.FilterColumnDataGrid.Extensions.html#H_Controls_FilterColumnDataGrid_Extensions_GetPropertyValue__1_System_Object_System_String_">Extensions.GetPropertyValue&lt;T&gt;(object, string)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Controls.Form.Provider.PropertyInfoExtention.html#H_Controls_Form_Provider_PropertyInfoExtention_ChangeType__1_System_Object_">PropertyInfoExtention.ChangeType&lt;T&gt;(object)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_CloneBy_System_Object_System_Predicate_System_Reflection_PropertyInfo__">ObjectExtension.CloneBy(object, Predicate&lt;PropertyInfo&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_CopyPropertyValueFrom_System_Object_System_Object_System_Predicate_System_Reflection_PropertyInfo__System_Func_System_Reflection_PropertyInfo_System_Reflection_PropertyInfo_System_Boolean__">ObjectExtension.CopyPropertyValueFrom(object, object, Predicate&lt;PropertyInfo&gt;, Func&lt;PropertyInfo, PropertyInfo, bool&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_IsMacth_System_Object_System_Func_System_Reflection_PropertyInfo_System_Object_System_Boolean__">ObjectExtension.IsMacth(object, Func&lt;PropertyInfo, object, bool&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_IsMacth_System_Object_System_String_">ObjectExtension.IsMacth(object, string)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_ModelState_System_Object_System_Collections_Generic_List_System_String___">ObjectExtension.ModelState(object, out List&lt;string&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_ModelStateDeep_System_Object_System_String__">ObjectExtension.ModelStateDeep(object, out string)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_TryChangeType_System_Object_System_Type_System_Object__">ObjectExtension.TryChangeType(object, Type, out object)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_TryChangeType__1_System_Object_">ObjectExtension.TryChangeType&lt;T&gt;(object)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_TryChangeType__1_System_Object___0__">ObjectExtension.TryChangeType&lt;T&gt;(object, out T)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_TryConvertToString_System_Object_">ObjectExtension.TryConvertToString(object)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_TryConvertToString_System_Object_System_String__">ObjectExtension.TryConvertToString(object, out string)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.TextJsonable.TextJsonableExtensions.html#H_Extensions_TextJsonable_TextJsonableExtensions_GetJsonPropertyInfos_System_Object_">TextJsonableExtensions.GetJsonPropertyInfos(object)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.TextJsonable.TextJsonableExtensions.html#H_Extensions_TextJsonable_TextJsonableExtensions_WriteJson_System_Object_System_Text_Json_Utf8JsonWriter_System_Text_Json_JsonSerializerOptions_System_Boolean_">TextJsonableExtensions.WriteJson(object, Utf8JsonWriter, JsonSerializerOptions, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.TextJsonable.TextJsonableExtensions.html#H_Extensions_TextJsonable_TextJsonableExtensions_WriteType_System_Object_System_Text_Json_Utf8JsonWriter_">TextJsonableExtensions.WriteType(object, Utf8JsonWriter)</a>
+  </div>
+  <div>
+      <a class="xref" href="System.Windows.Threading.DispatcherExtension.html#System_Windows_Threading_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_">DispatcherExtension.DelayInvoke(object, Action, DispatcherPriority)</a>
+  </div>
+  <div>
+      <a class="xref" href="System.Windows.Threading.DispatcherExtension.html#System_Windows_Threading_DispatcherExtension_DelayInvoke_System_Object_System_Collections_IList_System_Action_System_Object__System_Action_System_Windows_Threading_DispatcherPriority_">DispatcherExtension.DelayInvoke(object, IList, Action&lt;object&gt;, Action, DispatcherPriority)</a>
+  </div>
+  <div>
+      <a class="xref" href="System.Windows.Threading.DispatcherExtension.html#System_Windows_Threading_DispatcherExtension_DelayInvoke_System_Object_System_Collections_IList_System_Func_System_Collections_IList__System_Action_System_Windows_Threading_DispatcherPriority_">DispatcherExtension.DelayInvoke(object, IList, Func&lt;IList&gt;, Action, DispatcherPriority)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="H_Data_Test_TestBindable__ctor_" data-uid="H.Data.Test.TestBindable.#ctor*"></a>
+
+  <h3 id="H_Data_Test_TestBindable__ctor" data-uid="H.Data.Test.TestBindable.#ctor">
+  TestBindable()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TestBindable()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="H_Data_Test_TestBindable_Bool1_" data-uid="H.Data.Test.TestBindable.Bool1*"></a>
+
+  <h3 id="H_Data_Test_TestBindable_Bool1" data-uid="H.Data.Test.TestBindable.Bool1">
+  Bool1
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Bool1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Data_Test_TestBindable_Bool2_" data-uid="H.Data.Test.TestBindable.Bool2*"></a>
+
+  <h3 id="H_Data_Test_TestBindable_Bool2" data-uid="H.Data.Test.TestBindable.Bool2">
+  Bool2
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>说明</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Bool2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Data_Test_TestBindable_Bool3_" data-uid="H.Data.Test.TestBindable.Bool3*"></a>
+
+  <h3 id="H_Data_Test_TestBindable_Bool3" data-uid="H.Data.Test.TestBindable.Bool3">
+  Bool3
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>说明</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Bool3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Data_Test_TestBindable_Brush_" data-uid="H.Data.Test.TestBindable.Brush*"></a>
+
+  <h3 id="H_Data_Test_TestBindable_Brush" data-uid="H.Data.Test.TestBindable.Brush">
+  Brush
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>说明</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Brush Brush { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.media.brush">Brush</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Data_Test_TestBindable_DateTime1_" data-uid="H.Data.Test.TestBindable.DateTime1*"></a>
+
+  <h3 id="H_Data_Test_TestBindable_DateTime1" data-uid="H.Data.Test.TestBindable.DateTime1">
+  DateTime1
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>说明</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTime DateTime1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Data_Test_TestBindable_DateTime2_" data-uid="H.Data.Test.TestBindable.DateTime2*"></a>
+
+  <h3 id="H_Data_Test_TestBindable_DateTime2" data-uid="H.Data.Test.TestBindable.DateTime2">
+  DateTime2
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>说明</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTime DateTime2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Data_Test_TestBindable_DateTime3_" data-uid="H.Data.Test.TestBindable.DateTime3*"></a>
+
+  <h3 id="H_Data_Test_TestBindable_DateTime3" data-uid="H.Data.Test.TestBindable.DateTime3">
+  DateTime3
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>说明</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTime DateTime3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Data_Test_TestBindable_Double1_" data-uid="H.Data.Test.TestBindable.Double1*"></a>
+
+  <h3 id="H_Data_Test_TestBindable_Double1" data-uid="H.Data.Test.TestBindable.Double1">
+  Double1
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>说明</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Double1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Data_Test_TestBindable_Double10_" data-uid="H.Data.Test.TestBindable.Double10*"></a>
+
+  <h3 id="H_Data_Test_TestBindable_Double10" data-uid="H.Data.Test.TestBindable.Double10">
+  Double10
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>说明</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Double10 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Data_Test_TestBindable_Double11_" data-uid="H.Data.Test.TestBindable.Double11*"></a>
+
+  <h3 id="H_Data_Test_TestBindable_Double11" data-uid="H.Data.Test.TestBindable.Double11">
+  Double11
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>说明</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Double11 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Data_Test_TestBindable_Double12_" data-uid="H.Data.Test.TestBindable.Double12*"></a>
+
+  <h3 id="H_Data_Test_TestBindable_Double12" data-uid="H.Data.Test.TestBindable.Double12">
+  Double12
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>说明</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Double12 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Data_Test_TestBindable_Double13_" data-uid="H.Data.Test.TestBindable.Double13*"></a>
+
+  <h3 id="H_Data_Test_TestBindable_Double13" data-uid="H.Data.Test.TestBindable.Double13">
+  Double13
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>说明</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Double13 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Data_Test_TestBindable_Double14_" data-uid="H.Data.Test.TestBindable.Double14*"></a>
+
+  <h3 id="H_Data_Test_TestBindable_Double14" data-uid="H.Data.Test.TestBindable.Double14">
+  Double14
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>说明</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Double14 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Data_Test_TestBindable_Double15_" data-uid="H.Data.Test.TestBindable.Double15*"></a>
+
+  <h3 id="H_Data_Test_TestBindable_Double15" data-uid="H.Data.Test.TestBindable.Double15">
+  Double15
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>说明</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Double15 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Data_Test_TestBindable_Double16_" data-uid="H.Data.Test.TestBindable.Double16*"></a>
+
+  <h3 id="H_Data_Test_TestBindable_Double16" data-uid="H.Data.Test.TestBindable.Double16">
+  Double16
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>说明</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Double16 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Data_Test_TestBindable_Double2_" data-uid="H.Data.Test.TestBindable.Double2*"></a>
+
+  <h3 id="H_Data_Test_TestBindable_Double2" data-uid="H.Data.Test.TestBindable.Double2">
+  Double2
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>说明</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Double2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Data_Test_TestBindable_Double3_" data-uid="H.Data.Test.TestBindable.Double3*"></a>
+
+  <h3 id="H_Data_Test_TestBindable_Double3" data-uid="H.Data.Test.TestBindable.Double3">
+  Double3
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>说明</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Double3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Data_Test_TestBindable_Double4_" data-uid="H.Data.Test.TestBindable.Double4*"></a>
+
+  <h3 id="H_Data_Test_TestBindable_Double4" data-uid="H.Data.Test.TestBindable.Double4">
+  Double4
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>说明</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Double4 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Data_Test_TestBindable_Double5_" data-uid="H.Data.Test.TestBindable.Double5*"></a>
+
+  <h3 id="H_Data_Test_TestBindable_Double5" data-uid="H.Data.Test.TestBindable.Double5">
+  Double5
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>说明</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Double5 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Data_Test_TestBindable_Double6_" data-uid="H.Data.Test.TestBindable.Double6*"></a>
+
+  <h3 id="H_Data_Test_TestBindable_Double6" data-uid="H.Data.Test.TestBindable.Double6">
+  Double6
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>说明</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Double6 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Data_Test_TestBindable_Double7_" data-uid="H.Data.Test.TestBindable.Double7*"></a>
+
+  <h3 id="H_Data_Test_TestBindable_Double7" data-uid="H.Data.Test.TestBindable.Double7">
+  Double7
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>说明</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Double7 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Data_Test_TestBindable_Double8_" data-uid="H.Data.Test.TestBindable.Double8*"></a>
+
+  <h3 id="H_Data_Test_TestBindable_Double8" data-uid="H.Data.Test.TestBindable.Double8">
+  Double8
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>说明</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Double8 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Data_Test_TestBindable_Double9_" data-uid="H.Data.Test.TestBindable.Double9*"></a>
+
+  <h3 id="H_Data_Test_TestBindable_Double9" data-uid="H.Data.Test.TestBindable.Double9">
+  Double9
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>说明</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double Double9 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Data_Test_TestBindable_Int1_" data-uid="H.Data.Test.TestBindable.Int1*"></a>
+
+  <h3 id="H_Data_Test_TestBindable_Int1" data-uid="H.Data.Test.TestBindable.Int1">
+  Int1
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>说明</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Int1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Data_Test_TestBindable_Int2_" data-uid="H.Data.Test.TestBindable.Int2*"></a>
+
+  <h3 id="H_Data_Test_TestBindable_Int2" data-uid="H.Data.Test.TestBindable.Int2">
+  Int2
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>说明</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Int2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Data_Test_TestBindable_Int3_" data-uid="H.Data.Test.TestBindable.Int3*"></a>
+
+  <h3 id="H_Data_Test_TestBindable_Int3" data-uid="H.Data.Test.TestBindable.Int3">
+  Int3
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>说明</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Int3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Data_Test_TestBindable_Value_" data-uid="H.Data.Test.TestBindable.Value*"></a>
+
+  <h3 id="H_Data_Test_TestBindable_Value" data-uid="H.Data.Test.TestBindable.Value">
+  Value
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>说明</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Value { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Data_Test_TestBindable_Value1_" data-uid="H.Data.Test.TestBindable.Value1*"></a>
+
+  <h3 id="H_Data_Test_TestBindable_Value1" data-uid="H.Data.Test.TestBindable.Value1">
+  Value1
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>说明</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Value1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Data_Test_TestBindable_Value2_" data-uid="H.Data.Test.TestBindable.Value2*"></a>
+
+  <h3 id="H_Data_Test_TestBindable_Value2" data-uid="H.Data.Test.TestBindable.Value2">
+  Value2
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>说明</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Value2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Data_Test_TestBindable_Value3_" data-uid="H.Data.Test.TestBindable.Value3*"></a>
+
+  <h3 id="H_Data_Test_TestBindable_Value3" data-uid="H.Data.Test.TestBindable.Value3">
+  Value3
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>说明</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Value3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Data_Test_TestBindable_Value4_" data-uid="H.Data.Test.TestBindable.Value4*"></a>
+
+  <h3 id="H_Data_Test_TestBindable_Value4" data-uid="H.Data.Test.TestBindable.Value4">
+  Value4
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>说明</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Value4 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Data_Test_TestBindable_Value5_" data-uid="H.Data.Test.TestBindable.Value5*"></a>
+
+  <h3 id="H_Data_Test_TestBindable_Value5" data-uid="H.Data.Test.TestBindable.Value5">
+  Value5
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>说明</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Value5 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Data_Test_TestBindable_Value6_" data-uid="H.Data.Test.TestBindable.Value6*"></a>
+
+  <h3 id="H_Data_Test_TestBindable_Value6" data-uid="H.Data.Test.TestBindable.Value6">
+  Value6
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>说明</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Value6 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Data_Test_TestBindable_Value7_" data-uid="H.Data.Test.TestBindable.Value7*"></a>
+
+  <h3 id="H_Data_Test_TestBindable_Value7" data-uid="H.Data.Test.TestBindable.Value7">
+  Value7
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>说明</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Value7 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Data_Test_TestBindable_Value9_" data-uid="H.Data.Test.TestBindable.Value9*"></a>
+
+  <h3 id="H_Data_Test_TestBindable_Value9" data-uid="H.Data.Test.TestBindable.Value9">
+  Value9
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>说明</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Value9 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="H_Data_Test_TestBindable_Init_" data-uid="H.Data.Test.TestBindable.Init*"></a>
+
+  <h3 id="H_Data_Test_TestBindable_Init" data-uid="H.Data.Test.TestBindable.Init">
+  Init()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Init()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Data_Test_TestBindable_Randoms_" data-uid="H.Data.Test.TestBindable.Randoms*"></a>
+
+  <h3 id="H_Data_Test_TestBindable_Randoms_System_Int32_" data-uid="H.Data.Test.TestBindable.Randoms(System.Int32)">
+  Randoms(int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TestBindables Randoms(int c = 100)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>c</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Data.Test.TestBindables.html">TestBindables</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

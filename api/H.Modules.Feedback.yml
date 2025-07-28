@@ -1,0 +1,90 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Modules.Feedback
+  commentId: N:H.Modules.Feedback
+  id: H.Modules.Feedback
+  children:
+  - H.Modules.Feedback.FeedBackMailService
+  - H.Modules.Feedback.FeedbackOptions
+  - H.Modules.Feedback.FeedbackViewPresenter
+  - H.Modules.Feedback.IFeedBackMailService
+  - H.Modules.Feedback.IFeedbackOptions
+  - H.Modules.Feedback.ShowFeedbackCommand
+  langs:
+  - csharp
+  - vb
+  name: H.Modules.Feedback
+  nameWithType: H.Modules.Feedback
+  fullName: H.Modules.Feedback
+  type: Namespace
+  assemblies:
+  - H.Modules.Feedback
+references:
+- uid: H.Modules.Feedback.FeedBackMailService
+  commentId: T:H.Modules.Feedback.FeedBackMailService
+  href: H.Modules.Feedback.FeedBackMailService.html
+  name: FeedBackMailService
+  nameWithType: FeedBackMailService
+  fullName: H.Modules.Feedback.FeedBackMailService
+- uid: H.Modules.Feedback.FeedbackOptions
+  commentId: T:H.Modules.Feedback.FeedbackOptions
+  href: H.Modules.Feedback.FeedbackOptions.html
+  name: FeedbackOptions
+  nameWithType: FeedbackOptions
+  fullName: H.Modules.Feedback.FeedbackOptions
+- uid: H.Modules.Feedback.FeedbackViewPresenter
+  commentId: T:H.Modules.Feedback.FeedbackViewPresenter
+  href: H.Modules.Feedback.FeedbackViewPresenter.html
+  name: FeedbackViewPresenter
+  nameWithType: FeedbackViewPresenter
+  fullName: H.Modules.Feedback.FeedbackViewPresenter
+- uid: H.Modules.Feedback.IFeedBackMailService
+  commentId: T:H.Modules.Feedback.IFeedBackMailService
+  parent: H.Modules.Feedback
+  href: H.Modules.Feedback.IFeedBackMailService.html
+  name: IFeedBackMailService
+  nameWithType: IFeedBackMailService
+  fullName: H.Modules.Feedback.IFeedBackMailService
+- uid: H.Modules.Feedback.IFeedbackOptions
+  commentId: T:H.Modules.Feedback.IFeedbackOptions
+  parent: H.Modules.Feedback
+  href: H.Modules.Feedback.IFeedbackOptions.html
+  name: IFeedbackOptions
+  nameWithType: IFeedbackOptions
+  fullName: H.Modules.Feedback.IFeedbackOptions
+- uid: H.Modules.Feedback.ShowFeedbackCommand
+  commentId: T:H.Modules.Feedback.ShowFeedbackCommand
+  href: H.Modules.Feedback.ShowFeedbackCommand.html
+  name: ShowFeedbackCommand
+  nameWithType: ShowFeedbackCommand
+  fullName: H.Modules.Feedback.ShowFeedbackCommand
+- uid: H.Modules.Feedback
+  commentId: N:H.Modules.Feedback
+  href: H.html
+  name: H.Modules.Feedback
+  nameWithType: H.Modules.Feedback
+  fullName: H.Modules.Feedback
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Modules
+    name: Modules
+    href: H.Modules.html
+  - name: .
+  - uid: H.Modules.Feedback
+    name: Feedback
+    href: H.Modules.Feedback.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Modules
+    name: Modules
+    href: H.Modules.html
+  - name: .
+  - uid: H.Modules.Feedback
+    name: Feedback
+    href: H.Modules.Feedback.html

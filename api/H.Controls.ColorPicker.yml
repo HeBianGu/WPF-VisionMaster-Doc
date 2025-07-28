@@ -1,0 +1,111 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.ColorPicker
+  commentId: N:H.Controls.ColorPicker
+  id: H.Controls.ColorPicker
+  children:
+  - H.Controls.ColorPicker.AlphaSlider
+  - H.Controls.ColorPicker.ColorDisplay
+  - H.Controls.ColorPicker.ColorSliders
+  - H.Controls.ColorPicker.DualPickerControlBase
+  - H.Controls.ColorPicker.HexColorTextBox
+  - H.Controls.ColorPicker.PickerControlBase
+  - H.Controls.ColorPicker.PortableColorPicker
+  - H.Controls.ColorPicker.SquarePicker
+  - H.Controls.ColorPicker.StandardColorPicker
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.ColorPicker
+  nameWithType: H.Controls.ColorPicker
+  fullName: H.Controls.ColorPicker
+  type: Namespace
+  assemblies:
+  - H.Controls.ColorPicker
+references:
+- uid: H.Controls.ColorPicker.AlphaSlider
+  commentId: T:H.Controls.ColorPicker.AlphaSlider
+  href: H.Controls.ColorPicker.AlphaSlider.html
+  name: AlphaSlider
+  nameWithType: AlphaSlider
+  fullName: H.Controls.ColorPicker.AlphaSlider
+- uid: H.Controls.ColorPicker.ColorDisplay
+  commentId: T:H.Controls.ColorPicker.ColorDisplay
+  href: H.Controls.ColorPicker.ColorDisplay.html
+  name: ColorDisplay
+  nameWithType: ColorDisplay
+  fullName: H.Controls.ColorPicker.ColorDisplay
+- uid: H.Controls.ColorPicker.ColorSliders
+  commentId: T:H.Controls.ColorPicker.ColorSliders
+  href: H.Controls.ColorPicker.ColorSliders.html
+  name: ColorSliders
+  nameWithType: ColorSliders
+  fullName: H.Controls.ColorPicker.ColorSliders
+- uid: H.Controls.ColorPicker.DualPickerControlBase
+  commentId: T:H.Controls.ColorPicker.DualPickerControlBase
+  parent: H.Controls.ColorPicker
+  href: H.Controls.ColorPicker.DualPickerControlBase.html
+  name: DualPickerControlBase
+  nameWithType: DualPickerControlBase
+  fullName: H.Controls.ColorPicker.DualPickerControlBase
+- uid: H.Controls.ColorPicker.HexColorTextBox
+  commentId: T:H.Controls.ColorPicker.HexColorTextBox
+  href: H.Controls.ColorPicker.HexColorTextBox.html
+  name: HexColorTextBox
+  nameWithType: HexColorTextBox
+  fullName: H.Controls.ColorPicker.HexColorTextBox
+- uid: H.Controls.ColorPicker.PickerControlBase
+  commentId: T:H.Controls.ColorPicker.PickerControlBase
+  parent: H.Controls.ColorPicker
+  href: H.Controls.ColorPicker.PickerControlBase.html
+  name: PickerControlBase
+  nameWithType: PickerControlBase
+  fullName: H.Controls.ColorPicker.PickerControlBase
+- uid: H.Controls.ColorPicker.PortableColorPicker
+  commentId: T:H.Controls.ColorPicker.PortableColorPicker
+  href: H.Controls.ColorPicker.PortableColorPicker.html
+  name: PortableColorPicker
+  nameWithType: PortableColorPicker
+  fullName: H.Controls.ColorPicker.PortableColorPicker
+- uid: H.Controls.ColorPicker.SquarePicker
+  commentId: T:H.Controls.ColorPicker.SquarePicker
+  href: H.Controls.ColorPicker.SquarePicker.html
+  name: SquarePicker
+  nameWithType: SquarePicker
+  fullName: H.Controls.ColorPicker.SquarePicker
+- uid: H.Controls.ColorPicker.StandardColorPicker
+  commentId: T:H.Controls.ColorPicker.StandardColorPicker
+  href: H.Controls.ColorPicker.StandardColorPicker.html
+  name: StandardColorPicker
+  nameWithType: StandardColorPicker
+  fullName: H.Controls.ColorPicker.StandardColorPicker
+- uid: H.Controls.ColorPicker
+  commentId: N:H.Controls.ColorPicker
+  href: H.html
+  name: H.Controls.ColorPicker
+  nameWithType: H.Controls.ColorPicker
+  fullName: H.Controls.ColorPicker
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.ColorPicker
+    name: ColorPicker
+    href: H.Controls.ColorPicker.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.ColorPicker
+    name: ColorPicker
+    href: H.Controls.ColorPicker.html

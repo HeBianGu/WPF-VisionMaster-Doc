@@ -1,0 +1,51 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.Encryption.String
+  commentId: N:H.Extensions.Encryption.String
+  id: H.Extensions.Encryption.String
+  children:
+  - H.Extensions.Encryption.String.AESExtension
+  - H.Extensions.Encryption.String.Base64Extension
+  - H.Extensions.Encryption.String.DESExtension
+  - H.Extensions.Encryption.String.MD5Extension
+  - H.Extensions.Encryption.String.SHA1Extension
+  langs:
+  - csharp
+  - vb
+  name: H.Extensions.Encryption.String
+  nameWithType: H.Extensions.Encryption.String
+  fullName: H.Extensions.Encryption.String
+  type: Namespace
+  assemblies:
+  - H.Extensions.Encryption
+references:
+- uid: H.Extensions.Encryption.String.AESExtension
+  commentId: T:H.Extensions.Encryption.String.AESExtension
+  href: H.Extensions.Encryption.String.AESExtension.html
+  name: AESExtension
+  nameWithType: AESExtension
+  fullName: H.Extensions.Encryption.String.AESExtension
+- uid: H.Extensions.Encryption.String.Base64Extension
+  commentId: T:H.Extensions.Encryption.String.Base64Extension
+  href: H.Extensions.Encryption.String.Base64Extension.html
+  name: Base64Extension
+  nameWithType: Base64Extension
+  fullName: H.Extensions.Encryption.String.Base64Extension
+- uid: H.Extensions.Encryption.String.DESExtension
+  commentId: T:H.Extensions.Encryption.String.DESExtension
+  href: H.Extensions.Encryption.String.DESExtension.html
+  name: DESExtension
+  nameWithType: DESExtension
+  fullName: H.Extensions.Encryption.String.DESExtension
+- uid: H.Extensions.Encryption.String.MD5Extension
+  commentId: T:H.Extensions.Encryption.String.MD5Extension
+  href: H.Extensions.Encryption.String.MD5Extension.html
+  name: MD5Extension
+  nameWithType: MD5Extension
+  fullName: H.Extensions.Encryption.String.MD5Extension
+- uid: H.Extensions.Encryption.String.SHA1Extension
+  commentId: T:H.Extensions.Encryption.String.SHA1Extension
+  href: H.Extensions.Encryption.String.SHA1Extension.html
+  name: SHA1Extension
+  nameWithType: SHA1Extension
+  fullName: H.Extensions.Encryption.String.SHA1Extension

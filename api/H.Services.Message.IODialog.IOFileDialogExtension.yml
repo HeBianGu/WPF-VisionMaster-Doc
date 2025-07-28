@@ -1,0 +1,810 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Services.Message.IODialog.IOFileDialogExtension
+  commentId: T:H.Services.Message.IODialog.IOFileDialogExtension
+  id: IOFileDialogExtension
+  parent: H.Services.Message.IODialog
+  children:
+  - H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenFile(H.Services.Message.IODialog.IIOFileDialogService,H.Services.Message.IODialog.IOpenFilePathable,System.Action{H.Services.Message.IODialog.IIOFileDialogOption})
+  - H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenFile(H.Services.Message.IODialog.IIOFileDialogService,System.Action{H.Services.Message.IODialog.IIOFileDialogOption},System.String[])
+  - H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenFile(H.Services.Message.IODialog.IIOFileDialogService,System.Action{System.String},System.Action{H.Services.Message.IODialog.IIOFileDialogOption})
+  - H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenFiles(H.Services.Message.IODialog.IIOFileDialogService,System.Action{H.Services.Message.IODialog.IIOFileDialogOption},System.String[])
+  - H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenFiles(H.Services.Message.IODialog.IIOFileDialogService,System.Action{System.String[]},System.Action{H.Services.Message.IODialog.IIOFileDialogOption})
+  - H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenImageFile(H.Services.Message.IODialog.IIOFileDialogService,System.Action{System.String},System.Action{H.Services.Message.IODialog.IIOFileDialogOption})
+  - H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenImageFiles(H.Services.Message.IODialog.IIOFileDialogService,System.Action{System.String[]},System.Action{H.Services.Message.IODialog.IIOFileDialogOption})
+  - H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenVideoFiles(H.Services.Message.IODialog.IIOFileDialogService,System.Action{System.String[]},System.Action{H.Services.Message.IODialog.IIOFileDialogOption})
+  langs:
+  - csharp
+  - vb
+  name: IOFileDialogExtension
+  nameWithType: IOFileDialogExtension
+  fullName: H.Services.Message.IODialog.IOFileDialogExtension
+  type: Class
+  source:
+    id: IOFileDialogExtension
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Services\H.Services.Message\IODialog\IOFileDialogExtension.cs
+    startLine: 9
+  assemblies:
+  - H.Services.Message
+  namespace: H.Services.Message.IODialog
+  syntax:
+    content: public static class IOFileDialogExtension
+    content.vb: Public Module IOFileDialogExtension
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenFile(H.Services.Message.IODialog.IIOFileDialogService,H.Services.Message.IODialog.IOpenFilePathable,System.Action{H.Services.Message.IODialog.IIOFileDialogOption})
+  commentId: M:H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenFile(H.Services.Message.IODialog.IIOFileDialogService,H.Services.Message.IODialog.IOpenFilePathable,System.Action{H.Services.Message.IODialog.IIOFileDialogOption})
+  id: ShowOpenFile(H.Services.Message.IODialog.IIOFileDialogService,H.Services.Message.IODialog.IOpenFilePathable,System.Action{H.Services.Message.IODialog.IIOFileDialogOption})
+  isExtensionMethod: true
+  parent: H.Services.Message.IODialog.IOFileDialogExtension
+  langs:
+  - csharp
+  - vb
+  name: ShowOpenFile(IIOFileDialogService, IOpenFilePathable, Action<IIOFileDialogOption>)
+  nameWithType: IOFileDialogExtension.ShowOpenFile(IIOFileDialogService, IOpenFilePathable, Action<IIOFileDialogOption>)
+  fullName: H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenFile(H.Services.Message.IODialog.IIOFileDialogService, H.Services.Message.IODialog.IOpenFilePathable, System.Action<H.Services.Message.IODialog.IIOFileDialogOption>)
+  type: Method
+  source:
+    id: ShowOpenFile
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Services\H.Services.Message\IODialog\IOFileDialogExtension.cs
+    startLine: 11
+  assemblies:
+  - H.Services.Message
+  namespace: H.Services.Message.IODialog
+  syntax:
+    content: public static string ShowOpenFile(this IIOFileDialogService dialog, IOpenFilePathable openFilePathable, Action<IIOFileDialogOption> optionAction = null)
+    parameters:
+    - id: dialog
+      type: H.Services.Message.IODialog.IIOFileDialogService
+    - id: openFilePathable
+      type: H.Services.Message.IODialog.IOpenFilePathable
+    - id: optionAction
+      type: System.Action{H.Services.Message.IODialog.IIOFileDialogOption}
+    return:
+      type: System.String
+    content.vb: Public Shared Function ShowOpenFile(dialog As IIOFileDialogService, openFilePathable As IOpenFilePathable, optionAction As Action(Of IIOFileDialogOption) = Nothing) As String
+  overload: H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenFile*
+  nameWithType.vb: IOFileDialogExtension.ShowOpenFile(IIOFileDialogService, IOpenFilePathable, Action(Of IIOFileDialogOption))
+  fullName.vb: H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenFile(H.Services.Message.IODialog.IIOFileDialogService, H.Services.Message.IODialog.IOpenFilePathable, System.Action(Of H.Services.Message.IODialog.IIOFileDialogOption))
+  name.vb: ShowOpenFile(IIOFileDialogService, IOpenFilePathable, Action(Of IIOFileDialogOption))
+- uid: H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenFile(H.Services.Message.IODialog.IIOFileDialogService,System.Action{H.Services.Message.IODialog.IIOFileDialogOption},System.String[])
+  commentId: M:H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenFile(H.Services.Message.IODialog.IIOFileDialogService,System.Action{H.Services.Message.IODialog.IIOFileDialogOption},System.String[])
+  id: ShowOpenFile(H.Services.Message.IODialog.IIOFileDialogService,System.Action{H.Services.Message.IODialog.IIOFileDialogOption},System.String[])
+  isExtensionMethod: true
+  parent: H.Services.Message.IODialog.IOFileDialogExtension
+  langs:
+  - csharp
+  - vb
+  name: ShowOpenFile(IIOFileDialogService, Action<IIOFileDialogOption>, params string[])
+  nameWithType: IOFileDialogExtension.ShowOpenFile(IIOFileDialogService, Action<IIOFileDialogOption>, params string[])
+  fullName: H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenFile(H.Services.Message.IODialog.IIOFileDialogService, System.Action<H.Services.Message.IODialog.IIOFileDialogOption>, params string[])
+  type: Method
+  source:
+    id: ShowOpenFile
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Services\H.Services.Message\IODialog\IOFileDialogExtension.cs
+    startLine: 24
+  assemblies:
+  - H.Services.Message
+  namespace: H.Services.Message.IODialog
+  syntax:
+    content: public static string ShowOpenFile(this IIOFileDialogService dialog, Action<IIOFileDialogOption> optionAction = null, params string[] filterExtensions)
+    parameters:
+    - id: dialog
+      type: H.Services.Message.IODialog.IIOFileDialogService
+    - id: optionAction
+      type: System.Action{H.Services.Message.IODialog.IIOFileDialogOption}
+    - id: filterExtensions
+      type: System.String[]
+    return:
+      type: System.String
+    content.vb: Public Shared Function ShowOpenFile(dialog As IIOFileDialogService, optionAction As Action(Of IIOFileDialogOption) = Nothing, ParamArray filterExtensions As String()) As String
+  overload: H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenFile*
+  nameWithType.vb: IOFileDialogExtension.ShowOpenFile(IIOFileDialogService, Action(Of IIOFileDialogOption), ParamArray String())
+  fullName.vb: H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenFile(H.Services.Message.IODialog.IIOFileDialogService, System.Action(Of H.Services.Message.IODialog.IIOFileDialogOption), ParamArray String())
+  name.vb: ShowOpenFile(IIOFileDialogService, Action(Of IIOFileDialogOption), ParamArray String())
+- uid: H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenFiles(H.Services.Message.IODialog.IIOFileDialogService,System.Action{H.Services.Message.IODialog.IIOFileDialogOption},System.String[])
+  commentId: M:H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenFiles(H.Services.Message.IODialog.IIOFileDialogService,System.Action{H.Services.Message.IODialog.IIOFileDialogOption},System.String[])
+  id: ShowOpenFiles(H.Services.Message.IODialog.IIOFileDialogService,System.Action{H.Services.Message.IODialog.IIOFileDialogOption},System.String[])
+  isExtensionMethod: true
+  parent: H.Services.Message.IODialog.IOFileDialogExtension
+  langs:
+  - csharp
+  - vb
+  name: ShowOpenFiles(IIOFileDialogService, Action<IIOFileDialogOption>, params string[])
+  nameWithType: IOFileDialogExtension.ShowOpenFiles(IIOFileDialogService, Action<IIOFileDialogOption>, params string[])
+  fullName: H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenFiles(H.Services.Message.IODialog.IIOFileDialogService, System.Action<H.Services.Message.IODialog.IIOFileDialogOption>, params string[])
+  type: Method
+  source:
+    id: ShowOpenFiles
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Services\H.Services.Message\IODialog\IOFileDialogExtension.cs
+    startLine: 29
+  assemblies:
+  - H.Services.Message
+  namespace: H.Services.Message.IODialog
+  syntax:
+    content: public static string[] ShowOpenFiles(this IIOFileDialogService dialog, Action<IIOFileDialogOption> optionAction = null, params string[] filterExtensions)
+    parameters:
+    - id: dialog
+      type: H.Services.Message.IODialog.IIOFileDialogService
+    - id: optionAction
+      type: System.Action{H.Services.Message.IODialog.IIOFileDialogOption}
+    - id: filterExtensions
+      type: System.String[]
+    return:
+      type: System.String[]
+    content.vb: Public Shared Function ShowOpenFiles(dialog As IIOFileDialogService, optionAction As Action(Of IIOFileDialogOption) = Nothing, ParamArray filterExtensions As String()) As String()
+  overload: H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenFiles*
+  nameWithType.vb: IOFileDialogExtension.ShowOpenFiles(IIOFileDialogService, Action(Of IIOFileDialogOption), ParamArray String())
+  fullName.vb: H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenFiles(H.Services.Message.IODialog.IIOFileDialogService, System.Action(Of H.Services.Message.IODialog.IIOFileDialogOption), ParamArray String())
+  name.vb: ShowOpenFiles(IIOFileDialogService, Action(Of IIOFileDialogOption), ParamArray String())
+- uid: H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenFile(H.Services.Message.IODialog.IIOFileDialogService,System.Action{System.String},System.Action{H.Services.Message.IODialog.IIOFileDialogOption})
+  commentId: M:H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenFile(H.Services.Message.IODialog.IIOFileDialogService,System.Action{System.String},System.Action{H.Services.Message.IODialog.IIOFileDialogOption})
+  id: ShowOpenFile(H.Services.Message.IODialog.IIOFileDialogService,System.Action{System.String},System.Action{H.Services.Message.IODialog.IIOFileDialogOption})
+  isExtensionMethod: true
+  parent: H.Services.Message.IODialog.IOFileDialogExtension
+  langs:
+  - csharp
+  - vb
+  name: ShowOpenFile(IIOFileDialogService, Action<string>, Action<IIOFileDialogOption>)
+  nameWithType: IOFileDialogExtension.ShowOpenFile(IIOFileDialogService, Action<string>, Action<IIOFileDialogOption>)
+  fullName: H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenFile(H.Services.Message.IODialog.IIOFileDialogService, System.Action<string>, System.Action<H.Services.Message.IODialog.IIOFileDialogOption>)
+  type: Method
+  source:
+    id: ShowOpenFile
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Services\H.Services.Message\IODialog\IOFileDialogExtension.cs
+    startLine: 35
+  assemblies:
+  - H.Services.Message
+  namespace: H.Services.Message.IODialog
+  syntax:
+    content: public static string ShowOpenFile(this IIOFileDialogService dialog, Action<string> sumitAction = null, Action<IIOFileDialogOption> optionAction = null)
+    parameters:
+    - id: dialog
+      type: H.Services.Message.IODialog.IIOFileDialogService
+    - id: sumitAction
+      type: System.Action{System.String}
+    - id: optionAction
+      type: System.Action{H.Services.Message.IODialog.IIOFileDialogOption}
+    return:
+      type: System.String
+    content.vb: Public Shared Function ShowOpenFile(dialog As IIOFileDialogService, sumitAction As Action(Of String) = Nothing, optionAction As Action(Of IIOFileDialogOption) = Nothing) As String
+  overload: H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenFile*
+  nameWithType.vb: IOFileDialogExtension.ShowOpenFile(IIOFileDialogService, Action(Of String), Action(Of IIOFileDialogOption))
+  fullName.vb: H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenFile(H.Services.Message.IODialog.IIOFileDialogService, System.Action(Of String), System.Action(Of H.Services.Message.IODialog.IIOFileDialogOption))
+  name.vb: ShowOpenFile(IIOFileDialogService, Action(Of String), Action(Of IIOFileDialogOption))
+- uid: H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenFiles(H.Services.Message.IODialog.IIOFileDialogService,System.Action{System.String[]},System.Action{H.Services.Message.IODialog.IIOFileDialogOption})
+  commentId: M:H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenFiles(H.Services.Message.IODialog.IIOFileDialogService,System.Action{System.String[]},System.Action{H.Services.Message.IODialog.IIOFileDialogOption})
+  id: ShowOpenFiles(H.Services.Message.IODialog.IIOFileDialogService,System.Action{System.String[]},System.Action{H.Services.Message.IODialog.IIOFileDialogOption})
+  isExtensionMethod: true
+  parent: H.Services.Message.IODialog.IOFileDialogExtension
+  langs:
+  - csharp
+  - vb
+  name: ShowOpenFiles(IIOFileDialogService, Action<string[]>, Action<IIOFileDialogOption>)
+  nameWithType: IOFileDialogExtension.ShowOpenFiles(IIOFileDialogService, Action<string[]>, Action<IIOFileDialogOption>)
+  fullName: H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenFiles(H.Services.Message.IODialog.IIOFileDialogService, System.Action<string[]>, System.Action<H.Services.Message.IODialog.IIOFileDialogOption>)
+  type: Method
+  source:
+    id: ShowOpenFiles
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Services\H.Services.Message\IODialog\IOFileDialogExtension.cs
+    startLine: 43
+  assemblies:
+  - H.Services.Message
+  namespace: H.Services.Message.IODialog
+  syntax:
+    content: public static string[] ShowOpenFiles(this IIOFileDialogService dialog, Action<string[]> sumitAction = null, Action<IIOFileDialogOption> optionAction = null)
+    parameters:
+    - id: dialog
+      type: H.Services.Message.IODialog.IIOFileDialogService
+    - id: sumitAction
+      type: System.Action{System.String[]}
+    - id: optionAction
+      type: System.Action{H.Services.Message.IODialog.IIOFileDialogOption}
+    return:
+      type: System.String[]
+    content.vb: Public Shared Function ShowOpenFiles(dialog As IIOFileDialogService, sumitAction As Action(Of String()) = Nothing, optionAction As Action(Of IIOFileDialogOption) = Nothing) As String()
+  overload: H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenFiles*
+  nameWithType.vb: IOFileDialogExtension.ShowOpenFiles(IIOFileDialogService, Action(Of String()), Action(Of IIOFileDialogOption))
+  fullName.vb: H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenFiles(H.Services.Message.IODialog.IIOFileDialogService, System.Action(Of String()), System.Action(Of H.Services.Message.IODialog.IIOFileDialogOption))
+  name.vb: ShowOpenFiles(IIOFileDialogService, Action(Of String()), Action(Of IIOFileDialogOption))
+- uid: H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenImageFile(H.Services.Message.IODialog.IIOFileDialogService,System.Action{System.String},System.Action{H.Services.Message.IODialog.IIOFileDialogOption})
+  commentId: M:H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenImageFile(H.Services.Message.IODialog.IIOFileDialogService,System.Action{System.String},System.Action{H.Services.Message.IODialog.IIOFileDialogOption})
+  id: ShowOpenImageFile(H.Services.Message.IODialog.IIOFileDialogService,System.Action{System.String},System.Action{H.Services.Message.IODialog.IIOFileDialogOption})
+  isExtensionMethod: true
+  parent: H.Services.Message.IODialog.IOFileDialogExtension
+  langs:
+  - csharp
+  - vb
+  name: ShowOpenImageFile(IIOFileDialogService, Action<string>, Action<IIOFileDialogOption>)
+  nameWithType: IOFileDialogExtension.ShowOpenImageFile(IIOFileDialogService, Action<string>, Action<IIOFileDialogOption>)
+  fullName: H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenImageFile(H.Services.Message.IODialog.IIOFileDialogService, System.Action<string>, System.Action<H.Services.Message.IODialog.IIOFileDialogOption>)
+  type: Method
+  source:
+    id: ShowOpenImageFile
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Services\H.Services.Message\IODialog\IOFileDialogExtension.cs
+    startLine: 52
+  assemblies:
+  - H.Services.Message
+  namespace: H.Services.Message.IODialog
+  syntax:
+    content: public static string ShowOpenImageFile(this IIOFileDialogService dialog, Action<string> sumitAction = null, Action<IIOFileDialogOption> optionAction = null)
+    parameters:
+    - id: dialog
+      type: H.Services.Message.IODialog.IIOFileDialogService
+    - id: sumitAction
+      type: System.Action{System.String}
+    - id: optionAction
+      type: System.Action{H.Services.Message.IODialog.IIOFileDialogOption}
+    return:
+      type: System.String
+    content.vb: Public Shared Function ShowOpenImageFile(dialog As IIOFileDialogService, sumitAction As Action(Of String) = Nothing, optionAction As Action(Of IIOFileDialogOption) = Nothing) As String
+  overload: H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenImageFile*
+  nameWithType.vb: IOFileDialogExtension.ShowOpenImageFile(IIOFileDialogService, Action(Of String), Action(Of IIOFileDialogOption))
+  fullName.vb: H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenImageFile(H.Services.Message.IODialog.IIOFileDialogService, System.Action(Of String), System.Action(Of H.Services.Message.IODialog.IIOFileDialogOption))
+  name.vb: ShowOpenImageFile(IIOFileDialogService, Action(Of String), Action(Of IIOFileDialogOption))
+- uid: H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenImageFiles(H.Services.Message.IODialog.IIOFileDialogService,System.Action{System.String[]},System.Action{H.Services.Message.IODialog.IIOFileDialogOption})
+  commentId: M:H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenImageFiles(H.Services.Message.IODialog.IIOFileDialogService,System.Action{System.String[]},System.Action{H.Services.Message.IODialog.IIOFileDialogOption})
+  id: ShowOpenImageFiles(H.Services.Message.IODialog.IIOFileDialogService,System.Action{System.String[]},System.Action{H.Services.Message.IODialog.IIOFileDialogOption})
+  isExtensionMethod: true
+  parent: H.Services.Message.IODialog.IOFileDialogExtension
+  langs:
+  - csharp
+  - vb
+  name: ShowOpenImageFiles(IIOFileDialogService, Action<string[]>, Action<IIOFileDialogOption>)
+  nameWithType: IOFileDialogExtension.ShowOpenImageFiles(IIOFileDialogService, Action<string[]>, Action<IIOFileDialogOption>)
+  fullName: H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenImageFiles(H.Services.Message.IODialog.IIOFileDialogService, System.Action<string[]>, System.Action<H.Services.Message.IODialog.IIOFileDialogOption>)
+  type: Method
+  source:
+    id: ShowOpenImageFiles
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Services\H.Services.Message\IODialog\IOFileDialogExtension.cs
+    startLine: 61
+  assemblies:
+  - H.Services.Message
+  namespace: H.Services.Message.IODialog
+  syntax:
+    content: public static string[] ShowOpenImageFiles(this IIOFileDialogService dialog, Action<string[]> sumitAction = null, Action<IIOFileDialogOption> optionAction = null)
+    parameters:
+    - id: dialog
+      type: H.Services.Message.IODialog.IIOFileDialogService
+    - id: sumitAction
+      type: System.Action{System.String[]}
+    - id: optionAction
+      type: System.Action{H.Services.Message.IODialog.IIOFileDialogOption}
+    return:
+      type: System.String[]
+    content.vb: Public Shared Function ShowOpenImageFiles(dialog As IIOFileDialogService, sumitAction As Action(Of String()) = Nothing, optionAction As Action(Of IIOFileDialogOption) = Nothing) As String()
+  overload: H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenImageFiles*
+  nameWithType.vb: IOFileDialogExtension.ShowOpenImageFiles(IIOFileDialogService, Action(Of String()), Action(Of IIOFileDialogOption))
+  fullName.vb: H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenImageFiles(H.Services.Message.IODialog.IIOFileDialogService, System.Action(Of String()), System.Action(Of H.Services.Message.IODialog.IIOFileDialogOption))
+  name.vb: ShowOpenImageFiles(IIOFileDialogService, Action(Of String()), Action(Of IIOFileDialogOption))
+- uid: H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenVideoFiles(H.Services.Message.IODialog.IIOFileDialogService,System.Action{System.String[]},System.Action{H.Services.Message.IODialog.IIOFileDialogOption})
+  commentId: M:H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenVideoFiles(H.Services.Message.IODialog.IIOFileDialogService,System.Action{System.String[]},System.Action{H.Services.Message.IODialog.IIOFileDialogOption})
+  id: ShowOpenVideoFiles(H.Services.Message.IODialog.IIOFileDialogService,System.Action{System.String[]},System.Action{H.Services.Message.IODialog.IIOFileDialogOption})
+  isExtensionMethod: true
+  parent: H.Services.Message.IODialog.IOFileDialogExtension
+  langs:
+  - csharp
+  - vb
+  name: ShowOpenVideoFiles(IIOFileDialogService, Action<string[]>, Action<IIOFileDialogOption>)
+  nameWithType: IOFileDialogExtension.ShowOpenVideoFiles(IIOFileDialogService, Action<string[]>, Action<IIOFileDialogOption>)
+  fullName: H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenVideoFiles(H.Services.Message.IODialog.IIOFileDialogService, System.Action<string[]>, System.Action<H.Services.Message.IODialog.IIOFileDialogOption>)
+  type: Method
+  source:
+    id: ShowOpenVideoFiles
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Services\H.Services.Message\IODialog\IOFileDialogExtension.cs
+    startLine: 70
+  assemblies:
+  - H.Services.Message
+  namespace: H.Services.Message.IODialog
+  syntax:
+    content: public static string[] ShowOpenVideoFiles(this IIOFileDialogService dialog, Action<string[]> sumitAction = null, Action<IIOFileDialogOption> optionAction = null)
+    parameters:
+    - id: dialog
+      type: H.Services.Message.IODialog.IIOFileDialogService
+    - id: sumitAction
+      type: System.Action{System.String[]}
+    - id: optionAction
+      type: System.Action{H.Services.Message.IODialog.IIOFileDialogOption}
+    return:
+      type: System.String[]
+    content.vb: Public Shared Function ShowOpenVideoFiles(dialog As IIOFileDialogService, sumitAction As Action(Of String()) = Nothing, optionAction As Action(Of IIOFileDialogOption) = Nothing) As String()
+  overload: H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenVideoFiles*
+  nameWithType.vb: IOFileDialogExtension.ShowOpenVideoFiles(IIOFileDialogService, Action(Of String()), Action(Of IIOFileDialogOption))
+  fullName.vb: H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenVideoFiles(H.Services.Message.IODialog.IIOFileDialogService, System.Action(Of String()), System.Action(Of H.Services.Message.IODialog.IIOFileDialogOption))
+  name.vb: ShowOpenVideoFiles(IIOFileDialogService, Action(Of String()), Action(Of IIOFileDialogOption))
+references:
+- uid: H.Services.Message.IODialog
+  commentId: N:H.Services.Message.IODialog
+  href: H.html
+  name: H.Services.Message.IODialog
+  nameWithType: H.Services.Message.IODialog
+  fullName: H.Services.Message.IODialog
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Message
+    name: Message
+    href: H.Services.Message.html
+  - name: .
+  - uid: H.Services.Message.IODialog
+    name: IODialog
+    href: H.Services.Message.IODialog.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Message
+    name: Message
+    href: H.Services.Message.html
+  - name: .
+  - uid: H.Services.Message.IODialog
+    name: IODialog
+    href: H.Services.Message.IODialog.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenFile*
+  commentId: Overload:H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenFile
+  href: H.Services.Message.IODialog.IOFileDialogExtension.html#H_Services_Message_IODialog_IOFileDialogExtension_ShowOpenFile_H_Services_Message_IODialog_IIOFileDialogService_H_Services_Message_IODialog_IOpenFilePathable_System_Action_H_Services_Message_IODialog_IIOFileDialogOption__
+  name: ShowOpenFile
+  nameWithType: IOFileDialogExtension.ShowOpenFile
+  fullName: H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenFile
+- uid: H.Services.Message.IODialog.IIOFileDialogService
+  commentId: T:H.Services.Message.IODialog.IIOFileDialogService
+  parent: H.Services.Message.IODialog
+  href: H.Services.Message.IODialog.IIOFileDialogService.html
+  name: IIOFileDialogService
+  nameWithType: IIOFileDialogService
+  fullName: H.Services.Message.IODialog.IIOFileDialogService
+- uid: H.Services.Message.IODialog.IOpenFilePathable
+  commentId: T:H.Services.Message.IODialog.IOpenFilePathable
+  parent: H.Services.Message.IODialog
+  href: H.Services.Message.IODialog.IOpenFilePathable.html
+  name: IOpenFilePathable
+  nameWithType: IOpenFilePathable
+  fullName: H.Services.Message.IODialog.IOpenFilePathable
+- uid: System.Action{H.Services.Message.IODialog.IIOFileDialogOption}
+  commentId: T:System.Action{H.Services.Message.IODialog.IIOFileDialogOption}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<IIOFileDialogOption>
+  nameWithType: Action<IIOFileDialogOption>
+  fullName: System.Action<H.Services.Message.IODialog.IIOFileDialogOption>
+  nameWithType.vb: Action(Of IIOFileDialogOption)
+  fullName.vb: System.Action(Of H.Services.Message.IODialog.IIOFileDialogOption)
+  name.vb: Action(Of IIOFileDialogOption)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: H.Services.Message.IODialog.IIOFileDialogOption
+    name: IIOFileDialogOption
+    href: H.Services.Message.IODialog.IIOFileDialogOption.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.Services.Message.IODialog.IIOFileDialogOption
+    name: IIOFileDialogOption
+    href: H.Services.Message.IODialog.IIOFileDialogOption.html
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenFiles*
+  commentId: Overload:H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenFiles
+  href: H.Services.Message.IODialog.IOFileDialogExtension.html#H_Services_Message_IODialog_IOFileDialogExtension_ShowOpenFiles_H_Services_Message_IODialog_IIOFileDialogService_System_Action_H_Services_Message_IODialog_IIOFileDialogOption__System_String___
+  name: ShowOpenFiles
+  nameWithType: IOFileDialogExtension.ShowOpenFiles
+  fullName: H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenFiles
+- uid: System.Action{System.String}
+  commentId: T:System.Action{System.String}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<string>
+  nameWithType: Action<string>
+  fullName: System.Action<string>
+  nameWithType.vb: Action(Of String)
+  fullName.vb: System.Action(Of String)
+  name.vb: Action(Of String)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Action{System.String[]}
+  commentId: T:System.Action{System.String[]}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<string[]>
+  nameWithType: Action<string[]>
+  fullName: System.Action<string[]>
+  nameWithType.vb: Action(Of String())
+  fullName.vb: System.Action(Of String())
+  name.vb: Action(Of String())
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: )
+- uid: H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenImageFile*
+  commentId: Overload:H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenImageFile
+  href: H.Services.Message.IODialog.IOFileDialogExtension.html#H_Services_Message_IODialog_IOFileDialogExtension_ShowOpenImageFile_H_Services_Message_IODialog_IIOFileDialogService_System_Action_System_String__System_Action_H_Services_Message_IODialog_IIOFileDialogOption__
+  name: ShowOpenImageFile
+  nameWithType: IOFileDialogExtension.ShowOpenImageFile
+  fullName: H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenImageFile
+- uid: H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenImageFiles*
+  commentId: Overload:H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenImageFiles
+  href: H.Services.Message.IODialog.IOFileDialogExtension.html#H_Services_Message_IODialog_IOFileDialogExtension_ShowOpenImageFiles_H_Services_Message_IODialog_IIOFileDialogService_System_Action_System_String____System_Action_H_Services_Message_IODialog_IIOFileDialogOption__
+  name: ShowOpenImageFiles
+  nameWithType: IOFileDialogExtension.ShowOpenImageFiles
+  fullName: H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenImageFiles
+- uid: H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenVideoFiles*
+  commentId: Overload:H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenVideoFiles
+  href: H.Services.Message.IODialog.IOFileDialogExtension.html#H_Services_Message_IODialog_IOFileDialogExtension_ShowOpenVideoFiles_H_Services_Message_IODialog_IIOFileDialogService_System_Action_System_String____System_Action_H_Services_Message_IODialog_IIOFileDialogOption__
+  name: ShowOpenVideoFiles
+  nameWithType: IOFileDialogExtension.ShowOpenVideoFiles
+  fullName: H.Services.Message.IODialog.IOFileDialogExtension.ShowOpenVideoFiles

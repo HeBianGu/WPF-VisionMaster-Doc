@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Modules.Identity.Commands
+  commentId: N:H.Modules.Identity.Commands
+  id: H.Modules.Identity.Commands
+  children:
+  - H.Modules.Identity.Commands.ShowAuthorityViewCommand
+  - H.Modules.Identity.Commands.ShowRoleViewCommand
+  - H.Modules.Identity.Commands.ShowUserViewCommand
+  langs:
+  - csharp
+  - vb
+  name: H.Modules.Identity.Commands
+  nameWithType: H.Modules.Identity.Commands
+  fullName: H.Modules.Identity.Commands
+  type: Namespace
+  assemblies:
+  - H.Modules.Identity
+references:
+- uid: H.Modules.Identity.Commands.ShowAuthorityViewCommand
+  commentId: T:H.Modules.Identity.Commands.ShowAuthorityViewCommand
+  href: H.Modules.Identity.Commands.ShowAuthorityViewCommand.html
+  name: ShowAuthorityViewCommand
+  nameWithType: ShowAuthorityViewCommand
+  fullName: H.Modules.Identity.Commands.ShowAuthorityViewCommand
+- uid: H.Modules.Identity.Commands.ShowRoleViewCommand
+  commentId: T:H.Modules.Identity.Commands.ShowRoleViewCommand
+  href: H.Modules.Identity.Commands.ShowRoleViewCommand.html
+  name: ShowRoleViewCommand
+  nameWithType: ShowRoleViewCommand
+  fullName: H.Modules.Identity.Commands.ShowRoleViewCommand
+- uid: H.Modules.Identity.Commands.ShowUserViewCommand
+  commentId: T:H.Modules.Identity.Commands.ShowUserViewCommand
+  href: H.Modules.Identity.Commands.ShowUserViewCommand.html
+  name: ShowUserViewCommand
+  nameWithType: ShowUserViewCommand
+  fullName: H.Modules.Identity.Commands.ShowUserViewCommand

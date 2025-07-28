@@ -1,0 +1,76 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.VisionMaster.NodeData
+  commentId: N:H.VisionMaster.NodeData
+  id: H.VisionMaster.NodeData
+  children:
+  - H.VisionMaster.NodeData.IResultImageSourceDiagramData
+  - H.VisionMaster.NodeData.ImageColorPickerPresenter
+  - H.VisionMaster.NodeData.VisionPropertyGroupNames
+  - H.VisionMaster.NodeData.VisionSettings
+  langs:
+  - csharp
+  - vb
+  name: H.VisionMaster.NodeData
+  nameWithType: H.VisionMaster.NodeData
+  fullName: H.VisionMaster.NodeData
+  type: Namespace
+  assemblies:
+  - H.VisionMaster.NodeData
+references:
+- uid: H.VisionMaster.NodeData.ImageColorPickerPresenter
+  commentId: T:H.VisionMaster.NodeData.ImageColorPickerPresenter
+  parent: H.VisionMaster.NodeData
+  href: H.VisionMaster.NodeData.ImageColorPickerPresenter.html
+  name: ImageColorPickerPresenter
+  nameWithType: ImageColorPickerPresenter
+  fullName: H.VisionMaster.NodeData.ImageColorPickerPresenter
+- uid: H.VisionMaster.NodeData.IResultImageSourceDiagramData
+  commentId: T:H.VisionMaster.NodeData.IResultImageSourceDiagramData
+  parent: H.VisionMaster.NodeData
+  href: H.VisionMaster.NodeData.IResultImageSourceDiagramData.html
+  name: IResultImageSourceDiagramData
+  nameWithType: IResultImageSourceDiagramData
+  fullName: H.VisionMaster.NodeData.IResultImageSourceDiagramData
+- uid: H.VisionMaster.NodeData.VisionPropertyGroupNames
+  commentId: T:H.VisionMaster.NodeData.VisionPropertyGroupNames
+  href: H.VisionMaster.NodeData.VisionPropertyGroupNames.html
+  name: VisionPropertyGroupNames
+  nameWithType: VisionPropertyGroupNames
+  fullName: H.VisionMaster.NodeData.VisionPropertyGroupNames
+- uid: H.VisionMaster.NodeData.VisionSettings
+  commentId: T:H.VisionMaster.NodeData.VisionSettings
+  href: H.VisionMaster.NodeData.VisionSettings.html
+  name: VisionSettings
+  nameWithType: VisionSettings
+  fullName: H.VisionMaster.NodeData.VisionSettings
+- uid: H.VisionMaster.NodeData
+  commentId: N:H.VisionMaster.NodeData
+  href: H.html
+  name: H.VisionMaster.NodeData
+  nameWithType: H.VisionMaster.NodeData
+  fullName: H.VisionMaster.NodeData
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.NodeData
+    name: NodeData
+    href: H.VisionMaster.NodeData.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.NodeData
+    name: NodeData
+    href: H.VisionMaster.NodeData.html

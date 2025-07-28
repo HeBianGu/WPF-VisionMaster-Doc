@@ -1,0 +1,61 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Themes.FontSizes
+  commentId: N:H.Themes.FontSizes
+  id: H.Themes.FontSizes
+  children:
+  - H.Themes.FontSizes.FontSizeThemeExtension
+  - H.Themes.FontSizes.FontSizeThemeType
+  langs:
+  - csharp
+  - vb
+  name: H.Themes.FontSizes
+  nameWithType: H.Themes.FontSizes
+  fullName: H.Themes.FontSizes
+  type: Namespace
+  assemblies:
+  - H.Theme
+references:
+- uid: H.Themes.FontSizes.FontSizeThemeExtension
+  commentId: T:H.Themes.FontSizes.FontSizeThemeExtension
+  href: H.Themes.FontSizes.FontSizeThemeExtension.html
+  name: FontSizeThemeExtension
+  nameWithType: FontSizeThemeExtension
+  fullName: H.Themes.FontSizes.FontSizeThemeExtension
+- uid: H.Themes.FontSizes.FontSizeThemeType
+  commentId: T:H.Themes.FontSizes.FontSizeThemeType
+  parent: H.Themes.FontSizes
+  href: H.Themes.FontSizes.FontSizeThemeType.html
+  name: FontSizeThemeType
+  nameWithType: FontSizeThemeType
+  fullName: H.Themes.FontSizes.FontSizeThemeType
+- uid: H.Themes.FontSizes
+  commentId: N:H.Themes.FontSizes
+  href: H.html
+  name: H.Themes.FontSizes
+  nameWithType: H.Themes.FontSizes
+  fullName: H.Themes.FontSizes
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Themes
+    name: Themes
+    href: H.Themes.html
+  - name: .
+  - uid: H.Themes.FontSizes
+    name: FontSizes
+    href: H.Themes.FontSizes.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Themes
+    name: Themes
+    href: H.Themes.html
+  - name: .
+  - uid: H.Themes.FontSizes
+    name: FontSizes
+    href: H.Themes.FontSizes.html

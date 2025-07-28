@@ -1,0 +1,2820 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Extention
+  commentId: T:System.Extention
+  id: Extention
+  parent: System
+  children:
+  - System.Extention.AddAbout(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.Modules.About.IAboutOptions})
+  - System.Extention.AddAdornerDialogMessage(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  - System.Extention.AddApplicationServices(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.ApplicationBases.Default.IDefaultApplicationOptions})
+  - System.Extention.AddAuthorityViewPresenter(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  - System.Extention.AddAutoUpgrade(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.Modules.Upgrade.IUpgradeOptions})
+  - System.Extention.AddDESCryptService(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  - System.Extention.AddDefaultMessages(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  - System.Extention.AddDefaultModuleServices(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.ApplicationBases.Modules.IDefaultModuleOptions})
+  - System.Extention.AddDefaultThemeServices(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.ApplicationBases.Themes.IDefaultThemeOptions})
+  - System.Extention.AddFFMpeg(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.Extensions.FFMpeg.IFFMpegOption})
+  - System.Extention.AddFormMessageService(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  - System.Extention.AddIOFolderDialogService(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  - System.Extention.AddIOFolderDialogService``1(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  - System.Extention.AddIdentifyDefaultServices(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.ApplicationBases.Identify.IDefaultIndentifyOptions})
+  - System.Extention.AddIdentityLoginService(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  - System.Extention.AddIdentityRegisterService(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.Modules.Identity.IIdentifyOptions})
+  - System.Extention.AddLog4net(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.Extensions.Log4net.ILog4netOptions})
+  - System.Extention.AddMail(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.Extensions.Mail.ISmtpSendOptions})
+  - System.Extention.AddNewtonsoftJsonSerializerService(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.Extensions.NewtonsoftJson.INewtonsoftJsonOptions})
+  - System.Extention.AddNoticeMessage(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  - System.Extention.AddNpoiService(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  - System.Extention.AddOperationService(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  - System.Extention.AddOperationViewPresenter(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  - System.Extention.AddProject(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.Modules.Project.IProjectOptions})
+  - System.Extention.AddProject``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.Modules.Project.IProjectOptions})
+  - System.Extention.AddRoleViewPresenter(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  - System.Extention.AddSnackMessage(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  - System.Extention.AddSponsor(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  - System.Extention.AddTypeLicense(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.Extensions.TypeLicense.ITypeLicenseOptions})
+  - System.Extention.AddUserViewPresenter(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  - System.Extention.AddWindowDialogMessage(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  - System.Extention.AddWindowMessage(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  - System.Extention.AddXmlMetaSettingService(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  - System.Extention.BuildIdentifySeed(Microsoft.EntityFrameworkCore.ModelBuilder)
+  - System.Extention.UseAboutOptions(System.IApplicationBuilder,System.Action{H.Modules.About.IAboutOptions})
+  - System.Extention.UseAddLog4netOptions(System.IApplicationBuilder,System.Action{H.Extensions.Log4net.ILog4netOptions})
+  - System.Extention.UseApplicationOptions(System.IApplicationBuilder,System.Action{H.ApplicationBases.Default.IDefaultApplicationOptions})
+  - System.Extention.UseDefaultColorResources(System.IApplicationBuilder,System.Action{H.Modules.Theme.IColorThemeOptions})
+  - System.Extention.UseDefaultIconFontFamilys(System.IApplicationBuilder,System.Action{H.Modules.Theme.IIconFontFamilysOptions})
+  - System.Extention.UseDefaultModuleOptions(System.IApplicationBuilder,System.Action{H.ApplicationBases.Modules.IDefaultModuleOptions})
+  - System.Extention.UseDefaultThemeOptions(System.IApplicationBuilder,System.Action{H.ApplicationBases.Themes.IDefaultThemeOptions})
+  - System.Extention.UseFFMpeg(System.IApplicationBuilder,System.Action{H.Extensions.FFMpeg.IFFMpegOption})
+  - System.Extention.UseIdentifyDefaultOptions(System.IApplicationBuilder,System.Action{H.ApplicationBases.Identify.IDefaultIndentifyOptions})
+  - System.Extention.UseIdentifyOptions(System.IApplicationBuilder,System.Action{H.Modules.Identity.IIdentifyOptions})
+  - System.Extention.UseMailOptions(System.IApplicationBuilder,System.Action{H.Extensions.Mail.ISmtpSendOptions})
+  - System.Extention.UseNewtonsoftJsonOptions(System.IApplicationBuilder,System.Action{H.Extensions.NewtonsoftJson.INewtonsoftJsonOptions})
+  - System.Extention.UseProjectOptions(System.IApplicationBuilder,System.Action{H.Modules.Project.ProjectOptions})
+  - System.Extention.UseTypeLicenseOptions(System.IApplicationBuilder,System.Action{H.Extensions.TypeLicense.ITypeLicenseOptions})
+  - System.Extention.UseUpgrade(System.IApplicationBuilder,System.Action{H.Modules.Upgrade.UpgradeOptions})
+  langs:
+  - csharp
+  - vb
+  name: Extention
+  nameWithType: Extention
+  fullName: System.Extention
+  type: Class
+  source:
+    id: Extention
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Modules\H.Modules.About\Extention.cs
+    startLine: 16
+  assemblies:
+  - H.Modules.About
+  namespace: System
+  syntax:
+    content: public static class Extention
+    content.vb: Public Module Extention
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: System.Extention.AddAbout(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.Modules.About.IAboutOptions})
+  commentId: M:System.Extention.AddAbout(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.Modules.About.IAboutOptions})
+  id: AddAbout(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.Modules.About.IAboutOptions})
+  isExtensionMethod: true
+  parent: System.Extention
+  langs:
+  - csharp
+  - vb
+  name: AddAbout(IServiceCollection, Action<IAboutOptions>)
+  nameWithType: Extention.AddAbout(IServiceCollection, Action<IAboutOptions>)
+  fullName: System.Extention.AddAbout(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<H.Modules.About.IAboutOptions>)
+  type: Method
+  source:
+    id: AddAbout
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Modules\H.Modules.About\Extention.cs
+    startLine: 22
+  assemblies:
+  - H.Modules.About
+  namespace: System
+  summary: 注册
+  example: []
+  syntax:
+    content: public static void AddAbout(this IServiceCollection services, Action<IAboutOptions> setupAction = null)
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    - id: setupAction
+      type: System.Action{H.Modules.About.IAboutOptions}
+    content.vb: Public Shared Sub AddAbout(services As IServiceCollection, setupAction As Action(Of IAboutOptions) = Nothing)
+  overload: System.Extention.AddAbout*
+  nameWithType.vb: Extention.AddAbout(IServiceCollection, Action(Of IAboutOptions))
+  fullName.vb: System.Extention.AddAbout(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action(Of H.Modules.About.IAboutOptions))
+  name.vb: AddAbout(IServiceCollection, Action(Of IAboutOptions))
+- uid: System.Extention.UseAboutOptions(System.IApplicationBuilder,System.Action{H.Modules.About.IAboutOptions})
+  commentId: M:System.Extention.UseAboutOptions(System.IApplicationBuilder,System.Action{H.Modules.About.IAboutOptions})
+  id: UseAboutOptions(System.IApplicationBuilder,System.Action{H.Modules.About.IAboutOptions})
+  isExtensionMethod: true
+  parent: System.Extention
+  langs:
+  - csharp
+  - vb
+  name: UseAboutOptions(IApplicationBuilder, Action<IAboutOptions>)
+  nameWithType: Extention.UseAboutOptions(IApplicationBuilder, Action<IAboutOptions>)
+  fullName: System.Extention.UseAboutOptions(System.IApplicationBuilder, System.Action<H.Modules.About.IAboutOptions>)
+  type: Method
+  source:
+    id: UseAboutOptions
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Modules\H.Modules.About\Extention.cs
+    startLine: 34
+  assemblies:
+  - H.Modules.About
+  namespace: System
+  summary: 配置
+  example: []
+  syntax:
+    content: public static void UseAboutOptions(this IApplicationBuilder service, Action<IAboutOptions> action = null)
+    parameters:
+    - id: service
+      type: System.IApplicationBuilder
+      description: ''
+    - id: action
+      type: System.Action{H.Modules.About.IAboutOptions}
+    content.vb: Public Shared Sub UseAboutOptions(service As IApplicationBuilder, action As Action(Of IAboutOptions) = Nothing)
+  overload: System.Extention.UseAboutOptions*
+  nameWithType.vb: Extention.UseAboutOptions(IApplicationBuilder, Action(Of IAboutOptions))
+  fullName.vb: System.Extention.UseAboutOptions(System.IApplicationBuilder, System.Action(Of H.Modules.About.IAboutOptions))
+  name.vb: UseAboutOptions(IApplicationBuilder, Action(Of IAboutOptions))
+- uid: System.Extention.AddUserViewPresenter(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  commentId: M:System.Extention.AddUserViewPresenter(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  id: AddUserViewPresenter(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  isExtensionMethod: true
+  parent: System.Extention
+  langs:
+  - csharp
+  - vb
+  name: AddUserViewPresenter(IServiceCollection)
+  nameWithType: Extention.AddUserViewPresenter(IServiceCollection)
+  fullName: System.Extention.AddUserViewPresenter(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  type: Method
+  source:
+    id: AddUserViewPresenter
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Modules\H.Modules.Identity\Extention.cs
+    startLine: 26
+  assemblies:
+  - H.Modules.Identity
+  namespace: System
+  summary: 注册
+  example: []
+  syntax:
+    content: public static void AddUserViewPresenter(this IServiceCollection service)
+    parameters:
+    - id: service
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+      description: ''
+    content.vb: Public Shared Sub AddUserViewPresenter(service As IServiceCollection)
+  overload: System.Extention.AddUserViewPresenter*
+- uid: System.Extention.AddIdentityLoginService(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  commentId: M:System.Extention.AddIdentityLoginService(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  id: AddIdentityLoginService(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  isExtensionMethod: true
+  parent: System.Extention
+  langs:
+  - csharp
+  - vb
+  name: AddIdentityLoginService(IServiceCollection)
+  nameWithType: Extention.AddIdentityLoginService(IServiceCollection)
+  fullName: System.Extention.AddIdentityLoginService(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  type: Method
+  source:
+    id: AddIdentityLoginService
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Modules\H.Modules.Identity\Extention.cs
+    startLine: 36
+  assemblies:
+  - H.Modules.Identity
+  namespace: System
+  summary: 注册
+  example: []
+  syntax:
+    content: public static void AddIdentityLoginService(this IServiceCollection service)
+    parameters:
+    - id: service
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+      description: ''
+    content.vb: Public Shared Sub AddIdentityLoginService(service As IServiceCollection)
+  overload: System.Extention.AddIdentityLoginService*
+- uid: System.Extention.AddIdentityRegisterService(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.Modules.Identity.IIdentifyOptions})
+  commentId: M:System.Extention.AddIdentityRegisterService(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.Modules.Identity.IIdentifyOptions})
+  id: AddIdentityRegisterService(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.Modules.Identity.IIdentifyOptions})
+  isExtensionMethod: true
+  parent: System.Extention
+  langs:
+  - csharp
+  - vb
+  name: AddIdentityRegisterService(IServiceCollection, Action<IIdentifyOptions>)
+  nameWithType: Extention.AddIdentityRegisterService(IServiceCollection, Action<IIdentifyOptions>)
+  fullName: System.Extention.AddIdentityRegisterService(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<H.Modules.Identity.IIdentifyOptions>)
+  type: Method
+  source:
+    id: AddIdentityRegisterService
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Modules\H.Modules.Identity\Extention.cs
+    startLine: 41
+  assemblies:
+  - H.Modules.Identity
+  namespace: System
+  syntax:
+    content: public static IServiceCollection AddIdentityRegisterService(this IServiceCollection services, Action<IIdentifyOptions> setupAction = null)
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    - id: setupAction
+      type: System.Action{H.Modules.Identity.IIdentifyOptions}
+    return:
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    content.vb: Public Shared Function AddIdentityRegisterService(services As IServiceCollection, setupAction As Action(Of IIdentifyOptions) = Nothing) As IServiceCollection
+  overload: System.Extention.AddIdentityRegisterService*
+  nameWithType.vb: Extention.AddIdentityRegisterService(IServiceCollection, Action(Of IIdentifyOptions))
+  fullName.vb: System.Extention.AddIdentityRegisterService(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action(Of H.Modules.Identity.IIdentifyOptions))
+  name.vb: AddIdentityRegisterService(IServiceCollection, Action(Of IIdentifyOptions))
+- uid: System.Extention.AddRoleViewPresenter(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  commentId: M:System.Extention.AddRoleViewPresenter(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  id: AddRoleViewPresenter(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  isExtensionMethod: true
+  parent: System.Extention
+  langs:
+  - csharp
+  - vb
+  name: AddRoleViewPresenter(IServiceCollection)
+  nameWithType: Extention.AddRoleViewPresenter(IServiceCollection)
+  fullName: System.Extention.AddRoleViewPresenter(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  type: Method
+  source:
+    id: AddRoleViewPresenter
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Modules\H.Modules.Identity\Extention.cs
+    startLine: 54
+  assemblies:
+  - H.Modules.Identity
+  namespace: System
+  summary: 注册
+  example: []
+  syntax:
+    content: public static void AddRoleViewPresenter(this IServiceCollection service)
+    parameters:
+    - id: service
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+      description: ''
+    content.vb: Public Shared Sub AddRoleViewPresenter(service As IServiceCollection)
+  overload: System.Extention.AddRoleViewPresenter*
+- uid: System.Extention.AddAuthorityViewPresenter(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  commentId: M:System.Extention.AddAuthorityViewPresenter(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  id: AddAuthorityViewPresenter(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  isExtensionMethod: true
+  parent: System.Extention
+  langs:
+  - csharp
+  - vb
+  name: AddAuthorityViewPresenter(IServiceCollection)
+  nameWithType: Extention.AddAuthorityViewPresenter(IServiceCollection)
+  fullName: System.Extention.AddAuthorityViewPresenter(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  type: Method
+  source:
+    id: AddAuthorityViewPresenter
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Modules\H.Modules.Identity\Extention.cs
+    startLine: 64
+  assemblies:
+  - H.Modules.Identity
+  namespace: System
+  summary: 注册
+  example: []
+  syntax:
+    content: public static void AddAuthorityViewPresenter(this IServiceCollection service)
+    parameters:
+    - id: service
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+      description: ''
+    content.vb: Public Shared Sub AddAuthorityViewPresenter(service As IServiceCollection)
+  overload: System.Extention.AddAuthorityViewPresenter*
+- uid: System.Extention.UseIdentifyOptions(System.IApplicationBuilder,System.Action{H.Modules.Identity.IIdentifyOptions})
+  commentId: M:System.Extention.UseIdentifyOptions(System.IApplicationBuilder,System.Action{H.Modules.Identity.IIdentifyOptions})
+  id: UseIdentifyOptions(System.IApplicationBuilder,System.Action{H.Modules.Identity.IIdentifyOptions})
+  isExtensionMethod: true
+  parent: System.Extention
+  langs:
+  - csharp
+  - vb
+  name: UseIdentifyOptions(IApplicationBuilder, Action<IIdentifyOptions>)
+  nameWithType: Extention.UseIdentifyOptions(IApplicationBuilder, Action<IIdentifyOptions>)
+  fullName: System.Extention.UseIdentifyOptions(System.IApplicationBuilder, System.Action<H.Modules.Identity.IIdentifyOptions>)
+  type: Method
+  source:
+    id: UseIdentifyOptions
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Modules\H.Modules.Identity\Extention.cs
+    startLine: 70
+  assemblies:
+  - H.Modules.Identity
+  namespace: System
+  syntax:
+    content: public static IApplicationBuilder UseIdentifyOptions(this IApplicationBuilder builder, Action<IIdentifyOptions> option = null)
+    parameters:
+    - id: builder
+      type: System.IApplicationBuilder
+    - id: option
+      type: System.Action{H.Modules.Identity.IIdentifyOptions}
+    return:
+      type: System.IApplicationBuilder
+    content.vb: Public Shared Function UseIdentifyOptions(builder As IApplicationBuilder, [option] As Action(Of IIdentifyOptions) = Nothing) As IApplicationBuilder
+  overload: System.Extention.UseIdentifyOptions*
+  nameWithType.vb: Extention.UseIdentifyOptions(IApplicationBuilder, Action(Of IIdentifyOptions))
+  fullName.vb: System.Extention.UseIdentifyOptions(System.IApplicationBuilder, System.Action(Of H.Modules.Identity.IIdentifyOptions))
+  name.vb: UseIdentifyOptions(IApplicationBuilder, Action(Of IIdentifyOptions))
+- uid: System.Extention.BuildIdentifySeed(Microsoft.EntityFrameworkCore.ModelBuilder)
+  commentId: M:System.Extention.BuildIdentifySeed(Microsoft.EntityFrameworkCore.ModelBuilder)
+  id: BuildIdentifySeed(Microsoft.EntityFrameworkCore.ModelBuilder)
+  isExtensionMethod: true
+  parent: System.Extention
+  langs:
+  - csharp
+  - vb
+  name: BuildIdentifySeed(ModelBuilder)
+  nameWithType: Extention.BuildIdentifySeed(ModelBuilder)
+  fullName: System.Extention.BuildIdentifySeed(Microsoft.EntityFrameworkCore.ModelBuilder)
+  type: Method
+  source:
+    id: BuildIdentifySeed
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Modules\H.Modules.Identity\Extention.cs
+    startLine: 77
+  assemblies:
+  - H.Modules.Identity
+  namespace: System
+  syntax:
+    content: public static void BuildIdentifySeed(this ModelBuilder modelBuilder)
+    parameters:
+    - id: modelBuilder
+      type: Microsoft.EntityFrameworkCore.ModelBuilder
+    content.vb: Public Shared Sub BuildIdentifySeed(modelBuilder As ModelBuilder)
+  overload: System.Extention.BuildIdentifySeed*
+- uid: System.Extention.AddOperationViewPresenter(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  commentId: M:System.Extention.AddOperationViewPresenter(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  id: AddOperationViewPresenter(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  isExtensionMethod: true
+  parent: System.Extention
+  langs:
+  - csharp
+  - vb
+  name: AddOperationViewPresenter(IServiceCollection)
+  nameWithType: Extention.AddOperationViewPresenter(IServiceCollection)
+  fullName: System.Extention.AddOperationViewPresenter(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  type: Method
+  source:
+    id: AddOperationViewPresenter
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Modules\H.Modules.Operation\Extention.cs
+    startLine: 21
+  assemblies:
+  - H.Modules.Operation
+  namespace: System
+  summary: 注册
+  example: []
+  syntax:
+    content: public static void AddOperationViewPresenter(this IServiceCollection service)
+    parameters:
+    - id: service
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+      description: ''
+    content.vb: Public Shared Sub AddOperationViewPresenter(service As IServiceCollection)
+  overload: System.Extention.AddOperationViewPresenter*
+- uid: System.Extention.AddOperationService(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  commentId: M:System.Extention.AddOperationService(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  id: AddOperationService(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  isExtensionMethod: true
+  parent: System.Extention
+  langs:
+  - csharp
+  - vb
+  name: AddOperationService(IServiceCollection)
+  nameWithType: Extention.AddOperationService(IServiceCollection)
+  fullName: System.Extention.AddOperationService(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  type: Method
+  source:
+    id: AddOperationService
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Modules\H.Modules.Operation\Extention.cs
+    startLine: 28
+  assemblies:
+  - H.Modules.Operation
+  namespace: System
+  syntax:
+    content: public static void AddOperationService(this IServiceCollection service)
+    parameters:
+    - id: service
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    content.vb: Public Shared Sub AddOperationService(service As IServiceCollection)
+  overload: System.Extention.AddOperationService*
+- uid: System.Extention.AddLog4net(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.Extensions.Log4net.ILog4netOptions})
+  commentId: M:System.Extention.AddLog4net(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.Extensions.Log4net.ILog4netOptions})
+  id: AddLog4net(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.Extensions.Log4net.ILog4netOptions})
+  isExtensionMethod: true
+  parent: System.Extention
+  langs:
+  - csharp
+  - vb
+  name: AddLog4net(IServiceCollection, Action<ILog4netOptions>)
+  nameWithType: Extention.AddLog4net(IServiceCollection, Action<ILog4netOptions>)
+  fullName: System.Extention.AddLog4net(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<H.Extensions.Log4net.ILog4netOptions>)
+  type: Method
+  source:
+    id: AddLog4net
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Log4net\Extention.cs
+    startLine: 21
+  assemblies:
+  - H.Extensions.Log4net
+  namespace: System
+  summary: 注册
+  example: []
+  syntax:
+    content: public static IServiceCollection AddLog4net(this IServiceCollection services, Action<ILog4netOptions> setupAction = null)
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    - id: setupAction
+      type: System.Action{H.Extensions.Log4net.ILog4netOptions}
+    return:
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    content.vb: Public Shared Function AddLog4net(services As IServiceCollection, setupAction As Action(Of ILog4netOptions) = Nothing) As IServiceCollection
+  overload: System.Extention.AddLog4net*
+  nameWithType.vb: Extention.AddLog4net(IServiceCollection, Action(Of ILog4netOptions))
+  fullName.vb: System.Extention.AddLog4net(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action(Of H.Extensions.Log4net.ILog4netOptions))
+  name.vb: AddLog4net(IServiceCollection, Action(Of ILog4netOptions))
+- uid: System.Extention.UseAddLog4netOptions(System.IApplicationBuilder,System.Action{H.Extensions.Log4net.ILog4netOptions})
+  commentId: M:System.Extention.UseAddLog4netOptions(System.IApplicationBuilder,System.Action{H.Extensions.Log4net.ILog4netOptions})
+  id: UseAddLog4netOptions(System.IApplicationBuilder,System.Action{H.Extensions.Log4net.ILog4netOptions})
+  isExtensionMethod: true
+  parent: System.Extention
+  langs:
+  - csharp
+  - vb
+  name: UseAddLog4netOptions(IApplicationBuilder, Action<ILog4netOptions>)
+  nameWithType: Extention.UseAddLog4netOptions(IApplicationBuilder, Action<ILog4netOptions>)
+  fullName: System.Extention.UseAddLog4netOptions(System.IApplicationBuilder, System.Action<H.Extensions.Log4net.ILog4netOptions>)
+  type: Method
+  source:
+    id: UseAddLog4netOptions
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Log4net\Extention.cs
+    startLine: 30
+  assemblies:
+  - H.Extensions.Log4net
+  namespace: System
+  syntax:
+    content: public static IApplicationBuilder UseAddLog4netOptions(this IApplicationBuilder builder, Action<ILog4netOptions> option = null)
+    parameters:
+    - id: builder
+      type: System.IApplicationBuilder
+    - id: option
+      type: System.Action{H.Extensions.Log4net.ILog4netOptions}
+    return:
+      type: System.IApplicationBuilder
+    content.vb: Public Shared Function UseAddLog4netOptions(builder As IApplicationBuilder, [option] As Action(Of ILog4netOptions) = Nothing) As IApplicationBuilder
+  overload: System.Extention.UseAddLog4netOptions*
+  nameWithType.vb: Extention.UseAddLog4netOptions(IApplicationBuilder, Action(Of ILog4netOptions))
+  fullName.vb: System.Extention.UseAddLog4netOptions(System.IApplicationBuilder, System.Action(Of H.Extensions.Log4net.ILog4netOptions))
+  name.vb: UseAddLog4netOptions(IApplicationBuilder, Action(Of ILog4netOptions))
+- uid: System.Extention.AddAutoUpgrade(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.Modules.Upgrade.IUpgradeOptions})
+  commentId: M:System.Extention.AddAutoUpgrade(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.Modules.Upgrade.IUpgradeOptions})
+  id: AddAutoUpgrade(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.Modules.Upgrade.IUpgradeOptions})
+  isExtensionMethod: true
+  parent: System.Extention
+  langs:
+  - csharp
+  - vb
+  name: AddAutoUpgrade(IServiceCollection, Action<IUpgradeOptions>)
+  nameWithType: Extention.AddAutoUpgrade(IServiceCollection, Action<IUpgradeOptions>)
+  fullName: System.Extention.AddAutoUpgrade(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<H.Modules.Upgrade.IUpgradeOptions>)
+  type: Method
+  source:
+    id: AddAutoUpgrade
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Modules\H.Modules.Upgrade\Extention.cs
+    startLine: 23
+  assemblies:
+  - H.Modules.Upgrade
+  namespace: System
+  summary: 注册
+  example: []
+  syntax:
+    content: public static void AddAutoUpgrade(this IServiceCollection services, Action<IUpgradeOptions> setupAction = null)
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    - id: setupAction
+      type: System.Action{H.Modules.Upgrade.IUpgradeOptions}
+    content.vb: Public Shared Sub AddAutoUpgrade(services As IServiceCollection, setupAction As Action(Of IUpgradeOptions) = Nothing)
+  overload: System.Extention.AddAutoUpgrade*
+  nameWithType.vb: Extention.AddAutoUpgrade(IServiceCollection, Action(Of IUpgradeOptions))
+  fullName.vb: System.Extention.AddAutoUpgrade(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action(Of H.Modules.Upgrade.IUpgradeOptions))
+  name.vb: AddAutoUpgrade(IServiceCollection, Action(Of IUpgradeOptions))
+- uid: System.Extention.UseUpgrade(System.IApplicationBuilder,System.Action{H.Modules.Upgrade.UpgradeOptions})
+  commentId: M:System.Extention.UseUpgrade(System.IApplicationBuilder,System.Action{H.Modules.Upgrade.UpgradeOptions})
+  id: UseUpgrade(System.IApplicationBuilder,System.Action{H.Modules.Upgrade.UpgradeOptions})
+  isExtensionMethod: true
+  parent: System.Extention
+  langs:
+  - csharp
+  - vb
+  name: UseUpgrade(IApplicationBuilder, Action<UpgradeOptions>)
+  nameWithType: Extention.UseUpgrade(IApplicationBuilder, Action<UpgradeOptions>)
+  fullName: System.Extention.UseUpgrade(System.IApplicationBuilder, System.Action<H.Modules.Upgrade.UpgradeOptions>)
+  type: Method
+  source:
+    id: UseUpgrade
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Modules\H.Modules.Upgrade\Extention.cs
+    startLine: 38
+  assemblies:
+  - H.Modules.Upgrade
+  namespace: System
+  summary: 配置
+  example: []
+  syntax:
+    content: public static void UseUpgrade(this IApplicationBuilder service, Action<UpgradeOptions> action = null)
+    parameters:
+    - id: service
+      type: System.IApplicationBuilder
+      description: ''
+    - id: action
+      type: System.Action{H.Modules.Upgrade.UpgradeOptions}
+    content.vb: Public Shared Sub UseUpgrade(service As IApplicationBuilder, action As Action(Of UpgradeOptions) = Nothing)
+  overload: System.Extention.UseUpgrade*
+  nameWithType.vb: Extention.UseUpgrade(IApplicationBuilder, Action(Of UpgradeOptions))
+  fullName.vb: System.Extention.UseUpgrade(System.IApplicationBuilder, System.Action(Of H.Modules.Upgrade.UpgradeOptions))
+  name.vb: UseUpgrade(IApplicationBuilder, Action(Of UpgradeOptions))
+- uid: System.Extention.AddWindowDialogMessage(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  commentId: M:System.Extention.AddWindowDialogMessage(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  id: AddWindowDialogMessage(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  isExtensionMethod: true
+  parent: System.Extention
+  langs:
+  - csharp
+  - vb
+  name: AddWindowDialogMessage(IServiceCollection)
+  nameWithType: Extention.AddWindowDialogMessage(IServiceCollection)
+  fullName: System.Extention.AddWindowDialogMessage(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  type: Method
+  source:
+    id: AddWindowDialogMessage
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Modules\H.Modules.Messages.Dialog\Extention.cs
+    startLine: 19
+  assemblies:
+  - H.Modules.Messages.Dialog
+  namespace: System
+  summary: 注册
+  example: []
+  syntax:
+    content: public static void AddWindowDialogMessage(this IServiceCollection services)
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    content.vb: Public Shared Sub AddWindowDialogMessage(services As IServiceCollection)
+  overload: System.Extention.AddWindowDialogMessage*
+- uid: System.Extention.AddAdornerDialogMessage(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  commentId: M:System.Extention.AddAdornerDialogMessage(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  id: AddAdornerDialogMessage(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  isExtensionMethod: true
+  parent: System.Extention
+  langs:
+  - csharp
+  - vb
+  name: AddAdornerDialogMessage(IServiceCollection)
+  nameWithType: Extention.AddAdornerDialogMessage(IServiceCollection)
+  fullName: System.Extention.AddAdornerDialogMessage(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  type: Method
+  source:
+    id: AddAdornerDialogMessage
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Modules\H.Modules.Messages.Dialog\Extention.cs
+    startLine: 28
+  assemblies:
+  - H.Modules.Messages.Dialog
+  namespace: System
+  summary: 注册
+  example: []
+  syntax:
+    content: public static void AddAdornerDialogMessage(this IServiceCollection services)
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    content.vb: Public Shared Sub AddAdornerDialogMessage(services As IServiceCollection)
+  overload: System.Extention.AddAdornerDialogMessage*
+- uid: System.Extention.AddWindowMessage(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  commentId: M:System.Extention.AddWindowMessage(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  id: AddWindowMessage(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  isExtensionMethod: true
+  parent: System.Extention
+  langs:
+  - csharp
+  - vb
+  name: AddWindowMessage(IServiceCollection)
+  nameWithType: Extention.AddWindowMessage(IServiceCollection)
+  fullName: System.Extention.AddWindowMessage(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  type: Method
+  source:
+    id: AddWindowMessage
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Modules\H.Modules.Messages.Dialog\Extention.cs
+    startLine: 37
+  assemblies:
+  - H.Modules.Messages.Dialog
+  namespace: System
+  summary: 注册
+  example: []
+  syntax:
+    content: public static void AddWindowMessage(this IServiceCollection services)
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    content.vb: Public Shared Sub AddWindowMessage(services As IServiceCollection)
+  overload: System.Extention.AddWindowMessage*
+- uid: System.Extention.AddNoticeMessage(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  commentId: M:System.Extention.AddNoticeMessage(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  id: AddNoticeMessage(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  isExtensionMethod: true
+  parent: System.Extention
+  langs:
+  - csharp
+  - vb
+  name: AddNoticeMessage(IServiceCollection)
+  nameWithType: Extention.AddNoticeMessage(IServiceCollection)
+  fullName: System.Extention.AddNoticeMessage(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  type: Method
+  source:
+    id: AddNoticeMessage
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Modules\H.Modules.Messages.Notice\Extention.cs
+    startLine: 20
+  assemblies:
+  - H.Modules.Messages.Notice
+  namespace: System
+  summary: 注册
+  example: []
+  syntax:
+    content: public static void AddNoticeMessage(this IServiceCollection services)
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    content.vb: Public Shared Sub AddNoticeMessage(services As IServiceCollection)
+  overload: System.Extention.AddNoticeMessage*
+- uid: System.Extention.AddFormMessageService(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  commentId: M:System.Extention.AddFormMessageService(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  id: AddFormMessageService(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  isExtensionMethod: true
+  parent: System.Extention
+  langs:
+  - csharp
+  - vb
+  name: AddFormMessageService(IServiceCollection)
+  nameWithType: Extention.AddFormMessageService(IServiceCollection)
+  fullName: System.Extention.AddFormMessageService(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  type: Method
+  source:
+    id: AddFormMessageService
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Modules\H.Modules.Messages.Form\Extention.cs
+    startLine: 19
+  assemblies:
+  - H.Modules.Messages.Form
+  namespace: System
+  summary: 注册
+  example: []
+  syntax:
+    content: public static void AddFormMessageService(this IServiceCollection services)
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    content.vb: Public Shared Sub AddFormMessageService(services As IServiceCollection)
+  overload: System.Extention.AddFormMessageService*
+- uid: System.Extention.AddSnackMessage(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  commentId: M:System.Extention.AddSnackMessage(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  id: AddSnackMessage(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  isExtensionMethod: true
+  parent: System.Extention
+  langs:
+  - csharp
+  - vb
+  name: AddSnackMessage(IServiceCollection)
+  nameWithType: Extention.AddSnackMessage(IServiceCollection)
+  fullName: System.Extention.AddSnackMessage(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  type: Method
+  source:
+    id: AddSnackMessage
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Modules\H.Modules.Messages.Snack\Extention.cs
+    startLine: 20
+  assemblies:
+  - H.Modules.Messages.Snack
+  namespace: System
+  summary: 注册
+  example: []
+  syntax:
+    content: public static void AddSnackMessage(this IServiceCollection services)
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    content.vb: Public Shared Sub AddSnackMessage(services As IServiceCollection)
+  overload: System.Extention.AddSnackMessage*
+- uid: System.Extention.AddXmlMetaSettingService(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  commentId: M:System.Extention.AddXmlMetaSettingService(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  id: AddXmlMetaSettingService(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  isExtensionMethod: true
+  parent: System.Extention
+  langs:
+  - csharp
+  - vb
+  name: AddXmlMetaSettingService(IServiceCollection)
+  nameWithType: Extention.AddXmlMetaSettingService(IServiceCollection)
+  fullName: System.Extention.AddXmlMetaSettingService(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  type: Method
+  source:
+    id: AddXmlMetaSettingService
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.XmlSerialize\Extention.cs
+    startLine: 20
+  assemblies:
+  - H.Extensions.XmlSerialize
+  namespace: System
+  summary: 注册
+  example: []
+  syntax:
+    content: public static void AddXmlMetaSettingService(this IServiceCollection service)
+    parameters:
+    - id: service
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+      description: ''
+    content.vb: Public Shared Sub AddXmlMetaSettingService(service As IServiceCollection)
+  overload: System.Extention.AddXmlMetaSettingService*
+- uid: System.Extention.AddNpoiService(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  commentId: M:System.Extention.AddNpoiService(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  id: AddNpoiService(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  isExtensionMethod: true
+  parent: System.Extention
+  langs:
+  - csharp
+  - vb
+  name: AddNpoiService(IServiceCollection)
+  nameWithType: Extention.AddNpoiService(IServiceCollection)
+  fullName: System.Extention.AddNpoiService(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  type: Method
+  source:
+    id: AddNpoiService
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Excel\Extention.cs
+    startLine: 21
+  assemblies:
+  - H.Extensions.Excel
+  namespace: System
+  summary: 注册
+  example: []
+  syntax:
+    content: public static void AddNpoiService(this IServiceCollection service)
+    parameters:
+    - id: service
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+      description: ''
+    content.vb: Public Shared Sub AddNpoiService(service As IServiceCollection)
+  overload: System.Extention.AddNpoiService*
+- uid: System.Extention.AddDESCryptService(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  commentId: M:System.Extention.AddDESCryptService(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  id: AddDESCryptService(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  isExtensionMethod: true
+  parent: System.Extention
+  langs:
+  - csharp
+  - vb
+  name: AddDESCryptService(IServiceCollection)
+  nameWithType: Extention.AddDESCryptService(IServiceCollection)
+  fullName: System.Extention.AddDESCryptService(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  type: Method
+  source:
+    id: AddDESCryptService
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Encryption\Extention.cs
+    startLine: 20
+  assemblies:
+  - H.Extensions.Encryption
+  namespace: System
+  summary: 注册
+  example: []
+  syntax:
+    content: public static void AddDESCryptService(this IServiceCollection service)
+    parameters:
+    - id: service
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+      description: ''
+    content.vb: Public Shared Sub AddDESCryptService(service As IServiceCollection)
+  overload: System.Extention.AddDESCryptService*
+- uid: System.Extention.AddProject(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.Modules.Project.IProjectOptions})
+  commentId: M:System.Extention.AddProject(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.Modules.Project.IProjectOptions})
+  id: AddProject(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.Modules.Project.IProjectOptions})
+  isExtensionMethod: true
+  parent: System.Extention
+  langs:
+  - csharp
+  - vb
+  name: AddProject(IServiceCollection, Action<IProjectOptions>)
+  nameWithType: Extention.AddProject(IServiceCollection, Action<IProjectOptions>)
+  fullName: System.Extention.AddProject(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<H.Modules.Project.IProjectOptions>)
+  type: Method
+  source:
+    id: AddProject
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Modules\H.Modules.Project\Extention.cs
+    startLine: 20
+  assemblies:
+  - H.Modules.Project
+  namespace: System
+  summary: 注册
+  example: []
+  syntax:
+    content: public static IServiceCollection AddProject(this IServiceCollection services, Action<IProjectOptions> setupAction = null)
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    - id: setupAction
+      type: System.Action{H.Modules.Project.IProjectOptions}
+    return:
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    content.vb: Public Shared Function AddProject(services As IServiceCollection, setupAction As Action(Of IProjectOptions) = Nothing) As IServiceCollection
+  overload: System.Extention.AddProject*
+  nameWithType.vb: Extention.AddProject(IServiceCollection, Action(Of IProjectOptions))
+  fullName.vb: System.Extention.AddProject(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action(Of H.Modules.Project.IProjectOptions))
+  name.vb: AddProject(IServiceCollection, Action(Of IProjectOptions))
+- uid: System.Extention.AddProject``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.Modules.Project.IProjectOptions})
+  commentId: M:System.Extention.AddProject``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.Modules.Project.IProjectOptions})
+  id: AddProject``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.Modules.Project.IProjectOptions})
+  isExtensionMethod: true
+  parent: System.Extention
+  langs:
+  - csharp
+  - vb
+  name: AddProject<T>(IServiceCollection, Action<IProjectOptions>)
+  nameWithType: Extention.AddProject<T>(IServiceCollection, Action<IProjectOptions>)
+  fullName: System.Extention.AddProject<T>(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<H.Modules.Project.IProjectOptions>)
+  type: Method
+  source:
+    id: AddProject
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Modules\H.Modules.Project\Extention.cs
+    startLine: 29
+  assemblies:
+  - H.Modules.Project
+  namespace: System
+  summary: 注册
+  example: []
+  syntax:
+    content: 'public static IServiceCollection AddProject<T>(this IServiceCollection services, Action<IProjectOptions> setupAction = null) where T : class, IProjectService'
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    - id: setupAction
+      type: System.Action{H.Modules.Project.IProjectOptions}
+    typeParameters:
+    - id: T
+    return:
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    content.vb: Public Shared Function AddProject(Of T As {Class, IProjectService})(services As IServiceCollection, setupAction As Action(Of IProjectOptions) = Nothing) As IServiceCollection
+  overload: System.Extention.AddProject*
+  nameWithType.vb: Extention.AddProject(Of T)(IServiceCollection, Action(Of IProjectOptions))
+  fullName.vb: System.Extention.AddProject(Of T)(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action(Of H.Modules.Project.IProjectOptions))
+  name.vb: AddProject(Of T)(IServiceCollection, Action(Of IProjectOptions))
+- uid: System.Extention.UseProjectOptions(System.IApplicationBuilder,System.Action{H.Modules.Project.ProjectOptions})
+  commentId: M:System.Extention.UseProjectOptions(System.IApplicationBuilder,System.Action{H.Modules.Project.ProjectOptions})
+  id: UseProjectOptions(System.IApplicationBuilder,System.Action{H.Modules.Project.ProjectOptions})
+  isExtensionMethod: true
+  parent: System.Extention
+  langs:
+  - csharp
+  - vb
+  name: UseProjectOptions(IApplicationBuilder, Action<ProjectOptions>)
+  nameWithType: Extention.UseProjectOptions(IApplicationBuilder, Action<ProjectOptions>)
+  fullName: System.Extention.UseProjectOptions(System.IApplicationBuilder, System.Action<H.Modules.Project.ProjectOptions>)
+  type: Method
+  source:
+    id: UseProjectOptions
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Modules\H.Modules.Project\Extention.cs
+    startLine: 45
+  assemblies:
+  - H.Modules.Project
+  namespace: System
+  summary: 配置
+  example: []
+  syntax:
+    content: public static IApplicationBuilder UseProjectOptions(this IApplicationBuilder builder, Action<ProjectOptions> option = null)
+    parameters:
+    - id: builder
+      type: System.IApplicationBuilder
+    - id: option
+      type: System.Action{H.Modules.Project.ProjectOptions}
+    return:
+      type: System.IApplicationBuilder
+    content.vb: Public Shared Function UseProjectOptions(builder As IApplicationBuilder, [option] As Action(Of ProjectOptions) = Nothing) As IApplicationBuilder
+  overload: System.Extention.UseProjectOptions*
+  nameWithType.vb: Extention.UseProjectOptions(IApplicationBuilder, Action(Of ProjectOptions))
+  fullName.vb: System.Extention.UseProjectOptions(System.IApplicationBuilder, System.Action(Of H.Modules.Project.ProjectOptions))
+  name.vb: UseProjectOptions(IApplicationBuilder, Action(Of ProjectOptions))
+- uid: System.Extention.AddFFMpeg(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.Extensions.FFMpeg.IFFMpegOption})
+  commentId: M:System.Extention.AddFFMpeg(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.Extensions.FFMpeg.IFFMpegOption})
+  id: AddFFMpeg(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.Extensions.FFMpeg.IFFMpegOption})
+  isExtensionMethod: true
+  parent: System.Extention
+  langs:
+  - csharp
+  - vb
+  name: AddFFMpeg(IServiceCollection, Action<IFFMpegOption>)
+  nameWithType: Extention.AddFFMpeg(IServiceCollection, Action<IFFMpegOption>)
+  fullName: System.Extention.AddFFMpeg(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<H.Extensions.FFMpeg.IFFMpegOption>)
+  type: Method
+  source:
+    id: AddFFMpeg
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.FFMpeg\Extention.cs
+    startLine: 17
+  assemblies:
+  - H.Extensions.FFMpeg
+  namespace: System
+  syntax:
+    content: public static IServiceCollection AddFFMpeg(this IServiceCollection services, Action<IFFMpegOption> setupAction = null)
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    - id: setupAction
+      type: System.Action{H.Extensions.FFMpeg.IFFMpegOption}
+    return:
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    content.vb: Public Shared Function AddFFMpeg(services As IServiceCollection, setupAction As Action(Of IFFMpegOption) = Nothing) As IServiceCollection
+  overload: System.Extention.AddFFMpeg*
+  nameWithType.vb: Extention.AddFFMpeg(IServiceCollection, Action(Of IFFMpegOption))
+  fullName.vb: System.Extention.AddFFMpeg(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action(Of H.Extensions.FFMpeg.IFFMpegOption))
+  name.vb: AddFFMpeg(IServiceCollection, Action(Of IFFMpegOption))
+- uid: System.Extention.UseFFMpeg(System.IApplicationBuilder,System.Action{H.Extensions.FFMpeg.IFFMpegOption})
+  commentId: M:System.Extention.UseFFMpeg(System.IApplicationBuilder,System.Action{H.Extensions.FFMpeg.IFFMpegOption})
+  id: UseFFMpeg(System.IApplicationBuilder,System.Action{H.Extensions.FFMpeg.IFFMpegOption})
+  isExtensionMethod: true
+  parent: System.Extention
+  langs:
+  - csharp
+  - vb
+  name: UseFFMpeg(IApplicationBuilder, Action<IFFMpegOption>)
+  nameWithType: Extention.UseFFMpeg(IApplicationBuilder, Action<IFFMpegOption>)
+  fullName: System.Extention.UseFFMpeg(System.IApplicationBuilder, System.Action<H.Extensions.FFMpeg.IFFMpegOption>)
+  type: Method
+  source:
+    id: UseFFMpeg
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.FFMpeg\Extention.cs
+    startLine: 26
+  assemblies:
+  - H.Extensions.FFMpeg
+  namespace: System
+  syntax:
+    content: public static IApplicationBuilder UseFFMpeg(this IApplicationBuilder builder, Action<IFFMpegOption> action = null)
+    parameters:
+    - id: builder
+      type: System.IApplicationBuilder
+    - id: action
+      type: System.Action{H.Extensions.FFMpeg.IFFMpegOption}
+    return:
+      type: System.IApplicationBuilder
+    content.vb: Public Shared Function UseFFMpeg(builder As IApplicationBuilder, action As Action(Of IFFMpegOption) = Nothing) As IApplicationBuilder
+  overload: System.Extention.UseFFMpeg*
+  nameWithType.vb: Extention.UseFFMpeg(IApplicationBuilder, Action(Of IFFMpegOption))
+  fullName.vb: System.Extention.UseFFMpeg(System.IApplicationBuilder, System.Action(Of H.Extensions.FFMpeg.IFFMpegOption))
+  name.vb: UseFFMpeg(IApplicationBuilder, Action(Of IFFMpegOption))
+- uid: System.Extention.AddMail(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.Extensions.Mail.ISmtpSendOptions})
+  commentId: M:System.Extention.AddMail(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.Extensions.Mail.ISmtpSendOptions})
+  id: AddMail(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.Extensions.Mail.ISmtpSendOptions})
+  isExtensionMethod: true
+  parent: System.Extention
+  langs:
+  - csharp
+  - vb
+  name: AddMail(IServiceCollection, Action<ISmtpSendOptions>)
+  nameWithType: Extention.AddMail(IServiceCollection, Action<ISmtpSendOptions>)
+  fullName: System.Extention.AddMail(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<H.Extensions.Mail.ISmtpSendOptions>)
+  type: Method
+  source:
+    id: AddMail
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Mail\Extention.cs
+    startLine: 23
+  assemblies:
+  - H.Extensions.Mail
+  namespace: System
+  summary: 注册
+  example: []
+  syntax:
+    content: public static IServiceCollection AddMail(this IServiceCollection services, Action<ISmtpSendOptions> setupAction = null)
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    - id: setupAction
+      type: System.Action{H.Extensions.Mail.ISmtpSendOptions}
+    return:
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    content.vb: Public Shared Function AddMail(services As IServiceCollection, setupAction As Action(Of ISmtpSendOptions) = Nothing) As IServiceCollection
+  overload: System.Extention.AddMail*
+  nameWithType.vb: Extention.AddMail(IServiceCollection, Action(Of ISmtpSendOptions))
+  fullName.vb: System.Extention.AddMail(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action(Of H.Extensions.Mail.ISmtpSendOptions))
+  name.vb: AddMail(IServiceCollection, Action(Of ISmtpSendOptions))
+- uid: System.Extention.UseMailOptions(System.IApplicationBuilder,System.Action{H.Extensions.Mail.ISmtpSendOptions})
+  commentId: M:System.Extention.UseMailOptions(System.IApplicationBuilder,System.Action{H.Extensions.Mail.ISmtpSendOptions})
+  id: UseMailOptions(System.IApplicationBuilder,System.Action{H.Extensions.Mail.ISmtpSendOptions})
+  isExtensionMethod: true
+  parent: System.Extention
+  langs:
+  - csharp
+  - vb
+  name: UseMailOptions(IApplicationBuilder, Action<ISmtpSendOptions>)
+  nameWithType: Extention.UseMailOptions(IApplicationBuilder, Action<ISmtpSendOptions>)
+  fullName: System.Extention.UseMailOptions(System.IApplicationBuilder, System.Action<H.Extensions.Mail.ISmtpSendOptions>)
+  type: Method
+  source:
+    id: UseMailOptions
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Mail\Extention.cs
+    startLine: 33
+  assemblies:
+  - H.Extensions.Mail
+  namespace: System
+  syntax:
+    content: public static IApplicationBuilder UseMailOptions(this IApplicationBuilder builder, Action<ISmtpSendOptions> option = null)
+    parameters:
+    - id: builder
+      type: System.IApplicationBuilder
+    - id: option
+      type: System.Action{H.Extensions.Mail.ISmtpSendOptions}
+    return:
+      type: System.IApplicationBuilder
+    content.vb: Public Shared Function UseMailOptions(builder As IApplicationBuilder, [option] As Action(Of ISmtpSendOptions) = Nothing) As IApplicationBuilder
+  overload: System.Extention.UseMailOptions*
+  nameWithType.vb: Extention.UseMailOptions(IApplicationBuilder, Action(Of ISmtpSendOptions))
+  fullName.vb: System.Extention.UseMailOptions(System.IApplicationBuilder, System.Action(Of H.Extensions.Mail.ISmtpSendOptions))
+  name.vb: UseMailOptions(IApplicationBuilder, Action(Of ISmtpSendOptions))
+- uid: System.Extention.AddTypeLicense(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.Extensions.TypeLicense.ITypeLicenseOptions})
+  commentId: M:System.Extention.AddTypeLicense(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.Extensions.TypeLicense.ITypeLicenseOptions})
+  id: AddTypeLicense(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.Extensions.TypeLicense.ITypeLicenseOptions})
+  isExtensionMethod: true
+  parent: System.Extention
+  langs:
+  - csharp
+  - vb
+  name: AddTypeLicense(IServiceCollection, Action<ITypeLicenseOptions>)
+  nameWithType: Extention.AddTypeLicense(IServiceCollection, Action<ITypeLicenseOptions>)
+  fullName: System.Extention.AddTypeLicense(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<H.Extensions.TypeLicense.ITypeLicenseOptions>)
+  type: Method
+  source:
+    id: AddTypeLicense
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.TypeLicense\Extention.cs
+    startLine: 21
+  assemblies:
+  - H.Extensions.TypeLicense
+  namespace: System
+  summary: 注册
+  example: []
+  syntax:
+    content: public static IServiceCollection AddTypeLicense(this IServiceCollection services, Action<ITypeLicenseOptions> setupAction = null)
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    - id: setupAction
+      type: System.Action{H.Extensions.TypeLicense.ITypeLicenseOptions}
+    return:
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    content.vb: Public Shared Function AddTypeLicense(services As IServiceCollection, setupAction As Action(Of ITypeLicenseOptions) = Nothing) As IServiceCollection
+  overload: System.Extention.AddTypeLicense*
+  nameWithType.vb: Extention.AddTypeLicense(IServiceCollection, Action(Of ITypeLicenseOptions))
+  fullName.vb: System.Extention.AddTypeLicense(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action(Of H.Extensions.TypeLicense.ITypeLicenseOptions))
+  name.vb: AddTypeLicense(IServiceCollection, Action(Of ITypeLicenseOptions))
+- uid: System.Extention.UseTypeLicenseOptions(System.IApplicationBuilder,System.Action{H.Extensions.TypeLicense.ITypeLicenseOptions})
+  commentId: M:System.Extention.UseTypeLicenseOptions(System.IApplicationBuilder,System.Action{H.Extensions.TypeLicense.ITypeLicenseOptions})
+  id: UseTypeLicenseOptions(System.IApplicationBuilder,System.Action{H.Extensions.TypeLicense.ITypeLicenseOptions})
+  isExtensionMethod: true
+  parent: System.Extention
+  langs:
+  - csharp
+  - vb
+  name: UseTypeLicenseOptions(IApplicationBuilder, Action<ITypeLicenseOptions>)
+  nameWithType: Extention.UseTypeLicenseOptions(IApplicationBuilder, Action<ITypeLicenseOptions>)
+  fullName: System.Extention.UseTypeLicenseOptions(System.IApplicationBuilder, System.Action<H.Extensions.TypeLicense.ITypeLicenseOptions>)
+  type: Method
+  source:
+    id: UseTypeLicenseOptions
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.TypeLicense\Extention.cs
+    startLine: 30
+  assemblies:
+  - H.Extensions.TypeLicense
+  namespace: System
+  syntax:
+    content: public static IApplicationBuilder UseTypeLicenseOptions(this IApplicationBuilder builder, Action<ITypeLicenseOptions> option = null)
+    parameters:
+    - id: builder
+      type: System.IApplicationBuilder
+    - id: option
+      type: System.Action{H.Extensions.TypeLicense.ITypeLicenseOptions}
+    return:
+      type: System.IApplicationBuilder
+    content.vb: Public Shared Function UseTypeLicenseOptions(builder As IApplicationBuilder, [option] As Action(Of ITypeLicenseOptions) = Nothing) As IApplicationBuilder
+  overload: System.Extention.UseTypeLicenseOptions*
+  nameWithType.vb: Extention.UseTypeLicenseOptions(IApplicationBuilder, Action(Of ITypeLicenseOptions))
+  fullName.vb: System.Extention.UseTypeLicenseOptions(System.IApplicationBuilder, System.Action(Of H.Extensions.TypeLicense.ITypeLicenseOptions))
+  name.vb: UseTypeLicenseOptions(IApplicationBuilder, Action(Of ITypeLicenseOptions))
+- uid: System.Extention.AddNewtonsoftJsonSerializerService(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.Extensions.NewtonsoftJson.INewtonsoftJsonOptions})
+  commentId: M:System.Extention.AddNewtonsoftJsonSerializerService(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.Extensions.NewtonsoftJson.INewtonsoftJsonOptions})
+  id: AddNewtonsoftJsonSerializerService(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.Extensions.NewtonsoftJson.INewtonsoftJsonOptions})
+  isExtensionMethod: true
+  parent: System.Extention
+  langs:
+  - csharp
+  - vb
+  name: AddNewtonsoftJsonSerializerService(IServiceCollection, Action<INewtonsoftJsonOptions>)
+  nameWithType: Extention.AddNewtonsoftJsonSerializerService(IServiceCollection, Action<INewtonsoftJsonOptions>)
+  fullName: System.Extention.AddNewtonsoftJsonSerializerService(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<H.Extensions.NewtonsoftJson.INewtonsoftJsonOptions>)
+  type: Method
+  source:
+    id: AddNewtonsoftJsonSerializerService
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.NewtonsoftJson\Extention.cs
+    startLine: 22
+  assemblies:
+  - H.Extensions.NewtonsoftJson
+  namespace: System
+  summary: 注册
+  example: []
+  syntax:
+    content: public static IServiceCollection AddNewtonsoftJsonSerializerService(this IServiceCollection services, Action<INewtonsoftJsonOptions> setupAction = null)
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    - id: setupAction
+      type: System.Action{H.Extensions.NewtonsoftJson.INewtonsoftJsonOptions}
+    return:
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    content.vb: Public Shared Function AddNewtonsoftJsonSerializerService(services As IServiceCollection, setupAction As Action(Of INewtonsoftJsonOptions) = Nothing) As IServiceCollection
+  overload: System.Extention.AddNewtonsoftJsonSerializerService*
+  nameWithType.vb: Extention.AddNewtonsoftJsonSerializerService(IServiceCollection, Action(Of INewtonsoftJsonOptions))
+  fullName.vb: System.Extention.AddNewtonsoftJsonSerializerService(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action(Of H.Extensions.NewtonsoftJson.INewtonsoftJsonOptions))
+  name.vb: AddNewtonsoftJsonSerializerService(IServiceCollection, Action(Of INewtonsoftJsonOptions))
+- uid: System.Extention.UseNewtonsoftJsonOptions(System.IApplicationBuilder,System.Action{H.Extensions.NewtonsoftJson.INewtonsoftJsonOptions})
+  commentId: M:System.Extention.UseNewtonsoftJsonOptions(System.IApplicationBuilder,System.Action{H.Extensions.NewtonsoftJson.INewtonsoftJsonOptions})
+  id: UseNewtonsoftJsonOptions(System.IApplicationBuilder,System.Action{H.Extensions.NewtonsoftJson.INewtonsoftJsonOptions})
+  isExtensionMethod: true
+  parent: System.Extention
+  langs:
+  - csharp
+  - vb
+  name: UseNewtonsoftJsonOptions(IApplicationBuilder, Action<INewtonsoftJsonOptions>)
+  nameWithType: Extention.UseNewtonsoftJsonOptions(IApplicationBuilder, Action<INewtonsoftJsonOptions>)
+  fullName: System.Extention.UseNewtonsoftJsonOptions(System.IApplicationBuilder, System.Action<H.Extensions.NewtonsoftJson.INewtonsoftJsonOptions>)
+  type: Method
+  source:
+    id: UseNewtonsoftJsonOptions
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.NewtonsoftJson\Extention.cs
+    startLine: 31
+  assemblies:
+  - H.Extensions.NewtonsoftJson
+  namespace: System
+  syntax:
+    content: >-
+      [Obsolete("目前没什么用")]
+
+      public static IApplicationBuilder UseNewtonsoftJsonOptions(this IApplicationBuilder builder, Action<INewtonsoftJsonOptions> option = null)
+    parameters:
+    - id: builder
+      type: System.IApplicationBuilder
+    - id: option
+      type: System.Action{H.Extensions.NewtonsoftJson.INewtonsoftJsonOptions}
+    return:
+      type: System.IApplicationBuilder
+    content.vb: >-
+      <Obsolete("目前没什么用")>
+
+      Public Shared Function UseNewtonsoftJsonOptions(builder As IApplicationBuilder, [option] As Action(Of INewtonsoftJsonOptions) = Nothing) As IApplicationBuilder
+  overload: System.Extention.UseNewtonsoftJsonOptions*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 目前没什么用
+  nameWithType.vb: Extention.UseNewtonsoftJsonOptions(IApplicationBuilder, Action(Of INewtonsoftJsonOptions))
+  fullName.vb: System.Extention.UseNewtonsoftJsonOptions(System.IApplicationBuilder, System.Action(Of H.Extensions.NewtonsoftJson.INewtonsoftJsonOptions))
+  name.vb: UseNewtonsoftJsonOptions(IApplicationBuilder, Action(Of INewtonsoftJsonOptions))
+- uid: System.Extention.AddIOFolderDialogService(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  commentId: M:System.Extention.AddIOFolderDialogService(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  id: AddIOFolderDialogService(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  isExtensionMethod: true
+  parent: System.Extention
+  langs:
+  - csharp
+  - vb
+  name: AddIOFolderDialogService(IServiceCollection)
+  nameWithType: Extention.AddIOFolderDialogService(IServiceCollection)
+  fullName: System.Extention.AddIOFolderDialogService(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  type: Method
+  source:
+    id: AddIOFolderDialogService
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.OpenFolderDialog\Extention.cs
+    startLine: 17
+  assemblies:
+  - H.Extensions.OpenFolderDialog
+  namespace: System
+  syntax:
+    content: public static IServiceCollection AddIOFolderDialogService(this IServiceCollection services)
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    return:
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    content.vb: Public Shared Function AddIOFolderDialogService(services As IServiceCollection) As IServiceCollection
+  overload: System.Extention.AddIOFolderDialogService*
+- uid: System.Extention.AddIOFolderDialogService``1(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  commentId: M:System.Extention.AddIOFolderDialogService``1(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  id: AddIOFolderDialogService``1(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  isExtensionMethod: true
+  parent: System.Extention
+  langs:
+  - csharp
+  - vb
+  name: AddIOFolderDialogService<T>(IServiceCollection)
+  nameWithType: Extention.AddIOFolderDialogService<T>(IServiceCollection)
+  fullName: System.Extention.AddIOFolderDialogService<T>(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  type: Method
+  source:
+    id: AddIOFolderDialogService
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.OpenFolderDialog\Extention.cs
+    startLine: 22
+  assemblies:
+  - H.Extensions.OpenFolderDialog
+  namespace: System
+  syntax:
+    content: 'public static IServiceCollection AddIOFolderDialogService<T>(this IServiceCollection services) where T : class, IIOFolderDialogService'
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    typeParameters:
+    - id: T
+    return:
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    content.vb: Public Shared Function AddIOFolderDialogService(Of T As {Class, IIOFolderDialogService})(services As IServiceCollection) As IServiceCollection
+  overload: System.Extention.AddIOFolderDialogService*
+  nameWithType.vb: Extention.AddIOFolderDialogService(Of T)(IServiceCollection)
+  fullName.vb: System.Extention.AddIOFolderDialogService(Of T)(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  name.vb: AddIOFolderDialogService(Of T)(IServiceCollection)
+- uid: System.Extention.AddApplicationServices(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.ApplicationBases.Default.IDefaultApplicationOptions})
+  commentId: M:System.Extention.AddApplicationServices(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.ApplicationBases.Default.IDefaultApplicationOptions})
+  id: AddApplicationServices(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.ApplicationBases.Default.IDefaultApplicationOptions})
+  isExtensionMethod: true
+  parent: System.Extention
+  langs:
+  - csharp
+  - vb
+  name: AddApplicationServices(IServiceCollection, Action<IDefaultApplicationOptions>)
+  nameWithType: Extention.AddApplicationServices(IServiceCollection, Action<IDefaultApplicationOptions>)
+  fullName: System.Extention.AddApplicationServices(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<H.ApplicationBases.Default.IDefaultApplicationOptions>)
+  type: Method
+  source:
+    id: AddApplicationServices
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\ApplicationBases\H.ApplicationBases.Default\Extention.cs
+    startLine: 21
+  assemblies:
+  - H.ApplicationBases.Default
+  namespace: System
+  summary: 注册
+  example: []
+  syntax:
+    content: public static void AddApplicationServices(this IServiceCollection services, Action<IDefaultApplicationOptions> options = null)
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    - id: options
+      type: System.Action{H.ApplicationBases.Default.IDefaultApplicationOptions}
+    content.vb: Public Shared Sub AddApplicationServices(services As IServiceCollection, options As Action(Of IDefaultApplicationOptions) = Nothing)
+  overload: System.Extention.AddApplicationServices*
+  nameWithType.vb: Extention.AddApplicationServices(IServiceCollection, Action(Of IDefaultApplicationOptions))
+  fullName.vb: System.Extention.AddApplicationServices(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action(Of H.ApplicationBases.Default.IDefaultApplicationOptions))
+  name.vb: AddApplicationServices(IServiceCollection, Action(Of IDefaultApplicationOptions))
+- uid: System.Extention.UseApplicationOptions(System.IApplicationBuilder,System.Action{H.ApplicationBases.Default.IDefaultApplicationOptions})
+  commentId: M:System.Extention.UseApplicationOptions(System.IApplicationBuilder,System.Action{H.ApplicationBases.Default.IDefaultApplicationOptions})
+  id: UseApplicationOptions(System.IApplicationBuilder,System.Action{H.ApplicationBases.Default.IDefaultApplicationOptions})
+  isExtensionMethod: true
+  parent: System.Extention
+  langs:
+  - csharp
+  - vb
+  name: UseApplicationOptions(IApplicationBuilder, Action<IDefaultApplicationOptions>)
+  nameWithType: Extention.UseApplicationOptions(IApplicationBuilder, Action<IDefaultApplicationOptions>)
+  fullName: System.Extention.UseApplicationOptions(System.IApplicationBuilder, System.Action<H.ApplicationBases.Default.IDefaultApplicationOptions>)
+  type: Method
+  source:
+    id: UseApplicationOptions
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\ApplicationBases\H.ApplicationBases.Default\Extention.cs
+    startLine: 31
+  assemblies:
+  - H.ApplicationBases.Default
+  namespace: System
+  syntax:
+    content: public static void UseApplicationOptions(this IApplicationBuilder app, Action<IDefaultApplicationOptions> options = null)
+    parameters:
+    - id: app
+      type: System.IApplicationBuilder
+    - id: options
+      type: System.Action{H.ApplicationBases.Default.IDefaultApplicationOptions}
+    content.vb: Public Shared Sub UseApplicationOptions(app As IApplicationBuilder, options As Action(Of IDefaultApplicationOptions) = Nothing)
+  overload: System.Extention.UseApplicationOptions*
+  nameWithType.vb: Extention.UseApplicationOptions(IApplicationBuilder, Action(Of IDefaultApplicationOptions))
+  fullName.vb: System.Extention.UseApplicationOptions(System.IApplicationBuilder, System.Action(Of H.ApplicationBases.Default.IDefaultApplicationOptions))
+  name.vb: UseApplicationOptions(IApplicationBuilder, Action(Of IDefaultApplicationOptions))
+- uid: System.Extention.AddSponsor(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  commentId: M:System.Extention.AddSponsor(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  id: AddSponsor(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  isExtensionMethod: true
+  parent: System.Extention
+  langs:
+  - csharp
+  - vb
+  name: AddSponsor(IServiceCollection)
+  nameWithType: Extention.AddSponsor(IServiceCollection)
+  fullName: System.Extention.AddSponsor(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  type: Method
+  source:
+    id: AddSponsor
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Modules\H.Modules.Sponsor\Extention.cs
+    startLine: 19
+  assemblies:
+  - H.Modules.Sponsor
+  namespace: System
+  summary: 注册
+  example: []
+  syntax:
+    content: public static void AddSponsor(this IServiceCollection services)
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    content.vb: Public Shared Sub AddSponsor(services As IServiceCollection)
+  overload: System.Extention.AddSponsor*
+- uid: System.Extention.AddDefaultMessages(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  commentId: M:System.Extention.AddDefaultMessages(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  id: AddDefaultMessages(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  isExtensionMethod: true
+  parent: System.Extention
+  langs:
+  - csharp
+  - vb
+  name: AddDefaultMessages(IServiceCollection)
+  nameWithType: Extention.AddDefaultMessages(IServiceCollection)
+  fullName: System.Extention.AddDefaultMessages(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  type: Method
+  source:
+    id: AddDefaultMessages
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\ApplicationBases\H.ApplicationBases.Messages\Extention.cs
+    startLine: 14
+  assemblies:
+  - H.ApplicationBases.Messages
+  namespace: System
+  syntax:
+    content: public static void AddDefaultMessages(this IServiceCollection services)
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    content.vb: Public Shared Sub AddDefaultMessages(services As IServiceCollection)
+  overload: System.Extention.AddDefaultMessages*
+- uid: System.Extention.AddDefaultModuleServices(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.ApplicationBases.Modules.IDefaultModuleOptions})
+  commentId: M:System.Extention.AddDefaultModuleServices(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.ApplicationBases.Modules.IDefaultModuleOptions})
+  id: AddDefaultModuleServices(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.ApplicationBases.Modules.IDefaultModuleOptions})
+  isExtensionMethod: true
+  parent: System.Extention
+  langs:
+  - csharp
+  - vb
+  name: AddDefaultModuleServices(IServiceCollection, Action<IDefaultModuleOptions>)
+  nameWithType: Extention.AddDefaultModuleServices(IServiceCollection, Action<IDefaultModuleOptions>)
+  fullName: System.Extention.AddDefaultModuleServices(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<H.ApplicationBases.Modules.IDefaultModuleOptions>)
+  type: Method
+  source:
+    id: AddDefaultModuleServices
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\ApplicationBases\H.ApplicationBases.Modules\Extention.cs
+    startLine: 29
+  assemblies:
+  - H.ApplicationBases.Modules
+  namespace: System
+  summary: 注册
+  example: []
+  syntax:
+    content: public static void AddDefaultModuleServices(this IServiceCollection services, Action<IDefaultModuleOptions> options = null)
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    - id: options
+      type: System.Action{H.ApplicationBases.Modules.IDefaultModuleOptions}
+    content.vb: Public Shared Sub AddDefaultModuleServices(services As IServiceCollection, options As Action(Of IDefaultModuleOptions) = Nothing)
+  overload: System.Extention.AddDefaultModuleServices*
+  nameWithType.vb: Extention.AddDefaultModuleServices(IServiceCollection, Action(Of IDefaultModuleOptions))
+  fullName.vb: System.Extention.AddDefaultModuleServices(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action(Of H.ApplicationBases.Modules.IDefaultModuleOptions))
+  name.vb: AddDefaultModuleServices(IServiceCollection, Action(Of IDefaultModuleOptions))
+- uid: System.Extention.UseDefaultModuleOptions(System.IApplicationBuilder,System.Action{H.ApplicationBases.Modules.IDefaultModuleOptions})
+  commentId: M:System.Extention.UseDefaultModuleOptions(System.IApplicationBuilder,System.Action{H.ApplicationBases.Modules.IDefaultModuleOptions})
+  id: UseDefaultModuleOptions(System.IApplicationBuilder,System.Action{H.ApplicationBases.Modules.IDefaultModuleOptions})
+  isExtensionMethod: true
+  parent: System.Extention
+  langs:
+  - csharp
+  - vb
+  name: UseDefaultModuleOptions(IApplicationBuilder, Action<IDefaultModuleOptions>)
+  nameWithType: Extention.UseDefaultModuleOptions(IApplicationBuilder, Action<IDefaultModuleOptions>)
+  fullName: System.Extention.UseDefaultModuleOptions(System.IApplicationBuilder, System.Action<H.ApplicationBases.Modules.IDefaultModuleOptions>)
+  type: Method
+  source:
+    id: UseDefaultModuleOptions
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\ApplicationBases\H.ApplicationBases.Modules\Extention.cs
+    startLine: 45
+  assemblies:
+  - H.ApplicationBases.Modules
+  namespace: System
+  syntax:
+    content: public static void UseDefaultModuleOptions(this IApplicationBuilder app, Action<IDefaultModuleOptions> options = null)
+    parameters:
+    - id: app
+      type: System.IApplicationBuilder
+    - id: options
+      type: System.Action{H.ApplicationBases.Modules.IDefaultModuleOptions}
+    content.vb: Public Shared Sub UseDefaultModuleOptions(app As IApplicationBuilder, options As Action(Of IDefaultModuleOptions) = Nothing)
+  overload: System.Extention.UseDefaultModuleOptions*
+  nameWithType.vb: Extention.UseDefaultModuleOptions(IApplicationBuilder, Action(Of IDefaultModuleOptions))
+  fullName.vb: System.Extention.UseDefaultModuleOptions(System.IApplicationBuilder, System.Action(Of H.ApplicationBases.Modules.IDefaultModuleOptions))
+  name.vb: UseDefaultModuleOptions(IApplicationBuilder, Action(Of IDefaultModuleOptions))
+- uid: System.Extention.AddDefaultThemeServices(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.ApplicationBases.Themes.IDefaultThemeOptions})
+  commentId: M:System.Extention.AddDefaultThemeServices(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.ApplicationBases.Themes.IDefaultThemeOptions})
+  id: AddDefaultThemeServices(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.ApplicationBases.Themes.IDefaultThemeOptions})
+  isExtensionMethod: true
+  parent: System.Extention
+  langs:
+  - csharp
+  - vb
+  name: AddDefaultThemeServices(IServiceCollection, Action<IDefaultThemeOptions>)
+  nameWithType: Extention.AddDefaultThemeServices(IServiceCollection, Action<IDefaultThemeOptions>)
+  fullName: System.Extention.AddDefaultThemeServices(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<H.ApplicationBases.Themes.IDefaultThemeOptions>)
+  type: Method
+  source:
+    id: AddDefaultThemeServices
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\ApplicationBases\H.ApplicationBases.Themes\Extention.cs
+    startLine: 32
+  assemblies:
+  - H.ApplicationBases.Themes
+  namespace: System
+  summary: 注册
+  example: []
+  syntax:
+    content: public static void AddDefaultThemeServices(this IServiceCollection services, Action<IDefaultThemeOptions> option = null)
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    - id: option
+      type: System.Action{H.ApplicationBases.Themes.IDefaultThemeOptions}
+    content.vb: Public Shared Sub AddDefaultThemeServices(services As IServiceCollection, [option] As Action(Of IDefaultThemeOptions) = Nothing)
+  overload: System.Extention.AddDefaultThemeServices*
+  nameWithType.vb: Extention.AddDefaultThemeServices(IServiceCollection, Action(Of IDefaultThemeOptions))
+  fullName.vb: System.Extention.AddDefaultThemeServices(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action(Of H.ApplicationBases.Themes.IDefaultThemeOptions))
+  name.vb: AddDefaultThemeServices(IServiceCollection, Action(Of IDefaultThemeOptions))
+- uid: System.Extention.UseDefaultThemeOptions(System.IApplicationBuilder,System.Action{H.ApplicationBases.Themes.IDefaultThemeOptions})
+  commentId: M:System.Extention.UseDefaultThemeOptions(System.IApplicationBuilder,System.Action{H.ApplicationBases.Themes.IDefaultThemeOptions})
+  id: UseDefaultThemeOptions(System.IApplicationBuilder,System.Action{H.ApplicationBases.Themes.IDefaultThemeOptions})
+  isExtensionMethod: true
+  parent: System.Extention
+  langs:
+  - csharp
+  - vb
+  name: UseDefaultThemeOptions(IApplicationBuilder, Action<IDefaultThemeOptions>)
+  nameWithType: Extention.UseDefaultThemeOptions(IApplicationBuilder, Action<IDefaultThemeOptions>)
+  fullName: System.Extention.UseDefaultThemeOptions(System.IApplicationBuilder, System.Action<H.ApplicationBases.Themes.IDefaultThemeOptions>)
+  type: Method
+  source:
+    id: UseDefaultThemeOptions
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\ApplicationBases\H.ApplicationBases.Themes\Extention.cs
+    startLine: 42
+  assemblies:
+  - H.ApplicationBases.Themes
+  namespace: System
+  syntax:
+    content: public static void UseDefaultThemeOptions(this IApplicationBuilder app, Action<IDefaultThemeOptions> option = null)
+    parameters:
+    - id: app
+      type: System.IApplicationBuilder
+    - id: option
+      type: System.Action{H.ApplicationBases.Themes.IDefaultThemeOptions}
+    content.vb: Public Shared Sub UseDefaultThemeOptions(app As IApplicationBuilder, [option] As Action(Of IDefaultThemeOptions) = Nothing)
+  overload: System.Extention.UseDefaultThemeOptions*
+  nameWithType.vb: Extention.UseDefaultThemeOptions(IApplicationBuilder, Action(Of IDefaultThemeOptions))
+  fullName.vb: System.Extention.UseDefaultThemeOptions(System.IApplicationBuilder, System.Action(Of H.ApplicationBases.Themes.IDefaultThemeOptions))
+  name.vb: UseDefaultThemeOptions(IApplicationBuilder, Action(Of IDefaultThemeOptions))
+- uid: System.Extention.UseDefaultColorResources(System.IApplicationBuilder,System.Action{H.Modules.Theme.IColorThemeOptions})
+  commentId: M:System.Extention.UseDefaultColorResources(System.IApplicationBuilder,System.Action{H.Modules.Theme.IColorThemeOptions})
+  id: UseDefaultColorResources(System.IApplicationBuilder,System.Action{H.Modules.Theme.IColorThemeOptions})
+  isExtensionMethod: true
+  parent: System.Extention
+  langs:
+  - csharp
+  - vb
+  name: UseDefaultColorResources(IApplicationBuilder, Action<IColorThemeOptions>)
+  nameWithType: Extention.UseDefaultColorResources(IApplicationBuilder, Action<IColorThemeOptions>)
+  fullName: System.Extention.UseDefaultColorResources(System.IApplicationBuilder, System.Action<H.Modules.Theme.IColorThemeOptions>)
+  type: Method
+  source:
+    id: UseDefaultColorResources
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\ApplicationBases\H.ApplicationBases.Themes\Extention.cs
+    startLine: 50
+  assemblies:
+  - H.ApplicationBases.Themes
+  namespace: System
+  syntax:
+    content: public static void UseDefaultColorResources(this IApplicationBuilder app, Action<IColorThemeOptions> option = null)
+    parameters:
+    - id: app
+      type: System.IApplicationBuilder
+    - id: option
+      type: System.Action{H.Modules.Theme.IColorThemeOptions}
+    content.vb: Public Shared Sub UseDefaultColorResources(app As IApplicationBuilder, [option] As Action(Of IColorThemeOptions) = Nothing)
+  overload: System.Extention.UseDefaultColorResources*
+  nameWithType.vb: Extention.UseDefaultColorResources(IApplicationBuilder, Action(Of IColorThemeOptions))
+  fullName.vb: System.Extention.UseDefaultColorResources(System.IApplicationBuilder, System.Action(Of H.Modules.Theme.IColorThemeOptions))
+  name.vb: UseDefaultColorResources(IApplicationBuilder, Action(Of IColorThemeOptions))
+- uid: System.Extention.UseDefaultIconFontFamilys(System.IApplicationBuilder,System.Action{H.Modules.Theme.IIconFontFamilysOptions})
+  commentId: M:System.Extention.UseDefaultIconFontFamilys(System.IApplicationBuilder,System.Action{H.Modules.Theme.IIconFontFamilysOptions})
+  id: UseDefaultIconFontFamilys(System.IApplicationBuilder,System.Action{H.Modules.Theme.IIconFontFamilysOptions})
+  isExtensionMethod: true
+  parent: System.Extention
+  langs:
+  - csharp
+  - vb
+  name: UseDefaultIconFontFamilys(IApplicationBuilder, Action<IIconFontFamilysOptions>)
+  nameWithType: Extention.UseDefaultIconFontFamilys(IApplicationBuilder, Action<IIconFontFamilysOptions>)
+  fullName: System.Extention.UseDefaultIconFontFamilys(System.IApplicationBuilder, System.Action<H.Modules.Theme.IIconFontFamilysOptions>)
+  type: Method
+  source:
+    id: UseDefaultIconFontFamilys
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\ApplicationBases\H.ApplicationBases.Themes\Extention.cs
+    startLine: 95
+  assemblies:
+  - H.ApplicationBases.Themes
+  namespace: System
+  syntax:
+    content: public static void UseDefaultIconFontFamilys(this IApplicationBuilder app, Action<IIconFontFamilysOptions> option = null)
+    parameters:
+    - id: app
+      type: System.IApplicationBuilder
+    - id: option
+      type: System.Action{H.Modules.Theme.IIconFontFamilysOptions}
+    content.vb: Public Shared Sub UseDefaultIconFontFamilys(app As IApplicationBuilder, [option] As Action(Of IIconFontFamilysOptions) = Nothing)
+  overload: System.Extention.UseDefaultIconFontFamilys*
+  nameWithType.vb: Extention.UseDefaultIconFontFamilys(IApplicationBuilder, Action(Of IIconFontFamilysOptions))
+  fullName.vb: System.Extention.UseDefaultIconFontFamilys(System.IApplicationBuilder, System.Action(Of H.Modules.Theme.IIconFontFamilysOptions))
+  name.vb: UseDefaultIconFontFamilys(IApplicationBuilder, Action(Of IIconFontFamilysOptions))
+- uid: System.Extention.AddIdentifyDefaultServices(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.ApplicationBases.Identify.IDefaultIndentifyOptions})
+  commentId: M:System.Extention.AddIdentifyDefaultServices(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.ApplicationBases.Identify.IDefaultIndentifyOptions})
+  id: AddIdentifyDefaultServices(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.ApplicationBases.Identify.IDefaultIndentifyOptions})
+  isExtensionMethod: true
+  parent: System.Extention
+  langs:
+  - csharp
+  - vb
+  name: AddIdentifyDefaultServices(IServiceCollection, Action<IDefaultIndentifyOptions>)
+  nameWithType: Extention.AddIdentifyDefaultServices(IServiceCollection, Action<IDefaultIndentifyOptions>)
+  fullName: System.Extention.AddIdentifyDefaultServices(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<H.ApplicationBases.Identify.IDefaultIndentifyOptions>)
+  type: Method
+  source:
+    id: AddIdentifyDefaultServices
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\ApplicationBases\H.ApplicationBases.Identify\Extention.cs
+    startLine: 25
+  assemblies:
+  - H.ApplicationBases.Identify
+  namespace: System
+  summary: 注册
+  example: []
+  syntax:
+    content: public static void AddIdentifyDefaultServices(this IServiceCollection services, Action<IDefaultIndentifyOptions> options = null)
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    - id: options
+      type: System.Action{H.ApplicationBases.Identify.IDefaultIndentifyOptions}
+    content.vb: Public Shared Sub AddIdentifyDefaultServices(services As IServiceCollection, options As Action(Of IDefaultIndentifyOptions) = Nothing)
+  overload: System.Extention.AddIdentifyDefaultServices*
+  nameWithType.vb: Extention.AddIdentifyDefaultServices(IServiceCollection, Action(Of IDefaultIndentifyOptions))
+  fullName.vb: System.Extention.AddIdentifyDefaultServices(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action(Of H.ApplicationBases.Identify.IDefaultIndentifyOptions))
+  name.vb: AddIdentifyDefaultServices(IServiceCollection, Action(Of IDefaultIndentifyOptions))
+- uid: System.Extention.UseIdentifyDefaultOptions(System.IApplicationBuilder,System.Action{H.ApplicationBases.Identify.IDefaultIndentifyOptions})
+  commentId: M:System.Extention.UseIdentifyDefaultOptions(System.IApplicationBuilder,System.Action{H.ApplicationBases.Identify.IDefaultIndentifyOptions})
+  id: UseIdentifyDefaultOptions(System.IApplicationBuilder,System.Action{H.ApplicationBases.Identify.IDefaultIndentifyOptions})
+  isExtensionMethod: true
+  parent: System.Extention
+  langs:
+  - csharp
+  - vb
+  name: UseIdentifyDefaultOptions(IApplicationBuilder, Action<IDefaultIndentifyOptions>)
+  nameWithType: Extention.UseIdentifyDefaultOptions(IApplicationBuilder, Action<IDefaultIndentifyOptions>)
+  fullName: System.Extention.UseIdentifyDefaultOptions(System.IApplicationBuilder, System.Action<H.ApplicationBases.Identify.IDefaultIndentifyOptions>)
+  type: Method
+  source:
+    id: UseIdentifyDefaultOptions
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\ApplicationBases\H.ApplicationBases.Identify\Extention.cs
+    startLine: 51
+  assemblies:
+  - H.ApplicationBases.Identify
+  namespace: System
+  syntax:
+    content: public static void UseIdentifyDefaultOptions(this IApplicationBuilder app, Action<IDefaultIndentifyOptions> options = null)
+    parameters:
+    - id: app
+      type: System.IApplicationBuilder
+    - id: options
+      type: System.Action{H.ApplicationBases.Identify.IDefaultIndentifyOptions}
+    content.vb: Public Shared Sub UseIdentifyDefaultOptions(app As IApplicationBuilder, options As Action(Of IDefaultIndentifyOptions) = Nothing)
+  overload: System.Extention.UseIdentifyDefaultOptions*
+  nameWithType.vb: Extention.UseIdentifyDefaultOptions(IApplicationBuilder, Action(Of IDefaultIndentifyOptions))
+  fullName.vb: System.Extention.UseIdentifyDefaultOptions(System.IApplicationBuilder, System.Action(Of H.ApplicationBases.Identify.IDefaultIndentifyOptions))
+  name.vb: UseIdentifyDefaultOptions(IApplicationBuilder, Action(Of IDefaultIndentifyOptions))
+references:
+- uid: System
+  commentId: N:System
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Extention.AddAbout*
+  commentId: Overload:System.Extention.AddAbout
+  href: System.Extention.html#System_Extention_AddAbout_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_Action_H_Modules_About_IAboutOptions__
+  name: AddAbout
+  nameWithType: Extention.AddAbout
+  fullName: System.Extention.AddAbout
+- uid: Microsoft.Extensions.DependencyInjection.IServiceCollection
+  commentId: T:Microsoft.Extensions.DependencyInjection.IServiceCollection
+  parent: Microsoft.Extensions.DependencyInjection
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection.iservicecollection
+  name: IServiceCollection
+  nameWithType: IServiceCollection
+  fullName: Microsoft.Extensions.DependencyInjection.IServiceCollection
+- uid: System.Action{H.Modules.About.IAboutOptions}
+  commentId: T:System.Action{H.Modules.About.IAboutOptions}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<IAboutOptions>
+  nameWithType: Action<IAboutOptions>
+  fullName: System.Action<H.Modules.About.IAboutOptions>
+  nameWithType.vb: Action(Of IAboutOptions)
+  fullName.vb: System.Action(Of H.Modules.About.IAboutOptions)
+  name.vb: Action(Of IAboutOptions)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: H.Modules.About.IAboutOptions
+    name: IAboutOptions
+    href: H.Modules.About.IAboutOptions.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.Modules.About.IAboutOptions
+    name: IAboutOptions
+    href: H.Modules.About.IAboutOptions.html
+  - name: )
+- uid: Microsoft.Extensions.DependencyInjection
+  commentId: N:Microsoft.Extensions.DependencyInjection
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Extensions.DependencyInjection
+  nameWithType: Microsoft.Extensions.DependencyInjection
+  fullName: Microsoft.Extensions.DependencyInjection
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.DependencyInjection
+    name: DependencyInjection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.DependencyInjection
+    name: DependencyInjection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Extention.UseAboutOptions*
+  commentId: Overload:System.Extention.UseAboutOptions
+  href: System.Extention.html#System_Extention_UseAboutOptions_System_IApplicationBuilder_System_Action_H_Modules_About_IAboutOptions__
+  name: UseAboutOptions
+  nameWithType: Extention.UseAboutOptions
+  fullName: System.Extention.UseAboutOptions
+- uid: System.IApplicationBuilder
+  commentId: T:System.IApplicationBuilder
+  parent: System
+  href: System.IApplicationBuilder.html
+  name: IApplicationBuilder
+  nameWithType: IApplicationBuilder
+  fullName: System.IApplicationBuilder
+- uid: System.Extention.AddUserViewPresenter*
+  commentId: Overload:System.Extention.AddUserViewPresenter
+  href: System.Extention.html#System_Extention_AddUserViewPresenter_Microsoft_Extensions_DependencyInjection_IServiceCollection_
+  name: AddUserViewPresenter
+  nameWithType: Extention.AddUserViewPresenter
+  fullName: System.Extention.AddUserViewPresenter
+- uid: System.Extention.AddIdentityLoginService*
+  commentId: Overload:System.Extention.AddIdentityLoginService
+  href: System.Extention.html#System_Extention_AddIdentityLoginService_Microsoft_Extensions_DependencyInjection_IServiceCollection_
+  name: AddIdentityLoginService
+  nameWithType: Extention.AddIdentityLoginService
+  fullName: System.Extention.AddIdentityLoginService
+- uid: System.Extention.AddIdentityRegisterService*
+  commentId: Overload:System.Extention.AddIdentityRegisterService
+  href: System.Extention.html#System_Extention_AddIdentityRegisterService_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_Action_H_Modules_Identity_IIdentifyOptions__
+  name: AddIdentityRegisterService
+  nameWithType: Extention.AddIdentityRegisterService
+  fullName: System.Extention.AddIdentityRegisterService
+- uid: System.Action{H.Modules.Identity.IIdentifyOptions}
+  commentId: T:System.Action{H.Modules.Identity.IIdentifyOptions}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<IIdentifyOptions>
+  nameWithType: Action<IIdentifyOptions>
+  fullName: System.Action<H.Modules.Identity.IIdentifyOptions>
+  nameWithType.vb: Action(Of IIdentifyOptions)
+  fullName.vb: System.Action(Of H.Modules.Identity.IIdentifyOptions)
+  name.vb: Action(Of IIdentifyOptions)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: H.Modules.Identity.IIdentifyOptions
+    name: IIdentifyOptions
+    href: H.Modules.Identity.IIdentifyOptions.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.Modules.Identity.IIdentifyOptions
+    name: IIdentifyOptions
+    href: H.Modules.Identity.IIdentifyOptions.html
+  - name: )
+- uid: System.Extention.AddRoleViewPresenter*
+  commentId: Overload:System.Extention.AddRoleViewPresenter
+  href: System.Extention.html#System_Extention_AddRoleViewPresenter_Microsoft_Extensions_DependencyInjection_IServiceCollection_
+  name: AddRoleViewPresenter
+  nameWithType: Extention.AddRoleViewPresenter
+  fullName: System.Extention.AddRoleViewPresenter
+- uid: System.Extention.AddAuthorityViewPresenter*
+  commentId: Overload:System.Extention.AddAuthorityViewPresenter
+  href: System.Extention.html#System_Extention_AddAuthorityViewPresenter_Microsoft_Extensions_DependencyInjection_IServiceCollection_
+  name: AddAuthorityViewPresenter
+  nameWithType: Extention.AddAuthorityViewPresenter
+  fullName: System.Extention.AddAuthorityViewPresenter
+- uid: System.Extention.UseIdentifyOptions*
+  commentId: Overload:System.Extention.UseIdentifyOptions
+  href: System.Extention.html#System_Extention_UseIdentifyOptions_System_IApplicationBuilder_System_Action_H_Modules_Identity_IIdentifyOptions__
+  name: UseIdentifyOptions
+  nameWithType: Extention.UseIdentifyOptions
+  fullName: System.Extention.UseIdentifyOptions
+- uid: System.Extention.BuildIdentifySeed*
+  commentId: Overload:System.Extention.BuildIdentifySeed
+  href: System.Extention.html#System_Extention_BuildIdentifySeed_Microsoft_EntityFrameworkCore_ModelBuilder_
+  name: BuildIdentifySeed
+  nameWithType: Extention.BuildIdentifySeed
+  fullName: System.Extention.BuildIdentifySeed
+- uid: Microsoft.EntityFrameworkCore.ModelBuilder
+  commentId: T:Microsoft.EntityFrameworkCore.ModelBuilder
+  parent: Microsoft.EntityFrameworkCore
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.modelbuilder
+  name: ModelBuilder
+  nameWithType: ModelBuilder
+  fullName: Microsoft.EntityFrameworkCore.ModelBuilder
+- uid: Microsoft.EntityFrameworkCore
+  commentId: N:Microsoft.EntityFrameworkCore
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.EntityFrameworkCore
+  nameWithType: Microsoft.EntityFrameworkCore
+  fullName: Microsoft.EntityFrameworkCore
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.EntityFrameworkCore
+    name: EntityFrameworkCore
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.EntityFrameworkCore
+    name: EntityFrameworkCore
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore
+- uid: System.Extention.AddOperationViewPresenter*
+  commentId: Overload:System.Extention.AddOperationViewPresenter
+  href: System.Extention.html#System_Extention_AddOperationViewPresenter_Microsoft_Extensions_DependencyInjection_IServiceCollection_
+  name: AddOperationViewPresenter
+  nameWithType: Extention.AddOperationViewPresenter
+  fullName: System.Extention.AddOperationViewPresenter
+- uid: System.Extention.AddOperationService*
+  commentId: Overload:System.Extention.AddOperationService
+  href: System.Extention.html#System_Extention_AddOperationService_Microsoft_Extensions_DependencyInjection_IServiceCollection_
+  name: AddOperationService
+  nameWithType: Extention.AddOperationService
+  fullName: System.Extention.AddOperationService
+- uid: System.Extention.AddLog4net*
+  commentId: Overload:System.Extention.AddLog4net
+  href: System.Extention.html#System_Extention_AddLog4net_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_Action_H_Extensions_Log4net_ILog4netOptions__
+  name: AddLog4net
+  nameWithType: Extention.AddLog4net
+  fullName: System.Extention.AddLog4net
+- uid: System.Action{H.Extensions.Log4net.ILog4netOptions}
+  commentId: T:System.Action{H.Extensions.Log4net.ILog4netOptions}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<ILog4netOptions>
+  nameWithType: Action<ILog4netOptions>
+  fullName: System.Action<H.Extensions.Log4net.ILog4netOptions>
+  nameWithType.vb: Action(Of ILog4netOptions)
+  fullName.vb: System.Action(Of H.Extensions.Log4net.ILog4netOptions)
+  name.vb: Action(Of ILog4netOptions)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: H.Extensions.Log4net.ILog4netOptions
+    name: ILog4netOptions
+    href: H.Extensions.Log4net.ILog4netOptions.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.Extensions.Log4net.ILog4netOptions
+    name: ILog4netOptions
+    href: H.Extensions.Log4net.ILog4netOptions.html
+  - name: )
+- uid: System.Extention.UseAddLog4netOptions*
+  commentId: Overload:System.Extention.UseAddLog4netOptions
+  href: System.Extention.html#System_Extention_UseAddLog4netOptions_System_IApplicationBuilder_System_Action_H_Extensions_Log4net_ILog4netOptions__
+  name: UseAddLog4netOptions
+  nameWithType: Extention.UseAddLog4netOptions
+  fullName: System.Extention.UseAddLog4netOptions
+- uid: System.Extention.AddAutoUpgrade*
+  commentId: Overload:System.Extention.AddAutoUpgrade
+  href: System.Extention.html#System_Extention_AddAutoUpgrade_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_Action_H_Modules_Upgrade_IUpgradeOptions__
+  name: AddAutoUpgrade
+  nameWithType: Extention.AddAutoUpgrade
+  fullName: System.Extention.AddAutoUpgrade
+- uid: System.Action{H.Modules.Upgrade.IUpgradeOptions}
+  commentId: T:System.Action{H.Modules.Upgrade.IUpgradeOptions}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<IUpgradeOptions>
+  nameWithType: Action<IUpgradeOptions>
+  fullName: System.Action<H.Modules.Upgrade.IUpgradeOptions>
+  nameWithType.vb: Action(Of IUpgradeOptions)
+  fullName.vb: System.Action(Of H.Modules.Upgrade.IUpgradeOptions)
+  name.vb: Action(Of IUpgradeOptions)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: H.Modules.Upgrade.IUpgradeOptions
+    name: IUpgradeOptions
+    href: H.Modules.Upgrade.IUpgradeOptions.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.Modules.Upgrade.IUpgradeOptions
+    name: IUpgradeOptions
+    href: H.Modules.Upgrade.IUpgradeOptions.html
+  - name: )
+- uid: System.Extention.UseUpgrade*
+  commentId: Overload:System.Extention.UseUpgrade
+  href: System.Extention.html#System_Extention_UseUpgrade_System_IApplicationBuilder_System_Action_H_Modules_Upgrade_UpgradeOptions__
+  name: UseUpgrade
+  nameWithType: Extention.UseUpgrade
+  fullName: System.Extention.UseUpgrade
+- uid: System.Action{H.Modules.Upgrade.UpgradeOptions}
+  commentId: T:System.Action{H.Modules.Upgrade.UpgradeOptions}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<UpgradeOptions>
+  nameWithType: Action<UpgradeOptions>
+  fullName: System.Action<H.Modules.Upgrade.UpgradeOptions>
+  nameWithType.vb: Action(Of UpgradeOptions)
+  fullName.vb: System.Action(Of H.Modules.Upgrade.UpgradeOptions)
+  name.vb: Action(Of UpgradeOptions)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: H.Modules.Upgrade.UpgradeOptions
+    name: UpgradeOptions
+    href: H.Modules.Upgrade.UpgradeOptions.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.Modules.Upgrade.UpgradeOptions
+    name: UpgradeOptions
+    href: H.Modules.Upgrade.UpgradeOptions.html
+  - name: )
+- uid: System.Extention.AddWindowDialogMessage*
+  commentId: Overload:System.Extention.AddWindowDialogMessage
+  href: System.Extention.html#System_Extention_AddWindowDialogMessage_Microsoft_Extensions_DependencyInjection_IServiceCollection_
+  name: AddWindowDialogMessage
+  nameWithType: Extention.AddWindowDialogMessage
+  fullName: System.Extention.AddWindowDialogMessage
+- uid: System.Extention.AddAdornerDialogMessage*
+  commentId: Overload:System.Extention.AddAdornerDialogMessage
+  href: System.Extention.html#System_Extention_AddAdornerDialogMessage_Microsoft_Extensions_DependencyInjection_IServiceCollection_
+  name: AddAdornerDialogMessage
+  nameWithType: Extention.AddAdornerDialogMessage
+  fullName: System.Extention.AddAdornerDialogMessage
+- uid: System.Extention.AddWindowMessage*
+  commentId: Overload:System.Extention.AddWindowMessage
+  href: System.Extention.html#System_Extention_AddWindowMessage_Microsoft_Extensions_DependencyInjection_IServiceCollection_
+  name: AddWindowMessage
+  nameWithType: Extention.AddWindowMessage
+  fullName: System.Extention.AddWindowMessage
+- uid: System.Extention.AddNoticeMessage*
+  commentId: Overload:System.Extention.AddNoticeMessage
+  href: System.Extention.html#System_Extention_AddNoticeMessage_Microsoft_Extensions_DependencyInjection_IServiceCollection_
+  name: AddNoticeMessage
+  nameWithType: Extention.AddNoticeMessage
+  fullName: System.Extention.AddNoticeMessage
+- uid: System.Extention.AddFormMessageService*
+  commentId: Overload:System.Extention.AddFormMessageService
+  href: System.Extention.html#System_Extention_AddFormMessageService_Microsoft_Extensions_DependencyInjection_IServiceCollection_
+  name: AddFormMessageService
+  nameWithType: Extention.AddFormMessageService
+  fullName: System.Extention.AddFormMessageService
+- uid: System.Extention.AddSnackMessage*
+  commentId: Overload:System.Extention.AddSnackMessage
+  href: System.Extention.html#System_Extention_AddSnackMessage_Microsoft_Extensions_DependencyInjection_IServiceCollection_
+  name: AddSnackMessage
+  nameWithType: Extention.AddSnackMessage
+  fullName: System.Extention.AddSnackMessage
+- uid: System.Extention.AddXmlMetaSettingService*
+  commentId: Overload:System.Extention.AddXmlMetaSettingService
+  href: System.Extention.html#System_Extention_AddXmlMetaSettingService_Microsoft_Extensions_DependencyInjection_IServiceCollection_
+  name: AddXmlMetaSettingService
+  nameWithType: Extention.AddXmlMetaSettingService
+  fullName: System.Extention.AddXmlMetaSettingService
+- uid: System.Extention.AddNpoiService*
+  commentId: Overload:System.Extention.AddNpoiService
+  href: System.Extention.html#System_Extention_AddNpoiService_Microsoft_Extensions_DependencyInjection_IServiceCollection_
+  name: AddNpoiService
+  nameWithType: Extention.AddNpoiService
+  fullName: System.Extention.AddNpoiService
+- uid: System.Extention.AddDESCryptService*
+  commentId: Overload:System.Extention.AddDESCryptService
+  href: System.Extention.html#System_Extention_AddDESCryptService_Microsoft_Extensions_DependencyInjection_IServiceCollection_
+  name: AddDESCryptService
+  nameWithType: Extention.AddDESCryptService
+  fullName: System.Extention.AddDESCryptService
+- uid: System.Extention.AddProject*
+  commentId: Overload:System.Extention.AddProject
+  href: System.Extention.html#System_Extention_AddProject_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_Action_H_Modules_Project_IProjectOptions__
+  name: AddProject
+  nameWithType: Extention.AddProject
+  fullName: System.Extention.AddProject
+- uid: System.Action{H.Modules.Project.IProjectOptions}
+  commentId: T:System.Action{H.Modules.Project.IProjectOptions}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<IProjectOptions>
+  nameWithType: Action<IProjectOptions>
+  fullName: System.Action<H.Modules.Project.IProjectOptions>
+  nameWithType.vb: Action(Of IProjectOptions)
+  fullName.vb: System.Action(Of H.Modules.Project.IProjectOptions)
+  name.vb: Action(Of IProjectOptions)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: H.Modules.Project.IProjectOptions
+    name: IProjectOptions
+    href: H.Modules.Project.IProjectOptions.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.Modules.Project.IProjectOptions
+    name: IProjectOptions
+    href: H.Modules.Project.IProjectOptions.html
+  - name: )
+- uid: System.Extention.UseProjectOptions*
+  commentId: Overload:System.Extention.UseProjectOptions
+  href: System.Extention.html#System_Extention_UseProjectOptions_System_IApplicationBuilder_System_Action_H_Modules_Project_ProjectOptions__
+  name: UseProjectOptions
+  nameWithType: Extention.UseProjectOptions
+  fullName: System.Extention.UseProjectOptions
+- uid: System.Action{H.Modules.Project.ProjectOptions}
+  commentId: T:System.Action{H.Modules.Project.ProjectOptions}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<ProjectOptions>
+  nameWithType: Action<ProjectOptions>
+  fullName: System.Action<H.Modules.Project.ProjectOptions>
+  nameWithType.vb: Action(Of ProjectOptions)
+  fullName.vb: System.Action(Of H.Modules.Project.ProjectOptions)
+  name.vb: Action(Of ProjectOptions)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: H.Modules.Project.ProjectOptions
+    name: ProjectOptions
+    href: H.Modules.Project.ProjectOptions.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.Modules.Project.ProjectOptions
+    name: ProjectOptions
+    href: H.Modules.Project.ProjectOptions.html
+  - name: )
+- uid: System.Extention.AddFFMpeg*
+  commentId: Overload:System.Extention.AddFFMpeg
+  href: System.Extention.html#System_Extention_AddFFMpeg_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_Action_H_Extensions_FFMpeg_IFFMpegOption__
+  name: AddFFMpeg
+  nameWithType: Extention.AddFFMpeg
+  fullName: System.Extention.AddFFMpeg
+- uid: System.Action{H.Extensions.FFMpeg.IFFMpegOption}
+  commentId: T:System.Action{H.Extensions.FFMpeg.IFFMpegOption}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<IFFMpegOption>
+  nameWithType: Action<IFFMpegOption>
+  fullName: System.Action<H.Extensions.FFMpeg.IFFMpegOption>
+  nameWithType.vb: Action(Of IFFMpegOption)
+  fullName.vb: System.Action(Of H.Extensions.FFMpeg.IFFMpegOption)
+  name.vb: Action(Of IFFMpegOption)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: H.Extensions.FFMpeg.IFFMpegOption
+    name: IFFMpegOption
+    href: H.Extensions.FFMpeg.IFFMpegOption.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.Extensions.FFMpeg.IFFMpegOption
+    name: IFFMpegOption
+    href: H.Extensions.FFMpeg.IFFMpegOption.html
+  - name: )
+- uid: System.Extention.UseFFMpeg*
+  commentId: Overload:System.Extention.UseFFMpeg
+  href: System.Extention.html#System_Extention_UseFFMpeg_System_IApplicationBuilder_System_Action_H_Extensions_FFMpeg_IFFMpegOption__
+  name: UseFFMpeg
+  nameWithType: Extention.UseFFMpeg
+  fullName: System.Extention.UseFFMpeg
+- uid: System.Extention.AddMail*
+  commentId: Overload:System.Extention.AddMail
+  href: System.Extention.html#System_Extention_AddMail_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_Action_H_Extensions_Mail_ISmtpSendOptions__
+  name: AddMail
+  nameWithType: Extention.AddMail
+  fullName: System.Extention.AddMail
+- uid: System.Action{H.Extensions.Mail.ISmtpSendOptions}
+  commentId: T:System.Action{H.Extensions.Mail.ISmtpSendOptions}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<ISmtpSendOptions>
+  nameWithType: Action<ISmtpSendOptions>
+  fullName: System.Action<H.Extensions.Mail.ISmtpSendOptions>
+  nameWithType.vb: Action(Of ISmtpSendOptions)
+  fullName.vb: System.Action(Of H.Extensions.Mail.ISmtpSendOptions)
+  name.vb: Action(Of ISmtpSendOptions)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: H.Extensions.Mail.ISmtpSendOptions
+    name: ISmtpSendOptions
+    href: H.Extensions.Mail.ISmtpSendOptions.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.Extensions.Mail.ISmtpSendOptions
+    name: ISmtpSendOptions
+    href: H.Extensions.Mail.ISmtpSendOptions.html
+  - name: )
+- uid: System.Extention.UseMailOptions*
+  commentId: Overload:System.Extention.UseMailOptions
+  href: System.Extention.html#System_Extention_UseMailOptions_System_IApplicationBuilder_System_Action_H_Extensions_Mail_ISmtpSendOptions__
+  name: UseMailOptions
+  nameWithType: Extention.UseMailOptions
+  fullName: System.Extention.UseMailOptions
+- uid: System.Extention.AddTypeLicense*
+  commentId: Overload:System.Extention.AddTypeLicense
+  href: System.Extention.html#System_Extention_AddTypeLicense_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_Action_H_Extensions_TypeLicense_ITypeLicenseOptions__
+  name: AddTypeLicense
+  nameWithType: Extention.AddTypeLicense
+  fullName: System.Extention.AddTypeLicense
+- uid: System.Action{H.Extensions.TypeLicense.ITypeLicenseOptions}
+  commentId: T:System.Action{H.Extensions.TypeLicense.ITypeLicenseOptions}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<ITypeLicenseOptions>
+  nameWithType: Action<ITypeLicenseOptions>
+  fullName: System.Action<H.Extensions.TypeLicense.ITypeLicenseOptions>
+  nameWithType.vb: Action(Of ITypeLicenseOptions)
+  fullName.vb: System.Action(Of H.Extensions.TypeLicense.ITypeLicenseOptions)
+  name.vb: Action(Of ITypeLicenseOptions)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: H.Extensions.TypeLicense.ITypeLicenseOptions
+    name: ITypeLicenseOptions
+    href: H.Extensions.TypeLicense.ITypeLicenseOptions.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.Extensions.TypeLicense.ITypeLicenseOptions
+    name: ITypeLicenseOptions
+    href: H.Extensions.TypeLicense.ITypeLicenseOptions.html
+  - name: )
+- uid: System.Extention.UseTypeLicenseOptions*
+  commentId: Overload:System.Extention.UseTypeLicenseOptions
+  href: System.Extention.html#System_Extention_UseTypeLicenseOptions_System_IApplicationBuilder_System_Action_H_Extensions_TypeLicense_ITypeLicenseOptions__
+  name: UseTypeLicenseOptions
+  nameWithType: Extention.UseTypeLicenseOptions
+  fullName: System.Extention.UseTypeLicenseOptions
+- uid: System.Extention.AddNewtonsoftJsonSerializerService*
+  commentId: Overload:System.Extention.AddNewtonsoftJsonSerializerService
+  href: System.Extention.html#System_Extention_AddNewtonsoftJsonSerializerService_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_Action_H_Extensions_NewtonsoftJson_INewtonsoftJsonOptions__
+  name: AddNewtonsoftJsonSerializerService
+  nameWithType: Extention.AddNewtonsoftJsonSerializerService
+  fullName: System.Extention.AddNewtonsoftJsonSerializerService
+- uid: System.Action{H.Extensions.NewtonsoftJson.INewtonsoftJsonOptions}
+  commentId: T:System.Action{H.Extensions.NewtonsoftJson.INewtonsoftJsonOptions}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<INewtonsoftJsonOptions>
+  nameWithType: Action<INewtonsoftJsonOptions>
+  fullName: System.Action<H.Extensions.NewtonsoftJson.INewtonsoftJsonOptions>
+  nameWithType.vb: Action(Of INewtonsoftJsonOptions)
+  fullName.vb: System.Action(Of H.Extensions.NewtonsoftJson.INewtonsoftJsonOptions)
+  name.vb: Action(Of INewtonsoftJsonOptions)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: H.Extensions.NewtonsoftJson.INewtonsoftJsonOptions
+    name: INewtonsoftJsonOptions
+    href: H.Extensions.NewtonsoftJson.INewtonsoftJsonOptions.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.Extensions.NewtonsoftJson.INewtonsoftJsonOptions
+    name: INewtonsoftJsonOptions
+    href: H.Extensions.NewtonsoftJson.INewtonsoftJsonOptions.html
+  - name: )
+- uid: System.Extention.UseNewtonsoftJsonOptions*
+  commentId: Overload:System.Extention.UseNewtonsoftJsonOptions
+  href: System.Extention.html#System_Extention_UseNewtonsoftJsonOptions_System_IApplicationBuilder_System_Action_H_Extensions_NewtonsoftJson_INewtonsoftJsonOptions__
+  name: UseNewtonsoftJsonOptions
+  nameWithType: Extention.UseNewtonsoftJsonOptions
+  fullName: System.Extention.UseNewtonsoftJsonOptions
+- uid: System.Extention.AddIOFolderDialogService*
+  commentId: Overload:System.Extention.AddIOFolderDialogService
+  href: System.Extention.html#System_Extention_AddIOFolderDialogService_Microsoft_Extensions_DependencyInjection_IServiceCollection_
+  name: AddIOFolderDialogService
+  nameWithType: Extention.AddIOFolderDialogService
+  fullName: System.Extention.AddIOFolderDialogService
+- uid: System.Extention.AddApplicationServices*
+  commentId: Overload:System.Extention.AddApplicationServices
+  href: System.Extention.html#System_Extention_AddApplicationServices_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_Action_H_ApplicationBases_Default_IDefaultApplicationOptions__
+  name: AddApplicationServices
+  nameWithType: Extention.AddApplicationServices
+  fullName: System.Extention.AddApplicationServices
+- uid: System.Action{H.ApplicationBases.Default.IDefaultApplicationOptions}
+  commentId: T:System.Action{H.ApplicationBases.Default.IDefaultApplicationOptions}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<IDefaultApplicationOptions>
+  nameWithType: Action<IDefaultApplicationOptions>
+  fullName: System.Action<H.ApplicationBases.Default.IDefaultApplicationOptions>
+  nameWithType.vb: Action(Of IDefaultApplicationOptions)
+  fullName.vb: System.Action(Of H.ApplicationBases.Default.IDefaultApplicationOptions)
+  name.vb: Action(Of IDefaultApplicationOptions)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: H.ApplicationBases.Default.IDefaultApplicationOptions
+    name: IDefaultApplicationOptions
+    href: H.ApplicationBases.Default.IDefaultApplicationOptions.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.ApplicationBases.Default.IDefaultApplicationOptions
+    name: IDefaultApplicationOptions
+    href: H.ApplicationBases.Default.IDefaultApplicationOptions.html
+  - name: )
+- uid: System.Extention.UseApplicationOptions*
+  commentId: Overload:System.Extention.UseApplicationOptions
+  href: System.Extention.html#System_Extention_UseApplicationOptions_System_IApplicationBuilder_System_Action_H_ApplicationBases_Default_IDefaultApplicationOptions__
+  name: UseApplicationOptions
+  nameWithType: Extention.UseApplicationOptions
+  fullName: System.Extention.UseApplicationOptions
+- uid: System.Extention.AddSponsor*
+  commentId: Overload:System.Extention.AddSponsor
+  href: System.Extention.html#System_Extention_AddSponsor_Microsoft_Extensions_DependencyInjection_IServiceCollection_
+  name: AddSponsor
+  nameWithType: Extention.AddSponsor
+  fullName: System.Extention.AddSponsor
+- uid: System.Extention.AddDefaultMessages*
+  commentId: Overload:System.Extention.AddDefaultMessages
+  href: System.Extention.html#System_Extention_AddDefaultMessages_Microsoft_Extensions_DependencyInjection_IServiceCollection_
+  name: AddDefaultMessages
+  nameWithType: Extention.AddDefaultMessages
+  fullName: System.Extention.AddDefaultMessages
+- uid: System.Extention.AddDefaultModuleServices*
+  commentId: Overload:System.Extention.AddDefaultModuleServices
+  href: System.Extention.html#System_Extention_AddDefaultModuleServices_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_Action_H_ApplicationBases_Modules_IDefaultModuleOptions__
+  name: AddDefaultModuleServices
+  nameWithType: Extention.AddDefaultModuleServices
+  fullName: System.Extention.AddDefaultModuleServices
+- uid: System.Action{H.ApplicationBases.Modules.IDefaultModuleOptions}
+  commentId: T:System.Action{H.ApplicationBases.Modules.IDefaultModuleOptions}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<IDefaultModuleOptions>
+  nameWithType: Action<IDefaultModuleOptions>
+  fullName: System.Action<H.ApplicationBases.Modules.IDefaultModuleOptions>
+  nameWithType.vb: Action(Of IDefaultModuleOptions)
+  fullName.vb: System.Action(Of H.ApplicationBases.Modules.IDefaultModuleOptions)
+  name.vb: Action(Of IDefaultModuleOptions)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: H.ApplicationBases.Modules.IDefaultModuleOptions
+    name: IDefaultModuleOptions
+    href: H.ApplicationBases.Modules.IDefaultModuleOptions.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.ApplicationBases.Modules.IDefaultModuleOptions
+    name: IDefaultModuleOptions
+    href: H.ApplicationBases.Modules.IDefaultModuleOptions.html
+  - name: )
+- uid: System.Extention.UseDefaultModuleOptions*
+  commentId: Overload:System.Extention.UseDefaultModuleOptions
+  href: System.Extention.html#System_Extention_UseDefaultModuleOptions_System_IApplicationBuilder_System_Action_H_ApplicationBases_Modules_IDefaultModuleOptions__
+  name: UseDefaultModuleOptions
+  nameWithType: Extention.UseDefaultModuleOptions
+  fullName: System.Extention.UseDefaultModuleOptions
+- uid: System.Extention.AddDefaultThemeServices*
+  commentId: Overload:System.Extention.AddDefaultThemeServices
+  href: System.Extention.html#System_Extention_AddDefaultThemeServices_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_Action_H_ApplicationBases_Themes_IDefaultThemeOptions__
+  name: AddDefaultThemeServices
+  nameWithType: Extention.AddDefaultThemeServices
+  fullName: System.Extention.AddDefaultThemeServices
+- uid: System.Action{H.ApplicationBases.Themes.IDefaultThemeOptions}
+  commentId: T:System.Action{H.ApplicationBases.Themes.IDefaultThemeOptions}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<IDefaultThemeOptions>
+  nameWithType: Action<IDefaultThemeOptions>
+  fullName: System.Action<H.ApplicationBases.Themes.IDefaultThemeOptions>
+  nameWithType.vb: Action(Of IDefaultThemeOptions)
+  fullName.vb: System.Action(Of H.ApplicationBases.Themes.IDefaultThemeOptions)
+  name.vb: Action(Of IDefaultThemeOptions)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: H.ApplicationBases.Themes.IDefaultThemeOptions
+    name: IDefaultThemeOptions
+    href: H.ApplicationBases.Themes.IDefaultThemeOptions.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.ApplicationBases.Themes.IDefaultThemeOptions
+    name: IDefaultThemeOptions
+    href: H.ApplicationBases.Themes.IDefaultThemeOptions.html
+  - name: )
+- uid: System.Extention.UseDefaultThemeOptions*
+  commentId: Overload:System.Extention.UseDefaultThemeOptions
+  href: System.Extention.html#System_Extention_UseDefaultThemeOptions_System_IApplicationBuilder_System_Action_H_ApplicationBases_Themes_IDefaultThemeOptions__
+  name: UseDefaultThemeOptions
+  nameWithType: Extention.UseDefaultThemeOptions
+  fullName: System.Extention.UseDefaultThemeOptions
+- uid: System.Extention.UseDefaultColorResources*
+  commentId: Overload:System.Extention.UseDefaultColorResources
+  href: System.Extention.html#System_Extention_UseDefaultColorResources_System_IApplicationBuilder_System_Action_H_Modules_Theme_IColorThemeOptions__
+  name: UseDefaultColorResources
+  nameWithType: Extention.UseDefaultColorResources
+  fullName: System.Extention.UseDefaultColorResources
+- uid: System.Action{H.Modules.Theme.IColorThemeOptions}
+  commentId: T:System.Action{H.Modules.Theme.IColorThemeOptions}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<IColorThemeOptions>
+  nameWithType: Action<IColorThemeOptions>
+  fullName: System.Action<H.Modules.Theme.IColorThemeOptions>
+  nameWithType.vb: Action(Of IColorThemeOptions)
+  fullName.vb: System.Action(Of H.Modules.Theme.IColorThemeOptions)
+  name.vb: Action(Of IColorThemeOptions)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: H.Modules.Theme.IColorThemeOptions
+    name: IColorThemeOptions
+    href: H.Modules.Theme.IColorThemeOptions.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.Modules.Theme.IColorThemeOptions
+    name: IColorThemeOptions
+    href: H.Modules.Theme.IColorThemeOptions.html
+  - name: )
+- uid: System.Extention.UseDefaultIconFontFamilys*
+  commentId: Overload:System.Extention.UseDefaultIconFontFamilys
+  href: System.Extention.html#System_Extention_UseDefaultIconFontFamilys_System_IApplicationBuilder_System_Action_H_Modules_Theme_IIconFontFamilysOptions__
+  name: UseDefaultIconFontFamilys
+  nameWithType: Extention.UseDefaultIconFontFamilys
+  fullName: System.Extention.UseDefaultIconFontFamilys
+- uid: System.Action{H.Modules.Theme.IIconFontFamilysOptions}
+  commentId: T:System.Action{H.Modules.Theme.IIconFontFamilysOptions}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<IIconFontFamilysOptions>
+  nameWithType: Action<IIconFontFamilysOptions>
+  fullName: System.Action<H.Modules.Theme.IIconFontFamilysOptions>
+  nameWithType.vb: Action(Of IIconFontFamilysOptions)
+  fullName.vb: System.Action(Of H.Modules.Theme.IIconFontFamilysOptions)
+  name.vb: Action(Of IIconFontFamilysOptions)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: H.Modules.Theme.IIconFontFamilysOptions
+    name: IIconFontFamilysOptions
+    href: H.Modules.Theme.IIconFontFamilysOptions.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.Modules.Theme.IIconFontFamilysOptions
+    name: IIconFontFamilysOptions
+    href: H.Modules.Theme.IIconFontFamilysOptions.html
+  - name: )
+- uid: System.Extention.AddIdentifyDefaultServices*
+  commentId: Overload:System.Extention.AddIdentifyDefaultServices
+  href: System.Extention.html#System_Extention_AddIdentifyDefaultServices_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_Action_H_ApplicationBases_Identify_IDefaultIndentifyOptions__
+  name: AddIdentifyDefaultServices
+  nameWithType: Extention.AddIdentifyDefaultServices
+  fullName: System.Extention.AddIdentifyDefaultServices
+- uid: System.Action{H.ApplicationBases.Identify.IDefaultIndentifyOptions}
+  commentId: T:System.Action{H.ApplicationBases.Identify.IDefaultIndentifyOptions}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<IDefaultIndentifyOptions>
+  nameWithType: Action<IDefaultIndentifyOptions>
+  fullName: System.Action<H.ApplicationBases.Identify.IDefaultIndentifyOptions>
+  nameWithType.vb: Action(Of IDefaultIndentifyOptions)
+  fullName.vb: System.Action(Of H.ApplicationBases.Identify.IDefaultIndentifyOptions)
+  name.vb: Action(Of IDefaultIndentifyOptions)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: H.ApplicationBases.Identify.IDefaultIndentifyOptions
+    name: IDefaultIndentifyOptions
+    href: H.ApplicationBases.Identify.IDefaultIndentifyOptions.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.ApplicationBases.Identify.IDefaultIndentifyOptions
+    name: IDefaultIndentifyOptions
+    href: H.ApplicationBases.Identify.IDefaultIndentifyOptions.html
+  - name: )
+- uid: System.Extention.UseIdentifyDefaultOptions*
+  commentId: Overload:System.Extention.UseIdentifyDefaultOptions
+  href: System.Extention.html#System_Extention_UseIdentifyDefaultOptions_System_IApplicationBuilder_System_Action_H_ApplicationBases_Identify_IDefaultIndentifyOptions__
+  name: UseIdentifyDefaultOptions
+  nameWithType: Extention.UseIdentifyDefaultOptions
+  fullName: System.Extention.UseIdentifyDefaultOptions

@@ -1,0 +1,105 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Data.Test
+  commentId: N:H.Data.Test
+  id: H.Data.Test
+  children:
+  - H.Data.Test.GetStudentExtension
+  - H.Data.Test.GetStudentsExtension
+  - H.Data.Test.GetTestBindablesExtension
+  - H.Data.Test.Student
+  - H.Data.Test.StudentValidationRule
+  - H.Data.Test.Students
+  - H.Data.Test.TestBindable
+  - H.Data.Test.TestBindables
+  langs:
+  - csharp
+  - vb
+  name: H.Data.Test
+  nameWithType: H.Data.Test
+  fullName: H.Data.Test
+  type: Namespace
+  assemblies:
+  - H.Data.Test
+references:
+- uid: H.Data.Test.GetStudentExtension
+  commentId: T:H.Data.Test.GetStudentExtension
+  href: H.Data.Test.GetStudentExtension.html
+  name: GetStudentExtension
+  nameWithType: GetStudentExtension
+  fullName: H.Data.Test.GetStudentExtension
+- uid: H.Data.Test.GetStudentsExtension
+  commentId: T:H.Data.Test.GetStudentsExtension
+  href: H.Data.Test.GetStudentsExtension.html
+  name: GetStudentsExtension
+  nameWithType: GetStudentsExtension
+  fullName: H.Data.Test.GetStudentsExtension
+- uid: H.Data.Test.GetTestBindablesExtension
+  commentId: T:H.Data.Test.GetTestBindablesExtension
+  href: H.Data.Test.GetTestBindablesExtension.html
+  name: GetTestBindablesExtension
+  nameWithType: GetTestBindablesExtension
+  fullName: H.Data.Test.GetTestBindablesExtension
+- uid: H.Data.Test.Student
+  commentId: T:H.Data.Test.Student
+  parent: H.Data.Test
+  href: H.Data.Test.Student.html
+  name: Student
+  nameWithType: Student
+  fullName: H.Data.Test.Student
+- uid: H.Data.Test.Students
+  commentId: T:H.Data.Test.Students
+  parent: H.Data.Test
+  href: H.Data.Test.Students.html
+  name: Students
+  nameWithType: Students
+  fullName: H.Data.Test.Students
+- uid: H.Data.Test.StudentValidationRule
+  commentId: T:H.Data.Test.StudentValidationRule
+  href: H.Data.Test.StudentValidationRule.html
+  name: StudentValidationRule
+  nameWithType: StudentValidationRule
+  fullName: H.Data.Test.StudentValidationRule
+- uid: H.Data.Test.TestBindable
+  commentId: T:H.Data.Test.TestBindable
+  href: H.Data.Test.TestBindable.html
+  name: TestBindable
+  nameWithType: TestBindable
+  fullName: H.Data.Test.TestBindable
+- uid: H.Data.Test.TestBindables
+  commentId: T:H.Data.Test.TestBindables
+  parent: H.Data.Test
+  href: H.Data.Test.TestBindables.html
+  name: TestBindables
+  nameWithType: TestBindables
+  fullName: H.Data.Test.TestBindables
+- uid: H.Data.Test
+  commentId: N:H.Data.Test
+  href: H.html
+  name: H.Data.Test
+  nameWithType: H.Data.Test
+  fullName: H.Data.Test
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Data
+    name: Data
+    href: H.Data.html
+  - name: .
+  - uid: H.Data.Test
+    name: Test
+    href: H.Data.Test.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Data
+    name: Data
+    href: H.Data.html
+  - name: .
+  - uid: H.Data.Test
+    name: Test
+    href: H.Data.Test.html

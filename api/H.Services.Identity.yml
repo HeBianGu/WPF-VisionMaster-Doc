@@ -1,0 +1,76 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Services.Identity
+  commentId: N:H.Services.Identity
+  id: H.Services.Identity
+  children:
+  - H.Services.Identity.ILoginService
+  - H.Services.Identity.ILoginViewPresenter
+  - H.Services.Identity.ILoginedSplashViewPresenter
+  - H.Services.Identity.IRegisterService
+  langs:
+  - csharp
+  - vb
+  name: H.Services.Identity
+  nameWithType: H.Services.Identity
+  fullName: H.Services.Identity
+  type: Namespace
+  assemblies:
+  - H.Services.Identity
+references:
+- uid: H.Services.Identity.ILoginedSplashViewPresenter
+  commentId: T:H.Services.Identity.ILoginedSplashViewPresenter
+  parent: H.Services.Identity
+  href: H.Services.Identity.ILoginedSplashViewPresenter.html
+  name: ILoginedSplashViewPresenter
+  nameWithType: ILoginedSplashViewPresenter
+  fullName: H.Services.Identity.ILoginedSplashViewPresenter
+- uid: H.Services.Identity.ILoginService
+  commentId: T:H.Services.Identity.ILoginService
+  href: H.Services.Identity.ILoginService.html
+  name: ILoginService
+  nameWithType: ILoginService
+  fullName: H.Services.Identity.ILoginService
+- uid: H.Services.Identity.ILoginViewPresenter
+  commentId: T:H.Services.Identity.ILoginViewPresenter
+  parent: H.Services.Identity
+  href: H.Services.Identity.ILoginViewPresenter.html
+  name: ILoginViewPresenter
+  nameWithType: ILoginViewPresenter
+  fullName: H.Services.Identity.ILoginViewPresenter
+- uid: H.Services.Identity.IRegisterService
+  commentId: T:H.Services.Identity.IRegisterService
+  href: H.Services.Identity.IRegisterService.html
+  name: IRegisterService
+  nameWithType: IRegisterService
+  fullName: H.Services.Identity.IRegisterService
+- uid: H.Services.Identity
+  commentId: N:H.Services.Identity
+  href: H.html
+  name: H.Services.Identity
+  nameWithType: H.Services.Identity
+  fullName: H.Services.Identity
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Identity
+    name: Identity
+    href: H.Services.Identity.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Identity
+    name: Identity
+    href: H.Services.Identity.html

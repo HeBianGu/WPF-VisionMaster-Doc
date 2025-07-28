@@ -1,0 +1,69 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Services.Message
+  commentId: N:H.Services.Message
+  id: H.Services.Message
+  children:
+  - H.Services.Message.DialogExtension
+  - H.Services.Message.FormMessageExtension
+  - H.Services.Message.IocMessage
+  langs:
+  - csharp
+  - vb
+  name: H.Services.Message
+  nameWithType: H.Services.Message
+  fullName: H.Services.Message
+  type: Namespace
+  assemblies:
+  - H.Services.Message
+references:
+- uid: H.Services.Message.DialogExtension
+  commentId: T:H.Services.Message.DialogExtension
+  parent: H.Services.Message
+  href: H.Services.Message.DialogExtension.html
+  name: DialogExtension
+  nameWithType: DialogExtension
+  fullName: H.Services.Message.DialogExtension
+- uid: H.Services.Message.FormMessageExtension
+  commentId: T:H.Services.Message.FormMessageExtension
+  parent: H.Services.Message
+  href: H.Services.Message.FormMessageExtension.html
+  name: FormMessageExtension
+  nameWithType: FormMessageExtension
+  fullName: H.Services.Message.FormMessageExtension
+- uid: H.Services.Message.IocMessage
+  commentId: T:H.Services.Message.IocMessage
+  href: H.Services.Message.IocMessage.html
+  name: IocMessage
+  nameWithType: IocMessage
+  fullName: H.Services.Message.IocMessage
+- uid: H.Services.Message
+  commentId: N:H.Services.Message
+  href: H.html
+  name: H.Services.Message
+  nameWithType: H.Services.Message
+  fullName: H.Services.Message
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Message
+    name: Message
+    href: H.Services.Message.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Message
+    name: Message
+    href: H.Services.Message.html

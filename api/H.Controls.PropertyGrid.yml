@@ -1,0 +1,1932 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.PropertyGrid
+  commentId: N:H.Controls.PropertyGrid
+  id: H.Controls.PropertyGrid
+  children:
+  - H.Controls.PropertyGrid.AdditionConverter
+  - H.Controls.PropertyGrid.AllowedSpecialValues
+  - H.Controls.PropertyGrid.AutoCompletingMaskEventArgs
+  - H.Controls.PropertyGrid.AutoSelectBehavior
+  - H.Controls.PropertyGrid.AutoSelectTextBox
+  - H.Controls.PropertyGrid.BorderThicknessToStrokeThicknessConverter
+  - H.Controls.PropertyGrid.ButtonChrome
+  - H.Controls.PropertyGrid.ButtonSpinner
+  - H.Controls.PropertyGrid.ByteUpDown
+  - H.Controls.PropertyGrid.ByteUpDownEditor
+  - H.Controls.PropertyGrid.Calculator
+  - H.Controls.PropertyGrid.Calculator.CalculatorButtonType
+  - H.Controls.PropertyGrid.Calculator.Operation
+  - H.Controls.PropertyGrid.CalculatorCommands
+  - H.Controls.PropertyGrid.CalculatorMemoryToVisibilityConverter
+  - H.Controls.PropertyGrid.CalculatorUpDown
+  - H.Controls.PropertyGrid.CancelRoutedEventArgs
+  - H.Controls.PropertyGrid.CancelRoutedEventHandler
+  - H.Controls.PropertyGrid.CategoryGroupStyleSelector
+  - H.Controls.PropertyGrid.CategoryOrderAttribute
+  - H.Controls.PropertyGrid.CenterTitleConverter
+  - H.Controls.PropertyGrid.CheckBoxEditor
+  - H.Controls.PropertyGrid.CheckComboBox
+  - H.Controls.PropertyGrid.CollectionControl
+  - H.Controls.PropertyGrid.CollectionControl.ItemAddedRoutedEventHandler
+  - H.Controls.PropertyGrid.CollectionControl.ItemAddingRoutedEventHandler
+  - H.Controls.PropertyGrid.CollectionControl.ItemDeletedRoutedEventHandler
+  - H.Controls.PropertyGrid.CollectionControl.ItemDeletingRoutedEventHandler
+  - H.Controls.PropertyGrid.CollectionControl.ItemMovedDownRoutedEventHandler
+  - H.Controls.PropertyGrid.CollectionControl.ItemMovedUpRoutedEventHandler
+  - H.Controls.PropertyGrid.CollectionControlButton
+  - H.Controls.PropertyGrid.CollectionControlDialog
+  - H.Controls.PropertyGrid.CollectionControlDialogBase
+  - H.Controls.PropertyGrid.CollectionEditor
+  - H.Controls.PropertyGrid.ColorBlendConverter
+  - H.Controls.PropertyGrid.ColorCanvas
+  - H.Controls.PropertyGrid.ColorEditor
+  - H.Controls.PropertyGrid.ColorItem
+  - H.Controls.PropertyGrid.ColorMode
+  - H.Controls.PropertyGrid.ColorModeToTabItemSelectedConverter
+  - H.Controls.PropertyGrid.ColorPicker
+  - H.Controls.PropertyGrid.ColorPickerTabItem
+  - H.Controls.PropertyGrid.ColorSortingMode
+  - H.Controls.PropertyGrid.ColorSpectrumSlider
+  - H.Controls.PropertyGrid.ColorToSolidColorBrushConverter
+  - H.Controls.PropertyGrid.ComboBoxEditor
+  - H.Controls.PropertyGrid.CommonNumericUpDown`1
+  - H.Controls.PropertyGrid.CommonNumericUpDown`1.FromDecimal
+  - H.Controls.PropertyGrid.CommonNumericUpDown`1.FromText
+  - H.Controls.PropertyGrid.ContextMenuUtilities
+  - H.Controls.PropertyGrid.CornerRadiusToDoubleConverter
+  - H.Controls.PropertyGrid.CustomPropertyItem
+  - H.Controls.PropertyGrid.DateTimeFormat
+  - H.Controls.PropertyGrid.DateTimePart
+  - H.Controls.PropertyGrid.DateTimePickerBase
+  - H.Controls.PropertyGrid.DateTimeUpDown
+  - H.Controls.PropertyGrid.DateTimeUpDownBase`1
+  - H.Controls.PropertyGrid.DateTimeUpDownEditor
+  - H.Controls.PropertyGrid.DecimalUpDown
+  - H.Controls.PropertyGrid.DecimalUpDownEditor
+  - H.Controls.PropertyGrid.DefinitionBase
+  - H.Controls.PropertyGrid.DefinitionCollectionBase`1
+  - H.Controls.PropertyGrid.DoubleUpDown
+  - H.Controls.PropertyGrid.DoubleUpDownEditor
+  - H.Controls.PropertyGrid.EditableKeyValuePair`2
+  - H.Controls.PropertyGrid.EditorDefinition
+  - H.Controls.PropertyGrid.EditorDefinitionBase
+  - H.Controls.PropertyGrid.EditorDefinitionCollection
+  - H.Controls.PropertyGrid.EditorTemplateDefinition
+  - H.Controls.PropertyGrid.EditorTimeSpanConverter
+  - H.Controls.PropertyGrid.EnumComboBoxEditor
+  - H.Controls.PropertyGrid.ExpandableObjectAttribute
+  - H.Controls.PropertyGrid.ExpandableObjectMarginConverter
+  - H.Controls.PropertyGrid.FontComboBoxEditor
+  - H.Controls.PropertyGrid.HalfConverter
+  - H.Controls.PropertyGrid.IItemsSource
+  - H.Controls.PropertyGrid.ITypeEditor
+  - H.Controls.PropertyGrid.IValidateInput
+  - H.Controls.PropertyGrid.IndexChangedEventArgs
+  - H.Controls.PropertyGrid.IndexChangedEventHandler
+  - H.Controls.PropertyGrid.InputBase
+  - H.Controls.PropertyGrid.InputValidationErrorEventArgs
+  - H.Controls.PropertyGrid.InputValidationErrorEventHandler
+  - H.Controls.PropertyGrid.InsertKeyMode
+  - H.Controls.PropertyGrid.IntToThicknessConverter
+  - H.Controls.PropertyGrid.IntegerUpDown
+  - H.Controls.PropertyGrid.IntegerUpDownEditor
+  - H.Controls.PropertyGrid.InvalidContentException
+  - H.Controls.PropertyGrid.InvalidTemplateException
+  - H.Controls.PropertyGrid.InverseBoolConverter
+  - H.Controls.PropertyGrid.IsDefaultCategoryConverter
+  - H.Controls.PropertyGrid.IsPropertyBrowsableArgs
+  - H.Controls.PropertyGrid.IsPropertyBrowsableHandler
+  - H.Controls.PropertyGrid.IsStringEmptyConverter
+  - H.Controls.PropertyGrid.Item
+  - H.Controls.PropertyGrid.ItemAddingEventArgs
+  - H.Controls.PropertyGrid.ItemCollection
+  - H.Controls.PropertyGrid.ItemDeletingEventArgs
+  - H.Controls.PropertyGrid.ItemEventArgs
+  - H.Controls.PropertyGrid.ItemSelectionChangedEventArgs
+  - H.Controls.PropertyGrid.ItemSelectionChangedEventHandler
+  - H.Controls.PropertyGrid.ItemsSourceAttribute
+  - H.Controls.PropertyGrid.ItemsSourceAttributeEditor
+  - H.Controls.PropertyGrid.KeyModifier
+  - H.Controls.PropertyGrid.KeyModifierCollection
+  - H.Controls.PropertyGrid.KeyModifierCollectionConverter
+  - H.Controls.PropertyGrid.Location
+  - H.Controls.PropertyGrid.LongUpDown
+  - H.Controls.PropertyGrid.LongUpDownEditor
+  - H.Controls.PropertyGrid.MaskFormat
+  - H.Controls.PropertyGrid.MaskedTextBox
+  - H.Controls.PropertyGrid.MaskedTextBoxEditor
+  - H.Controls.PropertyGrid.MouseWheelActiveTrigger
+  - H.Controls.PropertyGrid.MultiLineTextEditor
+  - H.Controls.PropertyGrid.NewItemTypesAttribute
+  - H.Controls.PropertyGrid.NewItemTypesComboBoxConverter
+  - H.Controls.PropertyGrid.NullToBoolConverter
+  - H.Controls.PropertyGrid.NumericUpDown`1
+  - H.Controls.PropertyGrid.ObjectToUIElementConverter
+  - H.Controls.PropertyGrid.ObjectTypeToNameConverter
+  - H.Controls.PropertyGrid.PrimitiveTypeCollectionControl
+  - H.Controls.PropertyGrid.PrimitiveTypeCollectionEditor
+  - H.Controls.PropertyGrid.PropertyArgs
+  - H.Controls.PropertyGrid.PropertyChangedEventArgs`1
+  - H.Controls.PropertyGrid.PropertyChangedEventHandler`1
+  - H.Controls.PropertyGrid.PropertyDefinition
+  - H.Controls.PropertyGrid.PropertyDefinitionBase
+  - H.Controls.PropertyGrid.PropertyDefinitionBaseCollection`1
+  - H.Controls.PropertyGrid.PropertyDefinitionCollection
+  - H.Controls.PropertyGrid.PropertyGrid
+  - H.Controls.PropertyGrid.PropertyGridCommands
+  - H.Controls.PropertyGrid.PropertyGridEditorByteUpDown
+  - H.Controls.PropertyGrid.PropertyGridEditorCheckBox
+  - H.Controls.PropertyGrid.PropertyGridEditorCollectionControl
+  - H.Controls.PropertyGrid.PropertyGridEditorColorPicker
+  - H.Controls.PropertyGrid.PropertyGridEditorComboBox
+  - H.Controls.PropertyGrid.PropertyGridEditorDateTimeUpDown
+  - H.Controls.PropertyGrid.PropertyGridEditorDecimalUpDown
+  - H.Controls.PropertyGrid.PropertyGridEditorDoubleUpDown
+  - H.Controls.PropertyGrid.PropertyGridEditorIntegerUpDown
+  - H.Controls.PropertyGrid.PropertyGridEditorLongUpDown
+  - H.Controls.PropertyGrid.PropertyGridEditorMaskedTextBox
+  - H.Controls.PropertyGrid.PropertyGridEditorPrimitiveTypeCollectionControl
+  - H.Controls.PropertyGrid.PropertyGridEditorShortUpDown
+  - H.Controls.PropertyGrid.PropertyGridEditorSingleUpDown
+  - H.Controls.PropertyGrid.PropertyGridEditorTextBlock
+  - H.Controls.PropertyGrid.PropertyGridEditorTextBox
+  - H.Controls.PropertyGrid.PropertyGridEditorTimeSpanUpDown
+  - H.Controls.PropertyGrid.PropertyItem
+  - H.Controls.PropertyGrid.PropertyItemBase
+  - H.Controls.PropertyGrid.PropertyItemCollection
+  - H.Controls.PropertyGrid.PropertyItemCommands
+  - H.Controls.PropertyGrid.PropertyItemEventArgs
+  - H.Controls.PropertyGrid.PropertyItemEventHandler
+  - H.Controls.PropertyGrid.PropertyItemsControl
+  - H.Controls.PropertyGrid.PropertyOrderAttribute
+  - H.Controls.PropertyGrid.PropertyValueChangedEventArgs
+  - H.Controls.PropertyGrid.PropertyValueChangedEventHandler
+  - H.Controls.PropertyGrid.QueryMoveFocusEventArgs
+  - H.Controls.PropertyGrid.QueryMoveFocusEventHandler
+  - H.Controls.PropertyGrid.QueryTextFromValueEventArgs
+  - H.Controls.PropertyGrid.QueryValueFromTextEventArgs
+  - H.Controls.PropertyGrid.ResourceKeys
+  - H.Controls.PropertyGrid.RoundedValueConverter
+  - H.Controls.PropertyGrid.SelectedObjectConverter
+  - H.Controls.PropertyGrid.Selector
+  - H.Controls.PropertyGrid.SelectorItem
+  - H.Controls.PropertyGrid.ShapeBase
+  - H.Controls.PropertyGrid.ShortUpDown
+  - H.Controls.PropertyGrid.ShortUpDownEditor
+  - H.Controls.PropertyGrid.SingleUpDown
+  - H.Controls.PropertyGrid.SingleUpDownEditor
+  - H.Controls.PropertyGrid.SolidColorBrushToColorConverter
+  - H.Controls.PropertyGrid.SourceComboBoxEditor
+  - H.Controls.PropertyGrid.SpinDirection
+  - H.Controls.PropertyGrid.SpinEventArgs
+  - H.Controls.PropertyGrid.Spinner
+  - H.Controls.PropertyGrid.StringConstants
+  - H.Controls.PropertyGrid.TargetPropertyType
+  - H.Controls.PropertyGrid.TextBlockEditor
+  - H.Controls.PropertyGrid.TextBoxEditor
+  - H.Controls.PropertyGrid.ThicknessSideRemovalConverter
+  - H.Controls.PropertyGrid.ThicknessToDoubleConverter
+  - H.Controls.PropertyGrid.TimeSpanUpDown
+  - H.Controls.PropertyGrid.TimeSpanUpDownEditor
+  - H.Controls.PropertyGrid.TrimmedTextBlock
+  - H.Controls.PropertyGrid.TypeEditor`1
+  - H.Controls.PropertyGrid.UpDownBase`1
+  - H.Controls.PropertyGrid.UpDownEditor`2
+  - H.Controls.PropertyGrid.UsageContextEnum
+  - H.Controls.PropertyGrid.ValidSpinDirections
+  - H.Controls.PropertyGrid.ValueRangeTextBox
+  - H.Controls.PropertyGrid.VisibilityToBoolConverter
+  - H.Controls.PropertyGrid.VisualTreeHelperEx
+  - H.Controls.PropertyGrid.WatermarkComboBox
+  - H.Controls.PropertyGrid.WatermarkPasswordBox
+  - H.Controls.PropertyGrid.WatermarkTextBox
+  - H.Controls.PropertyGrid.WindowContentBorderMarginConverter
+  - H.Controls.PropertyGrid.WindowControl
+  - H.Controls.PropertyGrid.WindowControlBackgroundConverter
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.PropertyGrid
+  nameWithType: H.Controls.PropertyGrid
+  fullName: H.Controls.PropertyGrid
+  type: Namespace
+  assemblies:
+  - H.Controls.PropertyGrid
+references:
+- uid: H.Controls.PropertyGrid.AutoSelectBehavior
+  commentId: T:H.Controls.PropertyGrid.AutoSelectBehavior
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.AutoSelectBehavior.html
+  name: AutoSelectBehavior
+  nameWithType: AutoSelectBehavior
+  fullName: H.Controls.PropertyGrid.AutoSelectBehavior
+- uid: H.Controls.PropertyGrid.AutoSelectTextBox
+  commentId: T:H.Controls.PropertyGrid.AutoSelectTextBox
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.AutoSelectTextBox.html
+  name: AutoSelectTextBox
+  nameWithType: AutoSelectTextBox
+  fullName: H.Controls.PropertyGrid.AutoSelectTextBox
+- uid: H.Controls.PropertyGrid.QueryMoveFocusEventHandler
+  commentId: T:H.Controls.PropertyGrid.QueryMoveFocusEventHandler
+  href: H.Controls.PropertyGrid.QueryMoveFocusEventHandler.html
+  name: QueryMoveFocusEventHandler
+  nameWithType: QueryMoveFocusEventHandler
+  fullName: H.Controls.PropertyGrid.QueryMoveFocusEventHandler
+- uid: H.Controls.PropertyGrid.QueryMoveFocusEventArgs
+  commentId: T:H.Controls.PropertyGrid.QueryMoveFocusEventArgs
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.QueryMoveFocusEventArgs.html
+  name: QueryMoveFocusEventArgs
+  nameWithType: QueryMoveFocusEventArgs
+  fullName: H.Controls.PropertyGrid.QueryMoveFocusEventArgs
+- uid: H.Controls.PropertyGrid.ButtonSpinner
+  commentId: T:H.Controls.PropertyGrid.ButtonSpinner
+  href: H.Controls.PropertyGrid.ButtonSpinner.html
+  name: ButtonSpinner
+  nameWithType: ButtonSpinner
+  fullName: H.Controls.PropertyGrid.ButtonSpinner
+- uid: H.Controls.PropertyGrid.SpinDirection
+  commentId: T:H.Controls.PropertyGrid.SpinDirection
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.SpinDirection.html
+  name: SpinDirection
+  nameWithType: SpinDirection
+  fullName: H.Controls.PropertyGrid.SpinDirection
+- uid: H.Controls.PropertyGrid.SpinEventArgs
+  commentId: T:H.Controls.PropertyGrid.SpinEventArgs
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.SpinEventArgs.html
+  name: SpinEventArgs
+  nameWithType: SpinEventArgs
+  fullName: H.Controls.PropertyGrid.SpinEventArgs
+- uid: H.Controls.PropertyGrid.Spinner
+  commentId: T:H.Controls.PropertyGrid.Spinner
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.Spinner.html
+  name: Spinner
+  nameWithType: Spinner
+  fullName: H.Controls.PropertyGrid.Spinner
+- uid: H.Controls.PropertyGrid.ValidSpinDirections
+  commentId: T:H.Controls.PropertyGrid.ValidSpinDirections
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.ValidSpinDirections.html
+  name: ValidSpinDirections
+  nameWithType: ValidSpinDirections
+  fullName: H.Controls.PropertyGrid.ValidSpinDirections
+- uid: H.Controls.PropertyGrid.CalculatorUpDown
+  commentId: T:H.Controls.PropertyGrid.CalculatorUpDown
+  href: H.Controls.PropertyGrid.CalculatorUpDown.html
+  name: CalculatorUpDown
+  nameWithType: CalculatorUpDown
+  fullName: H.Controls.PropertyGrid.CalculatorUpDown
+- uid: H.Controls.PropertyGrid.Calculator
+  commentId: T:H.Controls.PropertyGrid.Calculator
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.Calculator.html
+  name: Calculator
+  nameWithType: Calculator
+  fullName: H.Controls.PropertyGrid.Calculator
+- uid: H.Controls.PropertyGrid.Calculator.CalculatorButtonType
+  commentId: T:H.Controls.PropertyGrid.Calculator.CalculatorButtonType
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.Calculator.html
+  name: Calculator.CalculatorButtonType
+  nameWithType: Calculator.CalculatorButtonType
+  fullName: H.Controls.PropertyGrid.Calculator.CalculatorButtonType
+  spec.csharp:
+  - uid: H.Controls.PropertyGrid.Calculator
+    name: Calculator
+    href: H.Controls.PropertyGrid.Calculator.html
+  - name: .
+  - uid: H.Controls.PropertyGrid.Calculator.CalculatorButtonType
+    name: CalculatorButtonType
+    href: H.Controls.PropertyGrid.Calculator.CalculatorButtonType.html
+  spec.vb:
+  - uid: H.Controls.PropertyGrid.Calculator
+    name: Calculator
+    href: H.Controls.PropertyGrid.Calculator.html
+  - name: .
+  - uid: H.Controls.PropertyGrid.Calculator.CalculatorButtonType
+    name: CalculatorButtonType
+    href: H.Controls.PropertyGrid.Calculator.CalculatorButtonType.html
+- uid: H.Controls.PropertyGrid.Calculator.Operation
+  commentId: T:H.Controls.PropertyGrid.Calculator.Operation
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.Calculator.html
+  name: Calculator.Operation
+  nameWithType: Calculator.Operation
+  fullName: H.Controls.PropertyGrid.Calculator.Operation
+  spec.csharp:
+  - uid: H.Controls.PropertyGrid.Calculator
+    name: Calculator
+    href: H.Controls.PropertyGrid.Calculator.html
+  - name: .
+  - uid: H.Controls.PropertyGrid.Calculator.Operation
+    name: Operation
+    href: H.Controls.PropertyGrid.Calculator.Operation.html
+  spec.vb:
+  - uid: H.Controls.PropertyGrid.Calculator
+    name: Calculator
+    href: H.Controls.PropertyGrid.Calculator.html
+  - name: .
+  - uid: H.Controls.PropertyGrid.Calculator.Operation
+    name: Operation
+    href: H.Controls.PropertyGrid.Calculator.Operation.html
+- uid: H.Controls.PropertyGrid.CalculatorCommands
+  commentId: T:H.Controls.PropertyGrid.CalculatorCommands
+  href: H.Controls.PropertyGrid.CalculatorCommands.html
+  name: CalculatorCommands
+  nameWithType: CalculatorCommands
+  fullName: H.Controls.PropertyGrid.CalculatorCommands
+- uid: H.Controls.PropertyGrid.CheckComboBox
+  commentId: T:H.Controls.PropertyGrid.CheckComboBox
+  href: H.Controls.PropertyGrid.CheckComboBox.html
+  name: CheckComboBox
+  nameWithType: CheckComboBox
+  fullName: H.Controls.PropertyGrid.CheckComboBox
+- uid: H.Controls.PropertyGrid.ButtonChrome
+  commentId: T:H.Controls.PropertyGrid.ButtonChrome
+  href: H.Controls.PropertyGrid.ButtonChrome.html
+  name: ButtonChrome
+  nameWithType: ButtonChrome
+  fullName: H.Controls.PropertyGrid.ButtonChrome
+- uid: H.Controls.PropertyGrid.CollectionControl
+  commentId: T:H.Controls.PropertyGrid.CollectionControl
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.CollectionControl.html
+  name: CollectionControl
+  nameWithType: CollectionControl
+  fullName: H.Controls.PropertyGrid.CollectionControl
+- uid: H.Controls.PropertyGrid.CollectionControl.ItemDeletingRoutedEventHandler
+  commentId: T:H.Controls.PropertyGrid.CollectionControl.ItemDeletingRoutedEventHandler
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.CollectionControl.html
+  name: CollectionControl.ItemDeletingRoutedEventHandler
+  nameWithType: CollectionControl.ItemDeletingRoutedEventHandler
+  fullName: H.Controls.PropertyGrid.CollectionControl.ItemDeletingRoutedEventHandler
+  spec.csharp:
+  - uid: H.Controls.PropertyGrid.CollectionControl
+    name: CollectionControl
+    href: H.Controls.PropertyGrid.CollectionControl.html
+  - name: .
+  - uid: H.Controls.PropertyGrid.CollectionControl.ItemDeletingRoutedEventHandler
+    name: ItemDeletingRoutedEventHandler
+    href: H.Controls.PropertyGrid.CollectionControl.ItemDeletingRoutedEventHandler.html
+  spec.vb:
+  - uid: H.Controls.PropertyGrid.CollectionControl
+    name: CollectionControl
+    href: H.Controls.PropertyGrid.CollectionControl.html
+  - name: .
+  - uid: H.Controls.PropertyGrid.CollectionControl.ItemDeletingRoutedEventHandler
+    name: ItemDeletingRoutedEventHandler
+    href: H.Controls.PropertyGrid.CollectionControl.ItemDeletingRoutedEventHandler.html
+- uid: H.Controls.PropertyGrid.CollectionControl.ItemDeletedRoutedEventHandler
+  commentId: T:H.Controls.PropertyGrid.CollectionControl.ItemDeletedRoutedEventHandler
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.CollectionControl.html
+  name: CollectionControl.ItemDeletedRoutedEventHandler
+  nameWithType: CollectionControl.ItemDeletedRoutedEventHandler
+  fullName: H.Controls.PropertyGrid.CollectionControl.ItemDeletedRoutedEventHandler
+  spec.csharp:
+  - uid: H.Controls.PropertyGrid.CollectionControl
+    name: CollectionControl
+    href: H.Controls.PropertyGrid.CollectionControl.html
+  - name: .
+  - uid: H.Controls.PropertyGrid.CollectionControl.ItemDeletedRoutedEventHandler
+    name: ItemDeletedRoutedEventHandler
+    href: H.Controls.PropertyGrid.CollectionControl.ItemDeletedRoutedEventHandler.html
+  spec.vb:
+  - uid: H.Controls.PropertyGrid.CollectionControl
+    name: CollectionControl
+    href: H.Controls.PropertyGrid.CollectionControl.html
+  - name: .
+  - uid: H.Controls.PropertyGrid.CollectionControl.ItemDeletedRoutedEventHandler
+    name: ItemDeletedRoutedEventHandler
+    href: H.Controls.PropertyGrid.CollectionControl.ItemDeletedRoutedEventHandler.html
+- uid: H.Controls.PropertyGrid.CollectionControl.ItemAddingRoutedEventHandler
+  commentId: T:H.Controls.PropertyGrid.CollectionControl.ItemAddingRoutedEventHandler
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.CollectionControl.html
+  name: CollectionControl.ItemAddingRoutedEventHandler
+  nameWithType: CollectionControl.ItemAddingRoutedEventHandler
+  fullName: H.Controls.PropertyGrid.CollectionControl.ItemAddingRoutedEventHandler
+  spec.csharp:
+  - uid: H.Controls.PropertyGrid.CollectionControl
+    name: CollectionControl
+    href: H.Controls.PropertyGrid.CollectionControl.html
+  - name: .
+  - uid: H.Controls.PropertyGrid.CollectionControl.ItemAddingRoutedEventHandler
+    name: ItemAddingRoutedEventHandler
+    href: H.Controls.PropertyGrid.CollectionControl.ItemAddingRoutedEventHandler.html
+  spec.vb:
+  - uid: H.Controls.PropertyGrid.CollectionControl
+    name: CollectionControl
+    href: H.Controls.PropertyGrid.CollectionControl.html
+  - name: .
+  - uid: H.Controls.PropertyGrid.CollectionControl.ItemAddingRoutedEventHandler
+    name: ItemAddingRoutedEventHandler
+    href: H.Controls.PropertyGrid.CollectionControl.ItemAddingRoutedEventHandler.html
+- uid: H.Controls.PropertyGrid.CollectionControl.ItemAddedRoutedEventHandler
+  commentId: T:H.Controls.PropertyGrid.CollectionControl.ItemAddedRoutedEventHandler
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.CollectionControl.html
+  name: CollectionControl.ItemAddedRoutedEventHandler
+  nameWithType: CollectionControl.ItemAddedRoutedEventHandler
+  fullName: H.Controls.PropertyGrid.CollectionControl.ItemAddedRoutedEventHandler
+  spec.csharp:
+  - uid: H.Controls.PropertyGrid.CollectionControl
+    name: CollectionControl
+    href: H.Controls.PropertyGrid.CollectionControl.html
+  - name: .
+  - uid: H.Controls.PropertyGrid.CollectionControl.ItemAddedRoutedEventHandler
+    name: ItemAddedRoutedEventHandler
+    href: H.Controls.PropertyGrid.CollectionControl.ItemAddedRoutedEventHandler.html
+  spec.vb:
+  - uid: H.Controls.PropertyGrid.CollectionControl
+    name: CollectionControl
+    href: H.Controls.PropertyGrid.CollectionControl.html
+  - name: .
+  - uid: H.Controls.PropertyGrid.CollectionControl.ItemAddedRoutedEventHandler
+    name: ItemAddedRoutedEventHandler
+    href: H.Controls.PropertyGrid.CollectionControl.ItemAddedRoutedEventHandler.html
+- uid: H.Controls.PropertyGrid.CollectionControl.ItemMovedDownRoutedEventHandler
+  commentId: T:H.Controls.PropertyGrid.CollectionControl.ItemMovedDownRoutedEventHandler
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.CollectionControl.html
+  name: CollectionControl.ItemMovedDownRoutedEventHandler
+  nameWithType: CollectionControl.ItemMovedDownRoutedEventHandler
+  fullName: H.Controls.PropertyGrid.CollectionControl.ItemMovedDownRoutedEventHandler
+  spec.csharp:
+  - uid: H.Controls.PropertyGrid.CollectionControl
+    name: CollectionControl
+    href: H.Controls.PropertyGrid.CollectionControl.html
+  - name: .
+  - uid: H.Controls.PropertyGrid.CollectionControl.ItemMovedDownRoutedEventHandler
+    name: ItemMovedDownRoutedEventHandler
+    href: H.Controls.PropertyGrid.CollectionControl.ItemMovedDownRoutedEventHandler.html
+  spec.vb:
+  - uid: H.Controls.PropertyGrid.CollectionControl
+    name: CollectionControl
+    href: H.Controls.PropertyGrid.CollectionControl.html
+  - name: .
+  - uid: H.Controls.PropertyGrid.CollectionControl.ItemMovedDownRoutedEventHandler
+    name: ItemMovedDownRoutedEventHandler
+    href: H.Controls.PropertyGrid.CollectionControl.ItemMovedDownRoutedEventHandler.html
+- uid: H.Controls.PropertyGrid.CollectionControl.ItemMovedUpRoutedEventHandler
+  commentId: T:H.Controls.PropertyGrid.CollectionControl.ItemMovedUpRoutedEventHandler
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.CollectionControl.html
+  name: CollectionControl.ItemMovedUpRoutedEventHandler
+  nameWithType: CollectionControl.ItemMovedUpRoutedEventHandler
+  fullName: H.Controls.PropertyGrid.CollectionControl.ItemMovedUpRoutedEventHandler
+  spec.csharp:
+  - uid: H.Controls.PropertyGrid.CollectionControl
+    name: CollectionControl
+    href: H.Controls.PropertyGrid.CollectionControl.html
+  - name: .
+  - uid: H.Controls.PropertyGrid.CollectionControl.ItemMovedUpRoutedEventHandler
+    name: ItemMovedUpRoutedEventHandler
+    href: H.Controls.PropertyGrid.CollectionControl.ItemMovedUpRoutedEventHandler.html
+  spec.vb:
+  - uid: H.Controls.PropertyGrid.CollectionControl
+    name: CollectionControl
+    href: H.Controls.PropertyGrid.CollectionControl.html
+  - name: .
+  - uid: H.Controls.PropertyGrid.CollectionControl.ItemMovedUpRoutedEventHandler
+    name: ItemMovedUpRoutedEventHandler
+    href: H.Controls.PropertyGrid.CollectionControl.ItemMovedUpRoutedEventHandler.html
+- uid: H.Controls.PropertyGrid.CollectionControlButton
+  commentId: T:H.Controls.PropertyGrid.CollectionControlButton
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.CollectionControlButton.html
+  name: CollectionControlButton
+  nameWithType: CollectionControlButton
+  fullName: H.Controls.PropertyGrid.CollectionControlButton
+- uid: H.Controls.PropertyGrid.CollectionControlDialogBase
+  commentId: T:H.Controls.PropertyGrid.CollectionControlDialogBase
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.CollectionControlDialogBase.html
+  name: CollectionControlDialogBase
+  nameWithType: CollectionControlDialogBase
+  fullName: H.Controls.PropertyGrid.CollectionControlDialogBase
+- uid: H.Controls.PropertyGrid.CollectionControlDialog
+  commentId: T:H.Controls.PropertyGrid.CollectionControlDialog
+  href: H.Controls.PropertyGrid.CollectionControlDialog.html
+  name: CollectionControlDialog
+  nameWithType: CollectionControlDialog
+  fullName: H.Controls.PropertyGrid.CollectionControlDialog
+- uid: H.Controls.PropertyGrid.NewItemTypesComboBoxConverter
+  commentId: T:H.Controls.PropertyGrid.NewItemTypesComboBoxConverter
+  href: H.Controls.PropertyGrid.NewItemTypesComboBoxConverter.html
+  name: NewItemTypesComboBoxConverter
+  nameWithType: NewItemTypesComboBoxConverter
+  fullName: H.Controls.PropertyGrid.NewItemTypesComboBoxConverter
+- uid: H.Controls.PropertyGrid.ItemAddingEventArgs
+  commentId: T:H.Controls.PropertyGrid.ItemAddingEventArgs
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.ItemAddingEventArgs.html
+  name: ItemAddingEventArgs
+  nameWithType: ItemAddingEventArgs
+  fullName: H.Controls.PropertyGrid.ItemAddingEventArgs
+- uid: H.Controls.PropertyGrid.ItemDeletingEventArgs
+  commentId: T:H.Controls.PropertyGrid.ItemDeletingEventArgs
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.ItemDeletingEventArgs.html
+  name: ItemDeletingEventArgs
+  nameWithType: ItemDeletingEventArgs
+  fullName: H.Controls.PropertyGrid.ItemDeletingEventArgs
+- uid: H.Controls.PropertyGrid.ItemEventArgs
+  commentId: T:H.Controls.PropertyGrid.ItemEventArgs
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.ItemEventArgs.html
+  name: ItemEventArgs
+  nameWithType: ItemEventArgs
+  fullName: H.Controls.PropertyGrid.ItemEventArgs
+- uid: H.Controls.PropertyGrid.PrimitiveTypeCollectionControl
+  commentId: T:H.Controls.PropertyGrid.PrimitiveTypeCollectionControl
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.PrimitiveTypeCollectionControl.html
+  name: PrimitiveTypeCollectionControl
+  nameWithType: PrimitiveTypeCollectionControl
+  fullName: H.Controls.PropertyGrid.PrimitiveTypeCollectionControl
+- uid: H.Controls.PropertyGrid.ColorCanvas
+  commentId: T:H.Controls.PropertyGrid.ColorCanvas
+  href: H.Controls.PropertyGrid.ColorCanvas.html
+  name: ColorCanvas
+  nameWithType: ColorCanvas
+  fullName: H.Controls.PropertyGrid.ColorCanvas
+- uid: H.Controls.PropertyGrid.ColorSpectrumSlider
+  commentId: T:H.Controls.PropertyGrid.ColorSpectrumSlider
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.ColorSpectrumSlider.html
+  name: ColorSpectrumSlider
+  nameWithType: ColorSpectrumSlider
+  fullName: H.Controls.PropertyGrid.ColorSpectrumSlider
+- uid: H.Controls.PropertyGrid.ColorItem
+  commentId: T:H.Controls.PropertyGrid.ColorItem
+  href: H.Controls.PropertyGrid.ColorItem.html
+  name: ColorItem
+  nameWithType: ColorItem
+  fullName: H.Controls.PropertyGrid.ColorItem
+- uid: H.Controls.PropertyGrid.ColorMode
+  commentId: T:H.Controls.PropertyGrid.ColorMode
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.ColorMode.html
+  name: ColorMode
+  nameWithType: ColorMode
+  fullName: H.Controls.PropertyGrid.ColorMode
+- uid: H.Controls.PropertyGrid.ColorSortingMode
+  commentId: T:H.Controls.PropertyGrid.ColorSortingMode
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.ColorSortingMode.html
+  name: ColorSortingMode
+  nameWithType: ColorSortingMode
+  fullName: H.Controls.PropertyGrid.ColorSortingMode
+- uid: H.Controls.PropertyGrid.ColorPicker
+  commentId: T:H.Controls.PropertyGrid.ColorPicker
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.ColorPicker.html
+  name: ColorPicker
+  nameWithType: ColorPicker
+  fullName: H.Controls.PropertyGrid.ColorPicker
+- uid: H.Controls.PropertyGrid.ColorPickerTabItem
+  commentId: T:H.Controls.PropertyGrid.ColorPickerTabItem
+  href: H.Controls.PropertyGrid.ColorPickerTabItem.html
+  name: ColorPickerTabItem
+  nameWithType: ColorPickerTabItem
+  fullName: H.Controls.PropertyGrid.ColorPickerTabItem
+- uid: H.Controls.PropertyGrid.CancelRoutedEventHandler
+  commentId: T:H.Controls.PropertyGrid.CancelRoutedEventHandler
+  href: H.Controls.PropertyGrid.CancelRoutedEventHandler.html
+  name: CancelRoutedEventHandler
+  nameWithType: CancelRoutedEventHandler
+  fullName: H.Controls.PropertyGrid.CancelRoutedEventHandler
+- uid: H.Controls.PropertyGrid.CancelRoutedEventArgs
+  commentId: T:H.Controls.PropertyGrid.CancelRoutedEventArgs
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.CancelRoutedEventArgs.html
+  name: CancelRoutedEventArgs
+  nameWithType: CancelRoutedEventArgs
+  fullName: H.Controls.PropertyGrid.CancelRoutedEventArgs
+- uid: H.Controls.PropertyGrid.AdditionConverter
+  commentId: T:H.Controls.PropertyGrid.AdditionConverter
+  href: H.Controls.PropertyGrid.AdditionConverter.html
+  name: AdditionConverter
+  nameWithType: AdditionConverter
+  fullName: H.Controls.PropertyGrid.AdditionConverter
+- uid: H.Controls.PropertyGrid.BorderThicknessToStrokeThicknessConverter
+  commentId: T:H.Controls.PropertyGrid.BorderThicknessToStrokeThicknessConverter
+  href: H.Controls.PropertyGrid.BorderThicknessToStrokeThicknessConverter.html
+  name: BorderThicknessToStrokeThicknessConverter
+  nameWithType: BorderThicknessToStrokeThicknessConverter
+  fullName: H.Controls.PropertyGrid.BorderThicknessToStrokeThicknessConverter
+- uid: H.Controls.PropertyGrid.CalculatorMemoryToVisibilityConverter
+  commentId: T:H.Controls.PropertyGrid.CalculatorMemoryToVisibilityConverter
+  href: H.Controls.PropertyGrid.CalculatorMemoryToVisibilityConverter.html
+  name: CalculatorMemoryToVisibilityConverter
+  nameWithType: CalculatorMemoryToVisibilityConverter
+  fullName: H.Controls.PropertyGrid.CalculatorMemoryToVisibilityConverter
+- uid: H.Controls.PropertyGrid.CenterTitleConverter
+  commentId: T:H.Controls.PropertyGrid.CenterTitleConverter
+  href: H.Controls.PropertyGrid.CenterTitleConverter.html
+  name: CenterTitleConverter
+  nameWithType: CenterTitleConverter
+  fullName: H.Controls.PropertyGrid.CenterTitleConverter
+- uid: H.Controls.PropertyGrid.ColorBlendConverter
+  commentId: T:H.Controls.PropertyGrid.ColorBlendConverter
+  href: H.Controls.PropertyGrid.ColorBlendConverter.html
+  name: ColorBlendConverter
+  nameWithType: ColorBlendConverter
+  fullName: H.Controls.PropertyGrid.ColorBlendConverter
+- uid: H.Controls.PropertyGrid.ColorModeToTabItemSelectedConverter
+  commentId: T:H.Controls.PropertyGrid.ColorModeToTabItemSelectedConverter
+  href: H.Controls.PropertyGrid.ColorModeToTabItemSelectedConverter.html
+  name: ColorModeToTabItemSelectedConverter
+  nameWithType: ColorModeToTabItemSelectedConverter
+  fullName: H.Controls.PropertyGrid.ColorModeToTabItemSelectedConverter
+- uid: H.Controls.PropertyGrid.ColorToSolidColorBrushConverter
+  commentId: T:H.Controls.PropertyGrid.ColorToSolidColorBrushConverter
+  href: H.Controls.PropertyGrid.ColorToSolidColorBrushConverter.html
+  name: ColorToSolidColorBrushConverter
+  nameWithType: ColorToSolidColorBrushConverter
+  fullName: H.Controls.PropertyGrid.ColorToSolidColorBrushConverter
+- uid: H.Controls.PropertyGrid.CornerRadiusToDoubleConverter
+  commentId: T:H.Controls.PropertyGrid.CornerRadiusToDoubleConverter
+  href: H.Controls.PropertyGrid.CornerRadiusToDoubleConverter.html
+  name: CornerRadiusToDoubleConverter
+  nameWithType: CornerRadiusToDoubleConverter
+  fullName: H.Controls.PropertyGrid.CornerRadiusToDoubleConverter
+- uid: H.Controls.PropertyGrid.HalfConverter
+  commentId: T:H.Controls.PropertyGrid.HalfConverter
+  href: H.Controls.PropertyGrid.HalfConverter.html
+  name: HalfConverter
+  nameWithType: HalfConverter
+  fullName: H.Controls.PropertyGrid.HalfConverter
+- uid: H.Controls.PropertyGrid.IntToThicknessConverter
+  commentId: T:H.Controls.PropertyGrid.IntToThicknessConverter
+  href: H.Controls.PropertyGrid.IntToThicknessConverter.html
+  name: IntToThicknessConverter
+  nameWithType: IntToThicknessConverter
+  fullName: H.Controls.PropertyGrid.IntToThicknessConverter
+- uid: H.Controls.PropertyGrid.InverseBoolConverter
+  commentId: T:H.Controls.PropertyGrid.InverseBoolConverter
+  href: H.Controls.PropertyGrid.InverseBoolConverter.html
+  name: InverseBoolConverter
+  nameWithType: InverseBoolConverter
+  fullName: H.Controls.PropertyGrid.InverseBoolConverter
+- uid: H.Controls.PropertyGrid.NullToBoolConverter
+  commentId: T:H.Controls.PropertyGrid.NullToBoolConverter
+  href: H.Controls.PropertyGrid.NullToBoolConverter.html
+  name: NullToBoolConverter
+  nameWithType: NullToBoolConverter
+  fullName: H.Controls.PropertyGrid.NullToBoolConverter
+- uid: H.Controls.PropertyGrid.ObjectTypeToNameConverter
+  commentId: T:H.Controls.PropertyGrid.ObjectTypeToNameConverter
+  href: H.Controls.PropertyGrid.ObjectTypeToNameConverter.html
+  name: ObjectTypeToNameConverter
+  nameWithType: ObjectTypeToNameConverter
+  fullName: H.Controls.PropertyGrid.ObjectTypeToNameConverter
+- uid: H.Controls.PropertyGrid.RoundedValueConverter
+  commentId: T:H.Controls.PropertyGrid.RoundedValueConverter
+  href: H.Controls.PropertyGrid.RoundedValueConverter.html
+  name: RoundedValueConverter
+  nameWithType: RoundedValueConverter
+  fullName: H.Controls.PropertyGrid.RoundedValueConverter
+- uid: H.Controls.PropertyGrid.SolidColorBrushToColorConverter
+  commentId: T:H.Controls.PropertyGrid.SolidColorBrushToColorConverter
+  href: H.Controls.PropertyGrid.SolidColorBrushToColorConverter.html
+  name: SolidColorBrushToColorConverter
+  nameWithType: SolidColorBrushToColorConverter
+  fullName: H.Controls.PropertyGrid.SolidColorBrushToColorConverter
+- uid: H.Controls.PropertyGrid.ThicknessSideRemovalConverter
+  commentId: T:H.Controls.PropertyGrid.ThicknessSideRemovalConverter
+  href: H.Controls.PropertyGrid.ThicknessSideRemovalConverter.html
+  name: ThicknessSideRemovalConverter
+  nameWithType: ThicknessSideRemovalConverter
+  fullName: H.Controls.PropertyGrid.ThicknessSideRemovalConverter
+- uid: H.Controls.PropertyGrid.ThicknessToDoubleConverter
+  commentId: T:H.Controls.PropertyGrid.ThicknessToDoubleConverter
+  href: H.Controls.PropertyGrid.ThicknessToDoubleConverter.html
+  name: ThicknessToDoubleConverter
+  nameWithType: ThicknessToDoubleConverter
+  fullName: H.Controls.PropertyGrid.ThicknessToDoubleConverter
+- uid: H.Controls.PropertyGrid.VisibilityToBoolConverter
+  commentId: T:H.Controls.PropertyGrid.VisibilityToBoolConverter
+  href: H.Controls.PropertyGrid.VisibilityToBoolConverter.html
+  name: VisibilityToBoolConverter
+  nameWithType: VisibilityToBoolConverter
+  fullName: H.Controls.PropertyGrid.VisibilityToBoolConverter
+- uid: H.Controls.PropertyGrid.WindowContentBorderMarginConverter
+  commentId: T:H.Controls.PropertyGrid.WindowContentBorderMarginConverter
+  href: H.Controls.PropertyGrid.WindowContentBorderMarginConverter.html
+  name: WindowContentBorderMarginConverter
+  nameWithType: WindowContentBorderMarginConverter
+  fullName: H.Controls.PropertyGrid.WindowContentBorderMarginConverter
+- uid: H.Controls.PropertyGrid.WindowControlBackgroundConverter
+  commentId: T:H.Controls.PropertyGrid.WindowControlBackgroundConverter
+  href: H.Controls.PropertyGrid.WindowControlBackgroundConverter.html
+  name: WindowControlBackgroundConverter
+  nameWithType: WindowControlBackgroundConverter
+  fullName: H.Controls.PropertyGrid.WindowControlBackgroundConverter
+- uid: H.Controls.PropertyGrid.EditableKeyValuePair`2
+  commentId: T:H.Controls.PropertyGrid.EditableKeyValuePair`2
+  href: H.Controls.PropertyGrid.EditableKeyValuePair-2.html
+  name: EditableKeyValuePair<TKey, TValue>
+  nameWithType: EditableKeyValuePair<TKey, TValue>
+  fullName: H.Controls.PropertyGrid.EditableKeyValuePair<TKey, TValue>
+  nameWithType.vb: EditableKeyValuePair(Of TKey, TValue)
+  fullName.vb: H.Controls.PropertyGrid.EditableKeyValuePair(Of TKey, TValue)
+  name.vb: EditableKeyValuePair(Of TKey, TValue)
+  spec.csharp:
+  - uid: H.Controls.PropertyGrid.EditableKeyValuePair`2
+    name: EditableKeyValuePair
+    href: H.Controls.PropertyGrid.EditableKeyValuePair-2.html
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: H.Controls.PropertyGrid.EditableKeyValuePair`2
+    name: EditableKeyValuePair
+    href: H.Controls.PropertyGrid.EditableKeyValuePair-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: H.Controls.PropertyGrid.IndexChangedEventArgs
+  commentId: T:H.Controls.PropertyGrid.IndexChangedEventArgs
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.IndexChangedEventArgs.html
+  name: IndexChangedEventArgs
+  nameWithType: IndexChangedEventArgs
+  fullName: H.Controls.PropertyGrid.IndexChangedEventArgs
+- uid: H.Controls.PropertyGrid.IndexChangedEventHandler
+  commentId: T:H.Controls.PropertyGrid.IndexChangedEventHandler
+  href: H.Controls.PropertyGrid.IndexChangedEventHandler.html
+  name: IndexChangedEventHandler
+  nameWithType: IndexChangedEventHandler
+  fullName: H.Controls.PropertyGrid.IndexChangedEventHandler
+- uid: H.Controls.PropertyGrid.InputValidationErrorEventHandler
+  commentId: T:H.Controls.PropertyGrid.InputValidationErrorEventHandler
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.InputValidationErrorEventHandler.html
+  name: InputValidationErrorEventHandler
+  nameWithType: InputValidationErrorEventHandler
+  fullName: H.Controls.PropertyGrid.InputValidationErrorEventHandler
+- uid: H.Controls.PropertyGrid.InputValidationErrorEventArgs
+  commentId: T:H.Controls.PropertyGrid.InputValidationErrorEventArgs
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.InputValidationErrorEventArgs.html
+  name: InputValidationErrorEventArgs
+  nameWithType: InputValidationErrorEventArgs
+  fullName: H.Controls.PropertyGrid.InputValidationErrorEventArgs
+- uid: H.Controls.PropertyGrid.IValidateInput
+  commentId: T:H.Controls.PropertyGrid.IValidateInput
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.IValidateInput.html
+  name: IValidateInput
+  nameWithType: IValidateInput
+  fullName: H.Controls.PropertyGrid.IValidateInput
+- uid: H.Controls.PropertyGrid.KeyModifier
+  commentId: T:H.Controls.PropertyGrid.KeyModifier
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.KeyModifier.html
+  name: KeyModifier
+  nameWithType: KeyModifier
+  fullName: H.Controls.PropertyGrid.KeyModifier
+- uid: H.Controls.PropertyGrid.KeyModifierCollection
+  commentId: T:H.Controls.PropertyGrid.KeyModifierCollection
+  href: H.Controls.PropertyGrid.KeyModifierCollection.html
+  name: KeyModifierCollection
+  nameWithType: KeyModifierCollection
+  fullName: H.Controls.PropertyGrid.KeyModifierCollection
+- uid: H.Controls.PropertyGrid.KeyModifierCollectionConverter
+  commentId: T:H.Controls.PropertyGrid.KeyModifierCollectionConverter
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.KeyModifierCollectionConverter.html
+  name: KeyModifierCollectionConverter
+  nameWithType: KeyModifierCollectionConverter
+  fullName: H.Controls.PropertyGrid.KeyModifierCollectionConverter
+- uid: H.Controls.PropertyGrid.InvalidContentException
+  commentId: T:H.Controls.PropertyGrid.InvalidContentException
+  href: H.Controls.PropertyGrid.InvalidContentException.html
+  name: InvalidContentException
+  nameWithType: InvalidContentException
+  fullName: H.Controls.PropertyGrid.InvalidContentException
+- uid: H.Controls.PropertyGrid.InvalidTemplateException
+  commentId: T:H.Controls.PropertyGrid.InvalidTemplateException
+  href: H.Controls.PropertyGrid.InvalidTemplateException.html
+  name: InvalidTemplateException
+  nameWithType: InvalidTemplateException
+  fullName: H.Controls.PropertyGrid.InvalidTemplateException
+- uid: H.Controls.PropertyGrid.Location
+  commentId: T:H.Controls.PropertyGrid.Location
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.Location.html
+  name: Location
+  nameWithType: Location
+  fullName: H.Controls.PropertyGrid.Location
+- uid: H.Controls.PropertyGrid.PropertyChangedEventArgs`1
+  commentId: T:H.Controls.PropertyGrid.PropertyChangedEventArgs`1
+  href: H.Controls.PropertyGrid.PropertyChangedEventArgs-1.html
+  name: PropertyChangedEventArgs<T>
+  nameWithType: PropertyChangedEventArgs<T>
+  fullName: H.Controls.PropertyGrid.PropertyChangedEventArgs<T>
+  nameWithType.vb: PropertyChangedEventArgs(Of T)
+  fullName.vb: H.Controls.PropertyGrid.PropertyChangedEventArgs(Of T)
+  name.vb: PropertyChangedEventArgs(Of T)
+  spec.csharp:
+  - uid: H.Controls.PropertyGrid.PropertyChangedEventArgs`1
+    name: PropertyChangedEventArgs
+    href: H.Controls.PropertyGrid.PropertyChangedEventArgs-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Controls.PropertyGrid.PropertyChangedEventArgs`1
+    name: PropertyChangedEventArgs
+    href: H.Controls.PropertyGrid.PropertyChangedEventArgs-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Controls.PropertyGrid.PropertyChangedEventHandler`1
+  commentId: T:H.Controls.PropertyGrid.PropertyChangedEventHandler`1
+  href: H.Controls.PropertyGrid.PropertyChangedEventHandler-1.html
+  name: PropertyChangedEventHandler<T>
+  nameWithType: PropertyChangedEventHandler<T>
+  fullName: H.Controls.PropertyGrid.PropertyChangedEventHandler<T>
+  nameWithType.vb: PropertyChangedEventHandler(Of T)
+  fullName.vb: H.Controls.PropertyGrid.PropertyChangedEventHandler(Of T)
+  name.vb: PropertyChangedEventHandler(Of T)
+  spec.csharp:
+  - uid: H.Controls.PropertyGrid.PropertyChangedEventHandler`1
+    name: PropertyChangedEventHandler
+    href: H.Controls.PropertyGrid.PropertyChangedEventHandler-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Controls.PropertyGrid.PropertyChangedEventHandler`1
+    name: PropertyChangedEventHandler
+    href: H.Controls.PropertyGrid.PropertyChangedEventHandler-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Controls.PropertyGrid.QueryTextFromValueEventArgs
+  commentId: T:H.Controls.PropertyGrid.QueryTextFromValueEventArgs
+  href: H.Controls.PropertyGrid.QueryTextFromValueEventArgs.html
+  name: QueryTextFromValueEventArgs
+  nameWithType: QueryTextFromValueEventArgs
+  fullName: H.Controls.PropertyGrid.QueryTextFromValueEventArgs
+- uid: H.Controls.PropertyGrid.QueryValueFromTextEventArgs
+  commentId: T:H.Controls.PropertyGrid.QueryValueFromTextEventArgs
+  href: H.Controls.PropertyGrid.QueryValueFromTextEventArgs.html
+  name: QueryValueFromTextEventArgs
+  nameWithType: QueryValueFromTextEventArgs
+  fullName: H.Controls.PropertyGrid.QueryValueFromTextEventArgs
+- uid: H.Controls.PropertyGrid.ContextMenuUtilities
+  commentId: T:H.Controls.PropertyGrid.ContextMenuUtilities
+  href: H.Controls.PropertyGrid.ContextMenuUtilities.html
+  name: ContextMenuUtilities
+  nameWithType: ContextMenuUtilities
+  fullName: H.Controls.PropertyGrid.ContextMenuUtilities
+- uid: H.Controls.PropertyGrid.VisualTreeHelperEx
+  commentId: T:H.Controls.PropertyGrid.VisualTreeHelperEx
+  href: H.Controls.PropertyGrid.VisualTreeHelperEx.html
+  name: VisualTreeHelperEx
+  nameWithType: VisualTreeHelperEx
+  fullName: H.Controls.PropertyGrid.VisualTreeHelperEx
+- uid: H.Controls.PropertyGrid.DateTimeFormat
+  commentId: T:H.Controls.PropertyGrid.DateTimeFormat
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.DateTimeFormat.html
+  name: DateTimeFormat
+  nameWithType: DateTimeFormat
+  fullName: H.Controls.PropertyGrid.DateTimeFormat
+- uid: H.Controls.PropertyGrid.DateTimePart
+  commentId: T:H.Controls.PropertyGrid.DateTimePart
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.DateTimePart.html
+  name: DateTimePart
+  nameWithType: DateTimePart
+  fullName: H.Controls.PropertyGrid.DateTimePart
+- uid: H.Controls.PropertyGrid.DateTimeUpDown
+  commentId: T:H.Controls.PropertyGrid.DateTimeUpDown
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.DateTimeUpDown.html
+  name: DateTimeUpDown
+  nameWithType: DateTimeUpDown
+  fullName: H.Controls.PropertyGrid.DateTimeUpDown
+- uid: H.Controls.PropertyGrid.AutoCompletingMaskEventArgs
+  commentId: T:H.Controls.PropertyGrid.AutoCompletingMaskEventArgs
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.AutoCompletingMaskEventArgs.html
+  name: AutoCompletingMaskEventArgs
+  nameWithType: AutoCompletingMaskEventArgs
+  fullName: H.Controls.PropertyGrid.AutoCompletingMaskEventArgs
+- uid: H.Controls.PropertyGrid.InsertKeyMode
+  commentId: T:H.Controls.PropertyGrid.InsertKeyMode
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.InsertKeyMode.html
+  name: InsertKeyMode
+  nameWithType: InsertKeyMode
+  fullName: H.Controls.PropertyGrid.InsertKeyMode
+- uid: H.Controls.PropertyGrid.MaskedTextBox
+  commentId: T:H.Controls.PropertyGrid.MaskedTextBox
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.MaskedTextBox.html
+  name: MaskedTextBox
+  nameWithType: MaskedTextBox
+  fullName: H.Controls.PropertyGrid.MaskedTextBox
+- uid: H.Controls.PropertyGrid.MaskFormat
+  commentId: T:H.Controls.PropertyGrid.MaskFormat
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.MaskFormat.html
+  name: MaskFormat
+  nameWithType: MaskFormat
+  fullName: H.Controls.PropertyGrid.MaskFormat
+- uid: H.Controls.PropertyGrid.MultiLineTextEditor
+  commentId: T:H.Controls.PropertyGrid.MultiLineTextEditor
+  href: H.Controls.PropertyGrid.MultiLineTextEditor.html
+  name: MultiLineTextEditor
+  nameWithType: MultiLineTextEditor
+  fullName: H.Controls.PropertyGrid.MultiLineTextEditor
+- uid: H.Controls.PropertyGrid.AllowedSpecialValues
+  commentId: T:H.Controls.PropertyGrid.AllowedSpecialValues
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.AllowedSpecialValues.html
+  name: AllowedSpecialValues
+  nameWithType: AllowedSpecialValues
+  fullName: H.Controls.PropertyGrid.AllowedSpecialValues
+- uid: H.Controls.PropertyGrid.ByteUpDown
+  commentId: T:H.Controls.PropertyGrid.ByteUpDown
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.ByteUpDown.html
+  name: ByteUpDown
+  nameWithType: ByteUpDown
+  fullName: H.Controls.PropertyGrid.ByteUpDown
+- uid: H.Controls.PropertyGrid.CommonNumericUpDown`1
+  commentId: T:H.Controls.PropertyGrid.CommonNumericUpDown`1
+  href: H.Controls.PropertyGrid.CommonNumericUpDown-1.html
+  name: CommonNumericUpDown<T>
+  nameWithType: CommonNumericUpDown<T>
+  fullName: H.Controls.PropertyGrid.CommonNumericUpDown<T>
+  nameWithType.vb: CommonNumericUpDown(Of T)
+  fullName.vb: H.Controls.PropertyGrid.CommonNumericUpDown(Of T)
+  name.vb: CommonNumericUpDown(Of T)
+  spec.csharp:
+  - uid: H.Controls.PropertyGrid.CommonNumericUpDown`1
+    name: CommonNumericUpDown
+    href: H.Controls.PropertyGrid.CommonNumericUpDown-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Controls.PropertyGrid.CommonNumericUpDown`1
+    name: CommonNumericUpDown
+    href: H.Controls.PropertyGrid.CommonNumericUpDown-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Controls.PropertyGrid.CommonNumericUpDown`1.FromText
+  commentId: T:H.Controls.PropertyGrid.CommonNumericUpDown`1.FromText
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.CommonNumericUpDown-1.html
+  name: CommonNumericUpDown<T>.FromText
+  nameWithType: CommonNumericUpDown<T>.FromText
+  fullName: H.Controls.PropertyGrid.CommonNumericUpDown<T>.FromText
+  nameWithType.vb: CommonNumericUpDown(Of T).FromText
+  fullName.vb: H.Controls.PropertyGrid.CommonNumericUpDown(Of T).FromText
+  name.vb: CommonNumericUpDown(Of T).FromText
+  spec.csharp:
+  - uid: H.Controls.PropertyGrid.CommonNumericUpDown`1
+    name: CommonNumericUpDown
+    href: H.Controls.PropertyGrid.CommonNumericUpDown-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  - name: .
+  - uid: H.Controls.PropertyGrid.CommonNumericUpDown`1.FromText
+    name: FromText
+    href: H.Controls.PropertyGrid.CommonNumericUpDown-1.FromText.html
+  spec.vb:
+  - uid: H.Controls.PropertyGrid.CommonNumericUpDown`1
+    name: CommonNumericUpDown
+    href: H.Controls.PropertyGrid.CommonNumericUpDown-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: .
+  - uid: H.Controls.PropertyGrid.CommonNumericUpDown`1.FromText
+    name: FromText
+    href: H.Controls.PropertyGrid.CommonNumericUpDown-1.FromText.html
+- uid: H.Controls.PropertyGrid.CommonNumericUpDown`1.FromDecimal
+  commentId: T:H.Controls.PropertyGrid.CommonNumericUpDown`1.FromDecimal
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.CommonNumericUpDown-1.html
+  name: CommonNumericUpDown<T>.FromDecimal
+  nameWithType: CommonNumericUpDown<T>.FromDecimal
+  fullName: H.Controls.PropertyGrid.CommonNumericUpDown<T>.FromDecimal
+  nameWithType.vb: CommonNumericUpDown(Of T).FromDecimal
+  fullName.vb: H.Controls.PropertyGrid.CommonNumericUpDown(Of T).FromDecimal
+  name.vb: CommonNumericUpDown(Of T).FromDecimal
+  spec.csharp:
+  - uid: H.Controls.PropertyGrid.CommonNumericUpDown`1
+    name: CommonNumericUpDown
+    href: H.Controls.PropertyGrid.CommonNumericUpDown-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  - name: .
+  - uid: H.Controls.PropertyGrid.CommonNumericUpDown`1.FromDecimal
+    name: FromDecimal
+    href: H.Controls.PropertyGrid.CommonNumericUpDown-1.FromDecimal.html
+  spec.vb:
+  - uid: H.Controls.PropertyGrid.CommonNumericUpDown`1
+    name: CommonNumericUpDown
+    href: H.Controls.PropertyGrid.CommonNumericUpDown-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: .
+  - uid: H.Controls.PropertyGrid.CommonNumericUpDown`1.FromDecimal
+    name: FromDecimal
+    href: H.Controls.PropertyGrid.CommonNumericUpDown-1.FromDecimal.html
+- uid: H.Controls.PropertyGrid.DecimalUpDown
+  commentId: T:H.Controls.PropertyGrid.DecimalUpDown
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.DecimalUpDown.html
+  name: DecimalUpDown
+  nameWithType: DecimalUpDown
+  fullName: H.Controls.PropertyGrid.DecimalUpDown
+- uid: H.Controls.PropertyGrid.DoubleUpDown
+  commentId: T:H.Controls.PropertyGrid.DoubleUpDown
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.DoubleUpDown.html
+  name: DoubleUpDown
+  nameWithType: DoubleUpDown
+  fullName: H.Controls.PropertyGrid.DoubleUpDown
+- uid: H.Controls.PropertyGrid.IntegerUpDown
+  commentId: T:H.Controls.PropertyGrid.IntegerUpDown
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.IntegerUpDown.html
+  name: IntegerUpDown
+  nameWithType: IntegerUpDown
+  fullName: H.Controls.PropertyGrid.IntegerUpDown
+- uid: H.Controls.PropertyGrid.LongUpDown
+  commentId: T:H.Controls.PropertyGrid.LongUpDown
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.LongUpDown.html
+  name: LongUpDown
+  nameWithType: LongUpDown
+  fullName: H.Controls.PropertyGrid.LongUpDown
+- uid: H.Controls.PropertyGrid.NumericUpDown`1
+  commentId: T:H.Controls.PropertyGrid.NumericUpDown`1
+  href: H.Controls.PropertyGrid.NumericUpDown-1.html
+  name: NumericUpDown<T>
+  nameWithType: NumericUpDown<T>
+  fullName: H.Controls.PropertyGrid.NumericUpDown<T>
+  nameWithType.vb: NumericUpDown(Of T)
+  fullName.vb: H.Controls.PropertyGrid.NumericUpDown(Of T)
+  name.vb: NumericUpDown(Of T)
+  spec.csharp:
+  - uid: H.Controls.PropertyGrid.NumericUpDown`1
+    name: NumericUpDown
+    href: H.Controls.PropertyGrid.NumericUpDown-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Controls.PropertyGrid.NumericUpDown`1
+    name: NumericUpDown
+    href: H.Controls.PropertyGrid.NumericUpDown-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Controls.PropertyGrid.ShortUpDown
+  commentId: T:H.Controls.PropertyGrid.ShortUpDown
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.ShortUpDown.html
+  name: ShortUpDown
+  nameWithType: ShortUpDown
+  fullName: H.Controls.PropertyGrid.ShortUpDown
+- uid: H.Controls.PropertyGrid.SingleUpDown
+  commentId: T:H.Controls.PropertyGrid.SingleUpDown
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.SingleUpDown.html
+  name: SingleUpDown
+  nameWithType: SingleUpDown
+  fullName: H.Controls.PropertyGrid.SingleUpDown
+- uid: H.Controls.PropertyGrid.DateTimePickerBase
+  commentId: T:H.Controls.PropertyGrid.DateTimePickerBase
+  href: H.Controls.PropertyGrid.DateTimePickerBase.html
+  name: DateTimePickerBase
+  nameWithType: DateTimePickerBase
+  fullName: H.Controls.PropertyGrid.DateTimePickerBase
+- uid: H.Controls.PropertyGrid.DateTimeUpDownBase`1
+  commentId: T:H.Controls.PropertyGrid.DateTimeUpDownBase`1
+  href: H.Controls.PropertyGrid.DateTimeUpDownBase-1.html
+  name: DateTimeUpDownBase<T>
+  nameWithType: DateTimeUpDownBase<T>
+  fullName: H.Controls.PropertyGrid.DateTimeUpDownBase<T>
+  nameWithType.vb: DateTimeUpDownBase(Of T)
+  fullName.vb: H.Controls.PropertyGrid.DateTimeUpDownBase(Of T)
+  name.vb: DateTimeUpDownBase(Of T)
+  spec.csharp:
+  - uid: H.Controls.PropertyGrid.DateTimeUpDownBase`1
+    name: DateTimeUpDownBase
+    href: H.Controls.PropertyGrid.DateTimeUpDownBase-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Controls.PropertyGrid.DateTimeUpDownBase`1
+    name: DateTimeUpDownBase
+    href: H.Controls.PropertyGrid.DateTimeUpDownBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Controls.PropertyGrid.InputBase
+  commentId: T:H.Controls.PropertyGrid.InputBase
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.InputBase.html
+  name: InputBase
+  nameWithType: InputBase
+  fullName: H.Controls.PropertyGrid.InputBase
+- uid: H.Controls.PropertyGrid.MouseWheelActiveTrigger
+  commentId: T:H.Controls.PropertyGrid.MouseWheelActiveTrigger
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.MouseWheelActiveTrigger.html
+  name: MouseWheelActiveTrigger
+  nameWithType: MouseWheelActiveTrigger
+  fullName: H.Controls.PropertyGrid.MouseWheelActiveTrigger
+- uid: H.Controls.PropertyGrid.Selector
+  commentId: T:H.Controls.PropertyGrid.Selector
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.Selector.html
+  name: Selector
+  nameWithType: Selector
+  fullName: H.Controls.PropertyGrid.Selector
+- uid: H.Controls.PropertyGrid.ItemSelectionChangedEventHandler
+  commentId: T:H.Controls.PropertyGrid.ItemSelectionChangedEventHandler
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.ItemSelectionChangedEventHandler.html
+  name: ItemSelectionChangedEventHandler
+  nameWithType: ItemSelectionChangedEventHandler
+  fullName: H.Controls.PropertyGrid.ItemSelectionChangedEventHandler
+- uid: H.Controls.PropertyGrid.ItemSelectionChangedEventArgs
+  commentId: T:H.Controls.PropertyGrid.ItemSelectionChangedEventArgs
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.ItemSelectionChangedEventArgs.html
+  name: ItemSelectionChangedEventArgs
+  nameWithType: ItemSelectionChangedEventArgs
+  fullName: H.Controls.PropertyGrid.ItemSelectionChangedEventArgs
+- uid: H.Controls.PropertyGrid.SelectorItem
+  commentId: T:H.Controls.PropertyGrid.SelectorItem
+  href: H.Controls.PropertyGrid.SelectorItem.html
+  name: SelectorItem
+  nameWithType: SelectorItem
+  fullName: H.Controls.PropertyGrid.SelectorItem
+- uid: H.Controls.PropertyGrid.ShapeBase
+  commentId: T:H.Controls.PropertyGrid.ShapeBase
+  href: H.Controls.PropertyGrid.ShapeBase.html
+  name: ShapeBase
+  nameWithType: ShapeBase
+  fullName: H.Controls.PropertyGrid.ShapeBase
+- uid: H.Controls.PropertyGrid.ResourceKeys
+  commentId: T:H.Controls.PropertyGrid.ResourceKeys
+  href: H.Controls.PropertyGrid.ResourceKeys.html
+  name: ResourceKeys
+  nameWithType: ResourceKeys
+  fullName: H.Controls.PropertyGrid.ResourceKeys
+- uid: H.Controls.PropertyGrid.UpDownBase`1
+  commentId: T:H.Controls.PropertyGrid.UpDownBase`1
+  href: H.Controls.PropertyGrid.UpDownBase-1.html
+  name: UpDownBase<T>
+  nameWithType: UpDownBase<T>
+  fullName: H.Controls.PropertyGrid.UpDownBase<T>
+  nameWithType.vb: UpDownBase(Of T)
+  fullName.vb: H.Controls.PropertyGrid.UpDownBase(Of T)
+  name.vb: UpDownBase(Of T)
+  spec.csharp:
+  - uid: H.Controls.PropertyGrid.UpDownBase`1
+    name: UpDownBase
+    href: H.Controls.PropertyGrid.UpDownBase-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Controls.PropertyGrid.UpDownBase`1
+    name: UpDownBase
+    href: H.Controls.PropertyGrid.UpDownBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Controls.PropertyGrid.ValueRangeTextBox
+  commentId: T:H.Controls.PropertyGrid.ValueRangeTextBox
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.ValueRangeTextBox.html
+  name: ValueRangeTextBox
+  nameWithType: ValueRangeTextBox
+  fullName: H.Controls.PropertyGrid.ValueRangeTextBox
+- uid: H.Controls.PropertyGrid.WindowControl
+  commentId: T:H.Controls.PropertyGrid.WindowControl
+  href: H.Controls.PropertyGrid.WindowControl.html
+  name: WindowControl
+  nameWithType: WindowControl
+  fullName: H.Controls.PropertyGrid.WindowControl
+- uid: H.Controls.PropertyGrid.PropertyGrid
+  commentId: T:H.Controls.PropertyGrid.PropertyGrid
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.PropertyGrid.html
+  name: PropertyGrid
+  nameWithType: PropertyGrid
+  fullName: H.Controls.PropertyGrid.PropertyGrid
+- uid: H.Controls.PropertyGrid.PropertyValueChangedEventHandler
+  commentId: T:H.Controls.PropertyGrid.PropertyValueChangedEventHandler
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.PropertyValueChangedEventHandler.html
+  name: PropertyValueChangedEventHandler
+  nameWithType: PropertyValueChangedEventHandler
+  fullName: H.Controls.PropertyGrid.PropertyValueChangedEventHandler
+- uid: H.Controls.PropertyGrid.PropertyValueChangedEventArgs
+  commentId: T:H.Controls.PropertyGrid.PropertyValueChangedEventArgs
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.PropertyValueChangedEventArgs.html
+  name: PropertyValueChangedEventArgs
+  nameWithType: PropertyValueChangedEventArgs
+  fullName: H.Controls.PropertyGrid.PropertyValueChangedEventArgs
+- uid: H.Controls.PropertyGrid.PropertyItemEventHandler
+  commentId: T:H.Controls.PropertyGrid.PropertyItemEventHandler
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.PropertyItemEventHandler.html
+  name: PropertyItemEventHandler
+  nameWithType: PropertyItemEventHandler
+  fullName: H.Controls.PropertyGrid.PropertyItemEventHandler
+- uid: H.Controls.PropertyGrid.PropertyItemEventArgs
+  commentId: T:H.Controls.PropertyGrid.PropertyItemEventArgs
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.PropertyItemEventArgs.html
+  name: PropertyItemEventArgs
+  nameWithType: PropertyItemEventArgs
+  fullName: H.Controls.PropertyGrid.PropertyItemEventArgs
+- uid: H.Controls.PropertyGrid.PropertyArgs
+  commentId: T:H.Controls.PropertyGrid.PropertyArgs
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.PropertyArgs.html
+  name: PropertyArgs
+  nameWithType: PropertyArgs
+  fullName: H.Controls.PropertyGrid.PropertyArgs
+- uid: H.Controls.PropertyGrid.IsPropertyBrowsableHandler
+  commentId: T:H.Controls.PropertyGrid.IsPropertyBrowsableHandler
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.IsPropertyBrowsableHandler.html
+  name: IsPropertyBrowsableHandler
+  nameWithType: IsPropertyBrowsableHandler
+  fullName: H.Controls.PropertyGrid.IsPropertyBrowsableHandler
+- uid: H.Controls.PropertyGrid.IsPropertyBrowsableArgs
+  commentId: T:H.Controls.PropertyGrid.IsPropertyBrowsableArgs
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.IsPropertyBrowsableArgs.html
+  name: IsPropertyBrowsableArgs
+  nameWithType: IsPropertyBrowsableArgs
+  fullName: H.Controls.PropertyGrid.IsPropertyBrowsableArgs
+- uid: H.Controls.PropertyGrid.CategoryOrderAttribute
+  commentId: T:H.Controls.PropertyGrid.CategoryOrderAttribute
+  href: H.Controls.PropertyGrid.CategoryOrderAttribute.html
+  name: CategoryOrderAttribute
+  nameWithType: CategoryOrderAttribute
+  fullName: H.Controls.PropertyGrid.CategoryOrderAttribute
+- uid: H.Controls.PropertyGrid.ExpandableObjectAttribute
+  commentId: T:H.Controls.PropertyGrid.ExpandableObjectAttribute
+  href: H.Controls.PropertyGrid.ExpandableObjectAttribute.html
+  name: ExpandableObjectAttribute
+  nameWithType: ExpandableObjectAttribute
+  fullName: H.Controls.PropertyGrid.ExpandableObjectAttribute
+- uid: H.Controls.PropertyGrid.IItemsSource
+  commentId: T:H.Controls.PropertyGrid.IItemsSource
+  href: H.Controls.PropertyGrid.IItemsSource.html
+  name: IItemsSource
+  nameWithType: IItemsSource
+  fullName: H.Controls.PropertyGrid.IItemsSource
+- uid: H.Controls.PropertyGrid.Item
+  commentId: T:H.Controls.PropertyGrid.Item
+  href: H.Controls.PropertyGrid.Item.html
+  name: Item
+  nameWithType: Item
+  fullName: H.Controls.PropertyGrid.Item
+- uid: H.Controls.PropertyGrid.ItemCollection
+  commentId: T:H.Controls.PropertyGrid.ItemCollection
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.ItemCollection.html
+  name: ItemCollection
+  nameWithType: ItemCollection
+  fullName: H.Controls.PropertyGrid.ItemCollection
+- uid: H.Controls.PropertyGrid.ItemsSourceAttribute
+  commentId: T:H.Controls.PropertyGrid.ItemsSourceAttribute
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.ItemsSourceAttribute.html
+  name: ItemsSourceAttribute
+  nameWithType: ItemsSourceAttribute
+  fullName: H.Controls.PropertyGrid.ItemsSourceAttribute
+- uid: H.Controls.PropertyGrid.NewItemTypesAttribute
+  commentId: T:H.Controls.PropertyGrid.NewItemTypesAttribute
+  href: H.Controls.PropertyGrid.NewItemTypesAttribute.html
+  name: NewItemTypesAttribute
+  nameWithType: NewItemTypesAttribute
+  fullName: H.Controls.PropertyGrid.NewItemTypesAttribute
+- uid: H.Controls.PropertyGrid.UsageContextEnum
+  commentId: T:H.Controls.PropertyGrid.UsageContextEnum
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.UsageContextEnum.html
+  name: UsageContextEnum
+  nameWithType: UsageContextEnum
+  fullName: H.Controls.PropertyGrid.UsageContextEnum
+- uid: H.Controls.PropertyGrid.PropertyOrderAttribute
+  commentId: T:H.Controls.PropertyGrid.PropertyOrderAttribute
+  href: H.Controls.PropertyGrid.PropertyOrderAttribute.html
+  name: PropertyOrderAttribute
+  nameWithType: PropertyOrderAttribute
+  fullName: H.Controls.PropertyGrid.PropertyOrderAttribute
+- uid: H.Controls.PropertyGrid.CategoryGroupStyleSelector
+  commentId: T:H.Controls.PropertyGrid.CategoryGroupStyleSelector
+  href: H.Controls.PropertyGrid.CategoryGroupStyleSelector.html
+  name: CategoryGroupStyleSelector
+  nameWithType: CategoryGroupStyleSelector
+  fullName: H.Controls.PropertyGrid.CategoryGroupStyleSelector
+- uid: H.Controls.PropertyGrid.PropertyGridCommands
+  commentId: T:H.Controls.PropertyGrid.PropertyGridCommands
+  href: H.Controls.PropertyGrid.PropertyGridCommands.html
+  name: PropertyGridCommands
+  nameWithType: PropertyGridCommands
+  fullName: H.Controls.PropertyGrid.PropertyGridCommands
+- uid: H.Controls.PropertyGrid.PropertyItemCommands
+  commentId: T:H.Controls.PropertyGrid.PropertyItemCommands
+  href: H.Controls.PropertyGrid.PropertyItemCommands.html
+  name: PropertyItemCommands
+  nameWithType: PropertyItemCommands
+  fullName: H.Controls.PropertyGrid.PropertyItemCommands
+- uid: H.Controls.PropertyGrid.EditorTimeSpanConverter
+  commentId: T:H.Controls.PropertyGrid.EditorTimeSpanConverter
+  href: H.Controls.PropertyGrid.EditorTimeSpanConverter.html
+  name: EditorTimeSpanConverter
+  nameWithType: EditorTimeSpanConverter
+  fullName: H.Controls.PropertyGrid.EditorTimeSpanConverter
+- uid: H.Controls.PropertyGrid.ExpandableObjectMarginConverter
+  commentId: T:H.Controls.PropertyGrid.ExpandableObjectMarginConverter
+  href: H.Controls.PropertyGrid.ExpandableObjectMarginConverter.html
+  name: ExpandableObjectMarginConverter
+  nameWithType: ExpandableObjectMarginConverter
+  fullName: H.Controls.PropertyGrid.ExpandableObjectMarginConverter
+- uid: H.Controls.PropertyGrid.IsDefaultCategoryConverter
+  commentId: T:H.Controls.PropertyGrid.IsDefaultCategoryConverter
+  href: H.Controls.PropertyGrid.IsDefaultCategoryConverter.html
+  name: IsDefaultCategoryConverter
+  nameWithType: IsDefaultCategoryConverter
+  fullName: H.Controls.PropertyGrid.IsDefaultCategoryConverter
+- uid: H.Controls.PropertyGrid.IsStringEmptyConverter
+  commentId: T:H.Controls.PropertyGrid.IsStringEmptyConverter
+  href: H.Controls.PropertyGrid.IsStringEmptyConverter.html
+  name: IsStringEmptyConverter
+  nameWithType: IsStringEmptyConverter
+  fullName: H.Controls.PropertyGrid.IsStringEmptyConverter
+- uid: H.Controls.PropertyGrid.ObjectToUIElementConverter
+  commentId: T:H.Controls.PropertyGrid.ObjectToUIElementConverter
+  href: H.Controls.PropertyGrid.ObjectToUIElementConverter.html
+  name: ObjectToUIElementConverter
+  nameWithType: ObjectToUIElementConverter
+  fullName: H.Controls.PropertyGrid.ObjectToUIElementConverter
+- uid: H.Controls.PropertyGrid.SelectedObjectConverter
+  commentId: T:H.Controls.PropertyGrid.SelectedObjectConverter
+  href: H.Controls.PropertyGrid.SelectedObjectConverter.html
+  name: SelectedObjectConverter
+  nameWithType: SelectedObjectConverter
+  fullName: H.Controls.PropertyGrid.SelectedObjectConverter
+- uid: H.Controls.PropertyGrid.CustomPropertyItem
+  commentId: T:H.Controls.PropertyGrid.CustomPropertyItem
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.CustomPropertyItem.html
+  name: CustomPropertyItem
+  nameWithType: CustomPropertyItem
+  fullName: H.Controls.PropertyGrid.CustomPropertyItem
+- uid: H.Controls.PropertyGrid.DefinitionBase
+  commentId: T:H.Controls.PropertyGrid.DefinitionBase
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.DefinitionBase.html
+  name: DefinitionBase
+  nameWithType: DefinitionBase
+  fullName: H.Controls.PropertyGrid.DefinitionBase
+- uid: H.Controls.PropertyGrid.EditorDefinitionBase
+  commentId: T:H.Controls.PropertyGrid.EditorDefinitionBase
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.EditorDefinitionBase.html
+  name: EditorDefinitionBase
+  nameWithType: EditorDefinitionBase
+  fullName: H.Controls.PropertyGrid.EditorDefinitionBase
+- uid: H.Controls.PropertyGrid.EditorTemplateDefinition
+  commentId: T:H.Controls.PropertyGrid.EditorTemplateDefinition
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.EditorTemplateDefinition.html
+  name: EditorTemplateDefinition
+  nameWithType: EditorTemplateDefinition
+  fullName: H.Controls.PropertyGrid.EditorTemplateDefinition
+- uid: H.Controls.PropertyGrid.PropertyDefinitionBase
+  commentId: T:H.Controls.PropertyGrid.PropertyDefinitionBase
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.PropertyDefinitionBase.html
+  name: PropertyDefinitionBase
+  nameWithType: PropertyDefinitionBase
+  fullName: H.Controls.PropertyGrid.PropertyDefinitionBase
+- uid: H.Controls.PropertyGrid.EditorDefinition
+  commentId: T:H.Controls.PropertyGrid.EditorDefinition
+  href: H.Controls.PropertyGrid.EditorDefinition.html
+  name: EditorDefinition
+  nameWithType: EditorDefinition
+  fullName: H.Controls.PropertyGrid.EditorDefinition
+- uid: H.Controls.PropertyGrid.CheckBoxEditor
+  commentId: T:H.Controls.PropertyGrid.CheckBoxEditor
+  href: H.Controls.PropertyGrid.CheckBoxEditor.html
+  name: CheckBoxEditor
+  nameWithType: CheckBoxEditor
+  fullName: H.Controls.PropertyGrid.CheckBoxEditor
+- uid: H.Controls.PropertyGrid.PropertyGridEditorCheckBox
+  commentId: T:H.Controls.PropertyGrid.PropertyGridEditorCheckBox
+  href: H.Controls.PropertyGrid.PropertyGridEditorCheckBox.html
+  name: PropertyGridEditorCheckBox
+  nameWithType: PropertyGridEditorCheckBox
+  fullName: H.Controls.PropertyGrid.PropertyGridEditorCheckBox
+- uid: H.Controls.PropertyGrid.CollectionEditor
+  commentId: T:H.Controls.PropertyGrid.CollectionEditor
+  href: H.Controls.PropertyGrid.CollectionEditor.html
+  name: CollectionEditor
+  nameWithType: CollectionEditor
+  fullName: H.Controls.PropertyGrid.CollectionEditor
+- uid: H.Controls.PropertyGrid.PropertyGridEditorCollectionControl
+  commentId: T:H.Controls.PropertyGrid.PropertyGridEditorCollectionControl
+  href: H.Controls.PropertyGrid.PropertyGridEditorCollectionControl.html
+  name: PropertyGridEditorCollectionControl
+  nameWithType: PropertyGridEditorCollectionControl
+  fullName: H.Controls.PropertyGrid.PropertyGridEditorCollectionControl
+- uid: H.Controls.PropertyGrid.ColorEditor
+  commentId: T:H.Controls.PropertyGrid.ColorEditor
+  href: H.Controls.PropertyGrid.ColorEditor.html
+  name: ColorEditor
+  nameWithType: ColorEditor
+  fullName: H.Controls.PropertyGrid.ColorEditor
+- uid: H.Controls.PropertyGrid.PropertyGridEditorColorPicker
+  commentId: T:H.Controls.PropertyGrid.PropertyGridEditorColorPicker
+  href: H.Controls.PropertyGrid.PropertyGridEditorColorPicker.html
+  name: PropertyGridEditorColorPicker
+  nameWithType: PropertyGridEditorColorPicker
+  fullName: H.Controls.PropertyGrid.PropertyGridEditorColorPicker
+- uid: H.Controls.PropertyGrid.ComboBoxEditor
+  commentId: T:H.Controls.PropertyGrid.ComboBoxEditor
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.ComboBoxEditor.html
+  name: ComboBoxEditor
+  nameWithType: ComboBoxEditor
+  fullName: H.Controls.PropertyGrid.ComboBoxEditor
+- uid: H.Controls.PropertyGrid.PropertyGridEditorComboBox
+  commentId: T:H.Controls.PropertyGrid.PropertyGridEditorComboBox
+  href: H.Controls.PropertyGrid.PropertyGridEditorComboBox.html
+  name: PropertyGridEditorComboBox
+  nameWithType: PropertyGridEditorComboBox
+  fullName: H.Controls.PropertyGrid.PropertyGridEditorComboBox
+- uid: H.Controls.PropertyGrid.EnumComboBoxEditor
+  commentId: T:H.Controls.PropertyGrid.EnumComboBoxEditor
+  href: H.Controls.PropertyGrid.EnumComboBoxEditor.html
+  name: EnumComboBoxEditor
+  nameWithType: EnumComboBoxEditor
+  fullName: H.Controls.PropertyGrid.EnumComboBoxEditor
+- uid: H.Controls.PropertyGrid.FontComboBoxEditor
+  commentId: T:H.Controls.PropertyGrid.FontComboBoxEditor
+  href: H.Controls.PropertyGrid.FontComboBoxEditor.html
+  name: FontComboBoxEditor
+  nameWithType: FontComboBoxEditor
+  fullName: H.Controls.PropertyGrid.FontComboBoxEditor
+- uid: H.Controls.PropertyGrid.ItemsSourceAttributeEditor
+  commentId: T:H.Controls.PropertyGrid.ItemsSourceAttributeEditor
+  href: H.Controls.PropertyGrid.ItemsSourceAttributeEditor.html
+  name: ItemsSourceAttributeEditor
+  nameWithType: ItemsSourceAttributeEditor
+  fullName: H.Controls.PropertyGrid.ItemsSourceAttributeEditor
+- uid: H.Controls.PropertyGrid.ITypeEditor
+  commentId: T:H.Controls.PropertyGrid.ITypeEditor
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.ITypeEditor.html
+  name: ITypeEditor
+  nameWithType: ITypeEditor
+  fullName: H.Controls.PropertyGrid.ITypeEditor
+- uid: H.Controls.PropertyGrid.MaskedTextBoxEditor
+  commentId: T:H.Controls.PropertyGrid.MaskedTextBoxEditor
+  href: H.Controls.PropertyGrid.MaskedTextBoxEditor.html
+  name: MaskedTextBoxEditor
+  nameWithType: MaskedTextBoxEditor
+  fullName: H.Controls.PropertyGrid.MaskedTextBoxEditor
+- uid: H.Controls.PropertyGrid.PropertyGridEditorMaskedTextBox
+  commentId: T:H.Controls.PropertyGrid.PropertyGridEditorMaskedTextBox
+  href: H.Controls.PropertyGrid.PropertyGridEditorMaskedTextBox.html
+  name: PropertyGridEditorMaskedTextBox
+  nameWithType: PropertyGridEditorMaskedTextBox
+  fullName: H.Controls.PropertyGrid.PropertyGridEditorMaskedTextBox
+- uid: H.Controls.PropertyGrid.PrimitiveTypeCollectionEditor
+  commentId: T:H.Controls.PropertyGrid.PrimitiveTypeCollectionEditor
+  href: H.Controls.PropertyGrid.PrimitiveTypeCollectionEditor.html
+  name: PrimitiveTypeCollectionEditor
+  nameWithType: PrimitiveTypeCollectionEditor
+  fullName: H.Controls.PropertyGrid.PrimitiveTypeCollectionEditor
+- uid: H.Controls.PropertyGrid.PropertyGridEditorPrimitiveTypeCollectionControl
+  commentId: T:H.Controls.PropertyGrid.PropertyGridEditorPrimitiveTypeCollectionControl
+  href: H.Controls.PropertyGrid.PropertyGridEditorPrimitiveTypeCollectionControl.html
+  name: PropertyGridEditorPrimitiveTypeCollectionControl
+  nameWithType: PropertyGridEditorPrimitiveTypeCollectionControl
+  fullName: H.Controls.PropertyGrid.PropertyGridEditorPrimitiveTypeCollectionControl
+- uid: H.Controls.PropertyGrid.SourceComboBoxEditor
+  commentId: T:H.Controls.PropertyGrid.SourceComboBoxEditor
+  href: H.Controls.PropertyGrid.SourceComboBoxEditor.html
+  name: SourceComboBoxEditor
+  nameWithType: SourceComboBoxEditor
+  fullName: H.Controls.PropertyGrid.SourceComboBoxEditor
+- uid: H.Controls.PropertyGrid.TextBlockEditor
+  commentId: T:H.Controls.PropertyGrid.TextBlockEditor
+  href: H.Controls.PropertyGrid.TextBlockEditor.html
+  name: TextBlockEditor
+  nameWithType: TextBlockEditor
+  fullName: H.Controls.PropertyGrid.TextBlockEditor
+- uid: H.Controls.PropertyGrid.PropertyGridEditorTextBlock
+  commentId: T:H.Controls.PropertyGrid.PropertyGridEditorTextBlock
+  href: H.Controls.PropertyGrid.PropertyGridEditorTextBlock.html
+  name: PropertyGridEditorTextBlock
+  nameWithType: PropertyGridEditorTextBlock
+  fullName: H.Controls.PropertyGrid.PropertyGridEditorTextBlock
+- uid: H.Controls.PropertyGrid.TextBoxEditor
+  commentId: T:H.Controls.PropertyGrid.TextBoxEditor
+  href: H.Controls.PropertyGrid.TextBoxEditor.html
+  name: TextBoxEditor
+  nameWithType: TextBoxEditor
+  fullName: H.Controls.PropertyGrid.TextBoxEditor
+- uid: H.Controls.PropertyGrid.PropertyGridEditorTextBox
+  commentId: T:H.Controls.PropertyGrid.PropertyGridEditorTextBox
+  href: H.Controls.PropertyGrid.PropertyGridEditorTextBox.html
+  name: PropertyGridEditorTextBox
+  nameWithType: PropertyGridEditorTextBox
+  fullName: H.Controls.PropertyGrid.PropertyGridEditorTextBox
+- uid: H.Controls.PropertyGrid.TypeEditor`1
+  commentId: T:H.Controls.PropertyGrid.TypeEditor`1
+  href: H.Controls.PropertyGrid.TypeEditor-1.html
+  name: TypeEditor<T>
+  nameWithType: TypeEditor<T>
+  fullName: H.Controls.PropertyGrid.TypeEditor<T>
+  nameWithType.vb: TypeEditor(Of T)
+  fullName.vb: H.Controls.PropertyGrid.TypeEditor(Of T)
+  name.vb: TypeEditor(Of T)
+  spec.csharp:
+  - uid: H.Controls.PropertyGrid.TypeEditor`1
+    name: TypeEditor
+    href: H.Controls.PropertyGrid.TypeEditor-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Controls.PropertyGrid.TypeEditor`1
+    name: TypeEditor
+    href: H.Controls.PropertyGrid.TypeEditor-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Controls.PropertyGrid.UpDownEditor`2
+  commentId: T:H.Controls.PropertyGrid.UpDownEditor`2
+  href: H.Controls.PropertyGrid.UpDownEditor-2.html
+  name: UpDownEditor<TEditor, TType>
+  nameWithType: UpDownEditor<TEditor, TType>
+  fullName: H.Controls.PropertyGrid.UpDownEditor<TEditor, TType>
+  nameWithType.vb: UpDownEditor(Of TEditor, TType)
+  fullName.vb: H.Controls.PropertyGrid.UpDownEditor(Of TEditor, TType)
+  name.vb: UpDownEditor(Of TEditor, TType)
+  spec.csharp:
+  - uid: H.Controls.PropertyGrid.UpDownEditor`2
+    name: UpDownEditor
+    href: H.Controls.PropertyGrid.UpDownEditor-2.html
+  - name: <
+  - name: TEditor
+  - name: ','
+  - name: " "
+  - name: TType
+  - name: '>'
+  spec.vb:
+  - uid: H.Controls.PropertyGrid.UpDownEditor`2
+    name: UpDownEditor
+    href: H.Controls.PropertyGrid.UpDownEditor-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEditor
+  - name: ','
+  - name: " "
+  - name: TType
+  - name: )
+- uid: H.Controls.PropertyGrid.ByteUpDownEditor
+  commentId: T:H.Controls.PropertyGrid.ByteUpDownEditor
+  href: H.Controls.PropertyGrid.ByteUpDownEditor.html
+  name: ByteUpDownEditor
+  nameWithType: ByteUpDownEditor
+  fullName: H.Controls.PropertyGrid.ByteUpDownEditor
+- uid: H.Controls.PropertyGrid.DecimalUpDownEditor
+  commentId: T:H.Controls.PropertyGrid.DecimalUpDownEditor
+  href: H.Controls.PropertyGrid.DecimalUpDownEditor.html
+  name: DecimalUpDownEditor
+  nameWithType: DecimalUpDownEditor
+  fullName: H.Controls.PropertyGrid.DecimalUpDownEditor
+- uid: H.Controls.PropertyGrid.DoubleUpDownEditor
+  commentId: T:H.Controls.PropertyGrid.DoubleUpDownEditor
+  href: H.Controls.PropertyGrid.DoubleUpDownEditor.html
+  name: DoubleUpDownEditor
+  nameWithType: DoubleUpDownEditor
+  fullName: H.Controls.PropertyGrid.DoubleUpDownEditor
+- uid: H.Controls.PropertyGrid.IntegerUpDownEditor
+  commentId: T:H.Controls.PropertyGrid.IntegerUpDownEditor
+  href: H.Controls.PropertyGrid.IntegerUpDownEditor.html
+  name: IntegerUpDownEditor
+  nameWithType: IntegerUpDownEditor
+  fullName: H.Controls.PropertyGrid.IntegerUpDownEditor
+- uid: H.Controls.PropertyGrid.LongUpDownEditor
+  commentId: T:H.Controls.PropertyGrid.LongUpDownEditor
+  href: H.Controls.PropertyGrid.LongUpDownEditor.html
+  name: LongUpDownEditor
+  nameWithType: LongUpDownEditor
+  fullName: H.Controls.PropertyGrid.LongUpDownEditor
+- uid: H.Controls.PropertyGrid.ShortUpDownEditor
+  commentId: T:H.Controls.PropertyGrid.ShortUpDownEditor
+  href: H.Controls.PropertyGrid.ShortUpDownEditor.html
+  name: ShortUpDownEditor
+  nameWithType: ShortUpDownEditor
+  fullName: H.Controls.PropertyGrid.ShortUpDownEditor
+- uid: H.Controls.PropertyGrid.SingleUpDownEditor
+  commentId: T:H.Controls.PropertyGrid.SingleUpDownEditor
+  href: H.Controls.PropertyGrid.SingleUpDownEditor.html
+  name: SingleUpDownEditor
+  nameWithType: SingleUpDownEditor
+  fullName: H.Controls.PropertyGrid.SingleUpDownEditor
+- uid: H.Controls.PropertyGrid.DateTimeUpDownEditor
+  commentId: T:H.Controls.PropertyGrid.DateTimeUpDownEditor
+  href: H.Controls.PropertyGrid.DateTimeUpDownEditor.html
+  name: DateTimeUpDownEditor
+  nameWithType: DateTimeUpDownEditor
+  fullName: H.Controls.PropertyGrid.DateTimeUpDownEditor
+- uid: H.Controls.PropertyGrid.TimeSpanUpDownEditor
+  commentId: T:H.Controls.PropertyGrid.TimeSpanUpDownEditor
+  href: H.Controls.PropertyGrid.TimeSpanUpDownEditor.html
+  name: TimeSpanUpDownEditor
+  nameWithType: TimeSpanUpDownEditor
+  fullName: H.Controls.PropertyGrid.TimeSpanUpDownEditor
+- uid: H.Controls.PropertyGrid.PropertyGridEditorByteUpDown
+  commentId: T:H.Controls.PropertyGrid.PropertyGridEditorByteUpDown
+  href: H.Controls.PropertyGrid.PropertyGridEditorByteUpDown.html
+  name: PropertyGridEditorByteUpDown
+  nameWithType: PropertyGridEditorByteUpDown
+  fullName: H.Controls.PropertyGrid.PropertyGridEditorByteUpDown
+- uid: H.Controls.PropertyGrid.PropertyGridEditorDecimalUpDown
+  commentId: T:H.Controls.PropertyGrid.PropertyGridEditorDecimalUpDown
+  href: H.Controls.PropertyGrid.PropertyGridEditorDecimalUpDown.html
+  name: PropertyGridEditorDecimalUpDown
+  nameWithType: PropertyGridEditorDecimalUpDown
+  fullName: H.Controls.PropertyGrid.PropertyGridEditorDecimalUpDown
+- uid: H.Controls.PropertyGrid.PropertyGridEditorDoubleUpDown
+  commentId: T:H.Controls.PropertyGrid.PropertyGridEditorDoubleUpDown
+  href: H.Controls.PropertyGrid.PropertyGridEditorDoubleUpDown.html
+  name: PropertyGridEditorDoubleUpDown
+  nameWithType: PropertyGridEditorDoubleUpDown
+  fullName: H.Controls.PropertyGrid.PropertyGridEditorDoubleUpDown
+- uid: H.Controls.PropertyGrid.PropertyGridEditorIntegerUpDown
+  commentId: T:H.Controls.PropertyGrid.PropertyGridEditorIntegerUpDown
+  href: H.Controls.PropertyGrid.PropertyGridEditorIntegerUpDown.html
+  name: PropertyGridEditorIntegerUpDown
+  nameWithType: PropertyGridEditorIntegerUpDown
+  fullName: H.Controls.PropertyGrid.PropertyGridEditorIntegerUpDown
+- uid: H.Controls.PropertyGrid.PropertyGridEditorLongUpDown
+  commentId: T:H.Controls.PropertyGrid.PropertyGridEditorLongUpDown
+  href: H.Controls.PropertyGrid.PropertyGridEditorLongUpDown.html
+  name: PropertyGridEditorLongUpDown
+  nameWithType: PropertyGridEditorLongUpDown
+  fullName: H.Controls.PropertyGrid.PropertyGridEditorLongUpDown
+- uid: H.Controls.PropertyGrid.PropertyGridEditorShortUpDown
+  commentId: T:H.Controls.PropertyGrid.PropertyGridEditorShortUpDown
+  href: H.Controls.PropertyGrid.PropertyGridEditorShortUpDown.html
+  name: PropertyGridEditorShortUpDown
+  nameWithType: PropertyGridEditorShortUpDown
+  fullName: H.Controls.PropertyGrid.PropertyGridEditorShortUpDown
+- uid: H.Controls.PropertyGrid.PropertyGridEditorSingleUpDown
+  commentId: T:H.Controls.PropertyGrid.PropertyGridEditorSingleUpDown
+  href: H.Controls.PropertyGrid.PropertyGridEditorSingleUpDown.html
+  name: PropertyGridEditorSingleUpDown
+  nameWithType: PropertyGridEditorSingleUpDown
+  fullName: H.Controls.PropertyGrid.PropertyGridEditorSingleUpDown
+- uid: H.Controls.PropertyGrid.PropertyGridEditorDateTimeUpDown
+  commentId: T:H.Controls.PropertyGrid.PropertyGridEditorDateTimeUpDown
+  href: H.Controls.PropertyGrid.PropertyGridEditorDateTimeUpDown.html
+  name: PropertyGridEditorDateTimeUpDown
+  nameWithType: PropertyGridEditorDateTimeUpDown
+  fullName: H.Controls.PropertyGrid.PropertyGridEditorDateTimeUpDown
+- uid: H.Controls.PropertyGrid.PropertyGridEditorTimeSpanUpDown
+  commentId: T:H.Controls.PropertyGrid.PropertyGridEditorTimeSpanUpDown
+  href: H.Controls.PropertyGrid.PropertyGridEditorTimeSpanUpDown.html
+  name: PropertyGridEditorTimeSpanUpDown
+  nameWithType: PropertyGridEditorTimeSpanUpDown
+  fullName: H.Controls.PropertyGrid.PropertyGridEditorTimeSpanUpDown
+- uid: H.Controls.PropertyGrid.PropertyDefinition
+  commentId: T:H.Controls.PropertyGrid.PropertyDefinition
+  href: H.Controls.PropertyGrid.PropertyDefinition.html
+  name: PropertyDefinition
+  nameWithType: PropertyDefinition
+  fullName: H.Controls.PropertyGrid.PropertyDefinition
+- uid: H.Controls.PropertyGrid.PropertyDefinitionCollection
+  commentId: T:H.Controls.PropertyGrid.PropertyDefinitionCollection
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.PropertyDefinitionCollection.html
+  name: PropertyDefinitionCollection
+  nameWithType: PropertyDefinitionCollection
+  fullName: H.Controls.PropertyGrid.PropertyDefinitionCollection
+- uid: H.Controls.PropertyGrid.EditorDefinitionCollection
+  commentId: T:H.Controls.PropertyGrid.EditorDefinitionCollection
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.EditorDefinitionCollection.html
+  name: EditorDefinitionCollection
+  nameWithType: EditorDefinitionCollection
+  fullName: H.Controls.PropertyGrid.EditorDefinitionCollection
+- uid: H.Controls.PropertyGrid.PropertyDefinitionBaseCollection`1
+  commentId: T:H.Controls.PropertyGrid.PropertyDefinitionBaseCollection`1
+  href: H.Controls.PropertyGrid.PropertyDefinitionBaseCollection-1.html
+  name: PropertyDefinitionBaseCollection<T>
+  nameWithType: PropertyDefinitionBaseCollection<T>
+  fullName: H.Controls.PropertyGrid.PropertyDefinitionBaseCollection<T>
+  nameWithType.vb: PropertyDefinitionBaseCollection(Of T)
+  fullName.vb: H.Controls.PropertyGrid.PropertyDefinitionBaseCollection(Of T)
+  name.vb: PropertyDefinitionBaseCollection(Of T)
+  spec.csharp:
+  - uid: H.Controls.PropertyGrid.PropertyDefinitionBaseCollection`1
+    name: PropertyDefinitionBaseCollection
+    href: H.Controls.PropertyGrid.PropertyDefinitionBaseCollection-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Controls.PropertyGrid.PropertyDefinitionBaseCollection`1
+    name: PropertyDefinitionBaseCollection
+    href: H.Controls.PropertyGrid.PropertyDefinitionBaseCollection-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Controls.PropertyGrid.DefinitionCollectionBase`1
+  commentId: T:H.Controls.PropertyGrid.DefinitionCollectionBase`1
+  href: H.Controls.PropertyGrid.DefinitionCollectionBase-1.html
+  name: DefinitionCollectionBase<T>
+  nameWithType: DefinitionCollectionBase<T>
+  fullName: H.Controls.PropertyGrid.DefinitionCollectionBase<T>
+  nameWithType.vb: DefinitionCollectionBase(Of T)
+  fullName.vb: H.Controls.PropertyGrid.DefinitionCollectionBase(Of T)
+  name.vb: DefinitionCollectionBase(Of T)
+  spec.csharp:
+  - uid: H.Controls.PropertyGrid.DefinitionCollectionBase`1
+    name: DefinitionCollectionBase
+    href: H.Controls.PropertyGrid.DefinitionCollectionBase-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Controls.PropertyGrid.DefinitionCollectionBase`1
+    name: DefinitionCollectionBase
+    href: H.Controls.PropertyGrid.DefinitionCollectionBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Controls.PropertyGrid.PropertyItem
+  commentId: T:H.Controls.PropertyGrid.PropertyItem
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.PropertyItem.html
+  name: PropertyItem
+  nameWithType: PropertyItem
+  fullName: H.Controls.PropertyGrid.PropertyItem
+- uid: H.Controls.PropertyGrid.PropertyItemBase
+  commentId: T:H.Controls.PropertyGrid.PropertyItemBase
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.PropertyItemBase.html
+  name: PropertyItemBase
+  nameWithType: PropertyItemBase
+  fullName: H.Controls.PropertyGrid.PropertyItemBase
+- uid: H.Controls.PropertyGrid.PropertyItemCollection
+  commentId: T:H.Controls.PropertyGrid.PropertyItemCollection
+  href: H.Controls.PropertyGrid.PropertyItemCollection.html
+  name: PropertyItemCollection
+  nameWithType: PropertyItemCollection
+  fullName: H.Controls.PropertyGrid.PropertyItemCollection
+- uid: H.Controls.PropertyGrid.PropertyItemsControl
+  commentId: T:H.Controls.PropertyGrid.PropertyItemsControl
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.PropertyItemsControl.html
+  name: PropertyItemsControl
+  nameWithType: PropertyItemsControl
+  fullName: H.Controls.PropertyGrid.PropertyItemsControl
+- uid: H.Controls.PropertyGrid.StringConstants
+  commentId: T:H.Controls.PropertyGrid.StringConstants
+  href: H.Controls.PropertyGrid.StringConstants.html
+  name: StringConstants
+  nameWithType: StringConstants
+  fullName: H.Controls.PropertyGrid.StringConstants
+- uid: H.Controls.PropertyGrid.TargetPropertyType
+  commentId: T:H.Controls.PropertyGrid.TargetPropertyType
+  href: H.Controls.PropertyGrid.TargetPropertyType.html
+  name: TargetPropertyType
+  nameWithType: TargetPropertyType
+  fullName: H.Controls.PropertyGrid.TargetPropertyType
+- uid: H.Controls.PropertyGrid.TrimmedTextBlock
+  commentId: T:H.Controls.PropertyGrid.TrimmedTextBlock
+  href: H.Controls.PropertyGrid.TrimmedTextBlock.html
+  name: TrimmedTextBlock
+  nameWithType: TrimmedTextBlock
+  fullName: H.Controls.PropertyGrid.TrimmedTextBlock
+- uid: H.Controls.PropertyGrid.TimeSpanUpDown
+  commentId: T:H.Controls.PropertyGrid.TimeSpanUpDown
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.TimeSpanUpDown.html
+  name: TimeSpanUpDown
+  nameWithType: TimeSpanUpDown
+  fullName: H.Controls.PropertyGrid.TimeSpanUpDown
+- uid: H.Controls.PropertyGrid.WatermarkComboBox
+  commentId: T:H.Controls.PropertyGrid.WatermarkComboBox
+  href: H.Controls.PropertyGrid.WatermarkComboBox.html
+  name: WatermarkComboBox
+  nameWithType: WatermarkComboBox
+  fullName: H.Controls.PropertyGrid.WatermarkComboBox
+- uid: H.Controls.PropertyGrid.WatermarkPasswordBox
+  commentId: T:H.Controls.PropertyGrid.WatermarkPasswordBox
+  href: H.Controls.PropertyGrid.WatermarkPasswordBox.html
+  name: WatermarkPasswordBox
+  nameWithType: WatermarkPasswordBox
+  fullName: H.Controls.PropertyGrid.WatermarkPasswordBox
+- uid: H.Controls.PropertyGrid.WatermarkTextBox
+  commentId: T:H.Controls.PropertyGrid.WatermarkTextBox
+  parent: H.Controls.PropertyGrid
+  href: H.Controls.PropertyGrid.WatermarkTextBox.html
+  name: WatermarkTextBox
+  nameWithType: WatermarkTextBox
+  fullName: H.Controls.PropertyGrid.WatermarkTextBox
+- uid: H.Controls.PropertyGrid
+  commentId: N:H.Controls.PropertyGrid
+  href: H.html
+  name: H.Controls.PropertyGrid
+  nameWithType: H.Controls.PropertyGrid
+  fullName: H.Controls.PropertyGrid
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.PropertyGrid
+    name: PropertyGrid
+    href: H.Controls.PropertyGrid.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.PropertyGrid
+    name: PropertyGrid
+    href: H.Controls.PropertyGrid.html

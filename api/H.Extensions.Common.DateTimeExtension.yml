@@ -1,0 +1,627 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.Common.DateTimeExtension
+  commentId: T:H.Extensions.Common.DateTimeExtension
+  id: DateTimeExtension
+  parent: H.Extensions.Common
+  children:
+  - H.Extensions.Common.DateTimeExtension.ToUnixTimeMilliseconds(System.DateTime)
+  - H.Extensions.Common.DateTimeExtension.ToUnixTimeSeconds(System.DateTime)
+  - H.Extensions.Common.DateTimeExtension.ToUnixTimestamp(System.DateTime)
+  - H.Extensions.Common.DateTimeExtension.ToUnixTimestampMilliseconds(System.DateTime)
+  - H.Extensions.Common.DateTimeExtension.UnixMillisecondsToDateTime(System.Int64)
+  - H.Extensions.Common.DateTimeExtension.UnixMillisecondsToDateTimeManual(System.Int64)
+  - H.Extensions.Common.DateTimeExtension.UnixSecondsToDateTime(System.Int64)
+  - H.Extensions.Common.DateTimeExtension.UnixSecondsToDateTimeManual(System.Int64)
+  langs:
+  - csharp
+  - vb
+  name: DateTimeExtension
+  nameWithType: DateTimeExtension
+  fullName: H.Extensions.Common.DateTimeExtension
+  type: Class
+  source:
+    id: DateTimeExtension
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\DateTimeExtension.cs
+    startLine: 10
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: public static class DateTimeExtension
+    content.vb: Public Module DateTimeExtension
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: H.Extensions.Common.DateTimeExtension.ToUnixTimeSeconds(System.DateTime)
+  commentId: M:H.Extensions.Common.DateTimeExtension.ToUnixTimeSeconds(System.DateTime)
+  id: ToUnixTimeSeconds(System.DateTime)
+  isExtensionMethod: true
+  parent: H.Extensions.Common.DateTimeExtension
+  langs:
+  - csharp
+  - vb
+  name: ToUnixTimeSeconds(DateTime)
+  nameWithType: DateTimeExtension.ToUnixTimeSeconds(DateTime)
+  fullName: H.Extensions.Common.DateTimeExtension.ToUnixTimeSeconds(System.DateTime)
+  type: Method
+  source:
+    id: ToUnixTimeSeconds
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\DateTimeExtension.cs
+    startLine: 13
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: public static long ToUnixTimeSeconds(this DateTime dateTime)
+    parameters:
+    - id: dateTime
+      type: System.DateTime
+    return:
+      type: System.Int64
+    content.vb: Public Shared Function ToUnixTimeSeconds(dateTime As Date) As Long
+  overload: H.Extensions.Common.DateTimeExtension.ToUnixTimeSeconds*
+  nameWithType.vb: DateTimeExtension.ToUnixTimeSeconds(Date)
+  fullName.vb: H.Extensions.Common.DateTimeExtension.ToUnixTimeSeconds(Date)
+  name.vb: ToUnixTimeSeconds(Date)
+- uid: H.Extensions.Common.DateTimeExtension.ToUnixTimestamp(System.DateTime)
+  commentId: M:H.Extensions.Common.DateTimeExtension.ToUnixTimestamp(System.DateTime)
+  id: ToUnixTimestamp(System.DateTime)
+  isExtensionMethod: true
+  parent: H.Extensions.Common.DateTimeExtension
+  langs:
+  - csharp
+  - vb
+  name: ToUnixTimestamp(DateTime)
+  nameWithType: DateTimeExtension.ToUnixTimestamp(DateTime)
+  fullName: H.Extensions.Common.DateTimeExtension.ToUnixTimestamp(System.DateTime)
+  type: Method
+  source:
+    id: ToUnixTimestamp
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\DateTimeExtension.cs
+    startLine: 19
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: public static long ToUnixTimestamp(this DateTime dateTime)
+    parameters:
+    - id: dateTime
+      type: System.DateTime
+    return:
+      type: System.Int64
+    content.vb: Public Shared Function ToUnixTimestamp(dateTime As Date) As Long
+  overload: H.Extensions.Common.DateTimeExtension.ToUnixTimestamp*
+  nameWithType.vb: DateTimeExtension.ToUnixTimestamp(Date)
+  fullName.vb: H.Extensions.Common.DateTimeExtension.ToUnixTimestamp(Date)
+  name.vb: ToUnixTimestamp(Date)
+- uid: H.Extensions.Common.DateTimeExtension.ToUnixTimeMilliseconds(System.DateTime)
+  commentId: M:H.Extensions.Common.DateTimeExtension.ToUnixTimeMilliseconds(System.DateTime)
+  id: ToUnixTimeMilliseconds(System.DateTime)
+  isExtensionMethod: true
+  parent: H.Extensions.Common.DateTimeExtension
+  langs:
+  - csharp
+  - vb
+  name: ToUnixTimeMilliseconds(DateTime)
+  nameWithType: DateTimeExtension.ToUnixTimeMilliseconds(DateTime)
+  fullName: H.Extensions.Common.DateTimeExtension.ToUnixTimeMilliseconds(System.DateTime)
+  type: Method
+  source:
+    id: ToUnixTimeMilliseconds
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\DateTimeExtension.cs
+    startLine: 26
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: public static long ToUnixTimeMilliseconds(this DateTime dateTime)
+    parameters:
+    - id: dateTime
+      type: System.DateTime
+    return:
+      type: System.Int64
+    content.vb: Public Shared Function ToUnixTimeMilliseconds(dateTime As Date) As Long
+  overload: H.Extensions.Common.DateTimeExtension.ToUnixTimeMilliseconds*
+  nameWithType.vb: DateTimeExtension.ToUnixTimeMilliseconds(Date)
+  fullName.vb: H.Extensions.Common.DateTimeExtension.ToUnixTimeMilliseconds(Date)
+  name.vb: ToUnixTimeMilliseconds(Date)
+- uid: H.Extensions.Common.DateTimeExtension.ToUnixTimestampMilliseconds(System.DateTime)
+  commentId: M:H.Extensions.Common.DateTimeExtension.ToUnixTimestampMilliseconds(System.DateTime)
+  id: ToUnixTimestampMilliseconds(System.DateTime)
+  isExtensionMethod: true
+  parent: H.Extensions.Common.DateTimeExtension
+  langs:
+  - csharp
+  - vb
+  name: ToUnixTimestampMilliseconds(DateTime)
+  nameWithType: DateTimeExtension.ToUnixTimestampMilliseconds(DateTime)
+  fullName: H.Extensions.Common.DateTimeExtension.ToUnixTimestampMilliseconds(System.DateTime)
+  type: Method
+  source:
+    id: ToUnixTimestampMilliseconds
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\DateTimeExtension.cs
+    startLine: 32
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: public static long ToUnixTimestampMilliseconds(this DateTime dateTime)
+    parameters:
+    - id: dateTime
+      type: System.DateTime
+    return:
+      type: System.Int64
+    content.vb: Public Shared Function ToUnixTimestampMilliseconds(dateTime As Date) As Long
+  overload: H.Extensions.Common.DateTimeExtension.ToUnixTimestampMilliseconds*
+  nameWithType.vb: DateTimeExtension.ToUnixTimestampMilliseconds(Date)
+  fullName.vb: H.Extensions.Common.DateTimeExtension.ToUnixTimestampMilliseconds(Date)
+  name.vb: ToUnixTimestampMilliseconds(Date)
+- uid: H.Extensions.Common.DateTimeExtension.UnixSecondsToDateTime(System.Int64)
+  commentId: M:H.Extensions.Common.DateTimeExtension.UnixSecondsToDateTime(System.Int64)
+  id: UnixSecondsToDateTime(System.Int64)
+  isExtensionMethod: true
+  parent: H.Extensions.Common.DateTimeExtension
+  langs:
+  - csharp
+  - vb
+  name: UnixSecondsToDateTime(long)
+  nameWithType: DateTimeExtension.UnixSecondsToDateTime(long)
+  fullName: H.Extensions.Common.DateTimeExtension.UnixSecondsToDateTime(long)
+  type: Method
+  source:
+    id: UnixSecondsToDateTime
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\DateTimeExtension.cs
+    startLine: 39
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: public static DateTime UnixSecondsToDateTime(this long unixTimeStamp)
+    parameters:
+    - id: unixTimeStamp
+      type: System.Int64
+    return:
+      type: System.DateTime
+    content.vb: Public Shared Function UnixSecondsToDateTime(unixTimeStamp As Long) As Date
+  overload: H.Extensions.Common.DateTimeExtension.UnixSecondsToDateTime*
+  nameWithType.vb: DateTimeExtension.UnixSecondsToDateTime(Long)
+  fullName.vb: H.Extensions.Common.DateTimeExtension.UnixSecondsToDateTime(Long)
+  name.vb: UnixSecondsToDateTime(Long)
+- uid: H.Extensions.Common.DateTimeExtension.UnixSecondsToDateTimeManual(System.Int64)
+  commentId: M:H.Extensions.Common.DateTimeExtension.UnixSecondsToDateTimeManual(System.Int64)
+  id: UnixSecondsToDateTimeManual(System.Int64)
+  isExtensionMethod: true
+  parent: H.Extensions.Common.DateTimeExtension
+  langs:
+  - csharp
+  - vb
+  name: UnixSecondsToDateTimeManual(long)
+  nameWithType: DateTimeExtension.UnixSecondsToDateTimeManual(long)
+  fullName: H.Extensions.Common.DateTimeExtension.UnixSecondsToDateTimeManual(long)
+  type: Method
+  source:
+    id: UnixSecondsToDateTimeManual
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\DateTimeExtension.cs
+    startLine: 45
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: public static DateTime UnixSecondsToDateTimeManual(this long unixTimeStamp)
+    parameters:
+    - id: unixTimeStamp
+      type: System.Int64
+    return:
+      type: System.DateTime
+    content.vb: Public Shared Function UnixSecondsToDateTimeManual(unixTimeStamp As Long) As Date
+  overload: H.Extensions.Common.DateTimeExtension.UnixSecondsToDateTimeManual*
+  nameWithType.vb: DateTimeExtension.UnixSecondsToDateTimeManual(Long)
+  fullName.vb: H.Extensions.Common.DateTimeExtension.UnixSecondsToDateTimeManual(Long)
+  name.vb: UnixSecondsToDateTimeManual(Long)
+- uid: H.Extensions.Common.DateTimeExtension.UnixMillisecondsToDateTime(System.Int64)
+  commentId: M:H.Extensions.Common.DateTimeExtension.UnixMillisecondsToDateTime(System.Int64)
+  id: UnixMillisecondsToDateTime(System.Int64)
+  isExtensionMethod: true
+  parent: H.Extensions.Common.DateTimeExtension
+  langs:
+  - csharp
+  - vb
+  name: UnixMillisecondsToDateTime(long)
+  nameWithType: DateTimeExtension.UnixMillisecondsToDateTime(long)
+  fullName: H.Extensions.Common.DateTimeExtension.UnixMillisecondsToDateTime(long)
+  type: Method
+  source:
+    id: UnixMillisecondsToDateTime
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\DateTimeExtension.cs
+    startLine: 52
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: public static DateTime UnixMillisecondsToDateTime(this long unixTimeStamp)
+    parameters:
+    - id: unixTimeStamp
+      type: System.Int64
+    return:
+      type: System.DateTime
+    content.vb: Public Shared Function UnixMillisecondsToDateTime(unixTimeStamp As Long) As Date
+  overload: H.Extensions.Common.DateTimeExtension.UnixMillisecondsToDateTime*
+  nameWithType.vb: DateTimeExtension.UnixMillisecondsToDateTime(Long)
+  fullName.vb: H.Extensions.Common.DateTimeExtension.UnixMillisecondsToDateTime(Long)
+  name.vb: UnixMillisecondsToDateTime(Long)
+- uid: H.Extensions.Common.DateTimeExtension.UnixMillisecondsToDateTimeManual(System.Int64)
+  commentId: M:H.Extensions.Common.DateTimeExtension.UnixMillisecondsToDateTimeManual(System.Int64)
+  id: UnixMillisecondsToDateTimeManual(System.Int64)
+  isExtensionMethod: true
+  parent: H.Extensions.Common.DateTimeExtension
+  langs:
+  - csharp
+  - vb
+  name: UnixMillisecondsToDateTimeManual(long)
+  nameWithType: DateTimeExtension.UnixMillisecondsToDateTimeManual(long)
+  fullName: H.Extensions.Common.DateTimeExtension.UnixMillisecondsToDateTimeManual(long)
+  type: Method
+  source:
+    id: UnixMillisecondsToDateTimeManual
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\DateTimeExtension.cs
+    startLine: 58
+  assemblies:
+  - H.Extensions.Common
+  namespace: H.Extensions.Common
+  syntax:
+    content: public static DateTime UnixMillisecondsToDateTimeManual(this long unixTimeStamp)
+    parameters:
+    - id: unixTimeStamp
+      type: System.Int64
+    return:
+      type: System.DateTime
+    content.vb: Public Shared Function UnixMillisecondsToDateTimeManual(unixTimeStamp As Long) As Date
+  overload: H.Extensions.Common.DateTimeExtension.UnixMillisecondsToDateTimeManual*
+  nameWithType.vb: DateTimeExtension.UnixMillisecondsToDateTimeManual(Long)
+  fullName.vb: H.Extensions.Common.DateTimeExtension.UnixMillisecondsToDateTimeManual(Long)
+  name.vb: UnixMillisecondsToDateTimeManual(Long)
+references:
+- uid: H.Extensions.Common
+  commentId: N:H.Extensions.Common
+  href: H.html
+  name: H.Extensions.Common
+  nameWithType: H.Extensions.Common
+  fullName: H.Extensions.Common
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Common
+    name: Common
+    href: H.Extensions.Common.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Common
+    name: Common
+    href: H.Extensions.Common.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: H.Extensions.Common.DateTimeExtension.ToUnixTimeSeconds*
+  commentId: Overload:H.Extensions.Common.DateTimeExtension.ToUnixTimeSeconds
+  href: H.Extensions.Common.DateTimeExtension.html#H_Extensions_Common_DateTimeExtension_ToUnixTimeSeconds_System_DateTime_
+  name: ToUnixTimeSeconds
+  nameWithType: DateTimeExtension.ToUnixTimeSeconds
+  fullName: H.Extensions.Common.DateTimeExtension.ToUnixTimeSeconds
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int64
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+- uid: H.Extensions.Common.DateTimeExtension.ToUnixTimestamp*
+  commentId: Overload:H.Extensions.Common.DateTimeExtension.ToUnixTimestamp
+  href: H.Extensions.Common.DateTimeExtension.html#H_Extensions_Common_DateTimeExtension_ToUnixTimestamp_System_DateTime_
+  name: ToUnixTimestamp
+  nameWithType: DateTimeExtension.ToUnixTimestamp
+  fullName: H.Extensions.Common.DateTimeExtension.ToUnixTimestamp
+- uid: H.Extensions.Common.DateTimeExtension.ToUnixTimeMilliseconds*
+  commentId: Overload:H.Extensions.Common.DateTimeExtension.ToUnixTimeMilliseconds
+  href: H.Extensions.Common.DateTimeExtension.html#H_Extensions_Common_DateTimeExtension_ToUnixTimeMilliseconds_System_DateTime_
+  name: ToUnixTimeMilliseconds
+  nameWithType: DateTimeExtension.ToUnixTimeMilliseconds
+  fullName: H.Extensions.Common.DateTimeExtension.ToUnixTimeMilliseconds
+- uid: H.Extensions.Common.DateTimeExtension.ToUnixTimestampMilliseconds*
+  commentId: Overload:H.Extensions.Common.DateTimeExtension.ToUnixTimestampMilliseconds
+  href: H.Extensions.Common.DateTimeExtension.html#H_Extensions_Common_DateTimeExtension_ToUnixTimestampMilliseconds_System_DateTime_
+  name: ToUnixTimestampMilliseconds
+  nameWithType: DateTimeExtension.ToUnixTimestampMilliseconds
+  fullName: H.Extensions.Common.DateTimeExtension.ToUnixTimestampMilliseconds
+- uid: H.Extensions.Common.DateTimeExtension.UnixSecondsToDateTime*
+  commentId: Overload:H.Extensions.Common.DateTimeExtension.UnixSecondsToDateTime
+  href: H.Extensions.Common.DateTimeExtension.html#H_Extensions_Common_DateTimeExtension_UnixSecondsToDateTime_System_Int64_
+  name: UnixSecondsToDateTime
+  nameWithType: DateTimeExtension.UnixSecondsToDateTime
+  fullName: H.Extensions.Common.DateTimeExtension.UnixSecondsToDateTime
+- uid: H.Extensions.Common.DateTimeExtension.UnixSecondsToDateTimeManual*
+  commentId: Overload:H.Extensions.Common.DateTimeExtension.UnixSecondsToDateTimeManual
+  href: H.Extensions.Common.DateTimeExtension.html#H_Extensions_Common_DateTimeExtension_UnixSecondsToDateTimeManual_System_Int64_
+  name: UnixSecondsToDateTimeManual
+  nameWithType: DateTimeExtension.UnixSecondsToDateTimeManual
+  fullName: H.Extensions.Common.DateTimeExtension.UnixSecondsToDateTimeManual
+- uid: H.Extensions.Common.DateTimeExtension.UnixMillisecondsToDateTime*
+  commentId: Overload:H.Extensions.Common.DateTimeExtension.UnixMillisecondsToDateTime
+  href: H.Extensions.Common.DateTimeExtension.html#H_Extensions_Common_DateTimeExtension_UnixMillisecondsToDateTime_System_Int64_
+  name: UnixMillisecondsToDateTime
+  nameWithType: DateTimeExtension.UnixMillisecondsToDateTime
+  fullName: H.Extensions.Common.DateTimeExtension.UnixMillisecondsToDateTime
+- uid: H.Extensions.Common.DateTimeExtension.UnixMillisecondsToDateTimeManual*
+  commentId: Overload:H.Extensions.Common.DateTimeExtension.UnixMillisecondsToDateTimeManual
+  href: H.Extensions.Common.DateTimeExtension.html#H_Extensions_Common_DateTimeExtension_UnixMillisecondsToDateTimeManual_System_Int64_
+  name: UnixMillisecondsToDateTimeManual
+  nameWithType: DateTimeExtension.UnixMillisecondsToDateTimeManual
+  fullName: H.Extensions.Common.DateTimeExtension.UnixMillisecondsToDateTimeManual

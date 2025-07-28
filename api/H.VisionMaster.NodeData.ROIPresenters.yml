@@ -1,0 +1,94 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.VisionMaster.NodeData.ROIPresenters
+  commentId: N:H.VisionMaster.NodeData.ROIPresenters
+  id: H.VisionMaster.NodeData.ROIPresenters
+  children:
+  - H.VisionMaster.NodeData.ROIPresenters.DrawROI
+  - H.VisionMaster.NodeData.ROIPresenters.FromROI
+  - H.VisionMaster.NodeData.ROIPresenters.IROI
+  - H.VisionMaster.NodeData.ROIPresenters.InputROI
+  - H.VisionMaster.NodeData.ROIPresenters.ROIBase
+  langs:
+  - csharp
+  - vb
+  name: H.VisionMaster.NodeData.ROIPresenters
+  nameWithType: H.VisionMaster.NodeData.ROIPresenters
+  fullName: H.VisionMaster.NodeData.ROIPresenters
+  type: Namespace
+  assemblies:
+  - H.VisionMaster.NodeData
+references:
+- uid: H.VisionMaster.NodeData.ROIPresenters.DrawROI
+  commentId: T:H.VisionMaster.NodeData.ROIPresenters.DrawROI
+  parent: H.VisionMaster.NodeData.ROIPresenters
+  href: H.VisionMaster.NodeData.ROIPresenters.DrawROI.html
+  name: DrawROI
+  nameWithType: DrawROI
+  fullName: H.VisionMaster.NodeData.ROIPresenters.DrawROI
+- uid: H.VisionMaster.NodeData.ROIPresenters.FromROI
+  commentId: T:H.VisionMaster.NodeData.ROIPresenters.FromROI
+  parent: H.VisionMaster.NodeData.ROIPresenters
+  href: H.VisionMaster.NodeData.ROIPresenters.FromROI.html
+  name: FromROI
+  nameWithType: FromROI
+  fullName: H.VisionMaster.NodeData.ROIPresenters.FromROI
+- uid: H.VisionMaster.NodeData.ROIPresenters.InputROI
+  commentId: T:H.VisionMaster.NodeData.ROIPresenters.InputROI
+  parent: H.VisionMaster.NodeData.ROIPresenters
+  href: H.VisionMaster.NodeData.ROIPresenters.InputROI.html
+  name: InputROI
+  nameWithType: InputROI
+  fullName: H.VisionMaster.NodeData.ROIPresenters.InputROI
+- uid: H.VisionMaster.NodeData.ROIPresenters.IROI
+  commentId: T:H.VisionMaster.NodeData.ROIPresenters.IROI
+  parent: H.VisionMaster.NodeData.ROIPresenters
+  href: H.VisionMaster.NodeData.ROIPresenters.IROI.html
+  name: IROI
+  nameWithType: IROI
+  fullName: H.VisionMaster.NodeData.ROIPresenters.IROI
+- uid: H.VisionMaster.NodeData.ROIPresenters.ROIBase
+  commentId: T:H.VisionMaster.NodeData.ROIPresenters.ROIBase
+  parent: H.VisionMaster.NodeData.ROIPresenters
+  href: H.VisionMaster.NodeData.ROIPresenters.ROIBase.html
+  name: ROIBase
+  nameWithType: ROIBase
+  fullName: H.VisionMaster.NodeData.ROIPresenters.ROIBase
+- uid: H.VisionMaster.NodeData.ROIPresenters
+  commentId: N:H.VisionMaster.NodeData.ROIPresenters
+  href: H.html
+  name: H.VisionMaster.NodeData.ROIPresenters
+  nameWithType: H.VisionMaster.NodeData.ROIPresenters
+  fullName: H.VisionMaster.NodeData.ROIPresenters
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.NodeData
+    name: NodeData
+    href: H.VisionMaster.NodeData.html
+  - name: .
+  - uid: H.VisionMaster.NodeData.ROIPresenters
+    name: ROIPresenters
+    href: H.VisionMaster.NodeData.ROIPresenters.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.NodeData
+    name: NodeData
+    href: H.VisionMaster.NodeData.html
+  - name: .
+  - uid: H.VisionMaster.NodeData.ROIPresenters
+    name: ROIPresenters
+    href: H.VisionMaster.NodeData.ROIPresenters.html

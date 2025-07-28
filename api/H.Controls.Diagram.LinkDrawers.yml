@@ -1,0 +1,98 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.Diagram.LinkDrawers
+  commentId: N:H.Controls.Diagram.LinkDrawers
+  id: H.Controls.Diagram.LinkDrawers
+  children:
+  - H.Controls.Diagram.LinkDrawers.ArcLinkDrawer
+  - H.Controls.Diagram.LinkDrawers.BezierLinkDrawer
+  - H.Controls.Diagram.LinkDrawers.BrokenLinkDrawer
+  - H.Controls.Diagram.LinkDrawers.ILinkDrawer
+  - H.Controls.Diagram.LinkDrawers.LineLinkDrawer
+  - H.Controls.Diagram.LinkDrawers.LinkDrawer
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.Diagram.LinkDrawers
+  nameWithType: H.Controls.Diagram.LinkDrawers
+  fullName: H.Controls.Diagram.LinkDrawers
+  type: Namespace
+  assemblies:
+  - H.Controls.Diagram
+references:
+- uid: H.Controls.Diagram.LinkDrawers.ArcLinkDrawer
+  commentId: T:H.Controls.Diagram.LinkDrawers.ArcLinkDrawer
+  href: H.Controls.Diagram.LinkDrawers.ArcLinkDrawer.html
+  name: ArcLinkDrawer
+  nameWithType: ArcLinkDrawer
+  fullName: H.Controls.Diagram.LinkDrawers.ArcLinkDrawer
+- uid: H.Controls.Diagram.LinkDrawers.BezierLinkDrawer
+  commentId: T:H.Controls.Diagram.LinkDrawers.BezierLinkDrawer
+  href: H.Controls.Diagram.LinkDrawers.BezierLinkDrawer.html
+  name: BezierLinkDrawer
+  nameWithType: BezierLinkDrawer
+  fullName: H.Controls.Diagram.LinkDrawers.BezierLinkDrawer
+- uid: H.Controls.Diagram.LinkDrawers.BrokenLinkDrawer
+  commentId: T:H.Controls.Diagram.LinkDrawers.BrokenLinkDrawer
+  href: H.Controls.Diagram.LinkDrawers.BrokenLinkDrawer.html
+  name: BrokenLinkDrawer
+  nameWithType: BrokenLinkDrawer
+  fullName: H.Controls.Diagram.LinkDrawers.BrokenLinkDrawer
+- uid: H.Controls.Diagram.LinkDrawers.LineLinkDrawer
+  commentId: T:H.Controls.Diagram.LinkDrawers.LineLinkDrawer
+  href: H.Controls.Diagram.LinkDrawers.LineLinkDrawer.html
+  name: LineLinkDrawer
+  nameWithType: LineLinkDrawer
+  fullName: H.Controls.Diagram.LinkDrawers.LineLinkDrawer
+- uid: H.Controls.Diagram.LinkDrawers.ILinkDrawer
+  commentId: T:H.Controls.Diagram.LinkDrawers.ILinkDrawer
+  parent: H.Controls.Diagram.LinkDrawers
+  href: H.Controls.Diagram.LinkDrawers.ILinkDrawer.html
+  name: ILinkDrawer
+  nameWithType: ILinkDrawer
+  fullName: H.Controls.Diagram.LinkDrawers.ILinkDrawer
+- uid: H.Controls.Diagram.LinkDrawers.LinkDrawer
+  commentId: T:H.Controls.Diagram.LinkDrawers.LinkDrawer
+  parent: H.Controls.Diagram.LinkDrawers
+  href: H.Controls.Diagram.LinkDrawers.LinkDrawer.html
+  name: LinkDrawer
+  nameWithType: LinkDrawer
+  fullName: H.Controls.Diagram.LinkDrawers.LinkDrawer
+- uid: H.Controls.Diagram.LinkDrawers
+  commentId: N:H.Controls.Diagram.LinkDrawers
+  href: H.html
+  name: H.Controls.Diagram.LinkDrawers
+  nameWithType: H.Controls.Diagram.LinkDrawers
+  fullName: H.Controls.Diagram.LinkDrawers
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.LinkDrawers
+    name: LinkDrawers
+    href: H.Controls.Diagram.LinkDrawers.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.LinkDrawers
+    name: LinkDrawers
+    href: H.Controls.Diagram.LinkDrawers.html

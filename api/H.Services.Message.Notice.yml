@@ -1,0 +1,142 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Services.Message.Notice
+  commentId: N:H.Services.Message.Notice
+  id: H.Services.Message.Notice
+  children:
+  - H.Services.Message.Notice.INoticeItem
+  - H.Services.Message.Notice.INoticeMessageService
+  - H.Services.Message.Notice.IPercentNoticeItem
+  - H.Services.Message.Notice.ShowDialogNoticeMessageCommand
+  - H.Services.Message.Notice.ShowErrorNoticeMessageCommand
+  - H.Services.Message.Notice.ShowFatalNoticeMessageCommand
+  - H.Services.Message.Notice.ShowInfoNoticeMessageCommand
+  - H.Services.Message.Notice.ShowNoticeMessageCommandBase
+  - H.Services.Message.Notice.ShowProgressNoticeMessageCommand
+  - H.Services.Message.Notice.ShowStringNoticeMessageCommand
+  - H.Services.Message.Notice.ShowSuccessNoticeMessageCommand
+  - H.Services.Message.Notice.ShowWarnNoticeMessageCommand
+  langs:
+  - csharp
+  - vb
+  name: H.Services.Message.Notice
+  nameWithType: H.Services.Message.Notice
+  fullName: H.Services.Message.Notice
+  type: Namespace
+  assemblies:
+  - H.Services.Message
+references:
+- uid: H.Services.Message.Notice.INoticeItem
+  commentId: T:H.Services.Message.Notice.INoticeItem
+  parent: H.Services.Message.Notice
+  href: H.Services.Message.Notice.INoticeItem.html
+  name: INoticeItem
+  nameWithType: INoticeItem
+  fullName: H.Services.Message.Notice.INoticeItem
+- uid: H.Services.Message.Notice.IPercentNoticeItem
+  commentId: T:H.Services.Message.Notice.IPercentNoticeItem
+  parent: H.Services.Message.Notice
+  href: H.Services.Message.Notice.IPercentNoticeItem.html
+  name: IPercentNoticeItem
+  nameWithType: IPercentNoticeItem
+  fullName: H.Services.Message.Notice.IPercentNoticeItem
+- uid: H.Services.Message.Notice.INoticeMessageService
+  commentId: T:H.Services.Message.Notice.INoticeMessageService
+  parent: H.Services.Message.Notice
+  href: H.Services.Message.Notice.INoticeMessageService.html
+  name: INoticeMessageService
+  nameWithType: INoticeMessageService
+  fullName: H.Services.Message.Notice.INoticeMessageService
+- uid: H.Services.Message.Notice.ShowNoticeMessageCommandBase
+  commentId: T:H.Services.Message.Notice.ShowNoticeMessageCommandBase
+  parent: H.Services.Message.Notice
+  href: H.Services.Message.Notice.ShowNoticeMessageCommandBase.html
+  name: ShowNoticeMessageCommandBase
+  nameWithType: ShowNoticeMessageCommandBase
+  fullName: H.Services.Message.Notice.ShowNoticeMessageCommandBase
+- uid: H.Services.Message.Notice.ShowDialogNoticeMessageCommand
+  commentId: T:H.Services.Message.Notice.ShowDialogNoticeMessageCommand
+  href: H.Services.Message.Notice.ShowDialogNoticeMessageCommand.html
+  name: ShowDialogNoticeMessageCommand
+  nameWithType: ShowDialogNoticeMessageCommand
+  fullName: H.Services.Message.Notice.ShowDialogNoticeMessageCommand
+- uid: H.Services.Message.Notice.ShowErrorNoticeMessageCommand
+  commentId: T:H.Services.Message.Notice.ShowErrorNoticeMessageCommand
+  href: H.Services.Message.Notice.ShowErrorNoticeMessageCommand.html
+  name: ShowErrorNoticeMessageCommand
+  nameWithType: ShowErrorNoticeMessageCommand
+  fullName: H.Services.Message.Notice.ShowErrorNoticeMessageCommand
+- uid: H.Services.Message.Notice.ShowFatalNoticeMessageCommand
+  commentId: T:H.Services.Message.Notice.ShowFatalNoticeMessageCommand
+  href: H.Services.Message.Notice.ShowFatalNoticeMessageCommand.html
+  name: ShowFatalNoticeMessageCommand
+  nameWithType: ShowFatalNoticeMessageCommand
+  fullName: H.Services.Message.Notice.ShowFatalNoticeMessageCommand
+- uid: H.Services.Message.Notice.ShowInfoNoticeMessageCommand
+  commentId: T:H.Services.Message.Notice.ShowInfoNoticeMessageCommand
+  href: H.Services.Message.Notice.ShowInfoNoticeMessageCommand.html
+  name: ShowInfoNoticeMessageCommand
+  nameWithType: ShowInfoNoticeMessageCommand
+  fullName: H.Services.Message.Notice.ShowInfoNoticeMessageCommand
+- uid: H.Services.Message.Notice.ShowProgressNoticeMessageCommand
+  commentId: T:H.Services.Message.Notice.ShowProgressNoticeMessageCommand
+  href: H.Services.Message.Notice.ShowProgressNoticeMessageCommand.html
+  name: ShowProgressNoticeMessageCommand
+  nameWithType: ShowProgressNoticeMessageCommand
+  fullName: H.Services.Message.Notice.ShowProgressNoticeMessageCommand
+- uid: H.Services.Message.Notice.ShowStringNoticeMessageCommand
+  commentId: T:H.Services.Message.Notice.ShowStringNoticeMessageCommand
+  href: H.Services.Message.Notice.ShowStringNoticeMessageCommand.html
+  name: ShowStringNoticeMessageCommand
+  nameWithType: ShowStringNoticeMessageCommand
+  fullName: H.Services.Message.Notice.ShowStringNoticeMessageCommand
+- uid: H.Services.Message.Notice.ShowSuccessNoticeMessageCommand
+  commentId: T:H.Services.Message.Notice.ShowSuccessNoticeMessageCommand
+  href: H.Services.Message.Notice.ShowSuccessNoticeMessageCommand.html
+  name: ShowSuccessNoticeMessageCommand
+  nameWithType: ShowSuccessNoticeMessageCommand
+  fullName: H.Services.Message.Notice.ShowSuccessNoticeMessageCommand
+- uid: H.Services.Message.Notice.ShowWarnNoticeMessageCommand
+  commentId: T:H.Services.Message.Notice.ShowWarnNoticeMessageCommand
+  href: H.Services.Message.Notice.ShowWarnNoticeMessageCommand.html
+  name: ShowWarnNoticeMessageCommand
+  nameWithType: ShowWarnNoticeMessageCommand
+  fullName: H.Services.Message.Notice.ShowWarnNoticeMessageCommand
+- uid: H.Services.Message.Notice
+  commentId: N:H.Services.Message.Notice
+  href: H.html
+  name: H.Services.Message.Notice
+  nameWithType: H.Services.Message.Notice
+  fullName: H.Services.Message.Notice
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Message
+    name: Message
+    href: H.Services.Message.html
+  - name: .
+  - uid: H.Services.Message.Notice
+    name: Notice
+    href: H.Services.Message.Notice.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Message
+    name: Message
+    href: H.Services.Message.html
+  - name: .
+  - uid: H.Services.Message.Notice
+    name: Notice
+    href: H.Services.Message.Notice.html

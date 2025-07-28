@@ -1,0 +1,104 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Modules.Guide
+  commentId: N:H.Modules.Guide
+  id: H.Modules.Guide
+  children:
+  - H.Modules.Guide.Extention
+  - H.Modules.Guide.GetIsNewAssemblyVersionConverter
+  - H.Modules.Guide.GuideBox
+  - H.Modules.Guide.GuideData
+  - H.Modules.Guide.GuideOptions
+  - H.Modules.Guide.GuideService
+  - H.Modules.Guide.GuideTreePresenter
+  - H.Modules.Guide.IGuideOptions
+  langs:
+  - csharp
+  - vb
+  name: H.Modules.Guide
+  nameWithType: H.Modules.Guide
+  fullName: H.Modules.Guide
+  type: Namespace
+  assemblies:
+  - H.Modules.Guide
+references:
+- uid: H.Modules.Guide.Extention
+  commentId: T:H.Modules.Guide.Extention
+  parent: H.Modules.Guide
+  href: H.Modules.Guide.Extention.html
+  name: Extention
+  nameWithType: Extention
+  fullName: H.Modules.Guide.Extention
+- uid: H.Modules.Guide.GetIsNewAssemblyVersionConverter
+  commentId: T:H.Modules.Guide.GetIsNewAssemblyVersionConverter
+  href: H.Modules.Guide.GetIsNewAssemblyVersionConverter.html
+  name: GetIsNewAssemblyVersionConverter
+  nameWithType: GetIsNewAssemblyVersionConverter
+  fullName: H.Modules.Guide.GetIsNewAssemblyVersionConverter
+- uid: H.Modules.Guide.GuideBox
+  commentId: T:H.Modules.Guide.GuideBox
+  href: H.Modules.Guide.GuideBox.html
+  name: GuideBox
+  nameWithType: GuideBox
+  fullName: H.Modules.Guide.GuideBox
+- uid: H.Modules.Guide.GuideOptions
+  commentId: T:H.Modules.Guide.GuideOptions
+  href: H.Modules.Guide.GuideOptions.html
+  name: GuideOptions
+  nameWithType: GuideOptions
+  fullName: H.Modules.Guide.GuideOptions
+- uid: H.Modules.Guide.GuideService
+  commentId: T:H.Modules.Guide.GuideService
+  href: H.Modules.Guide.GuideService.html
+  name: GuideService
+  nameWithType: GuideService
+  fullName: H.Modules.Guide.GuideService
+- uid: H.Modules.Guide.GuideTreePresenter
+  commentId: T:H.Modules.Guide.GuideTreePresenter
+  href: H.Modules.Guide.GuideTreePresenter.html
+  name: GuideTreePresenter
+  nameWithType: GuideTreePresenter
+  fullName: H.Modules.Guide.GuideTreePresenter
+- uid: H.Modules.Guide.GuideData
+  commentId: T:H.Modules.Guide.GuideData
+  href: H.Modules.Guide.GuideData.html
+  name: GuideData
+  nameWithType: GuideData
+  fullName: H.Modules.Guide.GuideData
+- uid: H.Modules.Guide.IGuideOptions
+  commentId: T:H.Modules.Guide.IGuideOptions
+  parent: H.Modules.Guide
+  href: H.Modules.Guide.IGuideOptions.html
+  name: IGuideOptions
+  nameWithType: IGuideOptions
+  fullName: H.Modules.Guide.IGuideOptions
+- uid: H.Modules.Guide
+  commentId: N:H.Modules.Guide
+  href: H.html
+  name: H.Modules.Guide
+  nameWithType: H.Modules.Guide
+  fullName: H.Modules.Guide
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Modules
+    name: Modules
+    href: H.Modules.html
+  - name: .
+  - uid: H.Modules.Guide
+    name: Guide
+    href: H.Modules.Guide.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Modules
+    name: Modules
+    href: H.Modules.html
+  - name: .
+  - uid: H.Modules.Guide
+    name: Guide
+    href: H.Modules.Guide.html

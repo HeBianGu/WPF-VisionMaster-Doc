@@ -1,0 +1,81 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Themes
+  commentId: N:H.Themes
+  id: H.Themes
+  children:
+  - H.Themes.BrushKeys
+  - H.Themes.ColorKeys
+  - H.Themes.FontSizeKeys
+  - H.Themes.IResourceable
+  - H.Themes.LayoutKeys
+  - H.Themes.SystemKeys
+  langs:
+  - csharp
+  - vb
+  name: H.Themes
+  nameWithType: H.Themes
+  fullName: H.Themes
+  type: Namespace
+  assemblies:
+  - H.Theme
+references:
+- uid: H.Themes.BrushKeys
+  commentId: T:H.Themes.BrushKeys
+  href: H.Themes.BrushKeys.html
+  name: BrushKeys
+  nameWithType: BrushKeys
+  fullName: H.Themes.BrushKeys
+- uid: H.Themes.ColorKeys
+  commentId: T:H.Themes.ColorKeys
+  href: H.Themes.ColorKeys.html
+  name: ColorKeys
+  nameWithType: ColorKeys
+  fullName: H.Themes.ColorKeys
+- uid: H.Themes.FontSizeKeys
+  commentId: T:H.Themes.FontSizeKeys
+  href: H.Themes.FontSizeKeys.html
+  name: FontSizeKeys
+  nameWithType: FontSizeKeys
+  fullName: H.Themes.FontSizeKeys
+- uid: H.Themes.IResourceable
+  commentId: T:H.Themes.IResourceable
+  parent: H.Themes
+  href: H.Themes.IResourceable.html
+  name: IResourceable
+  nameWithType: IResourceable
+  fullName: H.Themes.IResourceable
+- uid: H.Themes.LayoutKeys
+  commentId: T:H.Themes.LayoutKeys
+  href: H.Themes.LayoutKeys.html
+  name: LayoutKeys
+  nameWithType: LayoutKeys
+  fullName: H.Themes.LayoutKeys
+- uid: H.Themes.SystemKeys
+  commentId: T:H.Themes.SystemKeys
+  href: H.Themes.SystemKeys.html
+  name: SystemKeys
+  nameWithType: SystemKeys
+  fullName: H.Themes.SystemKeys
+- uid: H.Themes
+  commentId: N:H.Themes
+  href: H.html
+  name: H.Themes
+  nameWithType: H.Themes
+  fullName: H.Themes
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Themes
+    name: Themes
+    href: H.Themes.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Themes
+    name: Themes
+    href: H.Themes.html

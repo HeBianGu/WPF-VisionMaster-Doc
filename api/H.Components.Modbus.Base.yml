@@ -1,0 +1,100 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Components.Modbus.Base
+  commentId: N:H.Components.Modbus.Base
+  id: H.Components.Modbus.Base
+  children:
+  - H.Components.Modbus.Base.IModbusTcpDataItem
+  - H.Components.Modbus.Base.ITcpClientMaster
+  - H.Components.Modbus.Base.IUnshortModbusTcpDataItem
+  - H.Components.Modbus.Base.ModbusTcpDatas
+  - H.Components.Modbus.Base.TcpClientMaster
+  - H.Components.Modbus.Base.UshortModbusTcpDataItem
+  langs:
+  - csharp
+  - vb
+  name: H.Components.Modbus.Base
+  nameWithType: H.Components.Modbus.Base
+  fullName: H.Components.Modbus.Base
+  type: Namespace
+  assemblies:
+  - H.Components.Modbus
+references:
+- uid: H.Components.Modbus.Base.IModbusTcpDataItem
+  commentId: T:H.Components.Modbus.Base.IModbusTcpDataItem
+  parent: H.Components.Modbus.Base
+  href: H.Components.Modbus.Base.IModbusTcpDataItem.html
+  name: IModbusTcpDataItem
+  nameWithType: IModbusTcpDataItem
+  fullName: H.Components.Modbus.Base.IModbusTcpDataItem
+- uid: H.Components.Modbus.Base.ITcpClientMaster
+  commentId: T:H.Components.Modbus.Base.ITcpClientMaster
+  parent: H.Components.Modbus.Base
+  href: H.Components.Modbus.Base.ITcpClientMaster.html
+  name: ITcpClientMaster
+  nameWithType: ITcpClientMaster
+  fullName: H.Components.Modbus.Base.ITcpClientMaster
+- uid: H.Components.Modbus.Base.IUnshortModbusTcpDataItem
+  commentId: T:H.Components.Modbus.Base.IUnshortModbusTcpDataItem
+  parent: H.Components.Modbus.Base
+  href: H.Components.Modbus.Base.IUnshortModbusTcpDataItem.html
+  name: IUnshortModbusTcpDataItem
+  nameWithType: IUnshortModbusTcpDataItem
+  fullName: H.Components.Modbus.Base.IUnshortModbusTcpDataItem
+- uid: H.Components.Modbus.Base.ModbusTcpDatas
+  commentId: T:H.Components.Modbus.Base.ModbusTcpDatas
+  parent: H.Components.Modbus.Base
+  href: H.Components.Modbus.Base.ModbusTcpDatas.html
+  name: ModbusTcpDatas
+  nameWithType: ModbusTcpDatas
+  fullName: H.Components.Modbus.Base.ModbusTcpDatas
+- uid: H.Components.Modbus.Base.TcpClientMaster
+  commentId: T:H.Components.Modbus.Base.TcpClientMaster
+  href: H.Components.Modbus.Base.TcpClientMaster.html
+  name: TcpClientMaster
+  nameWithType: TcpClientMaster
+  fullName: H.Components.Modbus.Base.TcpClientMaster
+- uid: H.Components.Modbus.Base.UshortModbusTcpDataItem
+  commentId: T:H.Components.Modbus.Base.UshortModbusTcpDataItem
+  href: H.Components.Modbus.Base.UshortModbusTcpDataItem.html
+  name: UshortModbusTcpDataItem
+  nameWithType: UshortModbusTcpDataItem
+  fullName: H.Components.Modbus.Base.UshortModbusTcpDataItem
+- uid: H.Components.Modbus.Base
+  commentId: N:H.Components.Modbus.Base
+  href: H.html
+  name: H.Components.Modbus.Base
+  nameWithType: H.Components.Modbus.Base
+  fullName: H.Components.Modbus.Base
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Components
+    name: Components
+    href: H.Components.html
+  - name: .
+  - uid: H.Components.Modbus
+    name: Modbus
+    href: H.Components.Modbus.html
+  - name: .
+  - uid: H.Components.Modbus.Base
+    name: Base
+    href: H.Components.Modbus.Base.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Components
+    name: Components
+    href: H.Components.html
+  - name: .
+  - uid: H.Components.Modbus
+    name: Modbus
+    href: H.Components.Modbus.html
+  - name: .
+  - uid: H.Components.Modbus.Base
+    name: Base
+    href: H.Components.Modbus.Base.html

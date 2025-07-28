@@ -1,0 +1,61 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.Zip
+  commentId: N:H.Extensions.Zip
+  id: H.Extensions.Zip
+  children:
+  - H.Extensions.Zip.IZipSaveFileDialogService
+  - H.Extensions.Zip.ZipService
+  langs:
+  - csharp
+  - vb
+  name: H.Extensions.Zip
+  nameWithType: H.Extensions.Zip
+  fullName: H.Extensions.Zip
+  type: Namespace
+  assemblies:
+  - H.Extensions.Zip
+references:
+- uid: H.Extensions.Zip.IZipSaveFileDialogService
+  commentId: T:H.Extensions.Zip.IZipSaveFileDialogService
+  parent: H.Extensions.Zip
+  href: H.Extensions.Zip.IZipSaveFileDialogService.html
+  name: IZipSaveFileDialogService
+  nameWithType: IZipSaveFileDialogService
+  fullName: H.Extensions.Zip.IZipSaveFileDialogService
+- uid: H.Extensions.Zip.ZipService
+  commentId: T:H.Extensions.Zip.ZipService
+  href: H.Extensions.Zip.ZipService.html
+  name: ZipService
+  nameWithType: ZipService
+  fullName: H.Extensions.Zip.ZipService
+- uid: H.Extensions.Zip
+  commentId: N:H.Extensions.Zip
+  href: H.html
+  name: H.Extensions.Zip
+  nameWithType: H.Extensions.Zip
+  fullName: H.Extensions.Zip
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Zip
+    name: Zip
+    href: H.Extensions.Zip.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Zip
+    name: Zip
+    href: H.Extensions.Zip.html

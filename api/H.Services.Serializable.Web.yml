@@ -1,0 +1,83 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Services.Serializable.Web
+  commentId: N:H.Services.Serializable.Web
+  id: H.Services.Serializable.Web
+  children:
+  - H.Services.Serializable.Web.IWebJsonSerializerService
+  - H.Services.Serializable.Web.IWebXmlSerializerService
+  - H.Services.Serializable.Web.IocXmlWebSerializer
+  - H.Services.Serializable.Web.XmlWebSerializerService
+  langs:
+  - csharp
+  - vb
+  name: H.Services.Serializable.Web
+  nameWithType: H.Services.Serializable.Web
+  fullName: H.Services.Serializable.Web
+  type: Namespace
+  assemblies:
+  - H.Services.Serializable
+references:
+- uid: H.Services.Serializable.Web.IocXmlWebSerializer
+  commentId: T:H.Services.Serializable.Web.IocXmlWebSerializer
+  href: H.Services.Serializable.Web.IocXmlWebSerializer.html
+  name: IocXmlWebSerializer
+  nameWithType: IocXmlWebSerializer
+  fullName: H.Services.Serializable.Web.IocXmlWebSerializer
+- uid: H.Services.Serializable.Web.IWebJsonSerializerService
+  commentId: T:H.Services.Serializable.Web.IWebJsonSerializerService
+  href: H.Services.Serializable.Web.IWebJsonSerializerService.html
+  name: IWebJsonSerializerService
+  nameWithType: IWebJsonSerializerService
+  fullName: H.Services.Serializable.Web.IWebJsonSerializerService
+- uid: H.Services.Serializable.Web.IWebXmlSerializerService
+  commentId: T:H.Services.Serializable.Web.IWebXmlSerializerService
+  parent: H.Services.Serializable.Web
+  href: H.Services.Serializable.Web.IWebXmlSerializerService.html
+  name: IWebXmlSerializerService
+  nameWithType: IWebXmlSerializerService
+  fullName: H.Services.Serializable.Web.IWebXmlSerializerService
+- uid: H.Services.Serializable.Web.XmlWebSerializerService
+  commentId: T:H.Services.Serializable.Web.XmlWebSerializerService
+  href: H.Services.Serializable.Web.XmlWebSerializerService.html
+  name: XmlWebSerializerService
+  nameWithType: XmlWebSerializerService
+  fullName: H.Services.Serializable.Web.XmlWebSerializerService
+- uid: H.Services.Serializable.Web
+  commentId: N:H.Services.Serializable.Web
+  href: H.html
+  name: H.Services.Serializable.Web
+  nameWithType: H.Services.Serializable.Web
+  fullName: H.Services.Serializable.Web
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Serializable
+    name: Serializable
+    href: H.Services.Serializable.html
+  - name: .
+  - uid: H.Services.Serializable.Web
+    name: Web
+    href: H.Services.Serializable.Web.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Serializable
+    name: Serializable
+    href: H.Services.Serializable.html
+  - name: .
+  - uid: H.Services.Serializable.Web
+    name: Web
+    href: H.Services.Serializable.Web.html

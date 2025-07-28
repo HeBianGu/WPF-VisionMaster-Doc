@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.Command.TextBoxs
+  commentId: N:H.Extensions.Command.TextBoxs
+  id: H.Extensions.Command.TextBoxs
+  children:
+  - H.Extensions.Command.TextBoxs.TextBoxClearTextCommand
+  langs:
+  - csharp
+  - vb
+  name: H.Extensions.Command.TextBoxs
+  nameWithType: H.Extensions.Command.TextBoxs
+  fullName: H.Extensions.Command.TextBoxs
+  type: Namespace
+  assemblies:
+  - H.Extensions.Command
+references:
+- uid: H.Extensions.Command.TextBoxs.TextBoxClearTextCommand
+  commentId: T:H.Extensions.Command.TextBoxs.TextBoxClearTextCommand
+  href: H.Extensions.Command.TextBoxs.TextBoxClearTextCommand.html
+  name: TextBoxClearTextCommand
+  nameWithType: TextBoxClearTextCommand
+  fullName: H.Extensions.Command.TextBoxs.TextBoxClearTextCommand

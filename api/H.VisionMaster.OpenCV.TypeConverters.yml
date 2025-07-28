@@ -1,0 +1,62 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.VisionMaster.OpenCV.TypeConverters
+  commentId: N:H.VisionMaster.OpenCV.TypeConverters
+  id: H.VisionMaster.OpenCV.TypeConverters
+  children:
+  - H.VisionMaster.OpenCV.TypeConverters.ScalarTypeConverter
+  langs:
+  - csharp
+  - vb
+  name: H.VisionMaster.OpenCV.TypeConverters
+  nameWithType: H.VisionMaster.OpenCV.TypeConverters
+  fullName: H.VisionMaster.OpenCV.TypeConverters
+  type: Namespace
+  assemblies:
+  - H.VisionMaster.OpenCV
+references:
+- uid: H.VisionMaster.OpenCV.TypeConverters.ScalarTypeConverter
+  commentId: T:H.VisionMaster.OpenCV.TypeConverters.ScalarTypeConverter
+  parent: H.VisionMaster.OpenCV.TypeConverters
+  href: H.VisionMaster.OpenCV.TypeConverters.ScalarTypeConverter.html
+  name: ScalarTypeConverter
+  nameWithType: ScalarTypeConverter
+  fullName: H.VisionMaster.OpenCV.TypeConverters.ScalarTypeConverter
+- uid: H.VisionMaster.OpenCV.TypeConverters
+  commentId: N:H.VisionMaster.OpenCV.TypeConverters
+  href: H.html
+  name: H.VisionMaster.OpenCV.TypeConverters
+  nameWithType: H.VisionMaster.OpenCV.TypeConverters
+  fullName: H.VisionMaster.OpenCV.TypeConverters
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.OpenCV
+    name: OpenCV
+    href: H.VisionMaster.OpenCV.html
+  - name: .
+  - uid: H.VisionMaster.OpenCV.TypeConverters
+    name: TypeConverters
+    href: H.VisionMaster.OpenCV.TypeConverters.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.OpenCV
+    name: OpenCV
+    href: H.VisionMaster.OpenCV.html
+  - name: .
+  - uid: H.VisionMaster.OpenCV.TypeConverters
+    name: TypeConverters
+    href: H.VisionMaster.OpenCV.TypeConverters.html

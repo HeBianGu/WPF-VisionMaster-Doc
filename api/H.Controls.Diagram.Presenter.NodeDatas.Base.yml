@@ -1,0 +1,181 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.Diagram.Presenter.NodeDatas.Base
+  commentId: N:H.Controls.Diagram.Presenter.NodeDatas.Base
+  id: H.Controls.Diagram.Presenter.NodeDatas.Base
+  children:
+  - H.Controls.Diagram.Presenter.NodeDatas.Base.DiagramableNodeDataBase
+  - H.Controls.Diagram.Presenter.NodeDatas.Base.IDiagramableNodeData
+  - H.Controls.Diagram.Presenter.NodeDatas.Base.IResultPresenter
+  - H.Controls.Diagram.Presenter.NodeDatas.Base.IResultPresenterNodeData
+  - H.Controls.Diagram.Presenter.NodeDatas.Base.ISelectableFromNodeData
+  - H.Controls.Diagram.Presenter.NodeDatas.Base.NodeData
+  - H.Controls.Diagram.Presenter.NodeDatas.Base.NodeDataBase
+  - H.Controls.Diagram.Presenter.NodeDatas.Base.PortableNodeData
+  - H.Controls.Diagram.Presenter.NodeDatas.Base.ResultPresenterNodeDataBase
+  - H.Controls.Diagram.Presenter.NodeDatas.Base.SelectableFromNodeDataBase
+  - H.Controls.Diagram.Presenter.NodeDatas.Base.SelectableFromNodeDataBase.SelectAllNodeData
+  - H.Controls.Diagram.Presenter.NodeDatas.Base.ShowPropertyViewNodeDataBase
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.Diagram.Presenter.NodeDatas.Base
+  nameWithType: H.Controls.Diagram.Presenter.NodeDatas.Base
+  fullName: H.Controls.Diagram.Presenter.NodeDatas.Base
+  type: Namespace
+  assemblies:
+  - H.Controls.Diagram.Presenter
+references:
+- uid: H.Controls.Diagram.Presenter.NodeDatas.Base.IDiagramableNodeData
+  commentId: T:H.Controls.Diagram.Presenter.NodeDatas.Base.IDiagramableNodeData
+  parent: H.Controls.Diagram.Presenter.NodeDatas.Base
+  href: H.Controls.Diagram.Presenter.NodeDatas.Base.IDiagramableNodeData.html
+  name: IDiagramableNodeData
+  nameWithType: IDiagramableNodeData
+  fullName: H.Controls.Diagram.Presenter.NodeDatas.Base.IDiagramableNodeData
+- uid: H.Controls.Diagram.Presenter.NodeDatas.Base.DiagramableNodeDataBase
+  commentId: T:H.Controls.Diagram.Presenter.NodeDatas.Base.DiagramableNodeDataBase
+  parent: H.Controls.Diagram.Presenter.NodeDatas.Base
+  href: H.Controls.Diagram.Presenter.NodeDatas.Base.DiagramableNodeDataBase.html
+  name: DiagramableNodeDataBase
+  nameWithType: DiagramableNodeDataBase
+  fullName: H.Controls.Diagram.Presenter.NodeDatas.Base.DiagramableNodeDataBase
+- uid: H.Controls.Diagram.Presenter.NodeDatas.Base.NodeData
+  commentId: T:H.Controls.Diagram.Presenter.NodeDatas.Base.NodeData
+  parent: H.Controls.Diagram.Presenter.NodeDatas.Base
+  href: H.Controls.Diagram.Presenter.NodeDatas.Base.NodeData.html
+  name: NodeData
+  nameWithType: NodeData
+  fullName: H.Controls.Diagram.Presenter.NodeDatas.Base.NodeData
+- uid: H.Controls.Diagram.Presenter.NodeDatas.Base.NodeDataBase
+  commentId: T:H.Controls.Diagram.Presenter.NodeDatas.Base.NodeDataBase
+  parent: H.Controls.Diagram.Presenter.NodeDatas.Base
+  href: H.Controls.Diagram.Presenter.NodeDatas.Base.NodeDataBase.html
+  name: NodeDataBase
+  nameWithType: NodeDataBase
+  fullName: H.Controls.Diagram.Presenter.NodeDatas.Base.NodeDataBase
+- uid: H.Controls.Diagram.Presenter.NodeDatas.Base.PortableNodeData
+  commentId: T:H.Controls.Diagram.Presenter.NodeDatas.Base.PortableNodeData
+  parent: H.Controls.Diagram.Presenter.NodeDatas.Base
+  href: H.Controls.Diagram.Presenter.NodeDatas.Base.PortableNodeData.html
+  name: PortableNodeData
+  nameWithType: PortableNodeData
+  fullName: H.Controls.Diagram.Presenter.NodeDatas.Base.PortableNodeData
+- uid: H.Controls.Diagram.Presenter.NodeDatas.Base.IResultPresenter
+  commentId: T:H.Controls.Diagram.Presenter.NodeDatas.Base.IResultPresenter
+  parent: H.Controls.Diagram.Presenter.NodeDatas.Base
+  href: H.Controls.Diagram.Presenter.NodeDatas.Base.IResultPresenter.html
+  name: IResultPresenter
+  nameWithType: IResultPresenter
+  fullName: H.Controls.Diagram.Presenter.NodeDatas.Base.IResultPresenter
+- uid: H.Controls.Diagram.Presenter.NodeDatas.Base.IResultPresenterNodeData
+  commentId: T:H.Controls.Diagram.Presenter.NodeDatas.Base.IResultPresenterNodeData
+  parent: H.Controls.Diagram.Presenter.NodeDatas.Base
+  href: H.Controls.Diagram.Presenter.NodeDatas.Base.IResultPresenterNodeData.html
+  name: IResultPresenterNodeData
+  nameWithType: IResultPresenterNodeData
+  fullName: H.Controls.Diagram.Presenter.NodeDatas.Base.IResultPresenterNodeData
+- uid: H.Controls.Diagram.Presenter.NodeDatas.Base.ResultPresenterNodeDataBase
+  commentId: T:H.Controls.Diagram.Presenter.NodeDatas.Base.ResultPresenterNodeDataBase
+  parent: H.Controls.Diagram.Presenter.NodeDatas.Base
+  href: H.Controls.Diagram.Presenter.NodeDatas.Base.ResultPresenterNodeDataBase.html
+  name: ResultPresenterNodeDataBase
+  nameWithType: ResultPresenterNodeDataBase
+  fullName: H.Controls.Diagram.Presenter.NodeDatas.Base.ResultPresenterNodeDataBase
+- uid: H.Controls.Diagram.Presenter.NodeDatas.Base.ISelectableFromNodeData
+  commentId: T:H.Controls.Diagram.Presenter.NodeDatas.Base.ISelectableFromNodeData
+  parent: H.Controls.Diagram.Presenter.NodeDatas.Base
+  href: H.Controls.Diagram.Presenter.NodeDatas.Base.ISelectableFromNodeData.html
+  name: ISelectableFromNodeData
+  nameWithType: ISelectableFromNodeData
+  fullName: H.Controls.Diagram.Presenter.NodeDatas.Base.ISelectableFromNodeData
+- uid: H.Controls.Diagram.Presenter.NodeDatas.Base.SelectableFromNodeDataBase
+  commentId: T:H.Controls.Diagram.Presenter.NodeDatas.Base.SelectableFromNodeDataBase
+  parent: H.Controls.Diagram.Presenter.NodeDatas.Base
+  href: H.Controls.Diagram.Presenter.NodeDatas.Base.SelectableFromNodeDataBase.html
+  name: SelectableFromNodeDataBase
+  nameWithType: SelectableFromNodeDataBase
+  fullName: H.Controls.Diagram.Presenter.NodeDatas.Base.SelectableFromNodeDataBase
+- uid: H.Controls.Diagram.Presenter.NodeDatas.Base.SelectableFromNodeDataBase.SelectAllNodeData
+  commentId: T:H.Controls.Diagram.Presenter.NodeDatas.Base.SelectableFromNodeDataBase.SelectAllNodeData
+  href: H.Controls.Diagram.Presenter.NodeDatas.Base.SelectableFromNodeDataBase.html
+  name: SelectableFromNodeDataBase.SelectAllNodeData
+  nameWithType: SelectableFromNodeDataBase.SelectAllNodeData
+  fullName: H.Controls.Diagram.Presenter.NodeDatas.Base.SelectableFromNodeDataBase.SelectAllNodeData
+  spec.csharp:
+  - uid: H.Controls.Diagram.Presenter.NodeDatas.Base.SelectableFromNodeDataBase
+    name: SelectableFromNodeDataBase
+    href: H.Controls.Diagram.Presenter.NodeDatas.Base.SelectableFromNodeDataBase.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter.NodeDatas.Base.SelectableFromNodeDataBase.SelectAllNodeData
+    name: SelectAllNodeData
+    href: H.Controls.Diagram.Presenter.NodeDatas.Base.SelectableFromNodeDataBase.SelectAllNodeData.html
+  spec.vb:
+  - uid: H.Controls.Diagram.Presenter.NodeDatas.Base.SelectableFromNodeDataBase
+    name: SelectableFromNodeDataBase
+    href: H.Controls.Diagram.Presenter.NodeDatas.Base.SelectableFromNodeDataBase.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter.NodeDatas.Base.SelectableFromNodeDataBase.SelectAllNodeData
+    name: SelectAllNodeData
+    href: H.Controls.Diagram.Presenter.NodeDatas.Base.SelectableFromNodeDataBase.SelectAllNodeData.html
+- uid: H.Controls.Diagram.Presenter.NodeDatas.Base.ShowPropertyViewNodeDataBase
+  commentId: T:H.Controls.Diagram.Presenter.NodeDatas.Base.ShowPropertyViewNodeDataBase
+  parent: H.Controls.Diagram.Presenter.NodeDatas.Base
+  href: H.Controls.Diagram.Presenter.NodeDatas.Base.ShowPropertyViewNodeDataBase.html
+  name: ShowPropertyViewNodeDataBase
+  nameWithType: ShowPropertyViewNodeDataBase
+  fullName: H.Controls.Diagram.Presenter.NodeDatas.Base.ShowPropertyViewNodeDataBase
+- uid: H.Controls.Diagram.Presenter.NodeDatas.Base
+  commentId: N:H.Controls.Diagram.Presenter.NodeDatas.Base
+  href: H.html
+  name: H.Controls.Diagram.Presenter.NodeDatas.Base
+  nameWithType: H.Controls.Diagram.Presenter.NodeDatas.Base
+  fullName: H.Controls.Diagram.Presenter.NodeDatas.Base
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter
+    name: Presenter
+    href: H.Controls.Diagram.Presenter.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter.NodeDatas
+    name: NodeDatas
+    href: H.Controls.Diagram.Presenter.NodeDatas.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter.NodeDatas.Base
+    name: Base
+    href: H.Controls.Diagram.Presenter.NodeDatas.Base.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter
+    name: Presenter
+    href: H.Controls.Diagram.Presenter.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter.NodeDatas
+    name: NodeDatas
+    href: H.Controls.Diagram.Presenter.NodeDatas.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter.NodeDatas.Base
+    name: Base
+    href: H.Controls.Diagram.Presenter.NodeDatas.Base.html

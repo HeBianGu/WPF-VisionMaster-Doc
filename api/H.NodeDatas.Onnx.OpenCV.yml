@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.NodeDatas.Onnx.OpenCV
+  commentId: N:H.NodeDatas.Onnx.OpenCV
+  id: H.NodeDatas.Onnx.OpenCV
+  children:
+  - H.NodeDatas.Onnx.OpenCV.OnnxExtension
+  langs:
+  - csharp
+  - vb
+  name: H.NodeDatas.Onnx.OpenCV
+  nameWithType: H.NodeDatas.Onnx.OpenCV
+  fullName: H.NodeDatas.Onnx.OpenCV
+  type: Namespace
+  assemblies:
+  - H.NodeDatas.Onnx.OpenCV
+references:
+- uid: H.NodeDatas.Onnx.OpenCV.OnnxExtension
+  commentId: T:H.NodeDatas.Onnx.OpenCV.OnnxExtension
+  href: H.NodeDatas.Onnx.OpenCV.OnnxExtension.html
+  name: OnnxExtension
+  nameWithType: OnnxExtension
+  fullName: H.NodeDatas.Onnx.OpenCV.OnnxExtension

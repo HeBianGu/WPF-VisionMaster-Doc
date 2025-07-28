@@ -1,0 +1,158 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.Command
+  commentId: N:H.Extensions.Command
+  id: H.Extensions.Command
+  children:
+  - H.Extensions.Command.AsyncMessageCommand
+  - H.Extensions.Command.AsyncPercentCommand
+  - H.Extensions.Command.BuzyCommand
+  - H.Extensions.Command.BuzyCommand`1
+  - H.Extensions.Command.ClipBoardCopyTextCommand
+  - H.Extensions.Command.ClipBoardPasteTextCommand
+  - H.Extensions.Command.DeleteCommand
+  - H.Extensions.Command.DeleteSelectorCommand
+  - H.Extensions.Command.DeleteTextTextBoxCommand
+  - H.Extensions.Command.MessageCommand
+  - H.Extensions.Command.NotifyCommandBase
+  - H.Extensions.Command.PercentCommand
+  - H.Extensions.Command.ProcessCommand
+  langs:
+  - csharp
+  - vb
+  name: H.Extensions.Command
+  nameWithType: H.Extensions.Command
+  fullName: H.Extensions.Command
+  type: Namespace
+  assemblies:
+  - H.Extensions.Command
+references:
+- uid: H.Extensions.Command.AsyncMessageCommand
+  commentId: T:H.Extensions.Command.AsyncMessageCommand
+  href: H.Extensions.Command.AsyncMessageCommand.html
+  name: AsyncMessageCommand
+  nameWithType: AsyncMessageCommand
+  fullName: H.Extensions.Command.AsyncMessageCommand
+- uid: H.Extensions.Command.AsyncPercentCommand
+  commentId: T:H.Extensions.Command.AsyncPercentCommand
+  href: H.Extensions.Command.AsyncPercentCommand.html
+  name: AsyncPercentCommand
+  nameWithType: AsyncPercentCommand
+  fullName: H.Extensions.Command.AsyncPercentCommand
+- uid: H.Extensions.Command.BuzyCommand
+  commentId: T:H.Extensions.Command.BuzyCommand
+  parent: H.Extensions.Command
+  href: H.Extensions.Command.BuzyCommand.html
+  name: BuzyCommand
+  nameWithType: BuzyCommand
+  fullName: H.Extensions.Command.BuzyCommand
+- uid: H.Extensions.Command.BuzyCommand`1
+  commentId: T:H.Extensions.Command.BuzyCommand`1
+  href: H.Extensions.Command.BuzyCommand-1.html
+  name: BuzyCommand<T>
+  nameWithType: BuzyCommand<T>
+  fullName: H.Extensions.Command.BuzyCommand<T>
+  nameWithType.vb: BuzyCommand(Of T)
+  fullName.vb: H.Extensions.Command.BuzyCommand(Of T)
+  name.vb: BuzyCommand(Of T)
+  spec.csharp:
+  - uid: H.Extensions.Command.BuzyCommand`1
+    name: BuzyCommand
+    href: H.Extensions.Command.BuzyCommand-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Extensions.Command.BuzyCommand`1
+    name: BuzyCommand
+    href: H.Extensions.Command.BuzyCommand-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Extensions.Command.ClipBoardCopyTextCommand
+  commentId: T:H.Extensions.Command.ClipBoardCopyTextCommand
+  href: H.Extensions.Command.ClipBoardCopyTextCommand.html
+  name: ClipBoardCopyTextCommand
+  nameWithType: ClipBoardCopyTextCommand
+  fullName: H.Extensions.Command.ClipBoardCopyTextCommand
+- uid: H.Extensions.Command.ClipBoardPasteTextCommand
+  commentId: T:H.Extensions.Command.ClipBoardPasteTextCommand
+  href: H.Extensions.Command.ClipBoardPasteTextCommand.html
+  name: ClipBoardPasteTextCommand
+  nameWithType: ClipBoardPasteTextCommand
+  fullName: H.Extensions.Command.ClipBoardPasteTextCommand
+- uid: H.Extensions.Command.MessageCommand
+  commentId: T:H.Extensions.Command.MessageCommand
+  href: H.Extensions.Command.MessageCommand.html
+  name: MessageCommand
+  nameWithType: MessageCommand
+  fullName: H.Extensions.Command.MessageCommand
+- uid: H.Extensions.Command.NotifyCommandBase
+  commentId: T:H.Extensions.Command.NotifyCommandBase
+  parent: H.Extensions.Command
+  href: H.Extensions.Command.NotifyCommandBase.html
+  name: NotifyCommandBase
+  nameWithType: NotifyCommandBase
+  fullName: H.Extensions.Command.NotifyCommandBase
+- uid: H.Extensions.Command.PercentCommand
+  commentId: T:H.Extensions.Command.PercentCommand
+  href: H.Extensions.Command.PercentCommand.html
+  name: PercentCommand
+  nameWithType: PercentCommand
+  fullName: H.Extensions.Command.PercentCommand
+- uid: H.Extensions.Command.ProcessCommand
+  commentId: T:H.Extensions.Command.ProcessCommand
+  href: H.Extensions.Command.ProcessCommand.html
+  name: ProcessCommand
+  nameWithType: ProcessCommand
+  fullName: H.Extensions.Command.ProcessCommand
+- uid: H.Extensions.Command.DeleteCommand
+  commentId: T:H.Extensions.Command.DeleteCommand
+  href: H.Extensions.Command.DeleteCommand.html
+  name: DeleteCommand
+  nameWithType: DeleteCommand
+  fullName: H.Extensions.Command.DeleteCommand
+- uid: H.Extensions.Command.DeleteSelectorCommand
+  commentId: T:H.Extensions.Command.DeleteSelectorCommand
+  href: H.Extensions.Command.DeleteSelectorCommand.html
+  name: DeleteSelectorCommand
+  nameWithType: DeleteSelectorCommand
+  fullName: H.Extensions.Command.DeleteSelectorCommand
+- uid: H.Extensions.Command.DeleteTextTextBoxCommand
+  commentId: T:H.Extensions.Command.DeleteTextTextBoxCommand
+  href: H.Extensions.Command.DeleteTextTextBoxCommand.html
+  name: DeleteTextTextBoxCommand
+  nameWithType: DeleteTextTextBoxCommand
+  fullName: H.Extensions.Command.DeleteTextTextBoxCommand
+- uid: H.Extensions.Command
+  commentId: N:H.Extensions.Command
+  href: H.html
+  name: H.Extensions.Command
+  nameWithType: H.Extensions.Command
+  fullName: H.Extensions.Command
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Command
+    name: Command
+    href: H.Extensions.Command.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Command
+    name: Command
+    href: H.Extensions.Command.html

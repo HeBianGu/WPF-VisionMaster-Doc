@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class AdornerDialogPresenter | WPF-VisionMasterOpenCV2.0开发文档 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class AdornerDialogPresenter | WPF-VisionMasterOpenCV2.0开发文档 ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="WPF-VisionMasterOpenCV2.0开发文档">
+            WPF-VisionMasterOpenCV2.0开发文档
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="H.Modules.Messages.Dialog.AdornerDialogPresenter">
+
+
+
+  <h1 id="H_Modules_Messages_Dialog_AdornerDialogPresenter" data-uid="H.Modules.Messages.Dialog.AdornerDialogPresenter" class="text-break">
+Class AdornerDialogPresenter  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="H.html">H</a>.<a class="xref" href="H.Modules.html">Modules</a>.<a class="xref" href="H.Modules.Messages.html">Messages</a>.<a class="xref" href="H.Modules.Messages.Dialog.html">Dialog</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>H.Modules.Messages.Dialog.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Icon(&quot;&quot;)]
+public class AdornerDialogPresenter : DesignPresenterBase, INotifyPropertyChanged, IDisplayBindable, IIconable, INameable, IOrderable, IGroupable, IDable, IDescriptionable, IDesignPresenter, ISelectable, IDialog, ILayoutable, ITransitionHostable, ICancelable</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="H.Mvvm.ViewModels.Base.BindableBase.html">BindableBase</a></div>
+      <div><a class="xref" href="H.Mvvm.ViewModels.Base.Bindable.html">Bindable</a></div>
+      <div><a class="xref" href="H.Extensions.Mvvm.ViewModels.Base.CommandsBindableBase.html">CommandsBindableBase</a></div>
+      <div><a class="xref" href="H.Extensions.Mvvm.ViewModels.Base.DisplayBindableBase.html">DisplayBindableBase</a></div>
+      <div><a class="xref" href="H.Extensions.Mvvm.ViewModels.Base.DesignPresenterBase.html">DesignPresenterBase</a></div>
+      <div><span class="xref">AdornerDialogPresenter</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
+      <div><a class="xref" href="H.Extensions.Mvvm.ViewModels.IDisplayBindable.html">IDisplayBindable</a></div>
+      <div><a class="xref" href="H.Common.Interfaces.IIconable.html">IIconable</a></div>
+      <div><a class="xref" href="H.Common.Interfaces.INameable.html">INameable</a></div>
+      <div><a class="xref" href="H.Common.Interfaces.IOrderable.html">IOrderable</a></div>
+      <div><a class="xref" href="H.Common.Interfaces.IGroupable.html">IGroupable</a></div>
+      <div><a class="xref" href="H.Common.Interfaces.IDable.html">IDable</a></div>
+      <div><a class="xref" href="H.Common.Interfaces.IDescriptionable.html">IDescriptionable</a></div>
+      <div><a class="xref" href="H.Common.Interfaces.IDesignPresenter.html">IDesignPresenter</a></div>
+      <div><a class="xref" href="H.Common.Interfaces.ISelectable.html">ISelectable</a></div>
+      <div><a class="xref" href="H.Services.Message.Dialog.IDialog.html">IDialog</a></div>
+      <div><a class="xref" href="H.Common.Interfaces.ILayoutable.html">ILayoutable</a></div>
+      <div><a class="xref" href="H.Common.Transitionable.ITransitionHostable.html">ITransitionHostable</a></div>
+      <div><a class="xref" href="H.Services.Message.Dialog.ICancelable.html">ICancelable</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Base.DesignPresenterBase.html#H_Extensions_Mvvm_ViewModels_Base_DesignPresenterBase_IsSelected">DesignPresenterBase.IsSelected</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Base.DesignPresenterBase.html#H_Extensions_Mvvm_ViewModels_Base_DesignPresenterBase_IsMouseOver">DesignPresenterBase.IsMouseOver</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Base.DesignPresenterBase.html#H_Extensions_Mvvm_ViewModels_Base_DesignPresenterBase_Height">DesignPresenterBase.Height</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Base.DesignPresenterBase.html#H_Extensions_Mvvm_ViewModels_Base_DesignPresenterBase_Width">DesignPresenterBase.Width</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Base.DesignPresenterBase.html#H_Extensions_Mvvm_ViewModels_Base_DesignPresenterBase_MinHeight">DesignPresenterBase.MinHeight</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Base.DesignPresenterBase.html#H_Extensions_Mvvm_ViewModels_Base_DesignPresenterBase_MinWidth">DesignPresenterBase.MinWidth</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Base.DesignPresenterBase.html#H_Extensions_Mvvm_ViewModels_Base_DesignPresenterBase_MaxHeight">DesignPresenterBase.MaxHeight</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Base.DesignPresenterBase.html#H_Extensions_Mvvm_ViewModels_Base_DesignPresenterBase_MaxWidth">DesignPresenterBase.MaxWidth</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Base.DesignPresenterBase.html#H_Extensions_Mvvm_ViewModels_Base_DesignPresenterBase_Margin">DesignPresenterBase.Margin</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Base.DesignPresenterBase.html#H_Extensions_Mvvm_ViewModels_Base_DesignPresenterBase_Padding">DesignPresenterBase.Padding</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Base.DesignPresenterBase.html#H_Extensions_Mvvm_ViewModels_Base_DesignPresenterBase_HorizontalAlignment">DesignPresenterBase.HorizontalAlignment</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Base.DesignPresenterBase.html#H_Extensions_Mvvm_ViewModels_Base_DesignPresenterBase_HorizontalContentAlignment">DesignPresenterBase.HorizontalContentAlignment</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Base.DesignPresenterBase.html#H_Extensions_Mvvm_ViewModels_Base_DesignPresenterBase_VerticalAlignment">DesignPresenterBase.VerticalAlignment</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Base.DesignPresenterBase.html#H_Extensions_Mvvm_ViewModels_Base_DesignPresenterBase_VerticalContentAlignment">DesignPresenterBase.VerticalContentAlignment</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Base.DesignPresenterBase.html#H_Extensions_Mvvm_ViewModels_Base_DesignPresenterBase_Background">DesignPresenterBase.Background</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Base.DesignPresenterBase.html#H_Extensions_Mvvm_ViewModels_Base_DesignPresenterBase_BorderBrush">DesignPresenterBase.BorderBrush</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Base.DesignPresenterBase.html#H_Extensions_Mvvm_ViewModels_Base_DesignPresenterBase_BorderThickness">DesignPresenterBase.BorderThickness</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Base.DesignPresenterBase.html#H_Extensions_Mvvm_ViewModels_Base_DesignPresenterBase_Opacity">DesignPresenterBase.Opacity</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Base.DesignPresenterBase.html#H_Extensions_Mvvm_ViewModels_Base_DesignPresenterBase_IsVisible">DesignPresenterBase.IsVisible</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Base.DesignPresenterBase.html#H_Extensions_Mvvm_ViewModels_Base_DesignPresenterBase_IsEnabled">DesignPresenterBase.IsEnabled</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Base.DesignPresenterBase.html#H_Extensions_Mvvm_ViewModels_Base_DesignPresenterBase_Row">DesignPresenterBase.Row</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Base.DesignPresenterBase.html#H_Extensions_Mvvm_ViewModels_Base_DesignPresenterBase_Column">DesignPresenterBase.Column</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Base.DesignPresenterBase.html#H_Extensions_Mvvm_ViewModels_Base_DesignPresenterBase_RowSpan">DesignPresenterBase.RowSpan</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Base.DesignPresenterBase.html#H_Extensions_Mvvm_ViewModels_Base_DesignPresenterBase_ColumnSpan">DesignPresenterBase.ColumnSpan</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Base.DesignPresenterBase.html#H_Extensions_Mvvm_ViewModels_Base_DesignPresenterBase_DeleteCommand">DesignPresenterBase.DeleteCommand</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Base.DesignPresenterBase.html#H_Extensions_Mvvm_ViewModels_Base_DesignPresenterBase_Delete_System_Object_">DesignPresenterBase.Delete(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Base.DisplayBindableBase.html#H_Extensions_Mvvm_ViewModels_Base_DisplayBindableBase_Loaded_System_Object_">DisplayBindableBase.Loaded(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Base.DisplayBindableBase.html#H_Extensions_Mvvm_ViewModels_Base_DisplayBindableBase_ID">DisplayBindableBase.ID</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Base.DisplayBindableBase.html#H_Extensions_Mvvm_ViewModels_Base_DisplayBindableBase_Name">DisplayBindableBase.Name</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Base.DisplayBindableBase.html#H_Extensions_Mvvm_ViewModels_Base_DisplayBindableBase_Icon">DisplayBindableBase.Icon</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Base.DisplayBindableBase.html#H_Extensions_Mvvm_ViewModels_Base_DisplayBindableBase_ShortName">DisplayBindableBase.ShortName</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Base.DisplayBindableBase.html#H_Extensions_Mvvm_ViewModels_Base_DisplayBindableBase_GroupName">DisplayBindableBase.GroupName</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Base.DisplayBindableBase.html#H_Extensions_Mvvm_ViewModels_Base_DisplayBindableBase_Description">DisplayBindableBase.Description</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Base.DisplayBindableBase.html#H_Extensions_Mvvm_ViewModels_Base_DisplayBindableBase_Order">DisplayBindableBase.Order</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Base.DisplayBindableBase.html#H_Extensions_Mvvm_ViewModels_Base_DisplayBindableBase_LoadDefaultCommand">DisplayBindableBase.LoadDefaultCommand</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Base.DisplayBindableBase.html#H_Extensions_Mvvm_ViewModels_Base_DisplayBindableBase_LoadDefault">DisplayBindableBase.LoadDefault()</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Base.CommandsBindableBase.html#H_Extensions_Mvvm_ViewModels_Base_CommandsBindableBase_Commands">CommandsBindableBase.Commands</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Extensions.Mvvm.ViewModels.Base.CommandsBindableBase.html#H_Extensions_Mvvm_ViewModels_Base_CommandsBindableBase_CreateCommands">CommandsBindableBase.CreateCommands()</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Mvvm.ViewModels.Base.Bindable.html#H_Mvvm_ViewModels_Base_Bindable_RelayCommand">Bindable.RelayCommand</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Mvvm.ViewModels.Base.Bindable.html#H_Mvvm_ViewModels_Base_Bindable_LoadedCommand">Bindable.LoadedCommand</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Mvvm.ViewModels.Base.Bindable.html#H_Mvvm_ViewModels_Base_Bindable_CallMethodCommand">Bindable.CallMethodCommand</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Mvvm.ViewModels.Base.Bindable.html#H_Mvvm_ViewModels_Base_Bindable_RelayMethod_System_Object_">Bindable.RelayMethod(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Mvvm.ViewModels.Base.Bindable.html#H_Mvvm_ViewModels_Base_Bindable_GetTargetElement__1">Bindable.GetTargetElement&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Mvvm.ViewModels.Base.Bindable.html#H_Mvvm_ViewModels_Base_Bindable_IsLoaded">Bindable.IsLoaded</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Mvvm.ViewModels.Base.Bindable.html#H_Mvvm_ViewModels_Base_Bindable_CallMethod_System_Object_">Bindable.CallMethod(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Mvvm.ViewModels.Base.BindableBase.html#H_Mvvm_ViewModels_Base_BindableBase_Init">BindableBase.Init()</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Mvvm.ViewModels.Base.BindableBase.html#H_Mvvm_ViewModels_Base_BindableBase_PropertyChanged">BindableBase.PropertyChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="H.Mvvm.ViewModels.Base.BindableBase.html#H_Mvvm_ViewModels_Base_BindableBase_RaisePropertyChanged_System_String_">BindableBase.RaisePropertyChanged(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="H.Common.Interfaces.LayoutableExtension.html#H_Common_Interfaces_LayoutableExtension_CopyTo_H_Common_Interfaces_ILayoutable_H_Common_Interfaces_ILayoutable_">LayoutableExtension.CopyTo(ILayoutable, ILayoutable)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Modules.Messages.Dialog.LayoutableExtension.html#H_Modules_Messages_Dialog_LayoutableExtension_CopyFrom_H_Common_Interfaces_ILayoutable_H_Common_Interfaces_IDesignPresenter_">LayoutableExtension.CopyFrom(ILayoutable, IDesignPresenter)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Common.Transitionable.TransitionHostableExtensions.html#H_Common_Transitionable_TransitionHostableExtensions_Close_H_Common_Transitionable_ITransitionHostable_System_Windows_UIElement_">TransitionHostableExtensions.Close(ITransitionHostable, UIElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Common.Transitionable.TransitionHostableExtensions.html#H_Common_Transitionable_TransitionHostableExtensions_Show_H_Common_Transitionable_ITransitionHostable_System_Windows_UIElement_">TransitionHostableExtensions.Show(ITransitionHostable, UIElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_CloneCast__1___0_System_Predicate_System_Reflection_PropertyInfo__">ObjectExtension.CloneCast&lt;T&gt;(T, Predicate&lt;PropertyInfo&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_ToEnumerable__1___0_">ObjectExtension.ToEnumerable&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.NewtonsoftJson.NewtonsoftJsonSerializerServiceExtension.html#H_Extensions_NewtonsoftJson_NewtonsoftJsonSerializerServiceExtension_CloneByNewtonsoftJson__1___0_">NewtonsoftJsonSerializerServiceExtension.CloneByNewtonsoftJson&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.VisionMaster.ResultPresenter.ResultPresenterExtension.html#H_VisionMaster_ResultPresenter_ResultPresenterExtension_ToValueResultPresenter__1___0_">ResultPresenterExtension.ToValueResultPresenter&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Services.Message.DialogExtension.html#H_Services_Message_DialogExtension_Cancel_H_Services_Message_Dialog_IDialog_">DialogExtension.Cancel(IDialog)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Services.Message.DialogExtension.html#H_Services_Message_DialogExtension_Close_H_Services_Message_Dialog_IDialog_">DialogExtension.Close(IDialog)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Services.Message.DialogExtension.html#H_Services_Message_DialogExtension_Error_H_Services_Message_Dialog_IDialog_">DialogExtension.Error(IDialog)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Services.Message.DialogExtension.html#H_Services_Message_DialogExtension_Success_H_Services_Message_Dialog_IDialog_">DialogExtension.Success(IDialog)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Services.Message.DialogExtension.html#H_Services_Message_DialogExtension_Sumit_H_Services_Message_Dialog_IDialog_">DialogExtension.Sumit(IDialog)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Controls.FilterColumnDataGrid.Extensions.html#H_Controls_FilterColumnDataGrid_Extensions_GetPropertyValue_System_Object_System_String_">Extensions.GetPropertyValue(object, string)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Controls.FilterColumnDataGrid.Extensions.html#H_Controls_FilterColumnDataGrid_Extensions_GetPropertyValue__1_System_Object_System_String_">Extensions.GetPropertyValue&lt;T&gt;(object, string)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Controls.Form.Provider.PropertyInfoExtention.html#H_Controls_Form_Provider_PropertyInfoExtention_ChangeType__1_System_Object_">PropertyInfoExtention.ChangeType&lt;T&gt;(object)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_CloneBy_System_Object_System_Predicate_System_Reflection_PropertyInfo__">ObjectExtension.CloneBy(object, Predicate&lt;PropertyInfo&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_CopyPropertyValueFrom_System_Object_System_Object_System_Predicate_System_Reflection_PropertyInfo__System_Func_System_Reflection_PropertyInfo_System_Reflection_PropertyInfo_System_Boolean__">ObjectExtension.CopyPropertyValueFrom(object, object, Predicate&lt;PropertyInfo&gt;, Func&lt;PropertyInfo, PropertyInfo, bool&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_IsMacth_System_Object_System_Func_System_Reflection_PropertyInfo_System_Object_System_Boolean__">ObjectExtension.IsMacth(object, Func&lt;PropertyInfo, object, bool&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_IsMacth_System_Object_System_String_">ObjectExtension.IsMacth(object, string)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_ModelState_System_Object_System_Collections_Generic_List_System_String___">ObjectExtension.ModelState(object, out List&lt;string&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_ModelStateDeep_System_Object_System_String__">ObjectExtension.ModelStateDeep(object, out string)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_TryChangeType_System_Object_System_Type_System_Object__">ObjectExtension.TryChangeType(object, Type, out object)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_TryChangeType__1_System_Object_">ObjectExtension.TryChangeType&lt;T&gt;(object)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_TryChangeType__1_System_Object___0__">ObjectExtension.TryChangeType&lt;T&gt;(object, out T)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_TryConvertToString_System_Object_">ObjectExtension.TryConvertToString(object)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_TryConvertToString_System_Object_System_String__">ObjectExtension.TryConvertToString(object, out string)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.TextJsonable.TextJsonableExtensions.html#H_Extensions_TextJsonable_TextJsonableExtensions_GetJsonPropertyInfos_System_Object_">TextJsonableExtensions.GetJsonPropertyInfos(object)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.TextJsonable.TextJsonableExtensions.html#H_Extensions_TextJsonable_TextJsonableExtensions_WriteJson_System_Object_System_Text_Json_Utf8JsonWriter_System_Text_Json_JsonSerializerOptions_System_Boolean_">TextJsonableExtensions.WriteJson(object, Utf8JsonWriter, JsonSerializerOptions, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.TextJsonable.TextJsonableExtensions.html#H_Extensions_TextJsonable_TextJsonableExtensions_WriteType_System_Object_System_Text_Json_Utf8JsonWriter_">TextJsonableExtensions.WriteType(object, Utf8JsonWriter)</a>
+  </div>
+  <div>
+      <a class="xref" href="System.Windows.Threading.DispatcherExtension.html#System_Windows_Threading_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_">DispatcherExtension.DelayInvoke(object, Action, DispatcherPriority)</a>
+  </div>
+  <div>
+      <a class="xref" href="System.Windows.Threading.DispatcherExtension.html#System_Windows_Threading_DispatcherExtension_DelayInvoke_System_Object_System_Collections_IList_System_Action_System_Object__System_Action_System_Windows_Threading_DispatcherPriority_">DispatcherExtension.DelayInvoke(object, IList, Action&lt;object&gt;, Action, DispatcherPriority)</a>
+  </div>
+  <div>
+      <a class="xref" href="System.Windows.Threading.DispatcherExtension.html#System_Windows_Threading_DispatcherExtension_DelayInvoke_System_Object_System_Collections_IList_System_Func_System_Collections_IList__System_Action_System_Windows_Threading_DispatcherPriority_">DispatcherExtension.DelayInvoke(object, IList, Func&lt;IList&gt;, Action, DispatcherPriority)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="H_Modules_Messages_Dialog_AdornerDialogPresenter__ctor_" data-uid="H.Modules.Messages.Dialog.AdornerDialogPresenter.#ctor*"></a>
+
+  <h3 id="H_Modules_Messages_Dialog_AdornerDialogPresenter__ctor_System_Object_" data-uid="H.Modules.Messages.Dialog.AdornerDialogPresenter.#ctor(System.Object)">
+  AdornerDialogPresenter(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AdornerDialogPresenter(object presenter)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>presenter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="H_Modules_Messages_Dialog_AdornerDialogPresenter_CanSumit_" data-uid="H.Modules.Messages.Dialog.AdornerDialogPresenter.CanSumit*"></a>
+
+  <h3 id="H_Modules_Messages_Dialog_AdornerDialogPresenter_CanSumit" data-uid="H.Modules.Messages.Dialog.AdornerDialogPresenter.CanSumit">
+  CanSumit
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Func&lt;Task&lt;bool&gt;&gt; CanSumit { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Modules_Messages_Dialog_AdornerDialogPresenter_DialogButton_" data-uid="H.Modules.Messages.Dialog.AdornerDialogPresenter.DialogButton*"></a>
+
+  <h3 id="H_Modules_Messages_Dialog_AdornerDialogPresenter_DialogButton" data-uid="H.Modules.Messages.Dialog.AdornerDialogPresenter.DialogButton">
+  DialogButton
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DialogButton DialogButton { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Services.Message.Dialog.DialogButton.html">DialogButton</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Modules_Messages_Dialog_AdornerDialogPresenter_DialogResult_" data-uid="H.Modules.Messages.Dialog.AdornerDialogPresenter.DialogResult*"></a>
+
+  <h3 id="H_Modules_Messages_Dialog_AdornerDialogPresenter_DialogResult" data-uid="H.Modules.Messages.Dialog.AdornerDialogPresenter.DialogResult">
+  DialogResult
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool? DialogResult { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Modules_Messages_Dialog_AdornerDialogPresenter_IsCancel_" data-uid="H.Modules.Messages.Dialog.AdornerDialogPresenter.IsCancel*"></a>
+
+  <h3 id="H_Modules_Messages_Dialog_AdornerDialogPresenter_IsCancel" data-uid="H.Modules.Messages.Dialog.AdornerDialogPresenter.IsCancel">
+  IsCancel
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsCancel { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Modules_Messages_Dialog_AdornerDialogPresenter_Owner_" data-uid="H.Modules.Messages.Dialog.AdornerDialogPresenter.Owner*"></a>
+
+  <h3 id="H_Modules_Messages_Dialog_AdornerDialogPresenter_Owner" data-uid="H.Modules.Messages.Dialog.AdornerDialogPresenter.Owner">
+  Owner
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Window Owner { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.window">Window</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Modules_Messages_Dialog_AdornerDialogPresenter_Presenter_" data-uid="H.Modules.Messages.Dialog.AdornerDialogPresenter.Presenter*"></a>
+
+  <h3 id="H_Modules_Messages_Dialog_AdornerDialogPresenter_Presenter" data-uid="H.Modules.Messages.Dialog.AdornerDialogPresenter.Presenter">
+  Presenter
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object Presenter { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Modules_Messages_Dialog_AdornerDialogPresenter_PresenterTemplate_" data-uid="H.Modules.Messages.Dialog.AdornerDialogPresenter.PresenterTemplate*"></a>
+
+  <h3 id="H_Modules_Messages_Dialog_AdornerDialogPresenter_PresenterTemplate" data-uid="H.Modules.Messages.Dialog.AdornerDialogPresenter.PresenterTemplate">
+  PresenterTemplate
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DataTemplate PresenterTemplate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.datatemplate">DataTemplate</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Modules_Messages_Dialog_AdornerDialogPresenter_Title_" data-uid="H.Modules.Messages.Dialog.AdornerDialogPresenter.Title*"></a>
+
+  <h3 id="H_Modules_Messages_Dialog_AdornerDialogPresenter_Title" data-uid="H.Modules.Messages.Dialog.AdornerDialogPresenter.Title">
+  Title
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Title { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Modules_Messages_Dialog_AdornerDialogPresenter_Transitionable_" data-uid="H.Modules.Messages.Dialog.AdornerDialogPresenter.Transitionable*"></a>
+
+  <h3 id="H_Modules_Messages_Dialog_AdornerDialogPresenter_Transitionable" data-uid="H.Modules.Messages.Dialog.AdornerDialogPresenter.Transitionable">
+  Transitionable
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITransitionable Transitionable { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Common.Transitionable.ITransitionable.html">ITransitionable</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="H_Modules_Messages_Dialog_AdornerDialogPresenter_Cancel_" data-uid="H.Modules.Messages.Dialog.AdornerDialogPresenter.Cancel*"></a>
+
+  <h3 id="H_Modules_Messages_Dialog_AdornerDialogPresenter_Cancel" data-uid="H.Modules.Messages.Dialog.AdornerDialogPresenter.Cancel">
+  Cancel()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Cancel()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Modules_Messages_Dialog_AdornerDialogPresenter_Close_" data-uid="H.Modules.Messages.Dialog.AdornerDialogPresenter.Close*"></a>
+
+  <h3 id="H_Modules_Messages_Dialog_AdornerDialogPresenter_Close" data-uid="H.Modules.Messages.Dialog.AdornerDialogPresenter.Close">
+  Close()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Close()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Modules_Messages_Dialog_AdornerDialogPresenter_ShowDialog_" data-uid="H.Modules.Messages.Dialog.AdornerDialogPresenter.ShowDialog*"></a>
+
+  <h3 id="H_Modules_Messages_Dialog_AdornerDialogPresenter_ShowDialog_System_Windows_UIElement_" data-uid="H.Modules.Messages.Dialog.AdornerDialogPresenter.ShowDialog(System.Windows.UIElement)">
+  ShowDialog(UIElement)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;bool?&gt; ShowDialog(UIElement owner = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>owner</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.uielement">UIElement</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Modules_Messages_Dialog_AdornerDialogPresenter_Sumit_" data-uid="H.Modules.Messages.Dialog.AdornerDialogPresenter.Sumit*"></a>
+
+  <h3 id="H_Modules_Messages_Dialog_AdornerDialogPresenter_Sumit" data-uid="H.Modules.Messages.Dialog.AdornerDialogPresenter.Sumit">
+  Sumit()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Sumit()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Modules_Messages_Dialog_AdornerDialogPresenter_TransactionClose_" data-uid="H.Modules.Messages.Dialog.AdornerDialogPresenter.TransactionClose*"></a>
+
+  <h3 id="H_Modules_Messages_Dialog_AdornerDialogPresenter_TransactionClose_H_Controls_Adorner_Adorner_PresenterAdorner_" data-uid="H.Modules.Messages.Dialog.AdornerDialogPresenter.TransactionClose(H.Controls.Adorner.Adorner.PresenterAdorner)">
+  TransactionClose(PresenterAdorner)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual Task TransactionClose(PresenterAdorner presenterAdorner)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>presenterAdorner</code> <a class="xref" href="H.Controls.Adorner.Adorner.PresenterAdorner.html">PresenterAdorner</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Modules_Messages_Dialog_AdornerDialogPresenter_TransactionShow_" data-uid="H.Modules.Messages.Dialog.AdornerDialogPresenter.TransactionShow*"></a>
+
+  <h3 id="H_Modules_Messages_Dialog_AdornerDialogPresenter_TransactionShow_H_Controls_Adorner_Adorner_PresenterAdorner_" data-uid="H.Modules.Messages.Dialog.AdornerDialogPresenter.TransactionShow(H.Controls.Adorner.Adorner.PresenterAdorner)">
+  TransactionShow(PresenterAdorner)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual Task TransactionShow(PresenterAdorner presenterAdorner)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>presenterAdorner</code> <a class="xref" href="H.Controls.Adorner.Adorner.PresenterAdorner.html">PresenterAdorner</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

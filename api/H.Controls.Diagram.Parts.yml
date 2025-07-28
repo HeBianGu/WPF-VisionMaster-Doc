@@ -1,0 +1,117 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.Diagram.Parts
+  commentId: N:H.Controls.Diagram.Parts
+  id: H.Controls.Diagram.Parts
+  children:
+  - H.Controls.Diagram.Parts.ILink
+  - H.Controls.Diagram.Parts.INode
+  - H.Controls.Diagram.Parts.ITreeNode
+  - H.Controls.Diagram.Parts.Link
+  - H.Controls.Diagram.Parts.Node
+  - H.Controls.Diagram.Parts.Port
+  - H.Controls.Diagram.Parts.SpaceTreeNode
+  - H.Controls.Diagram.Parts.TreeNode
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.Diagram.Parts
+  nameWithType: H.Controls.Diagram.Parts
+  fullName: H.Controls.Diagram.Parts
+  type: Namespace
+  assemblies:
+  - H.Controls.Diagram
+references:
+- uid: H.Controls.Diagram.Parts.ILink
+  commentId: T:H.Controls.Diagram.Parts.ILink
+  parent: H.Controls.Diagram.Parts
+  href: H.Controls.Diagram.Parts.ILink.html
+  name: ILink
+  nameWithType: ILink
+  fullName: H.Controls.Diagram.Parts.ILink
+- uid: H.Controls.Diagram.Parts.Link
+  commentId: T:H.Controls.Diagram.Parts.Link
+  parent: H.Controls.Diagram.Parts
+  href: H.Controls.Diagram.Parts.Link.html
+  name: Link
+  nameWithType: Link
+  fullName: H.Controls.Diagram.Parts.Link
+- uid: H.Controls.Diagram.Parts.INode
+  commentId: T:H.Controls.Diagram.Parts.INode
+  parent: H.Controls.Diagram.Parts
+  href: H.Controls.Diagram.Parts.INode.html
+  name: INode
+  nameWithType: INode
+  fullName: H.Controls.Diagram.Parts.INode
+- uid: H.Controls.Diagram.Parts.Node
+  commentId: T:H.Controls.Diagram.Parts.Node
+  parent: H.Controls.Diagram.Parts
+  href: H.Controls.Diagram.Parts.Node.html
+  name: Node
+  nameWithType: Node
+  fullName: H.Controls.Diagram.Parts.Node
+- uid: H.Controls.Diagram.Parts.Port
+  commentId: T:H.Controls.Diagram.Parts.Port
+  parent: H.Controls.Diagram.Parts
+  href: H.Controls.Diagram.Parts.Port.html
+  name: Port
+  nameWithType: Port
+  fullName: H.Controls.Diagram.Parts.Port
+- uid: H.Controls.Diagram.Parts.ITreeNode
+  commentId: T:H.Controls.Diagram.Parts.ITreeNode
+  parent: H.Controls.Diagram.Parts
+  href: H.Controls.Diagram.Parts.ITreeNode.html
+  name: ITreeNode
+  nameWithType: ITreeNode
+  fullName: H.Controls.Diagram.Parts.ITreeNode
+- uid: H.Controls.Diagram.Parts.TreeNode
+  commentId: T:H.Controls.Diagram.Parts.TreeNode
+  parent: H.Controls.Diagram.Parts
+  href: H.Controls.Diagram.Parts.TreeNode.html
+  name: TreeNode
+  nameWithType: TreeNode
+  fullName: H.Controls.Diagram.Parts.TreeNode
+- uid: H.Controls.Diagram.Parts.SpaceTreeNode
+  commentId: T:H.Controls.Diagram.Parts.SpaceTreeNode
+  href: H.Controls.Diagram.Parts.SpaceTreeNode.html
+  name: SpaceTreeNode
+  nameWithType: SpaceTreeNode
+  fullName: H.Controls.Diagram.Parts.SpaceTreeNode
+- uid: H.Controls.Diagram.Parts
+  commentId: N:H.Controls.Diagram.Parts
+  href: H.html
+  name: H.Controls.Diagram.Parts
+  nameWithType: H.Controls.Diagram.Parts
+  fullName: H.Controls.Diagram.Parts
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Parts
+    name: Parts
+    href: H.Controls.Diagram.Parts.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Parts
+    name: Parts
+    href: H.Controls.Diagram.Parts.html

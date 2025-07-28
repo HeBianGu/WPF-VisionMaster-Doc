@@ -1,0 +1,1656 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.VisionMaster.OpenCV.MatExtension
+  commentId: T:H.VisionMaster.OpenCV.MatExtension
+  id: MatExtension
+  parent: H.VisionMaster.OpenCV
+  children:
+  - H.VisionMaster.OpenCV.MatExtension.DrawCircle(OpenCvSharp.Mat,OpenCvSharp.Point,System.Int32,System.Windows.Media.Color,System.Int32)
+  - H.VisionMaster.OpenCV.MatExtension.DrawRectangle(OpenCvSharp.Mat,OpenCvSharp.Rect,System.Windows.Media.Color,System.Int32)
+  - H.VisionMaster.OpenCV.MatExtension.GetHSVRange(System.Windows.Media.Color,System.Int32,System.Int32,System.Int32)
+  - H.VisionMaster.OpenCV.MatExtension.IsValid(OpenCvSharp.Mat)
+  - H.VisionMaster.OpenCV.MatExtension.ToCVRect(System.Windows.Rect)
+  - H.VisionMaster.OpenCV.MatExtension.ToDetectSuccessMessage(System.Int32)
+  - H.VisionMaster.OpenCV.MatExtension.ToImageSource(OpenCvSharp.Mat)
+  - H.VisionMaster.OpenCV.MatExtension.ToResultPresenter(OpenCvSharp.Rect,System.String)
+  - H.VisionMaster.OpenCV.MatExtension.ToResultPresenter(System.Collections.Generic.IEnumerable{OpenCvSharp.ConnectedComponents.Blob})
+  - H.VisionMaster.OpenCV.MatExtension.ToResultPresenter(System.Collections.Generic.IEnumerable{OpenCvSharp.KeyPoint})
+  - H.VisionMaster.OpenCV.MatExtension.ToResultPresenter(System.Collections.Generic.IEnumerable{OpenCvSharp.LineSegmentPoint},System.String)
+  - H.VisionMaster.OpenCV.MatExtension.ToResultPresenter(System.Collections.Generic.IEnumerable{OpenCvSharp.Point2f},System.String)
+  - H.VisionMaster.OpenCV.MatExtension.ToResultPresenter(System.Collections.Generic.IEnumerable{OpenCvSharp.Point},System.String)
+  - H.VisionMaster.OpenCV.MatExtension.ToResultPresenter(System.Collections.Generic.IEnumerable{OpenCvSharp.Rect},System.String)
+  - H.VisionMaster.OpenCV.MatExtension.ToThickness(OpenCvSharp.Mat)
+  - H.VisionMaster.OpenCV.MatExtension.ToWindowRect(OpenCvSharp.KeyPoint)
+  - H.VisionMaster.OpenCV.MatExtension.ToWindowRect(OpenCvSharp.Rect)
+  - H.VisionMaster.OpenCV.MatExtension.ToWindowRect(OpenCvSharp.Rect2d)
+  - H.VisionMaster.OpenCV.MatExtension.ToWindowRect(System.Collections.Generic.IEnumerable{OpenCvSharp.Point2f})
+  - H.VisionMaster.OpenCV.MatExtension.ToWindowRect(System.Collections.Generic.IEnumerable{OpenCvSharp.Point})
+  langs:
+  - csharp
+  - vb
+  name: MatExtension
+  nameWithType: MatExtension
+  fullName: H.VisionMaster.OpenCV.MatExtension
+  type: Class
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.OpenCV/OpenvCVExtension.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: MatExtension
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.OpenCV/OpenvCVExtension.cs
+    startLine: 14
+  assemblies:
+  - H.VisionMaster.OpenCV
+  namespace: H.VisionMaster.OpenCV
+  syntax:
+    content: public static class MatExtension
+    content.vb: Public Module MatExtension
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: H.VisionMaster.OpenCV.MatExtension.DrawRectangle(OpenCvSharp.Mat,OpenCvSharp.Rect,System.Windows.Media.Color,System.Int32)
+  commentId: M:H.VisionMaster.OpenCV.MatExtension.DrawRectangle(OpenCvSharp.Mat,OpenCvSharp.Rect,System.Windows.Media.Color,System.Int32)
+  id: DrawRectangle(OpenCvSharp.Mat,OpenCvSharp.Rect,System.Windows.Media.Color,System.Int32)
+  isExtensionMethod: true
+  parent: H.VisionMaster.OpenCV.MatExtension
+  langs:
+  - csharp
+  - vb
+  name: DrawRectangle(Mat, Rect, Color, int)
+  nameWithType: MatExtension.DrawRectangle(Mat, Rect, Color, int)
+  fullName: H.VisionMaster.OpenCV.MatExtension.DrawRectangle(OpenCvSharp.Mat, OpenCvSharp.Rect, System.Windows.Media.Color, int)
+  type: Method
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.OpenCV/OpenvCVExtension.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: DrawRectangle
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.OpenCV/OpenvCVExtension.cs
+    startLine: 16
+  assemblies:
+  - H.VisionMaster.OpenCV
+  namespace: H.VisionMaster.OpenCV
+  syntax:
+    content: public static void DrawRectangle(this Mat image, Rect box, Color boxColor, int boxThickness = 1)
+    parameters:
+    - id: image
+      type: OpenCvSharp.Mat
+    - id: box
+      type: OpenCvSharp.Rect
+    - id: boxColor
+      type: System.Windows.Media.Color
+    - id: boxThickness
+      type: System.Int32
+    content.vb: Public Shared Sub DrawRectangle(image As Mat, box As Rect, boxColor As Color, boxThickness As Integer = 1)
+  overload: H.VisionMaster.OpenCV.MatExtension.DrawRectangle*
+  nameWithType.vb: MatExtension.DrawRectangle(Mat, Rect, Color, Integer)
+  fullName.vb: H.VisionMaster.OpenCV.MatExtension.DrawRectangle(OpenCvSharp.Mat, OpenCvSharp.Rect, System.Windows.Media.Color, Integer)
+  name.vb: DrawRectangle(Mat, Rect, Color, Integer)
+- uid: H.VisionMaster.OpenCV.MatExtension.DrawCircle(OpenCvSharp.Mat,OpenCvSharp.Point,System.Int32,System.Windows.Media.Color,System.Int32)
+  commentId: M:H.VisionMaster.OpenCV.MatExtension.DrawCircle(OpenCvSharp.Mat,OpenCvSharp.Point,System.Int32,System.Windows.Media.Color,System.Int32)
+  id: DrawCircle(OpenCvSharp.Mat,OpenCvSharp.Point,System.Int32,System.Windows.Media.Color,System.Int32)
+  isExtensionMethod: true
+  parent: H.VisionMaster.OpenCV.MatExtension
+  langs:
+  - csharp
+  - vb
+  name: DrawCircle(Mat, Point, int, Color, int)
+  nameWithType: MatExtension.DrawCircle(Mat, Point, int, Color, int)
+  fullName: H.VisionMaster.OpenCV.MatExtension.DrawCircle(OpenCvSharp.Mat, OpenCvSharp.Point, int, System.Windows.Media.Color, int)
+  type: Method
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.OpenCV/OpenvCVExtension.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: DrawCircle
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.OpenCV/OpenvCVExtension.cs
+    startLine: 21
+  assemblies:
+  - H.VisionMaster.OpenCV
+  namespace: H.VisionMaster.OpenCV
+  syntax:
+    content: public static void DrawCircle(this Mat image, Point point, int radius, Color color, int thickness = 1)
+    parameters:
+    - id: image
+      type: OpenCvSharp.Mat
+    - id: point
+      type: OpenCvSharp.Point
+    - id: radius
+      type: System.Int32
+    - id: color
+      type: System.Windows.Media.Color
+    - id: thickness
+      type: System.Int32
+    content.vb: Public Shared Sub DrawCircle(image As Mat, point As Point, radius As Integer, color As Color, thickness As Integer = 1)
+  overload: H.VisionMaster.OpenCV.MatExtension.DrawCircle*
+  nameWithType.vb: MatExtension.DrawCircle(Mat, Point, Integer, Color, Integer)
+  fullName.vb: H.VisionMaster.OpenCV.MatExtension.DrawCircle(OpenCvSharp.Mat, OpenCvSharp.Point, Integer, System.Windows.Media.Color, Integer)
+  name.vb: DrawCircle(Mat, Point, Integer, Color, Integer)
+- uid: H.VisionMaster.OpenCV.MatExtension.ToThickness(OpenCvSharp.Mat)
+  commentId: M:H.VisionMaster.OpenCV.MatExtension.ToThickness(OpenCvSharp.Mat)
+  id: ToThickness(OpenCvSharp.Mat)
+  isExtensionMethod: true
+  parent: H.VisionMaster.OpenCV.MatExtension
+  langs:
+  - csharp
+  - vb
+  name: ToThickness(Mat)
+  nameWithType: MatExtension.ToThickness(Mat)
+  fullName: H.VisionMaster.OpenCV.MatExtension.ToThickness(OpenCvSharp.Mat)
+  type: Method
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.OpenCV/OpenvCVExtension.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: ToThickness
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.OpenCV/OpenvCVExtension.cs
+    startLine: 26
+  assemblies:
+  - H.VisionMaster.OpenCV
+  namespace: H.VisionMaster.OpenCV
+  syntax:
+    content: public static int ToThickness(this Mat image)
+    parameters:
+    - id: image
+      type: OpenCvSharp.Mat
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function ToThickness(image As Mat) As Integer
+  overload: H.VisionMaster.OpenCV.MatExtension.ToThickness*
+- uid: H.VisionMaster.OpenCV.MatExtension.ToWindowRect(OpenCvSharp.Rect2d)
+  commentId: M:H.VisionMaster.OpenCV.MatExtension.ToWindowRect(OpenCvSharp.Rect2d)
+  id: ToWindowRect(OpenCvSharp.Rect2d)
+  isExtensionMethod: true
+  parent: H.VisionMaster.OpenCV.MatExtension
+  langs:
+  - csharp
+  - vb
+  name: ToWindowRect(Rect2d)
+  nameWithType: MatExtension.ToWindowRect(Rect2d)
+  fullName: H.VisionMaster.OpenCV.MatExtension.ToWindowRect(OpenCvSharp.Rect2d)
+  type: Method
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.OpenCV/OpenvCVExtension.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: ToWindowRect
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.OpenCV/OpenvCVExtension.cs
+    startLine: 35
+  assemblies:
+  - H.VisionMaster.OpenCV
+  namespace: H.VisionMaster.OpenCV
+  syntax:
+    content: public static Rect ToWindowRect(this Rect2d rect)
+    parameters:
+    - id: rect
+      type: OpenCvSharp.Rect2d
+    return:
+      type: System.Windows.Rect
+    content.vb: Public Shared Function ToWindowRect(rect As Rect2d) As Rect
+  overload: H.VisionMaster.OpenCV.MatExtension.ToWindowRect*
+- uid: H.VisionMaster.OpenCV.MatExtension.ToWindowRect(OpenCvSharp.Rect)
+  commentId: M:H.VisionMaster.OpenCV.MatExtension.ToWindowRect(OpenCvSharp.Rect)
+  id: ToWindowRect(OpenCvSharp.Rect)
+  isExtensionMethod: true
+  parent: H.VisionMaster.OpenCV.MatExtension
+  langs:
+  - csharp
+  - vb
+  name: ToWindowRect(Rect)
+  nameWithType: MatExtension.ToWindowRect(Rect)
+  fullName: H.VisionMaster.OpenCV.MatExtension.ToWindowRect(OpenCvSharp.Rect)
+  type: Method
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.OpenCV/OpenvCVExtension.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: ToWindowRect
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.OpenCV/OpenvCVExtension.cs
+    startLine: 40
+  assemblies:
+  - H.VisionMaster.OpenCV
+  namespace: H.VisionMaster.OpenCV
+  syntax:
+    content: public static Rect ToWindowRect(this Rect rect)
+    parameters:
+    - id: rect
+      type: OpenCvSharp.Rect
+    return:
+      type: System.Windows.Rect
+    content.vb: Public Shared Function ToWindowRect(rect As Rect) As Rect
+  overload: H.VisionMaster.OpenCV.MatExtension.ToWindowRect*
+- uid: H.VisionMaster.OpenCV.MatExtension.ToCVRect(System.Windows.Rect)
+  commentId: M:H.VisionMaster.OpenCV.MatExtension.ToCVRect(System.Windows.Rect)
+  id: ToCVRect(System.Windows.Rect)
+  isExtensionMethod: true
+  parent: H.VisionMaster.OpenCV.MatExtension
+  langs:
+  - csharp
+  - vb
+  name: ToCVRect(Rect)
+  nameWithType: MatExtension.ToCVRect(Rect)
+  fullName: H.VisionMaster.OpenCV.MatExtension.ToCVRect(System.Windows.Rect)
+  type: Method
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.OpenCV/OpenvCVExtension.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: ToCVRect
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.OpenCV/OpenvCVExtension.cs
+    startLine: 45
+  assemblies:
+  - H.VisionMaster.OpenCV
+  namespace: H.VisionMaster.OpenCV
+  syntax:
+    content: public static Rect ToCVRect(this Rect rect)
+    parameters:
+    - id: rect
+      type: System.Windows.Rect
+    return:
+      type: OpenCvSharp.Rect
+    content.vb: Public Shared Function ToCVRect(rect As Rect) As Rect
+  overload: H.VisionMaster.OpenCV.MatExtension.ToCVRect*
+- uid: H.VisionMaster.OpenCV.MatExtension.ToWindowRect(OpenCvSharp.KeyPoint)
+  commentId: M:H.VisionMaster.OpenCV.MatExtension.ToWindowRect(OpenCvSharp.KeyPoint)
+  id: ToWindowRect(OpenCvSharp.KeyPoint)
+  isExtensionMethod: true
+  parent: H.VisionMaster.OpenCV.MatExtension
+  langs:
+  - csharp
+  - vb
+  name: ToWindowRect(KeyPoint)
+  nameWithType: MatExtension.ToWindowRect(KeyPoint)
+  fullName: H.VisionMaster.OpenCV.MatExtension.ToWindowRect(OpenCvSharp.KeyPoint)
+  type: Method
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.OpenCV/OpenvCVExtension.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: ToWindowRect
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.OpenCV/OpenvCVExtension.cs
+    startLine: 50
+  assemblies:
+  - H.VisionMaster.OpenCV
+  namespace: H.VisionMaster.OpenCV
+  syntax:
+    content: public static Rect ToWindowRect(this KeyPoint keyPoint)
+    parameters:
+    - id: keyPoint
+      type: OpenCvSharp.KeyPoint
+    return:
+      type: System.Windows.Rect
+    content.vb: Public Shared Function ToWindowRect(keyPoint As KeyPoint) As Rect
+  overload: H.VisionMaster.OpenCV.MatExtension.ToWindowRect*
+- uid: H.VisionMaster.OpenCV.MatExtension.ToWindowRect(System.Collections.Generic.IEnumerable{OpenCvSharp.Point2f})
+  commentId: M:H.VisionMaster.OpenCV.MatExtension.ToWindowRect(System.Collections.Generic.IEnumerable{OpenCvSharp.Point2f})
+  id: ToWindowRect(System.Collections.Generic.IEnumerable{OpenCvSharp.Point2f})
+  isExtensionMethod: true
+  parent: H.VisionMaster.OpenCV.MatExtension
+  langs:
+  - csharp
+  - vb
+  name: ToWindowRect(IEnumerable<Point2f>)
+  nameWithType: MatExtension.ToWindowRect(IEnumerable<Point2f>)
+  fullName: H.VisionMaster.OpenCV.MatExtension.ToWindowRect(System.Collections.Generic.IEnumerable<OpenCvSharp.Point2f>)
+  type: Method
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.OpenCV/OpenvCVExtension.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: ToWindowRect
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.OpenCV/OpenvCVExtension.cs
+    startLine: 55
+  assemblies:
+  - H.VisionMaster.OpenCV
+  namespace: H.VisionMaster.OpenCV
+  syntax:
+    content: public static Rect ToWindowRect(this IEnumerable<Point2f> points)
+    parameters:
+    - id: points
+      type: System.Collections.Generic.IEnumerable{OpenCvSharp.Point2f}
+    return:
+      type: System.Windows.Rect
+    content.vb: Public Shared Function ToWindowRect(points As IEnumerable(Of Point2f)) As Rect
+  overload: H.VisionMaster.OpenCV.MatExtension.ToWindowRect*
+  nameWithType.vb: MatExtension.ToWindowRect(IEnumerable(Of Point2f))
+  fullName.vb: H.VisionMaster.OpenCV.MatExtension.ToWindowRect(System.Collections.Generic.IEnumerable(Of OpenCvSharp.Point2f))
+  name.vb: ToWindowRect(IEnumerable(Of Point2f))
+- uid: H.VisionMaster.OpenCV.MatExtension.ToWindowRect(System.Collections.Generic.IEnumerable{OpenCvSharp.Point})
+  commentId: M:H.VisionMaster.OpenCV.MatExtension.ToWindowRect(System.Collections.Generic.IEnumerable{OpenCvSharp.Point})
+  id: ToWindowRect(System.Collections.Generic.IEnumerable{OpenCvSharp.Point})
+  isExtensionMethod: true
+  parent: H.VisionMaster.OpenCV.MatExtension
+  langs:
+  - csharp
+  - vb
+  name: ToWindowRect(IEnumerable<Point>)
+  nameWithType: MatExtension.ToWindowRect(IEnumerable<Point>)
+  fullName: H.VisionMaster.OpenCV.MatExtension.ToWindowRect(System.Collections.Generic.IEnumerable<OpenCvSharp.Point>)
+  type: Method
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.OpenCV/OpenvCVExtension.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: ToWindowRect
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.OpenCV/OpenvCVExtension.cs
+    startLine: 64
+  assemblies:
+  - H.VisionMaster.OpenCV
+  namespace: H.VisionMaster.OpenCV
+  syntax:
+    content: public static Rect ToWindowRect(this IEnumerable<Point> points)
+    parameters:
+    - id: points
+      type: System.Collections.Generic.IEnumerable{OpenCvSharp.Point}
+    return:
+      type: System.Windows.Rect
+    content.vb: Public Shared Function ToWindowRect(points As IEnumerable(Of Point)) As Rect
+  overload: H.VisionMaster.OpenCV.MatExtension.ToWindowRect*
+  nameWithType.vb: MatExtension.ToWindowRect(IEnumerable(Of Point))
+  fullName.vb: H.VisionMaster.OpenCV.MatExtension.ToWindowRect(System.Collections.Generic.IEnumerable(Of OpenCvSharp.Point))
+  name.vb: ToWindowRect(IEnumerable(Of Point))
+- uid: H.VisionMaster.OpenCV.MatExtension.ToDetectSuccessMessage(System.Int32)
+  commentId: M:H.VisionMaster.OpenCV.MatExtension.ToDetectSuccessMessage(System.Int32)
+  id: ToDetectSuccessMessage(System.Int32)
+  isExtensionMethod: true
+  parent: H.VisionMaster.OpenCV.MatExtension
+  langs:
+  - csharp
+  - vb
+  name: ToDetectSuccessMessage(int)
+  nameWithType: MatExtension.ToDetectSuccessMessage(int)
+  fullName: H.VisionMaster.OpenCV.MatExtension.ToDetectSuccessMessage(int)
+  type: Method
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.OpenCV/OpenvCVExtension.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: ToDetectSuccessMessage
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.OpenCV/OpenvCVExtension.cs
+    startLine: 73
+  assemblies:
+  - H.VisionMaster.OpenCV
+  namespace: H.VisionMaster.OpenCV
+  syntax:
+    content: public static string ToDetectSuccessMessage(this int count)
+    parameters:
+    - id: count
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Shared Function ToDetectSuccessMessage(count As Integer) As String
+  overload: H.VisionMaster.OpenCV.MatExtension.ToDetectSuccessMessage*
+  nameWithType.vb: MatExtension.ToDetectSuccessMessage(Integer)
+  fullName.vb: H.VisionMaster.OpenCV.MatExtension.ToDetectSuccessMessage(Integer)
+  name.vb: ToDetectSuccessMessage(Integer)
+- uid: H.VisionMaster.OpenCV.MatExtension.ToResultPresenter(System.Collections.Generic.IEnumerable{OpenCvSharp.KeyPoint})
+  commentId: M:H.VisionMaster.OpenCV.MatExtension.ToResultPresenter(System.Collections.Generic.IEnumerable{OpenCvSharp.KeyPoint})
+  id: ToResultPresenter(System.Collections.Generic.IEnumerable{OpenCvSharp.KeyPoint})
+  isExtensionMethod: true
+  parent: H.VisionMaster.OpenCV.MatExtension
+  langs:
+  - csharp
+  - vb
+  name: ToResultPresenter(IEnumerable<KeyPoint>)
+  nameWithType: MatExtension.ToResultPresenter(IEnumerable<KeyPoint>)
+  fullName: H.VisionMaster.OpenCV.MatExtension.ToResultPresenter(System.Collections.Generic.IEnumerable<OpenCvSharp.KeyPoint>)
+  type: Method
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.OpenCV/OpenvCVExtension.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: ToResultPresenter
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.OpenCV/OpenvCVExtension.cs
+    startLine: 90
+  assemblies:
+  - H.VisionMaster.OpenCV
+  namespace: H.VisionMaster.OpenCV
+  syntax:
+    content: public static IResultPresenter ToResultPresenter(this IEnumerable<KeyPoint> keyPoints)
+    parameters:
+    - id: keyPoints
+      type: System.Collections.Generic.IEnumerable{OpenCvSharp.KeyPoint}
+    return:
+      type: H.Controls.Diagram.Presenter.NodeDatas.Base.IResultPresenter
+    content.vb: Public Shared Function ToResultPresenter(keyPoints As IEnumerable(Of KeyPoint)) As IResultPresenter
+  overload: H.VisionMaster.OpenCV.MatExtension.ToResultPresenter*
+  nameWithType.vb: MatExtension.ToResultPresenter(IEnumerable(Of KeyPoint))
+  fullName.vb: H.VisionMaster.OpenCV.MatExtension.ToResultPresenter(System.Collections.Generic.IEnumerable(Of OpenCvSharp.KeyPoint))
+  name.vb: ToResultPresenter(IEnumerable(Of KeyPoint))
+- uid: H.VisionMaster.OpenCV.MatExtension.ToResultPresenter(System.Collections.Generic.IEnumerable{OpenCvSharp.Rect},System.String)
+  commentId: M:H.VisionMaster.OpenCV.MatExtension.ToResultPresenter(System.Collections.Generic.IEnumerable{OpenCvSharp.Rect},System.String)
+  id: ToResultPresenter(System.Collections.Generic.IEnumerable{OpenCvSharp.Rect},System.String)
+  isExtensionMethod: true
+  parent: H.VisionMaster.OpenCV.MatExtension
+  langs:
+  - csharp
+  - vb
+  name: ToResultPresenter(IEnumerable<Rect>, string)
+  nameWithType: MatExtension.ToResultPresenter(IEnumerable<Rect>, string)
+  fullName: H.VisionMaster.OpenCV.MatExtension.ToResultPresenter(System.Collections.Generic.IEnumerable<OpenCvSharp.Rect>, string)
+  type: Method
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.OpenCV/OpenvCVExtension.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: ToResultPresenter
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.OpenCV/OpenvCVExtension.cs
+    startLine: 94
+  assemblies:
+  - H.VisionMaster.OpenCV
+  namespace: H.VisionMaster.OpenCV
+  syntax:
+    content: public static IResultPresenter ToResultPresenter(this IEnumerable<Rect> rects, string name = "位置信息")
+    parameters:
+    - id: rects
+      type: System.Collections.Generic.IEnumerable{OpenCvSharp.Rect}
+    - id: name
+      type: System.String
+    return:
+      type: H.Controls.Diagram.Presenter.NodeDatas.Base.IResultPresenter
+    content.vb: Public Shared Function ToResultPresenter(rects As IEnumerable(Of Rect), name As String = "位置信息") As IResultPresenter
+  overload: H.VisionMaster.OpenCV.MatExtension.ToResultPresenter*
+  nameWithType.vb: MatExtension.ToResultPresenter(IEnumerable(Of Rect), String)
+  fullName.vb: H.VisionMaster.OpenCV.MatExtension.ToResultPresenter(System.Collections.Generic.IEnumerable(Of OpenCvSharp.Rect), String)
+  name.vb: ToResultPresenter(IEnumerable(Of Rect), String)
+- uid: H.VisionMaster.OpenCV.MatExtension.ToResultPresenter(System.Collections.Generic.IEnumerable{OpenCvSharp.Point2f},System.String)
+  commentId: M:H.VisionMaster.OpenCV.MatExtension.ToResultPresenter(System.Collections.Generic.IEnumerable{OpenCvSharp.Point2f},System.String)
+  id: ToResultPresenter(System.Collections.Generic.IEnumerable{OpenCvSharp.Point2f},System.String)
+  isExtensionMethod: true
+  parent: H.VisionMaster.OpenCV.MatExtension
+  langs:
+  - csharp
+  - vb
+  name: ToResultPresenter(IEnumerable<Point2f>, string)
+  nameWithType: MatExtension.ToResultPresenter(IEnumerable<Point2f>, string)
+  fullName: H.VisionMaster.OpenCV.MatExtension.ToResultPresenter(System.Collections.Generic.IEnumerable<OpenCvSharp.Point2f>, string)
+  type: Method
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.OpenCV/OpenvCVExtension.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: ToResultPresenter
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.OpenCV/OpenvCVExtension.cs
+    startLine: 99
+  assemblies:
+  - H.VisionMaster.OpenCV
+  namespace: H.VisionMaster.OpenCV
+  syntax:
+    content: public static IResultPresenter ToResultPresenter(this IEnumerable<Point2f> points, string name = "位置信息")
+    parameters:
+    - id: points
+      type: System.Collections.Generic.IEnumerable{OpenCvSharp.Point2f}
+    - id: name
+      type: System.String
+    return:
+      type: H.Controls.Diagram.Presenter.NodeDatas.Base.IResultPresenter
+    content.vb: Public Shared Function ToResultPresenter(points As IEnumerable(Of Point2f), name As String = "位置信息") As IResultPresenter
+  overload: H.VisionMaster.OpenCV.MatExtension.ToResultPresenter*
+  nameWithType.vb: MatExtension.ToResultPresenter(IEnumerable(Of Point2f), String)
+  fullName.vb: H.VisionMaster.OpenCV.MatExtension.ToResultPresenter(System.Collections.Generic.IEnumerable(Of OpenCvSharp.Point2f), String)
+  name.vb: ToResultPresenter(IEnumerable(Of Point2f), String)
+- uid: H.VisionMaster.OpenCV.MatExtension.ToResultPresenter(System.Collections.Generic.IEnumerable{OpenCvSharp.Point},System.String)
+  commentId: M:H.VisionMaster.OpenCV.MatExtension.ToResultPresenter(System.Collections.Generic.IEnumerable{OpenCvSharp.Point},System.String)
+  id: ToResultPresenter(System.Collections.Generic.IEnumerable{OpenCvSharp.Point},System.String)
+  isExtensionMethod: true
+  parent: H.VisionMaster.OpenCV.MatExtension
+  langs:
+  - csharp
+  - vb
+  name: ToResultPresenter(IEnumerable<Point>, string)
+  nameWithType: MatExtension.ToResultPresenter(IEnumerable<Point>, string)
+  fullName: H.VisionMaster.OpenCV.MatExtension.ToResultPresenter(System.Collections.Generic.IEnumerable<OpenCvSharp.Point>, string)
+  type: Method
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.OpenCV/OpenvCVExtension.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: ToResultPresenter
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.OpenCV/OpenvCVExtension.cs
+    startLine: 103
+  assemblies:
+  - H.VisionMaster.OpenCV
+  namespace: H.VisionMaster.OpenCV
+  syntax:
+    content: public static IResultPresenter ToResultPresenter(this IEnumerable<Point> points, string name = "位置信息")
+    parameters:
+    - id: points
+      type: System.Collections.Generic.IEnumerable{OpenCvSharp.Point}
+    - id: name
+      type: System.String
+    return:
+      type: H.Controls.Diagram.Presenter.NodeDatas.Base.IResultPresenter
+    content.vb: Public Shared Function ToResultPresenter(points As IEnumerable(Of Point), name As String = "位置信息") As IResultPresenter
+  overload: H.VisionMaster.OpenCV.MatExtension.ToResultPresenter*
+  nameWithType.vb: MatExtension.ToResultPresenter(IEnumerable(Of Point), String)
+  fullName.vb: H.VisionMaster.OpenCV.MatExtension.ToResultPresenter(System.Collections.Generic.IEnumerable(Of OpenCvSharp.Point), String)
+  name.vb: ToResultPresenter(IEnumerable(Of Point), String)
+- uid: H.VisionMaster.OpenCV.MatExtension.ToResultPresenter(OpenCvSharp.Rect,System.String)
+  commentId: M:H.VisionMaster.OpenCV.MatExtension.ToResultPresenter(OpenCvSharp.Rect,System.String)
+  id: ToResultPresenter(OpenCvSharp.Rect,System.String)
+  isExtensionMethod: true
+  parent: H.VisionMaster.OpenCV.MatExtension
+  langs:
+  - csharp
+  - vb
+  name: ToResultPresenter(Rect, string)
+  nameWithType: MatExtension.ToResultPresenter(Rect, string)
+  fullName: H.VisionMaster.OpenCV.MatExtension.ToResultPresenter(OpenCvSharp.Rect, string)
+  type: Method
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.OpenCV/OpenvCVExtension.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: ToResultPresenter
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.OpenCV/OpenvCVExtension.cs
+    startLine: 107
+  assemblies:
+  - H.VisionMaster.OpenCV
+  namespace: H.VisionMaster.OpenCV
+  syntax:
+    content: public static IResultPresenter ToResultPresenter(this Rect rect, string name = "位置信息")
+    parameters:
+    - id: rect
+      type: OpenCvSharp.Rect
+    - id: name
+      type: System.String
+    return:
+      type: H.Controls.Diagram.Presenter.NodeDatas.Base.IResultPresenter
+    content.vb: Public Shared Function ToResultPresenter(rect As Rect, name As String = "位置信息") As IResultPresenter
+  overload: H.VisionMaster.OpenCV.MatExtension.ToResultPresenter*
+  nameWithType.vb: MatExtension.ToResultPresenter(Rect, String)
+  fullName.vb: H.VisionMaster.OpenCV.MatExtension.ToResultPresenter(OpenCvSharp.Rect, String)
+  name.vb: ToResultPresenter(Rect, String)
+- uid: H.VisionMaster.OpenCV.MatExtension.ToResultPresenter(System.Collections.Generic.IEnumerable{OpenCvSharp.ConnectedComponents.Blob})
+  commentId: M:H.VisionMaster.OpenCV.MatExtension.ToResultPresenter(System.Collections.Generic.IEnumerable{OpenCvSharp.ConnectedComponents.Blob})
+  id: ToResultPresenter(System.Collections.Generic.IEnumerable{OpenCvSharp.ConnectedComponents.Blob})
+  isExtensionMethod: true
+  parent: H.VisionMaster.OpenCV.MatExtension
+  langs:
+  - csharp
+  - vb
+  name: ToResultPresenter(IEnumerable<Blob>)
+  nameWithType: MatExtension.ToResultPresenter(IEnumerable<ConnectedComponents.Blob>)
+  fullName: H.VisionMaster.OpenCV.MatExtension.ToResultPresenter(System.Collections.Generic.IEnumerable<OpenCvSharp.ConnectedComponents.Blob>)
+  type: Method
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.OpenCV/OpenvCVExtension.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: ToResultPresenter
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.OpenCV/OpenvCVExtension.cs
+    startLine: 112
+  assemblies:
+  - H.VisionMaster.OpenCV
+  namespace: H.VisionMaster.OpenCV
+  syntax:
+    content: public static IResultPresenter ToResultPresenter(this IEnumerable<ConnectedComponents.Blob> blobs)
+    parameters:
+    - id: blobs
+      type: System.Collections.Generic.IEnumerable{OpenCvSharp.ConnectedComponents.Blob}
+    return:
+      type: H.Controls.Diagram.Presenter.NodeDatas.Base.IResultPresenter
+    content.vb: Public Shared Function ToResultPresenter(blobs As IEnumerable(Of ConnectedComponents.Blob)) As IResultPresenter
+  overload: H.VisionMaster.OpenCV.MatExtension.ToResultPresenter*
+  nameWithType.vb: MatExtension.ToResultPresenter(IEnumerable(Of ConnectedComponents.Blob))
+  fullName.vb: H.VisionMaster.OpenCV.MatExtension.ToResultPresenter(System.Collections.Generic.IEnumerable(Of OpenCvSharp.ConnectedComponents.Blob))
+  name.vb: ToResultPresenter(IEnumerable(Of Blob))
+- uid: H.VisionMaster.OpenCV.MatExtension.ToResultPresenter(System.Collections.Generic.IEnumerable{OpenCvSharp.LineSegmentPoint},System.String)
+  commentId: M:H.VisionMaster.OpenCV.MatExtension.ToResultPresenter(System.Collections.Generic.IEnumerable{OpenCvSharp.LineSegmentPoint},System.String)
+  id: ToResultPresenter(System.Collections.Generic.IEnumerable{OpenCvSharp.LineSegmentPoint},System.String)
+  isExtensionMethod: true
+  parent: H.VisionMaster.OpenCV.MatExtension
+  langs:
+  - csharp
+  - vb
+  name: ToResultPresenter(IEnumerable<LineSegmentPoint>, string)
+  nameWithType: MatExtension.ToResultPresenter(IEnumerable<LineSegmentPoint>, string)
+  fullName: H.VisionMaster.OpenCV.MatExtension.ToResultPresenter(System.Collections.Generic.IEnumerable<OpenCvSharp.LineSegmentPoint>, string)
+  type: Method
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.OpenCV/OpenvCVExtension.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: ToResultPresenter
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.OpenCV/OpenvCVExtension.cs
+    startLine: 117
+  assemblies:
+  - H.VisionMaster.OpenCV
+  namespace: H.VisionMaster.OpenCV
+  syntax:
+    content: public static IResultPresenter ToResultPresenter(this IEnumerable<LineSegmentPoint> lineSegmentPoints, string name = "直线数据")
+    parameters:
+    - id: lineSegmentPoints
+      type: System.Collections.Generic.IEnumerable{OpenCvSharp.LineSegmentPoint}
+    - id: name
+      type: System.String
+    return:
+      type: H.Controls.Diagram.Presenter.NodeDatas.Base.IResultPresenter
+    content.vb: Public Shared Function ToResultPresenter(lineSegmentPoints As IEnumerable(Of LineSegmentPoint), name As String = "直线数据") As IResultPresenter
+  overload: H.VisionMaster.OpenCV.MatExtension.ToResultPresenter*
+  nameWithType.vb: MatExtension.ToResultPresenter(IEnumerable(Of LineSegmentPoint), String)
+  fullName.vb: H.VisionMaster.OpenCV.MatExtension.ToResultPresenter(System.Collections.Generic.IEnumerable(Of OpenCvSharp.LineSegmentPoint), String)
+  name.vb: ToResultPresenter(IEnumerable(Of LineSegmentPoint), String)
+- uid: H.VisionMaster.OpenCV.MatExtension.ToImageSource(OpenCvSharp.Mat)
+  commentId: M:H.VisionMaster.OpenCV.MatExtension.ToImageSource(OpenCvSharp.Mat)
+  id: ToImageSource(OpenCvSharp.Mat)
+  isExtensionMethod: true
+  parent: H.VisionMaster.OpenCV.MatExtension
+  langs:
+  - csharp
+  - vb
+  name: ToImageSource(Mat)
+  nameWithType: MatExtension.ToImageSource(Mat)
+  fullName: H.VisionMaster.OpenCV.MatExtension.ToImageSource(OpenCvSharp.Mat)
+  type: Method
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.OpenCV/OpenvCVExtension.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: ToImageSource
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.OpenCV/OpenvCVExtension.cs
+    startLine: 122
+  assemblies:
+  - H.VisionMaster.OpenCV
+  namespace: H.VisionMaster.OpenCV
+  syntax:
+    content: public static ImageSource ToImageSource(this Mat mat)
+    parameters:
+    - id: mat
+      type: OpenCvSharp.Mat
+    return:
+      type: System.Windows.Media.ImageSource
+    content.vb: Public Shared Function ToImageSource(mat As Mat) As ImageSource
+  overload: H.VisionMaster.OpenCV.MatExtension.ToImageSource*
+- uid: H.VisionMaster.OpenCV.MatExtension.IsValid(OpenCvSharp.Mat)
+  commentId: M:H.VisionMaster.OpenCV.MatExtension.IsValid(OpenCvSharp.Mat)
+  id: IsValid(OpenCvSharp.Mat)
+  isExtensionMethod: true
+  parent: H.VisionMaster.OpenCV.MatExtension
+  langs:
+  - csharp
+  - vb
+  name: IsValid(Mat)
+  nameWithType: MatExtension.IsValid(Mat)
+  fullName: H.VisionMaster.OpenCV.MatExtension.IsValid(OpenCvSharp.Mat)
+  type: Method
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.OpenCV/OpenvCVExtension.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: IsValid
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.OpenCV/OpenvCVExtension.cs
+    startLine: 133
+  assemblies:
+  - H.VisionMaster.OpenCV
+  namespace: H.VisionMaster.OpenCV
+  syntax:
+    content: public static bool IsValid(this Mat mat)
+    parameters:
+    - id: mat
+      type: OpenCvSharp.Mat
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsValid(mat As Mat) As Boolean
+  overload: H.VisionMaster.OpenCV.MatExtension.IsValid*
+- uid: H.VisionMaster.OpenCV.MatExtension.GetHSVRange(System.Windows.Media.Color,System.Int32,System.Int32,System.Int32)
+  commentId: M:H.VisionMaster.OpenCV.MatExtension.GetHSVRange(System.Windows.Media.Color,System.Int32,System.Int32,System.Int32)
+  id: GetHSVRange(System.Windows.Media.Color,System.Int32,System.Int32,System.Int32)
+  isExtensionMethod: true
+  parent: H.VisionMaster.OpenCV.MatExtension
+  langs:
+  - csharp
+  - vb
+  name: GetHSVRange(Color, int, int, int)
+  nameWithType: MatExtension.GetHSVRange(Color, int, int, int)
+  fullName: H.VisionMaster.OpenCV.MatExtension.GetHSVRange(System.Windows.Media.Color, int, int, int)
+  type: Method
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.OpenCV/OpenvCVExtension.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: GetHSVRange
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.OpenCV/OpenvCVExtension.cs
+    startLine: 138
+  assemblies:
+  - H.VisionMaster.OpenCV
+  namespace: H.VisionMaster.OpenCV
+  syntax:
+    content: public static Tuple<Scalar, Scalar> GetHSVRange(this Color color, int hRange = 30, int sRange = 20, int vRange = 20)
+    parameters:
+    - id: color
+      type: System.Windows.Media.Color
+    - id: hRange
+      type: System.Int32
+    - id: sRange
+      type: System.Int32
+    - id: vRange
+      type: System.Int32
+    return:
+      type: System.Tuple{OpenCvSharp.Scalar,OpenCvSharp.Scalar}
+    content.vb: Public Shared Function GetHSVRange(color As Color, hRange As Integer = 30, sRange As Integer = 20, vRange As Integer = 20) As Tuple(Of Scalar, Scalar)
+  overload: H.VisionMaster.OpenCV.MatExtension.GetHSVRange*
+  nameWithType.vb: MatExtension.GetHSVRange(Color, Integer, Integer, Integer)
+  fullName.vb: H.VisionMaster.OpenCV.MatExtension.GetHSVRange(System.Windows.Media.Color, Integer, Integer, Integer)
+  name.vb: GetHSVRange(Color, Integer, Integer, Integer)
+references:
+- uid: H.VisionMaster.OpenCV
+  commentId: N:H.VisionMaster.OpenCV
+  href: H.html
+  name: H.VisionMaster.OpenCV
+  nameWithType: H.VisionMaster.OpenCV
+  fullName: H.VisionMaster.OpenCV
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.OpenCV
+    name: OpenCV
+    href: H.VisionMaster.OpenCV.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.OpenCV
+    name: OpenCV
+    href: H.VisionMaster.OpenCV.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: H.VisionMaster.OpenCV.MatExtension.DrawRectangle*
+  commentId: Overload:H.VisionMaster.OpenCV.MatExtension.DrawRectangle
+  href: H.VisionMaster.OpenCV.MatExtension.html#H_VisionMaster_OpenCV_MatExtension_DrawRectangle_OpenCvSharp_Mat_OpenCvSharp_Rect_System_Windows_Media_Color_System_Int32_
+  name: DrawRectangle
+  nameWithType: MatExtension.DrawRectangle
+  fullName: H.VisionMaster.OpenCV.MatExtension.DrawRectangle
+- uid: OpenCvSharp.Mat
+  commentId: T:OpenCvSharp.Mat
+  parent: OpenCvSharp
+  isExternal: true
+  name: Mat
+  nameWithType: Mat
+  fullName: OpenCvSharp.Mat
+- uid: OpenCvSharp.Rect
+  commentId: T:OpenCvSharp.Rect
+  parent: OpenCvSharp
+  isExternal: true
+  name: Rect
+  nameWithType: Rect
+  fullName: OpenCvSharp.Rect
+- uid: System.Windows.Media.Color
+  commentId: T:System.Windows.Media.Color
+  parent: System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.color
+  name: Color
+  nameWithType: Color
+  fullName: System.Windows.Media.Color
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: OpenCvSharp
+  commentId: N:OpenCvSharp
+  isExternal: true
+  name: OpenCvSharp
+  nameWithType: OpenCvSharp
+  fullName: OpenCvSharp
+- uid: System.Windows.Media
+  commentId: N:System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Media
+  nameWithType: System.Windows.Media
+  fullName: System.Windows.Media
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+- uid: H.VisionMaster.OpenCV.MatExtension.DrawCircle*
+  commentId: Overload:H.VisionMaster.OpenCV.MatExtension.DrawCircle
+  href: H.VisionMaster.OpenCV.MatExtension.html#H_VisionMaster_OpenCV_MatExtension_DrawCircle_OpenCvSharp_Mat_OpenCvSharp_Point_System_Int32_System_Windows_Media_Color_System_Int32_
+  name: DrawCircle
+  nameWithType: MatExtension.DrawCircle
+  fullName: H.VisionMaster.OpenCV.MatExtension.DrawCircle
+- uid: OpenCvSharp.Point
+  commentId: T:OpenCvSharp.Point
+  parent: OpenCvSharp
+  isExternal: true
+  name: Point
+  nameWithType: Point
+  fullName: OpenCvSharp.Point
+- uid: H.VisionMaster.OpenCV.MatExtension.ToThickness*
+  commentId: Overload:H.VisionMaster.OpenCV.MatExtension.ToThickness
+  href: H.VisionMaster.OpenCV.MatExtension.html#H_VisionMaster_OpenCV_MatExtension_ToThickness_OpenCvSharp_Mat_
+  name: ToThickness
+  nameWithType: MatExtension.ToThickness
+  fullName: H.VisionMaster.OpenCV.MatExtension.ToThickness
+- uid: H.VisionMaster.OpenCV.MatExtension.ToWindowRect*
+  commentId: Overload:H.VisionMaster.OpenCV.MatExtension.ToWindowRect
+  href: H.VisionMaster.OpenCV.MatExtension.html#H_VisionMaster_OpenCV_MatExtension_ToWindowRect_OpenCvSharp_Rect2d_
+  name: ToWindowRect
+  nameWithType: MatExtension.ToWindowRect
+  fullName: H.VisionMaster.OpenCV.MatExtension.ToWindowRect
+- uid: OpenCvSharp.Rect2d
+  commentId: T:OpenCvSharp.Rect2d
+  parent: OpenCvSharp
+  isExternal: true
+  name: Rect2d
+  nameWithType: Rect2d
+  fullName: OpenCvSharp.Rect2d
+- uid: System.Windows.Rect
+  commentId: T:System.Windows.Rect
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.rect
+  name: Rect
+  nameWithType: Rect
+  fullName: System.Windows.Rect
+- uid: System.Windows
+  commentId: N:System.Windows
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows
+  nameWithType: System.Windows
+  fullName: System.Windows
+  spec.csharp:
+  - uid: System
+    name: System
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  spec.vb:
+  - uid: System
+    name: System
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+- uid: H.VisionMaster.OpenCV.MatExtension.ToCVRect*
+  commentId: Overload:H.VisionMaster.OpenCV.MatExtension.ToCVRect
+  href: H.VisionMaster.OpenCV.MatExtension.html#H_VisionMaster_OpenCV_MatExtension_ToCVRect_System_Windows_Rect_
+  name: ToCVRect
+  nameWithType: MatExtension.ToCVRect
+  fullName: H.VisionMaster.OpenCV.MatExtension.ToCVRect
+- uid: OpenCvSharp.KeyPoint
+  commentId: T:OpenCvSharp.KeyPoint
+  parent: OpenCvSharp
+  isExternal: true
+  name: KeyPoint
+  nameWithType: KeyPoint
+  fullName: OpenCvSharp.KeyPoint
+- uid: System.Collections.Generic.IEnumerable{OpenCvSharp.Point2f}
+  commentId: T:System.Collections.Generic.IEnumerable{OpenCvSharp.Point2f}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<Point2f>
+  nameWithType: IEnumerable<Point2f>
+  fullName: System.Collections.Generic.IEnumerable<OpenCvSharp.Point2f>
+  nameWithType.vb: IEnumerable(Of Point2f)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of OpenCvSharp.Point2f)
+  name.vb: IEnumerable(Of Point2f)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: OpenCvSharp.Point2f
+    name: Point2f
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: OpenCvSharp.Point2f
+    name: Point2f
+    isExternal: true
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: System.Collections.Generic.IEnumerable{OpenCvSharp.Point}
+  commentId: T:System.Collections.Generic.IEnumerable{OpenCvSharp.Point}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<Point>
+  nameWithType: IEnumerable<Point>
+  fullName: System.Collections.Generic.IEnumerable<OpenCvSharp.Point>
+  nameWithType.vb: IEnumerable(Of Point)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of OpenCvSharp.Point)
+  name.vb: IEnumerable(Of Point)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: OpenCvSharp.Point
+    name: Point
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: OpenCvSharp.Point
+    name: Point
+    isExternal: true
+  - name: )
+- uid: H.VisionMaster.OpenCV.MatExtension.ToDetectSuccessMessage*
+  commentId: Overload:H.VisionMaster.OpenCV.MatExtension.ToDetectSuccessMessage
+  href: H.VisionMaster.OpenCV.MatExtension.html#H_VisionMaster_OpenCV_MatExtension_ToDetectSuccessMessage_System_Int32_
+  name: ToDetectSuccessMessage
+  nameWithType: MatExtension.ToDetectSuccessMessage
+  fullName: H.VisionMaster.OpenCV.MatExtension.ToDetectSuccessMessage
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: H.VisionMaster.OpenCV.MatExtension.ToResultPresenter*
+  commentId: Overload:H.VisionMaster.OpenCV.MatExtension.ToResultPresenter
+  href: H.VisionMaster.OpenCV.MatExtension.html#H_VisionMaster_OpenCV_MatExtension_ToResultPresenter_System_Collections_Generic_IEnumerable_OpenCvSharp_KeyPoint__
+  name: ToResultPresenter
+  nameWithType: MatExtension.ToResultPresenter
+  fullName: H.VisionMaster.OpenCV.MatExtension.ToResultPresenter
+- uid: System.Collections.Generic.IEnumerable{OpenCvSharp.KeyPoint}
+  commentId: T:System.Collections.Generic.IEnumerable{OpenCvSharp.KeyPoint}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<KeyPoint>
+  nameWithType: IEnumerable<KeyPoint>
+  fullName: System.Collections.Generic.IEnumerable<OpenCvSharp.KeyPoint>
+  nameWithType.vb: IEnumerable(Of KeyPoint)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of OpenCvSharp.KeyPoint)
+  name.vb: IEnumerable(Of KeyPoint)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: OpenCvSharp.KeyPoint
+    name: KeyPoint
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: OpenCvSharp.KeyPoint
+    name: KeyPoint
+    isExternal: true
+  - name: )
+- uid: H.Controls.Diagram.Presenter.NodeDatas.Base.IResultPresenter
+  commentId: T:H.Controls.Diagram.Presenter.NodeDatas.Base.IResultPresenter
+  parent: H.Controls.Diagram.Presenter.NodeDatas.Base
+  href: H.Controls.Diagram.Presenter.NodeDatas.Base.IResultPresenter.html
+  name: IResultPresenter
+  nameWithType: IResultPresenter
+  fullName: H.Controls.Diagram.Presenter.NodeDatas.Base.IResultPresenter
+- uid: H.Controls.Diagram.Presenter.NodeDatas.Base
+  commentId: N:H.Controls.Diagram.Presenter.NodeDatas.Base
+  href: H.html
+  name: H.Controls.Diagram.Presenter.NodeDatas.Base
+  nameWithType: H.Controls.Diagram.Presenter.NodeDatas.Base
+  fullName: H.Controls.Diagram.Presenter.NodeDatas.Base
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter
+    name: Presenter
+    href: H.Controls.Diagram.Presenter.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter.NodeDatas
+    name: NodeDatas
+    href: H.Controls.Diagram.Presenter.NodeDatas.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter.NodeDatas.Base
+    name: Base
+    href: H.Controls.Diagram.Presenter.NodeDatas.Base.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter
+    name: Presenter
+    href: H.Controls.Diagram.Presenter.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter.NodeDatas
+    name: NodeDatas
+    href: H.Controls.Diagram.Presenter.NodeDatas.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter.NodeDatas.Base
+    name: Base
+    href: H.Controls.Diagram.Presenter.NodeDatas.Base.html
+- uid: System.Collections.Generic.IEnumerable{OpenCvSharp.Rect}
+  commentId: T:System.Collections.Generic.IEnumerable{OpenCvSharp.Rect}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<Rect>
+  nameWithType: IEnumerable<Rect>
+  fullName: System.Collections.Generic.IEnumerable<OpenCvSharp.Rect>
+  nameWithType.vb: IEnumerable(Of Rect)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of OpenCvSharp.Rect)
+  name.vb: IEnumerable(Of Rect)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: OpenCvSharp.Rect
+    name: Rect
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: OpenCvSharp.Rect
+    name: Rect
+    isExternal: true
+  - name: )
+- uid: System.Collections.Generic.IEnumerable{OpenCvSharp.ConnectedComponents.Blob}
+  commentId: T:System.Collections.Generic.IEnumerable{OpenCvSharp.ConnectedComponents.Blob}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<ConnectedComponents.Blob>
+  nameWithType: IEnumerable<ConnectedComponents.Blob>
+  fullName: System.Collections.Generic.IEnumerable<OpenCvSharp.ConnectedComponents.Blob>
+  nameWithType.vb: IEnumerable(Of ConnectedComponents.Blob)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of OpenCvSharp.ConnectedComponents.Blob)
+  name.vb: IEnumerable(Of ConnectedComponents.Blob)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: OpenCvSharp.ConnectedComponents
+    name: ConnectedComponents
+    isExternal: true
+  - name: .
+  - uid: OpenCvSharp.ConnectedComponents.Blob
+    name: Blob
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: OpenCvSharp.ConnectedComponents
+    name: ConnectedComponents
+    isExternal: true
+  - name: .
+  - uid: OpenCvSharp.ConnectedComponents.Blob
+    name: Blob
+    isExternal: true
+  - name: )
+- uid: System.Collections.Generic.IEnumerable{OpenCvSharp.LineSegmentPoint}
+  commentId: T:System.Collections.Generic.IEnumerable{OpenCvSharp.LineSegmentPoint}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<LineSegmentPoint>
+  nameWithType: IEnumerable<LineSegmentPoint>
+  fullName: System.Collections.Generic.IEnumerable<OpenCvSharp.LineSegmentPoint>
+  nameWithType.vb: IEnumerable(Of LineSegmentPoint)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of OpenCvSharp.LineSegmentPoint)
+  name.vb: IEnumerable(Of LineSegmentPoint)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: OpenCvSharp.LineSegmentPoint
+    name: LineSegmentPoint
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: OpenCvSharp.LineSegmentPoint
+    name: LineSegmentPoint
+    isExternal: true
+  - name: )
+- uid: H.VisionMaster.OpenCV.MatExtension.ToImageSource*
+  commentId: Overload:H.VisionMaster.OpenCV.MatExtension.ToImageSource
+  href: H.VisionMaster.OpenCV.MatExtension.html#H_VisionMaster_OpenCV_MatExtension_ToImageSource_OpenCvSharp_Mat_
+  name: ToImageSource
+  nameWithType: MatExtension.ToImageSource
+  fullName: H.VisionMaster.OpenCV.MatExtension.ToImageSource
+- uid: System.Windows.Media.ImageSource
+  commentId: T:System.Windows.Media.ImageSource
+  parent: System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.imagesource
+  name: ImageSource
+  nameWithType: ImageSource
+  fullName: System.Windows.Media.ImageSource
+- uid: H.VisionMaster.OpenCV.MatExtension.IsValid*
+  commentId: Overload:H.VisionMaster.OpenCV.MatExtension.IsValid
+  href: H.VisionMaster.OpenCV.MatExtension.html#H_VisionMaster_OpenCV_MatExtension_IsValid_OpenCvSharp_Mat_
+  name: IsValid
+  nameWithType: MatExtension.IsValid
+  fullName: H.VisionMaster.OpenCV.MatExtension.IsValid
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: H.VisionMaster.OpenCV.MatExtension.GetHSVRange*
+  commentId: Overload:H.VisionMaster.OpenCV.MatExtension.GetHSVRange
+  href: H.VisionMaster.OpenCV.MatExtension.html#H_VisionMaster_OpenCV_MatExtension_GetHSVRange_System_Windows_Media_Color_System_Int32_System_Int32_System_Int32_
+  name: GetHSVRange
+  nameWithType: MatExtension.GetHSVRange
+  fullName: H.VisionMaster.OpenCV.MatExtension.GetHSVRange
+- uid: System.Tuple{OpenCvSharp.Scalar,OpenCvSharp.Scalar}
+  commentId: T:System.Tuple{OpenCvSharp.Scalar,OpenCvSharp.Scalar}
+  parent: System
+  definition: System.Tuple`2
+  href: https://learn.microsoft.com/dotnet/api/system.tuple-2
+  name: Tuple<Scalar, Scalar>
+  nameWithType: Tuple<Scalar, Scalar>
+  fullName: System.Tuple<OpenCvSharp.Scalar, OpenCvSharp.Scalar>
+  nameWithType.vb: Tuple(Of Scalar, Scalar)
+  fullName.vb: System.Tuple(Of OpenCvSharp.Scalar, OpenCvSharp.Scalar)
+  name.vb: Tuple(Of Scalar, Scalar)
+  spec.csharp:
+  - uid: System.Tuple`2
+    name: Tuple
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.tuple-2
+  - name: <
+  - uid: OpenCvSharp.Scalar
+    name: Scalar
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: OpenCvSharp.Scalar
+    name: Scalar
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Tuple`2
+    name: Tuple
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.tuple-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: OpenCvSharp.Scalar
+    name: Scalar
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: OpenCvSharp.Scalar
+    name: Scalar
+    isExternal: true
+  - name: )
+- uid: System.Tuple`2
+  commentId: T:System.Tuple`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.tuple-2
+  name: Tuple<T1, T2>
+  nameWithType: Tuple<T1, T2>
+  fullName: System.Tuple<T1, T2>
+  nameWithType.vb: Tuple(Of T1, T2)
+  fullName.vb: System.Tuple(Of T1, T2)
+  name.vb: Tuple(Of T1, T2)
+  spec.csharp:
+  - uid: System.Tuple`2
+    name: Tuple
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.tuple-2
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: '>'
+  spec.vb:
+  - uid: System.Tuple`2
+    name: Tuple
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.tuple-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )

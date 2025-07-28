@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.Excel
+  commentId: N:H.Extensions.Excel
+  id: H.Extensions.Excel
+  children:
+  - H.Extensions.Excel.NpoiService
+  langs:
+  - csharp
+  - vb
+  name: H.Extensions.Excel
+  nameWithType: H.Extensions.Excel
+  fullName: H.Extensions.Excel
+  type: Namespace
+  assemblies:
+  - H.Extensions.Excel
+references:
+- uid: H.Extensions.Excel.NpoiService
+  commentId: T:H.Extensions.Excel.NpoiService
+  href: H.Extensions.Excel.NpoiService.html
+  name: NpoiService
+  nameWithType: NpoiService
+  fullName: H.Extensions.Excel.NpoiService

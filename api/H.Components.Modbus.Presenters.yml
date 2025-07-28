@@ -1,0 +1,111 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Components.Modbus.Presenters
+  commentId: N:H.Components.Modbus.Presenters
+  id: H.Components.Modbus.Presenters
+  children:
+  - H.Components.Modbus.Presenters.MasterState
+  - H.Components.Modbus.Presenters.ModbusDataState
+  - H.Components.Modbus.Presenters.ModbusDataViewPresenter
+  - H.Components.Modbus.Presenters.ModbusTcpDataItemBase
+  - H.Components.Modbus.Presenters.ModbusTcpDataItem`1
+  langs:
+  - csharp
+  - vb
+  name: H.Components.Modbus.Presenters
+  nameWithType: H.Components.Modbus.Presenters
+  fullName: H.Components.Modbus.Presenters
+  type: Namespace
+  assemblies:
+  - H.Components.Modbus
+references:
+- uid: H.Components.Modbus.Presenters.MasterState
+  commentId: T:H.Components.Modbus.Presenters.MasterState
+  parent: H.Components.Modbus.Presenters
+  href: H.Components.Modbus.Presenters.MasterState.html
+  name: MasterState
+  nameWithType: MasterState
+  fullName: H.Components.Modbus.Presenters.MasterState
+- uid: H.Components.Modbus.Presenters.ModbusDataState
+  commentId: T:H.Components.Modbus.Presenters.ModbusDataState
+  parent: H.Components.Modbus.Presenters
+  href: H.Components.Modbus.Presenters.ModbusDataState.html
+  name: ModbusDataState
+  nameWithType: ModbusDataState
+  fullName: H.Components.Modbus.Presenters.ModbusDataState
+- uid: H.Components.Modbus.Presenters.ModbusDataViewPresenter
+  commentId: T:H.Components.Modbus.Presenters.ModbusDataViewPresenter
+  href: H.Components.Modbus.Presenters.ModbusDataViewPresenter.html
+  name: ModbusDataViewPresenter
+  nameWithType: ModbusDataViewPresenter
+  fullName: H.Components.Modbus.Presenters.ModbusDataViewPresenter
+- uid: H.Components.Modbus.Presenters.ModbusTcpDataItemBase
+  commentId: T:H.Components.Modbus.Presenters.ModbusTcpDataItemBase
+  parent: H.Components.Modbus.Presenters
+  href: H.Components.Modbus.Presenters.ModbusTcpDataItemBase.html
+  name: ModbusTcpDataItemBase
+  nameWithType: ModbusTcpDataItemBase
+  fullName: H.Components.Modbus.Presenters.ModbusTcpDataItemBase
+- uid: H.Components.Modbus.Presenters.ModbusTcpDataItem`1
+  commentId: T:H.Components.Modbus.Presenters.ModbusTcpDataItem`1
+  href: H.Components.Modbus.Presenters.ModbusTcpDataItem-1.html
+  name: ModbusTcpDataItem<T>
+  nameWithType: ModbusTcpDataItem<T>
+  fullName: H.Components.Modbus.Presenters.ModbusTcpDataItem<T>
+  nameWithType.vb: ModbusTcpDataItem(Of T)
+  fullName.vb: H.Components.Modbus.Presenters.ModbusTcpDataItem(Of T)
+  name.vb: ModbusTcpDataItem(Of T)
+  spec.csharp:
+  - uid: H.Components.Modbus.Presenters.ModbusTcpDataItem`1
+    name: ModbusTcpDataItem
+    href: H.Components.Modbus.Presenters.ModbusTcpDataItem-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Components.Modbus.Presenters.ModbusTcpDataItem`1
+    name: ModbusTcpDataItem
+    href: H.Components.Modbus.Presenters.ModbusTcpDataItem-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Components.Modbus.Presenters
+  commentId: N:H.Components.Modbus.Presenters
+  href: H.html
+  name: H.Components.Modbus.Presenters
+  nameWithType: H.Components.Modbus.Presenters
+  fullName: H.Components.Modbus.Presenters
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Components
+    name: Components
+    href: H.Components.html
+  - name: .
+  - uid: H.Components.Modbus
+    name: Modbus
+    href: H.Components.Modbus.html
+  - name: .
+  - uid: H.Components.Modbus.Presenters
+    name: Presenters
+    href: H.Components.Modbus.Presenters.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Components
+    name: Components
+    href: H.Components.html
+  - name: .
+  - uid: H.Components.Modbus
+    name: Modbus
+    href: H.Components.Modbus.html
+  - name: .
+  - uid: H.Components.Modbus.Presenters
+    name: Presenters
+    href: H.Components.Modbus.Presenters.html

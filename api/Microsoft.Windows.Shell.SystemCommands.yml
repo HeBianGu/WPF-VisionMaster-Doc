@@ -1,0 +1,710 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.Windows.Shell.SystemCommands
+  commentId: T:Microsoft.Windows.Shell.SystemCommands
+  id: SystemCommands
+  parent: Microsoft.Windows.Shell
+  children:
+  - Microsoft.Windows.Shell.SystemCommands.CloseWindow(System.Windows.Window)
+  - Microsoft.Windows.Shell.SystemCommands.CloseWindowCommand
+  - Microsoft.Windows.Shell.SystemCommands.MaximizeWindow(System.Windows.Window)
+  - Microsoft.Windows.Shell.SystemCommands.MaximizeWindowCommand
+  - Microsoft.Windows.Shell.SystemCommands.MinimizeWindow(System.Windows.Window)
+  - Microsoft.Windows.Shell.SystemCommands.MinimizeWindowCommand
+  - Microsoft.Windows.Shell.SystemCommands.RestoreWindow(System.Windows.Window)
+  - Microsoft.Windows.Shell.SystemCommands.RestoreWindowCommand
+  - Microsoft.Windows.Shell.SystemCommands.ShowSystemMenu(System.Windows.Window,System.Windows.Point)
+  - Microsoft.Windows.Shell.SystemCommands.ShowSystemMenuCommand
+  langs:
+  - csharp
+  - vb
+  name: SystemCommands
+  nameWithType: SystemCommands
+  fullName: Microsoft.Windows.Shell.SystemCommands
+  type: Class
+  source:
+    id: SystemCommands
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.Dock\Controls\Shell\SystemCommands.cs
+    startLine: 9
+  assemblies:
+  - H.Controls.Dock
+  namespace: Microsoft.Windows.Shell
+  syntax:
+    content: public static class SystemCommands
+    content.vb: Public Module SystemCommands
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Microsoft.Windows.Shell.SystemCommands.CloseWindowCommand
+  commentId: P:Microsoft.Windows.Shell.SystemCommands.CloseWindowCommand
+  id: CloseWindowCommand
+  parent: Microsoft.Windows.Shell.SystemCommands
+  langs:
+  - csharp
+  - vb
+  name: CloseWindowCommand
+  nameWithType: SystemCommands.CloseWindowCommand
+  fullName: Microsoft.Windows.Shell.SystemCommands.CloseWindowCommand
+  type: Property
+  source:
+    id: CloseWindowCommand
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.Dock\Controls\Shell\SystemCommands.cs
+    startLine: 11
+  assemblies:
+  - H.Controls.Dock
+  namespace: Microsoft.Windows.Shell
+  syntax:
+    content: public static RoutedCommand CloseWindowCommand { get; }
+    parameters: []
+    return:
+      type: System.Windows.Input.RoutedCommand
+    content.vb: Public Shared ReadOnly Property CloseWindowCommand As RoutedCommand
+  overload: Microsoft.Windows.Shell.SystemCommands.CloseWindowCommand*
+- uid: Microsoft.Windows.Shell.SystemCommands.MaximizeWindowCommand
+  commentId: P:Microsoft.Windows.Shell.SystemCommands.MaximizeWindowCommand
+  id: MaximizeWindowCommand
+  parent: Microsoft.Windows.Shell.SystemCommands
+  langs:
+  - csharp
+  - vb
+  name: MaximizeWindowCommand
+  nameWithType: SystemCommands.MaximizeWindowCommand
+  fullName: Microsoft.Windows.Shell.SystemCommands.MaximizeWindowCommand
+  type: Property
+  source:
+    id: MaximizeWindowCommand
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.Dock\Controls\Shell\SystemCommands.cs
+    startLine: 12
+  assemblies:
+  - H.Controls.Dock
+  namespace: Microsoft.Windows.Shell
+  syntax:
+    content: public static RoutedCommand MaximizeWindowCommand { get; }
+    parameters: []
+    return:
+      type: System.Windows.Input.RoutedCommand
+    content.vb: Public Shared ReadOnly Property MaximizeWindowCommand As RoutedCommand
+  overload: Microsoft.Windows.Shell.SystemCommands.MaximizeWindowCommand*
+- uid: Microsoft.Windows.Shell.SystemCommands.MinimizeWindowCommand
+  commentId: P:Microsoft.Windows.Shell.SystemCommands.MinimizeWindowCommand
+  id: MinimizeWindowCommand
+  parent: Microsoft.Windows.Shell.SystemCommands
+  langs:
+  - csharp
+  - vb
+  name: MinimizeWindowCommand
+  nameWithType: SystemCommands.MinimizeWindowCommand
+  fullName: Microsoft.Windows.Shell.SystemCommands.MinimizeWindowCommand
+  type: Property
+  source:
+    id: MinimizeWindowCommand
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.Dock\Controls\Shell\SystemCommands.cs
+    startLine: 13
+  assemblies:
+  - H.Controls.Dock
+  namespace: Microsoft.Windows.Shell
+  syntax:
+    content: public static RoutedCommand MinimizeWindowCommand { get; }
+    parameters: []
+    return:
+      type: System.Windows.Input.RoutedCommand
+    content.vb: Public Shared ReadOnly Property MinimizeWindowCommand As RoutedCommand
+  overload: Microsoft.Windows.Shell.SystemCommands.MinimizeWindowCommand*
+- uid: Microsoft.Windows.Shell.SystemCommands.RestoreWindowCommand
+  commentId: P:Microsoft.Windows.Shell.SystemCommands.RestoreWindowCommand
+  id: RestoreWindowCommand
+  parent: Microsoft.Windows.Shell.SystemCommands
+  langs:
+  - csharp
+  - vb
+  name: RestoreWindowCommand
+  nameWithType: SystemCommands.RestoreWindowCommand
+  fullName: Microsoft.Windows.Shell.SystemCommands.RestoreWindowCommand
+  type: Property
+  source:
+    id: RestoreWindowCommand
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.Dock\Controls\Shell\SystemCommands.cs
+    startLine: 14
+  assemblies:
+  - H.Controls.Dock
+  namespace: Microsoft.Windows.Shell
+  syntax:
+    content: public static RoutedCommand RestoreWindowCommand { get; }
+    parameters: []
+    return:
+      type: System.Windows.Input.RoutedCommand
+    content.vb: Public Shared ReadOnly Property RestoreWindowCommand As RoutedCommand
+  overload: Microsoft.Windows.Shell.SystemCommands.RestoreWindowCommand*
+- uid: Microsoft.Windows.Shell.SystemCommands.ShowSystemMenuCommand
+  commentId: P:Microsoft.Windows.Shell.SystemCommands.ShowSystemMenuCommand
+  id: ShowSystemMenuCommand
+  parent: Microsoft.Windows.Shell.SystemCommands
+  langs:
+  - csharp
+  - vb
+  name: ShowSystemMenuCommand
+  nameWithType: SystemCommands.ShowSystemMenuCommand
+  fullName: Microsoft.Windows.Shell.SystemCommands.ShowSystemMenuCommand
+  type: Property
+  source:
+    id: ShowSystemMenuCommand
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.Dock\Controls\Shell\SystemCommands.cs
+    startLine: 15
+  assemblies:
+  - H.Controls.Dock
+  namespace: Microsoft.Windows.Shell
+  syntax:
+    content: public static RoutedCommand ShowSystemMenuCommand { get; }
+    parameters: []
+    return:
+      type: System.Windows.Input.RoutedCommand
+    content.vb: Public Shared ReadOnly Property ShowSystemMenuCommand As RoutedCommand
+  overload: Microsoft.Windows.Shell.SystemCommands.ShowSystemMenuCommand*
+- uid: Microsoft.Windows.Shell.SystemCommands.CloseWindow(System.Windows.Window)
+  commentId: M:Microsoft.Windows.Shell.SystemCommands.CloseWindow(System.Windows.Window)
+  id: CloseWindow(System.Windows.Window)
+  parent: Microsoft.Windows.Shell.SystemCommands
+  langs:
+  - csharp
+  - vb
+  name: CloseWindow(Window)
+  nameWithType: SystemCommands.CloseWindow(Window)
+  fullName: Microsoft.Windows.Shell.SystemCommands.CloseWindow(System.Windows.Window)
+  type: Method
+  source:
+    id: CloseWindow
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.Dock\Controls\Shell\SystemCommands.cs
+    startLine: 33
+  assemblies:
+  - H.Controls.Dock
+  namespace: Microsoft.Windows.Shell
+  syntax:
+    content: public static void CloseWindow(Window window)
+    parameters:
+    - id: window
+      type: System.Windows.Window
+    content.vb: Public Shared Sub CloseWindow(window As Window)
+  overload: Microsoft.Windows.Shell.SystemCommands.CloseWindow*
+- uid: Microsoft.Windows.Shell.SystemCommands.MaximizeWindow(System.Windows.Window)
+  commentId: M:Microsoft.Windows.Shell.SystemCommands.MaximizeWindow(System.Windows.Window)
+  id: MaximizeWindow(System.Windows.Window)
+  parent: Microsoft.Windows.Shell.SystemCommands
+  langs:
+  - csharp
+  - vb
+  name: MaximizeWindow(Window)
+  nameWithType: SystemCommands.MaximizeWindow(Window)
+  fullName: Microsoft.Windows.Shell.SystemCommands.MaximizeWindow(System.Windows.Window)
+  type: Method
+  source:
+    id: MaximizeWindow
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.Dock\Controls\Shell\SystemCommands.cs
+    startLine: 39
+  assemblies:
+  - H.Controls.Dock
+  namespace: Microsoft.Windows.Shell
+  syntax:
+    content: public static void MaximizeWindow(Window window)
+    parameters:
+    - id: window
+      type: System.Windows.Window
+    content.vb: Public Shared Sub MaximizeWindow(window As Window)
+  overload: Microsoft.Windows.Shell.SystemCommands.MaximizeWindow*
+- uid: Microsoft.Windows.Shell.SystemCommands.MinimizeWindow(System.Windows.Window)
+  commentId: M:Microsoft.Windows.Shell.SystemCommands.MinimizeWindow(System.Windows.Window)
+  id: MinimizeWindow(System.Windows.Window)
+  parent: Microsoft.Windows.Shell.SystemCommands
+  langs:
+  - csharp
+  - vb
+  name: MinimizeWindow(Window)
+  nameWithType: SystemCommands.MinimizeWindow(Window)
+  fullName: Microsoft.Windows.Shell.SystemCommands.MinimizeWindow(System.Windows.Window)
+  type: Method
+  source:
+    id: MinimizeWindow
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.Dock\Controls\Shell\SystemCommands.cs
+    startLine: 45
+  assemblies:
+  - H.Controls.Dock
+  namespace: Microsoft.Windows.Shell
+  syntax:
+    content: public static void MinimizeWindow(Window window)
+    parameters:
+    - id: window
+      type: System.Windows.Window
+    content.vb: Public Shared Sub MinimizeWindow(window As Window)
+  overload: Microsoft.Windows.Shell.SystemCommands.MinimizeWindow*
+- uid: Microsoft.Windows.Shell.SystemCommands.RestoreWindow(System.Windows.Window)
+  commentId: M:Microsoft.Windows.Shell.SystemCommands.RestoreWindow(System.Windows.Window)
+  id: RestoreWindow(System.Windows.Window)
+  parent: Microsoft.Windows.Shell.SystemCommands
+  langs:
+  - csharp
+  - vb
+  name: RestoreWindow(Window)
+  nameWithType: SystemCommands.RestoreWindow(Window)
+  fullName: Microsoft.Windows.Shell.SystemCommands.RestoreWindow(System.Windows.Window)
+  type: Method
+  source:
+    id: RestoreWindow
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.Dock\Controls\Shell\SystemCommands.cs
+    startLine: 51
+  assemblies:
+  - H.Controls.Dock
+  namespace: Microsoft.Windows.Shell
+  syntax:
+    content: public static void RestoreWindow(Window window)
+    parameters:
+    - id: window
+      type: System.Windows.Window
+    content.vb: Public Shared Sub RestoreWindow(window As Window)
+  overload: Microsoft.Windows.Shell.SystemCommands.RestoreWindow*
+- uid: Microsoft.Windows.Shell.SystemCommands.ShowSystemMenu(System.Windows.Window,System.Windows.Point)
+  commentId: M:Microsoft.Windows.Shell.SystemCommands.ShowSystemMenu(System.Windows.Window,System.Windows.Point)
+  id: ShowSystemMenu(System.Windows.Window,System.Windows.Point)
+  parent: Microsoft.Windows.Shell.SystemCommands
+  langs:
+  - csharp
+  - vb
+  name: ShowSystemMenu(Window, Point)
+  nameWithType: SystemCommands.ShowSystemMenu(Window, Point)
+  fullName: Microsoft.Windows.Shell.SystemCommands.ShowSystemMenu(System.Windows.Window, System.Windows.Point)
+  type: Method
+  source:
+    id: ShowSystemMenu
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.Dock\Controls\Shell\SystemCommands.cs
+    startLine: 60
+  assemblies:
+  - H.Controls.Dock
+  namespace: Microsoft.Windows.Shell
+  summary: Display the system menu at a specified location.
+  example: []
+  syntax:
+    content: public static void ShowSystemMenu(Window window, Point screenLocation)
+    parameters:
+    - id: window
+      type: System.Windows.Window
+      description: ''
+    - id: screenLocation
+      type: System.Windows.Point
+      description: The location to display the system menu, in logical screen coordinates.
+    content.vb: Public Shared Sub ShowSystemMenu(window As Window, screenLocation As Point)
+  overload: Microsoft.Windows.Shell.SystemCommands.ShowSystemMenu*
+references:
+- uid: Microsoft.Windows.Shell
+  commentId: N:Microsoft.Windows.Shell
+  href: Microsoft.html
+  name: Microsoft.Windows.Shell
+  nameWithType: Microsoft.Windows.Shell
+  fullName: Microsoft.Windows.Shell
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    href: Microsoft.html
+  - name: .
+  - uid: Microsoft.Windows
+    name: Windows
+    href: Microsoft.Windows.html
+  - name: .
+  - uid: Microsoft.Windows.Shell
+    name: Shell
+    href: Microsoft.Windows.Shell.html
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    href: Microsoft.html
+  - name: .
+  - uid: Microsoft.Windows
+    name: Windows
+    href: Microsoft.Windows.html
+  - name: .
+  - uid: Microsoft.Windows.Shell
+    name: Shell
+    href: Microsoft.Windows.Shell.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.Windows.Shell.SystemCommands.CloseWindowCommand*
+  commentId: Overload:Microsoft.Windows.Shell.SystemCommands.CloseWindowCommand
+  href: Microsoft.Windows.Shell.SystemCommands.html#Microsoft_Windows_Shell_SystemCommands_CloseWindowCommand
+  name: CloseWindowCommand
+  nameWithType: SystemCommands.CloseWindowCommand
+  fullName: Microsoft.Windows.Shell.SystemCommands.CloseWindowCommand
+- uid: System.Windows.Input.RoutedCommand
+  commentId: T:System.Windows.Input.RoutedCommand
+  parent: System.Windows.Input
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.input.routedcommand
+  name: RoutedCommand
+  nameWithType: RoutedCommand
+  fullName: System.Windows.Input.RoutedCommand
+- uid: System.Windows.Input
+  commentId: N:System.Windows.Input
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Input
+  nameWithType: System.Windows.Input
+  fullName: System.Windows.Input
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Input
+    name: Input
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Input
+    name: Input
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input
+- uid: Microsoft.Windows.Shell.SystemCommands.MaximizeWindowCommand*
+  commentId: Overload:Microsoft.Windows.Shell.SystemCommands.MaximizeWindowCommand
+  href: Microsoft.Windows.Shell.SystemCommands.html#Microsoft_Windows_Shell_SystemCommands_MaximizeWindowCommand
+  name: MaximizeWindowCommand
+  nameWithType: SystemCommands.MaximizeWindowCommand
+  fullName: Microsoft.Windows.Shell.SystemCommands.MaximizeWindowCommand
+- uid: Microsoft.Windows.Shell.SystemCommands.MinimizeWindowCommand*
+  commentId: Overload:Microsoft.Windows.Shell.SystemCommands.MinimizeWindowCommand
+  href: Microsoft.Windows.Shell.SystemCommands.html#Microsoft_Windows_Shell_SystemCommands_MinimizeWindowCommand
+  name: MinimizeWindowCommand
+  nameWithType: SystemCommands.MinimizeWindowCommand
+  fullName: Microsoft.Windows.Shell.SystemCommands.MinimizeWindowCommand
+- uid: Microsoft.Windows.Shell.SystemCommands.RestoreWindowCommand*
+  commentId: Overload:Microsoft.Windows.Shell.SystemCommands.RestoreWindowCommand
+  href: Microsoft.Windows.Shell.SystemCommands.html#Microsoft_Windows_Shell_SystemCommands_RestoreWindowCommand
+  name: RestoreWindowCommand
+  nameWithType: SystemCommands.RestoreWindowCommand
+  fullName: Microsoft.Windows.Shell.SystemCommands.RestoreWindowCommand
+- uid: Microsoft.Windows.Shell.SystemCommands.ShowSystemMenuCommand*
+  commentId: Overload:Microsoft.Windows.Shell.SystemCommands.ShowSystemMenuCommand
+  href: Microsoft.Windows.Shell.SystemCommands.html#Microsoft_Windows_Shell_SystemCommands_ShowSystemMenuCommand
+  name: ShowSystemMenuCommand
+  nameWithType: SystemCommands.ShowSystemMenuCommand
+  fullName: Microsoft.Windows.Shell.SystemCommands.ShowSystemMenuCommand
+- uid: Microsoft.Windows.Shell.SystemCommands.CloseWindow*
+  commentId: Overload:Microsoft.Windows.Shell.SystemCommands.CloseWindow
+  href: Microsoft.Windows.Shell.SystemCommands.html#Microsoft_Windows_Shell_SystemCommands_CloseWindow_System_Windows_Window_
+  name: CloseWindow
+  nameWithType: SystemCommands.CloseWindow
+  fullName: Microsoft.Windows.Shell.SystemCommands.CloseWindow
+- uid: System.Windows.Window
+  commentId: T:System.Windows.Window
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.window
+  name: Window
+  nameWithType: Window
+  fullName: System.Windows.Window
+- uid: System.Windows
+  commentId: N:System.Windows
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows
+  nameWithType: System.Windows
+  fullName: System.Windows
+  spec.csharp:
+  - uid: System
+    name: System
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  spec.vb:
+  - uid: System
+    name: System
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+- uid: Microsoft.Windows.Shell.SystemCommands.MaximizeWindow*
+  commentId: Overload:Microsoft.Windows.Shell.SystemCommands.MaximizeWindow
+  href: Microsoft.Windows.Shell.SystemCommands.html#Microsoft_Windows_Shell_SystemCommands_MaximizeWindow_System_Windows_Window_
+  name: MaximizeWindow
+  nameWithType: SystemCommands.MaximizeWindow
+  fullName: Microsoft.Windows.Shell.SystemCommands.MaximizeWindow
+- uid: Microsoft.Windows.Shell.SystemCommands.MinimizeWindow*
+  commentId: Overload:Microsoft.Windows.Shell.SystemCommands.MinimizeWindow
+  href: Microsoft.Windows.Shell.SystemCommands.html#Microsoft_Windows_Shell_SystemCommands_MinimizeWindow_System_Windows_Window_
+  name: MinimizeWindow
+  nameWithType: SystemCommands.MinimizeWindow
+  fullName: Microsoft.Windows.Shell.SystemCommands.MinimizeWindow
+- uid: Microsoft.Windows.Shell.SystemCommands.RestoreWindow*
+  commentId: Overload:Microsoft.Windows.Shell.SystemCommands.RestoreWindow
+  href: Microsoft.Windows.Shell.SystemCommands.html#Microsoft_Windows_Shell_SystemCommands_RestoreWindow_System_Windows_Window_
+  name: RestoreWindow
+  nameWithType: SystemCommands.RestoreWindow
+  fullName: Microsoft.Windows.Shell.SystemCommands.RestoreWindow
+- uid: Microsoft.Windows.Shell.SystemCommands.ShowSystemMenu*
+  commentId: Overload:Microsoft.Windows.Shell.SystemCommands.ShowSystemMenu
+  href: Microsoft.Windows.Shell.SystemCommands.html#Microsoft_Windows_Shell_SystemCommands_ShowSystemMenu_System_Windows_Window_System_Windows_Point_
+  name: ShowSystemMenu
+  nameWithType: SystemCommands.ShowSystemMenu
+  fullName: Microsoft.Windows.Shell.SystemCommands.ShowSystemMenu
+- uid: System.Windows.Point
+  commentId: T:System.Windows.Point
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.point
+  name: Point
+  nameWithType: Point
+  fullName: System.Windows.Point

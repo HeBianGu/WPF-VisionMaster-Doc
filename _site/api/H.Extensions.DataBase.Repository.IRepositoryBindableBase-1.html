@@ -1,0 +1,1218 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Interface IRepositoryBindableBase&lt;TEntity&gt; | WPF-VisionMasterOpenCV2.0开发文档 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Interface IRepositoryBindableBase&lt;TEntity&gt; | WPF-VisionMasterOpenCV2.0开发文档 ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="WPF-VisionMasterOpenCV2.0开发文档">
+            WPF-VisionMasterOpenCV2.0开发文档
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1">
+
+
+
+  <h1 id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1" class="text-break">
+Interface IRepositoryBindableBase&lt;TEntity&gt;  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="H.html">H</a>.<a class="xref" href="H.Extensions.html">Extensions</a>.<a class="xref" href="H.Extensions.DataBase.html">DataBase</a>.<a class="xref" href="H.Extensions.DataBase.Repository.html">Repository</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>H.Extensions.DataBase.Repository.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IRepositoryBindableBase&lt;TEntity&gt; : IRepositoryBindable where TEntity : StringEntityBase, new()</code></pre>
+  </div>
+
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TEntity</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_CloneCast__1___0_System_Predicate_System_Reflection_PropertyInfo__">ObjectExtension.CloneCast&lt;T&gt;(T, Predicate&lt;PropertyInfo&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_ToEnumerable__1___0_">ObjectExtension.ToEnumerable&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.NewtonsoftJson.NewtonsoftJsonSerializerServiceExtension.html#H_Extensions_NewtonsoftJson_NewtonsoftJsonSerializerServiceExtension_CloneByNewtonsoftJson__1___0_">NewtonsoftJsonSerializerServiceExtension.CloneByNewtonsoftJson&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.VisionMaster.ResultPresenter.ResultPresenterExtension.html#H_VisionMaster_ResultPresenter_ResultPresenterExtension_ToValueResultPresenter__1___0_">ResultPresenterExtension.ToValueResultPresenter&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Controls.FilterColumnDataGrid.Extensions.html#H_Controls_FilterColumnDataGrid_Extensions_GetPropertyValue_System_Object_System_String_">Extensions.GetPropertyValue(object, string)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Controls.FilterColumnDataGrid.Extensions.html#H_Controls_FilterColumnDataGrid_Extensions_GetPropertyValue__1_System_Object_System_String_">Extensions.GetPropertyValue&lt;T&gt;(object, string)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Controls.Form.Provider.PropertyInfoExtention.html#H_Controls_Form_Provider_PropertyInfoExtention_ChangeType__1_System_Object_">PropertyInfoExtention.ChangeType&lt;T&gt;(object)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_CloneBy_System_Object_System_Predicate_System_Reflection_PropertyInfo__">ObjectExtension.CloneBy(object, Predicate&lt;PropertyInfo&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_CopyPropertyValueFrom_System_Object_System_Object_System_Predicate_System_Reflection_PropertyInfo__System_Func_System_Reflection_PropertyInfo_System_Reflection_PropertyInfo_System_Boolean__">ObjectExtension.CopyPropertyValueFrom(object, object, Predicate&lt;PropertyInfo&gt;, Func&lt;PropertyInfo, PropertyInfo, bool&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_IsMacth_System_Object_System_Func_System_Reflection_PropertyInfo_System_Object_System_Boolean__">ObjectExtension.IsMacth(object, Func&lt;PropertyInfo, object, bool&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_IsMacth_System_Object_System_String_">ObjectExtension.IsMacth(object, string)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_ModelState_System_Object_System_Collections_Generic_List_System_String___">ObjectExtension.ModelState(object, out List&lt;string&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_ModelStateDeep_System_Object_System_String__">ObjectExtension.ModelStateDeep(object, out string)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_TryChangeType_System_Object_System_Type_System_Object__">ObjectExtension.TryChangeType(object, Type, out object)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_TryChangeType__1_System_Object_">ObjectExtension.TryChangeType&lt;T&gt;(object)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_TryChangeType__1_System_Object___0__">ObjectExtension.TryChangeType&lt;T&gt;(object, out T)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_TryConvertToString_System_Object_">ObjectExtension.TryConvertToString(object)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.Common.ObjectExtension.html#H_Extensions_Common_ObjectExtension_TryConvertToString_System_Object_System_String__">ObjectExtension.TryConvertToString(object, out string)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.TextJsonable.TextJsonableExtensions.html#H_Extensions_TextJsonable_TextJsonableExtensions_GetJsonPropertyInfos_System_Object_">TextJsonableExtensions.GetJsonPropertyInfos(object)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.TextJsonable.TextJsonableExtensions.html#H_Extensions_TextJsonable_TextJsonableExtensions_WriteJson_System_Object_System_Text_Json_Utf8JsonWriter_System_Text_Json_JsonSerializerOptions_System_Boolean_">TextJsonableExtensions.WriteJson(object, Utf8JsonWriter, JsonSerializerOptions, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="H.Extensions.TextJsonable.TextJsonableExtensions.html#H_Extensions_TextJsonable_TextJsonableExtensions_WriteType_System_Object_System_Text_Json_Utf8JsonWriter_">TextJsonableExtensions.WriteType(object, Utf8JsonWriter)</a>
+  </div>
+  <div>
+      <a class="xref" href="System.Windows.Threading.DispatcherExtension.html#System_Windows_Threading_DispatcherExtension_DelayInvoke_System_Object_System_Action_System_Windows_Threading_DispatcherPriority_">DispatcherExtension.DelayInvoke(object, Action, DispatcherPriority)</a>
+  </div>
+  <div>
+      <a class="xref" href="System.Windows.Threading.DispatcherExtension.html#System_Windows_Threading_DispatcherExtension_DelayInvoke_System_Object_System_Collections_IList_System_Action_System_Object__System_Action_System_Windows_Threading_DispatcherPriority_">DispatcherExtension.DelayInvoke(object, IList, Action&lt;object&gt;, Action, DispatcherPriority)</a>
+  </div>
+  <div>
+      <a class="xref" href="System.Windows.Threading.DispatcherExtension.html#System_Windows_Threading_DispatcherExtension_DelayInvoke_System_Object_System_Collections_IList_System_Func_System_Collections_IList__System_Action_System_Windows_Threading_DispatcherPriority_">DispatcherExtension.DelayInvoke(object, IList, Func&lt;IList&gt;, Action, DispatcherPriority)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_AddCommand_" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.AddCommand*"></a>
+
+  <h3 id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_AddCommand" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.AddCommand">
+  AddCommand
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDisplayCommand AddCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Mvvm.Commands.IDisplayCommand.html">IDisplayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_CheckedAll_" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.CheckedAll*"></a>
+
+  <h3 id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_CheckedAll" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.CheckedAll">
+  CheckedAll
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool CheckedAll { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_CheckedAllCommand_" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.CheckedAllCommand*"></a>
+
+  <h3 id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_CheckedAllCommand" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.CheckedAllCommand">
+  CheckedAllCommand
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDisplayCommand CheckedAllCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Mvvm.Commands.IDisplayCommand.html">IDisplayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_ClearCommand_" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.ClearCommand*"></a>
+
+  <h3 id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_ClearCommand" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.ClearCommand">
+  ClearCommand
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDisplayCommand ClearCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Mvvm.Commands.IDisplayCommand.html">IDisplayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_DeleteCheckedCommand_" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.DeleteCheckedCommand*"></a>
+
+  <h3 id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_DeleteCheckedCommand" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.DeleteCheckedCommand">
+  DeleteCheckedCommand
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDisplayCommand DeleteCheckedCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Mvvm.Commands.IDisplayCommand.html">IDisplayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_DeleteCommand_" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.DeleteCommand*"></a>
+
+  <h3 id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_DeleteCommand" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.DeleteCommand">
+  DeleteCommand
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDisplayCommand DeleteCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Mvvm.Commands.IDisplayCommand.html">IDisplayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_EditCommand_" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.EditCommand*"></a>
+
+  <h3 id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_EditCommand" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.EditCommand">
+  EditCommand
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDisplayCommand EditCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Mvvm.Commands.IDisplayCommand.html">IDisplayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_ExportCommand_" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.ExportCommand*"></a>
+
+  <h3 id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_ExportCommand" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.ExportCommand">
+  ExportCommand
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDisplayCommand ExportCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Mvvm.Commands.IDisplayCommand.html">IDisplayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_GridSetCommand_" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.GridSetCommand*"></a>
+
+  <h3 id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_GridSetCommand" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.GridSetCommand">
+  GridSetCommand
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDisplayCommand GridSetCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Mvvm.Commands.IDisplayCommand.html">IDisplayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_IsBusy_" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.IsBusy*"></a>
+
+  <h3 id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_IsBusy" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.IsBusy">
+  IsBusy
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsBusy { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_LoadedCommand_" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.LoadedCommand*"></a>
+
+  <h3 id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_LoadedCommand" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.LoadedCommand">
+  LoadedCommand
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">RelayCommand LoadedCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Mvvm.Commands.RelayCommand.html">RelayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_ModelType_" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.ModelType*"></a>
+
+  <h3 id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_ModelType" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.ModelType">
+  ModelType
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Type ModelType { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_NextCommand_" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.NextCommand*"></a>
+
+  <h3 id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_NextCommand" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.NextCommand">
+  NextCommand
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDisplayCommand NextCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Mvvm.Commands.IDisplayCommand.html">IDisplayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_PreviousCommand_" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.PreviousCommand*"></a>
+
+  <h3 id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_PreviousCommand" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.PreviousCommand">
+  PreviousCommand
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDisplayCommand PreviousCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Mvvm.Commands.IDisplayCommand.html">IDisplayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_Repository_" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.Repository*"></a>
+
+  <h3 id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_Repository" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.Repository">
+  Repository
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IStringRepository&lt;TEntity&gt; Repository { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.DataBase.IStringRepository-1.html">IStringRepository</a>&lt;TEntity&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_SaveCommand_" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.SaveCommand*"></a>
+
+  <h3 id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_SaveCommand" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.SaveCommand">
+  SaveCommand
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDisplayCommand SaveCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Mvvm.Commands.IDisplayCommand.html">IDisplayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_UseMessage_" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.UseMessage*"></a>
+
+  <h3 id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_UseMessage" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.UseMessage">
+  UseMessage
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool UseMessage { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_UseOperationLog_" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.UseOperationLog*"></a>
+
+  <h3 id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_UseOperationLog" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.UseOperationLog">
+  UseOperationLog
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool UseOperationLog { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_ViewCommand_" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.ViewCommand*"></a>
+
+  <h3 id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_ViewCommand" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.ViewCommand">
+  ViewCommand
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IDisplayCommand ViewCommand { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="H.Extensions.Mvvm.Commands.IDisplayCommand.html">IDisplayCommand</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_Add_" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.Add*"></a>
+
+  <h3 id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_Add_System_Object_" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.Add(System.Object)">
+  Add(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task Add(object obj)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_Add_" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.Add*"></a>
+
+  <h3 id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_Add__0___" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.Add(`0[])">
+  Add(params TEntity[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task Add(params TEntity[] ms)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>ms</code> TEntity[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_CanClear_" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.CanClear*"></a>
+
+  <h3 id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_CanClear" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.CanClear">
+  CanClear()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool CanClear()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_Clear_" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.Clear*"></a>
+
+  <h3 id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_Clear_System_Object_" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.Clear(System.Object)">
+  Clear(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task Clear(object obj = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_Delete_" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.Delete*"></a>
+
+  <h3 id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_Delete_System_Object_" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.Delete(System.Object)">
+  Delete(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task Delete(object obj)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_Edit_" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.Edit*"></a>
+
+  <h3 id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_Edit_System_Object_" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.Edit(System.Object)">
+  Edit(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task Edit(object obj)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_Export_" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.Export*"></a>
+
+  <h3 id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_Export_System_String_" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.Export(System.String)">
+  Export(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task Export(string path)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_Next_" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.Next*"></a>
+
+  <h3 id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_Next" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.Next">
+  Next()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Next()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_Previous_" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.Previous*"></a>
+
+  <h3 id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_Previous" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.Previous">
+  Previous()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Previous()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_RefreshData_" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.RefreshData*"></a>
+
+  <h3 id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_RefreshData_System_String___" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.RefreshData(System.String[])">
+  RefreshData(params string[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void RefreshData(params string[] includes)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>includes</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_Save_" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.Save*"></a>
+
+  <h3 id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_Save" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.Save">
+  Save()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;int&gt; Save()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_View_" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.View*"></a>
+
+  <h3 id="H_Extensions_DataBase_Repository_IRepositoryBindableBase_1_View_System_Object_" data-uid="H.Extensions.DataBase.Repository.IRepositoryBindableBase`1.View(System.Object)">
+  View(object)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task View(object obj)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

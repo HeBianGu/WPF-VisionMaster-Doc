@@ -1,0 +1,180 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.Animations
+  commentId: N:H.Extensions.Animations
+  id: H.Extensions.Animations
+  children:
+  - H.Extensions.Animations.ElementTransitionable
+  - H.Extensions.Animations.ElementTransitionableBase`1
+  - H.Extensions.Animations.GroupTransitionable
+  - H.Extensions.Animations.OpacityTransitionable
+  - H.Extensions.Animations.RotateTransitionable
+  - H.Extensions.Animations.ScaleTransitionable
+  - H.Extensions.Animations.TransitionableBase`1
+  - H.Extensions.Animations.TransitionableBase`2
+  - H.Extensions.Animations.Transitionables
+  - H.Extensions.Animations.TranslateTransitionable
+  langs:
+  - csharp
+  - vb
+  name: H.Extensions.Animations
+  nameWithType: H.Extensions.Animations
+  fullName: H.Extensions.Animations
+  type: Namespace
+  assemblies:
+  - H.Extensions.Animations
+references:
+- uid: H.Extensions.Animations.TransitionableBase`1
+  commentId: T:H.Extensions.Animations.TransitionableBase`1
+  href: H.Extensions.Animations.TransitionableBase-1.html
+  name: TransitionableBase<V>
+  nameWithType: TransitionableBase<V>
+  fullName: H.Extensions.Animations.TransitionableBase<V>
+  nameWithType.vb: TransitionableBase(Of V)
+  fullName.vb: H.Extensions.Animations.TransitionableBase(Of V)
+  name.vb: TransitionableBase(Of V)
+  spec.csharp:
+  - uid: H.Extensions.Animations.TransitionableBase`1
+    name: TransitionableBase
+    href: H.Extensions.Animations.TransitionableBase-1.html
+  - name: <
+  - name: V
+  - name: '>'
+  spec.vb:
+  - uid: H.Extensions.Animations.TransitionableBase`1
+    name: TransitionableBase
+    href: H.Extensions.Animations.TransitionableBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: V
+  - name: )
+- uid: H.Extensions.Animations.TransitionableBase`2
+  commentId: T:H.Extensions.Animations.TransitionableBase`2
+  href: H.Extensions.Animations.TransitionableBase-2.html
+  name: TransitionableBase<T, V>
+  nameWithType: TransitionableBase<T, V>
+  fullName: H.Extensions.Animations.TransitionableBase<T, V>
+  nameWithType.vb: TransitionableBase(Of T, V)
+  fullName.vb: H.Extensions.Animations.TransitionableBase(Of T, V)
+  name.vb: TransitionableBase(Of T, V)
+  spec.csharp:
+  - uid: H.Extensions.Animations.TransitionableBase`2
+    name: TransitionableBase
+    href: H.Extensions.Animations.TransitionableBase-2.html
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: V
+  - name: '>'
+  spec.vb:
+  - uid: H.Extensions.Animations.TransitionableBase`2
+    name: TransitionableBase
+    href: H.Extensions.Animations.TransitionableBase-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: V
+  - name: )
+- uid: H.Extensions.Animations.ElementTransitionableBase`1
+  commentId: T:H.Extensions.Animations.ElementTransitionableBase`1
+  href: H.Extensions.Animations.ElementTransitionableBase-1.html
+  name: ElementTransitionableBase<T>
+  nameWithType: ElementTransitionableBase<T>
+  fullName: H.Extensions.Animations.ElementTransitionableBase<T>
+  nameWithType.vb: ElementTransitionableBase(Of T)
+  fullName.vb: H.Extensions.Animations.ElementTransitionableBase(Of T)
+  name.vb: ElementTransitionableBase(Of T)
+  spec.csharp:
+  - uid: H.Extensions.Animations.ElementTransitionableBase`1
+    name: ElementTransitionableBase
+    href: H.Extensions.Animations.ElementTransitionableBase-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Extensions.Animations.ElementTransitionableBase`1
+    name: ElementTransitionableBase
+    href: H.Extensions.Animations.ElementTransitionableBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Extensions.Animations.ElementTransitionable
+  commentId: T:H.Extensions.Animations.ElementTransitionable
+  parent: H.Extensions.Animations
+  href: H.Extensions.Animations.ElementTransitionable.html
+  name: ElementTransitionable
+  nameWithType: ElementTransitionable
+  fullName: H.Extensions.Animations.ElementTransitionable
+- uid: H.Extensions.Animations.GroupTransitionable
+  commentId: T:H.Extensions.Animations.GroupTransitionable
+  href: H.Extensions.Animations.GroupTransitionable.html
+  name: GroupTransitionable
+  nameWithType: GroupTransitionable
+  fullName: H.Extensions.Animations.GroupTransitionable
+- uid: H.Extensions.Animations.OpacityTransitionable
+  commentId: T:H.Extensions.Animations.OpacityTransitionable
+  href: H.Extensions.Animations.OpacityTransitionable.html
+  name: OpacityTransitionable
+  nameWithType: OpacityTransitionable
+  fullName: H.Extensions.Animations.OpacityTransitionable
+- uid: H.Extensions.Animations.RotateTransitionable
+  commentId: T:H.Extensions.Animations.RotateTransitionable
+  href: H.Extensions.Animations.RotateTransitionable.html
+  name: RotateTransitionable
+  nameWithType: RotateTransitionable
+  fullName: H.Extensions.Animations.RotateTransitionable
+- uid: H.Extensions.Animations.ScaleTransitionable
+  commentId: T:H.Extensions.Animations.ScaleTransitionable
+  href: H.Extensions.Animations.ScaleTransitionable.html
+  name: ScaleTransitionable
+  nameWithType: ScaleTransitionable
+  fullName: H.Extensions.Animations.ScaleTransitionable
+- uid: H.Extensions.Animations.Transitionables
+  commentId: T:H.Extensions.Animations.Transitionables
+  href: H.Extensions.Animations.Transitionables.html
+  name: Transitionables
+  nameWithType: Transitionables
+  fullName: H.Extensions.Animations.Transitionables
+- uid: H.Extensions.Animations.TranslateTransitionable
+  commentId: T:H.Extensions.Animations.TranslateTransitionable
+  href: H.Extensions.Animations.TranslateTransitionable.html
+  name: TranslateTransitionable
+  nameWithType: TranslateTransitionable
+  fullName: H.Extensions.Animations.TranslateTransitionable
+- uid: H.Extensions.Animations
+  commentId: N:H.Extensions.Animations
+  href: H.html
+  name: H.Extensions.Animations
+  nameWithType: H.Extensions.Animations
+  fullName: H.Extensions.Animations
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Animations
+    name: Animations
+    href: H.Extensions.Animations.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Animations
+    name: Animations
+    href: H.Extensions.Animations.html

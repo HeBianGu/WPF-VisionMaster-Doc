@@ -1,0 +1,162 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Services.Message.Dialog
+  commentId: N:H.Services.Message.Dialog
+  id: H.Services.Message.Dialog
+  children:
+  - H.Services.Message.Dialog.CancelDialogCommand
+  - H.Services.Message.Dialog.CloseDialogCommand
+  - H.Services.Message.Dialog.DialogButton
+  - H.Services.Message.Dialog.DialogCommandBase
+  - H.Services.Message.Dialog.DialogMessageExtension
+  - H.Services.Message.Dialog.IAdornerDialogMessageService
+  - H.Services.Message.Dialog.ICancelable
+  - H.Services.Message.Dialog.IDialog
+  - H.Services.Message.Dialog.IDialogMessageService
+  - H.Services.Message.Dialog.IPercentPresenter
+  - H.Services.Message.Dialog.IStringPresenter
+  - H.Services.Message.Dialog.IWindowDialogMessageService
+  - H.Services.Message.Dialog.IocDialog
+  - H.Services.Message.Dialog.SumitDialogCommand
+  langs:
+  - csharp
+  - vb
+  name: H.Services.Message.Dialog
+  nameWithType: H.Services.Message.Dialog
+  fullName: H.Services.Message.Dialog
+  type: Namespace
+  assemblies:
+  - H.Services.Message
+references:
+- uid: H.Services.Message.Dialog.DialogButton
+  commentId: T:H.Services.Message.Dialog.DialogButton
+  parent: H.Services.Message.Dialog
+  href: H.Services.Message.Dialog.DialogButton.html
+  name: DialogButton
+  nameWithType: DialogButton
+  fullName: H.Services.Message.Dialog.DialogButton
+- uid: H.Services.Message.Dialog.CancelDialogCommand
+  commentId: T:H.Services.Message.Dialog.CancelDialogCommand
+  href: H.Services.Message.Dialog.CancelDialogCommand.html
+  name: CancelDialogCommand
+  nameWithType: CancelDialogCommand
+  fullName: H.Services.Message.Dialog.CancelDialogCommand
+- uid: H.Services.Message.Dialog.CloseDialogCommand
+  commentId: T:H.Services.Message.Dialog.CloseDialogCommand
+  href: H.Services.Message.Dialog.CloseDialogCommand.html
+  name: CloseDialogCommand
+  nameWithType: CloseDialogCommand
+  fullName: H.Services.Message.Dialog.CloseDialogCommand
+- uid: H.Services.Message.Dialog.SumitDialogCommand
+  commentId: T:H.Services.Message.Dialog.SumitDialogCommand
+  href: H.Services.Message.Dialog.SumitDialogCommand.html
+  name: SumitDialogCommand
+  nameWithType: SumitDialogCommand
+  fullName: H.Services.Message.Dialog.SumitDialogCommand
+- uid: H.Services.Message.Dialog.DialogCommandBase
+  commentId: T:H.Services.Message.Dialog.DialogCommandBase
+  parent: H.Services.Message.Dialog
+  href: H.Services.Message.Dialog.DialogCommandBase.html
+  name: DialogCommandBase
+  nameWithType: DialogCommandBase
+  fullName: H.Services.Message.Dialog.DialogCommandBase
+- uid: H.Services.Message.Dialog.ICancelable
+  commentId: T:H.Services.Message.Dialog.ICancelable
+  parent: H.Services.Message.Dialog
+  href: H.Services.Message.Dialog.ICancelable.html
+  name: ICancelable
+  nameWithType: ICancelable
+  fullName: H.Services.Message.Dialog.ICancelable
+- uid: H.Services.Message.Dialog.IDialog
+  commentId: T:H.Services.Message.Dialog.IDialog
+  parent: H.Services.Message.Dialog
+  href: H.Services.Message.Dialog.IDialog.html
+  name: IDialog
+  nameWithType: IDialog
+  fullName: H.Services.Message.Dialog.IDialog
+- uid: H.Services.Message.Dialog.IAdornerDialogMessageService
+  commentId: T:H.Services.Message.Dialog.IAdornerDialogMessageService
+  parent: H.Services.Message.Dialog
+  href: H.Services.Message.Dialog.IAdornerDialogMessageService.html
+  name: IAdornerDialogMessageService
+  nameWithType: IAdornerDialogMessageService
+  fullName: H.Services.Message.Dialog.IAdornerDialogMessageService
+- uid: H.Services.Message.Dialog.IDialogMessageService
+  commentId: T:H.Services.Message.Dialog.IDialogMessageService
+  parent: H.Services.Message.Dialog
+  href: H.Services.Message.Dialog.IDialogMessageService.html
+  name: IDialogMessageService
+  nameWithType: IDialogMessageService
+  fullName: H.Services.Message.Dialog.IDialogMessageService
+- uid: H.Services.Message.Dialog.DialogMessageExtension
+  commentId: T:H.Services.Message.Dialog.DialogMessageExtension
+  parent: H.Services.Message.Dialog
+  href: H.Services.Message.Dialog.DialogMessageExtension.html
+  name: DialogMessageExtension
+  nameWithType: DialogMessageExtension
+  fullName: H.Services.Message.Dialog.DialogMessageExtension
+- uid: H.Services.Message.Dialog.IWindowDialogMessageService
+  commentId: T:H.Services.Message.Dialog.IWindowDialogMessageService
+  parent: H.Services.Message.Dialog
+  href: H.Services.Message.Dialog.IWindowDialogMessageService.html
+  name: IWindowDialogMessageService
+  nameWithType: IWindowDialogMessageService
+  fullName: H.Services.Message.Dialog.IWindowDialogMessageService
+- uid: H.Services.Message.Dialog.IocDialog
+  commentId: T:H.Services.Message.Dialog.IocDialog
+  href: H.Services.Message.Dialog.IocDialog.html
+  name: IocDialog
+  nameWithType: IocDialog
+  fullName: H.Services.Message.Dialog.IocDialog
+- uid: H.Services.Message.Dialog.IPercentPresenter
+  commentId: T:H.Services.Message.Dialog.IPercentPresenter
+  parent: H.Services.Message.Dialog
+  href: H.Services.Message.Dialog.IPercentPresenter.html
+  name: IPercentPresenter
+  nameWithType: IPercentPresenter
+  fullName: H.Services.Message.Dialog.IPercentPresenter
+- uid: H.Services.Message.Dialog.IStringPresenter
+  commentId: T:H.Services.Message.Dialog.IStringPresenter
+  parent: H.Services.Message.Dialog
+  href: H.Services.Message.Dialog.IStringPresenter.html
+  name: IStringPresenter
+  nameWithType: IStringPresenter
+  fullName: H.Services.Message.Dialog.IStringPresenter
+- uid: H.Services.Message.Dialog
+  commentId: N:H.Services.Message.Dialog
+  href: H.html
+  name: H.Services.Message.Dialog
+  nameWithType: H.Services.Message.Dialog
+  fullName: H.Services.Message.Dialog
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Message
+    name: Message
+    href: H.Services.Message.html
+  - name: .
+  - uid: H.Services.Message.Dialog
+    name: Dialog
+    href: H.Services.Message.Dialog.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Message
+    name: Message
+    href: H.Services.Message.html
+  - name: .
+  - uid: H.Services.Message.Dialog
+    name: Dialog
+    href: H.Services.Message.Dialog.html

@@ -1,0 +1,111 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Windows.Main
+  commentId: N:H.Windows.Main
+  id: H.Windows.Main
+  children:
+  - H.Windows.Main.GetWindowMaximizedMarginExtension
+  - H.Windows.Main.IMainWindow
+  - H.Windows.Main.MainWindow
+  - H.Windows.Main.MainWindowKeys
+  - H.Windows.Main.MainWindowOption
+  - H.Windows.Main.MainWindowSavableService
+  - H.Windows.Main.TransparencyMainWindow
+  - H.Windows.Main.TransparencyMainWindowKeys
+  - H.Windows.Main.WindowSetting
+  langs:
+  - csharp
+  - vb
+  name: H.Windows.Main
+  nameWithType: H.Windows.Main
+  fullName: H.Windows.Main
+  type: Namespace
+  assemblies:
+  - H.Windows.Main
+references:
+- uid: H.Windows.Main.GetWindowMaximizedMarginExtension
+  commentId: T:H.Windows.Main.GetWindowMaximizedMarginExtension
+  href: H.Windows.Main.GetWindowMaximizedMarginExtension.html
+  name: GetWindowMaximizedMarginExtension
+  nameWithType: GetWindowMaximizedMarginExtension
+  fullName: H.Windows.Main.GetWindowMaximizedMarginExtension
+- uid: H.Windows.Main.IMainWindow
+  commentId: T:H.Windows.Main.IMainWindow
+  parent: H.Windows.Main
+  href: H.Windows.Main.IMainWindow.html
+  name: IMainWindow
+  nameWithType: IMainWindow
+  fullName: H.Windows.Main.IMainWindow
+- uid: H.Windows.Main.MainWindow
+  commentId: T:H.Windows.Main.MainWindow
+  parent: H.Windows.Main
+  href: H.Windows.Main.MainWindow.html
+  name: MainWindow
+  nameWithType: MainWindow
+  fullName: H.Windows.Main.MainWindow
+- uid: H.Windows.Main.MainWindowKeys
+  commentId: T:H.Windows.Main.MainWindowKeys
+  href: H.Windows.Main.MainWindowKeys.html
+  name: MainWindowKeys
+  nameWithType: MainWindowKeys
+  fullName: H.Windows.Main.MainWindowKeys
+- uid: H.Windows.Main.MainWindowOption
+  commentId: T:H.Windows.Main.MainWindowOption
+  href: H.Windows.Main.MainWindowOption.html
+  name: MainWindowOption
+  nameWithType: MainWindowOption
+  fullName: H.Windows.Main.MainWindowOption
+- uid: H.Windows.Main.MainWindowSavableService
+  commentId: T:H.Windows.Main.MainWindowSavableService
+  href: H.Windows.Main.MainWindowSavableService.html
+  name: MainWindowSavableService
+  nameWithType: MainWindowSavableService
+  fullName: H.Windows.Main.MainWindowSavableService
+- uid: H.Windows.Main.TransparencyMainWindow
+  commentId: T:H.Windows.Main.TransparencyMainWindow
+  href: H.Windows.Main.TransparencyMainWindow.html
+  name: TransparencyMainWindow
+  nameWithType: TransparencyMainWindow
+  fullName: H.Windows.Main.TransparencyMainWindow
+- uid: H.Windows.Main.TransparencyMainWindowKeys
+  commentId: T:H.Windows.Main.TransparencyMainWindowKeys
+  href: H.Windows.Main.TransparencyMainWindowKeys.html
+  name: TransparencyMainWindowKeys
+  nameWithType: TransparencyMainWindowKeys
+  fullName: H.Windows.Main.TransparencyMainWindowKeys
+- uid: H.Windows.Main.WindowSetting
+  commentId: T:H.Windows.Main.WindowSetting
+  href: H.Windows.Main.WindowSetting.html
+  name: WindowSetting
+  nameWithType: WindowSetting
+  fullName: H.Windows.Main.WindowSetting
+- uid: H.Windows.Main
+  commentId: N:H.Windows.Main
+  href: H.html
+  name: H.Windows.Main
+  nameWithType: H.Windows.Main
+  fullName: H.Windows.Main
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Windows
+    name: Windows
+    href: H.Windows.html
+  - name: .
+  - uid: H.Windows.Main
+    name: Main
+    href: H.Windows.Main.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Windows
+    name: Windows
+    href: H.Windows.html
+  - name: .
+  - uid: H.Windows.Main
+    name: Main
+    href: H.Windows.Main.html

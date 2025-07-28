@@ -1,0 +1,168 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.Panel
+  commentId: N:H.Controls.Panel
+  id: H.Controls.Panel
+  children:
+  - H.Controls.Panel.ArcPanel
+  - H.Controls.Panel.AreaDefinition
+  - H.Controls.Panel.CirclePanel
+  - H.Controls.Panel.CoverPanel
+  - H.Controls.Panel.CrossPanel
+  - H.Controls.Panel.DelayStackPanel
+  - H.Controls.Panel.DockPanel
+  - H.Controls.Panel.DockType
+  - H.Controls.Panel.DragPanel
+  - H.Controls.Panel.GridAreaAttach
+  - H.Controls.Panel.HexClipConverter
+  - H.Controls.Panel.HexGrid
+  - H.Controls.Panel.HexItem
+  - H.Controls.Panel.HexList
+  - H.Controls.Panel.NamedAreaDefinition
+  - H.Controls.Panel.PanelBase
+  - H.Controls.Panel.RandomPanel
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.Panel
+  nameWithType: H.Controls.Panel
+  fullName: H.Controls.Panel
+  type: Namespace
+  assemblies:
+  - H.Controls.Panel
+references:
+- uid: H.Controls.Panel.HexGrid
+  commentId: T:H.Controls.Panel.HexGrid
+  href: H.Controls.Panel.HexGrid.html
+  name: HexGrid
+  nameWithType: HexGrid
+  fullName: H.Controls.Panel.HexGrid
+- uid: H.Controls.Panel.HexItem
+  commentId: T:H.Controls.Panel.HexItem
+  href: H.Controls.Panel.HexItem.html
+  name: HexItem
+  nameWithType: HexItem
+  fullName: H.Controls.Panel.HexItem
+- uid: H.Controls.Panel.HexList
+  commentId: T:H.Controls.Panel.HexList
+  href: H.Controls.Panel.HexList.html
+  name: HexList
+  nameWithType: HexList
+  fullName: H.Controls.Panel.HexList
+- uid: H.Controls.Panel.HexClipConverter
+  commentId: T:H.Controls.Panel.HexClipConverter
+  href: H.Controls.Panel.HexClipConverter.html
+  name: HexClipConverter
+  nameWithType: HexClipConverter
+  fullName: H.Controls.Panel.HexClipConverter
+- uid: H.Controls.Panel.ArcPanel
+  commentId: T:H.Controls.Panel.ArcPanel
+  href: H.Controls.Panel.ArcPanel.html
+  name: ArcPanel
+  nameWithType: ArcPanel
+  fullName: H.Controls.Panel.ArcPanel
+- uid: H.Controls.Panel.CirclePanel
+  commentId: T:H.Controls.Panel.CirclePanel
+  href: H.Controls.Panel.CirclePanel.html
+  name: CirclePanel
+  nameWithType: CirclePanel
+  fullName: H.Controls.Panel.CirclePanel
+- uid: H.Controls.Panel.CoverPanel
+  commentId: T:H.Controls.Panel.CoverPanel
+  href: H.Controls.Panel.CoverPanel.html
+  name: CoverPanel
+  nameWithType: CoverPanel
+  fullName: H.Controls.Panel.CoverPanel
+- uid: H.Controls.Panel.CrossPanel
+  commentId: T:H.Controls.Panel.CrossPanel
+  href: H.Controls.Panel.CrossPanel.html
+  name: CrossPanel
+  nameWithType: CrossPanel
+  fullName: H.Controls.Panel.CrossPanel
+- uid: H.Controls.Panel.DelayStackPanel
+  commentId: T:H.Controls.Panel.DelayStackPanel
+  href: H.Controls.Panel.DelayStackPanel.html
+  name: DelayStackPanel
+  nameWithType: DelayStackPanel
+  fullName: H.Controls.Panel.DelayStackPanel
+- uid: H.Controls.Panel.DockPanel
+  commentId: T:H.Controls.Panel.DockPanel
+  href: H.Controls.Panel.DockPanel.html
+  name: DockPanel
+  nameWithType: DockPanel
+  fullName: H.Controls.Panel.DockPanel
+- uid: H.Controls.Panel.DockType
+  commentId: T:H.Controls.Panel.DockType
+  parent: H.Controls.Panel
+  href: H.Controls.Panel.DockType.html
+  name: DockType
+  nameWithType: DockType
+  fullName: H.Controls.Panel.DockType
+- uid: H.Controls.Panel.DragPanel
+  commentId: T:H.Controls.Panel.DragPanel
+  href: H.Controls.Panel.DragPanel.html
+  name: DragPanel
+  nameWithType: DragPanel
+  fullName: H.Controls.Panel.DragPanel
+- uid: H.Controls.Panel.AreaDefinition
+  commentId: T:H.Controls.Panel.AreaDefinition
+  parent: H.Controls.Panel
+  href: H.Controls.Panel.AreaDefinition.html
+  name: AreaDefinition
+  nameWithType: AreaDefinition
+  fullName: H.Controls.Panel.AreaDefinition
+- uid: H.Controls.Panel.NamedAreaDefinition
+  commentId: T:H.Controls.Panel.NamedAreaDefinition
+  href: H.Controls.Panel.NamedAreaDefinition.html
+  name: NamedAreaDefinition
+  nameWithType: NamedAreaDefinition
+  fullName: H.Controls.Panel.NamedAreaDefinition
+- uid: H.Controls.Panel.GridAreaAttach
+  commentId: T:H.Controls.Panel.GridAreaAttach
+  href: H.Controls.Panel.GridAreaAttach.html
+  name: GridAreaAttach
+  nameWithType: GridAreaAttach
+  fullName: H.Controls.Panel.GridAreaAttach
+- uid: H.Controls.Panel.PanelBase
+  commentId: T:H.Controls.Panel.PanelBase
+  parent: H.Controls.Panel
+  href: H.Controls.Panel.PanelBase.html
+  name: PanelBase
+  nameWithType: PanelBase
+  fullName: H.Controls.Panel.PanelBase
+- uid: H.Controls.Panel.RandomPanel
+  commentId: T:H.Controls.Panel.RandomPanel
+  href: H.Controls.Panel.RandomPanel.html
+  name: RandomPanel
+  nameWithType: RandomPanel
+  fullName: H.Controls.Panel.RandomPanel
+- uid: H.Controls.Panel
+  commentId: N:H.Controls.Panel
+  href: H.html
+  name: H.Controls.Panel
+  nameWithType: H.Controls.Panel
+  fullName: H.Controls.Panel
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Panel
+    name: Panel
+    href: H.Controls.Panel.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Panel
+    name: Panel
+    href: H.Controls.Panel.html

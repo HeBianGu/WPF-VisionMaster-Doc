@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Services.Common.Upgrade
+  commentId: N:H.Services.Common.Upgrade
+  id: H.Services.Common.Upgrade
+  children:
+  - H.Services.Common.Upgrade.IUpgradeService
+  - H.Services.Common.Upgrade.IocUpgrade
+  langs:
+  - csharp
+  - vb
+  name: H.Services.Common.Upgrade
+  nameWithType: H.Services.Common.Upgrade
+  fullName: H.Services.Common.Upgrade
+  type: Namespace
+  assemblies:
+  - H.Services.Common
+references:
+- uid: H.Services.Common.Upgrade.IocUpgrade
+  commentId: T:H.Services.Common.Upgrade.IocUpgrade
+  href: H.Services.Common.Upgrade.IocUpgrade.html
+  name: IocUpgrade
+  nameWithType: IocUpgrade
+  fullName: H.Services.Common.Upgrade.IocUpgrade
+- uid: H.Services.Common.Upgrade.IUpgradeService
+  commentId: T:H.Services.Common.Upgrade.IUpgradeService
+  href: H.Services.Common.Upgrade.IUpgradeService.html
+  name: IUpgradeService
+  nameWithType: IUpgradeService
+  fullName: H.Services.Common.Upgrade.IUpgradeService

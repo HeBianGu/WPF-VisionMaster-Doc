@@ -1,0 +1,114 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.OrderBox
+  commentId: N:H.Controls.OrderBox
+  id: H.Controls.OrderBox
+  children:
+  - H.Controls.OrderBox.IProperty
+  - H.Controls.OrderBox.OrderBase
+  - H.Controls.OrderBox.OrderBox
+  - H.Controls.OrderBox.OrderBoxOrder
+  - H.Controls.OrderBox.PropertyOrder
+  - H.Controls.OrderBox.PropertyOrderBox
+  - H.Controls.OrderBox.PropertyOrderBoxOrder
+  - H.Controls.OrderBox.PropertyOrderPrensenter
+  - H.Controls.OrderBox.PropertyOrdersPrensenter
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.OrderBox
+  nameWithType: H.Controls.OrderBox
+  fullName: H.Controls.OrderBox
+  type: Namespace
+  assemblies:
+  - H.Controls.OrderBox
+references:
+- uid: H.Controls.OrderBox.IProperty
+  commentId: T:H.Controls.OrderBox.IProperty
+  parent: H.Controls.OrderBox
+  href: H.Controls.OrderBox.IProperty.html
+  name: IProperty
+  nameWithType: IProperty
+  fullName: H.Controls.OrderBox.IProperty
+- uid: H.Controls.OrderBox.OrderBase
+  commentId: T:H.Controls.OrderBox.OrderBase
+  href: H.Controls.OrderBox.OrderBase.html
+  name: OrderBase
+  nameWithType: OrderBase
+  fullName: H.Controls.OrderBox.OrderBase
+- uid: H.Controls.OrderBox.OrderBox
+  commentId: T:H.Controls.OrderBox.OrderBox
+  parent: H.Controls.OrderBox
+  href: H.Controls.OrderBox.OrderBox.html
+  name: OrderBox
+  nameWithType: OrderBox
+  fullName: H.Controls.OrderBox.OrderBox
+- uid: H.Controls.OrderBox.OrderBoxOrder
+  commentId: T:H.Controls.OrderBox.OrderBoxOrder
+  href: H.Controls.OrderBox.OrderBoxOrder.html
+  name: OrderBoxOrder
+  nameWithType: OrderBoxOrder
+  fullName: H.Controls.OrderBox.OrderBoxOrder
+- uid: H.Controls.OrderBox.PropertyOrder
+  commentId: T:H.Controls.OrderBox.PropertyOrder
+  href: H.Controls.OrderBox.PropertyOrder.html
+  name: PropertyOrder
+  nameWithType: PropertyOrder
+  fullName: H.Controls.OrderBox.PropertyOrder
+- uid: H.Controls.OrderBox.PropertyOrderBox
+  commentId: T:H.Controls.OrderBox.PropertyOrderBox
+  parent: H.Controls.OrderBox
+  href: H.Controls.OrderBox.PropertyOrderBox.html
+  name: PropertyOrderBox
+  nameWithType: PropertyOrderBox
+  fullName: H.Controls.OrderBox.PropertyOrderBox
+- uid: H.Controls.OrderBox.PropertyOrderBoxOrder
+  commentId: T:H.Controls.OrderBox.PropertyOrderBoxOrder
+  href: H.Controls.OrderBox.PropertyOrderBoxOrder.html
+  name: PropertyOrderBoxOrder
+  nameWithType: PropertyOrderBoxOrder
+  fullName: H.Controls.OrderBox.PropertyOrderBoxOrder
+- uid: H.Controls.OrderBox.PropertyOrderPrensenter
+  commentId: T:H.Controls.OrderBox.PropertyOrderPrensenter
+  parent: H.Controls.OrderBox
+  href: H.Controls.OrderBox.PropertyOrderPrensenter.html
+  name: PropertyOrderPrensenter
+  nameWithType: PropertyOrderPrensenter
+  fullName: H.Controls.OrderBox.PropertyOrderPrensenter
+- uid: H.Controls.OrderBox.PropertyOrdersPrensenter
+  commentId: T:H.Controls.OrderBox.PropertyOrdersPrensenter
+  parent: H.Controls.OrderBox
+  href: H.Controls.OrderBox.PropertyOrdersPrensenter.html
+  name: PropertyOrdersPrensenter
+  nameWithType: PropertyOrdersPrensenter
+  fullName: H.Controls.OrderBox.PropertyOrdersPrensenter
+- uid: H.Controls.OrderBox
+  commentId: N:H.Controls.OrderBox
+  href: H.html
+  name: H.Controls.OrderBox
+  nameWithType: H.Controls.OrderBox
+  fullName: H.Controls.OrderBox
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.OrderBox
+    name: OrderBox
+    href: H.Controls.OrderBox.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.OrderBox
+    name: OrderBox
+    href: H.Controls.OrderBox.html

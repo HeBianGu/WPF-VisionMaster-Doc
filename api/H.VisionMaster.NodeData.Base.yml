@@ -1,0 +1,438 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.VisionMaster.NodeData.Base
+  commentId: N:H.VisionMaster.NodeData.Base
+  id: H.VisionMaster.NodeData.Base
+  children:
+  - H.VisionMaster.NodeData.Base.Base64MatchingNodeData`1
+  - H.VisionMaster.NodeData.Base.CropImagePresenter
+  - H.VisionMaster.NodeData.Base.CropImagePropertyPresenter
+  - H.VisionMaster.NodeData.Base.DemoNodeDataBase
+  - H.VisionMaster.NodeData.Base.HelpNodeDataBase
+  - H.VisionMaster.NodeData.Base.IBase64MatchingNodeData
+  - H.VisionMaster.NodeData.Base.IHelpNodeData
+  - H.VisionMaster.NodeData.Base.IROINodeData
+  - H.VisionMaster.NodeData.Base.IResultImageSourceNodeData
+  - H.VisionMaster.NodeData.Base.ISelectableResultImageNode`1
+  - H.VisionMaster.NodeData.Base.ISrcFilesNodeData
+  - H.VisionMaster.NodeData.Base.ISrcFilesVisionNodeData`1
+  - H.VisionMaster.NodeData.Base.ISrcVisionNodeData`1
+  - H.VisionMaster.NodeData.Base.IVideoCaptureNodeData
+  - H.VisionMaster.NodeData.Base.IVisionNodeData
+  - H.VisionMaster.NodeData.Base.IVisionNodeData`1
+  - H.VisionMaster.NodeData.Base.ROINodeData`1
+  - H.VisionMaster.NodeData.Base.ResultImageSourceNodeDataBase
+  - H.VisionMaster.NodeData.Base.SelectableResultImageNodeData`1
+  - H.VisionMaster.NodeData.Base.ShowPropertyNodeDataBase
+  - H.VisionMaster.NodeData.Base.SrcFilesNodeDataExtension
+  - H.VisionMaster.NodeData.Base.SrcFilesVisionNodeData`1
+  - H.VisionMaster.NodeData.Base.StyleNodeDataBase
+  - H.VisionMaster.NodeData.Base.StyleNodeDataBase.OpenCVFlowablePortData
+  - H.VisionMaster.NodeData.Base.VisionNodeDataBase
+  - H.VisionMaster.NodeData.Base.VisionNodeData`1
+  langs:
+  - csharp
+  - vb
+  name: H.VisionMaster.NodeData.Base
+  nameWithType: H.VisionMaster.NodeData.Base
+  fullName: H.VisionMaster.NodeData.Base
+  type: Namespace
+  assemblies:
+  - H.VisionMaster.NodeData
+references:
+- uid: H.VisionMaster.NodeData.Base.IBase64MatchingNodeData
+  commentId: T:H.VisionMaster.NodeData.Base.IBase64MatchingNodeData
+  parent: H.VisionMaster.NodeData.Base
+  href: H.VisionMaster.NodeData.Base.IBase64MatchingNodeData.html
+  name: IBase64MatchingNodeData
+  nameWithType: IBase64MatchingNodeData
+  fullName: H.VisionMaster.NodeData.Base.IBase64MatchingNodeData
+- uid: H.VisionMaster.NodeData.Base.Base64MatchingNodeData`1
+  commentId: T:H.VisionMaster.NodeData.Base.Base64MatchingNodeData`1
+  href: H.VisionMaster.NodeData.Base.Base64MatchingNodeData-1.html
+  name: Base64MatchingNodeData<T>
+  nameWithType: Base64MatchingNodeData<T>
+  fullName: H.VisionMaster.NodeData.Base.Base64MatchingNodeData<T>
+  nameWithType.vb: Base64MatchingNodeData(Of T)
+  fullName.vb: H.VisionMaster.NodeData.Base.Base64MatchingNodeData(Of T)
+  name.vb: Base64MatchingNodeData(Of T)
+  spec.csharp:
+  - uid: H.VisionMaster.NodeData.Base.Base64MatchingNodeData`1
+    name: Base64MatchingNodeData
+    href: H.VisionMaster.NodeData.Base.Base64MatchingNodeData-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.VisionMaster.NodeData.Base.Base64MatchingNodeData`1
+    name: Base64MatchingNodeData
+    href: H.VisionMaster.NodeData.Base.Base64MatchingNodeData-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.VisionMaster.NodeData.Base.CropImagePropertyPresenter
+  commentId: T:H.VisionMaster.NodeData.Base.CropImagePropertyPresenter
+  parent: H.VisionMaster.NodeData.Base
+  href: H.VisionMaster.NodeData.Base.CropImagePropertyPresenter.html
+  name: CropImagePropertyPresenter
+  nameWithType: CropImagePropertyPresenter
+  fullName: H.VisionMaster.NodeData.Base.CropImagePropertyPresenter
+- uid: H.VisionMaster.NodeData.Base.CropImagePresenter
+  commentId: T:H.VisionMaster.NodeData.Base.CropImagePresenter
+  href: H.VisionMaster.NodeData.Base.CropImagePresenter.html
+  name: CropImagePresenter
+  nameWithType: CropImagePresenter
+  fullName: H.VisionMaster.NodeData.Base.CropImagePresenter
+- uid: H.VisionMaster.NodeData.Base.DemoNodeDataBase
+  commentId: T:H.VisionMaster.NodeData.Base.DemoNodeDataBase
+  parent: H.VisionMaster.NodeData.Base
+  href: H.VisionMaster.NodeData.Base.DemoNodeDataBase.html
+  name: DemoNodeDataBase
+  nameWithType: DemoNodeDataBase
+  fullName: H.VisionMaster.NodeData.Base.DemoNodeDataBase
+- uid: H.VisionMaster.NodeData.Base.IHelpNodeData
+  commentId: T:H.VisionMaster.NodeData.Base.IHelpNodeData
+  parent: H.VisionMaster.NodeData.Base
+  href: H.VisionMaster.NodeData.Base.IHelpNodeData.html
+  name: IHelpNodeData
+  nameWithType: IHelpNodeData
+  fullName: H.VisionMaster.NodeData.Base.IHelpNodeData
+- uid: H.VisionMaster.NodeData.Base.HelpNodeDataBase
+  commentId: T:H.VisionMaster.NodeData.Base.HelpNodeDataBase
+  parent: H.VisionMaster.NodeData.Base
+  href: H.VisionMaster.NodeData.Base.HelpNodeDataBase.html
+  name: HelpNodeDataBase
+  nameWithType: HelpNodeDataBase
+  fullName: H.VisionMaster.NodeData.Base.HelpNodeDataBase
+- uid: H.VisionMaster.NodeData.Base.ISrcFilesNodeData
+  commentId: T:H.VisionMaster.NodeData.Base.ISrcFilesNodeData
+  parent: H.VisionMaster.NodeData.Base
+  href: H.VisionMaster.NodeData.Base.ISrcFilesNodeData.html
+  name: ISrcFilesNodeData
+  nameWithType: ISrcFilesNodeData
+  fullName: H.VisionMaster.NodeData.Base.ISrcFilesNodeData
+- uid: H.VisionMaster.NodeData.Base.SrcFilesNodeDataExtension
+  commentId: T:H.VisionMaster.NodeData.Base.SrcFilesNodeDataExtension
+  parent: H.VisionMaster.NodeData.Base
+  href: H.VisionMaster.NodeData.Base.SrcFilesNodeDataExtension.html
+  name: SrcFilesNodeDataExtension
+  nameWithType: SrcFilesNodeDataExtension
+  fullName: H.VisionMaster.NodeData.Base.SrcFilesNodeDataExtension
+- uid: H.VisionMaster.NodeData.Base.ISrcFilesVisionNodeData`1
+  commentId: T:H.VisionMaster.NodeData.Base.ISrcFilesVisionNodeData`1
+  href: H.VisionMaster.NodeData.Base.ISrcFilesVisionNodeData-1.html
+  name: ISrcFilesVisionNodeData<T>
+  nameWithType: ISrcFilesVisionNodeData<T>
+  fullName: H.VisionMaster.NodeData.Base.ISrcFilesVisionNodeData<T>
+  nameWithType.vb: ISrcFilesVisionNodeData(Of T)
+  fullName.vb: H.VisionMaster.NodeData.Base.ISrcFilesVisionNodeData(Of T)
+  name.vb: ISrcFilesVisionNodeData(Of T)
+  spec.csharp:
+  - uid: H.VisionMaster.NodeData.Base.ISrcFilesVisionNodeData`1
+    name: ISrcFilesVisionNodeData
+    href: H.VisionMaster.NodeData.Base.ISrcFilesVisionNodeData-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.VisionMaster.NodeData.Base.ISrcFilesVisionNodeData`1
+    name: ISrcFilesVisionNodeData
+    href: H.VisionMaster.NodeData.Base.ISrcFilesVisionNodeData-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.VisionMaster.NodeData.Base.ISrcVisionNodeData`1
+  commentId: T:H.VisionMaster.NodeData.Base.ISrcVisionNodeData`1
+  href: H.VisionMaster.NodeData.Base.ISrcVisionNodeData-1.html
+  name: ISrcVisionNodeData<T>
+  nameWithType: ISrcVisionNodeData<T>
+  fullName: H.VisionMaster.NodeData.Base.ISrcVisionNodeData<T>
+  nameWithType.vb: ISrcVisionNodeData(Of T)
+  fullName.vb: H.VisionMaster.NodeData.Base.ISrcVisionNodeData(Of T)
+  name.vb: ISrcVisionNodeData(Of T)
+  spec.csharp:
+  - uid: H.VisionMaster.NodeData.Base.ISrcVisionNodeData`1
+    name: ISrcVisionNodeData
+    href: H.VisionMaster.NodeData.Base.ISrcVisionNodeData-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.VisionMaster.NodeData.Base.ISrcVisionNodeData`1
+    name: ISrcVisionNodeData
+    href: H.VisionMaster.NodeData.Base.ISrcVisionNodeData-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.VisionMaster.NodeData.Base.IVisionNodeData
+  commentId: T:H.VisionMaster.NodeData.Base.IVisionNodeData
+  parent: H.VisionMaster.NodeData.Base
+  href: H.VisionMaster.NodeData.Base.IVisionNodeData.html
+  name: IVisionNodeData
+  nameWithType: IVisionNodeData
+  fullName: H.VisionMaster.NodeData.Base.IVisionNodeData
+- uid: H.VisionMaster.NodeData.Base.IVideoCaptureNodeData
+  commentId: T:H.VisionMaster.NodeData.Base.IVideoCaptureNodeData
+  parent: H.VisionMaster.NodeData.Base
+  href: H.VisionMaster.NodeData.Base.IVideoCaptureNodeData.html
+  name: IVideoCaptureNodeData
+  nameWithType: IVideoCaptureNodeData
+  fullName: H.VisionMaster.NodeData.Base.IVideoCaptureNodeData
+- uid: H.VisionMaster.NodeData.Base.IVisionNodeData`1
+  commentId: T:H.VisionMaster.NodeData.Base.IVisionNodeData`1
+  href: H.VisionMaster.NodeData.Base.IVisionNodeData-1.html
+  name: IVisionNodeData<T>
+  nameWithType: IVisionNodeData<T>
+  fullName: H.VisionMaster.NodeData.Base.IVisionNodeData<T>
+  nameWithType.vb: IVisionNodeData(Of T)
+  fullName.vb: H.VisionMaster.NodeData.Base.IVisionNodeData(Of T)
+  name.vb: IVisionNodeData(Of T)
+  spec.csharp:
+  - uid: H.VisionMaster.NodeData.Base.IVisionNodeData`1
+    name: IVisionNodeData
+    href: H.VisionMaster.NodeData.Base.IVisionNodeData-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.VisionMaster.NodeData.Base.IVisionNodeData`1
+    name: IVisionNodeData
+    href: H.VisionMaster.NodeData.Base.IVisionNodeData-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.VisionMaster.NodeData.Base.IResultImageSourceNodeData
+  commentId: T:H.VisionMaster.NodeData.Base.IResultImageSourceNodeData
+  parent: H.VisionMaster.NodeData.Base
+  href: H.VisionMaster.NodeData.Base.IResultImageSourceNodeData.html
+  name: IResultImageSourceNodeData
+  nameWithType: IResultImageSourceNodeData
+  fullName: H.VisionMaster.NodeData.Base.IResultImageSourceNodeData
+- uid: H.VisionMaster.NodeData.Base.ResultImageSourceNodeDataBase
+  commentId: T:H.VisionMaster.NodeData.Base.ResultImageSourceNodeDataBase
+  parent: H.VisionMaster.NodeData.Base
+  href: H.VisionMaster.NodeData.Base.ResultImageSourceNodeDataBase.html
+  name: ResultImageSourceNodeDataBase
+  nameWithType: ResultImageSourceNodeDataBase
+  fullName: H.VisionMaster.NodeData.Base.ResultImageSourceNodeDataBase
+- uid: H.VisionMaster.NodeData.Base.IROINodeData
+  commentId: T:H.VisionMaster.NodeData.Base.IROINodeData
+  parent: H.VisionMaster.NodeData.Base
+  href: H.VisionMaster.NodeData.Base.IROINodeData.html
+  name: IROINodeData
+  nameWithType: IROINodeData
+  fullName: H.VisionMaster.NodeData.Base.IROINodeData
+- uid: H.VisionMaster.NodeData.Base.ROINodeData`1
+  commentId: T:H.VisionMaster.NodeData.Base.ROINodeData`1
+  href: H.VisionMaster.NodeData.Base.ROINodeData-1.html
+  name: ROINodeData<T>
+  nameWithType: ROINodeData<T>
+  fullName: H.VisionMaster.NodeData.Base.ROINodeData<T>
+  nameWithType.vb: ROINodeData(Of T)
+  fullName.vb: H.VisionMaster.NodeData.Base.ROINodeData(Of T)
+  name.vb: ROINodeData(Of T)
+  spec.csharp:
+  - uid: H.VisionMaster.NodeData.Base.ROINodeData`1
+    name: ROINodeData
+    href: H.VisionMaster.NodeData.Base.ROINodeData-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.VisionMaster.NodeData.Base.ROINodeData`1
+    name: ROINodeData
+    href: H.VisionMaster.NodeData.Base.ROINodeData-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.VisionMaster.NodeData.Base.ISelectableResultImageNode`1
+  commentId: T:H.VisionMaster.NodeData.Base.ISelectableResultImageNode`1
+  href: H.VisionMaster.NodeData.Base.ISelectableResultImageNode-1.html
+  name: ISelectableResultImageNode<T>
+  nameWithType: ISelectableResultImageNode<T>
+  fullName: H.VisionMaster.NodeData.Base.ISelectableResultImageNode<T>
+  nameWithType.vb: ISelectableResultImageNode(Of T)
+  fullName.vb: H.VisionMaster.NodeData.Base.ISelectableResultImageNode(Of T)
+  name.vb: ISelectableResultImageNode(Of T)
+  spec.csharp:
+  - uid: H.VisionMaster.NodeData.Base.ISelectableResultImageNode`1
+    name: ISelectableResultImageNode
+    href: H.VisionMaster.NodeData.Base.ISelectableResultImageNode-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.VisionMaster.NodeData.Base.ISelectableResultImageNode`1
+    name: ISelectableResultImageNode
+    href: H.VisionMaster.NodeData.Base.ISelectableResultImageNode-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.VisionMaster.NodeData.Base.SelectableResultImageNodeData`1
+  commentId: T:H.VisionMaster.NodeData.Base.SelectableResultImageNodeData`1
+  href: H.VisionMaster.NodeData.Base.SelectableResultImageNodeData-1.html
+  name: SelectableResultImageNodeData<T>
+  nameWithType: SelectableResultImageNodeData<T>
+  fullName: H.VisionMaster.NodeData.Base.SelectableResultImageNodeData<T>
+  nameWithType.vb: SelectableResultImageNodeData(Of T)
+  fullName.vb: H.VisionMaster.NodeData.Base.SelectableResultImageNodeData(Of T)
+  name.vb: SelectableResultImageNodeData(Of T)
+  spec.csharp:
+  - uid: H.VisionMaster.NodeData.Base.SelectableResultImageNodeData`1
+    name: SelectableResultImageNodeData
+    href: H.VisionMaster.NodeData.Base.SelectableResultImageNodeData-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.VisionMaster.NodeData.Base.SelectableResultImageNodeData`1
+    name: SelectableResultImageNodeData
+    href: H.VisionMaster.NodeData.Base.SelectableResultImageNodeData-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.VisionMaster.NodeData.Base.ShowPropertyNodeDataBase
+  commentId: T:H.VisionMaster.NodeData.Base.ShowPropertyNodeDataBase
+  parent: H.VisionMaster.NodeData.Base
+  href: H.VisionMaster.NodeData.Base.ShowPropertyNodeDataBase.html
+  name: ShowPropertyNodeDataBase
+  nameWithType: ShowPropertyNodeDataBase
+  fullName: H.VisionMaster.NodeData.Base.ShowPropertyNodeDataBase
+- uid: H.VisionMaster.NodeData.Base.SrcFilesVisionNodeData`1
+  commentId: T:H.VisionMaster.NodeData.Base.SrcFilesVisionNodeData`1
+  href: H.VisionMaster.NodeData.Base.SrcFilesVisionNodeData-1.html
+  name: SrcFilesVisionNodeData<T>
+  nameWithType: SrcFilesVisionNodeData<T>
+  fullName: H.VisionMaster.NodeData.Base.SrcFilesVisionNodeData<T>
+  nameWithType.vb: SrcFilesVisionNodeData(Of T)
+  fullName.vb: H.VisionMaster.NodeData.Base.SrcFilesVisionNodeData(Of T)
+  name.vb: SrcFilesVisionNodeData(Of T)
+  spec.csharp:
+  - uid: H.VisionMaster.NodeData.Base.SrcFilesVisionNodeData`1
+    name: SrcFilesVisionNodeData
+    href: H.VisionMaster.NodeData.Base.SrcFilesVisionNodeData-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.VisionMaster.NodeData.Base.SrcFilesVisionNodeData`1
+    name: SrcFilesVisionNodeData
+    href: H.VisionMaster.NodeData.Base.SrcFilesVisionNodeData-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.VisionMaster.NodeData.Base.StyleNodeDataBase
+  commentId: T:H.VisionMaster.NodeData.Base.StyleNodeDataBase
+  parent: H.VisionMaster.NodeData.Base
+  href: H.VisionMaster.NodeData.Base.StyleNodeDataBase.html
+  name: StyleNodeDataBase
+  nameWithType: StyleNodeDataBase
+  fullName: H.VisionMaster.NodeData.Base.StyleNodeDataBase
+- uid: H.VisionMaster.NodeData.Base.StyleNodeDataBase.OpenCVFlowablePortData
+  commentId: T:H.VisionMaster.NodeData.Base.StyleNodeDataBase.OpenCVFlowablePortData
+  href: H.VisionMaster.NodeData.Base.StyleNodeDataBase.html
+  name: StyleNodeDataBase.OpenCVFlowablePortData
+  nameWithType: StyleNodeDataBase.OpenCVFlowablePortData
+  fullName: H.VisionMaster.NodeData.Base.StyleNodeDataBase.OpenCVFlowablePortData
+  spec.csharp:
+  - uid: H.VisionMaster.NodeData.Base.StyleNodeDataBase
+    name: StyleNodeDataBase
+    href: H.VisionMaster.NodeData.Base.StyleNodeDataBase.html
+  - name: .
+  - uid: H.VisionMaster.NodeData.Base.StyleNodeDataBase.OpenCVFlowablePortData
+    name: OpenCVFlowablePortData
+    href: H.VisionMaster.NodeData.Base.StyleNodeDataBase.OpenCVFlowablePortData.html
+  spec.vb:
+  - uid: H.VisionMaster.NodeData.Base.StyleNodeDataBase
+    name: StyleNodeDataBase
+    href: H.VisionMaster.NodeData.Base.StyleNodeDataBase.html
+  - name: .
+  - uid: H.VisionMaster.NodeData.Base.StyleNodeDataBase.OpenCVFlowablePortData
+    name: OpenCVFlowablePortData
+    href: H.VisionMaster.NodeData.Base.StyleNodeDataBase.OpenCVFlowablePortData.html
+- uid: H.VisionMaster.NodeData.Base.VisionNodeData`1
+  commentId: T:H.VisionMaster.NodeData.Base.VisionNodeData`1
+  href: H.VisionMaster.NodeData.Base.VisionNodeData-1.html
+  name: VisionNodeData<T>
+  nameWithType: VisionNodeData<T>
+  fullName: H.VisionMaster.NodeData.Base.VisionNodeData<T>
+  nameWithType.vb: VisionNodeData(Of T)
+  fullName.vb: H.VisionMaster.NodeData.Base.VisionNodeData(Of T)
+  name.vb: VisionNodeData(Of T)
+  spec.csharp:
+  - uid: H.VisionMaster.NodeData.Base.VisionNodeData`1
+    name: VisionNodeData
+    href: H.VisionMaster.NodeData.Base.VisionNodeData-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.VisionMaster.NodeData.Base.VisionNodeData`1
+    name: VisionNodeData
+    href: H.VisionMaster.NodeData.Base.VisionNodeData-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.VisionMaster.NodeData.Base.VisionNodeDataBase
+  commentId: T:H.VisionMaster.NodeData.Base.VisionNodeDataBase
+  parent: H.VisionMaster.NodeData.Base
+  href: H.VisionMaster.NodeData.Base.VisionNodeDataBase.html
+  name: VisionNodeDataBase
+  nameWithType: VisionNodeDataBase
+  fullName: H.VisionMaster.NodeData.Base.VisionNodeDataBase
+- uid: H.VisionMaster.NodeData.Base
+  commentId: N:H.VisionMaster.NodeData.Base
+  href: H.html
+  name: H.VisionMaster.NodeData.Base
+  nameWithType: H.VisionMaster.NodeData.Base
+  fullName: H.VisionMaster.NodeData.Base
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.NodeData
+    name: NodeData
+    href: H.VisionMaster.NodeData.html
+  - name: .
+  - uid: H.VisionMaster.NodeData.Base
+    name: Base
+    href: H.VisionMaster.NodeData.Base.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.NodeData
+    name: NodeData
+    href: H.VisionMaster.NodeData.html
+  - name: .
+  - uid: H.VisionMaster.NodeData.Base
+    name: Base
+    href: H.VisionMaster.NodeData.Base.html

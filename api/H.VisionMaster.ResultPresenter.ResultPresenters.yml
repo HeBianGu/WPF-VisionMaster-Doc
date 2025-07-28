@@ -1,0 +1,209 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.VisionMaster.ResultPresenter.ResultPresenters
+  commentId: N:H.VisionMaster.ResultPresenter.ResultPresenters
+  id: H.VisionMaster.ResultPresenter.ResultPresenters
+  children:
+  - H.VisionMaster.ResultPresenter.ResultPresenters.DataGridResultPresenterBase
+  - H.VisionMaster.ResultPresenter.ResultPresenters.DataGridResultPresenter`1
+  - H.VisionMaster.ResultPresenter.ResultPresenters.IRectangleResultItem
+  - H.VisionMaster.ResultPresenter.ResultPresenters.IResultPresenterItem
+  - H.VisionMaster.ResultPresenter.ResultPresenters.LineResultItem
+  - H.VisionMaster.ResultPresenter.ResultPresenters.RectangleResultItem
+  - H.VisionMaster.ResultPresenter.ResultPresenters.ResultPresenterBase
+  - H.VisionMaster.ResultPresenter.ResultPresenters.ResultPresenterItemBase
+  - H.VisionMaster.ResultPresenter.ResultPresenters.ScoreRectangleResultItem
+  - H.VisionMaster.ResultPresenter.ResultPresenters.ValueResultPresenterBase
+  - H.VisionMaster.ResultPresenter.ResultPresenters.ValueResultPresenterItem`1
+  - H.VisionMaster.ResultPresenter.ResultPresenters.ValueResultPresenter`1
+  - H.VisionMaster.ResultPresenter.ResultPresenters.VisionLine
+  langs:
+  - csharp
+  - vb
+  name: H.VisionMaster.ResultPresenter.ResultPresenters
+  nameWithType: H.VisionMaster.ResultPresenter.ResultPresenters
+  fullName: H.VisionMaster.ResultPresenter.ResultPresenters
+  type: Namespace
+  assemblies:
+  - H.VisionMaster.ResultPresenter
+references:
+- uid: H.VisionMaster.ResultPresenter.ResultPresenters.DataGridResultPresenter`1
+  commentId: T:H.VisionMaster.ResultPresenter.ResultPresenters.DataGridResultPresenter`1
+  href: H.VisionMaster.ResultPresenter.ResultPresenters.DataGridResultPresenter-1.html
+  name: DataGridResultPresenter<T>
+  nameWithType: DataGridResultPresenter<T>
+  fullName: H.VisionMaster.ResultPresenter.ResultPresenters.DataGridResultPresenter<T>
+  nameWithType.vb: DataGridResultPresenter(Of T)
+  fullName.vb: H.VisionMaster.ResultPresenter.ResultPresenters.DataGridResultPresenter(Of T)
+  name.vb: DataGridResultPresenter(Of T)
+  spec.csharp:
+  - uid: H.VisionMaster.ResultPresenter.ResultPresenters.DataGridResultPresenter`1
+    name: DataGridResultPresenter
+    href: H.VisionMaster.ResultPresenter.ResultPresenters.DataGridResultPresenter-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.VisionMaster.ResultPresenter.ResultPresenters.DataGridResultPresenter`1
+    name: DataGridResultPresenter
+    href: H.VisionMaster.ResultPresenter.ResultPresenters.DataGridResultPresenter-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.VisionMaster.ResultPresenter.ResultPresenters.DataGridResultPresenterBase
+  commentId: T:H.VisionMaster.ResultPresenter.ResultPresenters.DataGridResultPresenterBase
+  parent: H.VisionMaster.ResultPresenter.ResultPresenters
+  href: H.VisionMaster.ResultPresenter.ResultPresenters.DataGridResultPresenterBase.html
+  name: DataGridResultPresenterBase
+  nameWithType: DataGridResultPresenterBase
+  fullName: H.VisionMaster.ResultPresenter.ResultPresenters.DataGridResultPresenterBase
+- uid: H.VisionMaster.ResultPresenter.ResultPresenters.VisionLine
+  commentId: T:H.VisionMaster.ResultPresenter.ResultPresenters.VisionLine
+  href: H.VisionMaster.ResultPresenter.ResultPresenters.VisionLine.html
+  name: VisionLine
+  nameWithType: VisionLine
+  fullName: H.VisionMaster.ResultPresenter.ResultPresenters.VisionLine
+- uid: H.VisionMaster.ResultPresenter.ResultPresenters.LineResultItem
+  commentId: T:H.VisionMaster.ResultPresenter.ResultPresenters.LineResultItem
+  href: H.VisionMaster.ResultPresenter.ResultPresenters.LineResultItem.html
+  name: LineResultItem
+  nameWithType: LineResultItem
+  fullName: H.VisionMaster.ResultPresenter.ResultPresenters.LineResultItem
+- uid: H.VisionMaster.ResultPresenter.ResultPresenters.IRectangleResultItem
+  commentId: T:H.VisionMaster.ResultPresenter.ResultPresenters.IRectangleResultItem
+  parent: H.VisionMaster.ResultPresenter.ResultPresenters
+  href: H.VisionMaster.ResultPresenter.ResultPresenters.IRectangleResultItem.html
+  name: IRectangleResultItem
+  nameWithType: IRectangleResultItem
+  fullName: H.VisionMaster.ResultPresenter.ResultPresenters.IRectangleResultItem
+- uid: H.VisionMaster.ResultPresenter.ResultPresenters.RectangleResultItem
+  commentId: T:H.VisionMaster.ResultPresenter.ResultPresenters.RectangleResultItem
+  parent: H.VisionMaster.ResultPresenter.ResultPresenters
+  href: H.VisionMaster.ResultPresenter.ResultPresenters.RectangleResultItem.html
+  name: RectangleResultItem
+  nameWithType: RectangleResultItem
+  fullName: H.VisionMaster.ResultPresenter.ResultPresenters.RectangleResultItem
+- uid: H.VisionMaster.ResultPresenter.ResultPresenters.IResultPresenterItem
+  commentId: T:H.VisionMaster.ResultPresenter.ResultPresenters.IResultPresenterItem
+  parent: H.VisionMaster.ResultPresenter.ResultPresenters
+  href: H.VisionMaster.ResultPresenter.ResultPresenters.IResultPresenterItem.html
+  name: IResultPresenterItem
+  nameWithType: IResultPresenterItem
+  fullName: H.VisionMaster.ResultPresenter.ResultPresenters.IResultPresenterItem
+- uid: H.VisionMaster.ResultPresenter.ResultPresenters.ResultPresenterItemBase
+  commentId: T:H.VisionMaster.ResultPresenter.ResultPresenters.ResultPresenterItemBase
+  parent: H.VisionMaster.ResultPresenter.ResultPresenters
+  href: H.VisionMaster.ResultPresenter.ResultPresenters.ResultPresenterItemBase.html
+  name: ResultPresenterItemBase
+  nameWithType: ResultPresenterItemBase
+  fullName: H.VisionMaster.ResultPresenter.ResultPresenters.ResultPresenterItemBase
+- uid: H.VisionMaster.ResultPresenter.ResultPresenters.ValueResultPresenterItem`1
+  commentId: T:H.VisionMaster.ResultPresenter.ResultPresenters.ValueResultPresenterItem`1
+  href: H.VisionMaster.ResultPresenter.ResultPresenters.ValueResultPresenterItem-1.html
+  name: ValueResultPresenterItem<T>
+  nameWithType: ValueResultPresenterItem<T>
+  fullName: H.VisionMaster.ResultPresenter.ResultPresenters.ValueResultPresenterItem<T>
+  nameWithType.vb: ValueResultPresenterItem(Of T)
+  fullName.vb: H.VisionMaster.ResultPresenter.ResultPresenters.ValueResultPresenterItem(Of T)
+  name.vb: ValueResultPresenterItem(Of T)
+  spec.csharp:
+  - uid: H.VisionMaster.ResultPresenter.ResultPresenters.ValueResultPresenterItem`1
+    name: ValueResultPresenterItem
+    href: H.VisionMaster.ResultPresenter.ResultPresenters.ValueResultPresenterItem-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.VisionMaster.ResultPresenter.ResultPresenters.ValueResultPresenterItem`1
+    name: ValueResultPresenterItem
+    href: H.VisionMaster.ResultPresenter.ResultPresenters.ValueResultPresenterItem-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.VisionMaster.ResultPresenter.ResultPresenters.ResultPresenterBase
+  commentId: T:H.VisionMaster.ResultPresenter.ResultPresenters.ResultPresenterBase
+  parent: H.VisionMaster.ResultPresenter.ResultPresenters
+  href: H.VisionMaster.ResultPresenter.ResultPresenters.ResultPresenterBase.html
+  name: ResultPresenterBase
+  nameWithType: ResultPresenterBase
+  fullName: H.VisionMaster.ResultPresenter.ResultPresenters.ResultPresenterBase
+- uid: H.VisionMaster.ResultPresenter.ResultPresenters.ScoreRectangleResultItem
+  commentId: T:H.VisionMaster.ResultPresenter.ResultPresenters.ScoreRectangleResultItem
+  href: H.VisionMaster.ResultPresenter.ResultPresenters.ScoreRectangleResultItem.html
+  name: ScoreRectangleResultItem
+  nameWithType: ScoreRectangleResultItem
+  fullName: H.VisionMaster.ResultPresenter.ResultPresenters.ScoreRectangleResultItem
+- uid: H.VisionMaster.ResultPresenter.ResultPresenters.ValueResultPresenter`1
+  commentId: T:H.VisionMaster.ResultPresenter.ResultPresenters.ValueResultPresenter`1
+  href: H.VisionMaster.ResultPresenter.ResultPresenters.ValueResultPresenter-1.html
+  name: ValueResultPresenter<T>
+  nameWithType: ValueResultPresenter<T>
+  fullName: H.VisionMaster.ResultPresenter.ResultPresenters.ValueResultPresenter<T>
+  nameWithType.vb: ValueResultPresenter(Of T)
+  fullName.vb: H.VisionMaster.ResultPresenter.ResultPresenters.ValueResultPresenter(Of T)
+  name.vb: ValueResultPresenter(Of T)
+  spec.csharp:
+  - uid: H.VisionMaster.ResultPresenter.ResultPresenters.ValueResultPresenter`1
+    name: ValueResultPresenter
+    href: H.VisionMaster.ResultPresenter.ResultPresenters.ValueResultPresenter-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.VisionMaster.ResultPresenter.ResultPresenters.ValueResultPresenter`1
+    name: ValueResultPresenter
+    href: H.VisionMaster.ResultPresenter.ResultPresenters.ValueResultPresenter-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.VisionMaster.ResultPresenter.ResultPresenters.ValueResultPresenterBase
+  commentId: T:H.VisionMaster.ResultPresenter.ResultPresenters.ValueResultPresenterBase
+  parent: H.VisionMaster.ResultPresenter.ResultPresenters
+  href: H.VisionMaster.ResultPresenter.ResultPresenters.ValueResultPresenterBase.html
+  name: ValueResultPresenterBase
+  nameWithType: ValueResultPresenterBase
+  fullName: H.VisionMaster.ResultPresenter.ResultPresenters.ValueResultPresenterBase
+- uid: H.VisionMaster.ResultPresenter.ResultPresenters
+  commentId: N:H.VisionMaster.ResultPresenter.ResultPresenters
+  href: H.html
+  name: H.VisionMaster.ResultPresenter.ResultPresenters
+  nameWithType: H.VisionMaster.ResultPresenter.ResultPresenters
+  fullName: H.VisionMaster.ResultPresenter.ResultPresenters
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.ResultPresenter
+    name: ResultPresenter
+    href: H.VisionMaster.ResultPresenter.html
+  - name: .
+  - uid: H.VisionMaster.ResultPresenter.ResultPresenters
+    name: ResultPresenters
+    href: H.VisionMaster.ResultPresenter.ResultPresenters.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.ResultPresenter
+    name: ResultPresenter
+    href: H.VisionMaster.ResultPresenter.html
+  - name: .
+  - uid: H.VisionMaster.ResultPresenter.ResultPresenters
+    name: ResultPresenters
+    href: H.VisionMaster.ResultPresenter.ResultPresenters.html

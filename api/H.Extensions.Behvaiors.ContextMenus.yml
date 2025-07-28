@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.Behvaiors.ContextMenus
+  commentId: N:H.Extensions.Behvaiors.ContextMenus
+  id: H.Extensions.Behvaiors.ContextMenus
+  children:
+  - H.Extensions.Behvaiors.ContextMenus.ContextMenuDisplayBehavior
+  - H.Extensions.Behvaiors.ContextMenus.MouseOverContextMenuBehavior
+  - H.Extensions.Behvaiors.ContextMenus.ToggleButtonContextMenuBehavior
+  langs:
+  - csharp
+  - vb
+  name: H.Extensions.Behvaiors.ContextMenus
+  nameWithType: H.Extensions.Behvaiors.ContextMenus
+  fullName: H.Extensions.Behvaiors.ContextMenus
+  type: Namespace
+  assemblies:
+  - H.Extensions.Behvaiors
+references:
+- uid: H.Extensions.Behvaiors.ContextMenus.ContextMenuDisplayBehavior
+  commentId: T:H.Extensions.Behvaiors.ContextMenus.ContextMenuDisplayBehavior
+  href: H.Extensions.Behvaiors.ContextMenus.ContextMenuDisplayBehavior.html
+  name: ContextMenuDisplayBehavior
+  nameWithType: ContextMenuDisplayBehavior
+  fullName: H.Extensions.Behvaiors.ContextMenus.ContextMenuDisplayBehavior
+- uid: H.Extensions.Behvaiors.ContextMenus.MouseOverContextMenuBehavior
+  commentId: T:H.Extensions.Behvaiors.ContextMenus.MouseOverContextMenuBehavior
+  href: H.Extensions.Behvaiors.ContextMenus.MouseOverContextMenuBehavior.html
+  name: MouseOverContextMenuBehavior
+  nameWithType: MouseOverContextMenuBehavior
+  fullName: H.Extensions.Behvaiors.ContextMenus.MouseOverContextMenuBehavior
+- uid: H.Extensions.Behvaiors.ContextMenus.ToggleButtonContextMenuBehavior
+  commentId: T:H.Extensions.Behvaiors.ContextMenus.ToggleButtonContextMenuBehavior
+  href: H.Extensions.Behvaiors.ContextMenus.ToggleButtonContextMenuBehavior.html
+  name: ToggleButtonContextMenuBehavior
+  nameWithType: ToggleButtonContextMenuBehavior
+  fullName: H.Extensions.Behvaiors.ContextMenus.ToggleButtonContextMenuBehavior

@@ -1,0 +1,326 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.ValueConverter
+  commentId: N:H.ValueConverter
+  id: H.ValueConverter
+  children:
+  - H.ValueConverter.Converter
+  - H.ValueConverter.ConverterBase`2
+  - H.ValueConverter.ConverterBase`3
+  - H.ValueConverter.DependencyConverterBase
+  - H.ValueConverter.GetGemeotryFromStringConverter
+  - H.ValueConverter.GetRectToIntStringConverter
+  - H.ValueConverter.GetWriteObjectConverter
+  - H.ValueConverter.IConvertibleConverter
+  - H.ValueConverter.IEnumerableConverterBase`2
+  - H.ValueConverter.IEnumerableConverterBase`3
+  - H.ValueConverter.IEnumerableTypeConverterBase`1
+  - H.ValueConverter.IEnumerableTypeConverterBase`2
+  - H.ValueConverter.MarkupMultiValueConverterBase
+  - H.ValueConverter.MarkupValueConverterBase
+  - H.ValueConverter.MultiConverterBase`2
+  langs:
+  - csharp
+  - vb
+  name: H.ValueConverter
+  nameWithType: H.ValueConverter
+  fullName: H.ValueConverter
+  type: Namespace
+  assemblies:
+  - H.ValueConverter
+references:
+- uid: H.ValueConverter.Converter
+  commentId: T:H.ValueConverter.Converter
+  href: H.ValueConverter.Converter.html
+  name: Converter
+  nameWithType: Converter
+  fullName: H.ValueConverter.Converter
+- uid: H.ValueConverter.ConverterBase`3
+  commentId: T:H.ValueConverter.ConverterBase`3
+  href: H.ValueConverter.ConverterBase-3.html
+  name: ConverterBase<T, P, R>
+  nameWithType: ConverterBase<T, P, R>
+  fullName: H.ValueConverter.ConverterBase<T, P, R>
+  nameWithType.vb: ConverterBase(Of T, P, R)
+  fullName.vb: H.ValueConverter.ConverterBase(Of T, P, R)
+  name.vb: ConverterBase(Of T, P, R)
+  spec.csharp:
+  - uid: H.ValueConverter.ConverterBase`3
+    name: ConverterBase
+    href: H.ValueConverter.ConverterBase-3.html
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: P
+  - name: ','
+  - name: " "
+  - name: R
+  - name: '>'
+  spec.vb:
+  - uid: H.ValueConverter.ConverterBase`3
+    name: ConverterBase
+    href: H.ValueConverter.ConverterBase-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: P
+  - name: ','
+  - name: " "
+  - name: R
+  - name: )
+- uid: H.ValueConverter.ConverterBase`2
+  commentId: T:H.ValueConverter.ConverterBase`2
+  href: H.ValueConverter.ConverterBase-2.html
+  name: ConverterBase<T, R>
+  nameWithType: ConverterBase<T, R>
+  fullName: H.ValueConverter.ConverterBase<T, R>
+  nameWithType.vb: ConverterBase(Of T, R)
+  fullName.vb: H.ValueConverter.ConverterBase(Of T, R)
+  name.vb: ConverterBase(Of T, R)
+  spec.csharp:
+  - uid: H.ValueConverter.ConverterBase`2
+    name: ConverterBase
+    href: H.ValueConverter.ConverterBase-2.html
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: R
+  - name: '>'
+  spec.vb:
+  - uid: H.ValueConverter.ConverterBase`2
+    name: ConverterBase
+    href: H.ValueConverter.ConverterBase-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: R
+  - name: )
+- uid: H.ValueConverter.MultiConverterBase`2
+  commentId: T:H.ValueConverter.MultiConverterBase`2
+  href: H.ValueConverter.MultiConverterBase-2.html
+  name: MultiConverterBase<T, R>
+  nameWithType: MultiConverterBase<T, R>
+  fullName: H.ValueConverter.MultiConverterBase<T, R>
+  nameWithType.vb: MultiConverterBase(Of T, R)
+  fullName.vb: H.ValueConverter.MultiConverterBase(Of T, R)
+  name.vb: MultiConverterBase(Of T, R)
+  spec.csharp:
+  - uid: H.ValueConverter.MultiConverterBase`2
+    name: MultiConverterBase
+    href: H.ValueConverter.MultiConverterBase-2.html
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: R
+  - name: '>'
+  spec.vb:
+  - uid: H.ValueConverter.MultiConverterBase`2
+    name: MultiConverterBase
+    href: H.ValueConverter.MultiConverterBase-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: R
+  - name: )
+- uid: H.ValueConverter.IConvertibleConverter
+  commentId: T:H.ValueConverter.IConvertibleConverter
+  href: H.ValueConverter.IConvertibleConverter.html
+  name: IConvertibleConverter
+  nameWithType: IConvertibleConverter
+  fullName: H.ValueConverter.IConvertibleConverter
+- uid: H.ValueConverter.IEnumerableConverterBase`2
+  commentId: T:H.ValueConverter.IEnumerableConverterBase`2
+  href: H.ValueConverter.IEnumerableConverterBase-2.html
+  name: IEnumerableConverterBase<T, R>
+  nameWithType: IEnumerableConverterBase<T, R>
+  fullName: H.ValueConverter.IEnumerableConverterBase<T, R>
+  nameWithType.vb: IEnumerableConverterBase(Of T, R)
+  fullName.vb: H.ValueConverter.IEnumerableConverterBase(Of T, R)
+  name.vb: IEnumerableConverterBase(Of T, R)
+  spec.csharp:
+  - uid: H.ValueConverter.IEnumerableConverterBase`2
+    name: IEnumerableConverterBase
+    href: H.ValueConverter.IEnumerableConverterBase-2.html
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: R
+  - name: '>'
+  spec.vb:
+  - uid: H.ValueConverter.IEnumerableConverterBase`2
+    name: IEnumerableConverterBase
+    href: H.ValueConverter.IEnumerableConverterBase-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: R
+  - name: )
+- uid: H.ValueConverter.IEnumerableConverterBase`3
+  commentId: T:H.ValueConverter.IEnumerableConverterBase`3
+  href: H.ValueConverter.IEnumerableConverterBase-3.html
+  name: IEnumerableConverterBase<T, P, R>
+  nameWithType: IEnumerableConverterBase<T, P, R>
+  fullName: H.ValueConverter.IEnumerableConverterBase<T, P, R>
+  nameWithType.vb: IEnumerableConverterBase(Of T, P, R)
+  fullName.vb: H.ValueConverter.IEnumerableConverterBase(Of T, P, R)
+  name.vb: IEnumerableConverterBase(Of T, P, R)
+  spec.csharp:
+  - uid: H.ValueConverter.IEnumerableConverterBase`3
+    name: IEnumerableConverterBase
+    href: H.ValueConverter.IEnumerableConverterBase-3.html
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: P
+  - name: ','
+  - name: " "
+  - name: R
+  - name: '>'
+  spec.vb:
+  - uid: H.ValueConverter.IEnumerableConverterBase`3
+    name: IEnumerableConverterBase
+    href: H.ValueConverter.IEnumerableConverterBase-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: P
+  - name: ','
+  - name: " "
+  - name: R
+  - name: )
+- uid: H.ValueConverter.IEnumerableTypeConverterBase`2
+  commentId: T:H.ValueConverter.IEnumerableTypeConverterBase`2
+  href: H.ValueConverter.IEnumerableTypeConverterBase-2.html
+  name: IEnumerableTypeConverterBase<T, P>
+  nameWithType: IEnumerableTypeConverterBase<T, P>
+  fullName: H.ValueConverter.IEnumerableTypeConverterBase<T, P>
+  nameWithType.vb: IEnumerableTypeConverterBase(Of T, P)
+  fullName.vb: H.ValueConverter.IEnumerableTypeConverterBase(Of T, P)
+  name.vb: IEnumerableTypeConverterBase(Of T, P)
+  spec.csharp:
+  - uid: H.ValueConverter.IEnumerableTypeConverterBase`2
+    name: IEnumerableTypeConverterBase
+    href: H.ValueConverter.IEnumerableTypeConverterBase-2.html
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: P
+  - name: '>'
+  spec.vb:
+  - uid: H.ValueConverter.IEnumerableTypeConverterBase`2
+    name: IEnumerableTypeConverterBase
+    href: H.ValueConverter.IEnumerableTypeConverterBase-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: P
+  - name: )
+- uid: H.ValueConverter.IEnumerableTypeConverterBase`1
+  commentId: T:H.ValueConverter.IEnumerableTypeConverterBase`1
+  href: H.ValueConverter.IEnumerableTypeConverterBase-1.html
+  name: IEnumerableTypeConverterBase<T>
+  nameWithType: IEnumerableTypeConverterBase<T>
+  fullName: H.ValueConverter.IEnumerableTypeConverterBase<T>
+  nameWithType.vb: IEnumerableTypeConverterBase(Of T)
+  fullName.vb: H.ValueConverter.IEnumerableTypeConverterBase(Of T)
+  name.vb: IEnumerableTypeConverterBase(Of T)
+  spec.csharp:
+  - uid: H.ValueConverter.IEnumerableTypeConverterBase`1
+    name: IEnumerableTypeConverterBase
+    href: H.ValueConverter.IEnumerableTypeConverterBase-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.ValueConverter.IEnumerableTypeConverterBase`1
+    name: IEnumerableTypeConverterBase
+    href: H.ValueConverter.IEnumerableTypeConverterBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.ValueConverter.DependencyConverterBase
+  commentId: T:H.ValueConverter.DependencyConverterBase
+  href: H.ValueConverter.DependencyConverterBase.html
+  name: DependencyConverterBase
+  nameWithType: DependencyConverterBase
+  fullName: H.ValueConverter.DependencyConverterBase
+- uid: H.ValueConverter.MarkupValueConverterBase
+  commentId: T:H.ValueConverter.MarkupValueConverterBase
+  parent: H.ValueConverter
+  href: H.ValueConverter.MarkupValueConverterBase.html
+  name: MarkupValueConverterBase
+  nameWithType: MarkupValueConverterBase
+  fullName: H.ValueConverter.MarkupValueConverterBase
+- uid: H.ValueConverter.MarkupMultiValueConverterBase
+  commentId: T:H.ValueConverter.MarkupMultiValueConverterBase
+  parent: H.ValueConverter
+  href: H.ValueConverter.MarkupMultiValueConverterBase.html
+  name: MarkupMultiValueConverterBase
+  nameWithType: MarkupMultiValueConverterBase
+  fullName: H.ValueConverter.MarkupMultiValueConverterBase
+- uid: H.ValueConverter.GetGemeotryFromStringConverter
+  commentId: T:H.ValueConverter.GetGemeotryFromStringConverter
+  href: H.ValueConverter.GetGemeotryFromStringConverter.html
+  name: GetGemeotryFromStringConverter
+  nameWithType: GetGemeotryFromStringConverter
+  fullName: H.ValueConverter.GetGemeotryFromStringConverter
+- uid: H.ValueConverter.GetRectToIntStringConverter
+  commentId: T:H.ValueConverter.GetRectToIntStringConverter
+  href: H.ValueConverter.GetRectToIntStringConverter.html
+  name: GetRectToIntStringConverter
+  nameWithType: GetRectToIntStringConverter
+  fullName: H.ValueConverter.GetRectToIntStringConverter
+- uid: H.ValueConverter.GetWriteObjectConverter
+  commentId: T:H.ValueConverter.GetWriteObjectConverter
+  href: H.ValueConverter.GetWriteObjectConverter.html
+  name: GetWriteObjectConverter
+  nameWithType: GetWriteObjectConverter
+  fullName: H.ValueConverter.GetWriteObjectConverter
+- uid: H.ValueConverter
+  commentId: N:H.ValueConverter
+  href: H.html
+  name: H.ValueConverter
+  nameWithType: H.ValueConverter
+  fullName: H.ValueConverter
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.ValueConverter
+    name: ValueConverter
+    href: H.ValueConverter.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.ValueConverter
+    name: ValueConverter
+    href: H.ValueConverter.html

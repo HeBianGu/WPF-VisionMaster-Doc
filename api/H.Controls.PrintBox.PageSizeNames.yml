@@ -1,0 +1,628 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.PrintBox.PageSizeNames
+  commentId: T:H.Controls.PrintBox.PageSizeNames
+  id: PageSizeNames
+  parent: H.Controls.PrintBox
+  children:
+  - H.Controls.PrintBox.PageSizeNames.A0
+  - H.Controls.PrintBox.PageSizeNames.A1
+  - H.Controls.PrintBox.PageSizeNames.A2
+  - H.Controls.PrintBox.PageSizeNames.A3
+  - H.Controls.PrintBox.PageSizeNames.A4
+  - H.Controls.PrintBox.PageSizeNames.B0
+  - H.Controls.PrintBox.PageSizeNames.B1
+  - H.Controls.PrintBox.PageSizeNames.B2
+  - H.Controls.PrintBox.PageSizeNames.B3
+  - H.Controls.PrintBox.PageSizeNames.B4
+  langs:
+  - csharp
+  - vb
+  name: PageSizeNames
+  nameWithType: PageSizeNames
+  fullName: H.Controls.PrintBox.PageSizeNames
+  type: Class
+  source:
+    id: PageSizeNames
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PrintBox\PageSize.cs
+    startLine: 12
+  assemblies:
+  - H.Controls.PrintBox
+  namespace: H.Controls.PrintBox
+  syntax:
+    content: public static class PageSizeNames
+    content.vb: Public Module PageSizeNames
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: H.Controls.PrintBox.PageSizeNames.A0
+  commentId: P:H.Controls.PrintBox.PageSizeNames.A0
+  id: A0
+  parent: H.Controls.PrintBox.PageSizeNames
+  langs:
+  - csharp
+  - vb
+  name: A0
+  nameWithType: PageSizeNames.A0
+  fullName: H.Controls.PrintBox.PageSizeNames.A0
+  type: Property
+  source:
+    id: A0
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PrintBox\PageSize.cs
+    startLine: 14
+  assemblies:
+  - H.Controls.PrintBox
+  namespace: H.Controls.PrintBox
+  syntax:
+    content: public static PageSize A0 { get; set; }
+    parameters: []
+    return:
+      type: H.Controls.PrintBox.PageSize
+    content.vb: Public Shared Property A0 As PageSize
+  overload: H.Controls.PrintBox.PageSizeNames.A0*
+- uid: H.Controls.PrintBox.PageSizeNames.A1
+  commentId: P:H.Controls.PrintBox.PageSizeNames.A1
+  id: A1
+  parent: H.Controls.PrintBox.PageSizeNames
+  langs:
+  - csharp
+  - vb
+  name: A1
+  nameWithType: PageSizeNames.A1
+  fullName: H.Controls.PrintBox.PageSizeNames.A1
+  type: Property
+  source:
+    id: A1
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PrintBox\PageSize.cs
+    startLine: 15
+  assemblies:
+  - H.Controls.PrintBox
+  namespace: H.Controls.PrintBox
+  syntax:
+    content: public static PageSize A1 { get; set; }
+    parameters: []
+    return:
+      type: H.Controls.PrintBox.PageSize
+    content.vb: Public Shared Property A1 As PageSize
+  overload: H.Controls.PrintBox.PageSizeNames.A1*
+- uid: H.Controls.PrintBox.PageSizeNames.A2
+  commentId: P:H.Controls.PrintBox.PageSizeNames.A2
+  id: A2
+  parent: H.Controls.PrintBox.PageSizeNames
+  langs:
+  - csharp
+  - vb
+  name: A2
+  nameWithType: PageSizeNames.A2
+  fullName: H.Controls.PrintBox.PageSizeNames.A2
+  type: Property
+  source:
+    id: A2
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PrintBox\PageSize.cs
+    startLine: 16
+  assemblies:
+  - H.Controls.PrintBox
+  namespace: H.Controls.PrintBox
+  syntax:
+    content: public static PageSize A2 { get; set; }
+    parameters: []
+    return:
+      type: H.Controls.PrintBox.PageSize
+    content.vb: Public Shared Property A2 As PageSize
+  overload: H.Controls.PrintBox.PageSizeNames.A2*
+- uid: H.Controls.PrintBox.PageSizeNames.A3
+  commentId: P:H.Controls.PrintBox.PageSizeNames.A3
+  id: A3
+  parent: H.Controls.PrintBox.PageSizeNames
+  langs:
+  - csharp
+  - vb
+  name: A3
+  nameWithType: PageSizeNames.A3
+  fullName: H.Controls.PrintBox.PageSizeNames.A3
+  type: Property
+  source:
+    id: A3
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PrintBox\PageSize.cs
+    startLine: 17
+  assemblies:
+  - H.Controls.PrintBox
+  namespace: H.Controls.PrintBox
+  syntax:
+    content: public static PageSize A3 { get; set; }
+    parameters: []
+    return:
+      type: H.Controls.PrintBox.PageSize
+    content.vb: Public Shared Property A3 As PageSize
+  overload: H.Controls.PrintBox.PageSizeNames.A3*
+- uid: H.Controls.PrintBox.PageSizeNames.A4
+  commentId: P:H.Controls.PrintBox.PageSizeNames.A4
+  id: A4
+  parent: H.Controls.PrintBox.PageSizeNames
+  langs:
+  - csharp
+  - vb
+  name: A4
+  nameWithType: PageSizeNames.A4
+  fullName: H.Controls.PrintBox.PageSizeNames.A4
+  type: Property
+  source:
+    id: A4
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PrintBox\PageSize.cs
+    startLine: 18
+  assemblies:
+  - H.Controls.PrintBox
+  namespace: H.Controls.PrintBox
+  syntax:
+    content: public static PageSize A4 { get; set; }
+    parameters: []
+    return:
+      type: H.Controls.PrintBox.PageSize
+    content.vb: Public Shared Property A4 As PageSize
+  overload: H.Controls.PrintBox.PageSizeNames.A4*
+- uid: H.Controls.PrintBox.PageSizeNames.B0
+  commentId: P:H.Controls.PrintBox.PageSizeNames.B0
+  id: B0
+  parent: H.Controls.PrintBox.PageSizeNames
+  langs:
+  - csharp
+  - vb
+  name: B0
+  nameWithType: PageSizeNames.B0
+  fullName: H.Controls.PrintBox.PageSizeNames.B0
+  type: Property
+  source:
+    id: B0
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PrintBox\PageSize.cs
+    startLine: 20
+  assemblies:
+  - H.Controls.PrintBox
+  namespace: H.Controls.PrintBox
+  syntax:
+    content: public static PageSize B0 { get; set; }
+    parameters: []
+    return:
+      type: H.Controls.PrintBox.PageSize
+    content.vb: Public Shared Property B0 As PageSize
+  overload: H.Controls.PrintBox.PageSizeNames.B0*
+- uid: H.Controls.PrintBox.PageSizeNames.B1
+  commentId: P:H.Controls.PrintBox.PageSizeNames.B1
+  id: B1
+  parent: H.Controls.PrintBox.PageSizeNames
+  langs:
+  - csharp
+  - vb
+  name: B1
+  nameWithType: PageSizeNames.B1
+  fullName: H.Controls.PrintBox.PageSizeNames.B1
+  type: Property
+  source:
+    id: B1
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PrintBox\PageSize.cs
+    startLine: 21
+  assemblies:
+  - H.Controls.PrintBox
+  namespace: H.Controls.PrintBox
+  syntax:
+    content: public static PageSize B1 { get; set; }
+    parameters: []
+    return:
+      type: H.Controls.PrintBox.PageSize
+    content.vb: Public Shared Property B1 As PageSize
+  overload: H.Controls.PrintBox.PageSizeNames.B1*
+- uid: H.Controls.PrintBox.PageSizeNames.B2
+  commentId: P:H.Controls.PrintBox.PageSizeNames.B2
+  id: B2
+  parent: H.Controls.PrintBox.PageSizeNames
+  langs:
+  - csharp
+  - vb
+  name: B2
+  nameWithType: PageSizeNames.B2
+  fullName: H.Controls.PrintBox.PageSizeNames.B2
+  type: Property
+  source:
+    id: B2
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PrintBox\PageSize.cs
+    startLine: 22
+  assemblies:
+  - H.Controls.PrintBox
+  namespace: H.Controls.PrintBox
+  syntax:
+    content: public static PageSize B2 { get; set; }
+    parameters: []
+    return:
+      type: H.Controls.PrintBox.PageSize
+    content.vb: Public Shared Property B2 As PageSize
+  overload: H.Controls.PrintBox.PageSizeNames.B2*
+- uid: H.Controls.PrintBox.PageSizeNames.B3
+  commentId: P:H.Controls.PrintBox.PageSizeNames.B3
+  id: B3
+  parent: H.Controls.PrintBox.PageSizeNames
+  langs:
+  - csharp
+  - vb
+  name: B3
+  nameWithType: PageSizeNames.B3
+  fullName: H.Controls.PrintBox.PageSizeNames.B3
+  type: Property
+  source:
+    id: B3
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PrintBox\PageSize.cs
+    startLine: 23
+  assemblies:
+  - H.Controls.PrintBox
+  namespace: H.Controls.PrintBox
+  syntax:
+    content: public static PageSize B3 { get; set; }
+    parameters: []
+    return:
+      type: H.Controls.PrintBox.PageSize
+    content.vb: Public Shared Property B3 As PageSize
+  overload: H.Controls.PrintBox.PageSizeNames.B3*
+- uid: H.Controls.PrintBox.PageSizeNames.B4
+  commentId: P:H.Controls.PrintBox.PageSizeNames.B4
+  id: B4
+  parent: H.Controls.PrintBox.PageSizeNames
+  langs:
+  - csharp
+  - vb
+  name: B4
+  nameWithType: PageSizeNames.B4
+  fullName: H.Controls.PrintBox.PageSizeNames.B4
+  type: Property
+  source:
+    id: B4
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Controls\H.Controls.PrintBox\PageSize.cs
+    startLine: 24
+  assemblies:
+  - H.Controls.PrintBox
+  namespace: H.Controls.PrintBox
+  syntax:
+    content: public static PageSize B4 { get; set; }
+    parameters: []
+    return:
+      type: H.Controls.PrintBox.PageSize
+    content.vb: Public Shared Property B4 As PageSize
+  overload: H.Controls.PrintBox.PageSizeNames.B4*
+references:
+- uid: H.Controls.PrintBox
+  commentId: N:H.Controls.PrintBox
+  href: H.html
+  name: H.Controls.PrintBox
+  nameWithType: H.Controls.PrintBox
+  fullName: H.Controls.PrintBox
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.PrintBox
+    name: PrintBox
+    href: H.Controls.PrintBox.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.PrintBox
+    name: PrintBox
+    href: H.Controls.PrintBox.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: H.Controls.PrintBox.PageSizeNames.A0*
+  commentId: Overload:H.Controls.PrintBox.PageSizeNames.A0
+  href: H.Controls.PrintBox.PageSizeNames.html#H_Controls_PrintBox_PageSizeNames_A0
+  name: A0
+  nameWithType: PageSizeNames.A0
+  fullName: H.Controls.PrintBox.PageSizeNames.A0
+- uid: H.Controls.PrintBox.PageSize
+  commentId: T:H.Controls.PrintBox.PageSize
+  parent: H.Controls.PrintBox
+  href: H.Controls.PrintBox.PageSize.html
+  name: PageSize
+  nameWithType: PageSize
+  fullName: H.Controls.PrintBox.PageSize
+- uid: H.Controls.PrintBox.PageSizeNames.A1*
+  commentId: Overload:H.Controls.PrintBox.PageSizeNames.A1
+  href: H.Controls.PrintBox.PageSizeNames.html#H_Controls_PrintBox_PageSizeNames_A1
+  name: A1
+  nameWithType: PageSizeNames.A1
+  fullName: H.Controls.PrintBox.PageSizeNames.A1
+- uid: H.Controls.PrintBox.PageSizeNames.A2*
+  commentId: Overload:H.Controls.PrintBox.PageSizeNames.A2
+  href: H.Controls.PrintBox.PageSizeNames.html#H_Controls_PrintBox_PageSizeNames_A2
+  name: A2
+  nameWithType: PageSizeNames.A2
+  fullName: H.Controls.PrintBox.PageSizeNames.A2
+- uid: H.Controls.PrintBox.PageSizeNames.A3*
+  commentId: Overload:H.Controls.PrintBox.PageSizeNames.A3
+  href: H.Controls.PrintBox.PageSizeNames.html#H_Controls_PrintBox_PageSizeNames_A3
+  name: A3
+  nameWithType: PageSizeNames.A3
+  fullName: H.Controls.PrintBox.PageSizeNames.A3
+- uid: H.Controls.PrintBox.PageSizeNames.A4*
+  commentId: Overload:H.Controls.PrintBox.PageSizeNames.A4
+  href: H.Controls.PrintBox.PageSizeNames.html#H_Controls_PrintBox_PageSizeNames_A4
+  name: A4
+  nameWithType: PageSizeNames.A4
+  fullName: H.Controls.PrintBox.PageSizeNames.A4
+- uid: H.Controls.PrintBox.PageSizeNames.B0*
+  commentId: Overload:H.Controls.PrintBox.PageSizeNames.B0
+  href: H.Controls.PrintBox.PageSizeNames.html#H_Controls_PrintBox_PageSizeNames_B0
+  name: B0
+  nameWithType: PageSizeNames.B0
+  fullName: H.Controls.PrintBox.PageSizeNames.B0
+- uid: H.Controls.PrintBox.PageSizeNames.B1*
+  commentId: Overload:H.Controls.PrintBox.PageSizeNames.B1
+  href: H.Controls.PrintBox.PageSizeNames.html#H_Controls_PrintBox_PageSizeNames_B1
+  name: B1
+  nameWithType: PageSizeNames.B1
+  fullName: H.Controls.PrintBox.PageSizeNames.B1
+- uid: H.Controls.PrintBox.PageSizeNames.B2*
+  commentId: Overload:H.Controls.PrintBox.PageSizeNames.B2
+  href: H.Controls.PrintBox.PageSizeNames.html#H_Controls_PrintBox_PageSizeNames_B2
+  name: B2
+  nameWithType: PageSizeNames.B2
+  fullName: H.Controls.PrintBox.PageSizeNames.B2
+- uid: H.Controls.PrintBox.PageSizeNames.B3*
+  commentId: Overload:H.Controls.PrintBox.PageSizeNames.B3
+  href: H.Controls.PrintBox.PageSizeNames.html#H_Controls_PrintBox_PageSizeNames_B3
+  name: B3
+  nameWithType: PageSizeNames.B3
+  fullName: H.Controls.PrintBox.PageSizeNames.B3
+- uid: H.Controls.PrintBox.PageSizeNames.B4*
+  commentId: Overload:H.Controls.PrintBox.PageSizeNames.B4
+  href: H.Controls.PrintBox.PageSizeNames.html#H_Controls_PrintBox_PageSizeNames_B4
+  name: B4
+  nameWithType: PageSizeNames.B4
+  fullName: H.Controls.PrintBox.PageSizeNames.B4

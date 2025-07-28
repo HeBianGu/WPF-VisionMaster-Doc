@@ -1,0 +1,114 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.VisionMaster.NodeData.ResultImages
+  commentId: N:H.VisionMaster.NodeData.ResultImages
+  id: H.VisionMaster.NodeData.ResultImages
+  children:
+  - H.VisionMaster.NodeData.ResultImages.IVisionResultImage`1
+  - H.VisionMaster.NodeData.ResultImages.VisionResultImageBase
+  - H.VisionMaster.NodeData.ResultImages.VisionResultImage`1
+  langs:
+  - csharp
+  - vb
+  name: H.VisionMaster.NodeData.ResultImages
+  nameWithType: H.VisionMaster.NodeData.ResultImages
+  fullName: H.VisionMaster.NodeData.ResultImages
+  type: Namespace
+  assemblies:
+  - H.VisionMaster.NodeData
+references:
+- uid: H.VisionMaster.NodeData.ResultImages.IVisionResultImage`1
+  commentId: T:H.VisionMaster.NodeData.ResultImages.IVisionResultImage`1
+  href: H.VisionMaster.NodeData.ResultImages.IVisionResultImage-1.html
+  name: IVisionResultImage<T>
+  nameWithType: IVisionResultImage<T>
+  fullName: H.VisionMaster.NodeData.ResultImages.IVisionResultImage<T>
+  nameWithType.vb: IVisionResultImage(Of T)
+  fullName.vb: H.VisionMaster.NodeData.ResultImages.IVisionResultImage(Of T)
+  name.vb: IVisionResultImage(Of T)
+  spec.csharp:
+  - uid: H.VisionMaster.NodeData.ResultImages.IVisionResultImage`1
+    name: IVisionResultImage
+    href: H.VisionMaster.NodeData.ResultImages.IVisionResultImage-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.VisionMaster.NodeData.ResultImages.IVisionResultImage`1
+    name: IVisionResultImage
+    href: H.VisionMaster.NodeData.ResultImages.IVisionResultImage-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.VisionMaster.NodeData.ResultImages.VisionResultImage`1
+  commentId: T:H.VisionMaster.NodeData.ResultImages.VisionResultImage`1
+  href: H.VisionMaster.NodeData.ResultImages.VisionResultImage-1.html
+  name: VisionResultImage<T>
+  nameWithType: VisionResultImage<T>
+  fullName: H.VisionMaster.NodeData.ResultImages.VisionResultImage<T>
+  nameWithType.vb: VisionResultImage(Of T)
+  fullName.vb: H.VisionMaster.NodeData.ResultImages.VisionResultImage(Of T)
+  name.vb: VisionResultImage(Of T)
+  spec.csharp:
+  - uid: H.VisionMaster.NodeData.ResultImages.VisionResultImage`1
+    name: VisionResultImage
+    href: H.VisionMaster.NodeData.ResultImages.VisionResultImage-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.VisionMaster.NodeData.ResultImages.VisionResultImage`1
+    name: VisionResultImage
+    href: H.VisionMaster.NodeData.ResultImages.VisionResultImage-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.VisionMaster.NodeData.ResultImages.VisionResultImageBase
+  commentId: T:H.VisionMaster.NodeData.ResultImages.VisionResultImageBase
+  parent: H.VisionMaster.NodeData.ResultImages
+  href: H.VisionMaster.NodeData.ResultImages.VisionResultImageBase.html
+  name: VisionResultImageBase
+  nameWithType: VisionResultImageBase
+  fullName: H.VisionMaster.NodeData.ResultImages.VisionResultImageBase
+- uid: H.VisionMaster.NodeData.ResultImages
+  commentId: N:H.VisionMaster.NodeData.ResultImages
+  href: H.html
+  name: H.VisionMaster.NodeData.ResultImages
+  nameWithType: H.VisionMaster.NodeData.ResultImages
+  fullName: H.VisionMaster.NodeData.ResultImages
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.NodeData
+    name: NodeData
+    href: H.VisionMaster.NodeData.html
+  - name: .
+  - uid: H.VisionMaster.NodeData.ResultImages
+    name: ResultImages
+    href: H.VisionMaster.NodeData.ResultImages.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.NodeData
+    name: NodeData
+    href: H.VisionMaster.NodeData.html
+  - name: .
+  - uid: H.VisionMaster.NodeData.ResultImages
+    name: ResultImages
+    href: H.VisionMaster.NodeData.ResultImages.html

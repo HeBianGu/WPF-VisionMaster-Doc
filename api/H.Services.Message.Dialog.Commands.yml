@@ -1,0 +1,202 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Services.Message.Dialog.Commands
+  commentId: N:H.Services.Message.Dialog.Commands
+  id: H.Services.Message.Dialog.Commands
+  children:
+  - H.Services.Message.Dialog.Commands.IocCommandBase`1
+  - H.Services.Message.Dialog.Commands.ShowCommand
+  - H.Services.Message.Dialog.Commands.ShowDialogCommandBase
+  - H.Services.Message.Dialog.Commands.ShowEditCommand
+  - H.Services.Message.Dialog.Commands.ShowIocCommand
+  - H.Services.Message.Dialog.Commands.ShowIocPresenterCommandBase`1
+  - H.Services.Message.Dialog.Commands.ShowMessageCommand
+  - H.Services.Message.Dialog.Commands.ShowMessageDialogCommandBase
+  - H.Services.Message.Dialog.Commands.ShowNotImplementedCommand
+  - H.Services.Message.Dialog.Commands.ShowPercentCommand
+  - H.Services.Message.Dialog.Commands.ShowStringCommand
+  - H.Services.Message.Dialog.Commands.ShowTabEditCommand
+  - H.Services.Message.Dialog.Commands.ShowViewCommand
+  - H.Services.Message.Dialog.Commands.ShowWaitCommand
+  langs:
+  - csharp
+  - vb
+  name: H.Services.Message.Dialog.Commands
+  nameWithType: H.Services.Message.Dialog.Commands
+  fullName: H.Services.Message.Dialog.Commands
+  type: Namespace
+  assemblies:
+  - H.Services.Message
+references:
+- uid: H.Services.Message.Dialog.Commands.ShowCommand
+  commentId: T:H.Services.Message.Dialog.Commands.ShowCommand
+  href: H.Services.Message.Dialog.Commands.ShowCommand.html
+  name: ShowCommand
+  nameWithType: ShowCommand
+  fullName: H.Services.Message.Dialog.Commands.ShowCommand
+- uid: H.Services.Message.Dialog.Commands.ShowEditCommand
+  commentId: T:H.Services.Message.Dialog.Commands.ShowEditCommand
+  href: H.Services.Message.Dialog.Commands.ShowEditCommand.html
+  name: ShowEditCommand
+  nameWithType: ShowEditCommand
+  fullName: H.Services.Message.Dialog.Commands.ShowEditCommand
+- uid: H.Services.Message.Dialog.Commands.ShowTabEditCommand
+  commentId: T:H.Services.Message.Dialog.Commands.ShowTabEditCommand
+  href: H.Services.Message.Dialog.Commands.ShowTabEditCommand.html
+  name: ShowTabEditCommand
+  nameWithType: ShowTabEditCommand
+  fullName: H.Services.Message.Dialog.Commands.ShowTabEditCommand
+- uid: H.Services.Message.Dialog.Commands.ShowMessageCommand
+  commentId: T:H.Services.Message.Dialog.Commands.ShowMessageCommand
+  parent: H.Services.Message.Dialog.Commands
+  href: H.Services.Message.Dialog.Commands.ShowMessageCommand.html
+  name: ShowMessageCommand
+  nameWithType: ShowMessageCommand
+  fullName: H.Services.Message.Dialog.Commands.ShowMessageCommand
+- uid: H.Services.Message.Dialog.Commands.ShowNotImplementedCommand
+  commentId: T:H.Services.Message.Dialog.Commands.ShowNotImplementedCommand
+  href: H.Services.Message.Dialog.Commands.ShowNotImplementedCommand.html
+  name: ShowNotImplementedCommand
+  nameWithType: ShowNotImplementedCommand
+  fullName: H.Services.Message.Dialog.Commands.ShowNotImplementedCommand
+- uid: H.Services.Message.Dialog.Commands.ShowPercentCommand
+  commentId: T:H.Services.Message.Dialog.Commands.ShowPercentCommand
+  href: H.Services.Message.Dialog.Commands.ShowPercentCommand.html
+  name: ShowPercentCommand
+  nameWithType: ShowPercentCommand
+  fullName: H.Services.Message.Dialog.Commands.ShowPercentCommand
+- uid: H.Services.Message.Dialog.Commands.ShowStringCommand
+  commentId: T:H.Services.Message.Dialog.Commands.ShowStringCommand
+  href: H.Services.Message.Dialog.Commands.ShowStringCommand.html
+  name: ShowStringCommand
+  nameWithType: ShowStringCommand
+  fullName: H.Services.Message.Dialog.Commands.ShowStringCommand
+- uid: H.Services.Message.Dialog.Commands.ShowViewCommand
+  commentId: T:H.Services.Message.Dialog.Commands.ShowViewCommand
+  href: H.Services.Message.Dialog.Commands.ShowViewCommand.html
+  name: ShowViewCommand
+  nameWithType: ShowViewCommand
+  fullName: H.Services.Message.Dialog.Commands.ShowViewCommand
+- uid: H.Services.Message.Dialog.Commands.ShowWaitCommand
+  commentId: T:H.Services.Message.Dialog.Commands.ShowWaitCommand
+  href: H.Services.Message.Dialog.Commands.ShowWaitCommand.html
+  name: ShowWaitCommand
+  nameWithType: ShowWaitCommand
+  fullName: H.Services.Message.Dialog.Commands.ShowWaitCommand
+- uid: H.Services.Message.Dialog.Commands.IocCommandBase`1
+  commentId: T:H.Services.Message.Dialog.Commands.IocCommandBase`1
+  href: H.Services.Message.Dialog.Commands.IocCommandBase-1.html
+  name: IocCommandBase<T>
+  nameWithType: IocCommandBase<T>
+  fullName: H.Services.Message.Dialog.Commands.IocCommandBase<T>
+  nameWithType.vb: IocCommandBase(Of T)
+  fullName.vb: H.Services.Message.Dialog.Commands.IocCommandBase(Of T)
+  name.vb: IocCommandBase(Of T)
+  spec.csharp:
+  - uid: H.Services.Message.Dialog.Commands.IocCommandBase`1
+    name: IocCommandBase
+    href: H.Services.Message.Dialog.Commands.IocCommandBase-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Services.Message.Dialog.Commands.IocCommandBase`1
+    name: IocCommandBase
+    href: H.Services.Message.Dialog.Commands.IocCommandBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Services.Message.Dialog.Commands.ShowDialogCommandBase
+  commentId: T:H.Services.Message.Dialog.Commands.ShowDialogCommandBase
+  parent: H.Services.Message.Dialog.Commands
+  href: H.Services.Message.Dialog.Commands.ShowDialogCommandBase.html
+  name: ShowDialogCommandBase
+  nameWithType: ShowDialogCommandBase
+  fullName: H.Services.Message.Dialog.Commands.ShowDialogCommandBase
+- uid: H.Services.Message.Dialog.Commands.ShowIocCommand
+  commentId: T:H.Services.Message.Dialog.Commands.ShowIocCommand
+  parent: H.Services.Message.Dialog.Commands
+  href: H.Services.Message.Dialog.Commands.ShowIocCommand.html
+  name: ShowIocCommand
+  nameWithType: ShowIocCommand
+  fullName: H.Services.Message.Dialog.Commands.ShowIocCommand
+- uid: H.Services.Message.Dialog.Commands.ShowIocPresenterCommandBase`1
+  commentId: T:H.Services.Message.Dialog.Commands.ShowIocPresenterCommandBase`1
+  href: H.Services.Message.Dialog.Commands.ShowIocPresenterCommandBase-1.html
+  name: ShowIocPresenterCommandBase<T>
+  nameWithType: ShowIocPresenterCommandBase<T>
+  fullName: H.Services.Message.Dialog.Commands.ShowIocPresenterCommandBase<T>
+  nameWithType.vb: ShowIocPresenterCommandBase(Of T)
+  fullName.vb: H.Services.Message.Dialog.Commands.ShowIocPresenterCommandBase(Of T)
+  name.vb: ShowIocPresenterCommandBase(Of T)
+  spec.csharp:
+  - uid: H.Services.Message.Dialog.Commands.ShowIocPresenterCommandBase`1
+    name: ShowIocPresenterCommandBase
+    href: H.Services.Message.Dialog.Commands.ShowIocPresenterCommandBase-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Services.Message.Dialog.Commands.ShowIocPresenterCommandBase`1
+    name: ShowIocPresenterCommandBase
+    href: H.Services.Message.Dialog.Commands.ShowIocPresenterCommandBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Services.Message.Dialog.Commands.ShowMessageDialogCommandBase
+  commentId: T:H.Services.Message.Dialog.Commands.ShowMessageDialogCommandBase
+  parent: H.Services.Message.Dialog.Commands
+  href: H.Services.Message.Dialog.Commands.ShowMessageDialogCommandBase.html
+  name: ShowMessageDialogCommandBase
+  nameWithType: ShowMessageDialogCommandBase
+  fullName: H.Services.Message.Dialog.Commands.ShowMessageDialogCommandBase
+- uid: H.Services.Message.Dialog.Commands
+  commentId: N:H.Services.Message.Dialog.Commands
+  href: H.html
+  name: H.Services.Message.Dialog.Commands
+  nameWithType: H.Services.Message.Dialog.Commands
+  fullName: H.Services.Message.Dialog.Commands
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Message
+    name: Message
+    href: H.Services.Message.html
+  - name: .
+  - uid: H.Services.Message.Dialog
+    name: Dialog
+    href: H.Services.Message.Dialog.html
+  - name: .
+  - uid: H.Services.Message.Dialog.Commands
+    name: Commands
+    href: H.Services.Message.Dialog.Commands.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Message
+    name: Message
+    href: H.Services.Message.html
+  - name: .
+  - uid: H.Services.Message.Dialog
+    name: Dialog
+    href: H.Services.Message.Dialog.html
+  - name: .
+  - uid: H.Services.Message.Dialog.Commands
+    name: Commands
+    href: H.Services.Message.Dialog.Commands.html

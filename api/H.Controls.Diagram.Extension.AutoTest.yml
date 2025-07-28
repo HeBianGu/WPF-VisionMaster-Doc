@@ -1,0 +1,84 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.Diagram.Extension.AutoTest
+  commentId: N:H.Controls.Diagram.Extension.AutoTest
+  id: H.Controls.Diagram.Extension.AutoTest
+  children:
+  - H.Controls.Diagram.Extension.AutoTest.AutoTestReportViewPresenter
+  - H.Controls.Diagram.Extension.AutoTest.AutoTestResult
+  - H.Controls.Diagram.Extension.AutoTest.ats_dd_result
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.Diagram.Extension.AutoTest
+  nameWithType: H.Controls.Diagram.Extension.AutoTest
+  fullName: H.Controls.Diagram.Extension.AutoTest
+  type: Namespace
+  assemblies:
+  - H.Controls.Diagram.Extension
+references:
+- uid: H.Controls.Diagram.Extension.AutoTest.ats_dd_result
+  commentId: T:H.Controls.Diagram.Extension.AutoTest.ats_dd_result
+  parent: H.Controls.Diagram.Extension.AutoTest
+  href: H.Controls.Diagram.Extension.AutoTest.ats_dd_result.html
+  name: ats_dd_result
+  nameWithType: ats_dd_result
+  fullName: H.Controls.Diagram.Extension.AutoTest.ats_dd_result
+- uid: H.Controls.Diagram.Extension.AutoTest.AutoTestReportViewPresenter
+  commentId: T:H.Controls.Diagram.Extension.AutoTest.AutoTestReportViewPresenter
+  href: H.Controls.Diagram.Extension.AutoTest.AutoTestReportViewPresenter.html
+  name: AutoTestReportViewPresenter
+  nameWithType: AutoTestReportViewPresenter
+  fullName: H.Controls.Diagram.Extension.AutoTest.AutoTestReportViewPresenter
+- uid: H.Controls.Diagram.Extension.AutoTest.AutoTestResult
+  commentId: T:H.Controls.Diagram.Extension.AutoTest.AutoTestResult
+  href: H.Controls.Diagram.Extension.AutoTest.AutoTestResult.html
+  name: AutoTestResult
+  nameWithType: AutoTestResult
+  fullName: H.Controls.Diagram.Extension.AutoTest.AutoTestResult
+- uid: H.Controls.Diagram.Extension.AutoTest
+  commentId: N:H.Controls.Diagram.Extension.AutoTest
+  href: H.html
+  name: H.Controls.Diagram.Extension.AutoTest
+  nameWithType: H.Controls.Diagram.Extension.AutoTest
+  fullName: H.Controls.Diagram.Extension.AutoTest
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Extension
+    name: Extension
+    href: H.Controls.Diagram.Extension.html
+  - name: .
+  - uid: H.Controls.Diagram.Extension.AutoTest
+    name: AutoTest
+    href: H.Controls.Diagram.Extension.AutoTest.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Extension
+    name: Extension
+    href: H.Controls.Diagram.Extension.html
+  - name: .
+  - uid: H.Controls.Diagram.Extension.AutoTest
+    name: AutoTest
+    href: H.Controls.Diagram.Extension.AutoTest.html

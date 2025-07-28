@@ -1,0 +1,123 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.Revertible
+  commentId: N:H.Extensions.Revertible
+  id: H.Extensions.Revertible
+  children:
+  - H.Extensions.Revertible.IRevertibleOptions
+  - H.Extensions.Revertible.PropertyChangedRevertiblePrensenterBase
+  - H.Extensions.Revertible.PropertyChangedRevertiblePrensenter`1
+  - H.Extensions.Revertible.Revertible
+  - H.Extensions.Revertible.RevertibleAction
+  - H.Extensions.Revertible.RevertibleOptions
+  - H.Extensions.Revertible.RevertiblePropertyChangedBase
+  - H.Extensions.Revertible.RevertibleService
+  langs:
+  - csharp
+  - vb
+  name: H.Extensions.Revertible
+  nameWithType: H.Extensions.Revertible
+  fullName: H.Extensions.Revertible
+  type: Namespace
+  assemblies:
+  - H.Extensions.Revertible
+references:
+- uid: H.Extensions.Revertible.IRevertibleOptions
+  commentId: T:H.Extensions.Revertible.IRevertibleOptions
+  parent: H.Extensions.Revertible
+  href: H.Extensions.Revertible.IRevertibleOptions.html
+  name: IRevertibleOptions
+  nameWithType: IRevertibleOptions
+  fullName: H.Extensions.Revertible.IRevertibleOptions
+- uid: H.Extensions.Revertible.PropertyChangedRevertiblePrensenterBase
+  commentId: T:H.Extensions.Revertible.PropertyChangedRevertiblePrensenterBase
+  parent: H.Extensions.Revertible
+  href: H.Extensions.Revertible.PropertyChangedRevertiblePrensenterBase.html
+  name: PropertyChangedRevertiblePrensenterBase
+  nameWithType: PropertyChangedRevertiblePrensenterBase
+  fullName: H.Extensions.Revertible.PropertyChangedRevertiblePrensenterBase
+- uid: H.Extensions.Revertible.PropertyChangedRevertiblePrensenter`1
+  commentId: T:H.Extensions.Revertible.PropertyChangedRevertiblePrensenter`1
+  href: H.Extensions.Revertible.PropertyChangedRevertiblePrensenter-1.html
+  name: PropertyChangedRevertiblePrensenter<T>
+  nameWithType: PropertyChangedRevertiblePrensenter<T>
+  fullName: H.Extensions.Revertible.PropertyChangedRevertiblePrensenter<T>
+  nameWithType.vb: PropertyChangedRevertiblePrensenter(Of T)
+  fullName.vb: H.Extensions.Revertible.PropertyChangedRevertiblePrensenter(Of T)
+  name.vb: PropertyChangedRevertiblePrensenter(Of T)
+  spec.csharp:
+  - uid: H.Extensions.Revertible.PropertyChangedRevertiblePrensenter`1
+    name: PropertyChangedRevertiblePrensenter
+    href: H.Extensions.Revertible.PropertyChangedRevertiblePrensenter-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Extensions.Revertible.PropertyChangedRevertiblePrensenter`1
+    name: PropertyChangedRevertiblePrensenter
+    href: H.Extensions.Revertible.PropertyChangedRevertiblePrensenter-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Extensions.Revertible.Revertible
+  commentId: T:H.Extensions.Revertible.Revertible
+  href: H.Extensions.Revertible.Revertible.html
+  name: Revertible
+  nameWithType: Revertible
+  fullName: H.Extensions.Revertible.Revertible
+- uid: H.Extensions.Revertible.RevertibleAction
+  commentId: T:H.Extensions.Revertible.RevertibleAction
+  href: H.Extensions.Revertible.RevertibleAction.html
+  name: RevertibleAction
+  nameWithType: RevertibleAction
+  fullName: H.Extensions.Revertible.RevertibleAction
+- uid: H.Extensions.Revertible.RevertibleOptions
+  commentId: T:H.Extensions.Revertible.RevertibleOptions
+  href: H.Extensions.Revertible.RevertibleOptions.html
+  name: RevertibleOptions
+  nameWithType: RevertibleOptions
+  fullName: H.Extensions.Revertible.RevertibleOptions
+- uid: H.Extensions.Revertible.RevertiblePropertyChangedBase
+  commentId: T:H.Extensions.Revertible.RevertiblePropertyChangedBase
+  href: H.Extensions.Revertible.RevertiblePropertyChangedBase.html
+  name: RevertiblePropertyChangedBase
+  nameWithType: RevertiblePropertyChangedBase
+  fullName: H.Extensions.Revertible.RevertiblePropertyChangedBase
+- uid: H.Extensions.Revertible.RevertibleService
+  commentId: T:H.Extensions.Revertible.RevertibleService
+  href: H.Extensions.Revertible.RevertibleService.html
+  name: RevertibleService
+  nameWithType: RevertibleService
+  fullName: H.Extensions.Revertible.RevertibleService
+- uid: H.Extensions.Revertible
+  commentId: N:H.Extensions.Revertible
+  href: H.html
+  name: H.Extensions.Revertible
+  nameWithType: H.Extensions.Revertible
+  fullName: H.Extensions.Revertible
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Revertible
+    name: Revertible
+    href: H.Extensions.Revertible.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Revertible
+    name: Revertible
+    href: H.Extensions.Revertible.html

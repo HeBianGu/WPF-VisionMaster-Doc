@@ -1,0 +1,76 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.ROIBox.State
+  commentId: N:H.Controls.ROIBox.State
+  id: H.Controls.ROIBox.State
+  children:
+  - H.Controls.ROIBox.State.AddRectState
+  - H.Controls.ROIBox.State.DefaultRectState
+  - H.Controls.ROIBox.State.IState
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.ROIBox.State
+  nameWithType: H.Controls.ROIBox.State
+  fullName: H.Controls.ROIBox.State
+  type: Namespace
+  assemblies:
+  - H.Controls.ROIBox
+references:
+- uid: H.Controls.ROIBox.State.AddRectState
+  commentId: T:H.Controls.ROIBox.State.AddRectState
+  href: H.Controls.ROIBox.State.AddRectState.html
+  name: AddRectState
+  nameWithType: AddRectState
+  fullName: H.Controls.ROIBox.State.AddRectState
+- uid: H.Controls.ROIBox.State.DefaultRectState
+  commentId: T:H.Controls.ROIBox.State.DefaultRectState
+  href: H.Controls.ROIBox.State.DefaultRectState.html
+  name: DefaultRectState
+  nameWithType: DefaultRectState
+  fullName: H.Controls.ROIBox.State.DefaultRectState
+- uid: H.Controls.ROIBox.State.IState
+  commentId: T:H.Controls.ROIBox.State.IState
+  parent: H.Controls.ROIBox.State
+  href: H.Controls.ROIBox.State.IState.html
+  name: IState
+  nameWithType: IState
+  fullName: H.Controls.ROIBox.State.IState
+- uid: H.Controls.ROIBox.State
+  commentId: N:H.Controls.ROIBox.State
+  href: H.html
+  name: H.Controls.ROIBox.State
+  nameWithType: H.Controls.ROIBox.State
+  fullName: H.Controls.ROIBox.State
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.ROIBox
+    name: ROIBox
+    href: H.Controls.ROIBox.html
+  - name: .
+  - uid: H.Controls.ROIBox.State
+    name: State
+    href: H.Controls.ROIBox.State.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.ROIBox
+    name: ROIBox
+    href: H.Controls.ROIBox.html
+  - name: .
+  - uid: H.Controls.ROIBox.State
+    name: State
+    href: H.Controls.ROIBox.State.html

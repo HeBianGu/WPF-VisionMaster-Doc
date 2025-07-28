@@ -1,0 +1,85 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.Diagram.Presenters.Workflow.Commands
+  commentId: N:H.Controls.Diagram.Presenters.Workflow.Commands
+  id: H.Controls.Diagram.Presenters.Workflow.Commands
+  children:
+  - H.Controls.Diagram.Presenters.Workflow.Commands.AddWorkflowNodeCommand
+  - H.Controls.Diagram.Presenters.Workflow.Commands.AddWorkflowNodeFromTemplateCommand
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.Diagram.Presenters.Workflow.Commands
+  nameWithType: H.Controls.Diagram.Presenters.Workflow.Commands
+  fullName: H.Controls.Diagram.Presenters.Workflow.Commands
+  type: Namespace
+  assemblies:
+  - H.Controls.Diagram.Presenters.Workflow
+references:
+- uid: H.Controls.Diagram.Presenters.Workflow.Commands.AddWorkflowNodeCommand
+  commentId: T:H.Controls.Diagram.Presenters.Workflow.Commands.AddWorkflowNodeCommand
+  parent: H.Controls.Diagram.Presenters.Workflow.Commands
+  href: H.Controls.Diagram.Presenters.Workflow.Commands.AddWorkflowNodeCommand.html
+  name: AddWorkflowNodeCommand
+  nameWithType: AddWorkflowNodeCommand
+  fullName: H.Controls.Diagram.Presenters.Workflow.Commands.AddWorkflowNodeCommand
+- uid: H.Controls.Diagram.Presenters.Workflow.Commands.AddWorkflowNodeFromTemplateCommand
+  commentId: T:H.Controls.Diagram.Presenters.Workflow.Commands.AddWorkflowNodeFromTemplateCommand
+  href: H.Controls.Diagram.Presenters.Workflow.Commands.AddWorkflowNodeFromTemplateCommand.html
+  name: AddWorkflowNodeFromTemplateCommand
+  nameWithType: AddWorkflowNodeFromTemplateCommand
+  fullName: H.Controls.Diagram.Presenters.Workflow.Commands.AddWorkflowNodeFromTemplateCommand
+- uid: H.Controls.Diagram.Presenters.Workflow.Commands
+  commentId: N:H.Controls.Diagram.Presenters.Workflow.Commands
+  href: H.html
+  name: H.Controls.Diagram.Presenters.Workflow.Commands
+  nameWithType: H.Controls.Diagram.Presenters.Workflow.Commands
+  fullName: H.Controls.Diagram.Presenters.Workflow.Commands
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenters
+    name: Presenters
+    href: H.Controls.Diagram.Presenters.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenters.Workflow
+    name: Workflow
+    href: H.Controls.Diagram.Presenters.Workflow.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenters.Workflow.Commands
+    name: Commands
+    href: H.Controls.Diagram.Presenters.Workflow.Commands.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenters
+    name: Presenters
+    href: H.Controls.Diagram.Presenters.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenters.Workflow
+    name: Workflow
+    href: H.Controls.Diagram.Presenters.Workflow.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenters.Workflow.Commands
+    name: Commands
+    href: H.Controls.Diagram.Presenters.Workflow.Commands.html

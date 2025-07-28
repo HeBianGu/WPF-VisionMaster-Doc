@@ -1,0 +1,118 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Modules.Messages.Dialog
+  commentId: N:H.Modules.Messages.Dialog
+  id: H.Modules.Messages.Dialog
+  children:
+  - H.Modules.Messages.Dialog.AdornerDialog
+  - H.Modules.Messages.Dialog.AdornerDialogMessageService
+  - H.Modules.Messages.Dialog.AdornerDialogPresenter
+  - H.Modules.Messages.Dialog.CancelAdornerDialogCommand
+  - H.Modules.Messages.Dialog.CloseAdornerDialogCommand
+  - H.Modules.Messages.Dialog.LayoutableExtension
+  - H.Modules.Messages.Dialog.ShowAdornerDialogCommand
+  - H.Modules.Messages.Dialog.SumitAdornerDialogCommand
+  - H.Modules.Messages.Dialog.WindowDialogMessageService
+  langs:
+  - csharp
+  - vb
+  name: H.Modules.Messages.Dialog
+  nameWithType: H.Modules.Messages.Dialog
+  fullName: H.Modules.Messages.Dialog
+  type: Namespace
+  assemblies:
+  - H.Modules.Messages.Dialog
+references:
+- uid: H.Modules.Messages.Dialog.CancelAdornerDialogCommand
+  commentId: T:H.Modules.Messages.Dialog.CancelAdornerDialogCommand
+  href: H.Modules.Messages.Dialog.CancelAdornerDialogCommand.html
+  name: CancelAdornerDialogCommand
+  nameWithType: CancelAdornerDialogCommand
+  fullName: H.Modules.Messages.Dialog.CancelAdornerDialogCommand
+- uid: H.Modules.Messages.Dialog.CloseAdornerDialogCommand
+  commentId: T:H.Modules.Messages.Dialog.CloseAdornerDialogCommand
+  href: H.Modules.Messages.Dialog.CloseAdornerDialogCommand.html
+  name: CloseAdornerDialogCommand
+  nameWithType: CloseAdornerDialogCommand
+  fullName: H.Modules.Messages.Dialog.CloseAdornerDialogCommand
+- uid: H.Modules.Messages.Dialog.ShowAdornerDialogCommand
+  commentId: T:H.Modules.Messages.Dialog.ShowAdornerDialogCommand
+  href: H.Modules.Messages.Dialog.ShowAdornerDialogCommand.html
+  name: ShowAdornerDialogCommand
+  nameWithType: ShowAdornerDialogCommand
+  fullName: H.Modules.Messages.Dialog.ShowAdornerDialogCommand
+- uid: H.Modules.Messages.Dialog.SumitAdornerDialogCommand
+  commentId: T:H.Modules.Messages.Dialog.SumitAdornerDialogCommand
+  href: H.Modules.Messages.Dialog.SumitAdornerDialogCommand.html
+  name: SumitAdornerDialogCommand
+  nameWithType: SumitAdornerDialogCommand
+  fullName: H.Modules.Messages.Dialog.SumitAdornerDialogCommand
+- uid: H.Modules.Messages.Dialog.AdornerDialog
+  commentId: T:H.Modules.Messages.Dialog.AdornerDialog
+  href: H.Modules.Messages.Dialog.AdornerDialog.html
+  name: AdornerDialog
+  nameWithType: AdornerDialog
+  fullName: H.Modules.Messages.Dialog.AdornerDialog
+- uid: H.Modules.Messages.Dialog.AdornerDialogPresenter
+  commentId: T:H.Modules.Messages.Dialog.AdornerDialogPresenter
+  href: H.Modules.Messages.Dialog.AdornerDialogPresenter.html
+  name: AdornerDialogPresenter
+  nameWithType: AdornerDialogPresenter
+  fullName: H.Modules.Messages.Dialog.AdornerDialogPresenter
+- uid: H.Modules.Messages.Dialog.AdornerDialogMessageService
+  commentId: T:H.Modules.Messages.Dialog.AdornerDialogMessageService
+  href: H.Modules.Messages.Dialog.AdornerDialogMessageService.html
+  name: AdornerDialogMessageService
+  nameWithType: AdornerDialogMessageService
+  fullName: H.Modules.Messages.Dialog.AdornerDialogMessageService
+- uid: H.Modules.Messages.Dialog.LayoutableExtension
+  commentId: T:H.Modules.Messages.Dialog.LayoutableExtension
+  parent: H.Modules.Messages.Dialog
+  href: H.Modules.Messages.Dialog.LayoutableExtension.html
+  name: LayoutableExtension
+  nameWithType: LayoutableExtension
+  fullName: H.Modules.Messages.Dialog.LayoutableExtension
+- uid: H.Modules.Messages.Dialog.WindowDialogMessageService
+  commentId: T:H.Modules.Messages.Dialog.WindowDialogMessageService
+  href: H.Modules.Messages.Dialog.WindowDialogMessageService.html
+  name: WindowDialogMessageService
+  nameWithType: WindowDialogMessageService
+  fullName: H.Modules.Messages.Dialog.WindowDialogMessageService
+- uid: H.Modules.Messages.Dialog
+  commentId: N:H.Modules.Messages.Dialog
+  href: H.html
+  name: H.Modules.Messages.Dialog
+  nameWithType: H.Modules.Messages.Dialog
+  fullName: H.Modules.Messages.Dialog
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Modules
+    name: Modules
+    href: H.Modules.html
+  - name: .
+  - uid: H.Modules.Messages
+    name: Messages
+    href: H.Modules.Messages.html
+  - name: .
+  - uid: H.Modules.Messages.Dialog
+    name: Dialog
+    href: H.Modules.Messages.Dialog.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Modules
+    name: Modules
+    href: H.Modules.html
+  - name: .
+  - uid: H.Modules.Messages
+    name: Messages
+    href: H.Modules.Messages.html
+  - name: .
+  - uid: H.Modules.Messages.Dialog
+    name: Dialog
+    href: H.Modules.Messages.Dialog.html

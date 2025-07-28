@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Modules.Login.Base
+  commentId: N:H.Modules.Login.Base
+  id: H.Modules.Login.Base
+  children:
+  - H.Modules.Login.Base.TestUser
+  langs:
+  - csharp
+  - vb
+  name: H.Modules.Login.Base
+  nameWithType: H.Modules.Login.Base
+  fullName: H.Modules.Login.Base
+  type: Namespace
+  assemblies:
+  - H.Modules.Login
+references:
+- uid: H.Modules.Login.Base.TestUser
+  commentId: T:H.Modules.Login.Base.TestUser
+  href: H.Modules.Login.Base.TestUser.html
+  name: TestUser
+  nameWithType: TestUser
+  fullName: H.Modules.Login.Base.TestUser

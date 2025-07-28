@@ -1,0 +1,124 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.TypeConverter
+  commentId: N:H.Extensions.TypeConverter
+  id: H.Extensions.TypeConverter
+  children:
+  - H.Extensions.TypeConverter.DisplayEnumConverter
+  - H.Extensions.TypeConverter.DisplayNameConverter
+  - H.Extensions.TypeConverter.IntRectConverter
+  - H.Extensions.TypeConverter.ObservableCollectionTypeConverter`2
+  - H.Extensions.TypeConverter.SizeToDisplayTypeConverter
+  - H.Extensions.TypeConverter.StringObservableCollection
+  - H.Extensions.TypeConverter.StringObservableCollectionConverter
+  langs:
+  - csharp
+  - vb
+  name: H.Extensions.TypeConverter
+  nameWithType: H.Extensions.TypeConverter
+  fullName: H.Extensions.TypeConverter
+  type: Namespace
+  assemblies:
+  - H.Extensions.TypeConverter
+references:
+- uid: H.Extensions.TypeConverter.DisplayEnumConverter
+  commentId: T:H.Extensions.TypeConverter.DisplayEnumConverter
+  parent: H.Extensions.TypeConverter
+  href: H.Extensions.TypeConverter.DisplayEnumConverter.html
+  name: DisplayEnumConverter
+  nameWithType: DisplayEnumConverter
+  fullName: H.Extensions.TypeConverter.DisplayEnumConverter
+- uid: H.Extensions.TypeConverter.DisplayNameConverter
+  commentId: T:H.Extensions.TypeConverter.DisplayNameConverter
+  parent: H.Extensions.TypeConverter
+  href: H.Extensions.TypeConverter.DisplayNameConverter.html
+  name: DisplayNameConverter
+  nameWithType: DisplayNameConverter
+  fullName: H.Extensions.TypeConverter.DisplayNameConverter
+- uid: H.Extensions.TypeConverter.SizeToDisplayTypeConverter
+  commentId: T:H.Extensions.TypeConverter.SizeToDisplayTypeConverter
+  href: H.Extensions.TypeConverter.SizeToDisplayTypeConverter.html
+  name: SizeToDisplayTypeConverter
+  nameWithType: SizeToDisplayTypeConverter
+  fullName: H.Extensions.TypeConverter.SizeToDisplayTypeConverter
+- uid: H.Extensions.TypeConverter.ObservableCollectionTypeConverter`2
+  commentId: T:H.Extensions.TypeConverter.ObservableCollectionTypeConverter`2
+  href: H.Extensions.TypeConverter.ObservableCollectionTypeConverter-2.html
+  name: ObservableCollectionTypeConverter<Item, ItemConverter>
+  nameWithType: ObservableCollectionTypeConverter<Item, ItemConverter>
+  fullName: H.Extensions.TypeConverter.ObservableCollectionTypeConverter<Item, ItemConverter>
+  nameWithType.vb: ObservableCollectionTypeConverter(Of Item, ItemConverter)
+  fullName.vb: H.Extensions.TypeConverter.ObservableCollectionTypeConverter(Of Item, ItemConverter)
+  name.vb: ObservableCollectionTypeConverter(Of Item, ItemConverter)
+  spec.csharp:
+  - uid: H.Extensions.TypeConverter.ObservableCollectionTypeConverter`2
+    name: ObservableCollectionTypeConverter
+    href: H.Extensions.TypeConverter.ObservableCollectionTypeConverter-2.html
+  - name: <
+  - name: Item
+  - name: ','
+  - name: " "
+  - name: ItemConverter
+  - name: '>'
+  spec.vb:
+  - uid: H.Extensions.TypeConverter.ObservableCollectionTypeConverter`2
+    name: ObservableCollectionTypeConverter
+    href: H.Extensions.TypeConverter.ObservableCollectionTypeConverter-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: Item
+  - name: ','
+  - name: " "
+  - name: ItemConverter
+  - name: )
+- uid: H.Extensions.TypeConverter.IntRectConverter
+  commentId: T:H.Extensions.TypeConverter.IntRectConverter
+  parent: H.Extensions.TypeConverter
+  href: H.Extensions.TypeConverter.IntRectConverter.html
+  name: IntRectConverter
+  nameWithType: IntRectConverter
+  fullName: H.Extensions.TypeConverter.IntRectConverter
+- uid: H.Extensions.TypeConverter.StringObservableCollectionConverter
+  commentId: T:H.Extensions.TypeConverter.StringObservableCollectionConverter
+  parent: H.Extensions.TypeConverter
+  href: H.Extensions.TypeConverter.StringObservableCollectionConverter.html
+  name: StringObservableCollectionConverter
+  nameWithType: StringObservableCollectionConverter
+  fullName: H.Extensions.TypeConverter.StringObservableCollectionConverter
+- uid: H.Extensions.TypeConverter.StringObservableCollection
+  commentId: T:H.Extensions.TypeConverter.StringObservableCollection
+  href: H.Extensions.TypeConverter.StringObservableCollection.html
+  name: StringObservableCollection
+  nameWithType: StringObservableCollection
+  fullName: H.Extensions.TypeConverter.StringObservableCollection
+- uid: H.Extensions.TypeConverter
+  commentId: N:H.Extensions.TypeConverter
+  href: H.html
+  name: H.Extensions.TypeConverter
+  nameWithType: H.Extensions.TypeConverter
+  fullName: H.Extensions.TypeConverter
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.TypeConverter
+    name: TypeConverter
+    href: H.Extensions.TypeConverter.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.TypeConverter
+    name: TypeConverter
+    href: H.Extensions.TypeConverter.html

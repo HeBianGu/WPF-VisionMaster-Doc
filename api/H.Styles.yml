@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Styles
+  commentId: N:H.Styles
+  id: H.Styles
+  children:
+  - H.Styles.ConciseStyleExtension
+  - H.Styles.LogoDataProvider
+  - H.Styles.LogoExtension
+  langs:
+  - csharp
+  - vb
+  name: H.Styles
+  nameWithType: H.Styles
+  fullName: H.Styles
+  type: Namespace
+  assemblies:
+  - H.Style
+references:
+- uid: H.Styles.ConciseStyleExtension
+  commentId: T:H.Styles.ConciseStyleExtension
+  href: H.Styles.ConciseStyleExtension.html
+  name: ConciseStyleExtension
+  nameWithType: ConciseStyleExtension
+  fullName: H.Styles.ConciseStyleExtension
+- uid: H.Styles.LogoDataProvider
+  commentId: T:H.Styles.LogoDataProvider
+  href: H.Styles.LogoDataProvider.html
+  name: LogoDataProvider
+  nameWithType: LogoDataProvider
+  fullName: H.Styles.LogoDataProvider
+- uid: H.Styles.LogoExtension
+  commentId: T:H.Styles.LogoExtension
+  href: H.Styles.LogoExtension.html
+  name: LogoExtension
+  nameWithType: LogoExtension
+  fullName: H.Styles.LogoExtension

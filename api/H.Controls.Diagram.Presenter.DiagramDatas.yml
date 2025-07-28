@@ -1,0 +1,112 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.Diagram.Presenter.DiagramDatas
+  commentId: N:H.Controls.Diagram.Presenter.DiagramDatas
+  id: H.Controls.Diagram.Presenter.DiagramDatas
+  children:
+  - H.Controls.Diagram.Presenter.DiagramDatas.GetNodeDataGroupsContextMenuPresenter
+  - H.Controls.Diagram.Presenter.DiagramDatas.GetNodeDataGroupsItemsControlPresenter
+  - H.Controls.Diagram.Presenter.DiagramDatas.GetNodeDataGroupsTreeViewPresenter
+  - H.Controls.Diagram.Presenter.DiagramDatas.INodeDataGroup
+  - H.Controls.Diagram.Presenter.DiagramDatas.NodeDataGroupsContextMenuPresenter
+  - H.Controls.Diagram.Presenter.DiagramDatas.NodeDataGroupsItemsControlPresenter
+  - H.Controls.Diagram.Presenter.DiagramDatas.NodeDataGroupsTreeViewPresenter
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.Diagram.Presenter.DiagramDatas
+  nameWithType: H.Controls.Diagram.Presenter.DiagramDatas
+  fullName: H.Controls.Diagram.Presenter.DiagramDatas
+  type: Namespace
+  assemblies:
+  - H.Controls.Diagram.Presenter
+references:
+- uid: H.Controls.Diagram.Presenter.DiagramDatas.INodeDataGroup
+  commentId: T:H.Controls.Diagram.Presenter.DiagramDatas.INodeDataGroup
+  parent: H.Controls.Diagram.Presenter.DiagramDatas
+  href: H.Controls.Diagram.Presenter.DiagramDatas.INodeDataGroup.html
+  name: INodeDataGroup
+  nameWithType: INodeDataGroup
+  fullName: H.Controls.Diagram.Presenter.DiagramDatas.INodeDataGroup
+- uid: H.Controls.Diagram.Presenter.DiagramDatas.NodeDataGroupsContextMenuPresenter
+  commentId: T:H.Controls.Diagram.Presenter.DiagramDatas.NodeDataGroupsContextMenuPresenter
+  href: H.Controls.Diagram.Presenter.DiagramDatas.NodeDataGroupsContextMenuPresenter.html
+  name: NodeDataGroupsContextMenuPresenter
+  nameWithType: NodeDataGroupsContextMenuPresenter
+  fullName: H.Controls.Diagram.Presenter.DiagramDatas.NodeDataGroupsContextMenuPresenter
+- uid: H.Controls.Diagram.Presenter.DiagramDatas.GetNodeDataGroupsContextMenuPresenter
+  commentId: T:H.Controls.Diagram.Presenter.DiagramDatas.GetNodeDataGroupsContextMenuPresenter
+  href: H.Controls.Diagram.Presenter.DiagramDatas.GetNodeDataGroupsContextMenuPresenter.html
+  name: GetNodeDataGroupsContextMenuPresenter
+  nameWithType: GetNodeDataGroupsContextMenuPresenter
+  fullName: H.Controls.Diagram.Presenter.DiagramDatas.GetNodeDataGroupsContextMenuPresenter
+- uid: H.Controls.Diagram.Presenter.DiagramDatas.NodeDataGroupsItemsControlPresenter
+  commentId: T:H.Controls.Diagram.Presenter.DiagramDatas.NodeDataGroupsItemsControlPresenter
+  href: H.Controls.Diagram.Presenter.DiagramDatas.NodeDataGroupsItemsControlPresenter.html
+  name: NodeDataGroupsItemsControlPresenter
+  nameWithType: NodeDataGroupsItemsControlPresenter
+  fullName: H.Controls.Diagram.Presenter.DiagramDatas.NodeDataGroupsItemsControlPresenter
+- uid: H.Controls.Diagram.Presenter.DiagramDatas.GetNodeDataGroupsItemsControlPresenter
+  commentId: T:H.Controls.Diagram.Presenter.DiagramDatas.GetNodeDataGroupsItemsControlPresenter
+  href: H.Controls.Diagram.Presenter.DiagramDatas.GetNodeDataGroupsItemsControlPresenter.html
+  name: GetNodeDataGroupsItemsControlPresenter
+  nameWithType: GetNodeDataGroupsItemsControlPresenter
+  fullName: H.Controls.Diagram.Presenter.DiagramDatas.GetNodeDataGroupsItemsControlPresenter
+- uid: H.Controls.Diagram.Presenter.DiagramDatas.NodeDataGroupsTreeViewPresenter
+  commentId: T:H.Controls.Diagram.Presenter.DiagramDatas.NodeDataGroupsTreeViewPresenter
+  href: H.Controls.Diagram.Presenter.DiagramDatas.NodeDataGroupsTreeViewPresenter.html
+  name: NodeDataGroupsTreeViewPresenter
+  nameWithType: NodeDataGroupsTreeViewPresenter
+  fullName: H.Controls.Diagram.Presenter.DiagramDatas.NodeDataGroupsTreeViewPresenter
+- uid: H.Controls.Diagram.Presenter.DiagramDatas.GetNodeDataGroupsTreeViewPresenter
+  commentId: T:H.Controls.Diagram.Presenter.DiagramDatas.GetNodeDataGroupsTreeViewPresenter
+  href: H.Controls.Diagram.Presenter.DiagramDatas.GetNodeDataGroupsTreeViewPresenter.html
+  name: GetNodeDataGroupsTreeViewPresenter
+  nameWithType: GetNodeDataGroupsTreeViewPresenter
+  fullName: H.Controls.Diagram.Presenter.DiagramDatas.GetNodeDataGroupsTreeViewPresenter
+- uid: H.Controls.Diagram.Presenter.DiagramDatas
+  commentId: N:H.Controls.Diagram.Presenter.DiagramDatas
+  href: H.html
+  name: H.Controls.Diagram.Presenter.DiagramDatas
+  nameWithType: H.Controls.Diagram.Presenter.DiagramDatas
+  fullName: H.Controls.Diagram.Presenter.DiagramDatas
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter
+    name: Presenter
+    href: H.Controls.Diagram.Presenter.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter.DiagramDatas
+    name: DiagramDatas
+    href: H.Controls.Diagram.Presenter.DiagramDatas.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter
+    name: Presenter
+    href: H.Controls.Diagram.Presenter.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter.DiagramDatas
+    name: DiagramDatas
+    href: H.Controls.Diagram.Presenter.DiagramDatas.html

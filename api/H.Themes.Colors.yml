@@ -1,0 +1,98 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Themes.Colors
+  commentId: N:H.Themes.Colors
+  id: H.Themes.Colors
+  children:
+  - H.Themes.Colors.ColorResourceBase
+  - H.Themes.Colors.ColorThemeExtension
+  - H.Themes.Colors.ColorThemeType
+  - H.Themes.Colors.DarkColorResource
+  - H.Themes.Colors.DefaultColorResource
+  - H.Themes.Colors.IColorResource
+  - H.Themes.Colors.LightColorResource
+  langs:
+  - csharp
+  - vb
+  name: H.Themes.Colors
+  nameWithType: H.Themes.Colors
+  fullName: H.Themes.Colors
+  type: Namespace
+  assemblies:
+  - H.Theme
+references:
+- uid: H.Themes.Colors.ColorResourceBase
+  commentId: T:H.Themes.Colors.ColorResourceBase
+  parent: H.Themes.Colors
+  href: H.Themes.Colors.ColorResourceBase.html
+  name: ColorResourceBase
+  nameWithType: ColorResourceBase
+  fullName: H.Themes.Colors.ColorResourceBase
+- uid: H.Themes.Colors.ColorThemeExtension
+  commentId: T:H.Themes.Colors.ColorThemeExtension
+  href: H.Themes.Colors.ColorThemeExtension.html
+  name: ColorThemeExtension
+  nameWithType: ColorThemeExtension
+  fullName: H.Themes.Colors.ColorThemeExtension
+- uid: H.Themes.Colors.ColorThemeType
+  commentId: T:H.Themes.Colors.ColorThemeType
+  parent: H.Themes.Colors
+  href: H.Themes.Colors.ColorThemeType.html
+  name: ColorThemeType
+  nameWithType: ColorThemeType
+  fullName: H.Themes.Colors.ColorThemeType
+- uid: H.Themes.Colors.DarkColorResource
+  commentId: T:H.Themes.Colors.DarkColorResource
+  href: H.Themes.Colors.DarkColorResource.html
+  name: DarkColorResource
+  nameWithType: DarkColorResource
+  fullName: H.Themes.Colors.DarkColorResource
+- uid: H.Themes.Colors.DefaultColorResource
+  commentId: T:H.Themes.Colors.DefaultColorResource
+  href: H.Themes.Colors.DefaultColorResource.html
+  name: DefaultColorResource
+  nameWithType: DefaultColorResource
+  fullName: H.Themes.Colors.DefaultColorResource
+- uid: H.Themes.Colors.IColorResource
+  commentId: T:H.Themes.Colors.IColorResource
+  parent: H.Themes.Colors
+  href: H.Themes.Colors.IColorResource.html
+  name: IColorResource
+  nameWithType: IColorResource
+  fullName: H.Themes.Colors.IColorResource
+- uid: H.Themes.Colors.LightColorResource
+  commentId: T:H.Themes.Colors.LightColorResource
+  href: H.Themes.Colors.LightColorResource.html
+  name: LightColorResource
+  nameWithType: LightColorResource
+  fullName: H.Themes.Colors.LightColorResource
+- uid: H.Themes.Colors
+  commentId: N:H.Themes.Colors
+  href: H.html
+  name: H.Themes.Colors
+  nameWithType: H.Themes.Colors
+  fullName: H.Themes.Colors
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Themes
+    name: Themes
+    href: H.Themes.html
+  - name: .
+  - uid: H.Themes.Colors
+    name: Colors
+    href: H.Themes.Colors.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Themes
+    name: Themes
+    href: H.Themes.html
+  - name: .
+  - uid: H.Themes.Colors
+    name: Colors
+    href: H.Themes.Colors.html

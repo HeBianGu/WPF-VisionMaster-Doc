@@ -1,0 +1,44 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.Encryption
+  commentId: N:H.Extensions.Encryption
+  id: H.Extensions.Encryption
+  children:
+  - H.Extensions.Encryption.DESCryptService
+  - H.Extensions.Encryption.DateTimeEncriyptoConverter
+  - H.Extensions.Encryption.DateTimeEncriyptoValueSerializer
+  - H.Extensions.Encryption.EncriyptoValueSerializer
+  langs:
+  - csharp
+  - vb
+  name: H.Extensions.Encryption
+  nameWithType: H.Extensions.Encryption
+  fullName: H.Extensions.Encryption
+  type: Namespace
+  assemblies:
+  - H.Extensions.Encryption
+references:
+- uid: H.Extensions.Encryption.DESCryptService
+  commentId: T:H.Extensions.Encryption.DESCryptService
+  href: H.Extensions.Encryption.DESCryptService.html
+  name: DESCryptService
+  nameWithType: DESCryptService
+  fullName: H.Extensions.Encryption.DESCryptService
+- uid: H.Extensions.Encryption.DateTimeEncriyptoConverter
+  commentId: T:H.Extensions.Encryption.DateTimeEncriyptoConverter
+  href: H.Extensions.Encryption.DateTimeEncriyptoConverter.html
+  name: DateTimeEncriyptoConverter
+  nameWithType: DateTimeEncriyptoConverter
+  fullName: H.Extensions.Encryption.DateTimeEncriyptoConverter
+- uid: H.Extensions.Encryption.DateTimeEncriyptoValueSerializer
+  commentId: T:H.Extensions.Encryption.DateTimeEncriyptoValueSerializer
+  href: H.Extensions.Encryption.DateTimeEncriyptoValueSerializer.html
+  name: DateTimeEncriyptoValueSerializer
+  nameWithType: DateTimeEncriyptoValueSerializer
+  fullName: H.Extensions.Encryption.DateTimeEncriyptoValueSerializer
+- uid: H.Extensions.Encryption.EncriyptoValueSerializer
+  commentId: T:H.Extensions.Encryption.EncriyptoValueSerializer
+  href: H.Extensions.Encryption.EncriyptoValueSerializer.html
+  name: EncriyptoValueSerializer
+  nameWithType: EncriyptoValueSerializer
+  fullName: H.Extensions.Encryption.EncriyptoValueSerializer

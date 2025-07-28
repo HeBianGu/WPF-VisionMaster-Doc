@@ -1,0 +1,214 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.TagBox
+  commentId: N:H.Controls.TagBox
+  id: H.Controls.TagBox
+  children:
+  - H.Controls.TagBox.CreateTagCommand
+  - H.Controls.TagBox.ExportTagsCommand
+  - H.Controls.TagBox.ITag
+  - H.Controls.TagBox.ITagOptions
+  - H.Controls.TagBox.ITagService
+  - H.Controls.TagBox.ITagService`1
+  - H.Controls.TagBox.ImportTagsCommand
+  - H.Controls.TagBox.IocTagService
+  - H.Controls.TagBox.ManageTagCommand
+  - H.Controls.TagBox.Tag
+  - H.Controls.TagBox.TagBox
+  - H.Controls.TagBox.TagBoxSearchConverter
+  - H.Controls.TagBox.TagFilter
+  - H.Controls.TagBox.TagFilterBox
+  - H.Controls.TagBox.TagOptions
+  - H.Controls.TagBox.TagService
+  - H.Controls.TagBox.TagServiceBase`1
+  - H.Controls.TagBox.TagsPresenter
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.TagBox
+  nameWithType: H.Controls.TagBox
+  fullName: H.Controls.TagBox
+  type: Namespace
+  assemblies:
+  - H.Controls.TagBox
+references:
+- uid: H.Controls.TagBox.CreateTagCommand
+  commentId: T:H.Controls.TagBox.CreateTagCommand
+  href: H.Controls.TagBox.CreateTagCommand.html
+  name: CreateTagCommand
+  nameWithType: CreateTagCommand
+  fullName: H.Controls.TagBox.CreateTagCommand
+- uid: H.Controls.TagBox.ExportTagsCommand
+  commentId: T:H.Controls.TagBox.ExportTagsCommand
+  href: H.Controls.TagBox.ExportTagsCommand.html
+  name: ExportTagsCommand
+  nameWithType: ExportTagsCommand
+  fullName: H.Controls.TagBox.ExportTagsCommand
+- uid: H.Controls.TagBox.ImportTagsCommand
+  commentId: T:H.Controls.TagBox.ImportTagsCommand
+  href: H.Controls.TagBox.ImportTagsCommand.html
+  name: ImportTagsCommand
+  nameWithType: ImportTagsCommand
+  fullName: H.Controls.TagBox.ImportTagsCommand
+- uid: H.Controls.TagBox.ManageTagCommand
+  commentId: T:H.Controls.TagBox.ManageTagCommand
+  href: H.Controls.TagBox.ManageTagCommand.html
+  name: ManageTagCommand
+  nameWithType: ManageTagCommand
+  fullName: H.Controls.TagBox.ManageTagCommand
+- uid: H.Controls.TagBox.ITag
+  commentId: T:H.Controls.TagBox.ITag
+  parent: H.Controls.TagBox
+  href: H.Controls.TagBox.ITag.html
+  name: ITag
+  nameWithType: ITag
+  fullName: H.Controls.TagBox.ITag
+- uid: H.Controls.TagBox.ITagOptions
+  commentId: T:H.Controls.TagBox.ITagOptions
+  parent: H.Controls.TagBox
+  href: H.Controls.TagBox.ITagOptions.html
+  name: ITagOptions
+  nameWithType: ITagOptions
+  fullName: H.Controls.TagBox.ITagOptions
+- uid: H.Controls.TagBox.ITagService
+  commentId: T:H.Controls.TagBox.ITagService
+  parent: H.Controls.TagBox
+  href: H.Controls.TagBox.ITagService.html
+  name: ITagService
+  nameWithType: ITagService
+  fullName: H.Controls.TagBox.ITagService
+- uid: H.Controls.TagBox.IocTagService
+  commentId: T:H.Controls.TagBox.IocTagService
+  href: H.Controls.TagBox.IocTagService.html
+  name: IocTagService
+  nameWithType: IocTagService
+  fullName: H.Controls.TagBox.IocTagService
+- uid: H.Controls.TagBox.ITagService`1
+  commentId: T:H.Controls.TagBox.ITagService`1
+  href: H.Controls.TagBox.ITagService-1.html
+  name: ITagService<T>
+  nameWithType: ITagService<T>
+  fullName: H.Controls.TagBox.ITagService<T>
+  nameWithType.vb: ITagService(Of T)
+  fullName.vb: H.Controls.TagBox.ITagService(Of T)
+  name.vb: ITagService(Of T)
+  spec.csharp:
+  - uid: H.Controls.TagBox.ITagService`1
+    name: ITagService
+    href: H.Controls.TagBox.ITagService-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Controls.TagBox.ITagService`1
+    name: ITagService
+    href: H.Controls.TagBox.ITagService-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Controls.TagBox.TagOptions
+  commentId: T:H.Controls.TagBox.TagOptions
+  href: H.Controls.TagBox.TagOptions.html
+  name: TagOptions
+  nameWithType: TagOptions
+  fullName: H.Controls.TagBox.TagOptions
+- uid: H.Controls.TagBox.TagService
+  commentId: T:H.Controls.TagBox.TagService
+  href: H.Controls.TagBox.TagService.html
+  name: TagService
+  nameWithType: TagService
+  fullName: H.Controls.TagBox.TagService
+- uid: H.Controls.TagBox.TagServiceBase`1
+  commentId: T:H.Controls.TagBox.TagServiceBase`1
+  href: H.Controls.TagBox.TagServiceBase-1.html
+  name: TagServiceBase<T>
+  nameWithType: TagServiceBase<T>
+  fullName: H.Controls.TagBox.TagServiceBase<T>
+  nameWithType.vb: TagServiceBase(Of T)
+  fullName.vb: H.Controls.TagBox.TagServiceBase(Of T)
+  name.vb: TagServiceBase(Of T)
+  spec.csharp:
+  - uid: H.Controls.TagBox.TagServiceBase`1
+    name: TagServiceBase
+    href: H.Controls.TagBox.TagServiceBase-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Controls.TagBox.TagServiceBase`1
+    name: TagServiceBase
+    href: H.Controls.TagBox.TagServiceBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Controls.TagBox.Tag
+  commentId: T:H.Controls.TagBox.Tag
+  href: H.Controls.TagBox.Tag.html
+  name: Tag
+  nameWithType: Tag
+  fullName: H.Controls.TagBox.Tag
+- uid: H.Controls.TagBox.TagBox
+  commentId: T:H.Controls.TagBox.TagBox
+  href: H.Controls.TagBox.TagBox.html
+  name: TagBox
+  nameWithType: TagBox
+  fullName: H.Controls.TagBox.TagBox
+- uid: H.Controls.TagBox.TagBoxSearchConverter
+  commentId: T:H.Controls.TagBox.TagBoxSearchConverter
+  href: H.Controls.TagBox.TagBoxSearchConverter.html
+  name: TagBoxSearchConverter
+  nameWithType: TagBoxSearchConverter
+  fullName: H.Controls.TagBox.TagBoxSearchConverter
+- uid: H.Controls.TagBox.TagFilterBox
+  commentId: T:H.Controls.TagBox.TagFilterBox
+  parent: H.Controls.TagBox
+  href: H.Controls.TagBox.TagFilterBox.html
+  name: TagFilterBox
+  nameWithType: TagFilterBox
+  fullName: H.Controls.TagBox.TagFilterBox
+- uid: H.Controls.TagBox.TagFilter
+  commentId: T:H.Controls.TagBox.TagFilter
+  href: H.Controls.TagBox.TagFilter.html
+  name: TagFilter
+  nameWithType: TagFilter
+  fullName: H.Controls.TagBox.TagFilter
+- uid: H.Controls.TagBox.TagsPresenter
+  commentId: T:H.Controls.TagBox.TagsPresenter
+  href: H.Controls.TagBox.TagsPresenter.html
+  name: TagsPresenter
+  nameWithType: TagsPresenter
+  fullName: H.Controls.TagBox.TagsPresenter
+- uid: H.Controls.TagBox
+  commentId: N:H.Controls.TagBox
+  href: H.html
+  name: H.Controls.TagBox
+  nameWithType: H.Controls.TagBox
+  fullName: H.Controls.TagBox
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.TagBox
+    name: TagBox
+    href: H.Controls.TagBox.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.TagBox
+    name: TagBox
+    href: H.Controls.TagBox.html

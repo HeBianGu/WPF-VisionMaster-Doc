@@ -1,0 +1,54 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Themes.Extensions
+  commentId: N:H.Themes.Extensions
+  id: H.Themes.Extensions
+  children:
+  - H.Themes.Extensions.ThemeTypeExtension
+  langs:
+  - csharp
+  - vb
+  name: H.Themes.Extensions
+  nameWithType: H.Themes.Extensions
+  fullName: H.Themes.Extensions
+  type: Namespace
+  assemblies:
+  - H.Theme
+references:
+- uid: H.Themes.Extensions.ThemeTypeExtension
+  commentId: T:H.Themes.Extensions.ThemeTypeExtension
+  parent: H.Themes.Extensions
+  href: H.Themes.Extensions.ThemeTypeExtension.html
+  name: ThemeTypeExtension
+  nameWithType: ThemeTypeExtension
+  fullName: H.Themes.Extensions.ThemeTypeExtension
+- uid: H.Themes.Extensions
+  commentId: N:H.Themes.Extensions
+  href: H.html
+  name: H.Themes.Extensions
+  nameWithType: H.Themes.Extensions
+  fullName: H.Themes.Extensions
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Themes
+    name: Themes
+    href: H.Themes.html
+  - name: .
+  - uid: H.Themes.Extensions
+    name: Extensions
+    href: H.Themes.Extensions.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Themes
+    name: Themes
+    href: H.Themes.html
+  - name: .
+  - uid: H.Themes.Extensions
+    name: Extensions
+    href: H.Themes.Extensions.html

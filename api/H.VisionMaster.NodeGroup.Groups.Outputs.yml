@@ -1,0 +1,78 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.VisionMaster.NodeGroup.Groups.Outputs
+  commentId: N:H.VisionMaster.NodeGroup.Groups.Outputs
+  id: H.VisionMaster.NodeGroup.Groups.Outputs
+  children:
+  - H.VisionMaster.NodeGroup.Groups.Outputs.IOutputGroupableNodeData
+  - H.VisionMaster.NodeGroup.Groups.Outputs.OutputDataGroup
+  langs:
+  - csharp
+  - vb
+  name: H.VisionMaster.NodeGroup.Groups.Outputs
+  nameWithType: H.VisionMaster.NodeGroup.Groups.Outputs
+  fullName: H.VisionMaster.NodeGroup.Groups.Outputs
+  type: Namespace
+  assemblies:
+  - H.VisionMaster.NodeGroup
+references:
+- uid: H.VisionMaster.NodeGroup.Groups.Outputs.IOutputGroupableNodeData
+  commentId: T:H.VisionMaster.NodeGroup.Groups.Outputs.IOutputGroupableNodeData
+  parent: H.VisionMaster.NodeGroup.Groups.Outputs
+  href: H.VisionMaster.NodeGroup.Groups.Outputs.IOutputGroupableNodeData.html
+  name: IOutputGroupableNodeData
+  nameWithType: IOutputGroupableNodeData
+  fullName: H.VisionMaster.NodeGroup.Groups.Outputs.IOutputGroupableNodeData
+- uid: H.VisionMaster.NodeGroup.Groups.Outputs.OutputDataGroup
+  commentId: T:H.VisionMaster.NodeGroup.Groups.Outputs.OutputDataGroup
+  parent: H.VisionMaster.NodeGroup.Groups.Outputs
+  href: H.VisionMaster.NodeGroup.Groups.Outputs.OutputDataGroup.html
+  name: OutputDataGroup
+  nameWithType: OutputDataGroup
+  fullName: H.VisionMaster.NodeGroup.Groups.Outputs.OutputDataGroup
+- uid: H.VisionMaster.NodeGroup.Groups.Outputs
+  commentId: N:H.VisionMaster.NodeGroup.Groups.Outputs
+  href: H.html
+  name: H.VisionMaster.NodeGroup.Groups.Outputs
+  nameWithType: H.VisionMaster.NodeGroup.Groups.Outputs
+  fullName: H.VisionMaster.NodeGroup.Groups.Outputs
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup
+    name: NodeGroup
+    href: H.VisionMaster.NodeGroup.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup.Groups
+    name: Groups
+    href: H.VisionMaster.NodeGroup.Groups.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup.Groups.Outputs
+    name: Outputs
+    href: H.VisionMaster.NodeGroup.Groups.Outputs.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup
+    name: NodeGroup
+    href: H.VisionMaster.NodeGroup.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup.Groups
+    name: Groups
+    href: H.VisionMaster.NodeGroup.Groups.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup.Groups.Outputs
+    name: Outputs
+    href: H.VisionMaster.NodeGroup.Groups.Outputs.html

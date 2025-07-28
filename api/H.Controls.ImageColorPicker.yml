@@ -1,0 +1,68 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.ImageColorPicker
+  commentId: N:H.Controls.ImageColorPicker
+  id: H.Controls.ImageColorPicker
+  children:
+  - H.Controls.ImageColorPicker.HitHandleType
+  - H.Controls.ImageColorPicker.ImageColorPickerBox
+  - H.Controls.ImageColorPicker.ImageColorPickerBoxPresenter
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.ImageColorPicker
+  nameWithType: H.Controls.ImageColorPicker
+  fullName: H.Controls.ImageColorPicker
+  type: Namespace
+  assemblies:
+  - H.Controls.ImageColorPicker
+references:
+- uid: H.Controls.ImageColorPicker.HitHandleType
+  commentId: T:H.Controls.ImageColorPicker.HitHandleType
+  parent: H.Controls.ImageColorPicker
+  href: H.Controls.ImageColorPicker.HitHandleType.html
+  name: HitHandleType
+  nameWithType: HitHandleType
+  fullName: H.Controls.ImageColorPicker.HitHandleType
+- uid: H.Controls.ImageColorPicker.ImageColorPickerBox
+  commentId: T:H.Controls.ImageColorPicker.ImageColorPickerBox
+  href: H.Controls.ImageColorPicker.ImageColorPickerBox.html
+  name: ImageColorPickerBox
+  nameWithType: ImageColorPickerBox
+  fullName: H.Controls.ImageColorPicker.ImageColorPickerBox
+- uid: H.Controls.ImageColorPicker.ImageColorPickerBoxPresenter
+  commentId: T:H.Controls.ImageColorPicker.ImageColorPickerBoxPresenter
+  href: H.Controls.ImageColorPicker.ImageColorPickerBoxPresenter.html
+  name: ImageColorPickerBoxPresenter
+  nameWithType: ImageColorPickerBoxPresenter
+  fullName: H.Controls.ImageColorPicker.ImageColorPickerBoxPresenter
+- uid: H.Controls.ImageColorPicker
+  commentId: N:H.Controls.ImageColorPicker
+  href: H.html
+  name: H.Controls.ImageColorPicker
+  nameWithType: H.Controls.ImageColorPicker
+  fullName: H.Controls.ImageColorPicker
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.ImageColorPicker
+    name: ImageColorPicker
+    href: H.Controls.ImageColorPicker.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.ImageColorPicker
+    name: ImageColorPicker
+    href: H.Controls.ImageColorPicker.html

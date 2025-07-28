@@ -1,0 +1,182 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.Form.PropertyItem.TextPropertyItems
+  commentId: N:H.Controls.Form.PropertyItem.TextPropertyItems
+  id: H.Controls.Form.PropertyItem.TextPropertyItems
+  children:
+  - H.Controls.Form.PropertyItem.TextPropertyItems.DeleteSystemPathTextPropertyItem
+  - H.Controls.Form.PropertyItem.TextPropertyItems.DoubleSliderTextPropertyItem
+  - H.Controls.Form.PropertyItem.TextPropertyItems.FloatSliderTextPropertyItem
+  - H.Controls.Form.PropertyItem.TextPropertyItems.GetValueFromStringValueConverter
+  - H.Controls.Form.PropertyItem.TextPropertyItems.HyperlinkPropertyItem
+  - H.Controls.Form.PropertyItem.TextPropertyItems.Int32SliderTextPropertyItem
+  - H.Controls.Form.PropertyItem.TextPropertyItems.OpenDeleteSystemPathTextPropertyItem
+  - H.Controls.Form.PropertyItem.TextPropertyItems.OpenFileDialogPropertyItem
+  - H.Controls.Form.PropertyItem.TextPropertyItems.OpenSystemPathTextPropertyItem
+  - H.Controls.Form.PropertyItem.TextPropertyItems.PasswordTextPropertyItem
+  - H.Controls.Form.PropertyItem.TextPropertyItems.SliderTextPropertyItemBase
+  - H.Controls.Form.PropertyItem.TextPropertyItems.SliderTextPropertyItem`1
+  - H.Controls.Form.PropertyItem.TextPropertyItems.UnitTextPropertyItem
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.Form.PropertyItem.TextPropertyItems
+  nameWithType: H.Controls.Form.PropertyItem.TextPropertyItems
+  fullName: H.Controls.Form.PropertyItem.TextPropertyItems
+  type: Namespace
+  assemblies:
+  - H.Controls.Form.PropertyItem
+references:
+- uid: H.Controls.Form.PropertyItem.TextPropertyItems.DeleteSystemPathTextPropertyItem
+  commentId: T:H.Controls.Form.PropertyItem.TextPropertyItems.DeleteSystemPathTextPropertyItem
+  parent: H.Controls.Form.PropertyItem.TextPropertyItems
+  href: H.Controls.Form.PropertyItem.TextPropertyItems.DeleteSystemPathTextPropertyItem.html
+  name: DeleteSystemPathTextPropertyItem
+  nameWithType: DeleteSystemPathTextPropertyItem
+  fullName: H.Controls.Form.PropertyItem.TextPropertyItems.DeleteSystemPathTextPropertyItem
+- uid: H.Controls.Form.PropertyItem.TextPropertyItems.HyperlinkPropertyItem
+  commentId: T:H.Controls.Form.PropertyItem.TextPropertyItems.HyperlinkPropertyItem
+  parent: H.Controls.Form.PropertyItem.TextPropertyItems
+  href: H.Controls.Form.PropertyItem.TextPropertyItems.HyperlinkPropertyItem.html
+  name: HyperlinkPropertyItem
+  nameWithType: HyperlinkPropertyItem
+  fullName: H.Controls.Form.PropertyItem.TextPropertyItems.HyperlinkPropertyItem
+- uid: H.Controls.Form.PropertyItem.TextPropertyItems.OpenDeleteSystemPathTextPropertyItem
+  commentId: T:H.Controls.Form.PropertyItem.TextPropertyItems.OpenDeleteSystemPathTextPropertyItem
+  parent: H.Controls.Form.PropertyItem.TextPropertyItems
+  href: H.Controls.Form.PropertyItem.TextPropertyItems.OpenDeleteSystemPathTextPropertyItem.html
+  name: OpenDeleteSystemPathTextPropertyItem
+  nameWithType: OpenDeleteSystemPathTextPropertyItem
+  fullName: H.Controls.Form.PropertyItem.TextPropertyItems.OpenDeleteSystemPathTextPropertyItem
+- uid: H.Controls.Form.PropertyItem.TextPropertyItems.OpenFileDialogPropertyItem
+  commentId: T:H.Controls.Form.PropertyItem.TextPropertyItems.OpenFileDialogPropertyItem
+  parent: H.Controls.Form.PropertyItem.TextPropertyItems
+  href: H.Controls.Form.PropertyItem.TextPropertyItems.OpenFileDialogPropertyItem.html
+  name: OpenFileDialogPropertyItem
+  nameWithType: OpenFileDialogPropertyItem
+  fullName: H.Controls.Form.PropertyItem.TextPropertyItems.OpenFileDialogPropertyItem
+- uid: H.Controls.Form.PropertyItem.TextPropertyItems.OpenSystemPathTextPropertyItem
+  commentId: T:H.Controls.Form.PropertyItem.TextPropertyItems.OpenSystemPathTextPropertyItem
+  parent: H.Controls.Form.PropertyItem.TextPropertyItems
+  href: H.Controls.Form.PropertyItem.TextPropertyItems.OpenSystemPathTextPropertyItem.html
+  name: OpenSystemPathTextPropertyItem
+  nameWithType: OpenSystemPathTextPropertyItem
+  fullName: H.Controls.Form.PropertyItem.TextPropertyItems.OpenSystemPathTextPropertyItem
+- uid: H.Controls.Form.PropertyItem.TextPropertyItems.PasswordTextPropertyItem
+  commentId: T:H.Controls.Form.PropertyItem.TextPropertyItems.PasswordTextPropertyItem
+  parent: H.Controls.Form.PropertyItem.TextPropertyItems
+  href: H.Controls.Form.PropertyItem.TextPropertyItems.PasswordTextPropertyItem.html
+  name: PasswordTextPropertyItem
+  nameWithType: PasswordTextPropertyItem
+  fullName: H.Controls.Form.PropertyItem.TextPropertyItems.PasswordTextPropertyItem
+- uid: H.Controls.Form.PropertyItem.TextPropertyItems.SliderTextPropertyItemBase
+  commentId: T:H.Controls.Form.PropertyItem.TextPropertyItems.SliderTextPropertyItemBase
+  parent: H.Controls.Form.PropertyItem.TextPropertyItems
+  href: H.Controls.Form.PropertyItem.TextPropertyItems.SliderTextPropertyItemBase.html
+  name: SliderTextPropertyItemBase
+  nameWithType: SliderTextPropertyItemBase
+  fullName: H.Controls.Form.PropertyItem.TextPropertyItems.SliderTextPropertyItemBase
+- uid: H.Controls.Form.PropertyItem.TextPropertyItems.SliderTextPropertyItem`1
+  commentId: T:H.Controls.Form.PropertyItem.TextPropertyItems.SliderTextPropertyItem`1
+  href: H.Controls.Form.PropertyItem.TextPropertyItems.SliderTextPropertyItem-1.html
+  name: SliderTextPropertyItem<T>
+  nameWithType: SliderTextPropertyItem<T>
+  fullName: H.Controls.Form.PropertyItem.TextPropertyItems.SliderTextPropertyItem<T>
+  nameWithType.vb: SliderTextPropertyItem(Of T)
+  fullName.vb: H.Controls.Form.PropertyItem.TextPropertyItems.SliderTextPropertyItem(Of T)
+  name.vb: SliderTextPropertyItem(Of T)
+  spec.csharp:
+  - uid: H.Controls.Form.PropertyItem.TextPropertyItems.SliderTextPropertyItem`1
+    name: SliderTextPropertyItem
+    href: H.Controls.Form.PropertyItem.TextPropertyItems.SliderTextPropertyItem-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Controls.Form.PropertyItem.TextPropertyItems.SliderTextPropertyItem`1
+    name: SliderTextPropertyItem
+    href: H.Controls.Form.PropertyItem.TextPropertyItems.SliderTextPropertyItem-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Controls.Form.PropertyItem.TextPropertyItems.DoubleSliderTextPropertyItem
+  commentId: T:H.Controls.Form.PropertyItem.TextPropertyItems.DoubleSliderTextPropertyItem
+  parent: H.Controls.Form.PropertyItem.TextPropertyItems
+  href: H.Controls.Form.PropertyItem.TextPropertyItems.DoubleSliderTextPropertyItem.html
+  name: DoubleSliderTextPropertyItem
+  nameWithType: DoubleSliderTextPropertyItem
+  fullName: H.Controls.Form.PropertyItem.TextPropertyItems.DoubleSliderTextPropertyItem
+- uid: H.Controls.Form.PropertyItem.TextPropertyItems.FloatSliderTextPropertyItem
+  commentId: T:H.Controls.Form.PropertyItem.TextPropertyItems.FloatSliderTextPropertyItem
+  parent: H.Controls.Form.PropertyItem.TextPropertyItems
+  href: H.Controls.Form.PropertyItem.TextPropertyItems.FloatSliderTextPropertyItem.html
+  name: FloatSliderTextPropertyItem
+  nameWithType: FloatSliderTextPropertyItem
+  fullName: H.Controls.Form.PropertyItem.TextPropertyItems.FloatSliderTextPropertyItem
+- uid: H.Controls.Form.PropertyItem.TextPropertyItems.Int32SliderTextPropertyItem
+  commentId: T:H.Controls.Form.PropertyItem.TextPropertyItems.Int32SliderTextPropertyItem
+  parent: H.Controls.Form.PropertyItem.TextPropertyItems
+  href: H.Controls.Form.PropertyItem.TextPropertyItems.Int32SliderTextPropertyItem.html
+  name: Int32SliderTextPropertyItem
+  nameWithType: Int32SliderTextPropertyItem
+  fullName: H.Controls.Form.PropertyItem.TextPropertyItems.Int32SliderTextPropertyItem
+- uid: H.Controls.Form.PropertyItem.TextPropertyItems.GetValueFromStringValueConverter
+  commentId: T:H.Controls.Form.PropertyItem.TextPropertyItems.GetValueFromStringValueConverter
+  href: H.Controls.Form.PropertyItem.TextPropertyItems.GetValueFromStringValueConverter.html
+  name: GetValueFromStringValueConverter
+  nameWithType: GetValueFromStringValueConverter
+  fullName: H.Controls.Form.PropertyItem.TextPropertyItems.GetValueFromStringValueConverter
+- uid: H.Controls.Form.PropertyItem.TextPropertyItems.UnitTextPropertyItem
+  commentId: T:H.Controls.Form.PropertyItem.TextPropertyItems.UnitTextPropertyItem
+  href: H.Controls.Form.PropertyItem.TextPropertyItems.UnitTextPropertyItem.html
+  name: UnitTextPropertyItem
+  nameWithType: UnitTextPropertyItem
+  fullName: H.Controls.Form.PropertyItem.TextPropertyItems.UnitTextPropertyItem
+- uid: H.Controls.Form.PropertyItem.TextPropertyItems
+  commentId: N:H.Controls.Form.PropertyItem.TextPropertyItems
+  href: H.html
+  name: H.Controls.Form.PropertyItem.TextPropertyItems
+  nameWithType: H.Controls.Form.PropertyItem.TextPropertyItems
+  fullName: H.Controls.Form.PropertyItem.TextPropertyItems
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Form
+    name: Form
+    href: H.Controls.Form.html
+  - name: .
+  - uid: H.Controls.Form.PropertyItem
+    name: PropertyItem
+    href: H.Controls.Form.PropertyItem.html
+  - name: .
+  - uid: H.Controls.Form.PropertyItem.TextPropertyItems
+    name: TextPropertyItems
+    href: H.Controls.Form.PropertyItem.TextPropertyItems.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Form
+    name: Form
+    href: H.Controls.Form.html
+  - name: .
+  - uid: H.Controls.Form.PropertyItem
+    name: PropertyItem
+    href: H.Controls.Form.PropertyItem.html
+  - name: .
+  - uid: H.Controls.Form.PropertyItem.TextPropertyItems
+    name: TextPropertyItems
+    href: H.Controls.Form.PropertyItem.TextPropertyItems.html

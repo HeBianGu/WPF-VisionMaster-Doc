@@ -1,0 +1,62 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Services.Common.Excel
+  commentId: N:H.Services.Common.Excel
+  id: H.Services.Common.Excel
+  children:
+  - H.Services.Common.Excel.IExcelService
+  langs:
+  - csharp
+  - vb
+  name: H.Services.Common.Excel
+  nameWithType: H.Services.Common.Excel
+  fullName: H.Services.Common.Excel
+  type: Namespace
+  assemblies:
+  - H.Services.Common
+references:
+- uid: H.Services.Common.Excel.IExcelService
+  commentId: T:H.Services.Common.Excel.IExcelService
+  parent: H.Services.Common.Excel
+  href: H.Services.Common.Excel.IExcelService.html
+  name: IExcelService
+  nameWithType: IExcelService
+  fullName: H.Services.Common.Excel.IExcelService
+- uid: H.Services.Common.Excel
+  commentId: N:H.Services.Common.Excel
+  href: H.html
+  name: H.Services.Common.Excel
+  nameWithType: H.Services.Common.Excel
+  fullName: H.Services.Common.Excel
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Common
+    name: Common
+    href: H.Services.Common.html
+  - name: .
+  - uid: H.Services.Common.Excel
+    name: Excel
+    href: H.Services.Common.Excel.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Common
+    name: Common
+    href: H.Services.Common.html
+  - name: .
+  - uid: H.Services.Common.Excel
+    name: Excel
+    href: H.Services.Common.Excel.html

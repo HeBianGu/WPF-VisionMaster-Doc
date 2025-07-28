@@ -1,0 +1,141 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.Diagram.Presenters.Workflow.Workflows
+  commentId: N:H.Controls.Diagram.Presenters.Workflow.Workflows
+  id: H.Controls.Diagram.Presenters.Workflow.Workflows
+  children:
+  - H.Controls.Diagram.Presenters.Workflow.Workflows.AuditWorkflow
+  - H.Controls.Diagram.Presenters.Workflow.Workflows.DataWorkflow
+  - H.Controls.Diagram.Presenters.Workflow.Workflows.EventWorkflow
+  - H.Controls.Diagram.Presenters.Workflow.Workflows.IDEFWorkflow
+  - H.Controls.Diagram.Presenters.Workflow.Workflows.LaneLayout
+  - H.Controls.Diagram.Presenters.Workflow.Workflows.LaneWorkflow
+  - H.Controls.Diagram.Presenters.Workflow.Workflows.SDLWorkflow
+  - H.Controls.Diagram.Presenters.Workflow.Workflows.WorkWorkflow
+  - H.Controls.Diagram.Presenters.Workflow.Workflows.Workflow
+  - H.Controls.Diagram.Presenters.Workflow.Workflows.WorkflowBase
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.Diagram.Presenters.Workflow.Workflows
+  nameWithType: H.Controls.Diagram.Presenters.Workflow.Workflows
+  fullName: H.Controls.Diagram.Presenters.Workflow.Workflows
+  type: Namespace
+  assemblies:
+  - H.Controls.Diagram.Presenters.Workflow
+references:
+- uid: H.Controls.Diagram.Presenters.Workflow.Workflows.AuditWorkflow
+  commentId: T:H.Controls.Diagram.Presenters.Workflow.Workflows.AuditWorkflow
+  href: H.Controls.Diagram.Presenters.Workflow.Workflows.AuditWorkflow.html
+  name: AuditWorkflow
+  nameWithType: AuditWorkflow
+  fullName: H.Controls.Diagram.Presenters.Workflow.Workflows.AuditWorkflow
+- uid: H.Controls.Diagram.Presenters.Workflow.Workflows.DataWorkflow
+  commentId: T:H.Controls.Diagram.Presenters.Workflow.Workflows.DataWorkflow
+  href: H.Controls.Diagram.Presenters.Workflow.Workflows.DataWorkflow.html
+  name: DataWorkflow
+  nameWithType: DataWorkflow
+  fullName: H.Controls.Diagram.Presenters.Workflow.Workflows.DataWorkflow
+- uid: H.Controls.Diagram.Presenters.Workflow.Workflows.EventWorkflow
+  commentId: T:H.Controls.Diagram.Presenters.Workflow.Workflows.EventWorkflow
+  href: H.Controls.Diagram.Presenters.Workflow.Workflows.EventWorkflow.html
+  name: EventWorkflow
+  nameWithType: EventWorkflow
+  fullName: H.Controls.Diagram.Presenters.Workflow.Workflows.EventWorkflow
+- uid: H.Controls.Diagram.Presenters.Workflow.Workflows.IDEFWorkflow
+  commentId: T:H.Controls.Diagram.Presenters.Workflow.Workflows.IDEFWorkflow
+  href: H.Controls.Diagram.Presenters.Workflow.Workflows.IDEFWorkflow.html
+  name: IDEFWorkflow
+  nameWithType: IDEFWorkflow
+  fullName: H.Controls.Diagram.Presenters.Workflow.Workflows.IDEFWorkflow
+- uid: H.Controls.Diagram.Presenters.Workflow.Workflows.LaneLayout
+  commentId: T:H.Controls.Diagram.Presenters.Workflow.Workflows.LaneLayout
+  href: H.Controls.Diagram.Presenters.Workflow.Workflows.LaneLayout.html
+  name: LaneLayout
+  nameWithType: LaneLayout
+  fullName: H.Controls.Diagram.Presenters.Workflow.Workflows.LaneLayout
+- uid: H.Controls.Diagram.Presenters.Workflow.Workflows.LaneWorkflow
+  commentId: T:H.Controls.Diagram.Presenters.Workflow.Workflows.LaneWorkflow
+  href: H.Controls.Diagram.Presenters.Workflow.Workflows.LaneWorkflow.html
+  name: LaneWorkflow
+  nameWithType: LaneWorkflow
+  fullName: H.Controls.Diagram.Presenters.Workflow.Workflows.LaneWorkflow
+- uid: H.Controls.Diagram.Presenters.Workflow.Workflows.SDLWorkflow
+  commentId: T:H.Controls.Diagram.Presenters.Workflow.Workflows.SDLWorkflow
+  href: H.Controls.Diagram.Presenters.Workflow.Workflows.SDLWorkflow.html
+  name: SDLWorkflow
+  nameWithType: SDLWorkflow
+  fullName: H.Controls.Diagram.Presenters.Workflow.Workflows.SDLWorkflow
+- uid: H.Controls.Diagram.Presenters.Workflow.Workflows.Workflow
+  commentId: T:H.Controls.Diagram.Presenters.Workflow.Workflows.Workflow
+  href: H.Controls.Diagram.Presenters.Workflow.Workflows.Workflow.html
+  name: Workflow
+  nameWithType: Workflow
+  fullName: H.Controls.Diagram.Presenters.Workflow.Workflows.Workflow
+- uid: H.Controls.Diagram.Presenters.Workflow.Workflows.WorkflowBase
+  commentId: T:H.Controls.Diagram.Presenters.Workflow.Workflows.WorkflowBase
+  parent: H.Controls.Diagram.Presenters.Workflow.Workflows
+  href: H.Controls.Diagram.Presenters.Workflow.Workflows.WorkflowBase.html
+  name: WorkflowBase
+  nameWithType: WorkflowBase
+  fullName: H.Controls.Diagram.Presenters.Workflow.Workflows.WorkflowBase
+- uid: H.Controls.Diagram.Presenters.Workflow.Workflows.WorkWorkflow
+  commentId: T:H.Controls.Diagram.Presenters.Workflow.Workflows.WorkWorkflow
+  href: H.Controls.Diagram.Presenters.Workflow.Workflows.WorkWorkflow.html
+  name: WorkWorkflow
+  nameWithType: WorkWorkflow
+  fullName: H.Controls.Diagram.Presenters.Workflow.Workflows.WorkWorkflow
+- uid: H.Controls.Diagram.Presenters.Workflow.Workflows
+  commentId: N:H.Controls.Diagram.Presenters.Workflow.Workflows
+  href: H.html
+  name: H.Controls.Diagram.Presenters.Workflow.Workflows
+  nameWithType: H.Controls.Diagram.Presenters.Workflow.Workflows
+  fullName: H.Controls.Diagram.Presenters.Workflow.Workflows
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenters
+    name: Presenters
+    href: H.Controls.Diagram.Presenters.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenters.Workflow
+    name: Workflow
+    href: H.Controls.Diagram.Presenters.Workflow.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenters.Workflow.Workflows
+    name: Workflows
+    href: H.Controls.Diagram.Presenters.Workflow.Workflows.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenters
+    name: Presenters
+    href: H.Controls.Diagram.Presenters.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenters.Workflow
+    name: Workflow
+    href: H.Controls.Diagram.Presenters.Workflow.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenters.Workflow.Workflows
+    name: Workflows
+    href: H.Controls.Diagram.Presenters.Workflow.Workflows.html

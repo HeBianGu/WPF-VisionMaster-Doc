@@ -1,0 +1,70 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Services.Identity.Role
+  commentId: N:H.Services.Identity.Role
+  id: H.Services.Identity.Role
+  children:
+  - H.Services.Identity.Role.IRole
+  - H.Services.Identity.Role.IRoleViewPresenter
+  langs:
+  - csharp
+  - vb
+  name: H.Services.Identity.Role
+  nameWithType: H.Services.Identity.Role
+  fullName: H.Services.Identity.Role
+  type: Namespace
+  assemblies:
+  - H.Services.Identity
+references:
+- uid: H.Services.Identity.Role.IRole
+  commentId: T:H.Services.Identity.Role.IRole
+  parent: H.Services.Identity.Role
+  href: H.Services.Identity.Role.IRole.html
+  name: IRole
+  nameWithType: IRole
+  fullName: H.Services.Identity.Role.IRole
+- uid: H.Services.Identity.Role.IRoleViewPresenter
+  commentId: T:H.Services.Identity.Role.IRoleViewPresenter
+  parent: H.Services.Identity.Role
+  href: H.Services.Identity.Role.IRoleViewPresenter.html
+  name: IRoleViewPresenter
+  nameWithType: IRoleViewPresenter
+  fullName: H.Services.Identity.Role.IRoleViewPresenter
+- uid: H.Services.Identity.Role
+  commentId: N:H.Services.Identity.Role
+  href: H.html
+  name: H.Services.Identity.Role
+  nameWithType: H.Services.Identity.Role
+  fullName: H.Services.Identity.Role
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Identity
+    name: Identity
+    href: H.Services.Identity.html
+  - name: .
+  - uid: H.Services.Identity.Role
+    name: Role
+    href: H.Services.Identity.Role.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Identity
+    name: Identity
+    href: H.Services.Identity.html
+  - name: .
+  - uid: H.Services.Identity.Role
+    name: Role
+    href: H.Services.Identity.Role.html

@@ -1,0 +1,156 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.VisionMaster.OpenCV.Base
+  commentId: N:H.VisionMaster.OpenCV.Base
+  id: H.VisionMaster.OpenCV.Base
+  children:
+  - H.VisionMaster.OpenCV.Base.CascadeClassifierOpenCVNodeDataBase
+  - H.VisionMaster.OpenCV.Base.FeatureOpenCVNodeDataBase
+  - H.VisionMaster.OpenCV.Base.IFeatureDetectorOpenCVNodeData
+  - H.VisionMaster.OpenCV.Base.IOpenCVNodeData
+  - H.VisionMaster.OpenCV.Base.MorphologyOpenCVNodeDataBase
+  - H.VisionMaster.OpenCV.Base.OpenCVBase64MatchingNodeDataBase
+  - H.VisionMaster.OpenCV.Base.OpenCVDetectorNodeDataBase
+  - H.VisionMaster.OpenCV.Base.OpenCVFileTemplateMatchingNodeDataBase
+  - H.VisionMaster.OpenCV.Base.OpenCVNodeDataBase
+  - H.VisionMaster.OpenCV.Base.OpenCVSrcFilesNodeDataBase
+  - H.VisionMaster.OpenCV.Base.PreviewType
+  - H.VisionMaster.OpenCV.Base.SelectableSrcImageNodeDataBase
+  - H.VisionMaster.OpenCV.Base.VideoCaptureNodeDataBase
+  langs:
+  - csharp
+  - vb
+  name: H.VisionMaster.OpenCV.Base
+  nameWithType: H.VisionMaster.OpenCV.Base
+  fullName: H.VisionMaster.OpenCV.Base
+  type: Namespace
+  assemblies:
+  - H.VisionMaster.OpenCV
+references:
+- uid: H.VisionMaster.OpenCV.Base.CascadeClassifierOpenCVNodeDataBase
+  commentId: T:H.VisionMaster.OpenCV.Base.CascadeClassifierOpenCVNodeDataBase
+  parent: H.VisionMaster.OpenCV.Base
+  href: H.VisionMaster.OpenCV.Base.CascadeClassifierOpenCVNodeDataBase.html
+  name: CascadeClassifierOpenCVNodeDataBase
+  nameWithType: CascadeClassifierOpenCVNodeDataBase
+  fullName: H.VisionMaster.OpenCV.Base.CascadeClassifierOpenCVNodeDataBase
+- uid: H.VisionMaster.OpenCV.Base.FeatureOpenCVNodeDataBase
+  commentId: T:H.VisionMaster.OpenCV.Base.FeatureOpenCVNodeDataBase
+  parent: H.VisionMaster.OpenCV.Base
+  href: H.VisionMaster.OpenCV.Base.FeatureOpenCVNodeDataBase.html
+  name: FeatureOpenCVNodeDataBase
+  nameWithType: FeatureOpenCVNodeDataBase
+  fullName: H.VisionMaster.OpenCV.Base.FeatureOpenCVNodeDataBase
+- uid: H.VisionMaster.OpenCV.Base.OpenCVFileTemplateMatchingNodeDataBase
+  commentId: T:H.VisionMaster.OpenCV.Base.OpenCVFileTemplateMatchingNodeDataBase
+  href: H.VisionMaster.OpenCV.Base.OpenCVFileTemplateMatchingNodeDataBase.html
+  name: OpenCVFileTemplateMatchingNodeDataBase
+  nameWithType: OpenCVFileTemplateMatchingNodeDataBase
+  fullName: H.VisionMaster.OpenCV.Base.OpenCVFileTemplateMatchingNodeDataBase
+- uid: H.VisionMaster.OpenCV.Base.IFeatureDetectorOpenCVNodeData
+  commentId: T:H.VisionMaster.OpenCV.Base.IFeatureDetectorOpenCVNodeData
+  parent: H.VisionMaster.OpenCV.Base
+  href: H.VisionMaster.OpenCV.Base.IFeatureDetectorOpenCVNodeData.html
+  name: IFeatureDetectorOpenCVNodeData
+  nameWithType: IFeatureDetectorOpenCVNodeData
+  fullName: H.VisionMaster.OpenCV.Base.IFeatureDetectorOpenCVNodeData
+- uid: H.VisionMaster.OpenCV.Base.IOpenCVNodeData
+  commentId: T:H.VisionMaster.OpenCV.Base.IOpenCVNodeData
+  parent: H.VisionMaster.OpenCV.Base
+  href: H.VisionMaster.OpenCV.Base.IOpenCVNodeData.html
+  name: IOpenCVNodeData
+  nameWithType: IOpenCVNodeData
+  fullName: H.VisionMaster.OpenCV.Base.IOpenCVNodeData
+- uid: H.VisionMaster.OpenCV.Base.MorphologyOpenCVNodeDataBase
+  commentId: T:H.VisionMaster.OpenCV.Base.MorphologyOpenCVNodeDataBase
+  parent: H.VisionMaster.OpenCV.Base
+  href: H.VisionMaster.OpenCV.Base.MorphologyOpenCVNodeDataBase.html
+  name: MorphologyOpenCVNodeDataBase
+  nameWithType: MorphologyOpenCVNodeDataBase
+  fullName: H.VisionMaster.OpenCV.Base.MorphologyOpenCVNodeDataBase
+- uid: H.VisionMaster.OpenCV.Base.OpenCVDetectorNodeDataBase
+  commentId: T:H.VisionMaster.OpenCV.Base.OpenCVDetectorNodeDataBase
+  parent: H.VisionMaster.OpenCV.Base
+  href: H.VisionMaster.OpenCV.Base.OpenCVDetectorNodeDataBase.html
+  name: OpenCVDetectorNodeDataBase
+  nameWithType: OpenCVDetectorNodeDataBase
+  fullName: H.VisionMaster.OpenCV.Base.OpenCVDetectorNodeDataBase
+- uid: H.VisionMaster.OpenCV.Base.PreviewType
+  commentId: T:H.VisionMaster.OpenCV.Base.PreviewType
+  parent: H.VisionMaster.OpenCV.Base
+  href: H.VisionMaster.OpenCV.Base.PreviewType.html
+  name: PreviewType
+  nameWithType: PreviewType
+  fullName: H.VisionMaster.OpenCV.Base.PreviewType
+- uid: H.VisionMaster.OpenCV.Base.OpenCVNodeDataBase
+  commentId: T:H.VisionMaster.OpenCV.Base.OpenCVNodeDataBase
+  parent: H.VisionMaster.OpenCV.Base
+  href: H.VisionMaster.OpenCV.Base.OpenCVNodeDataBase.html
+  name: OpenCVNodeDataBase
+  nameWithType: OpenCVNodeDataBase
+  fullName: H.VisionMaster.OpenCV.Base.OpenCVNodeDataBase
+- uid: H.VisionMaster.OpenCV.Base.OpenCVSrcFilesNodeDataBase
+  commentId: T:H.VisionMaster.OpenCV.Base.OpenCVSrcFilesNodeDataBase
+  parent: H.VisionMaster.OpenCV.Base
+  href: H.VisionMaster.OpenCV.Base.OpenCVSrcFilesNodeDataBase.html
+  name: OpenCVSrcFilesNodeDataBase
+  nameWithType: OpenCVSrcFilesNodeDataBase
+  fullName: H.VisionMaster.OpenCV.Base.OpenCVSrcFilesNodeDataBase
+- uid: H.VisionMaster.OpenCV.Base.SelectableSrcImageNodeDataBase
+  commentId: T:H.VisionMaster.OpenCV.Base.SelectableSrcImageNodeDataBase
+  href: H.VisionMaster.OpenCV.Base.SelectableSrcImageNodeDataBase.html
+  name: SelectableSrcImageNodeDataBase
+  nameWithType: SelectableSrcImageNodeDataBase
+  fullName: H.VisionMaster.OpenCV.Base.SelectableSrcImageNodeDataBase
+- uid: H.VisionMaster.OpenCV.Base.OpenCVBase64MatchingNodeDataBase
+  commentId: T:H.VisionMaster.OpenCV.Base.OpenCVBase64MatchingNodeDataBase
+  parent: H.VisionMaster.OpenCV.Base
+  href: H.VisionMaster.OpenCV.Base.OpenCVBase64MatchingNodeDataBase.html
+  name: OpenCVBase64MatchingNodeDataBase
+  nameWithType: OpenCVBase64MatchingNodeDataBase
+  fullName: H.VisionMaster.OpenCV.Base.OpenCVBase64MatchingNodeDataBase
+- uid: H.VisionMaster.OpenCV.Base.VideoCaptureNodeDataBase
+  commentId: T:H.VisionMaster.OpenCV.Base.VideoCaptureNodeDataBase
+  parent: H.VisionMaster.OpenCV.Base
+  href: H.VisionMaster.OpenCV.Base.VideoCaptureNodeDataBase.html
+  name: VideoCaptureNodeDataBase
+  nameWithType: VideoCaptureNodeDataBase
+  fullName: H.VisionMaster.OpenCV.Base.VideoCaptureNodeDataBase
+- uid: H.VisionMaster.OpenCV.Base
+  commentId: N:H.VisionMaster.OpenCV.Base
+  href: H.html
+  name: H.VisionMaster.OpenCV.Base
+  nameWithType: H.VisionMaster.OpenCV.Base
+  fullName: H.VisionMaster.OpenCV.Base
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.OpenCV
+    name: OpenCV
+    href: H.VisionMaster.OpenCV.html
+  - name: .
+  - uid: H.VisionMaster.OpenCV.Base
+    name: Base
+    href: H.VisionMaster.OpenCV.Base.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.OpenCV
+    name: OpenCV
+    href: H.VisionMaster.OpenCV.html
+  - name: .
+  - uid: H.VisionMaster.OpenCV.Base
+    name: Base
+    href: H.VisionMaster.OpenCV.Base.html

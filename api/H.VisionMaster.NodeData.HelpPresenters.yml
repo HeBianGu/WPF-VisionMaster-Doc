@@ -1,0 +1,69 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.VisionMaster.NodeData.HelpPresenters
+  commentId: N:H.VisionMaster.NodeData.HelpPresenters
+  id: H.VisionMaster.NodeData.HelpPresenters
+  children:
+  - H.VisionMaster.NodeData.HelpPresenters.HelpPresenter
+  - H.VisionMaster.NodeData.HelpPresenters.IHelpPresenter
+  langs:
+  - csharp
+  - vb
+  name: H.VisionMaster.NodeData.HelpPresenters
+  nameWithType: H.VisionMaster.NodeData.HelpPresenters
+  fullName: H.VisionMaster.NodeData.HelpPresenters
+  type: Namespace
+  assemblies:
+  - H.VisionMaster.NodeData
+references:
+- uid: H.VisionMaster.NodeData.HelpPresenters.IHelpPresenter
+  commentId: T:H.VisionMaster.NodeData.HelpPresenters.IHelpPresenter
+  parent: H.VisionMaster.NodeData.HelpPresenters
+  href: H.VisionMaster.NodeData.HelpPresenters.IHelpPresenter.html
+  name: IHelpPresenter
+  nameWithType: IHelpPresenter
+  fullName: H.VisionMaster.NodeData.HelpPresenters.IHelpPresenter
+- uid: H.VisionMaster.NodeData.HelpPresenters.HelpPresenter
+  commentId: T:H.VisionMaster.NodeData.HelpPresenters.HelpPresenter
+  href: H.VisionMaster.NodeData.HelpPresenters.HelpPresenter.html
+  name: HelpPresenter
+  nameWithType: HelpPresenter
+  fullName: H.VisionMaster.NodeData.HelpPresenters.HelpPresenter
+- uid: H.VisionMaster.NodeData.HelpPresenters
+  commentId: N:H.VisionMaster.NodeData.HelpPresenters
+  href: H.html
+  name: H.VisionMaster.NodeData.HelpPresenters
+  nameWithType: H.VisionMaster.NodeData.HelpPresenters
+  fullName: H.VisionMaster.NodeData.HelpPresenters
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.NodeData
+    name: NodeData
+    href: H.VisionMaster.NodeData.html
+  - name: .
+  - uid: H.VisionMaster.NodeData.HelpPresenters
+    name: HelpPresenters
+    href: H.VisionMaster.NodeData.HelpPresenters.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.NodeData
+    name: NodeData
+    href: H.VisionMaster.NodeData.html
+  - name: .
+  - uid: H.VisionMaster.NodeData.HelpPresenters
+    name: HelpPresenters
+    href: H.VisionMaster.NodeData.HelpPresenters.html

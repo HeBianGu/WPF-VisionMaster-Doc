@@ -1,0 +1,96 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Modules.Operation
+  commentId: N:H.Modules.Operation
+  id: H.Modules.Operation
+  children:
+  - H.Modules.Operation.OperationChartDataProvider
+  - H.Modules.Operation.OperationDataContext
+  - H.Modules.Operation.OperationDataContextFactory
+  - H.Modules.Operation.OperationDataProvider
+  - H.Modules.Operation.OperationViewPresenter
+  - H.Modules.Operation.ShowOperationViewCommand
+  - H.Modules.Operation.hi_dd_operation
+  langs:
+  - csharp
+  - vb
+  name: H.Modules.Operation
+  nameWithType: H.Modules.Operation
+  fullName: H.Modules.Operation
+  type: Namespace
+  assemblies:
+  - H.Modules.Operation
+references:
+- uid: H.Modules.Operation.hi_dd_operation
+  commentId: T:H.Modules.Operation.hi_dd_operation
+  href: H.Modules.Operation.hi_dd_operation.html
+  name: hi_dd_operation
+  nameWithType: hi_dd_operation
+  fullName: H.Modules.Operation.hi_dd_operation
+- uid: H.Modules.Operation.OperationDataContext
+  commentId: T:H.Modules.Operation.OperationDataContext
+  parent: H.Modules.Operation
+  href: H.Modules.Operation.OperationDataContext.html
+  name: OperationDataContext
+  nameWithType: OperationDataContext
+  fullName: H.Modules.Operation.OperationDataContext
+- uid: H.Modules.Operation.OperationDataContextFactory
+  commentId: T:H.Modules.Operation.OperationDataContextFactory
+  href: H.Modules.Operation.OperationDataContextFactory.html
+  name: OperationDataContextFactory
+  nameWithType: OperationDataContextFactory
+  fullName: H.Modules.Operation.OperationDataContextFactory
+- uid: H.Modules.Operation.OperationDataProvider
+  commentId: T:H.Modules.Operation.OperationDataProvider
+  href: H.Modules.Operation.OperationDataProvider.html
+  name: OperationDataProvider
+  nameWithType: OperationDataProvider
+  fullName: H.Modules.Operation.OperationDataProvider
+- uid: H.Modules.Operation.OperationChartDataProvider
+  commentId: T:H.Modules.Operation.OperationChartDataProvider
+  href: H.Modules.Operation.OperationChartDataProvider.html
+  name: OperationChartDataProvider
+  nameWithType: OperationChartDataProvider
+  fullName: H.Modules.Operation.OperationChartDataProvider
+- uid: H.Modules.Operation.OperationViewPresenter
+  commentId: T:H.Modules.Operation.OperationViewPresenter
+  href: H.Modules.Operation.OperationViewPresenter.html
+  name: OperationViewPresenter
+  nameWithType: OperationViewPresenter
+  fullName: H.Modules.Operation.OperationViewPresenter
+- uid: H.Modules.Operation.ShowOperationViewCommand
+  commentId: T:H.Modules.Operation.ShowOperationViewCommand
+  href: H.Modules.Operation.ShowOperationViewCommand.html
+  name: ShowOperationViewCommand
+  nameWithType: ShowOperationViewCommand
+  fullName: H.Modules.Operation.ShowOperationViewCommand
+- uid: H.Modules.Operation
+  commentId: N:H.Modules.Operation
+  href: H.html
+  name: H.Modules.Operation
+  nameWithType: H.Modules.Operation
+  fullName: H.Modules.Operation
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Modules
+    name: Modules
+    href: H.Modules.html
+  - name: .
+  - uid: H.Modules.Operation
+    name: Operation
+    href: H.Modules.Operation.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Modules
+    name: Modules
+    href: H.Modules.html
+  - name: .
+  - uid: H.Modules.Operation
+    name: Operation
+    href: H.Modules.Operation.html

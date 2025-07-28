@@ -1,0 +1,92 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Modules.Help.Support
+  commentId: N:H.Modules.Help.Support
+  id: H.Modules.Help.Support
+  children:
+  - H.Modules.Help.Support.Extention
+  - H.Modules.Help.Support.ISupportOptions
+  - H.Modules.Help.Support.ISupportService
+  - H.Modules.Help.Support.SupportOptions
+  - H.Modules.Help.Support.SupportService
+  langs:
+  - csharp
+  - vb
+  name: H.Modules.Help.Support
+  nameWithType: H.Modules.Help.Support
+  fullName: H.Modules.Help.Support
+  type: Namespace
+  assemblies:
+  - H.Modules.Help
+references:
+- uid: H.Modules.Help.Support.Extention
+  commentId: T:H.Modules.Help.Support.Extention
+  parent: H.Modules.Help.Support
+  href: H.Modules.Help.Support.Extention.html
+  name: Extention
+  nameWithType: Extention
+  fullName: H.Modules.Help.Support.Extention
+- uid: H.Modules.Help.Support.ISupportOptions
+  commentId: T:H.Modules.Help.Support.ISupportOptions
+  parent: H.Modules.Help.Support
+  href: H.Modules.Help.Support.ISupportOptions.html
+  name: ISupportOptions
+  nameWithType: ISupportOptions
+  fullName: H.Modules.Help.Support.ISupportOptions
+- uid: H.Modules.Help.Support.ISupportService
+  commentId: T:H.Modules.Help.Support.ISupportService
+  parent: H.Modules.Help.Support
+  href: H.Modules.Help.Support.ISupportService.html
+  name: ISupportService
+  nameWithType: ISupportService
+  fullName: H.Modules.Help.Support.ISupportService
+- uid: H.Modules.Help.Support.SupportOptions
+  commentId: T:H.Modules.Help.Support.SupportOptions
+  href: H.Modules.Help.Support.SupportOptions.html
+  name: SupportOptions
+  nameWithType: SupportOptions
+  fullName: H.Modules.Help.Support.SupportOptions
+- uid: H.Modules.Help.Support.SupportService
+  commentId: T:H.Modules.Help.Support.SupportService
+  href: H.Modules.Help.Support.SupportService.html
+  name: SupportService
+  nameWithType: SupportService
+  fullName: H.Modules.Help.Support.SupportService
+- uid: H.Modules.Help.Support
+  commentId: N:H.Modules.Help.Support
+  href: H.html
+  name: H.Modules.Help.Support
+  nameWithType: H.Modules.Help.Support
+  fullName: H.Modules.Help.Support
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Modules
+    name: Modules
+    href: H.Modules.html
+  - name: .
+  - uid: H.Modules.Help
+    name: Help
+    href: H.Modules.Help.html
+  - name: .
+  - uid: H.Modules.Help.Support
+    name: Support
+    href: H.Modules.Help.Support.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Modules
+    name: Modules
+    href: H.Modules.html
+  - name: .
+  - uid: H.Modules.Help
+    name: Help
+    href: H.Modules.Help.html
+  - name: .
+  - uid: H.Modules.Help.Support
+    name: Support
+    href: H.Modules.Help.Support.html

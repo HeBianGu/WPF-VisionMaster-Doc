@@ -1,0 +1,91 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Components.Modbus
+  commentId: N:H.Components.Modbus
+  id: H.Components.Modbus
+  children:
+  - H.Components.Modbus.Extention
+  - H.Components.Modbus.IModbusDataService
+  - H.Components.Modbus.ISerializableModbusDataService
+  - H.Components.Modbus.ModbusDataService
+  - H.Components.Modbus.SerializableModbusDataService
+  - H.Components.Modbus.ShowModbusDataCommand
+  langs:
+  - csharp
+  - vb
+  name: H.Components.Modbus
+  nameWithType: H.Components.Modbus
+  fullName: H.Components.Modbus
+  type: Namespace
+  assemblies:
+  - H.Components.Modbus
+references:
+- uid: H.Components.Modbus.Extention
+  commentId: T:H.Components.Modbus.Extention
+  href: H.Components.Modbus.Extention.html
+  name: Extention
+  nameWithType: Extention
+  fullName: H.Components.Modbus.Extention
+- uid: H.Components.Modbus.IModbusDataService
+  commentId: T:H.Components.Modbus.IModbusDataService
+  parent: H.Components.Modbus
+  href: H.Components.Modbus.IModbusDataService.html
+  name: IModbusDataService
+  nameWithType: IModbusDataService
+  fullName: H.Components.Modbus.IModbusDataService
+- uid: H.Components.Modbus.ISerializableModbusDataService
+  commentId: T:H.Components.Modbus.ISerializableModbusDataService
+  parent: H.Components.Modbus
+  href: H.Components.Modbus.ISerializableModbusDataService.html
+  name: ISerializableModbusDataService
+  nameWithType: ISerializableModbusDataService
+  fullName: H.Components.Modbus.ISerializableModbusDataService
+- uid: H.Components.Modbus.ModbusDataService
+  commentId: T:H.Components.Modbus.ModbusDataService
+  parent: H.Components.Modbus
+  href: H.Components.Modbus.ModbusDataService.html
+  name: ModbusDataService
+  nameWithType: ModbusDataService
+  fullName: H.Components.Modbus.ModbusDataService
+- uid: H.Components.Modbus.SerializableModbusDataService
+  commentId: T:H.Components.Modbus.SerializableModbusDataService
+  href: H.Components.Modbus.SerializableModbusDataService.html
+  name: SerializableModbusDataService
+  nameWithType: SerializableModbusDataService
+  fullName: H.Components.Modbus.SerializableModbusDataService
+- uid: H.Components.Modbus.ShowModbusDataCommand
+  commentId: T:H.Components.Modbus.ShowModbusDataCommand
+  href: H.Components.Modbus.ShowModbusDataCommand.html
+  name: ShowModbusDataCommand
+  nameWithType: ShowModbusDataCommand
+  fullName: H.Components.Modbus.ShowModbusDataCommand
+- uid: H.Components.Modbus
+  commentId: N:H.Components.Modbus
+  href: H.html
+  name: H.Components.Modbus
+  nameWithType: H.Components.Modbus
+  fullName: H.Components.Modbus
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Components
+    name: Components
+    href: H.Components.html
+  - name: .
+  - uid: H.Components.Modbus
+    name: Modbus
+    href: H.Components.Modbus.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Components
+    name: Components
+    href: H.Components.html
+  - name: .
+  - uid: H.Components.Modbus
+    name: Modbus
+    href: H.Components.Modbus.html

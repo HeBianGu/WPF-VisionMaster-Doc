@@ -1,0 +1,119 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.Mvvm.Commands
+  commentId: N:H.Extensions.Mvvm.Commands
+  id: H.Extensions.Mvvm.Commands
+  children:
+  - H.Extensions.Mvvm.Commands.Commands
+  - H.Extensions.Mvvm.Commands.DisplayCommand
+  - H.Extensions.Mvvm.Commands.DisplayCommand`1
+  - H.Extensions.Mvvm.Commands.IDisplayCommand
+  - H.Extensions.Mvvm.Commands.IInvokeCommand
+  - H.Extensions.Mvvm.Commands.InvokeCommand
+  langs:
+  - csharp
+  - vb
+  name: H.Extensions.Mvvm.Commands
+  nameWithType: H.Extensions.Mvvm.Commands
+  fullName: H.Extensions.Mvvm.Commands
+  type: Namespace
+  assemblies:
+  - H.Extensions.Mvvm
+references:
+- uid: H.Extensions.Mvvm.Commands.Commands
+  commentId: T:H.Extensions.Mvvm.Commands.Commands
+  href: H.Extensions.Mvvm.Commands.Commands.html
+  name: Commands
+  nameWithType: Commands
+  fullName: H.Extensions.Mvvm.Commands.Commands
+- uid: H.Extensions.Mvvm.Commands.DisplayCommand
+  commentId: T:H.Extensions.Mvvm.Commands.DisplayCommand
+  parent: H.Extensions.Mvvm.Commands
+  href: H.Extensions.Mvvm.Commands.DisplayCommand.html
+  name: DisplayCommand
+  nameWithType: DisplayCommand
+  fullName: H.Extensions.Mvvm.Commands.DisplayCommand
+- uid: H.Extensions.Mvvm.Commands.DisplayCommand`1
+  commentId: T:H.Extensions.Mvvm.Commands.DisplayCommand`1
+  href: H.Extensions.Mvvm.Commands.DisplayCommand-1.html
+  name: DisplayCommand<T>
+  nameWithType: DisplayCommand<T>
+  fullName: H.Extensions.Mvvm.Commands.DisplayCommand<T>
+  nameWithType.vb: DisplayCommand(Of T)
+  fullName.vb: H.Extensions.Mvvm.Commands.DisplayCommand(Of T)
+  name.vb: DisplayCommand(Of T)
+  spec.csharp:
+  - uid: H.Extensions.Mvvm.Commands.DisplayCommand`1
+    name: DisplayCommand
+    href: H.Extensions.Mvvm.Commands.DisplayCommand-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Extensions.Mvvm.Commands.DisplayCommand`1
+    name: DisplayCommand
+    href: H.Extensions.Mvvm.Commands.DisplayCommand-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Extensions.Mvvm.Commands.IDisplayCommand
+  commentId: T:H.Extensions.Mvvm.Commands.IDisplayCommand
+  parent: H.Extensions.Mvvm.Commands
+  href: H.Extensions.Mvvm.Commands.IDisplayCommand.html
+  name: IDisplayCommand
+  nameWithType: IDisplayCommand
+  fullName: H.Extensions.Mvvm.Commands.IDisplayCommand
+- uid: H.Extensions.Mvvm.Commands.IInvokeCommand
+  commentId: T:H.Extensions.Mvvm.Commands.IInvokeCommand
+  parent: H.Extensions.Mvvm.Commands
+  href: H.Extensions.Mvvm.Commands.IInvokeCommand.html
+  name: IInvokeCommand
+  nameWithType: IInvokeCommand
+  fullName: H.Extensions.Mvvm.Commands.IInvokeCommand
+- uid: H.Extensions.Mvvm.Commands.InvokeCommand
+  commentId: T:H.Extensions.Mvvm.Commands.InvokeCommand
+  parent: H.Extensions.Mvvm.Commands
+  href: H.Extensions.Mvvm.Commands.InvokeCommand.html
+  name: InvokeCommand
+  nameWithType: InvokeCommand
+  fullName: H.Extensions.Mvvm.Commands.InvokeCommand
+- uid: H.Extensions.Mvvm.Commands
+  commentId: N:H.Extensions.Mvvm.Commands
+  href: H.html
+  name: H.Extensions.Mvvm.Commands
+  nameWithType: H.Extensions.Mvvm.Commands
+  fullName: H.Extensions.Mvvm.Commands
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Mvvm
+    name: Mvvm
+    href: H.Extensions.Mvvm.html
+  - name: .
+  - uid: H.Extensions.Mvvm.Commands
+    name: Commands
+    href: H.Extensions.Mvvm.Commands.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Mvvm
+    name: Mvvm
+    href: H.Extensions.Mvvm.html
+  - name: .
+  - uid: H.Extensions.Mvvm.Commands
+    name: Commands
+    href: H.Extensions.Mvvm.Commands.html

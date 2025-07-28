@@ -1,0 +1,692 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.SystemSettingExtention
+  commentId: T:System.SystemSettingExtention
+  id: SystemSettingExtention
+  parent: System
+  children:
+  - System.SystemSettingExtention.AddSetting(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.Modules.Setting.ISettingViewOptions})
+  - System.SystemSettingExtention.AddSettingDataService(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.Modules.Setting.ISettingViewOptions})
+  - System.SystemSettingExtention.UseSettingDataOptions(System.IApplicationBuilder,System.Action{H.Services.Setting.ISettingDataOption})
+  - System.SystemSettingExtention.UseSettingDefaultOptions(System.IApplicationBuilder,System.Action{H.Services.Setting.ISettingDataOption})
+  - System.SystemSettingExtention.UseSettingSecurityOptions(System.IApplicationBuilder,System.Action{H.Modules.Setting.ISettingSecurityViewOption})
+  - System.SystemSettingExtention.UseSettingViewOptions(System.IApplicationBuilder,System.Action{H.Modules.Setting.ISettingViewOptions})
+  langs:
+  - csharp
+  - vb
+  name: SystemSettingExtention
+  nameWithType: SystemSettingExtention
+  fullName: System.SystemSettingExtention
+  type: Class
+  source:
+    id: SystemSettingExtention
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Modules\H.Modules.Setting\Extention.cs
+    startLine: 15
+  assemblies:
+  - H.Modules.Setting
+  namespace: System
+  syntax:
+    content: public static class SystemSettingExtention
+    content.vb: Public Module SystemSettingExtention
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: System.SystemSettingExtention.AddSetting(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.Modules.Setting.ISettingViewOptions})
+  commentId: M:System.SystemSettingExtention.AddSetting(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.Modules.Setting.ISettingViewOptions})
+  id: AddSetting(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.Modules.Setting.ISettingViewOptions})
+  isExtensionMethod: true
+  parent: System.SystemSettingExtention
+  langs:
+  - csharp
+  - vb
+  name: AddSetting(IServiceCollection, Action<ISettingViewOptions>)
+  nameWithType: SystemSettingExtention.AddSetting(IServiceCollection, Action<ISettingViewOptions>)
+  fullName: System.SystemSettingExtention.AddSetting(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<H.Modules.Setting.ISettingViewOptions>)
+  type: Method
+  source:
+    id: AddSetting
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Modules\H.Modules.Setting\Extention.cs
+    startLine: 17
+  assemblies:
+  - H.Modules.Setting
+  namespace: System
+  syntax:
+    content: public static IServiceCollection AddSetting(this IServiceCollection services, Action<ISettingViewOptions> setupAction = null)
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    - id: setupAction
+      type: System.Action{H.Modules.Setting.ISettingViewOptions}
+    return:
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    content.vb: Public Shared Function AddSetting(services As IServiceCollection, setupAction As Action(Of ISettingViewOptions) = Nothing) As IServiceCollection
+  overload: System.SystemSettingExtention.AddSetting*
+  nameWithType.vb: SystemSettingExtention.AddSetting(IServiceCollection, Action(Of ISettingViewOptions))
+  fullName.vb: System.SystemSettingExtention.AddSetting(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action(Of H.Modules.Setting.ISettingViewOptions))
+  name.vb: AddSetting(IServiceCollection, Action(Of ISettingViewOptions))
+- uid: System.SystemSettingExtention.AddSettingDataService(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.Modules.Setting.ISettingViewOptions})
+  commentId: M:System.SystemSettingExtention.AddSettingDataService(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.Modules.Setting.ISettingViewOptions})
+  id: AddSettingDataService(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{H.Modules.Setting.ISettingViewOptions})
+  isExtensionMethod: true
+  parent: System.SystemSettingExtention
+  langs:
+  - csharp
+  - vb
+  name: AddSettingDataService(IServiceCollection, Action<ISettingViewOptions>)
+  nameWithType: SystemSettingExtention.AddSettingDataService(IServiceCollection, Action<ISettingViewOptions>)
+  fullName: System.SystemSettingExtention.AddSettingDataService(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<H.Modules.Setting.ISettingViewOptions>)
+  type: Method
+  source:
+    id: AddSettingDataService
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Modules\H.Modules.Setting\Extention.cs
+    startLine: 25
+  assemblies:
+  - H.Modules.Setting
+  namespace: System
+  syntax:
+    content: public static IServiceCollection AddSettingDataService(this IServiceCollection services, Action<ISettingViewOptions> setupAction = null)
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    - id: setupAction
+      type: System.Action{H.Modules.Setting.ISettingViewOptions}
+    return:
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    content.vb: Public Shared Function AddSettingDataService(services As IServiceCollection, setupAction As Action(Of ISettingViewOptions) = Nothing) As IServiceCollection
+  overload: System.SystemSettingExtention.AddSettingDataService*
+  nameWithType.vb: SystemSettingExtention.AddSettingDataService(IServiceCollection, Action(Of ISettingViewOptions))
+  fullName.vb: System.SystemSettingExtention.AddSettingDataService(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action(Of H.Modules.Setting.ISettingViewOptions))
+  name.vb: AddSettingDataService(IServiceCollection, Action(Of ISettingViewOptions))
+- uid: System.SystemSettingExtention.UseSettingDataOptions(System.IApplicationBuilder,System.Action{H.Services.Setting.ISettingDataOption})
+  commentId: M:System.SystemSettingExtention.UseSettingDataOptions(System.IApplicationBuilder,System.Action{H.Services.Setting.ISettingDataOption})
+  id: UseSettingDataOptions(System.IApplicationBuilder,System.Action{H.Services.Setting.ISettingDataOption})
+  isExtensionMethod: true
+  parent: System.SystemSettingExtention
+  langs:
+  - csharp
+  - vb
+  name: UseSettingDataOptions(IApplicationBuilder, Action<ISettingDataOption>)
+  nameWithType: SystemSettingExtention.UseSettingDataOptions(IApplicationBuilder, Action<ISettingDataOption>)
+  fullName: System.SystemSettingExtention.UseSettingDataOptions(System.IApplicationBuilder, System.Action<H.Services.Setting.ISettingDataOption>)
+  type: Method
+  source:
+    id: UseSettingDataOptions
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Modules\H.Modules.Setting\Extention.cs
+    startLine: 34
+  assemblies:
+  - H.Modules.Setting
+  namespace: System
+  syntax:
+    content: public static IApplicationBuilder UseSettingDataOptions(this IApplicationBuilder builder, Action<ISettingDataOption> option = null)
+    parameters:
+    - id: builder
+      type: System.IApplicationBuilder
+    - id: option
+      type: System.Action{H.Services.Setting.ISettingDataOption}
+    return:
+      type: System.IApplicationBuilder
+    content.vb: Public Shared Function UseSettingDataOptions(builder As IApplicationBuilder, [option] As Action(Of ISettingDataOption) = Nothing) As IApplicationBuilder
+  overload: System.SystemSettingExtention.UseSettingDataOptions*
+  nameWithType.vb: SystemSettingExtention.UseSettingDataOptions(IApplicationBuilder, Action(Of ISettingDataOption))
+  fullName.vb: System.SystemSettingExtention.UseSettingDataOptions(System.IApplicationBuilder, System.Action(Of H.Services.Setting.ISettingDataOption))
+  name.vb: UseSettingDataOptions(IApplicationBuilder, Action(Of ISettingDataOption))
+- uid: System.SystemSettingExtention.UseSettingViewOptions(System.IApplicationBuilder,System.Action{H.Modules.Setting.ISettingViewOptions})
+  commentId: M:System.SystemSettingExtention.UseSettingViewOptions(System.IApplicationBuilder,System.Action{H.Modules.Setting.ISettingViewOptions})
+  id: UseSettingViewOptions(System.IApplicationBuilder,System.Action{H.Modules.Setting.ISettingViewOptions})
+  isExtensionMethod: true
+  parent: System.SystemSettingExtention
+  langs:
+  - csharp
+  - vb
+  name: UseSettingViewOptions(IApplicationBuilder, Action<ISettingViewOptions>)
+  nameWithType: SystemSettingExtention.UseSettingViewOptions(IApplicationBuilder, Action<ISettingViewOptions>)
+  fullName: System.SystemSettingExtention.UseSettingViewOptions(System.IApplicationBuilder, System.Action<H.Modules.Setting.ISettingViewOptions>)
+  type: Method
+  source:
+    id: UseSettingViewOptions
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Modules\H.Modules.Setting\Extention.cs
+    startLine: 40
+  assemblies:
+  - H.Modules.Setting
+  namespace: System
+  syntax:
+    content: public static IApplicationBuilder UseSettingViewOptions(this IApplicationBuilder builder, Action<ISettingViewOptions> option = null)
+    parameters:
+    - id: builder
+      type: System.IApplicationBuilder
+    - id: option
+      type: System.Action{H.Modules.Setting.ISettingViewOptions}
+    return:
+      type: System.IApplicationBuilder
+    content.vb: Public Shared Function UseSettingViewOptions(builder As IApplicationBuilder, [option] As Action(Of ISettingViewOptions) = Nothing) As IApplicationBuilder
+  overload: System.SystemSettingExtention.UseSettingViewOptions*
+  nameWithType.vb: SystemSettingExtention.UseSettingViewOptions(IApplicationBuilder, Action(Of ISettingViewOptions))
+  fullName.vb: System.SystemSettingExtention.UseSettingViewOptions(System.IApplicationBuilder, System.Action(Of H.Modules.Setting.ISettingViewOptions))
+  name.vb: UseSettingViewOptions(IApplicationBuilder, Action(Of ISettingViewOptions))
+- uid: System.SystemSettingExtention.UseSettingSecurityOptions(System.IApplicationBuilder,System.Action{H.Modules.Setting.ISettingSecurityViewOption})
+  commentId: M:System.SystemSettingExtention.UseSettingSecurityOptions(System.IApplicationBuilder,System.Action{H.Modules.Setting.ISettingSecurityViewOption})
+  id: UseSettingSecurityOptions(System.IApplicationBuilder,System.Action{H.Modules.Setting.ISettingSecurityViewOption})
+  isExtensionMethod: true
+  parent: System.SystemSettingExtention
+  langs:
+  - csharp
+  - vb
+  name: UseSettingSecurityOptions(IApplicationBuilder, Action<ISettingSecurityViewOption>)
+  nameWithType: SystemSettingExtention.UseSettingSecurityOptions(IApplicationBuilder, Action<ISettingSecurityViewOption>)
+  fullName: System.SystemSettingExtention.UseSettingSecurityOptions(System.IApplicationBuilder, System.Action<H.Modules.Setting.ISettingSecurityViewOption>)
+  type: Method
+  source:
+    id: UseSettingSecurityOptions
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Modules\H.Modules.Setting\Extention.cs
+    startLine: 47
+  assemblies:
+  - H.Modules.Setting
+  namespace: System
+  syntax:
+    content: public static IApplicationBuilder UseSettingSecurityOptions(this IApplicationBuilder builder, Action<ISettingSecurityViewOption> option = null)
+    parameters:
+    - id: builder
+      type: System.IApplicationBuilder
+    - id: option
+      type: System.Action{H.Modules.Setting.ISettingSecurityViewOption}
+    return:
+      type: System.IApplicationBuilder
+    content.vb: Public Shared Function UseSettingSecurityOptions(builder As IApplicationBuilder, [option] As Action(Of ISettingSecurityViewOption) = Nothing) As IApplicationBuilder
+  overload: System.SystemSettingExtention.UseSettingSecurityOptions*
+  nameWithType.vb: SystemSettingExtention.UseSettingSecurityOptions(IApplicationBuilder, Action(Of ISettingSecurityViewOption))
+  fullName.vb: System.SystemSettingExtention.UseSettingSecurityOptions(System.IApplicationBuilder, System.Action(Of H.Modules.Setting.ISettingSecurityViewOption))
+  name.vb: UseSettingSecurityOptions(IApplicationBuilder, Action(Of ISettingSecurityViewOption))
+- uid: System.SystemSettingExtention.UseSettingDefaultOptions(System.IApplicationBuilder,System.Action{H.Services.Setting.ISettingDataOption})
+  commentId: M:System.SystemSettingExtention.UseSettingDefaultOptions(System.IApplicationBuilder,System.Action{H.Services.Setting.ISettingDataOption})
+  id: UseSettingDefaultOptions(System.IApplicationBuilder,System.Action{H.Services.Setting.ISettingDataOption})
+  isExtensionMethod: true
+  parent: System.SystemSettingExtention
+  langs:
+  - csharp
+  - vb
+  name: UseSettingDefaultOptions(IApplicationBuilder, Action<ISettingDataOption>)
+  nameWithType: SystemSettingExtention.UseSettingDefaultOptions(IApplicationBuilder, Action<ISettingDataOption>)
+  fullName: System.SystemSettingExtention.UseSettingDefaultOptions(System.IApplicationBuilder, System.Action<H.Services.Setting.ISettingDataOption>)
+  type: Method
+  source:
+    id: UseSettingDefaultOptions
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Modules\H.Modules.Setting\Extention.cs
+    startLine: 57
+  assemblies:
+  - H.Modules.Setting
+  namespace: System
+  summary: 设置系统路径
+  example: []
+  syntax:
+    content: public static IApplicationBuilder UseSettingDefaultOptions(this IApplicationBuilder builder, Action<ISettingDataOption> option = null)
+    parameters:
+    - id: builder
+      type: System.IApplicationBuilder
+    - id: option
+      type: System.Action{H.Services.Setting.ISettingDataOption}
+    return:
+      type: System.IApplicationBuilder
+    content.vb: Public Shared Function UseSettingDefaultOptions(builder As IApplicationBuilder, [option] As Action(Of ISettingDataOption) = Nothing) As IApplicationBuilder
+  overload: System.SystemSettingExtention.UseSettingDefaultOptions*
+  nameWithType.vb: SystemSettingExtention.UseSettingDefaultOptions(IApplicationBuilder, Action(Of ISettingDataOption))
+  fullName.vb: System.SystemSettingExtention.UseSettingDefaultOptions(System.IApplicationBuilder, System.Action(Of H.Services.Setting.ISettingDataOption))
+  name.vb: UseSettingDefaultOptions(IApplicationBuilder, Action(Of ISettingDataOption))
+references:
+- uid: System
+  commentId: N:System
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.SystemSettingExtention.AddSetting*
+  commentId: Overload:System.SystemSettingExtention.AddSetting
+  href: System.SystemSettingExtention.html#System_SystemSettingExtention_AddSetting_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_Action_H_Modules_Setting_ISettingViewOptions__
+  name: AddSetting
+  nameWithType: SystemSettingExtention.AddSetting
+  fullName: System.SystemSettingExtention.AddSetting
+- uid: Microsoft.Extensions.DependencyInjection.IServiceCollection
+  commentId: T:Microsoft.Extensions.DependencyInjection.IServiceCollection
+  parent: Microsoft.Extensions.DependencyInjection
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection.iservicecollection
+  name: IServiceCollection
+  nameWithType: IServiceCollection
+  fullName: Microsoft.Extensions.DependencyInjection.IServiceCollection
+- uid: System.Action{H.Modules.Setting.ISettingViewOptions}
+  commentId: T:System.Action{H.Modules.Setting.ISettingViewOptions}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<ISettingViewOptions>
+  nameWithType: Action<ISettingViewOptions>
+  fullName: System.Action<H.Modules.Setting.ISettingViewOptions>
+  nameWithType.vb: Action(Of ISettingViewOptions)
+  fullName.vb: System.Action(Of H.Modules.Setting.ISettingViewOptions)
+  name.vb: Action(Of ISettingViewOptions)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: H.Modules.Setting.ISettingViewOptions
+    name: ISettingViewOptions
+    href: H.Modules.Setting.ISettingViewOptions.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.Modules.Setting.ISettingViewOptions
+    name: ISettingViewOptions
+    href: H.Modules.Setting.ISettingViewOptions.html
+  - name: )
+- uid: Microsoft.Extensions.DependencyInjection
+  commentId: N:Microsoft.Extensions.DependencyInjection
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Extensions.DependencyInjection
+  nameWithType: Microsoft.Extensions.DependencyInjection
+  fullName: Microsoft.Extensions.DependencyInjection
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.DependencyInjection
+    name: DependencyInjection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.DependencyInjection
+    name: DependencyInjection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.SystemSettingExtention.AddSettingDataService*
+  commentId: Overload:System.SystemSettingExtention.AddSettingDataService
+  href: System.SystemSettingExtention.html#System_SystemSettingExtention_AddSettingDataService_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_Action_H_Modules_Setting_ISettingViewOptions__
+  name: AddSettingDataService
+  nameWithType: SystemSettingExtention.AddSettingDataService
+  fullName: System.SystemSettingExtention.AddSettingDataService
+- uid: System.SystemSettingExtention.UseSettingDataOptions*
+  commentId: Overload:System.SystemSettingExtention.UseSettingDataOptions
+  href: System.SystemSettingExtention.html#System_SystemSettingExtention_UseSettingDataOptions_System_IApplicationBuilder_System_Action_H_Services_Setting_ISettingDataOption__
+  name: UseSettingDataOptions
+  nameWithType: SystemSettingExtention.UseSettingDataOptions
+  fullName: System.SystemSettingExtention.UseSettingDataOptions
+- uid: System.IApplicationBuilder
+  commentId: T:System.IApplicationBuilder
+  parent: System
+  href: System.IApplicationBuilder.html
+  name: IApplicationBuilder
+  nameWithType: IApplicationBuilder
+  fullName: System.IApplicationBuilder
+- uid: System.Action{H.Services.Setting.ISettingDataOption}
+  commentId: T:System.Action{H.Services.Setting.ISettingDataOption}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<ISettingDataOption>
+  nameWithType: Action<ISettingDataOption>
+  fullName: System.Action<H.Services.Setting.ISettingDataOption>
+  nameWithType.vb: Action(Of ISettingDataOption)
+  fullName.vb: System.Action(Of H.Services.Setting.ISettingDataOption)
+  name.vb: Action(Of ISettingDataOption)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: H.Services.Setting.ISettingDataOption
+    name: ISettingDataOption
+    href: H.Services.Setting.ISettingDataOption.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.Services.Setting.ISettingDataOption
+    name: ISettingDataOption
+    href: H.Services.Setting.ISettingDataOption.html
+  - name: )
+- uid: System.SystemSettingExtention.UseSettingViewOptions*
+  commentId: Overload:System.SystemSettingExtention.UseSettingViewOptions
+  href: System.SystemSettingExtention.html#System_SystemSettingExtention_UseSettingViewOptions_System_IApplicationBuilder_System_Action_H_Modules_Setting_ISettingViewOptions__
+  name: UseSettingViewOptions
+  nameWithType: SystemSettingExtention.UseSettingViewOptions
+  fullName: System.SystemSettingExtention.UseSettingViewOptions
+- uid: System.SystemSettingExtention.UseSettingSecurityOptions*
+  commentId: Overload:System.SystemSettingExtention.UseSettingSecurityOptions
+  href: System.SystemSettingExtention.html#System_SystemSettingExtention_UseSettingSecurityOptions_System_IApplicationBuilder_System_Action_H_Modules_Setting_ISettingSecurityViewOption__
+  name: UseSettingSecurityOptions
+  nameWithType: SystemSettingExtention.UseSettingSecurityOptions
+  fullName: System.SystemSettingExtention.UseSettingSecurityOptions
+- uid: System.Action{H.Modules.Setting.ISettingSecurityViewOption}
+  commentId: T:System.Action{H.Modules.Setting.ISettingSecurityViewOption}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<ISettingSecurityViewOption>
+  nameWithType: Action<ISettingSecurityViewOption>
+  fullName: System.Action<H.Modules.Setting.ISettingSecurityViewOption>
+  nameWithType.vb: Action(Of ISettingSecurityViewOption)
+  fullName.vb: System.Action(Of H.Modules.Setting.ISettingSecurityViewOption)
+  name.vb: Action(Of ISettingSecurityViewOption)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: H.Modules.Setting.ISettingSecurityViewOption
+    name: ISettingSecurityViewOption
+    href: H.Modules.Setting.ISettingSecurityViewOption.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.Modules.Setting.ISettingSecurityViewOption
+    name: ISettingSecurityViewOption
+    href: H.Modules.Setting.ISettingSecurityViewOption.html
+  - name: )
+- uid: System.SystemSettingExtention.UseSettingDefaultOptions*
+  commentId: Overload:System.SystemSettingExtention.UseSettingDefaultOptions
+  href: System.SystemSettingExtention.html#System_SystemSettingExtention_UseSettingDefaultOptions_System_IApplicationBuilder_System_Action_H_Services_Setting_ISettingDataOption__
+  name: UseSettingDefaultOptions
+  nameWithType: SystemSettingExtention.UseSettingDefaultOptions
+  fullName: System.SystemSettingExtention.UseSettingDefaultOptions

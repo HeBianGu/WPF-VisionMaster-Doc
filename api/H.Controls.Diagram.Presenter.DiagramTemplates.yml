@@ -1,0 +1,115 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.Diagram.Presenter.DiagramTemplates
+  commentId: N:H.Controls.Diagram.Presenter.DiagramTemplates
+  id: H.Controls.Diagram.Presenter.DiagramTemplates
+  children:
+  - H.Controls.Diagram.Presenter.DiagramTemplates.DiagramTemplate
+  - H.Controls.Diagram.Presenter.DiagramTemplates.DiagramTemplateExtension
+  - H.Controls.Diagram.Presenter.DiagramTemplates.DiagramTemplateGroup
+  - H.Controls.Diagram.Presenter.DiagramTemplates.DiagramTemplateGroups
+  - H.Controls.Diagram.Presenter.DiagramTemplates.DiagramTemplates
+  - H.Controls.Diagram.Presenter.DiagramTemplates.IDiagramTempaltes
+  - H.Controls.Diagram.Presenter.DiagramTemplates.IDiagramTemplate
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.Diagram.Presenter.DiagramTemplates
+  nameWithType: H.Controls.Diagram.Presenter.DiagramTemplates
+  fullName: H.Controls.Diagram.Presenter.DiagramTemplates
+  type: Namespace
+  assemblies:
+  - H.Controls.Diagram.Presenter
+references:
+- uid: H.Controls.Diagram.Presenter.DiagramTemplates.DiagramTemplate
+  commentId: T:H.Controls.Diagram.Presenter.DiagramTemplates.DiagramTemplate
+  parent: H.Controls.Diagram.Presenter.DiagramTemplates
+  href: H.Controls.Diagram.Presenter.DiagramTemplates.DiagramTemplate.html
+  name: DiagramTemplate
+  nameWithType: DiagramTemplate
+  fullName: H.Controls.Diagram.Presenter.DiagramTemplates.DiagramTemplate
+- uid: H.Controls.Diagram.Presenter.DiagramTemplates.DiagramTemplateExtension
+  commentId: T:H.Controls.Diagram.Presenter.DiagramTemplates.DiagramTemplateExtension
+  parent: H.Controls.Diagram.Presenter.DiagramTemplates
+  href: H.Controls.Diagram.Presenter.DiagramTemplates.DiagramTemplateExtension.html
+  name: DiagramTemplateExtension
+  nameWithType: DiagramTemplateExtension
+  fullName: H.Controls.Diagram.Presenter.DiagramTemplates.DiagramTemplateExtension
+- uid: H.Controls.Diagram.Presenter.DiagramTemplates.DiagramTemplateGroup
+  commentId: T:H.Controls.Diagram.Presenter.DiagramTemplates.DiagramTemplateGroup
+  href: H.Controls.Diagram.Presenter.DiagramTemplates.DiagramTemplateGroup.html
+  name: DiagramTemplateGroup
+  nameWithType: DiagramTemplateGroup
+  fullName: H.Controls.Diagram.Presenter.DiagramTemplates.DiagramTemplateGroup
+- uid: H.Controls.Diagram.Presenter.DiagramTemplates.DiagramTemplateGroups
+  commentId: T:H.Controls.Diagram.Presenter.DiagramTemplates.DiagramTemplateGroups
+  href: H.Controls.Diagram.Presenter.DiagramTemplates.DiagramTemplateGroups.html
+  name: DiagramTemplateGroups
+  nameWithType: DiagramTemplateGroups
+  fullName: H.Controls.Diagram.Presenter.DiagramTemplates.DiagramTemplateGroups
+- uid: H.Controls.Diagram.Presenter.DiagramTemplates.DiagramTemplates
+  commentId: T:H.Controls.Diagram.Presenter.DiagramTemplates.DiagramTemplates
+  href: H.Controls.Diagram.Presenter.DiagramTemplates.DiagramTemplates.html
+  name: DiagramTemplates
+  nameWithType: DiagramTemplates
+  fullName: H.Controls.Diagram.Presenter.DiagramTemplates.DiagramTemplates
+- uid: H.Controls.Diagram.Presenter.DiagramTemplates.IDiagramTempaltes
+  commentId: T:H.Controls.Diagram.Presenter.DiagramTemplates.IDiagramTempaltes
+  parent: H.Controls.Diagram.Presenter.DiagramTemplates
+  href: H.Controls.Diagram.Presenter.DiagramTemplates.IDiagramTempaltes.html
+  name: IDiagramTempaltes
+  nameWithType: IDiagramTempaltes
+  fullName: H.Controls.Diagram.Presenter.DiagramTemplates.IDiagramTempaltes
+- uid: H.Controls.Diagram.Presenter.DiagramTemplates.IDiagramTemplate
+  commentId: T:H.Controls.Diagram.Presenter.DiagramTemplates.IDiagramTemplate
+  parent: H.Controls.Diagram.Presenter.DiagramTemplates
+  href: H.Controls.Diagram.Presenter.DiagramTemplates.IDiagramTemplate.html
+  name: IDiagramTemplate
+  nameWithType: IDiagramTemplate
+  fullName: H.Controls.Diagram.Presenter.DiagramTemplates.IDiagramTemplate
+- uid: H.Controls.Diagram.Presenter.DiagramTemplates
+  commentId: N:H.Controls.Diagram.Presenter.DiagramTemplates
+  href: H.html
+  name: H.Controls.Diagram.Presenter.DiagramTemplates
+  nameWithType: H.Controls.Diagram.Presenter.DiagramTemplates
+  fullName: H.Controls.Diagram.Presenter.DiagramTemplates
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter
+    name: Presenter
+    href: H.Controls.Diagram.Presenter.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter.DiagramTemplates
+    name: DiagramTemplates
+    href: H.Controls.Diagram.Presenter.DiagramTemplates.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.Diagram
+    name: Diagram
+    href: H.Controls.Diagram.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter
+    name: Presenter
+    href: H.Controls.Diagram.Presenter.html
+  - name: .
+  - uid: H.Controls.Diagram.Presenter.DiagramTemplates
+    name: DiagramTemplates
+    href: H.Controls.Diagram.Presenter.DiagramTemplates.html

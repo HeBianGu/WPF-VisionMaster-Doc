@@ -1,0 +1,97 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.Mvvm.ViewModels.Tree
+  commentId: N:H.Extensions.Mvvm.ViewModels.Tree
+  id: H.Extensions.Mvvm.ViewModels.Tree
+  children:
+  - H.Extensions.Mvvm.ViewModels.Tree.ITreeNode
+  - H.Extensions.Mvvm.ViewModels.Tree.TreeNodeBase`1
+  langs:
+  - csharp
+  - vb
+  name: H.Extensions.Mvvm.ViewModels.Tree
+  nameWithType: H.Extensions.Mvvm.ViewModels.Tree
+  fullName: H.Extensions.Mvvm.ViewModels.Tree
+  type: Namespace
+  assemblies:
+  - H.Extensions.Mvvm
+references:
+- uid: H.Extensions.Mvvm.ViewModels.Tree.ITreeNode
+  commentId: T:H.Extensions.Mvvm.ViewModels.Tree.ITreeNode
+  parent: H.Extensions.Mvvm.ViewModels.Tree
+  href: H.Extensions.Mvvm.ViewModels.Tree.ITreeNode.html
+  name: ITreeNode
+  nameWithType: ITreeNode
+  fullName: H.Extensions.Mvvm.ViewModels.Tree.ITreeNode
+- uid: H.Extensions.Mvvm.ViewModels.Tree.TreeNodeBase`1
+  commentId: T:H.Extensions.Mvvm.ViewModels.Tree.TreeNodeBase`1
+  parent: H.Extensions.Mvvm.ViewModels.Tree
+  href: H.Extensions.Mvvm.ViewModels.Tree.TreeNodeBase-1.html
+  name: TreeNodeBase<T>
+  nameWithType: TreeNodeBase<T>
+  fullName: H.Extensions.Mvvm.ViewModels.Tree.TreeNodeBase<T>
+  nameWithType.vb: TreeNodeBase(Of T)
+  fullName.vb: H.Extensions.Mvvm.ViewModels.Tree.TreeNodeBase(Of T)
+  name.vb: TreeNodeBase(Of T)
+  spec.csharp:
+  - uid: H.Extensions.Mvvm.ViewModels.Tree.TreeNodeBase`1
+    name: TreeNodeBase
+    href: H.Extensions.Mvvm.ViewModels.Tree.TreeNodeBase-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Extensions.Mvvm.ViewModels.Tree.TreeNodeBase`1
+    name: TreeNodeBase
+    href: H.Extensions.Mvvm.ViewModels.Tree.TreeNodeBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Extensions.Mvvm.ViewModels.Tree
+  commentId: N:H.Extensions.Mvvm.ViewModels.Tree
+  href: H.html
+  name: H.Extensions.Mvvm.ViewModels.Tree
+  nameWithType: H.Extensions.Mvvm.ViewModels.Tree
+  fullName: H.Extensions.Mvvm.ViewModels.Tree
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Mvvm
+    name: Mvvm
+    href: H.Extensions.Mvvm.html
+  - name: .
+  - uid: H.Extensions.Mvvm.ViewModels
+    name: ViewModels
+    href: H.Extensions.Mvvm.ViewModels.html
+  - name: .
+  - uid: H.Extensions.Mvvm.ViewModels.Tree
+    name: Tree
+    href: H.Extensions.Mvvm.ViewModels.Tree.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Mvvm
+    name: Mvvm
+    href: H.Extensions.Mvvm.html
+  - name: .
+  - uid: H.Extensions.Mvvm.ViewModels
+    name: ViewModels
+    href: H.Extensions.Mvvm.ViewModels.html
+  - name: .
+  - uid: H.Extensions.Mvvm.ViewModels.Tree
+    name: Tree
+    href: H.Extensions.Mvvm.ViewModels.Tree.html

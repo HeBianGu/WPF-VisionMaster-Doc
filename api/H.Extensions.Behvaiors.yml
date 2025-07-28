@@ -1,0 +1,61 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.Behvaiors
+  commentId: N:H.Extensions.Behvaiors
+  id: H.Extensions.Behvaiors
+  children:
+  - H.Extensions.Behvaiors.Behaviors
+  - H.Extensions.Behvaiors.BehvaiorAttach
+  langs:
+  - csharp
+  - vb
+  name: H.Extensions.Behvaiors
+  nameWithType: H.Extensions.Behvaiors
+  fullName: H.Extensions.Behvaiors
+  type: Namespace
+  assemblies:
+  - H.Extensions.Behvaiors
+references:
+- uid: H.Extensions.Behvaiors.BehvaiorAttach
+  commentId: T:H.Extensions.Behvaiors.BehvaiorAttach
+  href: H.Extensions.Behvaiors.BehvaiorAttach.html
+  name: BehvaiorAttach
+  nameWithType: BehvaiorAttach
+  fullName: H.Extensions.Behvaiors.BehvaiorAttach
+- uid: H.Extensions.Behvaiors.Behaviors
+  commentId: T:H.Extensions.Behvaiors.Behaviors
+  parent: H.Extensions.Behvaiors
+  href: H.Extensions.Behvaiors.Behaviors.html
+  name: Behaviors
+  nameWithType: Behaviors
+  fullName: H.Extensions.Behvaiors.Behaviors
+- uid: H.Extensions.Behvaiors
+  commentId: N:H.Extensions.Behvaiors
+  href: H.html
+  name: H.Extensions.Behvaiors
+  nameWithType: H.Extensions.Behvaiors
+  fullName: H.Extensions.Behvaiors
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Behvaiors
+    name: Behvaiors
+    href: H.Extensions.Behvaiors.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Behvaiors
+    name: Behvaiors
+    href: H.Extensions.Behvaiors.html

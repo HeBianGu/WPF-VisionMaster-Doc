@@ -1,0 +1,260 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.MarkupExtension
+  commentId: N:H.MarkupExtension
+  id: H.MarkupExtension
+  children:
+  - H.MarkupExtension.DoubleRandowmExtension
+  - H.MarkupExtension.GenericTypeExtension
+  - H.MarkupExtension.GetDateTimeExtension
+  - H.MarkupExtension.GetEnumExtension
+  - H.MarkupExtension.GetEnumGroupSourceExtension
+  - H.MarkupExtension.GetEnumSourceExtension
+  - H.MarkupExtension.GetEnumerableExtension`1
+  - H.MarkupExtension.GetIConvertibleExtension
+  - H.MarkupExtension.GetInstanceExtension
+  - H.MarkupExtension.GetRangeExtension
+  - H.MarkupExtension.GetTypeConverterExtension
+  - H.MarkupExtension.GetTypeExtensionBase
+  - H.MarkupExtension.GetValueExtensionBase
+  - H.MarkupExtension.GetValueToTypeExtensionBase
+  - H.MarkupExtension.GetVisibilityExtension
+  - H.MarkupExtension.IntRandowmExtension
+  - H.MarkupExtension.InvokeMethodExtensionBase
+  - H.MarkupExtension.PointExtension
+  - H.MarkupExtension.PointRandomExtension
+  - H.MarkupExtension.RandomExtension`1
+  - H.MarkupExtension.RectMarkupExtension
+  - H.MarkupExtension.RectRandomExtension
+  - H.MarkupExtension.SpecialFolderExtension
+  - H.MarkupExtension.StaticPropertyExtension
+  - H.MarkupExtension.TimeSpanFromMethodExtension
+  - H.MarkupExtension.TimeSpanParseExtension
+  langs:
+  - csharp
+  - vb
+  name: H.MarkupExtension
+  nameWithType: H.MarkupExtension
+  fullName: H.MarkupExtension
+  type: Namespace
+  assemblies:
+  - H.MarkupExtension
+references:
+- uid: H.MarkupExtension.GetValueToTypeExtensionBase
+  commentId: T:H.MarkupExtension.GetValueToTypeExtensionBase
+  parent: H.MarkupExtension
+  href: H.MarkupExtension.GetValueToTypeExtensionBase.html
+  name: GetValueToTypeExtensionBase
+  nameWithType: GetValueToTypeExtensionBase
+  fullName: H.MarkupExtension.GetValueToTypeExtensionBase
+- uid: H.MarkupExtension.GetValueExtensionBase
+  commentId: T:H.MarkupExtension.GetValueExtensionBase
+  parent: H.MarkupExtension
+  href: H.MarkupExtension.GetValueExtensionBase.html
+  name: GetValueExtensionBase
+  nameWithType: GetValueExtensionBase
+  fullName: H.MarkupExtension.GetValueExtensionBase
+- uid: H.MarkupExtension.GetTypeExtensionBase
+  commentId: T:H.MarkupExtension.GetTypeExtensionBase
+  href: H.MarkupExtension.GetTypeExtensionBase.html
+  name: GetTypeExtensionBase
+  nameWithType: GetTypeExtensionBase
+  fullName: H.MarkupExtension.GetTypeExtensionBase
+- uid: H.MarkupExtension.InvokeMethodExtensionBase
+  commentId: T:H.MarkupExtension.InvokeMethodExtensionBase
+  href: H.MarkupExtension.InvokeMethodExtensionBase.html
+  name: InvokeMethodExtensionBase
+  nameWithType: InvokeMethodExtensionBase
+  fullName: H.MarkupExtension.InvokeMethodExtensionBase
+- uid: H.MarkupExtension.GetTypeConverterExtension
+  commentId: T:H.MarkupExtension.GetTypeConverterExtension
+  href: H.MarkupExtension.GetTypeConverterExtension.html
+  name: GetTypeConverterExtension
+  nameWithType: GetTypeConverterExtension
+  fullName: H.MarkupExtension.GetTypeConverterExtension
+- uid: H.MarkupExtension.GetIConvertibleExtension
+  commentId: T:H.MarkupExtension.GetIConvertibleExtension
+  href: H.MarkupExtension.GetIConvertibleExtension.html
+  name: GetIConvertibleExtension
+  nameWithType: GetIConvertibleExtension
+  fullName: H.MarkupExtension.GetIConvertibleExtension
+- uid: H.MarkupExtension.GetDateTimeExtension
+  commentId: T:H.MarkupExtension.GetDateTimeExtension
+  href: H.MarkupExtension.GetDateTimeExtension.html
+  name: GetDateTimeExtension
+  nameWithType: GetDateTimeExtension
+  fullName: H.MarkupExtension.GetDateTimeExtension
+- uid: H.MarkupExtension.GetEnumSourceExtension
+  commentId: T:H.MarkupExtension.GetEnumSourceExtension
+  href: H.MarkupExtension.GetEnumSourceExtension.html
+  name: GetEnumSourceExtension
+  nameWithType: GetEnumSourceExtension
+  fullName: H.MarkupExtension.GetEnumSourceExtension
+- uid: H.MarkupExtension.GetEnumGroupSourceExtension
+  commentId: T:H.MarkupExtension.GetEnumGroupSourceExtension
+  href: H.MarkupExtension.GetEnumGroupSourceExtension.html
+  name: GetEnumGroupSourceExtension
+  nameWithType: GetEnumGroupSourceExtension
+  fullName: H.MarkupExtension.GetEnumGroupSourceExtension
+- uid: H.MarkupExtension.GetEnumExtension
+  commentId: T:H.MarkupExtension.GetEnumExtension
+  href: H.MarkupExtension.GetEnumExtension.html
+  name: GetEnumExtension
+  nameWithType: GetEnumExtension
+  fullName: H.MarkupExtension.GetEnumExtension
+- uid: H.MarkupExtension.GetRangeExtension
+  commentId: T:H.MarkupExtension.GetRangeExtension
+  href: H.MarkupExtension.GetRangeExtension.html
+  name: GetRangeExtension
+  nameWithType: GetRangeExtension
+  fullName: H.MarkupExtension.GetRangeExtension
+- uid: H.MarkupExtension.GetEnumerableExtension`1
+  commentId: T:H.MarkupExtension.GetEnumerableExtension`1
+  href: H.MarkupExtension.GetEnumerableExtension-1.html
+  name: GetEnumerableExtension<T>
+  nameWithType: GetEnumerableExtension<T>
+  fullName: H.MarkupExtension.GetEnumerableExtension<T>
+  nameWithType.vb: GetEnumerableExtension(Of T)
+  fullName.vb: H.MarkupExtension.GetEnumerableExtension(Of T)
+  name.vb: GetEnumerableExtension(Of T)
+  spec.csharp:
+  - uid: H.MarkupExtension.GetEnumerableExtension`1
+    name: GetEnumerableExtension
+    href: H.MarkupExtension.GetEnumerableExtension-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.MarkupExtension.GetEnumerableExtension`1
+    name: GetEnumerableExtension
+    href: H.MarkupExtension.GetEnumerableExtension-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.MarkupExtension.SpecialFolderExtension
+  commentId: T:H.MarkupExtension.SpecialFolderExtension
+  href: H.MarkupExtension.SpecialFolderExtension.html
+  name: SpecialFolderExtension
+  nameWithType: SpecialFolderExtension
+  fullName: H.MarkupExtension.SpecialFolderExtension
+- uid: H.MarkupExtension.GenericTypeExtension
+  commentId: T:H.MarkupExtension.GenericTypeExtension
+  href: H.MarkupExtension.GenericTypeExtension.html
+  name: GenericTypeExtension
+  nameWithType: GenericTypeExtension
+  fullName: H.MarkupExtension.GenericTypeExtension
+- uid: H.MarkupExtension.GetInstanceExtension
+  commentId: T:H.MarkupExtension.GetInstanceExtension
+  href: H.MarkupExtension.GetInstanceExtension.html
+  name: GetInstanceExtension
+  nameWithType: GetInstanceExtension
+  fullName: H.MarkupExtension.GetInstanceExtension
+- uid: H.MarkupExtension.RandomExtension`1
+  commentId: T:H.MarkupExtension.RandomExtension`1
+  href: H.MarkupExtension.RandomExtension-1.html
+  name: RandomExtension<T>
+  nameWithType: RandomExtension<T>
+  fullName: H.MarkupExtension.RandomExtension<T>
+  nameWithType.vb: RandomExtension(Of T)
+  fullName.vb: H.MarkupExtension.RandomExtension(Of T)
+  name.vb: RandomExtension(Of T)
+  spec.csharp:
+  - uid: H.MarkupExtension.RandomExtension`1
+    name: RandomExtension
+    href: H.MarkupExtension.RandomExtension-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.MarkupExtension.RandomExtension`1
+    name: RandomExtension
+    href: H.MarkupExtension.RandomExtension-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.MarkupExtension.IntRandowmExtension
+  commentId: T:H.MarkupExtension.IntRandowmExtension
+  href: H.MarkupExtension.IntRandowmExtension.html
+  name: IntRandowmExtension
+  nameWithType: IntRandowmExtension
+  fullName: H.MarkupExtension.IntRandowmExtension
+- uid: H.MarkupExtension.DoubleRandowmExtension
+  commentId: T:H.MarkupExtension.DoubleRandowmExtension
+  href: H.MarkupExtension.DoubleRandowmExtension.html
+  name: DoubleRandowmExtension
+  nameWithType: DoubleRandowmExtension
+  fullName: H.MarkupExtension.DoubleRandowmExtension
+- uid: H.MarkupExtension.PointExtension
+  commentId: T:H.MarkupExtension.PointExtension
+  href: H.MarkupExtension.PointExtension.html
+  name: PointExtension
+  nameWithType: PointExtension
+  fullName: H.MarkupExtension.PointExtension
+- uid: H.MarkupExtension.PointRandomExtension
+  commentId: T:H.MarkupExtension.PointRandomExtension
+  href: H.MarkupExtension.PointRandomExtension.html
+  name: PointRandomExtension
+  nameWithType: PointRandomExtension
+  fullName: H.MarkupExtension.PointRandomExtension
+- uid: H.MarkupExtension.RectMarkupExtension
+  commentId: T:H.MarkupExtension.RectMarkupExtension
+  href: H.MarkupExtension.RectMarkupExtension.html
+  name: RectMarkupExtension
+  nameWithType: RectMarkupExtension
+  fullName: H.MarkupExtension.RectMarkupExtension
+- uid: H.MarkupExtension.RectRandomExtension
+  commentId: T:H.MarkupExtension.RectRandomExtension
+  href: H.MarkupExtension.RectRandomExtension.html
+  name: RectRandomExtension
+  nameWithType: RectRandomExtension
+  fullName: H.MarkupExtension.RectRandomExtension
+- uid: H.MarkupExtension.TimeSpanParseExtension
+  commentId: T:H.MarkupExtension.TimeSpanParseExtension
+  href: H.MarkupExtension.TimeSpanParseExtension.html
+  name: TimeSpanParseExtension
+  nameWithType: TimeSpanParseExtension
+  fullName: H.MarkupExtension.TimeSpanParseExtension
+- uid: H.MarkupExtension.TimeSpanFromMethodExtension
+  commentId: T:H.MarkupExtension.TimeSpanFromMethodExtension
+  href: H.MarkupExtension.TimeSpanFromMethodExtension.html
+  name: TimeSpanFromMethodExtension
+  nameWithType: TimeSpanFromMethodExtension
+  fullName: H.MarkupExtension.TimeSpanFromMethodExtension
+- uid: H.MarkupExtension.GetVisibilityExtension
+  commentId: T:H.MarkupExtension.GetVisibilityExtension
+  href: H.MarkupExtension.GetVisibilityExtension.html
+  name: GetVisibilityExtension
+  nameWithType: GetVisibilityExtension
+  fullName: H.MarkupExtension.GetVisibilityExtension
+- uid: H.MarkupExtension.StaticPropertyExtension
+  commentId: T:H.MarkupExtension.StaticPropertyExtension
+  href: H.MarkupExtension.StaticPropertyExtension.html
+  name: StaticPropertyExtension
+  nameWithType: StaticPropertyExtension
+  fullName: H.MarkupExtension.StaticPropertyExtension
+- uid: H.MarkupExtension
+  commentId: N:H.MarkupExtension
+  href: H.html
+  name: H.MarkupExtension
+  nameWithType: H.MarkupExtension
+  fullName: H.MarkupExtension
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.MarkupExtension
+    name: MarkupExtension
+    href: H.MarkupExtension.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.MarkupExtension
+    name: MarkupExtension
+    href: H.MarkupExtension.html

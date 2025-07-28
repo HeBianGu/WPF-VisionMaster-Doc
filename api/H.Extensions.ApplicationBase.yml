@@ -1,0 +1,76 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.ApplicationBase
+  commentId: N:H.Extensions.ApplicationBase
+  id: H.Extensions.ApplicationBase
+  children:
+  - H.Extensions.ApplicationBase.ApplicationBase
+  - H.Extensions.ApplicationBase.ApplicationBuilder
+  - H.Extensions.ApplicationBase.CacheActionOptionsBase
+  - H.Extensions.ApplicationBase.IocSaveAllCommand
+  langs:
+  - csharp
+  - vb
+  name: H.Extensions.ApplicationBase
+  nameWithType: H.Extensions.ApplicationBase
+  fullName: H.Extensions.ApplicationBase
+  type: Namespace
+  assemblies:
+  - H.Extensions.ApplicationBase
+references:
+- uid: H.Extensions.ApplicationBase.ApplicationBase
+  commentId: T:H.Extensions.ApplicationBase.ApplicationBase
+  parent: H.Extensions.ApplicationBase
+  href: H.Extensions.ApplicationBase.ApplicationBase.html
+  name: ApplicationBase
+  nameWithType: ApplicationBase
+  fullName: H.Extensions.ApplicationBase.ApplicationBase
+- uid: H.Extensions.ApplicationBase.ApplicationBuilder
+  commentId: T:H.Extensions.ApplicationBase.ApplicationBuilder
+  href: H.Extensions.ApplicationBase.ApplicationBuilder.html
+  name: ApplicationBuilder
+  nameWithType: ApplicationBuilder
+  fullName: H.Extensions.ApplicationBase.ApplicationBuilder
+- uid: H.Extensions.ApplicationBase.CacheActionOptionsBase
+  commentId: T:H.Extensions.ApplicationBase.CacheActionOptionsBase
+  parent: H.Extensions.ApplicationBase
+  href: H.Extensions.ApplicationBase.CacheActionOptionsBase.html
+  name: CacheActionOptionsBase
+  nameWithType: CacheActionOptionsBase
+  fullName: H.Extensions.ApplicationBase.CacheActionOptionsBase
+- uid: H.Extensions.ApplicationBase.IocSaveAllCommand
+  commentId: T:H.Extensions.ApplicationBase.IocSaveAllCommand
+  href: H.Extensions.ApplicationBase.IocSaveAllCommand.html
+  name: IocSaveAllCommand
+  nameWithType: IocSaveAllCommand
+  fullName: H.Extensions.ApplicationBase.IocSaveAllCommand
+- uid: H.Extensions.ApplicationBase
+  commentId: N:H.Extensions.ApplicationBase
+  href: H.html
+  name: H.Extensions.ApplicationBase
+  nameWithType: H.Extensions.ApplicationBase
+  fullName: H.Extensions.ApplicationBase
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.ApplicationBase
+    name: ApplicationBase
+    href: H.Extensions.ApplicationBase.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.ApplicationBase
+    name: ApplicationBase
+    href: H.Extensions.ApplicationBase.html

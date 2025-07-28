@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.ValueConverter.Doubles
+  commentId: N:H.ValueConverter.Doubles
+  id: H.ValueConverter.Doubles
+  children:
+  - H.ValueConverter.Doubles.GetCornerRadiusToDoubleConverter
+  - H.ValueConverter.Doubles.GetPercentToAngleConverter
+  - H.ValueConverter.Doubles.GetThicknessToDoubleConverter
+  langs:
+  - csharp
+  - vb
+  name: H.ValueConverter.Doubles
+  nameWithType: H.ValueConverter.Doubles
+  fullName: H.ValueConverter.Doubles
+  type: Namespace
+  assemblies:
+  - H.ValueConverter
+references:
+- uid: H.ValueConverter.Doubles.GetCornerRadiusToDoubleConverter
+  commentId: T:H.ValueConverter.Doubles.GetCornerRadiusToDoubleConverter
+  href: H.ValueConverter.Doubles.GetCornerRadiusToDoubleConverter.html
+  name: GetCornerRadiusToDoubleConverter
+  nameWithType: GetCornerRadiusToDoubleConverter
+  fullName: H.ValueConverter.Doubles.GetCornerRadiusToDoubleConverter
+- uid: H.ValueConverter.Doubles.GetPercentToAngleConverter
+  commentId: T:H.ValueConverter.Doubles.GetPercentToAngleConverter
+  href: H.ValueConverter.Doubles.GetPercentToAngleConverter.html
+  name: GetPercentToAngleConverter
+  nameWithType: GetPercentToAngleConverter
+  fullName: H.ValueConverter.Doubles.GetPercentToAngleConverter
+- uid: H.ValueConverter.Doubles.GetThicknessToDoubleConverter
+  commentId: T:H.ValueConverter.Doubles.GetThicknessToDoubleConverter
+  href: H.ValueConverter.Doubles.GetThicknessToDoubleConverter.html
+  name: GetThicknessToDoubleConverter
+  nameWithType: GetThicknessToDoubleConverter
+  fullName: H.ValueConverter.Doubles.GetThicknessToDoubleConverter

@@ -1,0 +1,78 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.VisionMaster.NodeGroup.Groups.Others
+  commentId: N:H.VisionMaster.NodeGroup.Groups.Others
+  id: H.VisionMaster.NodeGroup.Groups.Others
+  children:
+  - H.VisionMaster.NodeGroup.Groups.Others.IOtherGroupableNodeData
+  - H.VisionMaster.NodeGroup.Groups.Others.OtherDataGroup
+  langs:
+  - csharp
+  - vb
+  name: H.VisionMaster.NodeGroup.Groups.Others
+  nameWithType: H.VisionMaster.NodeGroup.Groups.Others
+  fullName: H.VisionMaster.NodeGroup.Groups.Others
+  type: Namespace
+  assemblies:
+  - H.VisionMaster.NodeGroup
+references:
+- uid: H.VisionMaster.NodeGroup.Groups.Others.IOtherGroupableNodeData
+  commentId: T:H.VisionMaster.NodeGroup.Groups.Others.IOtherGroupableNodeData
+  parent: H.VisionMaster.NodeGroup.Groups.Others
+  href: H.VisionMaster.NodeGroup.Groups.Others.IOtherGroupableNodeData.html
+  name: IOtherGroupableNodeData
+  nameWithType: IOtherGroupableNodeData
+  fullName: H.VisionMaster.NodeGroup.Groups.Others.IOtherGroupableNodeData
+- uid: H.VisionMaster.NodeGroup.Groups.Others.OtherDataGroup
+  commentId: T:H.VisionMaster.NodeGroup.Groups.Others.OtherDataGroup
+  parent: H.VisionMaster.NodeGroup.Groups.Others
+  href: H.VisionMaster.NodeGroup.Groups.Others.OtherDataGroup.html
+  name: OtherDataGroup
+  nameWithType: OtherDataGroup
+  fullName: H.VisionMaster.NodeGroup.Groups.Others.OtherDataGroup
+- uid: H.VisionMaster.NodeGroup.Groups.Others
+  commentId: N:H.VisionMaster.NodeGroup.Groups.Others
+  href: H.html
+  name: H.VisionMaster.NodeGroup.Groups.Others
+  nameWithType: H.VisionMaster.NodeGroup.Groups.Others
+  fullName: H.VisionMaster.NodeGroup.Groups.Others
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup
+    name: NodeGroup
+    href: H.VisionMaster.NodeGroup.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup.Groups
+    name: Groups
+    href: H.VisionMaster.NodeGroup.Groups.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup.Groups.Others
+    name: Others
+    href: H.VisionMaster.NodeGroup.Groups.Others.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup
+    name: NodeGroup
+    href: H.VisionMaster.NodeGroup.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup.Groups
+    name: Groups
+    href: H.VisionMaster.NodeGroup.Groups.html
+  - name: .
+  - uid: H.VisionMaster.NodeGroup.Groups.Others
+    name: Others
+    href: H.VisionMaster.NodeGroup.Groups.Others.html

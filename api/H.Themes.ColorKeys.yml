@@ -1,0 +1,2361 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Themes.ColorKeys
+  commentId: T:H.Themes.ColorKeys
+  id: ColorKeys
+  parent: H.Themes
+  children:
+  - H.Themes.ColorKeys.Accent
+  - H.Themes.ColorKeys.AlternatingRowBackground
+  - H.Themes.ColorKeys.Background
+  - H.Themes.ColorKeys.Black
+  - H.Themes.ColorKeys.Blue
+  - H.Themes.ColorKeys.BorderBrush
+  - H.Themes.ColorKeys.BorderBrushAssist
+  - H.Themes.ColorKeys.BorderBrushTitle
+  - H.Themes.ColorKeys.Brown
+  - H.Themes.ColorKeys.CaptionBackground
+  - H.Themes.ColorKeys.CaptionForeground
+  - H.Themes.ColorKeys.Dark0
+  - H.Themes.ColorKeys.Dark0_1
+  - H.Themes.ColorKeys.Dark0_2
+  - H.Themes.ColorKeys.Dark0_3
+  - H.Themes.ColorKeys.Dark0_4
+  - H.Themes.ColorKeys.Dark0_5
+  - H.Themes.ColorKeys.Dark0_6
+  - H.Themes.ColorKeys.Dark0_7
+  - H.Themes.ColorKeys.Dark0_8
+  - H.Themes.ColorKeys.Dark0_9
+  - H.Themes.ColorKeys.Dark1
+  - H.Themes.ColorKeys.Dark10
+  - H.Themes.ColorKeys.Dark1_5
+  - H.Themes.ColorKeys.Dark2
+  - H.Themes.ColorKeys.Dark2_5
+  - H.Themes.ColorKeys.Dark3
+  - H.Themes.ColorKeys.Dark3_5
+  - H.Themes.ColorKeys.Dark4
+  - H.Themes.ColorKeys.Dark4_5
+  - H.Themes.ColorKeys.Dark5
+  - H.Themes.ColorKeys.Dark5_5
+  - H.Themes.ColorKeys.Dark6
+  - H.Themes.ColorKeys.Dark6_5
+  - H.Themes.ColorKeys.Dark7
+  - H.Themes.ColorKeys.Dark7_5
+  - H.Themes.ColorKeys.Dark8
+  - H.Themes.ColorKeys.Dark8_5
+  - H.Themes.ColorKeys.Dark9
+  - H.Themes.ColorKeys.Dark9_5
+  - H.Themes.ColorKeys.DialogCover
+  - H.Themes.ColorKeys.Foreground
+  - H.Themes.ColorKeys.ForegroundAssist
+  - H.Themes.ColorKeys.ForegroundLink
+  - H.Themes.ColorKeys.ForegroundSelect
+  - H.Themes.ColorKeys.ForegroundTitle
+  - H.Themes.ColorKeys.Gray
+  - H.Themes.ColorKeys.Green
+  - H.Themes.ColorKeys.LightBlue
+  - H.Themes.ColorKeys.LightGray
+  - H.Themes.ColorKeys.MenuBackground
+  - H.Themes.ColorKeys.MenuForeground
+  - H.Themes.ColorKeys.MouseOver
+  - H.Themes.ColorKeys.Orange
+  - H.Themes.ColorKeys.Pink
+  - H.Themes.ColorKeys.Purple
+  - H.Themes.ColorKeys.Red
+  - H.Themes.ColorKeys.Selected
+  - H.Themes.ColorKeys.Tranparent
+  - H.Themes.ColorKeys.Yellow
+  langs:
+  - csharp
+  - vb
+  name: ColorKeys
+  nameWithType: ColorKeys
+  fullName: H.Themes.ColorKeys
+  type: Class
+  source:
+    id: ColorKeys
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 13
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 提供颜色键的静态类
+  example: []
+  syntax:
+    content: public static class ColorKeys
+    content.vb: Public Module ColorKeys
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: H.Themes.ColorKeys.CaptionBackground
+  commentId: P:H.Themes.ColorKeys.CaptionBackground
+  id: CaptionBackground
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: CaptionBackground
+  nameWithType: ColorKeys.CaptionBackground
+  fullName: H.Themes.ColorKeys.CaptionBackground
+  type: Property
+  source:
+    id: CaptionBackground
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 19
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 标题背景色
+  example: []
+  syntax:
+    content: public static ComponentResourceKey CaptionBackground { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property CaptionBackground As ComponentResourceKey
+  overload: H.Themes.ColorKeys.CaptionBackground*
+- uid: H.Themes.ColorKeys.Background
+  commentId: P:H.Themes.ColorKeys.Background
+  id: Background
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: Background
+  nameWithType: ColorKeys.Background
+  fullName: H.Themes.ColorKeys.Background
+  type: Property
+  source:
+    id: Background
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 24
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 背景色
+  example: []
+  syntax:
+    content: public static ComponentResourceKey Background { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Background As ComponentResourceKey
+  overload: H.Themes.ColorKeys.Background*
+- uid: H.Themes.ColorKeys.AlternatingRowBackground
+  commentId: P:H.Themes.ColorKeys.AlternatingRowBackground
+  id: AlternatingRowBackground
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: AlternatingRowBackground
+  nameWithType: ColorKeys.AlternatingRowBackground
+  fullName: H.Themes.ColorKeys.AlternatingRowBackground
+  type: Property
+  source:
+    id: AlternatingRowBackground
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 29
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 交替行背景色
+  example: []
+  syntax:
+    content: public static ComponentResourceKey AlternatingRowBackground { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property AlternatingRowBackground As ComponentResourceKey
+  overload: H.Themes.ColorKeys.AlternatingRowBackground*
+- uid: H.Themes.ColorKeys.CaptionForeground
+  commentId: P:H.Themes.ColorKeys.CaptionForeground
+  id: CaptionForeground
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: CaptionForeground
+  nameWithType: ColorKeys.CaptionForeground
+  fullName: H.Themes.ColorKeys.CaptionForeground
+  type: Property
+  source:
+    id: CaptionForeground
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 35
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 标题前景色
+  example: []
+  syntax:
+    content: public static ComponentResourceKey CaptionForeground { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property CaptionForeground As ComponentResourceKey
+  overload: H.Themes.ColorKeys.CaptionForeground*
+- uid: H.Themes.ColorKeys.Foreground
+  commentId: P:H.Themes.ColorKeys.Foreground
+  id: Foreground
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: Foreground
+  nameWithType: ColorKeys.Foreground
+  fullName: H.Themes.ColorKeys.Foreground
+  type: Property
+  source:
+    id: Foreground
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 40
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 前景色
+  example: []
+  syntax:
+    content: public static ComponentResourceKey Foreground { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Foreground As ComponentResourceKey
+  overload: H.Themes.ColorKeys.Foreground*
+- uid: H.Themes.ColorKeys.ForegroundTitle
+  commentId: P:H.Themes.ColorKeys.ForegroundTitle
+  id: ForegroundTitle
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: ForegroundTitle
+  nameWithType: ColorKeys.ForegroundTitle
+  fullName: H.Themes.ColorKeys.ForegroundTitle
+  type: Property
+  source:
+    id: ForegroundTitle
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 45
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 标题前景色
+  example: []
+  syntax:
+    content: public static ComponentResourceKey ForegroundTitle { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property ForegroundTitle As ComponentResourceKey
+  overload: H.Themes.ColorKeys.ForegroundTitle*
+- uid: H.Themes.ColorKeys.ForegroundSelect
+  commentId: P:H.Themes.ColorKeys.ForegroundSelect
+  id: ForegroundSelect
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: ForegroundSelect
+  nameWithType: ColorKeys.ForegroundSelect
+  fullName: H.Themes.ColorKeys.ForegroundSelect
+  type: Property
+  source:
+    id: ForegroundSelect
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 50
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 选中前景色
+  example: []
+  syntax:
+    content: public static ComponentResourceKey ForegroundSelect { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property ForegroundSelect As ComponentResourceKey
+  overload: H.Themes.ColorKeys.ForegroundSelect*
+- uid: H.Themes.ColorKeys.MouseOver
+  commentId: P:H.Themes.ColorKeys.MouseOver
+  id: MouseOver
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: MouseOver
+  nameWithType: ColorKeys.MouseOver
+  fullName: H.Themes.ColorKeys.MouseOver
+  type: Property
+  source:
+    id: MouseOver
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 56
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 鼠标悬停前景色
+  example: []
+  syntax:
+    content: public static ComponentResourceKey MouseOver { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property MouseOver As ComponentResourceKey
+  overload: H.Themes.ColorKeys.MouseOver*
+- uid: H.Themes.ColorKeys.Selected
+  commentId: P:H.Themes.ColorKeys.Selected
+  id: Selected
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: Selected
+  nameWithType: ColorKeys.Selected
+  fullName: H.Themes.ColorKeys.Selected
+  type: Property
+  source:
+    id: Selected
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 61
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 选中前景色
+  example: []
+  syntax:
+    content: public static ComponentResourceKey Selected { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Selected As ComponentResourceKey
+  overload: H.Themes.ColorKeys.Selected*
+- uid: H.Themes.ColorKeys.ForegroundAssist
+  commentId: P:H.Themes.ColorKeys.ForegroundAssist
+  id: ForegroundAssist
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: ForegroundAssist
+  nameWithType: ColorKeys.ForegroundAssist
+  fullName: H.Themes.ColorKeys.ForegroundAssist
+  type: Property
+  source:
+    id: ForegroundAssist
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 66
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 辅助前景色
+  example: []
+  syntax:
+    content: public static ComponentResourceKey ForegroundAssist { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property ForegroundAssist As ComponentResourceKey
+  overload: H.Themes.ColorKeys.ForegroundAssist*
+- uid: H.Themes.ColorKeys.ForegroundLink
+  commentId: P:H.Themes.ColorKeys.ForegroundLink
+  id: ForegroundLink
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: ForegroundLink
+  nameWithType: ColorKeys.ForegroundLink
+  fullName: H.Themes.ColorKeys.ForegroundLink
+  type: Property
+  source:
+    id: ForegroundLink
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 71
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 链接前景色
+  example: []
+  syntax:
+    content: public static ComponentResourceKey ForegroundLink { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property ForegroundLink As ComponentResourceKey
+  overload: H.Themes.ColorKeys.ForegroundLink*
+- uid: H.Themes.ColorKeys.BorderBrush
+  commentId: P:H.Themes.ColorKeys.BorderBrush
+  id: BorderBrush
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: BorderBrush
+  nameWithType: ColorKeys.BorderBrush
+  fullName: H.Themes.ColorKeys.BorderBrush
+  type: Property
+  source:
+    id: BorderBrush
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 78
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 边框画刷
+  example: []
+  syntax:
+    content: public static ComponentResourceKey BorderBrush { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property BorderBrush As ComponentResourceKey
+  overload: H.Themes.ColorKeys.BorderBrush*
+- uid: H.Themes.ColorKeys.BorderBrushTitle
+  commentId: P:H.Themes.ColorKeys.BorderBrushTitle
+  id: BorderBrushTitle
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: BorderBrushTitle
+  nameWithType: ColorKeys.BorderBrushTitle
+  fullName: H.Themes.ColorKeys.BorderBrushTitle
+  type: Property
+  source:
+    id: BorderBrushTitle
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 83
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 标题边框画刷
+  example: []
+  syntax:
+    content: public static ComponentResourceKey BorderBrushTitle { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property BorderBrushTitle As ComponentResourceKey
+  overload: H.Themes.ColorKeys.BorderBrushTitle*
+- uid: H.Themes.ColorKeys.BorderBrushAssist
+  commentId: P:H.Themes.ColorKeys.BorderBrushAssist
+  id: BorderBrushAssist
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: BorderBrushAssist
+  nameWithType: ColorKeys.BorderBrushAssist
+  fullName: H.Themes.ColorKeys.BorderBrushAssist
+  type: Property
+  source:
+    id: BorderBrushAssist
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 88
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 辅助边框画刷
+  example: []
+  syntax:
+    content: public static ComponentResourceKey BorderBrushAssist { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property BorderBrushAssist As ComponentResourceKey
+  overload: H.Themes.ColorKeys.BorderBrushAssist*
+- uid: H.Themes.ColorKeys.Accent
+  commentId: P:H.Themes.ColorKeys.Accent
+  id: Accent
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: Accent
+  nameWithType: ColorKeys.Accent
+  fullName: H.Themes.ColorKeys.Accent
+  type: Property
+  source:
+    id: Accent
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 95
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 强调色
+  example: []
+  syntax:
+    content: public static ComponentResourceKey Accent { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Accent As ComponentResourceKey
+  overload: H.Themes.ColorKeys.Accent*
+- uid: H.Themes.ColorKeys.Dark10
+  commentId: P:H.Themes.ColorKeys.Dark10
+  id: Dark10
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: Dark10
+  nameWithType: ColorKeys.Dark10
+  fullName: H.Themes.ColorKeys.Dark10
+  type: Property
+  source:
+    id: Dark10
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 102
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 深色10
+  example: []
+  syntax:
+    content: public static ComponentResourceKey Dark10 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Dark10 As ComponentResourceKey
+  overload: H.Themes.ColorKeys.Dark10*
+- uid: H.Themes.ColorKeys.Dark9_5
+  commentId: P:H.Themes.ColorKeys.Dark9_5
+  id: Dark9_5
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: Dark9_5
+  nameWithType: ColorKeys.Dark9_5
+  fullName: H.Themes.ColorKeys.Dark9_5
+  type: Property
+  source:
+    id: Dark9_5
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 107
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 深色9.5
+  example: []
+  syntax:
+    content: public static ComponentResourceKey Dark9_5 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Dark9_5 As ComponentResourceKey
+  overload: H.Themes.ColorKeys.Dark9_5*
+- uid: H.Themes.ColorKeys.Dark9
+  commentId: P:H.Themes.ColorKeys.Dark9
+  id: Dark9
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: Dark9
+  nameWithType: ColorKeys.Dark9
+  fullName: H.Themes.ColorKeys.Dark9
+  type: Property
+  source:
+    id: Dark9
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 112
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 深色9
+  example: []
+  syntax:
+    content: public static ComponentResourceKey Dark9 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Dark9 As ComponentResourceKey
+  overload: H.Themes.ColorKeys.Dark9*
+- uid: H.Themes.ColorKeys.Dark8_5
+  commentId: P:H.Themes.ColorKeys.Dark8_5
+  id: Dark8_5
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: Dark8_5
+  nameWithType: ColorKeys.Dark8_5
+  fullName: H.Themes.ColorKeys.Dark8_5
+  type: Property
+  source:
+    id: Dark8_5
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 117
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 深色8.5
+  example: []
+  syntax:
+    content: public static ComponentResourceKey Dark8_5 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Dark8_5 As ComponentResourceKey
+  overload: H.Themes.ColorKeys.Dark8_5*
+- uid: H.Themes.ColorKeys.Dark8
+  commentId: P:H.Themes.ColorKeys.Dark8
+  id: Dark8
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: Dark8
+  nameWithType: ColorKeys.Dark8
+  fullName: H.Themes.ColorKeys.Dark8
+  type: Property
+  source:
+    id: Dark8
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 122
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 深色8
+  example: []
+  syntax:
+    content: public static ComponentResourceKey Dark8 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Dark8 As ComponentResourceKey
+  overload: H.Themes.ColorKeys.Dark8*
+- uid: H.Themes.ColorKeys.Dark7_5
+  commentId: P:H.Themes.ColorKeys.Dark7_5
+  id: Dark7_5
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: Dark7_5
+  nameWithType: ColorKeys.Dark7_5
+  fullName: H.Themes.ColorKeys.Dark7_5
+  type: Property
+  source:
+    id: Dark7_5
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 127
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 深色7.5
+  example: []
+  syntax:
+    content: public static ComponentResourceKey Dark7_5 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Dark7_5 As ComponentResourceKey
+  overload: H.Themes.ColorKeys.Dark7_5*
+- uid: H.Themes.ColorKeys.Dark7
+  commentId: P:H.Themes.ColorKeys.Dark7
+  id: Dark7
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: Dark7
+  nameWithType: ColorKeys.Dark7
+  fullName: H.Themes.ColorKeys.Dark7
+  type: Property
+  source:
+    id: Dark7
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 132
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 深色7
+  example: []
+  syntax:
+    content: public static ComponentResourceKey Dark7 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Dark7 As ComponentResourceKey
+  overload: H.Themes.ColorKeys.Dark7*
+- uid: H.Themes.ColorKeys.Dark6_5
+  commentId: P:H.Themes.ColorKeys.Dark6_5
+  id: Dark6_5
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: Dark6_5
+  nameWithType: ColorKeys.Dark6_5
+  fullName: H.Themes.ColorKeys.Dark6_5
+  type: Property
+  source:
+    id: Dark6_5
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 137
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 深色6.5
+  example: []
+  syntax:
+    content: public static ComponentResourceKey Dark6_5 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Dark6_5 As ComponentResourceKey
+  overload: H.Themes.ColorKeys.Dark6_5*
+- uid: H.Themes.ColorKeys.Dark6
+  commentId: P:H.Themes.ColorKeys.Dark6
+  id: Dark6
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: Dark6
+  nameWithType: ColorKeys.Dark6
+  fullName: H.Themes.ColorKeys.Dark6
+  type: Property
+  source:
+    id: Dark6
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 142
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 深色6
+  example: []
+  syntax:
+    content: public static ComponentResourceKey Dark6 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Dark6 As ComponentResourceKey
+  overload: H.Themes.ColorKeys.Dark6*
+- uid: H.Themes.ColorKeys.Dark5_5
+  commentId: P:H.Themes.ColorKeys.Dark5_5
+  id: Dark5_5
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: Dark5_5
+  nameWithType: ColorKeys.Dark5_5
+  fullName: H.Themes.ColorKeys.Dark5_5
+  type: Property
+  source:
+    id: Dark5_5
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 147
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 深色5.5
+  example: []
+  syntax:
+    content: public static ComponentResourceKey Dark5_5 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Dark5_5 As ComponentResourceKey
+  overload: H.Themes.ColorKeys.Dark5_5*
+- uid: H.Themes.ColorKeys.Dark5
+  commentId: P:H.Themes.ColorKeys.Dark5
+  id: Dark5
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: Dark5
+  nameWithType: ColorKeys.Dark5
+  fullName: H.Themes.ColorKeys.Dark5
+  type: Property
+  source:
+    id: Dark5
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 152
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 深色5
+  example: []
+  syntax:
+    content: public static ComponentResourceKey Dark5 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Dark5 As ComponentResourceKey
+  overload: H.Themes.ColorKeys.Dark5*
+- uid: H.Themes.ColorKeys.Dark4_5
+  commentId: P:H.Themes.ColorKeys.Dark4_5
+  id: Dark4_5
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: Dark4_5
+  nameWithType: ColorKeys.Dark4_5
+  fullName: H.Themes.ColorKeys.Dark4_5
+  type: Property
+  source:
+    id: Dark4_5
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 157
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 深色4.5
+  example: []
+  syntax:
+    content: public static ComponentResourceKey Dark4_5 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Dark4_5 As ComponentResourceKey
+  overload: H.Themes.ColorKeys.Dark4_5*
+- uid: H.Themes.ColorKeys.Dark4
+  commentId: P:H.Themes.ColorKeys.Dark4
+  id: Dark4
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: Dark4
+  nameWithType: ColorKeys.Dark4
+  fullName: H.Themes.ColorKeys.Dark4
+  type: Property
+  source:
+    id: Dark4
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 162
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 深色4
+  example: []
+  syntax:
+    content: public static ComponentResourceKey Dark4 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Dark4 As ComponentResourceKey
+  overload: H.Themes.ColorKeys.Dark4*
+- uid: H.Themes.ColorKeys.Dark3_5
+  commentId: P:H.Themes.ColorKeys.Dark3_5
+  id: Dark3_5
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: Dark3_5
+  nameWithType: ColorKeys.Dark3_5
+  fullName: H.Themes.ColorKeys.Dark3_5
+  type: Property
+  source:
+    id: Dark3_5
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 167
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 深色3.5
+  example: []
+  syntax:
+    content: public static ComponentResourceKey Dark3_5 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Dark3_5 As ComponentResourceKey
+  overload: H.Themes.ColorKeys.Dark3_5*
+- uid: H.Themes.ColorKeys.Dark3
+  commentId: P:H.Themes.ColorKeys.Dark3
+  id: Dark3
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: Dark3
+  nameWithType: ColorKeys.Dark3
+  fullName: H.Themes.ColorKeys.Dark3
+  type: Property
+  source:
+    id: Dark3
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 172
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 深色3
+  example: []
+  syntax:
+    content: public static ComponentResourceKey Dark3 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Dark3 As ComponentResourceKey
+  overload: H.Themes.ColorKeys.Dark3*
+- uid: H.Themes.ColorKeys.Dark2_5
+  commentId: P:H.Themes.ColorKeys.Dark2_5
+  id: Dark2_5
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: Dark2_5
+  nameWithType: ColorKeys.Dark2_5
+  fullName: H.Themes.ColorKeys.Dark2_5
+  type: Property
+  source:
+    id: Dark2_5
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 177
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 深色2.5
+  example: []
+  syntax:
+    content: public static ComponentResourceKey Dark2_5 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Dark2_5 As ComponentResourceKey
+  overload: H.Themes.ColorKeys.Dark2_5*
+- uid: H.Themes.ColorKeys.Dark2
+  commentId: P:H.Themes.ColorKeys.Dark2
+  id: Dark2
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: Dark2
+  nameWithType: ColorKeys.Dark2
+  fullName: H.Themes.ColorKeys.Dark2
+  type: Property
+  source:
+    id: Dark2
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 182
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 深色2
+  example: []
+  syntax:
+    content: public static ComponentResourceKey Dark2 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Dark2 As ComponentResourceKey
+  overload: H.Themes.ColorKeys.Dark2*
+- uid: H.Themes.ColorKeys.Dark1_5
+  commentId: P:H.Themes.ColorKeys.Dark1_5
+  id: Dark1_5
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: Dark1_5
+  nameWithType: ColorKeys.Dark1_5
+  fullName: H.Themes.ColorKeys.Dark1_5
+  type: Property
+  source:
+    id: Dark1_5
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 187
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 深色1.5
+  example: []
+  syntax:
+    content: public static ComponentResourceKey Dark1_5 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Dark1_5 As ComponentResourceKey
+  overload: H.Themes.ColorKeys.Dark1_5*
+- uid: H.Themes.ColorKeys.Dark1
+  commentId: P:H.Themes.ColorKeys.Dark1
+  id: Dark1
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: Dark1
+  nameWithType: ColorKeys.Dark1
+  fullName: H.Themes.ColorKeys.Dark1
+  type: Property
+  source:
+    id: Dark1
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 192
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 深色1
+  example: []
+  syntax:
+    content: public static ComponentResourceKey Dark1 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Dark1 As ComponentResourceKey
+  overload: H.Themes.ColorKeys.Dark1*
+- uid: H.Themes.ColorKeys.Dark0_9
+  commentId: P:H.Themes.ColorKeys.Dark0_9
+  id: Dark0_9
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: Dark0_9
+  nameWithType: ColorKeys.Dark0_9
+  fullName: H.Themes.ColorKeys.Dark0_9
+  type: Property
+  source:
+    id: Dark0_9
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 197
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 深色0.9
+  example: []
+  syntax:
+    content: public static ComponentResourceKey Dark0_9 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Dark0_9 As ComponentResourceKey
+  overload: H.Themes.ColorKeys.Dark0_9*
+- uid: H.Themes.ColorKeys.Dark0_8
+  commentId: P:H.Themes.ColorKeys.Dark0_8
+  id: Dark0_8
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: Dark0_8
+  nameWithType: ColorKeys.Dark0_8
+  fullName: H.Themes.ColorKeys.Dark0_8
+  type: Property
+  source:
+    id: Dark0_8
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 202
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 深色0.8
+  example: []
+  syntax:
+    content: public static ComponentResourceKey Dark0_8 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Dark0_8 As ComponentResourceKey
+  overload: H.Themes.ColorKeys.Dark0_8*
+- uid: H.Themes.ColorKeys.Dark0_7
+  commentId: P:H.Themes.ColorKeys.Dark0_7
+  id: Dark0_7
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: Dark0_7
+  nameWithType: ColorKeys.Dark0_7
+  fullName: H.Themes.ColorKeys.Dark0_7
+  type: Property
+  source:
+    id: Dark0_7
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 207
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 深色0.7
+  example: []
+  syntax:
+    content: public static ComponentResourceKey Dark0_7 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Dark0_7 As ComponentResourceKey
+  overload: H.Themes.ColorKeys.Dark0_7*
+- uid: H.Themes.ColorKeys.Dark0_6
+  commentId: P:H.Themes.ColorKeys.Dark0_6
+  id: Dark0_6
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: Dark0_6
+  nameWithType: ColorKeys.Dark0_6
+  fullName: H.Themes.ColorKeys.Dark0_6
+  type: Property
+  source:
+    id: Dark0_6
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 212
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 深色0.6
+  example: []
+  syntax:
+    content: public static ComponentResourceKey Dark0_6 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Dark0_6 As ComponentResourceKey
+  overload: H.Themes.ColorKeys.Dark0_6*
+- uid: H.Themes.ColorKeys.Dark0_5
+  commentId: P:H.Themes.ColorKeys.Dark0_5
+  id: Dark0_5
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: Dark0_5
+  nameWithType: ColorKeys.Dark0_5
+  fullName: H.Themes.ColorKeys.Dark0_5
+  type: Property
+  source:
+    id: Dark0_5
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 217
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 深色0.5
+  example: []
+  syntax:
+    content: public static ComponentResourceKey Dark0_5 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Dark0_5 As ComponentResourceKey
+  overload: H.Themes.ColorKeys.Dark0_5*
+- uid: H.Themes.ColorKeys.Dark0_4
+  commentId: P:H.Themes.ColorKeys.Dark0_4
+  id: Dark0_4
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: Dark0_4
+  nameWithType: ColorKeys.Dark0_4
+  fullName: H.Themes.ColorKeys.Dark0_4
+  type: Property
+  source:
+    id: Dark0_4
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 222
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 深色0.4
+  example: []
+  syntax:
+    content: public static ComponentResourceKey Dark0_4 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Dark0_4 As ComponentResourceKey
+  overload: H.Themes.ColorKeys.Dark0_4*
+- uid: H.Themes.ColorKeys.Dark0_3
+  commentId: P:H.Themes.ColorKeys.Dark0_3
+  id: Dark0_3
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: Dark0_3
+  nameWithType: ColorKeys.Dark0_3
+  fullName: H.Themes.ColorKeys.Dark0_3
+  type: Property
+  source:
+    id: Dark0_3
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 227
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 深色0.3
+  example: []
+  syntax:
+    content: public static ComponentResourceKey Dark0_3 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Dark0_3 As ComponentResourceKey
+  overload: H.Themes.ColorKeys.Dark0_3*
+- uid: H.Themes.ColorKeys.Dark0_2
+  commentId: P:H.Themes.ColorKeys.Dark0_2
+  id: Dark0_2
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: Dark0_2
+  nameWithType: ColorKeys.Dark0_2
+  fullName: H.Themes.ColorKeys.Dark0_2
+  type: Property
+  source:
+    id: Dark0_2
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 232
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 深色0.2
+  example: []
+  syntax:
+    content: public static ComponentResourceKey Dark0_2 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Dark0_2 As ComponentResourceKey
+  overload: H.Themes.ColorKeys.Dark0_2*
+- uid: H.Themes.ColorKeys.Dark0_1
+  commentId: P:H.Themes.ColorKeys.Dark0_1
+  id: Dark0_1
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: Dark0_1
+  nameWithType: ColorKeys.Dark0_1
+  fullName: H.Themes.ColorKeys.Dark0_1
+  type: Property
+  source:
+    id: Dark0_1
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 237
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 深色0.1
+  example: []
+  syntax:
+    content: public static ComponentResourceKey Dark0_1 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Dark0_1 As ComponentResourceKey
+  overload: H.Themes.ColorKeys.Dark0_1*
+- uid: H.Themes.ColorKeys.Dark0
+  commentId: P:H.Themes.ColorKeys.Dark0
+  id: Dark0
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: Dark0
+  nameWithType: ColorKeys.Dark0
+  fullName: H.Themes.ColorKeys.Dark0
+  type: Property
+  source:
+    id: Dark0
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 242
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 深色0
+  example: []
+  syntax:
+    content: public static ComponentResourceKey Dark0 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Dark0 As ComponentResourceKey
+  overload: H.Themes.ColorKeys.Dark0*
+- uid: H.Themes.ColorKeys.LightGray
+  commentId: P:H.Themes.ColorKeys.LightGray
+  id: LightGray
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: LightGray
+  nameWithType: ColorKeys.LightGray
+  fullName: H.Themes.ColorKeys.LightGray
+  type: Property
+  source:
+    id: LightGray
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 249
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 浅灰色
+  example: []
+  syntax:
+    content: public static ComponentResourceKey LightGray { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property LightGray As ComponentResourceKey
+  overload: H.Themes.ColorKeys.LightGray*
+- uid: H.Themes.ColorKeys.Gray
+  commentId: P:H.Themes.ColorKeys.Gray
+  id: Gray
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: Gray
+  nameWithType: ColorKeys.Gray
+  fullName: H.Themes.ColorKeys.Gray
+  type: Property
+  source:
+    id: Gray
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 254
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 灰色
+  example: []
+  syntax:
+    content: public static ComponentResourceKey Gray { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Gray As ComponentResourceKey
+  overload: H.Themes.ColorKeys.Gray*
+- uid: H.Themes.ColorKeys.Black
+  commentId: P:H.Themes.ColorKeys.Black
+  id: Black
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: Black
+  nameWithType: ColorKeys.Black
+  fullName: H.Themes.ColorKeys.Black
+  type: Property
+  source:
+    id: Black
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 259
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 黑色
+  example: []
+  syntax:
+    content: public static ComponentResourceKey Black { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Black As ComponentResourceKey
+  overload: H.Themes.ColorKeys.Black*
+- uid: H.Themes.ColorKeys.Orange
+  commentId: P:H.Themes.ColorKeys.Orange
+  id: Orange
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: Orange
+  nameWithType: ColorKeys.Orange
+  fullName: H.Themes.ColorKeys.Orange
+  type: Property
+  source:
+    id: Orange
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 264
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 橙色
+  example: []
+  syntax:
+    content: public static ComponentResourceKey Orange { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Orange As ComponentResourceKey
+  overload: H.Themes.ColorKeys.Orange*
+- uid: H.Themes.ColorKeys.Red
+  commentId: P:H.Themes.ColorKeys.Red
+  id: Red
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: Red
+  nameWithType: ColorKeys.Red
+  fullName: H.Themes.ColorKeys.Red
+  type: Property
+  source:
+    id: Red
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 269
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 红色
+  example: []
+  syntax:
+    content: public static ComponentResourceKey Red { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Red As ComponentResourceKey
+  overload: H.Themes.ColorKeys.Red*
+- uid: H.Themes.ColorKeys.Green
+  commentId: P:H.Themes.ColorKeys.Green
+  id: Green
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: Green
+  nameWithType: ColorKeys.Green
+  fullName: H.Themes.ColorKeys.Green
+  type: Property
+  source:
+    id: Green
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 274
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 绿色
+  example: []
+  syntax:
+    content: public static ComponentResourceKey Green { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Green As ComponentResourceKey
+  overload: H.Themes.ColorKeys.Green*
+- uid: H.Themes.ColorKeys.Yellow
+  commentId: P:H.Themes.ColorKeys.Yellow
+  id: Yellow
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: Yellow
+  nameWithType: ColorKeys.Yellow
+  fullName: H.Themes.ColorKeys.Yellow
+  type: Property
+  source:
+    id: Yellow
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 279
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 黄色
+  example: []
+  syntax:
+    content: public static ComponentResourceKey Yellow { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Yellow As ComponentResourceKey
+  overload: H.Themes.ColorKeys.Yellow*
+- uid: H.Themes.ColorKeys.Blue
+  commentId: P:H.Themes.ColorKeys.Blue
+  id: Blue
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: Blue
+  nameWithType: ColorKeys.Blue
+  fullName: H.Themes.ColorKeys.Blue
+  type: Property
+  source:
+    id: Blue
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 284
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 蓝色
+  example: []
+  syntax:
+    content: public static ComponentResourceKey Blue { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Blue As ComponentResourceKey
+  overload: H.Themes.ColorKeys.Blue*
+- uid: H.Themes.ColorKeys.Purple
+  commentId: P:H.Themes.ColorKeys.Purple
+  id: Purple
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: Purple
+  nameWithType: ColorKeys.Purple
+  fullName: H.Themes.ColorKeys.Purple
+  type: Property
+  source:
+    id: Purple
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 289
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 紫色
+  example: []
+  syntax:
+    content: public static ComponentResourceKey Purple { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Purple As ComponentResourceKey
+  overload: H.Themes.ColorKeys.Purple*
+- uid: H.Themes.ColorKeys.Brown
+  commentId: P:H.Themes.ColorKeys.Brown
+  id: Brown
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: Brown
+  nameWithType: ColorKeys.Brown
+  fullName: H.Themes.ColorKeys.Brown
+  type: Property
+  source:
+    id: Brown
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 294
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 棕色
+  example: []
+  syntax:
+    content: public static ComponentResourceKey Brown { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Brown As ComponentResourceKey
+  overload: H.Themes.ColorKeys.Brown*
+- uid: H.Themes.ColorKeys.LightBlue
+  commentId: P:H.Themes.ColorKeys.LightBlue
+  id: LightBlue
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: LightBlue
+  nameWithType: ColorKeys.LightBlue
+  fullName: H.Themes.ColorKeys.LightBlue
+  type: Property
+  source:
+    id: LightBlue
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 299
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 浅蓝色
+  example: []
+  syntax:
+    content: public static ComponentResourceKey LightBlue { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property LightBlue As ComponentResourceKey
+  overload: H.Themes.ColorKeys.LightBlue*
+- uid: H.Themes.ColorKeys.Pink
+  commentId: P:H.Themes.ColorKeys.Pink
+  id: Pink
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: Pink
+  nameWithType: ColorKeys.Pink
+  fullName: H.Themes.ColorKeys.Pink
+  type: Property
+  source:
+    id: Pink
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 304
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 粉色
+  example: []
+  syntax:
+    content: public static ComponentResourceKey Pink { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Pink As ComponentResourceKey
+  overload: H.Themes.ColorKeys.Pink*
+- uid: H.Themes.ColorKeys.DialogCover
+  commentId: P:H.Themes.ColorKeys.DialogCover
+  id: DialogCover
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: DialogCover
+  nameWithType: ColorKeys.DialogCover
+  fullName: H.Themes.ColorKeys.DialogCover
+  type: Property
+  source:
+    id: DialogCover
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 311
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 对话框覆盖色
+  example: []
+  syntax:
+    content: public static ComponentResourceKey DialogCover { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property DialogCover As ComponentResourceKey
+  overload: H.Themes.ColorKeys.DialogCover*
+- uid: H.Themes.ColorKeys.Tranparent
+  commentId: P:H.Themes.ColorKeys.Tranparent
+  id: Tranparent
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: Tranparent
+  nameWithType: ColorKeys.Tranparent
+  fullName: H.Themes.ColorKeys.Tranparent
+  type: Property
+  source:
+    id: Tranparent
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 317
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  summary: 透明色
+  example: []
+  syntax:
+    content: public static ComponentResourceKey Tranparent { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Tranparent As ComponentResourceKey
+  overload: H.Themes.ColorKeys.Tranparent*
+- uid: H.Themes.ColorKeys.MenuBackground
+  commentId: P:H.Themes.ColorKeys.MenuBackground
+  id: MenuBackground
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: MenuBackground
+  nameWithType: ColorKeys.MenuBackground
+  fullName: H.Themes.ColorKeys.MenuBackground
+  type: Property
+  source:
+    id: MenuBackground
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 320
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey MenuBackground { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property MenuBackground As ComponentResourceKey
+  overload: H.Themes.ColorKeys.MenuBackground*
+- uid: H.Themes.ColorKeys.MenuForeground
+  commentId: P:H.Themes.ColorKeys.MenuForeground
+  id: MenuForeground
+  parent: H.Themes.ColorKeys
+  langs:
+  - csharp
+  - vb
+  name: MenuForeground
+  nameWithType: ColorKeys.MenuForeground
+  fullName: H.Themes.ColorKeys.MenuForeground
+  type: Property
+  source:
+    id: MenuForeground
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\ColorKeys.xaml.cs
+    startLine: 321
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey MenuForeground { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property MenuForeground As ComponentResourceKey
+  overload: H.Themes.ColorKeys.MenuForeground*
+references:
+- uid: H.Themes
+  commentId: N:H.Themes
+  href: H.html
+  name: H.Themes
+  nameWithType: H.Themes
+  fullName: H.Themes
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Themes
+    name: Themes
+    href: H.Themes.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Themes
+    name: Themes
+    href: H.Themes.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: H.Themes.ColorKeys.CaptionBackground*
+  commentId: Overload:H.Themes.ColorKeys.CaptionBackground
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_CaptionBackground
+  name: CaptionBackground
+  nameWithType: ColorKeys.CaptionBackground
+  fullName: H.Themes.ColorKeys.CaptionBackground
+- uid: System.Windows.ComponentResourceKey
+  commentId: T:System.Windows.ComponentResourceKey
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.componentresourcekey
+  name: ComponentResourceKey
+  nameWithType: ComponentResourceKey
+  fullName: System.Windows.ComponentResourceKey
+- uid: System.Windows
+  commentId: N:System.Windows
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows
+  nameWithType: System.Windows
+  fullName: System.Windows
+  spec.csharp:
+  - uid: System
+    name: System
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  spec.vb:
+  - uid: System
+    name: System
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+- uid: H.Themes.ColorKeys.Background*
+  commentId: Overload:H.Themes.ColorKeys.Background
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_Background
+  name: Background
+  nameWithType: ColorKeys.Background
+  fullName: H.Themes.ColorKeys.Background
+- uid: H.Themes.ColorKeys.AlternatingRowBackground*
+  commentId: Overload:H.Themes.ColorKeys.AlternatingRowBackground
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_AlternatingRowBackground
+  name: AlternatingRowBackground
+  nameWithType: ColorKeys.AlternatingRowBackground
+  fullName: H.Themes.ColorKeys.AlternatingRowBackground
+- uid: H.Themes.ColorKeys.CaptionForeground*
+  commentId: Overload:H.Themes.ColorKeys.CaptionForeground
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_CaptionForeground
+  name: CaptionForeground
+  nameWithType: ColorKeys.CaptionForeground
+  fullName: H.Themes.ColorKeys.CaptionForeground
+- uid: H.Themes.ColorKeys.Foreground*
+  commentId: Overload:H.Themes.ColorKeys.Foreground
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_Foreground
+  name: Foreground
+  nameWithType: ColorKeys.Foreground
+  fullName: H.Themes.ColorKeys.Foreground
+- uid: H.Themes.ColorKeys.ForegroundTitle*
+  commentId: Overload:H.Themes.ColorKeys.ForegroundTitle
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_ForegroundTitle
+  name: ForegroundTitle
+  nameWithType: ColorKeys.ForegroundTitle
+  fullName: H.Themes.ColorKeys.ForegroundTitle
+- uid: H.Themes.ColorKeys.ForegroundSelect*
+  commentId: Overload:H.Themes.ColorKeys.ForegroundSelect
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_ForegroundSelect
+  name: ForegroundSelect
+  nameWithType: ColorKeys.ForegroundSelect
+  fullName: H.Themes.ColorKeys.ForegroundSelect
+- uid: H.Themes.ColorKeys.MouseOver*
+  commentId: Overload:H.Themes.ColorKeys.MouseOver
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_MouseOver
+  name: MouseOver
+  nameWithType: ColorKeys.MouseOver
+  fullName: H.Themes.ColorKeys.MouseOver
+- uid: H.Themes.ColorKeys.Selected*
+  commentId: Overload:H.Themes.ColorKeys.Selected
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_Selected
+  name: Selected
+  nameWithType: ColorKeys.Selected
+  fullName: H.Themes.ColorKeys.Selected
+- uid: H.Themes.ColorKeys.ForegroundAssist*
+  commentId: Overload:H.Themes.ColorKeys.ForegroundAssist
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_ForegroundAssist
+  name: ForegroundAssist
+  nameWithType: ColorKeys.ForegroundAssist
+  fullName: H.Themes.ColorKeys.ForegroundAssist
+- uid: H.Themes.ColorKeys.ForegroundLink*
+  commentId: Overload:H.Themes.ColorKeys.ForegroundLink
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_ForegroundLink
+  name: ForegroundLink
+  nameWithType: ColorKeys.ForegroundLink
+  fullName: H.Themes.ColorKeys.ForegroundLink
+- uid: H.Themes.ColorKeys.BorderBrush*
+  commentId: Overload:H.Themes.ColorKeys.BorderBrush
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_BorderBrush
+  name: BorderBrush
+  nameWithType: ColorKeys.BorderBrush
+  fullName: H.Themes.ColorKeys.BorderBrush
+- uid: H.Themes.ColorKeys.BorderBrushTitle*
+  commentId: Overload:H.Themes.ColorKeys.BorderBrushTitle
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_BorderBrushTitle
+  name: BorderBrushTitle
+  nameWithType: ColorKeys.BorderBrushTitle
+  fullName: H.Themes.ColorKeys.BorderBrushTitle
+- uid: H.Themes.ColorKeys.BorderBrushAssist*
+  commentId: Overload:H.Themes.ColorKeys.BorderBrushAssist
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_BorderBrushAssist
+  name: BorderBrushAssist
+  nameWithType: ColorKeys.BorderBrushAssist
+  fullName: H.Themes.ColorKeys.BorderBrushAssist
+- uid: H.Themes.ColorKeys.Accent*
+  commentId: Overload:H.Themes.ColorKeys.Accent
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_Accent
+  name: Accent
+  nameWithType: ColorKeys.Accent
+  fullName: H.Themes.ColorKeys.Accent
+- uid: H.Themes.ColorKeys.Dark10*
+  commentId: Overload:H.Themes.ColorKeys.Dark10
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_Dark10
+  name: Dark10
+  nameWithType: ColorKeys.Dark10
+  fullName: H.Themes.ColorKeys.Dark10
+- uid: H.Themes.ColorKeys.Dark9_5*
+  commentId: Overload:H.Themes.ColorKeys.Dark9_5
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_Dark9_5
+  name: Dark9_5
+  nameWithType: ColorKeys.Dark9_5
+  fullName: H.Themes.ColorKeys.Dark9_5
+- uid: H.Themes.ColorKeys.Dark9*
+  commentId: Overload:H.Themes.ColorKeys.Dark9
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_Dark9
+  name: Dark9
+  nameWithType: ColorKeys.Dark9
+  fullName: H.Themes.ColorKeys.Dark9
+- uid: H.Themes.ColorKeys.Dark8_5*
+  commentId: Overload:H.Themes.ColorKeys.Dark8_5
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_Dark8_5
+  name: Dark8_5
+  nameWithType: ColorKeys.Dark8_5
+  fullName: H.Themes.ColorKeys.Dark8_5
+- uid: H.Themes.ColorKeys.Dark8*
+  commentId: Overload:H.Themes.ColorKeys.Dark8
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_Dark8
+  name: Dark8
+  nameWithType: ColorKeys.Dark8
+  fullName: H.Themes.ColorKeys.Dark8
+- uid: H.Themes.ColorKeys.Dark7_5*
+  commentId: Overload:H.Themes.ColorKeys.Dark7_5
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_Dark7_5
+  name: Dark7_5
+  nameWithType: ColorKeys.Dark7_5
+  fullName: H.Themes.ColorKeys.Dark7_5
+- uid: H.Themes.ColorKeys.Dark7*
+  commentId: Overload:H.Themes.ColorKeys.Dark7
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_Dark7
+  name: Dark7
+  nameWithType: ColorKeys.Dark7
+  fullName: H.Themes.ColorKeys.Dark7
+- uid: H.Themes.ColorKeys.Dark6_5*
+  commentId: Overload:H.Themes.ColorKeys.Dark6_5
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_Dark6_5
+  name: Dark6_5
+  nameWithType: ColorKeys.Dark6_5
+  fullName: H.Themes.ColorKeys.Dark6_5
+- uid: H.Themes.ColorKeys.Dark6*
+  commentId: Overload:H.Themes.ColorKeys.Dark6
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_Dark6
+  name: Dark6
+  nameWithType: ColorKeys.Dark6
+  fullName: H.Themes.ColorKeys.Dark6
+- uid: H.Themes.ColorKeys.Dark5_5*
+  commentId: Overload:H.Themes.ColorKeys.Dark5_5
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_Dark5_5
+  name: Dark5_5
+  nameWithType: ColorKeys.Dark5_5
+  fullName: H.Themes.ColorKeys.Dark5_5
+- uid: H.Themes.ColorKeys.Dark5*
+  commentId: Overload:H.Themes.ColorKeys.Dark5
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_Dark5
+  name: Dark5
+  nameWithType: ColorKeys.Dark5
+  fullName: H.Themes.ColorKeys.Dark5
+- uid: H.Themes.ColorKeys.Dark4_5*
+  commentId: Overload:H.Themes.ColorKeys.Dark4_5
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_Dark4_5
+  name: Dark4_5
+  nameWithType: ColorKeys.Dark4_5
+  fullName: H.Themes.ColorKeys.Dark4_5
+- uid: H.Themes.ColorKeys.Dark4*
+  commentId: Overload:H.Themes.ColorKeys.Dark4
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_Dark4
+  name: Dark4
+  nameWithType: ColorKeys.Dark4
+  fullName: H.Themes.ColorKeys.Dark4
+- uid: H.Themes.ColorKeys.Dark3_5*
+  commentId: Overload:H.Themes.ColorKeys.Dark3_5
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_Dark3_5
+  name: Dark3_5
+  nameWithType: ColorKeys.Dark3_5
+  fullName: H.Themes.ColorKeys.Dark3_5
+- uid: H.Themes.ColorKeys.Dark3*
+  commentId: Overload:H.Themes.ColorKeys.Dark3
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_Dark3
+  name: Dark3
+  nameWithType: ColorKeys.Dark3
+  fullName: H.Themes.ColorKeys.Dark3
+- uid: H.Themes.ColorKeys.Dark2_5*
+  commentId: Overload:H.Themes.ColorKeys.Dark2_5
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_Dark2_5
+  name: Dark2_5
+  nameWithType: ColorKeys.Dark2_5
+  fullName: H.Themes.ColorKeys.Dark2_5
+- uid: H.Themes.ColorKeys.Dark2*
+  commentId: Overload:H.Themes.ColorKeys.Dark2
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_Dark2
+  name: Dark2
+  nameWithType: ColorKeys.Dark2
+  fullName: H.Themes.ColorKeys.Dark2
+- uid: H.Themes.ColorKeys.Dark1_5*
+  commentId: Overload:H.Themes.ColorKeys.Dark1_5
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_Dark1_5
+  name: Dark1_5
+  nameWithType: ColorKeys.Dark1_5
+  fullName: H.Themes.ColorKeys.Dark1_5
+- uid: H.Themes.ColorKeys.Dark1*
+  commentId: Overload:H.Themes.ColorKeys.Dark1
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_Dark1
+  name: Dark1
+  nameWithType: ColorKeys.Dark1
+  fullName: H.Themes.ColorKeys.Dark1
+- uid: H.Themes.ColorKeys.Dark0_9*
+  commentId: Overload:H.Themes.ColorKeys.Dark0_9
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_Dark0_9
+  name: Dark0_9
+  nameWithType: ColorKeys.Dark0_9
+  fullName: H.Themes.ColorKeys.Dark0_9
+- uid: H.Themes.ColorKeys.Dark0_8*
+  commentId: Overload:H.Themes.ColorKeys.Dark0_8
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_Dark0_8
+  name: Dark0_8
+  nameWithType: ColorKeys.Dark0_8
+  fullName: H.Themes.ColorKeys.Dark0_8
+- uid: H.Themes.ColorKeys.Dark0_7*
+  commentId: Overload:H.Themes.ColorKeys.Dark0_7
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_Dark0_7
+  name: Dark0_7
+  nameWithType: ColorKeys.Dark0_7
+  fullName: H.Themes.ColorKeys.Dark0_7
+- uid: H.Themes.ColorKeys.Dark0_6*
+  commentId: Overload:H.Themes.ColorKeys.Dark0_6
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_Dark0_6
+  name: Dark0_6
+  nameWithType: ColorKeys.Dark0_6
+  fullName: H.Themes.ColorKeys.Dark0_6
+- uid: H.Themes.ColorKeys.Dark0_5*
+  commentId: Overload:H.Themes.ColorKeys.Dark0_5
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_Dark0_5
+  name: Dark0_5
+  nameWithType: ColorKeys.Dark0_5
+  fullName: H.Themes.ColorKeys.Dark0_5
+- uid: H.Themes.ColorKeys.Dark0_4*
+  commentId: Overload:H.Themes.ColorKeys.Dark0_4
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_Dark0_4
+  name: Dark0_4
+  nameWithType: ColorKeys.Dark0_4
+  fullName: H.Themes.ColorKeys.Dark0_4
+- uid: H.Themes.ColorKeys.Dark0_3*
+  commentId: Overload:H.Themes.ColorKeys.Dark0_3
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_Dark0_3
+  name: Dark0_3
+  nameWithType: ColorKeys.Dark0_3
+  fullName: H.Themes.ColorKeys.Dark0_3
+- uid: H.Themes.ColorKeys.Dark0_2*
+  commentId: Overload:H.Themes.ColorKeys.Dark0_2
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_Dark0_2
+  name: Dark0_2
+  nameWithType: ColorKeys.Dark0_2
+  fullName: H.Themes.ColorKeys.Dark0_2
+- uid: H.Themes.ColorKeys.Dark0_1*
+  commentId: Overload:H.Themes.ColorKeys.Dark0_1
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_Dark0_1
+  name: Dark0_1
+  nameWithType: ColorKeys.Dark0_1
+  fullName: H.Themes.ColorKeys.Dark0_1
+- uid: H.Themes.ColorKeys.Dark0*
+  commentId: Overload:H.Themes.ColorKeys.Dark0
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_Dark0
+  name: Dark0
+  nameWithType: ColorKeys.Dark0
+  fullName: H.Themes.ColorKeys.Dark0
+- uid: H.Themes.ColorKeys.LightGray*
+  commentId: Overload:H.Themes.ColorKeys.LightGray
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_LightGray
+  name: LightGray
+  nameWithType: ColorKeys.LightGray
+  fullName: H.Themes.ColorKeys.LightGray
+- uid: H.Themes.ColorKeys.Gray*
+  commentId: Overload:H.Themes.ColorKeys.Gray
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_Gray
+  name: Gray
+  nameWithType: ColorKeys.Gray
+  fullName: H.Themes.ColorKeys.Gray
+- uid: H.Themes.ColorKeys.Black*
+  commentId: Overload:H.Themes.ColorKeys.Black
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_Black
+  name: Black
+  nameWithType: ColorKeys.Black
+  fullName: H.Themes.ColorKeys.Black
+- uid: H.Themes.ColorKeys.Orange*
+  commentId: Overload:H.Themes.ColorKeys.Orange
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_Orange
+  name: Orange
+  nameWithType: ColorKeys.Orange
+  fullName: H.Themes.ColorKeys.Orange
+- uid: H.Themes.ColorKeys.Red*
+  commentId: Overload:H.Themes.ColorKeys.Red
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_Red
+  name: Red
+  nameWithType: ColorKeys.Red
+  fullName: H.Themes.ColorKeys.Red
+- uid: H.Themes.ColorKeys.Green*
+  commentId: Overload:H.Themes.ColorKeys.Green
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_Green
+  name: Green
+  nameWithType: ColorKeys.Green
+  fullName: H.Themes.ColorKeys.Green
+- uid: H.Themes.ColorKeys.Yellow*
+  commentId: Overload:H.Themes.ColorKeys.Yellow
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_Yellow
+  name: Yellow
+  nameWithType: ColorKeys.Yellow
+  fullName: H.Themes.ColorKeys.Yellow
+- uid: H.Themes.ColorKeys.Blue*
+  commentId: Overload:H.Themes.ColorKeys.Blue
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_Blue
+  name: Blue
+  nameWithType: ColorKeys.Blue
+  fullName: H.Themes.ColorKeys.Blue
+- uid: H.Themes.ColorKeys.Purple*
+  commentId: Overload:H.Themes.ColorKeys.Purple
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_Purple
+  name: Purple
+  nameWithType: ColorKeys.Purple
+  fullName: H.Themes.ColorKeys.Purple
+- uid: H.Themes.ColorKeys.Brown*
+  commentId: Overload:H.Themes.ColorKeys.Brown
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_Brown
+  name: Brown
+  nameWithType: ColorKeys.Brown
+  fullName: H.Themes.ColorKeys.Brown
+- uid: H.Themes.ColorKeys.LightBlue*
+  commentId: Overload:H.Themes.ColorKeys.LightBlue
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_LightBlue
+  name: LightBlue
+  nameWithType: ColorKeys.LightBlue
+  fullName: H.Themes.ColorKeys.LightBlue
+- uid: H.Themes.ColorKeys.Pink*
+  commentId: Overload:H.Themes.ColorKeys.Pink
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_Pink
+  name: Pink
+  nameWithType: ColorKeys.Pink
+  fullName: H.Themes.ColorKeys.Pink
+- uid: H.Themes.ColorKeys.DialogCover*
+  commentId: Overload:H.Themes.ColorKeys.DialogCover
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_DialogCover
+  name: DialogCover
+  nameWithType: ColorKeys.DialogCover
+  fullName: H.Themes.ColorKeys.DialogCover
+- uid: H.Themes.ColorKeys.Tranparent*
+  commentId: Overload:H.Themes.ColorKeys.Tranparent
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_Tranparent
+  name: Tranparent
+  nameWithType: ColorKeys.Tranparent
+  fullName: H.Themes.ColorKeys.Tranparent
+- uid: H.Themes.ColorKeys.MenuBackground*
+  commentId: Overload:H.Themes.ColorKeys.MenuBackground
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_MenuBackground
+  name: MenuBackground
+  nameWithType: ColorKeys.MenuBackground
+  fullName: H.Themes.ColorKeys.MenuBackground
+- uid: H.Themes.ColorKeys.MenuForeground*
+  commentId: Overload:H.Themes.ColorKeys.MenuForeground
+  href: H.Themes.ColorKeys.html#H_Themes_ColorKeys_MenuForeground
+  name: MenuForeground
+  nameWithType: ColorKeys.MenuForeground
+  fullName: H.Themes.ColorKeys.MenuForeground

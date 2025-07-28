@@ -1,0 +1,62 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Modules.Help.Website
+  commentId: N:H.Modules.Help.Website
+  id: H.Modules.Help.Website
+  children:
+  - H.Modules.Help.Website.Extention
+  langs:
+  - csharp
+  - vb
+  name: H.Modules.Help.Website
+  nameWithType: H.Modules.Help.Website
+  fullName: H.Modules.Help.Website
+  type: Namespace
+  assemblies:
+  - H.Modules.Help
+references:
+- uid: H.Modules.Help.Website.Extention
+  commentId: T:H.Modules.Help.Website.Extention
+  parent: H.Modules.Help.Website
+  href: H.Modules.Help.Website.Extention.html
+  name: Extention
+  nameWithType: Extention
+  fullName: H.Modules.Help.Website.Extention
+- uid: H.Modules.Help.Website
+  commentId: N:H.Modules.Help.Website
+  href: H.html
+  name: H.Modules.Help.Website
+  nameWithType: H.Modules.Help.Website
+  fullName: H.Modules.Help.Website
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Modules
+    name: Modules
+    href: H.Modules.html
+  - name: .
+  - uid: H.Modules.Help
+    name: Help
+    href: H.Modules.Help.html
+  - name: .
+  - uid: H.Modules.Help.Website
+    name: Website
+    href: H.Modules.Help.Website.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Modules
+    name: Modules
+    href: H.Modules.html
+  - name: .
+  - uid: H.Modules.Help
+    name: Help
+    href: H.Modules.Help.html
+  - name: .
+  - uid: H.Modules.Help.Website
+    name: Website
+    href: H.Modules.Help.Website.html

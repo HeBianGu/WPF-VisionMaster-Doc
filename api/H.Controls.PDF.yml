@@ -1,0 +1,90 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.PDF
+  commentId: N:H.Controls.PDF
+  id: H.Controls.PDF
+  children:
+  - H.Controls.PDF.AllowableCharactersTextBoxBehavior
+  - H.Controls.PDF.BehaviorForStyle`2
+  - H.Controls.PDF.BindSelectedItemBehavior
+  - H.Controls.PDF.IconToImageSourceConverter
+  - H.Controls.PDF.MathConverter
+  - H.Controls.PDF.PDFBox
+  - H.Controls.PDF.PDFBoxCommands
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.PDF
+  nameWithType: H.Controls.PDF
+  fullName: H.Controls.PDF
+  type: Namespace
+  assemblies:
+  - H.Controls.PDF
+references:
+- uid: H.Controls.PDF.AllowableCharactersTextBoxBehavior
+  commentId: T:H.Controls.PDF.AllowableCharactersTextBoxBehavior
+  href: H.Controls.PDF.AllowableCharactersTextBoxBehavior.html
+  name: AllowableCharactersTextBoxBehavior
+  nameWithType: AllowableCharactersTextBoxBehavior
+  fullName: H.Controls.PDF.AllowableCharactersTextBoxBehavior
+- uid: H.Controls.PDF.BehaviorForStyle`2
+  commentId: T:H.Controls.PDF.BehaviorForStyle`2
+  href: H.Controls.PDF.BehaviorForStyle-2.html
+  name: BehaviorForStyle<TTarget, TBehavior>
+  nameWithType: BehaviorForStyle<TTarget, TBehavior>
+  fullName: H.Controls.PDF.BehaviorForStyle<TTarget, TBehavior>
+  nameWithType.vb: BehaviorForStyle(Of TTarget, TBehavior)
+  fullName.vb: H.Controls.PDF.BehaviorForStyle(Of TTarget, TBehavior)
+  name.vb: BehaviorForStyle(Of TTarget, TBehavior)
+  spec.csharp:
+  - uid: H.Controls.PDF.BehaviorForStyle`2
+    name: BehaviorForStyle
+    href: H.Controls.PDF.BehaviorForStyle-2.html
+  - name: <
+  - name: TTarget
+  - name: ','
+  - name: " "
+  - name: TBehavior
+  - name: '>'
+  spec.vb:
+  - uid: H.Controls.PDF.BehaviorForStyle`2
+    name: BehaviorForStyle
+    href: H.Controls.PDF.BehaviorForStyle-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TTarget
+  - name: ','
+  - name: " "
+  - name: TBehavior
+  - name: )
+- uid: H.Controls.PDF.BindSelectedItemBehavior
+  commentId: T:H.Controls.PDF.BindSelectedItemBehavior
+  href: H.Controls.PDF.BindSelectedItemBehavior.html
+  name: BindSelectedItemBehavior
+  nameWithType: BindSelectedItemBehavior
+  fullName: H.Controls.PDF.BindSelectedItemBehavior
+- uid: H.Controls.PDF.IconToImageSourceConverter
+  commentId: T:H.Controls.PDF.IconToImageSourceConverter
+  href: H.Controls.PDF.IconToImageSourceConverter.html
+  name: IconToImageSourceConverter
+  nameWithType: IconToImageSourceConverter
+  fullName: H.Controls.PDF.IconToImageSourceConverter
+- uid: H.Controls.PDF.MathConverter
+  commentId: T:H.Controls.PDF.MathConverter
+  href: H.Controls.PDF.MathConverter.html
+  name: MathConverter
+  nameWithType: MathConverter
+  fullName: H.Controls.PDF.MathConverter
+- uid: H.Controls.PDF.PDFBox
+  commentId: T:H.Controls.PDF.PDFBox
+  href: H.Controls.PDF.PDFBox.html
+  name: PDFBox
+  nameWithType: PDFBox
+  fullName: H.Controls.PDF.PDFBox
+- uid: H.Controls.PDF.PDFBoxCommands
+  commentId: T:H.Controls.PDF.PDFBoxCommands
+  href: H.Controls.PDF.PDFBoxCommands.html
+  name: PDFBoxCommands
+  nameWithType: PDFBoxCommands
+  fullName: H.Controls.PDF.PDFBoxCommands

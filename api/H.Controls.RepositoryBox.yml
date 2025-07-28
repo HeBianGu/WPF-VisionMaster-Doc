@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.RepositoryBox
+  commentId: N:H.Controls.RepositoryBox
+  id: H.Controls.RepositoryBox
+  children:
+  - H.Controls.RepositoryBox.RepositoryBox
+  - H.Controls.RepositoryBox.RepositoryGrid
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.RepositoryBox
+  nameWithType: H.Controls.RepositoryBox
+  fullName: H.Controls.RepositoryBox
+  type: Namespace
+  assemblies:
+  - H.Controls.RepositoryBox
+references:
+- uid: H.Controls.RepositoryBox.RepositoryBox
+  commentId: T:H.Controls.RepositoryBox.RepositoryBox
+  href: H.Controls.RepositoryBox.RepositoryBox.html
+  name: RepositoryBox
+  nameWithType: RepositoryBox
+  fullName: H.Controls.RepositoryBox.RepositoryBox
+- uid: H.Controls.RepositoryBox.RepositoryGrid
+  commentId: T:H.Controls.RepositoryBox.RepositoryGrid
+  href: H.Controls.RepositoryBox.RepositoryGrid.html
+  name: RepositoryGrid
+  nameWithType: RepositoryGrid
+  fullName: H.Controls.RepositoryBox.RepositoryGrid

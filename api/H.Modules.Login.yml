@@ -1,0 +1,159 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Modules.Login
+  commentId: N:H.Modules.Login
+  id: H.Modules.Login
+  children:
+  - H.Modules.Login.CurrentUserViewPresenter
+  - H.Modules.Login.Forget
+  - H.Modules.Login.ICurrentUserViewPresenter
+  - H.Modules.Login.ILoginButtonViewPresenter
+  - H.Modules.Login.ILoginOption
+  - H.Modules.Login.ILoginOptions
+  - H.Modules.Login.IRegistorOptions
+  - H.Modules.Login.LoginButtonViewPresenter
+  - H.Modules.Login.LoginOptions
+  - H.Modules.Login.LoginViewPresenter
+  - H.Modules.Login.LoginedSplashViewPresenter
+  - H.Modules.Login.MailVerify
+  - H.Modules.Login.Registor
+  - H.Modules.Login.RegistorOptions
+  - H.Modules.Login.RigisterLoginViewPresenter
+  langs:
+  - csharp
+  - vb
+  name: H.Modules.Login
+  nameWithType: H.Modules.Login
+  fullName: H.Modules.Login
+  type: Namespace
+  assemblies:
+  - H.Modules.Login
+references:
+- uid: H.Modules.Login.CurrentUserViewPresenter
+  commentId: T:H.Modules.Login.CurrentUserViewPresenter
+  href: H.Modules.Login.CurrentUserViewPresenter.html
+  name: CurrentUserViewPresenter
+  nameWithType: CurrentUserViewPresenter
+  fullName: H.Modules.Login.CurrentUserViewPresenter
+- uid: H.Modules.Login.ICurrentUserViewPresenter
+  commentId: T:H.Modules.Login.ICurrentUserViewPresenter
+  parent: H.Modules.Login
+  href: H.Modules.Login.ICurrentUserViewPresenter.html
+  name: ICurrentUserViewPresenter
+  nameWithType: ICurrentUserViewPresenter
+  fullName: H.Modules.Login.ICurrentUserViewPresenter
+- uid: H.Modules.Login.ILoginOption
+  commentId: T:H.Modules.Login.ILoginOption
+  href: H.Modules.Login.ILoginOption.html
+  name: ILoginOption
+  nameWithType: ILoginOption
+  fullName: H.Modules.Login.ILoginOption
+- uid: H.Modules.Login.ILoginOptions
+  commentId: T:H.Modules.Login.ILoginOptions
+  parent: H.Modules.Login
+  href: H.Modules.Login.ILoginOptions.html
+  name: ILoginOptions
+  nameWithType: ILoginOptions
+  fullName: H.Modules.Login.ILoginOptions
+- uid: H.Modules.Login.IRegistorOptions
+  commentId: T:H.Modules.Login.IRegistorOptions
+  parent: H.Modules.Login
+  href: H.Modules.Login.IRegistorOptions.html
+  name: IRegistorOptions
+  nameWithType: IRegistorOptions
+  fullName: H.Modules.Login.IRegistorOptions
+- uid: H.Modules.Login.LoginButtonViewPresenter
+  commentId: T:H.Modules.Login.LoginButtonViewPresenter
+  href: H.Modules.Login.LoginButtonViewPresenter.html
+  name: LoginButtonViewPresenter
+  nameWithType: LoginButtonViewPresenter
+  fullName: H.Modules.Login.LoginButtonViewPresenter
+- uid: H.Modules.Login.ILoginButtonViewPresenter
+  commentId: T:H.Modules.Login.ILoginButtonViewPresenter
+  parent: H.Modules.Login
+  href: H.Modules.Login.ILoginButtonViewPresenter.html
+  name: ILoginButtonViewPresenter
+  nameWithType: ILoginButtonViewPresenter
+  fullName: H.Modules.Login.ILoginButtonViewPresenter
+- uid: H.Modules.Login.LoginedSplashViewPresenter
+  commentId: T:H.Modules.Login.LoginedSplashViewPresenter
+  href: H.Modules.Login.LoginedSplashViewPresenter.html
+  name: LoginedSplashViewPresenter
+  nameWithType: LoginedSplashViewPresenter
+  fullName: H.Modules.Login.LoginedSplashViewPresenter
+- uid: H.Modules.Login.LoginOptions
+  commentId: T:H.Modules.Login.LoginOptions
+  href: H.Modules.Login.LoginOptions.html
+  name: LoginOptions
+  nameWithType: LoginOptions
+  fullName: H.Modules.Login.LoginOptions
+- uid: H.Modules.Login.LoginViewPresenter
+  commentId: T:H.Modules.Login.LoginViewPresenter
+  parent: H.Modules.Login
+  href: H.Modules.Login.LoginViewPresenter.html
+  name: LoginViewPresenter
+  nameWithType: LoginViewPresenter
+  fullName: H.Modules.Login.LoginViewPresenter
+- uid: H.Modules.Login.Forget
+  commentId: T:H.Modules.Login.Forget
+  parent: H.Modules.Login
+  href: H.Modules.Login.Forget.html
+  name: Forget
+  nameWithType: Forget
+  fullName: H.Modules.Login.Forget
+- uid: H.Modules.Login.MailVerify
+  commentId: T:H.Modules.Login.MailVerify
+  parent: H.Modules.Login
+  href: H.Modules.Login.MailVerify.html
+  name: MailVerify
+  nameWithType: MailVerify
+  fullName: H.Modules.Login.MailVerify
+- uid: H.Modules.Login.Registor
+  commentId: T:H.Modules.Login.Registor
+  parent: H.Modules.Login
+  href: H.Modules.Login.Registor.html
+  name: Registor
+  nameWithType: Registor
+  fullName: H.Modules.Login.Registor
+- uid: H.Modules.Login.RegistorOptions
+  commentId: T:H.Modules.Login.RegistorOptions
+  href: H.Modules.Login.RegistorOptions.html
+  name: RegistorOptions
+  nameWithType: RegistorOptions
+  fullName: H.Modules.Login.RegistorOptions
+- uid: H.Modules.Login.RigisterLoginViewPresenter
+  commentId: T:H.Modules.Login.RigisterLoginViewPresenter
+  href: H.Modules.Login.RigisterLoginViewPresenter.html
+  name: RigisterLoginViewPresenter
+  nameWithType: RigisterLoginViewPresenter
+  fullName: H.Modules.Login.RigisterLoginViewPresenter
+- uid: H.Modules.Login
+  commentId: N:H.Modules.Login
+  href: H.html
+  name: H.Modules.Login
+  nameWithType: H.Modules.Login
+  fullName: H.Modules.Login
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Modules
+    name: Modules
+    href: H.Modules.html
+  - name: .
+  - uid: H.Modules.Login
+    name: Login
+    href: H.Modules.Login.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Modules
+    name: Modules
+    href: H.Modules.html
+  - name: .
+  - uid: H.Modules.Login
+    name: Login
+    href: H.Modules.Login.html

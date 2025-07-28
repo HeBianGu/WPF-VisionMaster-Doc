@@ -1,0 +1,1031 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Windows.Threading.DispatcherExtension
+  commentId: T:System.Windows.Threading.DispatcherExtension
+  id: DispatcherExtension
+  parent: System.Windows.Threading
+  children:
+  - System.Windows.Threading.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  - System.Windows.Threading.DispatcherExtension.DelayInvoke(System.Object,System.Collections.IList,System.Action{System.Object},System.Action,System.Windows.Threading.DispatcherPriority)
+  - System.Windows.Threading.DispatcherExtension.DelayInvoke(System.Object,System.Collections.IList,System.Func{System.Collections.IList},System.Action,System.Windows.Threading.DispatcherPriority)
+  - System.Windows.Threading.DispatcherExtension.DelayInvoke(System.Windows.Threading.Dispatcher,System.Windows.Threading.DispatcherPriority,System.Action)
+  - System.Windows.Threading.DispatcherExtension.DelayInvokeItem``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0},System.Action,System.Windows.Threading.DispatcherPriority)
+  - System.Windows.Threading.DispatcherExtension.GetDispatcherValue``2(``0,System.Func{``0,``1})
+  - System.Windows.Threading.DispatcherExtension.InvokeDispatcher``1(``0,System.Action{``0})
+  - System.Windows.Threading.DispatcherExtension.InvokeDispatcher``2(``0,System.Func{``0,``1})
+  langs:
+  - csharp
+  - vb
+  name: DispatcherExtension
+  nameWithType: DispatcherExtension
+  fullName: System.Windows.Threading.DispatcherExtension
+  type: Class
+  source:
+    id: DispatcherExtension
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extension.Dispatcher.cs
+    startLine: 66
+  assemblies:
+  - H.Extensions.Common
+  namespace: System.Windows.Threading
+  syntax:
+    content: public static class DispatcherExtension
+    content.vb: Public Module DispatcherExtension
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: System.Windows.Threading.DispatcherExtension.DelayInvoke(System.Windows.Threading.Dispatcher,System.Windows.Threading.DispatcherPriority,System.Action)
+  commentId: M:System.Windows.Threading.DispatcherExtension.DelayInvoke(System.Windows.Threading.Dispatcher,System.Windows.Threading.DispatcherPriority,System.Action)
+  id: DelayInvoke(System.Windows.Threading.Dispatcher,System.Windows.Threading.DispatcherPriority,System.Action)
+  isExtensionMethod: true
+  parent: System.Windows.Threading.DispatcherExtension
+  langs:
+  - csharp
+  - vb
+  name: DelayInvoke(Dispatcher, DispatcherPriority, Action)
+  nameWithType: DispatcherExtension.DelayInvoke(Dispatcher, DispatcherPriority, Action)
+  fullName: System.Windows.Threading.DispatcherExtension.DelayInvoke(System.Windows.Threading.Dispatcher, System.Windows.Threading.DispatcherPriority, System.Action)
+  type: Method
+  source:
+    id: DelayInvoke
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extension.Dispatcher.cs
+    startLine: 15
+  assemblies:
+  - H.Extensions.Common
+  namespace: System.Windows.Threading
+  syntax:
+    content: >-
+      [Obsolete]
+
+      public static void DelayInvoke(this Dispatcher dispatcher, DispatcherPriority priority, Action action)
+    parameters:
+    - id: dispatcher
+      type: System.Windows.Threading.Dispatcher
+    - id: priority
+      type: System.Windows.Threading.DispatcherPriority
+    - id: action
+      type: System.Action
+    content.vb: >-
+      <Obsolete>
+
+      Public Shared Sub DelayInvoke(dispatcher As Dispatcher, priority As DispatcherPriority, action As Action)
+  overload: System.Windows.Threading.DispatcherExtension.DelayInvoke*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+- uid: System.Windows.Threading.DispatcherExtension.GetDispatcherValue``2(``0,System.Func{``0,``1})
+  commentId: M:System.Windows.Threading.DispatcherExtension.GetDispatcherValue``2(``0,System.Func{``0,``1})
+  id: GetDispatcherValue``2(``0,System.Func{``0,``1})
+  isExtensionMethod: true
+  parent: System.Windows.Threading.DispatcherExtension
+  langs:
+  - csharp
+  - vb
+  name: GetDispatcherValue<T, R>(T, Func<T, R>)
+  nameWithType: DispatcherExtension.GetDispatcherValue<T, R>(T, Func<T, R>)
+  fullName: System.Windows.Threading.DispatcherExtension.GetDispatcherValue<T, R>(T, System.Func<T, R>)
+  type: Method
+  source:
+    id: GetDispatcherValue
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extension.Dispatcher.cs
+    startLine: 29
+  assemblies:
+  - H.Extensions.Common
+  namespace: System.Windows.Threading
+  syntax:
+    content: 'public static R GetDispatcherValue<T, R>(this T dispatcher, Func<T, R> func) where T : DispatcherObject'
+    parameters:
+    - id: dispatcher
+      type: '{T}'
+    - id: func
+      type: System.Func{{T},{R}}
+    typeParameters:
+    - id: T
+    - id: R
+    return:
+      type: '{R}'
+    content.vb: Public Shared Function GetDispatcherValue(Of T As DispatcherObject, R)(dispatcher As T, func As Func(Of T, R)) As R
+  overload: System.Windows.Threading.DispatcherExtension.GetDispatcherValue*
+  nameWithType.vb: DispatcherExtension.GetDispatcherValue(Of T, R)(T, Func(Of T, R))
+  fullName.vb: System.Windows.Threading.DispatcherExtension.GetDispatcherValue(Of T, R)(T, System.Func(Of T, R))
+  name.vb: GetDispatcherValue(Of T, R)(T, Func(Of T, R))
+- uid: System.Windows.Threading.DispatcherExtension.InvokeDispatcher``1(``0,System.Action{``0})
+  commentId: M:System.Windows.Threading.DispatcherExtension.InvokeDispatcher``1(``0,System.Action{``0})
+  id: InvokeDispatcher``1(``0,System.Action{``0})
+  isExtensionMethod: true
+  parent: System.Windows.Threading.DispatcherExtension
+  langs:
+  - csharp
+  - vb
+  name: InvokeDispatcher<T>(T, Action<T>)
+  nameWithType: DispatcherExtension.InvokeDispatcher<T>(T, Action<T>)
+  fullName: System.Windows.Threading.DispatcherExtension.InvokeDispatcher<T>(T, System.Action<T>)
+  type: Method
+  source:
+    id: InvokeDispatcher
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extension.Dispatcher.cs
+    startLine: 41
+  assemblies:
+  - H.Extensions.Common
+  namespace: System.Windows.Threading
+  syntax:
+    content: 'public static void InvokeDispatcher<T>(this T dispatcher, Action<T> func) where T : DispatcherObject'
+    parameters:
+    - id: dispatcher
+      type: '{T}'
+    - id: func
+      type: System.Action{{T}}
+    typeParameters:
+    - id: T
+    content.vb: Public Shared Sub InvokeDispatcher(Of T As DispatcherObject)(dispatcher As T, func As Action(Of T))
+  overload: System.Windows.Threading.DispatcherExtension.InvokeDispatcher*
+  nameWithType.vb: DispatcherExtension.InvokeDispatcher(Of T)(T, Action(Of T))
+  fullName.vb: System.Windows.Threading.DispatcherExtension.InvokeDispatcher(Of T)(T, System.Action(Of T))
+  name.vb: InvokeDispatcher(Of T)(T, Action(Of T))
+- uid: System.Windows.Threading.DispatcherExtension.InvokeDispatcher``2(``0,System.Func{``0,``1})
+  commentId: M:System.Windows.Threading.DispatcherExtension.InvokeDispatcher``2(``0,System.Func{``0,``1})
+  id: InvokeDispatcher``2(``0,System.Func{``0,``1})
+  isExtensionMethod: true
+  parent: System.Windows.Threading.DispatcherExtension
+  langs:
+  - csharp
+  - vb
+  name: InvokeDispatcher<T, R>(T, Func<T, R>)
+  nameWithType: DispatcherExtension.InvokeDispatcher<T, R>(T, Func<T, R>)
+  fullName: System.Windows.Threading.DispatcherExtension.InvokeDispatcher<T, R>(T, System.Func<T, R>)
+  type: Method
+  source:
+    id: InvokeDispatcher
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extension.Dispatcher.cs
+    startLine: 53
+  assemblies:
+  - H.Extensions.Common
+  namespace: System.Windows.Threading
+  syntax:
+    content: 'public static R InvokeDispatcher<T, R>(this T dispatcher, Func<T, R> func) where T : DispatcherObject'
+    parameters:
+    - id: dispatcher
+      type: '{T}'
+    - id: func
+      type: System.Func{{T},{R}}
+    typeParameters:
+    - id: T
+    - id: R
+    return:
+      type: '{R}'
+    content.vb: Public Shared Function InvokeDispatcher(Of T As DispatcherObject, R)(dispatcher As T, func As Func(Of T, R)) As R
+  overload: System.Windows.Threading.DispatcherExtension.InvokeDispatcher*
+  nameWithType.vb: DispatcherExtension.InvokeDispatcher(Of T, R)(T, Func(Of T, R))
+  fullName.vb: System.Windows.Threading.DispatcherExtension.InvokeDispatcher(Of T, R)(T, System.Func(Of T, R))
+  name.vb: InvokeDispatcher(Of T, R)(T, Func(Of T, R))
+- uid: System.Windows.Threading.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  commentId: M:System.Windows.Threading.DispatcherExtension.DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  id: DelayInvoke(System.Object,System.Action,System.Windows.Threading.DispatcherPriority)
+  isExtensionMethod: true
+  parent: System.Windows.Threading.DispatcherExtension
+  langs:
+  - csharp
+  - vb
+  name: DelayInvoke(object, Action, DispatcherPriority)
+  nameWithType: DispatcherExtension.DelayInvoke(object, Action, DispatcherPriority)
+  fullName: System.Windows.Threading.DispatcherExtension.DelayInvoke(object, System.Action, System.Windows.Threading.DispatcherPriority)
+  type: Method
+  source:
+    id: DelayInvoke
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extension.Dispatcher.cs
+    startLine: 70
+  assemblies:
+  - H.Extensions.Common
+  namespace: System.Windows.Threading
+  syntax:
+    content: public static void DelayInvoke(this object obj, Action action, DispatcherPriority priority = DispatcherPriority.Input)
+    parameters:
+    - id: obj
+      type: System.Object
+    - id: action
+      type: System.Action
+    - id: priority
+      type: System.Windows.Threading.DispatcherPriority
+    content.vb: Public Shared Sub DelayInvoke(obj As Object, action As Action, priority As DispatcherPriority = DispatcherPriority.Input)
+  overload: System.Windows.Threading.DispatcherExtension.DelayInvoke*
+  nameWithType.vb: DispatcherExtension.DelayInvoke(Object, Action, DispatcherPriority)
+  fullName.vb: System.Windows.Threading.DispatcherExtension.DelayInvoke(Object, System.Action, System.Windows.Threading.DispatcherPriority)
+  name.vb: DelayInvoke(Object, Action, DispatcherPriority)
+- uid: System.Windows.Threading.DispatcherExtension.DelayInvoke(System.Object,System.Collections.IList,System.Func{System.Collections.IList},System.Action,System.Windows.Threading.DispatcherPriority)
+  commentId: M:System.Windows.Threading.DispatcherExtension.DelayInvoke(System.Object,System.Collections.IList,System.Func{System.Collections.IList},System.Action,System.Windows.Threading.DispatcherPriority)
+  id: DelayInvoke(System.Object,System.Collections.IList,System.Func{System.Collections.IList},System.Action,System.Windows.Threading.DispatcherPriority)
+  isExtensionMethod: true
+  parent: System.Windows.Threading.DispatcherExtension
+  langs:
+  - csharp
+  - vb
+  name: DelayInvoke(object, IList, Func<IList>, Action, DispatcherPriority)
+  nameWithType: DispatcherExtension.DelayInvoke(object, IList, Func<IList>, Action, DispatcherPriority)
+  fullName: System.Windows.Threading.DispatcherExtension.DelayInvoke(object, System.Collections.IList, System.Func<System.Collections.IList>, System.Action, System.Windows.Threading.DispatcherPriority)
+  type: Method
+  source:
+    id: DelayInvoke
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extension.Dispatcher.cs
+    startLine: 89
+  assemblies:
+  - H.Extensions.Common
+  namespace: System.Windows.Threading
+  syntax:
+    content: public static void DelayInvoke(this object obj, IList target, Func<IList> getSrc, Action end = null, DispatcherPriority priority = DispatcherPriority.Input)
+    parameters:
+    - id: obj
+      type: System.Object
+    - id: target
+      type: System.Collections.IList
+    - id: getSrc
+      type: System.Func{System.Collections.IList}
+    - id: end
+      type: System.Action
+    - id: priority
+      type: System.Windows.Threading.DispatcherPriority
+    content.vb: Public Shared Sub DelayInvoke(obj As Object, target As IList, getSrc As Func(Of IList), [end] As Action = Nothing, priority As DispatcherPriority = DispatcherPriority.Input)
+  overload: System.Windows.Threading.DispatcherExtension.DelayInvoke*
+  nameWithType.vb: DispatcherExtension.DelayInvoke(Object, IList, Func(Of IList), Action, DispatcherPriority)
+  fullName.vb: System.Windows.Threading.DispatcherExtension.DelayInvoke(Object, System.Collections.IList, System.Func(Of System.Collections.IList), System.Action, System.Windows.Threading.DispatcherPriority)
+  name.vb: DelayInvoke(Object, IList, Func(Of IList), Action, DispatcherPriority)
+- uid: System.Windows.Threading.DispatcherExtension.DelayInvoke(System.Object,System.Collections.IList,System.Action{System.Object},System.Action,System.Windows.Threading.DispatcherPriority)
+  commentId: M:System.Windows.Threading.DispatcherExtension.DelayInvoke(System.Object,System.Collections.IList,System.Action{System.Object},System.Action,System.Windows.Threading.DispatcherPriority)
+  id: DelayInvoke(System.Object,System.Collections.IList,System.Action{System.Object},System.Action,System.Windows.Threading.DispatcherPriority)
+  isExtensionMethod: true
+  parent: System.Windows.Threading.DispatcherExtension
+  langs:
+  - csharp
+  - vb
+  name: DelayInvoke(object, IList, Action<object>, Action, DispatcherPriority)
+  nameWithType: DispatcherExtension.DelayInvoke(object, IList, Action<object>, Action, DispatcherPriority)
+  fullName: System.Windows.Threading.DispatcherExtension.DelayInvoke(object, System.Collections.IList, System.Action<object>, System.Action, System.Windows.Threading.DispatcherPriority)
+  type: Method
+  source:
+    id: DelayInvoke
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extension.Dispatcher.cs
+    startLine: 123
+  assemblies:
+  - H.Extensions.Common
+  namespace: System.Windows.Threading
+  syntax:
+    content: >-
+      [Obsolete("DelayInvokeList<T>")]
+
+      public static void DelayInvoke(this object obj, IList src, Action<object> invokeItem, Action end = null, DispatcherPriority priority = DispatcherPriority.Input)
+    parameters:
+    - id: obj
+      type: System.Object
+    - id: src
+      type: System.Collections.IList
+    - id: invokeItem
+      type: System.Action{System.Object}
+    - id: end
+      type: System.Action
+    - id: priority
+      type: System.Windows.Threading.DispatcherPriority
+    content.vb: >-
+      <Obsolete("DelayInvokeList<T>")>
+
+      Public Shared Sub DelayInvoke(obj As Object, src As IList, invokeItem As Action(Of Object), [end] As Action = Nothing, priority As DispatcherPriority = DispatcherPriority.Input)
+  overload: System.Windows.Threading.DispatcherExtension.DelayInvoke*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: DelayInvokeList<T>
+  nameWithType.vb: DispatcherExtension.DelayInvoke(Object, IList, Action(Of Object), Action, DispatcherPriority)
+  fullName.vb: System.Windows.Threading.DispatcherExtension.DelayInvoke(Object, System.Collections.IList, System.Action(Of Object), System.Action, System.Windows.Threading.DispatcherPriority)
+  name.vb: DelayInvoke(Object, IList, Action(Of Object), Action, DispatcherPriority)
+- uid: System.Windows.Threading.DispatcherExtension.DelayInvokeItem``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0},System.Action,System.Windows.Threading.DispatcherPriority)
+  commentId: M:System.Windows.Threading.DispatcherExtension.DelayInvokeItem``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0},System.Action,System.Windows.Threading.DispatcherPriority)
+  id: DelayInvokeItem``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0},System.Action,System.Windows.Threading.DispatcherPriority)
+  isExtensionMethod: true
+  parent: System.Windows.Threading.DispatcherExtension
+  langs:
+  - csharp
+  - vb
+  name: DelayInvokeItem<T>(IEnumerable<T>, Action<T>, Action, DispatcherPriority)
+  nameWithType: DispatcherExtension.DelayInvokeItem<T>(IEnumerable<T>, Action<T>, Action, DispatcherPriority)
+  fullName: System.Windows.Threading.DispatcherExtension.DelayInvokeItem<T>(System.Collections.Generic.IEnumerable<T>, System.Action<T>, System.Action, System.Windows.Threading.DispatcherPriority)
+  type: Method
+  source:
+    id: DelayInvokeItem
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Common\Extension.Dispatcher.cs
+    startLine: 158
+  assemblies:
+  - H.Extensions.Common
+  namespace: System.Windows.Threading
+  syntax:
+    content: public static void DelayInvokeItem<T>(this IEnumerable<T> src, Action<T> invokeItem, Action end = null, DispatcherPriority priority = DispatcherPriority.Input)
+    parameters:
+    - id: src
+      type: System.Collections.Generic.IEnumerable{{T}}
+    - id: invokeItem
+      type: System.Action{{T}}
+    - id: end
+      type: System.Action
+    - id: priority
+      type: System.Windows.Threading.DispatcherPriority
+    typeParameters:
+    - id: T
+    content.vb: Public Shared Sub DelayInvokeItem(Of T)(src As IEnumerable(Of T), invokeItem As Action(Of T), [end] As Action = Nothing, priority As DispatcherPriority = DispatcherPriority.Input)
+  overload: System.Windows.Threading.DispatcherExtension.DelayInvokeItem*
+  nameWithType.vb: DispatcherExtension.DelayInvokeItem(Of T)(IEnumerable(Of T), Action(Of T), Action, DispatcherPriority)
+  fullName.vb: System.Windows.Threading.DispatcherExtension.DelayInvokeItem(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Action(Of T), System.Action, System.Windows.Threading.DispatcherPriority)
+  name.vb: DelayInvokeItem(Of T)(IEnumerable(Of T), Action(Of T), Action, DispatcherPriority)
+references:
+- uid: System.Windows.Threading
+  commentId: N:System.Windows.Threading
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Threading
+  nameWithType: System.Windows.Threading
+  fullName: System.Windows.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Threading
+    name: Threading
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading
+  spec.vb:
+  - uid: System
+    name: System
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Threading
+    name: Threading
+    href: https://learn.microsoft.com/dotnet/api/system.windows.threading
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Windows.Threading.DispatcherExtension.DelayInvoke*
+  commentId: Overload:System.Windows.Threading.DispatcherExtension.DelayInvoke
+  href: System.Windows.Threading.DispatcherExtension.html#System_Windows_Threading_DispatcherExtension_DelayInvoke_System_Windows_Threading_Dispatcher_System_Windows_Threading_DispatcherPriority_System_Action_
+  name: DelayInvoke
+  nameWithType: DispatcherExtension.DelayInvoke
+  fullName: System.Windows.Threading.DispatcherExtension.DelayInvoke
+- uid: System.Windows.Threading.Dispatcher
+  commentId: T:System.Windows.Threading.Dispatcher
+  parent: System.Windows.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcher
+  name: Dispatcher
+  nameWithType: Dispatcher
+  fullName: System.Windows.Threading.Dispatcher
+- uid: System.Windows.Threading.DispatcherPriority
+  commentId: T:System.Windows.Threading.DispatcherPriority
+  parent: System.Windows.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.threading.dispatcherpriority
+  name: DispatcherPriority
+  nameWithType: DispatcherPriority
+  fullName: System.Windows.Threading.DispatcherPriority
+- uid: System.Action
+  commentId: T:System.Action
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action
+  name: Action
+  nameWithType: Action
+  fullName: System.Action
+- uid: System.Windows.Threading.DispatcherExtension.GetDispatcherValue*
+  commentId: Overload:System.Windows.Threading.DispatcherExtension.GetDispatcherValue
+  href: System.Windows.Threading.DispatcherExtension.html#System_Windows_Threading_DispatcherExtension_GetDispatcherValue__2___0_System_Func___0___1__
+  name: GetDispatcherValue
+  nameWithType: DispatcherExtension.GetDispatcherValue
+  fullName: System.Windows.Threading.DispatcherExtension.GetDispatcherValue
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Func{{T},{R}}
+  commentId: T:System.Func{``0,``1}
+  parent: System
+  definition: System.Func`2
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<T, R>
+  nameWithType: Func<T, R>
+  fullName: System.Func<T, R>
+  nameWithType.vb: Func(Of T, R)
+  fullName.vb: System.Func(Of T, R)
+  name.vb: Func(Of T, R)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: R
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: R
+  - name: )
+- uid: '{R}'
+  commentId: '!:R'
+  definition: R
+  name: R
+  nameWithType: R
+  fullName: R
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: R
+  name: R
+  nameWithType: R
+  fullName: R
+- uid: System.Windows.Threading.DispatcherExtension.InvokeDispatcher*
+  commentId: Overload:System.Windows.Threading.DispatcherExtension.InvokeDispatcher
+  href: System.Windows.Threading.DispatcherExtension.html#System_Windows_Threading_DispatcherExtension_InvokeDispatcher__1___0_System_Action___0__
+  name: InvokeDispatcher
+  nameWithType: DispatcherExtension.InvokeDispatcher
+  fullName: System.Windows.Threading.DispatcherExtension.InvokeDispatcher
+- uid: System.Action{{T}}
+  commentId: T:System.Action{``0}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.IList
+  commentId: T:System.Collections.IList
+  parent: System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.ilist
+  name: IList
+  nameWithType: IList
+  fullName: System.Collections.IList
+- uid: System.Func{System.Collections.IList}
+  commentId: T:System.Func{System.Collections.IList}
+  parent: System
+  definition: System.Func`1
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: Func<IList>
+  nameWithType: Func<IList>
+  fullName: System.Func<System.Collections.IList>
+  nameWithType.vb: Func(Of IList)
+  fullName.vb: System.Func(Of System.Collections.IList)
+  name.vb: Func(Of IList)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - uid: System.Collections.IList
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.ilist
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.IList
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.ilist
+  - name: )
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+- uid: System.Func`1
+  commentId: T:System.Func`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-1
+  name: Func<TResult>
+  nameWithType: Func<TResult>
+  fullName: System.Func<TResult>
+  nameWithType.vb: Func(Of TResult)
+  fullName.vb: System.Func(Of TResult)
+  name.vb: Func(Of TResult)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Action{System.Object}
+  commentId: T:System.Action{System.Object}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<object>
+  nameWithType: Action<object>
+  fullName: System.Action<object>
+  nameWithType.vb: Action(Of Object)
+  fullName.vb: System.Action(Of Object)
+  name.vb: Action(Of Object)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Windows.Threading.DispatcherExtension.DelayInvokeItem*
+  commentId: Overload:System.Windows.Threading.DispatcherExtension.DelayInvokeItem
+  href: System.Windows.Threading.DispatcherExtension.html#System_Windows_Threading_DispatcherExtension_DelayInvokeItem__1_System_Collections_Generic_IEnumerable___0__System_Action___0__System_Action_System_Windows_Threading_DispatcherPriority_
+  name: DelayInvokeItem
+  nameWithType: DispatcherExtension.DelayInvokeItem
+  fullName: System.Windows.Threading.DispatcherExtension.DelayInvokeItem
+- uid: System.Collections.Generic.IEnumerable{{T}}
+  commentId: T:System.Collections.Generic.IEnumerable{``0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic

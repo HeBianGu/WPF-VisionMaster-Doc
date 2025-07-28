@@ -1,0 +1,1311 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.StoryBoard.ElementExtention
+  commentId: T:H.Extensions.StoryBoard.ElementExtention
+  id: ElementExtention
+  parent: H.Extensions.StoryBoard
+  children:
+  - H.Extensions.StoryBoard.ElementExtention.BeginAnimationAngle(System.Windows.UIElement,System.Double,System.Double)
+  - H.Extensions.StoryBoard.ElementExtention.BeginAnimationAngle(System.Windows.UIElement,System.Double,System.Double,System.Double,System.Action{System.Windows.UIElement},System.Action{H.Extensions.StoryBoard.StoryboardEngineBase})
+  - H.Extensions.StoryBoard.ElementExtention.BeginAnimationOpacity(System.Windows.UIElement,System.Double,System.Double)
+  - H.Extensions.StoryBoard.ElementExtention.BeginAnimationOpacity(System.Windows.UIElement,System.Double,System.Double,System.Double,System.Action{System.Windows.UIElement},System.Action{H.Extensions.StoryBoard.StoryboardEngineBase})
+  - H.Extensions.StoryBoard.ElementExtention.BeginAnimationPath(System.Windows.UIElement,System.Windows.Media.PathGeometry,System.Double,System.Boolean,System.Boolean)
+  - H.Extensions.StoryBoard.ElementExtention.BeginAnimationScale(System.Windows.UIElement,System.Double,System.Double,System.Double)
+  - H.Extensions.StoryBoard.ElementExtention.BeginAnimationScaleX(System.Windows.UIElement,System.Double,System.Double,System.Double,System.Action{System.Windows.UIElement},System.Action{H.Extensions.StoryBoard.StoryboardEngineBase})
+  - H.Extensions.StoryBoard.ElementExtention.BeginAnimationScaleY(System.Windows.UIElement,System.Double,System.Double,System.Double,System.Action{System.Windows.UIElement},System.Action{H.Extensions.StoryBoard.StoryboardEngineBase})
+  - H.Extensions.StoryBoard.ElementExtention.BeginAnimationSkew(System.Windows.UIElement,System.Double,System.Double,System.Double)
+  - H.Extensions.StoryBoard.ElementExtention.BeginAnimationSkewX(System.Windows.UIElement,System.Double,System.Double,System.Double,System.Action{System.Windows.UIElement},System.Action{H.Extensions.StoryBoard.StoryboardEngineBase})
+  - H.Extensions.StoryBoard.ElementExtention.BeginAnimationSkewY(System.Windows.UIElement,System.Double,System.Double,System.Double,System.Action{System.Windows.UIElement},System.Action{H.Extensions.StoryBoard.StoryboardEngineBase})
+  - H.Extensions.StoryBoard.ElementExtention.BeginAnimationX(System.Windows.UIElement,System.Double,System.Double,System.Double,System.Action{System.Windows.UIElement},System.Action{H.Extensions.StoryBoard.StoryboardEngineBase})
+  - H.Extensions.StoryBoard.ElementExtention.BeginAnimationXY(System.Windows.UIElement,System.Double,System.Double,System.Double)
+  - H.Extensions.StoryBoard.ElementExtention.BeginAnimationY(System.Windows.UIElement,System.Double,System.Double,System.Double,System.Action{System.Windows.UIElement},System.Action{H.Extensions.StoryBoard.StoryboardEngineBase})
+  - H.Extensions.StoryBoard.ElementExtention.BegionDoubleStoryBoard(System.Windows.UIElement,System.Double,System.Double,System.Double,System.String,System.Action{System.Windows.UIElement},System.Action{H.Extensions.StoryBoard.StoryboardEngineBase})
+  - H.Extensions.StoryBoard.ElementExtention.CheckDefaultTransformGroup(System.Windows.UIElement)
+  - H.Extensions.StoryBoard.ElementExtention.GetTransform``1(System.Windows.UIElement)
+  - H.Extensions.StoryBoard.ElementExtention.Wait(System.Windows.UIElement,System.Double,System.Action{System.Windows.UIElement})
+  langs:
+  - csharp
+  - vb
+  name: ElementExtention
+  nameWithType: ElementExtention
+  fullName: H.Extensions.StoryBoard.ElementExtention
+  type: Class
+  source:
+    id: ElementExtention
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.StoryBoard\ElementExtention.cs
+    startLine: 14
+  assemblies:
+  - H.Extensions.StoryBoard
+  namespace: H.Extensions.StoryBoard
+  syntax:
+    content: public static class ElementExtention
+    content.vb: Public Module ElementExtention
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: H.Extensions.StoryBoard.ElementExtention.BegionDoubleStoryBoard(System.Windows.UIElement,System.Double,System.Double,System.Double,System.String,System.Action{System.Windows.UIElement},System.Action{H.Extensions.StoryBoard.StoryboardEngineBase})
+  commentId: M:H.Extensions.StoryBoard.ElementExtention.BegionDoubleStoryBoard(System.Windows.UIElement,System.Double,System.Double,System.Double,System.String,System.Action{System.Windows.UIElement},System.Action{H.Extensions.StoryBoard.StoryboardEngineBase})
+  id: BegionDoubleStoryBoard(System.Windows.UIElement,System.Double,System.Double,System.Double,System.String,System.Action{System.Windows.UIElement},System.Action{H.Extensions.StoryBoard.StoryboardEngineBase})
+  isExtensionMethod: true
+  parent: H.Extensions.StoryBoard.ElementExtention
+  langs:
+  - csharp
+  - vb
+  name: BegionDoubleStoryBoard(UIElement, double, double, double, string, Action<UIElement>, Action<StoryboardEngineBase>)
+  nameWithType: ElementExtention.BegionDoubleStoryBoard(UIElement, double, double, double, string, Action<UIElement>, Action<StoryboardEngineBase>)
+  fullName: H.Extensions.StoryBoard.ElementExtention.BegionDoubleStoryBoard(System.Windows.UIElement, double, double, double, string, System.Action<System.Windows.UIElement>, System.Action<H.Extensions.StoryBoard.StoryboardEngineBase>)
+  type: Method
+  source:
+    id: BegionDoubleStoryBoard
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.StoryBoard\ElementExtention.cs
+    startLine: 17
+  assemblies:
+  - H.Extensions.StoryBoard
+  namespace: H.Extensions.StoryBoard
+  summary: 执行动画
+  example: []
+  syntax:
+    content: public static StoryboardEngineBase BegionDoubleStoryBoard(this UIElement element, double start, double end, double duration, string propertyName, Action<UIElement> Completed = null, Action<StoryboardEngineBase> init = null)
+    parameters:
+    - id: element
+      type: System.Windows.UIElement
+    - id: start
+      type: System.Double
+    - id: end
+      type: System.Double
+    - id: duration
+      type: System.Double
+    - id: propertyName
+      type: System.String
+    - id: Completed
+      type: System.Action{System.Windows.UIElement}
+    - id: init
+      type: System.Action{H.Extensions.StoryBoard.StoryboardEngineBase}
+    return:
+      type: H.Extensions.StoryBoard.StoryboardEngineBase
+    content.vb: Public Shared Function BegionDoubleStoryBoard(element As UIElement, start As Double, [end] As Double, duration As Double, propertyName As String, Completed As Action(Of UIElement) = Nothing, init As Action(Of StoryboardEngineBase) = Nothing) As StoryboardEngineBase
+  overload: H.Extensions.StoryBoard.ElementExtention.BegionDoubleStoryBoard*
+  nameWithType.vb: ElementExtention.BegionDoubleStoryBoard(UIElement, Double, Double, Double, String, Action(Of UIElement), Action(Of StoryboardEngineBase))
+  fullName.vb: H.Extensions.StoryBoard.ElementExtention.BegionDoubleStoryBoard(System.Windows.UIElement, Double, Double, Double, String, System.Action(Of System.Windows.UIElement), System.Action(Of H.Extensions.StoryBoard.StoryboardEngineBase))
+  name.vb: BegionDoubleStoryBoard(UIElement, Double, Double, Double, String, Action(Of UIElement), Action(Of StoryboardEngineBase))
+- uid: H.Extensions.StoryBoard.ElementExtention.GetTransform``1(System.Windows.UIElement)
+  commentId: M:H.Extensions.StoryBoard.ElementExtention.GetTransform``1(System.Windows.UIElement)
+  id: GetTransform``1(System.Windows.UIElement)
+  isExtensionMethod: true
+  parent: H.Extensions.StoryBoard.ElementExtention
+  langs:
+  - csharp
+  - vb
+  name: GetTransform<T>(UIElement)
+  nameWithType: ElementExtention.GetTransform<T>(UIElement)
+  fullName: H.Extensions.StoryBoard.ElementExtention.GetTransform<T>(System.Windows.UIElement)
+  type: Method
+  source:
+    id: GetTransform
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.StoryBoard\ElementExtention.cs
+    startLine: 24
+  assemblies:
+  - H.Extensions.StoryBoard
+  namespace: H.Extensions.StoryBoard
+  summary: 获取 RenderTransform 中 Transform 元素
+  example: []
+  syntax:
+    content: 'public static T GetTransform<T>(this UIElement element) where T : Transform'
+    parameters:
+    - id: element
+      type: System.Windows.UIElement
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function GetTransform(Of T As Transform)(element As UIElement) As T
+  overload: H.Extensions.StoryBoard.ElementExtention.GetTransform*
+  nameWithType.vb: ElementExtention.GetTransform(Of T)(UIElement)
+  fullName.vb: H.Extensions.StoryBoard.ElementExtention.GetTransform(Of T)(System.Windows.UIElement)
+  name.vb: GetTransform(Of T)(UIElement)
+- uid: H.Extensions.StoryBoard.ElementExtention.CheckDefaultTransformGroup(System.Windows.UIElement)
+  commentId: M:H.Extensions.StoryBoard.ElementExtention.CheckDefaultTransformGroup(System.Windows.UIElement)
+  id: CheckDefaultTransformGroup(System.Windows.UIElement)
+  isExtensionMethod: true
+  parent: H.Extensions.StoryBoard.ElementExtention
+  langs:
+  - csharp
+  - vb
+  name: CheckDefaultTransformGroup(UIElement)
+  nameWithType: ElementExtention.CheckDefaultTransformGroup(UIElement)
+  fullName: H.Extensions.StoryBoard.ElementExtention.CheckDefaultTransformGroup(System.Windows.UIElement)
+  type: Method
+  source:
+    id: CheckDefaultTransformGroup
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.StoryBoard\ElementExtention.cs
+    startLine: 31
+  assemblies:
+  - H.Extensions.StoryBoard
+  namespace: H.Extensions.StoryBoard
+  syntax:
+    content: public static bool CheckDefaultTransformGroup(this UIElement element)
+    parameters:
+    - id: element
+      type: System.Windows.UIElement
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function CheckDefaultTransformGroup(element As UIElement) As Boolean
+  overload: H.Extensions.StoryBoard.ElementExtention.CheckDefaultTransformGroup*
+- uid: H.Extensions.StoryBoard.ElementExtention.BeginAnimationXY(System.Windows.UIElement,System.Double,System.Double,System.Double)
+  commentId: M:H.Extensions.StoryBoard.ElementExtention.BeginAnimationXY(System.Windows.UIElement,System.Double,System.Double,System.Double)
+  id: BeginAnimationXY(System.Windows.UIElement,System.Double,System.Double,System.Double)
+  isExtensionMethod: true
+  parent: H.Extensions.StoryBoard.ElementExtention
+  langs:
+  - csharp
+  - vb
+  name: BeginAnimationXY(UIElement, double, double, double)
+  nameWithType: ElementExtention.BeginAnimationXY(UIElement, double, double, double)
+  fullName: H.Extensions.StoryBoard.ElementExtention.BeginAnimationXY(System.Windows.UIElement, double, double, double)
+  type: Method
+  source:
+    id: BeginAnimationXY
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.StoryBoard\ElementExtention.cs
+    startLine: 53
+  assemblies:
+  - H.Extensions.StoryBoard
+  namespace: H.Extensions.StoryBoard
+  syntax:
+    content: public static void BeginAnimationXY(this UIElement element, double toX, double toY, double duration = 1000)
+    parameters:
+    - id: element
+      type: System.Windows.UIElement
+    - id: toX
+      type: System.Double
+    - id: toY
+      type: System.Double
+    - id: duration
+      type: System.Double
+    content.vb: Public Shared Sub BeginAnimationXY(element As UIElement, toX As Double, toY As Double, duration As Double = 1000)
+  overload: H.Extensions.StoryBoard.ElementExtention.BeginAnimationXY*
+  nameWithType.vb: ElementExtention.BeginAnimationXY(UIElement, Double, Double, Double)
+  fullName.vb: H.Extensions.StoryBoard.ElementExtention.BeginAnimationXY(System.Windows.UIElement, Double, Double, Double)
+  name.vb: BeginAnimationXY(UIElement, Double, Double, Double)
+- uid: H.Extensions.StoryBoard.ElementExtention.BeginAnimationScale(System.Windows.UIElement,System.Double,System.Double,System.Double)
+  commentId: M:H.Extensions.StoryBoard.ElementExtention.BeginAnimationScale(System.Windows.UIElement,System.Double,System.Double,System.Double)
+  id: BeginAnimationScale(System.Windows.UIElement,System.Double,System.Double,System.Double)
+  isExtensionMethod: true
+  parent: H.Extensions.StoryBoard.ElementExtention
+  langs:
+  - csharp
+  - vb
+  name: BeginAnimationScale(UIElement, double, double, double)
+  nameWithType: ElementExtention.BeginAnimationScale(UIElement, double, double, double)
+  fullName: H.Extensions.StoryBoard.ElementExtention.BeginAnimationScale(System.Windows.UIElement, double, double, double)
+  type: Method
+  source:
+    id: BeginAnimationScale
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.StoryBoard\ElementExtention.cs
+    startLine: 64
+  assemblies:
+  - H.Extensions.StoryBoard
+  namespace: H.Extensions.StoryBoard
+  syntax:
+    content: public static void BeginAnimationScale(this UIElement element, double scaleX, double scaleY, double duration = 1000)
+    parameters:
+    - id: element
+      type: System.Windows.UIElement
+    - id: scaleX
+      type: System.Double
+    - id: scaleY
+      type: System.Double
+    - id: duration
+      type: System.Double
+    content.vb: Public Shared Sub BeginAnimationScale(element As UIElement, scaleX As Double, scaleY As Double, duration As Double = 1000)
+  overload: H.Extensions.StoryBoard.ElementExtention.BeginAnimationScale*
+  nameWithType.vb: ElementExtention.BeginAnimationScale(UIElement, Double, Double, Double)
+  fullName.vb: H.Extensions.StoryBoard.ElementExtention.BeginAnimationScale(System.Windows.UIElement, Double, Double, Double)
+  name.vb: BeginAnimationScale(UIElement, Double, Double, Double)
+- uid: H.Extensions.StoryBoard.ElementExtention.BeginAnimationAngle(System.Windows.UIElement,System.Double,System.Double)
+  commentId: M:H.Extensions.StoryBoard.ElementExtention.BeginAnimationAngle(System.Windows.UIElement,System.Double,System.Double)
+  id: BeginAnimationAngle(System.Windows.UIElement,System.Double,System.Double)
+  isExtensionMethod: true
+  parent: H.Extensions.StoryBoard.ElementExtention
+  langs:
+  - csharp
+  - vb
+  name: BeginAnimationAngle(UIElement, double, double)
+  nameWithType: ElementExtention.BeginAnimationAngle(UIElement, double, double)
+  fullName: H.Extensions.StoryBoard.ElementExtention.BeginAnimationAngle(System.Windows.UIElement, double, double)
+  type: Method
+  source:
+    id: BeginAnimationAngle
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.StoryBoard\ElementExtention.cs
+    startLine: 75
+  assemblies:
+  - H.Extensions.StoryBoard
+  namespace: H.Extensions.StoryBoard
+  syntax:
+    content: public static void BeginAnimationAngle(this UIElement element, double toAngle, double duration = 1000)
+    parameters:
+    - id: element
+      type: System.Windows.UIElement
+    - id: toAngle
+      type: System.Double
+    - id: duration
+      type: System.Double
+    content.vb: Public Shared Sub BeginAnimationAngle(element As UIElement, toAngle As Double, duration As Double = 1000)
+  overload: H.Extensions.StoryBoard.ElementExtention.BeginAnimationAngle*
+  nameWithType.vb: ElementExtention.BeginAnimationAngle(UIElement, Double, Double)
+  fullName.vb: H.Extensions.StoryBoard.ElementExtention.BeginAnimationAngle(System.Windows.UIElement, Double, Double)
+  name.vb: BeginAnimationAngle(UIElement, Double, Double)
+- uid: H.Extensions.StoryBoard.ElementExtention.BeginAnimationOpacity(System.Windows.UIElement,System.Double,System.Double)
+  commentId: M:H.Extensions.StoryBoard.ElementExtention.BeginAnimationOpacity(System.Windows.UIElement,System.Double,System.Double)
+  id: BeginAnimationOpacity(System.Windows.UIElement,System.Double,System.Double)
+  isExtensionMethod: true
+  parent: H.Extensions.StoryBoard.ElementExtention
+  langs:
+  - csharp
+  - vb
+  name: BeginAnimationOpacity(UIElement, double, double)
+  nameWithType: ElementExtention.BeginAnimationOpacity(UIElement, double, double)
+  fullName: H.Extensions.StoryBoard.ElementExtention.BeginAnimationOpacity(System.Windows.UIElement, double, double)
+  type: Method
+  source:
+    id: BeginAnimationOpacity
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.StoryBoard\ElementExtention.cs
+    startLine: 84
+  assemblies:
+  - H.Extensions.StoryBoard
+  namespace: H.Extensions.StoryBoard
+  syntax:
+    content: public static void BeginAnimationOpacity(this UIElement element, double to, double duration = 1000)
+    parameters:
+    - id: element
+      type: System.Windows.UIElement
+    - id: to
+      type: System.Double
+    - id: duration
+      type: System.Double
+    content.vb: Public Shared Sub BeginAnimationOpacity(element As UIElement, [to] As Double, duration As Double = 1000)
+  overload: H.Extensions.StoryBoard.ElementExtention.BeginAnimationOpacity*
+  nameWithType.vb: ElementExtention.BeginAnimationOpacity(UIElement, Double, Double)
+  fullName.vb: H.Extensions.StoryBoard.ElementExtention.BeginAnimationOpacity(System.Windows.UIElement, Double, Double)
+  name.vb: BeginAnimationOpacity(UIElement, Double, Double)
+- uid: H.Extensions.StoryBoard.ElementExtention.BeginAnimationSkew(System.Windows.UIElement,System.Double,System.Double,System.Double)
+  commentId: M:H.Extensions.StoryBoard.ElementExtention.BeginAnimationSkew(System.Windows.UIElement,System.Double,System.Double,System.Double)
+  id: BeginAnimationSkew(System.Windows.UIElement,System.Double,System.Double,System.Double)
+  isExtensionMethod: true
+  parent: H.Extensions.StoryBoard.ElementExtention
+  langs:
+  - csharp
+  - vb
+  name: BeginAnimationSkew(UIElement, double, double, double)
+  nameWithType: ElementExtention.BeginAnimationSkew(UIElement, double, double, double)
+  fullName: H.Extensions.StoryBoard.ElementExtention.BeginAnimationSkew(System.Windows.UIElement, double, double, double)
+  type: Method
+  source:
+    id: BeginAnimationSkew
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.StoryBoard\ElementExtention.cs
+    startLine: 90
+  assemblies:
+  - H.Extensions.StoryBoard
+  namespace: H.Extensions.StoryBoard
+  syntax:
+    content: public static void BeginAnimationSkew(this UIElement element, double toAngleX, double toAngleY, double duration = 1000)
+    parameters:
+    - id: element
+      type: System.Windows.UIElement
+    - id: toAngleX
+      type: System.Double
+    - id: toAngleY
+      type: System.Double
+    - id: duration
+      type: System.Double
+    content.vb: Public Shared Sub BeginAnimationSkew(element As UIElement, toAngleX As Double, toAngleY As Double, duration As Double = 1000)
+  overload: H.Extensions.StoryBoard.ElementExtention.BeginAnimationSkew*
+  nameWithType.vb: ElementExtention.BeginAnimationSkew(UIElement, Double, Double, Double)
+  fullName.vb: H.Extensions.StoryBoard.ElementExtention.BeginAnimationSkew(System.Windows.UIElement, Double, Double, Double)
+  name.vb: BeginAnimationSkew(UIElement, Double, Double, Double)
+- uid: H.Extensions.StoryBoard.ElementExtention.BeginAnimationPath(System.Windows.UIElement,System.Windows.Media.PathGeometry,System.Double,System.Boolean,System.Boolean)
+  commentId: M:H.Extensions.StoryBoard.ElementExtention.BeginAnimationPath(System.Windows.UIElement,System.Windows.Media.PathGeometry,System.Double,System.Boolean,System.Boolean)
+  id: BeginAnimationPath(System.Windows.UIElement,System.Windows.Media.PathGeometry,System.Double,System.Boolean,System.Boolean)
+  isExtensionMethod: true
+  parent: H.Extensions.StoryBoard.ElementExtention
+  langs:
+  - csharp
+  - vb
+  name: BeginAnimationPath(UIElement, PathGeometry, double, bool, bool)
+  nameWithType: ElementExtention.BeginAnimationPath(UIElement, PathGeometry, double, bool, bool)
+  fullName: H.Extensions.StoryBoard.ElementExtention.BeginAnimationPath(System.Windows.UIElement, System.Windows.Media.PathGeometry, double, bool, bool)
+  type: Method
+  source:
+    id: BeginAnimationPath
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.StoryBoard\ElementExtention.cs
+    startLine: 101
+  assemblies:
+  - H.Extensions.StoryBoard
+  namespace: H.Extensions.StoryBoard
+  syntax:
+    content: public static void BeginAnimationPath(this UIElement element, PathGeometry geometry, double duration = 1000, bool useAngle = true, bool reverse = false)
+    parameters:
+    - id: element
+      type: System.Windows.UIElement
+    - id: geometry
+      type: System.Windows.Media.PathGeometry
+    - id: duration
+      type: System.Double
+    - id: useAngle
+      type: System.Boolean
+    - id: reverse
+      type: System.Boolean
+    content.vb: Public Shared Sub BeginAnimationPath(element As UIElement, geometry As PathGeometry, duration As Double = 1000, useAngle As Boolean = True, reverse As Boolean = False)
+  overload: H.Extensions.StoryBoard.ElementExtention.BeginAnimationPath*
+  nameWithType.vb: ElementExtention.BeginAnimationPath(UIElement, PathGeometry, Double, Boolean, Boolean)
+  fullName.vb: H.Extensions.StoryBoard.ElementExtention.BeginAnimationPath(System.Windows.UIElement, System.Windows.Media.PathGeometry, Double, Boolean, Boolean)
+  name.vb: BeginAnimationPath(UIElement, PathGeometry, Double, Boolean, Boolean)
+- uid: H.Extensions.StoryBoard.ElementExtention.BeginAnimationOpacity(System.Windows.UIElement,System.Double,System.Double,System.Double,System.Action{System.Windows.UIElement},System.Action{H.Extensions.StoryBoard.StoryboardEngineBase})
+  commentId: M:H.Extensions.StoryBoard.ElementExtention.BeginAnimationOpacity(System.Windows.UIElement,System.Double,System.Double,System.Double,System.Action{System.Windows.UIElement},System.Action{H.Extensions.StoryBoard.StoryboardEngineBase})
+  id: BeginAnimationOpacity(System.Windows.UIElement,System.Double,System.Double,System.Double,System.Action{System.Windows.UIElement},System.Action{H.Extensions.StoryBoard.StoryboardEngineBase})
+  isExtensionMethod: true
+  parent: H.Extensions.StoryBoard.ElementExtention
+  langs:
+  - csharp
+  - vb
+  name: BeginAnimationOpacity(UIElement, double, double, double, Action<UIElement>, Action<StoryboardEngineBase>)
+  nameWithType: ElementExtention.BeginAnimationOpacity(UIElement, double, double, double, Action<UIElement>, Action<StoryboardEngineBase>)
+  fullName: H.Extensions.StoryBoard.ElementExtention.BeginAnimationOpacity(System.Windows.UIElement, double, double, double, System.Action<System.Windows.UIElement>, System.Action<H.Extensions.StoryBoard.StoryboardEngineBase>)
+  type: Method
+  source:
+    id: BeginAnimationOpacity
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.StoryBoard\ElementExtention.cs
+    startLine: 147
+  assemblies:
+  - H.Extensions.StoryBoard
+  namespace: H.Extensions.StoryBoard
+  syntax:
+    content: public static StoryboardEngineBase BeginAnimationOpacity(this UIElement element, double from, double to, double duration = 1000, Action<UIElement> Completed = null, Action<StoryboardEngineBase> init = null)
+    parameters:
+    - id: element
+      type: System.Windows.UIElement
+    - id: from
+      type: System.Double
+    - id: to
+      type: System.Double
+    - id: duration
+      type: System.Double
+    - id: Completed
+      type: System.Action{System.Windows.UIElement}
+    - id: init
+      type: System.Action{H.Extensions.StoryBoard.StoryboardEngineBase}
+    return:
+      type: H.Extensions.StoryBoard.StoryboardEngineBase
+    content.vb: Public Shared Function BeginAnimationOpacity(element As UIElement, from As Double, [to] As Double, duration As Double = 1000, Completed As Action(Of UIElement) = Nothing, init As Action(Of StoryboardEngineBase) = Nothing) As StoryboardEngineBase
+  overload: H.Extensions.StoryBoard.ElementExtention.BeginAnimationOpacity*
+  nameWithType.vb: ElementExtention.BeginAnimationOpacity(UIElement, Double, Double, Double, Action(Of UIElement), Action(Of StoryboardEngineBase))
+  fullName.vb: H.Extensions.StoryBoard.ElementExtention.BeginAnimationOpacity(System.Windows.UIElement, Double, Double, Double, System.Action(Of System.Windows.UIElement), System.Action(Of H.Extensions.StoryBoard.StoryboardEngineBase))
+  name.vb: BeginAnimationOpacity(UIElement, Double, Double, Double, Action(Of UIElement), Action(Of StoryboardEngineBase))
+- uid: H.Extensions.StoryBoard.ElementExtention.BeginAnimationX(System.Windows.UIElement,System.Double,System.Double,System.Double,System.Action{System.Windows.UIElement},System.Action{H.Extensions.StoryBoard.StoryboardEngineBase})
+  commentId: M:H.Extensions.StoryBoard.ElementExtention.BeginAnimationX(System.Windows.UIElement,System.Double,System.Double,System.Double,System.Action{System.Windows.UIElement},System.Action{H.Extensions.StoryBoard.StoryboardEngineBase})
+  id: BeginAnimationX(System.Windows.UIElement,System.Double,System.Double,System.Double,System.Action{System.Windows.UIElement},System.Action{H.Extensions.StoryBoard.StoryboardEngineBase})
+  isExtensionMethod: true
+  parent: H.Extensions.StoryBoard.ElementExtention
+  langs:
+  - csharp
+  - vb
+  name: BeginAnimationX(UIElement, double, double, double, Action<UIElement>, Action<StoryboardEngineBase>)
+  nameWithType: ElementExtention.BeginAnimationX(UIElement, double, double, double, Action<UIElement>, Action<StoryboardEngineBase>)
+  fullName: H.Extensions.StoryBoard.ElementExtention.BeginAnimationX(System.Windows.UIElement, double, double, double, System.Action<System.Windows.UIElement>, System.Action<H.Extensions.StoryBoard.StoryboardEngineBase>)
+  type: Method
+  source:
+    id: BeginAnimationX
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.StoryBoard\ElementExtention.cs
+    startLine: 152
+  assemblies:
+  - H.Extensions.StoryBoard
+  namespace: H.Extensions.StoryBoard
+  syntax:
+    content: public static StoryboardEngineBase BeginAnimationX(this UIElement element, double from, double to, double duration = 1000, Action<UIElement> Completed = null, Action<StoryboardEngineBase> init = null)
+    parameters:
+    - id: element
+      type: System.Windows.UIElement
+    - id: from
+      type: System.Double
+    - id: to
+      type: System.Double
+    - id: duration
+      type: System.Double
+    - id: Completed
+      type: System.Action{System.Windows.UIElement}
+    - id: init
+      type: System.Action{H.Extensions.StoryBoard.StoryboardEngineBase}
+    return:
+      type: H.Extensions.StoryBoard.StoryboardEngineBase
+    content.vb: Public Shared Function BeginAnimationX(element As UIElement, from As Double, [to] As Double, duration As Double = 1000, Completed As Action(Of UIElement) = Nothing, init As Action(Of StoryboardEngineBase) = Nothing) As StoryboardEngineBase
+  overload: H.Extensions.StoryBoard.ElementExtention.BeginAnimationX*
+  nameWithType.vb: ElementExtention.BeginAnimationX(UIElement, Double, Double, Double, Action(Of UIElement), Action(Of StoryboardEngineBase))
+  fullName.vb: H.Extensions.StoryBoard.ElementExtention.BeginAnimationX(System.Windows.UIElement, Double, Double, Double, System.Action(Of System.Windows.UIElement), System.Action(Of H.Extensions.StoryBoard.StoryboardEngineBase))
+  name.vb: BeginAnimationX(UIElement, Double, Double, Double, Action(Of UIElement), Action(Of StoryboardEngineBase))
+- uid: H.Extensions.StoryBoard.ElementExtention.BeginAnimationY(System.Windows.UIElement,System.Double,System.Double,System.Double,System.Action{System.Windows.UIElement},System.Action{H.Extensions.StoryBoard.StoryboardEngineBase})
+  commentId: M:H.Extensions.StoryBoard.ElementExtention.BeginAnimationY(System.Windows.UIElement,System.Double,System.Double,System.Double,System.Action{System.Windows.UIElement},System.Action{H.Extensions.StoryBoard.StoryboardEngineBase})
+  id: BeginAnimationY(System.Windows.UIElement,System.Double,System.Double,System.Double,System.Action{System.Windows.UIElement},System.Action{H.Extensions.StoryBoard.StoryboardEngineBase})
+  isExtensionMethod: true
+  parent: H.Extensions.StoryBoard.ElementExtention
+  langs:
+  - csharp
+  - vb
+  name: BeginAnimationY(UIElement, double, double, double, Action<UIElement>, Action<StoryboardEngineBase>)
+  nameWithType: ElementExtention.BeginAnimationY(UIElement, double, double, double, Action<UIElement>, Action<StoryboardEngineBase>)
+  fullName: H.Extensions.StoryBoard.ElementExtention.BeginAnimationY(System.Windows.UIElement, double, double, double, System.Action<System.Windows.UIElement>, System.Action<H.Extensions.StoryBoard.StoryboardEngineBase>)
+  type: Method
+  source:
+    id: BeginAnimationY
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.StoryBoard\ElementExtention.cs
+    startLine: 161
+  assemblies:
+  - H.Extensions.StoryBoard
+  namespace: H.Extensions.StoryBoard
+  syntax:
+    content: public static StoryboardEngineBase BeginAnimationY(this UIElement element, double from, double to, double duration = 1000, Action<UIElement> Completed = null, Action<StoryboardEngineBase> init = null)
+    parameters:
+    - id: element
+      type: System.Windows.UIElement
+    - id: from
+      type: System.Double
+    - id: to
+      type: System.Double
+    - id: duration
+      type: System.Double
+    - id: Completed
+      type: System.Action{System.Windows.UIElement}
+    - id: init
+      type: System.Action{H.Extensions.StoryBoard.StoryboardEngineBase}
+    return:
+      type: H.Extensions.StoryBoard.StoryboardEngineBase
+    content.vb: Public Shared Function BeginAnimationY(element As UIElement, from As Double, [to] As Double, duration As Double = 1000, Completed As Action(Of UIElement) = Nothing, init As Action(Of StoryboardEngineBase) = Nothing) As StoryboardEngineBase
+  overload: H.Extensions.StoryBoard.ElementExtention.BeginAnimationY*
+  nameWithType.vb: ElementExtention.BeginAnimationY(UIElement, Double, Double, Double, Action(Of UIElement), Action(Of StoryboardEngineBase))
+  fullName.vb: H.Extensions.StoryBoard.ElementExtention.BeginAnimationY(System.Windows.UIElement, Double, Double, Double, System.Action(Of System.Windows.UIElement), System.Action(Of H.Extensions.StoryBoard.StoryboardEngineBase))
+  name.vb: BeginAnimationY(UIElement, Double, Double, Double, Action(Of UIElement), Action(Of StoryboardEngineBase))
+- uid: H.Extensions.StoryBoard.ElementExtention.BeginAnimationScaleY(System.Windows.UIElement,System.Double,System.Double,System.Double,System.Action{System.Windows.UIElement},System.Action{H.Extensions.StoryBoard.StoryboardEngineBase})
+  commentId: M:H.Extensions.StoryBoard.ElementExtention.BeginAnimationScaleY(System.Windows.UIElement,System.Double,System.Double,System.Double,System.Action{System.Windows.UIElement},System.Action{H.Extensions.StoryBoard.StoryboardEngineBase})
+  id: BeginAnimationScaleY(System.Windows.UIElement,System.Double,System.Double,System.Double,System.Action{System.Windows.UIElement},System.Action{H.Extensions.StoryBoard.StoryboardEngineBase})
+  isExtensionMethod: true
+  parent: H.Extensions.StoryBoard.ElementExtention
+  langs:
+  - csharp
+  - vb
+  name: BeginAnimationScaleY(UIElement, double, double, double, Action<UIElement>, Action<StoryboardEngineBase>)
+  nameWithType: ElementExtention.BeginAnimationScaleY(UIElement, double, double, double, Action<UIElement>, Action<StoryboardEngineBase>)
+  fullName: H.Extensions.StoryBoard.ElementExtention.BeginAnimationScaleY(System.Windows.UIElement, double, double, double, System.Action<System.Windows.UIElement>, System.Action<H.Extensions.StoryBoard.StoryboardEngineBase>)
+  type: Method
+  source:
+    id: BeginAnimationScaleY
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.StoryBoard\ElementExtention.cs
+    startLine: 170
+  assemblies:
+  - H.Extensions.StoryBoard
+  namespace: H.Extensions.StoryBoard
+  syntax:
+    content: public static StoryboardEngineBase BeginAnimationScaleY(this UIElement element, double from, double to, double duration = 1000, Action<UIElement> Completed = null, Action<StoryboardEngineBase> init = null)
+    parameters:
+    - id: element
+      type: System.Windows.UIElement
+    - id: from
+      type: System.Double
+    - id: to
+      type: System.Double
+    - id: duration
+      type: System.Double
+    - id: Completed
+      type: System.Action{System.Windows.UIElement}
+    - id: init
+      type: System.Action{H.Extensions.StoryBoard.StoryboardEngineBase}
+    return:
+      type: H.Extensions.StoryBoard.StoryboardEngineBase
+    content.vb: Public Shared Function BeginAnimationScaleY(element As UIElement, from As Double, [to] As Double, duration As Double = 1000, Completed As Action(Of UIElement) = Nothing, init As Action(Of StoryboardEngineBase) = Nothing) As StoryboardEngineBase
+  overload: H.Extensions.StoryBoard.ElementExtention.BeginAnimationScaleY*
+  nameWithType.vb: ElementExtention.BeginAnimationScaleY(UIElement, Double, Double, Double, Action(Of UIElement), Action(Of StoryboardEngineBase))
+  fullName.vb: H.Extensions.StoryBoard.ElementExtention.BeginAnimationScaleY(System.Windows.UIElement, Double, Double, Double, System.Action(Of System.Windows.UIElement), System.Action(Of H.Extensions.StoryBoard.StoryboardEngineBase))
+  name.vb: BeginAnimationScaleY(UIElement, Double, Double, Double, Action(Of UIElement), Action(Of StoryboardEngineBase))
+- uid: H.Extensions.StoryBoard.ElementExtention.BeginAnimationScaleX(System.Windows.UIElement,System.Double,System.Double,System.Double,System.Action{System.Windows.UIElement},System.Action{H.Extensions.StoryBoard.StoryboardEngineBase})
+  commentId: M:H.Extensions.StoryBoard.ElementExtention.BeginAnimationScaleX(System.Windows.UIElement,System.Double,System.Double,System.Double,System.Action{System.Windows.UIElement},System.Action{H.Extensions.StoryBoard.StoryboardEngineBase})
+  id: BeginAnimationScaleX(System.Windows.UIElement,System.Double,System.Double,System.Double,System.Action{System.Windows.UIElement},System.Action{H.Extensions.StoryBoard.StoryboardEngineBase})
+  isExtensionMethod: true
+  parent: H.Extensions.StoryBoard.ElementExtention
+  langs:
+  - csharp
+  - vb
+  name: BeginAnimationScaleX(UIElement, double, double, double, Action<UIElement>, Action<StoryboardEngineBase>)
+  nameWithType: ElementExtention.BeginAnimationScaleX(UIElement, double, double, double, Action<UIElement>, Action<StoryboardEngineBase>)
+  fullName: H.Extensions.StoryBoard.ElementExtention.BeginAnimationScaleX(System.Windows.UIElement, double, double, double, System.Action<System.Windows.UIElement>, System.Action<H.Extensions.StoryBoard.StoryboardEngineBase>)
+  type: Method
+  source:
+    id: BeginAnimationScaleX
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.StoryBoard\ElementExtention.cs
+    startLine: 179
+  assemblies:
+  - H.Extensions.StoryBoard
+  namespace: H.Extensions.StoryBoard
+  syntax:
+    content: public static StoryboardEngineBase BeginAnimationScaleX(this UIElement element, double from, double to, double duration = 1000, Action<UIElement> Completed = null, Action<StoryboardEngineBase> init = null)
+    parameters:
+    - id: element
+      type: System.Windows.UIElement
+    - id: from
+      type: System.Double
+    - id: to
+      type: System.Double
+    - id: duration
+      type: System.Double
+    - id: Completed
+      type: System.Action{System.Windows.UIElement}
+    - id: init
+      type: System.Action{H.Extensions.StoryBoard.StoryboardEngineBase}
+    return:
+      type: H.Extensions.StoryBoard.StoryboardEngineBase
+    content.vb: Public Shared Function BeginAnimationScaleX(element As UIElement, from As Double, [to] As Double, duration As Double = 1000, Completed As Action(Of UIElement) = Nothing, init As Action(Of StoryboardEngineBase) = Nothing) As StoryboardEngineBase
+  overload: H.Extensions.StoryBoard.ElementExtention.BeginAnimationScaleX*
+  nameWithType.vb: ElementExtention.BeginAnimationScaleX(UIElement, Double, Double, Double, Action(Of UIElement), Action(Of StoryboardEngineBase))
+  fullName.vb: H.Extensions.StoryBoard.ElementExtention.BeginAnimationScaleX(System.Windows.UIElement, Double, Double, Double, System.Action(Of System.Windows.UIElement), System.Action(Of H.Extensions.StoryBoard.StoryboardEngineBase))
+  name.vb: BeginAnimationScaleX(UIElement, Double, Double, Double, Action(Of UIElement), Action(Of StoryboardEngineBase))
+- uid: H.Extensions.StoryBoard.ElementExtention.BeginAnimationSkewX(System.Windows.UIElement,System.Double,System.Double,System.Double,System.Action{System.Windows.UIElement},System.Action{H.Extensions.StoryBoard.StoryboardEngineBase})
+  commentId: M:H.Extensions.StoryBoard.ElementExtention.BeginAnimationSkewX(System.Windows.UIElement,System.Double,System.Double,System.Double,System.Action{System.Windows.UIElement},System.Action{H.Extensions.StoryBoard.StoryboardEngineBase})
+  id: BeginAnimationSkewX(System.Windows.UIElement,System.Double,System.Double,System.Double,System.Action{System.Windows.UIElement},System.Action{H.Extensions.StoryBoard.StoryboardEngineBase})
+  isExtensionMethod: true
+  parent: H.Extensions.StoryBoard.ElementExtention
+  langs:
+  - csharp
+  - vb
+  name: BeginAnimationSkewX(UIElement, double, double, double, Action<UIElement>, Action<StoryboardEngineBase>)
+  nameWithType: ElementExtention.BeginAnimationSkewX(UIElement, double, double, double, Action<UIElement>, Action<StoryboardEngineBase>)
+  fullName: H.Extensions.StoryBoard.ElementExtention.BeginAnimationSkewX(System.Windows.UIElement, double, double, double, System.Action<System.Windows.UIElement>, System.Action<H.Extensions.StoryBoard.StoryboardEngineBase>)
+  type: Method
+  source:
+    id: BeginAnimationSkewX
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.StoryBoard\ElementExtention.cs
+    startLine: 188
+  assemblies:
+  - H.Extensions.StoryBoard
+  namespace: H.Extensions.StoryBoard
+  syntax:
+    content: public static StoryboardEngineBase BeginAnimationSkewX(this UIElement element, double from, double to, double duration = 1000, Action<UIElement> Completed = null, Action<StoryboardEngineBase> init = null)
+    parameters:
+    - id: element
+      type: System.Windows.UIElement
+    - id: from
+      type: System.Double
+    - id: to
+      type: System.Double
+    - id: duration
+      type: System.Double
+    - id: Completed
+      type: System.Action{System.Windows.UIElement}
+    - id: init
+      type: System.Action{H.Extensions.StoryBoard.StoryboardEngineBase}
+    return:
+      type: H.Extensions.StoryBoard.StoryboardEngineBase
+    content.vb: Public Shared Function BeginAnimationSkewX(element As UIElement, from As Double, [to] As Double, duration As Double = 1000, Completed As Action(Of UIElement) = Nothing, init As Action(Of StoryboardEngineBase) = Nothing) As StoryboardEngineBase
+  overload: H.Extensions.StoryBoard.ElementExtention.BeginAnimationSkewX*
+  nameWithType.vb: ElementExtention.BeginAnimationSkewX(UIElement, Double, Double, Double, Action(Of UIElement), Action(Of StoryboardEngineBase))
+  fullName.vb: H.Extensions.StoryBoard.ElementExtention.BeginAnimationSkewX(System.Windows.UIElement, Double, Double, Double, System.Action(Of System.Windows.UIElement), System.Action(Of H.Extensions.StoryBoard.StoryboardEngineBase))
+  name.vb: BeginAnimationSkewX(UIElement, Double, Double, Double, Action(Of UIElement), Action(Of StoryboardEngineBase))
+- uid: H.Extensions.StoryBoard.ElementExtention.BeginAnimationSkewY(System.Windows.UIElement,System.Double,System.Double,System.Double,System.Action{System.Windows.UIElement},System.Action{H.Extensions.StoryBoard.StoryboardEngineBase})
+  commentId: M:H.Extensions.StoryBoard.ElementExtention.BeginAnimationSkewY(System.Windows.UIElement,System.Double,System.Double,System.Double,System.Action{System.Windows.UIElement},System.Action{H.Extensions.StoryBoard.StoryboardEngineBase})
+  id: BeginAnimationSkewY(System.Windows.UIElement,System.Double,System.Double,System.Double,System.Action{System.Windows.UIElement},System.Action{H.Extensions.StoryBoard.StoryboardEngineBase})
+  isExtensionMethod: true
+  parent: H.Extensions.StoryBoard.ElementExtention
+  langs:
+  - csharp
+  - vb
+  name: BeginAnimationSkewY(UIElement, double, double, double, Action<UIElement>, Action<StoryboardEngineBase>)
+  nameWithType: ElementExtention.BeginAnimationSkewY(UIElement, double, double, double, Action<UIElement>, Action<StoryboardEngineBase>)
+  fullName: H.Extensions.StoryBoard.ElementExtention.BeginAnimationSkewY(System.Windows.UIElement, double, double, double, System.Action<System.Windows.UIElement>, System.Action<H.Extensions.StoryBoard.StoryboardEngineBase>)
+  type: Method
+  source:
+    id: BeginAnimationSkewY
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.StoryBoard\ElementExtention.cs
+    startLine: 197
+  assemblies:
+  - H.Extensions.StoryBoard
+  namespace: H.Extensions.StoryBoard
+  syntax:
+    content: public static void BeginAnimationSkewY(this UIElement element, double from, double to, double duration = 1000, Action<UIElement> Completed = null, Action<StoryboardEngineBase> init = null)
+    parameters:
+    - id: element
+      type: System.Windows.UIElement
+    - id: from
+      type: System.Double
+    - id: to
+      type: System.Double
+    - id: duration
+      type: System.Double
+    - id: Completed
+      type: System.Action{System.Windows.UIElement}
+    - id: init
+      type: System.Action{H.Extensions.StoryBoard.StoryboardEngineBase}
+    content.vb: Public Shared Sub BeginAnimationSkewY(element As UIElement, from As Double, [to] As Double, duration As Double = 1000, Completed As Action(Of UIElement) = Nothing, init As Action(Of StoryboardEngineBase) = Nothing)
+  overload: H.Extensions.StoryBoard.ElementExtention.BeginAnimationSkewY*
+  nameWithType.vb: ElementExtention.BeginAnimationSkewY(UIElement, Double, Double, Double, Action(Of UIElement), Action(Of StoryboardEngineBase))
+  fullName.vb: H.Extensions.StoryBoard.ElementExtention.BeginAnimationSkewY(System.Windows.UIElement, Double, Double, Double, System.Action(Of System.Windows.UIElement), System.Action(Of H.Extensions.StoryBoard.StoryboardEngineBase))
+  name.vb: BeginAnimationSkewY(UIElement, Double, Double, Double, Action(Of UIElement), Action(Of StoryboardEngineBase))
+- uid: H.Extensions.StoryBoard.ElementExtention.BeginAnimationAngle(System.Windows.UIElement,System.Double,System.Double,System.Double,System.Action{System.Windows.UIElement},System.Action{H.Extensions.StoryBoard.StoryboardEngineBase})
+  commentId: M:H.Extensions.StoryBoard.ElementExtention.BeginAnimationAngle(System.Windows.UIElement,System.Double,System.Double,System.Double,System.Action{System.Windows.UIElement},System.Action{H.Extensions.StoryBoard.StoryboardEngineBase})
+  id: BeginAnimationAngle(System.Windows.UIElement,System.Double,System.Double,System.Double,System.Action{System.Windows.UIElement},System.Action{H.Extensions.StoryBoard.StoryboardEngineBase})
+  isExtensionMethod: true
+  parent: H.Extensions.StoryBoard.ElementExtention
+  langs:
+  - csharp
+  - vb
+  name: BeginAnimationAngle(UIElement, double, double, double, Action<UIElement>, Action<StoryboardEngineBase>)
+  nameWithType: ElementExtention.BeginAnimationAngle(UIElement, double, double, double, Action<UIElement>, Action<StoryboardEngineBase>)
+  fullName: H.Extensions.StoryBoard.ElementExtention.BeginAnimationAngle(System.Windows.UIElement, double, double, double, System.Action<System.Windows.UIElement>, System.Action<H.Extensions.StoryBoard.StoryboardEngineBase>)
+  type: Method
+  source:
+    id: BeginAnimationAngle
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.StoryBoard\ElementExtention.cs
+    startLine: 206
+  assemblies:
+  - H.Extensions.StoryBoard
+  namespace: H.Extensions.StoryBoard
+  syntax:
+    content: public static StoryboardEngineBase BeginAnimationAngle(this UIElement element, double from, double to, double duration = 1000, Action<UIElement> Completed = null, Action<StoryboardEngineBase> init = null)
+    parameters:
+    - id: element
+      type: System.Windows.UIElement
+    - id: from
+      type: System.Double
+    - id: to
+      type: System.Double
+    - id: duration
+      type: System.Double
+    - id: Completed
+      type: System.Action{System.Windows.UIElement}
+    - id: init
+      type: System.Action{H.Extensions.StoryBoard.StoryboardEngineBase}
+    return:
+      type: H.Extensions.StoryBoard.StoryboardEngineBase
+    content.vb: Public Shared Function BeginAnimationAngle(element As UIElement, from As Double, [to] As Double, duration As Double = 1000, Completed As Action(Of UIElement) = Nothing, init As Action(Of StoryboardEngineBase) = Nothing) As StoryboardEngineBase
+  overload: H.Extensions.StoryBoard.ElementExtention.BeginAnimationAngle*
+  nameWithType.vb: ElementExtention.BeginAnimationAngle(UIElement, Double, Double, Double, Action(Of UIElement), Action(Of StoryboardEngineBase))
+  fullName.vb: H.Extensions.StoryBoard.ElementExtention.BeginAnimationAngle(System.Windows.UIElement, Double, Double, Double, System.Action(Of System.Windows.UIElement), System.Action(Of H.Extensions.StoryBoard.StoryboardEngineBase))
+  name.vb: BeginAnimationAngle(UIElement, Double, Double, Double, Action(Of UIElement), Action(Of StoryboardEngineBase))
+- uid: H.Extensions.StoryBoard.ElementExtention.Wait(System.Windows.UIElement,System.Double,System.Action{System.Windows.UIElement})
+  commentId: M:H.Extensions.StoryBoard.ElementExtention.Wait(System.Windows.UIElement,System.Double,System.Action{System.Windows.UIElement})
+  id: Wait(System.Windows.UIElement,System.Double,System.Action{System.Windows.UIElement})
+  isExtensionMethod: true
+  parent: H.Extensions.StoryBoard.ElementExtention
+  langs:
+  - csharp
+  - vb
+  name: Wait(UIElement, double, Action<UIElement>)
+  nameWithType: ElementExtention.Wait(UIElement, double, Action<UIElement>)
+  fullName: H.Extensions.StoryBoard.ElementExtention.Wait(System.Windows.UIElement, double, System.Action<System.Windows.UIElement>)
+  type: Method
+  source:
+    id: Wait
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.StoryBoard\ElementExtention.cs
+    startLine: 215
+  assemblies:
+  - H.Extensions.StoryBoard
+  namespace: H.Extensions.StoryBoard
+  syntax:
+    content: public static void Wait(this UIElement element, double duration = 1000, Action<UIElement> Completed = null)
+    parameters:
+    - id: element
+      type: System.Windows.UIElement
+    - id: duration
+      type: System.Double
+    - id: Completed
+      type: System.Action{System.Windows.UIElement}
+    content.vb: Public Shared Sub Wait(element As UIElement, duration As Double = 1000, Completed As Action(Of UIElement) = Nothing)
+  overload: H.Extensions.StoryBoard.ElementExtention.Wait*
+  nameWithType.vb: ElementExtention.Wait(UIElement, Double, Action(Of UIElement))
+  fullName.vb: H.Extensions.StoryBoard.ElementExtention.Wait(System.Windows.UIElement, Double, System.Action(Of System.Windows.UIElement))
+  name.vb: Wait(UIElement, Double, Action(Of UIElement))
+references:
+- uid: H.Extensions.StoryBoard
+  commentId: N:H.Extensions.StoryBoard
+  href: H.html
+  name: H.Extensions.StoryBoard
+  nameWithType: H.Extensions.StoryBoard
+  fullName: H.Extensions.StoryBoard
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.StoryBoard
+    name: StoryBoard
+    href: H.Extensions.StoryBoard.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.StoryBoard
+    name: StoryBoard
+    href: H.Extensions.StoryBoard.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: H.Extensions.StoryBoard.ElementExtention.BegionDoubleStoryBoard*
+  commentId: Overload:H.Extensions.StoryBoard.ElementExtention.BegionDoubleStoryBoard
+  href: H.Extensions.StoryBoard.ElementExtention.html#H_Extensions_StoryBoard_ElementExtention_BegionDoubleStoryBoard_System_Windows_UIElement_System_Double_System_Double_System_Double_System_String_System_Action_System_Windows_UIElement__System_Action_H_Extensions_StoryBoard_StoryboardEngineBase__
+  name: BegionDoubleStoryBoard
+  nameWithType: ElementExtention.BegionDoubleStoryBoard
+  fullName: H.Extensions.StoryBoard.ElementExtention.BegionDoubleStoryBoard
+- uid: System.Windows.UIElement
+  commentId: T:System.Windows.UIElement
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.uielement
+  name: UIElement
+  nameWithType: UIElement
+  fullName: System.Windows.UIElement
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Action{System.Windows.UIElement}
+  commentId: T:System.Action{System.Windows.UIElement}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<UIElement>
+  nameWithType: Action<UIElement>
+  fullName: System.Action<System.Windows.UIElement>
+  nameWithType.vb: Action(Of UIElement)
+  fullName.vb: System.Action(Of System.Windows.UIElement)
+  name.vb: Action(Of UIElement)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: System.Windows.UIElement
+    name: UIElement
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.uielement
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Windows.UIElement
+    name: UIElement
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.uielement
+  - name: )
+- uid: System.Action{H.Extensions.StoryBoard.StoryboardEngineBase}
+  commentId: T:System.Action{H.Extensions.StoryBoard.StoryboardEngineBase}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<StoryboardEngineBase>
+  nameWithType: Action<StoryboardEngineBase>
+  fullName: System.Action<H.Extensions.StoryBoard.StoryboardEngineBase>
+  nameWithType.vb: Action(Of StoryboardEngineBase)
+  fullName.vb: System.Action(Of H.Extensions.StoryBoard.StoryboardEngineBase)
+  name.vb: Action(Of StoryboardEngineBase)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: H.Extensions.StoryBoard.StoryboardEngineBase
+    name: StoryboardEngineBase
+    href: H.Extensions.StoryBoard.StoryboardEngineBase.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: H.Extensions.StoryBoard.StoryboardEngineBase
+    name: StoryboardEngineBase
+    href: H.Extensions.StoryBoard.StoryboardEngineBase.html
+  - name: )
+- uid: H.Extensions.StoryBoard.StoryboardEngineBase
+  commentId: T:H.Extensions.StoryBoard.StoryboardEngineBase
+  parent: H.Extensions.StoryBoard
+  href: H.Extensions.StoryBoard.StoryboardEngineBase.html
+  name: StoryboardEngineBase
+  nameWithType: StoryboardEngineBase
+  fullName: H.Extensions.StoryBoard.StoryboardEngineBase
+- uid: System.Windows
+  commentId: N:System.Windows
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows
+  nameWithType: System.Windows
+  fullName: System.Windows
+  spec.csharp:
+  - uid: System
+    name: System
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  spec.vb:
+  - uid: System
+    name: System
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Extensions.StoryBoard.ElementExtention.GetTransform*
+  commentId: Overload:H.Extensions.StoryBoard.ElementExtention.GetTransform
+  href: H.Extensions.StoryBoard.ElementExtention.html#H_Extensions_StoryBoard_ElementExtention_GetTransform__1_System_Windows_UIElement_
+  name: GetTransform
+  nameWithType: ElementExtention.GetTransform
+  fullName: H.Extensions.StoryBoard.ElementExtention.GetTransform
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: H.Extensions.StoryBoard.ElementExtention.CheckDefaultTransformGroup*
+  commentId: Overload:H.Extensions.StoryBoard.ElementExtention.CheckDefaultTransformGroup
+  href: H.Extensions.StoryBoard.ElementExtention.html#H_Extensions_StoryBoard_ElementExtention_CheckDefaultTransformGroup_System_Windows_UIElement_
+  name: CheckDefaultTransformGroup
+  nameWithType: ElementExtention.CheckDefaultTransformGroup
+  fullName: H.Extensions.StoryBoard.ElementExtention.CheckDefaultTransformGroup
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: H.Extensions.StoryBoard.ElementExtention.BeginAnimationXY*
+  commentId: Overload:H.Extensions.StoryBoard.ElementExtention.BeginAnimationXY
+  href: H.Extensions.StoryBoard.ElementExtention.html#H_Extensions_StoryBoard_ElementExtention_BeginAnimationXY_System_Windows_UIElement_System_Double_System_Double_System_Double_
+  name: BeginAnimationXY
+  nameWithType: ElementExtention.BeginAnimationXY
+  fullName: H.Extensions.StoryBoard.ElementExtention.BeginAnimationXY
+- uid: H.Extensions.StoryBoard.ElementExtention.BeginAnimationScale*
+  commentId: Overload:H.Extensions.StoryBoard.ElementExtention.BeginAnimationScale
+  href: H.Extensions.StoryBoard.ElementExtention.html#H_Extensions_StoryBoard_ElementExtention_BeginAnimationScale_System_Windows_UIElement_System_Double_System_Double_System_Double_
+  name: BeginAnimationScale
+  nameWithType: ElementExtention.BeginAnimationScale
+  fullName: H.Extensions.StoryBoard.ElementExtention.BeginAnimationScale
+- uid: H.Extensions.StoryBoard.ElementExtention.BeginAnimationAngle*
+  commentId: Overload:H.Extensions.StoryBoard.ElementExtention.BeginAnimationAngle
+  href: H.Extensions.StoryBoard.ElementExtention.html#H_Extensions_StoryBoard_ElementExtention_BeginAnimationAngle_System_Windows_UIElement_System_Double_System_Double_
+  name: BeginAnimationAngle
+  nameWithType: ElementExtention.BeginAnimationAngle
+  fullName: H.Extensions.StoryBoard.ElementExtention.BeginAnimationAngle
+- uid: H.Extensions.StoryBoard.ElementExtention.BeginAnimationOpacity*
+  commentId: Overload:H.Extensions.StoryBoard.ElementExtention.BeginAnimationOpacity
+  href: H.Extensions.StoryBoard.ElementExtention.html#H_Extensions_StoryBoard_ElementExtention_BeginAnimationOpacity_System_Windows_UIElement_System_Double_System_Double_
+  name: BeginAnimationOpacity
+  nameWithType: ElementExtention.BeginAnimationOpacity
+  fullName: H.Extensions.StoryBoard.ElementExtention.BeginAnimationOpacity
+- uid: H.Extensions.StoryBoard.ElementExtention.BeginAnimationSkew*
+  commentId: Overload:H.Extensions.StoryBoard.ElementExtention.BeginAnimationSkew
+  href: H.Extensions.StoryBoard.ElementExtention.html#H_Extensions_StoryBoard_ElementExtention_BeginAnimationSkew_System_Windows_UIElement_System_Double_System_Double_System_Double_
+  name: BeginAnimationSkew
+  nameWithType: ElementExtention.BeginAnimationSkew
+  fullName: H.Extensions.StoryBoard.ElementExtention.BeginAnimationSkew
+- uid: H.Extensions.StoryBoard.ElementExtention.BeginAnimationPath*
+  commentId: Overload:H.Extensions.StoryBoard.ElementExtention.BeginAnimationPath
+  href: H.Extensions.StoryBoard.ElementExtention.html#H_Extensions_StoryBoard_ElementExtention_BeginAnimationPath_System_Windows_UIElement_System_Windows_Media_PathGeometry_System_Double_System_Boolean_System_Boolean_
+  name: BeginAnimationPath
+  nameWithType: ElementExtention.BeginAnimationPath
+  fullName: H.Extensions.StoryBoard.ElementExtention.BeginAnimationPath
+- uid: System.Windows.Media.PathGeometry
+  commentId: T:System.Windows.Media.PathGeometry
+  parent: System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.media.pathgeometry
+  name: PathGeometry
+  nameWithType: PathGeometry
+  fullName: System.Windows.Media.PathGeometry
+- uid: System.Windows.Media
+  commentId: N:System.Windows.Media
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Media
+  nameWithType: System.Windows.Media
+  fullName: System.Windows.Media
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Media
+    name: Media
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.media
+- uid: H.Extensions.StoryBoard.ElementExtention.BeginAnimationX*
+  commentId: Overload:H.Extensions.StoryBoard.ElementExtention.BeginAnimationX
+  href: H.Extensions.StoryBoard.ElementExtention.html#H_Extensions_StoryBoard_ElementExtention_BeginAnimationX_System_Windows_UIElement_System_Double_System_Double_System_Double_System_Action_System_Windows_UIElement__System_Action_H_Extensions_StoryBoard_StoryboardEngineBase__
+  name: BeginAnimationX
+  nameWithType: ElementExtention.BeginAnimationX
+  fullName: H.Extensions.StoryBoard.ElementExtention.BeginAnimationX
+- uid: H.Extensions.StoryBoard.ElementExtention.BeginAnimationY*
+  commentId: Overload:H.Extensions.StoryBoard.ElementExtention.BeginAnimationY
+  href: H.Extensions.StoryBoard.ElementExtention.html#H_Extensions_StoryBoard_ElementExtention_BeginAnimationY_System_Windows_UIElement_System_Double_System_Double_System_Double_System_Action_System_Windows_UIElement__System_Action_H_Extensions_StoryBoard_StoryboardEngineBase__
+  name: BeginAnimationY
+  nameWithType: ElementExtention.BeginAnimationY
+  fullName: H.Extensions.StoryBoard.ElementExtention.BeginAnimationY
+- uid: H.Extensions.StoryBoard.ElementExtention.BeginAnimationScaleY*
+  commentId: Overload:H.Extensions.StoryBoard.ElementExtention.BeginAnimationScaleY
+  href: H.Extensions.StoryBoard.ElementExtention.html#H_Extensions_StoryBoard_ElementExtention_BeginAnimationScaleY_System_Windows_UIElement_System_Double_System_Double_System_Double_System_Action_System_Windows_UIElement__System_Action_H_Extensions_StoryBoard_StoryboardEngineBase__
+  name: BeginAnimationScaleY
+  nameWithType: ElementExtention.BeginAnimationScaleY
+  fullName: H.Extensions.StoryBoard.ElementExtention.BeginAnimationScaleY
+- uid: H.Extensions.StoryBoard.ElementExtention.BeginAnimationScaleX*
+  commentId: Overload:H.Extensions.StoryBoard.ElementExtention.BeginAnimationScaleX
+  href: H.Extensions.StoryBoard.ElementExtention.html#H_Extensions_StoryBoard_ElementExtention_BeginAnimationScaleX_System_Windows_UIElement_System_Double_System_Double_System_Double_System_Action_System_Windows_UIElement__System_Action_H_Extensions_StoryBoard_StoryboardEngineBase__
+  name: BeginAnimationScaleX
+  nameWithType: ElementExtention.BeginAnimationScaleX
+  fullName: H.Extensions.StoryBoard.ElementExtention.BeginAnimationScaleX
+- uid: H.Extensions.StoryBoard.ElementExtention.BeginAnimationSkewX*
+  commentId: Overload:H.Extensions.StoryBoard.ElementExtention.BeginAnimationSkewX
+  href: H.Extensions.StoryBoard.ElementExtention.html#H_Extensions_StoryBoard_ElementExtention_BeginAnimationSkewX_System_Windows_UIElement_System_Double_System_Double_System_Double_System_Action_System_Windows_UIElement__System_Action_H_Extensions_StoryBoard_StoryboardEngineBase__
+  name: BeginAnimationSkewX
+  nameWithType: ElementExtention.BeginAnimationSkewX
+  fullName: H.Extensions.StoryBoard.ElementExtention.BeginAnimationSkewX
+- uid: H.Extensions.StoryBoard.ElementExtention.BeginAnimationSkewY*
+  commentId: Overload:H.Extensions.StoryBoard.ElementExtention.BeginAnimationSkewY
+  href: H.Extensions.StoryBoard.ElementExtention.html#H_Extensions_StoryBoard_ElementExtention_BeginAnimationSkewY_System_Windows_UIElement_System_Double_System_Double_System_Double_System_Action_System_Windows_UIElement__System_Action_H_Extensions_StoryBoard_StoryboardEngineBase__
+  name: BeginAnimationSkewY
+  nameWithType: ElementExtention.BeginAnimationSkewY
+  fullName: H.Extensions.StoryBoard.ElementExtention.BeginAnimationSkewY
+- uid: H.Extensions.StoryBoard.ElementExtention.Wait*
+  commentId: Overload:H.Extensions.StoryBoard.ElementExtention.Wait
+  href: H.Extensions.StoryBoard.ElementExtention.html#H_Extensions_StoryBoard_ElementExtention_Wait_System_Windows_UIElement_System_Double_System_Action_System_Windows_UIElement__
+  name: Wait
+  nameWithType: ElementExtention.Wait
+  fullName: H.Extensions.StoryBoard.ElementExtention.Wait

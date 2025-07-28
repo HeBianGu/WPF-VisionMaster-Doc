@@ -1,0 +1,62 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Services.Message.TaskBar
+  commentId: N:H.Services.Message.TaskBar
+  id: H.Services.Message.TaskBar
+  children:
+  - H.Services.Message.TaskBar.ITaskBarMessage
+  langs:
+  - csharp
+  - vb
+  name: H.Services.Message.TaskBar
+  nameWithType: H.Services.Message.TaskBar
+  fullName: H.Services.Message.TaskBar
+  type: Namespace
+  assemblies:
+  - H.Services.Message
+references:
+- uid: H.Services.Message.TaskBar.ITaskBarMessage
+  commentId: T:H.Services.Message.TaskBar.ITaskBarMessage
+  parent: H.Services.Message.TaskBar
+  href: H.Services.Message.TaskBar.ITaskBarMessage.html
+  name: ITaskBarMessage
+  nameWithType: ITaskBarMessage
+  fullName: H.Services.Message.TaskBar.ITaskBarMessage
+- uid: H.Services.Message.TaskBar
+  commentId: N:H.Services.Message.TaskBar
+  href: H.html
+  name: H.Services.Message.TaskBar
+  nameWithType: H.Services.Message.TaskBar
+  fullName: H.Services.Message.TaskBar
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Message
+    name: Message
+    href: H.Services.Message.html
+  - name: .
+  - uid: H.Services.Message.TaskBar
+    name: TaskBar
+    href: H.Services.Message.TaskBar.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Message
+    name: Message
+    href: H.Services.Message.html
+  - name: .
+  - uid: H.Services.Message.TaskBar
+    name: TaskBar
+    href: H.Services.Message.TaskBar.html

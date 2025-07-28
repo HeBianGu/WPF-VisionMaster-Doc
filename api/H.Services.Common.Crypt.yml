@@ -1,0 +1,69 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Services.Common.Crypt
+  commentId: N:H.Services.Common.Crypt
+  id: H.Services.Common.Crypt
+  children:
+  - H.Services.Common.Crypt.ICryptService
+  - H.Services.Common.Crypt.IocCrypt
+  langs:
+  - csharp
+  - vb
+  name: H.Services.Common.Crypt
+  nameWithType: H.Services.Common.Crypt
+  fullName: H.Services.Common.Crypt
+  type: Namespace
+  assemblies:
+  - H.Services.Common
+references:
+- uid: H.Services.Common.Crypt.ICryptService
+  commentId: T:H.Services.Common.Crypt.ICryptService
+  parent: H.Services.Common.Crypt
+  href: H.Services.Common.Crypt.ICryptService.html
+  name: ICryptService
+  nameWithType: ICryptService
+  fullName: H.Services.Common.Crypt.ICryptService
+- uid: H.Services.Common.Crypt.IocCrypt
+  commentId: T:H.Services.Common.Crypt.IocCrypt
+  href: H.Services.Common.Crypt.IocCrypt.html
+  name: IocCrypt
+  nameWithType: IocCrypt
+  fullName: H.Services.Common.Crypt.IocCrypt
+- uid: H.Services.Common.Crypt
+  commentId: N:H.Services.Common.Crypt
+  href: H.html
+  name: H.Services.Common.Crypt
+  nameWithType: H.Services.Common.Crypt
+  fullName: H.Services.Common.Crypt
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Common
+    name: Common
+    href: H.Services.Common.html
+  - name: .
+  - uid: H.Services.Common.Crypt
+    name: Crypt
+    href: H.Services.Common.Crypt.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Common
+    name: Common
+    href: H.Services.Common.html
+  - name: .
+  - uid: H.Services.Common.Crypt
+    name: Crypt
+    href: H.Services.Common.Crypt.html

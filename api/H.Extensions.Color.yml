@@ -1,0 +1,120 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.Color
+  commentId: N:H.Extensions.Color
+  id: H.Extensions.Color
+  children:
+  - H.Extensions.Color.ColorExtesion
+  - H.Extensions.Color.ColorFactory
+  - H.Extensions.Color.ColorSorter
+  - H.Extensions.Color.GetAvailableColorsExtension
+  - H.Extensions.Color.GetDepthColorsExtension
+  - H.Extensions.Color.GetStandardColorsExtension
+  - H.Extensions.Color.GetSystemColorsExtension
+  - H.Extensions.Color.HexColorEx
+  - H.Extensions.Color.HsbaColor
+  - H.Extensions.Color.RgbaColor
+  langs:
+  - csharp
+  - vb
+  name: H.Extensions.Color
+  nameWithType: H.Extensions.Color
+  fullName: H.Extensions.Color
+  type: Namespace
+  assemblies:
+  - H.Extensions.Color
+references:
+- uid: H.Extensions.Color.ColorFactory
+  commentId: T:H.Extensions.Color.ColorFactory
+  href: H.Extensions.Color.ColorFactory.html
+  name: ColorFactory
+  nameWithType: ColorFactory
+  fullName: H.Extensions.Color.ColorFactory
+- uid: H.Extensions.Color.ColorSorter
+  commentId: T:H.Extensions.Color.ColorSorter
+  href: H.Extensions.Color.ColorSorter.html
+  name: ColorSorter
+  nameWithType: ColorSorter
+  fullName: H.Extensions.Color.ColorSorter
+- uid: H.Extensions.Color.GetAvailableColorsExtension
+  commentId: T:H.Extensions.Color.GetAvailableColorsExtension
+  href: H.Extensions.Color.GetAvailableColorsExtension.html
+  name: GetAvailableColorsExtension
+  nameWithType: GetAvailableColorsExtension
+  fullName: H.Extensions.Color.GetAvailableColorsExtension
+- uid: H.Extensions.Color.GetDepthColorsExtension
+  commentId: T:H.Extensions.Color.GetDepthColorsExtension
+  parent: H.Extensions.Color
+  href: H.Extensions.Color.GetDepthColorsExtension.html
+  name: GetDepthColorsExtension
+  nameWithType: GetDepthColorsExtension
+  fullName: H.Extensions.Color.GetDepthColorsExtension
+- uid: H.Extensions.Color.GetStandardColorsExtension
+  commentId: T:H.Extensions.Color.GetStandardColorsExtension
+  href: H.Extensions.Color.GetStandardColorsExtension.html
+  name: GetStandardColorsExtension
+  nameWithType: GetStandardColorsExtension
+  fullName: H.Extensions.Color.GetStandardColorsExtension
+- uid: H.Extensions.Color.GetSystemColorsExtension
+  commentId: T:H.Extensions.Color.GetSystemColorsExtension
+  href: H.Extensions.Color.GetSystemColorsExtension.html
+  name: GetSystemColorsExtension
+  nameWithType: GetSystemColorsExtension
+  fullName: H.Extensions.Color.GetSystemColorsExtension
+- uid: H.Extensions.Color.ColorExtesion
+  commentId: T:H.Extensions.Color.ColorExtesion
+  href: H.Extensions.Color.ColorExtesion.html
+  name: ColorExtesion
+  nameWithType: ColorExtesion
+  fullName: H.Extensions.Color.ColorExtesion
+- uid: H.Extensions.Color.HexColorEx
+  commentId: T:H.Extensions.Color.HexColorEx
+  parent: H.Extensions.Color
+  href: H.Extensions.Color.HexColorEx.html
+  name: HexColorEx
+  nameWithType: HexColorEx
+  fullName: H.Extensions.Color.HexColorEx
+- uid: H.Extensions.Color.HsbaColor
+  commentId: T:H.Extensions.Color.HsbaColor
+  parent: H.Extensions.Color
+  href: H.Extensions.Color.HsbaColor.html
+  name: HsbaColor
+  nameWithType: HsbaColor
+  fullName: H.Extensions.Color.HsbaColor
+- uid: H.Extensions.Color.RgbaColor
+  commentId: T:H.Extensions.Color.RgbaColor
+  parent: H.Extensions.Color
+  href: H.Extensions.Color.RgbaColor.html
+  name: RgbaColor
+  nameWithType: RgbaColor
+  fullName: H.Extensions.Color.RgbaColor
+- uid: H.Extensions.Color
+  commentId: N:H.Extensions.Color
+  href: H.html
+  name: H.Extensions.Color
+  nameWithType: H.Extensions.Color
+  fullName: H.Extensions.Color
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Color
+    name: Color
+    href: H.Extensions.Color.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Color
+    name: Color
+    href: H.Extensions.Color.html

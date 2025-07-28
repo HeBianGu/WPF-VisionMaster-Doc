@@ -1,0 +1,164 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Modules.Project
+  commentId: N:H.Modules.Project
+  id: H.Modules.Project
+  children:
+  - H.Modules.Project.GetIsCurrentProjectConverter
+  - H.Modules.Project.IProjectOptions
+  - H.Modules.Project.ProjectBox
+  - H.Modules.Project.ProjectExtension
+  - H.Modules.Project.ProjectItem
+  - H.Modules.Project.ProjectListViewPresenter
+  - H.Modules.Project.ProjectOptions
+  - H.Modules.Project.ProjectService
+  - H.Modules.Project.ProjectServiceBase`1
+  - H.Modules.Project.ProjectViewPresenter
+  - H.Modules.Project.Projects`1
+  langs:
+  - csharp
+  - vb
+  name: H.Modules.Project
+  nameWithType: H.Modules.Project
+  fullName: H.Modules.Project
+  type: Namespace
+  assemblies:
+  - H.Modules.Project
+references:
+- uid: H.Modules.Project.GetIsCurrentProjectConverter
+  commentId: T:H.Modules.Project.GetIsCurrentProjectConverter
+  href: H.Modules.Project.GetIsCurrentProjectConverter.html
+  name: GetIsCurrentProjectConverter
+  nameWithType: GetIsCurrentProjectConverter
+  fullName: H.Modules.Project.GetIsCurrentProjectConverter
+- uid: H.Modules.Project.IProjectOptions
+  commentId: T:H.Modules.Project.IProjectOptions
+  parent: H.Modules.Project
+  href: H.Modules.Project.IProjectOptions.html
+  name: IProjectOptions
+  nameWithType: IProjectOptions
+  fullName: H.Modules.Project.IProjectOptions
+- uid: H.Modules.Project.ProjectBox
+  commentId: T:H.Modules.Project.ProjectBox
+  href: H.Modules.Project.ProjectBox.html
+  name: ProjectBox
+  nameWithType: ProjectBox
+  fullName: H.Modules.Project.ProjectBox
+- uid: H.Modules.Project.ProjectExtension
+  commentId: T:H.Modules.Project.ProjectExtension
+  parent: H.Modules.Project
+  href: H.Modules.Project.ProjectExtension.html
+  name: ProjectExtension
+  nameWithType: ProjectExtension
+  fullName: H.Modules.Project.ProjectExtension
+- uid: H.Modules.Project.ProjectItem
+  commentId: T:H.Modules.Project.ProjectItem
+  parent: H.Modules.Project
+  href: H.Modules.Project.ProjectItem.html
+  name: ProjectItem
+  nameWithType: ProjectItem
+  fullName: H.Modules.Project.ProjectItem
+- uid: H.Modules.Project.ProjectListViewPresenter
+  commentId: T:H.Modules.Project.ProjectListViewPresenter
+  href: H.Modules.Project.ProjectListViewPresenter.html
+  name: ProjectListViewPresenter
+  nameWithType: ProjectListViewPresenter
+  fullName: H.Modules.Project.ProjectListViewPresenter
+- uid: H.Modules.Project.ProjectOptions
+  commentId: T:H.Modules.Project.ProjectOptions
+  href: H.Modules.Project.ProjectOptions.html
+  name: ProjectOptions
+  nameWithType: ProjectOptions
+  fullName: H.Modules.Project.ProjectOptions
+- uid: H.Modules.Project.ProjectService
+  commentId: T:H.Modules.Project.ProjectService
+  href: H.Modules.Project.ProjectService.html
+  name: ProjectService
+  nameWithType: ProjectService
+  fullName: H.Modules.Project.ProjectService
+- uid: H.Modules.Project.ProjectServiceBase`1
+  commentId: T:H.Modules.Project.ProjectServiceBase`1
+  href: H.Modules.Project.ProjectServiceBase-1.html
+  name: ProjectServiceBase<T>
+  nameWithType: ProjectServiceBase<T>
+  fullName: H.Modules.Project.ProjectServiceBase<T>
+  nameWithType.vb: ProjectServiceBase(Of T)
+  fullName.vb: H.Modules.Project.ProjectServiceBase(Of T)
+  name.vb: ProjectServiceBase(Of T)
+  spec.csharp:
+  - uid: H.Modules.Project.ProjectServiceBase`1
+    name: ProjectServiceBase
+    href: H.Modules.Project.ProjectServiceBase-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Modules.Project.ProjectServiceBase`1
+    name: ProjectServiceBase
+    href: H.Modules.Project.ProjectServiceBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Modules.Project.Projects`1
+  commentId: T:H.Modules.Project.Projects`1
+  href: H.Modules.Project.Projects-1.html
+  name: Projects<T>
+  nameWithType: Projects<T>
+  fullName: H.Modules.Project.Projects<T>
+  nameWithType.vb: Projects(Of T)
+  fullName.vb: H.Modules.Project.Projects(Of T)
+  name.vb: Projects(Of T)
+  spec.csharp:
+  - uid: H.Modules.Project.Projects`1
+    name: Projects
+    href: H.Modules.Project.Projects-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Modules.Project.Projects`1
+    name: Projects
+    href: H.Modules.Project.Projects-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Modules.Project.ProjectViewPresenter
+  commentId: T:H.Modules.Project.ProjectViewPresenter
+  href: H.Modules.Project.ProjectViewPresenter.html
+  name: ProjectViewPresenter
+  nameWithType: ProjectViewPresenter
+  fullName: H.Modules.Project.ProjectViewPresenter
+- uid: H.Modules.Project
+  commentId: N:H.Modules.Project
+  href: H.html
+  name: H.Modules.Project
+  nameWithType: H.Modules.Project
+  fullName: H.Modules.Project
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Modules
+    name: Modules
+    href: H.Modules.html
+  - name: .
+  - uid: H.Modules.Project
+    name: Project
+    href: H.Modules.Project.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Modules
+    name: Modules
+    href: H.Modules.html
+  - name: .
+  - uid: H.Modules.Project
+    name: Project
+    href: H.Modules.Project.html

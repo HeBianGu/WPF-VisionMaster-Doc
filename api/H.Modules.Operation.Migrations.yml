@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Modules.Operation.Migrations
+  commentId: N:H.Modules.Operation.Migrations
+  id: H.Modules.Operation.Migrations
+  children:
+  - H.Modules.Operation.Migrations.init
+  langs:
+  - csharp
+  - vb
+  name: H.Modules.Operation.Migrations
+  nameWithType: H.Modules.Operation.Migrations
+  fullName: H.Modules.Operation.Migrations
+  type: Namespace
+  assemblies:
+  - H.Modules.Operation
+references:
+- uid: H.Modules.Operation.Migrations.init
+  commentId: T:H.Modules.Operation.Migrations.init
+  href: H.Modules.Operation.Migrations.init.html
+  name: init
+  nameWithType: init
+  fullName: H.Modules.Operation.Migrations.init

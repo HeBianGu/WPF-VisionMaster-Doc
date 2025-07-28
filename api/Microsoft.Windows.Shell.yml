@@ -1,0 +1,69 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.Windows.Shell
+  commentId: N:Microsoft.Windows.Shell
+  id: Microsoft.Windows.Shell
+  children:
+  - Microsoft.Windows.Shell.SystemCommands
+  - Microsoft.Windows.Shell.SystemParameters2
+  - Microsoft.Windows.Shell.WindowChrome
+  langs:
+  - csharp
+  - vb
+  name: Microsoft.Windows.Shell
+  nameWithType: Microsoft.Windows.Shell
+  fullName: Microsoft.Windows.Shell
+  type: Namespace
+  assemblies:
+  - H.Controls.Dock
+references:
+- uid: Microsoft.Windows.Shell.SystemCommands
+  commentId: T:Microsoft.Windows.Shell.SystemCommands
+  href: Microsoft.Windows.Shell.SystemCommands.html
+  name: SystemCommands
+  nameWithType: SystemCommands
+  fullName: Microsoft.Windows.Shell.SystemCommands
+- uid: Microsoft.Windows.Shell.SystemParameters2
+  commentId: T:Microsoft.Windows.Shell.SystemParameters2
+  parent: Microsoft.Windows.Shell
+  href: Microsoft.Windows.Shell.SystemParameters2.html
+  name: SystemParameters2
+  nameWithType: SystemParameters2
+  fullName: Microsoft.Windows.Shell.SystemParameters2
+- uid: Microsoft.Windows.Shell.WindowChrome
+  commentId: T:Microsoft.Windows.Shell.WindowChrome
+  parent: Microsoft.Windows.Shell
+  href: Microsoft.Windows.Shell.WindowChrome.html
+  name: WindowChrome
+  nameWithType: WindowChrome
+  fullName: Microsoft.Windows.Shell.WindowChrome
+- uid: Microsoft.Windows.Shell
+  commentId: N:Microsoft.Windows.Shell
+  href: Microsoft.html
+  name: Microsoft.Windows.Shell
+  nameWithType: Microsoft.Windows.Shell
+  fullName: Microsoft.Windows.Shell
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    href: Microsoft.html
+  - name: .
+  - uid: Microsoft.Windows
+    name: Windows
+    href: Microsoft.Windows.html
+  - name: .
+  - uid: Microsoft.Windows.Shell
+    name: Shell
+    href: Microsoft.Windows.Shell.html
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    href: Microsoft.html
+  - name: .
+  - uid: Microsoft.Windows
+    name: Windows
+    href: Microsoft.Windows.html
+  - name: .
+  - uid: Microsoft.Windows.Shell
+    name: Shell
+    href: Microsoft.Windows.Shell.html

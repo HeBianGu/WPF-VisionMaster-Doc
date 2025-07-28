@@ -1,0 +1,169 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Controls.ScheduleBox
+  commentId: N:H.Controls.ScheduleBox
+  id: H.Controls.ScheduleBox
+  children:
+  - H.Controls.ScheduleBox.CalendarIntervalTrigger
+  - H.Controls.ScheduleBox.DailyTimeIntervalTrigger
+  - H.Controls.ScheduleBox.DataTimeTrigger
+  - H.Controls.ScheduleBox.DayOfWeeks
+  - H.Controls.ScheduleBox.HelloJob
+  - H.Controls.ScheduleBox.IScheduleJob
+  - H.Controls.ScheduleBox.IScheduleTrigger
+  - H.Controls.ScheduleBox.RepeatTrigger
+  - H.Controls.ScheduleBox.ScheduleBox
+  - H.Controls.ScheduleBox.ScheduleCommands
+  - H.Controls.ScheduleBox.ScheduleJobBase
+  - H.Controls.ScheduleBox.ScheduleJobBase`1
+  - H.Controls.ScheduleBox.TestScheduleJob
+  - H.Controls.ScheduleBox.TriggerBase
+  langs:
+  - csharp
+  - vb
+  name: H.Controls.ScheduleBox
+  nameWithType: H.Controls.ScheduleBox
+  fullName: H.Controls.ScheduleBox
+  type: Namespace
+  assemblies:
+  - H.Controls.ScheduleBox
+references:
+- uid: H.Controls.ScheduleBox.HelloJob
+  commentId: T:H.Controls.ScheduleBox.HelloJob
+  href: H.Controls.ScheduleBox.HelloJob.html
+  name: HelloJob
+  nameWithType: HelloJob
+  fullName: H.Controls.ScheduleBox.HelloJob
+- uid: H.Controls.ScheduleBox.IScheduleJob
+  commentId: T:H.Controls.ScheduleBox.IScheduleJob
+  parent: H.Controls.ScheduleBox
+  href: H.Controls.ScheduleBox.IScheduleJob.html
+  name: IScheduleJob
+  nameWithType: IScheduleJob
+  fullName: H.Controls.ScheduleBox.IScheduleJob
+- uid: H.Controls.ScheduleBox.ScheduleJobBase`1
+  commentId: T:H.Controls.ScheduleBox.ScheduleJobBase`1
+  href: H.Controls.ScheduleBox.ScheduleJobBase-1.html
+  name: ScheduleJobBase<T>
+  nameWithType: ScheduleJobBase<T>
+  fullName: H.Controls.ScheduleBox.ScheduleJobBase<T>
+  nameWithType.vb: ScheduleJobBase(Of T)
+  fullName.vb: H.Controls.ScheduleBox.ScheduleJobBase(Of T)
+  name.vb: ScheduleJobBase(Of T)
+  spec.csharp:
+  - uid: H.Controls.ScheduleBox.ScheduleJobBase`1
+    name: ScheduleJobBase
+    href: H.Controls.ScheduleBox.ScheduleJobBase-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Controls.ScheduleBox.ScheduleJobBase`1
+    name: ScheduleJobBase
+    href: H.Controls.ScheduleBox.ScheduleJobBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Controls.ScheduleBox.ScheduleJobBase
+  commentId: T:H.Controls.ScheduleBox.ScheduleJobBase
+  parent: H.Controls.ScheduleBox
+  href: H.Controls.ScheduleBox.ScheduleJobBase.html
+  name: ScheduleJobBase
+  nameWithType: ScheduleJobBase
+  fullName: H.Controls.ScheduleBox.ScheduleJobBase
+- uid: H.Controls.ScheduleBox.TestScheduleJob
+  commentId: T:H.Controls.ScheduleBox.TestScheduleJob
+  parent: H.Controls.ScheduleBox
+  href: H.Controls.ScheduleBox.TestScheduleJob.html
+  name: TestScheduleJob
+  nameWithType: TestScheduleJob
+  fullName: H.Controls.ScheduleBox.TestScheduleJob
+- uid: H.Controls.ScheduleBox.ScheduleBox
+  commentId: T:H.Controls.ScheduleBox.ScheduleBox
+  href: H.Controls.ScheduleBox.ScheduleBox.html
+  name: ScheduleBox
+  nameWithType: ScheduleBox
+  fullName: H.Controls.ScheduleBox.ScheduleBox
+- uid: H.Controls.ScheduleBox.ScheduleCommands
+  commentId: T:H.Controls.ScheduleBox.ScheduleCommands
+  href: H.Controls.ScheduleBox.ScheduleCommands.html
+  name: ScheduleCommands
+  nameWithType: ScheduleCommands
+  fullName: H.Controls.ScheduleBox.ScheduleCommands
+- uid: H.Controls.ScheduleBox.CalendarIntervalTrigger
+  commentId: T:H.Controls.ScheduleBox.CalendarIntervalTrigger
+  href: H.Controls.ScheduleBox.CalendarIntervalTrigger.html
+  name: CalendarIntervalTrigger
+  nameWithType: CalendarIntervalTrigger
+  fullName: H.Controls.ScheduleBox.CalendarIntervalTrigger
+- uid: H.Controls.ScheduleBox.DailyTimeIntervalTrigger
+  commentId: T:H.Controls.ScheduleBox.DailyTimeIntervalTrigger
+  href: H.Controls.ScheduleBox.DailyTimeIntervalTrigger.html
+  name: DailyTimeIntervalTrigger
+  nameWithType: DailyTimeIntervalTrigger
+  fullName: H.Controls.ScheduleBox.DailyTimeIntervalTrigger
+- uid: H.Controls.ScheduleBox.DataTimeTrigger
+  commentId: T:H.Controls.ScheduleBox.DataTimeTrigger
+  href: H.Controls.ScheduleBox.DataTimeTrigger.html
+  name: DataTimeTrigger
+  nameWithType: DataTimeTrigger
+  fullName: H.Controls.ScheduleBox.DataTimeTrigger
+- uid: H.Controls.ScheduleBox.DayOfWeeks
+  commentId: T:H.Controls.ScheduleBox.DayOfWeeks
+  parent: H.Controls.ScheduleBox
+  href: H.Controls.ScheduleBox.DayOfWeeks.html
+  name: DayOfWeeks
+  nameWithType: DayOfWeeks
+  fullName: H.Controls.ScheduleBox.DayOfWeeks
+- uid: H.Controls.ScheduleBox.IScheduleTrigger
+  commentId: T:H.Controls.ScheduleBox.IScheduleTrigger
+  parent: H.Controls.ScheduleBox
+  href: H.Controls.ScheduleBox.IScheduleTrigger.html
+  name: IScheduleTrigger
+  nameWithType: IScheduleTrigger
+  fullName: H.Controls.ScheduleBox.IScheduleTrigger
+- uid: H.Controls.ScheduleBox.RepeatTrigger
+  commentId: T:H.Controls.ScheduleBox.RepeatTrigger
+  href: H.Controls.ScheduleBox.RepeatTrigger.html
+  name: RepeatTrigger
+  nameWithType: RepeatTrigger
+  fullName: H.Controls.ScheduleBox.RepeatTrigger
+- uid: H.Controls.ScheduleBox.TriggerBase
+  commentId: T:H.Controls.ScheduleBox.TriggerBase
+  parent: H.Controls.ScheduleBox
+  href: H.Controls.ScheduleBox.TriggerBase.html
+  name: TriggerBase
+  nameWithType: TriggerBase
+  fullName: H.Controls.ScheduleBox.TriggerBase
+- uid: H.Controls.ScheduleBox
+  commentId: N:H.Controls.ScheduleBox
+  href: H.html
+  name: H.Controls.ScheduleBox
+  nameWithType: H.Controls.ScheduleBox
+  fullName: H.Controls.ScheduleBox
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.ScheduleBox
+    name: ScheduleBox
+    href: H.Controls.ScheduleBox.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Controls
+    name: Controls
+    href: H.Controls.html
+  - name: .
+  - uid: H.Controls.ScheduleBox
+    name: ScheduleBox
+    href: H.Controls.ScheduleBox.html

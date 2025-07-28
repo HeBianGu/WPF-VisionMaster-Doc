@@ -1,0 +1,62 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Services.Common.Guide
+  commentId: N:H.Services.Common.Guide
+  id: H.Services.Common.Guide
+  children:
+  - H.Services.Common.Guide.IGuideService
+  langs:
+  - csharp
+  - vb
+  name: H.Services.Common.Guide
+  nameWithType: H.Services.Common.Guide
+  fullName: H.Services.Common.Guide
+  type: Namespace
+  assemblies:
+  - H.Services.Common
+references:
+- uid: H.Services.Common.Guide.IGuideService
+  commentId: T:H.Services.Common.Guide.IGuideService
+  parent: H.Services.Common.Guide
+  href: H.Services.Common.Guide.IGuideService.html
+  name: IGuideService
+  nameWithType: IGuideService
+  fullName: H.Services.Common.Guide.IGuideService
+- uid: H.Services.Common.Guide
+  commentId: N:H.Services.Common.Guide
+  href: H.html
+  name: H.Services.Common.Guide
+  nameWithType: H.Services.Common.Guide
+  fullName: H.Services.Common.Guide
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Common
+    name: Common
+    href: H.Services.Common.html
+  - name: .
+  - uid: H.Services.Common.Guide
+    name: Guide
+    href: H.Services.Common.Guide.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Common
+    name: Common
+    href: H.Services.Common.html
+  - name: .
+  - uid: H.Services.Common.Guide
+    name: Guide
+    href: H.Services.Common.Guide.html

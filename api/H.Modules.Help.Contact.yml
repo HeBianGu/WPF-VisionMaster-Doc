@@ -1,0 +1,92 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Modules.Help.Contact
+  commentId: N:H.Modules.Help.Contact
+  id: H.Modules.Help.Contact
+  children:
+  - H.Modules.Help.Contact.ContactOptions
+  - H.Modules.Help.Contact.ContactService
+  - H.Modules.Help.Contact.Extention
+  - H.Modules.Help.Contact.IContactOptions
+  - H.Modules.Help.Contact.IContactService
+  langs:
+  - csharp
+  - vb
+  name: H.Modules.Help.Contact
+  nameWithType: H.Modules.Help.Contact
+  fullName: H.Modules.Help.Contact
+  type: Namespace
+  assemblies:
+  - H.Modules.Help
+references:
+- uid: H.Modules.Help.Contact.ContactOptions
+  commentId: T:H.Modules.Help.Contact.ContactOptions
+  href: H.Modules.Help.Contact.ContactOptions.html
+  name: ContactOptions
+  nameWithType: ContactOptions
+  fullName: H.Modules.Help.Contact.ContactOptions
+- uid: H.Modules.Help.Contact.ContactService
+  commentId: T:H.Modules.Help.Contact.ContactService
+  href: H.Modules.Help.Contact.ContactService.html
+  name: ContactService
+  nameWithType: ContactService
+  fullName: H.Modules.Help.Contact.ContactService
+- uid: H.Modules.Help.Contact.Extention
+  commentId: T:H.Modules.Help.Contact.Extention
+  parent: H.Modules.Help.Contact
+  href: H.Modules.Help.Contact.Extention.html
+  name: Extention
+  nameWithType: Extention
+  fullName: H.Modules.Help.Contact.Extention
+- uid: H.Modules.Help.Contact.IContactOptions
+  commentId: T:H.Modules.Help.Contact.IContactOptions
+  parent: H.Modules.Help.Contact
+  href: H.Modules.Help.Contact.IContactOptions.html
+  name: IContactOptions
+  nameWithType: IContactOptions
+  fullName: H.Modules.Help.Contact.IContactOptions
+- uid: H.Modules.Help.Contact.IContactService
+  commentId: T:H.Modules.Help.Contact.IContactService
+  parent: H.Modules.Help.Contact
+  href: H.Modules.Help.Contact.IContactService.html
+  name: IContactService
+  nameWithType: IContactService
+  fullName: H.Modules.Help.Contact.IContactService
+- uid: H.Modules.Help.Contact
+  commentId: N:H.Modules.Help.Contact
+  href: H.html
+  name: H.Modules.Help.Contact
+  nameWithType: H.Modules.Help.Contact
+  fullName: H.Modules.Help.Contact
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Modules
+    name: Modules
+    href: H.Modules.html
+  - name: .
+  - uid: H.Modules.Help
+    name: Help
+    href: H.Modules.Help.html
+  - name: .
+  - uid: H.Modules.Help.Contact
+    name: Contact
+    href: H.Modules.Help.Contact.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Modules
+    name: Modules
+    href: H.Modules.html
+  - name: .
+  - uid: H.Modules.Help
+    name: Help
+    href: H.Modules.Help.html
+  - name: .
+  - uid: H.Modules.Help.Contact
+    name: Contact
+    href: H.Modules.Help.Contact.html

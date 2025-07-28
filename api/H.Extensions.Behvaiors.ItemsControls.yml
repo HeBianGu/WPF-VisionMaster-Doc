@@ -1,0 +1,126 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.Behvaiors.ItemsControls
+  commentId: N:H.Extensions.Behvaiors.ItemsControls
+  id: H.Extensions.Behvaiors.ItemsControls
+  children:
+  - H.Extensions.Behvaiors.ItemsControls.AddItemButtonBehaviorBase
+  - H.Extensions.Behvaiors.ItemsControls.ButtonAddItemBehavior
+  - H.Extensions.Behvaiors.ItemsControls.ButtonBehaviorBase
+  - H.Extensions.Behvaiors.ItemsControls.ButtonClearItemBehavior
+  - H.Extensions.Behvaiors.ItemsControls.ButtonInsertItemBehavior
+  - H.Extensions.Behvaiors.ItemsControls.ButtonRemoveCheckedItemBehavior
+  - H.Extensions.Behvaiors.ItemsControls.ButtonRemoveItemBehavior
+  - H.Extensions.Behvaiors.ItemsControls.ItemsControlFilterBehavior
+  - H.Extensions.Behvaiors.ItemsControls.ItemsControlSearchTextBehavior
+  - H.Extensions.Behvaiors.ItemsControls.ListBoxBindingSelectedItemsBehavior
+  langs:
+  - csharp
+  - vb
+  name: H.Extensions.Behvaiors.ItemsControls
+  nameWithType: H.Extensions.Behvaiors.ItemsControls
+  fullName: H.Extensions.Behvaiors.ItemsControls
+  type: Namespace
+  assemblies:
+  - H.Extensions.Behvaiors
+references:
+- uid: H.Extensions.Behvaiors.ItemsControls.AddItemButtonBehaviorBase
+  commentId: T:H.Extensions.Behvaiors.ItemsControls.AddItemButtonBehaviorBase
+  parent: H.Extensions.Behvaiors.ItemsControls
+  href: H.Extensions.Behvaiors.ItemsControls.AddItemButtonBehaviorBase.html
+  name: AddItemButtonBehaviorBase
+  nameWithType: AddItemButtonBehaviorBase
+  fullName: H.Extensions.Behvaiors.ItemsControls.AddItemButtonBehaviorBase
+- uid: H.Extensions.Behvaiors.ItemsControls.ButtonAddItemBehavior
+  commentId: T:H.Extensions.Behvaiors.ItemsControls.ButtonAddItemBehavior
+  href: H.Extensions.Behvaiors.ItemsControls.ButtonAddItemBehavior.html
+  name: ButtonAddItemBehavior
+  nameWithType: ButtonAddItemBehavior
+  fullName: H.Extensions.Behvaiors.ItemsControls.ButtonAddItemBehavior
+- uid: H.Extensions.Behvaiors.ItemsControls.ButtonBehaviorBase
+  commentId: T:H.Extensions.Behvaiors.ItemsControls.ButtonBehaviorBase
+  parent: H.Extensions.Behvaiors.ItemsControls
+  href: H.Extensions.Behvaiors.ItemsControls.ButtonBehaviorBase.html
+  name: ButtonBehaviorBase
+  nameWithType: ButtonBehaviorBase
+  fullName: H.Extensions.Behvaiors.ItemsControls.ButtonBehaviorBase
+- uid: H.Extensions.Behvaiors.ItemsControls.ButtonClearItemBehavior
+  commentId: T:H.Extensions.Behvaiors.ItemsControls.ButtonClearItemBehavior
+  href: H.Extensions.Behvaiors.ItemsControls.ButtonClearItemBehavior.html
+  name: ButtonClearItemBehavior
+  nameWithType: ButtonClearItemBehavior
+  fullName: H.Extensions.Behvaiors.ItemsControls.ButtonClearItemBehavior
+- uid: H.Extensions.Behvaiors.ItemsControls.ButtonInsertItemBehavior
+  commentId: T:H.Extensions.Behvaiors.ItemsControls.ButtonInsertItemBehavior
+  href: H.Extensions.Behvaiors.ItemsControls.ButtonInsertItemBehavior.html
+  name: ButtonInsertItemBehavior
+  nameWithType: ButtonInsertItemBehavior
+  fullName: H.Extensions.Behvaiors.ItemsControls.ButtonInsertItemBehavior
+- uid: H.Extensions.Behvaiors.ItemsControls.ButtonRemoveCheckedItemBehavior
+  commentId: T:H.Extensions.Behvaiors.ItemsControls.ButtonRemoveCheckedItemBehavior
+  href: H.Extensions.Behvaiors.ItemsControls.ButtonRemoveCheckedItemBehavior.html
+  name: ButtonRemoveCheckedItemBehavior
+  nameWithType: ButtonRemoveCheckedItemBehavior
+  fullName: H.Extensions.Behvaiors.ItemsControls.ButtonRemoveCheckedItemBehavior
+- uid: H.Extensions.Behvaiors.ItemsControls.ButtonRemoveItemBehavior
+  commentId: T:H.Extensions.Behvaiors.ItemsControls.ButtonRemoveItemBehavior
+  href: H.Extensions.Behvaiors.ItemsControls.ButtonRemoveItemBehavior.html
+  name: ButtonRemoveItemBehavior
+  nameWithType: ButtonRemoveItemBehavior
+  fullName: H.Extensions.Behvaiors.ItemsControls.ButtonRemoveItemBehavior
+- uid: H.Extensions.Behvaiors.ItemsControls.ItemsControlFilterBehavior
+  commentId: T:H.Extensions.Behvaiors.ItemsControls.ItemsControlFilterBehavior
+  href: H.Extensions.Behvaiors.ItemsControls.ItemsControlFilterBehavior.html
+  name: ItemsControlFilterBehavior
+  nameWithType: ItemsControlFilterBehavior
+  fullName: H.Extensions.Behvaiors.ItemsControls.ItemsControlFilterBehavior
+- uid: H.Extensions.Behvaiors.ItemsControls.ItemsControlSearchTextBehavior
+  commentId: T:H.Extensions.Behvaiors.ItemsControls.ItemsControlSearchTextBehavior
+  href: H.Extensions.Behvaiors.ItemsControls.ItemsControlSearchTextBehavior.html
+  name: ItemsControlSearchTextBehavior
+  nameWithType: ItemsControlSearchTextBehavior
+  fullName: H.Extensions.Behvaiors.ItemsControls.ItemsControlSearchTextBehavior
+- uid: H.Extensions.Behvaiors.ItemsControls.ListBoxBindingSelectedItemsBehavior
+  commentId: T:H.Extensions.Behvaiors.ItemsControls.ListBoxBindingSelectedItemsBehavior
+  href: H.Extensions.Behvaiors.ItemsControls.ListBoxBindingSelectedItemsBehavior.html
+  name: ListBoxBindingSelectedItemsBehavior
+  nameWithType: ListBoxBindingSelectedItemsBehavior
+  fullName: H.Extensions.Behvaiors.ItemsControls.ListBoxBindingSelectedItemsBehavior
+- uid: H.Extensions.Behvaiors.ItemsControls
+  commentId: N:H.Extensions.Behvaiors.ItemsControls
+  href: H.html
+  name: H.Extensions.Behvaiors.ItemsControls
+  nameWithType: H.Extensions.Behvaiors.ItemsControls
+  fullName: H.Extensions.Behvaiors.ItemsControls
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Behvaiors
+    name: Behvaiors
+    href: H.Extensions.Behvaiors.html
+  - name: .
+  - uid: H.Extensions.Behvaiors.ItemsControls
+    name: ItemsControls
+    href: H.Extensions.Behvaiors.ItemsControls.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Behvaiors
+    name: Behvaiors
+    href: H.Extensions.Behvaiors.html
+  - name: .
+  - uid: H.Extensions.Behvaiors.ItemsControls
+    name: ItemsControls
+    href: H.Extensions.Behvaiors.ItemsControls.html

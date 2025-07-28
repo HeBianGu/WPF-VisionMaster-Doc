@@ -1,0 +1,355 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Presenters.Common
+  commentId: N:H.Presenters.Common
+  id: H.Presenters.Common
+  children:
+  - H.Presenters.Common.CommandsBindablePresenter
+  - H.Presenters.Common.CommandsPresenter
+  - H.Presenters.Common.CommandsPresenterBase
+  - H.Presenters.Common.CommandsPresenter`1
+  - H.Presenters.Common.DataGridPresenter
+  - H.Presenters.Common.DialogCommandsPresenter`1
+  - H.Presenters.Common.DialogServiceExtension
+  - H.Presenters.Common.FilePathTextBoxPresenter
+  - H.Presenters.Common.IFilePathTextBoxPresenter
+  - H.Presenters.Common.IImageFilePathPresenter
+  - H.Presenters.Common.IImageViewPresenter
+  - H.Presenters.Common.IItemsSourcePresenter
+  - H.Presenters.Common.IListBoxPresenter
+  - H.Presenters.Common.IPasswordBoxPresenter
+  - H.Presenters.Common.ITextBoxPresenter
+  - H.Presenters.Common.ITreeViewPresenter
+  - H.Presenters.Common.ImageFilePathPresenter
+  - H.Presenters.Common.ImageViewPresenter
+  - H.Presenters.Common.ItemsControlPresenter
+  - H.Presenters.Common.ItemsSourcePresenterBase
+  - H.Presenters.Common.ListBoxPresenter
+  - H.Presenters.Common.MessagePresenter
+  - H.Presenters.Common.PasswordBoxPresenter
+  - H.Presenters.Common.PercentPresenter
+  - H.Presenters.Common.ShowDataGridCommand
+  - H.Presenters.Common.ShowImageFileCommand
+  - H.Presenters.Common.ShowImageSourceCommand
+  - H.Presenters.Common.ShowItemsControlCommand
+  - H.Presenters.Common.ShowListBoxCommand
+  - H.Presenters.Common.ShowPropertyTextBoxCommand
+  - H.Presenters.Common.ShowSourceCommandBase
+  - H.Presenters.Common.ShowTreeViewCommand
+  - H.Presenters.Common.StringPresenter
+  - H.Presenters.Common.TestCommandsPresenter
+  - H.Presenters.Common.TextBoxPresenter
+  - H.Presenters.Common.TreeViewPresenter
+  - H.Presenters.Common.WaitPresenter
+  langs:
+  - csharp
+  - vb
+  name: H.Presenters.Common
+  nameWithType: H.Presenters.Common
+  fullName: H.Presenters.Common
+  type: Namespace
+  assemblies:
+  - H.Presenters.Common
+references:
+- uid: H.Presenters.Common.CommandsBindablePresenter
+  commentId: T:H.Presenters.Common.CommandsBindablePresenter
+  href: H.Presenters.Common.CommandsBindablePresenter.html
+  name: CommandsBindablePresenter
+  nameWithType: CommandsBindablePresenter
+  fullName: H.Presenters.Common.CommandsBindablePresenter
+- uid: H.Presenters.Common.TestCommandsPresenter
+  commentId: T:H.Presenters.Common.TestCommandsPresenter
+  href: H.Presenters.Common.TestCommandsPresenter.html
+  name: TestCommandsPresenter
+  nameWithType: TestCommandsPresenter
+  fullName: H.Presenters.Common.TestCommandsPresenter
+- uid: H.Presenters.Common.CommandsPresenter
+  commentId: T:H.Presenters.Common.CommandsPresenter
+  href: H.Presenters.Common.CommandsPresenter.html
+  name: CommandsPresenter
+  nameWithType: CommandsPresenter
+  fullName: H.Presenters.Common.CommandsPresenter
+- uid: H.Presenters.Common.CommandsPresenterBase
+  commentId: T:H.Presenters.Common.CommandsPresenterBase
+  parent: H.Presenters.Common
+  href: H.Presenters.Common.CommandsPresenterBase.html
+  name: CommandsPresenterBase
+  nameWithType: CommandsPresenterBase
+  fullName: H.Presenters.Common.CommandsPresenterBase
+- uid: H.Presenters.Common.CommandsPresenter`1
+  commentId: T:H.Presenters.Common.CommandsPresenter`1
+  href: H.Presenters.Common.CommandsPresenter-1.html
+  name: CommandsPresenter<T>
+  nameWithType: CommandsPresenter<T>
+  fullName: H.Presenters.Common.CommandsPresenter<T>
+  nameWithType.vb: CommandsPresenter(Of T)
+  fullName.vb: H.Presenters.Common.CommandsPresenter(Of T)
+  name.vb: CommandsPresenter(Of T)
+  spec.csharp:
+  - uid: H.Presenters.Common.CommandsPresenter`1
+    name: CommandsPresenter
+    href: H.Presenters.Common.CommandsPresenter-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Presenters.Common.CommandsPresenter`1
+    name: CommandsPresenter
+    href: H.Presenters.Common.CommandsPresenter-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Presenters.Common.DialogCommandsPresenter`1
+  commentId: T:H.Presenters.Common.DialogCommandsPresenter`1
+  href: H.Presenters.Common.DialogCommandsPresenter-1.html
+  name: DialogCommandsPresenter<T>
+  nameWithType: DialogCommandsPresenter<T>
+  fullName: H.Presenters.Common.DialogCommandsPresenter<T>
+  nameWithType.vb: DialogCommandsPresenter(Of T)
+  fullName.vb: H.Presenters.Common.DialogCommandsPresenter(Of T)
+  name.vb: DialogCommandsPresenter(Of T)
+  spec.csharp:
+  - uid: H.Presenters.Common.DialogCommandsPresenter`1
+    name: DialogCommandsPresenter
+    href: H.Presenters.Common.DialogCommandsPresenter-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: H.Presenters.Common.DialogCommandsPresenter`1
+    name: DialogCommandsPresenter
+    href: H.Presenters.Common.DialogCommandsPresenter-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: H.Presenters.Common.IItemsSourcePresenter
+  commentId: T:H.Presenters.Common.IItemsSourcePresenter
+  parent: H.Presenters.Common
+  href: H.Presenters.Common.IItemsSourcePresenter.html
+  name: IItemsSourcePresenter
+  nameWithType: IItemsSourcePresenter
+  fullName: H.Presenters.Common.IItemsSourcePresenter
+- uid: H.Presenters.Common.DataGridPresenter
+  commentId: T:H.Presenters.Common.DataGridPresenter
+  href: H.Presenters.Common.DataGridPresenter.html
+  name: DataGridPresenter
+  nameWithType: DataGridPresenter
+  fullName: H.Presenters.Common.DataGridPresenter
+- uid: H.Presenters.Common.DialogServiceExtension
+  commentId: T:H.Presenters.Common.DialogServiceExtension
+  parent: H.Presenters.Common
+  href: H.Presenters.Common.DialogServiceExtension.html
+  name: DialogServiceExtension
+  nameWithType: DialogServiceExtension
+  fullName: H.Presenters.Common.DialogServiceExtension
+- uid: H.Presenters.Common.ShowSourceCommandBase
+  commentId: T:H.Presenters.Common.ShowSourceCommandBase
+  parent: H.Presenters.Common
+  href: H.Presenters.Common.ShowSourceCommandBase.html
+  name: ShowSourceCommandBase
+  nameWithType: ShowSourceCommandBase
+  fullName: H.Presenters.Common.ShowSourceCommandBase
+- uid: H.Presenters.Common.ShowDataGridCommand
+  commentId: T:H.Presenters.Common.ShowDataGridCommand
+  href: H.Presenters.Common.ShowDataGridCommand.html
+  name: ShowDataGridCommand
+  nameWithType: ShowDataGridCommand
+  fullName: H.Presenters.Common.ShowDataGridCommand
+- uid: H.Presenters.Common.IFilePathTextBoxPresenter
+  commentId: T:H.Presenters.Common.IFilePathTextBoxPresenter
+  parent: H.Presenters.Common
+  href: H.Presenters.Common.IFilePathTextBoxPresenter.html
+  name: IFilePathTextBoxPresenter
+  nameWithType: IFilePathTextBoxPresenter
+  fullName: H.Presenters.Common.IFilePathTextBoxPresenter
+- uid: H.Presenters.Common.FilePathTextBoxPresenter
+  commentId: T:H.Presenters.Common.FilePathTextBoxPresenter
+  href: H.Presenters.Common.FilePathTextBoxPresenter.html
+  name: FilePathTextBoxPresenter
+  nameWithType: FilePathTextBoxPresenter
+  fullName: H.Presenters.Common.FilePathTextBoxPresenter
+- uid: H.Presenters.Common.IImageFilePathPresenter
+  commentId: T:H.Presenters.Common.IImageFilePathPresenter
+  parent: H.Presenters.Common
+  href: H.Presenters.Common.IImageFilePathPresenter.html
+  name: IImageFilePathPresenter
+  nameWithType: IImageFilePathPresenter
+  fullName: H.Presenters.Common.IImageFilePathPresenter
+- uid: H.Presenters.Common.ImageFilePathPresenter
+  commentId: T:H.Presenters.Common.ImageFilePathPresenter
+  href: H.Presenters.Common.ImageFilePathPresenter.html
+  name: ImageFilePathPresenter
+  nameWithType: ImageFilePathPresenter
+  fullName: H.Presenters.Common.ImageFilePathPresenter
+- uid: H.Presenters.Common.IImageViewPresenter
+  commentId: T:H.Presenters.Common.IImageViewPresenter
+  parent: H.Presenters.Common
+  href: H.Presenters.Common.IImageViewPresenter.html
+  name: IImageViewPresenter
+  nameWithType: IImageViewPresenter
+  fullName: H.Presenters.Common.IImageViewPresenter
+- uid: H.Presenters.Common.ImageViewPresenter
+  commentId: T:H.Presenters.Common.ImageViewPresenter
+  href: H.Presenters.Common.ImageViewPresenter.html
+  name: ImageViewPresenter
+  nameWithType: ImageViewPresenter
+  fullName: H.Presenters.Common.ImageViewPresenter
+- uid: H.Presenters.Common.ShowImageFileCommand
+  commentId: T:H.Presenters.Common.ShowImageFileCommand
+  href: H.Presenters.Common.ShowImageFileCommand.html
+  name: ShowImageFileCommand
+  nameWithType: ShowImageFileCommand
+  fullName: H.Presenters.Common.ShowImageFileCommand
+- uid: H.Presenters.Common.ShowImageSourceCommand
+  commentId: T:H.Presenters.Common.ShowImageSourceCommand
+  href: H.Presenters.Common.ShowImageSourceCommand.html
+  name: ShowImageSourceCommand
+  nameWithType: ShowImageSourceCommand
+  fullName: H.Presenters.Common.ShowImageSourceCommand
+- uid: H.Presenters.Common.ItemsSourcePresenterBase
+  commentId: T:H.Presenters.Common.ItemsSourcePresenterBase
+  parent: H.Presenters.Common
+  href: H.Presenters.Common.ItemsSourcePresenterBase.html
+  name: ItemsSourcePresenterBase
+  nameWithType: ItemsSourcePresenterBase
+  fullName: H.Presenters.Common.ItemsSourcePresenterBase
+- uid: H.Presenters.Common.ItemsControlPresenter
+  commentId: T:H.Presenters.Common.ItemsControlPresenter
+  href: H.Presenters.Common.ItemsControlPresenter.html
+  name: ItemsControlPresenter
+  nameWithType: ItemsControlPresenter
+  fullName: H.Presenters.Common.ItemsControlPresenter
+- uid: H.Presenters.Common.ShowItemsControlCommand
+  commentId: T:H.Presenters.Common.ShowItemsControlCommand
+  href: H.Presenters.Common.ShowItemsControlCommand.html
+  name: ShowItemsControlCommand
+  nameWithType: ShowItemsControlCommand
+  fullName: H.Presenters.Common.ShowItemsControlCommand
+- uid: H.Presenters.Common.IListBoxPresenter
+  commentId: T:H.Presenters.Common.IListBoxPresenter
+  parent: H.Presenters.Common
+  href: H.Presenters.Common.IListBoxPresenter.html
+  name: IListBoxPresenter
+  nameWithType: IListBoxPresenter
+  fullName: H.Presenters.Common.IListBoxPresenter
+- uid: H.Presenters.Common.ListBoxPresenter
+  commentId: T:H.Presenters.Common.ListBoxPresenter
+  href: H.Presenters.Common.ListBoxPresenter.html
+  name: ListBoxPresenter
+  nameWithType: ListBoxPresenter
+  fullName: H.Presenters.Common.ListBoxPresenter
+- uid: H.Presenters.Common.ShowListBoxCommand
+  commentId: T:H.Presenters.Common.ShowListBoxCommand
+  href: H.Presenters.Common.ShowListBoxCommand.html
+  name: ShowListBoxCommand
+  nameWithType: ShowListBoxCommand
+  fullName: H.Presenters.Common.ShowListBoxCommand
+- uid: H.Presenters.Common.MessagePresenter
+  commentId: T:H.Presenters.Common.MessagePresenter
+  href: H.Presenters.Common.MessagePresenter.html
+  name: MessagePresenter
+  nameWithType: MessagePresenter
+  fullName: H.Presenters.Common.MessagePresenter
+- uid: H.Presenters.Common.IPasswordBoxPresenter
+  commentId: T:H.Presenters.Common.IPasswordBoxPresenter
+  parent: H.Presenters.Common
+  href: H.Presenters.Common.IPasswordBoxPresenter.html
+  name: IPasswordBoxPresenter
+  nameWithType: IPasswordBoxPresenter
+  fullName: H.Presenters.Common.IPasswordBoxPresenter
+- uid: H.Presenters.Common.PasswordBoxPresenter
+  commentId: T:H.Presenters.Common.PasswordBoxPresenter
+  href: H.Presenters.Common.PasswordBoxPresenter.html
+  name: PasswordBoxPresenter
+  nameWithType: PasswordBoxPresenter
+  fullName: H.Presenters.Common.PasswordBoxPresenter
+- uid: H.Presenters.Common.PercentPresenter
+  commentId: T:H.Presenters.Common.PercentPresenter
+  href: H.Presenters.Common.PercentPresenter.html
+  name: PercentPresenter
+  nameWithType: PercentPresenter
+  fullName: H.Presenters.Common.PercentPresenter
+- uid: H.Presenters.Common.StringPresenter
+  commentId: T:H.Presenters.Common.StringPresenter
+  href: H.Presenters.Common.StringPresenter.html
+  name: StringPresenter
+  nameWithType: StringPresenter
+  fullName: H.Presenters.Common.StringPresenter
+- uid: H.Presenters.Common.ITextBoxPresenter
+  commentId: T:H.Presenters.Common.ITextBoxPresenter
+  parent: H.Presenters.Common
+  href: H.Presenters.Common.ITextBoxPresenter.html
+  name: ITextBoxPresenter
+  nameWithType: ITextBoxPresenter
+  fullName: H.Presenters.Common.ITextBoxPresenter
+- uid: H.Presenters.Common.TextBoxPresenter
+  commentId: T:H.Presenters.Common.TextBoxPresenter
+  href: H.Presenters.Common.TextBoxPresenter.html
+  name: TextBoxPresenter
+  nameWithType: TextBoxPresenter
+  fullName: H.Presenters.Common.TextBoxPresenter
+- uid: H.Presenters.Common.ShowPropertyTextBoxCommand
+  commentId: T:H.Presenters.Common.ShowPropertyTextBoxCommand
+  href: H.Presenters.Common.ShowPropertyTextBoxCommand.html
+  name: ShowPropertyTextBoxCommand
+  nameWithType: ShowPropertyTextBoxCommand
+  fullName: H.Presenters.Common.ShowPropertyTextBoxCommand
+- uid: H.Presenters.Common.ITreeViewPresenter
+  commentId: T:H.Presenters.Common.ITreeViewPresenter
+  parent: H.Presenters.Common
+  href: H.Presenters.Common.ITreeViewPresenter.html
+  name: ITreeViewPresenter
+  nameWithType: ITreeViewPresenter
+  fullName: H.Presenters.Common.ITreeViewPresenter
+- uid: H.Presenters.Common.TreeViewPresenter
+  commentId: T:H.Presenters.Common.TreeViewPresenter
+  href: H.Presenters.Common.TreeViewPresenter.html
+  name: TreeViewPresenter
+  nameWithType: TreeViewPresenter
+  fullName: H.Presenters.Common.TreeViewPresenter
+- uid: H.Presenters.Common.ShowTreeViewCommand
+  commentId: T:H.Presenters.Common.ShowTreeViewCommand
+  href: H.Presenters.Common.ShowTreeViewCommand.html
+  name: ShowTreeViewCommand
+  nameWithType: ShowTreeViewCommand
+  fullName: H.Presenters.Common.ShowTreeViewCommand
+- uid: H.Presenters.Common.WaitPresenter
+  commentId: T:H.Presenters.Common.WaitPresenter
+  href: H.Presenters.Common.WaitPresenter.html
+  name: WaitPresenter
+  nameWithType: WaitPresenter
+  fullName: H.Presenters.Common.WaitPresenter
+- uid: H.Presenters.Common
+  commentId: N:H.Presenters.Common
+  href: H.html
+  name: H.Presenters.Common
+  nameWithType: H.Presenters.Common
+  fullName: H.Presenters.Common
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Presenters
+    name: Presenters
+    href: H.Presenters.html
+  - name: .
+  - uid: H.Presenters.Common
+    name: Common
+    href: H.Presenters.Common.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Presenters
+    name: Presenters
+    href: H.Presenters.html
+  - name: .
+  - uid: H.Presenters.Common
+    name: Common
+    href: H.Presenters.Common.html

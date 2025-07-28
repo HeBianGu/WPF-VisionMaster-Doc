@@ -1,0 +1,2917 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Themes.BrushKeys
+  commentId: T:H.Themes.BrushKeys
+  id: BrushKeys
+  parent: H.Themes
+  children:
+  - H.Themes.BrushKeys.Accent
+  - H.Themes.BrushKeys.AlternatingRowBackground
+  - H.Themes.BrushKeys.Background
+  - H.Themes.BrushKeys.BackgroundDisabled
+  - H.Themes.BrushKeys.Black
+  - H.Themes.BrushKeys.Blue
+  - H.Themes.BrushKeys.BorderBrush
+  - H.Themes.BrushKeys.BorderBrushAssist
+  - H.Themes.BrushKeys.BorderBrushDisabled
+  - H.Themes.BrushKeys.BorderBrushTitle
+  - H.Themes.BrushKeys.Brown
+  - H.Themes.BrushKeys.CaptionBackground
+  - H.Themes.BrushKeys.CaptionForeground
+  - H.Themes.BrushKeys.Dark0
+  - H.Themes.BrushKeys.Dark0_1
+  - H.Themes.BrushKeys.Dark0_2
+  - H.Themes.BrushKeys.Dark0_3
+  - H.Themes.BrushKeys.Dark0_4
+  - H.Themes.BrushKeys.Dark0_5
+  - H.Themes.BrushKeys.Dark0_6
+  - H.Themes.BrushKeys.Dark0_7
+  - H.Themes.BrushKeys.Dark0_8
+  - H.Themes.BrushKeys.Dark0_9
+  - H.Themes.BrushKeys.Dark1
+  - H.Themes.BrushKeys.Dark10
+  - H.Themes.BrushKeys.Dark1_5
+  - H.Themes.BrushKeys.Dark2
+  - H.Themes.BrushKeys.Dark2_5
+  - H.Themes.BrushKeys.Dark3
+  - H.Themes.BrushKeys.Dark3_5
+  - H.Themes.BrushKeys.Dark4
+  - H.Themes.BrushKeys.Dark4_5
+  - H.Themes.BrushKeys.Dark5
+  - H.Themes.BrushKeys.Dark5_5
+  - H.Themes.BrushKeys.Dark6
+  - H.Themes.BrushKeys.Dark6_5
+  - H.Themes.BrushKeys.Dark7
+  - H.Themes.BrushKeys.Dark7_5
+  - H.Themes.BrushKeys.Dark8
+  - H.Themes.BrushKeys.Dark8_5
+  - H.Themes.BrushKeys.Dark9
+  - H.Themes.BrushKeys.Dark9_5
+  - H.Themes.BrushKeys.DialogCover
+  - H.Themes.BrushKeys.Foreground
+  - H.Themes.BrushKeys.ForegroundAssist
+  - H.Themes.BrushKeys.ForegroundLink
+  - H.Themes.BrushKeys.ForegroundSelect
+  - H.Themes.BrushKeys.ForegroundTitle
+  - H.Themes.BrushKeys.ForegroundWhite
+  - H.Themes.BrushKeys.ForegroundWhiteOpacity1
+  - H.Themes.BrushKeys.ForegroundWhiteOpacity2
+  - H.Themes.BrushKeys.ForegroundWhiteOpacity3
+  - H.Themes.BrushKeys.ForegroundWhiteOpacity4
+  - H.Themes.BrushKeys.ForegroundWhiteOpacity5
+  - H.Themes.BrushKeys.ForegroundWhiteOpacity6
+  - H.Themes.BrushKeys.ForegroundWhiteOpacity7
+  - H.Themes.BrushKeys.ForegroundWhiteOpacity8
+  - H.Themes.BrushKeys.ForegroundWhiteOpacity9
+  - H.Themes.BrushKeys.Gray
+  - H.Themes.BrushKeys.GrayOpacity5
+  - H.Themes.BrushKeys.Green
+  - H.Themes.BrushKeys.LightBlue
+  - H.Themes.BrushKeys.LightGray
+  - H.Themes.BrushKeys.LightGrayOpacity5
+  - H.Themes.BrushKeys.MenuBackground
+  - H.Themes.BrushKeys.MenuForeground
+  - H.Themes.BrushKeys.MouseOver
+  - H.Themes.BrushKeys.Orange
+  - H.Themes.BrushKeys.Pink
+  - H.Themes.BrushKeys.Purple
+  - H.Themes.BrushKeys.Red
+  - H.Themes.BrushKeys.Selected
+  - H.Themes.BrushKeys.Tile
+  - H.Themes.BrushKeys.Tile25
+  - H.Themes.BrushKeys.Tranparent
+  - H.Themes.BrushKeys.White
+  - H.Themes.BrushKeys.Yellow
+  langs:
+  - csharp
+  - vb
+  name: BrushKeys
+  nameWithType: BrushKeys
+  fullName: H.Themes.BrushKeys
+  type: Class
+  source:
+    id: BrushKeys
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 10
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static class BrushKeys
+    content.vb: Public Module BrushKeys
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: H.Themes.BrushKeys.CaptionBackground
+  commentId: P:H.Themes.BrushKeys.CaptionBackground
+  id: CaptionBackground
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: CaptionBackground
+  nameWithType: BrushKeys.CaptionBackground
+  fullName: H.Themes.BrushKeys.CaptionBackground
+  type: Property
+  source:
+    id: CaptionBackground
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 13
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey CaptionBackground { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property CaptionBackground As ComponentResourceKey
+  overload: H.Themes.BrushKeys.CaptionBackground*
+- uid: H.Themes.BrushKeys.Background
+  commentId: P:H.Themes.BrushKeys.Background
+  id: Background
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: Background
+  nameWithType: BrushKeys.Background
+  fullName: H.Themes.BrushKeys.Background
+  type: Property
+  source:
+    id: Background
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 15
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey Background { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Background As ComponentResourceKey
+  overload: H.Themes.BrushKeys.Background*
+- uid: H.Themes.BrushKeys.BackgroundDisabled
+  commentId: P:H.Themes.BrushKeys.BackgroundDisabled
+  id: BackgroundDisabled
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: BackgroundDisabled
+  nameWithType: BrushKeys.BackgroundDisabled
+  fullName: H.Themes.BrushKeys.BackgroundDisabled
+  type: Property
+  source:
+    id: BackgroundDisabled
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 17
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: >-
+      [Obsolete]
+
+      public static ComponentResourceKey BackgroundDisabled { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: >-
+      <Obsolete>
+
+      Public Shared ReadOnly Property BackgroundDisabled As ComponentResourceKey
+  overload: H.Themes.BrushKeys.BackgroundDisabled*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+- uid: H.Themes.BrushKeys.AlternatingRowBackground
+  commentId: P:H.Themes.BrushKeys.AlternatingRowBackground
+  id: AlternatingRowBackground
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: AlternatingRowBackground
+  nameWithType: BrushKeys.AlternatingRowBackground
+  fullName: H.Themes.BrushKeys.AlternatingRowBackground
+  type: Property
+  source:
+    id: AlternatingRowBackground
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 19
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey AlternatingRowBackground { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property AlternatingRowBackground As ComponentResourceKey
+  overload: H.Themes.BrushKeys.AlternatingRowBackground*
+- uid: H.Themes.BrushKeys.CaptionForeground
+  commentId: P:H.Themes.BrushKeys.CaptionForeground
+  id: CaptionForeground
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: CaptionForeground
+  nameWithType: BrushKeys.CaptionForeground
+  fullName: H.Themes.BrushKeys.CaptionForeground
+  type: Property
+  source:
+    id: CaptionForeground
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 22
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey CaptionForeground { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property CaptionForeground As ComponentResourceKey
+  overload: H.Themes.BrushKeys.CaptionForeground*
+- uid: H.Themes.BrushKeys.Foreground
+  commentId: P:H.Themes.BrushKeys.Foreground
+  id: Foreground
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: Foreground
+  nameWithType: BrushKeys.Foreground
+  fullName: H.Themes.BrushKeys.Foreground
+  type: Property
+  source:
+    id: Foreground
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 23
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey Foreground { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Foreground As ComponentResourceKey
+  overload: H.Themes.BrushKeys.Foreground*
+- uid: H.Themes.BrushKeys.ForegroundTitle
+  commentId: P:H.Themes.BrushKeys.ForegroundTitle
+  id: ForegroundTitle
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: ForegroundTitle
+  nameWithType: BrushKeys.ForegroundTitle
+  fullName: H.Themes.BrushKeys.ForegroundTitle
+  type: Property
+  source:
+    id: ForegroundTitle
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 24
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey ForegroundTitle { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property ForegroundTitle As ComponentResourceKey
+  overload: H.Themes.BrushKeys.ForegroundTitle*
+- uid: H.Themes.BrushKeys.ForegroundSelect
+  commentId: P:H.Themes.BrushKeys.ForegroundSelect
+  id: ForegroundSelect
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: ForegroundSelect
+  nameWithType: BrushKeys.ForegroundSelect
+  fullName: H.Themes.BrushKeys.ForegroundSelect
+  type: Property
+  source:
+    id: ForegroundSelect
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 25
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey ForegroundSelect { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property ForegroundSelect As ComponentResourceKey
+  overload: H.Themes.BrushKeys.ForegroundSelect*
+- uid: H.Themes.BrushKeys.MouseOver
+  commentId: P:H.Themes.BrushKeys.MouseOver
+  id: MouseOver
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: MouseOver
+  nameWithType: BrushKeys.MouseOver
+  fullName: H.Themes.BrushKeys.MouseOver
+  type: Property
+  source:
+    id: MouseOver
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 29
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey MouseOver { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property MouseOver As ComponentResourceKey
+  overload: H.Themes.BrushKeys.MouseOver*
+- uid: H.Themes.BrushKeys.Selected
+  commentId: P:H.Themes.BrushKeys.Selected
+  id: Selected
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: Selected
+  nameWithType: BrushKeys.Selected
+  fullName: H.Themes.BrushKeys.Selected
+  type: Property
+  source:
+    id: Selected
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 30
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey Selected { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Selected As ComponentResourceKey
+  overload: H.Themes.BrushKeys.Selected*
+- uid: H.Themes.BrushKeys.ForegroundAssist
+  commentId: P:H.Themes.BrushKeys.ForegroundAssist
+  id: ForegroundAssist
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: ForegroundAssist
+  nameWithType: BrushKeys.ForegroundAssist
+  fullName: H.Themes.BrushKeys.ForegroundAssist
+  type: Property
+  source:
+    id: ForegroundAssist
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 31
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey ForegroundAssist { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property ForegroundAssist As ComponentResourceKey
+  overload: H.Themes.BrushKeys.ForegroundAssist*
+- uid: H.Themes.BrushKeys.ForegroundLink
+  commentId: P:H.Themes.BrushKeys.ForegroundLink
+  id: ForegroundLink
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: ForegroundLink
+  nameWithType: BrushKeys.ForegroundLink
+  fullName: H.Themes.BrushKeys.ForegroundLink
+  type: Property
+  source:
+    id: ForegroundLink
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 32
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey ForegroundLink { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property ForegroundLink As ComponentResourceKey
+  overload: H.Themes.BrushKeys.ForegroundLink*
+- uid: H.Themes.BrushKeys.ForegroundWhite
+  commentId: P:H.Themes.BrushKeys.ForegroundWhite
+  id: ForegroundWhite
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: ForegroundWhite
+  nameWithType: BrushKeys.ForegroundWhite
+  fullName: H.Themes.BrushKeys.ForegroundWhite
+  type: Property
+  source:
+    id: ForegroundWhite
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 34
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: >-
+      [Obsolete]
+
+      public static ComponentResourceKey ForegroundWhite { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: >-
+      <Obsolete>
+
+      Public Shared ReadOnly Property ForegroundWhite As ComponentResourceKey
+  overload: H.Themes.BrushKeys.ForegroundWhite*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+- uid: H.Themes.BrushKeys.ForegroundWhiteOpacity9
+  commentId: P:H.Themes.BrushKeys.ForegroundWhiteOpacity9
+  id: ForegroundWhiteOpacity9
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: ForegroundWhiteOpacity9
+  nameWithType: BrushKeys.ForegroundWhiteOpacity9
+  fullName: H.Themes.BrushKeys.ForegroundWhiteOpacity9
+  type: Property
+  source:
+    id: ForegroundWhiteOpacity9
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 36
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: >-
+      [Obsolete]
+
+      public static ComponentResourceKey ForegroundWhiteOpacity9 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: >-
+      <Obsolete>
+
+      Public Shared ReadOnly Property ForegroundWhiteOpacity9 As ComponentResourceKey
+  overload: H.Themes.BrushKeys.ForegroundWhiteOpacity9*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+- uid: H.Themes.BrushKeys.ForegroundWhiteOpacity8
+  commentId: P:H.Themes.BrushKeys.ForegroundWhiteOpacity8
+  id: ForegroundWhiteOpacity8
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: ForegroundWhiteOpacity8
+  nameWithType: BrushKeys.ForegroundWhiteOpacity8
+  fullName: H.Themes.BrushKeys.ForegroundWhiteOpacity8
+  type: Property
+  source:
+    id: ForegroundWhiteOpacity8
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 38
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: >-
+      [Obsolete]
+
+      public static ComponentResourceKey ForegroundWhiteOpacity8 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: >-
+      <Obsolete>
+
+      Public Shared ReadOnly Property ForegroundWhiteOpacity8 As ComponentResourceKey
+  overload: H.Themes.BrushKeys.ForegroundWhiteOpacity8*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+- uid: H.Themes.BrushKeys.ForegroundWhiteOpacity7
+  commentId: P:H.Themes.BrushKeys.ForegroundWhiteOpacity7
+  id: ForegroundWhiteOpacity7
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: ForegroundWhiteOpacity7
+  nameWithType: BrushKeys.ForegroundWhiteOpacity7
+  fullName: H.Themes.BrushKeys.ForegroundWhiteOpacity7
+  type: Property
+  source:
+    id: ForegroundWhiteOpacity7
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 40
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: >-
+      [Obsolete]
+
+      public static ComponentResourceKey ForegroundWhiteOpacity7 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: >-
+      <Obsolete>
+
+      Public Shared ReadOnly Property ForegroundWhiteOpacity7 As ComponentResourceKey
+  overload: H.Themes.BrushKeys.ForegroundWhiteOpacity7*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+- uid: H.Themes.BrushKeys.ForegroundWhiteOpacity6
+  commentId: P:H.Themes.BrushKeys.ForegroundWhiteOpacity6
+  id: ForegroundWhiteOpacity6
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: ForegroundWhiteOpacity6
+  nameWithType: BrushKeys.ForegroundWhiteOpacity6
+  fullName: H.Themes.BrushKeys.ForegroundWhiteOpacity6
+  type: Property
+  source:
+    id: ForegroundWhiteOpacity6
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 42
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: >-
+      [Obsolete]
+
+      public static ComponentResourceKey ForegroundWhiteOpacity6 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: >-
+      <Obsolete>
+
+      Public Shared ReadOnly Property ForegroundWhiteOpacity6 As ComponentResourceKey
+  overload: H.Themes.BrushKeys.ForegroundWhiteOpacity6*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+- uid: H.Themes.BrushKeys.ForegroundWhiteOpacity5
+  commentId: P:H.Themes.BrushKeys.ForegroundWhiteOpacity5
+  id: ForegroundWhiteOpacity5
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: ForegroundWhiteOpacity5
+  nameWithType: BrushKeys.ForegroundWhiteOpacity5
+  fullName: H.Themes.BrushKeys.ForegroundWhiteOpacity5
+  type: Property
+  source:
+    id: ForegroundWhiteOpacity5
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 44
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey ForegroundWhiteOpacity5 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property ForegroundWhiteOpacity5 As ComponentResourceKey
+  overload: H.Themes.BrushKeys.ForegroundWhiteOpacity5*
+- uid: H.Themes.BrushKeys.ForegroundWhiteOpacity4
+  commentId: P:H.Themes.BrushKeys.ForegroundWhiteOpacity4
+  id: ForegroundWhiteOpacity4
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: ForegroundWhiteOpacity4
+  nameWithType: BrushKeys.ForegroundWhiteOpacity4
+  fullName: H.Themes.BrushKeys.ForegroundWhiteOpacity4
+  type: Property
+  source:
+    id: ForegroundWhiteOpacity4
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 45
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: >-
+      [Obsolete]
+
+      public static ComponentResourceKey ForegroundWhiteOpacity4 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: >-
+      <Obsolete>
+
+      Public Shared ReadOnly Property ForegroundWhiteOpacity4 As ComponentResourceKey
+  overload: H.Themes.BrushKeys.ForegroundWhiteOpacity4*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+- uid: H.Themes.BrushKeys.ForegroundWhiteOpacity3
+  commentId: P:H.Themes.BrushKeys.ForegroundWhiteOpacity3
+  id: ForegroundWhiteOpacity3
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: ForegroundWhiteOpacity3
+  nameWithType: BrushKeys.ForegroundWhiteOpacity3
+  fullName: H.Themes.BrushKeys.ForegroundWhiteOpacity3
+  type: Property
+  source:
+    id: ForegroundWhiteOpacity3
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 47
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: >-
+      [Obsolete]
+
+      public static ComponentResourceKey ForegroundWhiteOpacity3 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: >-
+      <Obsolete>
+
+      Public Shared ReadOnly Property ForegroundWhiteOpacity3 As ComponentResourceKey
+  overload: H.Themes.BrushKeys.ForegroundWhiteOpacity3*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+- uid: H.Themes.BrushKeys.ForegroundWhiteOpacity2
+  commentId: P:H.Themes.BrushKeys.ForegroundWhiteOpacity2
+  id: ForegroundWhiteOpacity2
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: ForegroundWhiteOpacity2
+  nameWithType: BrushKeys.ForegroundWhiteOpacity2
+  fullName: H.Themes.BrushKeys.ForegroundWhiteOpacity2
+  type: Property
+  source:
+    id: ForegroundWhiteOpacity2
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 49
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: >-
+      [Obsolete]
+
+      public static ComponentResourceKey ForegroundWhiteOpacity2 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: >-
+      <Obsolete>
+
+      Public Shared ReadOnly Property ForegroundWhiteOpacity2 As ComponentResourceKey
+  overload: H.Themes.BrushKeys.ForegroundWhiteOpacity2*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+- uid: H.Themes.BrushKeys.ForegroundWhiteOpacity1
+  commentId: P:H.Themes.BrushKeys.ForegroundWhiteOpacity1
+  id: ForegroundWhiteOpacity1
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: ForegroundWhiteOpacity1
+  nameWithType: BrushKeys.ForegroundWhiteOpacity1
+  fullName: H.Themes.BrushKeys.ForegroundWhiteOpacity1
+  type: Property
+  source:
+    id: ForegroundWhiteOpacity1
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 51
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: >-
+      [Obsolete]
+
+      public static ComponentResourceKey ForegroundWhiteOpacity1 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: >-
+      <Obsolete>
+
+      Public Shared ReadOnly Property ForegroundWhiteOpacity1 As ComponentResourceKey
+  overload: H.Themes.BrushKeys.ForegroundWhiteOpacity1*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+- uid: H.Themes.BrushKeys.BorderBrush
+  commentId: P:H.Themes.BrushKeys.BorderBrush
+  id: BorderBrush
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: BorderBrush
+  nameWithType: BrushKeys.BorderBrush
+  fullName: H.Themes.BrushKeys.BorderBrush
+  type: Property
+  source:
+    id: BorderBrush
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 58
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey BorderBrush { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property BorderBrush As ComponentResourceKey
+  overload: H.Themes.BrushKeys.BorderBrush*
+- uid: H.Themes.BrushKeys.BorderBrushTitle
+  commentId: P:H.Themes.BrushKeys.BorderBrushTitle
+  id: BorderBrushTitle
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: BorderBrushTitle
+  nameWithType: BrushKeys.BorderBrushTitle
+  fullName: H.Themes.BrushKeys.BorderBrushTitle
+  type: Property
+  source:
+    id: BorderBrushTitle
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 59
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey BorderBrushTitle { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property BorderBrushTitle As ComponentResourceKey
+  overload: H.Themes.BrushKeys.BorderBrushTitle*
+- uid: H.Themes.BrushKeys.BorderBrushAssist
+  commentId: P:H.Themes.BrushKeys.BorderBrushAssist
+  id: BorderBrushAssist
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: BorderBrushAssist
+  nameWithType: BrushKeys.BorderBrushAssist
+  fullName: H.Themes.BrushKeys.BorderBrushAssist
+  type: Property
+  source:
+    id: BorderBrushAssist
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 60
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey BorderBrushAssist { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property BorderBrushAssist As ComponentResourceKey
+  overload: H.Themes.BrushKeys.BorderBrushAssist*
+- uid: H.Themes.BrushKeys.BorderBrushDisabled
+  commentId: P:H.Themes.BrushKeys.BorderBrushDisabled
+  id: BorderBrushDisabled
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: BorderBrushDisabled
+  nameWithType: BrushKeys.BorderBrushDisabled
+  fullName: H.Themes.BrushKeys.BorderBrushDisabled
+  type: Property
+  source:
+    id: BorderBrushDisabled
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 61
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: >-
+      [Obsolete]
+
+      public static ComponentResourceKey BorderBrushDisabled { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: >-
+      <Obsolete>
+
+      Public Shared ReadOnly Property BorderBrushDisabled As ComponentResourceKey
+  overload: H.Themes.BrushKeys.BorderBrushDisabled*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+- uid: H.Themes.BrushKeys.Accent
+  commentId: P:H.Themes.BrushKeys.Accent
+  id: Accent
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: Accent
+  nameWithType: BrushKeys.Accent
+  fullName: H.Themes.BrushKeys.Accent
+  type: Property
+  source:
+    id: Accent
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 66
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey Accent { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Accent As ComponentResourceKey
+  overload: H.Themes.BrushKeys.Accent*
+- uid: H.Themes.BrushKeys.Dark10
+  commentId: P:H.Themes.BrushKeys.Dark10
+  id: Dark10
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: Dark10
+  nameWithType: BrushKeys.Dark10
+  fullName: H.Themes.BrushKeys.Dark10
+  type: Property
+  source:
+    id: Dark10
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 70
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey Dark10 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Dark10 As ComponentResourceKey
+  overload: H.Themes.BrushKeys.Dark10*
+- uid: H.Themes.BrushKeys.Dark9_5
+  commentId: P:H.Themes.BrushKeys.Dark9_5
+  id: Dark9_5
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: Dark9_5
+  nameWithType: BrushKeys.Dark9_5
+  fullName: H.Themes.BrushKeys.Dark9_5
+  type: Property
+  source:
+    id: Dark9_5
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 71
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey Dark9_5 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Dark9_5 As ComponentResourceKey
+  overload: H.Themes.BrushKeys.Dark9_5*
+- uid: H.Themes.BrushKeys.Dark9
+  commentId: P:H.Themes.BrushKeys.Dark9
+  id: Dark9
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: Dark9
+  nameWithType: BrushKeys.Dark9
+  fullName: H.Themes.BrushKeys.Dark9
+  type: Property
+  source:
+    id: Dark9
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 72
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey Dark9 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Dark9 As ComponentResourceKey
+  overload: H.Themes.BrushKeys.Dark9*
+- uid: H.Themes.BrushKeys.Dark8_5
+  commentId: P:H.Themes.BrushKeys.Dark8_5
+  id: Dark8_5
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: Dark8_5
+  nameWithType: BrushKeys.Dark8_5
+  fullName: H.Themes.BrushKeys.Dark8_5
+  type: Property
+  source:
+    id: Dark8_5
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 73
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey Dark8_5 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Dark8_5 As ComponentResourceKey
+  overload: H.Themes.BrushKeys.Dark8_5*
+- uid: H.Themes.BrushKeys.Dark8
+  commentId: P:H.Themes.BrushKeys.Dark8
+  id: Dark8
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: Dark8
+  nameWithType: BrushKeys.Dark8
+  fullName: H.Themes.BrushKeys.Dark8
+  type: Property
+  source:
+    id: Dark8
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 74
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey Dark8 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Dark8 As ComponentResourceKey
+  overload: H.Themes.BrushKeys.Dark8*
+- uid: H.Themes.BrushKeys.Dark7_5
+  commentId: P:H.Themes.BrushKeys.Dark7_5
+  id: Dark7_5
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: Dark7_5
+  nameWithType: BrushKeys.Dark7_5
+  fullName: H.Themes.BrushKeys.Dark7_5
+  type: Property
+  source:
+    id: Dark7_5
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 75
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey Dark7_5 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Dark7_5 As ComponentResourceKey
+  overload: H.Themes.BrushKeys.Dark7_5*
+- uid: H.Themes.BrushKeys.Dark7
+  commentId: P:H.Themes.BrushKeys.Dark7
+  id: Dark7
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: Dark7
+  nameWithType: BrushKeys.Dark7
+  fullName: H.Themes.BrushKeys.Dark7
+  type: Property
+  source:
+    id: Dark7
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 76
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey Dark7 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Dark7 As ComponentResourceKey
+  overload: H.Themes.BrushKeys.Dark7*
+- uid: H.Themes.BrushKeys.Dark6_5
+  commentId: P:H.Themes.BrushKeys.Dark6_5
+  id: Dark6_5
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: Dark6_5
+  nameWithType: BrushKeys.Dark6_5
+  fullName: H.Themes.BrushKeys.Dark6_5
+  type: Property
+  source:
+    id: Dark6_5
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 77
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey Dark6_5 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Dark6_5 As ComponentResourceKey
+  overload: H.Themes.BrushKeys.Dark6_5*
+- uid: H.Themes.BrushKeys.Dark6
+  commentId: P:H.Themes.BrushKeys.Dark6
+  id: Dark6
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: Dark6
+  nameWithType: BrushKeys.Dark6
+  fullName: H.Themes.BrushKeys.Dark6
+  type: Property
+  source:
+    id: Dark6
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 78
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey Dark6 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Dark6 As ComponentResourceKey
+  overload: H.Themes.BrushKeys.Dark6*
+- uid: H.Themes.BrushKeys.Dark5_5
+  commentId: P:H.Themes.BrushKeys.Dark5_5
+  id: Dark5_5
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: Dark5_5
+  nameWithType: BrushKeys.Dark5_5
+  fullName: H.Themes.BrushKeys.Dark5_5
+  type: Property
+  source:
+    id: Dark5_5
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 79
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey Dark5_5 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Dark5_5 As ComponentResourceKey
+  overload: H.Themes.BrushKeys.Dark5_5*
+- uid: H.Themes.BrushKeys.Dark5
+  commentId: P:H.Themes.BrushKeys.Dark5
+  id: Dark5
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: Dark5
+  nameWithType: BrushKeys.Dark5
+  fullName: H.Themes.BrushKeys.Dark5
+  type: Property
+  source:
+    id: Dark5
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 80
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey Dark5 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Dark5 As ComponentResourceKey
+  overload: H.Themes.BrushKeys.Dark5*
+- uid: H.Themes.BrushKeys.Dark4_5
+  commentId: P:H.Themes.BrushKeys.Dark4_5
+  id: Dark4_5
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: Dark4_5
+  nameWithType: BrushKeys.Dark4_5
+  fullName: H.Themes.BrushKeys.Dark4_5
+  type: Property
+  source:
+    id: Dark4_5
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 81
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey Dark4_5 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Dark4_5 As ComponentResourceKey
+  overload: H.Themes.BrushKeys.Dark4_5*
+- uid: H.Themes.BrushKeys.Dark4
+  commentId: P:H.Themes.BrushKeys.Dark4
+  id: Dark4
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: Dark4
+  nameWithType: BrushKeys.Dark4
+  fullName: H.Themes.BrushKeys.Dark4
+  type: Property
+  source:
+    id: Dark4
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 82
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey Dark4 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Dark4 As ComponentResourceKey
+  overload: H.Themes.BrushKeys.Dark4*
+- uid: H.Themes.BrushKeys.Dark3_5
+  commentId: P:H.Themes.BrushKeys.Dark3_5
+  id: Dark3_5
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: Dark3_5
+  nameWithType: BrushKeys.Dark3_5
+  fullName: H.Themes.BrushKeys.Dark3_5
+  type: Property
+  source:
+    id: Dark3_5
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 83
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey Dark3_5 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Dark3_5 As ComponentResourceKey
+  overload: H.Themes.BrushKeys.Dark3_5*
+- uid: H.Themes.BrushKeys.Dark3
+  commentId: P:H.Themes.BrushKeys.Dark3
+  id: Dark3
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: Dark3
+  nameWithType: BrushKeys.Dark3
+  fullName: H.Themes.BrushKeys.Dark3
+  type: Property
+  source:
+    id: Dark3
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 84
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey Dark3 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Dark3 As ComponentResourceKey
+  overload: H.Themes.BrushKeys.Dark3*
+- uid: H.Themes.BrushKeys.Dark2_5
+  commentId: P:H.Themes.BrushKeys.Dark2_5
+  id: Dark2_5
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: Dark2_5
+  nameWithType: BrushKeys.Dark2_5
+  fullName: H.Themes.BrushKeys.Dark2_5
+  type: Property
+  source:
+    id: Dark2_5
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 85
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey Dark2_5 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Dark2_5 As ComponentResourceKey
+  overload: H.Themes.BrushKeys.Dark2_5*
+- uid: H.Themes.BrushKeys.Dark2
+  commentId: P:H.Themes.BrushKeys.Dark2
+  id: Dark2
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: Dark2
+  nameWithType: BrushKeys.Dark2
+  fullName: H.Themes.BrushKeys.Dark2
+  type: Property
+  source:
+    id: Dark2
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 86
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey Dark2 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Dark2 As ComponentResourceKey
+  overload: H.Themes.BrushKeys.Dark2*
+- uid: H.Themes.BrushKeys.Dark1_5
+  commentId: P:H.Themes.BrushKeys.Dark1_5
+  id: Dark1_5
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: Dark1_5
+  nameWithType: BrushKeys.Dark1_5
+  fullName: H.Themes.BrushKeys.Dark1_5
+  type: Property
+  source:
+    id: Dark1_5
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 87
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey Dark1_5 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Dark1_5 As ComponentResourceKey
+  overload: H.Themes.BrushKeys.Dark1_5*
+- uid: H.Themes.BrushKeys.Dark1
+  commentId: P:H.Themes.BrushKeys.Dark1
+  id: Dark1
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: Dark1
+  nameWithType: BrushKeys.Dark1
+  fullName: H.Themes.BrushKeys.Dark1
+  type: Property
+  source:
+    id: Dark1
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 88
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey Dark1 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Dark1 As ComponentResourceKey
+  overload: H.Themes.BrushKeys.Dark1*
+- uid: H.Themes.BrushKeys.Dark0_9
+  commentId: P:H.Themes.BrushKeys.Dark0_9
+  id: Dark0_9
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: Dark0_9
+  nameWithType: BrushKeys.Dark0_9
+  fullName: H.Themes.BrushKeys.Dark0_9
+  type: Property
+  source:
+    id: Dark0_9
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 89
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey Dark0_9 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Dark0_9 As ComponentResourceKey
+  overload: H.Themes.BrushKeys.Dark0_9*
+- uid: H.Themes.BrushKeys.Dark0_8
+  commentId: P:H.Themes.BrushKeys.Dark0_8
+  id: Dark0_8
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: Dark0_8
+  nameWithType: BrushKeys.Dark0_8
+  fullName: H.Themes.BrushKeys.Dark0_8
+  type: Property
+  source:
+    id: Dark0_8
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 90
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey Dark0_8 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Dark0_8 As ComponentResourceKey
+  overload: H.Themes.BrushKeys.Dark0_8*
+- uid: H.Themes.BrushKeys.Dark0_7
+  commentId: P:H.Themes.BrushKeys.Dark0_7
+  id: Dark0_7
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: Dark0_7
+  nameWithType: BrushKeys.Dark0_7
+  fullName: H.Themes.BrushKeys.Dark0_7
+  type: Property
+  source:
+    id: Dark0_7
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 91
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey Dark0_7 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Dark0_7 As ComponentResourceKey
+  overload: H.Themes.BrushKeys.Dark0_7*
+- uid: H.Themes.BrushKeys.Dark0_6
+  commentId: P:H.Themes.BrushKeys.Dark0_6
+  id: Dark0_6
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: Dark0_6
+  nameWithType: BrushKeys.Dark0_6
+  fullName: H.Themes.BrushKeys.Dark0_6
+  type: Property
+  source:
+    id: Dark0_6
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 92
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey Dark0_6 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Dark0_6 As ComponentResourceKey
+  overload: H.Themes.BrushKeys.Dark0_6*
+- uid: H.Themes.BrushKeys.Dark0_5
+  commentId: P:H.Themes.BrushKeys.Dark0_5
+  id: Dark0_5
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: Dark0_5
+  nameWithType: BrushKeys.Dark0_5
+  fullName: H.Themes.BrushKeys.Dark0_5
+  type: Property
+  source:
+    id: Dark0_5
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 93
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey Dark0_5 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Dark0_5 As ComponentResourceKey
+  overload: H.Themes.BrushKeys.Dark0_5*
+- uid: H.Themes.BrushKeys.Dark0_4
+  commentId: P:H.Themes.BrushKeys.Dark0_4
+  id: Dark0_4
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: Dark0_4
+  nameWithType: BrushKeys.Dark0_4
+  fullName: H.Themes.BrushKeys.Dark0_4
+  type: Property
+  source:
+    id: Dark0_4
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 94
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey Dark0_4 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Dark0_4 As ComponentResourceKey
+  overload: H.Themes.BrushKeys.Dark0_4*
+- uid: H.Themes.BrushKeys.Dark0_3
+  commentId: P:H.Themes.BrushKeys.Dark0_3
+  id: Dark0_3
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: Dark0_3
+  nameWithType: BrushKeys.Dark0_3
+  fullName: H.Themes.BrushKeys.Dark0_3
+  type: Property
+  source:
+    id: Dark0_3
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 95
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey Dark0_3 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Dark0_3 As ComponentResourceKey
+  overload: H.Themes.BrushKeys.Dark0_3*
+- uid: H.Themes.BrushKeys.Dark0_2
+  commentId: P:H.Themes.BrushKeys.Dark0_2
+  id: Dark0_2
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: Dark0_2
+  nameWithType: BrushKeys.Dark0_2
+  fullName: H.Themes.BrushKeys.Dark0_2
+  type: Property
+  source:
+    id: Dark0_2
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 96
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey Dark0_2 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Dark0_2 As ComponentResourceKey
+  overload: H.Themes.BrushKeys.Dark0_2*
+- uid: H.Themes.BrushKeys.Dark0_1
+  commentId: P:H.Themes.BrushKeys.Dark0_1
+  id: Dark0_1
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: Dark0_1
+  nameWithType: BrushKeys.Dark0_1
+  fullName: H.Themes.BrushKeys.Dark0_1
+  type: Property
+  source:
+    id: Dark0_1
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 97
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey Dark0_1 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Dark0_1 As ComponentResourceKey
+  overload: H.Themes.BrushKeys.Dark0_1*
+- uid: H.Themes.BrushKeys.Dark0
+  commentId: P:H.Themes.BrushKeys.Dark0
+  id: Dark0
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: Dark0
+  nameWithType: BrushKeys.Dark0
+  fullName: H.Themes.BrushKeys.Dark0
+  type: Property
+  source:
+    id: Dark0
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 98
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey Dark0 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Dark0 As ComponentResourceKey
+  overload: H.Themes.BrushKeys.Dark0*
+- uid: H.Themes.BrushKeys.LightGray
+  commentId: P:H.Themes.BrushKeys.LightGray
+  id: LightGray
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: LightGray
+  nameWithType: BrushKeys.LightGray
+  fullName: H.Themes.BrushKeys.LightGray
+  type: Property
+  source:
+    id: LightGray
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 102
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey LightGray { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property LightGray As ComponentResourceKey
+  overload: H.Themes.BrushKeys.LightGray*
+- uid: H.Themes.BrushKeys.LightGrayOpacity5
+  commentId: P:H.Themes.BrushKeys.LightGrayOpacity5
+  id: LightGrayOpacity5
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: LightGrayOpacity5
+  nameWithType: BrushKeys.LightGrayOpacity5
+  fullName: H.Themes.BrushKeys.LightGrayOpacity5
+  type: Property
+  source:
+    id: LightGrayOpacity5
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 103
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: >-
+      [Obsolete]
+
+      public static ComponentResourceKey LightGrayOpacity5 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: >-
+      <Obsolete>
+
+      Public Shared ReadOnly Property LightGrayOpacity5 As ComponentResourceKey
+  overload: H.Themes.BrushKeys.LightGrayOpacity5*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+- uid: H.Themes.BrushKeys.Gray
+  commentId: P:H.Themes.BrushKeys.Gray
+  id: Gray
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: Gray
+  nameWithType: BrushKeys.Gray
+  fullName: H.Themes.BrushKeys.Gray
+  type: Property
+  source:
+    id: Gray
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 105
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey Gray { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Gray As ComponentResourceKey
+  overload: H.Themes.BrushKeys.Gray*
+- uid: H.Themes.BrushKeys.GrayOpacity5
+  commentId: P:H.Themes.BrushKeys.GrayOpacity5
+  id: GrayOpacity5
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: GrayOpacity5
+  nameWithType: BrushKeys.GrayOpacity5
+  fullName: H.Themes.BrushKeys.GrayOpacity5
+  type: Property
+  source:
+    id: GrayOpacity5
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 106
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: >-
+      [Obsolete]
+
+      public static ComponentResourceKey GrayOpacity5 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: >-
+      <Obsolete>
+
+      Public Shared ReadOnly Property GrayOpacity5 As ComponentResourceKey
+  overload: H.Themes.BrushKeys.GrayOpacity5*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+- uid: H.Themes.BrushKeys.Black
+  commentId: P:H.Themes.BrushKeys.Black
+  id: Black
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: Black
+  nameWithType: BrushKeys.Black
+  fullName: H.Themes.BrushKeys.Black
+  type: Property
+  source:
+    id: Black
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 108
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey Black { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Black As ComponentResourceKey
+  overload: H.Themes.BrushKeys.Black*
+- uid: H.Themes.BrushKeys.Orange
+  commentId: P:H.Themes.BrushKeys.Orange
+  id: Orange
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: Orange
+  nameWithType: BrushKeys.Orange
+  fullName: H.Themes.BrushKeys.Orange
+  type: Property
+  source:
+    id: Orange
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 109
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey Orange { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Orange As ComponentResourceKey
+  overload: H.Themes.BrushKeys.Orange*
+- uid: H.Themes.BrushKeys.Red
+  commentId: P:H.Themes.BrushKeys.Red
+  id: Red
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: Red
+  nameWithType: BrushKeys.Red
+  fullName: H.Themes.BrushKeys.Red
+  type: Property
+  source:
+    id: Red
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 110
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey Red { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Red As ComponentResourceKey
+  overload: H.Themes.BrushKeys.Red*
+- uid: H.Themes.BrushKeys.Green
+  commentId: P:H.Themes.BrushKeys.Green
+  id: Green
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: Green
+  nameWithType: BrushKeys.Green
+  fullName: H.Themes.BrushKeys.Green
+  type: Property
+  source:
+    id: Green
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 111
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey Green { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Green As ComponentResourceKey
+  overload: H.Themes.BrushKeys.Green*
+- uid: H.Themes.BrushKeys.Yellow
+  commentId: P:H.Themes.BrushKeys.Yellow
+  id: Yellow
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: Yellow
+  nameWithType: BrushKeys.Yellow
+  fullName: H.Themes.BrushKeys.Yellow
+  type: Property
+  source:
+    id: Yellow
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 112
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey Yellow { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Yellow As ComponentResourceKey
+  overload: H.Themes.BrushKeys.Yellow*
+- uid: H.Themes.BrushKeys.Blue
+  commentId: P:H.Themes.BrushKeys.Blue
+  id: Blue
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: Blue
+  nameWithType: BrushKeys.Blue
+  fullName: H.Themes.BrushKeys.Blue
+  type: Property
+  source:
+    id: Blue
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 113
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey Blue { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Blue As ComponentResourceKey
+  overload: H.Themes.BrushKeys.Blue*
+- uid: H.Themes.BrushKeys.Purple
+  commentId: P:H.Themes.BrushKeys.Purple
+  id: Purple
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: Purple
+  nameWithType: BrushKeys.Purple
+  fullName: H.Themes.BrushKeys.Purple
+  type: Property
+  source:
+    id: Purple
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 114
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey Purple { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Purple As ComponentResourceKey
+  overload: H.Themes.BrushKeys.Purple*
+- uid: H.Themes.BrushKeys.Brown
+  commentId: P:H.Themes.BrushKeys.Brown
+  id: Brown
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: Brown
+  nameWithType: BrushKeys.Brown
+  fullName: H.Themes.BrushKeys.Brown
+  type: Property
+  source:
+    id: Brown
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 115
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey Brown { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Brown As ComponentResourceKey
+  overload: H.Themes.BrushKeys.Brown*
+- uid: H.Themes.BrushKeys.LightBlue
+  commentId: P:H.Themes.BrushKeys.LightBlue
+  id: LightBlue
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: LightBlue
+  nameWithType: BrushKeys.LightBlue
+  fullName: H.Themes.BrushKeys.LightBlue
+  type: Property
+  source:
+    id: LightBlue
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 116
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey LightBlue { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property LightBlue As ComponentResourceKey
+  overload: H.Themes.BrushKeys.LightBlue*
+- uid: H.Themes.BrushKeys.Pink
+  commentId: P:H.Themes.BrushKeys.Pink
+  id: Pink
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: Pink
+  nameWithType: BrushKeys.Pink
+  fullName: H.Themes.BrushKeys.Pink
+  type: Property
+  source:
+    id: Pink
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 117
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey Pink { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Pink As ComponentResourceKey
+  overload: H.Themes.BrushKeys.Pink*
+- uid: H.Themes.BrushKeys.White
+  commentId: P:H.Themes.BrushKeys.White
+  id: White
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: White
+  nameWithType: BrushKeys.White
+  fullName: H.Themes.BrushKeys.White
+  type: Property
+  source:
+    id: White
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 119
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey White { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property White As ComponentResourceKey
+  overload: H.Themes.BrushKeys.White*
+- uid: H.Themes.BrushKeys.DialogCover
+  commentId: P:H.Themes.BrushKeys.DialogCover
+  id: DialogCover
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: DialogCover
+  nameWithType: BrushKeys.DialogCover
+  fullName: H.Themes.BrushKeys.DialogCover
+  type: Property
+  source:
+    id: DialogCover
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 133
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey DialogCover { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property DialogCover As ComponentResourceKey
+  overload: H.Themes.BrushKeys.DialogCover*
+- uid: H.Themes.BrushKeys.Tranparent
+  commentId: P:H.Themes.BrushKeys.Tranparent
+  id: Tranparent
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: Tranparent
+  nameWithType: BrushKeys.Tranparent
+  fullName: H.Themes.BrushKeys.Tranparent
+  type: Property
+  source:
+    id: Tranparent
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 137
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey Tranparent { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Tranparent As ComponentResourceKey
+  overload: H.Themes.BrushKeys.Tranparent*
+- uid: H.Themes.BrushKeys.Tile
+  commentId: P:H.Themes.BrushKeys.Tile
+  id: Tile
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: Tile
+  nameWithType: BrushKeys.Tile
+  fullName: H.Themes.BrushKeys.Tile
+  type: Property
+  source:
+    id: Tile
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 139
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey Tile { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Tile As ComponentResourceKey
+  overload: H.Themes.BrushKeys.Tile*
+- uid: H.Themes.BrushKeys.Tile25
+  commentId: P:H.Themes.BrushKeys.Tile25
+  id: Tile25
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: Tile25
+  nameWithType: BrushKeys.Tile25
+  fullName: H.Themes.BrushKeys.Tile25
+  type: Property
+  source:
+    id: Tile25
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 140
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey Tile25 { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property Tile25 As ComponentResourceKey
+  overload: H.Themes.BrushKeys.Tile25*
+- uid: H.Themes.BrushKeys.MenuBackground
+  commentId: P:H.Themes.BrushKeys.MenuBackground
+  id: MenuBackground
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: MenuBackground
+  nameWithType: BrushKeys.MenuBackground
+  fullName: H.Themes.BrushKeys.MenuBackground
+  type: Property
+  source:
+    id: MenuBackground
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 143
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey MenuBackground { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property MenuBackground As ComponentResourceKey
+  overload: H.Themes.BrushKeys.MenuBackground*
+- uid: H.Themes.BrushKeys.MenuForeground
+  commentId: P:H.Themes.BrushKeys.MenuForeground
+  id: MenuForeground
+  parent: H.Themes.BrushKeys
+  langs:
+  - csharp
+  - vb
+  name: MenuForeground
+  nameWithType: BrushKeys.MenuForeground
+  fullName: H.Themes.BrushKeys.MenuForeground
+  type: Property
+  source:
+    id: MenuForeground
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Themes\H.Theme\BrushKeys.xaml.cs
+    startLine: 144
+  assemblies:
+  - H.Theme
+  namespace: H.Themes
+  syntax:
+    content: public static ComponentResourceKey MenuForeground { get; }
+    parameters: []
+    return:
+      type: System.Windows.ComponentResourceKey
+    content.vb: Public Shared ReadOnly Property MenuForeground As ComponentResourceKey
+  overload: H.Themes.BrushKeys.MenuForeground*
+references:
+- uid: H.Themes
+  commentId: N:H.Themes
+  href: H.html
+  name: H.Themes
+  nameWithType: H.Themes
+  fullName: H.Themes
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Themes
+    name: Themes
+    href: H.Themes.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Themes
+    name: Themes
+    href: H.Themes.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: H.Themes.BrushKeys.CaptionBackground*
+  commentId: Overload:H.Themes.BrushKeys.CaptionBackground
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_CaptionBackground
+  name: CaptionBackground
+  nameWithType: BrushKeys.CaptionBackground
+  fullName: H.Themes.BrushKeys.CaptionBackground
+- uid: System.Windows.ComponentResourceKey
+  commentId: T:System.Windows.ComponentResourceKey
+  parent: System.Windows
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.componentresourcekey
+  name: ComponentResourceKey
+  nameWithType: ComponentResourceKey
+  fullName: System.Windows.ComponentResourceKey
+- uid: System.Windows
+  commentId: N:System.Windows
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows
+  nameWithType: System.Windows
+  fullName: System.Windows
+  spec.csharp:
+  - uid: System
+    name: System
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  spec.vb:
+  - uid: System
+    name: System
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+- uid: H.Themes.BrushKeys.Background*
+  commentId: Overload:H.Themes.BrushKeys.Background
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_Background
+  name: Background
+  nameWithType: BrushKeys.Background
+  fullName: H.Themes.BrushKeys.Background
+- uid: H.Themes.BrushKeys.BackgroundDisabled*
+  commentId: Overload:H.Themes.BrushKeys.BackgroundDisabled
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_BackgroundDisabled
+  name: BackgroundDisabled
+  nameWithType: BrushKeys.BackgroundDisabled
+  fullName: H.Themes.BrushKeys.BackgroundDisabled
+- uid: H.Themes.BrushKeys.AlternatingRowBackground*
+  commentId: Overload:H.Themes.BrushKeys.AlternatingRowBackground
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_AlternatingRowBackground
+  name: AlternatingRowBackground
+  nameWithType: BrushKeys.AlternatingRowBackground
+  fullName: H.Themes.BrushKeys.AlternatingRowBackground
+- uid: H.Themes.BrushKeys.CaptionForeground*
+  commentId: Overload:H.Themes.BrushKeys.CaptionForeground
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_CaptionForeground
+  name: CaptionForeground
+  nameWithType: BrushKeys.CaptionForeground
+  fullName: H.Themes.BrushKeys.CaptionForeground
+- uid: H.Themes.BrushKeys.Foreground*
+  commentId: Overload:H.Themes.BrushKeys.Foreground
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_Foreground
+  name: Foreground
+  nameWithType: BrushKeys.Foreground
+  fullName: H.Themes.BrushKeys.Foreground
+- uid: H.Themes.BrushKeys.ForegroundTitle*
+  commentId: Overload:H.Themes.BrushKeys.ForegroundTitle
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_ForegroundTitle
+  name: ForegroundTitle
+  nameWithType: BrushKeys.ForegroundTitle
+  fullName: H.Themes.BrushKeys.ForegroundTitle
+- uid: H.Themes.BrushKeys.ForegroundSelect*
+  commentId: Overload:H.Themes.BrushKeys.ForegroundSelect
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_ForegroundSelect
+  name: ForegroundSelect
+  nameWithType: BrushKeys.ForegroundSelect
+  fullName: H.Themes.BrushKeys.ForegroundSelect
+- uid: H.Themes.BrushKeys.MouseOver*
+  commentId: Overload:H.Themes.BrushKeys.MouseOver
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_MouseOver
+  name: MouseOver
+  nameWithType: BrushKeys.MouseOver
+  fullName: H.Themes.BrushKeys.MouseOver
+- uid: H.Themes.BrushKeys.Selected*
+  commentId: Overload:H.Themes.BrushKeys.Selected
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_Selected
+  name: Selected
+  nameWithType: BrushKeys.Selected
+  fullName: H.Themes.BrushKeys.Selected
+- uid: H.Themes.BrushKeys.ForegroundAssist*
+  commentId: Overload:H.Themes.BrushKeys.ForegroundAssist
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_ForegroundAssist
+  name: ForegroundAssist
+  nameWithType: BrushKeys.ForegroundAssist
+  fullName: H.Themes.BrushKeys.ForegroundAssist
+- uid: H.Themes.BrushKeys.ForegroundLink*
+  commentId: Overload:H.Themes.BrushKeys.ForegroundLink
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_ForegroundLink
+  name: ForegroundLink
+  nameWithType: BrushKeys.ForegroundLink
+  fullName: H.Themes.BrushKeys.ForegroundLink
+- uid: H.Themes.BrushKeys.ForegroundWhite*
+  commentId: Overload:H.Themes.BrushKeys.ForegroundWhite
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_ForegroundWhite
+  name: ForegroundWhite
+  nameWithType: BrushKeys.ForegroundWhite
+  fullName: H.Themes.BrushKeys.ForegroundWhite
+- uid: H.Themes.BrushKeys.ForegroundWhiteOpacity9*
+  commentId: Overload:H.Themes.BrushKeys.ForegroundWhiteOpacity9
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_ForegroundWhiteOpacity9
+  name: ForegroundWhiteOpacity9
+  nameWithType: BrushKeys.ForegroundWhiteOpacity9
+  fullName: H.Themes.BrushKeys.ForegroundWhiteOpacity9
+- uid: H.Themes.BrushKeys.ForegroundWhiteOpacity8*
+  commentId: Overload:H.Themes.BrushKeys.ForegroundWhiteOpacity8
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_ForegroundWhiteOpacity8
+  name: ForegroundWhiteOpacity8
+  nameWithType: BrushKeys.ForegroundWhiteOpacity8
+  fullName: H.Themes.BrushKeys.ForegroundWhiteOpacity8
+- uid: H.Themes.BrushKeys.ForegroundWhiteOpacity7*
+  commentId: Overload:H.Themes.BrushKeys.ForegroundWhiteOpacity7
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_ForegroundWhiteOpacity7
+  name: ForegroundWhiteOpacity7
+  nameWithType: BrushKeys.ForegroundWhiteOpacity7
+  fullName: H.Themes.BrushKeys.ForegroundWhiteOpacity7
+- uid: H.Themes.BrushKeys.ForegroundWhiteOpacity6*
+  commentId: Overload:H.Themes.BrushKeys.ForegroundWhiteOpacity6
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_ForegroundWhiteOpacity6
+  name: ForegroundWhiteOpacity6
+  nameWithType: BrushKeys.ForegroundWhiteOpacity6
+  fullName: H.Themes.BrushKeys.ForegroundWhiteOpacity6
+- uid: H.Themes.BrushKeys.ForegroundWhiteOpacity5*
+  commentId: Overload:H.Themes.BrushKeys.ForegroundWhiteOpacity5
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_ForegroundWhiteOpacity5
+  name: ForegroundWhiteOpacity5
+  nameWithType: BrushKeys.ForegroundWhiteOpacity5
+  fullName: H.Themes.BrushKeys.ForegroundWhiteOpacity5
+- uid: H.Themes.BrushKeys.ForegroundWhiteOpacity4*
+  commentId: Overload:H.Themes.BrushKeys.ForegroundWhiteOpacity4
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_ForegroundWhiteOpacity4
+  name: ForegroundWhiteOpacity4
+  nameWithType: BrushKeys.ForegroundWhiteOpacity4
+  fullName: H.Themes.BrushKeys.ForegroundWhiteOpacity4
+- uid: H.Themes.BrushKeys.ForegroundWhiteOpacity3*
+  commentId: Overload:H.Themes.BrushKeys.ForegroundWhiteOpacity3
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_ForegroundWhiteOpacity3
+  name: ForegroundWhiteOpacity3
+  nameWithType: BrushKeys.ForegroundWhiteOpacity3
+  fullName: H.Themes.BrushKeys.ForegroundWhiteOpacity3
+- uid: H.Themes.BrushKeys.ForegroundWhiteOpacity2*
+  commentId: Overload:H.Themes.BrushKeys.ForegroundWhiteOpacity2
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_ForegroundWhiteOpacity2
+  name: ForegroundWhiteOpacity2
+  nameWithType: BrushKeys.ForegroundWhiteOpacity2
+  fullName: H.Themes.BrushKeys.ForegroundWhiteOpacity2
+- uid: H.Themes.BrushKeys.ForegroundWhiteOpacity1*
+  commentId: Overload:H.Themes.BrushKeys.ForegroundWhiteOpacity1
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_ForegroundWhiteOpacity1
+  name: ForegroundWhiteOpacity1
+  nameWithType: BrushKeys.ForegroundWhiteOpacity1
+  fullName: H.Themes.BrushKeys.ForegroundWhiteOpacity1
+- uid: H.Themes.BrushKeys.BorderBrush*
+  commentId: Overload:H.Themes.BrushKeys.BorderBrush
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_BorderBrush
+  name: BorderBrush
+  nameWithType: BrushKeys.BorderBrush
+  fullName: H.Themes.BrushKeys.BorderBrush
+- uid: H.Themes.BrushKeys.BorderBrushTitle*
+  commentId: Overload:H.Themes.BrushKeys.BorderBrushTitle
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_BorderBrushTitle
+  name: BorderBrushTitle
+  nameWithType: BrushKeys.BorderBrushTitle
+  fullName: H.Themes.BrushKeys.BorderBrushTitle
+- uid: H.Themes.BrushKeys.BorderBrushAssist*
+  commentId: Overload:H.Themes.BrushKeys.BorderBrushAssist
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_BorderBrushAssist
+  name: BorderBrushAssist
+  nameWithType: BrushKeys.BorderBrushAssist
+  fullName: H.Themes.BrushKeys.BorderBrushAssist
+- uid: H.Themes.BrushKeys.BorderBrushDisabled*
+  commentId: Overload:H.Themes.BrushKeys.BorderBrushDisabled
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_BorderBrushDisabled
+  name: BorderBrushDisabled
+  nameWithType: BrushKeys.BorderBrushDisabled
+  fullName: H.Themes.BrushKeys.BorderBrushDisabled
+- uid: H.Themes.BrushKeys.Accent*
+  commentId: Overload:H.Themes.BrushKeys.Accent
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_Accent
+  name: Accent
+  nameWithType: BrushKeys.Accent
+  fullName: H.Themes.BrushKeys.Accent
+- uid: H.Themes.BrushKeys.Dark10*
+  commentId: Overload:H.Themes.BrushKeys.Dark10
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_Dark10
+  name: Dark10
+  nameWithType: BrushKeys.Dark10
+  fullName: H.Themes.BrushKeys.Dark10
+- uid: H.Themes.BrushKeys.Dark9_5*
+  commentId: Overload:H.Themes.BrushKeys.Dark9_5
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_Dark9_5
+  name: Dark9_5
+  nameWithType: BrushKeys.Dark9_5
+  fullName: H.Themes.BrushKeys.Dark9_5
+- uid: H.Themes.BrushKeys.Dark9*
+  commentId: Overload:H.Themes.BrushKeys.Dark9
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_Dark9
+  name: Dark9
+  nameWithType: BrushKeys.Dark9
+  fullName: H.Themes.BrushKeys.Dark9
+- uid: H.Themes.BrushKeys.Dark8_5*
+  commentId: Overload:H.Themes.BrushKeys.Dark8_5
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_Dark8_5
+  name: Dark8_5
+  nameWithType: BrushKeys.Dark8_5
+  fullName: H.Themes.BrushKeys.Dark8_5
+- uid: H.Themes.BrushKeys.Dark8*
+  commentId: Overload:H.Themes.BrushKeys.Dark8
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_Dark8
+  name: Dark8
+  nameWithType: BrushKeys.Dark8
+  fullName: H.Themes.BrushKeys.Dark8
+- uid: H.Themes.BrushKeys.Dark7_5*
+  commentId: Overload:H.Themes.BrushKeys.Dark7_5
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_Dark7_5
+  name: Dark7_5
+  nameWithType: BrushKeys.Dark7_5
+  fullName: H.Themes.BrushKeys.Dark7_5
+- uid: H.Themes.BrushKeys.Dark7*
+  commentId: Overload:H.Themes.BrushKeys.Dark7
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_Dark7
+  name: Dark7
+  nameWithType: BrushKeys.Dark7
+  fullName: H.Themes.BrushKeys.Dark7
+- uid: H.Themes.BrushKeys.Dark6_5*
+  commentId: Overload:H.Themes.BrushKeys.Dark6_5
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_Dark6_5
+  name: Dark6_5
+  nameWithType: BrushKeys.Dark6_5
+  fullName: H.Themes.BrushKeys.Dark6_5
+- uid: H.Themes.BrushKeys.Dark6*
+  commentId: Overload:H.Themes.BrushKeys.Dark6
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_Dark6
+  name: Dark6
+  nameWithType: BrushKeys.Dark6
+  fullName: H.Themes.BrushKeys.Dark6
+- uid: H.Themes.BrushKeys.Dark5_5*
+  commentId: Overload:H.Themes.BrushKeys.Dark5_5
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_Dark5_5
+  name: Dark5_5
+  nameWithType: BrushKeys.Dark5_5
+  fullName: H.Themes.BrushKeys.Dark5_5
+- uid: H.Themes.BrushKeys.Dark5*
+  commentId: Overload:H.Themes.BrushKeys.Dark5
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_Dark5
+  name: Dark5
+  nameWithType: BrushKeys.Dark5
+  fullName: H.Themes.BrushKeys.Dark5
+- uid: H.Themes.BrushKeys.Dark4_5*
+  commentId: Overload:H.Themes.BrushKeys.Dark4_5
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_Dark4_5
+  name: Dark4_5
+  nameWithType: BrushKeys.Dark4_5
+  fullName: H.Themes.BrushKeys.Dark4_5
+- uid: H.Themes.BrushKeys.Dark4*
+  commentId: Overload:H.Themes.BrushKeys.Dark4
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_Dark4
+  name: Dark4
+  nameWithType: BrushKeys.Dark4
+  fullName: H.Themes.BrushKeys.Dark4
+- uid: H.Themes.BrushKeys.Dark3_5*
+  commentId: Overload:H.Themes.BrushKeys.Dark3_5
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_Dark3_5
+  name: Dark3_5
+  nameWithType: BrushKeys.Dark3_5
+  fullName: H.Themes.BrushKeys.Dark3_5
+- uid: H.Themes.BrushKeys.Dark3*
+  commentId: Overload:H.Themes.BrushKeys.Dark3
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_Dark3
+  name: Dark3
+  nameWithType: BrushKeys.Dark3
+  fullName: H.Themes.BrushKeys.Dark3
+- uid: H.Themes.BrushKeys.Dark2_5*
+  commentId: Overload:H.Themes.BrushKeys.Dark2_5
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_Dark2_5
+  name: Dark2_5
+  nameWithType: BrushKeys.Dark2_5
+  fullName: H.Themes.BrushKeys.Dark2_5
+- uid: H.Themes.BrushKeys.Dark2*
+  commentId: Overload:H.Themes.BrushKeys.Dark2
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_Dark2
+  name: Dark2
+  nameWithType: BrushKeys.Dark2
+  fullName: H.Themes.BrushKeys.Dark2
+- uid: H.Themes.BrushKeys.Dark1_5*
+  commentId: Overload:H.Themes.BrushKeys.Dark1_5
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_Dark1_5
+  name: Dark1_5
+  nameWithType: BrushKeys.Dark1_5
+  fullName: H.Themes.BrushKeys.Dark1_5
+- uid: H.Themes.BrushKeys.Dark1*
+  commentId: Overload:H.Themes.BrushKeys.Dark1
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_Dark1
+  name: Dark1
+  nameWithType: BrushKeys.Dark1
+  fullName: H.Themes.BrushKeys.Dark1
+- uid: H.Themes.BrushKeys.Dark0_9*
+  commentId: Overload:H.Themes.BrushKeys.Dark0_9
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_Dark0_9
+  name: Dark0_9
+  nameWithType: BrushKeys.Dark0_9
+  fullName: H.Themes.BrushKeys.Dark0_9
+- uid: H.Themes.BrushKeys.Dark0_8*
+  commentId: Overload:H.Themes.BrushKeys.Dark0_8
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_Dark0_8
+  name: Dark0_8
+  nameWithType: BrushKeys.Dark0_8
+  fullName: H.Themes.BrushKeys.Dark0_8
+- uid: H.Themes.BrushKeys.Dark0_7*
+  commentId: Overload:H.Themes.BrushKeys.Dark0_7
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_Dark0_7
+  name: Dark0_7
+  nameWithType: BrushKeys.Dark0_7
+  fullName: H.Themes.BrushKeys.Dark0_7
+- uid: H.Themes.BrushKeys.Dark0_6*
+  commentId: Overload:H.Themes.BrushKeys.Dark0_6
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_Dark0_6
+  name: Dark0_6
+  nameWithType: BrushKeys.Dark0_6
+  fullName: H.Themes.BrushKeys.Dark0_6
+- uid: H.Themes.BrushKeys.Dark0_5*
+  commentId: Overload:H.Themes.BrushKeys.Dark0_5
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_Dark0_5
+  name: Dark0_5
+  nameWithType: BrushKeys.Dark0_5
+  fullName: H.Themes.BrushKeys.Dark0_5
+- uid: H.Themes.BrushKeys.Dark0_4*
+  commentId: Overload:H.Themes.BrushKeys.Dark0_4
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_Dark0_4
+  name: Dark0_4
+  nameWithType: BrushKeys.Dark0_4
+  fullName: H.Themes.BrushKeys.Dark0_4
+- uid: H.Themes.BrushKeys.Dark0_3*
+  commentId: Overload:H.Themes.BrushKeys.Dark0_3
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_Dark0_3
+  name: Dark0_3
+  nameWithType: BrushKeys.Dark0_3
+  fullName: H.Themes.BrushKeys.Dark0_3
+- uid: H.Themes.BrushKeys.Dark0_2*
+  commentId: Overload:H.Themes.BrushKeys.Dark0_2
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_Dark0_2
+  name: Dark0_2
+  nameWithType: BrushKeys.Dark0_2
+  fullName: H.Themes.BrushKeys.Dark0_2
+- uid: H.Themes.BrushKeys.Dark0_1*
+  commentId: Overload:H.Themes.BrushKeys.Dark0_1
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_Dark0_1
+  name: Dark0_1
+  nameWithType: BrushKeys.Dark0_1
+  fullName: H.Themes.BrushKeys.Dark0_1
+- uid: H.Themes.BrushKeys.Dark0*
+  commentId: Overload:H.Themes.BrushKeys.Dark0
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_Dark0
+  name: Dark0
+  nameWithType: BrushKeys.Dark0
+  fullName: H.Themes.BrushKeys.Dark0
+- uid: H.Themes.BrushKeys.LightGray*
+  commentId: Overload:H.Themes.BrushKeys.LightGray
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_LightGray
+  name: LightGray
+  nameWithType: BrushKeys.LightGray
+  fullName: H.Themes.BrushKeys.LightGray
+- uid: H.Themes.BrushKeys.LightGrayOpacity5*
+  commentId: Overload:H.Themes.BrushKeys.LightGrayOpacity5
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_LightGrayOpacity5
+  name: LightGrayOpacity5
+  nameWithType: BrushKeys.LightGrayOpacity5
+  fullName: H.Themes.BrushKeys.LightGrayOpacity5
+- uid: H.Themes.BrushKeys.Gray*
+  commentId: Overload:H.Themes.BrushKeys.Gray
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_Gray
+  name: Gray
+  nameWithType: BrushKeys.Gray
+  fullName: H.Themes.BrushKeys.Gray
+- uid: H.Themes.BrushKeys.GrayOpacity5*
+  commentId: Overload:H.Themes.BrushKeys.GrayOpacity5
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_GrayOpacity5
+  name: GrayOpacity5
+  nameWithType: BrushKeys.GrayOpacity5
+  fullName: H.Themes.BrushKeys.GrayOpacity5
+- uid: H.Themes.BrushKeys.Black*
+  commentId: Overload:H.Themes.BrushKeys.Black
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_Black
+  name: Black
+  nameWithType: BrushKeys.Black
+  fullName: H.Themes.BrushKeys.Black
+- uid: H.Themes.BrushKeys.Orange*
+  commentId: Overload:H.Themes.BrushKeys.Orange
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_Orange
+  name: Orange
+  nameWithType: BrushKeys.Orange
+  fullName: H.Themes.BrushKeys.Orange
+- uid: H.Themes.BrushKeys.Red*
+  commentId: Overload:H.Themes.BrushKeys.Red
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_Red
+  name: Red
+  nameWithType: BrushKeys.Red
+  fullName: H.Themes.BrushKeys.Red
+- uid: H.Themes.BrushKeys.Green*
+  commentId: Overload:H.Themes.BrushKeys.Green
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_Green
+  name: Green
+  nameWithType: BrushKeys.Green
+  fullName: H.Themes.BrushKeys.Green
+- uid: H.Themes.BrushKeys.Yellow*
+  commentId: Overload:H.Themes.BrushKeys.Yellow
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_Yellow
+  name: Yellow
+  nameWithType: BrushKeys.Yellow
+  fullName: H.Themes.BrushKeys.Yellow
+- uid: H.Themes.BrushKeys.Blue*
+  commentId: Overload:H.Themes.BrushKeys.Blue
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_Blue
+  name: Blue
+  nameWithType: BrushKeys.Blue
+  fullName: H.Themes.BrushKeys.Blue
+- uid: H.Themes.BrushKeys.Purple*
+  commentId: Overload:H.Themes.BrushKeys.Purple
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_Purple
+  name: Purple
+  nameWithType: BrushKeys.Purple
+  fullName: H.Themes.BrushKeys.Purple
+- uid: H.Themes.BrushKeys.Brown*
+  commentId: Overload:H.Themes.BrushKeys.Brown
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_Brown
+  name: Brown
+  nameWithType: BrushKeys.Brown
+  fullName: H.Themes.BrushKeys.Brown
+- uid: H.Themes.BrushKeys.LightBlue*
+  commentId: Overload:H.Themes.BrushKeys.LightBlue
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_LightBlue
+  name: LightBlue
+  nameWithType: BrushKeys.LightBlue
+  fullName: H.Themes.BrushKeys.LightBlue
+- uid: H.Themes.BrushKeys.Pink*
+  commentId: Overload:H.Themes.BrushKeys.Pink
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_Pink
+  name: Pink
+  nameWithType: BrushKeys.Pink
+  fullName: H.Themes.BrushKeys.Pink
+- uid: H.Themes.BrushKeys.White*
+  commentId: Overload:H.Themes.BrushKeys.White
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_White
+  name: White
+  nameWithType: BrushKeys.White
+  fullName: H.Themes.BrushKeys.White
+- uid: H.Themes.BrushKeys.DialogCover*
+  commentId: Overload:H.Themes.BrushKeys.DialogCover
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_DialogCover
+  name: DialogCover
+  nameWithType: BrushKeys.DialogCover
+  fullName: H.Themes.BrushKeys.DialogCover
+- uid: H.Themes.BrushKeys.Tranparent*
+  commentId: Overload:H.Themes.BrushKeys.Tranparent
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_Tranparent
+  name: Tranparent
+  nameWithType: BrushKeys.Tranparent
+  fullName: H.Themes.BrushKeys.Tranparent
+- uid: H.Themes.BrushKeys.Tile*
+  commentId: Overload:H.Themes.BrushKeys.Tile
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_Tile
+  name: Tile
+  nameWithType: BrushKeys.Tile
+  fullName: H.Themes.BrushKeys.Tile
+- uid: H.Themes.BrushKeys.Tile25*
+  commentId: Overload:H.Themes.BrushKeys.Tile25
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_Tile25
+  name: Tile25
+  nameWithType: BrushKeys.Tile25
+  fullName: H.Themes.BrushKeys.Tile25
+- uid: H.Themes.BrushKeys.MenuBackground*
+  commentId: Overload:H.Themes.BrushKeys.MenuBackground
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_MenuBackground
+  name: MenuBackground
+  nameWithType: BrushKeys.MenuBackground
+  fullName: H.Themes.BrushKeys.MenuBackground
+- uid: H.Themes.BrushKeys.MenuForeground*
+  commentId: Overload:H.Themes.BrushKeys.MenuForeground
+  href: H.Themes.BrushKeys.html#H_Themes_BrushKeys_MenuForeground
+  name: MenuForeground
+  nameWithType: BrushKeys.MenuForeground
+  fullName: H.Themes.BrushKeys.MenuForeground

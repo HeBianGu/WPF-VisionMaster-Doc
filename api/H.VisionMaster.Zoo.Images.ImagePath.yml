@@ -1,0 +1,1418 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.VisionMaster.Zoo.Images.ImagePath
+  commentId: T:H.VisionMaster.Zoo.Images.ImagePath
+  id: ImagePath
+  parent: H.VisionMaster.Zoo.Images
+  children:
+  - H.VisionMaster.Zoo.Images.ImagePath.Aruco
+  - H.VisionMaster.Zoo.Images.ImagePath.Asahiyama
+  - H.VisionMaster.Zoo.Images.ImagePath.Balloon
+  - H.VisionMaster.Zoo.Images.ImagePath.Binarization
+  - H.VisionMaster.Zoo.Images.ImagePath.Cake
+  - H.VisionMaster.Zoo.Images.ImagePath.Calibration
+  - H.VisionMaster.Zoo.Images.ImagePath.Cat
+  - H.VisionMaster.Zoo.Images.ImagePath.Circle
+  - H.VisionMaster.Zoo.Images.ImagePath.Cvmorph
+  - H.VisionMaster.Zoo.Images.ImagePath.Depth16Bit
+  - H.VisionMaster.Zoo.Images.ImagePath.Distortion
+  - H.VisionMaster.Zoo.Images.ImagePath.Fruits
+  - H.VisionMaster.Zoo.Images.ImagePath.Girl
+  - H.VisionMaster.Zoo.Images.ImagePath.Goryokaku
+  - H.VisionMaster.Zoo.Images.ImagePath.Hand
+  - H.VisionMaster.Zoo.Images.ImagePath.Lenna
+  - H.VisionMaster.Zoo.Images.ImagePath.Lenna511
+  - H.VisionMaster.Zoo.Images.ImagePath.Maltese
+  - H.VisionMaster.Zoo.Images.ImagePath.Mandrill
+  - H.VisionMaster.Zoo.Images.ImagePath.Match1
+  - H.VisionMaster.Zoo.Images.ImagePath.Match2
+  - H.VisionMaster.Zoo.Images.ImagePath.Newspaper
+  - H.VisionMaster.Zoo.Images.ImagePath.Penguin1
+  - H.VisionMaster.Zoo.Images.ImagePath.Penguin1b
+  - H.VisionMaster.Zoo.Images.ImagePath.Penguin2
+  - H.VisionMaster.Zoo.Images.ImagePath.Pentagon
+  - H.VisionMaster.Zoo.Images.ImagePath.Shapes
+  - H.VisionMaster.Zoo.Images.ImagePath.Square1
+  - H.VisionMaster.Zoo.Images.ImagePath.Square2
+  - H.VisionMaster.Zoo.Images.ImagePath.Square3
+  - H.VisionMaster.Zoo.Images.ImagePath.Square4
+  - H.VisionMaster.Zoo.Images.ImagePath.Square5
+  - H.VisionMaster.Zoo.Images.ImagePath.Square6
+  - H.VisionMaster.Zoo.Images.ImagePath.SurfBox
+  - H.VisionMaster.Zoo.Images.ImagePath.SurfBoxinscene
+  - H.VisionMaster.Zoo.Images.ImagePath.TsukubaLeft
+  - H.VisionMaster.Zoo.Images.ImagePath.TsukubaRight
+  - H.VisionMaster.Zoo.Images.ImagePath.Walkman
+  - H.VisionMaster.Zoo.Images.ImagePath.Yalta
+  langs:
+  - csharp
+  - vb
+  name: ImagePath
+  nameWithType: ImagePath
+  fullName: H.VisionMaster.Zoo.Images.ImagePath
+  type: Class
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: ImagePath
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+    startLine: 13
+  assemblies:
+  - H.VisionMaster.Zoo.Images
+  namespace: H.VisionMaster.Zoo.Images
+  summary: Image file Paths
+  example: []
+  syntax:
+    content: public static class ImagePath
+    content.vb: Public Module ImagePath
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: H.VisionMaster.Zoo.Images.ImagePath.Lenna
+  commentId: F:H.VisionMaster.Zoo.Images.ImagePath.Lenna
+  id: Lenna
+  parent: H.VisionMaster.Zoo.Images.ImagePath
+  langs:
+  - csharp
+  - vb
+  name: Lenna
+  nameWithType: ImagePath.Lenna
+  fullName: H.VisionMaster.Zoo.Images.ImagePath.Lenna
+  type: Field
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: Lenna
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+    startLine: 15
+  assemblies:
+  - H.VisionMaster.Zoo.Images
+  namespace: H.VisionMaster.Zoo.Images
+  syntax:
+    content: public const string Lenna = "Assets/lenna.png"
+    return:
+      type: System.String
+    content.vb: Public Const Lenna As String = "Assets/lenna.png"
+- uid: H.VisionMaster.Zoo.Images.ImagePath.Lenna511
+  commentId: F:H.VisionMaster.Zoo.Images.ImagePath.Lenna511
+  id: Lenna511
+  parent: H.VisionMaster.Zoo.Images.ImagePath
+  langs:
+  - csharp
+  - vb
+  name: Lenna511
+  nameWithType: ImagePath.Lenna511
+  fullName: H.VisionMaster.Zoo.Images.ImagePath.Lenna511
+  type: Field
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: Lenna511
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+    startLine: 16
+  assemblies:
+  - H.VisionMaster.Zoo.Images
+  namespace: H.VisionMaster.Zoo.Images
+  syntax:
+    content: public const string Lenna511 = "Assets/lenna511.png"
+    return:
+      type: System.String
+    content.vb: Public Const Lenna511 As String = "Assets/lenna511.png"
+- uid: H.VisionMaster.Zoo.Images.ImagePath.Girl
+  commentId: F:H.VisionMaster.Zoo.Images.ImagePath.Girl
+  id: Girl
+  parent: H.VisionMaster.Zoo.Images.ImagePath
+  langs:
+  - csharp
+  - vb
+  name: Girl
+  nameWithType: ImagePath.Girl
+  fullName: H.VisionMaster.Zoo.Images.ImagePath.Girl
+  type: Field
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: Girl
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+    startLine: 17
+  assemblies:
+  - H.VisionMaster.Zoo.Images
+  namespace: H.VisionMaster.Zoo.Images
+  syntax:
+    content: public const string Girl = "Assets/Girl.bmp"
+    return:
+      type: System.String
+    content.vb: Public Const Girl As String = "Assets/Girl.bmp"
+- uid: H.VisionMaster.Zoo.Images.ImagePath.Mandrill
+  commentId: F:H.VisionMaster.Zoo.Images.ImagePath.Mandrill
+  id: Mandrill
+  parent: H.VisionMaster.Zoo.Images.ImagePath
+  langs:
+  - csharp
+  - vb
+  name: Mandrill
+  nameWithType: ImagePath.Mandrill
+  fullName: H.VisionMaster.Zoo.Images.ImagePath.Mandrill
+  type: Field
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: Mandrill
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+    startLine: 18
+  assemblies:
+  - H.VisionMaster.Zoo.Images
+  namespace: H.VisionMaster.Zoo.Images
+  syntax:
+    content: public const string Mandrill = "Assets/Mandrill.bmp"
+    return:
+      type: System.String
+    content.vb: Public Const Mandrill As String = "Assets/Mandrill.bmp"
+- uid: H.VisionMaster.Zoo.Images.ImagePath.Goryokaku
+  commentId: F:H.VisionMaster.Zoo.Images.ImagePath.Goryokaku
+  id: Goryokaku
+  parent: H.VisionMaster.Zoo.Images.ImagePath
+  langs:
+  - csharp
+  - vb
+  name: Goryokaku
+  nameWithType: ImagePath.Goryokaku
+  fullName: H.VisionMaster.Zoo.Images.ImagePath.Goryokaku
+  type: Field
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: Goryokaku
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+    startLine: 19
+  assemblies:
+  - H.VisionMaster.Zoo.Images
+  namespace: H.VisionMaster.Zoo.Images
+  syntax:
+    content: public const string Goryokaku = "Assets/goryokaku.jpg"
+    return:
+      type: System.String
+    content.vb: Public Const Goryokaku As String = "Assets/goryokaku.jpg"
+- uid: H.VisionMaster.Zoo.Images.ImagePath.Maltese
+  commentId: F:H.VisionMaster.Zoo.Images.ImagePath.Maltese
+  id: Maltese
+  parent: H.VisionMaster.Zoo.Images.ImagePath
+  langs:
+  - csharp
+  - vb
+  name: Maltese
+  nameWithType: ImagePath.Maltese
+  fullName: H.VisionMaster.Zoo.Images.ImagePath.Maltese
+  type: Field
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: Maltese
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+    startLine: 20
+  assemblies:
+  - H.VisionMaster.Zoo.Images
+  namespace: H.VisionMaster.Zoo.Images
+  syntax:
+    content: public const string Maltese = "Assets/maltese.jpg"
+    return:
+      type: System.String
+    content.vb: Public Const Maltese As String = "Assets/maltese.jpg"
+- uid: H.VisionMaster.Zoo.Images.ImagePath.Cake
+  commentId: F:H.VisionMaster.Zoo.Images.ImagePath.Cake
+  id: Cake
+  parent: H.VisionMaster.Zoo.Images.ImagePath
+  langs:
+  - csharp
+  - vb
+  name: Cake
+  nameWithType: ImagePath.Cake
+  fullName: H.VisionMaster.Zoo.Images.ImagePath.Cake
+  type: Field
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: Cake
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+    startLine: 21
+  assemblies:
+  - H.VisionMaster.Zoo.Images
+  namespace: H.VisionMaster.Zoo.Images
+  syntax:
+    content: public const string Cake = "Assets/cake.bmp"
+    return:
+      type: System.String
+    content.vb: Public Const Cake As String = "Assets/cake.bmp"
+- uid: H.VisionMaster.Zoo.Images.ImagePath.Fruits
+  commentId: F:H.VisionMaster.Zoo.Images.ImagePath.Fruits
+  id: Fruits
+  parent: H.VisionMaster.Zoo.Images.ImagePath
+  langs:
+  - csharp
+  - vb
+  name: Fruits
+  nameWithType: ImagePath.Fruits
+  fullName: H.VisionMaster.Zoo.Images.ImagePath.Fruits
+  type: Field
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: Fruits
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+    startLine: 22
+  assemblies:
+  - H.VisionMaster.Zoo.Images
+  namespace: H.VisionMaster.Zoo.Images
+  syntax:
+    content: public const string Fruits = "Assets/fruits.jpg"
+    return:
+      type: System.String
+    content.vb: Public Const Fruits As String = "Assets/fruits.jpg"
+- uid: H.VisionMaster.Zoo.Images.ImagePath.Penguin1
+  commentId: F:H.VisionMaster.Zoo.Images.ImagePath.Penguin1
+  id: Penguin1
+  parent: H.VisionMaster.Zoo.Images.ImagePath
+  langs:
+  - csharp
+  - vb
+  name: Penguin1
+  nameWithType: ImagePath.Penguin1
+  fullName: H.VisionMaster.Zoo.Images.ImagePath.Penguin1
+  type: Field
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: Penguin1
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+    startLine: 23
+  assemblies:
+  - H.VisionMaster.Zoo.Images
+  namespace: H.VisionMaster.Zoo.Images
+  syntax:
+    content: public const string Penguin1 = "Assets/penguin1.png"
+    return:
+      type: System.String
+    content.vb: Public Const Penguin1 As String = "Assets/penguin1.png"
+- uid: H.VisionMaster.Zoo.Images.ImagePath.Penguin1b
+  commentId: F:H.VisionMaster.Zoo.Images.ImagePath.Penguin1b
+  id: Penguin1b
+  parent: H.VisionMaster.Zoo.Images.ImagePath
+  langs:
+  - csharp
+  - vb
+  name: Penguin1b
+  nameWithType: ImagePath.Penguin1b
+  fullName: H.VisionMaster.Zoo.Images.ImagePath.Penguin1b
+  type: Field
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: Penguin1b
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+    startLine: 24
+  assemblies:
+  - H.VisionMaster.Zoo.Images
+  namespace: H.VisionMaster.Zoo.Images
+  syntax:
+    content: public const string Penguin1b = "Assets/penguin1b.png"
+    return:
+      type: System.String
+    content.vb: Public Const Penguin1b As String = "Assets/penguin1b.png"
+- uid: H.VisionMaster.Zoo.Images.ImagePath.Penguin2
+  commentId: F:H.VisionMaster.Zoo.Images.ImagePath.Penguin2
+  id: Penguin2
+  parent: H.VisionMaster.Zoo.Images.ImagePath
+  langs:
+  - csharp
+  - vb
+  name: Penguin2
+  nameWithType: ImagePath.Penguin2
+  fullName: H.VisionMaster.Zoo.Images.ImagePath.Penguin2
+  type: Field
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: Penguin2
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+    startLine: 25
+  assemblies:
+  - H.VisionMaster.Zoo.Images
+  namespace: H.VisionMaster.Zoo.Images
+  syntax:
+    content: public const string Penguin2 = "Assets/penguin2.png"
+    return:
+      type: System.String
+    content.vb: Public Const Penguin2 As String = "Assets/penguin2.png"
+- uid: H.VisionMaster.Zoo.Images.ImagePath.Distortion
+  commentId: F:H.VisionMaster.Zoo.Images.ImagePath.Distortion
+  id: Distortion
+  parent: H.VisionMaster.Zoo.Images.ImagePath
+  langs:
+  - csharp
+  - vb
+  name: Distortion
+  nameWithType: ImagePath.Distortion
+  fullName: H.VisionMaster.Zoo.Images.ImagePath.Distortion
+  type: Field
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: Distortion
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+    startLine: 26
+  assemblies:
+  - H.VisionMaster.Zoo.Images
+  namespace: H.VisionMaster.Zoo.Images
+  syntax:
+    content: public const string Distortion = "Assets/Calibration/01.jpg"
+    return:
+      type: System.String
+    content.vb: Public Const Distortion As String = "Assets/Calibration/01.jpg"
+- uid: H.VisionMaster.Zoo.Images.ImagePath.Calibration
+  commentId: F:H.VisionMaster.Zoo.Images.ImagePath.Calibration
+  id: Calibration
+  parent: H.VisionMaster.Zoo.Images.ImagePath
+  langs:
+  - csharp
+  - vb
+  name: Calibration
+  nameWithType: ImagePath.Calibration
+  fullName: H.VisionMaster.Zoo.Images.ImagePath.Calibration
+  type: Field
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: Calibration
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+    startLine: 27
+  assemblies:
+  - H.VisionMaster.Zoo.Images
+  namespace: H.VisionMaster.Zoo.Images
+  syntax:
+    content: public const string Calibration = "Assets/Calibration/00.jpg"
+    return:
+      type: System.String
+    content.vb: Public Const Calibration As String = "Assets/Calibration/00.jpg"
+- uid: H.VisionMaster.Zoo.Images.ImagePath.SurfBox
+  commentId: F:H.VisionMaster.Zoo.Images.ImagePath.SurfBox
+  id: SurfBox
+  parent: H.VisionMaster.Zoo.Images.ImagePath
+  langs:
+  - csharp
+  - vb
+  name: SurfBox
+  nameWithType: ImagePath.SurfBox
+  fullName: H.VisionMaster.Zoo.Images.ImagePath.SurfBox
+  type: Field
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: SurfBox
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+    startLine: 28
+  assemblies:
+  - H.VisionMaster.Zoo.Images
+  namespace: H.VisionMaster.Zoo.Images
+  syntax:
+    content: public const string SurfBox = "Assets/box.png"
+    return:
+      type: System.String
+    content.vb: Public Const SurfBox As String = "Assets/box.png"
+- uid: H.VisionMaster.Zoo.Images.ImagePath.SurfBoxinscene
+  commentId: F:H.VisionMaster.Zoo.Images.ImagePath.SurfBoxinscene
+  id: SurfBoxinscene
+  parent: H.VisionMaster.Zoo.Images.ImagePath
+  langs:
+  - csharp
+  - vb
+  name: SurfBoxinscene
+  nameWithType: ImagePath.SurfBoxinscene
+  fullName: H.VisionMaster.Zoo.Images.ImagePath.SurfBoxinscene
+  type: Field
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: SurfBoxinscene
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+    startLine: 29
+  assemblies:
+  - H.VisionMaster.Zoo.Images
+  namespace: H.VisionMaster.Zoo.Images
+  syntax:
+    content: public const string SurfBoxinscene = "Assets/box_in_scene.png"
+    return:
+      type: System.String
+    content.vb: Public Const SurfBoxinscene As String = "Assets/box_in_scene.png"
+- uid: H.VisionMaster.Zoo.Images.ImagePath.TsukubaLeft
+  commentId: F:H.VisionMaster.Zoo.Images.ImagePath.TsukubaLeft
+  id: TsukubaLeft
+  parent: H.VisionMaster.Zoo.Images.ImagePath
+  langs:
+  - csharp
+  - vb
+  name: TsukubaLeft
+  nameWithType: ImagePath.TsukubaLeft
+  fullName: H.VisionMaster.Zoo.Images.ImagePath.TsukubaLeft
+  type: Field
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: TsukubaLeft
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+    startLine: 30
+  assemblies:
+  - H.VisionMaster.Zoo.Images
+  namespace: H.VisionMaster.Zoo.Images
+  syntax:
+    content: public const string TsukubaLeft = "Assets/tsukuba_left.png"
+    return:
+      type: System.String
+    content.vb: Public Const TsukubaLeft As String = "Assets/tsukuba_left.png"
+- uid: H.VisionMaster.Zoo.Images.ImagePath.TsukubaRight
+  commentId: F:H.VisionMaster.Zoo.Images.ImagePath.TsukubaRight
+  id: TsukubaRight
+  parent: H.VisionMaster.Zoo.Images.ImagePath
+  langs:
+  - csharp
+  - vb
+  name: TsukubaRight
+  nameWithType: ImagePath.TsukubaRight
+  fullName: H.VisionMaster.Zoo.Images.ImagePath.TsukubaRight
+  type: Field
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: TsukubaRight
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+    startLine: 31
+  assemblies:
+  - H.VisionMaster.Zoo.Images
+  namespace: H.VisionMaster.Zoo.Images
+  syntax:
+    content: public const string TsukubaRight = "Assets/tsukuba_right.png"
+    return:
+      type: System.String
+    content.vb: Public Const TsukubaRight As String = "Assets/tsukuba_right.png"
+- uid: H.VisionMaster.Zoo.Images.ImagePath.Square1
+  commentId: F:H.VisionMaster.Zoo.Images.ImagePath.Square1
+  id: Square1
+  parent: H.VisionMaster.Zoo.Images.ImagePath
+  langs:
+  - csharp
+  - vb
+  name: Square1
+  nameWithType: ImagePath.Square1
+  fullName: H.VisionMaster.Zoo.Images.ImagePath.Square1
+  type: Field
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: Square1
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+    startLine: 32
+  assemblies:
+  - H.VisionMaster.Zoo.Images
+  namespace: H.VisionMaster.Zoo.Images
+  syntax:
+    content: public const string Square1 = "Assets/Squares/pic1.png"
+    return:
+      type: System.String
+    content.vb: Public Const Square1 As String = "Assets/Squares/pic1.png"
+- uid: H.VisionMaster.Zoo.Images.ImagePath.Square2
+  commentId: F:H.VisionMaster.Zoo.Images.ImagePath.Square2
+  id: Square2
+  parent: H.VisionMaster.Zoo.Images.ImagePath
+  langs:
+  - csharp
+  - vb
+  name: Square2
+  nameWithType: ImagePath.Square2
+  fullName: H.VisionMaster.Zoo.Images.ImagePath.Square2
+  type: Field
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: Square2
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+    startLine: 33
+  assemblies:
+  - H.VisionMaster.Zoo.Images
+  namespace: H.VisionMaster.Zoo.Images
+  syntax:
+    content: public const string Square2 = "Assets/Squares/pic2.png"
+    return:
+      type: System.String
+    content.vb: Public Const Square2 As String = "Assets/Squares/pic2.png"
+- uid: H.VisionMaster.Zoo.Images.ImagePath.Square3
+  commentId: F:H.VisionMaster.Zoo.Images.ImagePath.Square3
+  id: Square3
+  parent: H.VisionMaster.Zoo.Images.ImagePath
+  langs:
+  - csharp
+  - vb
+  name: Square3
+  nameWithType: ImagePath.Square3
+  fullName: H.VisionMaster.Zoo.Images.ImagePath.Square3
+  type: Field
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: Square3
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+    startLine: 34
+  assemblies:
+  - H.VisionMaster.Zoo.Images
+  namespace: H.VisionMaster.Zoo.Images
+  syntax:
+    content: public const string Square3 = "Assets/Squares/pic3.png"
+    return:
+      type: System.String
+    content.vb: Public Const Square3 As String = "Assets/Squares/pic3.png"
+- uid: H.VisionMaster.Zoo.Images.ImagePath.Square4
+  commentId: F:H.VisionMaster.Zoo.Images.ImagePath.Square4
+  id: Square4
+  parent: H.VisionMaster.Zoo.Images.ImagePath
+  langs:
+  - csharp
+  - vb
+  name: Square4
+  nameWithType: ImagePath.Square4
+  fullName: H.VisionMaster.Zoo.Images.ImagePath.Square4
+  type: Field
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: Square4
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+    startLine: 35
+  assemblies:
+  - H.VisionMaster.Zoo.Images
+  namespace: H.VisionMaster.Zoo.Images
+  syntax:
+    content: public const string Square4 = "Assets/Squares/pic4.png"
+    return:
+      type: System.String
+    content.vb: Public Const Square4 As String = "Assets/Squares/pic4.png"
+- uid: H.VisionMaster.Zoo.Images.ImagePath.Square5
+  commentId: F:H.VisionMaster.Zoo.Images.ImagePath.Square5
+  id: Square5
+  parent: H.VisionMaster.Zoo.Images.ImagePath
+  langs:
+  - csharp
+  - vb
+  name: Square5
+  nameWithType: ImagePath.Square5
+  fullName: H.VisionMaster.Zoo.Images.ImagePath.Square5
+  type: Field
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: Square5
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+    startLine: 36
+  assemblies:
+  - H.VisionMaster.Zoo.Images
+  namespace: H.VisionMaster.Zoo.Images
+  syntax:
+    content: public const string Square5 = "Assets/Squares/pic5.png"
+    return:
+      type: System.String
+    content.vb: Public Const Square5 As String = "Assets/Squares/pic5.png"
+- uid: H.VisionMaster.Zoo.Images.ImagePath.Square6
+  commentId: F:H.VisionMaster.Zoo.Images.ImagePath.Square6
+  id: Square6
+  parent: H.VisionMaster.Zoo.Images.ImagePath
+  langs:
+  - csharp
+  - vb
+  name: Square6
+  nameWithType: ImagePath.Square6
+  fullName: H.VisionMaster.Zoo.Images.ImagePath.Square6
+  type: Field
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: Square6
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+    startLine: 37
+  assemblies:
+  - H.VisionMaster.Zoo.Images
+  namespace: H.VisionMaster.Zoo.Images
+  syntax:
+    content: public const string Square6 = "Assets/Squares/pic6.png"
+    return:
+      type: System.String
+    content.vb: Public Const Square6 As String = "Assets/Squares/pic6.png"
+- uid: H.VisionMaster.Zoo.Images.ImagePath.Shapes
+  commentId: F:H.VisionMaster.Zoo.Images.ImagePath.Shapes
+  id: Shapes
+  parent: H.VisionMaster.Zoo.Images.ImagePath
+  langs:
+  - csharp
+  - vb
+  name: Shapes
+  nameWithType: ImagePath.Shapes
+  fullName: H.VisionMaster.Zoo.Images.ImagePath.Shapes
+  type: Field
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: Shapes
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+    startLine: 38
+  assemblies:
+  - H.VisionMaster.Zoo.Images
+  namespace: H.VisionMaster.Zoo.Images
+  syntax:
+    content: public const string Shapes = "Assets/shapes.png"
+    return:
+      type: System.String
+    content.vb: Public Const Shapes As String = "Assets/shapes.png"
+- uid: H.VisionMaster.Zoo.Images.ImagePath.Yalta
+  commentId: F:H.VisionMaster.Zoo.Images.ImagePath.Yalta
+  id: Yalta
+  parent: H.VisionMaster.Zoo.Images.ImagePath
+  langs:
+  - csharp
+  - vb
+  name: Yalta
+  nameWithType: ImagePath.Yalta
+  fullName: H.VisionMaster.Zoo.Images.ImagePath.Yalta
+  type: Field
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: Yalta
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+    startLine: 39
+  assemblies:
+  - H.VisionMaster.Zoo.Images
+  namespace: H.VisionMaster.Zoo.Images
+  syntax:
+    content: public const string Yalta = "Assets/yalta.jpg"
+    return:
+      type: System.String
+    content.vb: Public Const Yalta As String = "Assets/yalta.jpg"
+- uid: H.VisionMaster.Zoo.Images.ImagePath.Depth16Bit
+  commentId: F:H.VisionMaster.Zoo.Images.ImagePath.Depth16Bit
+  id: Depth16Bit
+  parent: H.VisionMaster.Zoo.Images.ImagePath
+  langs:
+  - csharp
+  - vb
+  name: Depth16Bit
+  nameWithType: ImagePath.Depth16Bit
+  fullName: H.VisionMaster.Zoo.Images.ImagePath.Depth16Bit
+  type: Field
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: Depth16Bit
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+    startLine: 40
+  assemblies:
+  - H.VisionMaster.Zoo.Images
+  namespace: H.VisionMaster.Zoo.Images
+  syntax:
+    content: public const string Depth16Bit = "Assets/16bit.png"
+    return:
+      type: System.String
+    content.vb: Public Const Depth16Bit As String = "Assets/16bit.png"
+- uid: H.VisionMaster.Zoo.Images.ImagePath.Hand
+  commentId: F:H.VisionMaster.Zoo.Images.ImagePath.Hand
+  id: Hand
+  parent: H.VisionMaster.Zoo.Images.ImagePath
+  langs:
+  - csharp
+  - vb
+  name: Hand
+  nameWithType: ImagePath.Hand
+  fullName: H.VisionMaster.Zoo.Images.ImagePath.Hand
+  type: Field
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: Hand
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+    startLine: 41
+  assemblies:
+  - H.VisionMaster.Zoo.Images
+  namespace: H.VisionMaster.Zoo.Images
+  syntax:
+    content: public const string Hand = "Assets/hand_p.jpg"
+    return:
+      type: System.String
+    content.vb: Public Const Hand As String = "Assets/hand_p.jpg"
+- uid: H.VisionMaster.Zoo.Images.ImagePath.Asahiyama
+  commentId: F:H.VisionMaster.Zoo.Images.ImagePath.Asahiyama
+  id: Asahiyama
+  parent: H.VisionMaster.Zoo.Images.ImagePath
+  langs:
+  - csharp
+  - vb
+  name: Asahiyama
+  nameWithType: ImagePath.Asahiyama
+  fullName: H.VisionMaster.Zoo.Images.ImagePath.Asahiyama
+  type: Field
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: Asahiyama
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+    startLine: 42
+  assemblies:
+  - H.VisionMaster.Zoo.Images
+  namespace: H.VisionMaster.Zoo.Images
+  syntax:
+    content: public const string Asahiyama = "Assets/asahiyama.jpg"
+    return:
+      type: System.String
+    content.vb: Public Const Asahiyama As String = "Assets/asahiyama.jpg"
+- uid: H.VisionMaster.Zoo.Images.ImagePath.Balloon
+  commentId: F:H.VisionMaster.Zoo.Images.ImagePath.Balloon
+  id: Balloon
+  parent: H.VisionMaster.Zoo.Images.ImagePath
+  langs:
+  - csharp
+  - vb
+  name: Balloon
+  nameWithType: ImagePath.Balloon
+  fullName: H.VisionMaster.Zoo.Images.ImagePath.Balloon
+  type: Field
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: Balloon
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+    startLine: 43
+  assemblies:
+  - H.VisionMaster.Zoo.Images
+  namespace: H.VisionMaster.Zoo.Images
+  syntax:
+    content: public const string Balloon = "Assets/Balloon.png"
+    return:
+      type: System.String
+    content.vb: Public Const Balloon As String = "Assets/Balloon.png"
+- uid: H.VisionMaster.Zoo.Images.ImagePath.Newspaper
+  commentId: F:H.VisionMaster.Zoo.Images.ImagePath.Newspaper
+  id: Newspaper
+  parent: H.VisionMaster.Zoo.Images.ImagePath
+  langs:
+  - csharp
+  - vb
+  name: Newspaper
+  nameWithType: ImagePath.Newspaper
+  fullName: H.VisionMaster.Zoo.Images.ImagePath.Newspaper
+  type: Field
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: Newspaper
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+    startLine: 44
+  assemblies:
+  - H.VisionMaster.Zoo.Images
+  namespace: H.VisionMaster.Zoo.Images
+  syntax:
+    content: public const string Newspaper = "Assets/very_old_newspaper.png"
+    return:
+      type: System.String
+    content.vb: Public Const Newspaper As String = "Assets/very_old_newspaper.png"
+- uid: H.VisionMaster.Zoo.Images.ImagePath.Binarization
+  commentId: F:H.VisionMaster.Zoo.Images.ImagePath.Binarization
+  id: Binarization
+  parent: H.VisionMaster.Zoo.Images.ImagePath
+  langs:
+  - csharp
+  - vb
+  name: Binarization
+  nameWithType: ImagePath.Binarization
+  fullName: H.VisionMaster.Zoo.Images.ImagePath.Binarization
+  type: Field
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: Binarization
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+    startLine: 45
+  assemblies:
+  - H.VisionMaster.Zoo.Images
+  namespace: H.VisionMaster.Zoo.Images
+  syntax:
+    content: public const string Binarization = "Assets/binarization_sample.bmp"
+    return:
+      type: System.String
+    content.vb: Public Const Binarization As String = "Assets/binarization_sample.bmp"
+- uid: H.VisionMaster.Zoo.Images.ImagePath.Walkman
+  commentId: F:H.VisionMaster.Zoo.Images.ImagePath.Walkman
+  id: Walkman
+  parent: H.VisionMaster.Zoo.Images.ImagePath
+  langs:
+  - csharp
+  - vb
+  name: Walkman
+  nameWithType: ImagePath.Walkman
+  fullName: H.VisionMaster.Zoo.Images.ImagePath.Walkman
+  type: Field
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: Walkman
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+    startLine: 46
+  assemblies:
+  - H.VisionMaster.Zoo.Images
+  namespace: H.VisionMaster.Zoo.Images
+  syntax:
+    content: public const string Walkman = "Assets/walkman.jpg"
+    return:
+      type: System.String
+    content.vb: Public Const Walkman As String = "Assets/walkman.jpg"
+- uid: H.VisionMaster.Zoo.Images.ImagePath.Cat
+  commentId: F:H.VisionMaster.Zoo.Images.ImagePath.Cat
+  id: Cat
+  parent: H.VisionMaster.Zoo.Images.ImagePath
+  langs:
+  - csharp
+  - vb
+  name: Cat
+  nameWithType: ImagePath.Cat
+  fullName: H.VisionMaster.Zoo.Images.ImagePath.Cat
+  type: Field
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: Cat
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+    startLine: 47
+  assemblies:
+  - H.VisionMaster.Zoo.Images
+  namespace: H.VisionMaster.Zoo.Images
+  syntax:
+    content: public const string Cat = "Assets/cat.jpg"
+    return:
+      type: System.String
+    content.vb: Public Const Cat As String = "Assets/cat.jpg"
+- uid: H.VisionMaster.Zoo.Images.ImagePath.Match1
+  commentId: F:H.VisionMaster.Zoo.Images.ImagePath.Match1
+  id: Match1
+  parent: H.VisionMaster.Zoo.Images.ImagePath
+  langs:
+  - csharp
+  - vb
+  name: Match1
+  nameWithType: ImagePath.Match1
+  fullName: H.VisionMaster.Zoo.Images.ImagePath.Match1
+  type: Field
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: Match1
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+    startLine: 48
+  assemblies:
+  - H.VisionMaster.Zoo.Images
+  namespace: H.VisionMaster.Zoo.Images
+  syntax:
+    content: public const string Match1 = "Assets/match1.png"
+    return:
+      type: System.String
+    content.vb: Public Const Match1 As String = "Assets/match1.png"
+- uid: H.VisionMaster.Zoo.Images.ImagePath.Match2
+  commentId: F:H.VisionMaster.Zoo.Images.ImagePath.Match2
+  id: Match2
+  parent: H.VisionMaster.Zoo.Images.ImagePath
+  langs:
+  - csharp
+  - vb
+  name: Match2
+  nameWithType: ImagePath.Match2
+  fullName: H.VisionMaster.Zoo.Images.ImagePath.Match2
+  type: Field
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: Match2
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+    startLine: 49
+  assemblies:
+  - H.VisionMaster.Zoo.Images
+  namespace: H.VisionMaster.Zoo.Images
+  syntax:
+    content: public const string Match2 = "Assets/match2.png"
+    return:
+      type: System.String
+    content.vb: Public Const Match2 As String = "Assets/match2.png"
+- uid: H.VisionMaster.Zoo.Images.ImagePath.Aruco
+  commentId: F:H.VisionMaster.Zoo.Images.ImagePath.Aruco
+  id: Aruco
+  parent: H.VisionMaster.Zoo.Images.ImagePath
+  langs:
+  - csharp
+  - vb
+  name: Aruco
+  nameWithType: ImagePath.Aruco
+  fullName: H.VisionMaster.Zoo.Images.ImagePath.Aruco
+  type: Field
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: Aruco
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+    startLine: 50
+  assemblies:
+  - H.VisionMaster.Zoo.Images
+  namespace: H.VisionMaster.Zoo.Images
+  syntax:
+    content: public const string Aruco = "Assets/aruco_markers_photo.jpg"
+    return:
+      type: System.String
+    content.vb: Public Const Aruco As String = "Assets/aruco_markers_photo.jpg"
+- uid: H.VisionMaster.Zoo.Images.ImagePath.Cvmorph
+  commentId: F:H.VisionMaster.Zoo.Images.ImagePath.Cvmorph
+  id: Cvmorph
+  parent: H.VisionMaster.Zoo.Images.ImagePath
+  langs:
+  - csharp
+  - vb
+  name: Cvmorph
+  nameWithType: ImagePath.Cvmorph
+  fullName: H.VisionMaster.Zoo.Images.ImagePath.Cvmorph
+  type: Field
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: Cvmorph
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+    startLine: 52
+  assemblies:
+  - H.VisionMaster.Zoo.Images
+  namespace: H.VisionMaster.Zoo.Images
+  syntax:
+    content: public const string Cvmorph = "Assets/cvmorph.png"
+    return:
+      type: System.String
+    content.vb: Public Const Cvmorph As String = "Assets/cvmorph.png"
+- uid: H.VisionMaster.Zoo.Images.ImagePath.Circle
+  commentId: F:H.VisionMaster.Zoo.Images.ImagePath.Circle
+  id: Circle
+  parent: H.VisionMaster.Zoo.Images.ImagePath
+  langs:
+  - csharp
+  - vb
+  name: Circle
+  nameWithType: ImagePath.Circle
+  fullName: H.VisionMaster.Zoo.Images.ImagePath.Circle
+  type: Field
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: Circle
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+    startLine: 54
+  assemblies:
+  - H.VisionMaster.Zoo.Images
+  namespace: H.VisionMaster.Zoo.Images
+  syntax:
+    content: public const string Circle = "Assets/circle.png"
+    return:
+      type: System.String
+    content.vb: Public Const Circle As String = "Assets/circle.png"
+- uid: H.VisionMaster.Zoo.Images.ImagePath.Pentagon
+  commentId: F:H.VisionMaster.Zoo.Images.ImagePath.Pentagon
+  id: Pentagon
+  parent: H.VisionMaster.Zoo.Images.ImagePath
+  langs:
+  - csharp
+  - vb
+  name: Pentagon
+  nameWithType: ImagePath.Pentagon
+  fullName: H.VisionMaster.Zoo.Images.ImagePath.Pentagon
+  type: Field
+  source:
+    remote:
+      path: Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+      branch: Release-2.0
+      repo: https://github.com/HeBianGu/WPF-VisionMaster.git
+    id: Pentagon
+    path: Source/WPF-VisionMaster/Source/VisionMaster/H.VisionMaster.Zoo.Images/ImagePath.cs
+    startLine: 55
+  assemblies:
+  - H.VisionMaster.Zoo.Images
+  namespace: H.VisionMaster.Zoo.Images
+  syntax:
+    content: public const string Pentagon = "Assets/pentagon.png"
+    return:
+      type: System.String
+    content.vb: Public Const Pentagon As String = "Assets/pentagon.png"
+references:
+- uid: H.VisionMaster.Zoo.Images
+  commentId: N:H.VisionMaster.Zoo.Images
+  href: H.html
+  name: H.VisionMaster.Zoo.Images
+  nameWithType: H.VisionMaster.Zoo.Images
+  fullName: H.VisionMaster.Zoo.Images
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.Zoo
+    name: Zoo
+    href: H.VisionMaster.Zoo.html
+  - name: .
+  - uid: H.VisionMaster.Zoo.Images
+    name: Images
+    href: H.VisionMaster.Zoo.Images.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.Zoo
+    name: Zoo
+    href: H.VisionMaster.Zoo.html
+  - name: .
+  - uid: H.VisionMaster.Zoo.Images
+    name: Images
+    href: H.VisionMaster.Zoo.Images.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

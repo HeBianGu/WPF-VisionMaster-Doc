@@ -1,0 +1,70 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Services.Message.Form
+  commentId: N:H.Services.Message.Form
+  id: H.Services.Message.Form
+  children:
+  - H.Services.Message.Form.IFormMessageService
+  - H.Services.Message.Form.IFormOption
+  langs:
+  - csharp
+  - vb
+  name: H.Services.Message.Form
+  nameWithType: H.Services.Message.Form
+  fullName: H.Services.Message.Form
+  type: Namespace
+  assemblies:
+  - H.Services.Message
+references:
+- uid: H.Services.Message.Form.IFormMessageService
+  commentId: T:H.Services.Message.Form.IFormMessageService
+  parent: H.Services.Message.Form
+  href: H.Services.Message.Form.IFormMessageService.html
+  name: IFormMessageService
+  nameWithType: IFormMessageService
+  fullName: H.Services.Message.Form.IFormMessageService
+- uid: H.Services.Message.Form.IFormOption
+  commentId: T:H.Services.Message.Form.IFormOption
+  parent: H.Services.Message.Form
+  href: H.Services.Message.Form.IFormOption.html
+  name: IFormOption
+  nameWithType: IFormOption
+  fullName: H.Services.Message.Form.IFormOption
+- uid: H.Services.Message.Form
+  commentId: N:H.Services.Message.Form
+  href: H.html
+  name: H.Services.Message.Form
+  nameWithType: H.Services.Message.Form
+  fullName: H.Services.Message.Form
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Message
+    name: Message
+    href: H.Services.Message.html
+  - name: .
+  - uid: H.Services.Message.Form
+    name: Form
+    href: H.Services.Message.Form.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Message
+    name: Message
+    href: H.Services.Message.html
+  - name: .
+  - uid: H.Services.Message.Form
+    name: Form
+    href: H.Services.Message.Form.html

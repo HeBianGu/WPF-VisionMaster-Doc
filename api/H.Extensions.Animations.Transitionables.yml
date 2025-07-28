@@ -1,0 +1,482 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Extensions.Animations.Transitionables
+  commentId: T:H.Extensions.Animations.Transitionables
+  id: Transitionables
+  parent: H.Extensions.Animations
+  children:
+  - H.Extensions.Animations.Transitionables.Opacity
+  - H.Extensions.Animations.Transitionables.OpacityScale
+  - H.Extensions.Animations.Transitionables.Rotate
+  - H.Extensions.Animations.Transitionables.Scale
+  - H.Extensions.Animations.Transitionables.XTranslate
+  - H.Extensions.Animations.Transitionables.YTranslate
+  langs:
+  - csharp
+  - vb
+  name: Transitionables
+  nameWithType: Transitionables
+  fullName: H.Extensions.Animations.Transitionables
+  type: Class
+  source:
+    id: Transitionables
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Animations\Transitionables.cs
+    startLine: 10
+  assemblies:
+  - H.Extensions.Animations
+  namespace: H.Extensions.Animations
+  syntax:
+    content: public static class Transitionables
+    content.vb: Public Module Transitionables
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: H.Extensions.Animations.Transitionables.Opacity
+  commentId: F:H.Extensions.Animations.Transitionables.Opacity
+  id: Opacity
+  parent: H.Extensions.Animations.Transitionables
+  langs:
+  - csharp
+  - vb
+  name: Opacity
+  nameWithType: Transitionables.Opacity
+  fullName: H.Extensions.Animations.Transitionables.Opacity
+  type: Field
+  source:
+    id: Opacity
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Animations\Transitionables.cs
+    startLine: 12
+  assemblies:
+  - H.Extensions.Animations
+  namespace: H.Extensions.Animations
+  syntax:
+    content: public static ITransitionable Opacity
+    return:
+      type: H.Common.Transitionable.ITransitionable
+    content.vb: Public Shared Opacity As ITransitionable
+- uid: H.Extensions.Animations.Transitionables.Scale
+  commentId: F:H.Extensions.Animations.Transitionables.Scale
+  id: Scale
+  parent: H.Extensions.Animations.Transitionables
+  langs:
+  - csharp
+  - vb
+  name: Scale
+  nameWithType: Transitionables.Scale
+  fullName: H.Extensions.Animations.Transitionables.Scale
+  type: Field
+  source:
+    id: Scale
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Animations\Transitionables.cs
+    startLine: 13
+  assemblies:
+  - H.Extensions.Animations
+  namespace: H.Extensions.Animations
+  syntax:
+    content: public static ITransitionable Scale
+    return:
+      type: H.Common.Transitionable.ITransitionable
+    content.vb: Public Shared Scale As ITransitionable
+- uid: H.Extensions.Animations.Transitionables.Rotate
+  commentId: F:H.Extensions.Animations.Transitionables.Rotate
+  id: Rotate
+  parent: H.Extensions.Animations.Transitionables
+  langs:
+  - csharp
+  - vb
+  name: Rotate
+  nameWithType: Transitionables.Rotate
+  fullName: H.Extensions.Animations.Transitionables.Rotate
+  type: Field
+  source:
+    id: Rotate
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Animations\Transitionables.cs
+    startLine: 14
+  assemblies:
+  - H.Extensions.Animations
+  namespace: H.Extensions.Animations
+  syntax:
+    content: public static ITransitionable Rotate
+    return:
+      type: H.Common.Transitionable.ITransitionable
+    content.vb: Public Shared Rotate As ITransitionable
+- uid: H.Extensions.Animations.Transitionables.XTranslate
+  commentId: F:H.Extensions.Animations.Transitionables.XTranslate
+  id: XTranslate
+  parent: H.Extensions.Animations.Transitionables
+  langs:
+  - csharp
+  - vb
+  name: XTranslate
+  nameWithType: Transitionables.XTranslate
+  fullName: H.Extensions.Animations.Transitionables.XTranslate
+  type: Field
+  source:
+    id: XTranslate
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Animations\Transitionables.cs
+    startLine: 15
+  assemblies:
+  - H.Extensions.Animations
+  namespace: H.Extensions.Animations
+  syntax:
+    content: public static ITransitionable XTranslate
+    return:
+      type: H.Common.Transitionable.ITransitionable
+    content.vb: Public Shared XTranslate As ITransitionable
+- uid: H.Extensions.Animations.Transitionables.YTranslate
+  commentId: F:H.Extensions.Animations.Transitionables.YTranslate
+  id: YTranslate
+  parent: H.Extensions.Animations.Transitionables
+  langs:
+  - csharp
+  - vb
+  name: YTranslate
+  nameWithType: Transitionables.YTranslate
+  fullName: H.Extensions.Animations.Transitionables.YTranslate
+  type: Field
+  source:
+    id: YTranslate
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Animations\Transitionables.cs
+    startLine: 16
+  assemblies:
+  - H.Extensions.Animations
+  namespace: H.Extensions.Animations
+  syntax:
+    content: public static ITransitionable YTranslate
+    return:
+      type: H.Common.Transitionable.ITransitionable
+    content.vb: Public Shared YTranslate As ITransitionable
+- uid: H.Extensions.Animations.Transitionables.OpacityScale
+  commentId: F:H.Extensions.Animations.Transitionables.OpacityScale
+  id: OpacityScale
+  parent: H.Extensions.Animations.Transitionables
+  langs:
+  - csharp
+  - vb
+  name: OpacityScale
+  nameWithType: Transitionables.OpacityScale
+  fullName: H.Extensions.Animations.Transitionables.OpacityScale
+  type: Field
+  source:
+    id: OpacityScale
+    path: H:\Github\WPF-VisionMaster-Doc\Source\WPF-VisionMaster\Source\WPF-Control\Source\Extensions\H.Extensions.Animations\Transitionables.cs
+    startLine: 22
+  assemblies:
+  - H.Extensions.Animations
+  namespace: H.Extensions.Animations
+  syntax:
+    content: public static ITransitionable OpacityScale
+    return:
+      type: H.Common.Transitionable.ITransitionable
+    content.vb: Public Shared OpacityScale As ITransitionable
+references:
+- uid: H.Extensions.Animations
+  commentId: N:H.Extensions.Animations
+  href: H.html
+  name: H.Extensions.Animations
+  nameWithType: H.Extensions.Animations
+  fullName: H.Extensions.Animations
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Animations
+    name: Animations
+    href: H.Extensions.Animations.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Extensions
+    name: Extensions
+    href: H.Extensions.html
+  - name: .
+  - uid: H.Extensions.Animations
+    name: Animations
+    href: H.Extensions.Animations.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: H.Common.Transitionable.ITransitionable
+  commentId: T:H.Common.Transitionable.ITransitionable
+  parent: H.Common.Transitionable
+  href: H.Common.Transitionable.ITransitionable.html
+  name: ITransitionable
+  nameWithType: ITransitionable
+  fullName: H.Common.Transitionable.ITransitionable
+- uid: H.Common.Transitionable
+  commentId: N:H.Common.Transitionable
+  href: H.html
+  name: H.Common.Transitionable
+  nameWithType: H.Common.Transitionable
+  fullName: H.Common.Transitionable
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Common
+    name: Common
+    href: H.Common.html
+  - name: .
+  - uid: H.Common.Transitionable
+    name: Transitionable
+    href: H.Common.Transitionable.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Common
+    name: Common
+    href: H.Common.html
+  - name: .
+  - uid: H.Common.Transitionable
+    name: Transitionable
+    href: H.Common.Transitionable.html

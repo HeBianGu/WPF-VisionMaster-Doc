@@ -1,0 +1,84 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.VisionMaster.DiagramData
+  commentId: N:H.VisionMaster.DiagramData
+  id: H.VisionMaster.DiagramData
+  children:
+  - H.VisionMaster.DiagramData.IVisionDiagramData
+  - H.VisionMaster.DiagramData.IVisionMessage
+  - H.VisionMaster.DiagramData.RunDiagramDataPresenter
+  - H.VisionMaster.DiagramData.VisionDiagramDataBase
+  - H.VisionMaster.DiagramData.VisionMessage
+  langs:
+  - csharp
+  - vb
+  name: H.VisionMaster.DiagramData
+  nameWithType: H.VisionMaster.DiagramData
+  fullName: H.VisionMaster.DiagramData
+  type: Namespace
+  assemblies:
+  - H.VisionMaster.DiagramData
+references:
+- uid: H.VisionMaster.DiagramData.IVisionDiagramData
+  commentId: T:H.VisionMaster.DiagramData.IVisionDiagramData
+  parent: H.VisionMaster.DiagramData
+  href: H.VisionMaster.DiagramData.IVisionDiagramData.html
+  name: IVisionDiagramData
+  nameWithType: IVisionDiagramData
+  fullName: H.VisionMaster.DiagramData.IVisionDiagramData
+- uid: H.VisionMaster.DiagramData.IVisionMessage
+  commentId: T:H.VisionMaster.DiagramData.IVisionMessage
+  parent: H.VisionMaster.DiagramData
+  href: H.VisionMaster.DiagramData.IVisionMessage.html
+  name: IVisionMessage
+  nameWithType: IVisionMessage
+  fullName: H.VisionMaster.DiagramData.IVisionMessage
+- uid: H.VisionMaster.DiagramData.RunDiagramDataPresenter
+  commentId: T:H.VisionMaster.DiagramData.RunDiagramDataPresenter
+  href: H.VisionMaster.DiagramData.RunDiagramDataPresenter.html
+  name: RunDiagramDataPresenter
+  nameWithType: RunDiagramDataPresenter
+  fullName: H.VisionMaster.DiagramData.RunDiagramDataPresenter
+- uid: H.VisionMaster.DiagramData.VisionDiagramDataBase
+  commentId: T:H.VisionMaster.DiagramData.VisionDiagramDataBase
+  parent: H.VisionMaster.DiagramData
+  href: H.VisionMaster.DiagramData.VisionDiagramDataBase.html
+  name: VisionDiagramDataBase
+  nameWithType: VisionDiagramDataBase
+  fullName: H.VisionMaster.DiagramData.VisionDiagramDataBase
+- uid: H.VisionMaster.DiagramData.VisionMessage
+  commentId: T:H.VisionMaster.DiagramData.VisionMessage
+  href: H.VisionMaster.DiagramData.VisionMessage.html
+  name: VisionMessage
+  nameWithType: VisionMessage
+  fullName: H.VisionMaster.DiagramData.VisionMessage
+- uid: H.VisionMaster.DiagramData
+  commentId: N:H.VisionMaster.DiagramData
+  href: H.html
+  name: H.VisionMaster.DiagramData
+  nameWithType: H.VisionMaster.DiagramData
+  fullName: H.VisionMaster.DiagramData
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.DiagramData
+    name: DiagramData
+    href: H.VisionMaster.DiagramData.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.VisionMaster
+    name: VisionMaster
+    href: H.VisionMaster.html
+  - name: .
+  - uid: H.VisionMaster.DiagramData
+    name: DiagramData
+    href: H.VisionMaster.DiagramData.html

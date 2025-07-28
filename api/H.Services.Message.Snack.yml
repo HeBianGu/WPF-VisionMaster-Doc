@@ -1,0 +1,142 @@
+### YamlMime:ManagedReference
+items:
+- uid: H.Services.Message.Snack
+  commentId: N:H.Services.Message.Snack
+  id: H.Services.Message.Snack
+  children:
+  - H.Services.Message.Snack.IPercentSnackItem
+  - H.Services.Message.Snack.ISnackItem
+  - H.Services.Message.Snack.ISnackMessageService
+  - H.Services.Message.Snack.ShowDialogSnackMessageCommand
+  - H.Services.Message.Snack.ShowErrorSnackMessageCommand
+  - H.Services.Message.Snack.ShowFatalSnackMessageCommand
+  - H.Services.Message.Snack.ShowInfoSnackMessageCommand
+  - H.Services.Message.Snack.ShowProgressSnackMessageCommand
+  - H.Services.Message.Snack.ShowSnackMessageCommandBase
+  - H.Services.Message.Snack.ShowStringSnackMessageCommand
+  - H.Services.Message.Snack.ShowSuccessSnackMessageCommand
+  - H.Services.Message.Snack.ShowWarnSnackMessageCommand
+  langs:
+  - csharp
+  - vb
+  name: H.Services.Message.Snack
+  nameWithType: H.Services.Message.Snack
+  fullName: H.Services.Message.Snack
+  type: Namespace
+  assemblies:
+  - H.Services.Message
+references:
+- uid: H.Services.Message.Snack.IPercentSnackItem
+  commentId: T:H.Services.Message.Snack.IPercentSnackItem
+  parent: H.Services.Message.Snack
+  href: H.Services.Message.Snack.IPercentSnackItem.html
+  name: IPercentSnackItem
+  nameWithType: IPercentSnackItem
+  fullName: H.Services.Message.Snack.IPercentSnackItem
+- uid: H.Services.Message.Snack.ISnackItem
+  commentId: T:H.Services.Message.Snack.ISnackItem
+  parent: H.Services.Message.Snack
+  href: H.Services.Message.Snack.ISnackItem.html
+  name: ISnackItem
+  nameWithType: ISnackItem
+  fullName: H.Services.Message.Snack.ISnackItem
+- uid: H.Services.Message.Snack.ISnackMessageService
+  commentId: T:H.Services.Message.Snack.ISnackMessageService
+  parent: H.Services.Message.Snack
+  href: H.Services.Message.Snack.ISnackMessageService.html
+  name: ISnackMessageService
+  nameWithType: ISnackMessageService
+  fullName: H.Services.Message.Snack.ISnackMessageService
+- uid: H.Services.Message.Snack.ShowSnackMessageCommandBase
+  commentId: T:H.Services.Message.Snack.ShowSnackMessageCommandBase
+  parent: H.Services.Message.Snack
+  href: H.Services.Message.Snack.ShowSnackMessageCommandBase.html
+  name: ShowSnackMessageCommandBase
+  nameWithType: ShowSnackMessageCommandBase
+  fullName: H.Services.Message.Snack.ShowSnackMessageCommandBase
+- uid: H.Services.Message.Snack.ShowDialogSnackMessageCommand
+  commentId: T:H.Services.Message.Snack.ShowDialogSnackMessageCommand
+  href: H.Services.Message.Snack.ShowDialogSnackMessageCommand.html
+  name: ShowDialogSnackMessageCommand
+  nameWithType: ShowDialogSnackMessageCommand
+  fullName: H.Services.Message.Snack.ShowDialogSnackMessageCommand
+- uid: H.Services.Message.Snack.ShowErrorSnackMessageCommand
+  commentId: T:H.Services.Message.Snack.ShowErrorSnackMessageCommand
+  href: H.Services.Message.Snack.ShowErrorSnackMessageCommand.html
+  name: ShowErrorSnackMessageCommand
+  nameWithType: ShowErrorSnackMessageCommand
+  fullName: H.Services.Message.Snack.ShowErrorSnackMessageCommand
+- uid: H.Services.Message.Snack.ShowFatalSnackMessageCommand
+  commentId: T:H.Services.Message.Snack.ShowFatalSnackMessageCommand
+  href: H.Services.Message.Snack.ShowFatalSnackMessageCommand.html
+  name: ShowFatalSnackMessageCommand
+  nameWithType: ShowFatalSnackMessageCommand
+  fullName: H.Services.Message.Snack.ShowFatalSnackMessageCommand
+- uid: H.Services.Message.Snack.ShowInfoSnackMessageCommand
+  commentId: T:H.Services.Message.Snack.ShowInfoSnackMessageCommand
+  href: H.Services.Message.Snack.ShowInfoSnackMessageCommand.html
+  name: ShowInfoSnackMessageCommand
+  nameWithType: ShowInfoSnackMessageCommand
+  fullName: H.Services.Message.Snack.ShowInfoSnackMessageCommand
+- uid: H.Services.Message.Snack.ShowProgressSnackMessageCommand
+  commentId: T:H.Services.Message.Snack.ShowProgressSnackMessageCommand
+  href: H.Services.Message.Snack.ShowProgressSnackMessageCommand.html
+  name: ShowProgressSnackMessageCommand
+  nameWithType: ShowProgressSnackMessageCommand
+  fullName: H.Services.Message.Snack.ShowProgressSnackMessageCommand
+- uid: H.Services.Message.Snack.ShowStringSnackMessageCommand
+  commentId: T:H.Services.Message.Snack.ShowStringSnackMessageCommand
+  href: H.Services.Message.Snack.ShowStringSnackMessageCommand.html
+  name: ShowStringSnackMessageCommand
+  nameWithType: ShowStringSnackMessageCommand
+  fullName: H.Services.Message.Snack.ShowStringSnackMessageCommand
+- uid: H.Services.Message.Snack.ShowSuccessSnackMessageCommand
+  commentId: T:H.Services.Message.Snack.ShowSuccessSnackMessageCommand
+  href: H.Services.Message.Snack.ShowSuccessSnackMessageCommand.html
+  name: ShowSuccessSnackMessageCommand
+  nameWithType: ShowSuccessSnackMessageCommand
+  fullName: H.Services.Message.Snack.ShowSuccessSnackMessageCommand
+- uid: H.Services.Message.Snack.ShowWarnSnackMessageCommand
+  commentId: T:H.Services.Message.Snack.ShowWarnSnackMessageCommand
+  href: H.Services.Message.Snack.ShowWarnSnackMessageCommand.html
+  name: ShowWarnSnackMessageCommand
+  nameWithType: ShowWarnSnackMessageCommand
+  fullName: H.Services.Message.Snack.ShowWarnSnackMessageCommand
+- uid: H.Services.Message.Snack
+  commentId: N:H.Services.Message.Snack
+  href: H.html
+  name: H.Services.Message.Snack
+  nameWithType: H.Services.Message.Snack
+  fullName: H.Services.Message.Snack
+  spec.csharp:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Message
+    name: Message
+    href: H.Services.Message.html
+  - name: .
+  - uid: H.Services.Message.Snack
+    name: Snack
+    href: H.Services.Message.Snack.html
+  spec.vb:
+  - uid: H
+    name: H
+    href: H.html
+  - name: .
+  - uid: H.Services
+    name: Services
+    href: H.Services.html
+  - name: .
+  - uid: H.Services.Message
+    name: Message
+    href: H.Services.Message.html
+  - name: .
+  - uid: H.Services.Message.Snack
+    name: Snack
+    href: H.Services.Message.Snack.html

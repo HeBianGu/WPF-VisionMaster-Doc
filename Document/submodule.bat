@@ -1,5 +1,6 @@
-:: 添加子模块 git submodule add https://github.com/HeBianGu/WPF-Control.git Source/WPF-Control
-:: 在克隆时自动初始化和更新子模块 git clone --recurse-submodules -b dev1.0.6 https://github.com/HeBianGu/WPF-Control.git Source/WPF-Control
+:: 添加子模块 
+git submodule add -b Release-2.0 https://github.com/HeBianGu/WPF-VisionMaster
+:: 在克隆时自动初始化和更新子模块 git clone --recurse-submodules -b Release-2.0 https://github.com/HeBianGu/WPF-VisionMaster.git
 
 :: 初始化子模块 git submodule init
 ::下载子模块代码 git submodule update

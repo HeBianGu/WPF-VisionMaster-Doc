@@ -1,4 +1,6 @@
-# WPF VisionMaster 4.0 项目开发文档
+# WPF VisionMaster 4.0 项目介绍和开发文档
+
+[WPF-VisionMaster开发文档](https://hebiangu.github.io/WPF-VisionMaster-Doc/)
 
 `WPF VisionMaster 4.0` 是一个基于 `.NET 8`、`WPF` 和 `OpenCvSharp4` 的机器视觉流程编排解决方案。项目参考 VisionMaster 类产品的交互方式，提供图像、视频、相机、OpenCV 算子、ONNX 推理、检测记录、项目管理、身份权限、主题和通用 WPF 控件等能力，适用于机器视觉流程搭建、验证和桌面端应用开发。
 
@@ -2905,3 +2907,5 @@ return this.Error(fromImage);     // 执行失败并保留输入图像
 ## 许可
 
 从原作者正规渠道获取的源码遵循项目公共构建配置中声明使用 `MIT` 许可证。否则禁止一切商业行为。实际分发和使用请以仓库中的许可证文件及项目声明为准（推荐同作者签署许可或获得书面授权）。
+
+作者：HeBianGu 联系方式：QQ908293466

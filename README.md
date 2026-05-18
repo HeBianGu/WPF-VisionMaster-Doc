@@ -93,6 +93,25 @@ Source/
 └── Nugets/                               # NuGet 打包相关项目
 ```
 
+## 主 WPF 应用结构
+
+```text
+H.App.VisionMaster.OpenCV4/              # 主 WPF 应用
+├── App.xaml                             # 应用 XAML 入口，合并全局样式资源
+├── App.xaml.cs                          # 应用启动逻辑，负责依赖注入、配置、登录、退出清理
+├── MainWindow.xaml                      # 主窗口界面，承载菜单、工具栏、流程资源、流程画布和结果面板
+├── MainWindow.xaml.cs                   # 主窗口后台代码，处理窗口级交互和初始化逻辑
+├── MainViewModel.cs                     # 主窗口视图模型，提供项目、流程图、命令等绑定数据
+├── H.App.VisionMaster.OpenCV4.csproj    # 主应用项目文件，定义目标框架、项目引用和资源配置
+├── VisionIdentifyDataContext.cs         # 身份认证数据库上下文，用于用户、角色、权限等数据
+├── Commands/                            # 主应用命令扩展，例如窗口、缩放、URI、流程图相关命令
+├── DiagramDatas/                        # 主应用流程图数据类型，例如 OpenCVVisionDiagramData
+├── Migrations/                          # EF Core 数据库迁移文件，主要用于身份认证初始化
+├── NodeDatas/                           # 主应用专属节点数据扩展
+│   └── SrcImages/                       # 图像源相关节点或图像源辅助实现
+└── Projects/                            # 主应用项目模型与项目服务实现
+```
+
 ## 环境要求
 
 ### 必需环境

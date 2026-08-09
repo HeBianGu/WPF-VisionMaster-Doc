@@ -7,6 +7,71 @@
   <meta name="description" content="WPF VisionMaster：基于 .NET 8、WPF 与 OpenCvSharp4 的机器视觉流程编排平台。">
   <title>WPF VisionMaster - 机器视觉流程编排平台</title>
   <link rel="stylesheet" href="styles.css">
+  <style>
+    .top-carousel {
+      position: relative;
+      width: min(1120px, calc(100% - 40px));
+      height: clamp(240px, 48vw, 630px);
+      margin: 32px auto 0;
+      overflow: hidden;
+      background: #172033;
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      box-shadow: var(--shadow);
+    }
+
+    .top-carousel-slide {
+      position: absolute;
+      inset: 0;
+      margin: 0;
+      opacity: 0;
+      transition: opacity 0.5s ease;
+    }
+
+    .top-carousel-slide.is-active { opacity: 1; }
+
+    .top-carousel-slide img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    .top-carousel-slide figcaption {
+      position: absolute;
+      right: max(20px, calc((100% - 1120px) / 2));
+      bottom: 24px;
+      padding: 8px 14px;
+      color: #fff;
+      background: rgba(23, 32, 51, 0.72);
+      border-radius: 999px;
+      font-weight: 600;
+    }
+
+    .top-carousel-indicators {
+      position: absolute;
+      bottom: 24px;
+      left: 50%;
+      z-index: 1;
+      display: flex;
+      gap: 10px;
+      transform: translateX(-50%);
+    }
+
+    .top-carousel-indicator {
+      width: 10px;
+      height: 10px;
+      padding: 0;
+      border: 1px solid rgba(255, 255, 255, 0.9);
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.35);
+      cursor: pointer;
+    }
+
+    .top-carousel-indicator.is-active {
+      background: #fff;
+      transform: scale(1.2);
+    }
+  </style>
 </head>
 <body>
   <header class="site-header">
@@ -18,11 +83,68 @@
           <li><a href="#features">核心能力</a></li>
           <li><a href="#modules">模块组成</a></li>
           <li><a href="#quickstart">快速开始</a></li>
+          <li><a href="#contact">作者与联系</a></li>
+          <li><a href="visionmaster-releases.html">版本历史</a></li>
           <li><a href="visionmaster-license.html">许可与发行说明</a></li>
         </ul>
       </nav>
     </div>
   </header>
+
+  <section class="top-carousel" aria-label="VisionMaster 产品预览">
+    <figure class="top-carousel-slide is-active">
+      <img src="top1.png" alt="VisionMaster 产品界面预览一">
+      <figcaption>机器视觉流程编排</figcaption>
+    </figure>
+    <figure class="top-carousel-slide">
+      <img src="top2.png" alt="VisionMaster 产品界面预览二">
+      <figcaption>可视化节点处理</figcaption>
+    </figure>
+    <figure class="top-carousel-slide">
+      <img src="top3.png" alt="VisionMaster 产品界面预览三">
+      <figcaption>视觉算法与结果展示</figcaption>
+    </figure>
+    <figure class="top-carousel-slide">
+      <img src="top4.png" alt="VisionMaster 产品界面预览四">
+      <figcaption>模块化桌面应用</figcaption>
+    </figure>
+    <div class="top-carousel-indicators" aria-label="轮播图片选择">
+      <button class="top-carousel-indicator is-active" type="button" aria-label="显示第 1 张图片" aria-current="true"></button>
+      <button class="top-carousel-indicator" type="button" aria-label="显示第 2 张图片"></button>
+      <button class="top-carousel-indicator" type="button" aria-label="显示第 3 张图片"></button>
+      <button class="top-carousel-indicator" type="button" aria-label="显示第 4 张图片"></button>
+    </div>
+  </section>
+
+  <script>
+    const carousel = document.querySelector('.top-carousel');
+    const slides = carousel.querySelectorAll('.top-carousel-slide');
+    const indicators = carousel.querySelectorAll('.top-carousel-indicator');
+    let activeIndex = 0;
+    let timer;
+
+    function showSlide(index) {
+      activeIndex = (index + slides.length) % slides.length;
+      slides.forEach((slide, slideIndex) => slide.classList.toggle('is-active', slideIndex === activeIndex));
+      indicators.forEach((indicator, indicatorIndex) => {
+        const isActive = indicatorIndex === activeIndex;
+        indicator.classList.toggle('is-active', isActive);
+        indicator.setAttribute('aria-current', isActive ? 'true' : 'false');
+      });
+    }
+
+    function startCarousel() {
+      clearInterval(timer);
+      timer = setInterval(() => showSlide(activeIndex + 1), 5000);
+    }
+
+    indicators.forEach((indicator, index) => indicator.addEventListener('click', () => {
+      showSlide(index);
+      startCarousel();
+    }));
+
+    startCarousel();
+  </script>
 
   <main>
     <section class="hero">
@@ -107,8 +229,31 @@
         </div>
       </div>
     </section>
+
+    <section id="contact" class="section">
+      <div class="container split-layout">
+        <div>
+          <span class="section-label">Contact</span>
+          <h2>作者与联系</h2>
+        </div>
+        <div>
+          <p>WPF VisionMaster 由 HeBianGu 开发和维护。如需技术交流、项目合作或商业授权，请通过以下官方渠道联系。</p>
+          <div class="hero-actions">
+            <a class="button primary" href="https://github.com/HeBianGu/WPF-VisionMaster" target="_blank" rel="noopener">GitHub 项目仓库</a>
+            <a class="button secondary" href="https://hebiangu.github.io/WPF-VisionMaster-Doc/" target="_blank" rel="noopener">在线开发文档</a>
+            <a class="button secondary" href="https://space.bilibili.com/370266611" target="_blank" rel="noopener">哔哩哔哩</a>
+          </div>
+          <p><strong>作者：</strong>HeBianGu　<strong>QQ：</strong>908293466　<strong>交流群：</strong>971261058</p>
+        </div>
+      </div>
+    </section>
   </main>
 
-  <footer class="site-footer"><div class="container"><p>&copy; 2025-2026 HeBianGu · WPF VisionMaster</p></div></footer>
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025-2026 HeBianGu. All Rights Reserved. · WPF VisionMaster</p>
+      <p>作者：HeBianGu · QQ：908293466 · 交流群：971261058</p>
+    </div>
+  </footer>
 </body>
 </html>

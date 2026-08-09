@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="WPF VisionMaster：基于 .NET 8、WPF 与 OpenCvSharp4 的机器视觉流程编排平台。">
+  <title>WPF VisionMaster - 机器视觉流程编排平台</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-bar">
+      <a class="brand" href="visionmaster.html">VisionMaster</a>
+      <nav aria-label="主导航">
+        <ul>
+          <li><a href="#about">项目介绍</a></li>
+          <li><a href="#features">核心能力</a></li>
+          <li><a href="#modules">模块组成</a></li>
+          <li><a href="#quickstart">快速开始</a></li>
+          <li><a href="visionmaster-license.html">许可与发行说明</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <span class="eyebrow">.NET 8 / WPF / OpenCV</span>
+          <h1>WPF VisionMaster 5.0</h1>
+          <p>面向机器视觉流程搭建、验证与桌面端应用开发的可视化流程编排平台。</p>
+          <div class="hero-actions">
+            <a class="button primary" href="https://github.com/HeBianGu/WPF-VisionMaster" target="_blank" rel="noopener">查看 GitHub 仓库</a>
+            <a class="button secondary" href="#quickstart">快速开始</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <strong>技术摘要</strong>
+          <ul>
+            <li>目标框架：net8.0-windows</li>
+            <li>桌面 UI：WPF</li>
+            <li>图像处理：OpenCvSharp4</li>
+            <li>推理能力：ONNX 节点</li>
+            <li>当前版本：5.0.0-preview.1.20260720</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container split-layout">
+        <div>
+          <span class="section-label">About</span>
+          <h2>项目介绍</h2>
+        </div>
+        <p>WPF VisionMaster 是一个基于 .NET 8、WPF 和 OpenCvSharp4 的机器视觉流程编排解决方案。项目参考 VisionMaster 类产品的交互方式，提供图像、视频、相机、OpenCV 算子、ONNX 推理、检测记录、项目管理、身份权限、主题以及通用 WPF 控件等能力。</p>
+      </div>
+    </section>
+
+    <section id="features" class="section muted">
+      <div class="container">
+        <span class="section-label">Capabilities</span>
+        <h2>核心能力</h2>
+        <div class="feature-grid">
+          <article class="feature-card"><h3>可视化流程编排</h3><p>以流程图组织图像、视频、相机、OpenCV、ONNX、通信和检测记录节点，便于搭建与验证视觉处理链路。</p></article>
+          <article class="feature-card"><h3>图像处理与推理</h3><p>集成 OpenCV 图像处理、模板匹配、图像矫正和 ONNX 推理能力，可扩展目标检测、分类与语义分割场景。</p></article>
+          <article class="feature-card"><h3>工业相机与数据源</h3><p>支持本地图像、图像文件夹、本地视频、示例数据集和海康工业相机等数据源。</p></article>
+          <article class="feature-card"><h3>工程化应用能力</h3><p>提供项目管理、身份认证、角色权限、检测记录、主题设置、日志和通用桌面端组件。</p></article>
+          <article class="feature-card"><h3>模块化架构</h3><p>按 H.Controls、H.Extensions、H.Modules、H.Services 与 H.VisionMaster 分层，支持按需复用与二次开发。</p></article>
+          <article class="feature-card"><h3>数据持久化</h3><p>使用 Entity Framework Core 8 支持 SQLite 与 SQL Server 相关模块，项目数据可使用 JSON 序列化保存。</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="modules" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <div><span class="section-label">Architecture</span><h2>模块组成</h2></div>
+          <a class="text-link" href="https://github.com/HeBianGu/WPF-VisionMaster" target="_blank" rel="noopener">浏览源代码</a>
+        </div>
+        <div class="opensource-grid">
+          <article class="opensource-card featured"><span>应用入口</span><h3>H.App.VisionMaster</h3><p>承载应用启动、流程画布、项目与运行界面，是机器视觉平台的主 WPF 应用。</p></article>
+          <article class="opensource-card"><h3>H.VisionMaster.*</h3><p>包含相机、项目、检测记录、通信、OpenCV、ONNX 和 Zoo 示例等机器视觉业务模块。</p></article>
+          <article class="opensource-card"><h3>H.Controls.*</h3><p>提供流程图、表单、属性网格、图表、主题、消息和导航等 WPF 通用控件。</p></article>
+          <article class="opensource-card"><h3>H.Extensions.* / H.Services.*</h3><p>提供序列化、日志、设置、身份、项目、消息和其他跨模块基础服务。</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="quickstart" class="section muted">
+      <div class="container split-layout">
+        <div><span class="section-label">Quick Start</span><h2>快速开始</h2></div>
+        <div>
+          <p>开发环境需要 Windows 10/11、Visual Studio 2022（或更高版本）、.NET 8 SDK 及 WPF 桌面开发工作负载。</p>
+          <ol>
+            <li>克隆项目并还原 NuGet 包。</li>
+            <li>使用 Visual Studio 打开解决方案，或执行 <code>dotnet build</code>。</li>
+            <li>将 <code>H.App.VisionMaster</code> 设置为启动项目，或执行 <code>dotnet run --project Source/Apps/H.App.VisionMaster/H.App.VisionMaster.csproj</code>。</li>
+            <li>创建或打开视觉项目，在流程资源面板中添加数据源、处理节点并连接执行。</li>
+          </ol>
+          <div class="hero-actions">
+            <a class="button primary" href="visionmaster-license.html">查看许可与发行说明</a>
+            <a class="button secondary" href="https://hebiangu.github.io/WPF-VisionMaster-Doc/" target="_blank" rel="noopener">阅读开发文档</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container"><p>&copy; 2025-2026 HeBianGu · WPF VisionMaster</p></div></footer>
+</body>
+</html>

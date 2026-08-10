@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="WPF-VisionMaster 版本历史与发行说明。">
+  <title>版本历史 - WPF-VisionMaster</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .release-list { display: grid; gap: 24px; }
+    .release-card { padding: 32px; border: 1px solid var(--border); border-radius: 18px; background: var(--surface); box-shadow: var(--shadow); }
+    .release-card h3 { margin-top: 0; }
+    .release-card ul, .release-card ol { padding-left: 22px; }
+    .release-card li + li { margin-top: 8px; }
+    .release-tag { display: inline-block; margin-bottom: 10px; padding: 4px 12px; color: var(--primary-dark); background: var(--surface-soft); border-radius: 999px; font-size: 14px; font-weight: 700; }
+    .release-links { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 24px; }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-bar">
+      <a class="brand" href="index.html">WPF-VisionMaster</a>
+      <nav aria-label="主导航"><ul>
+        <li><a href="visionmaster.html">项目首页</a></li>
+        <li><a href="#v4">4.0</a></li>
+        <li><a href="#v3">3.0</a></li>
+        <li><a href="#v2">2.0</a></li>
+        <li><a href="#v1">1.0</a></li>
+        <li><a href="visionmaster-license.html">许可协议</a></li>
+      </ul></nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content"><span class="eyebrow">Release History</span><h1>版本历史更新</h1><p>记录 WPF-VisionMaster 从 OpenCV 核心视觉能力到流程编排、测量、相机、通信与缺陷检测能力的发展历程。</p></div>
+        <div class="hero-card"><strong>版本时间线</strong><ul><li>1.0：核心视觉与工程管理</li><li>2.0：ONNX 与通信节点</li><li>3.0：测量、相机与表达式</li><li>4.0：缺陷检测与运行模式</li><li>4.0.1：相机 IO 输出</li></ul></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <span class="section-label">Changelog</span><h2>发行说明</h2>
+        <div class="release-list">
+          <article id="v4" class="release-card">
+            <span class="release-tag">4.0.1</span>
+            <h3>相机 IO 输出</h3>
+            <p>新增相机 IO 输出节点。</p>
+          </article>
+
+          <article class="release-card">
+            <span class="release-tag">4.0.0</span>
+            <h3>缺陷检测、运行模式与通信能力</h3>
+            <p>本版本新增缺陷检测流程、运行模式页面设计、通信节点、前景矫正节点和用户身份认证，并增强测量与模板匹配模块。</p>
+            <h4>缺陷检测流程</h4>
+            <ul><li>新增独立的缺陷检测深度学习训练工具。</li><li>优化目标检测，支持 Yolov8 训练的 ONNX 模型。</li><li>新增缺陷检测记录节点，支持查看、导出、自定义报告设计与打印。</li></ul>
+            <h4>运行模式与通信</h4>
+            <ul><li>支持组态拖拽方式设计运行模式页面，并可按用户角色直接进入运行界面。</li><li>新增串口、TCP、UDP 和 HTTP 通信节点。</li></ul>
+            <h4>测量、矫正与模板匹配</h4>
+            <ul><li>新增 Shi-Tomasi、Harris 角点查找，以及前景反转矫正、前景信息提取与应用矫正节点。</li><li>线线测量支持夹角测量；圆和线段测量支持多种过滤规则。</li><li>新增轮廓匹配、特征匹配；像素匹配与颜色匹配完成重命名和编辑体验优化。</li></ul>
+            <h4>其他优化</h4>
+            <ul><li>OpenCvSharp4 升级至 4.13.0.20260222。</li><li>支持流程循环执行、流程菜单显示控制、九点标定、运行全部与停止全部。</li><li>优化识别结果显示、颜色选择和部分模块的内存泄漏问题。</li></ul>
+            <div class="release-links"><a class="button secondary" href="https://blog.csdn.net/u010975589/article/details/159284364" target="_blank" rel="noopener">4.0 详细说明</a><a class="button secondary" href="https://www.bilibili.com/video/BV1z8cXziEBm" target="_blank" rel="noopener">4.0 视频介绍</a></div>
+          </article>
+
+          <article id="v3" class="release-card">
+            <span class="release-tag">3.0.0</span>
+            <h3>测量体系、工业相机与流程灵活性升级</h3>
+            <p>版本围绕测量能力、流程灵活性、工业相机接入、参数表达式与全局变量、可视化交互和许可管控展开。</p>
+            <ul>
+              <li>新增卡尺绘制以及点、线、圆等几何要素测量，覆盖线线、线圆、圆圆、点线、点圆和点点关系。</li>
+              <li>新增海康 MVS 相机管理与相机节点。</li>
+              <li>新增参数表达式系统和字符串、整型、浮点型全局参数中心。</li>
+              <li>图像列表提供 22 种布局，支持同步缩放、多阶段结果对比和前序图像结果选择。</li>
+              <li>新增运行/开发双许可控制、节点替换、圆查找、逻辑循环节点、颜色吸管与长度卡尺工具。</li>
+              <li>优化 ROI 复用、矢量化识别结果显示、像素块渲染、多前驱等待和参数表达式缓存。</li>
+            </ul>
+            <div class="release-links"><a class="button secondary" href="https://blog.csdn.net/u010975589/article/details/152267857" target="_blank" rel="noopener">3.0 详细说明</a><a class="button secondary" href="https://www.bilibili.com/video/BV19wySBgER7" target="_blank" rel="noopener">3.0 视频介绍</a></div>
+          </article>
+
+          <article id="v2" class="release-card">
+            <span class="release-tag">2.0.0</span>
+            <h3>ONNX 推理、通信与流程控制扩展</h3>
+            <ul>
+              <li>优化流程图，增加 ROI 绘制、条件分支节点和运行模式页面。</li>
+              <li>新增分类、推算、目标识别、语义分割等 ONNX 通用解析模块及内置模型。</li>
+              <li>新增 Modbus 数据采集、监控与发送能力。</li>
+              <li>优化相机数据源、模板匹配和图像预处理节点。</li>
+              <li>新增多组图像资源、当前模块结果与 NG、OK、运行、错误、成功等结果输出节点。</li>
+              <li>升级到 .NET 8 长期支持版本。</li>
+            </ul>
+            <div class="release-links"><a class="button secondary" href="https://blog.csdn.net/u010975589/article/details/149283086" target="_blank" rel="noopener">2.0 详细说明</a><a class="button secondary" href="https://www.bilibili.com/video/BV1oeMXzEEZX" target="_blank" rel="noopener">2.0 视频介绍</a></div>
+          </article>
+
+          <article id="v1" class="release-card">
+            <span class="release-tag">1.0.0</span>
+            <h3>OpenCV 核心视觉功能与基础工程能力</h3>
+            <ul>
+              <li>支持 RGB、HSV、Gray 等多种色彩空间转换。</li>
+              <li>支持实时视频和视频文件的帧捕获与图像处理。</li>
+              <li>提供高斯、中值、双边滤波、形态学操作和边缘检测等经典算法。</li>
+              <li>支持自定义视觉处理算法节点扩展。</li>
+              <li>支持多工程、示例模板、拖拽式流程设计、流程模板保存调用、主题定制和统一系统配置。</li>
+            </ul>
+            <div class="release-links"><a class="button secondary" href="https://blog.csdn.net/u010975589/article/details/147283703" target="_blank" rel="noopener">1.0 详细说明</a><a class="button secondary" href="https://www.bilibili.com/video/BV1smd5YYEoh/" target="_blank" rel="noopener">1.0 视频介绍</a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container"><p>&copy; 2025-2026 HeBianGu. All Rights Reserved. · WPF-VisionMaster</p><p>作者：HeBianGu · QQ：908293466 · 交流群：971261058</p></div></footer>
+</body>
+</html>

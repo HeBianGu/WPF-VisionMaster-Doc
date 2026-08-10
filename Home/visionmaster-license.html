@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="WPF-VisionMaster 的授权许可与版本发行说明。">
+  <title>许可与发行说明 - WPF-VisionMaster</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .document-card { padding: 34px; border: 1px solid var(--border); border-radius: 18px; background: var(--surface); box-shadow: var(--shadow); }
+    .document-card + .document-card { margin-top: 24px; }
+    .document-card h3 { margin-top: 28px; }
+    .document-card h3:first-child { margin-top: 0; }
+    .release-meta { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; margin: 24px 0; }
+    .release-meta div { padding: 16px; border-radius: 12px; background: var(--surface-soft); }
+    .release-meta strong, .release-meta span { display: block; }
+    .release-meta span { color: var(--muted); font-size: 14px; }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-bar">
+      <a class="brand" href="visionmaster.html">WPF-VisionMaster</a>
+      <nav aria-label="主导航"><ul>
+        <li><a href="visionmaster.html">项目首页</a></li>
+        <li><a href="visionmaster-releases.html">版本历史</a></li>
+        <li><a href="#release">发行说明</a></li>
+        <li><a href="#license">许可协议</a></li>
+        <li><a href="https://github.com/HeBianGu/WPF-VisionMaster" target="_blank" rel="noopener">GitHub</a></li>
+      </ul></nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+                    <p>汇总 WPF-VisionMaster 当前项目版本、发行信息与商业授权许可条款。</p>
+        <div class="hero-card"><strong>当前发行版本</strong><ul><li>版本：5.0.0-preview.1.20260720</li><li>目标框架：net8.0-windows</li><li>产品：机器视觉通用平台</li><li>状态：预览版本</li></ul></div>
+      </div>
+    </section>
+
+    <section id="release" class="section">
+      <div class="container">
+        <span class="section-label">Release Notes</span><h2>版本发行说明</h2>
+        <article class="document-card">
+          <h3>WPF-VisionMaster 5.0.0-preview.1.20260720</h3>
+          <div class="release-meta">
+                        <div><span>产品名称</span><strong>WPF-VisionMaster</strong></div>
+            <div><span>标题</span><strong>WPF-VisionMaster5.0</strong></div>
+            <div><span>目标框架</span><strong>net8.0-windows</strong></div>
+            <div><span>版本状态</span><strong>Preview</strong></div>
+          </div>
+          <p>该版本以 .NET 8 和 WPF 为基础，面向机器视觉流程编排与桌面端应用开发。版本信息读取自 <code>H.App.VisionMaster.csproj</code>。</p>
+          <ul>
+            <li>提供图像、视频、相机、OpenCV、ONNX、检测记录和通信等可视化流程节点能力。</li>
+            <li>集成项目管理、用户身份、权限角色、主题设置、日志和通用 WPF 控件。</li>
+            <li>支持 OpenCvSharp4 图像处理、SQLite / SQL Server 数据访问及 JSON 项目序列化。</li>
+            <li>支持海康工业相机接入；使用相机模块时需安装相应 SDK 并配置运行环境。</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="license" class="section muted">
+      <div class="container">
+        <span class="section-label">License</span><h2>WPF-VisionMaster5.0 商业授权许可协议</h2>
+        <article class="document-card">
+          <p><strong>版权所有 (c) 2025 HeBianGu。保留所有权利。</strong></p>
+          <h3>一、定义</h3>
+          <p>“本软件”是指随本仓库发布的 WPF-VisionMaster5.0 源代码、二进制文件、文档、示例、资源、配置文件以及其他相关材料。“作者”是指 HeBianGu 或本软件的著作权人。</p>
+          <p>“商业使用”是指将本软件的全部或部分内容，直接或间接用于商业、经营、盈利、生产环境、付费服务、付费交付、企业内部业务、客户项目交付、SaaS 服务、培训服务、咨询服务或其他以营利为目的的场景。</p>
+          <h3>二、允许的非商业使用</h3>
+          <p>在遵守本许可协议条款的前提下，作者允许你基于个人学习、学术研究、技术评估等非商业目的，对本软件进行查看、下载、复制、构建、运行、学习、评估和修改。</p>
+          <p>复制、分发或保留本软件的全部或主要部分时，必须保留原始版权声明和本许可协议。</p>
+          <h3>三、商业使用需获得授权</h3>
+          <p>除非已事先获得作者的书面授权，或已与作者另行签署商业授权许可，否则不得将本软件用于任何商业使用场景。</p>
+          <ul>
+            <li>不得用于商业产品或付费项目。</li>
+            <li>不得用于提供付费服务、咨询、培训或项目交付。</li>
+            <li>不得部署到生产经营环境中使用。</li>
+            <li>不得集成到闭源、专有或商业系统中。</li>
+            <li>不得销售、转授权、出租、租赁或以其他商业方式分发本软件或其衍生作品。</li>
+          </ul>
+          <h3>四、禁止任何形式的分发</h3>
+          <p>未经作者事先书面授权，任何人不得以任何形式复制后向第三方分发、发布、上传、镜像、转交、转售、出租、出借、转授权、赠与或传播本软件及其全部或部分内容。</p>
+          <p>前述禁止范围包括但不限于本软件的源代码、二进制文件、文档、示例、资源、配置文件、修改版本、衍生作品，以及将本软件全部或部分内容打包、集成或嵌入其他产品、项目、平台或服务后进行的分发。</p>
+          <p>非商业目的不构成分发豁免。任何公开或向第三方提供本软件及其修改版本的行为，均须事先取得作者的书面授权。</p>
+          <h3>五、第三方组件</h3>
+          <p>本软件可能依赖第三方库、框架、工具、模型、数据集或资源。第三方组件适用其各自的许可协议，使用者需要自行确认并遵守相关条款。</p>
+          <h3>六、无担保声明</h3>
+          <p>本软件按“现状”提供，不提供任何明示或暗示的担保，包括但不限于适销性、特定用途适用性、不侵权、安全性、准确性或可用性的担保。作者不对因本软件或使用本软件而产生或与之相关的任何索赔、损害或其他责任负责。</p>
+          <h3>七、商业授权获取方式</h3>
+          <p>如需获得商业授权，请通过项目仓库或作者提供的其他官方联系方式联系作者。</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025-2026 HeBianGu. All Rights Reserved. · WPF-VisionMaster</p>
+      <p>作者：HeBianGu · QQ：908293466 · 交流群：971261058</p>
+    </div>
+  </footer>
+</body>
+</html>

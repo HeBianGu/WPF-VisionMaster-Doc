@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="WPF-VisionMaster：基于 .NET 8、WPF 与 OpenCvSharp4 的机器视觉流程编排平台。">
+  <title>WPF-VisionMaster - 机器视觉流程编排平台</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .top-carousel {
+      position: relative;
+      width: min(1120px, calc(100% - 40px));
+      height: clamp(240px, 48vw, 630px);
+      margin: 32px auto 0;
+      overflow: hidden;
+      background: #172033;
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      box-shadow: var(--shadow);
+    }
+
+    .top-carousel-slide {
+      position: absolute;
+      inset: 0;
+      margin: 0;
+      opacity: 0;
+      transition: opacity 0.5s ease;
+    }
+
+    .top-carousel-slide.is-active { opacity: 1; }
+
+    .top-carousel-slide img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    .top-carousel-slide figcaption {
+      position: absolute;
+      right: max(20px, calc((100% - 1120px) / 2));
+      bottom: 24px;
+      padding: 8px 14px;
+      color: #fff;
+      background: rgba(23, 32, 51, 0.72);
+      border-radius: 999px;
+      font-weight: 600;
+    }
+
+    .top-carousel-indicators {
+      position: absolute;
+      bottom: 24px;
+      left: 50%;
+      z-index: 1;
+      display: flex;
+      gap: 10px;
+      transform: translateX(-50%);
+    }
+
+    .top-carousel-indicator {
+      width: 10px;
+      height: 10px;
+      padding: 0;
+      border: 1px solid rgba(255, 255, 255, 0.9);
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.35);
+      cursor: pointer;
+    }
+
+    .top-carousel-indicator.is-active {
+      background: #fff;
+      transform: scale(1.2);
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-bar">
+      <a class="brand" href="visionmaster.html">WPF-VisionMaster</a>
+      <nav aria-label="主导航">
+        <ul>
+          <li><a href="#about">项目介绍</a></li>
+          <li><a href="#features">核心能力</a></li>
+          <li><a href="#modules">模块组成</a></li>
+          <li><a href="#videos">视频合集</a></li>
+          <li><a href="#quickstart">快速开始</a></li>
+          <li><a href="#contact">作者与联系</a></li>
+          <li><a href="visionmaster-releases.html">版本历史</a></li>
+          <li><a href="visionmaster-license.html">许可与发行说明</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="top-carousel" aria-label="WPF-VisionMaster 产品预览">
+    <figure class="top-carousel-slide is-active">
+      <img src="top1.png" alt="WPF-VisionMaster 产品界面预览一">
+      <figcaption>机器视觉流程编排</figcaption>
+    </figure>
+    <figure class="top-carousel-slide">
+      <img src="top2.png" alt="WPF-VisionMaster 产品界面预览二">
+      <figcaption>可视化节点处理</figcaption>
+    </figure>
+    <figure class="top-carousel-slide">
+      <img src="top3.png" alt="WPF-VisionMaster 产品界面预览三">
+      <figcaption>视觉算法与结果展示</figcaption>
+    </figure>
+    <figure class="top-carousel-slide">
+      <img src="top4.png" alt="WPF-VisionMaster 产品界面预览四">
+      <figcaption>模块化桌面应用</figcaption>
+    </figure>
+    <div class="top-carousel-indicators" aria-label="轮播图片选择">
+      <button class="top-carousel-indicator is-active" type="button" aria-label="显示第 1 张图片" aria-current="true"></button>
+      <button class="top-carousel-indicator" type="button" aria-label="显示第 2 张图片"></button>
+      <button class="top-carousel-indicator" type="button" aria-label="显示第 3 张图片"></button>
+      <button class="top-carousel-indicator" type="button" aria-label="显示第 4 张图片"></button>
+    </div>
+  </section>
+
+  <script>
+    const carousel = document.querySelector('.top-carousel');
+    const slides = carousel.querySelectorAll('.top-carousel-slide');
+    const indicators = carousel.querySelectorAll('.top-carousel-indicator');
+    let activeIndex = 0;
+    let timer;
+
+    function showSlide(index) {
+      activeIndex = (index + slides.length) % slides.length;
+      slides.forEach((slide, slideIndex) => slide.classList.toggle('is-active', slideIndex === activeIndex));
+      indicators.forEach((indicator, indicatorIndex) => {
+        const isActive = indicatorIndex === activeIndex;
+        indicator.classList.toggle('is-active', isActive);
+        indicator.setAttribute('aria-current', isActive ? 'true' : 'false');
+      });
+    }
+
+    function startCarousel() {
+      clearInterval(timer);
+      timer = setInterval(() => showSlide(activeIndex + 1), 5000);
+    }
+
+    indicators.forEach((indicator, index) => indicator.addEventListener('click', () => {
+      showSlide(index);
+      startCarousel();
+    }));
+
+    startCarousel();
+  </script>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <span class="eyebrow">.NET 8 / WPF / OpenCV</span>
+          <h1>WPF-VisionMaster 5.0</h1>
+          <p>面向机器视觉流程搭建、验证与桌面端应用开发的可视化流程编排平台。</p>
+          <div class="hero-actions">
+            <a class="button primary" href="https://github.com/HeBianGu/WPF-VisionMaster" target="_blank" rel="noopener">查看 GitHub 仓库</a>
+            <a class="button secondary" href="#quickstart">快速开始</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <strong>技术摘要</strong>
+          <ul>
+            <li>目标框架：net8.0-windows</li>
+            <li>桌面 UI：WPF</li>
+            <li>图像处理：OpenCvSharp4</li>
+            <li>推理能力：ONNX 节点</li>
+            <li>当前版本：5.0.0-preview.1.20260720</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container split-layout">
+        <div>
+          <span class="section-label">About</span>
+          <h2>项目介绍</h2>
+        </div>
+        <p>WPF-VisionMaster 是一个基于 .NET 8、WPF 和 OpenCvSharp4 的机器视觉流程编排解决方案。项目参考 VisionMaster 类产品的交互方式，提供图像、视频、相机、OpenCV 算子、ONNX 推理、检测记录、项目管理、身份权限、主题以及通用 WPF 控件等能力。</p>
+      </div>
+    </section>
+
+    <section id="features" class="section muted">
+      <div class="container">
+        <span class="section-label">Capabilities</span>
+        <h2>核心能力</h2>
+        <div class="feature-grid">
+          <article class="feature-card"><h3>可视化流程编排</h3><p>以流程图组织图像、视频、相机、OpenCV、ONNX、通信和检测记录节点，便于搭建与验证视觉处理链路。</p></article>
+          <article class="feature-card"><h3>图像处理与推理</h3><p>集成 OpenCV 图像处理、模板匹配、图像矫正和 ONNX 推理能力，可扩展目标检测、分类与语义分割场景。</p></article>
+          <article class="feature-card"><h3>工业相机与数据源</h3><p>支持本地图像、图像文件夹、本地视频、示例数据集和海康工业相机等数据源。</p></article>
+          <article class="feature-card"><h3>工程化应用能力</h3><p>提供项目管理、身份认证、角色权限、检测记录、主题设置、日志和通用桌面端组件。</p></article>
+          <article class="feature-card"><h3>模块化架构</h3><p>按 H.Controls、H.Extensions、H.Modules、H.Services 与 H.VisionMaster 分层，支持按需复用与二次开发。</p></article>
+          <article class="feature-card"><h3>数据持久化</h3><p>使用 Entity Framework Core 8 支持 SQLite 与 SQL Server 相关模块，项目数据可使用 JSON 序列化保存。</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="evolution" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="section-label">Evolution</span>
+            <h2>版本能力演进</h2>
+          </div>
+          <a class="text-link" href="visionmaster-releases.html">查看完整版本历史</a>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <h3>1.0 · 视觉基础</h3>
+            <p>建立 OpenCV 图像处理、实时视频、滤波、形态学和边缘检测能力，并提供工程管理、流程设计、模板与主题配置。</p>
+          </article>
+          <article class="feature-card">
+            <h3>2.0 · 推理与通信</h3>
+            <p>扩展 ROI、条件分支、ONNX 分类/检测/分割、Modbus 通信、结果输出和运行模式，并升级至 .NET 8。</p>
+          </article>
+          <article class="feature-card">
+            <h3>3.0 · 测量与工业接入</h3>
+            <p>增加卡尺与几何测量、海康 MVS 相机、参数表达式、全局变量、多布局预览和流程控制能力。</p>
+          </article>
+          <article class="feature-card">
+            <h3>4.0 · 工程化部署</h3>
+            <p>完善缺陷检测记录、运行模式、串口/TCP/UDP/HTTP 通信、身份认证、前景矫正和模板匹配；4.0.1 新增相机 IO 输出。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="modules" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <div><span class="section-label">Architecture</span><h2>模块组成</h2></div>
+          <a class="text-link" href="https://github.com/HeBianGu/WPF-VisionMaster" target="_blank" rel="noopener">浏览源代码</a>
+        </div>
+        <div class="opensource-grid">
+          <article class="opensource-card featured"><span>应用入口</span><h3>H.App.VisionMaster</h3><p>承载应用启动、流程画布、项目与运行界面，是机器视觉平台的主 WPF 应用。</p></article>
+          <article class="opensource-card"><h3>H.VisionMaster.*</h3><p>包含相机、项目、检测记录、通信、OpenCV、ONNX 和 Zoo 示例等机器视觉业务模块。</p></article>
+          <article class="opensource-card"><h3>H.Controls.*</h3><p>提供流程图、表单、属性网格、图表、主题、消息和导航等 WPF 通用控件。</p></article>
+          <article class="opensource-card"><h3>H.Extensions.* / H.Services.*</h3><p>提供序列化、日志、设置、身份、项目、消息和其他跨模块基础服务。</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section muted">
+      <div class="container">
+        <span class="section-label">Scenarios</span>
+        <h2>典型应用场景</h2>
+        <div class="feature-grid">
+          <article class="feature-card"><h3>视觉检测</h3><p>组合图像采集、预处理、目标检测、模板匹配、测量与缺陷记录节点，搭建标准化检测流程。</p></article>
+          <article class="feature-card"><h3>工业设备集成</h3><p>通过海康相机、Modbus、串口、TCP、UDP 与 HTTP 节点连接相机、PLC、仪器和业务系统。</p></article>
+          <article class="feature-card"><h3>算法验证与交付</h3><p>利用可视化流程、项目模板、运行模式、身份权限和检测报告，加速算法验证和现场部署。</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="videos" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="section-label">Videos</span>
+            <h2>WPF-VisionMaster 视频合集</h2>
+          </div>
+          <a class="text-link" href="https://space.bilibili.com/370266611/lists/7430204?type=season" target="_blank" rel="noopener">前往哔哩哔哩合集</a>
+        </div>
+        <div class="opensource-grid">
+          <article class="opensource-card featured">
+            <span>Video Collection</span>
+            <h3>WPF-VisionMaster 使用与开发视频</h3>
+            <p>合集包含 WPF-VisionMaster 的功能演示、流程搭建、视觉算法、节点使用与版本更新等视频内容，可作为入门、部署和二次开发的补充资料。</p>
+            <div class="project-actions">
+              <a class="project-link buy" href="https://space.bilibili.com/370266611/lists/7430204?type=season" target="_blank" rel="noopener">观看视频合集</a>
+            </div>
+          </article>
+          <article class="opensource-card">
+            <h3>配合文档学习</h3>
+            <p>建议先通过视频了解完整操作流程，再结合在线开发文档查看模块配置、节点参数和二次开发说明。</p>
+            <a class="project-link" href="https://hebiangu.github.io/WPF-VisionMaster-Doc/" target="_blank" rel="noopener">阅读在线文档</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="quickstart" class="section muted">
+      <div class="container split-layout">
+        <div><span class="section-label">Quick Start</span><h2>快速开始</h2></div>
+        <div>
+          <p>开发环境需要 Windows 10/11、Visual Studio 2022（或更高版本）、.NET 8 SDK 及 WPF 桌面开发工作负载。</p>
+          <ol>
+            <li>克隆项目并还原 NuGet 包。</li>
+            <li>使用 Visual Studio 打开解决方案，或执行 <code>dotnet build</code>。</li>
+            <li>将 <code>H.App.VisionMaster</code> 设置为启动项目，或执行 <code>dotnet run --project Source/Apps/H.App.VisionMaster/H.App.VisionMaster.csproj</code>。</li>
+            <li>创建或打开视觉项目，在流程资源面板中添加数据源、处理节点并连接执行。</li>
+          </ol>
+          <div class="hero-actions">
+            <a class="button primary" href="visionmaster-license.html">查看许可与发行说明</a>
+            <a class="button secondary" href="https://hebiangu.github.io/WPF-VisionMaster-Doc/" target="_blank" rel="noopener">阅读开发文档</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container split-layout">
+        <div>
+          <span class="section-label">Contact</span>
+          <h2>作者与联系</h2>
+        </div>
+        <div>
+          <p>WPF VisionMaster 由 HeBianGu 开发和维护。如需技术交流、项目合作或商业授权，请通过以下官方渠道联系。</p>
+          <div class="hero-actions">
+            <a class="button primary" href="https://github.com/HeBianGu/WPF-VisionMaster" target="_blank" rel="noopener">GitHub 项目仓库</a>
+            <a class="button secondary" href="https://hebiangu.github.io/WPF-VisionMaster-Doc/" target="_blank" rel="noopener">在线开发文档</a>
+            <a class="button secondary" href="https://space.bilibili.com/370266611" target="_blank" rel="noopener">哔哩哔哩</a>
+          </div>
+          <p><strong>作者：</strong>HeBianGu　<strong>QQ：</strong>908293466　<strong>交流群：</strong>971261058</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025-2026 HeBianGu. All Rights Reserved. · WPF-VisionMaster</p>
+      <p>作者：HeBianGu · QQ：908293466 · 交流群：971261058</p>
+    </div>
+  </footer>
+</body>
+</html>

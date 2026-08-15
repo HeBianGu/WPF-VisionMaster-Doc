@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
@@ -76,7 +75,7 @@
 <body>
   <header class="site-header">
     <div class="container nav-bar">
-      <a class="brand" href="visionmaster.html">WPF-VisionMaster</a>
+      <a class="brand" href="index.html">WPF-VisionMaster</a>
       <nav aria-label="主导航">
         <ul>
           <li><a href="#about">项目介绍</a></li>
@@ -165,8 +164,10 @@
             <li>目标框架：net8.0-windows</li>
             <li>桌面 UI：WPF</li>
             <li>图像处理：OpenCvSharp4</li>
-            <li>推理能力：ONNX 节点</li>
-            <li>当前版本：5.0.0-preview.1.20260720</li>
+            <li>推理能力：ONNX / YOLO 节点</li>
+            <li>插件模块：19 个</li>
+            <li>流程模块：300 个</li>
+            <li>当前版本：5.0.0</li>
           </ul>
         </div>
       </div>
@@ -187,12 +188,12 @@
         <span class="section-label">Capabilities</span>
         <h2>核心能力</h2>
         <div class="feature-grid">
-          <article class="feature-card"><h3>可视化流程编排</h3><p>以流程图组织图像、视频、相机、OpenCV、ONNX、通信和检测记录节点，便于搭建与验证视觉处理链路。</p></article>
-          <article class="feature-card"><h3>图像处理与推理</h3><p>集成 OpenCV 图像处理、模板匹配、图像矫正和 ONNX 推理能力，可扩展目标检测、分类与语义分割场景。</p></article>
-          <article class="feature-card"><h3>工业相机与数据源</h3><p>支持本地图像、图像文件夹、本地视频、示例数据集和海康工业相机等数据源。</p></article>
-          <article class="feature-card"><h3>工程化应用能力</h3><p>提供项目管理、身份认证、角色权限、检测记录、主题设置、日志和通用桌面端组件。</p></article>
-          <article class="feature-card"><h3>模块化架构</h3><p>按 H.Controls、H.Extensions、H.Modules、H.Services 与 H.VisionMaster 分层，支持按需复用与二次开发。</p></article>
-          <article class="feature-card"><h3>数据持久化</h3><p>使用 Entity Framework Core 8 支持 SQLite 与 SQL Server 相关模块，项目数据可使用 JSON 序列化保存。</p></article>
+          <article class="feature-card"><h3>插件化流程编排</h3><p>将大部分视觉功能拆分为独立插件，当前提供 19 个插件模块、20 个功能分组和 300 个流程模块。</p></article>
+          <article class="feature-card"><h3>图像处理与智能推理</h3><p>集成 OpenCV、Halcon 示例、ONNX 和基于 YoloSharp 的分类、检测、旋转框、姿态与分割能力。</p></article>
+          <article class="feature-card"><h3>统一设备管理</h3><p>支持全局相机资源、通信设备和触发机制的统一配置、共享与调用，并提供相机 IO 输出节点。</p></article>
+          <article class="feature-card"><h3>标定、识别与运算</h3><p>提供 N 点与 N 图像标定、相机标定、坐标转换、二维码/一维码/PaddleOCR 识别和变量运算能力。</p></article>
+          <article class="feature-card"><h3>持续运行与交互</h3><p>支持流程连续执行、图像切换后自动运行、局部变量、参数表达式预览和图像像素信息查看。</p></article>
+          <article class="feature-card"><h3>工程化应用能力</h3><p>提供插件管理、主页、性能监控、消息日志、项目管理、身份权限、检测记录、主题与帮助信息。</p></article>
         </div>
       </div>
     </section>
@@ -222,6 +223,10 @@
           <article class="feature-card">
             <h3>4.0 · 工程化部署</h3>
             <p>完善缺陷检测记录、运行模式、串口/TCP/UDP/HTTP 通信、身份认证、前景矫正和模板匹配；4.0.1 新增相机 IO 输出。</p>
+          </article>
+          <article class="feature-card">
+            <h3>5.0 · 插件化平台</h3>
+            <p>重构算子加载和设备管理机制，新增插件管理、全局触发、连续运行、YOLO、标定、识别、运算、颜色处理与系统监控能力。</p>
           </article>
         </div>
       </div>

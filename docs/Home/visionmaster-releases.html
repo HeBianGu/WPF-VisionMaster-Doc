@@ -36,7 +36,7 @@
     <section class="hero">
       <div class="container hero-grid">
         <div class="hero-content"><span class="eyebrow">Release History</span><h1>版本历史更新</h1><p>记录 WPF-VisionMaster 从 OpenCV 核心视觉能力到流程编排、测量、相机、通信与缺陷检测能力的发展历程。</p></div>
-        <div class="hero-card"><strong>版本时间线</strong><ul><li>1.0：核心视觉与工程管理</li><li>2.0：ONNX 与通信节点</li><li>3.0：测量、相机与表达式</li><li>4.0：缺陷检测与运行模式</li><li>4.0.1：相机 IO 输出</li></ul></div>
+        <div class="hero-card"><strong>版本时间线</strong><ul><li>1.0：核心视觉与工程管理</li><li>2.0：ONNX 与通信节点</li><li>3.0：测量、相机与表达式</li><li>4.0：缺陷检测与运行模式</li><li>5.0：插件化算子与设备管理</li></ul></div>
       </div>
     </section>
 
@@ -44,6 +44,18 @@
       <div class="container">
         <span class="section-label">Changelog</span><h2>发行说明</h2>
         <div class="release-list">
+          <article id="v5" class="release-card">
+            <span class="release-tag">5.0.0</span>
+            <h3>插件化算子架构与统一设备管理</h3>
+            <p>本版本围绕插件化算子架构、设备统一管理、流程运行增强、视觉工具扩展和交互体验优化进行升级。</p>
+            <h4>插件与功能规模</h4>
+            <ul><li>重构流程算子加载机制，大部分视觉能力以独立插件方式加载和扩展。</li><li>新增插件管理、OpenCV 与 Halcon 插件示例。</li><li>当前提供 19 个插件模块、20 个功能分组和 300 个流程模块。</li></ul>
+            <h4>主页、设备与流程运行</h4>
+            <ul><li>新增主页、通信管理、全局相机管理、全局触发、性能监控和消息日志。</li><li>支持流程连续执行、图像切换后自动执行、流程局部变量以及更稳定的运行全部与停止全部逻辑。</li><li>参数表达式支持直接输入、编辑、参数值预览及 Point.X、Rect.中点等对象属性设置。</li><li>支持在结果图像上叠加显示文本，并在编辑页面中提供分组设置。</li></ul>
+            <h4>新增与增强算子</h4>
+            <ul><li>新增通信、YOLO、标定、相机标定、二维码/一维码/PaddleOCR 识别、形状匹配、运算和颜色处理模块。</li><li>YOLO 模块支持分类、目标检测、旋转框检测、姿态评估、图像分割及 YOLO26 ONNX 推理。</li></ul>
+          </article>
+
           <article id="v4" class="release-card">
             <span class="release-tag">4.0.1</span>
             <h3>相机 IO 输出</h3>

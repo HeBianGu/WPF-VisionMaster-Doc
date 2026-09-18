@@ -23,6 +23,7 @@
       <a class="brand" href="index.html">WPF-VisionMaster</a>
       <nav aria-label="主导航"><ul>
         <li><a href="index.html">项目首页</a></li>
+        <li><a href="#v5">5.0</a></li>
         <li><a href="#v4">4.0</a></li>
         <li><a href="#v3">3.0</a></li>
         <li><a href="#v2">2.0</a></li>
@@ -35,8 +36,8 @@
   <main>
     <section class="hero">
       <div class="container hero-grid">
-        <div class="hero-content"><span class="eyebrow">Release History</span><h1>版本历史更新</h1><p>记录 WPF-VisionMaster 从 OpenCV 核心视觉能力到流程编排、测量、相机、通信与缺陷检测能力的发展历程。</p></div>
-        <div class="hero-card"><strong>版本时间线</strong><ul><li>1.0：核心视觉与工程管理</li><li>2.0：ONNX 与通信节点</li><li>3.0：测量、相机与表达式</li><li>4.0：缺陷检测与运行模式</li><li>4.0.1：相机 IO 输出</li></ul></div>
+        <div class="hero-content"><span class="eyebrow">Release History</span><h1>版本历史更新</h1><p>记录 WPF-VisionMaster 从 OpenCV 核心视觉能力到流程编排、测量、设备通信、缺陷检测与插件化算子平台的发展历程。</p></div>
+        <div class="hero-card"><strong>版本时间线</strong><ul><li>1.0：核心视觉与工程管理</li><li>2.0：ONNX 与通信节点</li><li>3.0：测量、相机与表达式</li><li>4.0：缺陷检测与运行模式</li><li>4.0.1：相机 IO 输出</li><li>5.0：插件化架构与场景扩展</li></ul></div>
       </div>
     </section>
 
@@ -44,6 +45,50 @@
       <div class="container">
         <span class="section-label">Changelog</span><h2>发行说明</h2>
         <div class="release-list">
+          <article id="v5" class="release-card">
+            <span class="release-tag">5.0.0</span>
+            <h3>插件化算子架构、设备管理与流程运行升级</h3>
+            <p>本版本围绕插件化算子架构、设备管理、流程运行增强、视觉工具扩展和交互体验优化五个方向进行升级，进一步提升平台的扩展能力、工程化能力与使用体验。</p>
+            <h4>插件化架构升级</h4>
+            <ul>
+              <li>重构流程算子加载机制，将大部分视觉功能拆分为独立插件，支持按模块加载和扩展。</li>
+              <li>新增插件管理功能，统一展示和管理已安装的算子插件。</li>
+              <li>新增 OpenCV 与 Halcon 插件示例，为自定义视觉算法和第三方算法接入提供参考。</li>
+              <li>当前内置 19 个插件模块、20 个功能分组，共计 222 个流程模块。</li>
+              <li>模块及算子设计主要参考 VisionMaster，部分算子由 AI 辅助生成，后续版本将持续优化实现方式、参数定义和处理逻辑。</li>
+            </ul>
+            <h4>主页与设备管理升级</h4>
+            <ul>
+              <li>新增主页，集中提供工程入口、设备管理、帮助信息和常用功能。</li>
+              <li>新增通信管理，统一维护流程使用的通信设备及连接配置。</li>
+              <li>重构相机管理并采用全局相机模式，实现相机资源统一配置、共享与调用。</li>
+              <li>新增全局触发机制、电脑性能监控，并增强消息日志功能。</li>
+            </ul>
+            <h4>流程运行与交互增强</h4>
+            <ul>
+              <li>新增流程连续执行模式；切换图像后可自动执行流程。</li>
+              <li>优化自动切换、运行全部和停止全部逻辑，提升多流程运行的稳定性与一致性。</li>
+              <li>流程图列头支持下拉切换当前流程，并新增流程局部变量。</li>
+              <li>参数表达式支持直接输入参数值、编辑表达式、预览参数值及设置结果对象属性。</li>
+              <li>增强图像交互，可显示鼠标位置和像素信息；结果图像支持叠加文本并按分组管理显示参数。</li>
+            </ul>
+            <h4>新增与增强算子模块</h4>
+            <ul>
+              <li>通信：接收数据、发送数据、协议解析、协议组装和相机 IO 输出。</li>
+              <li>YOLO：目标检测、旋转框检测、姿态评估和图像分割，并基于 YoloSharp 6.0.7 提供分类。</li>
+              <li>标定：N 点标定、平移旋转标定、位置修正、标定文件加载、棋盘标定板、圆形标定板和畸变校正。</li>
+              <li>识别与定位：二维码识别、条形码识别、字符识别、灰度匹配、Blob 分析和位置修正。</li>
+              <li>运算与颜色：单点抓取、单点修正、变量计算、旋转计算、坐标变换、单位转换、点集对齐、颜色识别、颜色测量和颜色分割。</li>
+              <li>新增基础、几何和环境等光源模拟模块。</li>
+            </ul>
+            <h4>功能规模与帮助信息</h4>
+            <ul>
+              <li>覆盖采集、定位、测量、识别、缺陷检测、标定、运算、颜色处理、图像处理、逻辑工具、通信、ONNX 和 YOLO 等 20 个功能分组。</li>
+              <li>新增发行历史说明页和第三方依赖项页面，完善许可、发行说明与插件信息展示。</li>
+            </ul>
+            <div class="release-links"><a class="button secondary" href="https://blog.csdn.net/u010975589/article/details/165879297" target="_blank" rel="noopener">5.0 详细说明</a><a class="button secondary" href="https://www.bilibili.com/video/BV1RzeF6LEJy" target="_blank" rel="noopener">5.0 视频介绍</a></div>
+          </article>
+
           <article id="v4" class="release-card">
             <span class="release-tag">4.0.1</span>
             <h3>相机 IO 输出</h3>
